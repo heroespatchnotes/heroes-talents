@@ -1,0 +1,208 @@
+{
+  "id": "40",
+  "shortName": "kharazim",
+  "name": "Kharazim",
+  "role": "Support",
+  "type": "Melee",
+  "releaseDate": "2015-08-18",
+  "abilities": {
+    "Kharazim": [
+      {
+        "name": "Radiant Dash",
+        "description": "Jump to an allied or enemy unit. Enemies are immediately hit with a Basic Attack. Stores 2 charges.",
+        "hotkey": "Q",
+        "abilityId": "Kharazim|Q1",
+        "cooldown": 12,
+        "manaCost": "30"
+      },
+      {
+        "name": "Breath of Heaven",
+        "description": "Heal nearby Heroes for 290 (+4% per level) and give them 15% Movement Speed for 3 seconds.",
+        "hotkey": "W",
+        "abilityId": "Kharazim|W1",
+        "cooldown": 8,
+        "manaCost": "60"
+      },
+      {
+        "name": "Deadly Reach",
+        "description": "Your next Basic Attack increases your Attack Speed and Attack Range by 100% for 2 seconds.",
+        "hotkey": "E",
+        "abilityId": "Kharazim|E1",
+        "cooldown": 10,
+        "manaCost": "50"
+      },
+      {
+        "name": "Seven-Sided Strike",
+        "description": "Become Invulnerable and strike 7 times over 2 seconds. Each strike hits the highest Health nearby Hero for 7% of their maximum Health.",
+        "hotkey": "R",
+        "abilityId": "Kharazim|R1",
+        "cooldown": 50,
+        "manaCost": "77"
+      },
+      {
+        "name": "Divine Palm",
+        "description": "Protect an allied Hero from death, causing them to be healed for 1141 (+4% per level) if they take fatal damage in the next 3 seconds.",
+        "hotkey": "R",
+        "abilityId": "Kharazim|R2",
+        "cooldown": 60,
+        "manaCost": "50"
+      },
+      {
+        "name": "Transcendence",
+        "description": "Every 3rd Basic Attack heals the lowest nearby allied Hero for 73 (+4% per level).",
+        "trait": true,
+        "abilityId": "Kharazim|D1"
+      },
+      {
+        "name": "Insight",
+        "description": "Quest: Every 3rd Basic Attack restores 14 (+4% per level) Mana and grants a stack of Insight.  Reward: Upon getting 100 stacks of Insight, every 3rd attack also reduces the cooldown of all of Kharazim's Basic Abilities by 1 second.",
+        "trait": true,
+        "abilityId": "Kharazim|D2"
+      },
+      {
+        "name": "Iron Fists",
+        "description": "Every 3rd Basic Attack deals 110% bonus damage and gives 30% increased Move Speed for 2 seconds.",
+        "trait": true,
+        "abilityId": "Kharazim|D3"
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Insight",
+        "description": "Quest: Every 3rd Basic Attack restores 14 (+4% per level) Mana and grants a stack of Insight.  Reward: Upon getting 100 stacks of Insight, every 3rd attack also reduces the cooldown of all of Kharazim's Basic Abilities by 1 second.",
+        "abilityId": "Kharazim|D2"
+      },
+      {
+        "name": "Iron Fists",
+        "description": "Every 3rd Basic Attack deals 110% bonus damage and gives 30% increased Move Speed for 2 seconds.",
+        "abilityId": "Kharazim|D3"
+      },
+      {
+        "name": "Transcendence",
+        "description": "Every 3rd Basic Attack heals the lowest nearby allied Hero for 73 (+4% per level).",
+        "abilityId": "Kharazim|D1"
+      }
+    ],
+    "4": [
+      {
+        "name": "Air Ally",
+        "description": "Place an Air Ally that grants vision and reveals a large area around it. Has 75 Health and lasts 40 seconds. Kharazim can Radiant Dash to Air Allies. Stores up to 2 charges.",
+        "abilityId": "Kharazim|Active",
+        "cooldown": 20
+      },
+      {
+        "name": "Earth Ally",
+        "description": "Place an Earth Ally that grants nearby allied Heroes 50 Physical Armor against Heroic Basic Attacks, reducing damage taken by 50%. Has 400 Health and lasts 10 seconds.  Kharazim can Radiant Dash to Earth Allies.",
+        "abilityId": "Kharazim|Active",
+        "cooldown": 45
+      },
+      {
+        "name": "Spirit Ally",
+        "description": "Place a Spirit Ally that heals allies in a large area around it for 2% of their maximum Health every second. Has 150 Health and lasts 10 seconds. Kharazim can Radiant Dash to Spirit Allies.",
+        "abilityId": "Kharazim|Active",
+        "cooldown": 45
+      }
+    ],
+    "7": [
+      {
+        "name": "Blazing Fists",
+        "description": "Every 3rd Basic Attack reduces the cooldown of Deadly Reach by 0.75 seconds.",
+        "abilityId": "Kharazim|E1"
+      },
+      {
+        "name": "Blinding Speed",
+        "description": "Decreases Radiant Dash's cooldown by 2 seconds and increases the maximum number of charges by 1.",
+        "abilityId": "Kharazim|Q1"
+      },
+      {
+        "name": "Heavenly Zeal",
+        "description": "Increases Breath of Heaven's Movement Speed bonus to 30%.",
+        "abilityId": "Kharazim|W1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Divine Palm",
+        "description": "Protect an allied Hero from death, causing them to be healed for 1141 (+4% per level) if they take fatal damage in the next 3 seconds.",
+        "abilityId": "Kharazim|R2",
+        "cooldown": 60
+      },
+      {
+        "name": "Seven-Sided Strike",
+        "description": "Become Invulnerable and strike 7 times over 2 seconds. Each strike hits the highest Health nearby Hero for 7% of their maximum Health.",
+        "abilityId": "Kharazim|R1",
+        "cooldown": 50
+      }
+    ],
+    "13": [
+      {
+        "name": "Fists of Fury",
+        "description": "Increases Deadly Reach's duration by 100%.",
+        "abilityId": "Kharazim|E1"
+      },
+      {
+        "name": "Quicksilver",
+        "description": "Radiant Dashing to an ally gives Kharazim and the target 30% bonus Movement Speed for 3 seconds.",
+        "abilityId": "Kharazim|Q1"
+      },
+      {
+        "name": "Sixth Sense",
+        "description": "While Stunned or Rooted, gain 75 Physical Armor against Hero Basic Attacks for 4 seconds, reducing their damage by 75%.",
+        "abilityId": "Kharazim|Passive"
+      },
+      {
+        "name": "Spell Shield",
+        "description": "Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically.",
+        "abilityId": "Kharazim|Passive"
+      }
+    ],
+    "16": [
+      {
+        "name": "Cleansing Touch",
+        "description": "Radiant Dashing to an ally makes them Unstoppable for 1 second.",
+        "abilityId": "Kharazim|Q1"
+      },
+      {
+        "name": "Dash of Light",
+        "description": "Radiant Dashing to an ally increases the healing they receive from Breath of Heaven by 50% for 3 seconds.",
+        "abilityId": "Kharazim|Q1"
+      },
+      {
+        "name": "Echo of Heaven",
+        "description": "Breath of Heaven heals 75% of its normal amount, but heals a second time 3 seconds later.",
+        "abilityId": "Kharazim|W1"
+      },
+      {
+        "name": "Way of the Hundred Fists",
+        "description": "Radiant Dashing to an enemy launches a rapid volley of 6 Basic Attacks dealing 50% damage each.",
+        "abilityId": "Kharazim|Q1"
+      }
+    ],
+    "20": [
+      {
+        "name": "Epiphany",
+        "description": "Activate to restore 33% of Kharazim's maximum Mana and refill 2 charges of Radiant Dash.",
+        "abilityId": "Kharazim|Active",
+        "cooldown": 60
+      },
+      {
+        "name": "Peaceful Repose",
+        "description": "Divine Palm's cooldown is set to 5 seconds if the Hero does not die.",
+        "abilityId": "Kharazim|R2"
+      },
+      {
+        "name": "Storm Shield",
+        "description": "Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.",
+        "abilityId": "Kharazim|Active",
+        "cooldown": 45
+      },
+      {
+        "name": "Transgression",
+        "description": "Seven-Sided Strike hits 4 additional times.",
+        "abilityId": "Kharazim|R1"
+      }
+    ]
+  }
+}

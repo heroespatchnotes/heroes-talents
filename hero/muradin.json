@@ -1,0 +1,210 @@
+{
+  "id": "10",
+  "shortName": "muradin",
+  "name": "Muradin",
+  "role": "Warrior",
+  "type": "Melee",
+  "releaseDate": "2014-03-13",
+  "abilities": {
+    "Muradin": [
+      {
+        "name": "Storm Bolt",
+        "description": "Throw a hammer, dealing 110 (+4% per level) damage to the first enemy hit and stunning it for 1.25 seconds.",
+        "hotkey": "Q",
+        "abilityId": "Muradin|Q1",
+        "cooldown": 10,
+        "manaCost": "60"
+      },
+      {
+        "name": "Thunder Clap",
+        "description": "Deals 96 (+4% per level) damage and slows enemies Movement and Attack Speed by 25% for 2.5 seconds.",
+        "hotkey": "W",
+        "abilityId": "Muradin|W1",
+        "cooldown": 8,
+        "manaCost": "50"
+      },
+      {
+        "name": "Dwarf Toss",
+        "description": "Leap to target location, dealing 59 (+4% per level) damage to enemies on landing. Upon leaping, gain 25 Armor for 2 seconds, reducing damage taken by 25%.",
+        "hotkey": "E",
+        "abilityId": "Muradin|E1",
+        "cooldown": 10,
+        "manaCost": "55"
+      },
+      {
+        "name": "Avatar",
+        "description": "Transform for 20 seconds, gaining 1124 (+4% per level) Health.",
+        "hotkey": "R",
+        "abilityId": "Muradin|R1",
+        "cooldown": 90,
+        "manaCost": "100"
+      },
+      {
+        "name": "Haymaker",
+        "description": "Stun target enemy Hero, and wind up a punch dealing 319 (+4% per level) damage and knocking the target back, hitting enemies in the way for 319 (+4% per level) damage and knocking them aside.",
+        "hotkey": "R",
+        "abilityId": "Muradin|R2",
+        "cooldown": 40,
+        "manaCost": "80"
+      },
+      {
+        "name": "Second Wind",
+        "description": "Restore 51 (+4% per level) Health per second when you have not taken damage for 4 seconds. When below 40% Health, increased to 102 (+4% per level) Health per second.",
+        "trait": true,
+        "abilityId": "Muradin|D1"
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Block",
+        "description": "Every 5 seconds, gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%. Stores up to 2 charges.",
+        "abilityId": "Muradin|Passive"
+      },
+      {
+        "name": "Perfect Storm",
+        "description": "Reduces Storm Bolt's Mana cost by 25%. Quest: Every time Storm Bolt hits a Hero, increase its damage by 5.",
+        "abilityId": "Muradin|Q1"
+      },
+      {
+        "name": "Third Wind",
+        "description": "Increases Health Restoration rate to 80 (+4% per level) per second, and raises Health threshold to 60% Health for improved 159 (+4% per level) per second Restoration.",
+        "abilityId": "Muradin|D1"
+      }
+    ],
+    "4": [
+      {
+        "name": "Crowd Control",
+        "description": "Each enemy hit by Thunder Clap reduces its cooldown by 0.75 seconds and restores 5 Mana, to a maximum of 9 targets.",
+        "abilityId": "Muradin|W1"
+      },
+      {
+        "name": "Reverberation",
+        "description": "Increases the Attack Speed slow from 25% to 50% and the duration from 2.5 seconds to 3 seconds.",
+        "abilityId": "Muradin|W1"
+      },
+      {
+        "name": "Sledgehammer",
+        "description": "Deals 400% damage to non-Heroic enemies. Destroys 4 ammo from Structures.",
+        "abilityId": "Muradin|Q1"
+      },
+      {
+        "name": "Thunder Burn",
+        "description": "Thunder Clap leaves a zone on the ground that explodes after 2 seconds dealing 48 (+4% per level) damage and applying a 25% slow for 2.5 seconds.",
+        "abilityId": "Muradin|W1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Iron-forged Momentum",
+        "description": "Basic Attacks reduce the cooldown of Storm Bolt and Thunderclap by 0.75 seconds.",
+        "abilityId": "Muradin|Passive"
+      },
+      {
+        "name": "Landing Momentum",
+        "description": "Increases your Movement Speed by 25% for 5 seconds upon landing with Dwarf Toss.",
+        "abilityId": "Muradin|E1"
+      },
+      {
+        "name": "Piercing Bolt",
+        "description": "Penetrates through the first target hit, hitting 1 additional target.",
+        "abilityId": "Muradin|Q1"
+      },
+      {
+        "name": "Skullcracker",
+        "description": "Increases your Basic Attack Speed by 25%.  Every 3rd Basic Attack against the same target will stun them for 0.25 seconds.",
+        "abilityId": "Muradin|Passive"
+      }
+    ],
+    "10": [
+      {
+        "name": "Avatar",
+        "description": "Transform for 20 seconds, gaining 1053 (+4% per level) Health.",
+        "abilityId": "Muradin|R1",
+        "cooldown": 90
+      },
+      {
+        "name": "Haymaker",
+        "description": "Stun target enemy Hero, and wind up a punch dealing 319 (+4% per level) damage and knocking the target back, hitting enemies in the way for 319 (+4% per level) damage and knocking them aside.",
+        "abilityId": "Muradin|R2",
+        "cooldown": 40
+      }
+    ],
+    "13": [
+      {
+        "name": "Burning Rage",
+        "description": "Deal 23 (+4% per level) damage per second to nearby enemies.",
+        "abilityId": "Muradin|Passive"
+      },
+      {
+        "name": "Healing Static",
+        "description": "Heal for 5% of your Max Health for each Hero hit by Thunder Clap.",
+        "abilityId": "Muradin|W1"
+      },
+      {
+        "name": "Spell Shield",
+        "description": "Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically.",
+        "abilityId": "Muradin|Passive"
+      },
+      {
+        "name": "Thunder Strike",
+        "description": "Thunder Clap deals 300% damage if only one target is hit.",
+        "abilityId": "Muradin|W1"
+      }
+    ],
+    "16": [
+      {
+        "name": "Dwarf Launch",
+        "description": "Increases the range and impact radius of Dwarf Toss by 50%.",
+        "abilityId": "Muradin|E1"
+      },
+      {
+        "name": "Give 'em the Axe!",
+        "description": "Attacking a Hero that is slowed, rooted, or stunned increases your Basic Attack damage by 60% for 3 seconds.",
+        "abilityId": "Muradin|Passive"
+      },
+      {
+        "name": "Heavy Impact",
+        "description": "Enemies hit by Dwarf Toss are stunned for 0.5 seconds.",
+        "abilityId": "Muradin|E1"
+      },
+      {
+        "name": "Imposing Presence",
+        "description": "Activate to slow the Attack Speed by 50% and Movement Speed by 20% of nearby Heroes and Summons for 2.5 seconds. Passive: Heroes and Summons that attack your Hero have their Attack Speed slowed by 20% for 2.5 seconds.",
+        "abilityId": "Muradin|Active",
+        "cooldown": 20
+      },
+      {
+        "name": "Stoneform",
+        "description": "Activate to heal for 40% of your maximum Health over 10 seconds. Second Wind is disabled during this time.",
+        "abilityId": "Muradin|D1",
+        "cooldown": 60
+      }
+    ],
+    "20": [
+      {
+        "name": "Grand Slam",
+        "description": "Damage of Haymaker increased by 25%, Mana cost lowered by 40, and can store 2 charges.",
+        "abilityId": "Muradin|R2"
+      },
+      {
+        "name": "Hardened Shield",
+        "description": "Activate to gain 75 Armor for 4 seconds, taking 75% less damage.",
+        "abilityId": "Muradin|Active",
+        "cooldown": 60
+      },
+      {
+        "name": "Rewind",
+        "description": "Activate to reset the cooldowns of your Basic Abilities.",
+        "abilityId": "Muradin|Active",
+        "cooldown": 60
+      },
+      {
+        "name": "Unstoppable Force",
+        "description": "Increases the duration of Avatar by 30%, and the duration of Stuns, Roots, and Slows are reduced by 75% while in Avatar.",
+        "abilityId": "Muradin|R1"
+      }
+    ]
+  }
+}

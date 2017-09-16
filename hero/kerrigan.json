@@ -1,0 +1,191 @@
+{
+  "id": "8",
+  "shortName": "kerrigan",
+  "name": "Kerrigan",
+  "role": "Assassin",
+  "type": "Melee",
+  "releaseDate": "2014-03-13",
+  "abilities": {
+    "Kerrigan": [
+      {
+        "name": "Ravage",
+        "description": "Leap to a target, dealing 210 (+4% per level) damage. If the enemy dies within 1.5 seconds, this cooldown is instantly reset.",
+        "hotkey": "Q",
+        "abilityId": "Kerrigan|Q1",
+        "cooldown": 8,
+        "manaCost": "40"
+      },
+      {
+        "name": "Impaling Blades",
+        "description": "After 1.25 seconds, deal 261 (+4% per level) damage to enemies within the target area, stunning them for 1 second.",
+        "hotkey": "W",
+        "abilityId": "Kerrigan|W1",
+        "cooldown": 12,
+        "manaCost": "75"
+      },
+      {
+        "name": "Primal Grasp",
+        "description": "Pulls enemies within the target area towards you, dealing 114 (+4% per level) damage.",
+        "hotkey": "E",
+        "abilityId": "Kerrigan|E1",
+        "cooldown": 10,
+        "manaCost": "60"
+      },
+      {
+        "name": "Summon Ultralisk",
+        "description": "Summon an Ultralisk that attacks the target to deal 100 (+4% per level) damage. Attacks splash to nearby enemies for 50% damage. Can reactivate the Ability to retarget the Ultralisk. Lasts for 20 seconds.",
+        "hotkey": "R",
+        "abilityId": "Kerrigan|R1",
+        "cooldown": 80,
+        "manaCost": "100"
+      },
+      {
+        "name": "Maelstrom",
+        "description": "Deals 74 (+4% per level) damage per second to nearby enemies. Lasts for 7 seconds.",
+        "hotkey": "R",
+        "abilityId": "Kerrigan|R2",
+        "cooldown": 90,
+        "manaCost": "100"
+      },
+      {
+        "name": "Assimilation",
+        "description": "Gain 10% of damage dealt from Basic Attacks and Abilities as Shields for 6 seconds. Shield amount gained doubled against Heroes.  Current maximum: 1004 (+4% per level)",
+        "trait": true,
+        "abilityId": "Kerrigan|D1"
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Block",
+        "description": "Every 5 seconds, gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%. Stores up to 2 charges.",
+        "abilityId": "Kerrigan|Passive"
+      },
+      {
+        "name": "Sharpened Blades",
+        "description": "Impaling Blades deals 25% more damage.",
+        "abilityId": "Kerrigan|W1"
+      },
+      {
+        "name": "Siphoning Impact",
+        "description": "If the targeted enemy dies within 1.5 seconds, Kerrigan heals for 10% of her maximum Health.",
+        "abilityId": "Kerrigan|Q1"
+      }
+    ],
+    "4": [
+      {
+        "name": "Clean Kill",
+        "description": "If Ravage kills the target, it restores 75% of its Mana cost and increases the damage of your next Ravage by 25%.",
+        "abilityId": "Kerrigan|Q1"
+      },
+      {
+        "name": "Envenom",
+        "description": "Activate to poison an enemy Hero, dealing 352 (+4% per level) damage over 10 seconds.",
+        "abilityId": "Kerrigan|Active",
+        "cooldown": 60
+      },
+      {
+        "name": "Fury of the Swarm",
+        "description": "Your Basic Attacks splash for 60% damage around the target.",
+        "abilityId": "Kerrigan|Passive"
+      },
+      {
+        "name": "Psionic Pulse",
+        "description": "After casting Primal Grasp, deal 36 (+4% per level) damage per second to nearby enemies. Lasts 5 seconds.",
+        "abilityId": "Kerrigan|E1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Assimilation Mastery",
+        "description": "Increases the duration of Assimilation by 100%. While Assimilation is active, your Health and Mana regeneration is increased by 100%.",
+        "abilityId": "Kerrigan|D1"
+      },
+      {
+        "name": "Blade Torrent",
+        "description": "Increases Impaling Blades' radius by 30%.",
+        "abilityId": "Kerrigan|W1"
+      },
+      {
+        "name": "Bladed Momentum",
+        "description": "Basic Attacks reduce your Basic Ability cooldowns by 0.6 seconds.",
+        "abilityId": "Kerrigan|Passive"
+      }
+    ],
+    "10": [
+      {
+        "name": "Maelstrom",
+        "description": "Deals 74 (+4% per level) damage per second to nearby enemies. Lasts for 7 seconds.",
+        "abilityId": "Kerrigan|R2",
+        "cooldown": 90
+      },
+      {
+        "name": "Summon Ultralisk",
+        "description": "Summon an Ultralisk that attacks the target to deal 100 (+4% per level) damage. Attacks splash to nearby enemies for 50% damage. Can reactivate the Ability to retarget the Ultralisk. Lasts for 20 seconds.",
+        "abilityId": "Kerrigan|R1",
+        "cooldown": 80
+      }
+    ],
+    "13": [
+      {
+        "name": "Double Strike",
+        "description": "When your Basic Abilities damage an enemy, your next Basic Attack hits for 75% bonus damage.",
+        "abilityId": "Kerrigan|Passive"
+      },
+      {
+        "name": "Eviscerate",
+        "description": "Increases Ravage's range by 40%.",
+        "abilityId": "Kerrigan|Q1"
+      },
+      {
+        "name": "Queen's Rush",
+        "description": "Activate to increase your Movement Speed by 30% for 4 seconds. Queen's Rush is also applied for free on Takedowns.",
+        "abilityId": "Kerrigan|Active",
+        "cooldown": 50
+      }
+    ],
+    "16": [
+      {
+        "name": "Aggressive Defense",
+        "description": "Increases base Shield amount gained from Assimilation by 100%.",
+        "abilityId": "Kerrigan|D1"
+      },
+      {
+        "name": "Essence for Essence",
+        "description": "Activate to deal 10% of target enemy Hero's Max Health and gain Assimilation Shields for twice that amount.",
+        "abilityId": "Kerrigan|Active",
+        "cooldown": 60
+      },
+      {
+        "name": "Overdrive",
+        "description": "Activate to increase Ability Power by 25% and Mana costs by 40% for 5 seconds.",
+        "abilityId": "Kerrigan|Active",
+        "cooldown": 25
+      }
+    ],
+    "20": [
+      {
+        "name": "Nexus Blades",
+        "description": "Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.",
+        "abilityId": "Kerrigan|Passive"
+      },
+      {
+        "name": "Omegastorm",
+        "description": "Maelstrom size increased by 25%. Amount of Assimilation Shields generated by Maelstrom increased by 100%.",
+        "abilityId": "Kerrigan|R2"
+      },
+      {
+        "name": "Psionic Shift",
+        "description": "Activate to teleport to a nearby location, dealing 50 (+4% per level) damage to nearby enemies. Generates 300% increased Assimilation Shields from the damage dealt.",
+        "abilityId": "Kerrigan|Active",
+        "cooldown": 70
+      },
+      {
+        "name": "Torrasque",
+        "description": "The Ultralisk morphs into an egg when it dies. If the egg isn't killed within 4 seconds, a new Ultralisk is born.",
+        "abilityId": "Kerrigan|R1"
+      }
+    ]
+  }
+}

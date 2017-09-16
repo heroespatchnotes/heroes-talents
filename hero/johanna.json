@@ -1,0 +1,198 @@
+{
+  "id": "37",
+  "shortName": "johanna",
+  "name": "Johanna",
+  "role": "Warrior",
+  "type": "Melee",
+  "releaseDate": "2015-06-02",
+  "abilities": {
+    "Johanna": [
+      {
+        "name": "Punish",
+        "description": "Step forward dealing 113 (+4% per level) damage and slowing enemies by 60% decaying over 2 seconds.",
+        "hotkey": "Q",
+        "abilityId": "Johanna|Q1",
+        "cooldown": 8,
+        "manaCost": "40"
+      },
+      {
+        "name": "Condemn",
+        "description": "After 1 second, you pull nearby enemies toward you, stunning them for 0.25 seconds and dealing 55 (+4% per level) damage. Deals 200% increased damage to Minions and Mercenaries.",
+        "hotkey": "W",
+        "abilityId": "Johanna|W1",
+        "cooldown": 10,
+        "manaCost": "50"
+      },
+      {
+        "name": "Shield Glare",
+        "description": "Deal 59 (+4% per level) damage to enemies and cause them to miss Basic Attacks for 1.5 seconds.",
+        "hotkey": "E",
+        "abilityId": "Johanna|E1",
+        "cooldown": 12,
+        "manaCost": "45"
+      },
+      {
+        "name": "Falling Sword",
+        "description": "Johanna leaps towards an area.  While in the air, she can steer the landing location by moving.  After 2 seconds Johanna lands, dealing 365 (+4% per level) damage to nearby enemies and knocking them into the air.",
+        "hotkey": "R",
+        "abilityId": "Johanna|R1",
+        "cooldown": 60,
+        "manaCost": "100"
+      },
+      {
+        "name": "Blessed Shield",
+        "description": "Deal 114 (+4% per level) damage and stun the first enemy hit for 1.5 seconds. Blessed Shield then bounces to 2 nearby enemies, dealing 57 (+4% per level) damage and stunning them for 0.75 seconds.",
+        "hotkey": "R",
+        "abilityId": "Johanna|R2",
+        "cooldown": 60,
+        "manaCost": "90"
+      },
+      {
+        "name": "Iron Skin",
+        "description": "Gain a Shield that absorbs 674 (+4% per level) damage for 4 seconds. While this Shield is active, you are Unstoppable.",
+        "hotkey": "D",
+        "trait": true,
+        "abilityId": "Johanna|D1",
+        "cooldown": 20,
+        "manaCost": "25"
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Regeneration Master",
+        "description": "Quest: Gathering a Regeneration Globe increases your Health Regeneration by 1 per second, up to 30.   Reward: After gathering 30 Regeneration Globes, you also gain 500 Health.",
+        "abilityId": "Johanna|Passive"
+      },
+      {
+        "name": "Reinforce",
+        "description": "Using a Basic Ability grants 50 Physical Armor against the next enemy Hero Basic Attack, reducing damage taken by 50%. Stores up to 2 charges.",
+        "abilityId": "Johanna|Passive"
+      },
+      {
+        "name": "Righteous Smash",
+        "description": "Punish restores 10 Mana per enemy hit.",
+        "abilityId": "Johanna|Q1"
+      }
+    ],
+    "4": [
+      {
+        "name": "Eternal Retaliation",
+        "description": "Condemn's cooldown is lowered by 0.75 seconds for each enemy affected. Maximum of 10 targets.",
+        "abilityId": "Johanna|W1"
+      },
+      {
+        "name": "Laws of Hope",
+        "description": "Activate to heal 20% of Johanna's max Health over 4 seconds. Passive: Regenerate 10 Health per second.",
+        "abilityId": "Johanna|Active",
+        "cooldown": 60
+      },
+      {
+        "name": "Roar",
+        "description": "Increases Punish damage by 50%.",
+        "abilityId": "Johanna|Q1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Blessed Momentum",
+        "description": "Basic Attacks reduce Johanna's Basic Ability cooldowns by 0.5 seconds.",
+        "abilityId": "Johanna|Passive"
+      },
+      {
+        "name": "Conviction",
+        "description": "Movement Speed is increased by 25% while Condemn is charging up.",
+        "abilityId": "Johanna|W1"
+      },
+      {
+        "name": "Sins Exposed",
+        "description": "Shield Glare marks enemies for 4 seconds. The next time any ally damages them, they take 68 (+4% per level) extra damage and the mark is removed.",
+        "abilityId": "Johanna|E1"
+      },
+      {
+        "name": "The Crusade Marches On",
+        "description": "Basic and Heroic Abilities lower the cooldown of Iron Skin by 1.5 seconds.",
+        "abilityId": "Johanna|D1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Blessed Shield",
+        "description": "Deal 114 (+4% per level) damage and stun the first enemy hit for 1.5 seconds. Blessed Shield then bounces to 2 nearby enemies, dealing 57 (+4% per level) damage and stunning them for 0.75 seconds.",
+        "abilityId": "Johanna|R2",
+        "cooldown": 60
+      },
+      {
+        "name": "Falling Sword",
+        "description": "Johanna leaps towards an area.  While in the air, she can steer the landing location by moving.  After 2 seconds Johanna lands, dealing 365 (+4% per level) damage to nearby enemies and knocking them into the air.",
+        "abilityId": "Johanna|R1",
+        "cooldown": 60
+      }
+    ],
+    "13": [
+      {
+        "name": "Burning Rage",
+        "description": "Deal 23 (+4% per level) damage per second to nearby enemies.",
+        "abilityId": "Johanna|Passive"
+      },
+      {
+        "name": "Hold Your Ground",
+        "description": "Increases Iron Skin's Shield by 20%, and if the Shield is destroyed by damage the cooldown is reduced by 4 seconds.",
+        "abilityId": "Johanna|D1"
+      },
+      {
+        "name": "Subdue",
+        "description": "Increases Punish's slow to 80% decaying over 3 seconds.",
+        "abilityId": "Johanna|Q1"
+      }
+    ],
+    "16": [
+      {
+        "name": "Blessed Hammer",
+        "description": "Condemn also creates a hammer that spirals around Johanna, dealing 41 (+4% per level) damage to enemies it hits.",
+        "abilityId": "Johanna|W1"
+      },
+      {
+        "name": "Fanaticism",
+        "description": "While Iron Skin is active, Johanna gains 8% Movement Speed each time she takes damage.  Stacks up to 40%.",
+        "abilityId": "Johanna|D1"
+      },
+      {
+        "name": "Holy Renewal",
+        "description": "Every enemy Hero affected by Shield Glare heals you for 114 (+4% per level).",
+        "abilityId": "Johanna|E1"
+      },
+      {
+        "name": "Imposing Presence",
+        "description": "Activate to slow the Attack Speed by 50% and Movement Speed by 20% of nearby Heroes and Summons for 2.5 seconds. Passive: Heroes and Summons that attack your Hero have their Attack Speed slowed by 20% for 2.5 seconds.",
+        "abilityId": "Johanna|Active",
+        "cooldown": 20
+      }
+    ],
+    "20": [
+      {
+        "name": "Heaven's Fury",
+        "description": "While in the air, holy bolts rain down on enemies dealing 75 (+4% per level) damage and reducing the cooldown of Falling Sword by 2 seconds for each enemy hit.",
+        "abilityId": "Johanna|R1"
+      },
+      {
+        "name": "Indestructible",
+        "description": "Upon taking fatal damage, Johanna gains a Shield equal to her maximum Health for 5 seconds. This effect has a 120 second cooldown.",
+        "abilityId": "Johanna|Passive",
+        "cooldown": 120
+      },
+      {
+        "name": "Radiating Faith",
+        "description": "Increases Blessed Shield's stun duration by 33% and maximum enemies hit by 2.",
+        "abilityId": "Johanna|R2"
+      },
+      {
+        "name": "Storm Shield",
+        "description": "Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.",
+        "abilityId": "Johanna|Active",
+        "cooldown": 45
+      }
+    ]
+  }
+}

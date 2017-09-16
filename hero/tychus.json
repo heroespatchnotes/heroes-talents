@@ -1,0 +1,213 @@
+{
+  "id": "23",
+  "shortName": "tychus",
+  "name": "Tychus",
+  "role": "Assassin",
+  "type": "Ranged",
+  "releaseDate": "2014-03-18",
+  "abilities": {
+    "Tychus": [
+      {
+        "name": "Overkill",
+        "description": "Deal 645 (+4% per level) damage to the target and 315 (+4% per level) damage to nearby targets over 4 seconds. Reactivate to select a new target.  Can move and use Abilities while channeling.",
+        "hotkey": "Q",
+        "abilityId": "Tychus|Q1",
+        "cooldown": 13,
+        "manaCost": "65"
+      },
+      {
+        "name": "Frag Grenade",
+        "description": "Lob a grenade that deals 256 (+4% per level) damage, knocking enemies away.",
+        "hotkey": "W",
+        "abilityId": "Tychus|W1",
+        "cooldown": 10,
+        "manaCost": "50"
+      },
+      {
+        "name": "Run and Gun",
+        "description": "Dash a short distance.",
+        "hotkey": "E",
+        "abilityId": "Tychus|E1",
+        "cooldown": 10,
+        "manaCost": "50"
+      },
+      {
+        "name": "Drakken Laser Drill",
+        "description": "Call down a Laser Drill to attack nearby enemies, dealing 142 (+4% per level) damage every second. Reactivate to assign a new target. Lasts 22 seconds.",
+        "hotkey": "R",
+        "abilityId": "Tychus|R1",
+        "cooldown": 100,
+        "manaCost": "100"
+      },
+      {
+        "name": "Commandeer Odin",
+        "description": "Call down an Odin to pilot. The Odin deals increased Damage, has 100% increased Basic Attack range, and uses different Abilities. The Odin has 25 Armor and lasts 23 seconds.",
+        "hotkey": "R",
+        "abilityId": "Tychus|R2",
+        "cooldown": 100,
+        "manaCost": "100"
+      },
+      {
+        "name": "Minigun",
+        "description": "Activate to have your Basic Attacks against Heroes deal bonus damage equal to 2.5% of their maximum Health. Lasts 3 seconds.",
+        "hotkey": "D",
+        "trait": true,
+        "abilityId": "Tychus|D1",
+        "cooldown": 12,
+        "manaCost": "25"
+      }
+    ], 
+    "TychusOdin": [
+      {
+        "name": "Annihilate",
+        "description": "Fire the Odin's cannons in a straight line, dealing 196 (+4% per level) damage to everything in the path.",
+        "hotkey": "Q",
+        "abilityId": "Tychus|Q2",
+        "cooldown": 7
+      },
+      {
+        "name": "Ragnarok Missiles",
+        "description": "Launches a missile at each nearby enemy, dealing 141 (+4% per level) damage.",
+        "hotkey": "W",
+        "abilityId": "Tychus|W2",
+        "cooldown": 7
+      },
+      {
+        "name": "Thrusters",
+        "description": "Dash in target direction.",
+        "hotkey": "E",
+        "abilityId": "Tychus|E2",
+        "cooldown": 8
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Combat Tactician",
+        "description": "Basic Attacks reduce the cooldown of Run and Gun by 0.8 seconds.",
+        "abilityId": "Tychus|E1"
+      },
+      {
+        "name": "Dash",
+        "description": "Quest: Run and Gun increases your Movement Speed by 1% for each Regeneration Globe you gather, up to 25%. Lasts 2 seconds.  Reward: Once you have gathered 25 Regeneration Globes, also increase the range of Run and Gun by 50%.",
+        "abilityId": "Tychus|E1"
+      },
+      {
+        "name": "Press the Advantage",
+        "description": "Run and Gun increases Tychus's Basic Attack range by 1.5 for 3 seconds.",
+        "abilityId": "Tychus|E1"
+      }
+    ],
+    "4": [
+      {
+        "name": "Fully Loaded",
+        "description": "Reduce Minigun's cooldown by 41%.",
+        "abilityId": "Tychus|D1"
+      },
+      {
+        "name": "In the Rhythm",
+        "description": "Quest: While Minigun is active, Basic Attacks against Heroes permanently increase future Minigun durations by 0.03 seconds.",
+        "abilityId": "Tychus|D1"
+      },
+      {
+        "name": "Master Assassin",
+        "description": "Quest: Hero Takedowns increase your Attack Speed by 1%, up to 15%.  Reward: After getting 15 Takedowns, your Attack Speed is increased by an additional 10%.",
+        "abilityId": "Tychus|Passive"
+      },
+      {
+        "name": "The Bigger They Are...",
+        "description": "Increases Minigun damage bonus to 4% while enemy Heroes are above 35% Health, but Minigun no longer has any effect on targets below 35%.",
+        "abilityId": "Tychus|D1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Concussion Grenade",
+        "description": "Increases Frag Grenade's radius by 25% and the knockback distance by 100%.",
+        "abilityId": "Tychus|W1"
+      },
+      {
+        "name": "Quarterback",
+        "description": "Increases the range of Frag Grenade by 50%.",
+        "abilityId": "Tychus|W1"
+      },
+      {
+        "name": "Relentless Soldier",
+        "description": "Being Stunned or Rooted grants 25 Armor for 3 seconds, reducing damage taken by 25%.",
+        "abilityId": "Tychus|Passive"
+      }
+    ],
+    "10": [
+      {
+        "name": "Commandeer Odin",
+        "description": "Call down an Odin to pilot. The Odin deals increased Damage, has 60% increased Basic Attack range, and uses different Abilities. The Odin has 25 Armor and lasts 23 seconds.",
+        "abilityId": "Tychus|R2",
+        "cooldown": 100
+      },
+      {
+        "name": "Drakken Laser Drill",
+        "description": "Call down a Laser Drill to attack nearby enemies, dealing 142 (+4% per level) damage every second. Reactivate to assign a new target. Lasts 22 seconds.",
+        "abilityId": "Tychus|R1",
+        "cooldown": 100
+      }
+    ],
+    "13": [
+      {
+        "name": "Neosteel Coating",
+        "description": "Activate to gain 75 Spell Armor for 3 seconds, reducing Ability Damage taken by 75%.",
+        "abilityId": "Tychus|Active",
+        "cooldown": 30
+      },
+      {
+        "name": "Spray 'n' Pray",
+        "description": "Increases Overkill's range by 25%.",
+        "abilityId": "Tychus|Q1"
+      },
+      {
+        "name": "That's the Stuff!",
+        "description": "Minigun heals Tychus for 100% of the bonus damage dealt after it expires.",
+        "abilityId": "Tychus|D1"
+      }
+    ],
+    "16": [
+      {
+        "name": "Armor Piercing Rounds",
+        "description": "Increases Overkill's damage to the primary target by 50%.",
+        "abilityId": "Tychus|Q1"
+      },
+      {
+        "name": "Lead Rain",
+        "description": "Overkill also slows enemy movement speed by 20%.",
+        "abilityId": "Tychus|Q1"
+      },
+      {
+        "name": "Titan Grenade",
+        "description": "Frag Grenade deals bonus damage to Heroes equal to 5% of their maximum Health.",
+        "abilityId": "Tychus|W1"
+      }
+    ],
+    "20": [
+      {
+        "name": "Big Red Button",
+        "description": "Odin lasts 50% longer and Ragnarok Missiles also launches a Nuclear Missile which lands 2.5 seconds later.",
+        "abilityId": "Tychus|R2"
+      },
+      {
+        "name": "Bob and Weave",
+        "description": "Run and Gun and Odin's Thrusters gain 2 additional charges and reduces Run and Gun's Mana cost from 50 to 25.",
+        "abilityId": "Tychus|E1"
+      },
+      {
+        "name": "Focusing Diodes",
+        "description": "Increases the range of the Drakken Laser Drill by 50%.  Deals increasing damage the longer it remains on a single target, up to 100% extra damage.",
+        "abilityId": "Tychus|R1"
+      },
+      {
+        "name": "Sizzlin' Attacks",
+        "description": "Your Basic Attacks deal bonus damage to Heroes equal to 1% of their maximum Health. Stacks with Minigun.",
+        "abilityId": "Tychus|Passive"
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "id": "58",
+  "shortName": "samuro",
+  "name": "Samuro",
+  "role": "Assassin",
+  "type": "Melee",
+  "releaseDate": "2016-10-18",
+  "abilities": {
+    "Samuro": [
+      {
+        "name": "Mirror Image",
+        "description": "Create 2 Mirror Images that deal 25% of your damage and have 50% of your current Health. Images last up to 18 seconds, and only two can be active at any one time.",
+        "hotkey": "Q",
+        "abilityId": "Samuro|Q1",
+        "cooldown": 18
+      },
+      {
+        "name": "Critical Strike",
+        "description": "Your next Basic Attack within 10 seconds will be a Critical Strike, dealing 50% increased damage. This also applies to Images, and does not break Wind Walk. Passive: You and your Images deal a Critical Strike on every 4th Basic Attack.",
+        "hotkey": "W",
+        "abilityId": "Samuro|W1",
+        "cooldown": 8
+      },
+      {
+        "name": "Wind Walk",
+        "description": "Enter Stealth for up to 10 seconds or until you attack, use an Ability, or take damage. While Stealthed, your Movement Speed is increased by 25% and you can pass through other units. Damage taken within the first 1 second will not break Wind Walk.",
+        "hotkey": "E",
+        "abilityId": "Samuro|E1",
+        "cooldown": 15
+      },
+      {
+        "name": "Bladestorm",
+        "description": "Become an Unstoppable whirlwind of death, dealing 235 (+4% per level) damage per second to nearby enemies for 4 seconds.",
+        "hotkey": "R",
+        "abilityId": "Samuro|R1",
+        "cooldown": 110
+      },
+      {
+        "name": "Illusion Master",
+        "description": "Switch places with the target Mirror Image. Passive: You can control Mirror Images separately or as a group, and they deal an additional 10% of your damage.",
+        "hotkey": "R",
+        "abilityId": "Samuro|R2",
+        "cooldown": 6
+      },
+      {
+        "name": "Advancing Strikes",
+        "description": "Basic attacks against enemy Heroes increase your movement speed by 25% for 2 seconds.",
+        "trait": true,
+        "abilityId": "Samuro|D1"
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Way of Illusion",
+        "description": "Quest: Every time one of your Images Critically Strikes a Hero, gain 0.5 Attack Damage, up to 20. Reward: After hitting 40 Heroes, gain an additional 20 Attack Damage.",
+        "abilityId": "Samuro|Q1"
+      },
+      {
+        "name": "Way of the Blade",
+        "description": "Critical Strike now happens every 3rd Basic Attack and deals an additional 20% of your Basic Attack damage.",
+        "abilityId": "Samuro|W1"
+      },
+      {
+        "name": "Way of the Wind",
+        "description": "Quest: Attacking a Hero from Stealth increases the Movement Speed bonus of Wind Walk by 1.25%, up to 25%. Reward: After attacking 20 Heroes, Wind Walk's Unrevealable duration is increased to 2.5 seconds.",
+        "abilityId": "Samuro|E1"
+      }
+    ],
+    "4": [
+      {
+        "name": "Deflection",
+        "description": "Advancing Strikes grants 25 Physical Armor against Hero Basic Attacks, reducing their damage by 25%.",
+        "abilityId": "Samuro|D1"
+      },
+      {
+        "name": "Mirage",
+        "description": "Mirror Image grants Samuro and his Images 40 Spell Armor against the next 2 sources of Spell damage, reducing their damage by 40%.",
+        "abilityId": "Samuro|Q1"
+      },
+      {
+        "name": "One with the Wind",
+        "description": "While Stealthed by Wind Walk, you take 60% reduced damage from all sources.",
+        "abilityId": "Samuro|E1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Burning Blade",
+        "description": "Critical Strikes unleash a burst of flame, dealing an additional 65% of your Basic Attack damage to the target and nearby enemies.",
+        "abilityId": "Samuro|W1"
+      },
+      {
+        "name": "Crushing Blows",
+        "description": "Critical Strike now has two charges, and Critical Strikes deal an additional 25% of your Basic Attack damage.",
+        "abilityId": "Samuro|W1"
+      },
+      {
+        "name": "Phantom Pain",
+        "description": "Critical Strikes deal an additional 40% of your Basic Attack damage for each Image you have active.",
+        "abilityId": "Samuro|W1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Bladestorm",
+        "description": "Become an Unstoppable whirlwind of death, dealing 235 (+4% per level) damage per second to nearby enemies for 4 seconds.",
+        "abilityId": "Samuro|R1",
+        "cooldown": 110
+      },
+      {
+        "name": "Illusion Master",
+        "description": "Switch places with the target Mirror Image, removing most negative effects from Samuro and the target Mirror Image. Passive: You can control Mirror Images separately or as a group, and they deal an additional 10% of your damage.",
+        "abilityId": "Samuro|R2",
+        "cooldown": 6
+      }
+    ],
+    "13": [
+      {
+        "name": "Kawarimi",
+        "description": "Wind Walk creates an Image at your location that will continue whatever you were doing.",
+        "abilityId": "Samuro|E1"
+      },
+      {
+        "name": "Mirrored Steel",
+        "description": "Basic Attacks against Heroes reduce the cooldown of Mirror Image by 1 second.",
+        "abilityId": "Samuro|Q1"
+      },
+      {
+        "name": "Shukuchi",
+        "description": "Wind Walk teleports you a short distance in the direction you're currently facing.",
+        "abilityId": "Samuro|E1"
+      }
+    ],
+    "16": [
+      {
+        "name": "Harsh Winds",
+        "description": "Attacking a Hero from Stealth causes them to take 30% increased damage from Samuro and his Images for 3 seconds.",
+        "abilityId": "Samuro|E1"
+      },
+      {
+        "name": "Merciless Strikes",
+        "description": "Basic Attacks against slowed, rooted, or stunned targets are always Critical Strikes.",
+        "abilityId": "Samuro|Passive"
+      },
+      {
+        "name": "Press the Attack",
+        "description": "While Advancing Strikes is active, Basic Attacks increase your Attack Speed by 15%, up to 60%.",
+        "abilityId": "Samuro|D1"
+      }
+    ],
+    "20": [
+      {
+        "name": "Blademaster's Pursuit",
+        "description": "Advancing Strikes grants an additional 15% bonus Movement Speed, and its duration is increased by 2 seconds.",
+        "abilityId": "Samuro|D1"
+      },
+      {
+        "name": "Dance of Death",
+        "description": "Your Images use Bladestorm when you do.",
+        "abilityId": "Samuro|R1"
+      },
+      {
+        "name": "Three Blade Style",
+        "description": "Your Images gain an additional 50% of your Health and last up to 36 seconds.",
+        "abilityId": "Samuro|R2"
+      },
+      {
+        "name": "Wind Strider",
+        "description": "Wind Walk's cooldown is reduced by 6 seconds.",
+        "abilityId": "Samuro|E1"
+      }
+    ]
+  }
+}

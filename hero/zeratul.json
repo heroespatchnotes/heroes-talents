@@ -1,0 +1,183 @@
+{
+  "id": "22",
+  "shortName": "zeratul",
+  "name": "Zeratul",
+  "role": "Assassin",
+  "type": "Melee",
+  "releaseDate": "2014-03-13",
+  "abilities": {
+    "Zeratul": [
+      {
+        "name": "Cleave",
+        "description": "Deal 200 (+4% per level) damage to nearby enemies.",
+        "hotkey": "Q",
+        "abilityId": "Zeratul|Q1",
+        "cooldown": 6,
+        "manaCost": "40"
+      },
+      {
+        "name": "Singularity Spike",
+        "description": "Flings a Singularity Spike that sticks to the first enemy hit. Deals 228 (+4% per level) damage after 1 second and slows the enemy by 40% for 3 seconds.",
+        "hotkey": "W",
+        "abilityId": "Zeratul|W1",
+        "cooldown": 12,
+        "manaCost": "80"
+      },
+      {
+        "name": "Blink",
+        "description": "Teleport to the target location.   Using this Ability does not break cloak.",
+        "hotkey": "E",
+        "abilityId": "Zeratul|E1",
+        "cooldown": 10,
+        "manaCost": "50"
+      },
+      {
+        "name": "Shadow Assault",
+        "description": "Your Basic Attacks cause you to charge at enemies and have 20% increased Attack Speed. Lasts for 4 seconds.",
+        "hotkey": "R",
+        "abilityId": "Zeratul|R1",
+        "cooldown": 45,
+        "manaCost": "50"
+      },
+      {
+        "name": "Void Prison",
+        "description": "Slows time in an area to a near standstill, making allies and enemies invulnerable and unable to act for 5 seconds. You are not affected.",
+        "hotkey": "R",
+        "abilityId": "Zeratul|R2",
+        "cooldown": 100,
+        "manaCost": "100"
+      },
+      {
+        "name": "Permanent Cloak",
+        "description": "Gain Stealth when out of combat for 3 seconds.  Taking damage, attacking, using Abilities, or channeling reveals you.",
+        "trait": true,
+        "abilityId": "Zeratul|D1"
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Greater Cleave",
+        "description": "Increases the radius of Cleave by 33%.",
+        "abilityId": "Zeratul|Q1"
+      },
+      {
+        "name": "Shadow Hunter",
+        "description": "Quest: Gather Regeneration Globes to lower the Mana cost of Blink by 2.  Reward: Upon gathering 20 Regeneration Globes, Basic Attacks reduce the cooldown of Blink by 1 second.",
+        "abilityId": "Zeratul|E1"
+      },
+      {
+        "name": "Vorpal Blade",
+        "description": "Activate to teleport to the last non-structure target attacked within 3 seconds. The target is revealed during these 3 seconds.",
+        "abilityId": "Zeratul|Active",
+        "cooldown": 15
+      }
+    ],
+    "4": [
+      {
+        "name": "Combo Slash",
+        "description": "After using an Ability, Zeratul's next Basic Attack within 6 seconds deals 40% additional damage.",
+        "abilityId": "Zeratul|Passive"
+      },
+      {
+        "name": "Grim Task",
+        "description": "Quest: Hero Takedowns increase Ability Power by 5%, up to 50%. This bonus Ability Power is lost on death.",
+        "abilityId": "Zeratul|Passive"
+      },
+      {
+        "name": "Rending Cleave",
+        "description": "Cleave deals an additional 40% damage over 3 seconds.",
+        "abilityId": "Zeratul|Q1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Seeker in the Dark",
+        "description": "Singularity Spike takes 50% longer to explode. It can be reactivated to teleport to the target, granting 30% increased Move Speed for 3 seconds.",
+        "abilityId": "Zeratul|W1"
+      },
+      {
+        "name": "Slip into Shadow",
+        "description": "Blink gains an additional charge, but its cooldown is increased by 8 seconds.",
+        "abilityId": "Zeratul|E1"
+      },
+      {
+        "name": "Wormhole",
+        "description": "For 2.125 seconds, reactivate Blink to return to the point where it was cast from.",
+        "abilityId": "Zeratul|E1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Shadow Assault",
+        "description": "Basic Attacks cause Zeratul to charge at enemies and have 20% increased Attack Speed. Lasts for 4 seconds.",
+        "abilityId": "Zeratul|R1",
+        "cooldown": 45
+      },
+      {
+        "name": "Void Prison",
+        "description": "Slows time in an area to a near standstill, making allies and enemies invulnerable and unable to act for 5 seconds. Zeratul is not affected.",
+        "abilityId": "Zeratul|R2",
+        "cooldown": 100
+      }
+    ],
+    "13": [
+      {
+        "name": "Mending Strikes",
+        "description": "Basic Attacks heal for 35% of the damage dealt.",
+        "abilityId": "Zeratul|Passive"
+      },
+      {
+        "name": "Shroud of Adun",
+        "description": "Zeratul gains a shield equal to 15% of his Maximum Health over 5 seconds while under Permanent Cloak.",
+        "abilityId": "Zeratul|D1"
+      },
+      {
+        "name": "Spell Shield",
+        "description": "Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically.",
+        "abilityId": "Zeratul|Passive"
+      }
+    ],
+    "16": [
+      {
+        "name": "Master Warp-Blade",
+        "description": "Every third consecutive Basic Attack against the same target deals 125% bonus damage.",
+        "abilityId": "Zeratul|Passive"
+      },
+      {
+        "name": "Sentenced to Death",
+        "description": "Deal 40% increased damage to enemies while they have a Singularity Spike attached to them.",
+        "abilityId": "Zeratul|W1"
+      },
+      {
+        "name": "Void Slash",
+        "description": "If Cleave hits more than one enemy Hero, it deals 50% increased damage and its cooldown is reduced by 3 seconds.",
+        "abilityId": "Zeratul|Q1"
+      }
+    ],
+    "20": [
+      {
+        "name": "Gift of the Xel'naga",
+        "description": "Allies are no longer affected by Void Prison, and enemies are slowed by 50% for 3 seconds once Void Prison ends.",
+        "abilityId": "Zeratul|R2"
+      },
+      {
+        "name": "Nerazim Fury",
+        "description": "Shadow Assault grants 30% Life Steal, and the duration is increased by 50%.",
+        "abilityId": "Zeratul|R1"
+      },
+      {
+        "name": "Nexus Blades",
+        "description": "Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.",
+        "abilityId": "Zeratul|Passive"
+      },
+      {
+        "name": "Rewind",
+        "description": "Activate to reset the cooldowns of your Basic Abilities.",
+        "abilityId": "Zeratul|Active",
+        "cooldown": 60
+      }
+    ]
+  }
+}

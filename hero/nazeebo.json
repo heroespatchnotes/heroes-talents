@@ -1,0 +1,183 @@
+{
+  "id": "11",
+  "shortName": "nazeebo",
+  "name": "Nazeebo",
+  "role": "Specialist",
+  "type": "Ranged",
+  "releaseDate": "2014-03-13",
+  "abilities": {
+    "Nazeebo": [
+      {
+        "name": "Corpse Spiders",
+        "description": "Hurl a jar of spiders that deals 50 (+4% per level) damage. If it hits at least one enemy, create 3 Corpse Spiders that attack for 35 (+4% per level) damage. Spiders last for 4 seconds.",
+        "hotkey": "Q",
+        "abilityId": "Nazeebo|Q1",
+        "cooldown": 9,
+        "manaCost": "50"
+      },
+      {
+        "name": "Zombie Wall",
+        "description": "After 1 second, create a ring of Zombies surrounding the target area that deal 28 (+4% per level) damage and last for 3 seconds.",
+        "hotkey": "W",
+        "abilityId": "Nazeebo|W1",
+        "cooldown": 14,
+        "manaCost": "70"
+      },
+      {
+        "name": "Plague of Toads",
+        "description": "Create a wave of 3 Toads that explode on contact, dealing 140 (+4% per level) damage over 6 seconds. This effect stacks.",
+        "hotkey": "E",
+        "abilityId": "Nazeebo|E1",
+        "cooldown": 8,
+        "manaCost": "30"
+      },
+      {
+        "name": "Gargantuan",
+        "description": "Summon a Gargantuan to guard an area for 20 seconds. Deals 100 (+4% per level) damage when summoned, attacks for 150 (+4% per level) damage, and can be ordered to stomp nearby enemies.",
+        "hotkey": "R",
+        "abilityId": "Nazeebo|R1",
+        "cooldown": 70,
+        "manaCost": "90"
+      },
+      {
+        "name": "Ravenous Spirit",
+        "description": "Channel a Ravenous Spirit that deals 206 (+4% per level) damage per second. Cannot move while channeling. Lasts for 8 seconds.",
+        "hotkey": "R",
+        "abilityId": "Nazeebo|R2",
+        "cooldown": 90,
+        "manaCost": "100"
+      },
+      {
+        "name": "Voodoo Ritual",
+        "description": "Your Basic Attacks and Abilities poison Non-Heroic enemies, causing them to take 66 (+4% per level) additional damage over 6 seconds.  If a Minion dies while poisoned by Voodoo Ritual, you permanently gain 4 Health and 1 Mana.",
+        "trait": true,
+        "abilityId": "Nazeebo|D1"
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Pandemic",
+        "description": "Reward: After hitting 40 Heroes with Plague of Toads, it spawns 2 additional toads.",
+        "abilityId": "Nazeebo|E1"
+      },
+      {
+        "name": "Thing of the Deep",
+        "description": "Increases the range of Nazeebo's Basic Abilities by 20%.",
+        "abilityId": "Nazeebo|Passive"
+      },
+      {
+        "name": "Widowmakers",
+        "description": "Reward: After Corpse Spiders attack Heroes 100 times, their attack damage is increased by 30%.",
+        "abilityId": "Nazeebo|Q1"
+      }
+    ],
+    "4": [
+      {
+        "name": "Big Voodoo",
+        "description": "Increases the Health and Mana bonuses from Voodoo Ritual by 100%.",
+        "abilityId": "Nazeebo|D1"
+      },
+      {
+        "name": "Blood Ritual",
+        "description": "If an enemy dies while poisoned by Voodoo Ritual, restore 1.95% of Nazeebo's maximum Health and Mana.",
+        "abilityId": "Nazeebo|D1"
+      },
+      {
+        "name": "Hexed Crawlers",
+        "description": "Corpse spiders restore 0.75% of Nazeebo's maximum Health and Mana when they attack an enemy Hero.",
+        "abilityId": "Nazeebo|Q1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Dead Rush",
+        "description": "Zombie Wall deals 75% more damage. When it expires up to 5 remaining Zombies uproot and attack nearby enemies for 3 seconds.",
+        "abilityId": "Nazeebo|W1"
+      },
+      {
+        "name": "Spirit of Arachyr",
+        "description": "If Corpse Spiders hits only one enemy, it creates 2 additional spiders.",
+        "abilityId": "Nazeebo|Q1"
+      },
+      {
+        "name": "Toads of Hugeness",
+        "description": "Increase the damage and explosion radius of Plague of Toads by 25% after each hop, up to a maximum of 100%.",
+        "abilityId": "Nazeebo|E1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Gargantuan",
+        "description": "Summon a Gargantuan to guard an area for 20 seconds. Deals 100 (+4% per level) damage when summoned, attacks for 150 (+4% per level) damage, and can be ordered to stomp nearby enemies.",
+        "abilityId": "Nazeebo|R1",
+        "cooldown": 70
+      },
+      {
+        "name": "Ravenous Spirit",
+        "description": "Channel a Ravenous Spirit that deals 206 (+4% per level) damage per second. Cannot move while channeling. Lasts for 8 seconds.",
+        "abilityId": "Nazeebo|R2",
+        "cooldown": 90
+      }
+    ],
+    "13": [
+      {
+        "name": "Guardian Toads",
+        "description": "Hitting an enemy Hero with Plague of Toads gives 25 Armor for 2 seconds, reducing damage taken by 25%.",
+        "abilityId": "Nazeebo|E1"
+      },
+      {
+        "name": "Ice Block",
+        "description": "Activate to place yourself in Stasis and gain Invulnerability for 3 seconds.",
+        "abilityId": "Nazeebo|Active",
+        "cooldown": 60
+      },
+      {
+        "name": "Superstition",
+        "description": "Gain 40 Spell Armor, taking 40% less damage from Abilities, but lose 30 Physical Armor, taking 30% more damage from Basic Attacks.",
+        "abilityId": "Nazeebo|Passive"
+      }
+    ],
+    "16": [
+      {
+        "name": "Ring of Poison",
+        "description": "Zombie Wall lasts 1 second longer, and the center is filled with poison that deals a total of 318.75 (+4% per level) damage over 4 seconds. This damage starts small and increases over the duration.",
+        "abilityId": "Nazeebo|W1"
+      },
+      {
+        "name": "Soul Harvest",
+        "description": "Activate to increase Nazeebo's Health and Ability Power by 7% for each nearby enemy, up to a maximum of 35%. Lasts 15 seconds.",
+        "abilityId": "Nazeebo|Active",
+        "cooldown": 15
+      },
+      {
+        "name": "Spider Colony",
+        "description": "Corpse Spiders' cooldown recharges 100% faster while above 850 Health.",
+        "abilityId": "Nazeebo|Q1"
+      }
+    ],
+    "20": [
+      {
+        "name": "Annihilating Spirit",
+        "description": "Increases the range of Ravenous Spirit by 50% and Movement Speed by 30%.",
+        "abilityId": "Nazeebo|R2"
+      },
+      {
+        "name": "Fury of the Storm",
+        "description": "Every 5 seconds, your next Basic Attack will deal an additional 91 (+4% per level) damage to the target, and 228 (+4% per level) damage to all nearby Minions, Mercenaries, and Monsters.",
+        "abilityId": "Nazeebo|Passive"
+      },
+      {
+        "name": "Humongoid",
+        "description": "Reduce Gargantuan's cooldown by 40 seconds and its Mana cost by 50%.",
+        "abilityId": "Nazeebo|R1"
+      },
+      {
+        "name": "Vile Infection",
+        "description": "Reward: After reaching 175 stacks of Voodoo Ritual, it can also be applied to Heroes and its damage is increased by 200%.",
+        "abilityId": "Nazeebo|D1"
+      }
+    ]
+  }
+}

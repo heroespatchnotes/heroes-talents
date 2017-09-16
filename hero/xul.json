@@ -1,0 +1,189 @@
+{
+  "id": "49",
+  "shortName": "xul",
+  "name": "Xul",
+  "role": "Specialist",
+  "type": "Melee",
+  "releaseDate": "2016-03-01",
+  "abilities": {
+    "Xul": [
+      {
+        "name": "Spectral Scythe",
+        "description": "Summon a scythe that travels to Xul after 1 second, dealing 240 (+4% per level) damage to enemies.",
+        "hotkey": "Q",
+        "abilityId": "Xul|Q1",
+        "cooldown": 8,
+        "manaCost": "55"
+      },
+      {
+        "name": "Cursed Strikes",
+        "description": "Xul's Basic Attacks deal damage in a wide area and reduce the Attack Speed of Heroes and Summons by 40% for 2 seconds. Lasts 4 seconds once triggered.",
+        "hotkey": "W",
+        "abilityId": "Xul|W1",
+        "cooldown": 16,
+        "manaCost": "60"
+      },
+      {
+        "name": "Bone Prison",
+        "description": "After a 2 second delay, deal 80 (+4% per level) damage and Root the target enemy Hero for 1.75 seconds.  All nearby Skeletal Warriors will fixate on the target for their duration.",
+        "hotkey": "E",
+        "abilityId": "Xul|E1",
+        "cooldown": 12,
+        "manaCost": "80"
+      },
+      {
+        "name": "Skeletal Mages",
+        "description": "Summon 4 Frost Mages in a line that attack nearby enemies for 47 (+4% per level) damage a second and Slow them by 30% for 2 seconds. Last up to 15 seconds.",
+        "hotkey": "R",
+        "abilityId": "Xul|R1",
+        "cooldown": 90,
+        "manaCost": "80"
+      },
+      {
+        "name": "Poison Nova",
+        "description": "After 0.5 seconds, release poisonous missiles that deal 570 (+4% per level) damage to all enemies hit over 10 seconds.",
+        "hotkey": "R",
+        "abilityId": "Xul|R2",
+        "cooldown": 90,
+        "manaCost": "100"
+      },
+      {
+        "name": "Raise Skeleton",
+        "description": "When a nearby enemy Minion dies, it becomes a Skeletal Warrior with 240 (+4% per level) Health that attacks for 23 (+4% per level) damage and last up to 15 seconds. Up to 4 Skeletal Warriors can be active at once.",
+        "trait": true,
+        "abilityId": "Xul|D1"
+      },
+      {
+        "name": "Bone Armor",
+        "description": "Activate to gain a Shield equal to 25% of your maximum Health for 3 seconds.",
+        "hotkey": "1",
+        "abilityId": "Xul|11",
+        "cooldown": 30
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Backlash",
+        "description": "When Bone Armor expires, nearby enemy Heroes take damage equal to 12% of their maximum Health.",
+        "abilityId": "Xul|11"
+      },
+      {
+        "name": "Shackler",
+        "description": "While Bone Armor is active, nearby enemies are Slowed by 35% for 1 second. Basic Attacks against Heroes that are Stunned, Rooted, or Slowed reduce the cooldown of Bone Armor by 2 seconds.",
+        "abilityId": "Xul|11"
+      },
+      {
+        "name": "Shade",
+        "description": "While Bone Armor is active, Xul evades all Basic Attacks, but increases the cooldown of Bone Armor by 20 seconds.",
+        "abilityId": "Xul|11"
+      }
+    ],
+    "4": [
+      {
+        "name": "Grim Scythe",
+        "description": "Each enemy hit by Cursed Strikes reduces its cooldown by 0.75 seconds, up to 12 seconds.",
+        "abilityId": "Xul|W1"
+      },
+      {
+        "name": "Jailors",
+        "description": "Bone Prison spawns 2 Skeletal Warriors.  These do not count towards Xul's Raise Skeleton maximum.  Quest: Spawn 80 Skeletal Warriors. Reward: While fixating on an enemy, Skeletal Warriors gain 50% Movement and Attack Speed.",
+        "abilityId": "Xul|D1"
+      },
+      {
+        "name": "Reaper's Toll",
+        "description": "Quest: Hit 20 Heroes with Spectral Scythe. Reward: Reduce the cooldown of Spectral Scythe by 3 seconds.",
+        "abilityId": "Xul|Q1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Harvest Vitality",
+        "description": "Cursed Strikes heals for 60% of the damage dealt to Heroes.",
+        "abilityId": "Xul|W1"
+      },
+      {
+        "name": "Trag'Oul's Essence",
+        "description": "Every time a Skeletal Warrior attacks an enemy, restore 0.5% of Xul's maximum Health and 0.5% of his maximum Mana.",
+        "abilityId": "Xul|D1"
+      },
+      {
+        "name": "Weaken",
+        "description": "Increase the Attack Speed reduction of Cursed Strikes by 35% and the duration by 1 second.",
+        "abilityId": "Xul|W1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Poison Nova",
+        "description": "After 0.5 seconds, release poisonous missiles that deal 570 (+4% per level) damage to all enemies hit over 10 seconds.",
+        "abilityId": "Xul|R2",
+        "cooldown": 90
+      },
+      {
+        "name": "Skeletal Mages",
+        "description": "Summon 4 Frost Mages in a line that attack nearby enemies for 47 (+4% per level) damage a second and Slow them by 30% for 2 seconds. Last up to 15 seconds.",
+        "abilityId": "Xul|R1",
+        "cooldown": 90
+      }
+    ],
+    "13": [
+      {
+        "name": "Echoes of Death",
+        "description": "Spectral Scythe spawns 2 additional scythes next to the first after 1.5 seconds, dealing 60% damage.",
+        "abilityId": "Xul|Q1"
+      },
+      {
+        "name": "Executioner",
+        "description": "Attacking a Hero that is slowed, rooted, or stunned increases your Basic Attack damage by 30% for 3 seconds.",
+        "abilityId": "Xul|Passive"
+      },
+      {
+        "name": "Rapid Harvest",
+        "description": "Gain 5% Attack Speed for 10 seconds each time Cursed Strikes hits an enemy, up to 75%.",
+        "abilityId": "Xul|W1"
+      }
+    ],
+    "16": [
+      {
+        "name": "Amplify Damage",
+        "description": "Enemies Rooted by Bone Prison lose 25 Armor for 1.75 seconds.",
+        "abilityId": "Xul|E1"
+      },
+      {
+        "name": "Bone Spear",
+        "description": "Deal 230 (+4% per level) damage to enemies in a line.",
+        "abilityId": "Xul|Active",
+        "cooldown": 12
+      },
+      {
+        "name": "Corpse Explosion",
+        "description": "When Skeletal Warriors die they explode for 55 (+4% per level) damage in a small area. Deals 100% increased damage to non-Heroic enemies.",
+        "abilityId": "Xul|D1"
+      }
+    ],
+    "20": [
+      {
+        "name": "Andariel's Visage",
+        "description": "Poison Nova heals for 50% of the damage dealt. Passive: Skeletal Warriors deal 50% increased damage.",
+        "abilityId": "Xul|R2"
+      },
+      {
+        "name": "Cold Hand of Death",
+        "description": "Increase the Slow of Frost Mages by 20%. Passive: Skeletal Warrior attacks Slow enemies by 30% for 2 seconds.",
+        "abilityId": "Xul|R1"
+      },
+      {
+        "name": "Kalan's Edict",
+        "description": "Skeletal Warrior attacks reduce the cooldown of Xul's Heroic Ability by 1%.",
+        "abilityId": "Xul|D1"
+      },
+      {
+        "name": "Mortal Wound",
+        "description": "Enemies hit by Spectral Scythe receive 75% less healing for 4 seconds.",
+        "abilityId": "Xul|Q1"
+      }
+    ]
+  }
+}

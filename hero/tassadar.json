@@ -1,0 +1,185 @@
+{
+  "id": "17",
+  "shortName": "tassadar",
+  "name": "Tassadar",
+  "role": "Support",
+  "type": "Ranged",
+  "releaseDate": "2014-03-13",
+  "abilities": {
+    "Tassadar": [
+      {
+        "name": "Plasma Shield",
+        "description": "Grant a Shield that absorbs 475 (+4% per level) damage over 4 seconds. Heroes gain 40% Life Steal from Basic Attacks while Shielded.",
+        "hotkey": "Q",
+        "abilityId": "Tassadar|Q1",
+        "cooldown": 8,
+        "manaCost": "50"
+      },
+      {
+        "name": "Psionic Storm",
+        "description": "Deal 84 (+4% per level) damage per second to enemies in target area for 3 seconds. Damage increases by 10% for each consecutive instance of damage.",
+        "hotkey": "W",
+        "abilityId": "Tassadar|W1",
+        "cooldown": 8,
+        "manaCost": "50"
+      },
+      {
+        "name": "Dimensional Shift",
+        "description": "Tassadar becomes invulnerable and Unrevealable for 2 seconds. While shifted, he has 25% increased Movement Speed.",
+        "hotkey": "E",
+        "abilityId": "Tassadar|E1",
+        "cooldown": 30,
+        "manaCost": "75"
+      },
+      {
+        "name": "Archon",
+        "description": "Tassadar transforms into an Archon and gains a Plasma Shield. His Basic Attacks deal 166 (+4% per level) damage, slow the target by 30% for 1 second and splash for 83 (+4% per level) damage to enemies within 2.5 range. Lasts for 10 seconds. Passive: Archon refreshes the cooldown of Dimensional Shift.",
+        "hotkey": "R",
+        "abilityId": "Tassadar|R1",
+        "cooldown": 100,
+        "manaCost": "80"
+      },
+      {
+        "name": "Force Wall",
+        "description": "Create a wall that blocks all units from moving through it for 2 seconds.  Passive: Increases the slow amount of Distortion Beam to 30%.",
+        "hotkey": "R",
+        "abilityId": "Tassadar|R2",
+        "cooldown": 8,
+        "manaCost": "25"
+      },
+      {
+        "name": "Oracle",
+        "description": "Activate to greatly increase Tassadar's vision radius, allow him to see over obstacles, and detect stealthed units. Lasts for 5 seconds. Passive: Tassadar's Basic Attack is a Distortion Beam that slows enemy units by 20%.",
+        "hotkey": "D",
+        "trait": true,
+        "abilityId": "Tassadar|D1",
+        "cooldown": 30
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Khaydarin Resonance",
+        "description": "Quest: Regeneration Globes grant an additional 100% Mana.  Reward: After collecting 15 Regeneration Globes, Plasma Shield's value is increased by 20%. Reward: After collecting 30 Regeneration Globes, Plasma Shield's value is increased by 40%.",
+        "abilityId": "Tassadar|Q1"
+      },
+      {
+        "name": "Psi-Infusion",
+        "description": "Quest: Gain 1 Mana for every Non-Structure enemy hit by Psionic Storm. Reward: After hitting 500 enemies, increase the size of Psionic Storm by 20%. Reward: After hitting 1000 enemies, increase the damage of Psionic Storm by 20%.",
+        "abilityId": "Tassadar|W1"
+      },
+      {
+        "name": "Templar's Will",
+        "description": "Quest: Attacking enemy Heroes restores 8 mana per second. Reward: After spending 30 seconds attacking Heroes, Distortion Beam's damage is increased by 125%. Reward: After spending 60 seconds attacking Heroes, Distortion Beam's range is increased by an additional 1.",
+        "abilityId": "Tassadar|Passive"
+      }
+    ],
+    "4": [
+      {
+        "name": "Khala's Celerity",
+        "description": "Plasma Shield also grants 20% Movement Speed for 4 seconds.",
+        "abilityId": "Tassadar|Q1"
+      },
+      {
+        "name": "Khala's Embrace",
+        "description": "Increase the Life Steal of Plasma Shield to 75%.",
+        "abilityId": "Tassadar|Q1"
+      },
+      {
+        "name": "Khala's Light",
+        "description": "Upon expiration or breaking, the target of Plasma Shield gains 15 Armor for 3 seconds, causing them to take 15% less damage.",
+        "abilityId": "Tassadar|Q1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Mental Acuity",
+        "description": "Quest: Each Takedown earned lowers the cooldown of Oracle by 3 seconds, to a maximum of 15 seconds. Reward: Upon getting 5 Takedowns, the sight range of Oracle is increased by 50%.",
+        "abilityId": "Tassadar|D1"
+      },
+      {
+        "name": "Psionic Projection",
+        "description": "Increases the cast range of Plasma Shield and Psionic Storm by 40%.",
+        "abilityId": "Tassadar|Passive"
+      },
+      {
+        "name": "Resonation",
+        "description": "Distortion Beam slows enemies affected by Psionic Storm by 50%.",
+        "abilityId": "Tassadar|Passive"
+      }
+    ],
+    "10": [
+      {
+        "name": "Archon",
+        "description": "Tassadar transforms into an Archon and gains a Plasma Shield. His Basic Attacks deal 175 (+4% per level) damage, slow the target by 30% for 1 second and splash for 88 (+4% per level) damage to enemies within 2.5 range. Lasts for 10 seconds. Passive: Archon refreshes the cooldown of Dimensional Shift.",
+        "abilityId": "Tassadar|R1",
+        "cooldown": 100
+      },
+      {
+        "name": "Force Wall",
+        "description": "Create a wall that blocks all units from moving through it for 2 seconds.  Passive: Increases the slow amount of Distortion Beam to 30%.",
+        "abilityId": "Tassadar|R2",
+        "cooldown": 8
+      }
+    ],
+    "13": [
+      {
+        "name": "Adun's Wisdom",
+        "description": "While Oracle is active, Basic Abilities cooldown 50% faster.",
+        "abilityId": "Tassadar|D1"
+      },
+      {
+        "name": "Deep Shift",
+        "description": "Dimensional Shift's duration and Movement Speed bonuses are increased by 50%.",
+        "abilityId": "Tassadar|E1"
+      },
+      {
+        "name": "Nullification",
+        "description": "Activate to reduce the damage the target enemy Hero deals by 75% for 4 seconds.",
+        "abilityId": "Tassadar|Active",
+        "cooldown": 60
+      }
+    ],
+    "16": [
+      {
+        "name": "Focused Beam",
+        "description": "While Oracle is active, Basic Attacks against Heroes deal an additional 1% of the target's maximum Health as damage.",
+        "abilityId": "Tassadar|D1"
+      },
+      {
+        "name": "Phase Disruption",
+        "description": "Enemy Heroes being hit by Psionic Storm have their Physical Armor reduced by 25, causing them to take 25% more damage from Basic Attacks.",
+        "abilityId": "Tassadar|W1"
+      },
+      {
+        "name": "Psionic Echo",
+        "description": "A second Psionic Storm can be cast within 2 seconds of casting the first.",
+        "abilityId": "Tassadar|W1"
+      }
+    ],
+    "20": [
+      {
+        "name": "Force Barrier",
+        "description": "Force Wall's Range is increased by 100% and its cooldown is reduced by 5 seconds.",
+        "abilityId": "Tassadar|R2"
+      },
+      {
+        "name": "Prismatic Link",
+        "description": "Basic Attacks bounce to hit 2 additional targets for 50% damage.",
+        "abilityId": "Tassadar|Passive"
+      },
+      {
+        "name": "Shield Battery",
+        "description": "Activate to give all nearby allied Heroes an untalented Plasma Shield.",
+        "abilityId": "Tassadar|Active",
+        "cooldown": 60
+      },
+      {
+        "name": "Twilight Archon",
+        "description": "Basic Attacks while in Archon form increase its duration by 2 seconds.",
+        "abilityId": "Tassadar|R1"
+      }
+    ]
+  }
+}

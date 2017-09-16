@@ -1,0 +1,195 @@
+{
+  "id": "53",
+  "shortName": "medivh",
+  "name": "Medivh",
+  "role": "Specialist",
+  "type": "Ranged",
+  "releaseDate": "2016-06-14",
+  "abilities": {
+    "Medivh": [
+      {
+        "name": "Arcane Rift",
+        "description": "Launch a rift that deals 200 (+4% per level) damage to enemies in its path. If an enemy Hero is hit, reduce its cooldown by 5 seconds and refund 50 Mana.",
+        "hotkey": "Q",
+        "abilityId": "Medivh|Q1",
+        "cooldown": 7,
+        "manaCost": "50"
+      },
+      {
+        "name": "Force of Will",
+        "description": "Protect an allied Hero from all damage for 1.5 seconds.",
+        "hotkey": "W",
+        "abilityId": "Medivh|W1",
+        "cooldown": 5,
+        "manaCost": "50"
+      },
+      {
+        "name": "Portal",
+        "description": "Create a set of portals between you and the target location, allowing allies to teleport between both. The portals last 6 seconds.",
+        "hotkey": "E",
+        "abilityId": "Medivh|E1",
+        "cooldown": 20,
+        "manaCost": "75"
+      },
+      {
+        "name": "Poly Bomb",
+        "description": "Polymorph an enemy Hero, suppressing their attacks and Silencing them for 2 seconds. On expiration, Poly Bomb spreads to other nearby enemy Heroes.",
+        "hotkey": "R",
+        "abilityId": "Medivh|R1",
+        "cooldown": 40,
+        "manaCost": "75"
+      },
+      {
+        "name": "Ley Line Seal",
+        "description": "After 0.5 seconds, unleash a wave of energy that places enemy Heroes in Time Stop for 3 seconds.",
+        "hotkey": "R",
+        "abilityId": "Medivh|R2",
+        "cooldown": 80,
+        "manaCost": "75"
+      },
+      {
+        "name": "Raven Form",
+        "description": "Instead of mounting, Medivh can transform into a raven, increasing Movement Speed by 20%. While transformed, Medivh can see and fly over all terrain and is immune to all effects.",
+        "hotkey": "Z",
+        "abilityId": "Medivh|Z1"
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Portal Mastery",
+        "description": "Medivh can manually place both Portal locations.  Activate your Trait to cancel an unlinked Portal.",
+        "abilityId": "Medivh|E1"
+      },
+      {
+        "name": "Raven's Intellect",
+        "description": "Raven Form increases Medivh's Mana Regeneration by 100%.",
+        "abilityId": "Medivh|Z1"
+      },
+      {
+        "name": "Stable Portal",
+        "description": "Increases Portal duration by 50%.",
+        "abilityId": "Medivh|E1"
+      }
+    ],
+    "4": [
+      {
+        "name": "Bird's Eye View",
+        "description": "Permanently increase Raven Form's vision range by 25%. Activate to increase this bonus to 200% for 5 seconds.",
+        "abilityId": "Medivh|Active",
+        "cooldown": 30
+      },
+      {
+        "name": "Dust of Appearance",
+        "description": "Activate to reveal enemy Heroes in the area surrounding Medivh for 10 seconds. Does not cancel Raven Form.",
+        "abilityId": "Medivh|Active",
+        "cooldown": 45
+      },
+      {
+        "name": "Mage Armor",
+        "description": "The first time an Ally uses a Portal, they gain 50 Physical Armor against the next 3 enemy Heroic Basic Attacks for 5 seconds, reducing the damage taken by 50%.",
+        "abilityId": "Medivh|E1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Arcane Charge",
+        "description": "When Arcane Rift damages an enemy Hero, the next Arcane Rift deals 30% more damage.",
+        "abilityId": "Medivh|Q1"
+      },
+      {
+        "name": "Arcane Explosion",
+        "description": "The first time Force of Will absorbs damage, it deals 183 (+4% per level) damage to nearby enemies.",
+        "abilityId": "Medivh|W1"
+      },
+      {
+        "name": "Raven Familiar",
+        "description": "A Raven Familiar joins allies that use a Portal. The Raven will dive at the ally's next Basic Attack against a Hero within 5 seconds for 114 (+4% per level) damage.",
+        "abilityId": "Medivh|E1"
+      },
+      {
+        "name": "The Master's Touch",
+        "description": "Quest: Hit 30 enemy Heroes with Arcane Rift without dying. Reward: Permanently increases the damage dealt by 75 and cooldown reduction for hitting a Hero by 1 second.",
+        "abilityId": "Medivh|Q1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Ley Line Seal",
+        "description": "After 0.5 seconds, unleash a wave of energy that places enemy Heroes in Time Stop for 3 seconds.",
+        "abilityId": "Medivh|R2",
+        "cooldown": 80
+      },
+      {
+        "name": "Poly Bomb",
+        "description": "Polymorph an enemy Hero, suppressing their attacks and Silencing them for 2 seconds. On expiration, Poly Bomb spreads to other nearby enemy Heroes.",
+        "abilityId": "Medivh|R1",
+        "cooldown": 40
+      }
+    ],
+    "13": [
+      {
+        "name": "Astral Projection",
+        "description": "Increases Portal cast range by 50%.",
+        "abilityId": "Medivh|E1"
+      },
+      {
+        "name": "Quickening",
+        "description": "Reduces Portal cooldown by 50%.",
+        "abilityId": "Medivh|E1"
+      },
+      {
+        "name": "Winds of Celerity",
+        "description": "Increases Raven Form's Movement Speed bonus by 50%.",
+        "abilityId": "Medivh|Z1"
+      }
+    ],
+    "16": [
+      {
+        "name": "Circle of Protection",
+        "description": "An untalented Force of Will is also applied to allies near the target.",
+        "abilityId": "Medivh|W1"
+      },
+      {
+        "name": "Enduring Will",
+        "description": "Increases Force of Will duration by 33%.",
+        "abilityId": "Medivh|W1"
+      },
+      {
+        "name": "Reabsorption",
+        "description": "Upon expiration, Force of Will heals the target for 50% of the damage it absorbed.",
+        "abilityId": "Medivh|W1"
+      }
+    ],
+    "20": [
+      {
+        "name": "Arcane Brilliance",
+        "description": "Activate to instantly restore 200 mana to all nearby allied Heroes and grant them 10% Ability Power for 10 seconds.",
+        "abilityId": "Medivh|Active",
+        "cooldown": 60
+      },
+      {
+        "name": "Glyph Of Poly Bomb",
+        "description": "Poly Bomb explodes 1 second sooner and the spread radius is increased by 25%.",
+        "abilityId": "Medivh|R1"
+      },
+      {
+        "name": "Guardian of Tirisfal",
+        "description": "Minions and Catapults hit by Arcane Rift are instantly killed.",
+        "abilityId": "Medivh|Q1"
+      },
+      {
+        "name": "Invisibility",
+        "description": "Stealth an allied Hero for 20 seconds. Stores up to 2 charges.",
+        "abilityId": "Medivh|Active",
+        "cooldown": 10
+      },
+      {
+        "name": "Medivh Cheats!",
+        "description": "Increase the duration of the Time Stop by 33% and gain the ability to redirect the wave once while it's active.",
+        "abilityId": "Medivh|R2"
+      }
+    ]
+  }
+}

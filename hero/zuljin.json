@@ -1,0 +1,180 @@
+{
+  "id": "61",
+  "shortName": "zuljin",
+  "name": "Zul'jin",
+  "role": "Assassin",
+  "type": "Ranged",
+  "releaseDate": "2017-01-04",
+  "abilities": {
+    "Zul'jin": [
+      {
+        "name": "Grievous Throw",
+        "description": "Zul'jin throws an axe forward, dealing 125 (+4% per level) damage to the first 2 enemies hit and marking them for 8 seconds. Marked enemies take 50% bonus damage from Zul'jin's next 3 Basic Attacks against them.",
+        "hotkey": "Q",
+        "abilityId": "Zul'jin|Q1",
+        "cooldown": 8,
+        "manaCost": "50"
+      },
+      {
+        "name": "Twin Cleave",
+        "description": "Throw 2 axes in a large, circular arc, dealing 112 (+4% per level) damage and slowing affected enemies by 15% per axe for 2 seconds.",
+        "hotkey": "W",
+        "abilityId": "Zul'jin|W1",
+        "cooldown": 8,
+        "manaCost": "50"
+      },
+      {
+        "name": "Regeneration",
+        "description": "Zul'jin channels to regenerate 25% of his maximum Health over 4 seconds. Moving while channeling or taking damage will interrupt this effect.",
+        "hotkey": "E",
+        "abilityId": "Zul'jin|E1",
+        "cooldown": 15,
+        "manaCost": "75"
+      },
+      {
+        "name": "Taz'dingo!",
+        "description": "For the next 4 seconds, Zul'jin is Unkillable, and cannot be reduced to less than 1 Health. Taz'dingo!",
+        "hotkey": "R",
+        "abilityId": "Zul'jin|R1",
+        "cooldown": 90,
+        "manaCost": "75"
+      },
+      {
+        "name": "Guillotine",
+        "description": "Zul'jin launches a massive axe into the air that drops on the targeted area, dealing 350 (+4% per level) damage plus bonus damage the lower his Health is.",
+        "hotkey": "R",
+        "abilityId": "Zul'jin|R2",
+        "cooldown": 30,
+        "manaCost": "70"
+      },
+      {
+        "name": "Berserker",
+        "description": "Activate to increase Basic Attack damage by 25% but consume 2% maximum Health per attack.  Passive: Zul'jin attacks 1% faster for every 1% of maximum Health missing.",
+        "hotkey": "D",
+        "trait": true,
+        "abilityId": "Zul'jin|D1"
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Arcanite Axes",
+        "description": "Lower the cooldown of Twin Cleave by 0.75 seconds for every Hero hit.  Passive: While below 50% Health, Ability Power is increased by 25%.",
+        "abilityId": "Zul'jin|W1"
+      },
+      {
+        "name": "Boneslicer",
+        "description": "Grievous Throw now pierces through all enemies, and the bonus damage is increased by 30%.",
+        "abilityId": "Zul'jin|Q1"
+      },
+      {
+        "name": "You Want Axe?",
+        "description": "Quest: Every 5 Basic Attacks against Heroes increases Zul'jin's Basic Attack damage by 1.25. Reward: After attacking Heroes 120 times, his Attack Range is increased by 1.1.",
+        "abilityId": "Zul'jin|Passive"
+      }
+    ],
+    "4": [
+      {
+        "name": "Headhunter",
+        "description": "Quest: Get a takedown on all unique enemy Heroes. Reward: Activate to reveal all enemy Heroes for 4 seconds.",
+        "abilityId": "Zul'jin|Active",
+        "cooldown": 60
+      },
+      {
+        "name": "Let the Killing Begin",
+        "description": "When Zul'jin kills an enemy, his Attack Speed is increased by 6%, up to 30%, for 12 seconds. Basic Attacks refresh the duration. Hero Takedowns instantly grant 30% Attack Speed.",
+        "abilityId": "Zul'jin|Passive"
+      },
+      {
+        "name": "Troll's Blood",
+        "description": "Regeneration heal amount increased by 75%",
+        "abilityId": "Zul'jin|E1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Recklessness",
+        "description": "While Zul'jin is below 50% Health, his Basic Attack damage is increased by 25%.",
+        "abilityId": "Zul'jin|Passive"
+      },
+      {
+        "name": "Vicious Assault",
+        "description": "Increases the number of bonus damage Basic Attack hits from Grievous Throw to 6. Basic Attacks against afflicted Heroes reduces the Cooldown of Grievous Throw by 2 seconds.",
+        "abilityId": "Zul'jin|Q1"
+      },
+      {
+        "name": "Wrong Place Wrong Time",
+        "description": "If an enemy is hit by both Twin Cleave Axes at the same time, they take 150 (+4% per level) bonus damage.",
+        "abilityId": "Zul'jin|W1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Guillotine",
+        "description": "Zul'jin launches a massive axe into the air that drops on the targeted area, dealing 350 (+4% per level) damage plus bonus damage the lower his Health is.",
+        "abilityId": "Zul'jin|R2",
+        "cooldown": 30
+      },
+      {
+        "name": "Taz'dingo!",
+        "description": "For the next 4 seconds, Zul'jin is Unkillable, and cannot be reduced to less than 1 Health. Taz'dingo!",
+        "abilityId": "Zul'jin|R1",
+        "cooldown": 90
+      }
+    ],
+    "13": [
+      {
+        "name": "Eye of Zul'jin",
+        "description": "Hitting an enemy Hero with Grievous Throw increases Zul'jin's Movement Speed by 25% for 2 seconds.",
+        "abilityId": "Zul'jin|Q1"
+      },
+      {
+        "name": "Forest Medicine",
+        "description": "Regeneration no longer has to be channeled, allowing Zul'jin to perform other actions while Regenerating. However, taking damage will still end the effect.",
+        "abilityId": "Zul'jin|E1"
+      },
+      {
+        "name": "Voodoo Shuffle",
+        "description": "Activate to remove all current Root and Slow effects on Zul'jin.",
+        "abilityId": "Zul'jin|Active",
+        "cooldown": 10
+      }
+    ],
+    "16": [
+      {
+        "name": "Ferocity",
+        "description": "Increases the Attack Speed bonus of Berserker by 35%.",
+        "abilityId": "Zul'jin|D1"
+      },
+      {
+        "name": "Lacerate",
+        "description": "Increases the slow amount of each Twin Cleave Axe by an additional 15%.",
+        "abilityId": "Zul'jin|W1"
+      },
+      {
+        "name": "Swirling Death",
+        "description": "Twin Cleave's Axes cycle twice and can hit enemies on each revolution, but its cooldown is increased by 4 seconds.",
+        "abilityId": "Zul'jin|W1"
+      }
+    ],
+    "20": [
+      {
+        "name": "Amani Resilience",
+        "description": "When Taz'dingo ends, Zul'jin heals for 50% of the damage he dealt during Taz'dingo.",
+        "abilityId": "Zul'jin|R1"
+      },
+      {
+        "name": "Buzzsaw",
+        "description": "After impact, the Guillotine continues forward, dealing 50% of Guillotine's damage to enemies in the line.",
+        "abilityId": "Zul'jin|R2"
+      },
+      {
+        "name": "Ensnare",
+        "description": "Throw a net forward, rooting the first enemy hit for 3 seconds.",
+        "abilityId": "Zul'jin|Active",
+        "cooldown": 45
+      }
+    ]
+  }
+}

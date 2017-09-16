@@ -1,0 +1,184 @@
+{
+  "id": "60",
+  "shortName": "ragnaros",
+  "name": "Ragnaros",
+  "role": "Assassin",
+  "type": "Melee",
+  "releaseDate": "2016-12-14",
+  "abilities": {
+    "Ragnaros": [
+      {
+        "name": "Empower Sulfuras",
+        "description": "Ragnaros's next Basic Attack is instant, dealing 191 (+4% per level) Ability damage in an area, and heals for 20% of the damage dealt. Healing doubled versus Heroes.  Molten Core: Molten Swing - Stun and damage nearby enemies.",
+        "hotkey": "Q",
+        "abilityId": "Ragnaros|Q1",
+        "cooldown": 4,
+        "manaCost": "25"
+      },
+      {
+        "name": "Living Meteor",
+        "description": "Summon a meteor at the target point that deals 68 (+4% per level) damage, then rolls in that target direction dealing 300 (+4% per level) damage per second for 1.75 seconds.  Molten Core: Meteor Shower - Drop a line of meteor impacts.",
+        "hotkey": "W",
+        "abilityId": "Ragnaros|W1",
+        "cooldown": 12,
+        "manaCost": "60"
+      },
+      {
+        "name": "Blast Wave",
+        "description": "Ignite Ragnaros or an ally, granting 25% Movement Speed for 1.5 seconds before exploding dealing 104 (+4% per level) damage to nearby enemies.  Molten Core: Explosive Rune - Cause a delayed explosion in a large area.",
+        "hotkey": "E",
+        "abilityId": "Ragnaros|E1",
+        "cooldown": 9,
+        "manaCost": "50"
+      },
+      {
+        "name": "Sulfuras Smash",
+        "description": "Hurl Sulfuras at the target area, landing after 0.75 seconds, dealing 198 (+4% per level) damage. Enemies in the center take 594 (+4% per level) damage instead and are Stunned for 0.5 seconds.",
+        "hotkey": "R",
+        "abilityId": "Ragnaros|R1",
+        "cooldown": 80,
+        "manaCost": "75"
+      },
+      {
+        "name": "Lava Wave",
+        "description": "Release a wave of lava from Ragnaros's Core that travels down the targeted lane, dealing 240 (+4% per level) damage per second to non-Structure enemies in its path and instantly killing enemy Minions. Damage increased by 100% versus Heroes.",
+        "hotkey": "R",
+        "abilityId": "Ragnaros|R2",
+        "cooldown": 120,
+        "manaCost": "80"
+      },
+      {
+        "name": "Molten Core",
+        "description": "Channel on an allied or destroyed Fort or Keep to replace it with Ragnaros's ultimate form, temporarily gaining new Abilities, having 3996 (+4% per level) Health that burns away over 18 seconds.  Ragnaros returns to his normal form upon losing all Health in Molten Core.",
+        "hotkey": "D",
+        "trait": true,
+        "abilityId": "Ragnaros|D1",
+        "cooldown": 120
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Engulfing Flame",
+        "description": "Increase Blast Wave's damage by 75% and its radius by 15%.",
+        "abilityId": "Ragnaros|E1"
+      },
+      {
+        "name": "Shifting Meteor",
+        "description": "Each time an enemy is hit by the same Living Meteor, they take 3% increased damage from it. Quest: Hit 75 Heroes with Living Meteor.  Reward: After hitting 75 Heroes with Living Meteor, its duration is increased to 2.25 seconds, and the Ability can be recast to change its direction once per cast.",
+        "abilityId": "Ragnaros|W1"
+      },
+      {
+        "name": "Sulfuras Hungers",
+        "description": "Quest: Every time you kill a Minion with Empower Sulfuras, its damage is increased by 1, up to 30.  Reward: After killing 30 Minions, increase its damage by an additional 90.",
+        "abilityId": "Ragnaros|Q1"
+      }
+    ],
+    "4": [
+      {
+        "name": "Catching Fire",
+        "description": "Quest: Gathering a Regeneration Globe increases Ragnaros' Health Regeneration by 1.25 per second, up to 18.75. Reward: After gathering 15 Regeneration Globes, activate Catching Fire to gain 25 Armor for 3 seconds, reducing damage taken by 25%.",
+        "abilityId": "Ragnaros|Active"
+      },
+      {
+        "name": "Fire Ward",
+        "description": "When Living Meteor hits an enemy Hero, gain a charge of Spell Block, reducing damage from the next enemy ability by 50%. Stores up to 2 charges.",
+        "abilityId": "Ragnaros|W1"
+      },
+      {
+        "name": "Slow Burn",
+        "description": "Blast Wave slows enemies hit by 40% for 2 seconds.",
+        "abilityId": "Ragnaros|E1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Blistering Attacks",
+        "description": "Every 10 seconds, Ragnaros's next Basic Attack against a Hero deals 60% bonus damage. Hitting enemies with Basic Abilities reduces this cooldown by 1 second.",
+        "abilityId": "Ragnaros|Passive"
+      },
+      {
+        "name": "Hand of Ragnaros",
+        "description": "If Empower Sulfuras hits at least 2 enemy Heroes, it restores 10 Mana and its cooldown is reduced by 2 seconds.",
+        "abilityId": "Ragnaros|Q1"
+      },
+      {
+        "name": "Molten Power",
+        "description": "Each enemy Hero hit by Living Meteor increases the damage of the next Living Meteor by 20%, up to a maximum of 100%.",
+        "abilityId": "Ragnaros|W1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Lava Wave",
+        "description": "Release a wave of lava from Ragnaros's Core that travels down the targeted lane, dealing 240 (+4% per level) damage per second to non-Structure enemies in its path and instantly killing enemy Minions. Damage increased by 100% versus Heroes.",
+        "abilityId": "Ragnaros|R2",
+        "cooldown": 120
+      },
+      {
+        "name": "Sulfuras Smash",
+        "description": "Hurl Sulfuras at the target area, landing after 0.75 seconds, dealing 198 (+4% per level) damage. Enemies in the center take 594 (+4% per level) damage instead and are Stunned for 0.5 seconds.",
+        "abilityId": "Ragnaros|R1",
+        "cooldown": 80
+      }
+    ],
+    "13": [
+      {
+        "name": "Cauterize Wounds",
+        "description": "Empower Sulfuras heals for an additional 40% of damage dealt to Heroes over 2 seconds.",
+        "abilityId": "Ragnaros|Q1"
+      },
+      {
+        "name": "Resilient Flame",
+        "description": "When Ragnaros is Stunned, he gains 40 Armor for 3 seconds, reducing damage taken by 40%.  This effect has a 15 second cooldown.",
+        "abilityId": "Ragnaros|Passive"
+      },
+      {
+        "name": "Tempered Flame",
+        "description": "When Blast Wave damages an enemy Hero, gain a Shield equal to 100% of the damage dealt for 3 seconds.",
+        "abilityId": "Ragnaros|E1"
+      }
+    ],
+    "16": [
+      {
+        "name": "Blast Echo",
+        "description": "After Blast Wave explodes, another Blast Wave is created on Ragnaros.",
+        "abilityId": "Ragnaros|E1"
+      },
+      {
+        "name": "Giant Scorcher",
+        "description": "Empower Sulfuras burns enemy Heroes for 9% of their maximum Health over 3 seconds. This additional damage does not heal Ragnaros.",
+        "abilityId": "Ragnaros|Q1"
+      },
+      {
+        "name": "Meteor Bomb",
+        "description": "Living Meteor explodes at the end of its path, dealing 220 (+4% per level) damage to all nearby enemies.",
+        "abilityId": "Ragnaros|W1"
+      }
+    ],
+    "20": [
+      {
+        "name": "Flames of Sulfuron",
+        "description": "Sulfuras Smash slows enemies by 50% for 2 seconds, and enemies in the center are stunned for an additional 0.5 seconds.",
+        "abilityId": "Ragnaros|R1"
+      },
+      {
+        "name": "Heroic Difficulty",
+        "description": "Molten Core has 25% increased Health and Damage, and its cooldown is reduced by 50 seconds.",
+        "abilityId": "Ragnaros|D1"
+      },
+      {
+        "name": "Lava Surge",
+        "description": "Lava Wave gains an additional charge and its cooldown is reduced by 30 seconds.",
+        "abilityId": "Ragnaros|R2"
+      },
+      {
+        "name": "Submerge",
+        "description": "Ragnaros submerges below, entering Stasis and healing for 600 Health over 3 seconds.",
+        "abilityId": "Ragnaros|Active",
+        "cooldown": 90
+      }
+    ]
+  }
+}

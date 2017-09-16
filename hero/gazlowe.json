@@ -1,0 +1,199 @@
+{
+  "id": "6",
+  "shortName": "gazlowe",
+  "name": "Gazlowe",
+  "role": "Specialist",
+  "type": "Melee",
+  "releaseDate": "2014-03-13",
+  "abilities": {
+    "Gazlowe": [
+      {
+        "name": "Rock-It! Turret",
+        "description": "Creates a turret that deals 62 (+4% per level) damage. Lasts for 30 seconds. Stores 2 charges.",
+        "hotkey": "Q",
+        "abilityId": "Gazlowe|Q1",
+        "cooldown": 15,
+        "manaCost": "70"
+      },
+      {
+        "name": "Deth Lazor",
+        "description": "Charged attack that deals 137 (+4% per level) damage to enemies in a line. Damage and range increase the longer the Ability is charged, up to 100% after 3 seconds. Deth Lazor can be channeled indefinitely.",
+        "hotkey": "W",
+        "abilityId": "Gazlowe|W1",
+        "cooldown": 12,
+        "manaCost": "60"
+      },
+      {
+        "name": "Xplodium Charge",
+        "description": "Places a bomb that deals 233 (+4% per level) damage to enemies within target area after 2.5 seconds, stunning them for 1.75 seconds.",
+        "hotkey": "E",
+        "abilityId": "Gazlowe|E1",
+        "cooldown": 14,
+        "manaCost": "60"
+      },
+      {
+        "name": "Grav-O-Bomb 3000",
+        "description": "After a 2 second delay, pull enemies toward the center of an area and deal 251 (+4% per level) damage.",
+        "hotkey": "R",
+        "abilityId": "Gazlowe|R1",
+        "cooldown": 110,
+        "manaCost": "100"
+      },
+      {
+        "name": "Robo-Goblin",
+        "description": "Activate to gain 30 Armor and 30% Movement Speed for 4 seconds.  Passive: Basic Attacks deal 100% bonus damage.",
+        "hotkey": "R",
+        "abilityId": "Gazlowe|R2",
+        "cooldown": 60
+      },
+      {
+        "name": "Salvager",
+        "description": "Destroyed enemy Structures and your Rock-it! Turrets drop Scrap. Collecting Scrap restores 30 Mana and causes your Abilities to recharge three times as fast over 3 seconds.  Activate Salvager to dismantle a target Rock-it! Turret and turn it into Scrap.",
+        "hotkey": "D",
+        "trait": true,
+        "abilityId": "Gazlowe|D1"
+      },
+      {
+        "name": "Focus Turrets!",
+        "description": "Orders any nearby Rock-It! Turrets to focus the target.",
+        "hotkey": "1",
+        "abilityId": "Gazlowe|11",
+        "cooldown": 1
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Break it Down!",
+        "description": "Scrap causes Abilities to cooldown four times as fast for 3 seconds.",
+        "abilityId": "Gazlowe|D1"
+      },
+      {
+        "name": "Extra TNT",
+        "description": "Increases Xplodium Charge damage by 10% per target hit, up to 100%.",
+        "abilityId": "Gazlowe|E1"
+      },
+      {
+        "name": "Goblin Repairs",
+        "description": "Quest: Gathering a Regeneration Globe increases Health Regeneration by 1 per second, up to 25. Reward: After gathering 25 Globes, gain an additional 15 Health Regeneration per second",
+        "abilityId": "Gazlowe|Passive"
+      },
+      {
+        "name": "Scrap-o-Matic Smelter",
+        "description": "Increases the Mana restored from Scrap by 100%.",
+        "abilityId": "Gazlowe|D1"
+      }
+    ],
+    "4": [
+      {
+        "name": "ARK Reaktor",
+        "description": "Reduces Xplodium Charge's cooldown by 2 seconds.  If Xplodium Charge hits an enemy Hero, gain 2 charges of Rock-It! Turret.",
+        "abilityId": "Gazlowe|E1"
+      },
+      {
+        "name": "Clockwerk Steam Fists",
+        "description": "Quest: Basic Attacks increase the duration of active Rock-It! Turrets by 1.5 seconds. Reward: After increasing duration by 600 total seconds, reduce the charge cooldown of Rock-It! Turret by 3 seconds.",
+        "abilityId": "Gazlowe|Q1"
+      },
+      {
+        "name": "Hired Goons",
+        "description": "Friendly non-Boss Mercenaries near Gazlowe deal 50% more damage. Rock-It! Turrets gain 50 Armor against Minions and Mercenaries, reducing their damage taken by 50%.",
+        "abilityId": "Gazlowe|Passive"
+      },
+      {
+        "name": "Reduce, Reuse, Recycle",
+        "description": "Enemy Minions that die nearby have a 15% chance to drop Scrap.",
+        "abilityId": "Gazlowe|D1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Engine Gunk",
+        "description": "Rock-It! Turret attacks slow enemies by 20% for 2 seconds.",
+        "abilityId": "Gazlowe|Q1"
+      },
+      {
+        "name": "Hyperfocus Coils",
+        "description": "The mana cost of Deth Lazor is reduced by 30 and it charges twice as fast.",
+        "abilityId": "Gazlowe|W1"
+      },
+      {
+        "name": "Rock-It! Turret XL",
+        "description": "Rock-It! Turrets attack up to 2 additonal enemies for 60% damage.",
+        "abilityId": "Gazlowe|Q1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Grav-O-Bomb 3000",
+        "description": "After a 2 second delay, pull enemies toward the center of an area and deal 251 (+4% per level) damage.",
+        "abilityId": "Gazlowe|R1",
+        "cooldown": 110
+      },
+      {
+        "name": "Robo-Goblin",
+        "description": "Activate to gain 30 Armor and 30% Movement Speed for 4 seconds.  Passive: Basic Attacks deal 100% bonus damage.",
+        "abilityId": "Gazlowe|R2",
+        "cooldown": 60
+      }
+    ],
+    "13": [
+      {
+        "name": "EZ-PZ Dimensional Ripper",
+        "description": "Deth Lazor slows Heroes by 50% and freezes non-Heroes for 3 seconds.",
+        "abilityId": "Gazlowe|W1"
+      },
+      {
+        "name": "Goblin Fusion",
+        "description": "Deth Lazor can be charged for 1 additional second to increase its damage bonus by an additional 100%.",
+        "abilityId": "Gazlowe|W1"
+      },
+      {
+        "name": "X-Tra Large Bombs",
+        "description": "Increases Xplodium Charge radius by 30%. Being stunned or rooted causes an Xplodium Charge to drop at Gazlowe's feet. This effect has a 10 second cooldown.",
+        "abilityId": "Gazlowe|E1"
+      }
+    ],
+    "16": [
+      {
+        "name": "Kwik Release Charge",
+        "description": "Xplodium Charge gains a second charge.",
+        "abilityId": "Gazlowe|E1"
+      },
+      {
+        "name": "Superior Schematics",
+        "description": "Gazlowe's Rock-It! Turrets have 25% increased range while he is within their attack range.",
+        "abilityId": "Gazlowe|Q1"
+      },
+      {
+        "name": "Turret Storage",
+        "description": "Increases Rock-It! Turret maximum charges from 2 to 3.",
+        "abilityId": "Gazlowe|Q1"
+      }
+    ],
+    "20": [
+      {
+        "name": "Firin' Mah Lazorz",
+        "description": "Firing Deth Lazor causes all of Gazlowe's Rock-It! Turrets to fire a Deth Lazor of their own that deals 137 (+4% per level) damage.",
+        "abilityId": "Gazlowe|W1"
+      },
+      {
+        "name": "It's Raining Scrap",
+        "description": "Activate to create 5 Scrap around Gazlowe over 5 seconds.",
+        "abilityId": "Gazlowe|Active",
+        "cooldown": 60
+      },
+      {
+        "name": "Mecha-Lord",
+        "description": "Basic Attacks deal an additional 100% damage. Passive: Gain 25 Armor.",
+        "abilityId": "Gazlowe|R2"
+      },
+      {
+        "name": "Miniature Black Hole",
+        "description": "Increases Grav-O-Bomb radius by 25% and damage by 50%.",
+        "abilityId": "Gazlowe|R1"
+      }
+    ]
+  }
+}

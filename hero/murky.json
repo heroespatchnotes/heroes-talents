@@ -1,0 +1,179 @@
+{
+  "id": "26",
+  "shortName": "murky",
+  "name": "Murky",
+  "role": "Specialist",
+  "type": "Melee",
+  "releaseDate": "2014-05-22",
+  "abilities": {
+    "Murky": [
+      {
+        "name": "Slime",
+        "description": "Deal 86 (+4% per level) damage and apply Slime on nearby enemies for 6 seconds, slowing them by 20%.  Deal 210 (+4% per level) damage to enemies who are already Slimed.",
+        "hotkey": "Q",
+        "abilityId": "Murky|Q1",
+        "cooldown": 4
+      },
+      {
+        "name": "Pufferfish",
+        "description": "Spit out a Pufferfish with 225 (+5.5% per level) health at the target point. After 3 seconds, the fish will blow up for 410 (+4% per level) damage. Deals 50% less damage to Structures.",
+        "hotkey": "W",
+        "abilityId": "Murky|W1",
+        "cooldown": 15
+      },
+      {
+        "name": "Safety Bubble",
+        "description": "Becomes Invulnerable for 2 seconds. While active, Murky cannot attack or use abilities.",
+        "hotkey": "E",
+        "abilityId": "Murky|E1",
+        "cooldown": 14
+      },
+      {
+        "name": "March of the Murlocs",
+        "description": "After 0.75 seconds, Murky commands a legion of Murlocs to march in a target direction, each one leaping onto the first enemy Hero or Structure they find. Each Murloc deals 125 (+4% per level) damage and slows its target by 15% for 5 seconds. Murlocs deal 50% damage to Structures.",
+        "hotkey": "R",
+        "abilityId": "Murky|R1",
+        "cooldown": 110
+      },
+      {
+        "name": "Octo-Grab",
+        "description": "Murky summons an octopus to stun target enemy Hero for 3 seconds while he hits them for 1 damage a second.",
+        "hotkey": "R",
+        "abilityId": "Murky|R2",
+        "cooldown": 50
+      },
+      {
+        "name": "Spawn Egg",
+        "description": "Place an Egg at target location, revealing the nearby area. Upon dying, Murky respawns at the Egg after 8 seconds. Murky only grants 25% of a real Hero's experience upon dying.  If Murky's Egg is killed, he is revealed to enemies for 15 seconds, and Spawn Egg is placed on cooldown.",
+        "hotkey": "D",
+        "trait": true,
+        "abilityId": "Murky|D1",
+        "cooldown": 15
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "A Fishy Deal",
+        "description": "Killing a Minion with Pufferfish grants a stack of Bribe. Use 8 stacks to bribe a Mercenary, instantly defeating them. Does not work on Bosses. Maximum of 32 stacks.",
+        "abilityId": "Murky|Active"
+      },
+      {
+        "name": "Egg Hunt",
+        "description": "Activate to place a fake Egg. If the fake Egg dies, it casts an untalented Slime. Maximum 3 fake Eggs.  Passive: Spawning from his Egg grants Murky Stealth for 5 seconds.",
+        "abilityId": "Murky|Active",
+        "cooldown": 3
+      },
+      {
+        "name": "Fish Eye",
+        "description": "Egg's Health is increased by 100%, its sight radius is increased by 300% and it can see Stealthed enemies.  Passive: Spawning from his Egg increases Murky's mount speed to 45% for 5 seconds.",
+        "abilityId": "Murky|D1"
+      }
+    ],
+    "4": [
+      {
+        "name": "Living the Dream",
+        "description": "Quest: Every 15 seconds Murky is alive, he gains 5% Ability Power, up to 15%. This bonus is reset upon his death.",
+        "abilityId": "Murky|Passive"
+      },
+      {
+        "name": "Slime Time",
+        "description": "Quest: Slime enemy Heroes that are already Slimed.  Reward: After Sliming 15 Heroes, increase Slime's bonus damage by 125.  Reward: After Sliming 30 Heroes, increase Slime's slow amount to 30%.",
+        "abilityId": "Murky|Q1"
+      },
+      {
+        "name": "Tufferfish",
+        "description": "Pufferfish gains 50 Spell Armor and deals 50% more damage to Slimed targets.",
+        "abilityId": "Murky|W1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Black Lagoon",
+        "description": "Increase Slime's radius by 30%.",
+        "abilityId": "Murky|Q1"
+      },
+      {
+        "name": "Slippery When Wet",
+        "description": "Gain 50% Movement Speed and move through units while in Safety Bubble.  Reduces Safety Bubble's cooldown by 2 seconds.",
+        "abilityId": "Murky|E1"
+      },
+      {
+        "name": "Time to Krill",
+        "description": "Basic Attacks against Heroes deal an additional 7 (+4% per level) damage a second and slow the target by 7% for 4 seconds. This effect can stack up to 5 times.",
+        "abilityId": "Murky|Passive"
+      }
+    ],
+    "10": [
+      {
+        "name": "March of the Murlocs",
+        "description": "After 0.75 seconds, Murky commands a legion of Murlocs to march in a target direction, each one leaping onto the first enemy Hero or Structure they find. Each Murloc deals 125 (+4% per level) damage and slows its target by 15% for 5 seconds. Murlocs deal 50% damage to Structures.",
+        "abilityId": "Murky|R1",
+        "cooldown": 110
+      },
+      {
+        "name": "Octo-Grab",
+        "description": "Murky summons an octopus to stun target enemy Hero for 3 seconds while he hits them for 1 damage a second.",
+        "abilityId": "Murky|R2",
+        "cooldown": 50
+      }
+    ],
+    "13": [
+      {
+        "name": "Egg Shell",
+        "description": "Spawning from his Egg grants Murky a Shield equal to 100% of his maximum Health. The shield lasts indefinitely.",
+        "abilityId": "Murky|D1"
+      },
+      {
+        "name": "Fish Tank",
+        "description": "Basic Attacks against Heroes grants Murky 75 Physical Armor against Heroes for 3 seconds.",
+        "abilityId": "Murky|Passive"
+      },
+      {
+        "name": "Rejuvenating Bubble",
+        "description": "Safety Bubble restores 40% of Murky's maximum Health.",
+        "abilityId": "Murky|E1"
+      }
+    ],
+    "16": [
+      {
+        "name": "Fish Oil",
+        "description": "The Pufferfish casts Slime at its location upon landing.",
+        "abilityId": "Murky|W1"
+      },
+      {
+        "name": "Toxic Buildup",
+        "description": "Every 3rd consecutive Basic Attack against an enemy Hero causes a free Slime to be cast upon them.",
+        "abilityId": "Murky|Q1"
+      },
+      {
+        "name": "Wrath of Cod",
+        "description": "Heroes hit by Pufferfish take additional damage equal to 15% of their maximum Health over 5 seconds.",
+        "abilityId": "Murky|W1"
+      }
+    ],
+    "20": [
+      {
+        "name": "...And a Shark Too!",
+        "description": "Increase the damage of Octo-Grab by 13700%.",
+        "abilityId": "Murky|R2"
+      },
+      {
+        "name": "Big Tuna Kahuna",
+        "description": "Murky's maximum Health and Egg respawn time are doubled.",
+        "abilityId": "Murky|D1"
+      },
+      {
+        "name": "Making Inky",
+        "description": "Reduces the Cooldown of Slime from 4 seconds to 2 seconds.",
+        "abilityId": "Murky|Q1"
+      },
+      {
+        "name": "Never-Ending Murlocs",
+        "description": "March of the Murlocs can be channeled, sending little Murlocs indefinitely.",
+        "abilityId": "Murky|R1"
+      }
+    ]
+  }
+}

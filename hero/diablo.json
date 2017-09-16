@@ -1,0 +1,185 @@
+{
+  "id": "3",
+  "shortName": "diablo",
+  "name": "Diablo",
+  "role": "Warrior",
+  "type": "Melee",
+  "releaseDate": "2014-03-13",
+  "abilities": {
+    "Diablo": [
+      {
+        "name": "Shadow Charge",
+        "description": "Charge an enemy, knocking them back, dealing 75 (+4% per level) damage and gaining 25 Armor for 2 seconds, reducing damage taken by 25%. If the enemy collides with terrain, they are stunned for 1 second and take an additional 150 (+4% per level) damage.",
+        "hotkey": "Q",
+        "abilityId": "Diablo|Q1",
+        "cooldown": 12,
+        "manaCost": "60"
+      },
+      {
+        "name": "Fire Stomp",
+        "description": "Unleashes fire waves in all directions that deal 54 (+4% per level) damage each. Once they reach maximum range, they return dealing an additional 81 (+4% per level) damage.",
+        "hotkey": "W",
+        "abilityId": "Diablo|W1",
+        "cooldown": 6,
+        "manaCost": "40"
+      },
+      {
+        "name": "Overpower",
+        "description": "Grabs the target and slams it behind Diablo, dealing 73 (+4% per level) damage and stunning for 0.25 seconds.",
+        "hotkey": "E",
+        "abilityId": "Diablo|E1",
+        "cooldown": 12,
+        "manaCost": "60"
+      },
+      {
+        "name": "Apocalypse",
+        "description": "Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and stunning for 1.75 seconds.",
+        "hotkey": "R",
+        "abilityId": "Diablo|R1",
+        "cooldown": 100,
+        "manaCost": "100"
+      },
+      {
+        "name": "Lightning Breath",
+        "description": "Become Unstoppable while channeling lightning that deals 800 (+4% per level) damage over 4 seconds.  The direction of the Lightning changes with your mouse cursor position.",
+        "hotkey": "R",
+        "abilityId": "Diablo|R2",
+        "cooldown": 60,
+        "manaCost": "80"
+      },
+      {
+        "name": "Black Soulstone",
+        "description": "Gain 10 Souls per Hero killed and 1 Soul per Minion, up to 100. For each Soul, gain 0.4% maximum Health. If Diablo has 100 Souls upon dying, he will resurrect in 5 seconds but lose 100 Souls.",
+        "trait": true,
+        "abilityId": "Diablo|D1",
+        "cooldown": 30
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Bulwark",
+        "description": "Increases the duration of Armor granted by Shadow Charge from 2 seconds to 4 seconds.",
+        "abilityId": "Diablo|Q1"
+      },
+      {
+        "name": "Devil's Due",
+        "description": "Black Soulstone increases the effects of Regen Globes and Healing Fountains by 2% per Soul.",
+        "abilityId": "Diablo|D1"
+      },
+      {
+        "name": "Life Leech",
+        "description": "Basic Attacks against enemy Heroes deal bonus damage equal to 1% of the Hero's maximum Health and heal Diablo for the same amount.",
+        "abilityId": "Diablo|Passive"
+      }
+    ],
+    "4": [
+      {
+        "name": "Demonic Strength",
+        "description": "Once Overpower's stun expires, the target is slowed by 30% for 3 seconds.",
+        "abilityId": "Diablo|E1"
+      },
+      {
+        "name": "From the Shadows",
+        "description": "Increases the cast range of Shadow Charge by 40%.",
+        "abilityId": "Diablo|Q1"
+      },
+      {
+        "name": "Speed Demon",
+        "description": "Being Stunned or Rooted increases Diablo's Movement Speed by 30% for 5 seconds.",
+        "abilityId": "Diablo|Passive"
+      }
+    ],
+    "7": [
+      {
+        "name": "Diabolical Momentum",
+        "description": "Basic Attacks reduce the cooldown of Overpower and Shadow Charge by 1.5 seconds.",
+        "abilityId": "Diablo|Passive"
+      },
+      {
+        "name": "Soul Feast",
+        "description": "Black Soulstone increases Diablo's Health Regeneration by 0.4 per second per Soul.",
+        "abilityId": "Diablo|D1"
+      },
+      {
+        "name": "Soul Shield",
+        "description": "Black Soulstone grants Diablo 0.25 Spell Armor per soul, reducing Ability Damage taken by 0.25% per Soul.",
+        "abilityId": "Diablo|D1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Apocalypse",
+        "description": "Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and stunning for 1.75 seconds.",
+        "abilityId": "Diablo|R1",
+        "cooldown": 100
+      },
+      {
+        "name": "Lightning Breath",
+        "description": "Become Unstoppable while channeling lightning that deals 800 (+4% per level) damage over 4 seconds.  The direction of the Lightning changes with your mouse cursor position.",
+        "abilityId": "Diablo|R2",
+        "cooldown": 60
+      }
+    ],
+    "13": [
+      {
+        "name": "Devastating Charge",
+        "description": "Shadow Charge's terrain collision against Heroes deals an additional 5% of the target's maximum life. Quest: Each time an enemy Hero takes terrain collision damage, increase the maximum life damage by 2%, to a maximum of 10% bonus.",
+        "abilityId": "Diablo|Q1"
+      },
+      {
+        "name": "Fire Devil",
+        "description": "Fire Stomp increases Diablo's Basic Attack damage by 20% and surrounds Diablo in flames that deal 20 (+4% per level) damage every second. Lasts 6 seconds.",
+        "abilityId": "Diablo|W1"
+      },
+      {
+        "name": "Hellfire",
+        "description": "Each enemy Hero hit by Fire Stomp increases the damage of the next Fire Stomp by 12%, up to 120%.",
+        "abilityId": "Diablo|W1"
+      }
+    ],
+    "16": [
+      {
+        "name": "Debilitating Flames",
+        "description": "Enemy Heroes hit by Fire Stomp are slowed by 15% for 2 seconds, up to 30%.",
+        "abilityId": "Diablo|W1"
+      },
+      {
+        "name": "Domination",
+        "description": "Casting Overpower resets the cooldown of Shadow Charge.",
+        "abilityId": "Diablo|E1"
+      },
+      {
+        "name": "Fearful Presence",
+        "description": "Activate to reduce the damage dealt by nearby enemy Heroes by 30% for 3 seconds. Passive: Heroes and Summons that attack Diablo have their Attack Speed slowed by 20% for 2.5 seconds.",
+        "abilityId": "Diablo|Active",
+        "cooldown": 20
+      }
+    ],
+    "20": [
+      {
+        "name": "Dying Breath",
+        "description": "Apocalypse's cooldown is reduced by 20 seconds and is cast for free when Diablo dies.",
+        "abilityId": "Diablo|R1"
+      },
+      {
+        "name": "Hellgate",
+        "description": "Teleport and place a demonic rune at target location. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and stunning enemies for 1.75 seconds.",
+        "abilityId": "Diablo|Active",
+        "cooldown": 120
+      },
+      {
+        "name": "Hellstorm",
+        "description": "Lightning Breath lasts and reaches 50% longer.",
+        "abilityId": "Diablo|R2"
+      },
+      {
+        "name": "Lord of Terror",
+        "description": "Activate to steal 10% of the maximum Health of nearby enemy Heroes.",
+        "abilityId": "Diablo|Active",
+        "cooldown": 60
+      }
+    ]
+  }
+}

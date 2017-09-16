@@ -1,0 +1,186 @@
+{
+  "id": "2",
+  "shortName": "arthas",
+  "name": "Arthas",
+  "role": "Warrior",
+  "type": "Melee",
+  "releaseDate": "2014-03-13",
+  "abilities": {
+    "Arthas": [
+      {
+        "name": "Death Coil",
+        "description": "Deals 164 (+4% per level) damage to target enemy.  Can be self-cast to heal for 262 (+4% per level) Health.",
+        "hotkey": "Q",
+        "abilityId": "Arthas|Q1",
+        "cooldown": 9,
+        "manaCost": "50"
+      },
+      {
+        "name": "Howling Blast",
+        "description": "Root enemies within the target area for 1.25 seconds and deals 68 (+4% per level) damage.",
+        "hotkey": "W",
+        "abilityId": "Arthas|W1",
+        "cooldown": 10,
+        "manaCost": "60"
+      },
+      {
+        "name": "Frozen Tempest",
+        "description": "Deals 40 (+4% per level) damage per second to nearby enemies. Slows enemy Move Speed and Attack Speed by 10% per second, stacking up to 40%.",
+        "hotkey": "E",
+        "abilityId": "Arthas|E1",
+        "cooldown": 1,
+        "manaCost": "15 per second"
+      },
+      {
+        "name": "Army of the Dead",
+        "description": "Summons Ghouls that last 15 seconds. Sacrifice Ghouls to heal for 267 (+4% per level) Health.",
+        "hotkey": "R",
+        "abilityId": "Arthas|R1",
+        "cooldown": 80,
+        "manaCost": "80"
+      },
+      {
+        "name": "Summon Sindragosa",
+        "description": "Deals 230 (+4% per level) damage and slows enemies by 60% for 3.5 seconds.  Also disables non-Heroic enemies and Structures for 20 seconds.",
+        "hotkey": "R",
+        "abilityId": "Arthas|R2",
+        "cooldown": 100,
+        "manaCost": "100"
+      },
+      {
+        "name": "Frostmourne Hungers",
+        "description": "Activate to make Arthas's next Basic Attack strike immediately, do 99 increased damage, and restore 30 Mana.",
+        "hotkey": "D",
+        "trait": true,
+        "abilityId": "Arthas|D1",
+        "cooldown": 12
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Eternal Hunger",
+        "description": "Quest: Use Frostmourne Hungers on an enemy Hero.  Reward: Increases the Mana it restores by 4, to a maximum of 40, and its damage by 4.",
+        "abilityId": "Arthas|D1"
+      },
+      {
+        "name": "Frost Presence",
+        "description": "Quest: Root enemy Heroes with Howling Blast.  Reward: After rooting 5 Heroes, Howling Blast's cooldown is reduced by 2 seconds.  Reward: After rooting 10 Heroes, Howling Blast's range is increased by 30%.  Reward: After rooting 20 Heroes, Howling Blast also roots enemies in its path.",
+        "abilityId": "Arthas|W1"
+      },
+      {
+        "name": "Rime",
+        "description": "Every 5 seconds, gain 60 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 60%. Stores up to 3 charges.",
+        "abilityId": "Arthas|Passive"
+      }
+    ],
+    "4": [
+      {
+        "name": "Deathlord",
+        "description": "Reduces Death Coil's cooldown by 3 seconds and increase its range by 30%.",
+        "abilityId": "Arthas|Q1"
+      },
+      {
+        "name": "Frozen Wastes",
+        "description": "Frozen Tempest Mana cost reduced by 4 per second.  Quest: Damage enemy Heroes with Frozen Tempest.  Reward: After damaging enemy Heroes 150 times with Frozen Tempest, the Movement and Attack Speed slows of Frozen Tempest last an extra 1.5 seconds against enemy Heroes.",
+        "abilityId": "Arthas|E1"
+      },
+      {
+        "name": "Icy Talons",
+        "description": "Gain 3% Attack Speed for 1.5 seconds every time a Hero is damaged by Frozen Tempest, to a maximum of 60%.",
+        "abilityId": "Arthas|E1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Icebound Fortitude",
+        "description": "Activate to gain 25 Armor, reducing damage taken by 25%, and reduce the duration of Stuns, Slows, and Roots against Arthas by 75% for 3 seconds.",
+        "abilityId": "Arthas|Active",
+        "cooldown": 35
+      },
+      {
+        "name": "Immortal Coil",
+        "description": "Gain the healing effect of Death Coil even when used on enemies. If Death Coil is used on Arthas, it heals for an additional 50% bonus healing.",
+        "abilityId": "Arthas|Q1"
+      },
+      {
+        "name": "Rune Tap",
+        "description": "Every 3rd Basic Attack heals Arthas for 4% of his max Health.",
+        "abilityId": "Arthas|Passive"
+      }
+    ],
+    "10": [
+      {
+        "name": "Army of the Dead",
+        "description": "Summons Ghouls that last 15 seconds. Sacrifice Ghouls to heal for 267 (+4% per level) Health.",
+        "abilityId": "Arthas|R1",
+        "cooldown": 80
+      },
+      {
+        "name": "Summon Sindragosa",
+        "description": "Deals 230 (+4% per level) damage and slows enemies by 60% for 3.5 seconds.  Also disables non-Heroic enemies and Structures for 20 seconds.",
+        "abilityId": "Arthas|R2",
+        "cooldown": 100
+      }
+    ],
+    "13": [
+      {
+        "name": "Biting Cold",
+        "description": "Each second an enemy is damaged by Frozen Tempest, it deals 12.5% bonus damage, up to a 50% bonus.",
+        "abilityId": "Arthas|E1"
+      },
+      {
+        "name": "Frost Strike",
+        "description": "Reduces Frostmourne Hungers' cooldown by 2 seconds. Frostmourne Hungers also slows the enemy by 50% for 1.5 seconds.",
+        "abilityId": "Arthas|D1"
+      },
+      {
+        "name": "Shattered Armor",
+        "description": "Enemy Heroes hit by Howling Blast have their Armor reduced by 15 for 4 seconds.",
+        "abilityId": "Arthas|W1"
+      }
+    ],
+    "16": [
+      {
+        "name": "Embrace Death",
+        "description": "Death Coil deals more damage and heals more the lower Arthas's current health is, to a maximum of 100% bonus damage and healing.",
+        "abilityId": "Arthas|Q1"
+      },
+      {
+        "name": "Frostmourne Feeds",
+        "description": "Increases the amount of Basic Attacks empowered by Frostmourne Hungers to 2.",
+        "abilityId": "Arthas|D1"
+      },
+      {
+        "name": "Remorseless Winter",
+        "description": "Enemy Heroes that remain within Frozen Tempest for 3 seconds are rooted for 1.25 seconds. This effect can only happen once every 10 seconds.",
+        "abilityId": "Arthas|E1"
+      }
+    ],
+    "20": [
+      {
+        "name": "Absolute Zero",
+        "description": "Sindragosa flies twice as far.  Enemy Heroes are rooted for 2 seconds, and then slowed by 60% for 3.5 seconds.",
+        "abilityId": "Arthas|R2"
+      },
+      {
+        "name": "Anti-Magic Shell",
+        "description": "Activate to make Arthas immune to Spell Damage for 3 seconds and heal Arthas for 25% of the damage prevented.",
+        "abilityId": "Arthas|Active",
+        "cooldown": 60
+      },
+      {
+        "name": "Death's Advance",
+        "description": "Activate to increase Movement Speed by 30% for 3 seconds.  Passive: Increases Movement Speed by 10%.",
+        "abilityId": "Arthas|Active",
+        "cooldown": 50
+      },
+      {
+        "name": "Legion of Northrend",
+        "description": "3 additional Ghouls are created.  Ghouls heal for an additional 50% and last 5 seconds longer.",
+        "abilityId": "Arthas|R1"
+      }
+    ]
+  }
+}

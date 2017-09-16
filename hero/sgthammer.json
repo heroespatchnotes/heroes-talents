@@ -1,0 +1,206 @@
+{
+  "id": "14",
+  "shortName": "sgthammer",
+  "name": "Sgt. Hammer",
+  "role": "Specialist",
+  "type": "Ranged",
+  "releaseDate": "2014-03-13",
+  "abilities": {
+    "Sgt. Hammer": [
+      {
+        "name": "Spider Mines",
+        "description": "Create 3 mines that deal 96 (+4% per level) damage and slow enemies by 25% for 1.5 seconds.",
+        "hotkey": "Q",
+        "abilityId": "Sgt. Hammer|Q1",
+        "cooldown": 14,
+        "manaCost": "50"
+      },
+      {
+        "name": "Concussive Blast",
+        "description": "Deals 141 (+4% per level) damage and pushes enemies away.",
+        "hotkey": "W",
+        "abilityId": "Sgt. Hammer|W1",
+        "cooldown": 12,
+        "manaCost": "75"
+      },
+      {
+        "name": "Siege Mode",
+        "description": "Become immobile to increase Basic Attack range by 90%, deal 25% splash damage, and deal 30% bonus damage to Minions and Structures.",
+        "hotkey": "E",
+        "abilityId": "Sgt. Hammer|E1",
+        "cooldown": 2,
+        "manaCost": "20"
+      },
+      {
+        "name": "Napalm Strike",
+        "description": "Deals 164 (+4% per level) damage on impact, and leaves a napalm area that deals 50 (+4% per level) damage per second. Lasts for 4 seconds.",
+        "hotkey": "R",
+        "abilityId": "Sgt. Hammer|R1",
+        "cooldown": 6,
+        "manaCost": "35"
+      },
+      {
+        "name": "Blunt Force Gun",
+        "description": "Fire a missile across the battlefield, dealing 500 (+3% per level) damage to enemies in its path.",
+        "hotkey": "R",
+        "abilityId": "Sgt. Hammer|R2",
+        "cooldown": 70,
+        "manaCost": "100"
+      },
+      {
+        "name": "Artillery",
+        "description": "Basic Attacks deal 30% more damage to distant enemies and Basic Attack range increased by 20%.",
+        "trait": true,
+        "abilityId": "Sgt. Hammer|D1"
+      },
+      {
+        "name": "Thrusters",
+        "description": "Increase your Movement Speed by 60% for 4 seconds.",
+        "hotkey": "Z",
+        "abilityId": "Sgt. Hammer|Z1",
+        "cooldown": 30
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Advanced Artillery",
+        "description": "Increase the damage bonus to long distance enemies by 10%.",
+        "abilityId": "Sgt. Hammer|D1"
+      },
+      {
+        "name": "Ambush",
+        "description": "Stealth when entering Siege Mode. Your next Basic Attack from Siege Mode will deal 100% more damage. Lose Stealth when Basic Attacking, using an Ability, taking damage, or returning to Tank Mode.",
+        "abilityId": "Sgt. Hammer|E1",
+        "cooldown": 2
+      },
+      {
+        "name": "Regeneration Master",
+        "description": "Quest: Gathering a Regeneration Globe increases your Health Regeneration by 1 per second, up to 30.  Reward: After gathering 30 Regeneration Globes, you also gain 500 Health.",
+        "abilityId": "Sgt. Hammer|Passive"
+      },
+      {
+        "name": "Resistant",
+        "description": "Being Stunned or Rooted while in Siege Mode grants 50 Armor for 3 seconds, reducing damage taken by 50%.",
+        "abilityId": "Sgt. Hammer|Passive"
+      }
+    ],
+    "4": [
+      {
+        "name": "Excessive Force",
+        "description": "Double the knock back distance of Concussive Blast.",
+        "abilityId": "Sgt. Hammer|W1"
+      },
+      {
+        "name": "Focused Attack",
+        "description": "Every 10 seconds, your next Basic Attack against a Hero deals 60% additional damage. Basic Attacks reduce this cooldown by 1 second.",
+        "abilityId": "Sgt. Hammer|Passive"
+      },
+      {
+        "name": "Vigorous Assault",
+        "description": "Basic Attacks heal for 15% of the damage dealt to the primary target.",
+        "abilityId": "Sgt. Hammer|Passive"
+      }
+    ],
+    "7": [
+      {
+        "name": "First Aid",
+        "description": "Activate to heal 35% of your max Health over 6 seconds.",
+        "abilityId": "Sgt. Hammer|Active",
+        "cooldown": 60
+      },
+      {
+        "name": "Hyper-Cooling Engines",
+        "description": "Reduce the cooldown of Thrusters by 15 seconds.",
+        "abilityId": "Sgt. Hammer|Z1"
+      },
+      {
+        "name": "Mine Field",
+        "description": "Increase the number of mines by 2.",
+        "abilityId": "Sgt. Hammer|Q1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Blunt Force Gun",
+        "description": "Fire a missile across the battlefield, dealing 500 (+3% per level) damage to enemies in its path.",
+        "abilityId": "Sgt. Hammer|R2",
+        "cooldown": 70
+      },
+      {
+        "name": "Napalm Strike",
+        "description": "Deals 164 (+4% per level) damage on impact, and leaves a napalm area that deals 50 (+4% per level) damage per second. Lasts for 4 seconds.",
+        "abilityId": "Sgt. Hammer|R1",
+        "cooldown": 6
+      }
+    ],
+    "13": [
+      {
+        "name": "Barricade",
+        "description": "Create a wall of path blocking debris for 4 seconds.",
+        "abilityId": "Sgt. Hammer|W1"
+      },
+      {
+        "name": "Bullhead Mines",
+        "description": "Middle Spider Mine knocks target back a short distance.",
+        "abilityId": "Sgt. Hammer|Q1"
+      },
+      {
+        "name": "First Strike",
+        "description": "Basic Attacks deal 25% more damage if you haven't been attacked within the last 5 seconds.",
+        "abilityId": "Sgt. Hammer|Passive"
+      },
+      {
+        "name": "Giant Killer",
+        "description": "Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health.",
+        "abilityId": "Sgt. Hammer|Passive"
+      }
+    ],
+    "16": [
+      {
+        "name": "Executioner",
+        "description": "Attacking a Hero that is slowed, rooted, or stunned increases your Basic Attack damage by 30% for 3 seconds.",
+        "abilityId": "Sgt. Hammer|Passive"
+      },
+      {
+        "name": "Graduating Range",
+        "description": "While in Siege Mode, Sgt. Hammer's Attack range increases by 1.1 every 3 seconds, up to 5.5.",
+        "abilityId": "Sgt. Hammer|E1"
+      },
+      {
+        "name": "Hover Siege Mode",
+        "description": "You can move at 50% Movement Speed in Siege Mode.",
+        "abilityId": "Sgt. Hammer|E1"
+      },
+      {
+        "name": "Stoneskin",
+        "description": "Activate to gain 30% of your maximum Health as a Shield for 5 seconds.",
+        "abilityId": "Sgt. Hammer|Active",
+        "cooldown": 60
+      }
+    ],
+    "20": [
+      {
+        "name": "Advanced Lava Strike",
+        "description": "Napalm Strike's range is increased by 75% and its impact does 50% more damage.",
+        "abilityId": "Sgt. Hammer|R1"
+      },
+      {
+        "name": "Fury of the Storm",
+        "description": "Every 5 seconds, your next Basic Attack will deal an additional 91 (+4% per level) damage to the target, and 228 (+4% per level) damage to all nearby Minions, Mercenaries, and Monsters.",
+        "abilityId": "Sgt. Hammer|Passive"
+      },
+      {
+        "name": "Nexus Frenzy",
+        "description": "Increases Attack Speed by 20% and Attack Range by 1.1.",
+        "abilityId": "Sgt. Hammer|Passive"
+      },
+      {
+        "name": "Orbital BFG",
+        "description": "Blunt Force Gun's missile orbits the planet every 5 seconds. Only the last missile fired orbits.",
+        "abilityId": "Sgt. Hammer|R2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "id": "41",
+  "shortName": "rexxar",
+  "name": "Rexxar",
+  "role": "Warrior",
+  "type": "Ranged",
+  "releaseDate": "2015-09-08",
+  "abilities": {
+    "Rexxar": [
+      {
+        "name": "Spirit Swoop",
+        "description": "Deal 141 (+4% per level) damage to enemies in a line, slowing them by 30% for 2 seconds.",
+        "hotkey": "Q",
+        "abilityId": "Rexxar|Q1",
+        "cooldown": 7,
+        "manaCost": "40"
+      },
+      {
+        "name": "Misha, Charge!",
+        "description": "Misha charges in a line, dealing 59 (+4% per level) damage and stunning enemies for 1.25 seconds.",
+        "hotkey": "W",
+        "abilityId": "Rexxar|W1",
+        "cooldown": 10,
+        "manaCost": "45"
+      },
+      {
+        "name": "Mend Pet",
+        "description": "Heal Misha for 596 (+4% per level) Health over 5 seconds.",
+        "hotkey": "E",
+        "abilityId": "Rexxar|E1",
+        "cooldown": 10,
+        "manaCost": "55"
+      },
+      {
+        "name": "Unleash the Boars",
+        "description": "Release a herd of boars that track down all enemy Heroes in a direction, dealing 110 (+4% per level) damage, revealing, and slowing enemies by 40% for 5 seconds.",
+        "hotkey": "R",
+        "abilityId": "Rexxar|R1",
+        "cooldown": 60,
+        "manaCost": "75"
+      },
+      {
+        "name": "Bestial Wrath",
+        "description": "Increases Misha's Basic Attack damage by 150% for 12 seconds.",
+        "hotkey": "R",
+        "abilityId": "Rexxar|R2",
+        "cooldown": 50,
+        "manaCost": "75"
+      },
+      {
+        "name": "Misha, Focus!",
+        "description": "Passive: Misha gains 15% move speed. Command Misha to attack a specific enemy or move to a point and wait. Targeting Rexxar commands Misha to retreat to his position, gaining 30% move speed until she reaches Rexxar. Targeting Misha commands her to hold her current position.",
+        "hotkey": "D",
+        "trait": true,
+        "abilityId": "Rexxar|D1"
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Bird of Prey",
+        "description": "Increases Spirit Swoop's damage by 150% to Minions.",
+        "abilityId": "Rexxar|Q1"
+      },
+      {
+        "name": "Easy Prey",
+        "description": "Increases Misha's damage to Minions and Mercenaries by 150%, and Misha gains 50 Armor against Minions and Mercenaries, reducing damage taken by 50%.",
+        "abilityId": "Rexxar|Passive"
+      },
+      {
+        "name": "Flare",
+        "description": "Fire a flare at an area, revealing it for 20 seconds.",
+        "abilityId": "Rexxar|Active",
+        "cooldown": 20
+      }
+    ],
+    "4": [
+      {
+        "name": "Animal Husbandry",
+        "description": "Rexxar and Misha gain 2 Maximum Health every second Rexxar remains alive. These bonuses are lost on Rexxar's death.",
+        "abilityId": "Rexxar|Passive"
+      },
+      {
+        "name": "Grizzled Fortitude",
+        "description": "Every 7 seconds, Rexxar and Misha gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%. Stores up to 2 charges. Both Rexxar and Misha have their own charges.",
+        "abilityId": "Rexxar|Passive"
+      },
+      {
+        "name": "Hungry Bear",
+        "description": "Misha's Basic Attacks heal her for 4.5% of her maximum Health.",
+        "abilityId": "Rexxar|Passive"
+      },
+      {
+        "name": "Hunter-Gatherer",
+        "description": "Quest: Gathering a Regeneration Globe increases Rexxar's Health Regeneration by 1.25 per second, up to 25 per second.  Reward: After gathering 20 Globes, Rexxar and Misha gain 10 Armor.",
+        "abilityId": "Rexxar|Passive"
+      }
+    ],
+    "7": [
+      {
+        "name": "Aspect of the Beast",
+        "description": "Misha's Basic Attacks lower the cooldown of Misha, Charge! by 1.25 seconds.",
+        "abilityId": "Rexxar|W1"
+      },
+      {
+        "name": "Crippling Talons",
+        "description": "Increases Spirit Swoop's slow amount to 50% and its duration to 3 seconds.",
+        "abilityId": "Rexxar|Q1"
+      },
+      {
+        "name": "Taking Flight",
+        "description": "Increases Spirit Swoop's range by 20%. If Spirit Swoop hits an enemy Hero, the Mana cost is refunded and its cooldown is reduced by 2 seconds.",
+        "abilityId": "Rexxar|Q1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Bestial Wrath",
+        "description": "Increases Misha's Basic Attack damage by 150% for 12 seconds.",
+        "abilityId": "Rexxar|R2",
+        "cooldown": 50
+      },
+      {
+        "name": "Unleash the Boars",
+        "description": "Release a herd of boars that track down all enemy Heroes in a direction, dealing 110 (+4% per level) damage, revealing, and slowing enemies by 40% for 5 seconds.",
+        "abilityId": "Rexxar|R1",
+        "cooldown": 60
+      }
+    ],
+    "13": [
+      {
+        "name": "Aspect of the Hawk",
+        "description": "When Spirit Swoop hits an enemy Hero, Rexxar gains 125% Attack Speed for 3 seconds. Misha's Basic Attacks increase the duration of this buff by 0.75 seconds.",
+        "abilityId": "Rexxar|Q1"
+      },
+      {
+        "name": "Dire Beast",
+        "description": "Rexxar and Misha's Basic Attacks increase the damage of the next Misha, Charge! by 40%, stacking up to a 400% bonus.",
+        "abilityId": "Rexxar|W1"
+      },
+      {
+        "name": "Wildfire Bear",
+        "description": "Misha deals 28 (+4% per level) damage per second to nearby enemies.",
+        "abilityId": "Rexxar|Passive"
+      }
+    ],
+    "16": [
+      {
+        "name": "Feign Death",
+        "description": "Fake your death, becoming Invulnerable and untargetable for 5 seconds. During this time you control Misha.",
+        "abilityId": "Rexxar|Active",
+        "cooldown": 35
+      },
+      {
+        "name": "Primal Intimidation",
+        "description": "Heroes and Summons that attack you or Misha have their Attack Speed slowed by 20% for 2.5 seconds. Activate to slow the Attack Speed by 50% and Movement Speed by 20% of nearby Heroes and Summons near Rexxar and Misha for 2.5 seconds.",
+        "abilityId": "Rexxar|Active",
+        "cooldown": 20
+      },
+      {
+        "name": "Thrill of the Hunt",
+        "description": "Your Basic Attacks increase both you and Misha's Movement Speed by 25% for 2 seconds.",
+        "abilityId": "Rexxar|Passive"
+      }
+    ],
+    "20": [
+      {
+        "name": "Frenzy of Kalimdor",
+        "description": "Your Basic Attacks deal 10% more damage, and Misha's Basic Attacks slow the target by 20% for 1.25 seconds.",
+        "abilityId": "Rexxar|Passive"
+      },
+      {
+        "name": "Hardened Skin",
+        "description": "You and Misha take 75% less damage for 4 seconds.",
+        "abilityId": "Rexxar|Active",
+        "cooldown": 60
+      },
+      {
+        "name": "Kill Command",
+        "description": "Unleash the Boars deals 50% more damage and roots for 1.5 seconds.",
+        "abilityId": "Rexxar|R1"
+      },
+      {
+        "name": "Spirit Bond",
+        "description": "Increases the duration of Bestial Wrath by 50% and Misha's Basic Attacks heal Rexxar for 50% of her damage dealt during Bestial Wrath.",
+        "abilityId": "Rexxar|R2"
+      }
+    ]
+  }
+}

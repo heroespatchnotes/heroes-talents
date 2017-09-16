@@ -1,0 +1,202 @@
+{
+  "id": "28",
+  "shortName": "rehgar",
+  "name": "Rehgar",
+  "role": "Support",
+  "type": "Melee",
+  "releaseDate": "2014-07-23",
+  "abilities": {
+    "Rehgar": [
+      {
+        "name": "Chain Heal",
+        "description": "Heal an ally for 334 (+4% per level) Health, then heal up to two other nearby allies for 167 (+4% per level) Health each.",
+        "hotkey": "Q",
+        "abilityId": "Rehgar|Q1",
+        "cooldown": 9,
+        "manaCost": "65"
+      },
+      {
+        "name": "Lightning Shield",
+        "description": "Imbue an ally with lightning dealing 70 (+4% per level) damage a second to nearby enemies.  Lasts 5 seconds.",
+        "hotkey": "W",
+        "abilityId": "Rehgar|W1",
+        "cooldown": 8,
+        "manaCost": "60"
+      },
+      {
+        "name": "Earthbind Totem",
+        "description": "Create a totem that slows nearby enemies by 35%.  The totem has 217 (+4% per level) Health and lasts for 8 seconds.",
+        "hotkey": "E",
+        "abilityId": "Rehgar|E1",
+        "cooldown": 15,
+        "manaCost": "50"
+      },
+      {
+        "name": "Bloodlust",
+        "description": "Grant nearby allied Heroes 40% Attack Speed and 25% Movement Speed, and causes them to heal for 30% of the Basic Attack damage to their primary target. Lasts for 8 seconds.",
+        "hotkey": "R",
+        "abilityId": "Rehgar|R1",
+        "cooldown": 90,
+        "manaCost": "70"
+      },
+      {
+        "name": "Ancestral Healing",
+        "description": "After 1 second, heal an allied Hero for 1552 (+4% per level) Health.  Cannot be used on yourself.",
+        "hotkey": "R",
+        "abilityId": "Rehgar|R2",
+        "cooldown": 100,
+        "manaCost": "80"
+      },
+      {
+        "name": "Ghost Wolf",
+        "description": "Instead of using a mount, you transform into a Ghost Wolf with 20% increased Movement Speed. Basic Attacks in Ghost Wolf form cause you to lunge at your target and deal 75% bonus damage. Dealing damage, using Abilities, and channeling cancels Ghost Wolf form.",
+        "hotkey": "Z",
+        "abilityId": "Rehgar|Z1",
+        "cooldown": 1
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Colossal Totem",
+        "description": "Increases the area and range of Earthbind Totem by 50%.",
+        "abilityId": "Rehgar|E1"
+      },
+      {
+        "name": "Electric Charge",
+        "description": "Increases the radius of Lightning Shield by 25%.",
+        "abilityId": "Rehgar|W1"
+      },
+      {
+        "name": "Lightning Bond",
+        "description": "Casting Lightning Shield on an ally also casts an untalented version on you.",
+        "abilityId": "Rehgar|W1"
+      },
+      {
+        "name": "Wolf Run",
+        "description": "Increases the Movement Speed of Ghost Wolf from 20% to 30%.",
+        "abilityId": "Rehgar|Z1"
+      }
+    ],
+    "4": [
+      {
+        "name": "Feral Heart",
+        "description": "Increases Health and Mana Regeneration by 75% while in Ghost Wolf form.",
+        "abilityId": "Rehgar|Z1"
+      },
+      {
+        "name": "Healing Totem",
+        "description": "Activate to place a Totem that heals allies in an area for 2% of their maximum Health every second for 10 seconds.",
+        "abilityId": "Rehgar|Active",
+        "cooldown": 30
+      },
+      {
+        "name": "Spiritwalker's Grace",
+        "description": "Reduces Chain Heal's Mana cost from 65 to 45.",
+        "abilityId": "Rehgar|Q1"
+      },
+      {
+        "name": "Stormcaller",
+        "description": "When Lightning Shield damages an enemy it restores 4 Mana, up to 40.",
+        "abilityId": "Rehgar|W1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Blood and Thunder",
+        "description": "Ghost Wolf attacks reduce Basic Ability cooldowns by 2 seconds.",
+        "abilityId": "Rehgar|Z1"
+      },
+      {
+        "name": "Cleanse",
+        "description": "Activate to make target ally Unstoppable for 1 second. Cannot be cast on yourself.",
+        "abilityId": "Rehgar|Active",
+        "cooldown": 60
+      },
+      {
+        "name": "Farsight",
+        "description": "Activate to reveal an area for 10 seconds.  Enemies in the area are revealed for 4 seconds.",
+        "abilityId": "Rehgar|Active",
+        "cooldown": 30
+      },
+      {
+        "name": "Totemic Projection",
+        "description": "Increases Earthbind Totem's duration from 8 to 12 seconds, and it can be reactivated to move an existing totem to a new location once.",
+        "abilityId": "Rehgar|E1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Ancestral Healing",
+        "description": "After 1 second, heal an allied Hero for 1552 (+4% per level) Health.  Cannot be used on yourself.",
+        "abilityId": "Rehgar|R2",
+        "cooldown": 100
+      },
+      {
+        "name": "Bloodlust",
+        "description": "Grant nearby allied Heroes 40% Attack Speed and 25% Movement Speed and causes them to heal for 30% of the Basic Attack damage to their primary target. Lasts for 8 seconds.",
+        "abilityId": "Rehgar|R1",
+        "cooldown": 90
+      }
+    ],
+    "13": [
+      {
+        "name": "Earth Shield",
+        "description": "Lightning Shield gives a Shield that absorbs damage equal to 12% of their maximum Health for 3 seconds.",
+        "abilityId": "Rehgar|W1"
+      },
+      {
+        "name": "Earthliving Enchant",
+        "description": "When Chain Heal heals a Hero below 50% Health, they are healed an additional 200 (+4% per level) Health over 5 seconds.",
+        "abilityId": "Rehgar|Q1"
+      },
+      {
+        "name": "Tidal Waves",
+        "description": "Reduces Chain Heal's cooldown by 1 second for each Hero healed.",
+        "abilityId": "Rehgar|Q1"
+      }
+    ],
+    "16": [
+      {
+        "name": "Earthgrasp Totem",
+        "description": "When Earthbind Totem is first cast, it slows nearby enemies by 90% for 1 second.",
+        "abilityId": "Rehgar|E1"
+      },
+      {
+        "name": "Hunger of the Wolf",
+        "description": "Ghost Wolf attacks against Heroes deal an additional 5% of the target's maximum Health and heal you for 5% of your maximum Health.",
+        "abilityId": "Rehgar|Z1"
+      },
+      {
+        "name": "Rising Storm",
+        "description": "Every time Lighting Shield damages an enemy Hero, increase that Lightning Shield's damage by 10%. Stacks up to 20 times.",
+        "abilityId": "Rehgar|W1"
+      }
+    ],
+    "20": [
+      {
+        "name": "Farseer's Blessing",
+        "description": "Increases healing amount by 50%. Allies near the target are healed for 50% of the amount of health regained.",
+        "abilityId": "Rehgar|R2"
+      },
+      {
+        "name": "Gladiator's War Shout",
+        "description": "Increases Bloodlust's healing from 30% to 60% of Basic Attack damage done.",
+        "abilityId": "Rehgar|R1"
+      },
+      {
+        "name": "Rewind",
+        "description": "Activate to reset the cooldowns of your Basic Abilities.",
+        "abilityId": "Rehgar|Active",
+        "cooldown": 60
+      },
+      {
+        "name": "Storm Shield",
+        "description": "Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.",
+        "abilityId": "Rehgar|Active",
+        "cooldown": 45
+      }
+    ]
+  }
+}

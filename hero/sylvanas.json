@@ -1,0 +1,193 @@
+{
+  "id": "35",
+  "shortName": "sylvanas",
+  "name": "Sylvanas",
+  "role": "Specialist",
+  "type": "Ranged",
+  "releaseDate": "2015-03-24",
+  "abilities": {
+    "Sylvanas": [
+      {
+        "name": "Withering Fire",
+        "description": "Shoot the closest enemy for 48 (+4% per level) damage, preferring Heroes.  Stores 5 charges.  Gain 1 charge on nearby enemy Minion or Mercenary deaths, and 3 charges on nearby enemy Hero deaths.",
+        "hotkey": "Q",
+        "abilityId": "Sylvanas|Q1",
+        "cooldown": 2
+      },
+      {
+        "name": "Shadow Dagger",
+        "description": "Deals 37 (+4% per level) damage and an additional 148 (+4% per level) damage over 2 seconds to target unit. The effect spreads to nearby targets.",
+        "hotkey": "W",
+        "abilityId": "Sylvanas|W1",
+        "cooldown": 10,
+        "manaCost": "75"
+      },
+      {
+        "name": "Haunting Wave",
+        "description": "Send forth a wave of banshees dealing 114 (+4% per level) damage to all targets. Reactivate to teleport to the banshees' location.",
+        "hotkey": "E",
+        "abilityId": "Sylvanas|E1",
+        "cooldown": 11,
+        "manaCost": "75"
+      },
+      {
+        "name": "Wailing Arrow",
+        "description": "Shoot an arrow that can be reactivated to deal 228 (+4% per level) damage and silence enemies in an area making them unable to use Abilities for 2.5 seconds. The arrow detonates automatically when it reaches maximum range.",
+        "hotkey": "R",
+        "abilityId": "Sylvanas|R1",
+        "cooldown": 90,
+        "manaCost": "100"
+      },
+      {
+        "name": "Mind Control",
+        "description": "After a 1 second cast, take control of an enemy Hero's movement and prevent them from doing anything else. Channel lasts 2.5 seconds.",
+        "hotkey": "R",
+        "abilityId": "Sylvanas|R2",
+        "cooldown": 60,
+        "manaCost": "75"
+      },
+      {
+        "name": "Black Arrows",
+        "description": "Basic Attacks and Abilities stun Minions, Mercenaries, and Structures for 1 second.",
+        "trait": true,
+        "abilityId": "Sylvanas|D1"
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Dreadful Wake",
+        "description": "Haunting Wave now disables Minions and Mercenaries for 7 seconds and restores 5 Mana per minion hit.",
+        "abilityId": "Sylvanas|E1"
+      },
+      {
+        "name": "Mercenary Queen",
+        "description": "Friendly non-Boss Mercenaries near you deal 60% more damage.",
+        "abilityId": "Sylvanas|Passive"
+      },
+      {
+        "name": "Overflowing Quiver",
+        "description": "When a nearby enemy Minion dies, a free, untalented Withering Fire is shot. This cannot hit Heroes.",
+        "abilityId": "Sylvanas|Q1"
+      }
+    ],
+    "4": [
+      {
+        "name": "Lost Soul",
+        "description": "Reduce Shadow Dagger's cooldown by 1.25 seconds each time it spreads to a Hero.",
+        "abilityId": "Sylvanas|W1"
+      },
+      {
+        "name": "With the Wind",
+        "description": "Increases Withering Fire's range by 25%.",
+        "abilityId": "Sylvanas|Q1"
+      },
+      {
+        "name": "Withering Barrage",
+        "description": "Increase Withering Fire charges by 1. Charges can be fired 33% faster.",
+        "abilityId": "Sylvanas|Q1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Barbed Shot",
+        "description": "Withering Fire deals 200% bonus damage to Minions, Mercenaries, and Monsters.",
+        "abilityId": "Sylvanas|Q1"
+      },
+      {
+        "name": "Possession",
+        "description": "Force an enemy Minion to fight for you. Stores up to 3 charges.",
+        "abilityId": "Sylvanas|Active",
+        "cooldown": 8
+      },
+      {
+        "name": "Unstable Poison",
+        "description": "Minions that die under the effects of Black Arrows explode, dealing 116 (+4% per level) damage to nearby enemies.  Does not damage Heroes or Structures.",
+        "abilityId": "Sylvanas|D1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Mind Control",
+        "description": "After a 1 second cast, take control of an enemy Hero's movement and prevent them from doing anything else. Channel lasts 2.5 seconds.",
+        "abilityId": "Sylvanas|R2",
+        "cooldown": 60
+      },
+      {
+        "name": "Wailing Arrow",
+        "description": "Shoot an arrow that can be reactivated to deal 228 (+4% per level) damage and silence enemies in an area making them unable to use Abilities for 2.5 seconds. The arrow detonates automatically when it reaches maximum range.",
+        "abilityId": "Sylvanas|R1",
+        "cooldown": 90
+      }
+    ],
+    "13": [
+      {
+        "name": "Life Drain",
+        "description": "Shadow Dagger heals you for 37 (+4% per level) each time it spreads to an enemy.",
+        "abilityId": "Sylvanas|W1"
+      },
+      {
+        "name": "Spell Shield",
+        "description": "Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically.",
+        "abilityId": "Sylvanas|Passive"
+      },
+      {
+        "name": "Will of the Forsaken",
+        "description": "Activate to become Unstoppable and gain 40% Movement Speed for 3 seconds.",
+        "abilityId": "Sylvanas|Active",
+        "cooldown": 60
+      },
+      {
+        "name": "Windrunner",
+        "description": "Teleporting with Haunting Wave fully recharges your Withering Fire. Haunting Wave can be cast a second time for free within 5 seconds after teleporting.",
+        "abilityId": "Sylvanas|E1"
+      }
+    ],
+    "16": [
+      {
+        "name": "Cold Embrace",
+        "description": "Shadow Dagger lowers the Armor of the initial enemy by 25 for 2 seconds, causing them to take 25% more damage.",
+        "abilityId": "Sylvanas|W1"
+      },
+      {
+        "name": "Evasive Fire",
+        "description": "When you hit an enemy with Withering Fire, gain 10% Movement Speed for 2 seconds, stacking up to 30%.",
+        "abilityId": "Sylvanas|Q1"
+      },
+      {
+        "name": "Overwhelming Affliction",
+        "description": "Black Arrows now also applies to Heroes, slowing their Movement Speed by 6% for the duration. Stacks up to 5 times.",
+        "abilityId": "Sylvanas|D1"
+      },
+      {
+        "name": "Remorseless",
+        "description": "After using an Ability, your next Basic Attack within 3 seconds deals 40% additional damage.",
+        "abilityId": "Sylvanas|Passive"
+      }
+    ],
+    "20": [
+      {
+        "name": "Bolt of the Storm",
+        "description": "Activate to teleport to a nearby location.",
+        "abilityId": "Sylvanas|Active",
+        "cooldown": 70
+      },
+      {
+        "name": "Dark Lady's Call",
+        "description": "Mind Controlled enemies gain 100% Movement Speed for the duration.",
+        "abilityId": "Sylvanas|R2"
+      },
+      {
+        "name": "Deafening Blast",
+        "description": "Enemies at the center of Wailing Arrow's explosion take 50% more damage and are silenced for twice as long.",
+        "abilityId": "Sylvanas|R1"
+      },
+      {
+        "name": "Fury of the Storm",
+        "description": "Every 5 seconds, your next Basic Attack will deal an additional 91 (+4% per level) damage to the target, and 228 (+4% per level) damage to all nearby Minions, Mercenaries, and Monsters.",
+        "abilityId": "Sylvanas|Passive"
+      }
+    ]
+  }
+}

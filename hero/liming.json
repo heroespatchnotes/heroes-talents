@@ -1,0 +1,191 @@
+{
+  "id": "48",
+  "shortName": "liming",
+  "name": "Li-Ming",
+  "role": "Assassin",
+  "type": "Ranged",
+  "releaseDate": "2016-02-02",
+  "abilities": {
+    "Li-Ming": [
+      {
+        "name": "Magic Missiles",
+        "description": "Fire three missiles toward an area, each dealing 147 (+3% per level) damage to the first enemy hit. These missiles do 50% damage to Structures.",
+        "hotkey": "Q",
+        "abilityId": "Li-Ming|Q1",
+        "cooldown": 3,
+        "manaCost": "20"
+      },
+      {
+        "name": "Arcane Orb",
+        "description": "Fire an Orb that powers up as it travels, dealing 135 (+3% per level) damage to the first enemy hit. The amount of damage dealt is increased the further it travels, up to 405 (+3% per level) damage.",
+        "hotkey": "W",
+        "abilityId": "Li-Ming|W1",
+        "cooldown": 8,
+        "manaCost": "40"
+      },
+      {
+        "name": "Teleport",
+        "description": "Teleport a short distance instantly.",
+        "hotkey": "E",
+        "abilityId": "Li-Ming|E1",
+        "cooldown": 5,
+        "manaCost": "30"
+      },
+      {
+        "name": "Disintegrate",
+        "description": "Channel a powerful beam, dealing 440 (+5% per level) damage over 2.5 seconds to enemies while they are in it. The direction of the beam changes with your mouse cursor position.",
+        "hotkey": "R",
+        "abilityId": "Li-Ming|R1",
+        "cooldown": 30,
+        "manaCost": "80"
+      },
+      {
+        "name": "Wave Of Force",
+        "description": "Knock away all enemies from an area and deal 160 (+5% per level) damage.",
+        "hotkey": "R",
+        "abilityId": "Li-Ming|R2",
+        "cooldown": 20,
+        "manaCost": "80"
+      },
+      {
+        "name": "Critical Mass",
+        "description": "Getting a Takedown will refresh the cooldown on all of your Abilities.",
+        "trait": true,
+        "abilityId": "Li-Ming|D1"
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Aether Walker",
+        "description": "If you haven't taken damage in the last 5 seconds, Teleport costs no mana and its cooldown is decreased by 2 seconds.",
+        "abilityId": "Li-Ming|E1"
+      },
+      {
+        "name": "Astral Presence",
+        "description": "Your Mana regeneration is increased by 100% while below 25% Mana.",
+        "abilityId": "Li-Ming|Passive"
+      },
+      {
+        "name": "Force Armor",
+        "description": "When Magic Missiles damages an enemy Hero, gain 50 Spell Armor against the next enemy Ability, reducing the damage taken by 50%. Gain 1 charge per cast. Stores up to 4 charges.",
+        "abilityId": "Li-Ming|Q1"
+      },
+      {
+        "name": "Power Hungry",
+        "description": "Regeneration Globes restore 100% more Mana and grant 10% Ability Power for 20 seconds.",
+        "abilityId": "Li-Ming|Passive"
+      }
+    ],
+    "4": [
+      {
+        "name": "Charged Blast",
+        "description": "Basic Attacking a target recently hit by a Magic Missile does an extra 87 (+4% per level) damage.",
+        "abilityId": "Li-Ming|Q1"
+      },
+      {
+        "name": "Dominance",
+        "description": "Takedowns restore 20% of your maximum Health.",
+        "abilityId": "Li-Ming|Passive"
+      },
+      {
+        "name": "Triumvirate",
+        "description": "If Arcane Orb hits an enemy Hero after traveling at least 50% of its base range, the cooldown is reduced by 50%.",
+        "abilityId": "Li-Ming|W1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Calamity",
+        "description": "Teleport does 300 (+3% per level) damage to enemy Heroes near your destination.",
+        "abilityId": "Li-Ming|E1"
+      },
+      {
+        "name": "Seeker",
+        "description": "If three Magic Missiles hit the same target, the third one deals an additional 125 (+4% per level) damage.",
+        "abilityId": "Li-Ming|Q1"
+      },
+      {
+        "name": "Zei's Vengeance",
+        "description": "Arcane Orb does up to 25% more damage to enemies based on distance. Additionally, its cooldown is reduced by 2 seconds.",
+        "abilityId": "Li-Ming|W1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Disintegrate",
+        "description": "Channel a powerful beam, dealing 440 (+5% per level) damage over 2.5 seconds to enemies while they are in it. The direction of the beam changes with your mouse cursor position.",
+        "abilityId": "Li-Ming|R1",
+        "cooldown": 30
+      },
+      {
+        "name": "Wave Of Force",
+        "description": "Knock away all enemies from an area and deal 160 (+5% per level) damage.",
+        "abilityId": "Li-Ming|R2",
+        "cooldown": 20
+      }
+    ],
+    "13": [
+      {
+        "name": "Cannoneer",
+        "description": "When you use an Ability, increase your next Basic Attack by 75% and cause it to deal Ability damage.  Stacks up to 3 times.",
+        "abilityId": "Li-Ming|Passive"
+      },
+      {
+        "name": "Glass Cannon",
+        "description": "Increases your Ability Power by 15%, but decreases your maximum Health by 15%.",
+        "abilityId": "Li-Ming|Passive"
+      },
+      {
+        "name": "Illusionist",
+        "description": "Increases Teleport range by 50%, and if you lose more than 20% of your Health at once, its cooldown is instantly refreshed. This cannot happen more than once every 4 seconds.",
+        "abilityId": "Li-Ming|E1"
+      }
+    ],
+    "16": [
+      {
+        "name": "Arcane Orbit",
+        "description": "Arcane Orb travels 25% farther, doing up to 25% more damage.",
+        "abilityId": "Li-Ming|W1"
+      },
+      {
+        "name": "Diamond Skin",
+        "description": "When you Teleport, gain 20% of your maximum Health as a Shield for 4 seconds.",
+        "abilityId": "Li-Ming|E1"
+      },
+      {
+        "name": "Fireflies",
+        "description": "Drastically increases Magic Missiles speed. Its cooldown is reduced by 1 second, and its Mana cost is reduced by 5.",
+        "abilityId": "Li-Ming|Q1"
+      },
+      {
+        "name": "Mirrorball",
+        "description": "Magic Missiles fires an additional 2 missiles, but its Mana cost is increased by 5.",
+        "abilityId": "Li-Ming|Q1"
+      }
+    ],
+    "20": [
+      {
+        "name": "Archon: Pure Power",
+        "description": "Activate to enter Archon form, allowing you to repeatedly use Disintegrate, but be unable to cast other Abilities.",
+        "abilityId": "Li-Ming|Active"
+      },
+      {
+        "name": "Repulsion",
+        "description": "Increases Wave of Force knockback distance by 150% and increases its cast range by 100%.",
+        "abilityId": "Li-Ming|R2"
+      },
+      {
+        "name": "Tal Rasha's Elements",
+        "description": "Using Abilities grants 5% Ability Power, to a maximum of 20%.  This bonus is reset when the same Ability is used within a chain.",
+        "abilityId": "Li-Ming|Passive"
+      },
+      {
+        "name": "Temporal Flux",
+        "description": "Disintegrate gradually slows enemies caught in its beam, to a maximum of 60%.",
+        "abilityId": "Li-Ming|R1"
+      }
+    ]
+  }
+}

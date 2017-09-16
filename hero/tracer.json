@@ -1,0 +1,168 @@
+{
+  "id": "51",
+  "shortName": "tracer",
+  "name": "Tracer",
+  "role": "Assassin",
+  "type": "Ranged",
+  "releaseDate": "2016-04-19",
+  "abilities": {
+    "Tracer": [
+      {
+        "name": "Blink",
+        "description": "Dash towards an area. Stores 3 charges.",
+        "hotkey": "Q",
+        "abilityId": "Tracer|Q1",
+        "cooldown": 6
+      },
+      {
+        "name": "Melee",
+        "description": "Deal 254 (+4% per level) damage to a nearby enemy, prioritizing Heroes. Gain 5% Pulse Bomb charge when using Melee against an enemy, and 10% against Heroes.",
+        "hotkey": "W",
+        "abilityId": "Tracer|W1",
+        "cooldown": 8
+      },
+      {
+        "name": "Recall",
+        "description": "Return to the position you were at 3 seconds ago, refill your ammo, and remove all negative status effects from yourself.",
+        "hotkey": "E",
+        "abilityId": "Tracer|E1",
+        "cooldown": 26
+      },
+      {
+        "name": "Pulse Bomb",
+        "description": "Fire a short range bomb that attaches to enemy units if you hit them. The bomb explodes after 2 seconds dealing 420 (+5.5% per level) damage to them and 210 (+5.5% per level) damage to other nearby enemies.  This Ability is slowly charged over time by dealing damage to enemies with Basic Attacks and Melee.",
+        "hotkey": "R",
+        "abilityId": "Tracer|R1"
+      },
+      {
+        "name": "Reload",
+        "description": "You can Basic Attack while moving, and after attacking 10 times you need to reload over 0.75 seconds. You can manually reload early by activating Reload.",
+        "hotkey": "D",
+        "trait": true,
+        "abilityId": "Tracer|D1",
+        "cooldown": 1
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Pulse Strike",
+        "description": "Increases Melee's Pulse Bomb charge from 10% to 20% against Heroes.",
+        "abilityId": "Tracer|W1"
+      },
+      {
+        "name": "Slipstream",
+        "description": "Increases the amount of time Recalled by 1 second.",
+        "abilityId": "Tracer|E1"
+      },
+      {
+        "name": "Tracer Rounds",
+        "description": "Your Basic Attacks reveal enemies for 4 seconds.",
+        "abilityId": "Tracer|Passive"
+      }
+    ],
+    "4": [
+      {
+        "name": "Is That a Health Pack?!",
+        "description": "Increases Regeneration Globe and Healing Fountain healing by 100%.",
+        "abilityId": "Tracer|Passive"
+      },
+      {
+        "name": "Parting Gift",
+        "description": "Recall leaves behind 3 bombs that deal 240 (+4% per level) damage each to different targets.",
+        "abilityId": "Tracer|E1"
+      },
+      {
+        "name": "Untouchable",
+        "description": "Quest: Takedowns increase your Basic Attack damage by 2%, up to 30%. These bonuses are lost on death.",
+        "abilityId": "Tracer|Passive"
+      }
+    ],
+    "7": [
+      {
+        "name": "Bullet Time",
+        "description": "Basic Attacks lower the cooldown of Blink by 0.1 seconds.",
+        "abilityId": "Tracer|Q1"
+      },
+      {
+        "name": "Jumper",
+        "description": "Increases Blink's charges by 1.",
+        "abilityId": "Tracer|Q1"
+      },
+      {
+        "name": "Spatial Echo",
+        "description": "Hero Takedowns grant 2 charges of Blink.",
+        "abilityId": "Tracer|Q1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Pulse Rounds",
+        "description": "Increases Pulse Bomb's range and charge rate from Basic Attacks against Heroes by 100%.",
+        "abilityId": "Tracer|R1"
+      },
+      {
+        "name": "Quantum Spike",
+        "description": "Pulse Bomb deals an additional 10% of the primary target's maximum Health.",
+        "abilityId": "Tracer|R1"
+      },
+      {
+        "name": "Sticky Bomb",
+        "description": "Increases Pulse Bomb's radius by 50% and enemies hit are slowed by 70% for 3 seconds.",
+        "abilityId": "Tracer|R1"
+      }
+    ],
+    "13": [
+      {
+        "name": "Bullet Spray",
+        "description": "Increases Melee's radius by 40%, and causes it to damage all enemies in range.",
+        "abilityId": "Tracer|W1"
+      },
+      {
+        "name": "Leeching Rounds",
+        "description": "Your Basic Attacks against Heroes heal you for 20% of their damage dealt.",
+        "abilityId": "Tracer|Passive"
+      },
+      {
+        "name": "Ricochet",
+        "description": "Your Basic Attacks have a 50% chance to hit another nearby enemy, prioritizing Heroes.",
+        "abilityId": "Tracer|Passive"
+      }
+    ],
+    "16": [
+      {
+        "name": "Focus Fire",
+        "description": "If an entire ammo magazine is unloaded on an enemy, the last bullet will deal 94.5 (+4% per level) bonus damage.  This is equal to 35% of the total magazine.",
+        "abilityId": "Tracer|Passive"
+      },
+      {
+        "name": "Locked and Loaded",
+        "description": "Reactivate Reload within the last 50% of its cast time to increase your Basic Attack damage by 40% for that magazine.",
+        "abilityId": "Tracer|D1"
+      },
+      {
+        "name": "Sleight of Hand",
+        "description": "Reduces Reload time by 50%. This equals 20% more damage per second.",
+        "abilityId": "Tracer|D1"
+      }
+    ],
+    "20": [
+      {
+        "name": "Composition B",
+        "description": "If you successfully stick a Pulse Bomb to an enemy Hero, you also drop another one at their feet that deals 50% damage and explodes slightly earlier.",
+        "abilityId": "Tracer|R1"
+      },
+      {
+        "name": "Get Stuffed!",
+        "description": "Reduces Melee's cooldown by 3 seconds. Hitting an enemy with Melee who is stuck with a Pulse Bomb causes the bomb to instantly explode and knocks the target away from you.",
+        "abilityId": "Tracer|W1"
+      },
+      {
+        "name": "Total Recall",
+        "description": "Recall's cooldown is increased by 8 seconds, but it heals you equal to the amount of Health you lost during that time.",
+        "abilityId": "Tracer|E1"
+      }
+    ]
+  }
+}

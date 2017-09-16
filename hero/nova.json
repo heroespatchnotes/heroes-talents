@@ -1,0 +1,188 @@
+{
+  "id": "12",
+  "shortName": "nova",
+  "name": "Nova",
+  "role": "Assassin",
+  "type": "Ranged",
+  "releaseDate": "2014-03-13",
+  "abilities": {
+    "Nova": [
+      {
+        "name": "Snipe",
+        "description": "Deals 310 (+4% per level) damage to the first enemy hit.",
+        "hotkey": "Q",
+        "abilityId": "Nova|Q1",
+        "cooldown": 6,
+        "manaCost": "50"
+      },
+      {
+        "name": "Pinning Shot",
+        "description": "Deal 110 (+4% per level) damage to an enemy and slow it by 40% for 2.25 seconds.",
+        "hotkey": "W",
+        "abilityId": "Nova|W1",
+        "cooldown": 12,
+        "manaCost": "65"
+      },
+      {
+        "name": "Holo Decoy",
+        "description": "Create a Decoy for 5 seconds that appears to attack enemies.   Using this Ability does not break Cloak.",
+        "hotkey": "E",
+        "abilityId": "Nova|E1",
+        "cooldown": 15,
+        "manaCost": "50"
+      },
+      {
+        "name": "Triple Tap",
+        "description": "Locks in on the target Hero, then fires 3 shots that hit the first Hero or Structure they come in contact with for 338 (+4% per level) damage each.",
+        "hotkey": "R",
+        "abilityId": "Nova|R1",
+        "cooldown": 100,
+        "manaCost": "100"
+      },
+      {
+        "name": "Precision Strike",
+        "description": "After a 1.5 second delay, deals 456 (+4% per level) damage to enemies within an area. Unlimited range.",
+        "hotkey": "R",
+        "abilityId": "Nova|R2",
+        "cooldown": 60,
+        "manaCost": "100"
+      },
+      {
+        "name": "Permanent Cloak, Sniper",
+        "description": "Nova gains Stealth when out of combat for 3 seconds. Taking damage, attacking, using Abilities, or channeling reveals her.  Passive: Nova's Basic Attack range is 1 further than most other ranged Heroes.",
+        "trait": true,
+        "abilityId": "Nova|D1"
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Advanced Cloaking",
+        "description": "While Stealthed, Nova gains 2 Mana per second and 25% increased movement speed",
+        "abilityId": "Nova|D1"
+      },
+      {
+        "name": "Covert Ops",
+        "description": "After being Stealthed for 5 seconds, Pinning Shot's slow is increased to 55% and costs no Mana. Bonus is lost after losing Stealth for 1 second.",
+        "abilityId": "Nova|W1"
+      },
+      {
+        "name": "Longshot",
+        "description": "Increases the cast range of Pinning Shot by 30%. Pinning Shot also increases the range of Nova's next Basic Attack by 2.",
+        "abilityId": "Nova|W1"
+      }
+    ],
+    "4": [
+      {
+        "name": "Covert Mission",
+        "description": "Enemy Minions killed near you grant a stack of Bribe. Hero Takedowns grant 10 stacks of Bribe. Use 25 stacks to Bribe a Mercenary, instantly defeating them. Does not work on Bosses. Maximum of 100 stacks. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.",
+        "abilityId": "Nova|Active"
+      },
+      {
+        "name": "Holo Stability",
+        "description": "Increases the duration of Holo Decoy by 120%.",
+        "abilityId": "Nova|E1"
+      },
+      {
+        "name": "Rapid Projection",
+        "description": "Reduces Holo Decoy's cooldown and Mana cost by 40%.",
+        "abilityId": "Nova|E1"
+      },
+      {
+        "name": "Remote Delivery",
+        "description": "Increases Holo Decoy cast range by 100% and its sight range by 50%",
+        "abilityId": "Nova|E1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Anti-Armor Shells",
+        "description": "Your Basic Attacks deal 250% damage, but your Attack Speed is proportionally slower.",
+        "abilityId": "Nova|Passive"
+      },
+      {
+        "name": "One in the Chamber",
+        "description": "After using an Ability, your next Basic Attack within 3 seconds deals 80% additional damage.",
+        "abilityId": "Nova|Passive"
+      },
+      {
+        "name": "Snipe Master",
+        "description": "Hitting an enemy Hero with Snipe permanently increases the damage of Snipe by 15%. Stacks up to 5 times. All stacks are lost if Snipe fails to hit an enemy.",
+        "abilityId": "Nova|Q1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Precision Strike",
+        "description": "After a 1.5 second delay, deals 456 (+4% per level) damage to enemies within an area. Unlimited range.",
+        "abilityId": "Nova|R2",
+        "cooldown": 60
+      },
+      {
+        "name": "Triple Tap",
+        "description": "Locks in on the target Hero, then fires 3 shots that hit the first Hero or Structure they come in contact with for 338 (+4% per level) damage each.",
+        "abilityId": "Nova|R1",
+        "cooldown": 100
+      }
+    ],
+    "13": [
+      {
+        "name": "Double Tap",
+        "description": "Pinning Shot now has 2 charges.",
+        "abilityId": "Nova|W1"
+      },
+      {
+        "name": "Explosive Round",
+        "description": "Snipe also deals 50% damage to enemies near the impact.",
+        "abilityId": "Nova|Q1"
+      },
+      {
+        "name": "Psionic Efficiency",
+        "description": "Removes Snipe's Mana cost and increases its range by 10%.",
+        "abilityId": "Nova|Q1"
+      }
+    ],
+    "16": [
+      {
+        "name": "Crippling Shot",
+        "description": "Pinning Shot lowers a Hero's Armor by 25 for the duration of the slow, causing them to take 25% increased damage.",
+        "abilityId": "Nova|W1"
+      },
+      {
+        "name": "Lethal Decoy",
+        "description": "Holo Decoy deals 40% of Nova's damage.",
+        "abilityId": "Nova|E1"
+      },
+      {
+        "name": "Perfect Shot",
+        "description": "Hitting an enemy Hero with Snipe reduces the cooldown by 3 seconds.",
+        "abilityId": "Nova|Q1"
+      }
+    ],
+    "20": [
+      {
+        "name": "Fast Reload",
+        "description": "Triple Tap's cooldown is reset if it kills an enemy Hero.",
+        "abilityId": "Nova|R1"
+      },
+      {
+        "name": "Ghost Protocol",
+        "description": "Activate to gain Stealth and become Unrevealable for 2 seconds. Your attacks and Abilities will also not break Stealth during this time.",
+        "abilityId": "Nova|D1",
+        "cooldown": 60
+      },
+      {
+        "name": "Precision Barrage",
+        "description": "Precision Strike holds 2 charges with a short cooldown.",
+        "abilityId": "Nova|R2"
+      },
+      {
+        "name": "Rewind",
+        "description": "Activate to reset the cooldowns of your Basic Abilities.",
+        "abilityId": "Nova|Active",
+        "cooldown": 60
+      }
+    ]
+  }
+}

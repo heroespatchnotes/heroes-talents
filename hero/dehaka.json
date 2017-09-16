@@ -1,0 +1,190 @@
+{
+  "id": "50",
+  "shortName": "dehaka",
+  "name": "Dehaka",
+  "role": "Warrior",
+  "type": "Melee",
+  "releaseDate": "2016-03-29",
+  "abilities": {
+    "Dehaka": [
+      {
+        "name": "Drag",
+        "description": "Lash out with your tongue, dealing 160 (+4% per level) damage to the first enemy hit, stunning and dragging them with you for 1.75 seconds.  If you are stunned or silenced while using Drag, the effect ends.",
+        "hotkey": "Q",
+        "abilityId": "Dehaka|Q1",
+        "cooldown": 15,
+        "manaCost": "75"
+      },
+      {
+        "name": "Dark Swarm",
+        "description": "Deal 50 (+4% per level) damage every 0.5 seconds to nearby enemies for 3.5 seconds. While active, you are able to move through units.  Can be cast during Drag and Burrow.",
+        "hotkey": "W",
+        "abilityId": "Dehaka|W1",
+        "cooldown": 10,
+        "manaCost": "50"
+      },
+      {
+        "name": "Burrow",
+        "description": "Burrow into the ground, entering Stasis and becoming Invulnerable for 2 seconds.",
+        "hotkey": "E",
+        "abilityId": "Dehaka|E1",
+        "cooldown": 20,
+        "manaCost": "65"
+      },
+      {
+        "name": "Isolation",
+        "description": "Launch biomass that hits the first enemy Hero dealing 200 (+4% per level) damage, silencing and slowing them 30% for 3 seconds. Only allows them to see a very short distance for 6 seconds.",
+        "hotkey": "R",
+        "abilityId": "Dehaka|R1",
+        "cooldown": 60,
+        "manaCost": "100"
+      },
+      {
+        "name": "Adaptation",
+        "description": "After 4 seconds, heal for 100% of the damage Dehaka took over this period.",
+        "hotkey": "R",
+        "abilityId": "Dehaka|R2",
+        "cooldown": 90,
+        "manaCost": "85"
+      },
+      {
+        "name": "Essence Collection",
+        "description": "Gain 10 Essence from Takedowns and 2 Essence from nearby Minions dying.  Activate to consume all Essence and heal yourself for 29 (+4% per level) Health over 5 seconds for each Essence stored.  Maximum of 50 Essence.  Can be cast during Drag and Burrow.",
+        "hotkey": "D",
+        "trait": true,
+        "abilityId": "Dehaka|D1",
+        "cooldown": 5
+      },
+      {
+        "name": "Brushstalker",
+        "description": "Activate to burrow to a bush on the battleground.  Passive: Gain 20% movement speed while in a bush and for 2 second after leaving.",
+        "hotkey": "Z",
+        "abilityId": "Dehaka|Z1",
+        "cooldown": 60
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Enduring Swarm",
+        "description": "Dark Swarm grants 40 Spell Armor, reducing Ability damage taken by 40%.",
+        "abilityId": "Dehaka|W1"
+      },
+      {
+        "name": "Enhanced Agility",
+        "description": "Brushstalker's Movement Speed bonus now lasts 5 seconds after leaving a bush.  Quest: Every 50 Essence collected permanently increases the Movement Speed bonus of Brushstalker by 2% up to 20%.",
+        "abilityId": "Dehaka|Z1"
+      },
+      {
+        "name": "Tissue Regeneration",
+        "description": "Regneration Globes grant 10 Essence.  Quest: Every 50 Essence collected permanently increases Health Regeneration by 4, up to 40, and maximum Essence by 1, up to 10.",
+        "abilityId": "Dehaka|D1"
+      }
+    ],
+    "4": [
+      {
+        "name": "Hero Stalker",
+        "description": "Increases Essence gained from Takedowns by 100%.",
+        "abilityId": "Dehaka|D1"
+      },
+      {
+        "name": "Lurker Strain",
+        "description": "Emerging from Burrow grants Dehaka Stealth for 3 seconds and also knocks nearby enemies back, slowing them by 30% for 2 seconds.",
+        "abilityId": "Dehaka|E1"
+      },
+      {
+        "name": "One-Who-Collects",
+        "description": "Increases Essence collected from Minions by 50%.",
+        "abilityId": "Dehaka|D1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Constriction",
+        "description": "Increases Drag duration by 0.5 seconds.",
+        "abilityId": "Dehaka|Q1"
+      },
+      {
+        "name": "Feeding Frenzy",
+        "description": "Basic Attacks reduce Drag's cooldown by 2 seconds.",
+        "abilityId": "Dehaka|Q1"
+      },
+      {
+        "name": "Symbiosis",
+        "description": "Every time Dark Swarm damages an enemy Hero, reduce its cooldown by 0.4 seconds.",
+        "abilityId": "Dehaka|W1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Adaptation",
+        "description": "After 4 seconds, heal for 100% of the damage Dehaka took over this period.",
+        "abilityId": "Dehaka|R2",
+        "cooldown": 90
+      },
+      {
+        "name": "Isolation",
+        "description": "Launch biomass that hits the first enemy Hero dealing 200 (+4% per level) damage, silencing and slowing them 30% for 3 seconds. Only allows them to see a very short distance for 6 seconds.",
+        "abilityId": "Dehaka|R1",
+        "cooldown": 60
+      }
+    ],
+    "13": [
+      {
+        "name": "Ferocious Stalker",
+        "description": "Dark Swarm deals 40% more damage while Brushstalker's Movement Speed bonus is active.",
+        "abilityId": "Dehaka|Z1"
+      },
+      {
+        "name": "Primal Rage",
+        "description": "Gain 1% increased Attack Damage per Essence stored.",
+        "abilityId": "Dehaka|D1"
+      },
+      {
+        "name": "Primal Swarm",
+        "description": "Dark Swarm causes enemies hit to lose 10 Armor for 0.75 seconds, causing them to take 10% extra damage.",
+        "abilityId": "Dehaka|W1"
+      }
+    ],
+    "16": [
+      {
+        "name": "Elongated Tongue",
+        "description": "Increase Drag range by 20%.",
+        "abilityId": "Dehaka|Q1"
+      },
+      {
+        "name": "Paralyzing Enzymes",
+        "description": "Drag slows enemies by 50% for 2 seconds after it ends.",
+        "abilityId": "Dehaka|Q1"
+      },
+      {
+        "name": "Tunneling Claws",
+        "description": "Dehaka can move while Burrowed.",
+        "abilityId": "Dehaka|E1"
+      }
+    ],
+    "20": [
+      {
+        "name": "Apex Predator",
+        "description": "Reduces Brushstalker's cooldown by 25 seconds and the cast time by 0.5 seconds.",
+        "abilityId": "Dehaka|Z1"
+      },
+      {
+        "name": "Change Is Survival",
+        "description": "Increases Adaptation healing to 200% of the damage received and reduces the cooldown by 30 seconds.",
+        "abilityId": "Dehaka|R2"
+      },
+      {
+        "name": "Contagion",
+        "description": "Isolation hits all Heroes near the first target.",
+        "abilityId": "Dehaka|R1"
+      },
+      {
+        "name": "Essence Claws",
+        "description": "Dehaka's Basic Attacks slow the target by 20% for 1 second. If the target is a Hero, Dehaka gains 5 Essence.",
+        "abilityId": "Dehaka|D1"
+      }
+    ]
+  }
+}

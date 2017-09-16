@@ -1,0 +1,197 @@
+{
+  "id": "43",
+  "shortName": "artanis",
+  "name": "Artanis",
+  "role": "Warrior",
+  "type": "Melee",
+  "releaseDate": "2015-10-20",
+  "abilities": {
+    "Artanis": [
+      {
+        "name": "Blade Dash",
+        "description": "Dash forward and deal 57 (+4% per level) damage to enemies, then return and deal 171 (+4% per level) damage. Every enemy hit reduces the cooldown on Shield Overload by 1 second, and Heroes by 2 seconds.",
+        "hotkey": "Q",
+        "abilityId": "Artanis|Q1",
+        "cooldown": 10,
+        "manaCost": "65"
+      },
+      {
+        "name": "Twin Blades",
+        "description": "Your next Basic Attack immediately causes you to charge a short distance and strike the enemy 2 times.",
+        "hotkey": "W",
+        "abilityId": "Artanis|W1",
+        "cooldown": 4,
+        "manaCost": "25"
+      },
+      {
+        "name": "Phase Prism",
+        "description": "Fire a Phase Prism that deals 66 (+4% per level) damage to Heroes and swaps your position with theirs. Can be used during Blade Dash.",
+        "hotkey": "E",
+        "abilityId": "Artanis|E1",
+        "cooldown": 16,
+        "manaCost": "70"
+      },
+      {
+        "name": "Purifier Beam",
+        "description": "Target an enemy Hero with an orbital beam from the Spear of Adun, dealing 184 (+4% per level) damage per second for 8 seconds. The beam will chase the target as they move.  Unlimited range.",
+        "hotkey": "R",
+        "abilityId": "Artanis|R1",
+        "cooldown": 80,
+        "manaCost": "80"
+      },
+      {
+        "name": "Suppression Pulse",
+        "description": "Fire a large area pulse from the Spear of Adun, dealing 114 (+4% per level) damage and Blinding enemies for 4 seconds. Unlimited range.",
+        "hotkey": "R",
+        "abilityId": "Artanis|R2",
+        "cooldown": 50,
+        "manaCost": "40"
+      },
+      {
+        "name": "Shield Overload",
+        "description": "If you take damage while below 75% Health, gain a 375 (+4% per level) point Shield for 5 seconds. Your Basic Attacks lower the cooldown of Shield Overload by 4 seconds.",
+        "trait": true,
+        "abilityId": "Artanis|D1",
+        "cooldown": 24
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Amateur Opponent",
+        "description": "Twin Blades attacks deal 150% bonus damage to non-Heroes.",
+        "abilityId": "Artanis|W1"
+      },
+      {
+        "name": "Reactive Parry",
+        "description": "Using Twin Blades grants 50 Physical Armor against the next enemy Hero Basic Attack, reducing its damage by 50%. Stores up to 2 charges.",
+        "abilityId": "Artanis|W1"
+      },
+      {
+        "name": "Seasoned Marksman",
+        "description": "Quest: Every Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage. Reward: Upon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 40% for 3 seconds. 60 second cooldown.",
+        "abilityId": "Artanis|Active"
+      }
+    ],
+    "4": [
+      {
+        "name": "Psionic Synergy",
+        "description": "Increases Blade Dash's cooldown reduction of Shield Overload by hitting Heroes by 2 seconds.",
+        "abilityId": "Artanis|Q1"
+      },
+      {
+        "name": "Shield Battery",
+        "description": "Shield Overload's cooldown recharges 50% faster while its shield is active, and the shield duration is increased by 1 second.",
+        "abilityId": "Artanis|D1"
+      },
+      {
+        "name": "Shield Surge",
+        "description": "Increases Shield Overload's Shields by 75% while below 25% Health.",
+        "abilityId": "Artanis|D1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Chrono Surge",
+        "description": "Hitting an enemy Hero with Phase Prism grants 50% bonus Attack Speed for 5 seconds.",
+        "abilityId": "Artanis|E1"
+      },
+      {
+        "name": "Follow Through",
+        "description": "After using an Ability, your next Basic Attack within 6 seconds deals 40% additional damage.",
+        "abilityId": "Artanis|Passive"
+      },
+      {
+        "name": "Solarite Reaper",
+        "description": "Increases the damage of the first dash of Blade Dash by 150%.",
+        "abilityId": "Artanis|Q1"
+      },
+      {
+        "name": "Warp Sickness",
+        "description": "Phase Prism also slows the enemy's Movement Speed by 35% for 4 seconds.",
+        "abilityId": "Artanis|E1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Purifier Beam",
+        "description": "Target an enemy Hero with an orbital beam from the Spear of Adun, dealing 184 (+4% per level) damage per second for 8 seconds. The beam will chase the target as they move.  Unlimited range.",
+        "abilityId": "Artanis|R1",
+        "cooldown": 80
+      },
+      {
+        "name": "Suppression Pulse",
+        "description": "Fire a large area pulse from the Spear of Adun, dealing 114 (+4% per level) damage and Blinding enemies for 4 seconds. Unlimited range.",
+        "abilityId": "Artanis|R2",
+        "cooldown": 50
+      }
+    ],
+    "13": [
+      {
+        "name": "Graviton Vortex",
+        "description": "Phase Prism pulls and damages an additional enemy Hero near the first, and its cooldown is reduced by 5 seconds.",
+        "abilityId": "Artanis|E1"
+      },
+      {
+        "name": "Phase Bulwark",
+        "description": "When Shield Overload activates, gain 40 Spell Armor for 4 seconds, reducing Ability Damage taken by 40%.",
+        "abilityId": "Artanis|D1"
+      },
+      {
+        "name": "Templar's Zeal",
+        "description": "Blade Dash cooldown recharges 150% faster while below 50% Health.",
+        "abilityId": "Artanis|Q1"
+      },
+      {
+        "name": "Triple Strike",
+        "description": "Increases Twin Blades's number of Basic Attacks to 3, but increase its cooldown by 1 second.",
+        "abilityId": "Artanis|W1"
+      }
+    ],
+    "16": [
+      {
+        "name": "Plasma Burn",
+        "description": "While Shield Overload is active, deal 55 (+4% per level) damage per second to nearby enemies.",
+        "abilityId": "Artanis|D1"
+      },
+      {
+        "name": "Psionic Wound",
+        "description": "Twin Blades final strike lowers a Hero's Armor by 25 for 2 seconds, increasing all damage taken by 25%.",
+        "abilityId": "Artanis|W1"
+      },
+      {
+        "name": "Titan Killer",
+        "description": "Twin Blades attacks against Heroes deal an additional 2% of the target's maximum Health in damage.",
+        "abilityId": "Artanis|W1"
+      },
+      {
+        "name": "Zealot Charge",
+        "description": "Increase Twin Blades' charge distance by 100%.",
+        "abilityId": "Artanis|W1"
+      }
+    ],
+    "20": [
+      {
+        "name": "Force of Will",
+        "description": "Increases Shield Overload's cooldown reduction from Basic Attacks to 6 seconds.",
+        "abilityId": "Artanis|D1"
+      },
+      {
+        "name": "Nexus Blades",
+        "description": "Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.",
+        "abilityId": "Artanis|Passive"
+      },
+      {
+        "name": "Orbital Bombardment",
+        "description": "Suppression Pulse gains an additional charge.  There is a 10 second cooldown between uses.",
+        "abilityId": "Artanis|R2"
+      },
+      {
+        "name": "Target Purified",
+        "description": "If the target of Purifier Beam dies, it automatically recasts on the nearest visible enemy Hero.",
+        "abilityId": "Artanis|R1"
+      }
+    ]
+  }
+}

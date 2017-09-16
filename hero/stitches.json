@@ -1,0 +1,207 @@
+{
+  "id": "16",
+  "shortName": "stitches",
+  "name": "Stitches",
+  "role": "Warrior",
+  "type": "Melee",
+  "releaseDate": "2014-03-13",
+  "abilities": {
+    "Stitches": [
+      {
+        "name": "Hook",
+        "description": "Pull the first enemy hit towards you, temporarily stunning them and dealing 91 (+4% per level) damage.",
+        "hotkey": "Q",
+        "abilityId": "Stitches|Q1",
+        "cooldown": 16,
+        "manaCost": "75"
+      },
+      {
+        "name": "Slam",
+        "description": "Deal 104 (+4% per level) damage to enemies within the target area.",
+        "hotkey": "W",
+        "abilityId": "Stitches|W1",
+        "cooldown": 8,
+        "manaCost": "40"
+      },
+      {
+        "name": "Devour",
+        "description": "Deal 319 (+4% per level) damage to non-Heroic units, or 114 (+4% per level) damage to Heroes. Restores 20% of your maximum Health.",
+        "hotkey": "E",
+        "abilityId": "Stitches|E1",
+        "cooldown": 20,
+        "manaCost": "55"
+      },
+      {
+        "name": "Putrid Bile",
+        "description": "Emit bile that deals 37 (+4% per level) damage per second to enemies within, slowing them by 35%. You gain 20% Movement Speed while emitting bile. Lasts 8 seconds.",
+        "hotkey": "R",
+        "abilityId": "Stitches|R1",
+        "cooldown": 60,
+        "manaCost": "75"
+      },
+      {
+        "name": "Gorge",
+        "description": "Consume an enemy Hero, trapping them for 4 seconds. When Gorge ends, the enemy Hero takes 274 (+4% per level) damage. The trapped Hero cannot move or act and doesn't take damage from other sources.  Cannot be used on massive Heroes.",
+        "hotkey": "R",
+        "abilityId": "Stitches|R2",
+        "cooldown": 60,
+        "manaCost": "70"
+      },
+      {
+        "name": "Vile Gas",
+        "description": "When damaged, Stitches emits a gas cloud that poisons nearby enemies for 68 (+4% per level) damage over 3 seconds.",
+        "trait": true,
+        "abilityId": "Stitches|D1",
+        "cooldown": 3
+      },
+      {
+        "name": "Helping Hand",
+        "description": "Pull the first ally or enemy hit towards you. Enemies are temporarily stunned and take 91 (+4% per level) damage. When used to pull allies, the cooldown is reduced by 50%.",
+        "hotkey": "1",
+        "abilityId": "Stitches|11",
+        "cooldown": 16,
+        "manaCost": "75"
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "name": "Chew Your Food",
+        "description": "Using Devour also heals you for 10% of your max Health over 3 seconds.",
+        "abilityId": "Stitches|E1"
+      },
+      {
+        "name": "Dampen Magic",
+        "description": "Every 8 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%.",
+        "abilityId": "Stitches|Passive"
+      },
+      {
+        "name": "Heavy Slam",
+        "description": "Slam damage increased by 40%",
+        "abilityId": "Stitches|W1"
+      },
+      {
+        "name": "Hungry for More",
+        "description": "Quest: Gathering a Regeneration Globe increases your maximum Health by 30, up to 900.  Reward: Upon gathering 30 Globes, increase Movement Speed by 10%.",
+        "abilityId": "Stitches|Passive"
+      }
+    ],
+    "4": [
+      {
+        "name": "Amplified Healing",
+        "description": "Increases regeneration effects and all healing received by 30%.",
+        "abilityId": "Stitches|Passive"
+      },
+      {
+        "name": "Putrid Ground",
+        "description": "Enemies hit by Slam are infected with Vile Gas.",
+        "abilityId": "Stitches|W1"
+      },
+      {
+        "name": "Restorative Fumes",
+        "description": "Whenever Vile Gas damages an enemy Hero, you are healed for 27 (+4% per level) Health.",
+        "abilityId": "Stitches|D1"
+      }
+    ],
+    "7": [
+      {
+        "name": "Last Bite",
+        "description": "If an enemy dies within 3 seconds of being damaged by Devour, its cooldown is reduced by 12 seconds.",
+        "abilityId": "Stitches|E1"
+      },
+      {
+        "name": "Savor the Flavor",
+        "description": "Quest: Using Devour on an enemy Hero permanently increases your Health Regeneration by 2 per second.",
+        "abilityId": "Stitches|E1"
+      },
+      {
+        "name": "Tenderizer",
+        "description": "Basic Attacks slow enemy Movement Speed by 25% for 1.5 seconds.",
+        "abilityId": "Stitches|Passive"
+      },
+      {
+        "name": "Toxic Gas",
+        "description": "Increases Vile Gas' radius by 25% and its damage by 50%.",
+        "abilityId": "Stitches|D1"
+      }
+    ],
+    "10": [
+      {
+        "name": "Gorge",
+        "description": "Consume an enemy Hero, trapping them for 4 seconds. When Gorge ends, the enemy Hero takes 274 (+4% per level) damage. The trapped Hero cannot move or act and doesn't take damage from other sources.  Cannot be used on massive Heroes.",
+        "abilityId": "Stitches|R2",
+        "cooldown": 60
+      },
+      {
+        "name": "Putrid Bile",
+        "description": "Emit bile that deals 37 (+4% per level) damage per second to enemies within, slowing them by 35%. You gain 20% Movement Speed while emitting bile. Lasts 8 seconds.",
+        "abilityId": "Stitches|R1",
+        "cooldown": 60
+      }
+    ],
+    "13": [
+      {
+        "name": "Flea Bag",
+        "description": "Whenever you are stunned or rooted, reduce your Basic Ability cooldowns by 6 seconds.",
+        "abilityId": "Stitches|Passive"
+      },
+      {
+        "name": "Indigestion",
+        "description": "Using Devour also creates a Retchling that applies Vile Gas Poison when it attacks.",
+        "abilityId": "Stitches|E1"
+      },
+      {
+        "name": "Mega Smash",
+        "description": "Range and arc of Slam increased by 25%.",
+        "abilityId": "Stitches|W1"
+      }
+    ],
+    "16": [
+      {
+        "name": "Fishing Hook",
+        "description": "Hook has an additional 40% range.",
+        "abilityId": "Stitches|Q1"
+      },
+      {
+        "name": "Pulverize",
+        "description": "Decreases Slam's cooldown by 2 seconds and it also slows enemies by 75% for 1 second.",
+        "abilityId": "Stitches|W1"
+      },
+      {
+        "name": "Shish Kabob",
+        "description": "Hook can pull up to 2 targets.",
+        "abilityId": "Stitches|Q1"
+      },
+      {
+        "name": "Stoneskin",
+        "description": "Activate to gain 30% of your maximum Health as a Shield for 5 seconds.",
+        "abilityId": "Stitches|Active",
+        "cooldown": 60
+      }
+    ],
+    "20": [
+      {
+        "name": "Cannibalize",
+        "description": "Basic Attacks against Heroes heal Stitches for 5% of his maximum Health.",
+        "abilityId": "Stitches|Passive"
+      },
+      {
+        "name": "Hardened Shield",
+        "description": "Activate to gain 75 Armor for 4 seconds, taking 75% less damage.",
+        "abilityId": "Stitches|Active",
+        "cooldown": 60
+      },
+      {
+        "name": "Hungry Hungry Stitches",
+        "description": "For 4 seconds after using Gorge, Stitches can teleport a short distance to additional targets and Gorge them.",
+        "abilityId": "Stitches|R2"
+      },
+      {
+        "name": "Potent Bile",
+        "description": "Putrid Bile lasts 6 seconds longer and its slow amount is increased from 35% to 45%.",
+        "abilityId": "Stitches|R1"
+      }
+    ]
+  }
+}
