@@ -1,8 +1,10 @@
-# Heroes Talents & Abilities
+# Hero Talents & Abilities
 
 > Talent? Hah. That seems generous.
 >
 > --Raven Lord
+
+<a href="#Heroes" class="btn-heroes">Jump to Heroes</a>
 
 Example:
 
@@ -83,3 +85,34 @@ Example:
 ### Projects using heroes-talents
 
 * [HeroesPatchNotes.com](https://heroespatchnotes.com)
+
+## Heroes
+
+<a class="img-wrap" href="hero/abathur.json">
+  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/abathur.png" />
+  <span>Abathur</span>
+</a>
+<a class="img-wrap" href="hero/alarak.json">
+  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/alarak.png" />
+  <span>Alarak</span>
+</a>
+<a class="img-wrap" href="hero/anubarak.json">
+  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/anubarak.png" />
+  <span>Anub'arak</span>
+</a>
+<a class="img-wrap" href="hero/artanis.json">
+  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/artanis.png" />
+  <span>Artanis</span>
+</a>
+<a class="img-wrap" href="hero/arthas.json">
+  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/arthas.png" />
+  <span>Arthas</span>
+</a>
+<a class="img-wrap" href="hero/auriel.json">
+  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/auriel.png" />
+  <span>Auriel</span>
+</a>
+<a class="img-wrap" href="hero/azmodan.json">
+  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/azmodan.png" />
+  <span>Azmodan</span>
+</a>

@@ -1,0 +1,40 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+a.btn-heroes {
+    padding: 0.75rem 1rem;
+    display: table;
+    background-color: rgba(21, 153, 87, 0.7);
+    border: 1px solid rgba(21, 87, 153, 0.2);
+    border-radius: 0.3rem;
+    text-decoration: none;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    margin: 0 auto;
+}
+a.btn-heroes:hover {
+    color: rgba(255,255,255,0.9);
+    text-decoration: none;
+    background-color: rgba(21, 153, 87, 0.4);
+    border-color: rgba(21, 87, 153, 0.4);
+}
+a.img-wrap {
+  display: inline-block;
+  padding: 4px;
+  border-radius: 4px;
+  margin-bottom: 21px;
+  line-height: 1.42857143;
+  background-color: #ffffff;
+  border: 1px solid #ecf0f1;
+  text-decoration: none;
+  color: #606c71;
+}
+.img-rounded {
+  border-radius: 6px;
+}
+a > span {
+  display: block;
+  margin: 0 0 10.5px;
+  text-align: center;
+}
