@@ -4,7 +4,7 @@
 >
 > --Raven Lord
 
-<a href="#Heroes" class="btn-heroes">Jump to Heroes</a>
+<a href="#heroes" class="btn-heroes">Jump to Heroes</a>
 
 Example:
 
@@ -115,4 +115,16 @@ Example:
 <a class="img-wrap" href="hero/azmodan.json">
   <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/azmodan.png" />
   <span>Azmodan</span>
+</a>
+<a class="img-wrap" href="hero/brightwing.json">
+  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/brightwing.png" />
+  <span>Brightwing</span>
+</a>
+<a class="img-wrap" href="hero/butcher.json">
+  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/butcher.png" />
+  <span>The Butcher</span>
+</a>
+<a class="img-wrap" href="hero/cassia.json">
+  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/cassia.png" />
+  <span>Cassia</span>
 </a>
