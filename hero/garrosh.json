@@ -13,7 +13,7 @@
         "hotkey": "Q",
         "abilityId": "Garrosh|Q1",
         "cooldown": 8,
-        "manaCost": "30"
+        "manaCost": "35"
       },
       {
         "name": "Bloodthirst",
@@ -29,7 +29,7 @@
         "hotkey": "E",
         "abilityId": "Garrosh|E1",
         "cooldown": 16,
-        "manaCost": "60"
+        "manaCost": "70"
       },
       {
         "name": "Warlord's Challenge",
@@ -45,7 +45,7 @@
         "hotkey": "R",
         "abilityId": "Garrosh|R2",
         "cooldown": 8,
-        "manaCost": "30"
+        "manaCost": "25"
       },
       {
         "name": "Armor Up",
@@ -60,7 +60,8 @@
       {
         "name": "Body Check",
         "description": "Activate to deal 111 (+4% per level) damage to a target enemy and Slow them by 30% for 3 seconds.  Damage is increased by 200% of Armor Up's current bonus, and the Slow amount is increased by 30% if Armor Up's bonus is above 25.",
-        "abilityId": "Garrosh|Active"
+        "abilityId": "Garrosh|Active",
+        "cooldown": 16
       },
       {
         "name": "Unrivaled Strength",
@@ -82,7 +83,8 @@
       {
         "name": "Indomitable",
         "description": "Activate to become Unstoppable for 1.5 seconds.",
-        "abilityId": "Garrosh|Active"
+        "abilityId": "Garrosh|Active",
+        "cooldown": 40
       },
       {
         "name": "Thirst for Battle",
@@ -104,7 +106,8 @@
       {
         "name": "Into the Fray",
         "description": "Activate to throw a nearby ally and grant them 25 Armor for 3 seconds. Deals 91 (+4% per level) damage to nearby enemies upon impact and Slows them by 30% for 2.5 seconds.  While in flight, allied Heroes are Unstoppable.",
-        "abilityId": "Garrosh|Active"
+        "abilityId": "Garrosh|Active",
+        "cooldown": 40
       },
       {
         "name": "Oppressor",

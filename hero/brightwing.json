@@ -36,7 +36,7 @@
         "description": "Teleport to a nearby ally, healing them for 204 (+4% per level). Stores up to 2 charges.",
         "hotkey": "R",
         "abilityId": "Brightwing|R1",
-        "cooldown": 10,
+        "cooldown": 9,
         "manaCost": "40"
       },
       {
@@ -68,31 +68,21 @@
     "1": [
       {
         "name": "Dream Shot",
-        "description": "Reduces the cooldown of Arcane Flare by 1 second for each enemy Hero hit by the outer radius, and 3 seconds for each hit by the inner radius.",
+        "description": "Increase the range of Arcane Flare by 50%. If an enemy Hero is hit by the inner radius, reduce it's cooldown to 1 second.",
         "abilityId": "Brightwing|Q1"
       },
       {
         "name": "Hyper Shift",
-        "description": "Each allied Hero healed by Soothing Mist reduces the cooldown of Phase Shift by 2 seconds.",
+        "description": "Each allied Hero healed by Soothing Mist reduces the cooldown of Phase Shift by 3 seconds.",
         "abilityId": "Brightwing|Z1"
       },
       {
         "name": "Pixie Charm",
         "description": "Each time Brightwing heals an Allied Hero with Soothing Mist, she gains a stack of Bribe. Use 20 stacks to bribe a Mercenary, instantly defeating them. Does not work on Bosses. Maximum of 80 stacks.",
         "abilityId": "Brightwing|Active"
-      },
-      {
-        "name": "Unfurling Spray",
-        "description": "Increases Soothing Mist's range by 20%.",
-        "abilityId": "Brightwing|D1"
       }
     ],
     "4": [
-      {
-        "name": "Arcane Barrage",
-        "description": "Increases the range of Arcane Flare by 50%.",
-        "abilityId": "Brightwing|Q1"
-      },
       {
         "name": "Manic Pixie",
         "description": "When Soothing Mist heals an ally with Pixie Dust on them, they heal for an additional 104 (+4% per level) over 4 seconds.",
@@ -100,7 +90,7 @@
       },
       {
         "name": "Peekaboo!",
-        "description": "Phase Shifting to an ally reveals a large area around them and all enemies in it for 6 seconds.",
+        "description": "Phase Shifting to an ally casts a free Pixie Dust on them and reveals a large area around them and all enemies in it for 6 seconds. ",
         "abilityId": "Brightwing|Z1"
       },
       {
@@ -123,7 +113,7 @@
       },
       {
         "name": "Phase Shield",
-        "description": "After finishing the teleport, the target of Brightwing's Phase Shift gains a 400 (+4% per level) point Shield for 10 seconds.",
+        "description": "After finishing the teleport, both Brightwing and her target gain a 400 (+4% per level) point Shield for 10 seconds.",
         "abilityId": "Brightwing|Z1"
       }
     ],
@@ -132,7 +122,7 @@
         "name": "Blink Heal",
         "description": "Teleport to a nearby ally, healing them for 204 (+4% per level). Stores up to 2 charges.",
         "abilityId": "Brightwing|R1",
-        "cooldown": 10
+        "cooldown": 9
       },
       {
         "name": "Emerald Wind",

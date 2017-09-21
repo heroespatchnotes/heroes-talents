@@ -17,7 +17,7 @@
       },
       {
         "name": "Blinding Light",
-        "description": "After 0.5 seconds, Blind enemies in the target area for 2 seconds. Passive: Cassia deals 15% increased damage to Blinded targets.",
+        "description": "After 0.5 seconds, Blind enemies in the target area for 2 seconds. Passive: Cassia deals 20% increased damage to Blinded targets.",
         "hotkey": "W",
         "abilityId": "Cassia|W1",
         "cooldown": 15,
@@ -64,14 +64,14 @@
         "cooldown": 20
       },
       {
-        "name": "Thunderstroke",
-        "description": "Quest: Hit Heroes with Lightning Fury. Reward: After hitting 20 Heroes, increase Lightning Fury's damage by 75. Reward: After hitting 40 Heroes, Lightning Fury gains a 2nd charge and its Mana cost is reduced from 30 to 15.",
-        "abilityId": "Cassia|Q1"
+        "name": "Seraph's Hymn",
+        "description": "Reduce Blinding Light's Mana cost from 70 to 40. Basic Attacks against Blinded enemies reduce the cooldown of Blinding Light by 2 seconds.",
+        "abilityId": "Cassia|W1"
       },
       {
-        "name": "True Sight",
-        "description": "Quest: Damage Blinded enemy Heroes 60 times with Abilities of Basic Attacks. Reward: Increase Blinding Light's Blind duration by 1 second. Passive: Increase Blinding Light's passive damage bonus by 15%.",
-        "abilityId": "Cassia|W1"
+        "name": "Thunderstroke",
+        "description": "Quest: Hit Heroes with Lightning Fury. Reward: After hitting 20 Heroes, increase Lightning Fury's damage by 100. Reward: After hitting 40 Heroes, Lightning Fury gains a 2nd charge and its Mana cost is reduced from 30 to 15.",
+        "abilityId": "Cassia|Q1"
       }
     ],
     "4": [
@@ -132,11 +132,6 @@
         "name": "Lunging Strike",
         "description": "Increase Fend's range and area by 20% and its duration by 0.5 seconds.",
         "abilityId": "Cassia|E1"
-      },
-      {
-        "name": "Seraph's Hymn",
-        "description": "Reduce Blinding Light's Mana cost from 70 to 40. Basic Attacks against Blinded enemies reduce the cooldown of Blinding Light by 3 seconds.",
-        "abilityId": "Cassia|W1"
       },
       {
         "name": "Thundergod's Vigor",

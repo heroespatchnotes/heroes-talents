@@ -21,7 +21,7 @@
         "hotkey": "W",
         "abilityId": "Kel'Thuzad|W1",
         "cooldown": 10,
-        "manaCost": "45"
+        "manaCost": "50"
       },
       {
         "name": "Chains of Kel'Thuzad",
@@ -29,23 +29,23 @@
         "hotkey": "E",
         "abilityId": "Kel'Thuzad|E1",
         "cooldown": 12,
-        "manaCost": "45"
+        "manaCost": "50"
       },
       {
         "name": "Frost Blast",
         "description": "Launch a meteor of ice at an enemy Hero. Upon impact, the meteor deals 100 (+2.5% per level) damage to its target and 275 (+2.5% per level) damage to enemies in the area. All enemies hit by Frost Blast are Rooted for 1.5 seconds.",
         "hotkey": "R",
         "abilityId": "Kel'Thuzad|R1",
-        "cooldown": 100,
+        "cooldown": 80,
         "manaCost": "70"
       },
       {
         "name": "Shadow Fissure",
-        "description": "Create a fissure anywhere on the Battleground that explodes after 1.5 seconds, dealing 440 (+2.5% per level) damage to enemy Heroes in its area.",
+        "description": "Create a fissure anywhere on the Battleground that explodes after 1.5 seconds, dealing 400 (+2.5% per level) damage to enemy Heroes in its area.",
         "hotkey": "R",
         "abilityId": "Kel'Thuzad|R2",
-        "cooldown": 15,
-        "manaCost": "50"
+        "cooldown": 20,
+        "manaCost": "60"
       },
       {
         "name": "Master of the Cold Dark",
@@ -82,7 +82,7 @@
       },
       {
         "name": "Phylactery of Kel'Thuzad",
-        "description": "Quest: Collect 10 Regeneration Globes to charge Kel'Thuzad's Phylactery. Reward: Kel'Thuzad's Phylactery can be activated while dead to immediately respawn at the Hall of Storms, but must be charged again. Passive: Kel'Thuzad heals for 10% of all Spell Damage dealt while the Phylactery is charged.",
+        "description": "Quest: Collect 12 Regeneration Globes to charge Kel'Thuzad's Phylactery. Reward: Kel'Thuzad's Phylactery can be activated while dead to immediately respawn at the Hall of Storms, but must be charged again. Passive: Kel'Thuzad heals for 10% of all Spell Damage dealt while the Phylactery is charged.",
         "abilityId": "Kel'Thuzad|Active"
       },
       {
@@ -94,7 +94,7 @@
     "7": [
       {
         "name": "Accelerated Decay",
-        "description": "Each time a Hero is hit by Death and Decay's pool, they take 20% more periodic damage from Death and Decay for the next 4 seconds, stacking up to 6 times.",
+        "description": "Each time a Hero is hit by Death and Decay's pool, they take 25% more periodic damage from Death and Decay for the next 4 seconds, stacking up to 6 times.",
         "abilityId": "Kel'Thuzad|Q1"
       },
       {
@@ -104,7 +104,7 @@
       },
       {
         "name": "Glacial Spike",
-        "description": "Activate to create a spike that detonates after 4 seconds, dealing 220 (+2.5% per level) damage to nearby enemies. The spike can be affected by Chains of Kel'Thuzad.",
+        "description": "Activate to create a spike that detonates after 4 seconds, dealing 60 (+2.5% per level) damage to nearby enemies. The spike can be affected by Chains of Kel'Thuzad.",
         "abilityId": "Kel'Thuzad|Active",
         "cooldown": 30
       }
@@ -114,13 +114,13 @@
         "name": "Frost Blast",
         "description": "Launch a meteor of ice at an enemy Hero. Upon impact, the meteor deals 100 (+2.5% per level) damage to its target and 275 (+2.5% per level) damage to enemies in the area. All enemies hit by Frost Blast are Rooted for 1.5 seconds.",
         "abilityId": "Kel'Thuzad|R1",
-        "cooldown": 100
+        "cooldown": 80
       },
       {
         "name": "Shadow Fissure",
-        "description": "Create a fissure anywhere on the Battleground that explodes after 1.5 seconds, dealing 440 (+2.5% per level) damage to enemy Heroes in its area.",
+        "description": "Create a fissure anywhere on the Battleground that explodes after 1.5 seconds, dealing 400 (+2.5% per level) damage to enemy Heroes in its area.",
         "abilityId": "Kel'Thuzad|R2",
-        "cooldown": 15
+        "cooldown": 20
       }
     ],
     "13": [
@@ -131,7 +131,7 @@
       },
       {
         "name": "Chains of Ice",
-        "description": "After Chains of Kel'Thuzad's Stun expires, the enemy is also Slowed by 70% for 1.25 seconds.",
+        "description": "After Chains of Kel'Thuzad's Stun expires, the enemy is also Slowed by 60% for 1 second.",
         "abilityId": "Kel'Thuzad|E1"
       },
       {
@@ -148,7 +148,7 @@
       },
       {
         "name": "Hungering Cold",
-        "description": "Enemies Rooted by Frost Nova take an additional 60 (+2.5% per level) damage each time they are damaged by Kel'Thuzad during the next 4 seconds.",
+        "description": "Enemies Rooted by Frost Nova take an additional 55 (+2.5% per level) damage each time they are damaged by Kel'Thuzad during the next 4 seconds.",
         "abilityId": "Kel'Thuzad|W1"
       },
       {
