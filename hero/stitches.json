@@ -67,140 +67,212 @@
   "talents": {
     "1": [
       {
+        "tooltipId": "StitchesDevourChewYourFoodTalent",
         "name": "Chew Your Food",
         "description": "Using Devour also heals you for 10% of your max Health over 3 seconds.",
+        "icon": "storm_ui_icon_stitches_devour.png",
+        "sort": 1,
         "abilityId": "Stitches|E1"
       },
       {
+        "tooltipId": "TalentDampenMagic",
         "name": "Dampen Magic",
         "description": "Every 8 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%.",
+        "icon": "storm_ui_icon_talent_dampenmagic.png",
+        "sort": 2,
         "abilityId": "Stitches|Passive"
       },
       {
-        "name": "Heavy Slam",
-        "description": "Slam damage increased by 40%",
-        "abilityId": "Stitches|W1"
-      },
-      {
+        "tooltipId": "StitchesHungryforMore",
         "name": "Hungry for More",
         "description": "Quest: Gathering a Regeneration Globe increases your maximum Health by 30, up to 900.  Reward: Upon gathering 30 Globes, increase Movement Speed by 10%.",
+        "icon": "storm_ui_icon_talent_regenerationmaster.png",
+        "sort": 3,
         "abilityId": "Stitches|Passive"
+      },
+      {
+        "tooltipId": "StitchesSlamHeavySlamTalent",
+        "name": "Heavy Slam",
+        "description": "Slam damage increased by 40%",
+        "icon": "storm_ui_icon_stitches_slam.png",
+        "sort": 4,
+        "abilityId": "Stitches|W1"
       }
     ],
     "4": [
       {
+        "tooltipId": "GenericAmplifiedHealingTalent",
         "name": "Amplified Healing",
         "description": "Increases regeneration effects and all healing received by 30%.",
+        "icon": "storm_ui_icon_talent_amplifiedhealing.png",
+        "sort": 1,
         "abilityId": "Stitches|Passive"
       },
       {
-        "name": "Putrid Ground",
-        "description": "Enemies hit by Slam are infected with Vile Gas.",
-        "abilityId": "Stitches|W1"
-      },
-      {
+        "tooltipId": "StitchesRestorativeFumes",
         "name": "Restorative Fumes",
         "description": "Whenever Vile Gas damages an enemy Hero, you are healed for 27 (+4% per level) Health.",
+        "icon": "storm_ui_icon_stitches_acidcloud.png",
+        "sort": 2,
         "abilityId": "Stitches|D1"
+      },
+      {
+        "tooltipId": "StitchesSlamPutridGroundTalent",
+        "name": "Putrid Ground",
+        "description": "Enemies hit by Slam are infected with Vile Gas.",
+        "icon": "storm_ui_icon_stitches_slam.png",
+        "sort": 3,
+        "abilityId": "Stitches|W1"
       }
     ],
     "7": [
       {
-        "name": "Last Bite",
-        "description": "If an enemy dies within 3 seconds of being damaged by Devour, its cooldown is reduced by 12 seconds.",
-        "abilityId": "Stitches|E1"
-      },
-      {
+        "tooltipId": "StitchesDevourSavorTheFlavorTalent",
         "name": "Savor the Flavor",
         "description": "Quest: Using Devour on an enemy Hero permanently increases your Health Regeneration by 2 per second.",
+        "icon": "storm_ui_icon_stitches_devour.png",
+        "sort": 1,
         "abilityId": "Stitches|E1"
       },
       {
+        "tooltipId": "StitchesDevourLastBiteTalent",
+        "name": "Last Bite",
+        "description": "If an enemy dies within 3 seconds of being damaged by Devour, its cooldown is reduced by 12 seconds.",
+        "icon": "storm_ui_icon_stitches_devour_var1.png",
+        "sort": 2,
+        "abilityId": "Stitches|E1"
+      },
+      {
+        "tooltipId": "StitchesVileGasTenderizerTalent",
         "name": "Tenderizer",
         "description": "Basic Attacks slow enemy Movement Speed by 25% for 1.5 seconds.",
+        "icon": "storm_ui_icon_talent_autoattack_slow.png",
+        "sort": 3,
         "abilityId": "Stitches|Passive"
       },
       {
+        "tooltipId": "StitchesVileGasToxicGasTalent",
         "name": "Toxic Gas",
         "description": "Increases Vile Gas' radius by 25% and its damage by 50%.",
+        "icon": "storm_ui_icon_stitches_acidcloud.png",
+        "sort": 4,
         "abilityId": "Stitches|D1"
       }
     ],
     "10": [
       {
-        "name": "Gorge",
-        "description": "Consume an enemy Hero, trapping them for 4 seconds. When Gorge ends, the enemy Hero takes 274 (+4% per level) damage. The trapped Hero cannot move or act and doesn't take damage from other sources.  Cannot be used on massive Heroes.",
-        "abilityId": "Stitches|R2",
+        "tooltipId": "StitchesPutridBile",
+        "name": "Putrid Bile",
+        "description": "Emit bile that deals 37 (+4% per level) damage per second to enemies within, slowing them by 35%. You gain 20% Movement Speed while emitting bile. Lasts 8 seconds.",
+        "icon": "storm_ui_icon_stitches_putridbile.png",
+        "sort": 1,
+        "abilityId": "Stitches|R1",
         "cooldown": 60
       },
       {
-        "name": "Putrid Bile",
-        "description": "Emit bile that deals 37 (+4% per level) damage per second to enemies within, slowing them by 35%. You gain 20% Movement Speed while emitting bile. Lasts 8 seconds.",
-        "abilityId": "Stitches|R1",
+        "tooltipId": "StitchesGorge",
+        "name": "Gorge",
+        "description": "Consume an enemy Hero, trapping them for 4 seconds. When Gorge ends, the enemy Hero takes 274 (+4% per level) damage. The trapped Hero cannot move or act and doesn't take damage from other sources.  Cannot be used on massive Heroes.",
+        "icon": "storm_ui_icon_stitches_cannibalize.png",
+        "sort": 2,
+        "abilityId": "Stitches|R2",
         "cooldown": 60
       }
     ],
     "13": [
       {
+        "tooltipId": "StitchesFleaBag",
         "name": "Flea Bag",
         "description": "Whenever you are stunned or rooted, reduce your Basic Ability cooldowns by 6 seconds.",
+        "icon": "storm_ui_icon_talent_relentless.png",
+        "sort": 1,
         "abilityId": "Stitches|Passive"
       },
       {
-        "name": "Indigestion",
-        "description": "Using Devour also creates a Retchling that applies Vile Gas Poison when it attacks.",
-        "abilityId": "Stitches|E1"
-      },
-      {
+        "tooltipId": "StitchesSlamMegaSmashTalent",
         "name": "Mega Smash",
         "description": "Range and arc of Slam increased by 25%.",
+        "icon": "storm_ui_icon_stitches_slam.png",
+        "sort": 2,
         "abilityId": "Stitches|W1"
+      },
+      {
+        "tooltipId": "StitchesDevourIndigestionTalent",
+        "name": "Indigestion",
+        "description": "Using Devour also creates a Retchling that applies Vile Gas Poison when it attacks.",
+        "icon": "storm_ui_icon_stitches_devour.png",
+        "sort": 3,
+        "abilityId": "Stitches|E1"
       }
     ],
     "16": [
       {
-        "name": "Fishing Hook",
-        "description": "Hook has an additional 40% range.",
-        "abilityId": "Stitches|Q1"
-      },
-      {
+        "tooltipId": "StitchesSlamPulverizeTalent",
         "name": "Pulverize",
         "description": "Decreases Slam's cooldown by 2 seconds and it also slows enemies by 75% for 1 second.",
+        "icon": "storm_ui_icon_stitches_slam.png",
+        "sort": 1,
         "abilityId": "Stitches|W1"
       },
       {
-        "name": "Shish Kabob",
-        "description": "Hook can pull up to 2 targets.",
+        "tooltipId": "StitchesHookFishingHookTalent",
+        "name": "Fishing Hook",
+        "description": "Hook has an additional 40% range.",
+        "icon": "storm_ui_icon_stitches_hook.png",
+        "sort": 2,
         "abilityId": "Stitches|Q1"
       },
       {
+        "tooltipId": "StitchesHookShishKabobTalent",
+        "name": "Shish Kabob",
+        "description": "Hook can pull up to 2 targets.",
+        "icon": "storm_ui_icon_stitches_hook_var1.png",
+        "sort": 3,
+        "abilityId": "Stitches|Q1"
+      },
+      {
+        "tooltipId": "GenericStoneskin",
         "name": "Stoneskin",
         "description": "Activate to gain 30% of your maximum Health as a Shield for 5 seconds.",
+        "icon": "storm_ui_icon_talent_stoneskin.png",
+        "sort": 4,
         "abilityId": "Stitches|Active",
         "cooldown": 60
       }
     ],
     "20": [
       {
-        "name": "Cannibalize",
-        "description": "Basic Attacks against Heroes heal Stitches for 5% of his maximum Health.",
-        "abilityId": "Stitches|Passive"
+        "tooltipId": "StitchesPotentBile",
+        "name": "Potent Bile",
+        "description": "Putrid Bile lasts 6 seconds longer and its slow amount is increased from 35% to 45%.",
+        "icon": "storm_ui_icon_stitches_putridbile.png",
+        "sort": 1,
+        "abilityId": "Stitches|R1"
       },
       {
+        "tooltipId": "StitchesGorgeHungryHungryStitchesTalent",
+        "name": "Hungry Hungry Stitches",
+        "description": "For 4 seconds after using Gorge, Stitches can teleport a short distance to additional targets and Gorge them.",
+        "icon": "storm_ui_icon_stitches_cannibalize.png",
+        "sort": 2,
+        "abilityId": "Stitches|R2"
+      },
+      {
+        "tooltipId": "HardenedShieldTalent",
         "name": "Hardened Shield",
         "description": "Activate to gain 75 Armor for 4 seconds, taking 75% less damage.",
+        "icon": "storm_ui_icon_talent_hardenedshield.png",
+        "sort": 3,
         "abilityId": "Stitches|Active",
         "cooldown": 60
       },
       {
-        "name": "Hungry Hungry Stitches",
-        "description": "For 4 seconds after using Gorge, Stitches can teleport a short distance to additional targets and Gorge them.",
-        "abilityId": "Stitches|R2"
-      },
-      {
-        "name": "Potent Bile",
-        "description": "Putrid Bile lasts 6 seconds longer and its slow amount is increased from 35% to 45%.",
-        "abilityId": "Stitches|R1"
+        "tooltipId": "StitchesCannibalize",
+        "name": "Cannibalize",
+        "description": "Basic Attacks against Heroes heal Stitches for 5% of his maximum Health.",
+        "icon": "storm_ui_icon_talent_autoattack_heal.png",
+        "sort": 4,
+        "abilityId": "Stitches|Passive"
       }
     ]
   }

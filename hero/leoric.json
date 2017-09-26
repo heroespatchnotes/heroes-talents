@@ -74,130 +74,196 @@
   "talents": {
     "1": [
       {
+        "tooltipId": "LeoricConsumeVitalityTalent",
         "name": "Consume Vitality",
         "description": "Skeletal Swing's cooldown is reduced by 2 seconds. Enemy Heroes hit heal Leoric for 4% of his maximum Health.",
+        "icon": "storm_ui_icon_leoric_skeletalswing_var1.png",
+        "sort": 1,
         "abilityId": "Leoric|Q1"
       },
       {
+        "tooltipId": "LeoricFealtyUntoDeathTalent",
         "name": "Fealty Unto Death",
         "description": "When a nearby Minion dies, you restore 1% of your maximum Health and 5 Mana. Half as effective while Undying.",
+        "icon": "storm_ui_icon_leoric_trait.png",
+        "sort": 2,
         "abilityId": "Leoric|Passive"
       },
       {
+        "tooltipId": "LeoricOsseinRenewal",
         "name": "Ossein Renewal",
         "description": "Activate to heal Leoric for 30% of his maximum Health over 5 seconds. Regeneration Globes lower the cooldown of this Ability by 20 seconds.",
+        "icon": "storm_ui_icon_talent_amplifiedhealing.png",
+        "sort": 3,
         "abilityId": "Leoric|Active",
         "cooldown": 120
       }
     ],
     "4": [
       {
+        "tooltipId": "LeoricGhastlyReachTalent",
         "name": "Ghastly Reach",
         "description": "Increases the range of Skeletal Swing by 25%.",
+        "icon": "storm_ui_icon_leoric_skeletalswing.png",
+        "sort": 1,
         "abilityId": "Leoric|Q1"
       },
       {
-        "name": "Kneel, Peasants!",
-        "description": "Skeletal Swing deals 75% more damage to Minions and Mercenaries.",
-        "abilityId": "Leoric|Q1"
-      },
-      {
+        "tooltipId": "LeoricParalyzingRageTalent",
         "name": "Paralyzing Rage",
         "description": "Increases the Movement Speed slow of Skeletal Swing to 60%.",
+        "icon": "storm_ui_icon_leoric_skeletalswing_var1.png",
+        "sort": 2,
+        "abilityId": "Leoric|Q1"
+      },
+      {
+        "tooltipId": "LeoricKneelPeasantsTalent",
+        "name": "Kneel, Peasants!",
+        "description": "Skeletal Swing deals 75% more damage to Minions and Mercenaries.",
+        "icon": "storm_ui_icon_leoric_skeletalswing_var2.png",
+        "sort": 3,
         "abilityId": "Leoric|Q1"
       }
     ],
     "7": [
       {
-        "name": "Drain Momentum",
-        "description": "Drain Hope no longer Slows Leoric. If Drain Hope lasts its full duration, gain 30% Movement Speed for 4 seconds.",
-        "abilityId": "Leoric|W1"
-      },
-      {
-        "name": "Hopelessness",
-        "description": "Increases the range of Drain Hope by 25%.",
-        "abilityId": "Leoric|W1"
-      },
-      {
+        "tooltipId": "LeoricWillingVesselTalent",
         "name": "Willing Vessel",
         "description": "Increase the healing from Drain Hope to 25% of Leoric's maximum Health. If Drain Hope lasts its full duration, Leoric instantly heals for an additional 5% of his maximum Health.",
+        "icon": "storm_ui_icon_leoric_drainhope.png",
+        "sort": 1,
+        "abilityId": "Leoric|W1"
+      },
+      {
+        "tooltipId": "LeoricDrainMomentumTalent",
+        "name": "Drain Momentum",
+        "description": "Drain Hope no longer Slows Leoric. If Drain Hope lasts its full duration, gain 30% Movement Speed for 4 seconds.",
+        "icon": "storm_ui_icon_leoric_drainhope_var1.png",
+        "sort": 2,
+        "abilityId": "Leoric|W1"
+      },
+      {
+        "tooltipId": "LeoricHopelessnessTalent",
+        "name": "Hopelessness",
+        "description": "Increases the range of Drain Hope by 25%.",
+        "icon": "storm_ui_icon_leoric_drainhope_var2.png",
+        "sort": 3,
         "abilityId": "Leoric|W1"
       }
     ],
     "10": [
       {
+        "tooltipId": "LeoricEntomb",
         "name": "Entomb",
         "description": "Create an unpathable tomb in front of you for 4 seconds.",
+        "icon": "storm_ui_icon_leoric_entomb.png",
+        "sort": 1,
         "abilityId": "Leoric|R1",
         "cooldown": 60
       },
       {
+        "tooltipId": "LeoricMarchoftheBlackKing",
         "name": "March of the Black King",
         "description": "Become Unstoppable and swing your mace three times, healing yourself for 12% of your maximum Health for each enemy Hero hit and dealing 250 (+4% per level) damage.",
+        "icon": "storm_ui_icon_leoric_r2.png",
+        "sort": 2,
         "abilityId": "Leoric|R2",
         "cooldown": 50
       }
     ],
     "13": [
       {
-        "name": "Hardened Bones",
-        "description": "Gain 20 Armor while Drain Hope is active. If Drain Hope lasts its full duration, retain the Armor bonus for 3 seconds.",
-        "abilityId": "Leoric|W1"
-      },
-      {
-        "name": "Ominous Wraith",
-        "description": "Increase Wraith Walk's duration by 100%. Enemy Heroes that come in contact with the wraith deal 50% less damage for 4 seconds.",
-        "abilityId": "Leoric|E1"
-      },
-      {
+        "tooltipId": "LeoricUnyieldingDespairTalent",
         "name": "Unyielding Despair",
         "description": "Drain Hope's cooldown is reduced by 0.5 seconds for every 1 second it is active. If Drain Hope lasts its full duration, its cooldown is reduced by an additional 3 seconds.",
+        "icon": "storm_ui_icon_leoric_drainhope.png",
+        "sort": 1,
         "abilityId": "Leoric|W1"
+      },
+      {
+        "tooltipId": "LeoricHardenedBonesTalent",
+        "name": "Hardened Bones",
+        "description": "Gain 20 Armor while Drain Hope is active. If Drain Hope lasts its full duration, retain the Armor bonus for 3 seconds.",
+        "icon": "storm_ui_icon_leoric_drainhope_var1.png",
+        "sort": 2,
+        "abilityId": "Leoric|W1"
+      },
+      {
+        "tooltipId": "LeoricOminousWraithTalent",
+        "name": "Ominous Wraith",
+        "description": "Increase Wraith Walk's duration by 100%. Enemy Heroes that come in contact with the wraith deal 50% less damage for 4 seconds.",
+        "icon": "storm_ui_icon_leoric_wraithwalk.png",
+        "sort": 3,
+        "abilityId": "Leoric|E1"
       }
     ],
     "16": [
       {
+        "tooltipId": "LeoricCrushingHopeTalent",
         "name": "Crushing Hope",
         "description": "If Drain Hope lasts its full duration, it instantly deals an additional 15% of the target's maximum Health as damage. This damage does not heal Leoric.",
+        "icon": "storm_ui_icon_leoric_drainhope.png",
+        "sort": 1,
         "abilityId": "Leoric|W1"
       },
       {
-        "name": "Mithril Mace",
-        "description": "Increase Leoric's Attack Speed by 20%. Repeatable Quest: Nearby enemy Minion deaths grant 0.3% permanent Attack Speed, and Takedowns grant 3% permanent Attack Speed, up to 30%.",
-        "abilityId": "Leoric|Passive"
-      },
-      {
+        "tooltipId": "LeoricRoyalFocusTalent",
         "name": "Royal Focus",
         "description": "Wraith Walk increases the damage of the next Skeletal Swing within 5 seconds by 50%. Each enemy Hero hit by this Skeletal Swing reduces the cooldown of Wraith Walk by 7 seconds.",
+        "icon": "storm_ui_icon_leoric_wraithwalk.png",
+        "sort": 2,
         "abilityId": "Leoric|E1"
+      },
+      {
+        "tooltipId": "LeoricMithrilMaceTalent",
+        "name": "Mithril Mace",
+        "description": "Increase Leoric's Attack Speed by 20%. Repeatable Quest: Nearby enemy Minion deaths grant 0.3% permanent Attack Speed, and Takedowns grant 3% permanent Attack Speed, up to 30%.",
+        "icon": "storm_ui_icon_talent_autoattack_speed.png",
+        "sort": 3,
+        "abilityId": "Leoric|Passive"
       }
     ],
     "20": [
       {
+        "tooltipId": "LeoricBuriedAliveTalent",
         "name": "Buried Alive",
         "description": "The duration of Entomb is lowered by 1 second, but enemies trapped inside are Silenced and take 45 (+4% per level) damage every 1 second.",
+        "icon": "storm_ui_icon_leoric_entomb.png",
+        "sort": 1,
         "abilityId": "Leoric|R1"
       },
       {
-        "name": "Burning Despair",
-        "description": "Deal 40 (+4% per level) damage per second to nearby enemies. The damage and area is increased by 100% while Drain Hope is active.",
-        "abilityId": "Leoric|Passive"
-      },
-      {
+        "tooltipId": "LeoricDeathMarchTalent",
         "name": "Death March",
         "description": "The final swing of March of the Black King also applies Drain Hope to nearby enemy Heroes.",
+        "icon": "storm_ui_icon_leoric_r2.png",
+        "sort": 2,
         "abilityId": "Leoric|R2"
       },
       {
-        "name": "Shroud of the Dead King",
-        "description": "Activate to become Protected for 3 seconds, preventing all damage.",
-        "abilityId": "Leoric|Active",
-        "cooldown": 75
-      },
-      {
+        "tooltipId": "LeoricSpectralLeechTalent",
         "name": "Spectral Leech",
         "description": "Basic Attacks against enemy Heroes deal bonus damage equal to 2.5% of the Hero's maximum Health and heal Leoric for twice that amount.",
+        "icon": "storm_ui_icon_talent_autoattack_heal.png",
+        "sort": 3,
         "abilityId": "Leoric|Passive"
+      },
+      {
+        "tooltipId": "LeoricBurningDespair",
+        "name": "Burning Despair",
+        "description": "Deal 40 (+4% per level) damage per second to nearby enemies. The damage and area is increased by 100% while Drain Hope is active.",
+        "icon": "storm_ui_icon_leoric_drainhope.png",
+        "sort": 4,
+        "abilityId": "Leoric|Passive"
+      },
+      {
+        "tooltipId": "LeoricShroudoftheDeadKingTalent",
+        "name": "Shroud of the Dead King",
+        "description": "Activate to become Protected for 3 seconds, preventing all damage.",
+        "icon": "storm_ui_icon_talent_hardenedshield.png",
+        "sort": 5,
+        "abilityId": "Leoric|Active",
+        "cooldown": 75
       }
     ]
   }

@@ -58,136 +58,205 @@
   "talents": {
     "1": [
       {
-        "name": "Chaotic Energy",
-        "description": "Quest: Gathering a Regen Globe causes your next Basic Ability with a Mana cost to refund 40 Mana. Reward: After Gathering 20 Regen Globes your Basic Ability Mana costs are permanently reduced by 20.",
-        "abilityId": "Gul'dan|Passive"
+        "tooltipId": "GuldanFelFlameTalentPursuitOfFlame",
+        "name": "Pursuit of Flame",
+        "description": "Quest: Hit 40 enemy Heroes with Fel Flame. Reward: Fel Flame's radius is increased by 10%.",
+        "icon": "storm_ui_icon_guldan_felflame.png",
+        "sort": 1,
+        "abilityId": "Gul'dan|Q1"
       },
       {
-        "name": "Echoed Corruption",
-        "description": "Quest: Hit 40 enemy Heroes with Corruption. Reward: After the third strike, Corruption strikes 3 times in the opposite direction.",
-        "abilityId": "Gul'dan|E1"
-      },
-      {
+        "tooltipId": "GuldanDrainLifeTalentGlyphofDrainLife",
         "name": "Glyph of Drain Life",
         "description": "Increases the cast range of Drain Life by 25%.",
+        "icon": "storm_ui_icon_guldan_healthfunnel.png",
+        "sort": 2,
         "abilityId": "Gul'dan|W1"
       },
       {
-        "name": "Pursuit of Flame",
-        "description": "Quest: Hit 40 enemy Heroes with Fel Flame. Reward: Fel Flame's radius is increased by 10%.",
-        "abilityId": "Gul'dan|Q1"
+        "tooltipId": "GuldanCorruptionEchoedCorruption",
+        "name": "Echoed Corruption",
+        "description": "Quest: Hit 40 enemy Heroes with Corruption. Reward: After the third strike, Corruption strikes 3 times in the opposite direction.",
+        "icon": "storm_ui_icon_guldan_handofguldan.png",
+        "sort": 3,
+        "abilityId": "Gul'dan|E1"
+      },
+      {
+        "tooltipId": "GuldanChaoticEnergy",
+        "name": "Chaotic Energy",
+        "description": "Quest: Gathering a Regen Globe causes your next Basic Ability with a Mana cost to refund 40 Mana. Reward: After Gathering 20 Regen Globes your Basic Ability Mana costs are permanently reduced by 20.",
+        "icon": "storm_ui_icon_chaoticenergy.png",
+        "sort": 4,
+        "abilityId": "Gul'dan|Passive"
       }
     ],
     "4": [
       {
-        "name": "Consume Soul",
-        "description": "Instantly kill an enemy Minion and heal for 365 (+4% per level) Health. Stores 2 charges.",
-        "abilityId": "Gul'dan|Active",
-        "cooldown": 30
-      },
-      {
+        "tooltipId": "GuldanDrainLifeHealthFunnel",
         "name": "Health Funnel",
         "description": "If an enemy dies while under the effect of Drain Life, the cooldown is instantly refreshed.",
+        "icon": "storm_ui_icon_guldan_healthfunnel.png",
+        "sort": 1,
         "abilityId": "Gul'dan|W1"
       },
       {
+        "tooltipId": "GuldanLifeTapImprovedLifeTap",
         "name": "Improved Life Tap",
         "description": "Life Tap now restores 35% Mana",
+        "icon": "storm_ui_icon_guldan_lifetap.png",
+        "sort": 2,
         "abilityId": "Gul'dan|D1"
+      },
+      {
+        "tooltipId": "GuldanConsumeSoul",
+        "name": "Consume Soul",
+        "description": "Instantly kill an enemy Minion and heal for 365 (+4% per level) Health. Stores 2 charges.",
+        "icon": "storm_ui_icon_guldan_darkpact.png",
+        "sort": 3,
+        "abilityId": "Gul'dan|Active",
+        "cooldown": 30
       }
     ],
     "7": [
       {
+        "tooltipId": "GuldanFelFlameBoundByShadow",
         "name": "Bound by Shadow",
         "description": "Each enemy Hero hit with Fel Flame reduces the cooldown of Corruption by 1 second.",
+        "icon": "storm_ui_icon_guldan_felflame.png",
+        "sort": 1,
         "abilityId": "Gul'dan|Q1"
       },
       {
-        "name": "Curse of Exhaustion",
-        "description": "Upon expiration, Corruption slows enemy Movement Speed by 50% for 2.5 seconds.",
-        "abilityId": "Gul'dan|E1"
-      },
-      {
+        "tooltipId": "GuldanDrainLifeDevourTheFrail",
         "name": "Devour the Frail",
         "description": "Drain Life deals 50% more damage to enemies below 50% Health.",
+        "icon": "storm_ui_icon_guldan_healthfunnel.png",
+        "sort": 2,
         "abilityId": "Gul'dan|W1"
       },
       {
+        "tooltipId": "GuldanCorruptionCurseOfExhaustion",
+        "name": "Curse of Exhaustion",
+        "description": "Upon expiration, Corruption slows enemy Movement Speed by 50% for 2.5 seconds.",
+        "icon": "storm_ui_icon_guldan_handofguldan.png",
+        "sort": 3,
+        "abilityId": "Gul'dan|E1"
+      },
+      {
+        "tooltipId": "GuldanLifeTapHungerforPower",
         "name": "Hunger for Power",
         "description": "Increases Ability Power by 15% but reduces healing received from allies by 25%.",
+        "icon": "storm_ui_icon_guldan_hungerforpower.png",
+        "sort": 4,
         "abilityId": "Gul'dan|Passive"
       }
     ],
     "10": [
       {
+        "tooltipId": "GuldanHorrify",
         "name": "Horrify",
         "description": "After 0.5 seconds, deal 120 (+4% per level) damage and fear enemy Heroes in the area for 2 seconds.",
+        "icon": "storm_ui_icon_guldan_horrify.png",
+        "sort": 1,
         "abilityId": "Gul'dan|R1",
         "cooldown": 80
       },
       {
+        "tooltipId": "GuldanRainOfDestruction",
         "name": "Rain of Destruction",
         "description": "Summon a rain of meteors in an area for 7 seconds. Each meteor deals 165 (+4% per level) damage in a small area.",
+        "icon": "storm_ui_icon_guldan_rainoffire.png",
+        "sort": 2,
         "abilityId": "Gul'dan|R2",
         "cooldown": 100
       }
     ],
     "13": [
       {
-        "name": "Dark Bargain",
-        "description": "Gul'dan's maximum Health is permanently increased by 25% but his Death Respawn time is increased by 15 seconds.",
-        "abilityId": "Gul'dan|Passive"
-      },
-      {
+        "tooltipId": "GuldanFelFlameFelArmor",
         "name": "Fel Armor",
         "description": "Hitting an enemy Hero with Fel Flame grants 40 Spell Armor for 2.5 seconds, reducing Ability Damage taken by 40%.",
+        "icon": "storm_ui_icon_guldan_felflame.png",
+        "sort": 1,
         "abilityId": "Gul'dan|Passive"
       },
       {
+        "tooltipId": "GuldanDrainLifeHarvestLife",
         "name": "Harvest Life",
         "description": "Drain Life heals for 50% more Health when used on Heroes.",
+        "icon": "storm_ui_icon_guldan_healthfunnel.png",
+        "sort": 2,
         "abilityId": "Gul'dan|W1"
       },
       {
+        "tooltipId": "GuldanDarkBargain",
+        "name": "Dark Bargain",
+        "description": "Gul'dan's maximum Health is permanently increased by 25% but his Death Respawn time is increased by 15 seconds.",
+        "icon": "storm_ui_icon_guldan_darkbargain.png",
+        "sort": 3,
+        "abilityId": "Gul'dan|Passive"
+      },
+      {
+        "tooltipId": "GuldanHealthstone",
         "name": "Healthstone",
         "description": "Activate to heal for 25% of Gul'dan's maximum Health.",
+        "icon": "storm_ui_icon_guldan_healthstone.png",
+        "sort": 4,
         "abilityId": "Gul'dan|Active",
         "cooldown": 60
       }
     ],
     "16": [
       {
-        "name": "Darkness Within",
-        "description": "After using Life Tap, the next Ability Gul'dan casts has 25% increased Ability Power.",
-        "abilityId": "Gul'dan|D1"
-      },
-      {
+        "tooltipId": "GuldanFelFlameRampantHellfire",
         "name": "Rampant Hellfire",
         "description": "Fel Flame's damage is increased by 8% for 5 seconds when hitting an enemy Hero. This can stack up to 5 times.",
+        "icon": "storm_ui_icon_guldan_felflame.png",
+        "sort": 1,
         "abilityId": "Gul'dan|Q1"
       },
       {
+        "tooltipId": "GuldanCorruptionRuinousAffliction",
         "name": "Ruinous Affliction",
         "description": "Corruption deals an additional 78 (+4% per level) damage on impact. If the enemy is hit by all three strikes, the third strike deals 233 (+4% per level) damage.",
+        "icon": "storm_ui_icon_guldan_handofguldan.png",
+        "sort": 2,
         "abilityId": "Gul'dan|E1"
+      },
+      {
+        "tooltipId": "GuldanLifeTapDarknessWithin",
+        "name": "Darkness Within",
+        "description": "After using Life Tap, the next Ability Gul'dan casts has 25% increased Ability Power.",
+        "icon": "storm_ui_icon_guldan_lifetap.png",
+        "sort": 3,
+        "abilityId": "Gul'dan|D1"
       }
     ],
     "20": [
       {
+        "tooltipId": "GuldanHorrifyHaunt",
+        "name": "Haunt",
+        "description": "Increases the duration of Horrify by 1 second, and while Feared, enemies lose 25 Armor, causing them to take 25% increased damage.",
+        "icon": "storm_ui_icon_guldan_horrify.png",
+        "sort": 1,
+        "abilityId": "Gul'dan|R1"
+      },
+      {
+        "tooltipId": "GuldanRainOfDestructionDeepImpact",
         "name": "Deep Impact",
         "description": "Rain of Destruction slows enemies Movement Speed by 90% for 0.5 seconds.",
+        "icon": "storm_ui_icon_guldan_rainoffire.png",
+        "sort": 2,
         "abilityId": "Gul'dan|R2"
       },
       {
+        "tooltipId": "GuldanDemonicCircle",
         "name": "Demonic Circle",
         "description": "Summon a Demonic Circle at Gul'dan's location. Activate to teleport Gul'dan to the Demonic Circle.",
+        "icon": "storm_ui_icon_guldan_demoniccircle.png",
+        "sort": 3,
         "abilityId": "Gul'dan|Active",
         "cooldown": 60
-      },
-      {
-        "name": "Haunt",
-        "description": "Increases the duration of Horrify by 1 second, and while Feared, enemies lose 25 Armor, causing them to take 25% increased damage.",
-        "abilityId": "Gul'dan|R1"
       }
     ]
   }

@@ -60,128 +60,191 @@
   "talents": {
     "1": [
       {
+        "tooltipId": "MalfurionInnervateShandosClarityTalent",
+        "name": "Shan'do's Clarity",
+        "description": "Reduces Innervate's cooldown by 8 seconds.",
+        "icon": "storm_ui_icon_malfurion_innerrvate.png",
+        "sort": 1,
+        "abilityId": "Malfurion|D1"
+      },
+      {
+        "tooltipId": "MalfurionMoonfireMoonburnTalent",
         "name": "Moonburn",
         "description": "Increase Moonfire's damage to Minions by 75%. Repeatable Quest: Every 5 Minions killed nearby increase this bonus by 1%, up to 25%. After reaching a 25% bonus, Moonburn's bonus damage also applies to Mercenaries and Monsters.",
+        "icon": "storm_ui_icon_malfurion_moonfire.png",
+        "sort": 2,
         "abilityId": "Malfurion|W1"
       },
       {
+        "tooltipId": "GenericScoutingDrone",
         "name": "Scouting Drone",
         "description": "Places a Scouting Drone at target location, granting vision and revealing a large area around it for 45 seconds. This drone cannot be hidden and is killed by enemies with 2 Basic Attacks. Stores up to 2 charges.",
+        "icon": "storm_ui_icon_talent_scoutingdrone.png",
+        "sort": 3,
         "abilityId": "Malfurion|Active",
         "cooldown": 45
-      },
-      {
-        "name": "Shan'do's Clarity",
-        "description": "Reduces Innervate's cooldown by 8 seconds.",
-        "abilityId": "Malfurion|D1"
       }
     ],
     "4": [
       {
+        "tooltipId": "MalfurionInnervateElunesGraceTalent",
         "name": "Elune's Grace",
         "description": "Increases the range of Regrowth, Moonfire, and Entangling Roots by 25%.",
+        "icon": "storm_ui_icon_malfurion_elunesgrace.png",
+        "sort": 1,
         "abilityId": "Malfurion|Passive"
       },
       {
+        "tooltipId": "MalfurionMoonfireFullMoonfireTalent",
         "name": "Full Moonfire",
         "description": "Increases Moonfire's radius by 50% and reduces its Mana cost by 5.",
+        "icon": "storm_ui_icon_malfurion_moonfire.png",
+        "sort": 2,
         "abilityId": "Malfurion|W1"
       },
       {
+        "tooltipId": "MalfurionEntanglingRootsVengefulRootsTalent",
         "name": "Vengeful Roots",
         "description": "Entangling Roots spawns a Treant that deals 70 damage per second and lasts 10 seconds. Repeatable Quest: Hitting enemy Heroes with Entangling Roots permanently increases the Treant's damage per second by 8.",
+        "icon": "storm_ui_icon_malfurion_entanglingroots.png",
+        "sort": 3,
         "abilityId": "Malfurion|E1"
       }
     ],
     "7": [
       {
+        "tooltipId": "MalfurionMoonfireHinderingMoonfireTalent",
         "name": "Hindering Moonfire",
         "description": "Moonfire slows targets by 25% for 2 seconds.",
+        "icon": "storm_ui_icon_malfurion_moonfire.png",
+        "sort": 1,
         "abilityId": "Malfurion|W1"
       },
       {
+        "tooltipId": "MalfurionMoonfireLunarShowerTalent",
         "name": "Lunar Shower",
         "description": "Using Moonfire reduces the cooldown of the next Moonfire by 0.5 seconds, and increases the damage by 15%. Stacks up to 3 times and resets after 6 seconds.",
+        "icon": "storm_ui_icon_malfurion_moonfire_a.png",
+        "sort": 2,
         "abilityId": "Malfurion|W1"
       },
       {
+        "tooltipId": "MalfurionEntanglingRootsStranglingVinesTalent",
         "name": "Strangling Vines",
         "description": "Enemy Heroes Rooted by Entangling Roots receive 30% less healing from all sources.",
+        "icon": "storm_ui_icon_malfurion_entanglingroots.png",
+        "sort": 3,
         "abilityId": "Malfurion|E1"
       }
     ],
     "10": [
       {
+        "tooltipId": "MalfurionTranquility",
         "name": "Tranquility",
         "description": "Heals 80 (+4% per level) Health per second to nearby allied Heroes over 10 seconds.",
+        "icon": "storm_ui_icon_malfurion_tranquility.png",
+        "sort": 1,
         "abilityId": "Malfurion|R1",
         "cooldown": 100
       },
       {
+        "tooltipId": "MalfurionTwilightDream",
         "name": "Twilight Dream",
         "description": "After 0.5 seconds, deal 374 (+4% per level) damage in a large area around Malfurion, Silencing enemies making them unable to use Abilities for 3 seconds.",
+        "icon": "storm_ui_icon_malfurion_twilightdream.png",
+        "sort": 2,
         "abilityId": "Malfurion|R2",
         "cooldown": 90
       }
     ],
     "13": [
       {
-        "name": "Ice Block",
-        "description": "Activate to place yourself in Stasis and gain Invulnerability for 3 seconds.",
+        "tooltipId": "MalfurionRegrowthLifeSeedTalent",
+        "name": "Life Seed",
+        "description": "Nearby damaged allied Heroes will automatically gain the heal over time portion of Regrowth. This effect has a 20 second cooldown.",
+        "icon": "storm_ui_icon_malfurion_regrowth.png",
+        "sort": 1,
+        "abilityId": "Malfurion|Q1"
+      },
+      {
+        "tooltipId": "GenericShrinkRayTalent",
+        "name": "Shrink Ray",
+        "description": "Activate to reduce an enemy Hero's damage by 50% and Movement Speed by 50% for 4 seconds.",
+        "icon": "storm_ui_icon_talent_shrinkray.png",
+        "sort": 2,
         "abilityId": "Malfurion|Active",
         "cooldown": 60
       },
       {
-        "name": "Life Seed",
-        "description": "Nearby damaged allied Heroes will automatically gain the heal over time portion of Regrowth. This effect has a 20 second cooldown.",
-        "abilityId": "Malfurion|Q1"
-      },
-      {
-        "name": "Shrink Ray",
-        "description": "Activate to reduce an enemy Hero's damage by 50% and Movement Speed by 50% for 4 seconds.",
+        "tooltipId": "GenericIceBlockTalent",
+        "name": "Ice Block",
+        "description": "Activate to place yourself in Stasis and gain Invulnerability for 3 seconds.",
+        "icon": "storm_ui_icon_talent_iceblock.png",
+        "sort": 3,
         "abilityId": "Malfurion|Active",
         "cooldown": 60
       }
     ],
     "16": [
       {
-        "name": "Revitalize",
-        "description": "Using Innervate also grants Malfurion 50 Mana and causes his Cooldowns to refresh 50% faster for 5 seconds.",
-        "abilityId": "Malfurion|D1"
+        "tooltipId": "MalfurionYserasGift",
+        "name": "Ysera's Gift",
+        "description": "While above 75% Health, Regrowth's additional healing-over-time is increased by 40%.",
+        "icon": "storm_ui_icon_malfurion_regrowth.png",
+        "sort": 1,
+        "abilityId": "Malfurion|Q1"
       },
       {
+        "tooltipId": "MalfurionEntanglingRootsTenaciousRootsTalent",
         "name": "Tenacious Roots",
         "description": "Entangling Roots grows 25% larger, lasts 25% longer, and roots targets for 0.25 seconds longer.",
+        "icon": "storm_ui_icon_malfurion_entanglingroots.png",
+        "sort": 2,
         "abilityId": "Malfurion|E1"
       },
       {
-        "name": "Ysera's Gift",
-        "description": "While above 75% Health, Regrowth's additional healing-over-time is increased by 40%.",
-        "abilityId": "Malfurion|Q1"
+        "tooltipId": "MalfurionRevitalizeInnervateTalent",
+        "name": "Revitalize",
+        "description": "Using Innervate also grants Malfurion 50 Mana and causes his Cooldowns to refresh 50% faster for 5 seconds.",
+        "icon": "storm_ui_icon_malfurion_innerrvate.png",
+        "sort": 3,
+        "abilityId": "Malfurion|D1"
       }
     ],
     "20": [
       {
-        "name": "Astral Communion",
-        "description": "Activate to Channel for 1 second, and then instantly teleport and cast Twilight Dream at the targeted location.  Cooldown is shared with Twilight Dream. Passive: Increase Twilight Dream's Silence duration to 4 seconds.",
-        "abilityId": "Malfurion|R2"
-      },
-      {
-        "name": "Rewind",
-        "description": "Activate to reset the cooldowns of your Basic Abilities.",
-        "abilityId": "Malfurion|Active",
-        "cooldown": 60
-      },
-      {
+        "tooltipId": "MalfurionTranquilitySerenityTalent",
         "name": "Serenity",
         "description": "Increases Tranquility's healing by 25% and it also restores 5 Mana per second.",
+        "icon": "storm_ui_icon_malfurion_tranquility.png",
+        "sort": 1,
         "abilityId": "Malfurion|R1"
       },
       {
+        "tooltipId": "MalfurionTwilightDreamAstralCommunionTalent",
+        "name": "Astral Communion",
+        "description": "Activate to Channel for 1 second, and then instantly teleport and cast Twilight Dream at the targeted location.  Cooldown is shared with Twilight Dream. Passive: Increase Twilight Dream's Silence duration to 4 seconds.",
+        "icon": "storm_ui_icon_malfurion_twilightdream.png",
+        "sort": 2,
+        "abilityId": "Malfurion|R2"
+      },
+      {
+        "tooltipId": "GenericStormShield",
         "name": "Storm Shield",
         "description": "Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.",
+        "icon": "storm_ui_icon_talent_stormshield.png",
+        "sort": 3,
         "abilityId": "Malfurion|Active",
         "cooldown": 45
+      },
+      {
+        "tooltipId": "GenericRewindHotbar",
+        "name": "Rewind",
+        "description": "Activate to reset the cooldowns of your Basic Abilities.",
+        "icon": "storm_ui_icon_talent_rewind.png",
+        "sort": 4,
+        "abilityId": "Malfurion|Active",
+        "cooldown": 60
       }
     ]
   }

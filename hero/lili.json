@@ -58,150 +58,228 @@
   "talents": {
     "1": [
       {
+        "tooltipId": "GenericConjurersPursuitTalent",
         "name": "Conjurer's Pursuit",
         "description": "Quest: Gathering Regeneration Globes increases your Mana Regeneration by 0.1 per second, up to 2.5 per second.  Reward: After gathering 25 Globes, also increase your maximum Mana by 100.",
+        "icon": "storm_ui_icon_talent_conjurerspursuit.png",
+        "sort": 1,
         "abilityId": "Li Li|Passive"
       },
       {
-        "name": "Gale Force",
-        "description": "Increases Blinding Wind damage by 40%.",
-        "abilityId": "Li Li|E1"
-      },
-      {
+        "tooltipId": "LiLiProTossTalent",
         "name": "Pro Toss",
         "description": "Increases the range of Healing Brew by 30%.",
+        "icon": "storm_ui_icon_lili_healingbrew.png",
+        "sort": 2,
         "abilityId": "Li Li|Q1"
       },
       {
+        "tooltipId": "LiLiCloudSerpentTimelessCreatureTalent",
         "name": "Timeless Creature",
         "description": "Increases the duration of Cloud Serpent by 50%.",
+        "icon": "storm_ui_icon_lili_cloudserpent.png",
+        "sort": 3,
         "abilityId": "Li Li|W1"
+      },
+      {
+        "tooltipId": "LiLiBlindingWindGaleForceTalent",
+        "name": "Gale Force",
+        "description": "Increases Blinding Wind damage by 40%.",
+        "icon": "storm_ui_icon_lili_blindingwind.png",
+        "sort": 4,
+        "abilityId": "Li Li|E1"
       }
     ],
     "4": [
       {
+        "tooltipId": "GenericHealingWardTalent",
         "name": "Healing Ward",
         "description": "Activate to place a ward on the ground that heals allies in an area for 2% of their maximum Health every second for 10 seconds.",
+        "icon": "storm_ui_icon_talent_healingward.png",
+        "sort": 1,
         "abilityId": "Li Li|Active",
         "cooldown": 60
       },
       {
-        "name": "Lingering Blind",
-        "description": "Increases the duration of Blinding Wind by 50%.",
-        "abilityId": "Li Li|E1"
-      },
-      {
-        "name": "Mass Vortex",
-        "description": "Increases the number of enemies hit by Blinding Wind from 2 to 4.",
-        "abilityId": "Li Li|E1"
-      },
-      {
+        "tooltipId": "LiLiMendingSerpentTalent",
         "name": "Mending Serpent",
         "description": "Cloud Serpent heals the friendly unit for 22 (+4% per level) Health each time it attacks.",
+        "icon": "storm_ui_icon_lili_cloudserpent.png",
+        "sort": 2,
         "abilityId": "Li Li|W1"
+      },
+      {
+        "tooltipId": "LiLiBlindingWindMassVortexTalent",
+        "name": "Mass Vortex",
+        "description": "Increases the number of enemies hit by Blinding Wind from 2 to 4.",
+        "icon": "storm_ui_icon_lili_blindingwind.png",
+        "sort": 3,
+        "abilityId": "Li Li|E1"
+      },
+      {
+        "tooltipId": "LiLiBlindingWindLingeringBlindTalent",
+        "name": "Lingering Blind",
+        "description": "Increases the duration of Blinding Wind by 50%.",
+        "icon": "storm_ui_icon_lili_blindingwind_a.png",
+        "sort": 4,
+        "abilityId": "Li Li|E1"
       }
     ],
     "7": [
       {
-        "name": "Cleanse",
-        "description": "Activate to make target ally Unstoppable for 1 second. Cannot be cast on yourself.",
-        "abilityId": "Li Li|Active",
-        "cooldown": 60
+        "tooltipId": "LiLiPitchPerfectTalent",
+        "name": "Pitch Perfect",
+        "description": "After casting Healing Brew, its cost is reduced by 10 Mana for 6 seconds.  This effect does not stack.",
+        "icon": "storm_ui_icon_lili_healingbrew.png",
+        "sort": 1,
+        "abilityId": "Li Li|Q1"
       },
       {
+        "tooltipId": "LiLiHealingBrewTheGoodStuffTalent",
+        "name": "The Good Stuff",
+        "description": "Healing Brew heals for an additional 60 (+4% per level) Health over 6 seconds.",
+        "icon": "storm_ui_icon_lili_healingbrew_a.png",
+        "sort": 2,
+        "abilityId": "Li Li|Q1"
+      },
+      {
+        "tooltipId": "LiLiCloudSerpentLightningSerpentTalent",
         "name": "Lightning Serpent",
         "description": "Cloud Serpent's attacks bounce to 3 nearby enemy targets, dealing 14 (+4% per level) damage each.",
+        "icon": "storm_ui_icon_lili_cloudserpent.png",
+        "sort": 3,
         "abilityId": "Li Li|W1"
       },
       {
-        "name": "Pitch Perfect",
-        "description": "After casting Healing Brew, its cost is reduced by 10 Mana for 6 seconds.  This effect does not stack.",
-        "abilityId": "Li Li|Q1"
-      },
-      {
-        "name": "The Good Stuff",
-        "description": "Healing Brew heals for an additional 60 (+4% per level) Health over 6 seconds.",
-        "abilityId": "Li Li|Q1"
+        "tooltipId": "GenericCleanse",
+        "name": "Cleanse",
+        "description": "Activate to make target ally Unstoppable for 1 second. Cannot be cast on yourself.",
+        "icon": "storm_ui_icon_talent_cleanse.png",
+        "sort": 4,
+        "abilityId": "Li Li|Active",
+        "cooldown": 60
       }
     ],
     "10": [
       {
+        "tooltipId": "LiLiJugof1000Cups",
         "name": "Jug of 1,000 Cups",
         "description": "Rapidly tosses brew to the most injured nearby allies within 10 range, restoring 1632 (+4% per level) Health over 6 seconds.",
+        "icon": "storm_ui_icon_lili_jugofathousandcups.png",
+        "sort": 1,
         "abilityId": "Li Li|R1",
         "cooldown": 70
       },
       {
+        "tooltipId": "LiLiWaterDragon",
         "name": "Water Dragon",
         "description": "Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 318 (+4% per level) damage and slowing their Movement Speed by 70% for 4 seconds.",
+        "icon": "storm_ui_icon_lili_waterdragon.png",
+        "sort": 2,
         "abilityId": "Li Li|R2",
         "cooldown": 45
       }
     ],
     "13": [
       {
+        "tooltipId": "LiLiFastFeetElusiveFeetTalent",
         "name": "Elusive Feet",
         "description": "When Fast Feet is triggered, gain 75 Physical Armor against the next 2 Hero Basic Attacks for 10 seconds, reducing the damage taken by 75%. This effect has a 10 second cooldown.",
+        "icon": "storm_ui_icon_lili_fastfeet.png",
+        "sort": 1,
         "abilityId": "Li Li|D1"
       },
       {
+        "tooltipId": "LiLiBlindingWindHinderingWindsTalent",
         "name": "Hindering Winds",
         "description": "Blinding Wind also slows enemy Movement Speed by 25% for 2 seconds.",
+        "icon": "storm_ui_icon_lili_blindingwind.png",
+        "sort": 2,
         "abilityId": "Li Li|E1"
       },
       {
-        "name": "Shrink Ray",
-        "description": "Activate to reduce an enemy Hero's damage by 50% and Movement Speed by 50% for 4 seconds.",
-        "abilityId": "Li Li|Active",
-        "cooldown": 60
-      },
-      {
+        "tooltipId": "LiLiSurgingWindsTalent",
         "name": "Surging Winds",
         "description": "Gain 5% Ability Power for 8 seconds for every enemy hit by Blinding Wind. Additional enemies hit refresh the duration of this buff and further increase Ability Power. Stacks up to 4 times.",
+        "icon": "storm_ui_icon_lili_blindingwind_a.png",
+        "sort": 3,
         "abilityId": "Li Li|E1"
+      },
+      {
+        "tooltipId": "GenericShrinkRayTalent",
+        "name": "Shrink Ray",
+        "description": "Activate to reduce an enemy Hero's damage by 50% and Movement Speed by 50% for 4 seconds.",
+        "icon": "storm_ui_icon_talent_shrinkray.png",
+        "sort": 4,
+        "abilityId": "Li Li|Active",
+        "cooldown": 60
       }
     ],
     "16": [
       {
-        "name": "Safety Sprint",
-        "description": "Increases Fast Feet's Movement Speed bonus from 10% to 20%.",
-        "abilityId": "Li Li|Active"
-      },
-      {
-        "name": "Serpent Sidekick",
-        "description": "You also gain a Cloud Serpent whenever you cast it on another ally.",
-        "abilityId": "Li Li|W1"
-      },
-      {
+        "tooltipId": "LiLiShakeItOffTalent",
         "name": "Shake It Off",
         "description": "Being Stunned or Rooted gives 50 Armor, reducing the damage taken by 50% for 4 seconds. This effect has a 10 second cooldown.",
+        "icon": "storm_ui_icon_lili_shakeitoff.png",
+        "sort": 1,
         "abilityId": "Li Li|Passive"
       },
       {
+        "tooltipId": "LiLiSafetySprintTalent",
+        "name": "Safety Sprint",
+        "description": "Increases Fast Feet's Movement Speed bonus from 10% to 20%.",
+        "icon": "storm_ui_icon_lili_fastfeet.png",
+        "sort": 2,
+        "abilityId": "Li Li|Active"
+      },
+      {
+        "tooltipId": "LiLiHealingBrewTwoForOneTalent",
         "name": "Two For One",
         "description": "Increases the number of allies healed by Healing Brew to 2, but increases the cooldown by 1.5 seconds.",
+        "icon": "storm_ui_icon_lili_healingbrew.png",
+        "sort": 3,
         "abilityId": "Li Li|Q1"
+      },
+      {
+        "tooltipId": "LiLiSerpentSidekickTalent",
+        "name": "Serpent Sidekick",
+        "description": "You also gain a Cloud Serpent whenever you cast it on another ally.",
+        "icon": "storm_ui_icon_lili_cloudserpent.png",
+        "sort": 4,
+        "abilityId": "Li Li|W1"
       }
     ],
     "20": [
       {
-        "name": "Double Dragon",
-        "description": "After hitting a target with Water Dragon, another Water Dragon is summoned at the point of impact.",
-        "abilityId": "Li Li|R2"
-      },
-      {
+        "tooltipId": "LiLiJugof1000CupsJugof1000000CupsTalent",
         "name": "Jug of 1,000,000 Cups",
         "description": "Jug of 1,000 Cups hits two targets at a time.",
+        "icon": "storm_ui_icon_lili_jugofathousandcups.png",
+        "sort": 1,
         "abilityId": "Li Li|R1"
       },
       {
+        "tooltipId": "LiLiWaterDragonDoubleDragonTalent",
+        "name": "Double Dragon",
+        "description": "After hitting a target with Water Dragon, another Water Dragon is summoned at the point of impact.",
+        "icon": "storm_ui_icon_lili_waterdragon.png",
+        "sort": 2,
+        "abilityId": "Li Li|R2"
+      },
+      {
+        "tooltipId": "LiLiKungFuHustleTalent",
         "name": "Kung Fu Hustle",
         "description": "Ability cooldowns refresh 150% faster while Fast Feet is active.",
+        "icon": "storm_ui_icon_lili_fastfeet.png",
+        "sort": 3,
         "abilityId": "Li Li|D1"
       },
       {
+        "tooltipId": "GenericStormShield",
         "name": "Storm Shield",
         "description": "Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.",
+        "icon": "storm_ui_icon_talent_stormshield.png",
+        "sort": 4,
         "abilityId": "Li Li|Active",
         "cooldown": 45
       }

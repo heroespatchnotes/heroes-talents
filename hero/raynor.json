@@ -57,134 +57,203 @@
   "talents": {
     "1": [
       {
+        "tooltipId": "RaynorAdrenalineRushGiveMeMoreTalent",
         "name": "Give Me More!",
         "description": "Increases Adrenaline Rush healing by 50%.",
+        "icon": "storm_ui_icon_raynor_adrenalinrush.png",
+        "sort": 1,
         "abilityId": "Raynor|E1"
       },
       {
-        "name": "Scouting Drone",
-        "description": "Places a Scouting Drone at target location, granting vision and revealing a large area around it for 45 seconds. This drone cannot be hidden and is killed by enemies with 2 Basic Attacks.  Stores up to 2 charges.",
-        "abilityId": "Raynor|Active",
-        "cooldown": 45
-      },
-      {
+        "tooltipId": "GenericSeasonedMarksmanTalent",
         "name": "Seasoned Marksman",
         "description": "Quest: Every Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage.  Reward: Upon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 40% for 3 seconds. 60 second cooldown.",
+        "icon": "storm_ui_icon_talent_seasonedmarksman.png",
+        "sort": 2,
         "abilityId": "Raynor|Active"
+      },
+      {
+        "tooltipId": "GenericScoutingDrone",
+        "name": "Scouting Drone",
+        "description": "Places a Scouting Drone at target location, granting vision and revealing a large area around it for 45 seconds. This drone cannot be hidden and is killed by enemies with 2 Basic Attacks.  Stores up to 2 charges.",
+        "icon": "storm_ui_icon_talent_scoutingdrone.png",
+        "sort": 3,
+        "abilityId": "Raynor|Active",
+        "cooldown": 45
       }
     ],
     "4": [
       {
+        "tooltipId": "GenericFocusedAttackTalent",
+        "name": "Focused Attack",
+        "description": "Every 10 seconds, your next Basic Attack against a Hero deals 60% additional damage. Basic Attacks reduce this cooldown by 1 second.",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "sort": 1,
+        "abilityId": "Raynor|Passive"
+      },
+      {
+        "tooltipId": "GenericVigorousAssaultTalent",
+        "name": "Vigorous Assault",
+        "description": "Basic Attacks heal for 15% of the damage dealt to the primary target.",
+        "icon": "storm_ui_icon_talent_autoattack_heal.png",
+        "sort": 2,
+        "abilityId": "Raynor|Passive"
+      },
+      {
+        "tooltipId": "RaynorPenetratingRoundConfidentAimTalent",
         "name": "Confident Aim",
         "description": "Lowers the cooldown of Penetrating Round by 4 seconds if it hits an enemy Hero.",
+        "icon": "storm_ui_icon_raynor_penetratinground.png",
+        "sort": 3,
         "abilityId": "Raynor|Q1"
       },
       {
-        "name": "Focused Attack",
-        "description": "Every 10 seconds, your next Basic Attack against a Hero deals 60% additional damage. Basic Attacks reduce this cooldown by 1 second.",
-        "abilityId": "Raynor|Passive"
-      },
-      {
+        "tooltipId": "RaynorRelentlessLeaderTalent",
         "name": "Relentless Leader",
         "description": "Once every 8 seconds, if you are Stunned or Rooted you knock nearby enemies away and reduce the cooldown of Adrenaline Rush by 15 seconds.",
+        "icon": "storm_ui_icon_raynor_relentlessleader.png",
+        "sort": 4,
         "abilityId": "Raynor|E1"
-      },
-      {
-        "name": "Vigorous Assault",
-        "description": "Basic Attacks heal for 15% of the damage dealt to the primary target.",
-        "abilityId": "Raynor|Passive"
       }
     ],
     "7": [
       {
-        "name": "Fight or Flight",
-        "description": "Whenever Adrenaline Rush activates, it gives 25 Armor, reducing damage taken by 25% for 4 seconds.  Adrenaline Rush can also be manually activated.",
-        "abilityId": "Raynor|E1"
-      },
-      {
+        "tooltipId": "RaynorPenetratingRoundHamstringShotTalent",
         "name": "Hamstring Shot",
         "description": "Enemies hit by Penetrating Round have a 20% Movement Speed slow for 3 seconds.",
+        "icon": "storm_ui_icon_raynor_penetratinground.png",
+        "sort": 1,
         "abilityId": "Raynor|Q1"
       },
       {
-        "name": "Puttin' On a Clinic",
-        "description": "Whenever an enemy Minion you have recently damaged is destroyed, your Ability cooldowns are reduced by 1.5 seconds.",
-        "abilityId": "Raynor|Passive"
-      },
-      {
+        "tooltipId": "RaynorInspireRevolutionOverdriveTalent",
         "name": "Revolution Overdrive",
         "description": "Gain 10% Movement Speed while affected by Inspire.  Increase this bonus by 5% for each allied Hero nearby when Inspire is cast.",
+        "icon": "storm_ui_icon_raynor_inspire.png",
+        "sort": 2,
         "abilityId": "Raynor|W1"
+      },
+      {
+        "tooltipId": "RaynorAdrenalineRushFightOrFlightTalent",
+        "name": "Fight or Flight",
+        "description": "Whenever Adrenaline Rush activates, it gives 25 Armor, reducing damage taken by 25% for 4 seconds.  Adrenaline Rush can also be manually activated.",
+        "icon": "storm_ui_icon_raynor_adrenalinrush.png",
+        "sort": 3,
+        "abilityId": "Raynor|E1"
+      },
+      {
+        "tooltipId": "RaynorLeadFromTheFrontPuttinOnAClinicTalent",
+        "name": "Puttin' On a Clinic",
+        "description": "Whenever an enemy Minion you have recently damaged is destroyed, your Ability cooldowns are reduced by 1.5 seconds.",
+        "icon": "storm_ui_icon_raynor_puttinonaclinic.png",
+        "sort": 4,
+        "abilityId": "Raynor|Passive"
       }
     ],
     "10": [
       {
+        "tooltipId": "RaynorHyperion",
         "name": "Hyperion",
         "description": "Order the Hyperion to make a strafing run dealing 66 (+4% per level) damage a second, hitting up to 4 enemies. Also occasionally fires its Yamato Cannon on Structures for 794 (+4% per level) damage. Lasts 12 seconds.",
+        "icon": "storm_ui_icon_raynor_hyperion.png",
+        "sort": 1,
         "abilityId": "Raynor|R1",
         "cooldown": 100
       },
       {
+        "tooltipId": "RaynorRaynorsRaiders",
         "name": "Raynor's Raiders",
         "description": "Summon two Stealthed Banshees that attack an enemy. Each Banshee deals 78 (+4% per level) damage a second and lasts 22 seconds. Can reactivate the Ability to retarget the Banshees.",
+        "icon": "storm_ui_icon_raynor_raynorsraiders.png",
+        "sort": 2,
         "abilityId": "Raynor|R2",
         "cooldown": 80
       }
     ],
     "13": [
       {
-        "name": "Double-Barreled",
-        "description": "Penetrating Round gains a second charge.",
-        "abilityId": "Raynor|Q1"
-      },
-      {
+        "tooltipId": "GenericGiantKiller",
         "name": "Giant Killer",
         "description": "Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health.",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "sort": 1,
         "abilityId": "Raynor|Passive"
       },
       {
+        "tooltipId": "RaynorPenetratingRoundDoubleBarreledTalent",
+        "name": "Double-Barreled",
+        "description": "Penetrating Round gains a second charge.",
+        "icon": "storm_ui_icon_raynor_penetratinground.png",
+        "sort": 2,
+        "abilityId": "Raynor|Q1"
+      },
+      {
+        "tooltipId": "RaynorInspireSteelResolveTalent",
         "name": "Steel Resolve",
         "description": "Increases Inspire's duration by 50% and causes Adrenaline Rush to also apply Inspire.",
+        "icon": "storm_ui_icon_raynor_inspire.png",
+        "sort": 3,
         "abilityId": "Raynor|W1"
       }
     ],
     "16": [
       {
-        "name": "Bullseye",
-        "description": "The first enemy hit by Penetrating Round is stunned for 1 second.",
-        "abilityId": "Raynor|Q1"
-      },
-      {
-        "name": "Cluster Round",
-        "description": "Penetrating Round damage is increased by 20% for each additional target hit up to 100%, and the width is increased by 50%.",
-        "abilityId": "Raynor|Q1"
-      },
-      {
+        "tooltipId": "GenericExecutionerTalent",
         "name": "Executioner",
         "description": "Attacking a Hero that is slowed, rooted, or stunned increases your Basic Attack damage by 30% for 3 seconds.",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "sort": 1,
         "abilityId": "Raynor|Passive"
+      },
+      {
+        "tooltipId": "RaynorPenetratingRoundClusterRoundTalent",
+        "name": "Cluster Round",
+        "description": "Penetrating Round damage is increased by 20% for each additional target hit up to 100%, and the width is increased by 50%.",
+        "icon": "storm_ui_icon_raynor_penetratinground.png",
+        "sort": 2,
+        "abilityId": "Raynor|Q1"
+      },
+      {
+        "tooltipId": "RaynorPenetratingRoundBullseyeTalent",
+        "name": "Bullseye",
+        "description": "The first enemy hit by Penetrating Round is stunned for 1 second.",
+        "icon": "storm_ui_icon_raynor_penetratinground_var1.png",
+        "sort": 3,
+        "abilityId": "Raynor|Q1"
       }
     ],
     "20": [
       {
-        "name": "A Card to Play",
-        "description": "Whenever a Hero (ally or enemy) is killed, the cooldown of your Heroic Ability is reduced by 15 seconds.",
-        "abilityId": "Raynor|Passive"
+        "tooltipId": "RaynorHyperionGroundStrafeTalent",
+        "name": "Scorched Earth",
+        "description": "An additional set of lasers blast the ground 5 times per second, dealing 40 (+4% per level) damage in an area.",
+        "icon": "storm_ui_icon_raynor_hyperion.png",
+        "sort": 1,
+        "abilityId": "Raynor|R1"
       },
       {
+        "tooltipId": "RaynorRaynorsRaidersHelsAngelsTalent",
         "name": "Dusk Wings",
         "description": "Banshees remain Stealthed while attacking and fire 50% more frequently.",
+        "icon": "storm_ui_icon_raynor_raynorsraiders.png",
+        "sort": 2,
         "abilityId": "Raynor|R2"
       },
       {
-        "name": "Nexus Frenzy",
-        "description": "Increases Attack Speed by 20% and Attack Range by 1.1.",
+        "tooltipId": "RaynorACardToPlayTalent",
+        "name": "A Card to Play",
+        "description": "Whenever a Hero (ally or enemy) is killed, the cooldown of your Heroic Ability is reduced by 15 seconds.",
+        "icon": "storm_ui_icon_raynor_acardtoplay.png",
+        "sort": 3,
         "abilityId": "Raynor|Passive"
       },
       {
-        "name": "Scorched Earth",
-        "description": "An additional set of lasers blast the ground 5 times per second, dealing 40 (+4% per level) damage in an area.",
-        "abilityId": "Raynor|R1"
+        "tooltipId": "NexusFrenzyTalent",
+        "name": "Nexus Frenzy",
+        "description": "Increases Attack Speed by 20% and Attack Range by 1.1.",
+        "icon": "storm_ui_icon_talent_autoattack_range.png",
+        "sort": 4,
+        "abilityId": "Raynor|Passive"
       }
     ]
   }

@@ -60,137 +60,206 @@
   "talents": {
     "1": [
       {
-        "name": "Master of Destruction",
-        "description": "Reduces the Mana cost from 16 to 10 per second. Every 1.5 seconds spent channeling increases the range by 10%, to a maximum of 30%.",
-        "abilityId": "Azmodan|E1"
-      },
-      {
-        "name": "Sieging Wrath",
-        "description": "Quest: Every time Globe of Annihilation hits a Hero, its damage is increased by 4, up to 100. Reward: After hitting 25 Heroes, the range of Globe of Annihilation is increased by 33% and its damage is increased by an additional 100.",
-        "abilityId": "Azmodan|Q1"
-      },
-      {
+        "tooltipId": "AzmodanGlobeOfAnnihilationTasteForBloodTalent",
         "name": "Taste for Blood",
         "description": "Quest: Kill enemy Minions and Heroes within 1.5 seconds of being hit by Globe of Annihilation.  Reward: Enemy Minions that die increase its damage by 2.  Reward: Enemy Heroes that die increase its damage by 10.  Maximum bonus damage of 500.",
+        "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
+        "sort": 1,
         "abilityId": "Azmodan|Q1"
+      },
+      {
+        "tooltipId": "AzmodanGlobeOfAnnihilationSiegingWrathTalent",
+        "name": "Sieging Wrath",
+        "description": "Quest: Every time Globe of Annihilation hits a Hero, its damage is increased by 4, up to 100. Reward: After hitting 25 Heroes, the range of Globe of Annihilation is increased by 33% and its damage is increased by an additional 100.",
+        "icon": "storm_ui_icon_azmodan_globeofannihilation_a.png",
+        "sort": 2,
+        "abilityId": "Azmodan|Q1"
+      },
+      {
+        "tooltipId": "AzmodanAllShallBurnMasterOfDestructionTalent",
+        "name": "Master of Destruction",
+        "description": "Reduces the Mana cost from 16 to 10 per second. Every 1.5 seconds spent channeling increases the range by 10%, to a maximum of 30%.",
+        "icon": "storm_ui_icon_azmodan_allshallburn.png",
+        "sort": 3,
+        "abilityId": "Azmodan|E1"
       }
     ],
     "4": [
       {
-        "name": "Army of Hell",
-        "description": "Increases Demon Warrior's damage by 20% and reduces their Mana cost by 20.",
-        "abilityId": "Azmodan|W1"
-      },
-      {
+        "tooltipId": "AzmodanAllShallBurnGluttonyTalent",
         "name": "Gluttony",
         "description": "All Shall Burn heals Azmodan for 25% of the damage dealt.",
+        "icon": "storm_ui_icon_azmodan_allshallburn.png",
+        "sort": 1,
         "abilityId": "Azmodan|E1"
       },
       {
+        "tooltipId": "AzmodanSummonDemonWarriorArmyOfHellTalent",
+        "name": "Army of Hell",
+        "description": "Increases Demon Warrior's damage by 20% and reduces their Mana cost by 20.",
+        "icon": "storm_ui_icon_azmodan_summondemonwarrior.png",
+        "sort": 2,
+        "abilityId": "Azmodan|W1"
+      },
+      {
+        "tooltipId": "AzmodanHellishHirelings",
         "name": "Hellish Hirelings",
         "description": "The damage bonus from General of Hell is doubled on Mercenaries.",
+        "icon": "storm_ui_icon_azmodan_generalofhell.png",
+        "sort": 3,
         "abilityId": "Azmodan|D1"
       },
       {
+        "tooltipId": "AzmodanSinsGraspHotbar",
         "name": "Sin's Grasp",
         "description": "Activate to curse an enemy Hero, dealing 247.5 (+4% per level) damage over 8 seconds. Minion kills reduce this cooldown by 10 seconds. Can be cast while channeling All Shall Burn.",
+        "icon": "storm_ui_icon_azmodan_sinsgrasp.png",
+        "sort": 4,
         "abilityId": "Azmodan|Active",
         "cooldown": 120
       }
     ],
     "7": [
       {
+        "tooltipId": "AzmodanGlobeOfAnnihilationInfernalGlobeTalent",
+        "name": "Infernal Globe",
+        "description": "Globe of Annihilation's cast time is decreased by 40% and its missile speed is increased by 40%.",
+        "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
+        "sort": 1,
+        "abilityId": "Azmodan|Q1"
+      },
+      {
+        "tooltipId": "AzmodanGeneralOfHellBoundMinionTalent",
         "name": "Bound Minion",
         "description": "Using General of Hell on a Minion grants them 75 Armor from non-Heroic sources, decreasing the damage they take by 75%, while also  increasing the damage they deal to non-Heroic targets by 100%. Lasts 30 seconds.",
+        "icon": "storm_ui_icon_azmodan_generalofhell.png",
+        "sort": 2,
         "abilityId": "Azmodan|D1"
       },
       {
+        "tooltipId": "AzmodanGluttonousWardHotbar",
         "name": "Gluttonous Ward",
         "description": "Activate to place a ward on the ground that restores 3% of Azmodan's maximum Health and Mana every second for 10 seconds. Can be cast while channeling All Shall Burn.",
+        "icon": "storm_ui_icon_azmodan_gluttonousward.png",
+        "sort": 3,
         "abilityId": "Azmodan|Active",
         "cooldown": 45
       },
       {
-        "name": "Infernal Globe",
-        "description": "Globe of Annihilation's cast time is decreased by 40% and its missile speed is increased by 40%.",
-        "abilityId": "Azmodan|Q1"
-      },
-      {
+        "tooltipId": "AzmodanAllShallBurnMarchOfSinTalent",
         "name": "March of Sin",
         "description": "Increases Azmodan's Movement Speed while channeling All Shall Burn to 80% of normal speed.",
+        "icon": "storm_ui_icon_azmodan_allshallburn.png",
+        "sort": 4,
         "abilityId": "Azmodan|E1"
       }
     ],
     "10": [
       {
-        "name": "Black Pool",
-        "description": "Create a pool that empowers Azmodan, his Demons, and allied Minions, increasing their Basic Attack and Ability damage by 75%. Pools last 5 seconds. Stores up to 2 charges.",
-        "abilityId": "Azmodan|R1",
-        "cooldown": 20
-      },
-      {
+        "tooltipId": "AzmodanDemonicInvasion",
         "name": "Demonic Invasion",
         "description": "Rain a small army of Demonic Grunts down on enemies, dealing 104 (+4% per level) damage per impact. Demon Grunts deal 51 (+4% per level) damage and have 365 (+4% per level) health.",
+        "icon": "storm_ui_icon_azmodan_demonicinvasion.png",
+        "sort": 1,
         "abilityId": "Azmodan|R2",
         "cooldown": 100
+      },
+      {
+        "tooltipId": "AzmodanBlackPool",
+        "name": "Black Pool",
+        "description": "Create a pool that empowers Azmodan, his Demons, and allied Minions, increasing their Basic Attack and Ability damage by 75%. Pools last 5 seconds. Stores up to 2 charges.",
+        "icon": "storm_ui_icon_azmodan_blackpool.png",
+        "sort": 2,
+        "abilityId": "Azmodan|R1",
+        "cooldown": 20
       }
     ],
     "13": [
       {
-        "name": "Hedonism",
-        "description": "Reduces Globe of Annihilation's Mana cost by 30.",
-        "abilityId": "Azmodan|Q1"
-      },
-      {
+        "tooltipId": "AzmodanSummonDemonWarriorHellforgedArmorTalent",
         "name": "Hellforged Armor",
         "description": "Demon Warriors deal 10 (+4% per level) damage to nearby enemies every second and are granted 50 Armor against non-Heroic sources, decreasing the damage they take 50%.",
+        "icon": "storm_ui_icon_azmodan_summondemonwarrior.png",
+        "sort": 1,
         "abilityId": "Azmodan|W1"
       },
       {
+        "tooltipId": "AzmodanGlobeOfAnnihilationHedonismTalent",
+        "name": "Hedonism",
+        "description": "Reduces Globe of Annihilation's Mana cost by 30.",
+        "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
+        "sort": 2,
+        "abilityId": "Azmodan|Q1"
+      },
+      {
+        "tooltipId": "AzmodanInfusedPowerTalent",
         "name": "Infused Power",
         "description": "All Shall Burn's damage growth maximum is increased by 40%.",
+        "icon": "storm_ui_icon_azmodan_allshallburn.png",
+        "sort": 3,
         "abilityId": "Azmodan|E1"
       }
     ],
     "16": [
       {
+        "tooltipId": "AzmodanGlobOfAnnihilationBattlebornTalent",
         "name": "Battleborn",
         "description": "If Globe of Annihilation hits an enemy, a Demon Warrior is summoned at the impact point.",
+        "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
+        "sort": 1,
         "abilityId": "Azmodan|Q1"
       },
       {
+        "tooltipId": "AzmodanGeneralOfHellDemonicSmiteTalent",
         "name": "Demonic Smite",
         "description": "Every 7.5 seconds, the Demon Lieutenant will blast a non-Heroic unit dealing 411 (+4% per level) damage.",
+        "icon": "storm_ui_icon_azmodan_generalofhell.png",
+        "sort": 2,
         "abilityId": "Azmodan|D1"
       },
       {
+        "tooltipId": "AzmodanSinforSin",
         "name": "Sin for Sin",
         "description": "Activate to deal 10% of target enemy Hero's Max Health and heal for twice that amount. Can be cast while channeling All Shall Burn.",
+        "icon": "storm_ui_icon_talent_bloodforblood.png",
+        "sort": 3,
         "abilityId": "Azmodan|Active",
         "cooldown": 45
       }
     ],
     "20": [
       {
+        "tooltipId": "AzmodanDemonicInvasionPerishingFlameTalent",
+        "name": "Perishing Flame",
+        "description": "When the Grunts die they explode, dealing 68 (+4% per level) damage to nearby enemies.",
+        "icon": "storm_ui_icon_azmodan_demonicinvasion.png",
+        "sort": 1,
+        "abilityId": "Azmodan|R2"
+      },
+      {
+        "tooltipId": "AzmodanBlackPoolFifthCircleTalent",
+        "name": "Fifth Circle",
+        "description": "Black Pool makes Basic Attacks and Abilities slow enemies Attack and Movement Speeds by 40% for 3 seconds.",
+        "icon": "storm_ui_icon_azmodan_blackpool.png",
+        "sort": 2,
+        "abilityId": "Azmodan|R1"
+      },
+      {
+        "tooltipId": "GenericBoltoftheStormTalent",
         "name": "Bolt of the Storm",
         "description": "Activate to teleport to a nearby location.",
+        "icon": "storm_ui_icon_talent_boltofthestorm.png",
+        "sort": 3,
         "abilityId": "Azmodan|Active",
         "cooldown": 70
       },
       {
-        "name": "Fifth Circle",
-        "description": "Black Pool makes Basic Attacks and Abilities slow enemies Attack and Movement Speeds by 40% for 3 seconds.",
-        "abilityId": "Azmodan|R1"
-      },
-      {
+        "tooltipId": "AzmodanGeneralOfHellForcedRecruitmentTalent",
         "name": "Forced Recruitment",
         "description": "Reduces General of Hell's cooldown by 10 seconds and gains an additional charge.",
+        "icon": "storm_ui_icon_azmodan_generalofhell.png",
+        "sort": 4,
         "abilityId": "Azmodan|D1"
-      },
-      {
-        "name": "Perishing Flame",
-        "description": "When the Grunts die they explode, dealing 68 (+4% per level) damage to nearby enemies.",
-        "abilityId": "Azmodan|R2"
       }
     ]
   }

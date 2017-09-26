@@ -47,121 +47,184 @@
   "talents": {
     "1": [
       {
+        "tooltipId": "TracerPulseStrikeMelee",
         "name": "Pulse Strike",
         "description": "Increases Melee's Pulse Bomb charge from 10% to 20% against Heroes.",
+        "icon": "storm_ui_icon_tracer_melee.png",
+        "sort": 1,
         "abilityId": "Tracer|W1"
       },
       {
+        "tooltipId": "TracerSlipstreamRecall",
         "name": "Slipstream",
         "description": "Increases the amount of time Recalled by 1 second.",
+        "icon": "storm_ui_icon_tracer_recall.png",
+        "sort": 2,
         "abilityId": "Tracer|E1"
       },
       {
+        "tooltipId": "TracerTracerRounds",
         "name": "Tracer Rounds",
         "description": "Your Basic Attacks reveal enemies for 4 seconds.",
+        "icon": "storm_ui_icon_talent_autoattack_reveal.png",
+        "sort": 3,
         "abilityId": "Tracer|Passive"
       }
     ],
     "4": [
       {
-        "name": "Is That a Health Pack?!",
-        "description": "Increases Regeneration Globe and Healing Fountain healing by 100%.",
-        "abilityId": "Tracer|Passive"
-      },
-      {
+        "tooltipId": "TracerPartingGift",
         "name": "Parting Gift",
         "description": "Recall leaves behind 3 bombs that deal 240 (+4% per level) damage each to different targets.",
+        "icon": "storm_ui_icon_tracer_recall.png",
+        "sort": 1,
         "abilityId": "Tracer|E1"
       },
       {
+        "tooltipId": "TracerIsthataHealthPack",
+        "name": "Is That a Health Pack?!",
+        "description": "Increases Regeneration Globe and Healing Fountain healing by 100%.",
+        "icon": "storm_ui_icon_tracer_medpack.png",
+        "sort": 2,
+        "abilityId": "Tracer|Passive"
+      },
+      {
+        "tooltipId": "TracerUntouchable",
         "name": "Untouchable",
         "description": "Quest: Takedowns increase your Basic Attack damage by 2%, up to 30%. These bonuses are lost on death.",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "sort": 3,
         "abilityId": "Tracer|Passive"
       }
     ],
     "7": [
       {
-        "name": "Bullet Time",
-        "description": "Basic Attacks lower the cooldown of Blink by 0.1 seconds.",
-        "abilityId": "Tracer|Q1"
-      },
-      {
+        "tooltipId": "TracerJumper",
         "name": "Jumper",
         "description": "Increases Blink's charges by 1.",
+        "icon": "storm_ui_icon_tracer_blink_b.png",
+        "sort": 1,
         "abilityId": "Tracer|Q1"
       },
       {
+        "tooltipId": "TracerBulletTime",
+        "name": "Bullet Time",
+        "description": "Basic Attacks lower the cooldown of Blink by 0.1 seconds.",
+        "icon": "storm_ui_icon_tracer_blink_c.png",
+        "sort": 2,
+        "abilityId": "Tracer|Q1"
+      },
+      {
+        "tooltipId": "TracerSpatialEcho",
         "name": "Spatial Echo",
         "description": "Hero Takedowns grant 2 charges of Blink.",
+        "icon": "storm_ui_icon_tracer_blink_d.png",
+        "sort": 3,
         "abilityId": "Tracer|Q1"
       }
     ],
     "10": [
       {
-        "name": "Pulse Rounds",
-        "description": "Increases Pulse Bomb's range and charge rate from Basic Attacks against Heroes by 100%.",
-        "abilityId": "Tracer|R1"
-      },
-      {
-        "name": "Quantum Spike",
-        "description": "Pulse Bomb deals an additional 10% of the primary target's maximum Health.",
-        "abilityId": "Tracer|R1"
-      },
-      {
+        "tooltipId": "TracerStickyBomb",
         "name": "Sticky Bomb",
         "description": "Increases Pulse Bomb's radius by 50% and enemies hit are slowed by 70% for 3 seconds.",
+        "icon": "storm_ui_icon_tracer_pulsebomb.png",
+        "sort": 1,
+        "abilityId": "Tracer|R1"
+      },
+      {
+        "tooltipId": "TracerQuantumSpike",
+        "name": "Quantum Spike",
+        "description": "Pulse Bomb deals an additional 10% of the primary target's maximum Health.",
+        "icon": "storm_ui_icon_tracer_pulsebomb_b.png",
+        "sort": 2,
+        "abilityId": "Tracer|R1"
+      },
+      {
+        "tooltipId": "TracerPulseRounds",
+        "name": "Pulse Rounds",
+        "description": "Increases Pulse Bomb's range and charge rate from Basic Attacks against Heroes by 100%.",
+        "icon": "storm_ui_icon_tracer_pulsebomb_c.png",
+        "sort": 3,
         "abilityId": "Tracer|R1"
       }
     ],
     "13": [
       {
+        "tooltipId": "TracerBulletSprayMelee",
         "name": "Bullet Spray",
         "description": "Increases Melee's radius by 40%, and causes it to damage all enemies in range.",
+        "icon": "storm_ui_icon_tracer_melee.png",
+        "sort": 1,
         "abilityId": "Tracer|W1"
       },
       {
-        "name": "Leeching Rounds",
-        "description": "Your Basic Attacks against Heroes heal you for 20% of their damage dealt.",
+        "tooltipId": "TracerRicochetHeroWeapon",
+        "name": "Ricochet",
+        "description": "Your Basic Attacks have a 50% chance to hit another nearby enemy, prioritizing Heroes.",
+        "icon": "storm_ui_icon_talent_autoattack_aoe.png",
+        "sort": 2,
         "abilityId": "Tracer|Passive"
       },
       {
-        "name": "Ricochet",
-        "description": "Your Basic Attacks have a 50% chance to hit another nearby enemy, prioritizing Heroes.",
+        "tooltipId": "TracerLeechingRounds",
+        "name": "Leeching Rounds",
+        "description": "Your Basic Attacks against Heroes heal you for 20% of their damage dealt.",
+        "icon": "storm_ui_icon_talent_autoattack_heal.png",
+        "sort": 3,
         "abilityId": "Tracer|Passive"
       }
     ],
     "16": [
       {
-        "name": "Focus Fire",
-        "description": "If an entire ammo magazine is unloaded on an enemy, the last bullet will deal 94.5 (+4% per level) bonus damage.  This is equal to 35% of the total magazine.",
-        "abilityId": "Tracer|Passive"
-      },
-      {
-        "name": "Locked and Loaded",
-        "description": "Reactivate Reload within the last 50% of its cast time to increase your Basic Attack damage by 40% for that magazine.",
+        "tooltipId": "TracerSleightofHand",
+        "name": "Sleight of Hand",
+        "description": "Reduces Reload time by 50%. This equals 20% more damage per second.",
+        "icon": "storm_ui_icon_tracer_reload.png",
+        "sort": 1,
         "abilityId": "Tracer|D1"
       },
       {
-        "name": "Sleight of Hand",
-        "description": "Reduces Reload time by 50%. This equals 20% more damage per second.",
+        "tooltipId": "TracerFocusFire",
+        "name": "Focus Fire",
+        "description": "If an entire ammo magazine is unloaded on an enemy, the last bullet will deal 94.5 (+4% per level) bonus damage.  This is equal to 35% of the total magazine.",
+        "icon": "storm_ui_icon_tracer_reload_b.png",
+        "sort": 2,
+        "abilityId": "Tracer|Passive"
+      },
+      {
+        "tooltipId": "TracerLockedandLoaded",
+        "name": "Locked and Loaded",
+        "description": "Reactivate Reload within the last 50% of its cast time to increase your Basic Attack damage by 40% for that magazine.",
+        "icon": "storm_ui_icon_tracer_reload_c.png",
+        "sort": 3,
         "abilityId": "Tracer|D1"
       }
     ],
     "20": [
       {
-        "name": "Composition B",
-        "description": "If you successfully stick a Pulse Bomb to an enemy Hero, you also drop another one at their feet that deals 50% damage and explodes slightly earlier.",
-        "abilityId": "Tracer|R1"
-      },
-      {
+        "tooltipId": "TracerGetStuffedMelee",
         "name": "Get Stuffed!",
         "description": "Reduces Melee's cooldown by 3 seconds. Hitting an enemy with Melee who is stuck with a Pulse Bomb causes the bomb to instantly explode and knocks the target away from you.",
+        "icon": "storm_ui_icon_tracer_melee.png",
+        "sort": 1,
         "abilityId": "Tracer|W1"
       },
       {
+        "tooltipId": "TracerTotalRecallRecall",
         "name": "Total Recall",
         "description": "Recall's cooldown is increased by 8 seconds, but it heals you equal to the amount of Health you lost during that time.",
+        "icon": "storm_ui_icon_tracer_recall.png",
+        "sort": 2,
         "abilityId": "Tracer|E1"
+      },
+      {
+        "tooltipId": "TracerCompositionBPulseBomb",
+        "name": "Composition B",
+        "description": "If you successfully stick a Pulse Bomb to an enemy Hero, you also drop another one at their feet that deals 50% damage and explodes slightly earlier.",
+        "icon": "storm_ui_icon_tracer_pulsebomb.png",
+        "sort": 3,
+        "abilityId": "Tracer|R1"
       }
     ]
   }

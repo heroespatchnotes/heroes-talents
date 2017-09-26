@@ -47,20 +47,29 @@ Example:
   "talents": {
     "1": [
       {
+        "tooltipId": "MalthaelDeathsReach",
         "name": "Death's Reach",
         "description": "Increase Wraith Strike's range by 35%.",
+        "icon": "storm_ui_icon_malthael_wraithstrike.png",
+        "sort": 1,
         "abilityId": "Malthael|W1"
       },
       {
-        "name": "Fear the Reaper",
-        "description": "Activate to increase Movement Speed by 25% and pass through other units for 4 seconds.",
-        "abilityId": "Malthael|Active",
-        "cooldown": 25
-      },
-      {
+        "tooltipId": "MalthaelOnAPaleHorse",
         "name": "On a Pale Horse",
         "description": "Gain an additional 20% Movement Speed while mounted.",
+        "icon": "storm_ui_icon_malthael_onpalehorse.png",
+        "sort": 2,
         "abilityId": "Malthael|Passive"
+      },
+      {
+        "tooltipId": "MalthaelFearTheReaper",
+        "name": "Fear the Reaper",
+        "description": "Activate to increase Movement Speed by 25% and pass through other units for 4 seconds.",
+        "icon": "storm_ui_icon_malthael_fearthereaper.png",
+        "sort": 3,
+        "abilityId": "Malthael|Active",
+        "cooldown": 25
       }
     ],
     "4": [
@@ -77,10 +86,13 @@ Example:
 * `abilityId` can be used to link a talent to its related ability.
     * Talents that create a new ability will have `abilityId` of `HeroName|Active`.  Ex: Fear the Reaper (seen above), Bolt of the Storm
     * Talents granting changes to Basic Attacks or other passive effects will have `abilityId` of `HeroName|Passive`.  Ex: On a Pale Horse (above), Burning Rage, Executioner
+* `sort` indicates the order of talents on that level/tier
+* `icon` is the image name for the talent from game files
 
 ### Resources
 
-* Damage and scaling numbers from dizzyMongoose's [Scaling Stats Google sheet](https://docs.google.com/spreadsheets/d/1QTStBbvf9o5RuJBeM0X1rHrQxd3PCOT4y4li3Mwu9jY/pubhtml#)
+* Several values are pulled directly from game files using an altered version of [heroesinfo from HotsData](https://github.com/hotsdata/heroesinfo)
+* Most damage and scaling numbers are from dizzyMongoose's [Scaling Stats Google sheet](https://docs.google.com/spreadsheets/d/1QTStBbvf9o5RuJBeM0X1rHrQxd3PCOT4y4li3Mwu9jY/pubhtml#)
 
 ### Projects using heroes-talents
 
