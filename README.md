@@ -96,6 +96,10 @@ Example:
   <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/alarak.png" />
   <span>Alarak</span>
 </a>
+<a class="img-wrap" href="hero/ana.json">
+  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/ana.png" />
+  <span>Ana</span>
+</a>
 <a class="img-wrap" href="hero/anubarak.json">
   <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/anubarak.png" />
   <span>Anub'arak</span>

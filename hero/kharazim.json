@@ -20,8 +20,8 @@
         "description": "Heal nearby Heroes for 290 (+4% per level) and give them 15% Movement Speed for 3 seconds.",
         "hotkey": "W",
         "abilityId": "Kharazim|W1",
-        "cooldown": 8,
-        "manaCost": "60"
+        "cooldown": 10,
+        "manaCost": "65"
       },
       {
         "name": "Deadly Reach",
@@ -49,13 +49,13 @@
       },
       {
         "name": "Transcendence",
-        "description": "Every 3rd Basic Attack heals the lowest nearby allied Hero for 73 (+4% per level).",
+        "description": "Every 3rd Basic Attack heals the lowest nearby allied Hero for 96 (+4% per level).",
         "trait": true,
         "abilityId": "Kharazim|D1"
       },
       {
         "name": "Insight",
-        "description": "Quest: Every 3rd Basic Attack restores 14 (+4% per level) Mana and grants a stack of Insight.  Reward: Upon getting 100 stacks of Insight, every 3rd attack also reduces the cooldown of all of Kharazim's Basic Abilities by 1 second.",
+        "description": "Quest: Every 3rd Basic Attack restores 14 (+4% per level) Mana and grants a stack of Insight.  Reward: Upon getting 100 stacks of Insight, every 3rd attack also reduces the cooldown of all of Kharazim's Basic Abilities by 1.5 seconds.",
         "trait": true,
         "abilityId": "Kharazim|D2"
       },
@@ -166,7 +166,7 @@
       },
       {
         "name": "Dash of Light",
-        "description": "Radiant Dashing to an ally increases the healing they receive from Breath of Heaven by 50% for 3 seconds.",
+        "description": "Radiant Dashing to an ally increases the healing they receive from Breath of Heaven by 75% for 3 seconds.",
         "abilityId": "Kharazim|Q1"
       },
       {
