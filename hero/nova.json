@@ -48,10 +48,16 @@
         "manaCost": "100"
       },
       {
-        "name": "Permanent Cloak, Sniper",
-        "description": "Nova gains Stealth when out of combat for 3 seconds. Taking damage, attacking, using Abilities, or channeling reveals her.  Passive: Nova's Basic Attack range is 1 further than most other ranged Heroes.",
+        "name": "Permanent Cloak",
+        "description": "Gain Stealth when out of combat for 3 seconds.  Taking damage, attacking, using Abilities, or channeling reveals you.",
         "trait": true,
         "abilityId": "Nova|D1"
+      },
+      {
+        "name": "Sniper",
+        "description": "Nova's Basic Attack range is 1 further than most other ranged Heroes.",
+        "trait": true,
+        "abilityId": "Nova|D2"
       }
     ]
   },
