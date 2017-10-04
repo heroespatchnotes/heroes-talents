@@ -101,286 +101,286 @@ Example:
 ## Heroes
 
 <a class="img-wrap" href="hero/abathur.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/abathur.png" />
+  <img class="img-rounded" src="images/heroes/abathur.png" />
   <span>Abathur</span>
 </a>
 <a class="img-wrap" href="hero/alarak.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/alarak.png" />
+  <img class="img-rounded" src="images/heroes/alarak.png" />
   <span>Alarak</span>
 </a>
 <a class="img-wrap" href="hero/ana.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/ana.png" />
+  <img class="img-rounded" src="images/heroes/ana.png" />
   <span>Ana</span>
 </a>
 <a class="img-wrap" href="hero/anubarak.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/anubarak.png" />
+  <img class="img-rounded" src="images/heroes/anubarak.png" />
   <span>Anub'arak</span>
 </a>
 <a class="img-wrap" href="hero/artanis.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/artanis.png" />
+  <img class="img-rounded" src="images/heroes/artanis.png" />
   <span>Artanis</span>
 </a>
 <a class="img-wrap" href="hero/arthas.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/arthas.png" />
+  <img class="img-rounded" src="images/heroes/arthas.png" />
   <span>Arthas</span>
 </a>
 <a class="img-wrap" href="hero/auriel.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/auriel.png" />
+  <img class="img-rounded" src="images/heroes/auriel.png" />
   <span>Auriel</span>
 </a>
 <a class="img-wrap" href="hero/azmodan.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/azmodan.png" />
+  <img class="img-rounded" src="images/heroes/azmodan.png" />
   <span>Azmodan</span>
 </a>
 <a class="img-wrap" href="hero/brightwing.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/brightwing.png" />
+  <img class="img-rounded" src="images/heroes/brightwing.png" />
   <span>Brightwing</span>
 </a>
 <a class="img-wrap" href="hero/thebutcher.json">
-  <img class="img-rounded" src="images/heroes/butcher.png" />
+  <img class="img-rounded" src="images/heroes/thebutcher.png" />
   <span>The Butcher</span>
 </a>
 <a class="img-wrap" href="hero/cassia.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/cassia.png" />
+  <img class="img-rounded" src="images/heroes/cassia.png" />
   <span>Cassia</span>
 </a>
 <a class="img-wrap" href="hero/chen.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/chen.png" />
+  <img class="img-rounded" src="images/heroes/chen.png" />
   <span>Chen</span>
 </a>
 <a class="img-wrap" href="hero/cho.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/cho.png" />
+  <img class="img-rounded" src="images/heroes/cho.png" />
   <span>Cho</span>
 </a>
 <a class="img-wrap" href="hero/chromie.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/chromie.png" />
+  <img class="img-rounded" src="images/heroes/chromie.png" />
   <span>Chromie</span>
 </a>
 <a class="img-wrap" href="hero/dehaka.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/dehaka.png" />
+  <img class="img-rounded" src="images/heroes/dehaka.png" />
   <span>Dehaka</span>
 </a>
 <a class="img-wrap" href="hero/diablo.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/diablo.png" />
+  <img class="img-rounded" src="images/heroes/diablo.png" />
   <span>Diablo</span>
 </a>
 <a class="img-wrap" href="hero/dva.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/dva.png" />
+  <img class="img-rounded" src="images/heroes/dva.png" />
   <span>D.Va</span>
 </a>
 <a class="img-wrap" href="hero/etc.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/etc.png" />
+  <img class="img-rounded" src="images/heroes/etc.png" />
   <span>E.T.C.</span>
 </a>
 <a class="img-wrap" href="hero/falstad.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/falstad.png" />
+  <img class="img-rounded" src="images/heroes/falstad.png" />
   <span>Falstad</span>
 </a>
 <a class="img-wrap" href="hero/gall.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/gall.png" />
+  <img class="img-rounded" src="images/heroes/gall.png" />
   <span>Gall</span>
 </a>
 <a class="img-wrap" href="hero/garrosh.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/garrosh.png" />
+  <img class="img-rounded" src="images/heroes/garrosh.png" />
   <span>Garrosh</span>
 </a>
 <a class="img-wrap" href="hero/gazlowe.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/gazlowe.png" />
+  <img class="img-rounded" src="images/heroes/gazlowe.png" />
   <span>Gazlowe</span>
 </a>
 <a class="img-wrap" href="hero/genji.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/genji.png" />
+  <img class="img-rounded" src="images/heroes/genji.png" />
   <span>Genji</span>
 </a>
 <a class="img-wrap" href="hero/greymane.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/greymane.png" />
+  <img class="img-rounded" src="images/heroes/greymane.png" />
   <span>Greymane</span>
 </a>
 <a class="img-wrap" href="hero/guldan.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/guldan.png" />
+  <img class="img-rounded" src="images/heroes/guldan.png" />
   <span>Gul'dan</span>
 </a>
 <a class="img-wrap" href="hero/illidan.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/illidan.png" />
+  <img class="img-rounded" src="images/heroes/illidan.png" />
   <span>Illidan</span>
 </a>
 <a class="img-wrap" href="hero/jaina.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/jaina.png" />
+  <img class="img-rounded" src="images/heroes/jaina.png" />
   <span>Jaina</span>
 </a>
 <a class="img-wrap" href="hero/johanna.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/johanna.png" />
+  <img class="img-rounded" src="images/heroes/johanna.png" />
   <span>Johanna</span>
 </a>
 <a class="img-wrap" href="hero/kaelthas.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/kaelthas.png" />
+  <img class="img-rounded" src="images/heroes/kaelthas.png" />
   <span>Kael'thas</span>
 </a>
 <a class="img-wrap" href="hero/kelthuzad.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/kelthuzad.png" />
+  <img class="img-rounded" src="images/heroes/kelthuzad.png" />
   <span>Kel'Thuzad</span>
 </a>
 <a class="img-wrap" href="hero/kerrigan.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/kerrigan.png" />
+  <img class="img-rounded" src="images/heroes/kerrigan.png" />
   <span>Kerrigan</span>
 </a>
 <a class="img-wrap" href="hero/kharazim.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/kharazim.png" />
+  <img class="img-rounded" src="images/heroes/kharazim.png" />
   <span>Kharazim</span>
 </a>
 <a class="img-wrap" href="hero/leoric.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/leoric.png" />
+  <img class="img-rounded" src="images/heroes/leoric.png" />
   <span>Leoric</span>
 </a>
 <a class="img-wrap" href="hero/lili.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/lili.png" />
+  <img class="img-rounded" src="images/heroes/lili.png" />
   <span>Li Li</span>
 </a>
 <a class="img-wrap" href="hero/liming.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/liming.png" />
+  <img class="img-rounded" src="images/heroes/liming.png" />
   <span>Li-Ming</span>
 </a>
 <a class="img-wrap" href="hero/thelostvikings.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/thelostvikings.png" />
+  <img class="img-rounded" src="images/heroes/thelostvikings.png" />
   <span>The Lost Vikings</span>
 </a>
 <a class="img-wrap" href="hero/ltmorales.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/ltmorales.png" />
+  <img class="img-rounded" src="images/heroes/ltmorales.png" />
   <span>Lt. Morales</span>
 </a>
 <a class="img-wrap" href="hero/lucio.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/lucio.png" />
+  <img class="img-rounded" src="images/heroes/lucio.png" />
   <span>Lucio</span>
 </a>
 <a class="img-wrap" href="hero/lunara.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/lunara.png" />
+  <img class="img-rounded" src="images/heroes/lunara.png" />
   <span>Lunara</span>
 </a>
 <a class="img-wrap" href="hero/malfurion.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/malfurion.png" />
+  <img class="img-rounded" src="images/heroes/malfurion.png" />
   <span>Malfurion</span>
 </a>
 <a class="img-wrap" href="hero/malthael.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/malthael.png" />
+  <img class="img-rounded" src="images/heroes/malthael.png" />
   <span>Malthael</span>
 </a>
 <a class="img-wrap" href="hero/medivh.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/medivh.png" />
+  <img class="img-rounded" src="images/heroes/medivh.png" />
   <span>Medivh</span>
 </a>
 <a class="img-wrap" href="hero/muradin.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/muradin.png" />
+  <img class="img-rounded" src="images/heroes/muradin.png" />
   <span>Muradin</span>
 </a>
 <a class="img-wrap" href="hero/murky.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/murky.png" />
+  <img class="img-rounded" src="images/heroes/murky.png" />
   <span>Murky</span>
 </a>
 <a class="img-wrap" href="hero/nazeebo.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/nazeebo.png" />
+  <img class="img-rounded" src="images/heroes/nazeebo.png" />
   <span>Nazeebo</span>
 </a>
 <a class="img-wrap" href="hero/nova.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/nova.png" />
+  <img class="img-rounded" src="images/heroes/nova.png" />
   <span>Nova</span>
 </a>
 <a class="img-wrap" href="hero/probius.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/probius.png" />
+  <img class="img-rounded" src="images/heroes/probius.png" />
   <span>Probius</span>
 </a>
 <a class="img-wrap" href="hero/ragnaros.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/ragnaros.png" />
+  <img class="img-rounded" src="images/heroes/ragnaros.png" />
   <span>Ragnaros</span>
 </a>
 <a class="img-wrap" href="hero/raynor.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/raynor.png" />
+  <img class="img-rounded" src="images/heroes/raynor.png" />
   <span>Raynor</span>
 </a>
 <a class="img-wrap" href="hero/rehgar.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/rehgar.png" />
+  <img class="img-rounded" src="images/heroes/rehgar.png" />
   <span>Rehgar</span>
 </a>
 <a class="img-wrap" href="hero/rexxar.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/rexxar.png" />
+  <img class="img-rounded" src="images/heroes/rexxar.png" />
   <span>Rexxar</span>
 </a>
 <a class="img-wrap" href="hero/samuro.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/samuro.png" />
+  <img class="img-rounded" src="images/heroes/samuro.png" />
   <span>Samuro</span>
 </a>
 <a class="img-wrap" href="hero/sgthammer.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/sgthammer.png" />
+  <img class="img-rounded" src="images/heroes/sgthammer.png" />
   <span>Sgt. Hammer</span>
 </a>
 <a class="img-wrap" href="hero/sonya.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/sonya.png" />
+  <img class="img-rounded" src="images/heroes/sonya.png" />
   <span>Sonya</span>
 </a>
 <a class="img-wrap" href="hero/stitches.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/stitches.png" />
+  <img class="img-rounded" src="images/heroes/stitches.png" />
   <span>Stitches</span>
 </a>
 <a class="img-wrap" href="hero/stukov.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/stukov.png" />
+  <img class="img-rounded" src="images/heroes/stukov.png" />
   <span>Stukov</span>
 </a>
 <a class="img-wrap" href="hero/sylvanas.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/sylvanas.png" />
+  <img class="img-rounded" src="images/heroes/sylvanas.png" />
   <span>Sylvanas</span>
 </a>
 <a class="img-wrap" href="hero/tassadar.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/tassadar.png" />
+  <img class="img-rounded" src="images/heroes/tassadar.png" />
   <span>Tassadar</span>
 </a>
 <a class="img-wrap" href="hero/thrall.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/thrall.png" />
+  <img class="img-rounded" src="images/heroes/thrall.png" />
   <span>Thrall</span>
 </a>
 <a class="img-wrap" href="hero/tracer.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/tracer.png" />
+  <img class="img-rounded" src="images/heroes/tracer.png" />
   <span>Tracer</span>
 </a>
 <a class="img-wrap" href="hero/tychus.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/tychus.png" />
+  <img class="img-rounded" src="images/heroes/tychus.png" />
   <span>Tychus</span>
 </a>
 <a class="img-wrap" href="hero/tyrael.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/tyrael.png" />
+  <img class="img-rounded" src="images/heroes/tyrael.png" />
   <span>Tyrael</span>
 </a>
 <a class="img-wrap" href="hero/tyrande.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/tyrande.png" />
+  <img class="img-rounded" src="images/heroes/tyrande.png" />
   <span>Tyrande</span>
 </a>
 <a class="img-wrap" href="hero/uther.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/uther.png" />
+  <img class="img-rounded" src="images/heroes/uther.png" />
   <span>Uther</span>
 </a>
 <a class="img-wrap" href="hero/valeera.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/valeera.png" />
+  <img class="img-rounded" src="images/heroes/valeera.png" />
   <span>Valeera</span>
 </a>
 <a class="img-wrap" href="hero/valla.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/valla.png" />
+  <img class="img-rounded" src="images/heroes/valla.png" />
   <span>Valla</span>
 </a>
 <a class="img-wrap" href="hero/varian.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/varian.png" />
+  <img class="img-rounded" src="images/heroes/varian.png" />
   <span>Varian</span>
 </a>
 <a class="img-wrap" href="hero/xul.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/xul.png" />
+  <img class="img-rounded" src="images/heroes/xul.png" />
   <span>Xul</span>
 </a>
 <a class="img-wrap" href="hero/zagara.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/zagara.png" />
+  <img class="img-rounded" src="images/heroes/zagara.png" />
   <span>Zagara</span>
 </a>
 <a class="img-wrap" href="hero/zarya.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/zarya.png" />
+  <img class="img-rounded" src="images/heroes/zarya.png" />
   <span>Zarya</span>
 </a>
 <a class="img-wrap" href="hero/zeratul.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/zeratul.png" />
+  <img class="img-rounded" src="images/heroes/zeratul.png" />
   <span>Zeratul</span>
 </a>
