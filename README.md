@@ -13,6 +13,7 @@ Example:
   "id": "68",
   "shortName": "malthael",
   "name": "Malthael",
+  "icon": "malthael.png",
   "role": "Assassin",
   "type": "Melee",
   "releaseDate": "2017-06-13",
@@ -48,6 +49,7 @@ Example:
     "1": [
       {
         "tooltipId": "MalthaelDeathsReach",
+        "talentTreeId": "MalthaelDeathsReach",
         "name": "Death's Reach",
         "description": "Increase Wraith Strike's range by 35%.",
         "icon": "storm_ui_icon_malthael_wraithstrike.png",
@@ -56,6 +58,7 @@ Example:
       },
       {
         "tooltipId": "MalthaelOnAPaleHorse",
+        "talentTreeId": "MalthaelOnAPaleHorse",
         "name": "On a Pale Horse",
         "description": "Gain an additional 20% Movement Speed while mounted.",
         "icon": "storm_ui_icon_malthael_onpalehorse.png",
@@ -64,6 +67,7 @@ Example:
       },
       {
         "tooltipId": "MalthaelFearTheReaper",
+        "talentTreeId": "MalthaelFearTheReaper",
         "name": "Fear the Reaper",
         "description": "Activate to increase Movement Speed by 25% and pass through other units for 4 seconds.",
         "icon": "storm_ui_icon_malthael_fearthereaper.png",
@@ -81,11 +85,12 @@ Example:
 
 ### Notes on key/value pairs
 
-* `shortName` is the hero's name with periods, dashes, apostrophes, spaces, and capitalization removed; it is currently used as the name of a hero's JSON file
+* `shortName` is the hero's name with periods, dashes, apostrophes, spaces, and capitalization removed; it is currently used as the name of a hero's JSON file and image
 * `manaCost` is a string due to several Heroes (Azmodan, Arthas, etc.) having channeled abilities with per-second mana costs
 * `abilityId` can be used to link a talent to its related ability.
     * Talents that create a new ability will have `abilityId` of `HeroName|Active`.  Ex: Fear the Reaper (seen above), Bolt of the Storm
     * Talents granting changes to Basic Attacks or other passive effects will have `abilityId` of `HeroName|Passive`.  Ex: On a Pale Horse (above), Burning Rage, Executioner
+* `talentTreeId` is the name of the talent as used in replay files
 * `sort` indicates the order of talents on that level/tier
 * `icon` is the image name for the talent from game files
 
