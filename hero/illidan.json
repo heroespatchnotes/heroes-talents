@@ -54,6 +54,7 @@
     "1": [
       {
         "tooltipId": "IllidanSweepingStrikeImmolationTalent",
+        "talentTreeId": "IllidanMasteryImmolationSweepingStrike",
         "name": "Immolation",
         "description": "After using Sweeping Strike, burn nearby enemies for 22 (+4% per level) damage a second for 4 seconds.",
         "icon": "storm_ui_icon_illidan_sweepingstrike.png",
@@ -62,6 +63,7 @@
       },
       {
         "tooltipId": "IllidanSweepingStrikeBatteredAssaultTalent",
+        "talentTreeId": "IllidanMasteryBatteredAssaultSweepingStrike",
         "name": "Battered Assault",
         "description": "Increase Sweeping Strike's Basic Attack damage bonus duration from 3 to 5 seconds. If Sweeping Strike hits 2 Heroes its damage bonus is increased from 35% to 125%.",
         "icon": "storm_ui_icon_illidan_sweepingstrike_a.png",
@@ -70,6 +72,7 @@
       },
       {
         "tooltipId": "IllidanUnendingHatredTalent",
+        "talentTreeId": "IllidanUnendingHatredPassive",
         "name": "Unending Hatred",
         "description": "Quest: Minion kills grant 0.2 Basic Attack Damage. Hero Takedowns grant 1 Basic Attack Damage. Reward: After gaining 20 increased Basic Attack Damage, receive an additional 20 Basic Attack Damage.",
         "icon": "storm_ui_icon_talent_seasonedmarksman.png",
@@ -80,6 +83,7 @@
     "4": [
       {
         "tooltipId": "IllidanDiveRapidChaseTalent",
+        "talentTreeId": "IllidanMasteryRapidChaseDive",
         "name": "Rapid Chase",
         "description": "Dive grants 15% Movement Speed for 2.19 seconds.",
         "icon": "storm_ui_icon_illidan_dive.png",
@@ -88,6 +92,7 @@
       },
       {
         "tooltipId": "IllidanDiveFriendOrFoeTalent",
+        "talentTreeId": "IllidanMasteryFriendOrFoeDive",
         "name": "Friend or Foe",
         "description": "Increases the range of Dive by 20% and allows it to be used to dive to allied Heroes.",
         "icon": "storm_ui_icon_illidan_dive_a.png",
@@ -96,6 +101,7 @@
       },
       {
         "tooltipId": "IllidanSweepingStrikeUnboundTalent",
+        "talentTreeId": "IllidanMasteryUnboundSweepingStrike",
         "name": "Unbound",
         "description": "Sweeping Strike can go over walls and terrain. Reward: After hitting 30 Heroes with Sweeping Strike, gain a second charge.",
         "icon": "storm_ui_icon_illidan_sweepingstrike.png",
@@ -106,6 +112,7 @@
     "7": [
       {
         "tooltipId": "IllidanEvasionReflexiveBlockTalent",
+        "talentTreeId": "IllidanReflexiveBlock",
         "name": "Reflexive Block",
         "description": "Using Dive grants 75 Physical Armor against the next 2 Hero Basic Attacks for 3 seconds, reducing the damage taken by 75%.",
         "icon": "storm_ui_icon_illidan_dive.png",
@@ -114,6 +121,7 @@
       },
       {
         "tooltipId": "IllidanBetrayersThirstThirstingBladeTalent",
+        "talentTreeId": "IllidanSweepingStrikesThirstingBlade",
         "name": "Thirsting Blade",
         "description": "Betrayer's Thirst's healing from Basic Attacks is increased from 30% to 50% while Sweeping Strike's damage bonus is active.",
         "icon": "storm_ui_icon_illidan_betrayersthirst.png",
@@ -122,6 +130,7 @@
       },
       {
         "tooltipId": "IllidanBetrayersThirstHuntersOnslaughtTalent",
+        "talentTreeId": "IllidanCombatStyleHuntersOnslaught",
         "name": "Hunter's Onslaught",
         "description": "Basic Abilities heal for 25% of the damage they deal. This bonus is doubled versus Heroes.",
         "icon": "storm_ui_icon_illidan_betrayersthirst_a.png",
@@ -132,6 +141,7 @@
     "10": [
       {
         "tooltipId": "IllidanMetamorphosis",
+        "talentTreeId": "IllidanHeroicAbilityMetamorphosis",
         "name": "Metamorphosis",
         "description": "Transform into Demon Form at the target location, dealing 46 (+4% per level) damage in the area. Temporarily increases maximum Health by 200 for each Hero hit by the initial impact. Lasts for 18 seconds.",
         "icon": "storm_ui_icon_illidan_metamorphosis.png",
@@ -141,6 +151,7 @@
       },
       {
         "tooltipId": "IllidanTheHunt",
+        "talentTreeId": "IllidanHeroicAbilityTheHunt",
         "name": "The Hunt",
         "description": "Charge to target unit, dealing 251 (+4% per level) damage on impact and stunning for 1 second.",
         "icon": "storm_ui_icon_illidan_thehunt.png",
@@ -152,6 +163,7 @@
     "13": [
       {
         "tooltipId": "IllidanNimbleDefender",
+        "talentTreeId": "IllidanNimbleDefender",
         "name": "Nimble Defender",
         "description": "If Sweeping Strikes hits an enemy Hero, gain 25 Armor 2 seconds, reducing damage taken by 25%.",
         "icon": "storm_ui_icon_illidan_sweepingstrike.png",
@@ -160,6 +172,7 @@
       },
       {
         "tooltipId": "IllidanElusiveStrike",
+        "talentTreeId": "IllidanElusiveStrike",
         "name": "Elusive Strike",
         "description": "Sweeping Strike reduces the cooldown of Evasion by 3 seconds every time it damages an enemy Hero.",
         "icon": "storm_ui_icon_illidan_evasion.png",
@@ -168,6 +181,7 @@
       },
       {
         "tooltipId": "IllidanEvasionSixthSenseTalent",
+        "talentTreeId": "IllidanMasterySixthSenseEvasion",
         "name": "Sixth Sense",
         "description": "Evasion grants Illidan 75 Spell Armor against the next 2 sources of Spell Damage, reducing their damage by 75%.",
         "icon": "storm_ui_icon_illidan_evasion_a.png",
@@ -178,6 +192,7 @@
     "16": [
       {
         "tooltipId": "IllidanDiveMarkedForDeathTalent",
+        "talentTreeId": "IllidanMasteryMarkedforDeathDive",
         "name": "Marked for Death",
         "description": "Dive deals an extra 180 damage if you hit a target consecutively within 10 seconds.",
         "icon": "storm_ui_icon_illidan_dive.png",
@@ -186,6 +201,7 @@
       },
       {
         "tooltipId": "IllidanFieryBrand",
+        "talentTreeId": "IllidanFieryBrand",
         "name": "Fiery Brand",
         "description": "Every 4th attack against the same Hero deals an additional 6% of their maximum Health as damage.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
@@ -194,6 +210,7 @@
       },
       {
         "tooltipId": "IllidanBladesOfAzzinoth",
+        "talentTreeId": "IllidanBladesOfAzzinoth",
         "name": "Blades of Azzinoth",
         "description": "Hitting 5 Heroes with Sweeping Strike allows you to activate Blades of Azzinoth to increase Basic Attack damage done by 75% for 8 seconds.",
         "icon": "storm_ui_icon_illidan_sweepingstrike_c.png",
@@ -204,6 +221,7 @@
     "20": [
       {
         "tooltipId": "IllidanMetamorphosisDemonicFormTalent",
+        "talentTreeId": "IllidanMasteryDemonicFormMetamorphosis",
         "name": "Demonic Form",
         "description": "Permanently remain in Demonic Form. Metamorphosis also increases Attack Speed by 20% and reduces the duration of slows, roots, and stuns by 50%. Illidan can now mount in Demonic Form.",
         "icon": "storm_ui_icon_illidan_metamorphosis.png",
@@ -212,6 +230,7 @@
       },
       {
         "tooltipId": "IllidanTheHuntNowhereToHideTalent",
+        "talentTreeId": "IllidanMasteryNowhereToHideTheHunt",
         "name": "Nowhere to Hide",
         "description": "The Hunt gains unlimited range. Illidan passively reveals enemy Heroes below 25% Health anywhere on the Battleground.",
         "icon": "storm_ui_icon_illidan_thehunt.png",
@@ -220,6 +239,7 @@
       },
       {
         "tooltipId": "NexusBladesTalent",
+        "talentTreeId": "GenericTalentNexusBlades",
         "name": "Nexus Blades",
         "description": "Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.",
         "icon": "storm_ui_icon_talent_autoattack_slow.png",
@@ -228,6 +248,7 @@
       },
       {
         "tooltipId": "GenericBoltoftheStormTalent",
+        "talentTreeId": "GenericTalentFlashoftheStorms",
         "name": "Bolt of the Storm",
         "description": "Activate to teleport to a nearby location.",
         "icon": "storm_ui_icon_talent_boltofthestorm.png",

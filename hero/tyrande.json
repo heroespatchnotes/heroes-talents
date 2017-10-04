@@ -61,6 +61,7 @@
     "1": [
       {
         "tooltipId": "TyrandeSentinelRangerTalent",
+        "talentTreeId": "TyrandeRanger",
         "name": "Ranger",
         "description": "Sentinel deals more damage based on the distance traveled, up to 75% and increases Sentinel width by 25%.  Repeatable Quest: Hitting enemy Heroes with Sentinel increases the maximum damage bonus by 3%.",
         "icon": "storm_ui_icon_tyrande_sentinel.png",
@@ -69,6 +70,7 @@
       },
       {
         "tooltipId": "TyrandeLunarFlareLunarBlazeTalent",
+        "talentTreeId": "TyrandeMasteryLunarBlaze",
         "name": "Lunar Blaze",
         "description": "Repeatable Quest: Hitting Heroes with Lunar Flare increases its damage by 3%.  Reward: After hitting 10 Heroes, Lunar Flare no longer has a Mana cost.  Reward: After hitting 20 Heroes, increase the range of Lunar Flare by 40%.",
         "icon": "storm_ui_icon_tyrande_lunarflare.png",
@@ -77,6 +79,7 @@
       },
       {
         "tooltipId": "TyrandeHuntersMarkRangersMarkTalent",
+        "talentTreeId": "TyrandeRangersMark",
         "name": "Ranger's Mark",
         "description": "Basic Attacks reduce the cooldown of Hunter's Mark by 1 second.  Repeatable Quest: Every 50 Basic Attacks against enemy Heroes increase the duration of Hunter's Mark by 1 second.",
         "icon": "storm_ui_icon_tyrande_huntersmark.png",
@@ -87,6 +90,7 @@
     "4": [
       {
         "tooltipId": "TyrandeMoonlitArrows",
+        "talentTreeId": "TyrandeMoonlitArrows",
         "name": "Moonlit Arrows",
         "description": "Basic Attacks decrease the cooldown of Light of Elune by an additional 0.75 seconds.",
         "icon": "storm_ui_icon_tyrande_lightofelune.png",
@@ -95,6 +99,7 @@
       },
       {
         "tooltipId": "TyrandeLightOfEluneCelestialAttunementTalent",
+        "talentTreeId": "TyrandeCelestialAttunement",
         "name": "Celestial Attunement",
         "description": "Light of Elune removes Stuns and Silences from its target. When a Stun or Silence is removed this way, Light of Elune may be used for free within 4 seconds. This free cast cannot benefit from Celestial Attunement.",
         "icon": "storm_ui_icon_tyrande_lightofelune_b.png",
@@ -103,6 +108,7 @@
       },
       {
         "tooltipId": "TyrandeKaldoreiResistance",
+        "talentTreeId": "TyrandeKaldoreiResistance",
         "name": "Kaldorei Resistance",
         "description": "Light of Elune grants the target 15 Spell Armor for 6 seconds. This effect stacks up to 3 times.",
         "icon": "storm_ui_icon_tyrande_lightofelune_a.png",
@@ -113,6 +119,7 @@
     "7": [
       {
         "tooltipId": "TyrandeHuntersMarkHuntressFuryTalent",
+        "talentTreeId": "TyrandeHuntressFury",
         "name": "Huntress' Fury",
         "description": "Increase the cast range of Hunter's Mark by 50%. Tyrande's Basic Attacks against targets with Hunter's Mark splash to nearby Heroes and Mercenaries.",
         "icon": "storm_ui_icon_tyrande_huntersmark.png",
@@ -121,6 +128,7 @@
       },
       {
         "tooltipId": "TyrandeDarnassianArchery",
+        "talentTreeId": "TyrandeDarnassianArchery",
         "name": "Darnassian Archery",
         "description": "Basic Attacks against enemy Heroes grant a stacking 5% increased Attack Damage bonus for 4 seconds. This bonus is lost when Basic Attacking non-Heroes.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
@@ -129,6 +137,7 @@
       },
       {
         "tooltipId": "TyrandeHuntersMarkTrueshotAuraTalent",
+        "talentTreeId": "TyrandeTrueshotAura",
         "name": "Trueshot Aura",
         "description": "Passively grant 10% increased Attack Damage to nearby allied Heroes. Activate to double this bonus for 5 seconds.",
         "icon": "storm_ui_icon_tyrande_trueshotaura.png",
@@ -139,6 +148,7 @@
     "10": [
       {
         "tooltipId": "TyrandeShadowstalk",
+        "talentTreeId": "TyrandeHeroicAbilityShadowstalk",
         "name": "Shadowstalk",
         "description": "Stealth and gain 30% Movement Speed. When Shadowstalk's Stealth is broken, gain 50% Attack Speed and retain its Movement Speed bonus for 5 seconds.",
         "icon": "storm_ui_icon_tyrande_shadowstalk.png",
@@ -148,6 +158,7 @@
       },
       {
         "tooltipId": "TyrandeStarfall",
+        "talentTreeId": "TyrandeHeroicAbilityStarfall",
         "name": "Starfall",
         "description": "Deal 91 (+4% per level) damage per second and slow enemies by 20% in an area. Lasts 8 seconds.",
         "icon": "storm_ui_icon_tyrande_starfall.png",
@@ -159,6 +170,7 @@
     "13": [
       {
         "tooltipId": "TyrandeLightOfEluneQuickeningBlessingTalent",
+        "talentTreeId": "TyrandeMasteryLightofEluneQuickeningBlessing",
         "name": "Quickening Blessing",
         "description": "Light of Elune increases the target's Movement Speed by 30% for 3 seconds.",
         "icon": "storm_ui_icon_tyrande_lightofelune.png",
@@ -167,6 +179,7 @@
       },
       {
         "tooltipId": "TyrandeSentinelEmpowerTalent",
+        "talentTreeId": "TyrandeEmpower",
         "name": "Empower",
         "description": "Reduce Sentinel's cooldown by 2 seconds. Every time it hits a Hero, reduce its cooldown by an additional 4 seconds.",
         "icon": "storm_ui_icon_tyrande_sentinel.png",
@@ -175,6 +188,7 @@
       },
       {
         "tooltipId": "TyrandeHarshMoonlight",
+        "talentTreeId": "TyrandeHarshMoonlight",
         "name": "Harsh Moonlight",
         "description": "Sentinel Slows the target by 25% and reduces their damage dealt by 25% for 4 seconds.",
         "icon": "storm_ui_icon_tyrande_sentinel_a.png",
@@ -185,6 +199,7 @@
     "16": [
       {
         "tooltipId": "TyrandeLightOfEluneOverflowingLightTalent",
+        "talentTreeId": "TyrandeOverflowingLight",
         "name": "Overflowing Light",
         "description": "While Tyrande is above 60% Health, Light of Elune's healing is increased by 30%.",
         "icon": "storm_ui_icon_tyrande_lightofelune.png",
@@ -193,6 +208,7 @@
       },
       {
         "tooltipId": "TyrandeHuntersMarkMarkOfMendingTalent",
+        "talentTreeId": "TyrandeMarkofMending",
         "name": "Mark of Mending",
         "description": "Tyrande's Basic Attacks heal her for 2% of her maximum Health. Basic Attacks against targets with Hunter's Mark heal the attacker for 2% of their maximum Health.",
         "icon": "storm_ui_icon_tyrande_huntersmark.png",
@@ -201,6 +217,7 @@
       },
       {
         "tooltipId": "TyrandeElunesChosen",
+        "talentTreeId": "TyrandeElunesChosen",
         "name": "Elune's Chosen",
         "description": "Activate to make Tyrande's Basic Attacks heal the target ally for 200% of the damage dealt. Lasts for 5 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_heal.png",
@@ -212,6 +229,7 @@
     "20": [
       {
         "tooltipId": "TyrandeEyesOfTheHuntress",
+        "talentTreeId": "TyrandeEyesOfTheHuntress",
         "name": "Eyes of the Huntress",
         "description": "After casting Shadowstalk, reveal all enemy Heroes for 3 seconds.",
         "icon": "storm_ui_icon_tyrande_shadowstalk.png",
@@ -220,6 +238,7 @@
       },
       {
         "tooltipId": "TyrandeStarfallCelestialWrathTalent",
+        "talentTreeId": "TyrandeMasteryStarfallCelestialWrath",
         "name": "Celestial Wrath",
         "description": "Starfall applies Hunter's Mark to enemy Heroes hit.",
         "icon": "storm_ui_icon_tyrande_starfall.png",
@@ -228,6 +247,7 @@
       },
       {
         "tooltipId": "TyrandeShootingStar",
+        "talentTreeId": "TyrandeShootingStar",
         "name": "Shooting Star",
         "description": "Increase Basic Attack range by 1.1. Every 10th Basic Attack against Heroes casts a free Lunar Flare at a random Hero near Tyrande's position.",
         "icon": "storm_ui_icon_talent_autoattack_speed.png",
@@ -236,6 +256,7 @@
       },
       {
         "tooltipId": "TyrandeIcebladeArrows",
+        "talentTreeId": "TyrandeIcebladeArrows",
         "name": "Iceblade Arrows",
         "description": "Increase Attack Speed by 25%. Basic Attacks against enemy Heroes reduce their damage dealt by 5% for 3 seconds. This effect stacks up to 10 times.",
         "icon": "storm_ui_icon_talent_autoattack_slow.png",

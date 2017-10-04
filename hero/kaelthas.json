@@ -61,6 +61,7 @@
     "1": [
       {
         "tooltipId": "KaelthasFlamestrikeConvectionTalent",
+        "talentTreeId": "KaelthasFlamestrikeConvection",
         "name": "Convection",
         "description": "Quest: Damaging an enemy Hero with Flamestrike increase its damage by 5, up to 100. This bonus is lost on death. Reward: After hitting 20 enemy Heroes, increase Flamestrike damage by an additional 100 and no longer lose any bonuses on death.",
         "icon": "storm_ui_icon_kaelthas_flamestrike.png",
@@ -69,6 +70,7 @@
       },
       {
         "tooltipId": "KaelthasVerdantSpheresFelInfusionTalent",
+        "talentTreeId": "KaelthasVerdantSpheresFelInfusion",
         "name": "Fel Infusion",
         "description": "Increases Kael'thas's Ability Power by 4%. Kael'thas heals for 94 (+4% per level) Health when activating Verdant Spheres.",
         "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
@@ -77,6 +79,7 @@
       },
       {
         "tooltipId": "KaelthasManaAddictTalent",
+        "talentTreeId": "KaelthasManaAddict",
         "name": "Mana Addict",
         "description": "Quest: Gathering a Regeneration Globe increases Kael'thas's maximum Mana by 15. Reward: After gathering 20 Globes, Kael'thas can activate Arcane Barrier to gain a Shield equal to 100% of his maximum Mana for 4 seconds. 45 second cooldown.",
         "icon": "storm_ui_icon_kaelthas_manaaddict.png",
@@ -87,6 +90,7 @@
     "4": [
       {
         "tooltipId": "KaelthasGravityLapseNetherWindTalent",
+        "talentTreeId": "KaelthasGravityLapseNetherWind",
         "name": "Nether Wind",
         "description": "Increases Gravity Lapse's range by 30%. When Gravity Lapse hits an enemy Hero, refund 80 Mana.",
         "icon": "storm_ui_icon_kaelthas_gravitylapse.png",
@@ -95,6 +99,7 @@
       },
       {
         "tooltipId": "KaelthasGravityLapseEnergyRoilTalent",
+        "talentTreeId": "KaelthasGravityLapseEnergyRoil",
         "name": "Energy Roil",
         "description": "When Gravity Lapse hits a Hero, reduce its cooldown by 9 seconds.",
         "icon": "storm_ui_icon_kaelthas_gravitylapse_a.png",
@@ -103,6 +108,7 @@
       },
       {
         "tooltipId": "KaelthasManaTapTalent",
+        "talentTreeId": "KaelthasFlamestrikeManaTap",
         "name": "Mana Tap",
         "description": "Activating Verdant Spheres restores 3.9% of Kael'thas's maximum Mana.",
         "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
@@ -113,6 +119,7 @@
     "7": [
       {
         "tooltipId": "KaelthasBurnedFleshTalent",
+        "talentTreeId": "KaelthasFlamestrikeBurnedFlesh",
         "name": "Burned Flesh",
         "description": "When Flamestrike damages 2 or more Heroes, they take additional damage equal to 8% of their maximum Health.",
         "icon": "storm_ui_icon_kaelthas_flamestrike.png",
@@ -121,6 +128,7 @@
       },
       {
         "tooltipId": "KaelthasLivingBombSunKingsFury",
+        "talentTreeId": "KaelthasLivingBombSunKingsFury",
         "name": "Sun King's Fury",
         "description": "Living Bombs that spread to enemy Heroes deal 35% more damage.",
         "icon": "storm_ui_icon_kaelthas_livingbomb.png",
@@ -129,6 +137,7 @@
       },
       {
         "tooltipId": "KaelthasSunfireEnchantmentTalent",
+        "talentTreeId": "KaelthasMasterySunfireEnchantment",
         "name": "Sunfire Enchantment",
         "description": "Activating Verdant Spheres causes Kael'thas's next Basic Attack to instead deal 165 (+4% per level) Spell Damage.",
         "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
@@ -139,6 +148,7 @@
     "10": [
       {
         "tooltipId": "KaelthasPhoenix",
+        "talentTreeId": "KaelthasHeroicAbilityPhoenix",
         "name": "Phoenix",
         "description": "Launch a Phoenix to an area, dealing 78 (+4% per level) damage to enemies along the way. The Phoenix persists for 7 seconds, attacking enemies for 78 (+4% per level) damage and splashing for 50%.",
         "icon": "storm_ui_icon_kaelthas_phoenix.png",
@@ -148,6 +158,7 @@
       },
       {
         "tooltipId": "KaelthasPyroblast",
+        "talentTreeId": "KaelthasHeroicAbilityPyroblast",
         "name": "Pyroblast",
         "description": "After 1.5 seconds, cast a slow-moving fireball that deals 810 (+5% per level) damage to an enemy Hero and 405 (+5% per level) damage to enemies nearby.",
         "icon": "storm_ui_icon_kaelthas_pyroblast.png",
@@ -159,6 +170,7 @@
     "13": [
       {
         "tooltipId": "KaelthasLivingBombPyromaniacTalent",
+        "talentTreeId": "KaelthasLivingBombPyromaniac",
         "name": "Pyromaniac",
         "description": "Each time Living Bomb deals periodic damage, Kael'thas's Basic Ability cooldowns are reduced by 1 second.",
         "icon": "storm_ui_icon_kaelthas_livingbomb.png",
@@ -167,6 +179,7 @@
       },
       {
         "tooltipId": "KaelthasLivingBombBackdraftTalent",
+        "talentTreeId": "KaelthasLivingBombBackdraft",
         "name": "Backdraft",
         "description": "Living Bomb's explosion slows enemy Movement Speed by 30% for 2 seconds.",
         "icon": "storm_ui_icon_kaelthas_livingbomb_var1.png",
@@ -175,6 +188,7 @@
       },
       {
         "tooltipId": "KaelthasLivingBombFissionBombTalent",
+        "talentTreeId": "KaelthasLivingBombFissionBomb",
         "name": "Fission Bomb",
         "description": "Increases Living Bomb's explosion radius by 20%.",
         "icon": "storm_ui_icon_kaelthas_livingbomb_b.png",
@@ -185,6 +199,7 @@
     "16": [
       {
         "tooltipId": "KaelthasFlamestrikeFuryOfTheSunwellTalent",
+        "talentTreeId": "KaelthasFlamestrikeFuryOfTheSunwell",
         "name": "Fury of the Sunwell",
         "description": "Flamestrike will explode a second time 1.5 seconds later.",
         "icon": "storm_ui_icon_kaelthas_flamestrike.png",
@@ -193,6 +208,7 @@
       },
       {
         "tooltipId": "KaelthasVerdantSpheresTwinSpheresTalent",
+        "talentTreeId": "KaelthasTwinSpheres",
         "name": "Twin Spheres",
         "description": "Verdant Spheres gains a second charge.",
         "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
@@ -201,6 +217,7 @@
       },
       {
         "tooltipId": "KaelthasArcaneDynamo",
+        "talentTreeId": "KaelthasArcaneDynamo",
         "name": "Arcane Dynamo",
         "description": "Using a Basic Ability increases Kael'thas's Ability Power by 3% for 5 seconds, stacking up to 15%.",
         "icon": "storm_ui_icon_talent_arcanepower.png",
@@ -211,6 +228,7 @@
     "20": [
       {
         "tooltipId": "KaelthasPhoenixRebirthTalent",
+        "talentTreeId": "KaelthasPhoenixRebirth",
         "name": "Rebirth",
         "description": "Increases Phoenix duration by 100%. While alive, the Phoenix may be ordered to move to a different location.",
         "icon": "storm_ui_icon_kaelthas_phoenix.png",
@@ -219,6 +237,7 @@
       },
       {
         "tooltipId": "KaelthasPyroblastPresenceOfMindTalent",
+        "talentTreeId": "KaelthasPyroblastPresenceOfMind",
         "name": "Presence Of Mind",
         "description": "Increases Pyroblast's explosion radius by 50% and reduces its cooldown by 25 seconds per enemy Hero hit.",
         "icon": "storm_ui_icon_kaelthas_pyroblast.png",
@@ -227,6 +246,7 @@
       },
       {
         "tooltipId": "KaelthasMasterOfFlamesLivingBomb",
+        "talentTreeId": "KaelthasMasterOfFlames",
         "name": "Master of Flames",
         "description": "Living Bomb's spread from explosions can now also spread Living Bomb.",
         "icon": "storm_ui_icon_kaelthas_livingbomb.png",
@@ -235,6 +255,7 @@
       },
       {
         "tooltipId": "KaelthasFlamethrowerTalent",
+        "talentTreeId": "KaelthasMasteryFlamethrower",
         "name": "Flamethrower",
         "description": "Increases the cast range of Flamestrike by 40%. If Flamestrike hits 2 or more Heroes, its cooldown is reduced by 4 seconds.",
         "icon": "storm_ui_icon_kaelthas_flamestrike.png",

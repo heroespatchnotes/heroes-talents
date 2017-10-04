@@ -60,6 +60,7 @@
     "1": [
       {
         "tooltipId": "DiabloBulwark",
+        "talentTreeId": "DiabloBulwark",
         "name": "Bulwark",
         "description": "Increases the duration of Armor granted by Shadow Charge from 2 seconds to 4 seconds.",
         "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
@@ -68,6 +69,7 @@
       },
       {
         "tooltipId": "DiabloBlackSoulstoneDevilsDueTalent",
+        "talentTreeId": "DiabloMasteryDevilsDueBlackSoulstone",
         "name": "Devil's Due",
         "description": "Black Soulstone increases the effects of Regen Globes and Healing Fountains by 2% per Soul.",
         "icon": "storm_ui_icon_diablo_blacksoulstone_var1.png",
@@ -76,6 +78,7 @@
       },
       {
         "tooltipId": "DiabloLifeLeechTalent",
+        "talentTreeId": "DiabloLifeLeech",
         "name": "Life Leech",
         "description": "Basic Attacks against enemy Heroes deal bonus damage equal to 1% of the Hero's maximum Health and heal Diablo for the same amount.",
         "icon": "storm_ui_icon_talent_autoattack_heal.png",
@@ -86,6 +89,7 @@
     "4": [
       {
         "tooltipId": "DiabloShadowChargeFromTheShadowsTalent",
+        "talentTreeId": "DiabloMasteryFromTheShadowsShadowCharge",
         "name": "From the Shadows",
         "description": "Increases the cast range of Shadow Charge by 40%.",
         "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
@@ -94,6 +98,7 @@
       },
       {
         "tooltipId": "DiabloSpeedDemon",
+        "talentTreeId": "DiabloSpeedDemon",
         "name": "Speed Demon",
         "description": "Being Stunned or Rooted increases Diablo's Movement Speed by 30% for 5 seconds.",
         "icon": "storm_ui_icon_talent_relentless.png",
@@ -102,6 +107,7 @@
       },
       {
         "tooltipId": "DiabloOverpowerDemonicStrengthTalent",
+        "talentTreeId": "DiabloMasteryDemonicStrength",
         "name": "Demonic Strength",
         "description": "Once Overpower's stun expires, the target is slowed by 30% for 3 seconds.",
         "icon": "storm_ui_icon_diablo_overpower_var1.png",
@@ -112,6 +118,7 @@
     "7": [
       {
         "tooltipId": "DiabloBlackSoulstoneSoulFeastTalent",
+        "talentTreeId": "DiabloMasterySoulFeastBlackSoulstone",
         "name": "Soul Feast",
         "description": "Black Soulstone increases Diablo's Health Regeneration by 0.4 per second per Soul.",
         "icon": "storm_ui_icon_diablo_blacksoulstone_var1.png",
@@ -120,6 +127,7 @@
       },
       {
         "tooltipId": "DiabloSoulShield",
+        "talentTreeId": "DiabloSoulShield",
         "name": "Soul Shield",
         "description": "Black Soulstone grants Diablo 0.25 Spell Armor per soul, reducing Ability Damage taken by 0.25% per Soul.",
         "icon": "storm_ui_icon_diablo_blacksoulstone_var2.png",
@@ -128,6 +136,7 @@
       },
       {
         "tooltipId": "DiabloDiabolicalMomentum",
+        "talentTreeId": "DiabloDiabolicalMomentum",
         "name": "Diabolical Momentum",
         "description": "Basic Attacks reduce the cooldown of Overpower and Shadow Charge by 1.5 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
@@ -138,6 +147,7 @@
     "10": [
       {
         "tooltipId": "DiabloApocalypse",
+        "talentTreeId": "DiabloHeroicAbilityApocalypse",
         "name": "Apocalypse",
         "description": "Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and stunning for 1.75 seconds.",
         "icon": "storm_ui_icon_diablo_apocalypse.png",
@@ -147,6 +157,7 @@
       },
       {
         "tooltipId": "DiabloLightningBreath",
+        "talentTreeId": "DiabloHeroicAbilityLightningBreath",
         "name": "Lightning Breath",
         "description": "Become Unstoppable while channeling lightning that deals 800 (+4% per level) damage over 4 seconds.  The direction of the Lightning changes with your mouse cursor position.",
         "icon": "storm_ui_icon_diablo_lightningbreath.png",
@@ -158,6 +169,7 @@
     "13": [
       {
         "tooltipId": "DiabloDevastatingCharge",
+        "talentTreeId": "DiabloDevastatingCharge",
         "name": "Devastating Charge",
         "description": "Shadow Charge's terrain collision against Heroes deals an additional 5% of the target's maximum life. Quest: Each time an enemy Hero takes terrain collision damage, increase the maximum life damage by 2%, to a maximum of 10% bonus.",
         "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
@@ -166,6 +178,7 @@
       },
       {
         "tooltipId": "DiabloFirestompFireDevilTalent",
+        "talentTreeId": "DiabloMasteryFireDevilFireStomp",
         "name": "Fire Devil",
         "description": "Fire Stomp increases Diablo's Basic Attack damage by 20% and surrounds Diablo in flames that deal 20 (+4% per level) damage every second. Lasts 6 seconds.",
         "icon": "storm_ui_icon_diablo_firestomp.png",
@@ -174,6 +187,7 @@
       },
       {
         "tooltipId": "DiabloHellfire",
+        "talentTreeId": "DiabloHellfire",
         "name": "Hellfire",
         "description": "Each enemy Hero hit by Fire Stomp increases the damage of the next Fire Stomp by 12%, up to 120%.",
         "icon": "storm_ui_icon_diablo_firestomp_a.png",
@@ -184,6 +198,7 @@
     "16": [
       {
         "tooltipId": "DiabloDebilitatingFlames",
+        "talentTreeId": "DiabloDebilitatingFlames",
         "name": "Debilitating Flames",
         "description": "Enemy Heroes hit by Fire Stomp are slowed by 15% for 2 seconds, up to 30%.",
         "icon": "storm_ui_icon_diablo_firestomp.png",
@@ -192,6 +207,7 @@
       },
       {
         "tooltipId": "DiabloOverpowerDominationTalent",
+        "talentTreeId": "DiabloTalentDominationOverpower",
         "name": "Domination",
         "description": "Casting Overpower resets the cooldown of Shadow Charge.",
         "icon": "storm_ui_icon_diablo_overpower_var1.png",
@@ -200,6 +216,7 @@
       },
       {
         "tooltipId": "DiabloFearfulPresenceTalent",
+        "talentTreeId": "DiabloFearfulPresence",
         "name": "Fearful Presence",
         "description": "Activate to reduce the damage dealt by nearby enemy Heroes by 30% for 3 seconds. Passive: Heroes and Summons that attack Diablo have their Attack Speed slowed by 20% for 2.5 seconds.",
         "icon": "storm_ui_icon_talent_imposingpresence.png",
@@ -211,6 +228,7 @@
     "20": [
       {
         "tooltipId": "DiabloApocalypseDyingBreathTalent",
+        "talentTreeId": "DiabloMasteryDyingBreathApocalypse",
         "name": "Dying Breath",
         "description": "Apocalypse's cooldown is reduced by 20 seconds and is cast for free when Diablo dies.",
         "icon": "storm_ui_icon_diablo_apocalypse.png",
@@ -219,6 +237,7 @@
       },
       {
         "tooltipId": "DiabloLightningBreathHellstormTalent",
+        "talentTreeId": "DiabloMasteryHellstormLightningBreath",
         "name": "Hellstorm",
         "description": "Lightning Breath lasts and reaches 50% longer.",
         "icon": "storm_ui_icon_diablo_lightningbreath.png",
@@ -227,6 +246,7 @@
       },
       {
         "tooltipId": "DiabloLordOfTerror",
+        "talentTreeId": "DiabloTalentLordOfTerror",
         "name": "Lord of Terror",
         "description": "Activate to steal 10% of the maximum Health of nearby enemy Heroes.",
         "icon": "storm_ui_icon_diablo_lordofterror.png",
@@ -236,6 +256,7 @@
       },
       {
         "tooltipId": "DiabloHellgateTalent",
+        "talentTreeId": "DiabloHellgate",
         "name": "Hellgate",
         "description": "Teleport and place a demonic rune at target location. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and stunning enemies for 1.75 seconds.",
         "icon": "storm_ui_icon_talent_boltofthestorm.png",

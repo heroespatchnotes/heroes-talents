@@ -66,6 +66,7 @@
     "1": [
       {
         "tooltipId": "SgtHammerArtilleryAdvancedArtilleryTalent",
+        "talentTreeId": "SgtHammerMasteryAdvancedArtillery",
         "name": "Advanced Artillery",
         "description": "Increase the damage bonus to long distance enemies by 10%.",
         "icon": "storm_ui_icon_sgthammer_artillery.png",
@@ -74,6 +75,7 @@
       },
       {
         "tooltipId": "SgtHammerSiegeModeResistantTalent",
+        "talentTreeId": "SgtHammerResistant",
         "name": "Resistant",
         "description": "Being Stunned or Rooted while in Siege Mode grants 50 Armor for 3 seconds, reducing damage taken by 50%.",
         "icon": "storm_ui_icon_sgthammer_siegemode.png",
@@ -82,6 +84,7 @@
       },
       {
         "tooltipId": "SgtHammerSiegeModeAmbushTalent",
+        "talentTreeId": "SgtHammerAmbush",
         "name": "Ambush",
         "description": "Stealth when entering Siege Mode. Your next Basic Attack from Siege Mode will deal 100% more damage. Lose Stealth when Basic Attacking, using an Ability, taking damage, or returning to Tank Mode.",
         "icon": "storm_ui_icon_sgthammer_siegemode_var1.png",
@@ -91,6 +94,7 @@
       },
       {
         "tooltipId": "GenericRegenerationMasterTalent",
+        "talentTreeId": "GenericTalentRegenerationMaster",
         "name": "Regeneration Master",
         "description": "Quest: Gathering a Regeneration Globe increases your Health Regeneration by 1 per second, up to 30.  Reward: After gathering 30 Regeneration Globes, you also gain 500 Health.",
         "icon": "storm_ui_icon_talent_regenerationmaster.png",
@@ -101,6 +105,7 @@
     "4": [
       {
         "tooltipId": "GenericVigorousAssaultTalent",
+        "talentTreeId": "GenericTalentVigorousAssault",
         "name": "Vigorous Assault",
         "description": "Basic Attacks heal for 15% of the damage dealt to the primary target.",
         "icon": "storm_ui_icon_talent_autoattack_heal.png",
@@ -109,6 +114,7 @@
       },
       {
         "tooltipId": "GenericFocusedAttackTalent",
+        "talentTreeId": "GenericTalentFocusedAttack",
         "name": "Focused Attack",
         "description": "Every 10 seconds, your next Basic Attack against a Hero deals 60% additional damage. Basic Attacks reduce this cooldown by 1 second.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
@@ -117,6 +123,7 @@
       },
       {
         "tooltipId": "SgtHammerConcussiveBlastExcessiveForceTalent",
+        "talentTreeId": "SgtHammerMasteryExcessiveForceConcussiveBlast",
         "name": "Excessive Force",
         "description": "Double the knock back distance of Concussive Blast.",
         "icon": "storm_ui_icon_sgthammer_concussiveblast.png",
@@ -127,6 +134,7 @@
     "7": [
       {
         "tooltipId": "SgtHammerSpiderMinesMineFieldTalent",
+        "talentTreeId": "SgtHammerMasteryMineField",
         "name": "Mine Field",
         "description": "Increase the number of mines by 2.",
         "icon": "storm_ui_icon_sgthammer_spidermines.png",
@@ -135,6 +143,7 @@
       },
       {
         "tooltipId": "SgtHammerThrustersHyperCoolingEnginesTalent",
+        "talentTreeId": "SgtHammerHyperCoolingEngines",
         "name": "Hyper-Cooling Engines",
         "description": "Reduce the cooldown of Thrusters by 15 seconds.",
         "icon": "storm_ui_icon_sgthammer_hypercoolingengines.png",
@@ -143,6 +152,7 @@
       },
       {
         "tooltipId": "GenericFirstAid",
+        "talentTreeId": "GenericTalentFirstAid",
         "name": "First Aid",
         "description": "Activate to heal 35% of your max Health over 6 seconds.",
         "icon": "storm_temp_btn-ability-terran-heal-color.png",
@@ -154,6 +164,7 @@
     "10": [
       {
         "tooltipId": "SgtHammerBluntForceGun",
+        "talentTreeId": "SgtHammerHeroicAbilityBluntForceGun",
         "name": "Blunt Force Gun",
         "description": "Fire a missile across the battlefield, dealing 500 (+3% per level) damage to enemies in its path.",
         "icon": "storm_ui_icon_sgthammer_bluntforcegun.png",
@@ -163,6 +174,7 @@
       },
       {
         "tooltipId": "SgtHammerNapalmStrike",
+        "talentTreeId": "SgtHammerHeroicAbilityNapalmStrike",
         "name": "Napalm Strike",
         "description": "Deals 164 (+4% per level) damage on impact, and leaves a napalm area that deals 50 (+4% per level) damage per second. Lasts for 4 seconds.",
         "icon": "storm_ui_icon_sgthammer_napalmstrike.png",
@@ -174,6 +186,7 @@
     "13": [
       {
         "tooltipId": "GenericGiantKiller",
+        "talentTreeId": "GenericTalentGiantKiller",
         "name": "Giant Killer",
         "description": "Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
@@ -182,6 +195,7 @@
       },
       {
         "tooltipId": "SgtHammerArtilleryFirstStrikeTalent",
+        "talentTreeId": "SgtHammerFirstStrike",
         "name": "First Strike",
         "description": "Basic Attacks deal 25% more damage if you haven't been attacked within the last 5 seconds.",
         "icon": "storm_ui_icon_sgthammer_artillery.png",
@@ -190,6 +204,7 @@
       },
       {
         "tooltipId": "SgtHammerSpiderMinesBullheadMinesTalent",
+        "talentTreeId": "SgtHammerBullheadMines",
         "name": "Bullhead Mines",
         "description": "Middle Spider Mine knocks target back a short distance.",
         "icon": "storm_ui_icon_sgthammer_spidermines.png",
@@ -198,6 +213,7 @@
       },
       {
         "tooltipId": "SgtHammerConcussiveBlastBarricadeTalent",
+        "talentTreeId": "SgtHammerMasteryFlakCannons",
         "name": "Barricade",
         "description": "Create a wall of path blocking debris for 4 seconds.",
         "icon": "storm_ui_icon_sgthammer_concussiveblast.png",
@@ -208,6 +224,7 @@
     "16": [
       {
         "tooltipId": "GenericExecutionerTalent",
+        "talentTreeId": "HeroGenericExecutionerPassive",
         "name": "Executioner",
         "description": "Attacking a Hero that is slowed, rooted, or stunned increases your Basic Attack damage by 30% for 3 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
@@ -216,6 +233,7 @@
       },
       {
         "tooltipId": "SgtHammerSiegeModeHoverSiegeModeTalent",
+        "talentTreeId": "SgtHammerMasteryHoverSiegeMode",
         "name": "Hover Siege Mode",
         "description": "You can move at 50% Movement Speed in Siege Mode.",
         "icon": "storm_ui_icon_sgthammer_siegemode.png",
@@ -224,6 +242,7 @@
       },
       {
         "tooltipId": "SgtHammerSiegeModeGraduatingRangeTalent",
+        "talentTreeId": "SgtHammerGraduatingRange",
         "name": "Graduating Range",
         "description": "While in Siege Mode, Sgt. Hammer's Attack range increases by 1.1 every 3 seconds, up to 5.5.",
         "icon": "storm_ui_icon_sgthammer_siegemode_var1.png",
@@ -232,6 +251,7 @@
       },
       {
         "tooltipId": "GenericStoneskin",
+        "talentTreeId": "GenericTalentStoneskin",
         "name": "Stoneskin",
         "description": "Activate to gain 30% of your maximum Health as a Shield for 5 seconds.",
         "icon": "storm_ui_icon_talent_stoneskin.png",
@@ -243,6 +263,7 @@
     "20": [
       {
         "tooltipId": "SgtHammerBluntForceGunOrbitalBFGTalent",
+        "talentTreeId": "SgtHammerMasteryOrbitalBFGBluntForceGun",
         "name": "Orbital BFG",
         "description": "Blunt Force Gun's missile orbits the planet every 5 seconds. Only the last missile fired orbits.",
         "icon": "storm_ui_icon_sgthammer_bluntforcegun.png",
@@ -251,6 +272,7 @@
       },
       {
         "tooltipId": "SgtHammerNapalmStrikeAdvancedLavaStrikeTalent",
+        "talentTreeId": "SgtHammerMasteryAdvancedLavaStrikeNapalmStrike",
         "name": "Advanced Lava Strike",
         "description": "Napalm Strike's range is increased by 75% and its impact does 50% more damage.",
         "icon": "storm_ui_icon_sgthammer_napalmstrike.png",
@@ -259,6 +281,7 @@
       },
       {
         "tooltipId": "FuryoftheStormTalent",
+        "talentTreeId": "GenericTalentFuryoftheStorm",
         "name": "Fury of the Storm",
         "description": "Every 5 seconds, your next Basic Attack will deal an additional 91 (+4% per level) damage to the target, and 228 (+4% per level) damage to all nearby Minions, Mercenaries, and Monsters.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
@@ -267,6 +290,7 @@
       },
       {
         "tooltipId": "NexusFrenzyTalent",
+        "talentTreeId": "GenericTalentNexusFrenzy",
         "name": "Nexus Frenzy",
         "description": "Increases Attack Speed by 20% and Attack Range by 1.1.",
         "icon": "storm_ui_icon_talent_autoattack_range.png",

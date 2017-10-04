@@ -54,6 +54,7 @@
     "1": [
       {
         "tooltipId": "SamuroWayOfIllusion",
+        "talentTreeId": "SamuroWayOfIllusion",
         "name": "Way of Illusion",
         "description": "Quest: Every time one of your Images Critically Strikes a Hero, gain 0.5 Attack Damage, up to 20. Reward: After hitting 40 Heroes, gain an additional 20 Attack Damage.",
         "icon": "storm_ui_icon_samuro_mirrorimage.png",
@@ -62,6 +63,7 @@
       },
       {
         "tooltipId": "SamuroWayoftheBlade",
+        "talentTreeId": "SamuroMirrorImageWayOfTheBlade",
         "name": "Way of the Blade",
         "description": "Critical Strike now happens every 3rd Basic Attack and deals an additional 20% of your Basic Attack damage.",
         "icon": "storm_ui_icon_samuro_criticalstrike.png",
@@ -70,6 +72,7 @@
       },
       {
         "tooltipId": "SamuroWayOfTheWind",
+        "talentTreeId": "SamuroWayOfTheWind",
         "name": "Way of the Wind",
         "description": "Quest: Attacking a Hero from Stealth increases the Movement Speed bonus of Wind Walk by 1.25%, up to 25%. Reward: After attacking 20 Heroes, Wind Walk's Unrevealable duration is increased to 2.5 seconds.",
         "icon": "storm_ui_icon_samuro_windwalk.png",
@@ -80,6 +83,7 @@
     "4": [
       {
         "tooltipId": "SamuroMirage",
+        "talentTreeId": "SamuroMirage",
         "name": "Mirage",
         "description": "Mirror Image grants Samuro and his Images 40 Spell Armor against the next 2 sources of Spell damage, reducing their damage by 40%.",
         "icon": "storm_ui_icon_samuro_mirrorimage.png",
@@ -88,6 +92,7 @@
       },
       {
         "tooltipId": "SamuroOneWithTheWindTalent",
+        "talentTreeId": "SamuroWindwalkOneWithTheWind",
         "name": "One with the Wind",
         "description": "While Stealthed by Wind Walk, you take 60% reduced damage from all sources.",
         "icon": "storm_ui_icon_samuro_windwalk.png",
@@ -96,6 +101,7 @@
       },
       {
         "tooltipId": "SamuroDeflectionTalent",
+        "talentTreeId": "SamuroAdvancingStrikesDeflection",
         "name": "Deflection",
         "description": "Advancing Strikes grants 25 Physical Armor against Hero Basic Attacks, reducing their damage by 25%.",
         "icon": "storm_ui_icon_samuro_flowingstrikes.png",
@@ -106,6 +112,7 @@
     "7": [
       {
         "tooltipId": "SamuroBurningBlade",
+        "talentTreeId": "SamuroBurningBlade",
         "name": "Burning Blade",
         "description": "Critical Strikes unleash a burst of flame, dealing an additional 65% of your Basic Attack damage to the target and nearby enemies.",
         "icon": "storm_ui_icon_samuro_criticalstrike.png",
@@ -114,6 +121,7 @@
       },
       {
         "tooltipId": "SamuroPhantomsStrikeTalent",
+        "talentTreeId": "SamuroPhantomPain",
         "name": "Phantom Pain",
         "description": "Critical Strikes deal an additional 40% of your Basic Attack damage for each Image you have active.",
         "icon": "storm_ui_icon_samuro_criticalstrike_a.png",
@@ -122,6 +130,7 @@
       },
       {
         "tooltipId": "SamuroOverpoweringBlow",
+        "talentTreeId": "SamuroOverpoweringBlow",
         "name": "Crushing Blows",
         "description": "Critical Strike now has two charges, and Critical Strikes deal an additional 25% of your Basic Attack damage.",
         "icon": "storm_ui_icon_samuro_criticalstrike_b.png",
@@ -132,6 +141,7 @@
     "10": [
       {
         "tooltipId": "SamuroBladestorm",
+        "talentTreeId": "SamuroHeroicAbilityBladestorm",
         "name": "Bladestorm",
         "description": "Become an Unstoppable whirlwind of death, dealing 235 (+4% per level) damage per second to nearby enemies for 4 seconds.",
         "icon": "storm_ui_icon_samuro_bladestorm.png",
@@ -141,6 +151,7 @@
       },
       {
         "tooltipId": "SamuroIllusionMaster",
+        "talentTreeId": "SamuroHeroicAbilityIllusionMaster",
         "name": "Illusion Master",
         "description": "Switch places with the target Mirror Image, removing most negative effects from Samuro and the target Mirror Image. Passive: You can control Mirror Images separately or as a group, and they deal an additional 10% of your damage.",
         "icon": "storm_ui_icon_samuro_illusiondancer.png",
@@ -152,6 +163,7 @@
     "13": [
       {
         "tooltipId": "SamuroMirroredSteelTalent",
+        "talentTreeId": "SamuroMirroredSteel",
         "name": "Mirrored Steel",
         "description": "Basic Attacks against Heroes reduce the cooldown of Mirror Image by 1 second.",
         "icon": "storm_ui_icon_samuro_mirrorimage.png",
@@ -160,6 +172,7 @@
       },
       {
         "tooltipId": "WindwalkKawarimiTalent",
+        "talentTreeId": "SamuroWindwalkKawarimi",
         "name": "Kawarimi",
         "description": "Wind Walk creates an Image at your location that will continue whatever you were doing.",
         "icon": "storm_ui_icon_samuro_windwalk.png",
@@ -168,6 +181,7 @@
       },
       {
         "tooltipId": "SamuroShukuchiTalent",
+        "talentTreeId": "SamuroShukuchi",
         "name": "Shukuchi",
         "description": "Wind Walk teleports you a short distance in the direction you're currently facing.",
         "icon": "storm_ui_icon_samuro_windwalk_a.png",
@@ -178,6 +192,7 @@
     "16": [
       {
         "tooltipId": "SamuroMercilessStrikes",
+        "talentTreeId": "SamuroMercilessStrikes",
         "name": "Merciless Strikes",
         "description": "Basic Attacks against slowed, rooted, or stunned targets are always Critical Strikes.",
         "icon": "storm_ui_icon_samuro_criticalstrike.png",
@@ -186,6 +201,7 @@
       },
       {
         "tooltipId": "SamuroHarshWinds",
+        "talentTreeId": "SamuroHarshWinds",
         "name": "Harsh Winds",
         "description": "Attacking a Hero from Stealth causes them to take 30% increased damage from Samuro and his Images for 3 seconds.",
         "icon": "storm_ui_icon_samuro_windwalk.png",
@@ -194,6 +210,7 @@
       },
       {
         "tooltipId": "SamuroPressTheAttack",
+        "talentTreeId": "SamuroPressTheAttack",
         "name": "Press the Attack",
         "description": "While Advancing Strikes is active, Basic Attacks increase your Attack Speed by 15%, up to 60%.",
         "icon": "storm_ui_icon_samuro_flowingstrikes.png",
@@ -204,6 +221,7 @@
     "20": [
       {
         "tooltipId": "SamuroDanceOfDeathTalent",
+        "talentTreeId": "SamuroWhirlwindStorm",
         "name": "Dance of Death",
         "description": "Your Images use Bladestorm when you do.",
         "icon": "storm_ui_icon_samuro_bladestorm.png",
@@ -212,6 +230,7 @@
       },
       {
         "tooltipId": "SamuroThreeBladeStyleTalent",
+        "talentTreeId": "SamuroThreeBladeStyle",
         "name": "Three Blade Style",
         "description": "Your Images gain an additional 50% of your Health and last up to 36 seconds.",
         "icon": "storm_ui_icon_samuro_illusiondancer.png",
@@ -220,6 +239,7 @@
       },
       {
         "tooltipId": "SamuroWindStrider",
+        "talentTreeId": "SamuroWindStrider",
         "name": "Wind Strider",
         "description": "Wind Walk's cooldown is reduced by 6 seconds.",
         "icon": "storm_ui_icon_samuro_windwalk.png",
@@ -228,6 +248,7 @@
       },
       {
         "tooltipId": "SamuroBlademastersPursuitTalent",
+        "talentTreeId": "SamuroBlademastersPursuit",
         "name": "Blademaster's Pursuit",
         "description": "Advancing Strikes grants an additional 15% bonus Movement Speed, and its duration is increased by 2 seconds.",
         "icon": "storm_ui_icon_samuro_flowingstrikes.png",

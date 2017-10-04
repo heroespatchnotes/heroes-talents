@@ -59,6 +59,7 @@
     "1": [
       {
         "tooltipId": "ZeratulCleaveGreaterCleaveTalent",
+        "talentTreeId": "ZeratulMasteryGreaterCleaveCleave",
         "name": "Greater Cleave",
         "description": "Increases the radius of Cleave by 33%.",
         "icon": "storm_ui_icon_zeratul_cleave.png",
@@ -67,6 +68,7 @@
       },
       {
         "tooltipId": "ZeratulVorpalBladeHotbar",
+        "talentTreeId": "ZeratulVorpalBlade",
         "name": "Vorpal Blade",
         "description": "Activate to teleport to the last non-structure target attacked within 3 seconds. The target is revealed during these 3 seconds.",
         "icon": "storm_ui_icon_zeratul_vorpalblade.png",
@@ -76,6 +78,7 @@
       },
       {
         "tooltipId": "ZeratulShadowHunter",
+        "talentTreeId": "ZeratulShadowHunter",
         "name": "Shadow Hunter",
         "description": "Quest: Gather Regeneration Globes to lower the Mana cost of Blink by 2.  Reward: Upon gathering 20 Regeneration Globes, Basic Attacks reduce the cooldown of Blink by 1 second.",
         "icon": "storm_ui_icon_zeratul_blink.png",
@@ -86,6 +89,7 @@
     "4": [
       {
         "tooltipId": "ZeratulGrimTask",
+        "talentTreeId": "ZeratulGrimTask",
         "name": "Grim Task",
         "description": "Quest: Hero Takedowns increase Ability Power by 5%, up to 50%. This bonus Ability Power is lost on death.",
         "icon": "storm_ui_icon_talent_gatheringpower.png",
@@ -94,6 +98,7 @@
       },
       {
         "tooltipId": "ZeratulCleaveRendingCleaveTalent",
+        "talentTreeId": "ZeratulRendingCleave",
         "name": "Rending Cleave",
         "description": "Cleave deals an additional 40% damage over 3 seconds.",
         "icon": "storm_ui_icon_zeratul_cleave.png",
@@ -102,6 +107,7 @@
       },
       {
         "tooltipId": "ZeratulComboSlash",
+        "talentTreeId": "ZeratulComboSlash",
         "name": "Combo Slash",
         "description": "After using an Ability, Zeratul's next Basic Attack within 6 seconds deals 40% additional damage.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
@@ -112,6 +118,7 @@
     "7": [
       {
         "tooltipId": "ZeratulWormholeTalent",
+        "talentTreeId": "ZeratulWormhole",
         "name": "Wormhole",
         "description": "For 2.125 seconds, reactivate Blink to return to the point where it was cast from.",
         "icon": "storm_ui_icon_zeratul_blink.png",
@@ -120,6 +127,7 @@
       },
       {
         "tooltipId": "ZeratulSlipintoShadow",
+        "talentTreeId": "ZeratulSlipintoShadow",
         "name": "Slip into Shadow",
         "description": "Blink gains an additional charge, but its cooldown is increased by 8 seconds.",
         "icon": "storm_ui_icon_zeratul_blink_a.png",
@@ -128,6 +136,7 @@
       },
       {
         "tooltipId": "ZeratulSeekerInTheDark",
+        "talentTreeId": "ZeratulSeekerInTheDark",
         "name": "Seeker in the Dark",
         "description": "Singularity Spike takes 50% longer to explode. It can be reactivated to teleport to the target, granting 30% increased Move Speed for 3 seconds.",
         "icon": "storm_ui_icon_zeratul_singularityspike.png",
@@ -138,6 +147,7 @@
     "10": [
       {
         "tooltipId": "ZeratulShadowAssault",
+        "talentTreeId": "ZeratulHeroicAbilityShadowAssault",
         "name": "Shadow Assault",
         "description": "Basic Attacks cause Zeratul to charge at enemies and have 20% increased Attack Speed. Lasts for 4 seconds.",
         "icon": "storm_ui_icon_zeratul_shadowassault.png",
@@ -147,6 +157,7 @@
       },
       {
         "tooltipId": "ZeratulVoidPrison",
+        "talentTreeId": "ZeratulHeroicAbilityVoidPrison",
         "name": "Void Prison",
         "description": "Slows time in an area to a near standstill, making allies and enemies invulnerable and unable to act for 5 seconds. Zeratul is not affected.",
         "icon": "storm_ui_icon_zeratul_voidprison.png",
@@ -158,6 +169,7 @@
     "13": [
       {
         "tooltipId": "ZeratulShroudofAdun",
+        "talentTreeId": "ZeratulShroudofAdun",
         "name": "Shroud of Adun",
         "description": "Zeratul gains a shield equal to 15% of his Maximum Health over 5 seconds while under Permanent Cloak.",
         "icon": "storm_ui_icon_zeratul_cloak.png",
@@ -166,6 +178,7 @@
       },
       {
         "tooltipId": "GenericSpellShieldTalent",
+        "talentTreeId": "GenericTalentSpellShield",
         "name": "Spell Shield",
         "description": "Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically.",
         "icon": "storm_ui_icon_talent_spellshield.png",
@@ -174,6 +187,7 @@
       },
       {
         "tooltipId": "ZeratulMendingStrikes",
+        "talentTreeId": "ZeratulMendingStrikes",
         "name": "Mending Strikes",
         "description": "Basic Attacks heal for 35% of the damage dealt.",
         "icon": "storm_ui_icon_talent_autoattack_heal.png",
@@ -184,6 +198,7 @@
     "16": [
       {
         "tooltipId": "ZeratulMasterWarpBlade",
+        "talentTreeId": "ZeratulMasterWarpBlade",
         "name": "Master Warp-Blade",
         "description": "Every third consecutive Basic Attack against the same target deals 125% bonus damage.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
@@ -192,6 +207,7 @@
       },
       {
         "tooltipId": "ZeratulVoidSlashTalent",
+        "talentTreeId": "ZeratulVoidSlash",
         "name": "Void Slash",
         "description": "If Cleave hits more than one enemy Hero, it deals 50% increased damage and its cooldown is reduced by 3 seconds.",
         "icon": "storm_ui_icon_zeratul_cleave.png",
@@ -200,6 +216,7 @@
       },
       {
         "tooltipId": "ZeratulSentencedtoDeath",
+        "talentTreeId": "ZeratulSentencedtoDeath",
         "name": "Sentenced to Death",
         "description": "Deal 40% increased damage to enemies while they have a Singularity Spike attached to them.",
         "icon": "storm_ui_icon_zeratul_singularityspike.png",
@@ -210,6 +227,7 @@
     "20": [
       {
         "tooltipId": "ZeratulShadowAssaultNerazimFuryTalent",
+        "talentTreeId": "ZeratulNerazimFury",
         "name": "Nerazim Fury",
         "description": "Shadow Assault grants 30% Life Steal, and the duration is increased by 50%.",
         "icon": "storm_ui_icon_zeratul_shadowassault.png",
@@ -218,6 +236,7 @@
       },
       {
         "tooltipId": "ZeratulGiftoftheXelNaga",
+        "talentTreeId": "ZeratulGiftoftheXelNaga",
         "name": "Gift of the Xel'naga",
         "description": "Allies are no longer affected by Void Prison, and enemies are slowed by 50% for 3 seconds once Void Prison ends.",
         "icon": "storm_ui_icon_zeratul_voidprison.png",
@@ -226,6 +245,7 @@
       },
       {
         "tooltipId": "NexusBladesTalent",
+        "talentTreeId": "GenericTalentNexusBlades",
         "name": "Nexus Blades",
         "description": "Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.",
         "icon": "storm_ui_icon_talent_autoattack_slow.png",
@@ -234,6 +254,7 @@
       },
       {
         "tooltipId": "GenericRewindHotbar",
+        "talentTreeId": "GenericTalentRewind",
         "name": "Rewind",
         "description": "Activate to reset the cooldowns of your Basic Abilities.",
         "icon": "storm_ui_icon_talent_rewind.png",

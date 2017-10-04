@@ -58,6 +58,7 @@
     "1": [
       {
         "tooltipId": "SylvanasWitheringFireOverflowingQuiverTalent",
+        "talentTreeId": "SylvanasTalentOverflowingQuiver",
         "name": "Overflowing Quiver",
         "description": "When a nearby enemy Minion dies, a free, untalented Withering Fire is shot. This cannot hit Heroes.",
         "icon": "storm_ui_icon_sylvanas_witheringfire.png",
@@ -66,6 +67,7 @@
       },
       {
         "tooltipId": "SylvanasDreadfulWake",
+        "talentTreeId": "SylvanasDreadfulWake",
         "name": "Dreadful Wake",
         "description": "Haunting Wave now disables Minions and Mercenaries for 7 seconds and restores 5 Mana per minion hit.",
         "icon": "storm_ui_icon_sylvanas_hauntingwave.png",
@@ -74,6 +76,7 @@
       },
       {
         "tooltipId": "SylvanasMercenaryQueenTalent",
+        "talentTreeId": "SylvanasTalentMercenaryQueen",
         "name": "Mercenary Queen",
         "description": "Friendly non-Boss Mercenaries near you deal 60% more damage.",
         "icon": "storm_ui_icon_sylvanas_bansheequeen.png",
@@ -84,6 +87,7 @@
     "4": [
       {
         "tooltipId": "SylvanasWitheringFireWitheringBarrage",
+        "talentTreeId": "SylvanasTalentWitheringBarrage",
         "name": "Withering Barrage",
         "description": "Increase Withering Fire charges by 1. Charges can be fired 33% faster.",
         "icon": "storm_ui_icon_sylvanas_witheringfire.png",
@@ -92,6 +96,7 @@
       },
       {
         "tooltipId": "SylvanasWitheringFireWithTheWindTalent",
+        "talentTreeId": "SylvanasTalentWithTheWind",
         "name": "With the Wind",
         "description": "Increases Withering Fire's range by 25%.",
         "icon": "storm_ui_icon_sylvanas_witheringfire_var1.png",
@@ -100,6 +105,7 @@
       },
       {
         "tooltipId": "SylvanasShadowDaggerLostSoulTalent",
+        "talentTreeId": "SylvanasTalentLostSoul",
         "name": "Lost Soul",
         "description": "Reduce Shadow Dagger's cooldown by 1.25 seconds each time it spreads to a Hero.",
         "icon": "storm_ui_icon_sylvanas_shadowdagger.png",
@@ -110,6 +116,7 @@
     "7": [
       {
         "tooltipId": "SylvanasWitheringFireBarbedShotTalent",
+        "talentTreeId": "SylvanasTalentWitheringFireBarbedShot",
         "name": "Barbed Shot",
         "description": "Withering Fire deals 200% bonus damage to Minions, Mercenaries, and Monsters.",
         "icon": "storm_ui_icon_sylvanas_witheringfire.png",
@@ -118,6 +125,7 @@
       },
       {
         "tooltipId": "SylvanasBlackArrowsUnstablePoisonTalent",
+        "talentTreeId": "SylvanasTalentUnstablePoison",
         "name": "Unstable Poison",
         "description": "Minions that die under the effects of Black Arrows explode, dealing 116 (+4% per level) damage to nearby enemies.  Does not damage Heroes or Structures.",
         "icon": "storm_ui_icon_sylvanas_blackarrows.png",
@@ -126,6 +134,7 @@
       },
       {
         "tooltipId": "SylvanasPossession",
+        "talentTreeId": "SylvanasHeroicAbilityPossession",
         "name": "Possession",
         "description": "Force an enemy Minion to fight for you. Stores up to 3 charges.",
         "icon": "storm_ui_icon_sylvanas_possession.png",
@@ -137,6 +146,7 @@
     "10": [
       {
         "tooltipId": "SylvanasWailingArrow",
+        "talentTreeId": "SylvanasHeroicAbilityWailingArrow",
         "name": "Wailing Arrow",
         "description": "Shoot an arrow that can be reactivated to deal 228 (+4% per level) damage and silence enemies in an area making them unable to use Abilities for 2.5 seconds. The arrow detonates automatically when it reaches maximum range.",
         "icon": "storm_ui_icon_sylvanas_wailingarrow.png",
@@ -146,6 +156,7 @@
       },
       {
         "tooltipId": "SylvanasMindControl",
+        "talentTreeId": "SylvanasHeroicAbilityMindControl",
         "name": "Mind Control",
         "description": "After a 1 second cast, take control of an enemy Hero's movement and prevent them from doing anything else. Channel lasts 2.5 seconds.",
         "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
@@ -157,6 +168,7 @@
     "13": [
       {
         "tooltipId": "SylvanasBlackArrowsLifeDrainTalent",
+        "talentTreeId": "SylvanasTalentLifeDrain",
         "name": "Life Drain",
         "description": "Shadow Dagger heals you for 37 (+4% per level) each time it spreads to an enemy.",
         "icon": "storm_ui_icon_sylvanas_shadowdagger.png",
@@ -165,6 +177,7 @@
       },
       {
         "tooltipId": "SylvanasHauntingWaveWindrunnerTalent",
+        "talentTreeId": "SylvanasTalentWindrunnerHauntingWave",
         "name": "Windrunner",
         "description": "Teleporting with Haunting Wave fully recharges your Withering Fire. Haunting Wave can be cast a second time for free within 5 seconds after teleporting.",
         "icon": "storm_ui_icon_sylvanas_hauntingwave.png",
@@ -173,6 +186,7 @@
       },
       {
         "tooltipId": "SylvanasWillOfTheForsaken",
+        "talentTreeId": "SylvanasTalentWillOfTheForsaken",
         "name": "Will of the Forsaken",
         "description": "Activate to become Unstoppable and gain 40% Movement Speed for 3 seconds.",
         "icon": "storm_ui_icon_sylvanas_willoftheforsaken.png",
@@ -182,6 +196,7 @@
       },
       {
         "tooltipId": "GenericSpellShieldTalent",
+        "talentTreeId": "GenericTalentSpellShield",
         "name": "Spell Shield",
         "description": "Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically.",
         "icon": "storm_ui_icon_talent_spellshield.png",
@@ -192,6 +207,7 @@
     "16": [
       {
         "tooltipId": "SylvanasWitheringFireEvasiveFireTalent",
+        "talentTreeId": "SylvanasTalentWitheringFireEvasiveFire",
         "name": "Evasive Fire",
         "description": "When you hit an enemy with Withering Fire, gain 10% Movement Speed for 2 seconds, stacking up to 30%.",
         "icon": "storm_ui_icon_sylvanas_witheringfire.png",
@@ -200,6 +216,7 @@
       },
       {
         "tooltipId": "SylvanasShadowDaggerColdEmbraceTalent",
+        "talentTreeId": "SylvanasTalentColdEmbrace",
         "name": "Cold Embrace",
         "description": "Shadow Dagger lowers the Armor of the initial enemy by 25 for 2 seconds, causing them to take 25% more damage.",
         "icon": "storm_ui_icon_sylvanas_shadowdagger.png",
@@ -208,6 +225,7 @@
       },
       {
         "tooltipId": "SylvanasBlackArrowsOverwhelmingAfflictionTalent",
+        "talentTreeId": "SylvanasTalentOverwhelmingAffliction",
         "name": "Overwhelming Affliction",
         "description": "Black Arrows now also applies to Heroes, slowing their Movement Speed by 6% for the duration. Stacks up to 5 times.",
         "icon": "storm_ui_icon_sylvanas_blackarrows.png",
@@ -216,6 +234,7 @@
       },
       {
         "tooltipId": "SylvanasRemorselessTalent",
+        "talentTreeId": "SylvanasTalentRemorseless",
         "name": "Remorseless",
         "description": "After using an Ability, your next Basic Attack within 3 seconds deals 40% additional damage.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
@@ -226,6 +245,7 @@
     "20": [
       {
         "tooltipId": "SylvanasWailingArrowDeafeningBlastTalent",
+        "talentTreeId": "SylvanasWailingArrowDeafeningBlast",
         "name": "Deafening Blast",
         "description": "Enemies at the center of Wailing Arrow's explosion take 50% more damage and are silenced for twice as long.",
         "icon": "storm_ui_icon_sylvanas_wailingarrow.png",
@@ -234,6 +254,7 @@
       },
       {
         "tooltipId": "SylvanasDarkLadysCallMindControlTalent",
+        "talentTreeId": "SylvanasTalentDarkLadysCallMindControl",
         "name": "Dark Lady's Call",
         "description": "Mind Controlled enemies gain 100% Movement Speed for the duration.",
         "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
@@ -242,6 +263,7 @@
       },
       {
         "tooltipId": "FuryoftheStormTalent",
+        "talentTreeId": "GenericTalentFuryoftheStorm",
         "name": "Fury of the Storm",
         "description": "Every 5 seconds, your next Basic Attack will deal an additional 91 (+4% per level) damage to the target, and 228 (+4% per level) damage to all nearby Minions, Mercenaries, and Monsters.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
@@ -250,6 +272,7 @@
       },
       {
         "tooltipId": "GenericBoltoftheStormTalent",
+        "talentTreeId": "GenericTalentFlashoftheStorms",
         "name": "Bolt of the Storm",
         "description": "Activate to teleport to a nearby location.",
         "icon": "storm_ui_icon_talent_boltofthestorm.png",

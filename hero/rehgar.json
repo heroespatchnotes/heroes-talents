@@ -61,6 +61,7 @@
     "1": [
       {
         "tooltipId": "RehgarEarthbindTotemColossalTotemTalent",
+        "talentTreeId": "RehgarMasteryColossalTotem",
         "name": "Colossal Totem",
         "description": "Increases the area and range of Earthbind Totem by 50%.",
         "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
@@ -69,6 +70,7 @@
       },
       {
         "tooltipId": "RehgarLightningShieldElectricChargeTalent",
+        "talentTreeId": "RehgarMasteryElectricCharge",
         "name": "Electric Charge",
         "description": "Increases the radius of Lightning Shield by 25%.",
         "icon": "storm_ui_icon_rehgar_lightningshield.png",
@@ -77,6 +79,7 @@
       },
       {
         "tooltipId": "RehgarGhostWolfWolfRunTalent",
+        "talentTreeId": "RehgarMasteryWolfRun",
         "name": "Wolf Run",
         "description": "Increases the Movement Speed of Ghost Wolf from 20% to 30%.",
         "icon": "storm_ui_icon_rehgar_ghostwolf.png",
@@ -85,6 +88,7 @@
       },
       {
         "tooltipId": "RehgarLightningShieldLightningBondTalent",
+        "talentTreeId": "RehgarMasteryLightningBond",
         "name": "Lightning Bond",
         "description": "Casting Lightning Shield on an ally also casts an untalented version on you.",
         "icon": "storm_ui_icon_rehgar_lightningshield_a.png",
@@ -95,6 +99,7 @@
     "4": [
       {
         "tooltipId": "RehgarChainHealSpiritwalkersGraceTalent",
+        "talentTreeId": "RehgarMasterySpiritwalkersGrace",
         "name": "Spiritwalker's Grace",
         "description": "Reduces Chain Heal's Mana cost from 65 to 45.",
         "icon": "storm_ui_icon_rehgar_chainheal.png",
@@ -103,6 +108,7 @@
       },
       {
         "tooltipId": "RehgarGhostWolfFeralHeartTalent",
+        "talentTreeId": "RehgarMasteryFeralHeart",
         "name": "Feral Heart",
         "description": "Increases Health and Mana Regeneration by 75% while in Ghost Wolf form.",
         "icon": "storm_ui_icon_rehgar_ghostwolf.png",
@@ -111,6 +117,7 @@
       },
       {
         "tooltipId": "RehgarLightningShieldStormcallerTalent",
+        "talentTreeId": "RehgarMasteryStormcaller",
         "name": "Stormcaller",
         "description": "When Lightning Shield damages an enemy it restores 4 Mana, up to 40.",
         "icon": "storm_ui_icon_rehgar_lightningshield.png",
@@ -119,6 +126,7 @@
       },
       {
         "tooltipId": "RehgarHealingTotem",
+        "talentTreeId": "RehgarMasteryShamanHealingWard",
         "name": "Healing Totem",
         "description": "Activate to place a Totem that heals allies in an area for 2% of their maximum Health every second for 10 seconds.",
         "icon": "storm_ui_icon_talent_healingward.png",
@@ -130,6 +138,7 @@
     "7": [
       {
         "tooltipId": "RehgarBloodAndThunder",
+        "talentTreeId": "RehgarGhostWolfBloodAndThunder",
         "name": "Blood and Thunder",
         "description": "Ghost Wolf attacks reduce Basic Ability cooldowns by 2 seconds.",
         "icon": "storm_ui_icon_rehgar_ghostwolf.png",
@@ -138,6 +147,7 @@
       },
       {
         "tooltipId": "RehgarFarsight",
+        "talentTreeId": "RehgarMasteryFarsight",
         "name": "Farsight",
         "description": "Activate to reveal an area for 10 seconds.  Enemies in the area are revealed for 4 seconds.",
         "icon": "storm_ui_icon_rehgar_farsight.png",
@@ -147,6 +157,7 @@
       },
       {
         "tooltipId": "GenericCleanse",
+        "talentTreeId": "GenericTalentCleanse",
         "name": "Cleanse",
         "description": "Activate to make target ally Unstoppable for 1 second. Cannot be cast on yourself.",
         "icon": "storm_ui_icon_talent_cleanse.png",
@@ -156,6 +167,7 @@
       },
       {
         "tooltipId": "RehgarTotemicProjectionTalent",
+        "talentTreeId": "RehgarTotemicProjection",
         "name": "Totemic Projection",
         "description": "Increases Earthbind Totem's duration from 8 to 12 seconds, and it can be reactivated to move an existing totem to a new location once.",
         "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
@@ -166,6 +178,7 @@
     "10": [
       {
         "tooltipId": "RehgarAncestralHealing",
+        "talentTreeId": "RehgarHeroicAbilityAncestralHealing",
         "name": "Ancestral Healing",
         "description": "After 1 second, heal an allied Hero for 1552 (+4% per level) Health.  Cannot be used on yourself.",
         "icon": "storm_ui_icon_rehgar_ancestralhealing.png",
@@ -175,6 +188,7 @@
       },
       {
         "tooltipId": "RehgarBloodlust",
+        "talentTreeId": "RehgarHeroicAbilityBloodlust",
         "name": "Bloodlust",
         "description": "Grant nearby allied Heroes 40% Attack Speed and 25% Movement Speed and causes them to heal for 30% of the Basic Attack damage to their primary target. Lasts for 8 seconds.",
         "icon": "storm_ui_icon_rehgar_bloodlust.png",
@@ -186,6 +200,7 @@
     "13": [
       {
         "tooltipId": "RehgarLightningShieldEarthShieldTalent",
+        "talentTreeId": "RehgarMasteryEarthShield",
         "name": "Earth Shield",
         "description": "Lightning Shield gives a Shield that absorbs damage equal to 12% of their maximum Health for 3 seconds.",
         "icon": "storm_ui_icon_rehgar_lightningshield.png",
@@ -194,6 +209,7 @@
       },
       {
         "tooltipId": "RehgarChainHealTidalWavesTalent",
+        "talentTreeId": "RehgarMasteryTidalWaves",
         "name": "Tidal Waves",
         "description": "Reduces Chain Heal's cooldown by 1 second for each Hero healed.",
         "icon": "storm_ui_icon_rehgar_chainheal.png",
@@ -202,6 +218,7 @@
       },
       {
         "tooltipId": "RehgarEarthlivingEnchant",
+        "talentTreeId": "RehgarEarthlivingEnchant",
         "name": "Earthliving Enchant",
         "description": "When Chain Heal heals a Hero below 50% Health, they are healed an additional 200 (+4% per level) Health over 5 seconds.",
         "icon": "storm_ui_icon_rehgar_chainheal_a.png",
@@ -212,6 +229,7 @@
     "16": [
       {
         "tooltipId": "RehgarEarthbindTotemEarthgraspTotemTalent",
+        "talentTreeId": "RehgarMasteryEarthGraspTotem",
         "name": "Earthgrasp Totem",
         "description": "When Earthbind Totem is first cast, it slows nearby enemies by 90% for 1 second.",
         "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
@@ -220,6 +238,7 @@
       },
       {
         "tooltipId": "RehgarHungeroftheWolf",
+        "talentTreeId": "RehgarHungeroftheWolf",
         "name": "Hunger of the Wolf",
         "description": "Ghost Wolf attacks against Heroes deal an additional 5% of the target's maximum Health and heal you for 5% of your maximum Health.",
         "icon": "storm_ui_icon_rehgar_ghostwolf.png",
@@ -228,6 +247,7 @@
       },
       {
         "tooltipId": "RehgarRisingStorm",
+        "talentTreeId": "RehgarRisingStorm",
         "name": "Rising Storm",
         "description": "Every time Lighting Shield damages an enemy Hero, increase that Lightning Shield's damage by 10%. Stacks up to 20 times.",
         "icon": "storm_ui_icon_rehgar_lightningshield.png",
@@ -238,6 +258,7 @@
     "20": [
       {
         "tooltipId": "RehgarAncestralHealingFarseersBlessingTalent",
+        "talentTreeId": "RehgarMasteryFarseersBlessing",
         "name": "Farseer's Blessing",
         "description": "Increases healing amount by 50%. Allies near the target are healed for 50% of the amount of health regained.",
         "icon": "storm_ui_icon_rehgar_ancestralhealing.png",
@@ -246,6 +267,7 @@
       },
       {
         "tooltipId": "RehgarBloodlustGladiatorsWarShoutTalent",
+        "talentTreeId": "RehgarMasteryGladiatorsWarShout",
         "name": "Gladiator's War Shout",
         "description": "Increases Bloodlust's healing from 30% to 60% of Basic Attack damage done.",
         "icon": "storm_ui_icon_rehgar_bloodlust.png",
@@ -254,6 +276,7 @@
       },
       {
         "tooltipId": "GenericRewindHotbar",
+        "talentTreeId": "GenericTalentRewind",
         "name": "Rewind",
         "description": "Activate to reset the cooldowns of your Basic Abilities.",
         "icon": "storm_ui_icon_talent_rewind.png",
@@ -263,6 +286,7 @@
       },
       {
         "tooltipId": "GenericStormShield",
+        "talentTreeId": "GenericTalentStormShield",
         "name": "Storm Shield",
         "description": "Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.",
         "icon": "storm_ui_icon_talent_stormshield.png",
