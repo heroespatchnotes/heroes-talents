@@ -136,8 +136,8 @@ Example:
   <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/brightwing.png" />
   <span>Brightwing</span>
 </a>
-<a class="img-wrap" href="hero/butcher.json">
-  <img class="img-rounded" src="https://heroespatchnotes.com/images/hero/butcher.png" />
+<a class="img-wrap" href="hero/thebutcher.json">
+  <img class="img-rounded" src="images/heroes/butcher.png" />
   <span>The Butcher</span>
 </a>
 <a class="img-wrap" href="hero/cassia.json">
