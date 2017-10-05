@@ -34,7 +34,7 @@
       },
       {
         "name": "Locust Swarm",
-        "description": "Deal 62 (+4% per level) damage per second in an area around yourself. Each enemy damaged heals you for 21 (+4% per level) Health. Lasts 6 seconds.",
+        "description": "Deal 62 (+4% per level) damage per second to nearby enemies. Each enemy damaged restores 21 (+4% per level) Health. Lasts 6 seconds.",
         "hotkey": "R",
         "abilityId": "Anub'arak|R1",
         "cooldown": 100,
@@ -72,7 +72,7 @@
         "tooltipId": "AnubarakNerubianArmor",
         "talentTreeId": "AnubarakNerubianArmor",
         "name": "Nerubian Armor",
-        "description": "Every 12 seconds, gain 30 Spell Armor against the next Ability and subsequent Abilities cast against you for 1.5 seconds, reducing the damage taken by 30%.",
+        "description": "Every 12 seconds, gain 30 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 30%.",
         "icon": "storm_ui_icon_talent_dampenmagic.png",
         "sort": 2,
         "abilityId": "Anub'arak|Passive"
@@ -101,7 +101,7 @@
         "tooltipId": "AnubarakRegeneratingCarapaceShedExoskeletonTalent",
         "talentTreeId": "AnubarakMasteryShedExoskeletonHardenCarapace",
         "name": "Shed Exoskeleton",
-        "description": "Using Hardened Carapace increases Move Speed by 30% for 3 seconds.",
+        "description": "Harden Carapace grants 30% increased Movement Speed for 3 seconds.",
         "icon": "storm_ui_icon_anubarak_hardencarapace_var1.png",
         "sort": 2,
         "abilityId": "Anub'arak|W1"
@@ -159,7 +159,7 @@
         "tooltipId": "AnubarakCarrionSwarm",
         "talentTreeId": "AnubarakHeroicAbilityCarrionSwarm",
         "name": "Locust Swarm",
-        "description": "Deal 62 (+4% per level) damage per second in an area around yourself. Each enemy damaged heals you for 21 (+4% per level) Health. Lasts 6 seconds.",
+        "description": "Deal 62 (+4% per level) damage per second to nearby enemies. Each enemy damaged restores 21 (+4% per level) Health. Lasts 6 seconds.",
         "icon": "storm_ui_icon_anubarak_locustswarm.png",
         "sort": 1,
         "abilityId": "Anub'arak|R1",
@@ -239,7 +239,7 @@
         "tooltipId": "AnubarakCarrionSwarmHiveMasterTalent",
         "talentTreeId": "AnubarakMasteryHiveMasterCarrionSwarm",
         "name": "Hive Master",
-        "description": "Gain a permanent Vampire Locust that attacks a nearby enemy every 3 seconds. The Vampire Locust deals 153 (+4% per level) damage and returns to heal you for 37 (+4% per level) health.",
+        "description": "Gain a permanent Vampire Locust that attacks a nearby enemy every 3 seconds. The Vampire Locust deals 153 (+4% per level) damage and returns to heal Anub'arak for 37 (+4% per level) health.",
         "icon": "storm_ui_icon_anubarak_locustswarm.png",
         "sort": 1,
         "abilityId": "Anub'arak|R1"

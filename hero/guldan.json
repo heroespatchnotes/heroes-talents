@@ -33,7 +33,7 @@
       },
       {
         "name": "Horrify",
-        "description": "After 0.5 seconds, deal 120 (+4% per level) damage and fear enemy Heroes in the area for 2 seconds.",
+        "description": "After 0.5 seconds, deal 120 (+4% per level) damage to enemy Heroes in an area and Fear them for 2 seconds. While Feared, Heroes are Silenced and are forced to run away from Horrify's center.",
         "hotkey": "R",
         "abilityId": "Gul'dan|R1",
         "cooldown": 80,
@@ -41,7 +41,7 @@
       },
       {
         "name": "Rain of Destruction",
-        "description": "Summon a rain of meteors in an area for 7 seconds. Each meteor deals 165 (+4% per level) damage in a small area.",
+        "description": "Channel to summon a rain of meteors in an area over 7 seconds. Each meteor deals 165 (+4% per level) damage in a small area.",
         "hotkey": "R",
         "abilityId": "Gul'dan|R2",
         "cooldown": 100,
@@ -89,7 +89,7 @@
         "tooltipId": "GuldanChaoticEnergy",
         "talentTreeId": "GuldanChaoticEnergy",
         "name": "Chaotic Energy",
-        "description": "Quest: Gathering a Regen Globe causes your next Basic Ability with a Mana cost to refund 40 Mana. Reward: After Gathering 20 Regen Globes your Basic Ability Mana costs are permanently reduced by 20.",
+        "description": "Quest: Gathering a Regen Globe causes Gul'dan's next Basic Ability with a Mana cost to refund 40 Mana Reward: After Gathering 20 Regen Globes Gul'dan's Basic Ability Mana costs are permanently reduced by 20.",
         "icon": "storm_ui_icon_chaoticenergy.png",
         "sort": 4,
         "abilityId": "Gul'dan|Passive"
@@ -157,7 +157,7 @@
         "tooltipId": "GuldanLifeTapHungerforPower",
         "talentTreeId": "GuldanLifeTapHungerforPower",
         "name": "Hunger for Power",
-        "description": "Increases Ability Power by 15% but reduces healing received from allies by 25%.",
+        "description": "Increases Spell Power by 15% but reduces healing received from allies by 25%.",
         "icon": "storm_ui_icon_guldan_hungerforpower.png",
         "sort": 4,
         "abilityId": "Gul'dan|Passive"
@@ -168,7 +168,7 @@
         "tooltipId": "GuldanHorrify",
         "talentTreeId": "GuldanHorrify",
         "name": "Horrify",
-        "description": "After 0.5 seconds, deal 120 (+4% per level) damage and fear enemy Heroes in the area for 2 seconds.",
+        "description": "After 0.5 seconds, deal 120 (+4% per level) damage to enemy Heroes in an area and Fear them for 2 seconds. While Feared, Heroes are Silenced and are forced to run away from Horrify's center.",
         "icon": "storm_ui_icon_guldan_horrify.png",
         "sort": 1,
         "abilityId": "Gul'dan|R1",
@@ -178,7 +178,7 @@
         "tooltipId": "GuldanRainOfDestruction",
         "talentTreeId": "GuldanRainOfDestruction",
         "name": "Rain of Destruction",
-        "description": "Summon a rain of meteors in an area for 7 seconds. Each meteor deals 165 (+4% per level) damage in a small area.",
+        "description": "Channel to summon a rain of meteors in an area over 7 seconds. Each meteor deals 165 (+4% per level) damage in a small area.",
         "icon": "storm_ui_icon_guldan_rainoffire.png",
         "sort": 2,
         "abilityId": "Gul'dan|R2",
@@ -247,7 +247,7 @@
         "tooltipId": "GuldanLifeTapDarknessWithin",
         "talentTreeId": "GuldanLifeTapDarknessWithin",
         "name": "Darkness Within",
-        "description": "After using Life Tap, the next Ability Gul'dan casts has 25% increased Ability Power.",
+        "description": "After using Life Tap, the next Ability Gul'dan casts has 25% increased Spell Power.",
         "icon": "storm_ui_icon_guldan_lifetap.png",
         "sort": 3,
         "abilityId": "Gul'dan|D1"

@@ -34,7 +34,7 @@
       },
       {
         "name": "Entomb",
-        "description": "Create an unpathable tomb in front of you for 4 seconds.",
+        "description": "Create an unpassable tomb for 4 seconds.",
         "hotkey": "R",
         "abilityId": "Leoric|R1",
         "cooldown": 60,
@@ -42,7 +42,7 @@
       },
       {
         "name": "March of the Black King",
-        "description": "Become Unstoppable and swing your mace three times, healing yourself for 12% of your maximum Health for each enemy Hero hit and dealing 250 (+4% per level) damage.",
+        "description": "Leoric becomes Unstoppable and walks forward, swinging his mace 3 times. Enemies hit take 250 (+4% per level) damage, and Heroes hit heal Leoric for 12% of his maximum Health.",
         "hotkey": "R",
         "abilityId": "Leoric|R2",
         "cooldown": 50,
@@ -93,7 +93,7 @@
         "tooltipId": "LeoricFealtyUntoDeathTalent",
         "talentTreeId": "LeoricMasteryFealtyUntoDeathUndying",
         "name": "Fealty Unto Death",
-        "description": "When a nearby Minion dies, you restore 1% of your maximum Health and 5 Mana. Half as effective while Undying.",
+        "description": "When a nearby friendly or enemy Minion dies, Leoric restores 1% of his maximum Health and 5 Mana.",
         "icon": "storm_ui_icon_leoric_trait.png",
         "sort": 2,
         "abilityId": "Leoric|Passive"
@@ -114,7 +114,7 @@
         "tooltipId": "LeoricGhastlyReachTalent",
         "talentTreeId": "LeoricMasteryGhastlyReachSkeletalSwing",
         "name": "Ghastly Reach",
-        "description": "Increases the range of Skeletal Swing by 25%.",
+        "description": "Increase the range of Skeletal Swing by 25%.",
         "icon": "storm_ui_icon_leoric_skeletalswing.png",
         "sort": 1,
         "abilityId": "Leoric|Q1"
@@ -123,7 +123,7 @@
         "tooltipId": "LeoricParalyzingRageTalent",
         "talentTreeId": "LeoricMasteryParalyzingRageSkeletalSwing",
         "name": "Paralyzing Rage",
-        "description": "Increases the Movement Speed slow of Skeletal Swing to 60%.",
+        "description": "Increase the Slow of Skeletal Swing by 60%.",
         "icon": "storm_ui_icon_leoric_skeletalswing_var1.png",
         "sort": 2,
         "abilityId": "Leoric|Q1"
@@ -161,7 +161,7 @@
         "tooltipId": "LeoricHopelessnessTalent",
         "talentTreeId": "LeoricMasteryHopelessnessDrainHope",
         "name": "Hopelessness",
-        "description": "Increases the range of Drain Hope by 25%.",
+        "description": "Increase the range of Drain Hope by 25%.",
         "icon": "storm_ui_icon_leoric_drainhope_var2.png",
         "sort": 3,
         "abilityId": "Leoric|W1"
@@ -172,7 +172,7 @@
         "tooltipId": "LeoricEntomb",
         "talentTreeId": "LeoricHeroicAbilityEntomb",
         "name": "Entomb",
-        "description": "Create an unpathable tomb in front of you for 4 seconds.",
+        "description": "Create an unpassable tomb for 4 seconds.",
         "icon": "storm_ui_icon_leoric_entomb.png",
         "sort": 1,
         "abilityId": "Leoric|R1",
@@ -182,7 +182,7 @@
         "tooltipId": "LeoricMarchoftheBlackKing",
         "talentTreeId": "LeoricHeroicAbilityMarchoftheBlackKing",
         "name": "March of the Black King",
-        "description": "Become Unstoppable and swing your mace three times, healing yourself for 12% of your maximum Health for each enemy Hero hit and dealing 250 (+4% per level) damage.",
+        "description": "Leoric becomes Unstoppable and walks forward, swinging his mace 3 times. Enemies hit take 250 (+4% per level) damage, and Heroes hit heal Leoric for 12% of his maximum Health.",
         "icon": "storm_ui_icon_leoric_r2.png",
         "sort": 2,
         "abilityId": "Leoric|R2",

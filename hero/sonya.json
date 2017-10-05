@@ -40,7 +40,7 @@
       },
       {
         "name": "Wrath of the Berserker",
-        "description": "Increase damage dealt by 40%. Reduce the duration of stuns, slows, and roots against you by 50%. Lasts 15 seconds, and extends by 1 second for every 10 Fury gained.",
+        "description": "Increase damage dealt by 40%. Reduce the duration of stuns, slows, and roots against Sonya by 50%. Lasts 15 seconds, and extends by 1 second for every 10 Fury gained.",
         "hotkey": "R",
         "abilityId": "Sonya|R2",
         "cooldown": 60
@@ -59,7 +59,7 @@
         "tooltipId": "BarbarianFuryWarPaintTalent",
         "talentTreeId": "BarbarianMasteryWarPaint",
         "name": "War Paint",
-        "description": "Basic Attacks heal you for 30% of the damage dealt.",
+        "description": "Basic Attacks heal Sonya for 30% of the damage dealt.",
         "icon": "storm_ui_icon_talent_autoattack_heal.png",
         "sort": 1,
         "abilityId": "Sonya|Passive"
@@ -77,7 +77,7 @@
         "tooltipId": "BarbarianFuryShotOfFuryTalent",
         "talentTreeId": "BarbarianCombatStyleShotofFury",
         "name": "Shot of Fury",
-        "description": "Increases your maximum Fury by 50. You can also activate your Trait to gain 50 Fury. Usable while Whirlwinding.",
+        "description": "Increases maximum Fury by 50. Sonya's Trait can be activated to gain 50 Fury.  Usable while Whirlwinding.",
         "icon": "storm_ui_icon_sonya_fury.png",
         "sort": 3,
         "abilityId": "Sonya|D1",
@@ -154,7 +154,7 @@
         "tooltipId": "BarbarianFuryFerociousHealing",
         "talentTreeId": "BarbarianCombatStyleFerociousHealing",
         "name": "Ferocious Healing",
-        "description": "Consume 20 Fury to heal 10% of your maximum Health.  Usable while Whirlwinding.",
+        "description": "Consume 20 Fury to heal 10% of Sonya's maximum Health.  Usable while Whirlwinding.",
         "icon": "storm_ui_icon_sonya_ferocioushealing.png",
         "sort": 4,
         "abilityId": "Sonya|Active",
@@ -176,7 +176,7 @@
         "tooltipId": "BarbarianWrathoftheBerserker",
         "talentTreeId": "BarbarianHeroicAbilityWrathoftheBerserker",
         "name": "Wrath of the Berserker",
-        "description": "Increase damage dealt by 40%. Reduce the duration of stuns, slows, and roots against you by 50%. Lasts 15 seconds, and extends by 1 second for every 10 Fury gained.",
+        "description": "Increase damage dealt by 40%. Reduce the duration of stuns, slows, and roots against Sonya by 50%. Lasts 15 seconds, and extends by 1 second for every 10 Fury gained.",
         "icon": "storm_ui_icon_sonya_wrathoftheberserker.png",
         "sort": 2,
         "abilityId": "Sonya|R2",
@@ -206,7 +206,7 @@
         "tooltipId": "BarbarianAncientSpearMysticalSpearTalent",
         "talentTreeId": "BarbarianMasteryMysticalSpearAncientSpear",
         "name": "Mystical Spear",
-        "description": "Reduces the cooldown of Ancient Spear by 3 seconds. You are pulled to the target location even if you don't hit an enemy.",
+        "description": "Reduces the cooldown of Ancient Spear by 3 seconds. Sonya is pulled to the target location even if an enemy isn't hit.",
         "icon": "storm_ui_icon_sonya_ancientspear.png",
         "sort": 3,
         "abilityId": "Sonya|Q1"
@@ -284,7 +284,7 @@
         "tooltipId": "NexusBladesTalent",
         "talentTreeId": "GenericTalentNexusBlades",
         "name": "Nexus Blades",
-        "description": "Basic Attacks deal 20% more damage and slow enemy Movement Speed by 20% for 1 second.",
+        "description": "Basic Attacks deal 20% more damage and Slow enemy Movement Speed by 20% for 1 second.",
         "icon": "storm_ui_icon_talent_autoattack_slow.png",
         "sort": 3,
         "abilityId": "Sonya|Passive"

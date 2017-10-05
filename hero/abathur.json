@@ -24,14 +24,14 @@
       },
       {
         "name": "Evolve Monstrosity",
-        "description": "Turn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it gains 5% Health and 5% Basic Attack damage, stacking up to 40 times.  The Monstrosity takes 50% less damage from non-Heroic enemies.  Using Symbiote on the Monstrosity allows you to control it, in addition to Symbiote's normal benefits.  This Ability can be reactivated to automatically cast Symbiote on your Monstrosity.",
+        "description": "Turn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it gains 5% Health and 5% Basic Attack damage, stacking up to 40 times.  The Monstrosity takes 50% less damage from non-Heroic enemies.  Using Symbiote on the Monstrosity allows Abathur to control it, in addition to Symbiote's normal benefits.  This Ability can be reactivated to automatically cast Symbiote on his Monstrosity.",
         "hotkey": "R",
         "abilityId": "Abathur|R1",
         "cooldown": 90
       },
       {
         "name": "Ultimate Evolution",
-        "description": "Clone target allied Hero and control it for 20 seconds. Abathur has perfected the clone, granting it 20% Ability Power, 20% bonus Attack Damage, and 10% bonus Movement Speed. Cannot use their Heroic Ability.",
+        "description": "Clone target allied Hero and control it for 20 seconds. Abathur has perfected the clone, granting it 20% Spell Power, 20% bonus Attack Damage, and 10% bonus Movement Speed. Cannot use their Heroic Ability.",
         "hotkey": "R",
         "abilityId": "Abathur|R2",
         "cooldown": 50
@@ -153,7 +153,7 @@
         "tooltipId": "AbathurSymbioteAdrenalOverloadTalent",
         "talentTreeId": "AbathurSymbioteAdrenalOverload",
         "name": "Adrenal Overload",
-        "description": "Symbiote host gains 25% increased Attack Speed.",
+        "description": "Heroic Symbiote hosts gain 25% increased Attack Speed.",
         "icon": "storm_ui_icon_abathur_symbiote.png",
         "sort": 4,
         "abilityId": "Abathur|Q1"
@@ -203,7 +203,7 @@
         "tooltipId": "AbathurUltimateEvolution",
         "talentTreeId": "AbathurHeroicAbilityUltimateEvolution",
         "name": "Ultimate Evolution",
-        "description": "Clone target allied Hero and control it for 20 seconds. Abathur has perfected the clone, granting it 20% Ability Power, 20% bonus Attack Damage, and 10% bonus Movement Speed. Cannot use their Heroic Ability.",
+        "description": "Clone target allied Hero and control it for 20 seconds. Abathur has perfected the clone, granting it 20% Spell Power, 20% bonus Attack Damage, and 10% bonus Movement Speed. Cannot use their Heroic Ability.",
         "icon": "storm_ui_icon_abathur_ultimateevolution.png",
         "sort": 1,
         "abilityId": "Abathur|R2",
@@ -213,7 +213,7 @@
         "tooltipId": "AbathurEvolveMonstrosityHotbar",
         "talentTreeId": "AbathurHeroicAbilityEvolveMonstrosity",
         "name": "Evolve Monstrosity",
-        "description": "Turn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it gains 5% Health and 5% Basic Attack damage, stacking up to 40 times.  The Monstrosity takes 50% less damage from non-Heroic enemies.  Using Symbiote on the Monstrosity allows you to control it, in addition to Symbiote's normal benefits.  This Ability can be reactivated to automatically cast Symbiote on your Monstrosity.",
+        "description": "Turn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it gains 5% Health and 5% Basic Attack damage, stacking up to 40 times.  The Monstrosity takes 50% less damage from non-Heroic enemies.  Using Symbiote on the Monstrosity allows Abathur to control it, in addition to Symbiote's normal benefits.  This Ability can be reactivated to automatically cast Symbiote on his Monstrosity.",
         "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
         "sort": 2,
         "abilityId": "Abathur|R1",
