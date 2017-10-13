@@ -10,7 +10,7 @@
     "Stukov": [
       {
         "name": "Healing Pathogen",
-        "description": "Infest an allied Hero with a Healing Pathogen that heals the target for 240 (+4% per level) Health over 4.5 seconds. Healing Pathogens can spread to a nearby allied Hero every 0.75 seconds, and a single Healing Pathogen can spread to each allied Hero 1 time.",
+        "description": "Infest an allied Hero with a Healing Pathogen that heals the target for 222 (+4% per level) Health over 4.5 seconds. Healing Pathogens can spread to a nearby allied Hero every 0.75 seconds, and a single Healing Pathogen can spread to each allied Hero 1 time.",
         "hotkey": "Q",
         "abilityId": "Stukov|Q1",
         "cooldown": 10,
@@ -64,7 +64,7 @@
         "tooltipId": "StukovSpineLauncherTalent",
         "talentTreeId": "StukovSpineLauncher",
         "name": "Spine Launcher",
-        "description": "Basic Attacks become ranged and Slow enemies by 20% for 1.5 seconds, but deal 30% less damage.",
+        "description": "Basic Attacks become ranged and Slow enemies by 20% for 1.5 seconds, but deal 40% less damage.",
         "icon": "storm_ui_icon_stukov_spinelauncher.png",
         "sort": 1,
         "abilityId": "Stukov|Passive"
@@ -91,7 +91,7 @@
         "tooltipId": "StukovPoppinPustulesTalent",
         "talentTreeId": "StukovPoppinPustules",
         "name": "Poppin' Pustules",
-        "description": "Quest: Detonate 10 Weighted Pustules without dying. Reward: Detonating a Weighted Pustule now applies its damage and Slow in an area.",
+        "description": "Increase the final damage of Weighted Pustule by 50%. Quest: Detonate 10 Weighted Pustules without dying. Reward: Detonating a Weighted Pustule now applies its damage and Slow in an area.",
         "icon": "storm_ui_icon_stukov_bio-killswitch.png",
         "sort": 4,
         "abilityId": "Stukov|D1"
@@ -238,7 +238,7 @@
         "tooltipId": "StukovSuperstrainTalent",
         "talentTreeId": "StukovSuperstrain",
         "name": "Superstrain",
-        "description": "Whenever an ally with Healing Pathogen is Stunned, they are instantly healed for 250 (+4% per level) Health.",
+        "description": "Whenever an ally with Healing Pathogen is Stunned or Rooted, they are instantly healed for 250 (+4% per level) Health.",
         "icon": "storm_ui_icon_stukov_healingpathogen.png",
         "sort": 1,
         "abilityId": "Stukov|Q1"
@@ -247,7 +247,7 @@
         "tooltipId": "StukovUniversalCarrierTalent",
         "talentTreeId": "StukovUniversalCarrier",
         "name": "Universal Carrier",
-        "description": "Healing Pathogen can continually spread through Stukov, but its healing is reduced by 60%.",
+        "description": "Healing Pathogen can continually spread through Stukov, but its healing is reduced by 50%.",
         "icon": "storm_ui_icon_stukov_healingpathogen_a.png",
         "sort": 2,
         "abilityId": "Stukov|Q1"
@@ -259,15 +259,6 @@
         "description": "Bio-Kill Switch no longer removes Healing Pathogen but instead sets its duration to 3 seconds.",
         "icon": "storm_ui_icon_stukov_bio-killswitch.png",
         "sort": 3,
-        "abilityId": "Stukov|D1"
-      },
-      {
-        "tooltipId": "StukovEyeInfectionTalent",
-        "talentTreeId": "StukovEyeInfection",
-        "name": "Eye Infection",
-        "description": "Increase the final damage of Weighted Pustule by 50%. Additionally, detonating a Weighted Pustule with Bio-Kill Switch Blinds the target for 3 seconds.",
-        "icon": "storm_ui_icon_stukov_bio-killswitch_a.png",
-        "sort": 4,
         "abilityId": "Stukov|D1"
       }
     ],

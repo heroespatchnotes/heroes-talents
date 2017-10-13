@@ -37,8 +37,8 @@
         "description": "Launch a meteor of ice at an enemy Hero. Upon impact, the meteor deals 100 (+2.5% per level) damage to its target and 275 (+2.5% per level) damage to enemies in the area. All enemies hit by Frost Blast are Rooted for 1.5 seconds.",
         "hotkey": "R",
         "abilityId": "Kel'Thuzad|R1",
-        "cooldown": 80,
-        "manaCost": "70"
+        "cooldown": 70,
+        "manaCost": "60"
       },
       {
         "name": "Shadow Fissure",
@@ -91,7 +91,7 @@
         "tooltipId": "KelThuzadStripShields",
         "talentTreeId": "KelThuzadStripShields",
         "name": "Strip Shields",
-        "description": "Pulling a Hero with Chains of Kel'Thuzad grants Kel'Thuzad a permanent 112 (+4% per level) Shield, stacking up to 2 times.  Additionally, Chains of Kel'Thuzad deals up to 270 (+2.5% per level) bonus damage to Shields.",
+        "description": "Pulling a Hero with Chains of Kel'Thuzad grants Kel'Thuzad a permanent 120 (+4% per level) Shield, stacking up to 2 times.  Additionally, Chains of Kel'Thuzad deals up to 270 (+2.5% per level) bonus damage to Shields.",
         "icon": "storm_ui_icon_kel'thuzad_chains.png",
         "sort": 1,
         "abilityId": "Kel'Thuzad|E1"
@@ -155,7 +155,7 @@
         "icon": "storm_ui_icon_kel'thuzad_frozentomb.png",
         "sort": 1,
         "abilityId": "Kel'Thuzad|R1",
-        "cooldown": 80
+        "cooldown": 70
       },
       {
         "tooltipId": "KelThuzadShadowFissure",
@@ -173,7 +173,7 @@
         "tooltipId": "KelThuzadIcyGrasp",
         "talentTreeId": "KelThuzadIcyGrasp",
         "name": "Icy Grasp",
-        "description": "Increase Frost Nova's Slow duration by 1.5 seconds.",
+        "description": "Increase Frost Nova's Slow duration by 2 seconds.",
         "icon": "storm_ui_icon_kel'thuzad_frostnova.png",
         "sort": 1,
         "abilityId": "Kel'Thuzad|W1"
@@ -191,7 +191,7 @@
         "tooltipId": "KelThuzadChainLink",
         "talentTreeId": "KelThuzadChainLink",
         "name": "Chain-Link",
-        "description": "Pulling two Heroes together with Chains of Kel'Thuzad reduces its cooldown by 4 seconds.",
+        "description": "Pulling two Heroes together with Chains of Kel'Thuzad reduces its cooldown by 4 seconds and refunds its Mana cost.",
         "icon": "storm_ui_icon_kel'thuzad_chains_a.png",
         "sort": 3,
         "abilityId": "Kel'Thuzad|E1"

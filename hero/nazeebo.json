@@ -10,7 +10,7 @@
     "Nazeebo": [
       {
         "name": "Corpse Spiders",
-        "description": "Hurl a jar of spiders that deals 50 (+4% per level) damage. If it hits at least one enemy, create 3 Corpse Spiders that attack for 35 (+4% per level) damage. Spiders last for 4 seconds.",
+        "description": "Hurl a jar of spiders that deals 50 (+4% per level) damage. If it hits at least one enemy, create 3 Corpse Spiders that attack for 36 (+4% per level) damage. Spiders last for 4 seconds.",
         "hotkey": "Q",
         "abilityId": "Nazeebo|Q1",
         "cooldown": 9,
@@ -26,7 +26,7 @@
       },
       {
         "name": "Plague of Toads",
-        "description": "Create a wave of 3 Toads that explode on contact, dealing 140 (+4% per level) damage over 6 seconds. This effect stacks.",
+        "description": "Create a wave of 3 Toads that explode on contact, dealing 126 (+4% per level) damage over 6 seconds. This effect stacks.",
         "hotkey": "E",
         "abilityId": "Nazeebo|E1",
         "cooldown": 8,
@@ -50,7 +50,7 @@
       },
       {
         "name": "Voodoo Ritual",
-        "description": "Your Basic Attacks and Abilities poison Non-Heroic enemies, causing them to take 66 (+4% per level) additional damage over 6 seconds.  If a Minion dies while poisoned by Voodoo Ritual, you permanently gain 4 Health and 1 Mana.",
+        "description": "Your Basic Attacks and Abilities poison Non-Heroic enemies, causing them to take 66 (+4% per level) additional damage over 6 seconds.  If a Minion dies while poisoned by Voodoo Ritual, you permanently gain 6 Health and 1 Mana.",
         "trait": true,
         "abilityId": "Nazeebo|D1"
       }
@@ -180,7 +180,7 @@
         "tooltipId": "WitchDoctorSuperstition",
         "talentTreeId": "WitchDoctorSuperstition",
         "name": "Superstition",
-        "description": "Gain 40 Spell Armor, taking 40% less damage from Abilities, but lose 30 Physical Armor, taking 30% more damage from Basic Attacks.",
+        "description": "Gain 40 Spell Armor. Heroic Basic Attacks against Nazeebo remove this bonus for 3 seconds.",
         "icon": "storm_ui_icon_nazeebo_suprerstition.png",
         "sort": 2,
         "abilityId": "Nazeebo|Passive"
@@ -201,7 +201,7 @@
         "tooltipId": "WitchDoctorSpiderColony",
         "talentTreeId": "WitchDoctorSpiderColony",
         "name": "Spider Colony",
-        "description": "Corpse Spiders' cooldown recharges 100% faster while above 850 Health.",
+        "description": "Corpse Spider Attacks against Heroes reduce the cooldowns of Zombie Wall and Plague of Toads by 0.25 seconds.",
         "icon": "storm_ui_icon_nazeebo_corpsespider.png",
         "sort": 1,
         "abilityId": "Nazeebo|Q1"
