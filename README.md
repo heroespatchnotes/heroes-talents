@@ -12,6 +12,7 @@ Example:
 {
   "id": "68",
   "shortName": "malthael",
+  "attributeId": "MALT",
   "name": "Malthael",
   "icon": "malthael.png",
   "role": "Assassin",
@@ -102,6 +103,8 @@ Example:
 ### Projects using heroes-talents
 
 * [HeroesPatchNotes.com](https://heroespatchnotes.com)
+* [HeroesInfoBot](https://www.reddit.com/r/heroesofthestorm/comments/6zwyfw/heroesinfobot_abilities_talent_tiers_cooldowns/) on reddit's [/r/heroesofthestorm](https://www.reddit.com/r/heroesofthestorm/)
+* [HotsApi](http://hotsapi.net/docs)
 
 ## Heroes
 
