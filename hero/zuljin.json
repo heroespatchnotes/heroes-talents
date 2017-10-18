@@ -11,7 +11,7 @@
     "Zul'jin": [
       {
         "name": "Grievous Throw",
-        "description": "Zul'jin throws an axe forward, dealing 125 (+4% per level) damage to the first 2 enemies hit and marking them for 8 seconds. Marked enemies take 50% bonus damage from Zul'jin's next 3 Basic Attacks against them.",
+        "description": "Zul'jin throws an axe forward, dealing 125 (+4% per level) damage to the first 2 enemies hit and marking them for 6 seconds. Marked enemies take 50% bonus damage from Zul'jin's next 3 Basic Attacks against them.",
         "hotkey": "Q",
         "abilityId": "Zul'jin|Q1",
         "cooldown": 8,
@@ -19,15 +19,15 @@
       },
       {
         "name": "Twin Cleave",
-        "description": "Throw 2 axes in a large, circular arc, dealing 112 (+4% per level) damage and slowing affected enemies by 15% per axe for 2 seconds.",
+        "description": "Throw 2 axes in a large, circular arc, dealing 112 (+4% per level) damage and Slowing affected enemies by 15% per axe for 2 seconds.",
         "hotkey": "W",
         "abilityId": "Zul'jin|W1",
-        "cooldown": 8,
-        "manaCost": "50"
+        "cooldown": 10,
+        "manaCost": "60"
       },
       {
         "name": "Regeneration",
-        "description": "Zul'jin channels to regenerate 25% of his maximum Health over 4 seconds. Moving while channeling or taking damage will interrupt this effect.",
+        "description": "Zul'jin channels to regenerate 30% of his maximum Health over 4 seconds. Moving while channeling or taking damage will interrupt this effect.",
         "hotkey": "E",
         "abilityId": "Zul'jin|E1",
         "cooldown": 15,
@@ -51,8 +51,7 @@
       },
       {
         "name": "Berserker",
-        "description": "Activate to increase Basic Attack damage by 25% but consume 2% maximum Health per attack.  Passive: Zul'jin attacks 1% faster for every 1% of maximum Health missing.",
-        "hotkey": "D",
+        "description": "Activate to increase Basic Attack damage by 25% but consume 2% maximum Health per attack. Passive: Zul'jin attacks 1% faster for every 1% of maximum Health missing. You Want Axe? Quest: Every 5 Basic Attacks against Heroes permanently increases Basic Attack damage by 1. Reward: After attacking Heroes 75 times, Basic Attack range is increased by 1.1. Reward: After attacking Heroes 150 times, Twin Cleave now revolves twice.",
         "trait": true,
         "abilityId": "Zul'jin|D1"
       }
@@ -64,26 +63,26 @@
         "tooltipId": "ZuljinBoneslicer",
         "talentTreeId": "ZuljinBoneslicer",
         "name": "Boneslicer",
-        "description": "Grievous Throw now pierces through all enemies, and the bonus damage is increased by 30%.",
+        "description": "Grievous Throw now pierces through all enemies hit and restores 10 Mana per Hero hit. Additionally, Grievous Throw's mark is no longer removed by Basic Attacks.",
         "icon": "storm_ui_icon_zuljin_grievousthrow.png",
         "sort": 1,
         "abilityId": "Zul'jin|Q1"
       },
       {
-        "tooltipId": "ZuljinArcaniteAxes",
-        "talentTreeId": "ZuljinArcaniteAxes",
-        "name": "Arcanite Axes",
-        "description": "Lower the cooldown of Twin Cleave by 0.75 seconds for every Hero hit. Passive: When below 50% Health, Spell Power is increased by 25%.",
-        "icon": "storm_ui_icon_zuljin_twincleave.png",
+        "tooltipId": "ZuljinRecklessness",
+        "talentTreeId": "ZuljinRecklessness",
+        "name": "Recklessness",
+        "description": "While Zul'jin is below 75% Health, his Basic Attack damage is increased by 10%. While he is below 50% Health, he gains 20% Spell Power.",
+        "icon": "storm_ui_icon_zuljin_berzerker.png",
         "sort": 2,
-        "abilityId": "Zul'jin|W1"
+        "abilityId": "Zul'jin|Passive"
       },
       {
-        "tooltipId": "ZuljinYouWantAxe",
-        "talentTreeId": "ZuljinYouWantAxe",
-        "name": "You Want Axe?",
-        "description": "Quest: Every 5 Basic Attacks against Heroes increases Zul'jin's Basic Attack damage by 1.25. Reward: After attacking Heroes 120 times, his Attack Range is increased by 1.1.",
-        "icon": "storm_ui_icon_talent_seasonedmarksman.png",
+        "tooltipId": "ZuljinHeadhunter",
+        "talentTreeId": "ZuljinHeadhunter",
+        "name": "Headhunter",
+        "description": "Quest: Zul'jin's first Takedown against each enemy Hero permanently increases his damage dealt by 2%. Reward: After getting Takedowns on every enemy Hero, Basic Attack range is increased by 1.1.",
+        "icon": "storm_ui_icon_zuljin_headhunter.png",
         "sort": 3,
         "abilityId": "Zul'jin|Passive"
       }
@@ -93,29 +92,30 @@
         "tooltipId": "ZuljinTrollsBlood",
         "talentTreeId": "ZuljinTrollsBlood",
         "name": "Troll's Blood",
-        "description": "Regeneration heal amount increased by 75%",
+        "description": "Increase Regeneration's healing by 25%. If Regeneration fully finishes, restore 10% of Zul'jin's maximum Mana.",
         "icon": "storm_ui_icon_zuljin_regeneration.png",
         "sort": 1,
         "abilityId": "Zul'jin|E1"
       },
       {
-        "tooltipId": "ZuljinLetTheKillingBegin",
-        "talentTreeId": "ZuljinLetTheKillingBegin",
-        "name": "Let the Killing Begin",
-        "description": "When Zul'jin kills an enemy, his Attack Speed is increased by 6%, up to 30%, for 12 seconds. Basic Attacks refresh the duration. Hero Takedowns instantly grant 30% Attack Speed.",
-        "icon": "storm_ui_icon_talent_autoattack_speed.png",
+        "tooltipId": "ZuljinVoodooShuffle",
+        "talentTreeId": "ZuljinVoodooShuffle",
+        "name": "Voodoo Shuffle",
+        "description": "Activate to remove Roots and Slows. Passive: Lower the cooldown and Mana cost of Regeneration by 33%.",
+        "icon": "storm_ui_icon_zuljin_regeneration_a.png",
         "sort": 2,
-        "abilityId": "Zul'jin|Passive"
+        "abilityId": "Zul'jin|Active",
+        "cooldown": 10
       },
       {
-        "tooltipId": "ZuljinHeadhunter",
-        "talentTreeId": "ZuljinHeadhunter",
-        "name": "Headhunter",
-        "description": "Quest: Get a takedown on all unique enemy Heroes. Reward: Activate to reveal all enemy Heroes for 4 seconds.",
-        "icon": "storm_ui_icon_zuljin_headhunter.png",
+        "tooltipId": "ZuljinAmaniRageTalent",
+        "talentTreeId": "ZuljinAmaniRageTalent",
+        "name": "Amani Rage",
+        "description": "Activate to cause Zul'jin to instantly lose 50% of his current Health and heal for that amount over 6 seconds. Zul'jin gains 10 Armor while regenerating health from Amani Rage.",
+        "icon": "storm_ui_icon_zuljin_davoodooshuffle.png",
         "sort": 3,
         "abilityId": "Zul'jin|Active",
-        "cooldown": 60
+        "cooldown": 20
       }
     ],
     "7": [
@@ -123,28 +123,28 @@
         "tooltipId": "ZuljinViciousAssault",
         "talentTreeId": "ZuljinViciousAssault",
         "name": "Vicious Assault",
-        "description": "Increases the number of bonus damage Basic Attack hits from Grievous Throw to 6. Basic Attacks against afflicted Heroes reduces the Cooldown of Grievous Throw by 2 seconds.",
+        "description": "Increase Grievous Throw's damage bonus by 30%.",
         "icon": "storm_ui_icon_zuljin_grievousthrow.png",
         "sort": 1,
         "abilityId": "Zul'jin|Q1"
       },
       {
-        "tooltipId": "ZuljinWrongPlaceWrongTime",
-        "talentTreeId": "ZuljinWrongPlaceWrongTime",
-        "name": "Wrong Place Wrong Time",
-        "description": "If an enemy is hit by both Twin Cleave Axes at the same time, they take 150 (+4% per level) bonus damage.",
+        "tooltipId": "ZuljinArcaniteAxes",
+        "talentTreeId": "ZuljinArcaniteAxes",
+        "name": "Arcanite Axes",
+        "description": "Reduce Twin Cleave's cooldown by 2 seconds.  Quest: Twin Cleave's damage is permanently increased by 0.75 every time it hits a Hero.",
         "icon": "storm_ui_icon_zuljin_twincleave.png",
         "sort": 2,
         "abilityId": "Zul'jin|W1"
       },
       {
-        "tooltipId": "ZuljinRecklessness",
-        "talentTreeId": "ZuljinRecklessness",
-        "name": "Recklessness",
-        "description": "While Zul'jin is below 50% Health, his Basic Attack damage is increased by 25%.",
+        "tooltipId": "ZuljinFerocity",
+        "talentTreeId": "ZuljinFerocity",
+        "name": "Ferocity",
+        "description": "Increases the Attack Speed bonus of Berserker by 35%.",
         "icon": "storm_ui_icon_zuljin_berzerker.png",
         "sort": 3,
-        "abilityId": "Zul'jin|Passive"
+        "abilityId": "Zul'jin|D1"
       }
     ],
     "10": [
@@ -171,61 +171,61 @@
     ],
     "13": [
       {
+        "tooltipId": "ZuljinLacerate",
+        "talentTreeId": "ZuljinLacerate",
+        "name": "Lacerate",
+        "description": "Increase the Slow amount of each Twin Cleave axe by 15%.",
+        "icon": "storm_ui_icon_zuljin_twincleave_a.png",
+        "sort": 1,
+        "abilityId": "Zul'jin|W1"
+      },
+      {
         "tooltipId": "ZuljinEyeOfZuljin",
         "talentTreeId": "ZuljinEyeOfZuljin",
         "name": "Eye of Zul'jin",
-        "description": "Hitting an enemy Hero with Grievous Throw increases Zul'jin's Movement Speed by 25% for 2 seconds.",
-        "icon": "storm_ui_icon_zuljin_grievousthrow.png",
-        "sort": 1,
-        "abilityId": "Zul'jin|Q1"
-      },
-      {
-        "tooltipId": "ZuljinForestMedicine",
-        "talentTreeId": "ZuljinForestMedicine",
-        "name": "Forest Medicine",
-        "description": "Regeneration no longer has to be channeled, allowing Zul'jin to perform other actions while Regenerating. However, taking damage will still end the effect.",
-        "icon": "storm_ui_icon_zuljin_regeneration.png",
+        "description": "Basic Attacks against enemy Heroes grant Zul'jin 3% Movement Speed for 2 seconds, up to 30%.",
+        "icon": "storm_ui_icon_talent_autoattack_base.png",
         "sort": 2,
-        "abilityId": "Zul'jin|E1"
+        "abilityId": "Zul'jin|Passive"
       },
       {
-        "tooltipId": "ZuljinVoodooShuffle",
-        "talentTreeId": "ZuljinVoodooShuffle",
-        "name": "Voodoo Shuffle",
-        "description": "Activate to remove all current Root and Slow effects on Zul'jin.",
-        "icon": "storm_ui_icon_zuljin_davoodooshuffle.png",
+        "tooltipId": "ZuljinEnsnare",
+        "talentTreeId": "ZuljinEnsnare",
+        "name": "Ensnare",
+        "description": "Throw a net forward, Rooting the first enemy Hero hit for 1.5 seconds.",
+        "icon": "storm_ui_icon_zuljin_trollnet.png",
         "sort": 3,
         "abilityId": "Zul'jin|Active",
-        "cooldown": 10
+        "cooldown": 60
       }
     ],
     "16": [
       {
-        "tooltipId": "ZuljinSwirlingDeath",
-        "talentTreeId": "ZuljinSwirlingDeath",
-        "name": "Swirling Death",
-        "description": "Twin Cleave's Axes cycle twice and can hit enemies on each revolution, but its cooldown is increased by 4 seconds.",
+        "tooltipId": "ZuljinWrongPlaceWrongTime",
+        "talentTreeId": "ZuljinWrongPlaceWrongTime",
+        "name": "Wrong Place Wrong Time",
+        "description": "If an enemy is hit by both Twin Cleave axes at the same time, they take an additional 150 (+4% per level) damage and count as 5 Hero hits for You Want Axe?.",
         "icon": "storm_ui_icon_zuljin_twincleave.png",
         "sort": 1,
         "abilityId": "Zul'jin|W1"
       },
       {
-        "tooltipId": "ZuljinLacerate",
-        "talentTreeId": "ZuljinLacerate",
-        "name": "Lacerate",
-        "description": "Increases the slow amount of each Twin Cleave Axe by an additional 15%.",
-        "icon": "storm_ui_icon_zuljin_twincleave_a.png",
+        "tooltipId": "ZuljinNoMercyTalent",
+        "talentTreeId": "ZuljinNoMercyTalent",
+        "name": "No Mercy!",
+        "description": "Zul'jin's Basic Attacks against enemy Heroes marked with Grievous Throw ignore Armor.",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 2,
-        "abilityId": "Zul'jin|W1"
+        "abilityId": "Zul'jin|Passive"
       },
       {
-        "tooltipId": "ZuljinFerocity",
-        "talentTreeId": "ZuljinFerocity",
-        "name": "Ferocity",
-        "description": "Increases the Attack Speed bonus of Berserker by 35%.",
-        "icon": "storm_ui_icon_zuljin_berzerker.png",
+        "tooltipId": "ZuljinLetTheKillingBegin",
+        "talentTreeId": "ZuljinLetTheKillingBegin",
+        "name": "Let the Killing Begin",
+        "description": "When Zul'jin kills an enemy, his Attack Speed is increased by 5%, up to 40%, for 12 seconds. Basic Attacks refresh the duration.  Hero Takedowns instantly grant 40% Attack Speed.",
+        "icon": "storm_ui_icon_talent_autoattack_speed.png",
         "sort": 3,
-        "abilityId": "Zul'jin|D1"
+        "abilityId": "Zul'jin|Passive"
       }
     ],
     "20": [
@@ -233,7 +233,7 @@
         "tooltipId": "ZuljinAmaniResilience",
         "talentTreeId": "ZuljinAmaniResilience",
         "name": "Amani Resilience",
-        "description": "When Taz'dingo ends, Zul'jin heals for 50% of the damage he dealt during Taz'dingo.",
+        "description": "Increase Taz'dingo's duration by 1 second. Upon expiring, Zul'jin heals for 50% of the damage he dealt during Taz'dingo.",
         "icon": "storm_ui_icon_zuljin_tazdingo.png",
         "sort": 1,
         "abilityId": "Zul'jin|R1"
@@ -242,20 +242,19 @@
         "tooltipId": "ZuljinBuzzsaw",
         "talentTreeId": "ZuljinBuzzsaw",
         "name": "Buzzsaw",
-        "description": "After impact, the Guillotine continues forward, dealing 50% of Guillotine's damage to enemies in the line.",
+        "description": "After impact, Guillotine continues forward, dealing 75% damage to enemies hit. If a Hero is killed by Guillotine, Zul'jin is instantly healed to full.",
         "icon": "storm_ui_icon_zuljin_guillotine.png",
         "sort": 2,
         "abilityId": "Zul'jin|R2"
       },
       {
-        "tooltipId": "ZuljinEnsnare",
-        "talentTreeId": "ZuljinEnsnare",
-        "name": "Ensnare",
-        "description": "Throw a net forward, rooting the first enemy hit for 3 seconds.",
-        "icon": "storm_ui_icon_zuljin_trollnet.png",
+        "tooltipId": "ZuljinForestMedicine",
+        "talentTreeId": "ZuljinForestMedicine",
+        "name": "Forest Medicine",
+        "description": "Regeneration is no longer Channeled, and cannot be interrupted.",
+        "icon": "storm_ui_icon_zuljin_regeneration.png",
         "sort": 3,
-        "abilityId": "Zul'jin|Active",
-        "cooldown": 45
+        "abilityId": "Zul'jin|E1"
       }
     ]
   }

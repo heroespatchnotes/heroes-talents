@@ -220,6 +220,10 @@ Example:
   <img class="img-rounded" src="images/heroes/johanna.png" />
   <span>Johanna</span>
 </a>
+<a class="img-wrap" href="hero/junkrat.json">
+  <img class="img-rounded" src="images/heroes/junkrat.png" />
+  <span>Junkrat</span>
+</a>
 <a class="img-wrap" href="hero/kaelthas.json">
   <img class="img-rounded" src="images/heroes/kaelthas.png" />
   <span>Kael'thas</span>

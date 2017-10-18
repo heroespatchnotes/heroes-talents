@@ -11,15 +11,15 @@
     "Muradin": [
       {
         "name": "Storm Bolt",
-        "description": "Throw a hammer, dealing 110 (+4% per level) damage to the first enemy hit and stunning it for 1.25 seconds.",
+        "description": "Throw a hammer, dealing 110 (+4% per level) damage to the first enemy hit and Stunning them for 1.25 seconds.  Quest: Hit 25 Heroes with Storm Bolt. Heroes who die within 2.5 seconds of being hit by Storm Bolt count as hitting 3 additional Heroes. Reward: Storm Bolt pierces to hit an additional target, and Muradin's Basic Attacks reduce the cooldown of Storm Bolt by 1 second.",
         "hotkey": "Q",
         "abilityId": "Muradin|Q1",
         "cooldown": 10,
-        "manaCost": "60"
+        "manaCost": "50"
       },
       {
         "name": "Thunder Clap",
-        "description": "Deals 96 (+4% per level) damage and slows enemies Movement and Attack Speed by 25% for 2.5 seconds.",
+        "description": "Blast nearby enemies for 96 (+4% per level) damage and slow them by 25% for 2.5 seconds. Heroes hit also have their Attack Speed reduced by 25% for the duration.",
         "hotkey": "W",
         "abilityId": "Muradin|W1",
         "cooldown": 8,
@@ -35,11 +35,11 @@
       },
       {
         "name": "Avatar",
-        "description": "Transform for 20 seconds, gaining 1124 (+4% per level) Health.",
+        "description": "Transform for 20 seconds, gaining 1053 (+4% per level) Health.",
         "hotkey": "R",
         "abilityId": "Muradin|R1",
         "cooldown": 90,
-        "manaCost": "100"
+        "manaCost": "80"
       },
       {
         "name": "Haymaker",
@@ -47,11 +47,11 @@
         "hotkey": "R",
         "abilityId": "Muradin|R2",
         "cooldown": 40,
-        "manaCost": "80"
+        "manaCost": "60"
       },
       {
         "name": "Second Wind",
-        "description": "Restore 51 (+4% per level) Health per second when you have not taken damage for 4 seconds. When below 40% Health, increased to 102 (+4% per level) Health per second.",
+        "description": "Muradin restores 53 (+4% per level) Health per second when he has not taken damage for 4 seconds. When below 40% Health, increased to 106 (+4% per level) Health per second.",
         "trait": true,
         "abilityId": "Muradin|D1"
       }
@@ -63,7 +63,7 @@
         "tooltipId": "GenericBlockTalent",
         "talentTreeId": "GenericTalentBlock",
         "name": "Block",
-        "description": "Every 5 seconds, gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%. Stores up to 2 charges.",
+        "description": "Every 5 seconds, gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%.  Stores up to 2 charges.",
         "icon": "storm_ui_icon_talent_block.png",
         "sort": 1,
         "abilityId": "Muradin|Passive"
@@ -72,7 +72,7 @@
         "tooltipId": "MuradinStormboltPerfectStormTalent",
         "talentTreeId": "MuradinStormboltPerfectStorm",
         "name": "Perfect Storm",
-        "description": "Reduces Storm Bolt's Mana cost by 25%. Quest: Every time Storm Bolt hits a Hero, increase its damage by 5.",
+        "description": "Quest: Every time Storm Bolt hits a Hero, increase its damage by 5.",
         "icon": "storm_ui_icon_muradin_stormbolt.png",
         "sort": 2,
         "abilityId": "Muradin|Q1"
@@ -92,7 +92,7 @@
         "tooltipId": "MuradinStormboltSledgehammerTalent",
         "talentTreeId": "MuradinMasteryStormhammerSledgehammer",
         "name": "Sledgehammer",
-        "description": "Deals 400% damage to non-Heroic enemies. Destroys 4 ammo from Structures.",
+        "description": "Deals 300% damage to non-Heroic enemies. Destroys 4 ammo from Structures.",
         "icon": "storm_ui_icon_muradin_stormbolt.png",
         "sort": 1,
         "abilityId": "Muradin|Q1"
@@ -101,65 +101,47 @@
         "tooltipId": "MuradinThunderclapReverberationTalent",
         "talentTreeId": "MuradinMasteryThunderclapReverberation",
         "name": "Reverberation",
-        "description": "Increases the Attack Speed slow from 25% to 50% and the duration from 2.5 seconds to 3 seconds.",
+        "description": "Increases the Attack Speed slow from 25% to 50% and the duration from 2.5 seconds to 3.5 seconds.",
         "icon": "storm_ui_icon_muradin_thunderclap.png",
         "sort": 2,
-        "abilityId": "Muradin|W1"
-      },
-      {
-        "tooltipId": "MuradinThunderclapCrowdControlTalent",
-        "talentTreeId": "MuradinMasteryThunderclapCrowdControl",
-        "name": "Crowd Control",
-        "description": "Each enemy hit by Thunder Clap reduces its cooldown by 0.75 seconds and restores 5 Mana, to a maximum of 9 targets.",
-        "icon": "storm_ui_icon_muradin_thunderclap_a.png",
-        "sort": 3,
         "abilityId": "Muradin|W1"
       },
       {
         "tooltipId": "MuradinThunderclapThunderburnTalent",
         "talentTreeId": "MuradinMasteryThunderburn",
         "name": "Thunder Burn",
-        "description": "Thunder Clap leaves a zone on the ground that explodes after 2 seconds dealing 48 (+4% per level) damage and applying a 25% slow for 2.5 seconds.",
+        "description": "Hitting an enemy Hero with Thunder Clap triggers a second explosion 2 seconds later in the same location that deals 50% damage.",
         "icon": "storm_ui_icon_muradin_thunderclap_b.png",
-        "sort": 4,
+        "sort": 3,
         "abilityId": "Muradin|W1"
       }
     ],
     "7": [
       {
-        "tooltipId": "MuradinStormboltPiercingBoltTalent",
-        "talentTreeId": "MuradinStormboltPiercingBolt",
-        "name": "Piercing Bolt",
-        "description": "Penetrates through the first target hit, hitting 1 additional target.",
-        "icon": "storm_ui_icon_muradin_stormbolt.png",
+        "tooltipId": "MuradinDwarfTossHeavyImpactTalent",
+        "talentTreeId": "MuradinMasteryDwarfTossHeavyImpact",
+        "name": "Heavy Impact",
+        "description": "Enemies hit by Dwarf Toss are stunned for 0.5 seconds.",
+        "icon": "storm_ui_icon_muradin_dwarftoss_a.png",
         "sort": 1,
-        "abilityId": "Muradin|Q1"
+        "abilityId": "Muradin|E1"
       },
       {
-        "tooltipId": "MuradinDwarfTossLandingMomentumTalent",
-        "talentTreeId": "MuradinMasteryDwarfTossLandingMomentum",
-        "name": "Landing Momentum",
-        "description": "Increases Muradin's Movement Speed by 25% for 5 seconds upon landing with Dwarf Toss.",
-        "icon": "storm_ui_icon_muradin_dwarftoss.png",
+        "tooltipId": "MuradinGiveEmTheAxeTalent",
+        "talentTreeId": "MuradinGiveEmTheAxeExecutioner60DamageBonus",
+        "name": "Give 'em the Axe!",
+        "description": "Attacking a Hero that is slowed, rooted, or stunned increases Muradin's Basic Attack damage by 50% for 3 seconds.",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 2,
-        "abilityId": "Muradin|E1"
+        "abilityId": "Muradin|Passive"
       },
       {
         "tooltipId": "MuradinSecondWindSkullcrackerTalent",
         "talentTreeId": "MuradinCombatStyleSkullcracker",
         "name": "Skullcracker",
-        "description": "Every 3rd Basic Attack against the same target will stun them for 0.25 seconds. Passive: Increases Muradin's Basic Attack Speed by 25%.",
+        "description": "Every 3rd Basic Attack against the same enemy deals 60% bonus damage and Stuns them for 0.25 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_stun.png",
         "sort": 3,
-        "abilityId": "Muradin|Passive"
-      },
-      {
-        "tooltipId": "MuradinIronforgedMomentum",
-        "talentTreeId": "BattleMomentumMuradin",
-        "name": "Iron-forged Momentum",
-        "description": "Basic Attacks reduce the cooldown of Storm Bolt and Thunderclap by 0.75 seconds.",
-        "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
-        "sort": 4,
         "abilityId": "Muradin|Passive"
       }
     ],
@@ -187,21 +169,12 @@
     ],
     "13": [
       {
-        "tooltipId": "GenericBurningRageTalent",
-        "talentTreeId": "GenericTalentBurningRage",
-        "name": "Burning Rage",
-        "description": "Deal 23 (+4% per level) damage per second to nearby enemies.",
-        "icon": "storm_ui_icon_talent_burningrage.png",
-        "sort": 1,
-        "abilityId": "Muradin|Passive"
-      },
-      {
         "tooltipId": "MuradinThunderclapHealingStaticTalent",
         "talentTreeId": "MuradinMasteryThunderclapHealingStatic",
         "name": "Healing Static",
         "description": "Muradin heals for 5% of his Max Health for each Hero hit by Thunder Clap.",
         "icon": "storm_ui_icon_muradin_thunderclap_a.png",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Muradin|W1"
       },
       {
@@ -210,16 +183,16 @@
         "name": "Thunder Strike",
         "description": "Thunder Clap deals 300% damage if only one target is hit.",
         "icon": "storm_ui_icon_muradin_thunderclap.png",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Muradin|W1"
       },
       {
-        "tooltipId": "GenericSpellShieldTalent",
-        "talentTreeId": "GenericTalentSpellShield",
-        "name": "Spell Shield",
-        "description": "Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically.",
-        "icon": "storm_ui_icon_talent_spellshield.png",
-        "sort": 4,
+        "tooltipId": "MuradinBronzebeardRage",
+        "talentTreeId": "MuradinBronzebeardRage",
+        "name": "Bronzebeard Rage",
+        "description": "Deal 19 (+4% per level) damage per second to nearby enemies. Basic Attacks against a Hero that is Rooted, Stunned or Slowed increase this damage by 100% for 3 seconds.",
+        "icon": "storm_ui_icon_talent_burningrage.png",
+        "sort": 3,
         "abilityId": "Muradin|Passive"
       }
     ],
@@ -228,28 +201,10 @@
         "tooltipId": "MuradinDwarfTossDwarfLaunchTalent",
         "talentTreeId": "MuradinMasteryDwarfTossDwarfLaunch",
         "name": "Dwarf Launch",
-        "description": "Increases the range and impact radius of Dwarf Toss by 50%.",
+        "description": "Increase the range of Dwarf Toss by 40%. Hitting an enemy Hero with Dwarf Toss reduces its cooldown by 3 seconds.",
         "icon": "storm_ui_icon_muradin_dwarftoss.png",
         "sort": 1,
         "abilityId": "Muradin|E1"
-      },
-      {
-        "tooltipId": "MuradinDwarfTossHeavyImpactTalent",
-        "talentTreeId": "MuradinMasteryDwarfTossHeavyImpact",
-        "name": "Heavy Impact",
-        "description": "Enemies hit by Dwarf Toss are stunned for 0.5 seconds.",
-        "icon": "storm_ui_icon_muradin_dwarftoss_a.png",
-        "sort": 2,
-        "abilityId": "Muradin|E1"
-      },
-      {
-        "tooltipId": "MuradinGiveEmTheAxeTalent",
-        "talentTreeId": "MuradinGiveEmTheAxeExecutioner60DamageBonus",
-        "name": "Give 'em the Axe!",
-        "description": "Attacking a Hero that is slowed, rooted, or stunned increases Muradin's Basic Attack damage by 60% for 3 seconds.",
-        "icon": "storm_ui_icon_talent_autoattack_damage.png",
-        "sort": 3,
-        "abilityId": "Muradin|Passive"
       },
       {
         "tooltipId": "GenericImposingPresenceTalent",
@@ -257,7 +212,7 @@
         "name": "Imposing Presence",
         "description": "Activate to slow the Attack Speed by 50% and Movement Speed by 20% of nearby Heroes and Summons for 2.5 seconds. Passive: Heroes and Summons that attack your Hero have their Attack Speed slowed by 20% for 2.5 seconds.",
         "icon": "storm_ui_icon_talent_imposingpresence.png",
-        "sort": 4,
+        "sort": 2,
         "abilityId": "Muradin|Active",
         "cooldown": 20
       },
@@ -265,11 +220,10 @@
         "tooltipId": "MuradinSecondWindStoneformTalent",
         "talentTreeId": "MuradinMasteryPassiveStoneform",
         "name": "Stoneform",
-        "description": "Activate to heal Muradin for 40% of his maximum Health over 10 seconds. Second Wind is disabled during this time.",
+        "description": "Activate to heal Muradin for 30% of his maximum Health over 10 seconds. Second Wind is disabled during this time.",
         "icon": "storm_ui_icon_muradin_secondwind.png",
-        "sort": 5,
-        "abilityId": "Muradin|D1",
-        "cooldown": 60
+        "sort": 3,
+        "abilityId": "Muradin|D1"
       }
     ],
     "20": [
@@ -277,7 +231,7 @@
         "tooltipId": "MuradinAvatarUnstoppableForceTalent",
         "talentTreeId": "MuradinMasteryAvatarUnstoppableForce",
         "name": "Unstoppable Force",
-        "description": "Increases the duration of Avatar by 30%, and the duration of Stuns, Roots, and Slows are reduced by 75% while in Avatar.",
+        "description": "While active, Avatar grants 20 Armor and causes Muradin's Basic Attacks to reduce the cooldowns of Thunder Clap and Dwarf Toss by 0.75 seconds.",
         "icon": "storm_ui_icon_muradin_avatar.png",
         "sort": 1,
         "abilityId": "Muradin|R1"
@@ -286,7 +240,7 @@
         "tooltipId": "MuradinHaymakerGrandSlamTalent",
         "talentTreeId": "MuradinMasteryHaymakerGrandSlam",
         "name": "Grand Slam",
-        "description": "Damage of Haymaker increased by 25%, Mana cost lowered by 40, and can store 2 charges.",
+        "description": "Haymaker gains a 2nd charge and its damage its increased by 25%. If a Hero dies within 3 seconds of being hit by Haymaker, instantly gain 1 charge.",
         "icon": "storm_ui_icon_muradin_haymaker.png",
         "sort": 2,
         "abilityId": "Muradin|R2"
