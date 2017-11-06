@@ -11,7 +11,7 @@
     "Junkrat": [
       {
         "name": "Frag Launcher",
-        "description": "Launch a grenade that explodes at the end of its path or upon hitting an enemy, dealing 117 (+4% per level) damage to nearby enemies. Grenades can ricochet off of terrain. Deals 50% less damage to Structures.  Stores up to 4 charges. Frag Launcher's cooldown replenishes all charges at the same time.",
+        "description": "Launch a grenade that explodes at the end of its path or upon hitting an enemy, dealing 128 (+4% per level) damage to nearby enemies. Grenades can ricochet off of terrain. Deals 50% less damage to Structures.  Stores up to 4 charges. Frag Launcher's cooldown replenishes all charges at the same time.",
         "hotkey": "Q",
         "abilityId": "Junkrat|Q1",
         "cooldown": 12
@@ -87,7 +87,7 @@
         "tooltipId": "JunkratTasteForExplosionsFragLauncherTalent",
         "talentTreeId": "JunkratFragLauncherTasteForExplosions",
         "name": "Taste for Explosions",
-        "description": "Quest: Hitting a Hero with Frag Launcher increases its damage by 0.75, up to 150.",
+        "description": "Quest: Hitting a Hero with Frag Launcher increases its damage by 0.5, up to 100.",
         "icon": "storm_ui_icon_junkrat_frag_launcher.png",
         "sort": 1,
         "abilityId": "Junkrat|Q1"
@@ -96,7 +96,7 @@
         "tooltipId": "JunkratBonzerHitsConcussionMineTalent",
         "talentTreeId": "JunkratConcussionMineBonzerHits",
         "name": "Bonzer Hits",
-        "description": "Quest: Hit enemy Heroes 12 times with Concussion Mine. Reward: Concussion Mine deals 30% more damage and knocks enemies back 30% farther.",
+        "description": "Quest: Hit enemy Heroes 12 times with Concussion Mine. Reward: Concussion Mine deals 40% more damage and knocks enemies back 30% farther.",
         "icon": "storm_ui_icon_junkrat_concussion_mine.png",
         "sort": 2,
         "abilityId": "Junkrat|W1"
@@ -125,7 +125,7 @@
         "tooltipId": "JunkratStickyWicketSteelTrapTalent",
         "talentTreeId": "JunkratSteelTrapStickyWicket",
         "name": "Sticky Wicket",
-        "description": "Steel Trap no longer Roots enemies, and instead Slows them by 90% for 3 seconds.",
+        "description": "Steel Trap no longer Roots enemies, and instead Slows them by 90% for 3.5 seconds.",
         "icon": "storm_ui_icon_junkrat_steel_trap_b.png",
         "sort": 3,
         "abilityId": "Junkrat|E1"

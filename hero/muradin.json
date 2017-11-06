@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Muradin|Q1",
         "cooldown": 10,
-        "manaCost": "50"
+        "manaCost": "45"
       },
       {
         "name": "Thunder Clap",
@@ -51,7 +51,7 @@
       },
       {
         "name": "Second Wind",
-        "description": "Muradin restores 53 (+4% per level) Health per second when he has not taken damage for 4 seconds. When below 40% Health, increased to 106 (+4% per level) Health per second.",
+        "description": "Muradin restores 55 (+4% per level) Health per second when he has not taken damage for 4 seconds. When below 40% Health, increased to 111 (+4% per level) Health per second.",
         "trait": true,
         "abilityId": "Muradin|D1"
       }
@@ -81,7 +81,7 @@
         "tooltipId": "MuradinSecondWindThirdWindTalent",
         "talentTreeId": "MuradinCombatStyleThirdWind",
         "name": "Third Wind",
-        "description": "Increases Health Restoration rate to 80 (+4% per level) per second, and raises Health threshold to 60% Health for improved 159 (+4% per level) per second Restoration.",
+        "description": "Increases Health Restoration rate to 83 (+4% per level) per second, and raises Health threshold to 60% Health for improved 166 (+4% per level) per second Restoration.",
         "icon": "storm_ui_icon_muradin_secondwind.png",
         "sort": 3,
         "abilityId": "Muradin|D1"
@@ -92,7 +92,7 @@
         "tooltipId": "MuradinStormboltSledgehammerTalent",
         "talentTreeId": "MuradinMasteryStormhammerSledgehammer",
         "name": "Sledgehammer",
-        "description": "Deals 300% damage to non-Heroic enemies. Destroys 4 ammo from Structures.",
+        "description": "Deals 350% damage to non-Heroic enemies. Destroys 4 ammo from Structures.",
         "icon": "storm_ui_icon_muradin_stormbolt.png",
         "sort": 1,
         "abilityId": "Muradin|Q1"
@@ -121,7 +121,7 @@
         "tooltipId": "MuradinDwarfTossHeavyImpactTalent",
         "talentTreeId": "MuradinMasteryDwarfTossHeavyImpact",
         "name": "Heavy Impact",
-        "description": "Enemies hit by Dwarf Toss are stunned for 0.5 seconds.",
+        "description": "Enemies hit by Dwarf Toss are slowed by 80% for 0.75 seconds.",
         "icon": "storm_ui_icon_muradin_dwarftoss_a.png",
         "sort": 1,
         "abilityId": "Muradin|E1"
@@ -139,7 +139,7 @@
         "tooltipId": "MuradinSecondWindSkullcrackerTalent",
         "talentTreeId": "MuradinCombatStyleSkullcracker",
         "name": "Skullcracker",
-        "description": "Every 3rd Basic Attack against the same enemy deals 60% bonus damage and Stuns them for 0.25 seconds.",
+        "description": "Every 3rd Basic Attack against the same enemy deals 70% bonus damage and Stuns them for 0.25 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_stun.png",
         "sort": 3,
         "abilityId": "Muradin|Passive"
