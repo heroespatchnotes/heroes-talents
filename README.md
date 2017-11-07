@@ -396,3 +396,7 @@ Example:
   <img class="img-rounded" src="images/heroes/zeratul.png" />
   <span>Zeratul</span>
 </a>
+<a class="img-wrap" href="hero/zuljin.json">
+  <img class="img-rounded" src="images/heroes/zuljin.png" />
+  <span>Zul'jin</span>
+</a>
