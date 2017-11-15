@@ -89,21 +89,12 @@
     ],
     "4": [
       {
-        "tooltipId": "AnaBioticGrenadeAirStrike",
-        "talentTreeId": "AnaBioticGrenadeAirStrike",
-        "name": "Air Strike",
-        "description": "Activate to use Biotic Grenade with a 200% increased range, but Grenades thrown this way take 4 seconds to land. Passive: Reduce Biotic Grenade cooldown by 4 seconds.",
-        "icon": "storm_ui_icon_ana_biotic_grenade.png",
-        "sort": 1,
-        "abilityId": "Ana|W1"
-      },
-      {
         "tooltipId": "AnaOverdose",
         "talentTreeId": "AnaOverdose",
         "name": "Overdose",
         "description": "Hitting enemies with Sleep Dart applies 3 Doses.",
         "icon": "storm_ui_icon_ana_sleep_dart.png",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Ana|D1"
       },
       {
@@ -112,8 +103,17 @@
         "name": "Aim Down Sights",
         "description": "Shrike can be activated to increase vision radius by 100% and Basic Attack range by 2 but reduce Movement Speed by 20%. Lasts until canceled.",
         "icon": "storm_ui_icon_ana_aim_down_sights.png",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Ana|Active"
+      },
+      {
+        "tooltipId": "AnaBioticGrenadeAirStrike",
+        "talentTreeId": "AnaBioticGrenadeAirStrike",
+        "name": "Air Strike",
+        "description": "Activate to use Biotic Grenade with a 200% increased range, but Grenades thrown this way take 4 seconds to land. Passive: Reduce Biotic Grenade cooldown by 4 seconds.",
+        "icon": "storm_ui_icon_ana_biotic_grenade.png",
+        "sort": 3,
+        "abilityId": "Ana|W1"
       }
     ],
     "7": [
