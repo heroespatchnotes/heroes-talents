@@ -116,6 +116,10 @@ Example:
   <img class="img-rounded" src="images/heroes/alarak.png" />
   <span>Alarak</span>
 </a>
+<a class="img-wrap" href="hero/alexstrasza.json">
+  <img class="img-rounded" src="images/heroes/alexstrasza.png" />
+  <span>Alexstrasza</span>
+</a>
 <a class="img-wrap" href="hero/ana.json">
   <img class="img-rounded" src="images/heroes/ana.png" />
   <span>Ana</span>
