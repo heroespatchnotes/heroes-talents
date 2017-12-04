@@ -11,7 +11,7 @@
     "Malfurion": [
       {
         "name": "Regrowth",
-        "description": "Heal target ally for 150 (+4% per level) Health instantly and an additional 420 (+4% per level) Health over 15 seconds.",
+        "description": "Heal target ally for 142 (+4% per level) Health instantly and an additional 405 (+4% per level) Health over 15 seconds.",
         "hotkey": "Q",
         "abilityId": "Malfurion|Q1",
         "cooldown": 5,
@@ -19,7 +19,7 @@
       },
       {
         "name": "Moonfire",
-        "description": "Deal 105 (+4% per level) damage to enemies within target area and reveals them for 2 seconds.",
+        "description": "Deal 100 (+4% per level) damage to enemies within target area and reveals them for 2 seconds.",
         "hotkey": "W",
         "abilityId": "Malfurion|W1",
         "cooldown": 3,
@@ -27,7 +27,7 @@
       },
       {
         "name": "Entangling Roots",
-        "description": "Root enemies within the target area for 1.25 seconds, and deals 117 (+4% per level) damage over the duration. Affected area grows over 3 seconds.",
+        "description": "Root enemies within the target area for 1.25 seconds, and deals 111 (+4% per level) damage over the duration. Affected area grows over 3 seconds.",
         "hotkey": "E",
         "abilityId": "Malfurion|E1",
         "cooldown": 14,
@@ -35,7 +35,7 @@
       },
       {
         "name": "Tranquility",
-        "description": "Heals 80 (+4% per level) Health per second to nearby allied Heroes over 10 seconds.",
+        "description": "Heals 76 (+4% per level) Health per second to nearby allied Heroes over 10 seconds.",
         "hotkey": "R",
         "abilityId": "Malfurion|R1",
         "cooldown": 100,
@@ -43,7 +43,7 @@
       },
       {
         "name": "Twilight Dream",
-        "description": "After 0.5 seconds, deal 374 (+4% per level) damage in a large area around Malfurion, Silencing enemies making them unable to use Abilities for 3 seconds.",
+        "description": "After 0.5 seconds, deal 355 (+4% per level) damage in a large area around Malfurion, Silencing enemies making them unable to use Abilities for 3 seconds.",
         "hotkey": "R",
         "abilityId": "Malfurion|R2",
         "cooldown": 90,
@@ -62,22 +62,22 @@
   "talents": {
     "1": [
       {
+        "tooltipId": "MalfurionMoonfireCelestialAlignmentTalent",
+        "talentTreeId": "MalfurionCelestialAlignment",
+        "name": "Celestial Alignment",
+        "description": "Increases the reveal time of Moonfire by 3 seconds. Basic attacks against revealed enemy Heroes is increased by 100%.",
+        "icon": "storm_ui_icon_malfurion_moonfire.png",
+        "sort": 1,
+        "abilityId": "Malfurion|W1"
+      },
+      {
         "tooltipId": "MalfurionInnervateShandosClarityTalent",
         "talentTreeId": "MalfurionCombatStyleShandosClarity",
         "name": "Shan'do's Clarity",
         "description": "Reduces Innervate's cooldown by 8 seconds.",
         "icon": "storm_ui_icon_malfurion_innerrvate.png",
-        "sort": 1,
-        "abilityId": "Malfurion|D1"
-      },
-      {
-        "tooltipId": "MalfurionMoonfireMoonburnTalent",
-        "talentTreeId": "MalfurionMasteryMoonburn",
-        "name": "Moonburn",
-        "description": "Increase Moonfire's damage to Minions by 75%. Repeatable Quest: Every 5 Minions killed nearby increase this bonus by 1%, up to 25%. After reaching a 25% bonus, Moonburn's bonus damage also applies to Mercenaries and Monsters.",
-        "icon": "storm_ui_icon_malfurion_moonfire.png",
         "sort": 2,
-        "abilityId": "Malfurion|W1"
+        "abilityId": "Malfurion|D1"
       },
       {
         "tooltipId": "GenericScoutingDrone",
@@ -113,7 +113,7 @@
         "tooltipId": "MalfurionEntanglingRootsVengefulRootsTalent",
         "talentTreeId": "MalfurionMasteryVengefulRoots",
         "name": "Vengeful Roots",
-        "description": "Entangling Roots spawns a Treant that deals 70 damage per second and lasts 10 seconds. Repeatable Quest: Hitting enemy Heroes with Entangling Roots permanently increases the Treant's damage per second by 8.",
+        "description": "Entangling Roots spawns a Treant that deals 65 damage per second and lasts 10 seconds. Repeatable Quest: Hitting enemy Heroes with Entangling Roots permanently increases the Treant's damage per second by 7.",
         "icon": "storm_ui_icon_malfurion_entanglingroots.png",
         "sort": 3,
         "abilityId": "Malfurion|E1"
@@ -153,7 +153,7 @@
         "tooltipId": "MalfurionTranquility",
         "talentTreeId": "MalfurionHeroicAbilityTranquility",
         "name": "Tranquility",
-        "description": "Heals 80 (+4% per level) Health per second to nearby allied Heroes over 10 seconds.",
+        "description": "Heals 76 (+4% per level) Health per second to nearby allied Heroes over 10 seconds.",
         "icon": "storm_ui_icon_malfurion_tranquility.png",
         "sort": 1,
         "abilityId": "Malfurion|R1",
@@ -163,7 +163,7 @@
         "tooltipId": "MalfurionTwilightDream",
         "talentTreeId": "MalfurionHeroicAbilityTwilightDream",
         "name": "Twilight Dream",
-        "description": "After 0.5 seconds, deal 374 (+4% per level) damage in a large area around Malfurion, Silencing enemies making them unable to use Abilities for 3 seconds.",
+        "description": "After 0.5 seconds, deal 355 (+4% per level) damage in a large area around Malfurion, Silencing enemies making them unable to use Abilities for 3 seconds.",
         "icon": "storm_ui_icon_malfurion_twilightdream.png",
         "sort": 2,
         "abilityId": "Malfurion|R2",
