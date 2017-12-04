@@ -43,7 +43,7 @@
       },
       {
         "name": "Guillotine",
-        "description": "Zul'jin launches a massive axe into the air that drops on the targeted area, dealing 350 (+4% per level) damage plus bonus damage the lower his Health is.",
+        "description": "Zul'jin launches a massive axe into the air that drops on the targeted area, dealing 330 (+4% per level) damage plus bonus damage the lower his Health is.",
         "hotkey": "R",
         "abilityId": "Zul'jin|R2",
         "cooldown": 40,
@@ -72,7 +72,7 @@
         "tooltipId": "ZuljinRecklessness",
         "talentTreeId": "ZuljinRecklessness",
         "name": "Recklessness",
-        "description": "While Zul'jin is below 75% Health, his Basic Attack damage is increased by 10%. While he is below 50% Health, he gains 20% Spell Power.",
+        "description": "While Zul'jin is below 75% Health, he gains 10% Spell Power. While he is below 50% Health, his Basic Attack damage is increased by 20%.",
         "icon": "storm_ui_icon_zuljin_berzerker.png",
         "sort": 2,
         "abilityId": "Zul'jin|Passive"
@@ -111,7 +111,7 @@
         "tooltipId": "ZuljinAmaniRageTalent",
         "talentTreeId": "ZuljinAmaniRageTalent",
         "name": "Amani Rage",
-        "description": "Activate to cause Zul'jin to instantly lose 50% of his current Health and heal for that amount over 6 seconds. Zul'jin gains 10 Armor while regenerating health from Amani Rage.",
+        "description": "Activate to cause Zul'jin to instantly lose 50% of his current Health and heal for that amount over 10 seconds. Zul'jin gains 5 Armor while regenerating health from Amani Rage.",
         "icon": "storm_ui_icon_zuljin_davoodooshuffle.png",
         "sort": 3,
         "abilityId": "Zul'jin|Active",
@@ -123,7 +123,7 @@
         "tooltipId": "ZuljinViciousAssault",
         "talentTreeId": "ZuljinViciousAssault",
         "name": "Vicious Assault",
-        "description": "Increase Grievous Throw's damage bonus by 35%.",
+        "description": "Increase the duration of Grievous Throw's mark by 3 seconds and its damage bonus by 35%.",
         "icon": "storm_ui_icon_zuljin_grievousthrow.png",
         "sort": 1,
         "abilityId": "Zul'jin|Q1"
@@ -132,7 +132,7 @@
         "tooltipId": "ZuljinArcaniteAxes",
         "talentTreeId": "ZuljinArcaniteAxes",
         "name": "Arcanite Axes",
-        "description": "Reduce Twin Cleave's cooldown by 2 seconds.  Quest: Twin Cleave's damage is permanently increased by 0.75 every time it hits a Hero.",
+        "description": "Quest: Twin Cleave's damage is permanently increased by 0.75 every time it hits a Hero.",
         "icon": "storm_ui_icon_zuljin_twincleave.png",
         "sort": 2,
         "abilityId": "Zul'jin|W1"
@@ -162,7 +162,7 @@
         "tooltipId": "ZuljinGuillotine",
         "talentTreeId": "ZuljinGuillotine",
         "name": "Guillotine",
-        "description": "Zul'jin launches a massive axe into the air that drops on the targeted area, dealing 350 (+4% per level) damage plus bonus damage the lower his Health is.",
+        "description": "Zul'jin launches a massive axe into the air that drops on the targeted area, dealing 330 (+4% per level) damage plus bonus damage the lower his Health is.",
         "icon": "storm_ui_icon_zuljin_guillotine.png",
         "sort": 2,
         "abilityId": "Zul'jin|R2",
@@ -174,7 +174,7 @@
         "tooltipId": "ZuljinLacerate",
         "talentTreeId": "ZuljinLacerate",
         "name": "Lacerate",
-        "description": "Increase the Slow amount of each Twin Cleave axe by 15%.",
+        "description": "Increase the Slow amount of each Twin Cleave axe by 10%.",
         "icon": "storm_ui_icon_zuljin_twincleave_a.png",
         "sort": 1,
         "abilityId": "Zul'jin|W1"
@@ -213,7 +213,7 @@
         "tooltipId": "ZuljinWrongPlaceWrongTime",
         "talentTreeId": "ZuljinWrongPlaceWrongTime",
         "name": "Wrong Place Wrong Time",
-        "description": "If an enemy is hit by both Twin Cleave axes at the same time, they take an additional 150 (+4% per level) damage and count as 5 Hero hits for You Want Axe?.",
+        "description": "If an enemy is hit by both Twin Cleave axes at the same time, they take an additional 100 (+4% per level) damage and count as 5 Hero hits for You Want Axe?.",
         "icon": "storm_ui_icon_zuljin_twincleave.png",
         "sort": 2,
         "abilityId": "Zul'jin|W1"
