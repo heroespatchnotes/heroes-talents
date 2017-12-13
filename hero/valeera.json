@@ -49,7 +49,7 @@
       },
       {
         "name": "Vanish",
-        "description": "Valeera vanishes from sight, becoming Stealthed and increasing her Movement Speed by 10%. For the first second, she is Unrevealable and can pass through other units.  Using Vanish grants Valeera an alternate set of Abilities that she can use while Stealthed.",
+        "description": "Vanish from sight, becoming Stealthed, gaining 20% Movement Speed and access to new Abilities. For the first second, Valeera is Unrevealable and can pass through other units. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.  After being Stealthed for 3 seconds, Ambush, Cheap Shot, and Garrote have 100% increased range, and cause Valeera to teleport to the target when used.",
         "hotkey": "D",
         "trait": true,
         "abilityId": "Valeera|D1",
@@ -59,7 +59,7 @@
     "ValeeraVanish": [
       {
         "name": "Ambush",
-        "description": "Ambush the target, instantly dealing 180 (+4% per level) damage to the target.  Awards 1 Combo Point.",
+        "description": "Ambush an enemy, dealing 130 (+4% per level) damage and reducing their Armor by 10 for 4 seconds.  Awards 1 Combo Point.  Unstealth: Sinister Strike: Dash forward, damaging enemies.",
         "hotkey": "Q",
         "abilityId": "Valeera|Q2",
         "cooldown": 1,
@@ -67,7 +67,7 @@
       },
       {
         "name": "Cheap Shot",
-        "description": "Deal 30 (+4% per level) damage to an enemy and stun them for 1.25 seconds.  Awards 1 Combo Point.",
+        "description": "Deal 30 (+4% per level) damage to an enemy, Stun them for 0.75 seconds, and Blind them for 2 seconds once Cheap Shot's Stun expires.  Awards 1 Combo Point.  Unstealth: Blade Flurry: Deal damage in an area around Valeera.",
         "hotkey": "W",
         "abilityId": "Valeera|W2",
         "cooldown": 1,
@@ -75,7 +75,7 @@
       },
       {
         "name": "Garrote",
-        "description": "Garrote an enemy, dealing 20 (+4% per level) damage instantly, an additional 140 (+4% per level) damage over 7 seconds, and silencing them for 2.25 seconds.  Awards 1 Combo Point.",
+        "description": "Deal 20 (+4% per level) damage to an enemy and an additional 140 (+4% per level) damage over 7 seconds, and Silence them for 2.75 seconds.  Awards 1 Combo Point.  Unstealth: Eviscerate: High damage finishing move.",
         "hotkey": "E",
         "abilityId": "Valeera|E2",
         "cooldown": 1,
@@ -98,7 +98,7 @@
         "tooltipId": "ValeeraSubtlety",
         "talentTreeId": "ValeeraVanishSubtlety",
         "name": "Subtlety",
-        "description": "After remaining Vanished for at least 4 seconds, using Ambush, Cheap Shot, or Garrote causes Valeera to regenerate an additional 10 Energy per second for 5 seconds.",
+        "description": "After teleporting with Ambush, Cheap Shot, or Garrote, regenerate 8 Energy per second for 5 seconds.",
         "icon": "storm_ui_icon_valeera_vanish.png",
         "sort": 2,
         "abilityId": "Valeera|D1"
@@ -107,7 +107,7 @@
         "tooltipId": "ValeeraCombatReadiness",
         "talentTreeId": "ValeeraCombatReadiness",
         "name": "Combat Readiness",
-        "description": "Each Combo Point spent grants 50 Physical Armor against the next enemy Hero Basic Attack, reducing its damage by 50%. Stores up to 3 charges.",
+        "description": "Each Combo Point spent grants 60 Physical Armor against the next enemy Hero Basic Attack, reducing its damage by 50%. Stores up to 3 charges.",
         "icon": "storm_ui_icon_talent_block.png",
         "sort": 3,
         "abilityId": "Valeera|Passive"
@@ -116,7 +116,7 @@
         "tooltipId": "ValeeraCripplingPoison",
         "talentTreeId": "ValeeraCripplingPoison",
         "name": "Crippling Poison",
-        "description": "Activate to cause Valeera's next instance of Spell Damage to slow enemy Movement Speed by 25% for 5 seconds. Activating Crippling Poison does not break Vanish.",
+        "description": "Activate to make Valeera's next damaging Ability and subsequent Abilities within 4 seconds Slow targets by 25% for 4 seconds.  Activating Crippling Poison does not break Stealth.",
         "icon": "storm_ui_icon_valeera_cripplingpoison.png",
         "sort": 4,
         "abilityId": "Valeera|Active",
@@ -137,7 +137,7 @@
         "tooltipId": "ValeeraHemorrhage",
         "talentTreeId": "ValeeraGarroteHemorrhage",
         "name": "Hemorrhage",
-        "description": "Valeera's Basic Attacks deal 25% additional damage to enemies affected by Garrote.",
+        "description": "Valeera's Basic Attacks deal 50% additional damage to enemies affected by Garrote.",
         "icon": "storm_ui_icon_valeera_garrote.png",
         "sort": 2,
         "abilityId": "Valeera|E2"
@@ -149,13 +149,13 @@
         "description": "Ambush, Cheap Shot, and Garrote award 1 Combo Points.",
         "icon": "storm_ui_icon_valeera_vanish.png",
         "sort": 3,
-        "abilityId": "Valeera|Passive"
+        "abilityId": "Valeera|D1"
       },
       {
         "tooltipId": "ValeeraWoundPoison",
         "talentTreeId": "ValeeraWoundPoison",
         "name": "Wound Poison",
-        "description": "Activate to cause Valeera's next instance of Spell Damage to also reduce healing received by the victim by 50% for 5 seconds. Activating Wound Poison does not break Vanish.",
+        "description": "Activate to make Valeera's next damaging Ability and subsequent Abilities within 4 seconds reduce enemy healing received by 50% for 4 seconds.  Activating Wound Poison does not break Stealth.",
         "icon": "storm_ui_icon_valeera_woundpoison.png",
         "sort": 4,
         "abilityId": "Valeera|Active",
@@ -185,19 +185,10 @@
         "tooltipId": "ValeeraSliceAndDice",
         "talentTreeId": "ValeeraEviscerateSliceAndDice",
         "name": "Slice and Dice",
-        "description": "Eviscerating an enemy with 3 Combo Points causes Valeera's next 3 Basic Attacks to have their Attack Speed increased by 150%. Lasts 3 seconds.",
+        "description": "Eviscerating an enemy with 3 Combo Points grants 150% Attack Speed. Lasts 3 seconds or 3 Basic Attacks. Passive: Basic Attacks restore 2 Energy.",
         "icon": "storm_ui_icon_valeera_eviscerate.png",
         "sort": 3,
         "abilityId": "Valeera|E1"
-      },
-      {
-        "tooltipId": "ValeeraAssassinate",
-        "talentTreeId": "ValeeraAmbushAssassinate",
-        "name": "Assassinate",
-        "description": "Ambush deals 100% additional damage if no other enemy Heroes are within 4 range of the victim.",
-        "icon": "storm_ui_icon_valeera_ambush.png",
-        "sort": 4,
-        "abilityId": "Valeera|Q2"
       }
     ],
     "10": [
@@ -224,39 +215,30 @@
     ],
     "13": [
       {
-        "tooltipId": "ValeeraElusiveness",
-        "talentTreeId": "ValeeraVanishElusiveness",
-        "name": "Elusiveness",
-        "description": "Increases Valeera's Movement Speed while Vanished by an additional 10%.",
-        "icon": "storm_ui_icon_valeera_vanish.png",
-        "sort": 1,
-        "abilityId": "Valeera|D1"
-      },
-      {
         "tooltipId": "ValeeraDeathFromAbove",
         "talentTreeId": "ValeeraAmbushDeathFromAbove",
         "name": "Death From Above",
-        "description": "Ambush now has 6 range and teleports Valeera behind the victim.",
+        "description": "Teleporting with Ambush reduces the cooldown of Vanish by 4 seconds.",
         "icon": "storm_ui_icon_valeera_ambush.png",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Valeera|Q2"
       },
       {
         "tooltipId": "ValeeraBlind",
         "talentTreeId": "ValeeraCheapShotBlind",
         "name": "Blind",
-        "description": "When Cheap Shot expires, the victim is blinded for 2.5 seconds.",
+        "description": "Increase the duration of Cheap Shot's Blind by 2 seconds.",
         "icon": "storm_ui_icon_valeera_cheapshot.png",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Valeera|W2"
       },
       {
         "tooltipId": "ValeeraStrangle",
         "talentTreeId": "ValeeraGarroteStrangle",
         "name": "Strangle",
-        "description": "Using Garrote on a Hero reduces their Spell Power by 25% for 7 seconds.",
+        "description": "Using Garrote on a Hero reduces their Spell Power by 40% for 6 seconds.",
         "icon": "storm_ui_icon_valeera_garrote.png",
-        "sort": 4,
+        "sort": 3,
         "abilityId": "Valeera|E2"
       }
     ],
@@ -271,22 +253,13 @@
         "abilityId": "Valeera|Q1"
       },
       {
-        "tooltipId": "ValeeraRupture",
-        "talentTreeId": "ValeeraGarroteRupture",
-        "name": "Rupture",
-        "description": "Valeera's Basic Attacks increase the damage over time effect of Garrote by 5%, stacking up to 30%, and refresh the duration.",
-        "icon": "storm_ui_icon_valeera_garrote.png",
+        "tooltipId": "ValeeraAssassinate",
+        "talentTreeId": "ValeeraAmbushAssassinate",
+        "name": "Assassinate",
+        "description": "Ambush deals 50% additional damage and reduces the target's Armor by an additional 10 if no other enemy Heroes are within 4 range of the victim.",
+        "icon": "storm_ui_icon_valeera_ambush.png",
         "sort": 2,
-        "abilityId": "Valeera|E2"
-      },
-      {
-        "tooltipId": "ValeeraExposeArmor",
-        "talentTreeId": "ValeeraEviscerateExposeArmor",
-        "name": "Expose Armor",
-        "description": "Eviscerating an enemy with 3 Combo Points causes them to lose 25 Armor for 2 seconds, increasing all damage taken by 25%.",
-        "icon": "storm_ui_icon_valeera_eviscerate.png",
-        "sort": 3,
-        "abilityId": "Valeera|E1"
+        "abilityId": "Valeera|Q2"
       },
       {
         "tooltipId": "ValeeraThistleTea",
@@ -294,7 +267,7 @@
         "name": "Thistle Tea",
         "description": "Activate to instantly restore 100 Energy. Activating Thistle Tea does not break Vanish.",
         "icon": "storm_ui_icon_valeera_thistletea.png",
-        "sort": 4,
+        "sort": 3,
         "abilityId": "Valeera|Active",
         "cooldown": 60
       }
@@ -319,12 +292,21 @@
         "abilityId": "Valeera|R2"
       },
       {
-        "tooltipId": "ValeeraNightslayer",
-        "talentTreeId": "ValeeraVanishNightslayer",
-        "name": "Nightslayer",
-        "description": "Reduces the cooldown of Vanish by 3 seconds.",
-        "icon": "storm_ui_icon_valeera_vanish.png",
+        "tooltipId": "ValeeraRupture",
+        "talentTreeId": "ValeeraGarroteRupture",
+        "name": "Rupture",
+        "description": "Increase Garrote's damage over time by 100%. Valeera's Basic Attacks refresh the duration of Garrote.",
+        "icon": "storm_ui_icon_valeera_garrote.png",
         "sort": 3,
+        "abilityId": "Valeera|E2"
+      },
+      {
+        "tooltipId": "ValeeraElusiveness",
+        "talentTreeId": "ValeeraVanishElusiveness",
+        "name": "Elusiveness",
+        "description": "Increases Valeera's Movement Speed while Vanished by an additional 20%.",
+        "icon": "storm_ui_icon_valeera_vanish.png",
+        "sort": 4,
         "abilityId": "Valeera|D1"
       }
     ]
