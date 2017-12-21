@@ -11,7 +11,7 @@
     "Garrosh": [
       {
         "name": "Groundbreaker",
-        "description": "Deal 81 (+4% per level) damage to enemies in an area. Heroes hit on the outer edge are pulled toward Garrosh.",
+        "description": "Deal 81 (+4% per level) damage to enemies in an area. Heroes hit on the outer edge are Stunned for 0.75 seconds and then Slowed by 30% for 2 seconds.",
         "hotkey": "Q",
         "abilityId": "Garrosh|Q1",
         "cooldown": 8,
@@ -30,8 +30,8 @@
         "description": "Throw a nearby enemy Hero, Minion, or Mercenary to the target location, dealing 91 (+4% per level) damage to enemies near the impact and Slowing them by 30% for 2.5 seconds.",
         "hotkey": "E",
         "abilityId": "Garrosh|E1",
-        "cooldown": 16,
-        "manaCost": "70"
+        "cooldown": 14,
+        "manaCost": "65"
       },
       {
         "name": "Warlord's Challenge",
@@ -63,7 +63,7 @@
         "tooltipId": "GarroshGroundbreakerWarbreaker",
         "talentTreeId": "GarroshGroundbreakerWarbreaker",
         "name": "Warbreaker",
-        "description": "Quest: Pull Heroes with Groundbreaker. Reward: After pulling 5 Heroes, Groundbreaker deals an additional 150 damage over 3 seconds to Heroes. Reward: After pulling 15 Heroes, reduce Groundbreaker's cooldown by 3 seconds.",
+        "description": "Quest: Stun Heroes with Groundbreaker. Reward: After Stunning 5 Heroes, Groundbreaker deals an additional 150 damage over 3 seconds to Heroes. Reward: After Stunning 15 Heroes, permanently reduce Groundbreaker's cooldown by 3 seconds.",
         "icon": "storm_ui_icon_garrosh_groundbreaker.png",
         "sort": 1,
         "abilityId": "Garrosh|Q1"
@@ -103,7 +103,7 @@
         "talentTreeId": "GarroshBloodthirstThirstforBattle",
         "name": "Thirst for Battle",
         "description": "Basic Attacks against Heroes reduce the cooldown of Bloodthirst by 2 seconds.",
-        "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
+        "icon": "storm_ui_icon_garrosh_bloodthirst_var1.png",
         "sort": 2,
         "abilityId": "Garrosh|Passive"
       },
@@ -184,7 +184,7 @@
         "tooltipId": "GarroshGroundbreakerDefensiveMeasures",
         "talentTreeId": "GarroshGroundbreakerDefensiveMeasures",
         "name": "Defensive Measures",
-        "description": "Pulling a Hero with Groundbreaker grants Garrosh a 350 (+4% per level) Shield for 6 seconds.",
+        "description": "If Groundbreaker Stuns a Hero, Garrosh gains a 350 (+4% per level) Shield for 6 seconds.",
         "icon": "storm_ui_icon_garrosh_groundbreaker.png",
         "sort": 1,
         "abilityId": "Garrosh|Q1"
@@ -213,7 +213,7 @@
         "tooltipId": "GarroshGroundbreakerRoughLanding",
         "talentTreeId": "GarroshGroundbreakerRoughLanding",
         "name": "Rough Landing",
-        "description": "Heroes pulled by Groundbreaker are Slowed by 50% for 3 seconds.",
+        "description": "Increase Groundbreaker's Slow amount by 20% and duration by 1 second.",
         "icon": "storm_ui_icon_garrosh_groundbreaker.png",
         "sort": 1,
         "abilityId": "Garrosh|Q1"
@@ -222,7 +222,7 @@
         "tooltipId": "GarroshGroundbreakerMortalCombo",
         "talentTreeId": "GarroshGroundbreakerMortalCombo",
         "name": "Mortal Combo",
-        "description": "If Wrecking Ball is used on a Hero within 2 seconds of pulling them with Groundbreaker, Wrecking Ball's cooldown is reduced by 10 seconds.",
+        "description": "If Wrecking Ball is used on a Hero within 3 seconds of Stunning them with Groundbreaker, Wrecking Ball's cooldown is reduced by 8 seconds.",
         "icon": "storm_ui_icon_garrosh_groundbreaker_var1.png",
         "sort": 2,
         "abilityId": "Garrosh|Q1"

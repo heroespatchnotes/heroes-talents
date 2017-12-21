@@ -37,15 +37,15 @@
         "description": "Bind Alexstrasa's life force with an allied Hero. After 2 seconds, the Hero with a lower percentage of Health is set to the same Health percentage as the other Hero.",
         "hotkey": "R",
         "abilityId": "Alexstrasza|R1",
-        "cooldown": 75,
-        "manaCost": "100"
+        "cooldown": 60,
+        "manaCost": "80"
       },
       {
         "name": "Cleansing Flame",
-        "description": "After 1.25 seconds, take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 150 (+4% per level) damage to enemies and heal allied Heroes for 300 (+4% per level) Health.  2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
+        "description": "After 1.25 seconds, take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 135 (+4% per level) damage to enemies and heal allied Heroes for 300 (+4% per level) Health.  2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
         "hotkey": "R",
         "abilityId": "Alexstrasza|R2",
-        "cooldown": 90,
+        "cooldown": 100,
         "manaCost": "100"
       },
       {
@@ -155,17 +155,17 @@
         "icon": "storm_ui_icon_alexstrasza_life_binder.png",
         "sort": 1,
         "abilityId": "Alexstrasza|R1",
-        "cooldown": 75
+        "cooldown": 60
       },
       {
         "tooltipId": "AlexstraszaCleansingFlame",
         "talentTreeId": "AlexstraszaCleansingFlame",
         "name": "Cleansing Flame",
-        "description": "After 1.25 seconds, take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 150 (+4% per level) damage to enemies and heal allied Heroes for 300 (+4% per level) Health.  2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
+        "description": "After 1.25 seconds, take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 135 (+4% per level) damage to enemies and heal allied Heroes for 300 (+4% per level) Health.  2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
         "icon": "storm_ui_icon_alexstrasza_cleansing_flame.png",
         "sort": 2,
         "abilityId": "Alexstrasza|R2",
-        "cooldown": 90
+        "cooldown": 100
       }
     ],
     "13": [
@@ -222,7 +222,7 @@
         "tooltipId": "AlexstraszaDraconicDisciplineDragonqueen",
         "talentTreeId": "AlexstraszaDraconicDisciplineDragonqueen",
         "name": "Draconic Discipline",
-        "description": "Increase Dragonqueen's duration by 9 seconds.",
+        "description": "Increase Dragonqueen's duration by 7 seconds.",
         "icon": "storm_ui_icon_alexstrasza_dragon_queen.png",
         "sort": 3,
         "abilityId": "Alexstrasza|D1"
