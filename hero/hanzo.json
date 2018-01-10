@@ -19,7 +19,7 @@
       },
       {
         "name": "Scatter Arrow",
-        "description": "Fire an arrow that deals 93 (+4% per level) to the first enemy Hero hit. Scatter Arrow can collide with terrain and Structures, splitting into 5 arrows that travel extra distance, ricochet up to 4 additional times, and deal 93 (+4% per level) damage each to the first enemy hit.",
+        "description": "Fire an arrow that deals 90 (+4% per level) to the first enemy Hero hit. Scatter Arrow can collide with terrain and Structures, splitting into 5 arrows that travel extra distance, ricochet up to 4 additional times, and deal 90 (+4% per level) damage each to the first enemy hit.",
         "hotkey": "W",
         "abilityId": "Hanzo|W1",
         "cooldown": 8,
@@ -55,7 +55,7 @@
         "hotkey": "D",
         "trait": true,
         "abilityId": "Hanzo|D1",
-        "cooldown": 25
+        "cooldown": 20
       }
     ]
   },
@@ -120,21 +120,12 @@
     ],
     "7": [
       {
-        "tooltipId": "HanzoShieldbreakerArrows",
-        "talentTreeId": "HanzoShieldbreakerArrows",
-        "name": "Shieldbreaker Arrows",
-        "description": "Basic Attacks and Storm Bow deal 250% bonus damage to Shields on Heroic targets.",
-        "icon": "storm_ui_icon_hanzo_shieldbreaker.png",
-        "sort": 1,
-        "abilityId": "Hanzo|Q1"
-      },
-      {
         "tooltipId": "HanzoTheDragonHungers",
         "talentTreeId": "HanzoTheDragonHungers",
         "name": "The Dragon Hungers",
         "description": "Hitting a Hero with Storm Bow grants 5% Spell Power for 10 seconds, stacking up to 20%.",
         "icon": "storm_ui_icon_hanzo_draconicadvantage.png",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Hanzo|Q1"
       },
       {
@@ -143,6 +134,15 @@
         "name": "Never Outmatched",
         "description": "Reduce Scatter Arrow's Mana cost from 40 to 20. Basic Attacks lower the cooldown of Scatter Arrow by 4 seconds.",
         "icon": "storm_ui_icon_hanzo_scatterarrow.png",
+        "sort": 2,
+        "abilityId": "Hanzo|W1"
+      },
+      {
+        "tooltipId": "HanzoSharpenedArrowheads",
+        "talentTreeId": "HanzoSharpenedArrowheads",
+        "name": "Sharpened Arrowheads",
+        "description": "Hitting a Hero with Storm Bow or Basic Attacks reduces their Armor by 5 for 4 seconds, up to a maximum reduction of 25 Armor.",
+        "icon": "storm_ui_icon_hanzo_shieldbreaker.png",
         "sort": 3,
         "abilityId": "Hanzo|W1"
       }
@@ -192,7 +192,7 @@
         "tooltipId": "HanzoMountedArchery",
         "talentTreeId": "HanzoMountedArchery",
         "name": "Mounted Archery",
-        "description": "Upon mounting, gain 30% additional Movement Speed for 5 seconds. Using Natural Agility instantly mounts.",
+        "description": "Upon mounting, gain 20% additional Movement Speed for 5 seconds. Using Natural Agility instantly mounts.",
         "icon": "storm_ui_icon_hanzo_grabthereins.png",
         "sort": 3,
         "abilityId": "Hanzo|Passive"
@@ -221,7 +221,7 @@
         "tooltipId": "HanzoGiantSlayer",
         "talentTreeId": "HanzoGiantSlayer",
         "name": "Giant Slayer",
-        "description": "Enemy Heroes hit by Scatter Arrow and Basic Attacks take a bonus 1.25% of their maximum Health as damage.",
+        "description": "Enemy Heroes hit by Scatter Arrow and Basic Attacks take a bonus 1.5% of their maximum Health as damage.",
         "icon": "storm_ui_icon_hanzo_kaijuhunter.png",
         "sort": 3,
         "abilityId": "Hanzo|Passive"
@@ -247,22 +247,22 @@
         "abilityId": "Hanzo|R2"
       },
       {
-        "tooltipId": "HanzoSharpenedArrowheads",
-        "talentTreeId": "HanzoSharpenedArrowheads",
-        "name": "Sharpened Arrowheads",
-        "description": "Scatter Arrow limits the maximum Armor for Heroes hit to 0 for 5 seconds.",
-        "icon": "storm_ui_icon_hanzo_scatterarrow.png",
-        "sort": 3,
-        "abilityId": "Hanzo|W1"
-      },
-      {
         "tooltipId": "HanzoBullseye",
         "talentTreeId": "HanzoBullseye",
         "name": "Bullseye",
         "description": "Increase Sonic Arrow's speed and center radius by 100%. Additionally, Heroes hit by Sonic Arrow's center are Stunned for 1 second.",
         "icon": "storm_ui_icon_hanzo_sonicarrow.png",
-        "sort": 4,
+        "sort": 3,
         "abilityId": "Hanzo|E1"
+      },
+      {
+        "tooltipId": "HanzoPerfectAgility",
+        "talentTreeId": "HanzoPerfectAgility",
+        "name": "Perfect Agility",
+        "description": "Natural Agility gains a 2nd charge and its cooldown is reduced by 5 seconds.",
+        "icon": "storm_ui_icon_hanzo_wallvault.png",
+        "sort": 4,
+        "abilityId": "Hanzo|D1"
       }
     ]
   }

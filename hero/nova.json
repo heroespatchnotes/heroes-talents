@@ -11,7 +11,7 @@
     "Nova": [
       {
         "name": "Snipe",
-        "description": "Deal 245 (+4% per level) damage to the first enemy hit.  Passive: Hitting an enemy Hero with Snipe permanently increases the damage of Snipe by 5%, stacking up to 25%. Gain an additional 25% damage bonus at maximum stacks. All stacks are lost if Snipe fails to hit an enemy.",
+        "description": "Deal 230 (+4% per level) damage to the first enemy hit.  Passive: Hitting an enemy Hero with Snipe permanently increases the damage of Snipe by 6%, stacking up to 30%. Gain an additional 25% damage bonus at maximum stacks. All stacks are lost if Snipe fails to hit an enemy.",
         "hotkey": "Q",
         "abilityId": "Nova|Q1",
         "cooldown": 6,
@@ -19,7 +19,7 @@
       },
       {
         "name": "Pinning Shot",
-        "description": "Deal 105 (+4% per level) damage to an enemy and slow it by 40% for 2.25 seconds.",
+        "description": "Deal 100 (+4% per level) damage to an enemy and slow it by 40% for 2.25 seconds.",
         "hotkey": "W",
         "abilityId": "Nova|W1",
         "cooldown": 12,
@@ -43,7 +43,7 @@
       },
       {
         "name": "Precision Strike",
-        "description": "After a 1.5 second delay, deals 456 (+4% per level) damage to enemies within an area. Unlimited range.",
+        "description": "After a 1.5 second delay, deals 435 (+4% per level) damage to enemies within an area. Unlimited range.",
         "hotkey": "R",
         "abilityId": "Nova|R2",
         "cooldown": 60,
@@ -128,7 +128,7 @@
         "tooltipId": "NovaPerfectShotTalent",
         "talentTreeId": "NovaMasteryPerfectShotSnipe",
         "name": "Perfect Shot",
-        "description": "Hitting an enemy Hero with Snipe reduces the cooldown by 2 seconds. ",
+        "description": "Hitting an enemy Hero with Snipe reduces the cooldown by 3 seconds. ",
         "icon": "storm_ui_icon_nova_snipe.png",
         "sort": 1,
         "abilityId": "Nova|Q1"
@@ -137,7 +137,7 @@
         "tooltipId": "NovaOneintheChamberTalent",
         "talentTreeId": "NovaCombatStyleOneintheChamber",
         "name": "One in the Chamber",
-        "description": "After using an Ability, Nova's next Basic Attack within 3 seconds deals 70% additional damage.",
+        "description": "After using an Ability, Nova's next Basic Attack within 3 seconds deals 60% additional damage.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 2,
         "abilityId": "Nova|Passive"
@@ -226,7 +226,7 @@
         "tooltipId": "NovaHoloDecoyLethalDecoyTalent",
         "talentTreeId": "NovaMasteryLethalDecoy",
         "name": "Lethal Decoy",
-        "description": "Increases the damage Holo Decoy deals to 40% of Nova's damage.",
+        "description": "Increases the damage Holo Decoy deals to 35% of Nova's damage.",
         "icon": "storm_ui_icon_nova_holodecoy.png",
         "sort": 3,
         "abilityId": "Nova|E1"
