@@ -11,11 +11,11 @@
     "Garrosh": [
       {
         "name": "Groundbreaker",
-        "description": "Deal 81 (+4% per level) damage to enemies in an area. Heroes hit on the outer edge are Stunned for 0.75 seconds and then Slowed by 30% for 2 seconds.",
+        "description": "Deal 81 (+4% per level) damage to enemies in an area. Heroes hit on the outer edge are Stunned for 0.75 seconds and then Slowed by 35% for 2 seconds.",
         "hotkey": "Q",
         "abilityId": "Garrosh|Q1",
-        "cooldown": 8,
-        "manaCost": "35"
+        "cooldown": 7,
+        "manaCost": "30"
       },
       {
         "name": "Bloodthirst",
@@ -30,8 +30,8 @@
         "description": "Throw a nearby enemy Hero, Minion, or Mercenary to the target location, dealing 91 (+4% per level) damage to enemies near the impact and Slowing them by 30% for 2.5 seconds.",
         "hotkey": "E",
         "abilityId": "Garrosh|E1",
-        "cooldown": 14,
-        "manaCost": "65"
+        "cooldown": 12,
+        "manaCost": "60"
       },
       {
         "name": "Warlord's Challenge",
@@ -63,7 +63,7 @@
         "tooltipId": "GarroshGroundbreakerWarbreaker",
         "talentTreeId": "GarroshGroundbreakerWarbreaker",
         "name": "Warbreaker",
-        "description": "Quest: Stun Heroes with Groundbreaker. Reward: After Stunning 5 Heroes, Groundbreaker deals an additional 150 damage over 3 seconds to Heroes. Reward: After Stunning 15 Heroes, permanently reduce Groundbreaker's cooldown by 3 seconds.",
+        "description": "Quest: Stun Heroes with Groundbreaker. Reward: After Stunning 5 Heroes, Groundbreaker deals an additional 165 damage over 3 seconds to Heroes. Reward: After Stunning 15 Heroes, permanently reduce Groundbreaker's cooldown by 2 seconds.",
         "icon": "storm_ui_icon_garrosh_groundbreaker.png",
         "sort": 1,
         "abilityId": "Garrosh|Q1"
@@ -72,7 +72,7 @@
         "tooltipId": "GarroshWreckingBallUnrivaledStrength",
         "talentTreeId": "GarroshWreckingBallUnrivaledStrength",
         "name": "Unrivaled Strength",
-        "description": "Increase Wrecking Ball's throw range by 30% and its damage by 125%.",
+        "description": "Increase Wrecking Ball's throw range by 30% and its damage by 75%.",
         "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
         "sort": 2,
         "abilityId": "Garrosh|E1"
@@ -154,7 +154,7 @@
         "icon": "storm_ui_icon_garrosh_intothefray.png",
         "sort": 4,
         "abilityId": "Garrosh|Active",
-        "cooldown": 40
+        "cooldown": 45
       }
     ],
     "10": [
@@ -213,7 +213,7 @@
         "tooltipId": "GarroshGroundbreakerRoughLanding",
         "talentTreeId": "GarroshGroundbreakerRoughLanding",
         "name": "Rough Landing",
-        "description": "Increase Groundbreaker's Slow amount by 20% and duration by 1 second.",
+        "description": "Increase Groundbreaker's Slow amount by 15% and duration by 1 second.",
         "icon": "storm_ui_icon_garrosh_groundbreaker.png",
         "sort": 1,
         "abilityId": "Garrosh|Q1"
@@ -222,7 +222,7 @@
         "tooltipId": "GarroshGroundbreakerMortalCombo",
         "talentTreeId": "GarroshGroundbreakerMortalCombo",
         "name": "Mortal Combo",
-        "description": "If Wrecking Ball is used on a Hero within 3 seconds of Stunning them with Groundbreaker, Wrecking Ball's cooldown is reduced by 8 seconds.",
+        "description": "If Wrecking Ball is used on a Hero within 3 seconds of Stunning them with Groundbreaker, Wrecking Ball's cooldown is reduced by 7 seconds.",
         "icon": "storm_ui_icon_garrosh_groundbreaker_var1.png",
         "sort": 2,
         "abilityId": "Garrosh|Q1"
@@ -231,7 +231,7 @@
         "tooltipId": "GarroshWreckingBallEarthshaker",
         "talentTreeId": "GarroshWreckingBallEarthshaker",
         "name": "Earthshaker",
-        "description": "Wrecking Ball Stuns enemies near the impact area for 0.6 seconds.",
+        "description": "Wrecking Ball Stuns enemies near the impact area for 0.5 seconds.",
         "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
         "sort": 3,
         "abilityId": "Garrosh|E1"
