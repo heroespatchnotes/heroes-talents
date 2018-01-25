@@ -59,7 +59,7 @@
     "ValeeraVanish": [
       {
         "name": "Ambush",
-        "description": "Ambush an enemy, dealing 130 (+4% per level) damage and reducing their Armor by 10 for 4 seconds.  Awards 1 Combo Point.  Unstealth: Sinister Strike: Dash forward, damaging enemies.",
+        "description": "Ambush an enemy, dealing 130 (+4% per level) damage and reducing their Armor by 10 for 5 seconds.  Awards 1 Combo Point.  Unstealth: Sinister Strike: Dash forward, damaging enemies.",
         "hotkey": "Q",
         "abilityId": "Valeera|Q2",
         "cooldown": 1,
@@ -89,7 +89,7 @@
         "tooltipId": "ValeeraVigor",
         "talentTreeId": "ValeeraVigor",
         "name": "Vigor",
-        "description": "Valeera regenerates an additional 2 Energy per second. Reward: After Gathering 20 Regen Globes, increase Valeera's maximum Energy to 120.",
+        "description": "Valeera regenerates an additional 2.5 Energy per second. Reward: After Gathering 20 Regen Globes, increase Valeera's maximum Energy to 120.",
         "icon": "storm_ui_icon_talent_conjurerspursuit.png",
         "sort": 1,
         "abilityId": "Valeera|Passive"
@@ -107,7 +107,7 @@
         "tooltipId": "ValeeraCombatReadiness",
         "talentTreeId": "ValeeraCombatReadiness",
         "name": "Combat Readiness",
-        "description": "Each Combo Point spent grants 60 Physical Armor against the next enemy Hero Basic Attack, reducing its damage by 50%. Stores up to 3 charges.",
+        "description": "Each Combo Point spent grants 75 Physical Armor against the next enemy Hero Basic Attack, reducing its damage by 75%. Stores up to 3 charges.",
         "icon": "storm_ui_icon_talent_block.png",
         "sort": 3,
         "abilityId": "Valeera|Passive"
@@ -128,7 +128,7 @@
         "tooltipId": "ValeeraRelentlessStrikes",
         "talentTreeId": "ValeeraSinisterStrikeRelentlessStrikes",
         "name": "Relentless Strikes",
-        "description": "Reduces the Energy cost of Sinister Strike by 10.",
+        "description": "Reduces the Energy cost of Sinister Strike by 15.",
         "icon": "storm_ui_icon_valeera_sinisterstrike.png",
         "sort": 1,
         "abilityId": "Valeera|Q1"
@@ -167,7 +167,7 @@
         "tooltipId": "ValeeraMutilate",
         "talentTreeId": "ValeeraSinisterStrikeMutilate",
         "name": "Mutilate",
-        "description": "Sinister Strike now hits with both blades, dealing 100% additional damage, but its range is reduced by 1.",
+        "description": "Sinister Strike now hits with both blades, dealing 125% additional damage, but its range is reduced by 1.",
         "icon": "storm_ui_icon_valeera_sinisterstrike.png",
         "sort": 1,
         "abilityId": "Valeera|Q1"
@@ -176,7 +176,7 @@
         "tooltipId": "ValeeraFatalFinesse",
         "talentTreeId": "ValeeraBladeFlurryFatalFinesse",
         "name": "Fatal Finesse",
-        "description": "Quest: Each time Blade Flurry damages an enemy Hero, its damage increases by 3, up to 60. Reward: After damaging 20 Heroes with Blade Flurry, permanently reduce its Energy cost by 20.",
+        "description": "Quest: Each time Blade Flurry damages an enemy Hero, its damage increases by 4, up to 80. Reward: After damaging 20 Heroes with Blade Flurry, permanently reduce its Energy cost by 20.",
         "icon": "storm_ui_icon_valeera_bladeflurry.png",
         "sort": 2,
         "abilityId": "Valeera|W1"
@@ -227,7 +227,7 @@
         "tooltipId": "ValeeraBlind",
         "talentTreeId": "ValeeraCheapShotBlind",
         "name": "Blind",
-        "description": "Increase the duration of Cheap Shot's Blind by 2 seconds.",
+        "description": "Increase the duration of Cheap Shot's Blind by 2.5 seconds.",
         "icon": "storm_ui_icon_valeera_cheapshot.png",
         "sort": 2,
         "abilityId": "Valeera|W2"
@@ -277,7 +277,7 @@
         "tooltipId": "ValeeraAdrenalineRush",
         "talentTreeId": "ValeeraSmokeBombAdrenalineRush",
         "name": "Adrenaline Rush",
-        "description": "While in the Smoke Bomb, Valeera regenerates an additional 30 Energy per second.",
+        "description": "While in the Smoke Bomb, Valeera regenerates an additional 40 Energy per second.",
         "icon": "storm_ui_icon_valeera_smokebomb.png",
         "sort": 1,
         "abilityId": "Valeera|R1"

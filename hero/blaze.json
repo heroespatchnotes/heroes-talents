@@ -35,7 +35,7 @@
       },
       {
         "name": "Bunker Drop",
-        "description": "After 0.5 seconds, deploy and enter a Bunker with 1305 (+4% per level) Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 179 (+4% per level) damage to enemies in a line. Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.",
+        "description": "After 0.5 seconds, deploy and enter a Bunker with 1435 (+4% per level) Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 179 (+4% per level) damage to enemies in a line. Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.",
         "hotkey": "R",
         "abilityId": "Blaze|R1",
         "cooldown": 40,
@@ -106,7 +106,7 @@
         "tooltipId": "FirebatFlameStreamFeedingtheFlame",
         "talentTreeId": "FirebatFlameStreamFeedingtheFlame",
         "name": "Feeding the Flame",
-        "description": "Each enemy Hero hit by Flame Stream reduces the cooldown of Oil Spill by 1.5 seconds.",
+        "description": "Each enemy Hero hit by Flame Stream reduces the cooldown of Oil Spill by 2 seconds.",
         "icon": "storm_ui_icon_blaze_flame.png",
         "sort": 1,
         "abilityId": "Blaze|Q1"
@@ -144,7 +144,7 @@
         "tooltipId": "FirebatFlameStreamCrossfire",
         "talentTreeId": "FirebatFlameStreamCrossfire",
         "name": "Crossfire",
-        "description": "Hitting an emeny with both streams of Flame Stream deals 132 (+4% per level) bonus damage.",
+        "description": "Hitting an emeny with both streams of Flame Stream deals 139 (+4% per level) bonus damage.",
         "icon": "storm_ui_icon_blaze_flame.png",
         "sort": 1,
         "abilityId": "Blaze|Q1"
@@ -153,7 +153,7 @@
         "tooltipId": "FirebatOilSpillGrillandKill",
         "talentTreeId": "FirebatOilSpillGrillandKill",
         "name": "Grill and Kill",
-        "description": "Quest: Damage enemy Heroes with Ignited Oil Spills 60 times. Reward: Increase Oil Spill's Ignite duration by 2 seconds, and damage by 25%.",
+        "description": "Quest: Damage enemy Heroes with Ignited Oil Spills 60 times. Reward: Increase Oil Spill's Ignite duration by 2 seconds, and damage by 20%.",
         "icon": "storm_ui_icon_blaze_oil.png",
         "sort": 2,
         "abilityId": "Blaze|W1"
@@ -162,7 +162,7 @@
         "tooltipId": "FirebatWeaponIncineratorGauntlets",
         "talentTreeId": "FirebatWeaponIncineratorGauntlets",
         "name": "Incinerator Gauntlets",
-        "description": "Increase Basic Attack area by 15%, and Basic Attack damage to Minions, Mercenaries, and Monsters by 50%. Additionally, Basic Attack splashes Ignite Oil Spills.",
+        "description": "Increase Basic Attack area by 15%, and Basic Attack damage to Minions, Mercenaries, and Monsters by 70%. Additionally, Basic Attack splashes Ignite Oil Spills.",
         "icon": "storm_ui_icon_talent_autoattack_slow.png",
         "sort": 3,
         "abilityId": "Blaze|Passive"
@@ -173,7 +173,7 @@
         "tooltipId": "FirebatBunkerDrop",
         "talentTreeId": "FirebatHeroicAbilityBunkerDrop",
         "name": "Bunker Drop",
-        "description": "After 0.5 seconds, deploy and enter a Bunker with 1305 (+4% per level) Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 179 (+4% per level) damage to enemies in a line. Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.",
+        "description": "After 0.5 seconds, deploy and enter a Bunker with 1435 (+4% per level) Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 179 (+4% per level) damage to enemies in a line. Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.",
         "icon": "storm_ui_icon_blaze_bunker.png",
         "sort": 1,
         "abilityId": "Blaze|R1",
@@ -195,7 +195,7 @@
         "tooltipId": "FirebatFlameStreamSuppressiveFire",
         "talentTreeId": "FirebatFlameStreamSuppressiveFire",
         "name": "Suppressive Fire",
-        "description": "Each stream of Flame Stream reduces the Spell Power of Heroes hit by 15% for 4 seconds, up to 30%.",
+        "description": "Each stream of Flame Stream reduces the Spell Power of Heroes hit by 20% for 4 seconds, up to 40%.",
         "icon": "storm_ui_icon_blaze_flame.png",
         "sort": 1,
         "abilityId": "Blaze|Q1"
@@ -204,7 +204,7 @@
         "tooltipId": "FirebatOilSpillNanomachineCoating",
         "talentTreeId": "FirebatOilSpillNanomachineCoating",
         "name": "Nanomachine Coating",
-        "description": "Enemies standing in Oil Spills have their Attack Speed reduced by 40% for 2.5 seconds.",
+        "description": "Enemies standing in Oil Spills and Ignited Oil Spills have their Attack Speed reduced by 40% for 2.5 seconds.",
         "icon": "storm_ui_icon_blaze_oil.png",
         "sort": 2,
         "abilityId": "Blaze|W1"
@@ -242,7 +242,7 @@
         "tooltipId": "FirebatActiveJuggernautPlating",
         "talentTreeId": "FirebatActiveJuggernautPlating",
         "name": "Juggernaut Plating",
-        "description": "Activate to gain 50 Spell Armor for 3 seconds. Upon expiration, gain a Shield equal to 100% of the Spell Damage reduced by Juggernaut Plating.",
+        "description": "Activate to gain 50 Spell Armor for 3 seconds. Upon expiration, gain a Shield equal to 125% of the Spell Damage reduced by Juggernaut Plating.",
         "icon": "storm_ui_icon_blaze_vanadium_plating.png",
         "sort": 3,
         "abilityId": "Blaze|Active",
