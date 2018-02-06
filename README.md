@@ -105,6 +105,7 @@ Example:
 * [HeroesPatchNotes.com](https://heroespatchnotes.com)
 * [HeroesInfoBot](https://www.reddit.com/r/heroesofthestorm/comments/6zwyfw/heroesinfobot_abilities_talent_tiers_cooldowns/) on reddit's [/r/heroesofthestorm](https://www.reddit.com/r/heroesofthestorm/)
 * [HotsApi](http://hotsapi.net/docs)
+* [Hots-Info-Bot](https://discordbots.org/bot/407735948667912214) discord chatbot
 
 ## Heroes
 
