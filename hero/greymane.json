@@ -11,11 +11,11 @@
     "Greymane": [
       {
         "name": "Gilnean Cocktail",
-        "description": "Hurl a flask that deals 59 (+4% per level) damage to the first enemy hit and explodes for 236 (+4% per level) damage to enemies in a cone behind them.  Worgen: Razor Swipe  Swipe forward and damage enemies you pass through.",
+        "description": "Hurl a flask that deals 55 (+4% per level) damage to the first enemy hit and explodes for 220 (+4% per level) damage to enemies in a cone behind them.  Worgen: Razor Swipe  Swipe forward and damage enemies you pass through.",
         "hotkey": "Q",
         "abilityId": "Greymane|Q1",
         "cooldown": 10,
-        "manaCost": "70"
+        "manaCost": "55"
       },
       {
         "name": "Inner Beast",
@@ -59,7 +59,7 @@
     "GreymaneWorgen": [
       {
         "name": "Razor Swipe",
-        "description": "Swipe towards the area in front of you for 135 (+4% per level) damage.  Human: Gilnean Cocktail  Damage the first enemy hit and deal heavy damage behind them.",
+        "description": "Swipe towards the area in front of you for 126 (+4% per level) damage.  Human: Gilnean Cocktail  Damage the first enemy hit and deal heavy damage behind them.",
         "hotkey": "Q",
         "abilityId": "Greymane|Q2",
         "cooldown": 3,
@@ -89,7 +89,7 @@
         "tooltipId": "GreymaneGilneanCocktailPerfectAimTalent",
         "talentTreeId": "GreymaneGilneanCocktailPerfectAim",
         "name": "Perfect Aim",
-        "description": "Increases Gilnean Cocktail's range by 30% and refunds 50 Mana if it hits an enemy Hero.",
+        "description": "Increases Gilnean Cocktail's range by 30% and refunds 35 Mana if it hits an enemy Hero.",
         "icon": "storm_ui_icon_greymane_qattack.png",
         "sort": 2,
         "abilityId": "Greymane|Q1"
@@ -131,15 +131,6 @@
         "icon": "storm_ui_icon_greymane_beastfocus.png",
         "sort": 3,
         "abilityId": "Greymane|W1"
-      },
-      {
-        "tooltipId": "GreymaneGilneanCocktailDraughtOverflowTalent",
-        "talentTreeId": "GreymaneGilneanCocktailDraughtOverflow",
-        "name": "Draught Overflow",
-        "description": "Increases Gilnean Cocktail's explosion length by 35%.",
-        "icon": "storm_ui_icon_greymane_qattack.png",
-        "sort": 4,
-        "abilityId": "Greymane|Q1"
       }
     ],
     "7": [
@@ -165,7 +156,7 @@
         "tooltipId": "GreymaneWizenedDuelistTalent",
         "talentTreeId": "GreymaneWizenedDuelist",
         "name": "Wizened Duelist",
-        "description": "Quest: Hero takedowns increase Basic Attack damage by 3%, up to 30%. This bonus is lost on death.",
+        "description": "Quest: Every 6 Human Basic Attacks against Heroes increase Basic Attack damage by 1%, up to 30%. Worgen Basic Attacks grant credit for 3 Basic Attacks. Half of this bonus is lost upon death.",
         "icon": "storm_ui_icon_greymane_curseoftheworgen_var1.png",
         "sort": 3,
         "abilityId": "Greymane|Passive"
