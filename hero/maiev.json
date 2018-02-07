@@ -1,0 +1,260 @@
+{
+  "id": "77",
+  "shortName": "maiev",
+  "attributeId": "Maie",
+  "name": "Maiev",
+  "icon": "maiev.png",
+  "role": "Assassin",
+  "type": "Melee",
+  "releaseDate": "2018-02-06",
+  "abilities": {
+    "Maiev": [
+      {
+        "name": "Fan of Knives",
+        "description": "Deal 180 (+4% per level) damage to enemies in a crescent area.  Hitting at least 2 enemy Heroes with Fan of Knives reduces its cooldown to 0.5 seconds, and refunds its Mana cost.",
+        "hotkey": "Q",
+        "abilityId": "Maiev|Q1",
+        "cooldown": 4,
+        "manaCost": "30"
+      },
+      {
+        "name": "Umbral Bind",
+        "description": "Maiev's next Basic Attack cleaves and applies a tether to enemy Heroes hit for 2.5 seconds. If a tethered Hero moves too far from Maiev, they are pulled toward her, dealing 110 (+4% per level) damage and breaking the tether.",
+        "hotkey": "W",
+        "abilityId": "Maiev|W1",
+        "cooldown": 12,
+        "manaCost": "55"
+      },
+      {
+        "name": "Spirit of Vengeance",
+        "description": "Send a shadow of Maiev outward that will return to its cast location, dealing 100 (+4% per level) damage to enemies along both paths. Deals 100% more damage to enemy Heroes.  Reactivate to Blink to the shadow's location.",
+        "hotkey": "E",
+        "abilityId": "Maiev|E1",
+        "cooldown": 10,
+        "manaCost": "50"
+      },
+      {
+        "name": "Containment Disc",
+        "description": "Throw a glaive in the target direction. If an enemy Hero is hit, Containment Disc can be reactivated to remove their vision and Time Stop them for 4 seconds.  Containment Disc automatically activates 6 seconds after hitting a Hero.",
+        "hotkey": "R",
+        "abilityId": "Maiev|R1",
+        "cooldown": 65,
+        "manaCost": "60"
+      },
+      {
+        "name": "Warden's Cage",
+        "description": "Summon 8 Warden Avatars as a cage around Maiev. After 1.5 seconds, enemy Heroes that come in contact with an Avatar consume it and are knocked to the center of the cage. Warden Avatars last 7 seconds.",
+        "hotkey": "R",
+        "abilityId": "Maiev|R2",
+        "cooldown": 80,
+        "manaCost": "80"
+      },
+      {
+        "name": "Vault of the Wardens",
+        "description": "Leap into the air, becoming immune to all hostile effects for 0.75 seconds.  Passive: Maiev has 10 Armor.",
+        "hotkey": "D",
+        "trait": true,
+        "abilityId": "Maiev|D1",
+        "cooldown": 8
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "tooltipId": "MaievUmbralBindBondsOfJustice",
+        "talentTreeId": "MaievUmbralBindBondsOfJustice",
+        "name": "Bonds of Justice",
+        "description": "Quest: Each tether applied to a secondary target of Umbral Bind permanently increases Umbral Bind's pull damage by 15. Reward: After applying 5 tethers to secondary targets, increase Umbral Bind's pull damage by 75. Reward: After applying 10 tethers to secondary targets, increase Umbral Bind's cleave damage by 30%.",
+        "icon": "storm_ui_icon_maiev_umbra_1.png",
+        "sort": 1,
+        "abilityId": "Maiev|W1"
+      },
+      {
+        "tooltipId": "MaievUmbralBindPursuitOfVengeance",
+        "talentTreeId": "MaievUmbralBindPursuitOfVengeance",
+        "name": "Pursuit of Vengeance",
+        "description": "Each Hero tethered by Umbral Bind reduces the cooldown of Spirit of Vengeance by 1.5 seconds.",
+        "icon": "storm_ui_icon_maiev_pursuit_vengeance.png",
+        "sort": 2,
+        "abilityId": "Maiev|W1"
+      },
+      {
+        "tooltipId": "MaievFanOfKnivesNaishasMemento",
+        "talentTreeId": "MaievFanOfKnivesNaishasMemento",
+        "name": "Naisha's Memento",
+        "description": "Activate to make primary Basic Attacks bounce between nearby enemies up to 2 times, dealing 30% more damage to bounce targets. Lasts 8 seconds.  Recharge Naisha's Memento by hitting at least 2 Heroes with a single Fan of Knives.",
+        "icon": "storm_ui_icon_maiev_memento.png",
+        "sort": 3,
+        "abilityId": "Maiev|Active"
+      }
+    ],
+    "4": [
+      {
+        "tooltipId": "MaievFanOfKnivesPinDown",
+        "talentTreeId": "MaievFanOfKnivesPinDown",
+        "name": "Pin Down",
+        "description": "Quest: Hit 3 enemy Heroes with a single Fan of Knives. Reward: Increase Fan of Knives damage by 15%. Reward: Each additional time 3 enemy Heroes are hit by a single Fan of Knives, gain an additional 5% damage, up to 30%. Reward: Hit 4 enemy Heroes with a single Fan of Knives to instantly gain all Rewards.",
+        "icon": "storm_ui_icon_maiev_knives.png",
+        "sort": 1,
+        "abilityId": "Maiev|Q1"
+      },
+      {
+        "tooltipId": "MaievFanOfKnivesBladeDance",
+        "talentTreeId": "MaievFanOfKnivesBladeDance",
+        "name": "Blade Dance",
+        "description": "Using Fan of Knives deals 54 (+4% per level) Physical Damage to enemies around Maiev.",
+        "icon": "storm_ui_icon_maiev_knives_2.png",
+        "sort": 2,
+        "abilityId": "Maiev|Q1"
+      },
+      {
+        "tooltipId": "MaievSpiritOfVengeanceSuddenVengeance",
+        "talentTreeId": "MaievSpiritOfVengeanceSuddenVengeance",
+        "name": "Sudden Vengeance",
+        "description": "Using Blink within 0.35 seconds of Spirit of Vengeance hitting an enemy Hero causes the shadow to explode, damaging all nearby enemy Heroes for 5% of their maximum Health.",
+        "icon": "storm_ui_icon_maiev_rush_2.png",
+        "sort": 3,
+        "abilityId": "Maiev|E1"
+      }
+    ],
+    "7": [
+      {
+        "tooltipId": "MaievFanOfKnivesElunesWrath",
+        "talentTreeId": "MaievFanOfKnivesElunesWrath",
+        "name": "Elune's Wrath",
+        "description": "Hitting at least 2 Heroes with a single Fan of Knives causes the next Fan of Knives to drop a star on targets that deals 77 (+4% per level) damage when it impacts.",
+        "icon": "storm_ui_icon_maiev_knives.png",
+        "sort": 1,
+        "abilityId": "Maiev|Q1"
+      },
+      {
+        "tooltipId": "MaievUmbralBindBondsOfCorruption",
+        "talentTreeId": "MaievUmbralBindBondsOfCorruption",
+        "name": "Bonds of Corruption",
+        "description": "Enemy Heroes pulled by Umbral Bind have their Physical Armor reduced by 25 for 3 seconds.",
+        "icon": "storm_ui_icon_maiev_orb_corruption.png",
+        "sort": 2,
+        "abilityId": "Maiev|W1"
+      },
+      {
+        "tooltipId": "MaievSpiritOfVengeanceRuthlessSpirit",
+        "talentTreeId": "MaievSpiritOfVengeanceRuthlessSpirit",
+        "name": "Ruthless Spirit",
+        "description": "Spirit of Vengeance's damage is increased by 3% per Minion, Mercenary, or enemy Summon hit, and 24% per enemy Hero hit.",
+        "icon": "storm_ui_icon_maiev_rush_1.png",
+        "sort": 3,
+        "abilityId": "Maiev|E1"
+      }
+    ],
+    "10": [
+      {
+        "tooltipId": "MaievContainmentDisc",
+        "talentTreeId": "MaievContainmentDisc",
+        "name": "Containment Disc",
+        "description": "Throw a glaive in the target direction. If an enemy Hero is hit, Containment Disc can be reactivated to remove their vision and Time Stop them for 4 seconds.  Containment Disc automatically activates 6 seconds after hitting a Hero.",
+        "icon": "storm_ui_icon_maiev_heroic_1_a.png",
+        "sort": 1,
+        "abilityId": "Maiev|R1",
+        "cooldown": 65
+      },
+      {
+        "tooltipId": "MaievWardensCage",
+        "talentTreeId": "MaievWardensCage",
+        "name": "Warden's Cage",
+        "description": "Summon 8 Warden Avatars as a cage around Maiev. After 1.5 seconds, enemy Heroes that come in contact with an Avatar consume it and are knocked to the center of the cage. Warden Avatars last 7 seconds.",
+        "icon": "storm_ui_icon_maiev_heroic_2.png",
+        "sort": 2,
+        "abilityId": "Maiev|R2",
+        "cooldown": 80
+      }
+    ],
+    "13": [
+      {
+        "tooltipId": "MaievFanOfKnivesBladedArmor",
+        "talentTreeId": "MaievFanOfKnivesBladedArmor",
+        "name": "Bladed Armor",
+        "description": "Each enemy Hero hit by Fan of Knives grants 5 Armor for 5 seconds, up to 20 Armor.",
+        "icon": "storm_ui_icon_maiev_knives.png",
+        "sort": 1,
+        "abilityId": "Maiev|Q1"
+      },
+      {
+        "tooltipId": "MaievUmbralBindChainGang",
+        "talentTreeId": "MaievUmbralBindChainGang",
+        "name": "Chain Gang",
+        "description": "Tethering at least 2 enemy Heroes with Umbral Bind grants 35 Armor for 4 seconds.",
+        "icon": "storm_ui_icon_maiev_umbra_1.png",
+        "sort": 2,
+        "abilityId": "Maiev|W1"
+      },
+      {
+        "tooltipId": "MaievSpiritOfVengeanceShadowArmor",
+        "talentTreeId": "MaievSpiritOfVengeanceShadowArmor",
+        "name": "Shadow Armor",
+        "description": "Blink grants 25 Armor for 2.5 seconds. Maiev's Basic Attacks against enemy Heroes refresh this duration.",
+        "icon": "storm_ui_icon_maiev_rush_2.png",
+        "sort": 3,
+        "abilityId": "Maiev|E1"
+      }
+    ],
+    "16": [
+      {
+        "tooltipId": "MaievUmbralBindCruelChain",
+        "talentTreeId": "MaievUmbralBindCruelChain",
+        "name": "Cruel Chain",
+        "description": "Umbral Bind grants 25% Movement Speed for 2.5 seconds. In addition, each time Maiev deals damage to tethered targets, Umbral Bind's pull damage to all targets is increased by 40%, up to 200%.",
+        "icon": "storm_ui_icon_maiev_umbra_1.png",
+        "sort": 1,
+        "abilityId": "Maiev|W1"
+      },
+      {
+        "tooltipId": "MaievSpiritOfVengeanceVengefulKnives",
+        "talentTreeId": "MaievSpiritOfVengeanceVengefulKnives",
+        "name": "Vengeful Knives",
+        "description": "For each enemy Hero Spirit of Vengeance hits, Maiev's next Fan of Knives deals 1% maximum Health as bonus damage to enemy Heroes.",
+        "icon": "storm_ui_icon_maiev_vengeful_knives.png",
+        "sort": 2,
+        "abilityId": "Maiev|E1"
+      },
+      {
+        "tooltipId": "MaievArmoredAssault",
+        "talentTreeId": "MaievArmoredAssault",
+        "name": "Armored Assault",
+        "description": "While Maiev has more than 10 Armor of any kind, all Physical Damage dealt is increased by 35%.",
+        "icon": "storm_ui_icon_maiev_heavy_strikes.png",
+        "sort": 3,
+        "abilityId": "Maiev|Passive"
+      }
+    ],
+    "20": [
+      {
+        "tooltipId": "MaievSpiritOfVengeanceShadowOrbVengeance",
+        "talentTreeId": "MaievSpiritOfVengeanceShadowOrbVengeance",
+        "name": "Shadow Orb: Vengeance",
+        "description": "Activate to reset the cooldown of Spirit of Vengeance.  Recharge Shadow Orb by damaging enemy Heroes with Spirit of Vengeance 5 times.",
+        "icon": "storm_ui_icon_maiev_shadoworb_vengeance.png",
+        "sort": 1,
+        "abilityId": "Maiev|Active"
+      },
+      {
+        "tooltipId": "MaievShadowOrbHuntress",
+        "talentTreeId": "MaievShadowOrbHuntress",
+        "name": "Shadow Orb: Huntress",
+        "description": "Activate to increase Movement Speed and Attack Speed by 40% for 5 seconds.  Recharge Shadow Orb by dealing Physical Damage to enemy Heroes 10 times.",
+        "icon": "storm_ui_icon_maiev_shadoworb_relentless.png",
+        "sort": 2,
+        "abilityId": "Maiev|Active"
+      },
+      {
+        "tooltipId": "MaievShadowOrbShadowStrike",
+        "talentTreeId": "MaievShadowOrbShadowStrike",
+        "name": "Shadow Orb: Shadow Strike",
+        "description": "Activate to deal 75 (+4% per level) damage to an enemy Hero, Slowing them by 30% and reducing their Armor by 20 for 4 seconds.  Recharge Shadow Orb by dealing Spell Damage to enemy Heroes 10 times.",
+        "icon": "storm_ui_icon_maiev_shadoworb_strike.png",
+        "sort": 3,
+        "abilityId": "Maiev|Active"
+      }
+    ]
+  }
+}
