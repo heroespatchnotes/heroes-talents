@@ -11,7 +11,7 @@
     "Maiev": [
       {
         "name": "Fan of Knives",
-        "description": "Deal 180 (+4% per level) damage to enemies in a crescent area.  Hitting at least 2 enemy Heroes with Fan of Knives reduces its cooldown to 0.5 seconds, and refunds its Mana cost.",
+        "description": "Deal 170 (+4% per level) damage to enemies in a crescent area.  Hitting at least 2 enemy Heroes with Fan of Knives reduces its cooldown to 0.5 seconds, and refunds its Mana cost.",
         "hotkey": "Q",
         "abilityId": "Maiev|Q1",
         "cooldown": 4,
@@ -51,7 +51,7 @@
       },
       {
         "name": "Vault of the Wardens",
-        "description": "Leap into the air, becoming immune to all hostile effects for 0.75 seconds.  Passive: Maiev has 10 Armor.",
+        "description": "Leap into the air, becoming immune to all hostile effects for 0.75 seconds.",
         "hotkey": "D",
         "trait": true,
         "abilityId": "Maiev|D1",
@@ -83,7 +83,7 @@
         "tooltipId": "MaievFanOfKnivesNaishasMemento",
         "talentTreeId": "MaievFanOfKnivesNaishasMemento",
         "name": "Naisha's Memento",
-        "description": "Activate to make primary Basic Attacks bounce between nearby enemies up to 2 times, dealing 30% more damage to bounce targets. Lasts 8 seconds.  Recharge Naisha's Memento by hitting at least 2 Heroes with a single Fan of Knives.",
+        "description": "Activate to make primary Basic Attacks bounce between nearby enemies up to 2 times. Lasts 8 seconds.  Recharge Naisha's Memento by hitting at least 2 Heroes with a single Fan of Knives.",
         "icon": "storm_ui_icon_maiev_memento.png",
         "sort": 3,
         "abilityId": "Maiev|Active"
@@ -221,7 +221,7 @@
         "tooltipId": "MaievArmoredAssault",
         "talentTreeId": "MaievArmoredAssault",
         "name": "Armored Assault",
-        "description": "While Maiev has more than 10 Armor of any kind, all Physical Damage dealt is increased by 35%.",
+        "description": "While Maiev has positive Armor of any kind, all Physical Damage dealt is increased by 25%.",
         "icon": "storm_ui_icon_maiev_heavy_strikes.png",
         "sort": 3,
         "abilityId": "Maiev|Passive"
