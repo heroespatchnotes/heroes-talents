@@ -30,8 +30,8 @@
         "description": "After a 2 second delay, deal 80 (+4% per level) damage and Root the target enemy Hero for 1.75 seconds.  All nearby Skeletal Warriors will fixate on the target for their duration.",
         "hotkey": "E",
         "abilityId": "Xul|E1",
-        "cooldown": 12,
-        "manaCost": "80"
+        "cooldown": 10,
+        "manaCost": "70"
       },
       {
         "name": "Skeletal Mages",
@@ -51,7 +51,7 @@
       },
       {
         "name": "Raise Skeleton",
-        "description": "When a nearby enemy Minion dies, it becomes a Skeletal Warrior with 240 (+4% per level) Health that attacks for 23 (+4% per level) damage and last up to 15 seconds. Up to 4 Skeletal Warriors can be active at once.",
+        "description": "When a nearby enemy Minion dies, it becomes a Skeletal Warrior with 225 (+4% per level) Health that attacks for 21 (+4% per level) damage and last up to 15 seconds. Up to 4 Skeletal Warriors can be active at once.",
         "trait": true,
         "abilityId": "Xul|D1"
       },
@@ -146,7 +146,7 @@
         "tooltipId": "NecromancerTragOulsEssence",
         "talentTreeId": "NecromancerTalentTragOulsEssence",
         "name": "Trag'Oul's Essence",
-        "description": "Every time a Skeletal Warrior attacks an enemy, restore 0.5% of Xul's maximum Health and 0.5% of his maximum Mana.",
+        "description": "Every time a Skeletal Warrior attacks an enemy, restore 0.5% of Xul's maximum Health and 0.2% of his maximum Mana.",
         "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
         "sort": 3,
         "abilityId": "Xul|D1"
