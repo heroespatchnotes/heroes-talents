@@ -11,7 +11,7 @@
     "Medivh": [
       {
         "name": "Arcane Rift",
-        "description": "Launch a rift that deals 200 (+4% per level) damage to enemies in its path. If an enemy Hero is hit, reduce its cooldown by 5 seconds and refund 50 Mana.",
+        "description": "Launch a rift that deals 170 (+4% per level) damage to enemies in its path. If an enemy Hero is hit, reduce its cooldown by 5 seconds and refund 50 Mana.  Quest: Hit 40 enemy Heroes with Arcane Rift without dying. Reward: Permanently increase the damage dealt by 75 and cooldown reduction for hitting a Hero by 1 second.",
         "hotkey": "Q",
         "abilityId": "Medivh|Q1",
         "cooldown": 7,
@@ -19,19 +19,19 @@
       },
       {
         "name": "Force of Will",
-        "description": "Protect an allied Hero from all damage for 1.5 seconds.",
+        "description": "Protect an allied Hero from all damage for 1.5 seconds.  Upon expiration, Force of Will heals the target for 20% of the damage it absorbed.",
         "hotkey": "W",
         "abilityId": "Medivh|W1",
-        "cooldown": 5,
-        "manaCost": "50"
+        "cooldown": 8,
+        "manaCost": "60"
       },
       {
         "name": "Portal",
-        "description": "Create a set of portals between you and the target location, allowing allies to teleport between both. The portals last 6 seconds.",
+        "description": "Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last 6 seconds.",
         "hotkey": "E",
         "abilityId": "Medivh|E1",
-        "cooldown": 20,
-        "manaCost": "75"
+        "cooldown": 16,
+        "manaCost": "65"
       },
       {
         "name": "Poly Bomb",
@@ -61,31 +61,31 @@
   "talents": {
     "1": [
       {
-        "tooltipId": "MedivhPortalStablePortal",
-        "talentTreeId": "MedivhPortalStablePortal",
-        "name": "Stable Portal",
-        "description": "Increases Portal duration by 50%.",
-        "icon": "storm_ui_icon_medivh_portal.png",
+        "tooltipId": "MedivhTransformRavenWindsOfCelerity",
+        "talentTreeId": "MedivhTransformRavenWindsOfCelerity",
+        "name": "Winds of Celerity",
+        "description": "Increases Raven Form's Movement Speed bonus by 50%.",
+        "icon": "storm_ui_icon_medivh_ravenform.png",
         "sort": 1,
-        "abilityId": "Medivh|E1"
-      },
-      {
-        "tooltipId": "MedivhPortalPortalMastery",
-        "talentTreeId": "MedivhPortalPortalMastery",
-        "name": "Portal Mastery",
-        "description": "Medivh can manually place both Portal locations. Activate Medivh's Trait to cancel an unlinked Portal.",
-        "icon": "storm_ui_icon_medivh_portal_a.png",
-        "sort": 2,
-        "abilityId": "Medivh|E1"
+        "abilityId": "Medivh|Z1"
       },
       {
         "tooltipId": "MedivhTransformRavenRavensIntellect",
         "talentTreeId": "MedivhTransformRavenRavensIntellect",
         "name": "Raven's Intellect",
-        "description": "Raven Form increases Medivh's Mana Regeneration by 100%.",
-        "icon": "storm_ui_icon_medivh_ravenform.png",
-        "sort": 3,
+        "description": "Raven Form increases Medivh's Mana and Health Regeneration by 75%.",
+        "icon": "storm_ui_icon_medivh_ravenform_b.png",
+        "sort": 2,
         "abilityId": "Medivh|Z1"
+      },
+      {
+        "tooltipId": "MedivhPortalPortalMasteryTalent",
+        "talentTreeId": "MedivhPortalPortalMastery",
+        "name": "Portal Mastery",
+        "description": "Medivh can manually place both Portal locations and it no longer breaks Raven Form.  Activate Medivh's Trait to cancel an unlinked Portal.",
+        "icon": "storm_ui_icon_medivh_portal.png",
+        "sort": 3,
+        "abilityId": "Medivh|Active"
       }
     ],
     "4": [
@@ -93,26 +93,25 @@
         "tooltipId": "MedivhPortalMageArmor",
         "talentTreeId": "MedivhPortalMageArmor",
         "name": "Mage Armor",
-        "description": "The first time an Ally uses a Portal, they gain 50 Physical Armor against the next 3 enemy Heroic Basic Attacks for 5 seconds, reducing the damage taken by 50%.",
+        "description": "The first time an ally uses a Portal, they gain 25 Armor for 4 seconds, reducing their damage taken by 25%.",
         "icon": "storm_ui_icon_medivh_portal.png",
         "sort": 1,
         "abilityId": "Medivh|E1"
       },
       {
-        "tooltipId": "MedivhTransformRavenBirdsEyeView",
-        "talentTreeId": "MedivhTransformRavenBirdsEyeView",
-        "name": "Bird's Eye View",
-        "description": "Permanently increase Raven Form's vision range by 25%. Activate to increase this bonus to 200% for 5 seconds.",
-        "icon": "storm_ui_icon_medivh_ravenform.png",
+        "tooltipId": "MedivhPortalRavenFamiliar",
+        "talentTreeId": "MedivhPortalRavenFamiliar",
+        "name": "Raven Familiar",
+        "description": "A Raven Familiar joins allies each time they use a Portal. The Raven will dive at the ally's next Basic Attack against a Hero within 5 seconds, dealing 114 (+4% per level) damage and Slowing them by 30% for 2.5 seconds.",
+        "icon": "storm_ui_icon_medivh_portal_a.png",
         "sort": 2,
-        "abilityId": "Medivh|Active",
-        "cooldown": 30
+        "abilityId": "Medivh|E1"
       },
       {
         "tooltipId": "MedivhDustOfAppearance",
         "talentTreeId": "MedivhDustOfAppearance",
         "name": "Dust of Appearance",
-        "description": "Activate to reveal enemy Heroes in the area surrounding Medivh for 10 seconds. Does not cancel Raven Form.",
+        "description": "Activate to greatly increase sight range for 5 seconds and reveal enemy Heroes in the area for 8 seconds. Does not cancel Raven Form. Passive: Increase Medivh's sight range while in Raven Form by 25%.",
         "icon": "storm_ui_icon_medivh_dustofappearance.png",
         "sort": 3,
         "abilityId": "Medivh|Active",
@@ -121,40 +120,31 @@
     ],
     "7": [
       {
-        "tooltipId": "MedivhArcaneRiftArcaneCharge",
-        "talentTreeId": "MedivhArcaneRiftArcaneCharge",
-        "name": "Arcane Charge",
-        "description": "When Arcane Rift damages an enemy Hero, the next Arcane Rift deals 30% more damage.",
-        "icon": "storm_ui_icon_medivh_arcanemissile.png",
-        "sort": 1,
-        "abilityId": "Medivh|Q1"
-      },
-      {
-        "tooltipId": "MedivhArcaneRiftTheMastersTouch",
-        "talentTreeId": "MedivhArcaneRiftTheMastersTouch",
-        "name": "The Master's Touch",
-        "description": "Quest: Hit 30 enemy Heroes with Arcane Rift without dying. Reward: Permanently increases the damage dealt by 75 and cooldown reduction for hitting a Hero by 1 second.",
+        "tooltipId": "MedivhMysticAssault",
+        "talentTreeId": "MedivhMysticAssault",
+        "name": "Mystic Assault",
+        "description": "If Arcane Rift hits an enemy Hero, Medivh's next Basic Attack within 6 seconds deals 40% more damage and heals for 40% of the damage dealt.",
         "icon": "storm_ui_icon_medivh_arcanemissile_a.png",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Medivh|Q1"
       },
       {
         "tooltipId": "MedivhForceOfWillArcaneExplosion",
         "talentTreeId": "MedivhForceOfWillArcaneExplosion",
         "name": "Arcane Explosion",
-        "description": "The first time Force of Will absorbs damage, it deals 183 (+4% per level) damage to nearby enemies.",
+        "description": "When Force of Will expires, it deals 90 (+4% per level) damage to nearby enemies, plus 100% of the damage it prevented, up to 365 (+4% per level) additional damage.",
         "icon": "storm_ui_icon_medivh_forceofwill.png",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Medivh|W1"
       },
       {
-        "tooltipId": "MedivhPortalRavenFamiliar",
-        "talentTreeId": "MedivhPortalRavenFamiliar",
-        "name": "Raven Familiar",
-        "description": "A Raven Familiar joins allies that use a Portal. The Raven will dive at the ally's next Basic Attack against a Hero within 5 seconds for 114 (+4% per level) damage.",
-        "icon": "storm_ui_icon_medivh_portal.png",
-        "sort": 4,
-        "abilityId": "Medivh|E1"
+        "tooltipId": "MedivhForceofMagic",
+        "talentTreeId": "MedivhForceofMagic",
+        "name": "Force of Magic",
+        "description": "Preventing at least 268 (+4% per level) damage with a single cast of Force of Will grants 20% Spell Power for 12 seconds. Stacks up to 2 times.",
+        "icon": "storm_ui_icon_medivh_forceofwill_b.png",
+        "sort": 3,
+        "abilityId": "Medivh|W1"
       }
     ],
     "10": [
@@ -181,39 +171,10 @@
     ],
     "13": [
       {
-        "tooltipId": "MedivhPortalQuickening",
-        "talentTreeId": "MedivhPortalQuickening",
-        "name": "Quickening",
-        "description": "Reduces Portal cooldown by 50%.",
-        "icon": "storm_ui_icon_medivh_portal.png",
-        "sort": 1,
-        "abilityId": "Medivh|E1"
-      },
-      {
-        "tooltipId": "MedivhPortalAstralProjection",
-        "talentTreeId": "MedivhPortalAstralProjection",
-        "name": "Astral Projection",
-        "description": "Increases Portal cast range by 50%.",
-        "icon": "storm_ui_icon_medivh_portal_a.png",
-        "sort": 2,
-        "abilityId": "Medivh|E1"
-      },
-      {
-        "tooltipId": "MedivhTransformRavenWindsOfCelerity",
-        "talentTreeId": "MedivhTransformRavenWindsOfCelerity",
-        "name": "Winds of Celerity",
-        "description": "Increases Raven Form's Movement Speed bonus by 50%.",
-        "icon": "storm_ui_icon_medivh_ravenform.png",
-        "sort": 3,
-        "abilityId": "Medivh|Z1"
-      }
-    ],
-    "16": [
-      {
         "tooltipId": "MedivhForceOfWillCircleOfProtection",
         "talentTreeId": "MedivhForceOfWillCircleOfProtection",
         "name": "Circle of Protection",
-        "description": "An untalented Force of Will is also applied to allies near the target.",
+        "description": "Force of Will also applies to allies near the target.",
         "icon": "storm_ui_icon_medivh_forceofwill.png",
         "sort": 1,
         "abilityId": "Medivh|W1"
@@ -222,7 +183,7 @@
         "tooltipId": "MedivhForceOfWillEnduringWill",
         "talentTreeId": "MedivhForceOfWillEnduringWill",
         "name": "Enduring Will",
-        "description": "Increases Force of Will duration by 33%.",
+        "description": "Preventing at least 268 (+4% per level) damage with Force of Will reduces its cooldown to 3 seconds.",
         "icon": "storm_ui_icon_medivh_forceofwill_a.png",
         "sort": 2,
         "abilityId": "Medivh|W1"
@@ -231,10 +192,39 @@
         "tooltipId": "MedivhForceOfWillReabsorption",
         "talentTreeId": "MedivhForceOfWillReabsorption",
         "name": "Reabsorption",
-        "description": "Upon expiration, Force of Will heals the target for 50% of the damage it absorbed.",
+        "description": "Increase the amount of healing from Force Of Will to 50% of the damage it absorbed.",
         "icon": "storm_ui_icon_medivh_forceofwill_b.png",
         "sort": 3,
         "abilityId": "Medivh|W1"
+      }
+    ],
+    "16": [
+      {
+        "tooltipId": "MedivhArcaneRiftArcaneCharge",
+        "talentTreeId": "MedivhArcaneRiftArcaneCharge",
+        "name": "Arcane Charge",
+        "description": "When Arcane Rift damages an enemy Hero, the next Arcane Rift deals 15% more damage.",
+        "icon": "storm_ui_icon_medivh_arcanemissile.png",
+        "sort": 1,
+        "abilityId": "Medivh|Q1"
+      },
+      {
+        "tooltipId": "MedivhTemporalFlux",
+        "talentTreeId": "MedivhTemporalFlux",
+        "name": "Temporal Flux",
+        "description": "Basic Attacks reduce Medivh's Heroic Ability cooldown by 1 second. Each enemy Hero hit by Arcane Rift reduces Medivh's Heroic Ability cooldown by 3 seconds.",
+        "icon": "storm_ui_icon_medivh_arcanemissile_a.png",
+        "sort": 2,
+        "abilityId": "Medivh|Q1"
+      },
+      {
+        "tooltipId": "MedivhPortalStablePortal",
+        "talentTreeId": "MedivhPortalStablePortal",
+        "name": "Stable Portal",
+        "description": "Decrease Portal cooldown by 25% and increase Portal duration by 50%.",
+        "icon": "storm_ui_icon_medivh_portal.png",
+        "sort": 3,
+        "abilityId": "Medivh|E1"
       }
     ],
     "20": [
@@ -276,10 +266,10 @@
         "cooldown": 60
       },
       {
-        "tooltipId": "MedivhInvisibility",
-        "talentTreeId": "MedivhInvisibility",
-        "name": "Invisibility",
-        "description": "Stealth an allied Hero for 20 seconds. Stores up to 2 charges.",
+        "tooltipId": "MedivhDustofDisappearance",
+        "talentTreeId": "MedivhDustofDisappearance",
+        "name": "Dust of Disappearance",
+        "description": "Stealth an allied Hero for 20 seconds. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.  Stores up to 2 charges.",
         "icon": "storm_ui_icon_medivh_invisibility.png",
         "sort": 5,
         "abilityId": "Medivh|Active",
