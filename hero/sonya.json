@@ -57,76 +57,67 @@
   "talents": {
     "1": [
       {
-        "tooltipId": "BarbarianFuryWarPaintTalent",
-        "talentTreeId": "BarbarianMasteryWarPaint",
-        "name": "War Paint",
-        "description": "Basic Attacks heal Sonya for 30% of the damage dealt.",
-        "icon": "storm_ui_icon_talent_autoattack_heal.png",
+        "tooltipId": "BarbarianSeismicSlamFuriousBlowTalent",
+        "talentTreeId": "BarbarianFuriousBlow",
+        "name": "Furious Blow",
+        "description": "Every 4th cast of Seismic Slam deals 40% more damage to the primary target and costs no Fury.",
+        "icon": "storm_ui_icon_sonya_seismicslam.png",
         "sort": 1,
-        "abilityId": "Sonya|Passive"
+        "abilityId": "Sonya|W1"
       },
       {
-        "tooltipId": "GenericBlockTalent",
-        "talentTreeId": "GenericTalentBlock",
-        "name": "Block",
-        "description": "Every 5 seconds, gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%. Stores up to 2 charges.",
-        "icon": "storm_ui_icon_talent_block.png",
+        "tooltipId": "BarbarianFuryWarPaintTalent",
+        "talentTreeId": "BarbarianWarPaint",
+        "name": "War Paint",
+        "description": "Sonya's Basic Attacks heal for 30% of the damage dealt.",
+        "icon": "storm_ui_icon_talent_autoattack_heal.png",
         "sort": 2,
         "abilityId": "Sonya|Passive"
       },
       {
-        "tooltipId": "BarbarianFuryShotOfFuryTalent",
-        "talentTreeId": "BarbarianCombatStyleShotofFury",
-        "name": "Shot of Fury",
-        "description": "Increases maximum Fury by 50. Sonya's Trait can be activated to gain 50 Fury.  Usable while Whirlwinding.",
-        "icon": "storm_ui_icon_sonya_fury.png",
+        "tooltipId": "BarbarianToughAsNails",
+        "talentTreeId": "BarbarianToughAsNails",
+        "name": "Tough As Nails",
+        "description": "Every 16 seconds, gain 60 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 60%.  Stores up to 3 charges. Charges refresh 200% faster while Fury's Movement Speed bonus is active.",
+        "icon": "storm_ui_icon_talent_block.png",
         "sort": 3,
-        "abilityId": "Sonya|D1",
-        "cooldown": 45
+        "abilityId": "Sonya|Passive"
       }
     ],
     "4": [
       {
-        "tooltipId": "GenericFocusedAttackTalent",
-        "talentTreeId": "GenericTalentFocusedAttack",
-        "name": "Focused Attack",
-        "description": "Every 10 seconds, your next Basic Attack against a Hero deals 60% additional damage. Basic Attacks reduce this cooldown by 1 second.",
-        "icon": "storm_ui_icon_talent_autoattack_damage.png",
-        "sort": 1,
-        "abilityId": "Sonya|Passive"
-      },
-      {
         "tooltipId": "BarbarianSeismicSlamShatteredGroundTalent",
-        "talentTreeId": "BarbarianMasteryShatteredGroundSeismicSlam",
+        "talentTreeId": "BarbarianShatteredGround",
         "name": "Shattered Ground",
-        "description": "Increases Seismic Slam splash damage to 75% of primary target damage.",
+        "description": "Increase the length of Seismic Slam's splash by 66% and increase its splash damage to 75% of its base damage.",
         "icon": "storm_ui_icon_sonya_seismicslam.png",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Sonya|W1"
       },
       {
         "tooltipId": "BarbarianHurricaneWhirlwindTalent",
-        "talentTreeId": "BarbarianMasteryHurricaneWhirlwind",
+        "talentTreeId": "BarbarianHurricane",
         "name": "Hurricane",
-        "description": "Reduces the cooldown of Whirlwind by 1 second and Whirlwind removes all slows and roots on Sonya.",
+        "description": "Reduce the cooldown of Whirlwind by 1 second. Casting Whirlwind removes all Slows and Roots from Sonya.",
         "icon": "storm_ui_icon_sonya_whirlwind.png",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Sonya|E1"
       },
       {
-        "tooltipId": "GenericMercenaryLordTalent",
-        "talentTreeId": "GenericTalentMercenaryLord",
-        "name": "Mercenary Lord",
-        "description": "Friendly non-Boss Mercenaries near your Hero deal 50% more damage. Gain 50 Armor against Minions and Mercenaries, reducing the damage taken by 50%.",
+        "tooltipId": "BarbarianBattleRage",
+        "talentTreeId": "BarbarianBattleRage",
+        "name": "Battle Rage",
+        "description": "Activate to instantly restore 10% of Sonya's maximum Health. Stores up to 3 charges. Passive: Sonya deals 25% more damage to Mercenaries.",
         "icon": "storm_ui_icon_talent_mercenarylord.png",
-        "sort": 4,
-        "abilityId": "Sonya|Passive"
+        "sort": 3,
+        "abilityId": "Sonya|Active",
+        "cooldown": 30
       }
     ],
     "7": [
       {
         "tooltipId": "BarbarianAncientSpearPoisonedSpearTalent",
-        "talentTreeId": "BarbarianMasteryPoisonedSpearAncientSpear",
+        "talentTreeId": "BarbarianPoisonedSpear",
         "name": "Poisoned Spear",
         "description": "Ancient Spear deals an additional 100% damage over 6 seconds.",
         "icon": "storm_ui_icon_sonya_ancientspear.png",
@@ -134,32 +125,23 @@
         "abilityId": "Sonya|Q1"
       },
       {
-        "tooltipId": "BarbarianAncientSpearCompositeSpearTalent",
-        "talentTreeId": "BarbarianMasteryCompositeSpearAncientSpear",
-        "name": "Composite Spear",
-        "description": "Increases the range of Ancient Spear by 30% and increases Fury generated by 20.",
-        "icon": "storm_ui_icon_sonya_ancientspear_var1.png",
+        "tooltipId": "BarbarianWhirlwindLifeFunnelTalent",
+        "talentTreeId": "BarbarianLifeFunnel",
+        "name": "Life Funnel",
+        "description": "Increases the healing of Whirlwind to 35% of damage dealt.",
+        "icon": "storm_ui_icon_sonya_whirlwind.png",
         "sort": 2,
-        "abilityId": "Sonya|Q1"
+        "abilityId": "Sonya|E1"
       },
       {
-        "tooltipId": "GenericFollowThroughTalent",
-        "talentTreeId": "GenericTalentFollowThrough",
-        "name": "Follow Through",
-        "description": "After using an Ability, your next Basic Attack within 6 seconds deals 40% additional damage.",
-        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "tooltipId": "BarbarianFuryShotOfFuryTalent",
+        "talentTreeId": "BarbarianShotOfFury",
+        "name": "Shot Of Fury",
+        "description": "Activate to gain 50 Fury. Usable while Whirlwinding. Passive: After casting Seismic Slam, your next Basic Attack deals 40% more damage.",
+        "icon": "storm_ui_icon_sonya_fury.png",
         "sort": 3,
-        "abilityId": "Sonya|Passive"
-      },
-      {
-        "tooltipId": "BarbarianFuryFerociousHealing",
-        "talentTreeId": "BarbarianCombatStyleFerociousHealing",
-        "name": "Ferocious Healing",
-        "description": "Consume 20 Fury to heal 10% of Sonya's maximum Health.  Usable while Whirlwinding.",
-        "icon": "storm_ui_icon_sonya_ferocioushealing.png",
-        "sort": 4,
-        "abilityId": "Sonya|Active",
-        "cooldown": 10
+        "abilityId": "Sonya|D1",
+        "cooldown": 40
       }
     ],
     "10": [
@@ -177,7 +159,7 @@
         "tooltipId": "BarbarianWrathoftheBerserker",
         "talentTreeId": "BarbarianHeroicAbilityWrathoftheBerserker",
         "name": "Wrath of the Berserker",
-        "description": "Increase damage dealt by 40%. Reduce the duration of stuns, slows, and roots against Sonya by 50%. Lasts 15 seconds, and extends by 1 second for every 10 Fury gained.",
+        "description": "Increase damage dealt by 40%. Reduce the duration of Stuns, Roots, and Slows against Sonya by 50%. Lasts 15 seconds, and extends by 1 second for every 10 Fury gained.",
         "icon": "storm_ui_icon_sonya_wrathoftheberserker.png",
         "sort": 2,
         "abilityId": "Sonya|R2",
@@ -186,78 +168,59 @@
     ],
     "13": [
       {
-        "tooltipId": "BarbarianWhirlwindLifeFunnelTalent",
-        "talentTreeId": "BarbarianMasteryLifeFunnelWhirlwind",
-        "name": "Life Funnel",
-        "description": "Increases the healing of Whirlwind to 35%, tripled versus Heroes.",
-        "icon": "storm_ui_icon_sonya_whirlwind.png",
-        "sort": 1,
-        "abilityId": "Sonya|E1"
-      },
-      {
-        "tooltipId": "BarbarianSeismicSlamAftershockTalent",
-        "talentTreeId": "BarbarianMasteryAftershock",
-        "name": "Aftershock",
-        "description": "Using Seismic Slam reduces its Fury cost by 50% for 2 seconds.",
-        "icon": "storm_ui_icon_sonya_seismicslam.png",
-        "sort": 2,
-        "abilityId": "Sonya|W1"
-      },
-      {
         "tooltipId": "BarbarianAncientSpearMysticalSpearTalent",
-        "talentTreeId": "BarbarianMasteryMysticalSpearAncientSpear",
+        "talentTreeId": "BarbarianMysticalSpear",
         "name": "Mystical Spear",
-        "description": "Reduces the cooldown of Ancient Spear by 3 seconds. Sonya is pulled to the target location even if an enemy isn't hit.",
+        "description": "Reduces the cooldown of Ancient Spear by 3 seconds. Ancient Spear always pulls Sonya to the target location even if it doesn't hit an enemy.",
         "icon": "storm_ui_icon_sonya_ancientspear.png",
-        "sort": 3,
+        "sort": 1,
         "abilityId": "Sonya|Q1"
       },
       {
-        "tooltipId": "GenericSpellShieldTalent",
-        "talentTreeId": "GenericTalentSpellShield",
-        "name": "Spell Shield",
-        "description": "Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically.",
-        "icon": "storm_ui_icon_talent_spellshield.png",
-        "sort": 4,
-        "abilityId": "Sonya|Passive"
+        "tooltipId": "BarbarianRuthless",
+        "talentTreeId": "BarbarianRuthless",
+        "name": "Ruthless",
+        "description": "Whirlwind deals an additional 50 (+4% per level) damage per second to Heroes below 33% Health. Does not generate additional healing.",
+        "icon": "storm_ui_icon_sonya_whirlwind.png",
+        "sort": 2,
+        "abilityId": "Sonya|E1"
+      },
+      {
+        "tooltipId": "BarbarianFuryNoEscapeTalent",
+        "talentTreeId": "BarbarianNoEscape",
+        "name": "No Escape",
+        "description": "Increases the Movement Speed bonus from using Basic and Heroic Abilities to 20%.",
+        "icon": "storm_ui_icon_sonya_fury.png",
+        "sort": 3,
+        "abilityId": "Sonya|D1"
       }
     ],
     "16": [
       {
-        "tooltipId": "BarbarianSeismicSlamFuriousBlowTalent",
-        "talentTreeId": "BarbarianMasteryFuriousBlowSeismicSlam",
-        "name": "Furious Blow",
-        "description": "Increases Seismic Slam damage by 50%, but costs 40 Fury.",
+        "tooltipId": "BarbarianGiantSlammer",
+        "talentTreeId": "BarbarianGiantSlammer",
+        "name": "Giant Slammer",
+        "description": "Seismic Slam deals an additional 2% of Heroes' maximum Health as damage.",
         "icon": "storm_ui_icon_sonya_seismicslam.png",
         "sort": 1,
         "abilityId": "Sonya|W1"
       },
       {
-        "tooltipId": "BarbarianFuryNoEscapeTalent",
-        "talentTreeId": "BarbarianCombatStyleNoEscape",
-        "name": "No Escape",
-        "description": "Increases the Movement Speed bonus from using Basic and Heroic Abilities to 25%.",
-        "icon": "storm_ui_icon_sonya_fury.png",
+        "tooltipId": "BarbarianRampage",
+        "talentTreeId": "BarbarianRampage",
+        "name": "Rampage",
+        "description": "Increase Basic Attack damage by 25%. Basic Attacks reduce the cooldown of Ancient Spear by 0.75 seconds.",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 2,
-        "abilityId": "Sonya|D1"
+        "abilityId": "Sonya|Passive"
       },
       {
-        "tooltipId": "GenericImposingPresenceTalent",
-        "talentTreeId": "GenericTalentImposingPresence",
-        "name": "Imposing Presence",
-        "description": "Activate to slow the Attack Speed by 50% and Movement Speed by 20% of nearby Heroes and Summons for 2.5 seconds. Passive: Heroes and Summons that attack your Hero have their Attack Speed slowed by 20% for 2.5 seconds.",
-        "icon": "storm_ui_icon_talent_imposingpresence.png",
-        "sort": 3,
-        "abilityId": "Sonya|Active",
-        "cooldown": 20
-      },
-      {
-        "tooltipId": "SonyaNervesOfSteel",
-        "talentTreeId": "SonyaTalentNervesOfSteel",
+        "tooltipId": "BarbarianNervesOfSteel",
+        "talentTreeId": "BarbarianNervesOfSteel",
         "name": "Nerves of Steel",
         "description": "Activate to gain 25% of your maximum Health as a Shield for 3 seconds. Usable while Whirlwinding.",
         "icon": "storm_ui_icon_sonya_nervesofsteel.png",
-        "sort": 4,
+        "sort": 3,
         "abilityId": "Sonya|Active",
         "cooldown": 60
       }
@@ -265,7 +228,7 @@
     "20": [
       {
         "tooltipId": "BarbarianLeapArreatCraterTalent",
-        "talentTreeId": "BarbarianMasteryArreatCraterLeap",
+        "talentTreeId": "BarbarianArreatCrater",
         "name": "Arreat Crater",
         "description": "Leap leaves behind an impassable crater for 5 seconds.  Reduces Leap's cooldown by 20 seconds.",
         "icon": "storm_ui_icon_sonya_leap.png",
@@ -273,28 +236,28 @@
         "abilityId": "Sonya|R1"
       },
       {
-        "tooltipId": "BarbarianWrathoftheBerserkerAngerManagementTalent",
-        "talentTreeId": "BarbarianMasteryAngerManagementWrathoftheBerserker",
-        "name": "Anger Management",
-        "description": "Increases all Fury generated during Wrath of the Berserker by 100%.",
+        "tooltipId": "BarbarianStridingGiant",
+        "talentTreeId": "BarbarianStridingGiant",
+        "name": "Striding Giant",
+        "description": "Wrath of the Berserker increases maximum Health by 10% and grants Striding Giant, which can be activated to become Unstoppable for 2 seconds. 30 second cooldown.",
         "icon": "storm_ui_icon_sonya_wrathoftheberserker.png",
         "sort": 2,
         "abilityId": "Sonya|R2"
       },
       {
-        "tooltipId": "NexusBladesTalent",
-        "talentTreeId": "GenericTalentNexusBlades",
-        "name": "Nexus Blades",
-        "description": "Basic Attacks deal 20% more damage and Slow enemy Movement Speed by 20% for 1 second.",
-        "icon": "storm_ui_icon_talent_autoattack_slow.png",
+        "tooltipId": "BarbarianAncientSpearCompositeSpearTalent",
+        "talentTreeId": "BarbarianCompositeSpear",
+        "name": "Composite Spear",
+        "description": "Increases Ancient Spear's range by 50%. Hitting an enemy Hero with Ancient Spear grants 25 Armor for 4 seconds.",
+        "icon": "storm_ui_icon_sonya_ancientspear.png",
         "sort": 3,
-        "abilityId": "Sonya|Passive"
+        "abilityId": "Sonya|Q1"
       },
       {
-        "tooltipId": "SonyaIgnorePain",
-        "talentTreeId": "SonyaTalentIgnorePain",
+        "tooltipId": "BarbarianIgnorePain",
+        "talentTreeId": "BarbarianIgnorePain",
         "name": "Ignore Pain",
-        "description": "Activate to gain 75 Armor for 4 seconds, taking 75% less damage. Usable while Whirlwinding.",
+        "description": "Activate to gain 60 Armor for 4 seconds, taking 60% less damage.  Usable while Whirlwinding.",
         "icon": "storm_ui_icon_sonya_ignorepain.png",
         "sort": 4,
         "abilityId": "Sonya|Active",

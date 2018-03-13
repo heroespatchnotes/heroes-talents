@@ -11,7 +11,7 @@
     "Ana": [
       {
         "name": "Healing Dart",
-        "description": "Fire a dart which heals the first allied Hero hit for 237 (+4% per level) Health.",
+        "description": "Fire a dart which heals the first allied Hero hit for 215 (+4% per level) Health.",
         "hotkey": "Q",
         "abilityId": "Ana|Q1",
         "cooldown": 2,
@@ -19,7 +19,7 @@
       },
       {
         "name": "Biotic Grenade",
-        "description": "Toss a Grenade at the target area. Allied Heroes hit are are healed for 166 (+4% per level) Health and receive 25% increased healing for 4 seconds. Enemies hit take 57 (+4% per level) damage and receive 100% less healing for 2 seconds.",
+        "description": "Toss a Grenade at the target area. Allied Heroes hit are healed for 166 (+4% per level) Health and receive 25% increased healing from Ana for 4 seconds. Enemies hit take 60 (+4% per level) damage and receive 100% less healing for 2 seconds.",
         "hotkey": "W",
         "abilityId": "Ana|W1",
         "cooldown": 16,
@@ -35,23 +35,23 @@
       },
       {
         "name": "Eye of Horus",
-        "description": "Assume a sniping position, gaining the ability to fire up to 8 specialized rounds with unlimited range. Rounds hit the first allied or enemy Hero or enemy Structure in their path. Allies are healed for 285 (+4% per level) and enemies are damaged for 166 (+4% per level). Deals 50% less damage to Structures.  Ana is unable to move while Eye of Horus is active.",
+        "description": "Assume a sniping position, gaining the ability to fire up to 6 specialized rounds with unlimited range. Rounds hit the first allied or enemy Hero or enemy Structure in their path. Allies are healed for 285 (+4% per level) and enemies are damaged for 166 (+4% per level). Deals 50% less damage to Structures.  Ana is unable to move while Eye of Horus is active.",
         "hotkey": "R",
         "abilityId": "Ana|R1",
-        "cooldown": 60,
-        "manaCost": "75"
+        "cooldown": 45,
+        "manaCost": "45"
       },
       {
         "name": "Nano Boost",
         "description": "Instantly boost an allied Hero, restoring 200 Mana. For the next 8 seconds, they gain 30% Spell Power and their Basic Ability cooldowns recharge 150% faster. Cannot be used on Ana.",
         "hotkey": "R",
         "abilityId": "Ana|R2",
-        "cooldown": 50,
-        "manaCost": "40"
+        "cooldown": 60,
+        "manaCost": "60"
       },
       {
         "name": "Shrike",
-        "description": "Basic Attacks apply a Dose to non-Structure enemies, dealing an additional 44 (+4% per level) damage over 5 seconds, and stacking up to 5 times.",
+        "description": "Basic Attacks apply a Dose to non-Structure enemies, dealing an additional 40 (+4% per level) damage over 5 seconds, and stacking up to 5 times.  Every 0.5 seconds, Ana is healed for 50% of the damage dealt to Heroes by Shrike.",
         "trait": true,
         "abilityId": "Ana|D1"
       }
@@ -63,7 +63,7 @@
         "tooltipId": "AnaBioticGrenadeGrenadeCalibration",
         "talentTreeId": "AnaBioticGrenadeGrenadeCalibration",
         "name": "Grenade Calibration",
-        "description": "Quest: Hit enemy Heroes with Biotic Grenade. Reward: After hitting 10 Heroes, Biotic Grenade does 75% more damage per allied and enemy Hero hit. Reward: After hitting 20 Heroes, Biotic Grenade's duration on allies is increased from 4 seconds to 12 seconds, and its healing radius is increased by 100%.",
+        "description": "Quest: Hit enemy Heroes with Biotic Grenade. Reward: After hitting 10 Heroes, Biotic Grenade does 75% more damage per allied and enemy Hero hit. Reward: After hitting 20 Heroes, Biotic Grenade's duration on allies is increased from 4 seconds to 12 seconds, its healing radius is increased by 100%, and its healing amplification applies to all sources.",
         "icon": "storm_ui_icon_ana_biotic_grenade.png",
         "sort": 1,
         "abilityId": "Ana|W1"
@@ -72,7 +72,7 @@
         "tooltipId": "AnaPiercingDarts",
         "talentTreeId": "AnaPiercingDarts",
         "name": "Piercing Darts",
-        "description": "Quest: Hit Heroes with Sleep Dart. Reward: After hitting 10 Heroes, Sleep Dart now hits 2 Heroes and its range is increased by 50%. Reward: After hitting 20 Heroes, Healing Dart now hits 2 Heroes and its range is increased by 50%.",
+        "description": "Quest: Hit Heroes with Sleep Dart. Reward: After hitting 10 Heroes, Sleep Dart now hits 2 Heroes and its range is increased by 25%. Reward: After hitting 20 Heroes, Healing Dart now hits 2 Heroes and its range is increased by 25%.",
         "icon": "storm_ui_icon_ana_sleep_dart.png",
         "sort": 2,
         "abilityId": "Ana|E1"
@@ -81,7 +81,7 @@
         "tooltipId": "AnaDetachableBoxMagazine",
         "talentTreeId": "AnaDetachableBoxMagazine",
         "name": "Detachable Box Magazine",
-        "description": "Quest: Stack 5 Doses on an enemy Hero. Reward: After reaching maximum Dosage 5 times, Doses deal 50% increase damage to enemies with 5 Doses. Reward: After reaching maximum Dosage 15 times, unlock the Active Reload Ability, which can be activated to instantly gain 3 charges of Healing Dart.",
+        "description": "Quest: Stack 5 Doses on an enemy Hero. Reward: After reaching maximum Dosage 5 times, Shrike also heals for the damage it deals to all enemies. Reward: After reaching maximum Dosage 15 times, unlock the Active Reload Ability, which can be activated to instantly gain 3 charges of Healing Dart.",
         "icon": "storm_ui_icon_ana_detachableboxmagazine.png",
         "sort": 3,
         "abilityId": "Ana|D1"
@@ -104,13 +104,13 @@
         "description": "Shrike can be activated to increase vision radius by 100% and Basic Attack range by 2 but reduce Movement Speed by 20%. Lasts until canceled.",
         "icon": "storm_ui_icon_ana_aim_down_sights.png",
         "sort": 2,
-        "abilityId": "Ana|Active"
+        "abilityId": "Ana|D1"
       },
       {
         "tooltipId": "AnaBioticGrenadeAirStrike",
         "talentTreeId": "AnaBioticGrenadeAirStrike",
         "name": "Air Strike",
-        "description": "Activate to use Biotic Grenade with a 200% increased range, but Grenades thrown this way take 4 seconds to land. Passive: Reduce Biotic Grenade cooldown by 4 seconds.",
+        "description": "Activate to use Biotic Grenade with a 200% increased range, but Grenades thrown this way take 3 seconds to land. Passive: Reduce Biotic Grenade cooldown by 4 seconds.",
         "icon": "storm_ui_icon_ana_biotic_grenade.png",
         "sort": 3,
         "abilityId": "Ana|W1"
@@ -130,7 +130,7 @@
         "tooltipId": "AnaMindNumbingAgent",
         "talentTreeId": "AnaMindNumbingAgent",
         "name": "Mind-Numbing Agent",
-        "description": "Every Dose a Hero has reduces their Spell Power by 15%.",
+        "description": "Every Dose a Hero has reduces their Spell Power by 10%.",
         "icon": "storm_ui_icon_ana_shrike.png",
         "sort": 2,
         "abilityId": "Ana|D1"
@@ -143,7 +143,7 @@
         "icon": "storm_ui_icon_ana_debilitatingdart.png",
         "sort": 3,
         "abilityId": "Ana|Active",
-        "cooldown": 45
+        "cooldown": 20
       }
     ],
     "10": [
