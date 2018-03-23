@@ -28,7 +28,7 @@
         "description": "Deal 55 (+4% per level) damage to the first enemy Hero hit and knock them back. If they collide with terrain, they are also stunned for 1.25 seconds and take an additional 165 (+4% per level) damage.",
         "hotkey": "E",
         "abilityId": "Auriel|E1",
-        "cooldown": 14
+        "cooldown": 12
       },
       {
         "name": "Crystal Aegis",
@@ -42,7 +42,7 @@
         "description": "Channel on the spirit of a dead ally for 0.5 seconds. After a 5 second delay, they are brought back to life with 50% of their maximum Health at the location where they died.",
         "hotkey": "R",
         "abilityId": "Auriel|R2",
-        "cooldown": 100
+        "cooldown": 80
       },
       {
         "name": "Bestow Hope",
@@ -145,7 +145,7 @@
         "tooltipId": "AurielEnergizedCordRayOfHeavenTalent",
         "talentTreeId": "AurielEnergizedCordRayOfHeavenTalent",
         "name": "Energized Cord",
-        "description": "Increases the energy stored from Auriel's Basic Attacks to 100% of the damage against Heroes and 50% of the damage against non-Heroes. Does not affect Auriel's Bestow Hope ally.",
+        "description": "Increases the energy stored from Auriel's Basic Attacks to 100% of the damage against Heroes and 40% of the damage against non-Heroes. Does not affect Auriel's Bestow Hope ally.",
         "icon": "storm_ui_icon_auriel_bestowhope_a.png",
         "sort": 3,
         "abilityId": "Auriel|Passive"
@@ -160,7 +160,7 @@
         "icon": "storm_ui_icon_auriel_resurrect.png",
         "sort": 1,
         "abilityId": "Auriel|R2",
-        "cooldown": 120
+        "cooldown": 80
       },
       {
         "tooltipId": "AurielCrystalAegis",
@@ -178,7 +178,7 @@
         "tooltipId": "AurielBlindingFlashSacredSweepTalent",
         "talentTreeId": "AurielBlindingFlashSacredSweepTalent",
         "name": "Blinding Flash",
-        "description": "Enemies hit by the center area of Sacred Sweep are blinded for 2.25 seconds.",
+        "description": "Enemies hit by the center area of Sacred Sweep are blinded for 2 seconds.",
         "icon": "storm_ui_icon_auriel_angelicsweep.png",
         "sort": 1,
         "abilityId": "Auriel|Q1"
@@ -254,7 +254,7 @@
         "tooltipId": "AurielDiamondResolveCrystalAegisTalent",
         "talentTreeId": "AurielDiamondResolveCrystalAegisTalent",
         "name": "Diamond Resolve",
-        "description": "When Crystal Aegis expires, it grants the target 50 Armor for 5 seconds, reducing damage taken by 50%.",
+        "description": "When Crystal Aegis expires, it grants the target 60 Armor for 5 seconds, reducing damage taken by 60%.",
         "icon": "storm_ui_icon_auriel_ribboncocoon.png",
         "sort": 2,
         "abilityId": "Auriel|R1"
@@ -267,7 +267,7 @@
         "icon": "storm_ui_icon_auriel_angelicflight.png",
         "sort": 3,
         "abilityId": "Auriel|Active",
-        "cooldown": 45
+        "cooldown": 30
       },
       {
         "tooltipId": "AurielShieldOfHopeTalent",
