@@ -11,7 +11,7 @@
     "Maiev": [
       {
         "name": "Fan of Knives",
-        "description": "Deal 162 (+4% per level) damage to enemies in a crescent area.  Hitting at least 2 enemy Heroes with Fan of Knives reduces its cooldown to 0.5 seconds, and refunds its Mana cost.",
+        "description": "Deal 152 (+4% per level) damage to enemies in a crescent area.  Hitting at least 2 enemy Heroes with Fan of Knives reduces its cooldown to 0.5 seconds, and refunds its Mana cost.",
         "hotkey": "Q",
         "abilityId": "Maiev|Q1",
         "cooldown": 4,
@@ -38,7 +38,7 @@
         "description": "Throw a glaive in the target direction. If an enemy Hero is hit, Containment Disc can be reactivated to remove their vision and Time Stop them for 4 seconds.  Containment Disc automatically activates 6 seconds after hitting a Hero.",
         "hotkey": "R",
         "abilityId": "Maiev|R1",
-        "cooldown": 65,
+        "cooldown": 50,
         "manaCost": "60"
       },
       {
@@ -46,7 +46,7 @@
         "description": "Summon 8 Warden Avatars as a cage around Maiev. After 1.5 seconds, enemy Heroes that come in contact with an Avatar consume it and are knocked to the center of the cage. Warden Avatars last 7 seconds.",
         "hotkey": "R",
         "abilityId": "Maiev|R2",
-        "cooldown": 80,
+        "cooldown": 100,
         "manaCost": "80"
       },
       {
@@ -55,7 +55,7 @@
         "hotkey": "D",
         "trait": true,
         "abilityId": "Maiev|D1",
-        "cooldown": 9
+        "cooldown": 12
       }
     ]
   },
@@ -103,7 +103,7 @@
         "tooltipId": "MaievFanOfKnivesBladeDance",
         "talentTreeId": "MaievFanOfKnivesBladeDance",
         "name": "Blade Dance",
-        "description": "Using Fan of Knives deals 54 (+4% per level) Physical Damage to enemies around Maiev.",
+        "description": "Using Fan of Knives deals 50 (+4% per level) Physical Damage to enemies around Maiev.",
         "icon": "storm_ui_icon_maiev_knives_2.png",
         "sort": 2,
         "abilityId": "Maiev|Q1"
@@ -156,7 +156,7 @@
         "icon": "storm_ui_icon_maiev_heroic_1_a.png",
         "sort": 1,
         "abilityId": "Maiev|R1",
-        "cooldown": 65
+        "cooldown": 50
       },
       {
         "tooltipId": "MaievWardensCage",
@@ -166,7 +166,7 @@
         "icon": "storm_ui_icon_maiev_heroic_2.png",
         "sort": 2,
         "abilityId": "Maiev|R2",
-        "cooldown": 80
+        "cooldown": 100
       }
     ],
     "13": [
@@ -192,7 +192,7 @@
         "tooltipId": "MaievSpiritOfVengeanceShadowArmor",
         "talentTreeId": "MaievSpiritOfVengeanceShadowArmor",
         "name": "Shadow Armor",
-        "description": "Blink grants 25 Armor for 2.5 seconds. Maiev's Basic Attacks against enemy Heroes refresh this duration.",
+        "description": "Blink grants 20 Armor for 2.5 seconds. Maiev's Basic Attacks against enemy Heroes refresh this duration.",
         "icon": "storm_ui_icon_maiev_rush_2.png",
         "sort": 3,
         "abilityId": "Maiev|E1"
