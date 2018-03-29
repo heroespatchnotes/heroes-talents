@@ -14,11 +14,11 @@
         "description": "Dash towards an area. Stores 3 charges.",
         "hotkey": "Q",
         "abilityId": "Tracer|Q1",
-        "cooldown": 6
+        "cooldown": 8
       },
       {
         "name": "Melee",
-        "description": "Deal 254 (+4% per level) damage to a nearby enemy, prioritizing Heroes. Gain 5% Pulse Bomb charge when using Melee against an enemy, and 10% against Heroes.",
+        "description": "Deal 220 (+4% per level) damage to a nearby enemy, prioritizing Heroes. Gain 5% Pulse Bomb charge when using Melee against an enemy, and 10% against Heroes.",
         "hotkey": "W",
         "abilityId": "Tracer|W1",
         "cooldown": 8
@@ -28,11 +28,11 @@
         "description": "Return to the position you were at 3 seconds ago, refill your ammo, and remove all negative status effects from yourself.",
         "hotkey": "E",
         "abilityId": "Tracer|E1",
-        "cooldown": 26
+        "cooldown": 30
       },
       {
         "name": "Pulse Bomb",
-        "description": "Fire a short range bomb that attaches to enemy units if you hit them. The bomb explodes after 2 seconds dealing 420 (+5.5% per level) damage to them and 210 (+5.5% per level) damage to other nearby enemies.  This Ability is slowly charged over time by dealing damage to enemies with Basic Attacks and Melee.",
+        "description": "Fire a short range bomb that attaches to enemy units if you hit them. The bomb explodes after 2 seconds dealing 360 (+6% per level) damage to them and 180 (+6% per level) damage to other nearby enemies.  This Ability is slowly charged over time by dealing damage to enemies with Basic Attacks and Melee.",
         "hotkey": "R",
         "abilityId": "Tracer|R1"
       },
@@ -110,7 +110,7 @@
         "tooltipId": "TracerJumper",
         "talentTreeId": "TracerJumper",
         "name": "Jumper",
-        "description": "Increases Blink's charges by 1.",
+        "description": "Increases Blink's charges by 1, but also increases Blink's cooldown by 2 seconds.",
         "icon": "storm_ui_icon_tracer_blink_b.png",
         "sort": 1,
         "abilityId": "Tracer|Q1"
@@ -119,7 +119,7 @@
         "tooltipId": "TracerBulletTime",
         "talentTreeId": "TracerBulletTime",
         "name": "Bullet Time",
-        "description": "Basic Attacks lower the cooldown of Blink by 0.1 seconds.",
+        "description": "Basic Attacks lower the cooldown of Blink by 0.15 seconds.",
         "icon": "storm_ui_icon_tracer_blink_c.png",
         "sort": 2,
         "abilityId": "Tracer|Q1"
@@ -148,7 +148,7 @@
         "tooltipId": "TracerQuantumSpike",
         "talentTreeId": "TracerQuantumSpike",
         "name": "Quantum Spike",
-        "description": "Pulse Bomb deals an additional 10% of the primary target's maximum Health.",
+        "description": "Pulse Bomb deals an additional 8% of the primary target's maximum Health.",
         "icon": "storm_ui_icon_tracer_pulsebomb_b.png",
         "sort": 2,
         "abilityId": "Tracer|R1"
