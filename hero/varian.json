@@ -11,7 +11,7 @@
     "Varian": [
       {
         "name": "Lion's Fang",
-        "description": "Create a shockwave that travels in a straight line, dealing 150 (+4% per level) damage and slowing enemies by 35% for 1.5 seconds.",
+        "description": "Create a shockwave that travels in a straight line, dealing 150 (+4% per level) damage and Slowing enemies by 35% for 1.5 seconds. Each enemy hit heals Varian for 35 (+4% per level), increased to 140 (+4% per level) against Heroes.",
         "hotkey": "Q",
         "abilityId": "Varian|Q1",
         "cooldown": 8,
@@ -22,8 +22,8 @@
         "description": "Parry all incoming Basic Attacks for 1.25 seconds, reducing their damage by 100%.",
         "hotkey": "W",
         "abilityId": "Varian|W1",
-        "cooldown": 8,
-        "manaCost": "15"
+        "cooldown": 10,
+        "manaCost": "20"
       },
       {
         "name": "Charge",
@@ -57,7 +57,7 @@
       },
       {
         "name": "Heroic Strike",
-        "description": "Every 18 seconds, Varian's next Basic Attack deals 140 (+3.5% per level) bonus damage. Basic Attacks reduce this cooldown by 2 seconds.",
+        "description": "Every 18 seconds, Varian's next Basic Attack deals 125 (+4% per level) bonus damage. Basic Attacks reduce this cooldown by 2 seconds.",
         "trait": true,
         "abilityId": "Varian|D1",
         "cooldown": 18
@@ -79,7 +79,7 @@
         "tooltipId": "VarianParryOverpower",
         "talentTreeId": "VarianParryOverpower",
         "name": "Overpower",
-        "description": "When Parry blocks a Hero's Basic Attack, Heroic Strike's cooldown is refreshed and the next one does 20% more damage.",
+        "description": "When Parry blocks a Hero's Basic Attack, Heroic Strike's cooldown is refreshed and the next one does 30% more damage.",
         "icon": "storm_ui_icon_varian_parry.png",
         "sort": 2,
         "abilityId": "Varian|W1"
@@ -96,33 +96,44 @@
     ],
     "4": [
       {
-        "tooltipId": "VarianParryShieldWall",
-        "talentTreeId": "VarianParryShieldWall",
-        "name": "Shield Wall",
-        "description": "Parry now grants Protected, preventing all incoming damage for the duration.",
-        "icon": "storm_ui_icon_varian_parry.png",
+        "tooltipId": "VarianTaunt",
+        "talentTreeId": "VarianTaunt",
+        "name": "Taunt",
+        "description": "Silence a target Hero and force them to attack Varian for 1.25 seconds. Passive: Maximum Health increased by 30%.  Passive: Gain 15 Armor.",
+        "icon": "storm_ui_icon_varian_taunt.png",
         "sort": 1,
-        "abilityId": "Varian|W1"
+        "abilityId": "Varian|R1",
+        "cooldown": 16
       },
       {
-        "tooltipId": "VarianChargeWarbringer",
-        "talentTreeId": "VarianChargeWarbringer",
-        "name": "Warbringer",
-        "description": "Reduces Charge's cooldown by 8 seconds and Mana cost by 50%.",
-        "icon": "storm_ui_icon_varian_charge.png",
+        "tooltipId": "VarianColossusSmash",
+        "talentTreeId": "VarianColossusSmash",
+        "name": "Colossus Smash",
+        "description": "Smash a target enemy, dealing 160 (+4% per level) damage and lowering their Armor by 20 for 3 seconds, causing them to take 20% increased damage. Passive: Base Attack Damage increased by 100%. Passive: Maximum Health reduced by 10%.",
+        "icon": "storm_ui_icon_varian_colossus_smash.png",
         "sort": 2,
-        "abilityId": "Varian|E1"
+        "abilityId": "Varian|R2",
+        "cooldown": 20
+      },
+      {
+        "tooltipId": "VarianTwinBladesOfFury",
+        "talentTreeId": "VarianTwinBladesOfFury",
+        "name": "Twin Blades of Fury",
+        "description": "Basic Attacks reduce Heroic Strike's cooldown by 9 seconds, and increase Varian's Movement Speed by 30% for 2 seconds. Passive: Attack Speed increased by 100%. Passive: Base Attack Damage reduced by 20%.",
+        "icon": "storm_ui_icon_varian_twinbladesoffury.png",
+        "sort": 3,
+        "abilityId": "Varian|R3"
       }
     ],
     "7": [
       {
-        "tooltipId": "VarianParryLivebytheSword",
-        "talentTreeId": "VarianParryLivebytheSword",
-        "name": "Live by the Sword",
-        "description": "Increase the duration of Parry by 40%. If at least 4 Hero Basic Attacks are blocked with a single Parry, its cooldown is reduced by 2 seconds.",
-        "icon": "storm_ui_icon_varian_parry.png",
+        "tooltipId": "VarianLionsFangLionheart",
+        "talentTreeId": "VarianLionsFangLionheart",
+        "name": "Lionheart",
+        "description": "Increase Lion's Fang's healing from Heroes by 50%.",
+        "icon": "storm_ui_icon_varian_lionsfang.png",
         "sort": 1,
-        "abilityId": "Varian|W1"
+        "abilityId": "Varian|Q1"
       },
       {
         "tooltipId": "VarianSecondWind",
@@ -137,7 +148,7 @@
         "tooltipId": "VarianVictoryRush",
         "talentTreeId": "VarianVictoryRush",
         "name": "Victory Rush",
-        "description": "Every 60 seconds, Varian's next Basic Attack will heal him for 400 (+4% per level) Health. When a nearby enemy Minion or Monster dies, the cooldown is reduced by 15 seconds.",
+        "description": "Every 30 seconds, Varian's next Basic Attack will heal him for 350 (+4% per level) Health. When a nearby enemy Minion or Monster dies, the cooldown is reduced by 10 seconds.",
         "icon": "storm_ui_icon_varian_victoryrush.png",
         "sort": 3,
         "abilityId": "Varian|Passive"
@@ -145,33 +156,22 @@
     ],
     "10": [
       {
-        "tooltipId": "VarianTaunt",
-        "talentTreeId": "VarianTaunt",
-        "name": "Taunt",
-        "description": "Silence a target Hero and force them to attack Varian for 1.25 seconds. Passive: Maximum Health increased by 30%.  Passive: Gain 15 Armor.",
-        "icon": "storm_ui_icon_varian_taunt.png",
+        "tooltipId": "VarianParryShieldWall",
+        "talentTreeId": "VarianParryShieldWall",
+        "name": "Shield Wall",
+        "description": "Parry grants Protected, preventing all incoming damage while active. Additionally, Parry's cooldown is reduced by 5 seconds, but it loses 1 charge.",
+        "icon": "storm_ui_icon_varian_parry.png",
         "sort": 1,
-        "abilityId": "Varian|R1",
-        "cooldown": 16
+        "abilityId": "Varian|W1"
       },
       {
-        "tooltipId": "VarianColossusSmash",
-        "talentTreeId": "VarianColossusSmash",
-        "name": "Colossus Smash",
-        "description": "Smash a target enemy, dealing 160 (+4% per level) damage and lowering their Armor by 25 for 3 seconds, causing them to take 25% increased damage. Passive: Base Attack Damage increased by 100%. Passive: Maximum Health reduced by 10%.",
-        "icon": "storm_ui_icon_varian_colossus_smash.png",
+        "tooltipId": "VarianChargeWarbringer",
+        "talentTreeId": "VarianChargeWarbringer",
+        "name": "Warbringer",
+        "description": "Reduce Charge's cooldown by 8 seconds and Mana cost from 45 to 22. Additionally, Charge can be cast on allied Heroes.",
+        "icon": "storm_ui_icon_varian_charge.png",
         "sort": 2,
-        "abilityId": "Varian|R2",
-        "cooldown": 20
-      },
-      {
-        "tooltipId": "VarianTwinBladesOfFury",
-        "talentTreeId": "VarianTwinBladesOfFury",
-        "name": "Twin Blades of Fury",
-        "description": "Basic Attacks reduce Heroic Strike's cooldown by 9 seconds, and increase Varian's Movement Speed by 30% for 2 seconds. Passive: Attack Speed increased by 100%. Passive: Base Attack Damage reduced by 20%.",
-        "icon": "storm_ui_icon_varian_twinbladesoffury.png",
-        "sort": 3,
-        "abilityId": "Varian|R3"
+        "abilityId": "Varian|E1"
       }
     ],
     "13": [
@@ -277,7 +277,7 @@
         "tooltipId": "VarianDemoralizingShout",
         "talentTreeId": "VarianDemoralizingShout",
         "name": "Demoralizing Shout",
-        "description": "Activate to demoralize nearby enemy Heroes, reducing damage they deal by 25% for 5 seconds.",
+        "description": "Activate to demoralize nearby enemy Heroes, reducing damage they deal by 40% for 5 seconds.",
         "icon": "storm_ui_icon_varian_demoralizingshout.png",
         "sort": 5,
         "abilityId": "Varian|Active",

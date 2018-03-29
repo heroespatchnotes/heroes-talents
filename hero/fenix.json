@@ -1,0 +1,271 @@
+{
+  "id": "78",
+  "shortName": "fenix",
+  "attributeId": "FENX",
+  "name": "Fenix",
+  "icon": "fenix.png",
+  "role": "Assassin",
+  "type": "Ranged",
+  "releaseDate": "2018-03-27",
+  "abilities": {
+    "Fenix": [
+      {
+        "name": "Plasma Cutter",
+        "description": "Create a laser beam at the target point that circles around Fenix twice, dealing 145 (+4% per level) damage to enemies hit and Slowing them by 25% for 4 seconds.",
+        "hotkey": "Q",
+        "abilityId": "Fenix|Q1",
+        "cooldown": 12
+      },
+      {
+        "name": "Weapon Modes",
+        "description": "Activate to change between Weapon Mode: Repeater Cannon and Weapon Mode: Phase Bomb.  Weapon Mode: Repeater Cannon: Basic Attack speed increased by 150%.  Weapon Mode: Phase Bomb: Basic Attacks have 1.5 increased range, deal 25% more damage, and splash to nearby enemies.",
+        "hotkey": "W",
+        "abilityId": "Fenix|W1"
+      },
+      {
+        "name": "Warp",
+        "description": "Warp to a targeted location, phasing out after 0.5 seconds, and arriving 0.75 seconds later.",
+        "hotkey": "E",
+        "abilityId": "Fenix|E1",
+        "cooldown": 15
+      },
+      {
+        "name": "Purification Salvo",
+        "description": "Channel for 1.5 seconds, sweeping a laser in front of Fenix that locks onto enemy Heroes. Once Channeling finishes, fire 5 missiles at each locked Hero, dealing 86 (+4% per level) damage each. Deals 50% increased damage to Slowed targets.",
+        "hotkey": "R",
+        "abilityId": "Fenix|R1",
+        "cooldown": 75
+      },
+      {
+        "name": "Planet Cracker",
+        "description": "After 0.5 seconds, Channel a powerful beam that spans across the battleground for 4 seconds, dealing 105 (+4% per level) damage every 0.25 seconds to non-Structure enemies hit.",
+        "hotkey": "R",
+        "abilityId": "Fenix|R2",
+        "cooldown": 100
+      },
+      {
+        "name": "Shield Capacitor",
+        "description": "Fenix has a permanent 800 (+4.25% per level) Shield which regenerates at 80 (+4.25% per level) per second after not taking damage for 5 seconds.",
+        "trait": true,
+        "abilityId": "Fenix|D1"
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "tooltipId": "FenixAdvancedTargeting",
+        "talentTreeId": "FenixAdvancedTargeting",
+        "name": "Advanced Targeting",
+        "description": "Quest: Hitting enemy Heroes with Plasma Cutter permanently increases Fenix's Basic Attack damage by 0.75, up to 75. Reward: After hitting 30 Heroes, Plasma Cutter circles an additional time.",
+        "icon": "storm_ui_icon_fenix_q.png",
+        "sort": 1,
+        "abilityId": "Fenix|Q1"
+      },
+      {
+        "tooltipId": "FenixArsenalSynergy",
+        "talentTreeId": "FenixArsenalSynergy",
+        "name": "Arsenal Synergy",
+        "description": "After hitting enemy Heroes with Basic Attacks 3 times while Repeater Cannon is active, the next Basic Attack with Phase Bomb deals 100% more damage and splashes in a 50% larger area.",
+        "icon": "storm_ui_icon_fenix_w_1.png",
+        "sort": 2,
+        "abilityId": "Fenix|W1"
+      },
+      {
+        "tooltipId": "FenixMobileOffense",
+        "talentTreeId": "FenixMobileOffense",
+        "name": "Mobile Offense",
+        "description": "After moving unmounted, Fenix's next Basic Attack deals 30% more damage to Heroes.",
+        "icon": "storm_ui_icon_fenix_w_2.png",
+        "sort": 3,
+        "abilityId": "Fenix|W1"
+      }
+    ],
+    "4": [
+      {
+        "tooltipId": "FenixTargetAcquired",
+        "talentTreeId": "FenixTargetAcquired",
+        "name": "Target Acquired",
+        "description": "Basic Attacks against Slowed Heroes with Repeater Cannon active grants 10% Movement Speed for 4 seconds, up to 40%.",
+        "icon": "storm_ui_icon_fenix_w_2.png",
+        "sort": 1,
+        "abilityId": "Fenix|W1"
+      },
+      {
+        "tooltipId": "FenixInhibitingEnergy",
+        "talentTreeId": "FenixInhibitingEnergy",
+        "name": "Inhibiting Energy",
+        "description": "While Phase Bomb is active, Basic Attacks against Heroes Slowed by Plasma Cutter Slow all enemies in the area by 35% for 4 seconds.",
+        "icon": "storm_ui_icon_fenix_w_1.png",
+        "sort": 2,
+        "abilityId": "Fenix|W1"
+      },
+      {
+        "tooltipId": "FenixWarpConduit",
+        "talentTreeId": "FenixWarpConduit",
+        "name": "Warp Conduit",
+        "description": "Hero Takedowns reset Warp's cooldown.",
+        "icon": "storm_ui_icon_fenix_teleport.png",
+        "sort": 3,
+        "abilityId": "Fenix|E1"
+      },
+      {
+        "tooltipId": "FenixEmergencyProtocol",
+        "talentTreeId": "FenixEmergencyProtocol",
+        "name": "Emergency Protocol",
+        "description": "When Shield Capacitor's Shield becomes depleted, gain 30% Movement Speed for 5 seconds.",
+        "icon": "storm_ui_icon_fenix_shield_1.png",
+        "sort": 4,
+        "abilityId": "Fenix|D1"
+      }
+    ],
+    "7": [
+      {
+        "tooltipId": "FenixCombatAdvantage",
+        "talentTreeId": "FenixCombatAdvantage",
+        "name": "Combat Advantage",
+        "description": "Plasma Cutter deals 50% more damage to Slowed targets.",
+        "icon": "storm_ui_icon_fenix_q.png",
+        "sort": 1,
+        "abilityId": "Fenix|Q1"
+      },
+      {
+        "tooltipId": "FenixWarpWarfare",
+        "talentTreeId": "FenixWarpWarfare",
+        "name": "Warp Warfare",
+        "description": "After arriving with Warp, gain 125% Attack Speed for 4 seconds while in Repeater Cannon mode.",
+        "icon": "storm_ui_icon_fenix_teleport.png",
+        "sort": 2,
+        "abilityId": "Fenix|E1"
+      },
+      {
+        "tooltipId": "FenixDivertPowerWeapons",
+        "talentTreeId": "FenixDivertPowerWeaponsTalent",
+        "name": "Divert Power: Weapons",
+        "description": "Activate to instantly drain Shield Capacitor's Shield, but increase Basic Attack damage for 5 seconds proportionate to the amount of Shields drained, up to an 80% increase.",
+        "icon": "storm_ui_icon_fenix_w_2.png",
+        "sort": 3,
+        "abilityId": "Fenix|Active",
+        "cooldown": 20
+      }
+    ],
+    "10": [
+      {
+        "tooltipId": "FenixPurificationSalvo",
+        "talentTreeId": "FenixHeroicAbilityPurificationSalvo",
+        "name": "Purification Salvo",
+        "description": "Channel for 1.5 seconds, sweeping a laser in front of Fenix that locks onto enemy Heroes. Once Channeling finishes, fire 5 missiles at each locked Hero, dealing 86 (+4% per level) damage each. Deals 50% increased damage to Slowed targets.",
+        "icon": "storm_ui_icon_fenix_r_scan.png",
+        "sort": 1,
+        "abilityId": "Fenix|R1",
+        "cooldown": 75
+      },
+      {
+        "tooltipId": "FenixPlanetCracker",
+        "talentTreeId": "FenixHeroicAbilityPlanetCracker",
+        "name": "Planet Cracker",
+        "description": "After 0.5 seconds, Channel a powerful beam that spans across the battleground for 4 seconds, dealing 105 (+4% per level) damage every 0.25 seconds to non-Structure enemies hit.",
+        "icon": "storm_ui_icon_fenix_r_planet_cracker.png",
+        "sort": 2,
+        "abilityId": "Fenix|R2",
+        "cooldown": 100
+      }
+    ],
+    "13": [
+      {
+        "tooltipId": "FenixAdaniumShell",
+        "talentTreeId": "FenixAdaniumShell",
+        "name": "Adanium Shell",
+        "description": "After arriving with Warp, gain 40 Armor for 4 seconds.",
+        "icon": "storm_ui_icon_fenix_teleport.png",
+        "sort": 1,
+        "abilityId": "Fenix|E1"
+      },
+      {
+        "tooltipId": "FenixDampeningField",
+        "talentTreeId": "FenixDampeningField",
+        "name": "Dampening Field",
+        "description": "Fenix gains 15 Spell Armor while he has a Shield from Shield Capacitor.",
+        "icon": "storm_ui_icon_fenix_shield_1.png",
+        "sort": 2,
+        "abilityId": "Fenix|D1"
+      },
+      {
+        "tooltipId": "FenixRapidRecharge",
+        "talentTreeId": "FenixRapidRecharge",
+        "name": "Rapid Recharge",
+        "description": "Whenever Fenix is healed, Shield Capacitor's Shield recharges for 20% of the healing received.",
+        "icon": "storm_ui_icon_fenix_shield_3.png",
+        "sort": 3,
+        "abilityId": "Fenix|D1"
+      },
+      {
+        "tooltipId": "FenixAuxiliaryShields",
+        "talentTreeId": "FenixAuxiliaryShields",
+        "name": "Auxiliary Shields",
+        "description": "Permanently reduce Fenix's maximum Health by 10% but increase Shield Capacitor's Shield by 20%. Basic Attacks regenerate Shields equal to 20% of the damage dealt.",
+        "icon": "storm_ui_icon_fenix_shield_2.png",
+        "sort": 4,
+        "abilityId": "Fenix|D1"
+      }
+    ],
+    "16": [
+      {
+        "tooltipId": "FenixOffensiveCadence",
+        "talentTreeId": "FenixOffensiveCadence",
+        "name": "Offensive Cadence",
+        "description": "Every 3rd Basic Attack against Heroes while Repeater Cannon is active deals an additional 6% of the target's maximum Health as damage.",
+        "icon": "storm_ui_icon_fenix_w_2.png",
+        "sort": 1,
+        "abilityId": "Fenix|W1"
+      },
+      {
+        "tooltipId": "FenixPhotonicWeaponry",
+        "talentTreeId": "FenixPhotonicWeaponry",
+        "name": "Photonic Weaponry",
+        "description": "Fenix deals 15% more damage while he has a Shield from Shield Capacitor.",
+        "icon": "storm_ui_icon_fenix_shield_1.png",
+        "sort": 2,
+        "abilityId": "Fenix|D1"
+      },
+      {
+        "tooltipId": "FenixArsenalOvercharge",
+        "talentTreeId": "FenixArsenalOvercharge",
+        "name": "Arsenal Overcharge",
+        "description": "Fenix's Basic Attacks reduce his Ability cooldowns by 0.5 seconds.",
+        "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
+        "sort": 3,
+        "abilityId": "Fenix|Passive"
+      }
+    ],
+    "20": [
+      {
+        "tooltipId": "FenixSecondaryFire",
+        "talentTreeId": "FenixSecondaryFire",
+        "name": "Secondary Fire",
+        "description": "Hitting an enemy Hero with Plasma Cutter fires a Purification Salvo missile at them after 0.5 seconds, dealing 86 (+4% per level) damage. Deals 50% increased damage to Slowed targets.",
+        "icon": "storm_ui_icon_fenix_q.png",
+        "sort": 1,
+        "abilityId": "Fenix|Q1"
+      },
+      {
+        "tooltipId": "FenixSingularityCharge",
+        "talentTreeId": "FenixSingularityCharge",
+        "name": "Singularity Charge",
+        "description": "Repeater Cannon grants 50% more Attack Speed, and Phase Bomb grants 1 more range.",
+        "icon": "storm_ui_icon_fenix_w_2.png",
+        "sort": 2,
+        "abilityId": "Fenix|W1"
+      },
+      {
+        "tooltipId": "FenixUnconqueredSpirit",
+        "talentTreeId": "FenixUnconqueredSpirit",
+        "name": "Unconquered Spirit",
+        "description": "Upon taking fatal damage, Shield Capacitor regains 600 (+4.25% per level) Shields. This effect has a 120 second cooldown.",
+        "icon": "storm_ui_icon_fenix_shield_1.png",
+        "sort": 3,
+        "abilityId": "Fenix|Passive"
+      }
+    ]
+  }
+}
