@@ -46,7 +46,7 @@
         "description": "After 4 seconds, heal for 100% of the damage Dehaka took over this period.",
         "hotkey": "R",
         "abilityId": "Dehaka|R2",
-        "cooldown": 90,
+        "cooldown": 80,
         "manaCost": "85"
       },
       {
@@ -72,7 +72,7 @@
         "tooltipId": "DehakaDarkSwarmTalentEnduringSwarm",
         "talentTreeId": "DehakaDarkSwarmTalentEnduringSwarm",
         "name": "Enduring Swarm",
-        "description": "Dark Swarm grants 40 Spell Armor while active.",
+        "description": "Dark Swarm grants 50 Spell Armor while active.",
         "icon": "storm_ui_icon_dehaka_trample.png",
         "sort": 1,
         "abilityId": "Dehaka|W1"
@@ -101,7 +101,7 @@
         "tooltipId": "DehakaBurrowTalentLurkerStrain",
         "talentTreeId": "DehakaBurrowTalentLurkerStrain",
         "name": "Lurker Strain",
-        "description": "Emerging from Burrow grants Dehaka Stealth for 3 seconds and also knocks nearby enemies back, slowing them by 30% for 2 seconds.",
+        "description": "Emerging from Burrow grants Dehaka Stealth for 3 seconds and also knocks nearby enemies back, slowing them by 30% for 3 seconds.",
         "icon": "storm_ui_icon_dehaka_burrow.png",
         "sort": 1,
         "abilityId": "Dehaka|E1"
@@ -119,7 +119,7 @@
         "tooltipId": "DehakaEssenceCollectionTalentHeroStalker",
         "talentTreeId": "DehakaEssenceCollectionTalentHeroStalker",
         "name": "Hero Stalker",
-        "description": "Increases Essence gained from Takedowns by 100%.",
+        "description": "Increases Essence gained from Takedowns by 100%. Hitting enemy Heroes with Dark Swarm grants 1 Essence.",
         "icon": "storm_ui_icon_dehaka_essencecollection_var1.png",
         "sort": 3,
         "abilityId": "Dehaka|D1"
@@ -173,7 +173,7 @@
         "icon": "storm_ui_icon_dehaka_adaptation.png",
         "sort": 2,
         "abilityId": "Dehaka|R2",
-        "cooldown": 90
+        "cooldown": 80
       }
     ],
     "13": [
@@ -190,7 +190,7 @@
         "tooltipId": "DehakaBrushstalkerFerociousStalkerTalent",
         "talentTreeId": "DehakaBrushstalkerFerociousStalker",
         "name": "Ferocious Stalker",
-        "description": "Dark Swarm deals 40% more damage while Brushstalker's Movement Speed bonus is active.",
+        "description": "Dark Swarm deals 50% more damage while Brushstalker's Movement Speed bonus is active.",
         "icon": "storm_ui_icon_dehaka_trample.png",
         "sort": 2,
         "abilityId": "Dehaka|Z1"
