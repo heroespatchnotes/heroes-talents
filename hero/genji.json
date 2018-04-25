@@ -35,7 +35,7 @@
       },
       {
         "name": "Dragonblade",
-        "description": "Unleash the Dragonblade for 8 seconds. While active, Dragonblade can be reactivated to lunge forward and slash in a huge arc, dealing 220 (+4% per level) damage. If enemy Heroes are killed within 2 seconds of being hit by Dragonblade, Swift Strike's cooldown is reset.",
+        "description": "Unleash the Dragonblade for 8 seconds. While active, Dragonblade can be reactivated to lunge forward and slash in a huge arc, dealing 240 (+4% per level) damage.",
         "hotkey": "R",
         "abilityId": "Genji|R1",
         "cooldown": 100,
@@ -55,7 +55,7 @@
         "hotkey": "D",
         "trait": true,
         "abilityId": "Genji|D1",
-        "cooldown": 10
+        "cooldown": 12
       }
     ]
   },
@@ -74,7 +74,7 @@
         "tooltipId": "GenjiCyberAgilityAgileDismount",
         "talentTreeId": "GenjiCyberAgilityAgileDismount",
         "name": "Agile Dismount",
-        "description": "While mounted, the range of Cyber Agility is increased by 70% and its cooldown is reduced by 5 seconds.",
+        "description": "While mounted, the range of Cyber Agility is increased by 70% and its cooldown is reduced by 7 seconds.",
         "icon": "storm_ui_icon_genji_cyberagility.png",
         "sort": 2,
         "abilityId": "Genji|D1"
@@ -161,7 +161,7 @@
         "tooltipId": "GenjiDragonblade",
         "talentTreeId": "GenjiHeroicDragonblade",
         "name": "Dragonblade",
-        "description": "Unleash the Dragonblade for 8 seconds. While active, Dragonblade can be reactivated to lunge forward and slash in a huge arc, dealing 220 (+4% per level) damage. If enemy Heroes are killed within 2 seconds of being hit by Dragonblade, Swift Strike's cooldown is reset.",
+        "description": "Unleash the Dragonblade for 8 seconds. While active, Dragonblade can be reactivated to lunge forward and slash in a huge arc, dealing 240 (+4% per level) damage.",
         "icon": "storm_ui_icon_genji_dragonblade.png",
         "sort": 1,
         "abilityId": "Genji|R1",
@@ -201,7 +201,7 @@
         "tooltipId": "GenjiCyberAgilityDoubleJump",
         "talentTreeId": "GenjiCyberAgilityDoubleJump",
         "name": "Double Jump",
-        "description": "Cyber Agility stores 2 charges but its cooldown is increased by 5 seconds.",
+        "description": "Cyber Agility stores 2 charges.",
         "icon": "storm_ui_icon_genji_cyberagility.png",
         "sort": 3,
         "abilityId": "Genji|D1"
@@ -241,7 +241,7 @@
         "tooltipId": "GenjiDragonbladeTheDragonBecomesMe",
         "talentTreeId": "GenjiDragonbladeTheDragonBecomesMe",
         "name": "The Dragon Becomes Me",
-        "description": "Each time Dragonblade hits an enemy Hero, the duration of Dragonblade is increased by 0.5 seconds.",
+        "description": "Each time Dragonblade hits an enemy Hero, the duration of Dragonblade is increased by 0.5 seconds. If an Hero is killed within 2 seconds of being hit by Dragonblade, Swift Strike's cooldown is reset.",
         "icon": "storm_ui_icon_genji_dragonblade.png",
         "sort": 1,
         "abilityId": "Genji|R1"
