@@ -30,7 +30,7 @@
         "description": "Channel at a target location, creating an area that Silences enemies inside and deals 136 (+4% per level) damage per second to them. Deals 50% reduced damage to non-Heroes.  Does not cost Mana while Channeling, and lasts until canceled or interrupted.",
         "hotkey": "E",
         "abilityId": "Stukov|E1",
-        "cooldown": 8,
+        "cooldown": 10,
         "manaCost": "60"
       },
       {
@@ -51,7 +51,7 @@
       },
       {
         "name": "Bio-Kill Switch",
-        "description": "Activate to detonate all of Stukov's Viruses. Each Healing Pathogen heals its target for 475 (+4% per level) health, and each Weighted Pustule does 100 (+4% per level) damage and Slows its target by 70% for 2 seconds.  Can be cast while Channeling Lurking Arm.",
+        "description": "Activate to detonate all of Stukov's Viruses. Each Healing Pathogen heals its target for 435 (+4% per level) health, and each Weighted Pustule does 100 (+4% per level) damage and Slows its target by 70% for 2 seconds.  Can be cast while Channeling Lurking Arm.",
         "hotkey": "D",
         "trait": true,
         "abilityId": "Stukov|D1",
@@ -83,7 +83,7 @@
         "tooltipId": "StukovGrowingInfestationTalent",
         "talentTreeId": "StukovGrowingInfestation",
         "name": "Growing Infestation",
-        "description": "Lurking Arm's area expands by 50% over 2.5 seconds but its cooldown is increased by 4 seconds.",
+        "description": "Lurking Arm's area expands by 50% over 2.5 seconds but its cooldown is increased by 5 seconds.",
         "icon": "storm_ui_icon_stukov_lurkingarm.png",
         "sort": 3,
         "abilityId": "Stukov|E1"
@@ -103,7 +103,7 @@
         "tooltipId": "StukovOneGoodSpreadTalent",
         "talentTreeId": "StukovOneGoodSpread",
         "name": "One Good Spread...",
-        "description": "After a Healing Pathogen infests 3 targets, restore 30 Mana and reduce the cooldown of Healing Pathogen by 2 seconds.",
+        "description": "After a Healing Pathogen infests 3 targets, restore 10 Mana and reduce the cooldown of Healing Pathogen by 2 seconds.",
         "icon": "storm_ui_icon_stukov_healingpathogen.png",
         "sort": 1,
         "abilityId": "Stukov|Q1"
@@ -159,7 +159,7 @@
         "tooltipId": "StukovLurkingArmItHungersTalent",
         "talentTreeId": "StukovItHungers",
         "name": "It Hungers",
-        "description": "Each time an enemy Hero is hit by Lurking Arm, reduce its cooldown by 0.5 seconds, up to 6.5 seconds, and restore 5 Mana.",
+        "description": "Each time an enemy Hero is hit by Lurking Arm, reduce its cooldown by 0.5 seconds, up to 6.5 seconds, and restore 10 Mana.",
         "icon": "storm_ui_icon_stukov_lurkingarm_a.png",
         "sort": 3,
         "abilityId": "Stukov|E1"

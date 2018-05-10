@@ -11,7 +11,7 @@
     "Thrall": [
       {
         "name": "Chain Lightning",
-        "description": "Shock an enemy with lightning, dealing 178 (+4% per level) damage. The lightning then bounces 3 times to nearby enemies, dealing 89 (+4% per level) damage to each enemy hit.",
+        "description": "Shock an enemy with lightning, dealing 162 (+4% per level) damage. The lightning then bounces 3 times to nearby enemies, dealing 81 (+4% per level) damage to each enemy hit.",
         "hotkey": "Q",
         "abilityId": "Thrall|Q1",
         "cooldown": 8,
@@ -81,7 +81,7 @@
         "tooltipId": "ThrallRollingThunderTalent",
         "talentTreeId": "ThrallMasteryRollingThunder",
         "name": "Rolling Thunder",
-        "description": "For 10 seconds after hitting an enemy with Chain Lightning, Thrall's next Basic Attack against them restores 15 Mana. Passive: Increase the range of Chain Lightning by 30% and the number of bounces by 1.",
+        "description": "For 10 seconds after hitting an enemy with Chain Lightning, Thrall's next Basic Attack against them restores 15 Mana and 2.5% of his maximum Health. Passive: Increase the number of Chain Lightning bounces by 1.",
         "icon": "storm_ui_icon_thrall_chainlightning_var2.png",
         "sort": 3,
         "abilityId": "Thrall|Q1"
@@ -101,7 +101,7 @@
         "tooltipId": "ThrallFrostwolfPack",
         "talentTreeId": "ThrallFrostwolfPack",
         "name": "Frostwolf Pack",
-        "description": "Quest: Hit 7 Heroes with Feral Spirit. Progress is lost on death and when Thrall fails to hit a Hero. Reward: Reduce the cooldown and Mana cost of Feral Spirit by 50%.",
+        "description": "Quest: Hit 6 Heroes with Feral Spirit. Progress is lost on death and when Thrall fails to hit a Hero. Reward: Reduce the cooldown and Mana cost of Feral Spirit by 50%.",
         "icon": "storm_ui_icon_thrall_feralspirit_var1.png",
         "sort": 2,
         "abilityId": "Thrall|W1"

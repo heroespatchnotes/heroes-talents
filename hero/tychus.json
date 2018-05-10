@@ -14,8 +14,8 @@
         "description": "Deal 552 (+4% per level) damage to the target and 276 (+4% per level) damage to nearby targets over 4 seconds. Reactivate to select a new target.  Can move and use Abilities while channeling.",
         "hotkey": "Q",
         "abilityId": "Tychus|Q1",
-        "cooldown": 13,
-        "manaCost": "65"
+        "cooldown": 12,
+        "manaCost": "60"
       },
       {
         "name": "Frag Grenade",
@@ -123,21 +123,12 @@
         "abilityId": "Tychus|D1"
       },
       {
-        "tooltipId": "TychusFullyLoaded",
-        "talentTreeId": "TychusFullyLoaded",
-        "name": "Fully Loaded",
-        "description": "Reduce Minigun's cooldown by 5 seconds.",
-        "icon": "storm_ui_icon_tychus_minigun_a.png",
-        "sort": 2,
-        "abilityId": "Tychus|D1"
-      },
-      {
         "tooltipId": "TychusTheBiggerTheyAre",
         "talentTreeId": "TychusTheBiggerTheyAre",
         "name": "The Bigger They Are...",
-        "description": "Increases Minigun damage bonus to 4% while enemy Heroes are above 35% Health, but Minigun no longer has any effect on targets below 35%.",
-        "icon": "storm_ui_icon_tychus_minigun_b.png",
-        "sort": 3,
+        "description": "Lower the cooldown of Minigun by 2 seconds and increase the damage bonus to 4% while enemy Heroes are above 35% Health, but Minigun no longer has any effect on targets below 35%.",
+        "icon": "storm_ui_icon_tychus_minigun_a.png",
+        "sort": 2,
         "abilityId": "Tychus|D1"
       },
       {
@@ -146,7 +137,7 @@
         "name": "Master Assassin",
         "description": "Quest: Hero Takedowns increase Tychus's Attack Speed by 1%, up to 15%.  Reward: After getting 15 Takedowns, Tychus's Attack Speed is increased by an additional 10%.",
         "icon": "storm_ui_icon_talent_autoattack_speed.png",
-        "sort": 4,
+        "sort": 3,
         "abilityId": "Tychus|Passive"
       }
     ],
