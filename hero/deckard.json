@@ -46,7 +46,7 @@
         "description": "After 1 second, create a twirling tome tornado that travels towards the targeted direction, continually knocking away enemies that come into contact with it.",
         "hotkey": "R",
         "abilityId": "Deckard|R2",
-        "cooldown": 45,
+        "cooldown": 40,
         "manaCost": "40"
       },
       {
@@ -81,7 +81,7 @@
         "tooltipId": "DeckardGemSapphire",
         "talentTreeId": "DeckardGemSapphire",
         "name": "Sapphire",
-        "description": "Activate to increase the Slow of the next Horadric Cube by 25%.  Only 1 Gem may be active at a time.",
+        "description": "Activate to increase the Slow of the next Horadric Cube by 30%.  Only 1 Gem may be active at a time.",
         "icon": "storm_ui_icon_deckard_sapphire.png",
         "sort": 3,
         "abilityId": "Deckard|Active",
@@ -111,7 +111,7 @@
         "tooltipId": "DeckardGemRuby",
         "talentTreeId": "DeckardGemRuby",
         "name": "Ruby",
-        "description": "Activate to make the next Horadric Cube spawn 3 Lesser Healing Potions from each enemy Hero hit, healing allied Heroes for 190 (+4% per level) when picked up. Lesser Healing Potions last for 10 seconds.  Only 1 Gem may be active at a time.",
+        "description": "Activate to make the next Horadric Cube spawn 3 Lesser Healing Potions from each enemy Hero hit, healing allied Heroes for 205 (+4% per level) when picked up. Lesser Healing Potions last for 10 seconds.  Only 1 Gem may be active at a time.",
         "icon": "storm_ui_icon_deckard_ruby.png",
         "sort": 3,
         "abilityId": "Deckard|Active",
@@ -167,7 +167,7 @@
         "icon": "storm_ui_icon_deckard_lorenado.png",
         "sort": 2,
         "abilityId": "Deckard|R2",
-        "cooldown": 45
+        "cooldown": 40
       }
     ],
     "13": [
@@ -193,7 +193,7 @@
         "tooltipId": "DeckardAncientBlessings",
         "talentTreeId": "DeckardAncientBlessings",
         "name": "Ancient Blessings",
-        "description": "Activate Fortitude of the Faithful to empower nearby allied Hero Basic Attacks for 8 seconds, causing them to deal an additional 76 (+4% per level) damage in an area and heal for 114 (+4% per level) for each Hero hit.",
+        "description": "Activate Fortitude of the Faithful to empower nearby allied Hero Basic Attacks for 8 seconds, causing them to deal an additional 72 (+4% per level) damage in an area and heal for 106 (+4% per level) for each Hero hit.",
         "icon": "storm_ui_icon_deckard_angelic_conduit.png",
         "sort": 3,
         "abilityId": "Deckard|D1",
@@ -252,7 +252,7 @@
         "tooltipId": "DeckardBottomlessFlask",
         "talentTreeId": "DeckardBottomlessFlask",
         "name": "Bottomless Flask",
-        "description": "After use, Healing Potions recharge after 5 seconds.",
+        "description": "After use, Healing Potions recharge after 6 seconds.",
         "icon": "storm_ui_icon_deckard_healing_potion.png",
         "sort": 3,
         "abilityId": "Deckard|Q1"

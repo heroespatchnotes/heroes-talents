@@ -69,10 +69,10 @@
         "abilityId": "Gul'dan|Q1"
       },
       {
-        "tooltipId": "GuldanDrainLifeTalentGlyphofDrainLife",
-        "talentTreeId": "GuldanDrainLifeGlyphOfDrainLife",
-        "name": "Glyph of Drain Life",
-        "description": "Increases the cast range of Drain Life by 25%.",
+        "tooltipId": "GuldanChaoticEnergy",
+        "talentTreeId": "GuldanChaoticEnergy",
+        "name": "Chaotic Energy",
+        "description": "Increases the cast range of Drain Life by 25%.  Quest: The healing provided by Regen Globes is increased by 50%.  Reward: After Gathering 20 Regen Globes Gul'dan's Basic Ability Mana costs are permanently reduced by 20.",
         "icon": "storm_ui_icon_guldan_healthfunnel.png",
         "sort": 2,
         "abilityId": "Gul'dan|W1"
@@ -85,15 +85,6 @@
         "icon": "storm_ui_icon_guldan_handofguldan.png",
         "sort": 3,
         "abilityId": "Gul'dan|E1"
-      },
-      {
-        "tooltipId": "GuldanChaoticEnergy",
-        "talentTreeId": "GuldanChaoticEnergy",
-        "name": "Chaotic Energy",
-        "description": "Quest: Gathering a Regen Globe causes Gul'dan's next Basic Ability with a Mana cost to refund 40 Mana Reward: After Gathering 20 Regen Globes Gul'dan's Basic Ability Mana costs are permanently reduced by 20.",
-        "icon": "storm_ui_icon_chaoticenergy.png",
-        "sort": 4,
-        "abilityId": "Gul'dan|Passive"
       }
     ],
     "4": [
@@ -101,7 +92,7 @@
         "tooltipId": "GuldanDrainLifeHealthFunnel",
         "talentTreeId": "GuldanDrainLifeHealthFunnel",
         "name": "Health Funnel",
-        "description": "If an enemy dies while under the effect of Drain Life, the cooldown is instantly refreshed.",
+        "description": "Drain Life's cooldown recharges 100% faster while it is channeling. If an enemy dies while under the effect of Drain Life, the cooldown is instantly refreshed.",
         "icon": "storm_ui_icon_guldan_healthfunnel.png",
         "sort": 1,
         "abilityId": "Gul'dan|W1"
@@ -137,21 +128,12 @@
         "abilityId": "Gul'dan|Q1"
       },
       {
-        "tooltipId": "GuldanDrainLifeDevourTheFrail",
-        "talentTreeId": "GuldanDrainLifeDevourTheFrail",
-        "name": "Devour the Frail",
-        "description": "Drain Life deals 50% more damage to enemies below 50% Health.",
-        "icon": "storm_ui_icon_guldan_healthfunnel.png",
-        "sort": 2,
-        "abilityId": "Gul'dan|W1"
-      },
-      {
         "tooltipId": "GuldanCorruptionCurseOfExhaustion",
         "talentTreeId": "GuldanCorruptionCurseOfExhaustion",
         "name": "Curse of Exhaustion",
-        "description": "Upon expiration, Corruption slows enemy Movement Speed by 50% for 2.5 seconds.",
+        "description": "Drain Life deals 50% more damage and slows the target's movement speed by 25% if they are afflicted by Corruption.",
         "icon": "storm_ui_icon_guldan_handofguldan.png",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Gul'dan|E1"
       },
       {
@@ -160,7 +142,7 @@
         "name": "Hunger for Power",
         "description": "Increases Spell Power by 15% but reduces healing received from allies by 25%.",
         "icon": "storm_ui_icon_guldan_hungerforpower.png",
-        "sort": 4,
+        "sort": 3,
         "abilityId": "Gul'dan|Passive"
       }
     ],
@@ -259,7 +241,7 @@
         "tooltipId": "GuldanHorrifyHaunt",
         "talentTreeId": "GuldanHorrifyHaunt",
         "name": "Haunt",
-        "description": "Increases the duration of Horrify by 1 second, and while Feared, enemies lose 25 Armor, causing them to take 25% increased damage.",
+        "description": "Increases the duration of Horrify by 1 second, and while Feared, enemies lose 20 Armor, causing them to take 20% increased damage.",
         "icon": "storm_ui_icon_guldan_horrify.png",
         "sort": 1,
         "abilityId": "Gul'dan|R1"

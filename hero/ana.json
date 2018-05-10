@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Ana|Q1",
         "cooldown": 2,
-        "manaCost": "15"
+        "manaCost": "10"
       },
       {
         "name": "Biotic Grenade",
@@ -46,12 +46,12 @@
         "description": "Instantly boost an allied Hero, restoring 200 Mana. For the next 8 seconds, they gain 30% Spell Power and their Basic Ability cooldowns recharge 150% faster. Cannot be used on Ana.",
         "hotkey": "R",
         "abilityId": "Ana|R2",
-        "cooldown": 60,
+        "cooldown": 70,
         "manaCost": "60"
       },
       {
         "name": "Shrike",
-        "description": "Basic Attacks apply a Dose to non-Structure enemies, dealing an additional 44 (+4% per level) damage over 5 seconds, and stacking up to 5 times.  Every 0.5 seconds, Ana is healed for 50% of the damage dealt to Heroes by Shrike.",
+        "description": "Basic Attacks apply a Dose to non-Structure enemies, dealing an additional 44 (+4% per level) damage over 5 seconds, and stacking up to 5 times.  Every 0.5 seconds, Ana is healed for 50% of the damage dealt by Shrike.",
         "trait": true,
         "abilityId": "Ana|D1"
       }
@@ -81,7 +81,7 @@
         "tooltipId": "AnaDetachableBoxMagazine",
         "talentTreeId": "AnaDetachableBoxMagazine",
         "name": "Detachable Box Magazine",
-        "description": "Quest: Stack 5 Doses on an enemy Hero. Reward: After reaching maximum Dosage 5 times, Shrike also heals for the damage it deals to all enemies. Reward: After reaching maximum Dosage 15 times, unlock the Active Reload Ability, which can be activated to instantly gain 3 charges of Healing Dart.",
+        "description": "Quest: Stack 5 Doses on an enemy Hero. Reward: After reaching maximum Dosage 12 times, unlock the Active Reload Ability, which can be activated to instantly gain 3 charges of Healing Dart.",
         "icon": "storm_ui_icon_ana_detachableboxmagazine.png",
         "sort": 3,
         "abilityId": "Ana|D1"
@@ -139,7 +139,7 @@
         "tooltipId": "AnaDebilitatingDart",
         "talentTreeId": "AnaDebilitatingDart",
         "name": "Debilitating Dart",
-        "description": "Activate to fire a dart which reduces the damage dealt by the first enemy Hero it hits by 50% for 4 seconds.",
+        "description": "Activate to fire a dart which slows the movement speed and reduces the damage dealt by the first enemy Hero it hits by 50% for 3 seconds.",
         "icon": "storm_ui_icon_ana_debilitatingdart.png",
         "sort": 3,
         "abilityId": "Ana|Active",
@@ -155,7 +155,7 @@
         "icon": "storm_ui_icon_ana_nano_bost.png",
         "sort": 1,
         "abilityId": "Ana|R2",
-        "cooldown": 60
+        "cooldown": 70
       },
       {
         "tooltipId": "AnaEyeOfHorusActivate",

@@ -103,7 +103,7 @@
         "tooltipId": "KaelthasGravityLapseEnergyRoilTalent",
         "talentTreeId": "KaelthasGravityLapseEnergyRoil",
         "name": "Energy Roil",
-        "description": "When Gravity Lapse hits a Hero, reduce its cooldown by 9 seconds.",
+        "description": "Reduce the Mana cost of Gravity Lapse by 70. If Gravity Lapse hits a Hero, reduce its cooldown by 9 seconds.",
         "icon": "storm_ui_icon_kaelthas_gravitylapse_a.png",
         "sort": 2,
         "abilityId": "Kael'thas|E1"
@@ -141,7 +141,7 @@
         "tooltipId": "KaelthasSunfireEnchantmentTalent",
         "talentTreeId": "KaelthasMasterySunfireEnchantment",
         "name": "Sunfire Enchantment",
-        "description": "Activating Verdant Spheres causes Kael'thas's next Basic Attack to instead deal 165 (+4% per level) Spell Damage.",
+        "description": "Activating Verdant Spheres causes Kael'thas's next 2 Basic Attacks to instead deal 115 (+4% per level) Spell Damage.  If both of these Attacks hit enemy Heroes, gain 15% Spell Power for 10 seconds.",
         "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
         "sort": 3,
         "abilityId": "Kael'thas|D1"
@@ -174,7 +174,7 @@
         "tooltipId": "KaelthasLivingBombPyromaniacTalent",
         "talentTreeId": "KaelthasLivingBombPyromaniac",
         "name": "Pyromaniac",
-        "description": "Each time Living Bomb deals periodic damage, Kael'thas's Basic Ability cooldowns are reduced by 1 second.",
+        "description": "Each time Living Bomb deals periodic damage, Kael'thas's Basic Ability cooldowns are reduced by 0.5 seconds.",
         "icon": "storm_ui_icon_kaelthas_livingbomb.png",
         "sort": 1,
         "abilityId": "Kael'thas|W1"
@@ -209,22 +209,22 @@
         "abilityId": "Kael'thas|Q1"
       },
       {
+        "tooltipId": "Kael'thasLivingBombIgnite",
+        "talentTreeId": "Kael'thasLivingBombIgnite",
+        "name": "Ignite",
+        "description": "Flamestrikes apply Living Bomb to the enemy Hero closest to its center who is not currently affected by Living Bomb.",
+        "icon": "storm_ui_icon_kaelthas_livingbomb.png",
+        "sort": 2,
+        "abilityId": "Kael'thas|Q1"
+      },
+      {
         "tooltipId": "KaelthasVerdantSpheresTwinSpheresTalent",
         "talentTreeId": "KaelthasTwinSpheres",
         "name": "Twin Spheres",
         "description": "Verdant Spheres gains a second charge.",
         "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
-        "sort": 2,
-        "abilityId": "Kael'thas|D1"
-      },
-      {
-        "tooltipId": "KaelthasArcaneDynamo",
-        "talentTreeId": "KaelthasArcaneDynamo",
-        "name": "Arcane Dynamo",
-        "description": "Using a Basic Ability increases Kael'thas's Spell Power by 3% for 5 seconds, stacking up to 15%.",
-        "icon": "storm_ui_icon_talent_arcanepower.png",
         "sort": 3,
-        "abilityId": "Kael'thas|Passive"
+        "abilityId": "Kael'thas|D1"
       }
     ],
     "20": [
@@ -241,7 +241,7 @@
         "tooltipId": "KaelthasPyroblastPresenceOfMindTalent",
         "talentTreeId": "KaelthasPyroblastPresenceOfMind",
         "name": "Presence Of Mind",
-        "description": "Increases Pyroblast's explosion radius by 50% and reduces its cooldown by 25 seconds per enemy Hero hit.",
+        "description": "Increases Pyroblast's explosion radius by 50%. Heroes that are hit by Flamestrike or have Living Bomb spread to them reduce the cooldown of Pyroblast by 10 seconds.",
         "icon": "storm_ui_icon_kaelthas_pyroblast.png",
         "sort": 2,
         "abilityId": "Kael'thas|R1"

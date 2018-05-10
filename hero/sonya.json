@@ -98,20 +98,20 @@
         "tooltipId": "BarbarianHurricaneWhirlwindTalent",
         "talentTreeId": "BarbarianHurricane",
         "name": "Hurricane",
-        "description": "Reduce the cooldown of Whirlwind by 1 second. Casting Whirlwind removes all Slows and Roots from Sonya.",
+        "description": "Reduce the cooldown of Whirlwind by 2 seconds. Casting Whirlwind removes all Slows and Roots from Sonya.",
         "icon": "storm_ui_icon_sonya_whirlwind.png",
         "sort": 2,
         "abilityId": "Sonya|E1"
       },
       {
-        "tooltipId": "BarbarianBattleRage",
-        "talentTreeId": "BarbarianBattleRage",
-        "name": "Battle Rage",
-        "description": "Activate to instantly restore 10% of Sonya's maximum Health. Stores up to 2 charges. Passive: Sonya deals 25% more damage to Mercenaries.",
-        "icon": "storm_ui_icon_talent_mercenarylord.png",
+        "tooltipId": "BarbarianFuryShotOfFuryTalent",
+        "talentTreeId": "BarbarianShotOfFury",
+        "name": "Shot Of Fury",
+        "description": "Activate to gain 50 Fury. Usable while Whirlwinding. Passive: After casting Seismic Slam, your next Basic Attack deals 40% more damage.",
+        "icon": "storm_ui_icon_sonya_fury.png",
         "sort": 3,
-        "abilityId": "Sonya|Active",
-        "cooldown": 30
+        "abilityId": "Sonya|D1",
+        "cooldown": 40
       }
     ],
     "7": [
@@ -134,14 +134,14 @@
         "abilityId": "Sonya|E1"
       },
       {
-        "tooltipId": "BarbarianFuryShotOfFuryTalent",
-        "talentTreeId": "BarbarianShotOfFury",
-        "name": "Shot Of Fury",
-        "description": "Activate to gain 50 Fury. Usable while Whirlwinding. Passive: After casting Seismic Slam, your next Basic Attack deals 40% more damage.",
-        "icon": "storm_ui_icon_sonya_fury.png",
+        "tooltipId": "BarbarianBattleRage",
+        "talentTreeId": "BarbarianBattleRage",
+        "name": "Battle Rage",
+        "description": "Activate to instantly restore 10% of Sonya's maximum Health. Stores up to 2 charges. Passive: Sonya deals 25% more damage to Mercenaries.",
+        "icon": "storm_ui_icon_talent_mercenarylord.png",
         "sort": 3,
-        "abilityId": "Sonya|D1",
-        "cooldown": 40
+        "abilityId": "Sonya|Active",
+        "cooldown": 30
       }
     ],
     "10": [
@@ -171,7 +171,7 @@
         "tooltipId": "BarbarianAncientSpearMysticalSpearTalent",
         "talentTreeId": "BarbarianMysticalSpear",
         "name": "Mystical Spear",
-        "description": "Reduces the cooldown of Ancient Spear by 2 seconds. Ancient Spear always pulls Sonya to the target location even if it doesn't hit an enemy.",
+        "description": "Ancient Spear always pulls Sonya to the target location even if it doesn't hit an enemy. When used this way, Ancient Spear's cooldown is reduced by 5 seconds.",
         "icon": "storm_ui_icon_sonya_ancientspear.png",
         "sort": 1,
         "abilityId": "Sonya|Q1"

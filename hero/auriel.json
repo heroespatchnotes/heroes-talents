@@ -46,7 +46,7 @@
       },
       {
         "name": "Bestow Hope",
-        "description": "Passive: 40% of the damage you deal to Heroes and 5% dealt to non-Heroes is stored as energy.  Bestow an allied Hero with Hope. While they remain near you, damage they deal causes you to gain energy. You can only have Bestow Hope on 1 ally at a time.  You can store up to 475 (+4% per level) energy.",
+        "description": "Passive: 40% of the damage Auriel deals to Heroes and 10% dealt to non-Heroes is stored as energy.  Bestow an allied Hero with Hope.  While they remain near Auriel, damage they deal causes her to gain energy. Auriel can only have Bestow Hope on 1 ally at a time.  Auriel can store up to 475 (+4% per level) energy.",
         "hotkey": "D",
         "trait": true,
         "abilityId": "Auriel|D1",
@@ -116,7 +116,7 @@
         "tooltipId": "AurielRepeatedOffenseDetainmentStrikeTalent",
         "talentTreeId": "AurielRepeatedOffenseDetainmentStrikeTalent",
         "name": "Repeated Offense",
-        "description": "Quest: Every time Detainment Strike stuns a Hero, increase the stun damage by 10, up to 60. Reward: After stunning 6 Heroes, increase this damage bonus to 250.",
+        "description": "Enemies hit by Detainment Strike are knocked back 25% farther.  Quest: Every time Detainment Strike stuns a Hero, increase the stun damage by 10, up to 60. Reward: After stunning 6 Heroes, increase this damage bonus to 250.",
         "icon": "storm_ui_icon_auriel_restrainingblow_a.png",
         "sort": 3,
         "abilityId": "Auriel|E1"
@@ -200,15 +200,6 @@
         "icon": "storm_ui_icon_auriel_restrainingblow.png",
         "sort": 3,
         "abilityId": "Auriel|E1"
-      },
-      {
-        "tooltipId": "AurielRepellingStrikeDetainmentStrikeTalent",
-        "talentTreeId": "AurielRepellingStrikeDetainmentStrikeTalent",
-        "name": "Repelling Strike",
-        "description": "Enemies hit by Detainment Strike are knocked back 35% farther.",
-        "icon": "storm_ui_icon_auriel_restrainingblow_a.png",
-        "sort": 4,
-        "abilityId": "Auriel|E1"
       }
     ],
     "16": [
@@ -254,7 +245,7 @@
         "tooltipId": "AurielDiamondResolveCrystalAegisTalent",
         "talentTreeId": "AurielDiamondResolveCrystalAegisTalent",
         "name": "Diamond Resolve",
-        "description": "When Crystal Aegis expires, it grants the target 60 Armor for 5 seconds, reducing damage taken by 60%.",
+        "description": "When Crystal Aegis expires, it grants the target 75 Armor for 5 seconds, reducing damage taken by 75%.",
         "icon": "storm_ui_icon_auriel_ribboncocoon.png",
         "sort": 2,
         "abilityId": "Auriel|R1"
