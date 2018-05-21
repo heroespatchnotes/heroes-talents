@@ -40,7 +40,7 @@
       },
       {
         "name": "Medivac Dropship",
-        "description": "Target a location for a Medivac transport. For up to 10.5 seconds before takeoff, allies can right-click to enter the Medivac.",
+        "description": "Target a location for a Medivac transport. For up to 10 seconds before takeoff, allies can right-click to enter the Medivac.",
         "hotkey": "R",
         "abilityId": "Lt. Morales|R2",
         "cooldown": 60
@@ -157,7 +157,7 @@
         "tooltipId": "MedicMedivacDropship",
         "talentTreeId": "MedicHeroicAbilityMedivacDropship",
         "name": "Medivac Dropship",
-        "description": "Target a location for a Medivac transport. For up to 10.5 seconds before takeoff, allies can right-click to enter the Medivac.",
+        "description": "Target a location for a Medivac transport. For up to 10 seconds before takeoff, allies can right-click to enter the Medivac.",
         "icon": "storm_ui_icon_medic_medivacdropship.png",
         "sort": 2,
         "abilityId": "Lt. Morales|R2",
@@ -169,7 +169,7 @@
         "tooltipId": "MedicEMPGrenadeTalent",
         "talentTreeId": "MedicEMPGrenade",
         "name": "EMP Grenade",
-        "description": "Displacement Grenade deals an additional 40 (+4% per level) damage over 2 seconds, and up to 400 (+4% per level) bonus damage to Shields.",
+        "description": "Displacement Grenade deals an additional 80 (+4% per level) damage over 2 seconds, and up to 400 (+4% per level) bonus damage to Shields.",
         "icon": "storm_ui_icon_medic_displacementgrenade.png",
         "sort": 1,
         "abilityId": "Lt. Morales|E1"
@@ -216,7 +216,7 @@
         "tooltipId": "MedicShieldSequencerTalent",
         "talentTreeId": "MedicShieldSequencer",
         "name": "Shield Sequencer",
-        "description": "Safeguard gains a second charge.",
+        "description": "Safeguard gains a second charge. These charges cannot stack on a single target.",
         "icon": "storm_ui_icon_medic_deployshield.png",
         "sort": 3,
         "abilityId": "Lt. Morales|W1"
@@ -245,7 +245,7 @@
         "tooltipId": "MedicReinforcements",
         "talentTreeId": "MedicReinforcements",
         "name": "Reinforcements",
-        "description": "Activate to call down a Medivac Dropship at your Altar for your allies. After 10 seconds, or when the Ability is activated again, the Medivac will travel to the original cast location to unload its passengers. Cooldown is shared with Medivac Dropship. Passive: Reduce the cooldown of Medivac Dropship from 60 to 30 seconds.",
+        "description": "Activate to call down a Medivac Dropship at your Altar for your allies. After 10 seconds, or when the Ability is activated again, the Medivac will travel to the original cast location to unload its passengers. Cooldown is shared with Medivac Dropship. Passive: Reduce the cooldown of Medivac Dropship from 60 to 30 seconds. Does not require the Medivac Dropship Talent.",
         "icon": "storm_ui_icon_medic_medivacdropship_b.png",
         "sort": 3,
         "abilityId": "Lt. Morales|R2"

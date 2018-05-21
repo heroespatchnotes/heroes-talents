@@ -63,7 +63,7 @@
         "tooltipId": "ThrallEchooftheElements",
         "talentTreeId": "ThrallEchooftheElements",
         "name": "Echo of the Elements",
-        "description": "Quest: Kill Minions or Heroes within 1.5 seconds of hitting them with Chain Lightning. Reward: After killing 10 enemies, reduce the Mana cost of Chain Lightning from 45 to 25. Reward: After killing 20 enemies, gain a second charge of Chain Lightning.",
+        "description": "Quest: Kill Minions or Heroes within 1.5 seconds of hitting them with Chain Lightning. Reward: After killing 10 enemies, reduce the Mana cost of Chain Lightning from 40 to 25. Reward: After killing 20 enemies, gain a second charge of Chain Lightning.",
         "icon": "storm_ui_icon_thrall_chainlightning.png",
         "sort": 1,
         "abilityId": "Thrall|Q1"
@@ -154,7 +154,7 @@
         "icon": "storm_ui_icon_thrall_sundering.png",
         "sort": 1,
         "abilityId": "Thrall|R1",
-        "cooldown": 60
+        "cooldown": 70
       },
       {
         "tooltipId": "ThrallEarthquake",
@@ -212,7 +212,7 @@
         "tooltipId": "ThrallThunderstorm",
         "talentTreeId": "ThrallThunderstorm",
         "name": "Thunderstorm",
-        "description": "Casting Chain Lightning on a Hero other than the last Hero it was cast on causes it to Slow targets by 8% for 2 seconds.  Repeatable Quest: Each consecutive cast against a new Hero increases this bonus by 8%, up to 40%. Bonuses are reset if Thrall dies or casts Chain Lightning on the same Hero twice.  Reward: While at a 40% bonus, Chain Lightning's damage is increased by 25%.",
+        "description": "Chain Lightning Slows targets by 8% for 2 seconds. Quest: Targeting a Hero directly with Chain Lightning increases this Slow by 8%, up to an additional 40%. Reward: While at a 40% bonus, Chain Lightning's damage is increased by 25%. Bonuses are reset if Chain Lightning is used on the same Hero it was last used on, or if Thrall dies.",
         "icon": "storm_ui_icon_thrall_chainlightning.png",
         "sort": 2,
         "abilityId": "Thrall|Q1"

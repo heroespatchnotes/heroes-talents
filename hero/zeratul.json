@@ -43,7 +43,7 @@
       },
       {
         "name": "Void Prison",
-        "description": "Slows time in an area to a near standstill, making allies and enemies invulnerable and unable to act for 5 seconds. You are not affected.",
+        "description": "Slows time in an area to a near standstill, placing allies and enemies in Time Stop for 5 seconds. Zeratul is not affected.",
         "hotkey": "R",
         "abilityId": "Zeratul|R2",
         "cooldown": 100,
@@ -168,7 +168,7 @@
         "tooltipId": "ZeratulVoidPrison",
         "talentTreeId": "ZeratulHeroicAbilityVoidPrison",
         "name": "Void Prison",
-        "description": "Slows time in an area to a near standstill, making allies and enemies invulnerable and unable to act for 5 seconds. Zeratul is not affected.",
+        "description": "Slows time in an area to a near standstill, placing allies and enemies in Time Stop for 5 seconds. Zeratul is not affected.",
         "icon": "storm_ui_icon_zeratul_voidprison.png",
         "sort": 2,
         "abilityId": "Zeratul|R2",
@@ -180,7 +180,7 @@
         "tooltipId": "ZeratulShroudofAdun",
         "talentTreeId": "ZeratulShroudofAdun",
         "name": "Shroud of Adun",
-        "description": "Zeratul gains a shield equal to 15% of his Maximum Health over 5 seconds while under Permanent Cloak.",
+        "description": "Zeratul gains a Shield equal to 15% of his Maximum Health over 5 seconds while under Permanent Cloak.",
         "icon": "storm_ui_icon_zeratul_cloak.png",
         "sort": 1,
         "abilityId": "Zeratul|D1"
@@ -198,7 +198,7 @@
         "tooltipId": "GenericSpellShieldTalent",
         "talentTreeId": "GenericTalentSpellShield",
         "name": "Spell Shield",
-        "description": "Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically.",
+        "description": "Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 50%. Can be toggled to allow or prevent this talent from triggering automatically.",
         "icon": "storm_ui_icon_talent_spellshield.png",
         "sort": 3,
         "abilityId": "Zeratul|Passive"

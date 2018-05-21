@@ -124,7 +124,7 @@
         "tooltipId": "LeoricParalyzingRageTalent",
         "talentTreeId": "LeoricMasteryParalyzingRageSkeletalSwing",
         "name": "Paralyzing Rage",
-        "description": "Increase the Slow of Skeletal Swing by 60%.",
+        "description": "Increase the Slow of Skeletal Swing by 20%.",
         "icon": "storm_ui_icon_leoric_skeletalswing_var1.png",
         "sort": 2,
         "abilityId": "Leoric|Q1"
@@ -133,7 +133,7 @@
         "tooltipId": "LeoricKneelPeasantsTalent",
         "talentTreeId": "LeoricSkeletalSwingKneelPeasantsTalent",
         "name": "Kneel, Peasants!",
-        "description": "Skeletal Swing deals 100% more damage to Minions and Mercenaries.",
+        "description": "Skeletal Swing deals 100% more damage to Minions, Mercenaries, and Monsters.",
         "icon": "storm_ui_icon_leoric_skeletalswing_var2.png",
         "sort": 3,
         "abilityId": "Leoric|Q1"
@@ -153,7 +153,7 @@
         "tooltipId": "LeoricDrainMomentumTalent",
         "talentTreeId": "LeoricMasteryDrainMomentumDrainHope",
         "name": "Drain Momentum",
-        "description": "Drain Hope no longer Slows Leoric. If Drain Hope lasts its full duration, gain 30% Movement Speed for 4 seconds.",
+        "description": "Drain Hope no longer reduces Leoric's Movement Speed. If Drain Hope lasts its full duration, gain 30% Movement Speed for 4 seconds.",
         "icon": "storm_ui_icon_leoric_drainhope_var1.png",
         "sort": 2,
         "abilityId": "Leoric|W1"
@@ -195,7 +195,7 @@
         "tooltipId": "LeoricUnyieldingDespairTalent",
         "talentTreeId": "LeoricMasteryUnyieldingDespairDrainHope",
         "name": "Unyielding Despair",
-        "description": "Drain Hope's cooldown is reduced by 0.5 seconds for every 1 second it is active. If Drain Hope lasts its full duration, its cooldown is reduced by an additional 3 seconds.",
+        "description": "Drain Hope's cooldown is reduced by 0.5 seconds for every 1 second it is active. If Drain Hope lasts its full duration, its cooldown is reduced by an additional 2 seconds.",
         "icon": "storm_ui_icon_leoric_drainhope.png",
         "sort": 1,
         "abilityId": "Leoric|W1"
@@ -253,7 +253,7 @@
         "tooltipId": "LeoricBuriedAliveTalent",
         "talentTreeId": "LeoricMasteryBuriedAliveEntomb",
         "name": "Buried Alive",
-        "description": "The duration of Entomb is lowered by 1 second, but enemies trapped inside are Silenced and take 45 (+4% per level) damage every 1 second.",
+        "description": "The duration of Entomb is lowered by 1 second, but enemies trapped inside are Silenced and take 50 (+4% per level) damage every 1 second.",
         "icon": "storm_ui_icon_leoric_entomb.png",
         "sort": 1,
         "abilityId": "Leoric|R1"

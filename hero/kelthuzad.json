@@ -92,7 +92,7 @@
         "tooltipId": "KelThuzadStripShields",
         "talentTreeId": "KelThuzadStripShields",
         "name": "Strip Shields",
-        "description": "Pulling a Hero with Chains of Kel'Thuzad grants Kel'Thuzad a permanent 120 (+4% per level) Shield, stacking up to 2 times.  Additionally, Chains of Kel'Thuzad deals up to 270 (+2.5% per level) bonus damage to Shields.",
+        "description": "Pulling a Hero with Chains of Kel'Thuzad grants Kel'Thuzad a permanent 120 (+4% per level) Shield, stacking up to 2 times. Additionally, Chains of Kel'Thuzad deals up to 270 (+2.5% per level) bonus damage to Heroes' Shields.",
         "icon": "storm_ui_icon_kel'thuzad_chains.png",
         "sort": 1,
         "abilityId": "Kel'Thuzad|E1"
@@ -141,7 +141,7 @@
         "tooltipId": "KelThuzadChillingTouch",
         "talentTreeId": "KelThuzadChillingTouch",
         "name": "Chilling Touch",
-        "description": "Every 8 seconds, Kel'Thuzad's next Basic Attack hits nearby enemies, deals Spell damage instead of Physical, and Slows by 30% for 2 seconds.",
+        "description": "Every 8 seconds, Kel'Thuzad's next Basic Attack hits all enemies in the area for 100% additional damage, deals Spell damage instead of Physical, and Slows by 30% for 2 seconds.",
         "icon": "storm_ui_icon_kel'thuzad_chillingtouch.png",
         "sort": 3,
         "abilityId": "Kel'Thuzad|Passive"
@@ -192,7 +192,7 @@
         "tooltipId": "KelThuzadChainLink",
         "talentTreeId": "KelThuzadChainLink",
         "name": "Chain-Link",
-        "description": "Pulling two Heroes together with Chains of Kel'Thuzad reduces its cooldown by 4 seconds and refunds its Mana cost.",
+        "description": "Pulling 2 Heroes together with Chains of Kel'Thuzad reduces its cooldown by 4 seconds and refunds its Mana cost.",
         "icon": "storm_ui_icon_kel'thuzad_chains_a.png",
         "sort": 3,
         "abilityId": "Kel'Thuzad|E1"
@@ -212,7 +212,7 @@
         "tooltipId": "KelThuzadHungeringCold",
         "talentTreeId": "KelThuzadHungeringCold",
         "name": "Hungering Cold",
-        "description": "Enemies Rooted by Frost Nova take an additional 55 (+2.5% per level) damage each time they are damaged by Kel'Thuzad during the next 4 seconds.",
+        "description": "Enemy Heroes Rooted by Frost Nova take an additional 55 (+2.5% per level) damage each time they are damaged by Kel'Thuzad during the next 4 seconds.",
         "icon": "storm_ui_icon_kel'thuzad_frostnova.png",
         "sort": 2,
         "abilityId": "Kel'Thuzad|W1"
@@ -241,7 +241,7 @@
         "tooltipId": "KelThuzadMightOfTheScourge",
         "talentTreeId": "KelThuzadMightOfTheScourge",
         "name": "Might of the Scourge",
-        "description": "Hitting a Hero with Shadow Fissure resets it cooldown.",
+        "description": "Hitting a Hero with Shadow Fissure resets its cooldown.",
         "icon": "storm_ui_icon_kel'thuzad_shadowfissure.png",
         "sort": 2,
         "abilityId": "Kel'Thuzad|R2"

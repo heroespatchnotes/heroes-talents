@@ -35,7 +35,7 @@
       },
       {
         "name": "Shadowstalk",
-        "description": "Stealth and gain 30% Movement Speed. When Shadowstalk's Stealth is broken, gain 50% Attack Speed and retain its Movement Speed bonus for 5 seconds.",
+        "description": "Stealth and gain 30% Movement Speed. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible. When Shadowstalk's Stealth is broken, gain 50% Attack Speed and retain its Movement Speed bonus for 5 seconds.",
         "hotkey": "R",
         "abilityId": "Tyrande|R1",
         "cooldown": 20,
@@ -43,7 +43,7 @@
       },
       {
         "name": "Starfall",
-        "description": "Deal 88 (+4% per level) damage per second and slow enemies by 20% in an area. Lasts 8 seconds.",
+        "description": "Deal 88 (+4% per level) damage per second and slow enemies by 20% in an area. Lasts 6 seconds.",
         "hotkey": "R",
         "abilityId": "Tyrande|R2",
         "cooldown": 80,
@@ -152,7 +152,7 @@
         "tooltipId": "TyrandeShadowstalk",
         "talentTreeId": "TyrandeHeroicAbilityShadowstalk",
         "name": "Shadowstalk",
-        "description": "Stealth and gain 30% Movement Speed. When Shadowstalk's Stealth is broken, gain 50% Attack Speed and retain its Movement Speed bonus for 5 seconds.",
+        "description": "Stealth and gain 30% Movement Speed. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible. When Shadowstalk's Stealth is broken, gain 50% Attack Speed and retain its Movement Speed bonus for 5 seconds.",
         "icon": "storm_ui_icon_tyrande_shadowstalk.png",
         "sort": 1,
         "abilityId": "Tyrande|R1",
@@ -162,7 +162,7 @@
         "tooltipId": "TyrandeStarfall",
         "talentTreeId": "TyrandeHeroicAbilityStarfall",
         "name": "Starfall",
-        "description": "Deal 88 (+4% per level) damage per second and slow enemies by 20% in an area. Lasts 8 seconds.",
+        "description": "Deal 88 (+4% per level) damage per second and slow enemies by 20% in an area. Lasts 6 seconds.",
         "icon": "storm_ui_icon_tyrande_starfall.png",
         "sort": 2,
         "abilityId": "Tyrande|R2",
@@ -242,7 +242,7 @@
         "tooltipId": "TyrandeStarfallCelestialWrathTalent",
         "talentTreeId": "TyrandeMasteryStarfallCelestialWrath",
         "name": "Celestial Wrath",
-        "description": "Starfall applies Hunter's Mark to enemy Heroes hit.",
+        "description": "Starfall applies Hunter's Mark to enemy Heroes while inside of its area of effect.",
         "icon": "storm_ui_icon_tyrande_starfall.png",
         "sort": 2,
         "abilityId": "Tyrande|R2"
@@ -260,7 +260,7 @@
         "tooltipId": "TyrandeIcebladeArrows",
         "talentTreeId": "TyrandeIcebladeArrows",
         "name": "Iceblade Arrows",
-        "description": "Increase Attack Speed by 25%. Basic Attacks against enemy Heroes reduce their damage dealt by 5% for 3 seconds. This effect stacks up to 10 times.",
+        "description": "Increase Attack Speed by 25%. Basic Attacks against enemy Heroes reduce their damage dealt by 8% for 2 seconds. This effect stacks up to 5 times.",
         "icon": "storm_ui_icon_talent_autoattack_slow.png",
         "sort": 4,
         "abilityId": "Tyrande|Passive"
