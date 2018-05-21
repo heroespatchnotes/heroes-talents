@@ -39,7 +39,7 @@
       },
       {
         "name": "Octo-Grab",
-        "description": "Murky summons an octopus to stun target enemy Hero for 3 seconds while he hits them for 1 damage a second.",
+        "description": "Murky becomes Unstoppable and Stuns target enemy Hero for 3 seconds while he hits them for 1 damage a second.",
         "hotkey": "R",
         "abilityId": "Murky|R2",
         "cooldown": 50
@@ -79,7 +79,7 @@
         "tooltipId": "MurkyAFishyDeal",
         "talentTreeId": "MurkyAFishyDeal",
         "name": "A Fishy Deal",
-        "description": "Killing a Minion with Pufferfish grants a stack of Bribe. Use 8 stacks to bribe a Mercenary, instantly defeating them. Does not work on Bosses. Maximum of 32 stacks.",
+        "description": "Killing a Minion with Pufferfish grants a stack of Bribe. Use 8 stacks to bribe a Mercenary, instantly defeating them. Does not work on Bosses. Maximum of 32 stacks of Bribe.",
         "icon": "storm_ui_icon_talent_bribe.png",
         "sort": 3,
         "abilityId": "Murky|Active"
@@ -158,7 +158,7 @@
         "tooltipId": "MurkyOctoGrab",
         "talentTreeId": "MurkyHeroicAbilityOctoGrab",
         "name": "Octo-Grab",
-        "description": "Murky summons an octopus to stun target enemy Hero for 3 seconds while he hits them for 1 damage a second.",
+        "description": "Murky becomes Unstoppable and Stuns target enemy Hero for 3 seconds while he hits them for 1 damage a second.",
         "icon": "storm_ui_icon_murky_octograb.png",
         "sort": 2,
         "abilityId": "Murky|R2",
@@ -179,7 +179,7 @@
         "tooltipId": "MurkyFishTank",
         "talentTreeId": "MurkyFishTank",
         "name": "Fish Tank",
-        "description": "Basic Attacks against Heroes grants Murky 75 Physical Armor against Heroes for 3 seconds.",
+        "description": "Basic Attacks against Heroes grant Murky 75 Physical Armor against Heroes for 3 seconds.",
         "icon": "storm_ui_icon_murky_fishtank.png",
         "sort": 2,
         "abilityId": "Murky|Passive"

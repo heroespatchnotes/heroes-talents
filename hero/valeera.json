@@ -35,14 +35,14 @@
       },
       {
         "name": "Smoke Bomb",
-        "description": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 25 Armor, reducing damage taken by 25%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds. Using this Ability does not break Vanish.",
+        "description": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 25 Armor, reducing damage taken by 25%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds. Using this Ability does not break Stealth.",
         "hotkey": "R",
         "abilityId": "Valeera|R1",
         "cooldown": 60
       },
       {
         "name": "Cloak of Shadows",
-        "description": "Valeera is enveloped in a Cloak of Shadows, which immediately removes all damage over time effects from her. For 1.5 seconds, she becomes Unstoppable and gains 75 Spell Armor, reducing Ability Damage taken by 75%. Using this Ability does not break Vanish.",
+        "description": "Valeera is enveloped in a Cloak of Shadows, which immediately removes all damage over time effects from her. For 1.5 seconds, she becomes Unstoppable and gains 75 Spell Armor, reducing Ability Damage taken by 75%. Using this Ability does not break Stealth.",
         "hotkey": "R",
         "abilityId": "Valeera|R2",
         "cooldown": 15
@@ -146,7 +146,7 @@
         "tooltipId": "ValeeraInitiative",
         "talentTreeId": "ValeeraVanishInitiative",
         "name": "Initiative",
-        "description": "Ambush, Cheap Shot, and Garrote award 1 Combo Points.",
+        "description": "Ambush, Cheap Shot, and Garrote award 2 Combo Points.",
         "icon": "storm_ui_icon_valeera_vanish.png",
         "sort": 3,
         "abilityId": "Valeera|D1"
@@ -196,7 +196,7 @@
         "tooltipId": "ValeeraSmokeBomb",
         "talentTreeId": "ValeeraSmokeBomb",
         "name": "Smoke Bomb",
-        "description": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 25 Armor, reducing damage taken by 25%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds. Using this Ability does not break Vanish.",
+        "description": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 25 Armor, reducing damage taken by 25%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds. Using this Ability does not break Stealth.",
         "icon": "storm_ui_icon_valeera_smokebomb.png",
         "sort": 1,
         "abilityId": "Valeera|R1",
@@ -206,7 +206,7 @@
         "tooltipId": "ValeeraCloakOfShadows",
         "talentTreeId": "ValeeraCloakOfShadows",
         "name": "Cloak of Shadows",
-        "description": "Valeera is enveloped in a Cloak of Shadows, which immediately removes all damage over time effects from her. For 1.5 seconds, she becomes Unstoppable and gains 75 Spell Armor, reducing Ability Damage taken by 75%. Using this Ability does not break Vanish.",
+        "description": "Valeera is enveloped in a Cloak of Shadows, which immediately removes all damage over time effects from her. For 1.5 seconds, she becomes Unstoppable and gains 75 Spell Armor, reducing Ability Damage taken by 75%. Using this Ability does not break Stealth.",
         "icon": "storm_ui_icon_valeera_cloakofshadows.png",
         "sort": 2,
         "abilityId": "Valeera|R2",
@@ -247,7 +247,7 @@
         "tooltipId": "ValeeraSealFate",
         "talentTreeId": "ValeeraSinisterStrikeSealFate",
         "name": "Seal Fate",
-        "description": "Sinister Strike deals 50% additional damage and generates an additional Combo Point when used against silenced, rooted, or stunned enemy Heroes.",
+        "description": "Sinister Strike deals 50% additional damage and generates an additional Combo Point when used against Silenced, Rooted, or Stunned enemy Heroes.",
         "icon": "storm_ui_icon_valeera_sinisterstrike.png",
         "sort": 1,
         "abilityId": "Valeera|Q1"
@@ -265,7 +265,7 @@
         "tooltipId": "ValeeraThistleTea",
         "talentTreeId": "ValeeraThistleTea",
         "name": "Thistle Tea",
-        "description": "Activate to instantly restore 100 Energy. Activating Thistle Tea does not break Vanish.",
+        "description": "Activate to instantly restore 100 Energy. Activating Thistle Tea does not break Stealth.",
         "icon": "storm_ui_icon_valeera_thistletea.png",
         "sort": 3,
         "abilityId": "Valeera|Active",

@@ -43,7 +43,7 @@
       },
       {
         "name": "Massive Shove",
-        "description": "Extend Stukov's arm. If it hits an enemy Hero, they are rapidly shoved until they collide with terrain, taking 190 (+4% per level) damage. Stukov gains 50 Armor while shoving an enemy.",
+        "description": "Extend Stukov's arm. If it hits an enemy Hero, they are rapidly shoved until they collide with terrain, dealing 190 (+4% per level) damage and Stunning them for 0.5 seconds. Stukov gains 50 Armor while shoving an enemy.",
         "hotkey": "R",
         "abilityId": "Stukov|R2",
         "cooldown": 20,
@@ -74,7 +74,7 @@
         "tooltipId": "StukovFetidTouchTalent",
         "talentTreeId": "StukovFetidTouch",
         "name": "Fetid Touch",
-        "description": "Quest: Hit Heroes with Weighted Pusule. Reward: After hitting 15 Heroes, reduce the cooldown of Weighted Pustule by 2.5 seconds. Reward: After hitting 30 Heroes, reduce the cooldown of Weighted Pustule by an additional 2.5 seconds and remove its Mana cost.",
+        "description": "Quest: Hit Heroes with Weighted Pustule. Reward: After hitting 15 Heroes, reduce the cooldown of Weighted Pustule by 2.5 seconds. Reward: After hitting 30 Heroes, reduce the cooldown of Weighted Pustule by an additional 2.5 seconds and remove its Mana cost.",
         "icon": "storm_ui_icon_stukov_weightedpustule.png",
         "sort": 2,
         "abilityId": "Stukov|W1"
@@ -189,7 +189,7 @@
         "tooltipId": "StukovMassiveShove",
         "talentTreeId": "StukovHeroicAbilityMassiveShove",
         "name": "Massive Shove",
-        "description": "Extend Stukov's arm. If it hits an enemy Hero, they are rapidly shoved until they collide with terrain, taking 190 (+4% per level) damage. Stukov gains 50 Armor while shoving an enemy.",
+        "description": "Extend Stukov's arm. If it hits an enemy Hero, they are rapidly shoved until they collide with terrain, dealing 190 (+4% per level) damage and Stunning them for 0.5 seconds. Stukov gains 50 Armor while shoving an enemy.",
         "icon": "storm_ui_icon_stukov_massiveshove.png",
         "sort": 2,
         "abilityId": "Stukov|R2",
@@ -210,7 +210,7 @@
         "tooltipId": "StukovLowBlowTalent",
         "talentTreeId": "StukovLowBlow",
         "name": "Low Blow",
-        "description": "Lurking Arm deals 150% more damage to enemy Heroes below 25% Health.",
+        "description": "Lurking Arm deals 150% more damage to enemy Heroes below 30% Health.",
         "icon": "storm_ui_icon_stukov_lurkingarm.png",
         "sort": 2,
         "abilityId": "Stukov|E1"

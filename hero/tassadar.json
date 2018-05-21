@@ -35,7 +35,7 @@
       },
       {
         "name": "Archon",
-        "description": "Tassadar transforms into an Archon and gains a Plasma Shield. His Basic Attacks deal 158 (+4% per level) damage, slow the target by 30% for 1 second and splash for 83 (+4% per level) damage to enemies within 2.5 range. Lasts for 10 seconds. Passive: Archon refreshes the cooldown of Dimensional Shift.",
+        "description": "Tassadar transforms into an Archon and gains a Plasma Shield. His Basic Attacks deal 158 (+4% per level) damage, slow the target by 30% for 1 second and splash for 79 (+4% per level) damage to enemies within 2.5 range. Lasts for 10 seconds. Passive: Archon refreshes the cooldown of Dimensional Shift.",
         "hotkey": "R",
         "abilityId": "Tassadar|R1",
         "cooldown": 100,
@@ -65,7 +65,7 @@
         "tooltipId": "TassadarPsionicStormPsiInfusionTalent",
         "talentTreeId": "TassadarPsionicStormPsiInfusion",
         "name": "Psi-Infusion",
-        "description": "Quest: Gain 1 Mana for every non-Structure enemy hit by Psionic Storm. Reward: After hitting 500 enemies, increase the size of Psionic Storm by 20%. Reward: After hitting 1000 enemies, increase the damage of Psionic Storm by 20%.",
+        "description": "Quest: Gain 1 Mana for every non-Structure enemy hit by Psionic Storm. Reward: After hitting 500 enemies, increase the size of Psionic Storm by 20%. Reward: After hitting 1000 enemies, increase the damage of Psionic Storm by 20%",
         "icon": "storm_ui_icon_tassadar_psionicstorm_var1.png",
         "sort": 1,
         "abilityId": "Tassadar|W1"
@@ -152,7 +152,7 @@
         "tooltipId": "TassadarArchon",
         "talentTreeId": "TassadarHeroicAbilityArchon",
         "name": "Archon",
-        "description": "Tassadar transforms into an Archon and gains a Plasma Shield. His Basic Attacks deal 158 (+4% per level) damage, slow the target by 30% for 1 second and splash for 83 (+4% per level) damage to enemies within 2.5 range. Lasts for 10 seconds. Passive: Archon refreshes the cooldown of Dimensional Shift.",
+        "description": "Tassadar transforms into an Archon and gains a Plasma Shield. His Basic Attacks deal 158 (+4% per level) damage, slow the target by 30% for 1 second and splash for 79 (+4% per level) damage to enemies within 2.5 range. Lasts for 10 seconds. Passive: Archon refreshes the cooldown of Dimensional Shift.",
         "icon": "storm_ui_icon_tassadar_archon.png",
         "sort": 1,
         "abilityId": "Tassadar|R1",
@@ -213,7 +213,7 @@
         "tooltipId": "TassadarPsionicEcho",
         "talentTreeId": "TassadarPsionicEcho",
         "name": "Psionic Echo",
-        "description": "A second Psionic Storm can be cast within 2 seconds of casting the first.",
+        "description": "A second Psionic Storm can be cast within 2 seconds of casting the first. Enemies can only be affected by one Psionic Storm at a time.",
         "icon": "storm_ui_icon_tassadar_psionicstorm_var1.png",
         "sort": 2,
         "abilityId": "Tassadar|W1"
@@ -251,7 +251,7 @@
         "tooltipId": "TassadarPrismaticLink",
         "talentTreeId": "TassadarPrismaticLink",
         "name": "Prismatic Link",
-        "description": "Basic Attacks bounce to hit 2 additional targets for 50% damage.",
+        "description": "Distortion Beam bounces to hit 2 additional targets for 40% damage.",
         "icon": "storm_ui_icon_talent_autoattack_aoe.png",
         "sort": 3,
         "abilityId": "Tassadar|Passive"
