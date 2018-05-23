@@ -27,11 +27,10 @@
       },
       {
         "name": "Wisp",
-        "description": "Spawn a Wisp to scout an area. Can be redirected once active. Lasts 45 seconds.",
+        "description": "Spawn a Wisp to scout an area. Can be redirected once active. When the Wisp is in a bush for more 2 seconds, its vision radius is increased by 75%.  Lasts 45 seconds.",
         "hotkey": "E",
         "abilityId": "Lunara|E1",
-        "cooldown": 30,
-        "manaCost": "30"
+        "cooldown": 30
       },
       {
         "name": "Thornwood Vine",
@@ -43,7 +42,7 @@
       },
       {
         "name": "Leaping Strike",
-        "description": "Leap over an enemy, slowing them by 80% for 0.35 seconds and dealing 271 (+4% per level) damage. Stores up to 2 charges.",
+        "description": "Leap over an enemy, Slowing them by 80% for 0.35 seconds and dealing 271 (+4% per level) damage. Stores up to 2 charges.",
         "hotkey": "R",
         "abilityId": "Lunara|R2",
         "cooldown": 20,
@@ -51,7 +50,7 @@
       },
       {
         "name": "Nature's Toxin",
-        "description": "Your Basic Attacks and damaging Abilities poison their target, dealing 34 (+5% per level) damage a second for 3 seconds. Every additional application increases the duration by 3 seconds, up to a maximum of 9 seconds.",
+        "description": "Lunara's Basic Attacks and damaging Abilities poison their target, dealing 30 (+5% per level) damage a second for 3 seconds. Every additional application increases the duration by 3 seconds, up to a maximum of 9 seconds.",
         "trait": true,
         "abilityId": "Lunara|D1"
       },
@@ -66,22 +65,13 @@
   "talents": {
     "1": [
       {
-        "tooltipId": "DryadBlossomSwellTalent",
-        "talentTreeId": "DryadBlossomSwell",
-        "name": "Blossom Swell",
-        "description": "Increases Noxious Blossom's radius by 20%.",
-        "icon": "storm_ui_icon_lunara_pollencloud.png",
+        "tooltipId": "DryadSentinelWispTalent",
+        "talentTreeId": "DryadSentinelWisp",
+        "name": "Sentinel Wisp",
+        "description": "After remaining in a bush for 5 seconds, Wisp's vision radius is increased by 200% and reveals the surrounding area.",
+        "icon": "storm_ui_icon_lunara_wisp.png",
         "sort": 1,
-        "abilityId": "Lunara|Q1"
-      },
-      {
-        "tooltipId": "DryadPhotosynthesisTalent",
-        "talentTreeId": "DryadPhotosynthesis",
-        "name": "Photosynthesis",
-        "description": "Crippling Spores returns 10 Mana per enemy hit, up to 40 Mana.",
-        "icon": "storm_ui_icon_lunara_fullbloom.png",
-        "sort": 2,
-        "abilityId": "Lunara|W1"
+        "abilityId": "Lunara|E1"
       },
       {
         "tooltipId": "DryadNaturalPerspectiveTalent",
@@ -89,84 +79,37 @@
         "name": "Natural Perspective",
         "description": "Nature's Toxin reveals enemies for its duration.",
         "icon": "storm_ui_icon_lunara_stiflingblossom.png",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Lunara|D1"
       },
       {
-        "tooltipId": "DryadCruelSporesTalent",
-        "talentTreeId": "DryadCruelSpores",
-        "name": "Cruel Spores",
-        "description": "When Crippling Spores hits only Minions or Mercenaries, its cooldown is reduced by 80% and 20 Mana is restored.",
-        "icon": "storm_ui_icon_lunara_fullbloom_a.png",
-        "sort": 4,
-        "abilityId": "Lunara|W1"
+        "tooltipId": "DryadHippityHop",
+        "talentTreeId": "DryadHippityHop",
+        "name": "Hippity Hop",
+        "description": "After not Basic Attacking or taking damage for 5 seconds, increase the Move Speed bonus of Dryad's Swiftness by 10%.",
+        "icon": "storm_ui_icon_lunara_boundlessstride_a.png",
+        "sort": 3,
+        "abilityId": "Lunara|Z1"
       }
     ],
     "4": [
       {
-        "tooltipId": "DryadNimbleWispTalent",
-        "talentTreeId": "DryadNimbleWisp",
-        "name": "Nimble Wisp",
-        "description": "Increases Wisp Movement Speed by 100% and vision radius by 50%.",
-        "icon": "storm_ui_icon_lunara_wisp.png",
+        "tooltipId": "DryadBlossomSwellTalent",
+        "talentTreeId": "DryadBlossomSwell",
+        "name": "Blossom Swell",
+        "description": "Increases Noxious Blossom's range by 25% and its radius by 20%.",
+        "icon": "storm_ui_icon_lunara_pollencloud.png",
         "sort": 1,
-        "abilityId": "Lunara|E1"
+        "abilityId": "Lunara|Q1"
       },
-      {
-        "tooltipId": "DryadTimelostWispTalent",
-        "talentTreeId": "DryadTimelostWisp",
-        "name": "Timelost Wisp",
-        "description": "Wisp costs no Mana and its cooldown recharges 125% faster while no Wisp is active.",
-        "icon": "storm_ui_icon_lunara_wisp_a.png",
-        "sort": 2,
-        "abilityId": "Lunara|E1"
-      },
-      {
-        "tooltipId": "DryadSkyboundWispTalent",
-        "talentTreeId": "DryadSkyboundWisp",
-        "name": "Skybound Wisp",
-        "description": "Wisp can see over obstacles and reveals the area for 4 seconds after dying.",
-        "icon": "storm_ui_icon_lunara_wisp_b.png",
-        "sort": 3,
-        "abilityId": "Lunara|E1"
-      },
-      {
-        "tooltipId": "DryadDividingWispTalent",
-        "talentTreeId": "DryadDividingWisp",
-        "name": "Dividing Wisp",
-        "description": "The first time a Wisp is relocated, it leaves a copy of itself in the previous location.",
-        "icon": "storm_ui_icon_lunara_wisp_c.png",
-        "sort": 4,
-        "abilityId": "Lunara|E1"
-      }
-    ],
-    "7": [
       {
         "tooltipId": "DryadSiphoningToxinTalent",
         "talentTreeId": "DryadSiphoningToxin",
         "name": "Siphoning Toxin",
-        "description": "As long as Nature's Toxin is active on an enemy, heal 18 (+4% per level) Health a second.",
+        "description": "While at least one enemy is afflicted by Nature's Toxin, heal for 9 (+4% per level) per second.  When an enemy Hero has 3 stacks of Nature's Toxin, increase this healing by 19 (+4% per level) per second.",
         "icon": "storm_ui_icon_lunara_stiflingblossom_var1.png",
-        "sort": 1,
-        "abilityId": "Lunara|D1"
-      },
-      {
-        "tooltipId": "DryadWildVigorTalent",
-        "talentTreeId": "DryadWildVigor",
-        "name": "Wild Vigor",
-        "description": "Using Crippling Spores increases the damage of Lunara's next 4 Basic Attacks by 50%.",
-        "icon": "storm_ui_icon_lunara_fullbloom.png",
         "sort": 2,
-        "abilityId": "Lunara|W1"
-      },
-      {
-        "tooltipId": "DryadSplinteredSpearTalent",
-        "talentTreeId": "DryadSplinteredSpear",
-        "name": "Splintered Spear",
-        "description": "Using Noxious Blossom causes Lunara's next Basic Attack to hit up to 4 enemies. These extra attacks can apply Nature's Toxin.",
-        "icon": "storm_ui_icon_lunara_pollencloud.png",
-        "sort": 3,
-        "abilityId": "Lunara|Q1"
+        "abilityId": "Lunara|D1"
       },
       {
         "tooltipId": "DryadNaturesCullingTalent",
@@ -174,8 +117,37 @@
         "name": "Nature's Culling",
         "description": "Increases Nature's Toxin's damage by 150% to non-Heroes.",
         "icon": "storm_ui_icon_lunara_stiflingblossom.png",
-        "sort": 4,
+        "sort": 3,
         "abilityId": "Lunara|D1"
+      }
+    ],
+    "7": [
+      {
+        "tooltipId": "DryadSplinteredSpearTalent",
+        "talentTreeId": "DryadSplinteredSpear",
+        "name": "Splintered Spear",
+        "description": "Using Noxious Blossom causes Lunara's next Basic Attack to hit up to 4 enemies. These extra attacks can apply Nature's Toxin.",
+        "icon": "storm_ui_icon_lunara_pollencloud.png",
+        "sort": 1,
+        "abilityId": "Lunara|Q1"
+      },
+      {
+        "tooltipId": "DryadChokingPollenTalent",
+        "talentTreeId": "DryadChokingPollen",
+        "name": "Choking Pollen",
+        "description": "Noxious Blossom deals 50% more damage to Heroes afflicted by Nature's Toxin, increased to 100% against enemies with 3 stacks.",
+        "icon": "storm_ui_icon_lunara_pollencloud_b.png",
+        "sort": 2,
+        "abilityId": "Lunara|Q1"
+      },
+      {
+        "tooltipId": "DryadWildVigorTalent",
+        "talentTreeId": "DryadWildVigor",
+        "name": "Wild Vigor",
+        "description": "Using Crippling Spores increases the damage of Lunara's next 4 Basic Attacks by 50%.",
+        "icon": "storm_ui_icon_lunara_fullbloom.png",
+        "sort": 3,
+        "abilityId": "Lunara|W1"
       }
     ],
     "10": [
@@ -193,7 +165,7 @@
         "tooltipId": "DryadLeapingStrike",
         "talentTreeId": "DryadHeroicAbilityLeapingStrike",
         "name": "Leaping Strike",
-        "description": "Leap over an enemy, slowing them by 80% for 0.35 seconds and dealing 271 (+4% per level) damage. Stores up to 2 charges.",
+        "description": "Leap over an enemy, Slowing them by 80% for 0.35 seconds and dealing 271 (+4% per level) damage. Stores up to 2 charges.",
         "icon": "storm_ui_icon_lunara_boundlessstride.png",
         "sort": 2,
         "abilityId": "Lunara|R2",
@@ -202,48 +174,49 @@
     ],
     "13": [
       {
-        "tooltipId": "DryadPesteringBlossomTalent",
-        "talentTreeId": "DryadPesteringBlossom",
-        "name": "Pestering Blossom",
-        "description": "Increases Noxious Blossom's range by 50%.",
-        "icon": "storm_ui_icon_lunara_pollencloud.png",
+        "tooltipId": "DryadEndlessSpores",
+        "talentTreeId": "DryadEndlessSpores",
+        "name": "Endless Spores",
+        "description": "Casting Crippling Spores while at least 2 Heroes are afflicted by Nature's Toxin reduces the cooldown by 3 seconds.",
+        "icon": "storm_ui_icon_lunara_fullbloom.png",
         "sort": 1,
-        "abilityId": "Lunara|Q1"
+        "abilityId": "Lunara|W1"
       },
       {
-        "tooltipId": "DryadUnfairAdvantageTalent",
-        "talentTreeId": "DryadUnfairAdvantage",
-        "name": "Unfair Advantage",
-        "description": "Nature's Toxin deals 50% more damage to Heroes that are slowed.",
-        "icon": "storm_ui_icon_lunara_stiflingblossom.png",
+        "tooltipId": "DryadLetThemWitherTalent",
+        "talentTreeId": "DryadLetThemWither",
+        "name": "Let Them Wither",
+        "description": "Increases Crippling Spores' Slow duration by 1 second and causes it to no longer decay.",
+        "icon": "storm_ui_icon_lunara_fullbloom_b.png",
         "sort": 2,
-        "abilityId": "Lunara|D1"
-      },
-      {
-        "tooltipId": "GenericGiantKiller",
-        "talentTreeId": "GenericTalentGiantKiller",
-        "name": "Giant Killer",
-        "description": "Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health.",
-        "icon": "storm_ui_icon_talent_autoattack_damage.png",
-        "sort": 3,
-        "abilityId": "Lunara|Passive"
+        "abilityId": "Lunara|W1"
       },
       {
         "tooltipId": "DryadGreaterSpellShieldTalent",
         "talentTreeId": "DryadGreaterSpellShield",
         "name": "Greater Spell Shield",
-        "description": "Every 30 seconds, gain 75 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 75%. Can be toggled to allow or prevent this talent from triggering automatically.",
+        "description": "Every 30 seconds, gain 75 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 75%. Can be toggled to allow or prevent this talent from triggering automatically.",
         "icon": "storm_ui_icon_lunara_greaterspellshield.png",
-        "sort": 4,
+        "sort": 3,
         "abilityId": "Lunara|Passive"
+      },
+      {
+        "tooltipId": "DryadAbolishMagicHotbar",
+        "talentTreeId": "DryadAbolishMagic",
+        "name": "Abolish Magic",
+        "description": "Target an ally to remove all damage over time and disabling effects from them and Lunara. For 2 seconds after, the duration of disabling effects is reduced by 50%.",
+        "icon": "storm_ui_icon_lunara_abolishmagic.png",
+        "sort": 4,
+        "abilityId": "Lunara|Active",
+        "cooldown": 35
       }
     ],
     "16": [
       {
-        "tooltipId": "DryadChokingPollenTalent",
-        "talentTreeId": "DryadChokingPollen",
-        "name": "Choking Pollen",
-        "description": "Increases Noxious Blossom damage by 125% against enemies afflicted with Nature's Toxin.",
+        "tooltipId": "DryadAcceleratedContamination",
+        "talentTreeId": "DryadAcceleratedContamination",
+        "name": "Accelerated Contamination",
+        "description": "While at least 2 enemy Heroes are afflicted with Nature's Toxin, Noxious Blossom's cooldown recharges 100% faster.",
         "icon": "storm_ui_icon_lunara_pollencloud.png",
         "sort": 1,
         "abilityId": "Lunara|Q1"
@@ -261,19 +234,19 @@
         "tooltipId": "DryadInvigoratingSporesTalent",
         "talentTreeId": "DryadInvigoratingSpores",
         "name": "Invigorating Spores",
-        "description": "Using Crippling Spores increases Lunara's Attack Speed by 50% for 6 seconds.",
+        "description": "Crippling Spores grants 30% Attack Speed for 6 seconds.  Basic Attacks against enemy Heroes with 3 stacks of Nature's Toxin deal damage equal to 1.5% of their maximum Health.",
         "icon": "storm_ui_icon_lunara_fullbloom_a.png",
         "sort": 3,
         "abilityId": "Lunara|W1"
       },
       {
-        "tooltipId": "DryadLetThemWitherTalent",
-        "talentTreeId": "DryadLetThemWither",
-        "name": "Let Them Wither",
-        "description": "Increases Crippling Spores' slow to 50% and causes it to no longer decay.",
-        "icon": "storm_ui_icon_lunara_fullbloom_b.png",
+        "tooltipId": "DryadUnfairAdvantageTalent",
+        "talentTreeId": "DryadUnfairAdvantage",
+        "name": "Unfair Advantage",
+        "description": "Nature's Toxin deals 60% more damage to Heroes that are Slowed, Rooted, or Stunned.",
+        "icon": "storm_ui_icon_lunara_stiflingblossom.png",
         "sort": 4,
-        "abilityId": "Lunara|W1"
+        "abilityId": "Lunara|D1"
       }
     ],
     "20": [
@@ -281,7 +254,7 @@
         "tooltipId": "DryadForestsWrathTalent",
         "talentTreeId": "DryadForestsWrath",
         "name": "Forest's Wrath",
-        "description": "Increases Thornwood Vine's range by 30%, its speed by 20%, and Lunara's vision radius by 35%.",
+        "description": "Thornwood Vine now applies 2 stacks of Nature's Toxin.  Increase Thornwood Vine's range by 30% and Lunara's vision radius by 35%.",
         "icon": "storm_ui_icon_lunara_wildspear.png",
         "sort": 1,
         "abilityId": "Lunara|R1"
@@ -290,10 +263,19 @@
         "tooltipId": "DryadBoundlessStrideTalent",
         "talentTreeId": "DryadBoundlessStrideTalent",
         "name": "Boundless Stride",
-        "description": "All Leaping Strike charges are returned every 20 seconds. Leaping Strike can be used on allies.",
+        "description": "All Leaping Strike charges are returned every 15 seconds. Leaping Strike can be used on allies.",
         "icon": "storm_ui_icon_lunara_boundlessstride.png",
         "sort": 2,
         "abilityId": "Lunara|R2"
+      },
+      {
+        "tooltipId": "DryadIntensifyingToxin",
+        "talentTreeId": "DryadIntensifyingToxin",
+        "name": "Intensifying Toxin",
+        "description": "At 3 stacks, Nature's Toxin deals 40% more damage.",
+        "icon": "storm_ui_icon_lunara_stiflingblossom.png",
+        "sort": 3,
+        "abilityId": "Lunara|D1"
       },
       {
         "tooltipId": "DryadGallopingGaitTalent",
@@ -301,19 +283,9 @@
         "name": "Galloping Gait",
         "description": "Activate to increase the Movement Speed bonus of Dryad's Swiftness to 80% for 6 seconds.",
         "icon": "storm_ui_icon_lunara_boundlessstride_a.png",
-        "sort": 3,
-        "abilityId": "Lunara|Active",
-        "cooldown": 30
-      },
-      {
-        "tooltipId": "DryadAbolishMagicHotbar",
-        "talentTreeId": "DryadAbolishMagic",
-        "name": "Abolish Magic",
-        "description": "Target an Ally to remove all damage over time and disabling effects from them and Lunara. For 2 seconds after, the duration of disabling effects is reduced by 50%.",
-        "icon": "storm_ui_icon_lunara_abolishmagic.png",
         "sort": 4,
         "abilityId": "Lunara|Active",
-        "cooldown": 35
+        "cooldown": 30
       }
     ]
   }
