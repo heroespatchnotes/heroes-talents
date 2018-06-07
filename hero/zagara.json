@@ -19,7 +19,7 @@
       },
       {
         "name": "Hunter Killer",
-        "description": "Summon a Hydralisk to attack a single target, dealing 65 (+3.5% per level) damage per second. Lasts 8 seconds.",
+        "description": "Summon a Hydralisk to attack a single target, dealing 68 (+5% per level) damage per second. Lasts 8 seconds.",
         "hotkey": "W",
         "abilityId": "Zagara|W1",
         "cooldown": 14,
@@ -27,7 +27,7 @@
       },
       {
         "name": "Infested Drop",
-        "description": "Bombard target area with a Zerg Drop Pod for 147 (+3% per level) damage.   The pod spawns 2 Roachlings that deal 29 (+3% per level) damage per second and last for 8 seconds.",
+        "description": "Bombard target area with a Zerg Drop Pod for 140 (+4% per level) damage.   The pod spawns 2 Roachlings that deal 29 (+4% per level) damage per second and last for 8 seconds.",
         "hotkey": "E",
         "abilityId": "Zagara|E1",
         "cooldown": 12,
@@ -43,7 +43,7 @@
       },
       {
         "name": "Devouring Maw",
-        "description": "Summon a Devouring Maw that devours enemies for 4 seconds. Devoured enemies cannot fight and take 80 (+4% per level) damage per second.  Usable on Unstoppable enemies.",
+        "description": "Summon a Devouring Maw that devours enemies for 4 seconds. Devoured enemies cannot fight and take 88 (+4% per level) damage per second. Usable on Unstoppable enemies.",
         "hotkey": "R",
         "abilityId": "Zagara|R2",
         "cooldown": 80,
@@ -74,7 +74,7 @@
         "tooltipId": "ZagaraInfestedDropCorpseFeedersTalent",
         "talentTreeId": "ZagaraMasteryCorpseFeeders",
         "name": "Corpse Feeders",
-        "description": "Reduces the cooldown of Infested Drop by 3 seconds and Roachlings take 40% less damage from non-Heroic sources.",
+        "description": "Reduces the cooldown of Infested Drop by 3 seconds and Roachlings take 50% less damage from non-Heroic sources.",
         "icon": "storm_ui_icon_zagara_infesteddrop.png",
         "sort": 2,
         "abilityId": "Zagara|E1"
@@ -153,7 +153,7 @@
         "tooltipId": "ZagaraDevouringMaw",
         "talentTreeId": "ZagaraHeroicAbilityDevouringMaw",
         "name": "Devouring Maw",
-        "description": "Summon a Devouring Maw that devours enemies for 4 seconds. Devoured enemies cannot fight and take 80 (+4% per level) damage per second.  Usable on Unstoppable enemies.",
+        "description": "Summon a Devouring Maw that devours enemies for 4 seconds. Devoured enemies cannot fight and take 88 (+4% per level) damage per second. Usable on Unstoppable enemies.",
         "icon": "storm_ui_icon_zagara_devouringmaw.png",
         "sort": 1,
         "abilityId": "Zagara|R2",
@@ -204,7 +204,7 @@
         "tooltipId": "ZagaraHunterKillerBroodExpansionTalent",
         "talentTreeId": "ZagaraMasteryBroodExpansion",
         "name": "Brood Expansion",
-        "description": "Reduces the cooldown of Hunter Killer by 6 seconds.",
+        "description": "Reduces the cooldown of Hunter Killer by 7 seconds and its Mana cost by 30.",
         "icon": "storm_ui_icon_zagara_hunterkiller.png",
         "sort": 1,
         "abilityId": "Zagara|W1"
@@ -213,7 +213,7 @@
         "tooltipId": "ZagaraCorrosiveSalivaHunterKillerTalent",
         "talentTreeId": "ZagaraMasteryCorrosiveSaliva",
         "name": "Corrosive Saliva",
-        "description": "When used against Heroes, Hunter Killers deal additional damage equal to 2% of their maximum Health.",
+        "description": "When used against Heroes, Hunter Killers deal additional damage equal to 2.5% of their maximum Health.",
         "icon": "storm_ui_icon_zagara_hunterkiller_a.png",
         "sort": 2,
         "abilityId": "Zagara|W1"
