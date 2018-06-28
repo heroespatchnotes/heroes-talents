@@ -38,7 +38,7 @@
         "description": "Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and Stunning them for 1.75 seconds.",
         "hotkey": "R",
         "abilityId": "Diablo|R1",
-        "cooldown": 100,
+        "cooldown": 90,
         "manaCost": "100"
       },
       {
@@ -46,7 +46,7 @@
         "description": "After 0.5 seconds, become Unstoppable and Channel for up to 4 seconds, dealing 50 (+4% per level) damage every 0.25 seconds to enemies in front of Diablo. Enemies affected are Slowed by 5% for 2 seconds, up to 50%. Lightning Breath's direction changes with your mouse cursor position.",
         "hotkey": "R",
         "abilityId": "Diablo|R2",
-        "cooldown": 60,
+        "cooldown": 70,
         "manaCost": "80"
       },
       {
@@ -156,7 +156,7 @@
         "icon": "storm_ui_icon_diablo_apocalypse.png",
         "sort": 1,
         "abilityId": "Diablo|R1",
-        "cooldown": 100
+        "cooldown": 90
       },
       {
         "tooltipId": "DiabloLightningBreath",
@@ -166,7 +166,7 @@
         "icon": "storm_ui_icon_diablo_lightningbreath.png",
         "sort": 2,
         "abilityId": "Diablo|R2",
-        "cooldown": 60
+        "cooldown": 70
       }
     ],
     "13": [
@@ -183,7 +183,7 @@
         "tooltipId": "DiabloShadowChargeOverpowerCruelty",
         "talentTreeId": "DiabloShadowChargeOverpowerCruelty",
         "name": "Cruelty",
-        "description": "Stunning an enemy Hero with Shadow Charge or Overpower increases Diablo's Attack Speed by 50% for 5 seconds, up to 100%.",
+        "description": "Stunning an enemy Hero with Shadow Charge or Overpower increases Diablo's Attack Speed by 50% for 7 seconds, up to 100%.",
         "icon": "storm_ui_icon_diablo_combo_1.png",
         "sort": 2,
         "abilityId": "Diablo|Passive"
@@ -232,7 +232,7 @@
         "tooltipId": "DiabloApocalypseDyingBreathTalent",
         "talentTreeId": "DiabloMasteryDyingBreathApocalypse",
         "name": "Dying Breath",
-        "description": "Apocalypse's cooldown is reduced by 20 seconds for every enemy Hero hit (to a minimum of 5 seconds) and is cast for free when Diablo dies.",
+        "description": "Apocalypse's cooldown is reduced by 25 seconds for every enemy Hero hit (to a minimum of 5 seconds) and is cast for free when Diablo dies.",
         "icon": "storm_ui_icon_diablo_apocalypse.png",
         "sort": 1,
         "abilityId": "Diablo|R1"

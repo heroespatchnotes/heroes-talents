@@ -27,7 +27,7 @@
       },
       {
         "name": "Avenging Wrath",
-        "description": "Leap to a location, dealing 150 (+4% per level) damage to enemies in an area and Slowing them by 50% for 1 second. Charging up this Ability increases its range.",
+        "description": "Leap to a location, dealing 225 (+4% per level) damage to enemies in an area and Slowing them by 50% for 1 second. Charging up this Ability increases its range.",
         "hotkey": "E",
         "abilityId": "Yrel|E1",
         "cooldown": 6,
@@ -55,7 +55,7 @@
         "hotkey": "D",
         "trait": true,
         "abilityId": "Yrel|D1",
-        "cooldown": 10
+        "cooldown": 8
       }
     ]
   },
@@ -94,7 +94,7 @@
         "tooltipId": "YrelAvengingWrathAegisOfLight",
         "talentTreeId": "YrelAvengingWrathAegisOfLight",
         "name": "Aegis of Light",
-        "description": "Upon landing, Avenging Wrath grants other nearby allied Heroes 25 Armor for 5 seconds.",
+        "description": "Upon landing, Avenging Wrath grants other nearby allied Heroes 35 Armor for 5 seconds.",
         "icon": "storm_ui_icon_yrel_avenging_wrath.png",
         "sort": 1,
         "abilityId": "Yrel|E1"
@@ -103,7 +103,7 @@
         "tooltipId": "YrelDivinePurposeGiftOfTheNaaru",
         "talentTreeId": "YrelDivinePurposeGiftOfTheNaaru",
         "name": "Gift of the Naaru",
-        "description": "Divine Purpose heals the lowest Health nearby allied Hero other than Yrel for 400 (+4% per level).",
+        "description": "Divine Purpose heals the lowest Health nearby allied Hero other than Yrel for 275 (+4% per level).",
         "icon": "storm_ui_icon_yrel_divine_purpose.png",
         "sort": 2,
         "abilityId": "Yrel|D1"
@@ -112,7 +112,7 @@
         "tooltipId": "YrelHandOfFreedom",
         "talentTreeId": "YrelHandOfFreedom",
         "name": "Hand of Freedom",
-        "description": "Grant an allied Hero 35% Movement Speed for 3 seconds and remove all Slows and Roots from them. Cannot be used on Yrel.",
+        "description": "Grant an allied Hero 50% Movement Speed for 3 seconds and remove all Slows and Roots from them. Cannot be used on Yrel.",
         "icon": "storm_ui_icon_yrel_hand_of_freedom.png",
         "sort": 3,
         "abilityId": "Yrel|Active",
@@ -124,7 +124,7 @@
         "tooltipId": "YrelRighteousHammerRighteousMomentum",
         "talentTreeId": "YrelRighteousHammerRighteousMomentum",
         "name": "Righteous Momentum",
-        "description": "While Channeling Righteous Hammer at maximum charge, gain 45% Movement Speed.",
+        "description": "Yrel is no longer slowed while Channeling Righteous Hammer, and at maximum charge she gains 25% Movement Speed.",
         "icon": "storm_ui_icon_yrel_righteous_hammer.png",
         "sort": 1,
         "abilityId": "Yrel|W1"
@@ -213,7 +213,7 @@
         "tooltipId": "YrelRighteousHammerTemplarsVerdict",
         "talentTreeId": "YrelRighteousHammerTemplarsVerdict",
         "name": "Templar's Verdict",
-        "description": "Righteous Hammer reduces the Armor of enemy Heroes hit by 20 for 2 seconds.",
+        "description": "Righteous Hammer reduces the Armor of enemy Heroes hit by 20 for 4 seconds.",
         "icon": "storm_ui_icon_yrel_righteous_hammer.png",
         "sort": 1,
         "abilityId": "Yrel|W1"
@@ -222,7 +222,7 @@
         "tooltipId": "YrelDivinePurposeDivineFavor",
         "talentTreeId": "YrelDivinePurposeDivineFavor",
         "name": "Divine Favor",
-        "description": "Casting a Basic Ability reduces the cooldown of Divine Purpose by 2 seconds.",
+        "description": "Casting a Basic Ability reduces the cooldown of Divine Purpose by 1.5 seconds.",
         "icon": "storm_ui_icon_yrel_divine_purpose.png",
         "sort": 2,
         "abilityId": "Yrel|D1"

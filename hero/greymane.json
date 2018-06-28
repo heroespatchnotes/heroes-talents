@@ -14,7 +14,7 @@
         "description": "Hurl a flask that deals 55 (+4% per level) damage to the first enemy hit and explodes for 220 (+4% per level) damage to enemies in a cone behind them.  Worgen: Razor Swipe  Swipe forward and damage enemies you pass through.",
         "hotkey": "Q",
         "abilityId": "Greymane|Q1",
-        "cooldown": 10,
+        "cooldown": 9,
         "manaCost": "55"
       },
       {
@@ -89,7 +89,7 @@
         "tooltipId": "GreymaneGilneanCocktailPerfectAimTalent",
         "talentTreeId": "GreymaneGilneanCocktailPerfectAim",
         "name": "Perfect Aim",
-        "description": "Increases Gilnean Cocktail's range by 30% and refunds 35 Mana if it hits an enemy Hero.",
+        "description": "Increases Gilnean Cocktail's range by 30% and refunds 45 Mana if it hits an enemy Hero.",
         "icon": "storm_ui_icon_greymane_qattack.png",
         "sort": 2,
         "abilityId": "Greymane|Q1"
@@ -195,10 +195,10 @@
         "abilityId": "Greymane|E1"
       },
       {
-        "tooltipId": "GreymaneRazorSwipeVisceralAttacksTalent",
-        "talentTreeId": "GreymaneRazorSwipeVisceralAttacks",
-        "name": "Visceral Attacks",
-        "description": "Worgen Basic Attacks reduce Razor Swipe's cooldown by 1.5 seconds.",
+        "tooltipId": "GreymaneRazorSwipeUnfetteredAssaultTalent",
+        "talentTreeId": "GreymaneRazorSwipeUnfetteredAssault",
+        "name": "Unfettered Assault",
+        "description": "Increases Razor Swipe's lunge distance by 60%, and Worgen Basic Attacks reduce Razor Swipe's cooldown by 1.5 seconds.",
         "icon": "storm_ui_icon_greymane_swipe.png",
         "sort": 2,
         "abilityId": "Greymane|Q2"
@@ -211,15 +211,6 @@
         "icon": "storm_ui_icon_greymane_beastfocus.png",
         "sort": 3,
         "abilityId": "Greymane|W1"
-      },
-      {
-        "tooltipId": "GreymaneRazorSwipeUnfetteredAssaultTalent",
-        "talentTreeId": "GreymaneRazorSwipeUnfetteredAssault",
-        "name": "Unfettered Assault",
-        "description": "Increases Razor Swipe's lunge distance by 60%.",
-        "icon": "storm_ui_icon_greymane_swipe_var1.png",
-        "sort": 4,
-        "abilityId": "Greymane|Q2"
       }
     ],
     "16": [
