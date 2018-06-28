@@ -38,12 +38,12 @@
         "description": "After 0.5 seconds, deploy and enter a Bunker with 1435 (+4% per level) Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 179 (+4% per level) damage to enemies in a line. Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.",
         "hotkey": "R",
         "abilityId": "Blaze|R1",
-        "cooldown": 50,
+        "cooldown": 60,
         "manaCost": "40"
       },
       {
         "name": "Combustion",
-        "description": "Channel for up to 2.6 seconds. Upon ending, Slow nearby enemies by 60% and deal 48 (+4% per level) damage to them every 0.5 seconds. Combustion's Slow and damage over time duration is extended the longer Blaze Channels, from 1 second up to 5 seconds. Blaze's Movement Speed is reduced by 50% while Channeling.",
+        "description": "Channel for up to 2.6 seconds. Upon ending, Slow nearby enemies by 60% and deal 52 (+4% per level) damage to them every 0.5 seconds. Combustion's Slow and damage over time duration is extended the longer Blaze Channels, from 1 second up to 5 seconds. Blaze's Movement Speed is reduced by 50% while Channeling.",
         "hotkey": "R",
         "abilityId": "Blaze|R2",
         "cooldown": 80,
@@ -106,7 +106,7 @@
         "tooltipId": "FirebatFlameStreamFeedingtheFlame",
         "talentTreeId": "FirebatFlameStreamFeedingtheFlame",
         "name": "Feeding the Flame",
-        "description": "Each enemy Hero hit by Flame Stream reduces the cooldown of Oil Spill by 2 seconds.",
+        "description": "Each enemy Hero hit by Flame Stream reduces the cooldown of Oil Spill by 2.5 seconds.",
         "icon": "storm_ui_icon_blaze_flame.png",
         "sort": 1,
         "abilityId": "Blaze|Q1"
@@ -177,13 +177,13 @@
         "icon": "storm_ui_icon_blaze_bunker.png",
         "sort": 1,
         "abilityId": "Blaze|R1",
-        "cooldown": 50
+        "cooldown": 60
       },
       {
         "tooltipId": "FirebatCombustion",
         "talentTreeId": "FirebatHeroicAbilityCombustion",
         "name": "Combustion",
-        "description": "Channel for up to 2.6 seconds. Upon ending, Slow nearby enemies by 60% and deal 48 (+4% per level) damage to them every 0.5 seconds. Combustion's Slow and damage over time duration is extended the longer Blaze Channels, from 1 second up to 5 seconds. Blaze's Movement Speed is reduced by 50% while Channeling.",
+        "description": "Channel for up to 2.6 seconds. Upon ending, Slow nearby enemies by 60% and deal 52 (+4% per level) damage to them every 0.5 seconds. Combustion's Slow and damage over time duration is extended the longer Blaze Channels, from 1 second up to 5 seconds. Blaze's Movement Speed is reduced by 50% while Channeling.",
         "icon": "storm_ui_icon_blaze_combustion.png",
         "sort": 2,
         "abilityId": "Blaze|R2",

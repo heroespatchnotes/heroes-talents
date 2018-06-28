@@ -38,14 +38,14 @@
       },
       {
         "name": "Planet Cracker",
-        "description": "After 0.5 seconds, Channel a powerful beam that spans across the battleground for 4 seconds, dealing 108 (+4% per level) damage every 0.25 seconds to non-Structure enemies hit.",
+        "description": "After 0.5 seconds, Channel a powerful beam that spans across the battleground for 4 seconds, dealing 112 (+4% per level) damage every 0.25 seconds to non-Structure enemies hit.",
         "hotkey": "R",
         "abilityId": "Fenix|R2",
         "cooldown": 100
       },
       {
         "name": "Shield Capacitor",
-        "description": "Fenix has a permanent 800 (+4.25% per level) Shield which regenerates at 80 (+4.25% per level) per second after not taking damage for 5 seconds.",
+        "description": "Fenix has a permanent 800 (+4% per level) Shield which regenerates at 80 (+4% per level) per second after not taking damage for 5 seconds.",
         "trait": true,
         "abilityId": "Fenix|D1"
       }
@@ -124,7 +124,7 @@
         "tooltipId": "FenixCombatAdvantage",
         "talentTreeId": "FenixCombatAdvantage",
         "name": "Combat Advantage",
-        "description": "Plasma Cutter deals 40% more damage to Slowed targets.",
+        "description": "Plasma Cutter deals 35% more damage to Slowed targets.",
         "icon": "storm_ui_icon_fenix_q.png",
         "sort": 1,
         "abilityId": "Fenix|Q1"
@@ -133,7 +133,7 @@
         "tooltipId": "FenixWarpWarfare",
         "talentTreeId": "FenixWarpWarfare",
         "name": "Warp Warfare",
-        "description": "After arriving with Warp, gain 125% Attack Speed for 4 seconds while in Repeater Cannon mode.",
+        "description": "After arriving with Warp, gain 175% Attack Speed for 4 seconds while in Repeater Cannon mode.",
         "icon": "storm_ui_icon_fenix_teleport.png",
         "sort": 2,
         "abilityId": "Fenix|E1"
@@ -164,7 +164,7 @@
         "tooltipId": "FenixPlanetCracker",
         "talentTreeId": "FenixHeroicAbilityPlanetCracker",
         "name": "Planet Cracker",
-        "description": "After 0.5 seconds, Channel a powerful beam that spans across the battleground for 4 seconds, dealing 108 (+4% per level) damage every 0.25 seconds to non-Structure enemies hit.",
+        "description": "After 0.5 seconds, Channel a powerful beam that spans across the battleground for 4 seconds, dealing 112 (+4% per level) damage every 0.25 seconds to non-Structure enemies hit.",
         "icon": "storm_ui_icon_fenix_r_planet_cracker.png",
         "sort": 2,
         "abilityId": "Fenix|R2",
@@ -176,7 +176,7 @@
         "tooltipId": "FenixAdaniumShell",
         "talentTreeId": "FenixAdaniumShell",
         "name": "Adanium Shell",
-        "description": "After arriving with Warp, gain 40 Armor for 4 seconds.",
+        "description": "After arriving with Warp, gain 50 Armor for 4 seconds.",
         "icon": "storm_ui_icon_fenix_teleport.png",
         "sort": 1,
         "abilityId": "Fenix|E1"
@@ -194,7 +194,7 @@
         "tooltipId": "FenixRapidRecharge",
         "talentTreeId": "FenixRapidRecharge",
         "name": "Rapid Recharge",
-        "description": "Whenever Fenix is healed, Shield Capacitor's Shield recharges for 40% of the healing received.",
+        "description": "Whenever Fenix is healed, Shield Capacitor's Shield recharges for 60% of the healing received.",
         "icon": "storm_ui_icon_fenix_shield_3.png",
         "sort": 3,
         "abilityId": "Fenix|D1"
@@ -203,7 +203,7 @@
         "tooltipId": "FenixAuxiliaryShields",
         "talentTreeId": "FenixAuxiliaryShields",
         "name": "Auxiliary Shields",
-        "description": "Permanently reduce Fenix's maximum Health by 10% but increase Shield Capacitor's Shield by 20%. Basic Attacks regenerate Shields equal to 15% of the damage dealt.",
+        "description": "Permanently reduce Fenix's maximum Health by 10% but increase Shield Capacitor's Shield by 20%. Basic Attacks regenerate Shields equal to 10% of the damage dealt.",
         "icon": "storm_ui_icon_fenix_shield_2.png",
         "sort": 4,
         "abilityId": "Fenix|D1"
