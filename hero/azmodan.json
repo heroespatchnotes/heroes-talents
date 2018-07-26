@@ -11,15 +11,15 @@
     "Azmodan": [
       {
         "name": "Globe of Annihilation",
-        "description": "Shoot a globe of destruction, dealing 164 (+4% per level) damage on impact.  Quest: Hitting a Hero or killing a Minion within 1.5 seconds of being hit by Globe of Annihilation grants 2 Annihilation.  Reward: Each stack of Annihilation increases the damage of Globe of Annihilation by 1, up to 400.",
+        "description": "Shoot a globe of destruction, dealing 192 (+3% per level) damage on impact.  Quest: Hitting a Hero or killing a Minion within 1.5 seconds of being hit by Globe of Annihilation grants 2 Annihilation.  Reward: Each stack of Annihilation increases the damage of Globe of Annihilation by 1, up to 400.",
         "hotkey": "Q",
         "abilityId": "Azmodan|Q1",
         "cooldown": 10,
         "manaCost": "60"
       },
       {
-        "name": "Demon Warrior",
-        "description": "Spawn a Demon Warrior that marches forward. Warriors deal 28 (+4% per level) damage per Attack and 6 (+4% per level) damage to nearby enemies every second. Lasts for 10 seconds. Usable while Channeling All Shall Burn.",
+        "name": "Summon Demon Warrior",
+        "description": "Spawn a Demon Warrior that marches forward. Warriors deal 30 (+4% per level) damage per Attack and 8 (+4% per level) damage to nearby enemies every second. Lasts for 10 seconds.  Usable while Channeling All Shall Burn.",
         "hotkey": "W",
         "abilityId": "Azmodan|W1",
         "cooldown": 10,
@@ -27,11 +27,11 @@
       },
       {
         "name": "All Shall Burn",
-        "description": "Channel a beam of death on an enemy, dealing 136 (+4% per level) damage per second for 2.5 seconds. If the Channel lasts its full duration, deal an extra 272 (+4% per level) damage to the target.  Azmodan's Movement Speed is reduced by 30% while Channeling.",
+        "description": "Channel a beam of death on an enemy, dealing 120 (+4% per level) damage per second for 2.5 seconds. If the Channel lasts its full duration, deal an extra 320 (+4% per level) damage to the target.  Azmodan's Movement Speed is reduced by 30% while Channeling.",
         "hotkey": "E",
         "abilityId": "Azmodan|E1",
         "cooldown": 8,
-        "manaCost": "30"
+        "manaCost": "40"
       },
       {
         "name": "Tide of Sin",
@@ -43,7 +43,7 @@
       },
       {
         "name": "Demonic Invasion",
-        "description": "Rain a small army of Demonic Grunts down on enemies, dealing 65 (+4% per level) damage per impact. Grunts deal 42 (+4% per level) damage, have 750 (+4% per level) health and last up to 8 seconds. When Grunts die they explode, dealing 65 (+4% per level) damage to nearby enemies.",
+        "description": "Rain a small army of Demonic Grunts down on enemies, dealing 65 (+4% per level) damage per impact. Grunts deal 42 (+4% per level) damage, have 750 (+4% per level) health and last up to 10 seconds. When Grunts die they explode, dealing 98 (+4% per level) damage to nearby enemies.",
         "hotkey": "R",
         "abilityId": "Azmodan|R2",
         "cooldown": 90,
@@ -83,7 +83,7 @@
         "tooltipId": "AzmodanWrath",
         "talentTreeId": "AzmodanWrath",
         "name": "Wrath",
-        "description": "Basic Attacks against Heroes under 75% Health grant 1 Annihilation.  Quest: After gaining 200 Annihilation, hitting a Hero with Globe of Annihilation increases the damage of Azmodan's next Basic Attack against them within 4 seconds by the amount of Annihilation he has.",
+        "description": "Basic Attacks against Heroes under 75% Health grant 1 Annihilation.  Quest: After gaining 200 Annihilation, hitting a Hero with Globe of Annihilation increases the damage of Azmodan's next Basic Attack against them within 3 seconds by the amount of Annihilation he has.",
         "icon": "storm_ui_icon_azmodan_globeofannihilation_b.png",
         "sort": 3,
         "abilityId": "Azmodan|Q1"
@@ -103,7 +103,7 @@
         "tooltipId": "AzmodanSummonDemonWarriorHellforgedArmorTalent",
         "talentTreeId": "AzmodanHellforgedArmor",
         "name": "Hellforged Armor",
-        "description": "Demon Warriors and Lieutenants gain 35 Armor and last 4 seconds longer.",
+        "description": "Demon Warriors and Lieutenants gain 30 Armor and last 4 seconds longer.",
         "icon": "storm_ui_icon_azmodan_summondemonwarrior_a.png",
         "sort": 2,
         "abilityId": "Azmodan|W1"
@@ -112,7 +112,7 @@
         "tooltipId": "AzmodanGlobOfAnnihilationBattlebornTalent",
         "talentTreeId": "AzmodanBattleborn",
         "name": "Battleborn",
-        "description": "Azmodan's Basic Attacks reduce the cooldown of Summon Demon Warrior by 0.5 seconds and Demon Lieutenant by 1 second.",
+        "description": "Azmodan's Basic Attacks reduce the cooldown of Summon Demon Warrior by 0.75 seconds and Demon Lieutenant by 1.5 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
         "sort": 3,
         "abilityId": "Azmodan|Passive"
@@ -123,7 +123,7 @@
         "tooltipId": "AzmodanArtOfChaos",
         "talentTreeId": "AzmodanArtOfChaos",
         "name": "Art of Chaos",
-        "description": "If Globe of Annihilation hits 2 or more Heroes, restore 30 Mana. If it hits 3 or more Heroes, gain an extra 5 Annihilation.",
+        "description": "If Globe of Annihilation hits 2 or more Heroes, restore 30 Mana and gain an extra 4 Annihilation.",
         "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
         "sort": 1,
         "abilityId": "Azmodan|Q1"
@@ -152,7 +152,7 @@
         "tooltipId": "AzmodanDemonicInvasion",
         "talentTreeId": "AzmodanHeroicAbilityDemonicInvasion",
         "name": "Demonic Invasion",
-        "description": "Rain a small army of Demonic Grunts down on enemies, dealing 65 (+4% per level) damage per impact. Grunts deal 42 (+4% per level) damage, have 750 (+4% per level) health and last up to 8 seconds. When Grunts die they explode, dealing 65 (+4% per level) damage to nearby enemies.",
+        "description": "Rain a small army of Demonic Grunts down on enemies, dealing 65 (+4% per level) damage per impact. Grunts deal 42 (+4% per level) damage, have 750 (+4% per level) health and last up to 10 seconds. When Grunts die they explode, dealing 98 (+4% per level) damage to nearby enemies.",
         "icon": "storm_ui_icon_azmodan_demonicinvasion.png",
         "sort": 1,
         "abilityId": "Azmodan|R2",
@@ -174,7 +174,7 @@
         "tooltipId": "AzmodanBrutishVanguard",
         "talentTreeId": "AzmodanBrutishVanguard",
         "name": "Brutish Vanguard",
-        "description": "Demon Warriors gain 25% increased Health and Slow nearby enemies by 20%.",
+        "description": "Demon Warriors and Lieutenants gain 25% increased Health. Demon Warriors Slow nearby enemies by 20%.",
         "icon": "storm_ui_icon_azmodan_summondemonwarrior.png",
         "sort": 1,
         "abilityId": "Azmodan|W1"
@@ -192,7 +192,7 @@
         "tooltipId": "AzmodanChainOfCommand",
         "talentTreeId": "AzmodanChainOfCommand",
         "name": "Chain of Command",
-        "description": "Demon Lieutenants also grant 25% increased damage to nearby friendly Minions, Mercenaries, and Azmodan's summoned Demons.",
+        "description": "The cooldown of Demon Lieutenants' Demonic Smite is reduced by 2 seconds and they grant 25% increased damage to nearby friendly Minions, Mercenaries, and Azmodan's summoned Demons.",
         "icon": "storm_ui_icon_azmodan_generalofhell.png",
         "sort": 3,
         "abilityId": "Azmodan|D1"
@@ -212,7 +212,7 @@
         "tooltipId": "AzmodanHellRift",
         "talentTreeId": "AzmodanHellRift",
         "name": "Hell Rift",
-        "description": "If All Shall Burn Channels for its full duration, a Demon Warrior is summoned at the target's location and all Demon Warriors deal 100% increased damage for 4 seconds.",
+        "description": "If All Shall Burn Channels for its full duration, a Demon Warrior is summoned at the target's location and all Demon Warriors deal 100% increased damage for 6 seconds.",
         "icon": "storm_ui_icon_azmodan_allshallburn.png",
         "sort": 2,
         "abilityId": "Azmodan|E1"
@@ -250,7 +250,7 @@
         "tooltipId": "AzmodanPride",
         "talentTreeId": "AzmodanPride",
         "name": "Pride",
-        "description": "After gaining 400 Annihilation, the area of Globe of Annihilation is increased by 15% and it deals 100 additional damage.",
+        "description": "After gaining 400 Annihilation, the area of Globe of Annihilation is increased by 15% and it deals 125 additional damage.",
         "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
         "sort": 3,
         "abilityId": "Azmodan|Q1"

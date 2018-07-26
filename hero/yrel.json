@@ -38,7 +38,7 @@
         "description": "Surround Yrel in a barrier for 3 seconds, absorbing all damage taken and healing her for 50% of the damage received.",
         "hotkey": "R",
         "abilityId": "Yrel|R1",
-        "cooldown": 100,
+        "cooldown": 120,
         "manaCost": "40"
       },
       {
@@ -83,7 +83,7 @@
         "tooltipId": "YrelMaraadsInsight",
         "talentTreeId": "YrelMaraadsInsight",
         "name": "Maraad's Insight",
-        "description": "After casting a Basic Ability, Yrel's next Basic Attack heals her for 148 (+4% per level).",
+        "description": "After casting a Basic Ability, Yrel's next Basic Attack heals her for 128 (+4% per level).",
         "icon": "storm_ui_icon_talent_autoattack_heal.png",
         "sort": 3,
         "abilityId": "Yrel|Passive"
@@ -116,7 +116,7 @@
         "icon": "storm_ui_icon_yrel_hand_of_freedom.png",
         "sort": 3,
         "abilityId": "Yrel|Active",
-        "cooldown": 30
+        "cooldown": 22
       }
     ],
     "7": [
@@ -142,7 +142,7 @@
         "tooltipId": "YrelDivineSteed",
         "talentTreeId": "YrelDivineSteed",
         "name": "Divine Steed",
-        "description": "Mounting is instant and grants 80% Movement Speed that decays over 3 seconds.",
+        "description": "Mounting is instant and grants 60% Movement Speed that decays over 3 seconds.",
         "icon": "storm_ui_icon_yrel_divine_steed.png",
         "sort": 3,
         "abilityId": "Yrel|Z1"
@@ -166,7 +166,7 @@
         "icon": "storm_ui_icon_yrel_ardent_defender.png",
         "sort": 1,
         "abilityId": "Yrel|R1",
-        "cooldown": 100
+        "cooldown": 120
       },
       {
         "tooltipId": "YrelSacredGround",
@@ -213,7 +213,7 @@
         "tooltipId": "YrelRighteousHammerTemplarsVerdict",
         "talentTreeId": "YrelRighteousHammerTemplarsVerdict",
         "name": "Templar's Verdict",
-        "description": "Righteous Hammer reduces the Armor of enemy Heroes hit by 20 for 4 seconds.",
+        "description": "Righteous Hammer reduces the Armor of enemy Heroes hit by 20 for 4 seconds and deals bonus damage equal to 4% of their maximum Health.",
         "icon": "storm_ui_icon_yrel_righteous_hammer.png",
         "sort": 1,
         "abilityId": "Yrel|W1"
@@ -231,7 +231,7 @@
         "tooltipId": "YrelHolyWrath",
         "talentTreeId": "YrelHolyWrath",
         "name": "Holy Wrath",
-        "description": "After casting a Basic Ability, Yrel's next Basic Attack splashes for 30% increased damage around the target.",
+        "description": "After casting a Basic Ability, Yrel's next Basic Attack splashes for 20% increased damage around the target.",
         "icon": "storm_ui_icon_talent_autoattack_aoe.png",
         "sort": 3,
         "abilityId": "Yrel|Passive"

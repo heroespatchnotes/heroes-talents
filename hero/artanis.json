@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Artanis|Q1",
         "cooldown": 10,
-        "manaCost": "55"
+        "manaCost": "50"
       },
       {
         "name": "Twin Blades",
@@ -51,7 +51,7 @@
       },
       {
         "name": "Shield Overload",
-        "description": "After taking damage while below 75% Health grants Artanis a 375 (+4% per level) point Shield for 5 seconds. Basic Attacks lower the cooldown of Shield Overload by 4 seconds.",
+        "description": "After taking damage while below 75% Health, Artanis gains a 375 (+4% per level) Shield for 5 seconds. Basic Attacks lower the cooldown of Shield Overload by 4 seconds.",
         "trait": true,
         "abilityId": "Artanis|D1",
         "cooldown": 24
@@ -90,19 +90,19 @@
     ],
     "4": [
       {
-        "tooltipId": "ArtanisBladeDashPsionicSynergyTalent",
-        "talentTreeId": "ArtanisBladeDashPsionicSynergy",
+        "tooltipId": "ArtanisPhasePrismPsionicSynergyTalent",
+        "talentTreeId": "ArtanisPhasePrismPsionicSynergy",
         "name": "Psionic Synergy",
-        "description": "Increases Blade Dash's cooldown reduction of Shield Overload by hitting Heroes by 2 seconds.",
-        "icon": "storm_ui_icon_artanis_powerstrikes.png",
+        "description": "Hitting an enemy Hero with Phase Prism grants 15 Armor for 3 seconds.",
+        "icon": "storm_ui_icon_artanis_repositionmatrix.png",
         "sort": 1,
-        "abilityId": "Artanis|Q1"
+        "abilityId": "Artanis|E1"
       },
       {
         "tooltipId": "ArtanisShieldOverloadShieldBatteryTalent",
         "talentTreeId": "ArtanisShieldOverloadShieldBattery",
         "name": "Shield Battery",
-        "description": "Shield Overload's cooldown recharges 50% faster while its shield is active, and the shield duration is increased by 1 second.",
+        "description": "Shield Overload's cooldown recharges 100% faster while its Shield is active, and the Shield duration is increased by 1 second.",
         "icon": "storm_ui_icon_artanis_shieldoverload.png",
         "sort": 2,
         "abilityId": "Artanis|D1"
@@ -131,7 +131,7 @@
         "tooltipId": "ArtanisPhasePrismWarpSicknessTalent",
         "talentTreeId": "ArtanisPhasePrismWarpSickness",
         "name": "Warp Sickness",
-        "description": "Phase Prism also slows the enemy's Movement Speed by 35% for 4 seconds.",
+        "description": "Phase Prism also Slows the enemy's Movement Speed by 35% for 4 seconds.",
         "icon": "storm_ui_icon_artanis_repositionmatrix.png",
         "sort": 2,
         "abilityId": "Artanis|E1"
@@ -182,7 +182,7 @@
         "tooltipId": "ArtanisBladeDashTemplarsZealTalent",
         "talentTreeId": "ArtanisBladeDashTemplarsZeal",
         "name": "Templar's Zeal",
-        "description": "Blade Dash cooldown recharges 300% faster while below 50% Health.",
+        "description": "Reduce the Mana cost of Blade Dash from 50 to 25. Each time that Shield Overload activates, reduce the cooldown of Blade Dash by 5 seconds.",
         "icon": "storm_ui_icon_artanis_powerstrikes.png",
         "sort": 1,
         "abilityId": "Artanis|Q1"
@@ -200,7 +200,7 @@
         "tooltipId": "ArtanisPhasePrismGravitonVortexTalent",
         "talentTreeId": "ArtanisPhasePrismGravitonVortex",
         "name": "Graviton Vortex",
-        "description": "Phase Prism pulls and damages an additional enemy Hero near the first, and its cooldown is reduced by 5 seconds.",
+        "description": "Reduce the Mana cost of Phase Prism from 70 to 35. Hitting an enemy Hero with Basic Attacks or Blade Dash reduces the cooldown of Phase Prism by 1.25 seconds.",
         "icon": "storm_ui_icon_artanis_repositionmatrix.png",
         "sort": 3,
         "abilityId": "Artanis|E1"
@@ -209,7 +209,7 @@
         "tooltipId": "ArtanisShieldOverloadPhaseBulwarkTalent",
         "talentTreeId": "ArtanisShieldOverloadPhaseBulwark",
         "name": "Phase Bulwark",
-        "description": "When Shield Overload activates, gain 50 Spell Armor for 4 seconds, reducing Ability Damage taken by 50%.",
+        "description": "Shield Overload grants 50 Spell Armor while active and for 2 seconds after it expires.",
         "icon": "storm_ui_icon_artanis_shieldoverload.png",
         "sort": 4,
         "abilityId": "Artanis|D1"
@@ -217,40 +217,31 @@
     ],
     "16": [
       {
-        "tooltipId": "ArtanisTwinBladesZealotChargeTalent",
-        "talentTreeId": "ArtanisTwinBladesZealotCharge",
-        "name": "Zealot Charge",
-        "description": "Increase Twin Blades' charge distance by 100%.",
+        "tooltipId": "ArtanisTwinBladesTitanKillerTalent",
+        "talentTreeId": "ArtanisTwinBladesTitanKiller",
+        "name": "Titan Killer",
+        "description": "Basic Attacks against Heroes deal bonus damage equal to 0.5% of the target's maximum Health in damage, increased to 1.5% when empowered by Twin Blades.",
         "icon": "storm_ui_icon_artanis_doubleslash_on.png",
         "sort": 1,
         "abilityId": "Artanis|W1"
       },
       {
-        "tooltipId": "ArtanisTwinBladesTitanKillerTalent",
-        "talentTreeId": "ArtanisTwinBladesTitanKiller",
-        "name": "Titan Killer",
-        "description": "Twin Blades attacks against Heroes deal an additional 2% of the target's maximum Health in damage.",
-        "icon": "storm_ui_icon_artanis_doubleslash_var1.png",
-        "sort": 2,
-        "abilityId": "Artanis|W1"
-      },
-      {
-        "tooltipId": "ArtanisTwinBladesPsionicWoundTalent",
-        "talentTreeId": "ArtanisTwinBladesPsionicWound",
-        "name": "Psionic Wound",
-        "description": "Twin Blades final strike lowers a Hero's Armor by 25 for 2 seconds, increasing all damage taken by 25%.",
-        "icon": "storm_ui_icon_artanis_doubleslash_var2.png",
-        "sort": 3,
-        "abilityId": "Artanis|W1"
-      },
-      {
-        "tooltipId": "ArtanisPlasmaBurn",
-        "talentTreeId": "ArtanisPlasmaBurn",
-        "name": "Plasma Burn",
-        "description": "While Shield Overload is active, deal 55 (+4% per level) damage per second to nearby enemies.",
+        "tooltipId": "ArtanisShieldOverloadForceofWillTalent",
+        "talentTreeId": "ArtanisShieldOverloadForceofWill",
+        "name": "Force of Will",
+        "description": "Casting Basic Abilities reduces the cooldown of Shield Overload by 5 seconds.",
         "icon": "storm_ui_icon_artanis_shieldoverload.png",
-        "sort": 4,
+        "sort": 2,
         "abilityId": "Artanis|D1"
+      },
+      {
+        "tooltipId": "ArtanisTwinBladesBladesofaTemplar",
+        "talentTreeId": "ArtanisTwinBladesBladesofaTemplar",
+        "name": "Blades of a Templar",
+        "description": "Increase Attack Speed by 30%. Basic Attacks Slow by 20% for 1.25 seconds.",
+        "icon": "storm_ui_icon_talent_autoattack_slow.png",
+        "sort": 3,
+        "abilityId": "Artanis|Passive"
       }
     ],
     "20": [
@@ -267,28 +258,28 @@
         "tooltipId": "ArtanisSpearofAdunPurifierBeamTargetPurifiedTalent",
         "talentTreeId": "ArtanisSpearofAdunPurifierBeamTargetPurified",
         "name": "Target Purified",
-        "description": "If the target of Purifier Beam dies, it automatically recasts on the nearest visible enemy Hero.",
+        "description": "Increase the speed of Purifier Beam by 15%. If the target of Purifier Beam dies, it automatically recasts on the nearest visible enemy Hero.",
         "icon": "storm_ui_icon_artanis_purifierbeam.png",
         "sort": 2,
         "abilityId": "Artanis|R1"
       },
       {
-        "tooltipId": "ArtanisShieldOverloadForceofWillTalent",
-        "talentTreeId": "ArtanisShieldOverloadForceofWill",
-        "name": "Force of Will",
-        "description": "Increases Shield Overload's cooldown reduction from Basic Attacks to 6 seconds.",
-        "icon": "storm_ui_icon_artanis_shieldoverload.png",
+        "tooltipId": "ArtanisTwinBladesZealotChargeTalent",
+        "talentTreeId": "ArtanisTwinBladesZealotCharge",
+        "name": "Zealot Charge",
+        "description": "Increase Twin Blades' charge distance by 100%.",
+        "icon": "storm_ui_icon_artanis_doubleslash_on.png",
         "sort": 3,
-        "abilityId": "Artanis|D1"
+        "abilityId": "Artanis|W1"
       },
       {
-        "tooltipId": "NexusBladesTalent",
-        "talentTreeId": "GenericTalentNexusBlades",
-        "name": "Nexus Blades",
-        "description": "Basic Attacks deal 20% more damage and Slow enemy Movement Speed by 20% for 1 second.",
-        "icon": "storm_ui_icon_talent_autoattack_slow.png",
+        "tooltipId": "ArtanisPlasmaBurn",
+        "talentTreeId": "ArtanisPlasmaBurn",
+        "name": "Plasma Burn",
+        "description": "While Shield Overload is active, deal 60 (+4% per level) damage per second to nearby enemies.",
+        "icon": "storm_ui_icon_artanis_shieldoverload.png",
         "sort": 4,
-        "abilityId": "Artanis|Passive"
+        "abilityId": "Artanis|D1"
       }
     ]
   }

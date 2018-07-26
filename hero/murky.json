@@ -176,22 +176,22 @@
         "abilityId": "Murky|E1"
       },
       {
-        "tooltipId": "MurkyFishTank",
-        "talentTreeId": "MurkyFishTank",
-        "name": "Fish Tank",
-        "description": "Basic Attacks against Heroes grant Murky 75 Physical Armor against Heroes for 3 seconds.",
-        "icon": "storm_ui_icon_murky_fishtank.png",
-        "sort": 2,
-        "abilityId": "Murky|Passive"
-      },
-      {
         "tooltipId": "MurkyEggShell",
         "talentTreeId": "MurkyEggShell",
         "name": "Egg Shell",
         "description": "Spawning from his Egg grants Murky a Shield equal to 100% of his maximum Health. The shield lasts indefinitely.",
         "icon": "storm_ui_icon_murky_trait_spawnegg.png",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Murky|D1"
+      },
+      {
+        "tooltipId": "MurkyFishTank",
+        "talentTreeId": "MurkyFishTank",
+        "name": "Fish Tank",
+        "description": "Murky is healed for 25% of the damage he deals with Basic Attacks and Basic Abilities.",
+        "icon": "storm_ui_icon_murky_fishtank.png",
+        "sort": 3,
+        "abilityId": "Murky|Passive"
       }
     ],
     "16": [
