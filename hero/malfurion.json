@@ -62,10 +62,10 @@
   "talents": {
     "1": [
       {
-        "tooltipId": "MalfurionRegrowthNaturesSwiftnessTalent",
-        "talentTreeId": "MalfurionRegrowthNaturesSwiftness",
-        "name": "Nature's Swiftness",
-        "description": "Malfurion gains 4% Movement Speed per ally Hero affected by Regrowth.",
+        "tooltipId": "MalfurionRejuvenationTalent",
+        "talentTreeId": "MalfurionRejuvenation",
+        "name": "Rejuvenation",
+        "description": "Malfurion regenerates 5 (+4% per level) Health per second for every active Regrowth.",
         "icon": "storm_ui_icon_malfurion_regrowth.png",
         "sort": 1,
         "abilityId": "Malfurion|Q1"
@@ -172,12 +172,21 @@
     ],
     "13": [
       {
+        "tooltipId": "MalfurionRegrowthNaturesSwiftnessTalent",
+        "talentTreeId": "MalfurionRegrowthNaturesSwiftness",
+        "name": "Nature's Swiftness",
+        "description": "Malfurion gains 6% Movement Speed for every active Regrowth.",
+        "icon": "storm_ui_icon_malfurion_regrowth.png",
+        "sort": 1,
+        "abilityId": "Malfurion|Q1"
+      },
+      {
         "tooltipId": "MalfurionMoonfireHinderingMoonfireTalent",
         "talentTreeId": "MalfurionMasteryHinderingMoonfire",
         "name": "Hindering Moonfire",
         "description": "Moonfire Slows Heroes hit by 25% for 2 seconds.",
         "icon": "storm_ui_icon_malfurion_moonfire.png",
-        "sort": 1,
+        "sort": 2,
         "abilityId": "Malfurion|W1"
       },
       {
@@ -186,18 +195,8 @@
         "name": "Revitalize",
         "description": "Using Innervate also grants Malfurion 50 Mana and causes his Basic Ability cooldowns to refresh 50% faster for 5 seconds.",
         "icon": "storm_ui_icon_malfurion_innerrvate.png",
-        "sort": 2,
-        "abilityId": "Malfurion|D1"
-      },
-      {
-        "tooltipId": "GenericIceBlockTalent",
-        "talentTreeId": "GenericTalentIceBlock",
-        "name": "Ice Block",
-        "description": "Activate to place yourself in Stasis and gain Invulnerability for 3 seconds.",
-        "icon": "storm_ui_icon_talent_iceblock.png",
         "sort": 3,
-        "abilityId": "Malfurion|Active",
-        "cooldown": 60
+        "abilityId": "Malfurion|D1"
       }
     ],
     "16": [

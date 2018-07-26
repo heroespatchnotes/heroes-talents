@@ -27,7 +27,7 @@
       },
       {
         "name": "Sonic Arrow",
-        "description": "Fire an arrow that grants vision in a large area for 8 seconds. Enemies inside are revealed for 1 second. If Sonic Arrow lands directly on an enemy, it deals 165 (+4% per level) damage to them and follows them as they move.",
+        "description": "Fire an arrow that grants vision in a large area for 5 seconds. Enemies inside are revealed for 1 second. If Sonic Arrow lands directly on an enemy, it deals 165 (+4% per level) damage to them and follows them as they move.",
         "hotkey": "E",
         "abilityId": "Hanzo|E1",
         "cooldown": 20,
@@ -55,7 +55,7 @@
         "hotkey": "D",
         "trait": true,
         "abilityId": "Hanzo|D1",
-        "cooldown": 25
+        "cooldown": 30
       }
     ]
   },
@@ -259,7 +259,7 @@
         "tooltipId": "HanzoPerfectAgility",
         "talentTreeId": "HanzoPerfectAgility",
         "name": "Perfect Agility",
-        "description": "Natural Agility gains a 2nd charge and its cooldown is reduced by 5 seconds.",
+        "description": "Natural Agility gains a 2nd charge and its cooldown is reduced by 10 seconds.",
         "icon": "storm_ui_icon_hanzo_wallvault.png",
         "sort": 4,
         "abilityId": "Hanzo|D1"
