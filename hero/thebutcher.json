@@ -11,7 +11,7 @@
     "The Butcher": [
       {
         "name": "Hamstring",
-        "description": "Deal 110 (+4% per level) damage and slow enemies by 50% fading over 2 seconds.  Your next Basic Attack will strike immediately.",
+        "description": "Deal 110 (+4% per level) damage and slow enemies by 50% fading over 2 seconds.  The Butcher's next Basic Attack will strike immediately.",
         "hotkey": "Q",
         "abilityId": "Butcher|Q1",
         "cooldown": 4,
@@ -19,7 +19,7 @@
       },
       {
         "name": "Butcher's Brand",
-        "description": "Deal 37 (+4% per level) damage to an enemy and cause your Basic Attacks against them to heal you for 75% of the damage done. Healing doubled versus Heroes. Lasts 4 seconds. Your Basic Attacks against a branded Hero increase the duration by 0.5 seconds.",
+        "description": "Deal 37 (+4% per level) damage to an enemy and Brand them for 4 seconds. The Butcher's Basic Attacks against the Branded target heal him for 75% of the damage done.  Basic Attacks against Branded Heroes heal for double and extend the duration of the Brand by 0.5 seconds.",
         "hotkey": "W",
         "abilityId": "Butcher|W1",
         "cooldown": 14,
@@ -27,7 +27,7 @@
       },
       {
         "name": "Ruthless Onslaught",
-        "description": "Charge at an enemy, becoming Unstoppable and gaining Movement Speed. If you reach the target, they are stunned for 1 second and take 119 (+4% per level) damage.",
+        "description": "Charge at an enemy, becoming Unstoppable and gaining Movement Speed. If The Butcher reaches the target, they are stunned for 1 second and take 119 (+4% per level) damage.",
         "hotkey": "E",
         "abilityId": "Butcher|E1",
         "cooldown": 15,
@@ -51,7 +51,7 @@
       },
       {
         "name": "Fresh Meat",
-        "description": "Upon dying, nearby Minions drop 1 Fresh Meat and enemy Heroes drop 20 Fresh Meat. Fresh Meat can be picked up to gain 0.5 Attack Damage per Meat. The Butcher loses 15 Fresh Meat upon dying. Quest: Collect 200 Fresh Meat. Reward: Gain an additional 125 Attack Damage and 25% increased Attack Speed. Heroes continue to drop 10 Fresh Meat, Minions no longer drop Fresh Meat, and Fresh Meat is no longer lost on death.",
+        "description": "Upon dying, nearby enemy Minions drop 1 Fresh Meat and enemy Heroes drop 20 Fresh Meat. Fresh Meat can be picked up to gain 0.5 Attack Damage per Meat. The Butcher loses 15 Fresh Meat upon dying.  Quest: Collect 200 Fresh Meat.  Reward: Gain an additional 125 Attack Damage and 25% increased Attack Speed. Heroes continue to drop 10 Fresh Meat, Minions no longer drop Fresh Meat, and Fresh Meat is no longer lost on death.",
         "trait": true,
         "abilityId": "Butcher|D1"
       }

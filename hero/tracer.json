@@ -11,7 +11,7 @@
     "Tracer": [
       {
         "name": "Blink",
-        "description": "Dash towards an area. Stores 3 charges.",
+        "description": "Dash towards an area. Stores up to 3 charges.",
         "hotkey": "Q",
         "abilityId": "Tracer|Q1",
         "cooldown": 9
@@ -32,13 +32,13 @@
       },
       {
         "name": "Pulse Bomb",
-        "description": "Fire a short range bomb that attaches to enemy units if you hit them. The bomb explodes after 2 seconds dealing 360 (+6% per level) damage to them and 180 (+6% per level) damage to other nearby enemies.  This Ability is slowly charged over time by dealing damage to enemies with Basic Attacks and Melee.",
+        "description": "Fire a short range bomb that can attach to an enemy if it hits them. The bomb explodes after 2 seconds dealing 360 (+6% per level) damage to them and 180 (+6% per level) damage to other nearby enemies.  This Ability is slowly charged over time by dealing damage to enemies with Basic Attacks and Melee.",
         "hotkey": "R",
         "abilityId": "Tracer|R1"
       },
       {
         "name": "Reload",
-        "description": "You can Basic Attack while moving, and after attacking 10 times you need to reload over 0.75 seconds. You can manually reload early by activating Reload.",
+        "description": "Tracer can Basic Attack while moving, and after attacking 10 times she needs to reload over 0.75 seconds. Tracer can manually reload early by activating Reload.",
         "hotkey": "D",
         "trait": true,
         "abilityId": "Tracer|D1",

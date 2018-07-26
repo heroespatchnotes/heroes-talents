@@ -19,7 +19,7 @@
       },
       {
         "name": "Keg Smash",
-        "description": "Smash your keg, dealing 50 (+4% per level) damage and drenching affected enemies in Brew, slowing them by 25% for 3 seconds.",
+        "description": "Smash Chen's keg, dealing 50 (+4% per level) damage and drenching affected enemies in Brew, slowing them by 25% for 3 seconds.",
         "hotkey": "W",
         "abilityId": "Chen|W1",
         "cooldown": 5,
@@ -27,7 +27,7 @@
       },
       {
         "name": "Breath of Fire",
-        "description": "Breathe a cone of flames, dealing 96 (+4% per level) damage. Enemies soaked in Brew are set on fire, dealing 96 (+4% per level) damage over 3 seconds.",
+        "description": "Breathe a cone of flames, dealing 96 (+4% per level) damage. Enemies soaked in Brew are Ignited, dealing 96 (+4% per level) additional damage over 3 seconds.",
         "hotkey": "E",
         "abilityId": "Chen|E1",
         "cooldown": 5,
@@ -131,7 +131,7 @@
         "tooltipId": "ChenFortifyingBrewBolderFlavorTalent",
         "talentTreeId": "ChenBolderFlavor",
         "name": "Bolder Flavor",
-        "description": "Fortifying Brew instantly Shields Chen for 318. Additionally, Shields persist for 1 extra second after he stops drinking.",
+        "description": "Fortifying Brew instantly Shields Chen for 318 (+4% per level). Additionally, Shields persist for 1 extra second after he stops drinking.",
         "icon": "storm_ui_icon_chen_fortifyingbrew_a.png",
         "sort": 2,
         "abilityId": "Chen|D1"

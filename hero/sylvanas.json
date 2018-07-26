@@ -11,7 +11,7 @@
     "Sylvanas": [
       {
         "name": "Withering Fire",
-        "description": "Shoot the closest enemy for 48 (+4% per level) damage, preferring Heroes.  Stores 5 charges.  Gain 1 charge on nearby enemy Minion or Mercenary deaths, and 3 charges on nearby enemy Hero deaths.",
+        "description": "Shoot the closest enemy for 48 (+4% per level) damage, preferring Heroes.  Gain 1 charge on nearby enemy Minion or Mercenary deaths, and 3 charges on nearby enemy Hero deaths.  Stores up to 5 charges.",
         "hotkey": "Q",
         "abilityId": "Sylvanas|Q1",
         "cooldown": 2
@@ -50,7 +50,7 @@
       },
       {
         "name": "Black Arrows",
-        "description": "Basic Attacks and Abilities Stun Minions and Mercenaries for 1 second.  Basic Attacks Stun Structures for 1 second.",
+        "description": "Basic Attacks and Abilities Stun Minions and Mercenaries for 1 second, and Basic Attacks disable Structures for 1 second.",
         "trait": true,
         "abilityId": "Sylvanas|D1"
       }

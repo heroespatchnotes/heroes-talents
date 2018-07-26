@@ -18,7 +18,7 @@
       },
       {
         "name": "Sweeping Strike",
-        "description": "Dash towards target point, dealing 119 (+4% per level) damage to enemies along the way. Hitting an enemy increases your Basic Attack damage by 35% for 3 seconds.",
+        "description": "Dash towards target point, dealing 119 (+4% per level) damage to enemies along the way. Hitting an enemy increases Illidan's Basic Attack damage by 35% for 3 seconds.",
         "hotkey": "W",
         "abilityId": "Illidan|W1",
         "cooldown": 8
@@ -39,14 +39,14 @@
       },
       {
         "name": "Metamorphosis",
-        "description": "Transform into Demon Form at the target location, dealing 46 (+4% per level) damage in the area. Temporarily increases maximum Health by 200 for each Hero hit by the initial impact. Lasts for 18 seconds.",
+        "description": "Transform into Demon Form at the target location, dealing 46 (+4% per level) damage in the area. Temporarily increases maximum Health by 200 (+4% per level) for each Hero hit by the initial impact. Lasts for 18 seconds.",
         "hotkey": "R",
         "abilityId": "Illidan|R2",
         "cooldown": 120
       },
       {
         "name": "Betrayer's Thirst",
-        "description": "Basic Attacks heal for 30% of damage dealt and reduce your Ability cooldowns by 1 second.",
+        "description": "Basic Attacks heal for 30% of damage dealt and reduce Ability cooldowns by 1 second.",
         "trait": true,
         "abilityId": "Illidan|D1"
       }
@@ -145,7 +145,7 @@
         "tooltipId": "IllidanMetamorphosis",
         "talentTreeId": "IllidanHeroicAbilityMetamorphosis",
         "name": "Metamorphosis",
-        "description": "Transform into Demon Form at the target location, dealing 46 (+4% per level) damage in the area. Temporarily increases maximum Health by 200 for each Hero hit by the initial impact. Lasts for 18 seconds.",
+        "description": "Transform into Demon Form at the target location, dealing 46 (+4% per level) damage in the area. Temporarily increases maximum Health by 200 (+4% per level) for each Hero hit by the initial impact. Lasts for 18 seconds.",
         "icon": "storm_ui_icon_illidan_metamorphosis.png",
         "sort": 1,
         "abilityId": "Illidan|R2",
