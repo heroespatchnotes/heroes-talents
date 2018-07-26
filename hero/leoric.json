@@ -19,7 +19,7 @@
       },
       {
         "name": "Drain Hope",
-        "description": "Grab an enemy Hero's soul, dealing up to 20% of their maximum Health as damage and healing Leoric for up to 20% of his maximum Health while he is nearby, over 4 seconds. Leoric is Slowed by 20% while this is active.",
+        "description": "Grab an enemy Hero's soul, dealing up to 20% of their maximum Health as damage and healing Leoric for up to 20% of his maximum Health while he is nearby, over 4 seconds. Leoric's Movement Speed is reduced by 20% while this is active.",
         "hotkey": "W",
         "abilityId": "Leoric|W1",
         "cooldown": 10,
@@ -27,7 +27,7 @@
       },
       {
         "name": "Wraith Walk",
-        "description": "Separate from your body, becoming Unstoppable and gaining Movement Speed accelerating up to 50% over 2.5 seconds. When Wraith Walk ends or is canceled, your body jumps to your wraith.",
+        "description": "Leoric separates from his body, becoming Unstoppable and gaining Movement Speed accelerating up to 50% over 2.5 seconds. When Wraith Walk ends or is canceled, his body jumps to his wraith.",
         "hotkey": "E",
         "abilityId": "Leoric|E1",
         "cooldown": 14,
@@ -51,15 +51,9 @@
       },
       {
         "name": "Undying",
-        "description": "Leoric becomes a ghost when he dies, and resurrects upon reaching full Health. Leoric deals no damage while dead.",
+        "description": "Leoric becomes a ghost when he dies, and resurrects upon reaching full Health. Leoric deals no damage while dead.  Wrath Of The Bone King  Leoric's first two Basic Attacks cleave for 100% damage, and his third Basic Attack deals 200% damage to a single target.",
         "trait": true,
         "abilityId": "Leoric|D1"
-      },
-      {
-        "name": "Wrath Of The Bone King",
-        "description": "Leoric's first two Basic Attacks cleave for 100% damage, and his third Basic Attack deals 200% damage to a single target.",
-        "trait": true,
-        "abilityId": "Leoric|D2"
       }
     ], 
     "LeoricUndying": [

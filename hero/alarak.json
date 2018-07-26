@@ -19,7 +19,7 @@
       },
       {
         "name": "Telekinesis",
-        "description": "Vector Targeting. Create a force, pushing Alarak and all enemies hit from the targeted point towards the targeted direction. Deals 48 (+4% per level) damage to enemies.",
+        "description": "Vector Targeting Create a force, pushing Alarak and all enemies hit from the targeted point towards the targeted direction. Deals 48 (+4% per level) damage to enemies.",
         "hotkey": "W",
         "abilityId": "Alarak|W1",
         "cooldown": 12,
@@ -43,7 +43,7 @@
       },
       {
         "name": "Deadly Charge",
-        "description": "After channeling, Alarak charges forward dealing 200 (+4% per level) damage to all enemies in his path. Distance is increased based on the amount of time channeled, up to 1.6 seconds. Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling.",
+        "description": "After channeling, Alarak charges forward dealing 200 (+4% per level) damage to all enemies in his path. Distance is increased based on the amount of time channeled, up to 1.5 seconds.  Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling.",
         "hotkey": "R",
         "abilityId": "Alarak|R2",
         "cooldown": 45,
@@ -51,7 +51,7 @@
       },
       {
         "name": "Sadism",
-        "description": "Alarak's Ability damage and self-healing are increased by 100% against enemy Heroes.  Takedowns increase Sadism by 3%, up to 30%. Sadism gained from Takedowns is lost on death.",
+        "description": "Alarak's Ability damage and self-healing are increased by 100% against enemy Heroes.  Repeatable Quest: Takedowns increase Sadism by 3%, up to 30%. Sadism gained from Takedowns is lost on death.",
         "trait": true,
         "abilityId": "Alarak|D1"
       }
@@ -148,9 +148,9 @@
     "10": [
       {
         "tooltipId": "AlarakDeadlyCharge",
-        "talentTreeId": "AlarakHeroicAbilityDeadlyCharge",
+        "talentTreeId": "AlarakDeadlyChargeFirstHeroic",
         "name": "Deadly Charge",
-        "description": "After channeling, Alarak charges forward dealing 200 (+4% per level) damage to all enemies in his path. Distance is increased based on the amount of time channeled, up to 1.6 seconds. Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling.",
+        "description": "After channeling, Alarak charges forward dealing 200 (+4% per level) damage to all enemies in his path. Distance is increased based on the amount of time channeled, up to 1.5 seconds.  Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling.",
         "icon": "storm_ui_icon_alarak_recklesscharge.png",
         "sort": 1,
         "abilityId": "Alarak|R2",
@@ -237,10 +237,10 @@
         "cooldown": 30
       },
       {
-        "tooltipId": "AlarakDeadlyCharge2ndHeroic",
-        "talentTreeId": "AlarakDeadlyChargeItem",
+        "tooltipId": "AlarakDeadlyCharge",
+        "talentTreeId": "AlarakDeadlyChargeSecondHeroic",
         "name": "Deadly Charge",
-        "description": "After channeling, Alarak charges forward dealing 200 (+4% per level) damage to all enemies in his path. Distance is increased based on the amount of time channeled, up to 1.6 seconds. Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling. This ability will take over Alarak's Trait button.",
+        "description": "After channeling, Alarak charges forward dealing 200 (+4% per level) damage to all enemies in his path. Distance is increased based on the amount of time channeled, up to 1.5 seconds.  Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling.  This ability will take over Alarak's Trait button.",
         "icon": "storm_ui_icon_alarak_recklesscharge.png",
         "sort": 2,
         "abilityId": "Alarak|R2",

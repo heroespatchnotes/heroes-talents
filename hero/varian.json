@@ -19,7 +19,7 @@
       },
       {
         "name": "Parry",
-        "description": "Parry all incoming Basic Attacks for 1.25 seconds, reducing their damage by 100%.",
+        "description": "Parry all incoming Basic Attacks for 1.25 seconds, reducing their damage by 100%.  Stores up to 2 charges.",
         "hotkey": "W",
         "abilityId": "Varian|W1",
         "cooldown": 10,
@@ -27,7 +27,7 @@
       },
       {
         "name": "Charge",
-        "description": "Charge to the target enemy, dealing 50 (+4% per level) damage and slowing them by 75% for 1 second.",
+        "description": "Charge to the target enemy, dealing 50 (+4% per level) damage and Slowing them by 75% for 1 second.",
         "hotkey": "E",
         "abilityId": "Varian|E1",
         "cooldown": 12,
@@ -57,7 +57,7 @@
       },
       {
         "name": "Heroic Strike",
-        "description": "Every 18 seconds, Varian's next Basic Attack deals 125 (+4% per level) bonus damage. Basic Attacks reduce this cooldown by 2 seconds.",
+        "description": "Every 18 seconds, Varian's next Basic Attack deals 125 (+4% per level) bonus Spell Damage. Basic Attacks reduce this cooldown by 2 seconds.",
         "trait": true,
         "abilityId": "Varian|D1",
         "cooldown": 18

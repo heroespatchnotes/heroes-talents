@@ -11,21 +11,21 @@
     "Zarya": [
       {
         "name": "Particle Grenade",
-        "description": "Launch a particle grenade that deals 75 (+4% per level) damage to enemies within the area. Deals 50% damage to Structures.",
+        "description": "Launch a particle grenade that deals 75 (+4% per level) damage to enemies within the area. Deals 50% damage to Structures.  Stores up to 4 charges.",
         "hotkey": "Q",
         "abilityId": "Zarya|Q1",
         "cooldown": 8
       },
       {
         "name": "Personal Barrier",
-        "description": "Gain a shield that absorbs 560 (+4% per level) damage for 3 seconds.",
+        "description": "Gain a Shield that absorbs 560 (+4% per level) damage for 3 seconds.",
         "hotkey": "W",
         "abilityId": "Zarya|W1",
         "cooldown": 10
       },
       {
         "name": "Shield Ally",
-        "description": "Grants an allied Hero a shield that absorbs 420 (+4% per level) damage for 3 seconds.",
+        "description": "Grants an allied Hero a Shield that absorbs 420 (+4% per level) damage for 3 seconds.",
         "hotkey": "E",
         "abilityId": "Zarya|E1",
         "cooldown": 12
@@ -46,7 +46,7 @@
       },
       {
         "name": "Energy",
-        "description": "Each time Zarya's Personal Barrier or Shield Ally absorbs 10 damage, her Energy is increased by 1. Each point of Energy increases Zarya's damage by 2%. After 0.5 seconds, Energy decays by 2.5 per second.",
+        "description": "Each time Zarya's Personal Barrier or Shield Ally absorbs 9 (+4% per level) damage, her Energy is increased by 1. Each point of Energy increases Zarya's damage by 2%. After 0.5 seconds, Energy decays by 3 per second.",
         "trait": true,
         "abilityId": "Zarya|D1"
       }
@@ -67,7 +67,7 @@
         "tooltipId": "ZaryaShieldAllyTogetherWeAreStrongTalent",
         "talentTreeId": "ZaryaShieldAllyTogetherWeAreStrong",
         "name": "Together We Are Strong",
-        "description": "Every 6 damage done by allies while under Shield Ally contributes 1 Energy, up to 30 Energy per Shield.",
+        "description": "Every 6 (+4% per level) damage done by allies while under Shield Ally contributes 1 Energy, up to 30 Energy per Shield.",
         "icon": "storm_ui_icon_zarya_shieldally.png",
         "sort": 2,
         "abilityId": "Zarya|E1"
@@ -271,7 +271,7 @@
         "tooltipId": "ZaryaGravitonSurgeGravityKillsTalent",
         "talentTreeId": "ZaryaGravitonSurgeGravityKills",
         "name": "Gravity Kills",
-        "description": "Increases Graviton Surge's duration by 1 second and causes it to deal 175 damage over the duration.",
+        "description": "Increases Graviton Surge's duration by 1 second and causes it to deal 175 (+4% per level) damage over the duration.",
         "icon": "storm_ui_icon_zarya_gravitonsurge.png",
         "sort": 1,
         "abilityId": "Zarya|R2"
