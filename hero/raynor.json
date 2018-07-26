@@ -19,7 +19,7 @@
       },
       {
         "name": "Inspire",
-        "description": "Raynor and all nearby allied Minions and Mercenaries gain 30% Attack Speed and 10% Movement Speed for 4 seconds. Casting Inspire resets Raynor's Basic Attack cooldown.",
+        "description": "Raynor and all nearby allied Minions and Mercenaries gain 30% Attack Speed and 10% Movement Speed for 4 seconds.  Casting Inspire resets Raynor's Basic Attack cooldown.",
         "hotkey": "W",
         "abilityId": "Raynor|W1",
         "cooldown": 12,
@@ -43,7 +43,7 @@
       },
       {
         "name": "Raynor's Raider",
-        "description": "Summon a Banshee that assists Raynor. The Banshee deals 96 (+4% per level) damage per second and regenerates 75 (+4% per level) Health per second if it hasn't taken damage in the last 4 seconds. Can reactivate to retarget or move the Banshee. The Banshee respawns automatically after 45 seconds.",
+        "description": "Summon a Banshee that assists Raynor. The Banshee deals 96 (+4% per level) damage per second and regenerates 75 (+4% per level) Health per second if it hasn't taken damage in the last 4 seconds. Can reactivate to retarget or move the Banshee.  The Banshee respawns automatically after 45 seconds.",
         "hotkey": "R",
         "abilityId": "Raynor|R2",
         "cooldown": 45
@@ -109,7 +109,7 @@
         "tooltipId": "RaynorBehemothArmor",
         "talentTreeId": "RaynorBehemothArmor",
         "name": "Behemoth Armor",
-        "description": "Gain 250 bonus maximum Health. Quest: Every time Give 'Em Some Pepper's primary target is a Hero, gain an additional 5 maximum Health.",
+        "description": "Gain 250 bonus maximum Health.  Quest: Every time Give 'Em Some Pepper's primary target is a Hero, gain an additional 5 maximum Health.",
         "icon": "storm_ui_icon_raynor_hulkarmor.png",
         "sort": 3,
         "abilityId": "Raynor|Passive"
@@ -160,7 +160,7 @@
         "tooltipId": "RaynorRaynorsRaider",
         "talentTreeId": "RaynorHeroicAbilityRaynorsRaiders",
         "name": "Raynor's Raider",
-        "description": "Summon a Banshee that assists Raynor. The Banshee deals 96 (+4% per level) damage per second and regenerates 75 (+4% per level) Health per second if it hasn't taken damage in the last 4 seconds. Can reactivate to retarget or move the Banshee. The Banshee respawns automatically after 45 seconds.",
+        "description": "Summon a Banshee that assists Raynor. The Banshee deals 96 (+4% per level) damage per second and regenerates 75 (+4% per level) Health per second if it hasn't taken damage in the last 4 seconds. Can reactivate to retarget or move the Banshee.  The Banshee respawns automatically after 45 seconds.",
         "icon": "storm_ui_icon_raynor_raynorsraiders.png",
         "sort": 2,
         "abilityId": "Raynor|R2",
@@ -219,10 +219,11 @@
         "tooltipId": "RaynorBountyHunter",
         "talentTreeId": "RaynorBountyHunter",
         "name": "Bounty Hunter",
-        "description": "If Give 'Em Some Pepper's target is a Hero, it deals an additional 3% of their maximum Health as damage and grants Raynor 5 Armor for 3 seconds. Activate Give 'Em Some Pepper to apply it to Raynor's next Basic Attack.",
+        "description": "If Give 'Em Some Pepper's target is a Hero, it deals an additional 3% of their maximum Health as damage and grants Raynor 5 Armor for 3 seconds.  Activate Give 'Em Some Pepper to apply it to Raynor's next Basic Attack.",
         "icon": "storm_ui_icon_raynor_acquireweakspot.png",
         "sort": 3,
-        "abilityId": "Raynor|D1"
+        "abilityId": "Raynor|D1",
+        "cooldown": 40
       }
     ],
     "20": [
