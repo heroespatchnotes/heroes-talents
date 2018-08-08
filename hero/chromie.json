@@ -11,19 +11,19 @@
     "Chromie": [
       {
         "name": "Sand Blast",
-        "description": "After 1 second, fire a missile that deals 300 (+2% per level) damage to the first enemy Hero hit.  Quest: Hit 60 Heroes with Sand Blast. Consecutive hits without missing count as hitting 2 Heroes.  Reward: Each Hero hit increases Sand Blast's damage by 5.  Reward: After hitting 60 Heroes, casting Sand Blast leaves an Echo behind.  The next time Sand Blast is cast, the Echo also casts an untalented Sand Blast that deals 40% damage.",
+        "description": "After 0.8 seconds, fire a missile that deals 300 (+4% per level) damage to the first enemy Hero hit.  Quest: Hit 50 Heroes with Sand Blast. Consecutive hits without missing count as hitting 2 Heroes.  Reward: After hitting 50 Heroes, casting Sand Blast leaves an Echo behind.  The next time Sand Blast is cast, the Echo also casts an untalented Sand Blast that deals 40% damage.",
         "hotkey": "Q",
         "abilityId": "Chromie|Q1",
         "cooldown": 2.5,
-        "manaCost": "20"
+        "manaCost": "15"
       },
       {
         "name": "Dragon's Breath",
-        "description": "Fire a blast into the air that lands after 1.5 seconds, dealing 480 (+4% per level) damage to enemies in an area.  Enemies cannot see where the blast will land.",
+        "description": "Fire a blast into the air that lands after 1.5 seconds, dealing 360 (+4% per level) damage to enemies in an area.",
         "hotkey": "W",
         "abilityId": "Chromie|W1",
-        "cooldown": 12,
-        "manaCost": "70"
+        "cooldown": 9,
+        "manaCost": "50"
       },
       {
         "name": "Time Trap",
@@ -51,7 +51,7 @@
       },
       {
         "name": "Timewalker",
-        "description": "Chromie has traveled to the future, and as such, will learn her Talents 2 levels earlier than her teammates!",
+        "description": "Chromie has traveled to the future, and as such, will learn her Talents 2 levels earlier than her teammates!  Bronze Talons  Hitting an enemy Hero with a Basic Ability increases the damage of Chromie's next Basic Attack by 100%.",
         "trait": true,
         "abilityId": "Chromie|D1"
       }
@@ -63,7 +63,7 @@
         "tooltipId": "ChromieSandBlastMountingSand",
         "talentTreeId": "ChromieSandBlastMountingSand",
         "name": "Mounting Sand",
-        "description": "Hitting 3 or more consecutive Sand Blasts without missing counts as hitting 3 Heroes.",
+        "description": "Increase the damage of Echo's Sand Blast by 40%. Hitting 3 or more consecutive Sand Blasts without missing counts as hitting 3 Heroes.",
         "icon": "storm_ui_icon_chromie_aethercannon.png",
         "sort": 1,
         "abilityId": "Chromie|Q1"
@@ -81,7 +81,7 @@
         "tooltipId": "ChromieTimewalkersPursuit",
         "talentTreeId": "ChromieTimewalkersPursuit",
         "name": "Timewalker's Pursuit",
-        "description": "Activate to reveal the targeted area for 2 seconds. Enemies seen are revealed for 4 seconds.  Quest: Gathering a Regeneration Globe increases Chromie's Mana Regeneration by 0.1, up to 1.5.  Reward: After gathering 15 Globes Chromie also gains 5% Spell Power.",
+        "description": "Activate to reveal the targeted area for 2 seconds. Enemies seen are revealed for 4 seconds.  Quest: Gather 15 Regeneration Globes.  Reward: After gathering 15 Globes, Chromie gains 5% Spell Power and her Mana Regeneration is increased by 1.",
         "icon": "storm_ui_icon_talent_clairvoyance.png",
         "sort": 3,
         "abilityId": "Chromie|Active",
@@ -90,13 +90,13 @@
     ],
     "4": [
       {
-        "tooltipId": "ChromieBronzeTalons",
-        "talentTreeId": "ChromieBronzeTalons",
-        "name": "Bronze Talons",
-        "description": "Increase Chromie's Basic Attack range by 35%. Using Sand Blast increases the damage of her next Basic Attack by 250%.",
-        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "tooltipId": "ChromieDraconicBarrage",
+        "talentTreeId": "ChromieDraconicBarrage",
+        "name": "Draconic Barrage",
+        "description": "Increase the damage from Bronze Talons by an additional 100%. Hitting an enemy Hero with Sand Blast applies Bronze Talons to Chromie's next 2 Basic Attacks.",
+        "icon": "storm_ui_icon_chromie_aethercannon.png",
         "sort": 1,
-        "abilityId": "Chromie|Q1"
+        "abilityId": "Chromie|D1"
       },
       {
         "tooltipId": "ChromieDragonsBreathEnvelopingAssault",
@@ -122,7 +122,7 @@
         "tooltipId": "ChromieDragonsBreathMobiusLoop",
         "talentTreeId": "ChromieDragonsBreathMobiusLoop",
         "name": "Mobius Loop",
-        "description": "Reduce Dragon’s Breath's Mana cost and cooldown by 50%, but also reduce its damage by 25%.",
+        "description": "If Dragon's Breath hits a Hero, reduce its cooldown by 2 seconds and restore 50 Mana.",
         "icon": "storm_ui_icon_chromie_sandstrike.png",
         "sort": 1,
         "abilityId": "Chromie|W1"
@@ -140,7 +140,7 @@
         "tooltipId": "ChromieTimeTrapChronoSickness",
         "talentTreeId": "ChromieTimeTrapChronoSickness",
         "name": "Chrono Sickness",
-        "description": "Reduce Time Trap's cooldown and Mana cost by 50%. After the Time Stop ends, the enemy is also Slowed by 50% for 4 seconds.",
+        "description": "Reduce Time Trap's cooldown and Mana cost by 50%. After the Time Stop ends, the enemy is also Slowed by 35% for 4 seconds.",
         "icon": "storm_ui_icon_chromie_timetrap.png",
         "sort": 3,
         "abilityId": "Chromie|E1"
@@ -192,7 +192,7 @@
         "tooltipId": "ChromieTimeOutHotbar",
         "talentTreeId": "ChromieTimeOut",
         "name": "Time Out",
-        "description": "Activate to place Chromie in Stasis and gain Invulnerability for up to 7 seconds. Can be reactivated to end the effect early.",
+        "description": "Activate to place Chromie in Stasis and gain Invulnerability for up to 5 seconds. Can be reactivated to end the effect early.",
         "icon": "storm_ui_icon_chromie_timeblock.png",
         "sort": 3,
         "abilityId": "Chromie|Active",
@@ -213,7 +213,7 @@
         "tooltipId": "ChromieSandBlastFastForward",
         "talentTreeId": "ChromieSandBlastFastForward",
         "name": "Fast Forward",
-        "description": "If Sand Blast travels at least 75% of its base distance and hits a Hero, its cooldown is reduced to 0.75 seconds.",
+        "description": "If Sand Blast travels at least 70% of its base distance and hits a Hero, its cooldown is reduced to 0.75 seconds.",
         "icon": "storm_ui_icon_chromie_aethercannon_a.png",
         "sort": 2,
         "abilityId": "Chromie|Q1"
@@ -222,7 +222,7 @@
         "tooltipId": "ChromieQuantumOverdrive",
         "talentTreeId": "ChromieQuantumOverdrive",
         "name": "Quantum Overdrive",
-        "description": "Activate to increase Spell Power by 20% for 10 seconds.",
+        "description": "Activate to increase Spell Power by 25% for 10 seconds.",
         "icon": "storm_ui_icon_chromie_hyperdrivesreach.png",
         "sort": 3,
         "abilityId": "Chromie|Active",
@@ -252,7 +252,7 @@
         "tooltipId": "ChromieSandBlastPiercingSands",
         "talentTreeId": "ChromieSandBlastPiercingSands",
         "name": "Piercing Sands",
-        "description": "Sand Blast will now hit all Heroes in its path. Additional hits do not grant bonus damage or Quest progress.",
+        "description": "Sand Blast will now hit all Heroes in its path. Additional hits do not grant Quest progress.",
         "icon": "storm_ui_icon_chromie_aethercannon.png",
         "sort": 3,
         "abilityId": "Chromie|Q1"

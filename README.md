@@ -405,6 +405,10 @@ Example:
   <img class="img-rounded" src="images/heroes/varian.png" />
   <span>Varian</span>
 </a>
+<a class="img-wrap" href="hero/whitemane.json">
+  <img class="img-rounded" src="images/heroes/whitemane.png" />
+  <span>Whitemane</span>
+</a>
 <a class="img-wrap" href="hero/xul.json">
   <img class="img-rounded" src="images/heroes/xul.png" />
   <span>Xul</span>
