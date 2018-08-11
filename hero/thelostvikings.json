@@ -13,13 +13,15 @@
         "name": "Spin To Win!",
         "description": "Activate to have each Viking deal 101 (+4% per level) damage to nearby enemies.",
         "hotkey": "Q",
-        "abilityId": "The Lost Vikings|Q1"
+        "abilityId": "The Lost Vikings|Q1",
+        "cooldown": 10
       },
       {
         "name": "Nordic Attack Squad",
         "description": "Activate to have all Viking Basic Attacks deal bonus damage equal to 1% of a Hero's maximum Health for 5 seconds.",
         "hotkey": "W",
-        "abilityId": "The Lost Vikings|W1"
+        "abilityId": "The Lost Vikings|W1",
+        "cooldown": 30
       },
       {
         "name": "Viking Bribery",
@@ -51,7 +53,8 @@
         "name": "Go Go Go!",
         "description": "The Vikings gain 30% increased Movement Speed for 4 seconds.",
         "hotkey": "Z",
-        "abilityId": "The Lost Vikings|Z1"
+        "abilityId": "The Lost Vikings|Z1",
+        "cooldown": 30
       },
       {
         "name": "Select Olaf",
@@ -173,7 +176,8 @@
         "description": "Activate to have each Viking deal 101 (+4% per level) damage to nearby enemies.",
         "icon": "storm_ui_icon_lostvikings_spintowin.png",
         "sort": 2,
-        "abilityId": "The Lost Vikings|Q1"
+        "abilityId": "The Lost Vikings|Q1",
+        "cooldown": 10
       },
       {
         "tooltipId": "LostVikingsNorseForce",
@@ -182,7 +186,8 @@
         "description": "All Vikings gain a 110 (+4% per level) to 220 (+4% per level) point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.",
         "icon": "storm_ui_icon_lostvikings_norseforce.png",
         "sort": 3,
-        "abilityId": "The Lost Vikings|Q2"
+        "abilityId": "The Lost Vikings|Q2",
+        "cooldown": 30
       }
     ],
     "10": [
