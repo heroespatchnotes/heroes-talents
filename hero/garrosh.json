@@ -22,7 +22,7 @@
         "description": "Deal 156 (+4% per level) damage to an enemy and heal for 10% of Garrosh's missing Health. Healing is increased by 100% against Heroes.",
         "hotkey": "W",
         "abilityId": "Garrosh|W1",
-        "cooldown": 14,
+        "cooldown": 12,
         "manaCost": "55"
       },
       {
@@ -30,7 +30,7 @@
         "description": "Throw a nearby enemy Hero, Minion, or Mercenary to the target location, dealing 91 (+4% per level) damage to enemies near the impact and Slowing them by 30% for 2.5 seconds.",
         "hotkey": "E",
         "abilityId": "Garrosh|E1",
-        "cooldown": 12,
+        "cooldown": 14,
         "manaCost": "60"
       },
       {
@@ -205,7 +205,8 @@
         "description": "Armor Up can be activated to increase its Armor bonus by 100% for 3 seconds.",
         "icon": "storm_ui_icon_garrosh_armor_up.png",
         "sort": 3,
-        "abilityId": "Garrosh|D1"
+        "abilityId": "Garrosh|D1",
+        "cooldown": 40
       }
     ],
     "16": [
