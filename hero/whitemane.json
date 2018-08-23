@@ -68,10 +68,11 @@
         "tooltipId": "WhitemaneInquisitionClemency",
         "talentTreeId": "WhitemaneInquisitionClemency",
         "name": "Clemency",
-        "description": "Activate to cast Inquisition on an allied Hero, healing them for up to 371 (+4% per level) over 3 seconds while Channeling.  Passive: Reduce Inquisition's cooldown by 3 seconds.",
+        "description": "Activate to cast Inquisition on an allied Hero, healing them for up to 371 (+4% per level) over 3 seconds while Channeling.  Passive: Reduce Inquisition's cooldown by 4 seconds.",
         "icon": "storm_ui_icon_whitemane_clemency.png",
         "sort": 2,
-        "abilityId": "Whitemane|Active"
+        "abilityId": "Whitemane|Active",
+        "cooldown": 11
       },
       {
         "tooltipId": "WhitemaneSearingLashRighteousFlame",
@@ -97,7 +98,7 @@
         "tooltipId": "WhitemaneDesperatePleaUnwaveringFaith",
         "talentTreeId": "WhitemaneDesperatePleaUnwaveringFaith",
         "name": "Unwavering Faith",
-        "description": "Reduce Desperate Plea's Mana cost by 30.  Upon reaching 3 stacks of Desperation, gain a 250 (+4% per level) Shield for 5 seconds.",
+        "description": "Reduce Desperate Plea's Mana cost by 15.  Upon reaching 3 stacks of Desperation, gain a 250 (+4% per level) Shield for 5 seconds.",
         "icon": "storm_ui_icon_whitemane_desperation.png",
         "sort": 1,
         "abilityId": "Whitemane|Q1"
@@ -106,7 +107,7 @@
         "tooltipId": "WhitemaneInquisitionHighInquisitor",
         "talentTreeId": "WhitemaneInquisitionHighInquisitor",
         "name": "High Inquisitor",
-        "description": "Casting Inquisition instantly removes all stacks of Desperation and restores 60 Mana per stack removed.",
+        "description": "Casting Inquisition instantly removes all stacks of Desperation and restores 75 Mana per stack removed.",
         "icon": "storm_ui_icon_whitemane_inquisition.png",
         "sort": 2,
         "abilityId": "Whitemane|W1"
@@ -115,7 +116,7 @@
         "tooltipId": "WhitemaneSearingLashIndulgence",
         "talentTreeId": "WhitemaneSearingLashIndulgence",
         "name": "Indulgence",
-        "description": "Searing Lash's first strike restores 10 Mana per Hero hit, and its second strike restores 30 Mana per Hero hit.",
+        "description": "Searing Lash's first strike restores 10 Mana per Hero hit, and its second strike restores 25 Mana per Hero hit.",
         "icon": "storm_ui_icon_whitemane_lash.png",
         "sort": 3,
         "abilityId": "Whitemane|E1"
@@ -208,7 +209,7 @@
         "tooltipId": "WhitemaneDesperatePleaRadiance",
         "talentTreeId": "WhitemaneDesperatePleaRadiance",
         "name": "Radiance",
-        "description": "Upon reaching 3 stacks of Desperation, all allies with Zeal are healed for 200 (+4% per level).",
+        "description": "Upon reaching 3 stacks of Desperation, all allies with Zeal are healed for 175 (+4% per level).",
         "icon": "storm_ui_icon_whitemane_desperation.png",
         "sort": 1,
         "abilityId": "Whitemane|Q1"
@@ -246,7 +247,7 @@
         "tooltipId": "WhitemaneDivineReckoningJudgmentDay",
         "talentTreeId": "WhitemaneDivineReckoningJudgmentDay",
         "name": "Judgment Day",
-        "description": "Divine Reckoning deals 50% more damage and pulls enemies to its center the first time it hits them.",
+        "description": "Divine Reckoning deals 30% more damage and pulls enemies to its center the first time it hits them.",
         "icon": "storm_ui_icon_whitemane_reckoning.png",
         "sort": 2,
         "abilityId": "Whitemane|R2"

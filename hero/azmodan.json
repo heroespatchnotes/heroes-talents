@@ -65,7 +65,7 @@
         "tooltipId": "AzmodanGreed",
         "talentTreeId": "AzmodanGreed",
         "name": "Greed",
-        "description": "Increase the time Minions will grant Annihilation from 1.5 to 3 seconds.  Quest: After gaining 200 Annihilation, Globe of Annihilation's range is increased by 33% and it deals 20% more damage to Minions and Mercenaries.",
+        "description": "Increase the time Minions will grant Annihilation from 1.5 to 3 seconds.  Quest: After gaining 200 Annihilation, Globe of Annihilation's range is increased by 33% and it deals 20% more damage to non-Heroic targets.",
         "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
         "sort": 1,
         "abilityId": "Azmodan|Q1"
@@ -83,7 +83,7 @@
         "tooltipId": "AzmodanWrath",
         "talentTreeId": "AzmodanWrath",
         "name": "Wrath",
-        "description": "Basic Attacks against Heroes under 75% Health grant 1 Annihilation.  Quest: After gaining 200 Annihilation, hitting a Hero with Globe of Annihilation increases the damage of Azmodan's next Basic Attack against them within 3 seconds by the amount of Annihilation he has.",
+        "description": "Basic Attacks against Heroes under 75% Health grant 1 Annihilation.  Quest: After gaining 200 Annihilation, hitting a Hero with Globe of Annihilation increases the damage of Azmodan's next Basic Attack against them within 3 seconds by 75% the amount of Annihilation he has.",
         "icon": "storm_ui_icon_azmodan_globeofannihilation_b.png",
         "sort": 3,
         "abilityId": "Azmodan|Q1"
@@ -103,7 +103,7 @@
         "tooltipId": "AzmodanSummonDemonWarriorHellforgedArmorTalent",
         "talentTreeId": "AzmodanHellforgedArmor",
         "name": "Hellforged Armor",
-        "description": "Demon Warriors and Lieutenants gain 30 Armor and last 4 seconds longer.",
+        "description": "Demon Warriors and Lieutenants gain 25 Armor and last 4 seconds longer.",
         "icon": "storm_ui_icon_azmodan_summondemonwarrior_a.png",
         "sort": 2,
         "abilityId": "Azmodan|W1"
@@ -203,7 +203,7 @@
         "tooltipId": "AzmodanTotalAnnihilation",
         "talentTreeId": "AzmodanTotalAnnihilation",
         "name": "Total Annihilation",
-        "description": "Globe of Annihilation damages Heroes for an additional 5% of their maximum Health.",
+        "description": "Globe of Annihilation damages Heroes for an additional 4% of their maximum Health.",
         "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
         "sort": 1,
         "abilityId": "Azmodan|Q1"
@@ -212,7 +212,7 @@
         "tooltipId": "AzmodanHellRift",
         "talentTreeId": "AzmodanHellRift",
         "name": "Hell Rift",
-        "description": "If All Shall Burn Channels for its full duration, a Demon Warrior is summoned at the target's location and all Demon Warriors deal 100% increased damage for 6 seconds.",
+        "description": "If All Shall Burn Channels for its full duration, a Demon Warrior is summoned at the target's location and all Demon Warriors deal 100% increased damage for 5 seconds.",
         "icon": "storm_ui_icon_azmodan_allshallburn.png",
         "sort": 2,
         "abilityId": "Azmodan|E1"
