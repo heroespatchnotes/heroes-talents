@@ -11,23 +11,23 @@
     "Tyrande": [
       {
         "name": "Light of Elune",
-        "description": "Heal target ally for 270 (+4% per level) Health. Basic Attacks reduce the cooldown of this Ability by 2 seconds.",
+        "description": "Heal target allied Hero for 275 (+4% per level) Health.   Stores up to 2 charges. Light of Elune's cooldown replenishes all charges at the same time.  Passive: Basic Attacks lower the cooldown of this Ability by 1.5 seconds. Passive: Damaging Heroes with Abilities lowers the cooldown of this Ability by 1.5 seconds.",
         "hotkey": "Q",
         "abilityId": "Tyrande|Q1",
-        "cooldown": 11,
-        "manaCost": "30"
+        "cooldown": 15,
+        "manaCost": "10"
       },
       {
         "name": "Sentinel",
-        "description": "Send an Owl that travels across the battleground revealing its path. Deals 165 (+4% per level) damage to the first enemy Hero hit and reveals them for 5 seconds.  Repeatable Quest:  Every 8 Heroes hit by Sentinel decrease its Mana cost by 10 and cause it to pierce an additional target.",
+        "description": "Send an Owl across the battleground revealing its path, dealing 120 (+4% per level) damage to the first Hero hit, and revealing them for 5 seconds.",
         "hotkey": "W",
         "abilityId": "Tyrande|W1",
-        "cooldown": 18,
-        "manaCost": "70"
+        "cooldown": 15,
+        "manaCost": "50"
       },
       {
         "name": "Lunar Flare",
-        "description": "After 0.75 seconds, deal 195 (+4% per level) damage and Stun enemies in the target area for 0.75 seconds.",
+        "description": "After 0.75 seconds, deal 150 (+4% per level) damage and Stun enemies in the target area for 0.75 seconds.",
         "hotkey": "E",
         "abilityId": "Tyrande|E1",
         "cooldown": 12,
@@ -35,15 +35,15 @@
       },
       {
         "name": "Shadowstalk",
-        "description": "Stealth and gain 30% Movement Speed. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.  When Shadowstalk's Stealth is broken, gain 50% Attack Speed and retain its Movement Speed bonus for 5 seconds.",
+        "description": "Grant all allied Heroes Stealth for 10 seconds and heal them for 400 (+4% per level) Health over 10 seconds. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.",
         "hotkey": "R",
         "abilityId": "Tyrande|R1",
-        "cooldown": 20,
-        "manaCost": "40"
+        "cooldown": 80,
+        "manaCost": "75"
       },
       {
         "name": "Starfall",
-        "description": "Deal 88 (+4% per level) damage per second and slow enemies by 20% in an area. Lasts 6 seconds.",
+        "description": "Deal 88 (+4% per level) damage per second and Slow enemies by 20% in an area. Lasts 6 seconds.",
         "hotkey": "R",
         "abilityId": "Tyrande|R2",
         "cooldown": 80,
@@ -51,7 +51,7 @@
       },
       {
         "name": "Hunter's Mark",
-        "description": "Reveal a target enemy and lower their Armor by 25 for 4 seconds, increasing all damage taken by 25%.  Cannot be used on Structures.",
+        "description": "Reveal a non-Structure enemy and reduce their Armor by 15 for 4 seconds.",
         "hotkey": "D",
         "trait": true,
         "abilityId": "Tyrande|D1",
@@ -62,39 +62,10 @@
   "talents": {
     "1": [
       {
-        "tooltipId": "TyrandeSentinelRangerTalent",
-        "talentTreeId": "TyrandeRanger",
-        "name": "Ranger",
-        "description": "Sentinel's width is increased by 25% and deals more damage based on the distance traveled, up to 75%.  Repeatable Quest: Hitting enemy Heroes with Sentinel increases the maximum damage bonus by 3%.",
-        "icon": "storm_ui_icon_tyrande_sentinel.png",
-        "sort": 1,
-        "abilityId": "Tyrande|W1"
-      },
-      {
-        "tooltipId": "TyrandeLunarFlareLunarBlazeTalent",
-        "talentTreeId": "TyrandeMasteryLunarBlaze",
-        "name": "Lunar Blaze",
-        "description": "Repeatable Quest: Hitting Heroes with Lunar Flare increases its damage by 3%.  Reward: After hitting 10 Heroes, Lunar Flare no longer has a Mana cost.  Reward: After hitting 20 Heroes, increase the range of Lunar Flare by 40%.",
-        "icon": "storm_ui_icon_tyrande_lunarflare.png",
-        "sort": 2,
-        "abilityId": "Tyrande|E1"
-      },
-      {
-        "tooltipId": "TyrandeHuntersMarkRangersMarkTalent",
-        "talentTreeId": "TyrandeRangersMark",
-        "name": "Ranger's Mark",
-        "description": "Basic Attacks reduce the cooldown of Hunter's Mark by 1 second.  Repeatable Quest: Every 50 Basic Attacks against enemy Heroes increase the duration of Hunter's Mark by 1 second.",
-        "icon": "storm_ui_icon_tyrande_huntersmark.png",
-        "sort": 3,
-        "abilityId": "Tyrande|D1"
-      }
-    ],
-    "4": [
-      {
         "tooltipId": "TyrandeMoonlitArrows",
         "talentTreeId": "TyrandeMoonlitArrows",
         "name": "Moonlit Arrows",
-        "description": "Basic Attacks decrease the cooldown of Light of Elune by an additional 0.75 seconds.",
+        "description": "Basic Attacks decrease the cooldown of Light of Elune by an additional 0.25 seconds.",
         "icon": "storm_ui_icon_tyrande_lightofelune.png",
         "sort": 1,
         "abilityId": "Tyrande|Q1"
@@ -103,7 +74,7 @@
         "tooltipId": "TyrandeLightOfEluneCelestialAttunementTalent",
         "talentTreeId": "TyrandeCelestialAttunement",
         "name": "Celestial Attunement",
-        "description": "Light of Elune removes Stuns and Silences from its target. When a Stun or Silence is removed this way, Light of Elune may be used for free within 4 seconds. This free cast cannot benefit from Celestial Attunement.",
+        "description": "Light of Elune removes Stuns, Silences, and Slows from its target.",
         "icon": "storm_ui_icon_tyrande_lightofelune_b.png",
         "sort": 2,
         "abilityId": "Tyrande|Q1"
@@ -112,99 +83,49 @@
         "tooltipId": "TyrandeKaldoreiResistance",
         "talentTreeId": "TyrandeKaldoreiResistance",
         "name": "Kaldorei Resistance",
-        "description": "Light of Elune grants the target 15 Spell Armor for 6 seconds. This effect stacks up to 3 times.",
+        "description": "Light of Elune grants the target 15 Spell Armor for 3 seconds. This effect stacks up to 2 times.",
         "icon": "storm_ui_icon_tyrande_lightofelune_a.png",
         "sort": 3,
         "abilityId": "Tyrande|Q1"
       }
     ],
-    "7": [
+    "4": [
       {
-        "tooltipId": "TyrandeHuntersMarkHuntressFuryTalent",
-        "talentTreeId": "TyrandeHuntressFury",
-        "name": "Huntress' Fury",
-        "description": "Increase the cast range of Hunter's Mark by 50%. Tyrande's Basic Attacks against targets with Hunter's Mark splash to nearby Heroes and Mercenaries.",
-        "icon": "storm_ui_icon_tyrande_huntersmark.png",
+        "tooltipId": "TyrandeSentinelRangerTalent",
+        "talentTreeId": "TyrandeRanger",
+        "name": "Ranger",
+        "description": "Activate to make the next Sentinel pierce through all Heroes hit.  Passive: Sentinel's width is increased by 25% and deals up to 150% more damage based on distance traveled.",
+        "icon": "storm_ui_icon_tyrande_sentinel.png",
         "sort": 1,
-        "abilityId": "Tyrande|D1"
+        "abilityId": "Tyrande|W1",
+        "cooldown": 30
       },
       {
-        "tooltipId": "TyrandeDarnassianArchery",
-        "talentTreeId": "TyrandeDarnassianArchery",
-        "name": "Darnassian Archery",
-        "description": "Basic Attacks against enemy Heroes grant a stacking 5% increased Attack Damage bonus for 4 seconds. This bonus is lost when Basic Attacking non-Heroes.",
-        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "tooltipId": "TyrandeLunarFlareLunarBlazeTalent",
+        "talentTreeId": "TyrandeMasteryLunarBlaze",
+        "name": "Lunar Blaze",
+        "description": "Increase Lunar Flare's range by 50%.  Quest: Hitting a Hero with Lunar Flare increases its damage by 5%, up to 100%.",
+        "icon": "storm_ui_icon_tyrande_lunarflare.png",
         "sort": 2,
-        "abilityId": "Tyrande|Passive"
+        "abilityId": "Tyrande|E1"
       },
       {
         "tooltipId": "TyrandeHuntersMarkTrueshotAuraTalent",
         "talentTreeId": "TyrandeTrueshotAura",
         "name": "Trueshot Aura",
-        "description": "Passively grant 10% increased Attack Damage to nearby allied Heroes. Activate to double this bonus for 5 seconds.",
+        "description": "Activate to reset the cooldown of Hunter's Mark and grant 20% increased Basic Attack damage to nearby allied Heroes for 5 seconds.  Passive: Basic Attack damage increased by 20%.",
         "icon": "storm_ui_icon_tyrande_trueshotaura.png",
         "sort": 3,
         "abilityId": "Tyrande|Active",
         "cooldown": 60
       }
     ],
-    "10": [
+    "7": [
       {
-        "tooltipId": "TyrandeShadowstalk",
-        "talentTreeId": "TyrandeHeroicAbilityShadowstalk",
-        "name": "Shadowstalk",
-        "description": "Stealth and gain 30% Movement Speed. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.  When Shadowstalk's Stealth is broken, gain 50% Attack Speed and retain its Movement Speed bonus for 5 seconds.",
-        "icon": "storm_ui_icon_tyrande_shadowstalk.png",
-        "sort": 1,
-        "abilityId": "Tyrande|R1",
-        "cooldown": 20
-      },
-      {
-        "tooltipId": "TyrandeStarfall",
-        "talentTreeId": "TyrandeHeroicAbilityStarfall",
-        "name": "Starfall",
-        "description": "Deal 88 (+4% per level) damage per second and slow enemies by 20% in an area. Lasts 6 seconds.",
-        "icon": "storm_ui_icon_tyrande_starfall.png",
-        "sort": 2,
-        "abilityId": "Tyrande|R2",
-        "cooldown": 80
-      }
-    ],
-    "13": [
-      {
-        "tooltipId": "TyrandeLightOfEluneQuickeningBlessingTalent",
-        "talentTreeId": "TyrandeMasteryLightofEluneQuickeningBlessing",
-        "name": "Quickening Blessing",
-        "description": "Light of Elune increases the target's Movement Speed by 30% for 3 seconds.",
-        "icon": "storm_ui_icon_tyrande_lightofelune.png",
-        "sort": 1,
-        "abilityId": "Tyrande|Q1"
-      },
-      {
-        "tooltipId": "TyrandeSentinelEmpowerTalent",
-        "talentTreeId": "TyrandeEmpower",
-        "name": "Empower",
-        "description": "Reduce Sentinel's cooldown by 2 seconds. Every time it hits a Hero, reduce its cooldown by an additional 4 seconds.",
-        "icon": "storm_ui_icon_tyrande_sentinel.png",
-        "sort": 2,
-        "abilityId": "Tyrande|W1"
-      },
-      {
-        "tooltipId": "TyrandeHarshMoonlight",
-        "talentTreeId": "TyrandeHarshMoonlight",
-        "name": "Harsh Moonlight",
-        "description": "Sentinel Slows the target by 25% and reduces their damage dealt by 25% for 4 seconds.",
-        "icon": "storm_ui_icon_tyrande_sentinel_a.png",
-        "sort": 3,
-        "abilityId": "Tyrande|W1"
-      }
-    ],
-    "16": [
-      {
-        "tooltipId": "TyrandeLightOfEluneOverflowingLightTalent",
-        "talentTreeId": "TyrandeOverflowingLight",
-        "name": "Overflowing Light",
-        "description": "While Tyrande is above 60% Health, Light of Elune's healing is increased by 30%.",
+        "tooltipId": "TyrandeLightOfEluneEverlastingLight",
+        "talentTreeId": "TyrandeLightOfEluneEverlastingLight",
+        "name": "Everlasting Light",
+        "description": "If Light of Elune's second charge is cast on a different target from the first, it heals for 40% more.",
         "icon": "storm_ui_icon_tyrande_lightofelune.png",
         "sort": 1,
         "abilityId": "Tyrande|Q1"
@@ -222,11 +143,91 @@
         "tooltipId": "TyrandeElunesChosen",
         "talentTreeId": "TyrandeElunesChosen",
         "name": "Elune's Chosen",
-        "description": "Activate to make Tyrande's Basic Attacks heal the target ally for 200% of the damage dealt. Lasts for 5 seconds.",
+        "description": "Activate to make Tyrande's Basic Attacks heal the target ally for 200% of the damage dealt. Lasts for 10 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_heal.png",
         "sort": 3,
         "abilityId": "Tyrande|Active",
         "cooldown": 30
+      }
+    ],
+    "10": [
+      {
+        "tooltipId": "TyrandeShadowstalk",
+        "talentTreeId": "TyrandeHeroicAbilityShadowstalk",
+        "name": "Shadowstalk",
+        "description": "Grant all allied Heroes Stealth for 10 seconds and heal them for 400 (+4% per level) Health over 10 seconds. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.",
+        "icon": "storm_ui_icon_tyrande_shadowstalk.png",
+        "sort": 1,
+        "abilityId": "Tyrande|R1",
+        "cooldown": 80
+      },
+      {
+        "tooltipId": "TyrandeStarfall",
+        "talentTreeId": "TyrandeHeroicAbilityStarfall",
+        "name": "Starfall",
+        "description": "Deal 88 (+4% per level) damage per second and Slow enemies by 20% in an area. Lasts 6 seconds.",
+        "icon": "storm_ui_icon_tyrande_starfall.png",
+        "sort": 2,
+        "abilityId": "Tyrande|R2",
+        "cooldown": 80
+      }
+    ],
+    "13": [
+      {
+        "tooltipId": "TyrandeLightOfEluneQuickeningBlessingTalent",
+        "talentTreeId": "TyrandeMasteryLightofEluneQuickeningBlessing",
+        "name": "Quickening Blessing",
+        "description": "Gain 10% Movement Speed. Light of Elune increases the target's Movement Speed by 20% for 3 seconds.",
+        "icon": "storm_ui_icon_tyrande_lightofelune.png",
+        "sort": 1,
+        "abilityId": "Tyrande|Q1"
+      },
+      {
+        "tooltipId": "TyrandeHarshMoonlight",
+        "talentTreeId": "TyrandeHarshMoonlight",
+        "name": "Harsh Moonlight",
+        "description": "Sentinel Slows the first target hit by 40% and reduces their damage dealt by 40% for 4 seconds.",
+        "icon": "storm_ui_icon_tyrande_sentinel.png",
+        "sort": 2,
+        "abilityId": "Tyrande|W1"
+      },
+      {
+        "tooltipId": "TyrandeHuntersMarkRangersMarkTalent",
+        "talentTreeId": "TyrandeRangersMark",
+        "name": "Ranger's Mark",
+        "description": "Basic Attacks reduce the cooldown of Hunter's Mark by 1 second. Basic Attacks against marked targets increase the duration of Hunter's Mark by 0.5 seconds.",
+        "icon": "storm_ui_icon_tyrande_huntersmark.png",
+        "sort": 3,
+        "abilityId": "Tyrande|D1"
+      }
+    ],
+    "16": [
+      {
+        "tooltipId": "TyrandeSentinelEmpowerTalent",
+        "talentTreeId": "TyrandeEmpower",
+        "name": "Empower",
+        "description": "Reduce Sentinel's cooldown by 3 seconds. The first Hero hit by Sentinel takes bonus damage equal to 7% of their maximum Health.",
+        "icon": "storm_ui_icon_tyrande_sentinel.png",
+        "sort": 1,
+        "abilityId": "Tyrande|W1"
+      },
+      {
+        "tooltipId": "TyrandeHuntersMarkHuntressFuryTalent",
+        "talentTreeId": "TyrandeHuntressFury",
+        "name": "Huntress' Fury",
+        "description": "Increase the cast range and duration of Hunter's Mark by 25%. Tyrande's Basic Attacks against targets with Hunter's Mark splash to nearby enemies.",
+        "icon": "storm_ui_icon_tyrande_huntersmark.png",
+        "sort": 2,
+        "abilityId": "Tyrande|D1"
+      },
+      {
+        "tooltipId": "TyrandeDarnassianArchery",
+        "talentTreeId": "TyrandeDarnassianArchery",
+        "name": "Darnassian Archery",
+        "description": "Basic Attacks against enemy Heroes grant a stacking 10% increased Attack Damage bonus for 8 seconds. This bonus is lost when Basic Attacking non-Heroes.",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "sort": 3,
+        "abilityId": "Tyrande|Passive"
       }
     ],
     "20": [
@@ -234,7 +235,7 @@
         "tooltipId": "TyrandeEyesOfTheHuntress",
         "talentTreeId": "TyrandeEyesOfTheHuntress",
         "name": "Eyes of the Huntress",
-        "description": "After casting Shadowstalk, reveal all enemy Heroes for 3 seconds.",
+        "description": "Shadowstalk reveals all enemy Heroes for 2 seconds and heals allies below 50% Health for 50% more.",
         "icon": "storm_ui_icon_tyrande_shadowstalk.png",
         "sort": 1,
         "abilityId": "Tyrande|R1"
@@ -252,10 +253,10 @@
         "tooltipId": "TyrandeShootingStar",
         "talentTreeId": "TyrandeShootingStar",
         "name": "Shooting Star",
-        "description": "Increase Basic Attack range by 1.1. Every 10th Basic Attack against Heroes casts a free Lunar Flare at a random Hero near Tyrande's position.",
+        "description": "Increase Basic Attack range by 1. Every 8th Basic Attack casts a free Lunar Flare at a random enemy near Tyrande's position. This prefers Heroic targets.",
         "icon": "storm_ui_icon_talent_autoattack_speed.png",
         "sort": 3,
-        "abilityId": "Tyrande|E1"
+        "abilityId": "Tyrande|Passive"
       },
       {
         "tooltipId": "TyrandeIcebladeArrows",
