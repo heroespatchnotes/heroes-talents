@@ -1,0 +1,278 @@
+{
+  "id": "82",
+  "shortName": "mephisto",
+  "attributeId": "MEPH",
+  "name": "Mephisto",
+  "icon": "mephisto.png",
+  "role": "Assassin",
+  "type": "Ranged",
+  "releaseDate": "2018-09-04",
+  "abilities": {
+    "Mephisto": [
+      {
+        "name": "Skull Missile",
+        "description": "Conjure a skull that travels in the target direction after 0.75 seconds, dealing 127 (+4% per level) damage to enemies hit and Slowing Heroes hit by 25% for 2 seconds.",
+        "hotkey": "Q",
+        "abilityId": "Mephisto|Q1",
+        "cooldown": 8,
+        "manaCost": "20"
+      },
+      {
+        "name": "Lightning Nova",
+        "description": "A ring of lightning appears around Mephisto for 2.5 seconds. Enemies within the ring take 48 (+4% per level) damage every 0.25 seconds.  Each time a cast of Lightning Nova hits a Hero, its damage is increased by 4%, up to 40%.",
+        "hotkey": "W",
+        "abilityId": "Mephisto|W1",
+        "cooldown": 14,
+        "manaCost": "55"
+      },
+      {
+        "name": "Shade of Mephisto",
+        "description": "Teleport to a location, dealing 78 (+4% per level) damage to nearby enemies and leaving behind a Shade of Mephisto at Mephisto's original location.   After 2.5 seconds, Mephisto is teleported back to the Shade's location.",
+        "hotkey": "E",
+        "abilityId": "Mephisto|E1",
+        "cooldown": 18,
+        "manaCost": "40"
+      },
+      {
+        "name": "Consume Souls",
+        "description": "Channel for 2.5 seconds, revealing all enemy Heroes. After the Channel completes, all enemy Heroes take 357 (+4% per level) damage and are Slowed by 40% for 2.5 seconds.",
+        "hotkey": "R",
+        "abilityId": "Mephisto|R1",
+        "cooldown": 120,
+        "manaCost": "80"
+      },
+      {
+        "name": "Durance of Hate",
+        "description": "After 1 second, unleash a wave of evil spirits that Root the first enemy Hero hit for 2 seconds and deal 160 (+4% per level) damage to them over the same duration.  Durance of Hate spreads outwards from its initial target, Rooting and damaging additional nearby enemy Heroes.",
+        "hotkey": "R",
+        "abilityId": "Mephisto|R2",
+        "cooldown": 80,
+        "manaCost": "60"
+      },
+      {
+        "name": "Lord Of Hatred",
+        "description": "Hitting enemy Heroes with Basic Abilities reduces Mephisto's Basic Ability cooldowns.  Skull Missile and Shade of Mephisto grant 1.5 seconds of cooldown reduction per Hero hit, and Lightning Nova grants 0.3 seconds per Hero hit.",
+        "trait": true,
+        "abilityId": "Mephisto|D1"
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "tooltipId": "MephistoSkullMissileUnyieldingPower",
+        "talentTreeId": "MephistoSkullMissileUnyieldingPower",
+        "name": "Unyielding Power",
+        "description": "Quest: Hit Heroes with Skull Missile.  Reward: After hitting 20 Heroes, increase Skull Missile's damage by 60.  Reward: After hitting 40 Heroes, Skull Missile's cooldown is permanently reduced to 5 seconds.",
+        "icon": "storm_ui_icon_mephisto_skull.png",
+        "sort": 1,
+        "abilityId": "Mephisto|Q1"
+      },
+      {
+        "tooltipId": "MephistoLightningNovaFuriousSpark",
+        "talentTreeId": "MephistoLightningNovaFuriousSpark",
+        "name": "Furious Spark",
+        "description": "Every 5th hit from Lightning Nova against the same target deals 90 (+4% per level) bonus damage.",
+        "icon": "storm_ui_icon_mephisto_lightning.png",
+        "sort": 2,
+        "abilityId": "Mephisto|W1"
+      },
+      {
+        "tooltipId": "MephistoShadeOfMephistoMaliciousIntent",
+        "talentTreeId": "MephistoShadeOfMephistoMaliciousIntent",
+        "name": "Malicious Intent",
+        "description": "Shade of Mephisto grants 20% Spell Power while active and for 2.5 seconds after ending.",
+        "icon": "storm_ui_icon_mephisto_shade.png",
+        "sort": 3,
+        "abilityId": "Mephisto|E1"
+      },
+      {
+        "tooltipId": "MephistoLordOfHatredAnger",
+        "talentTreeId": "MephistoLordOfHatredAnger",
+        "name": "Anger",
+        "description": "Basic Attacks against enemy Heroes also activate Lord of Hatred, reducing Basic Ability cooldowns by 0.75 seconds.",
+        "icon": "storm_ui_icon_mephisto_hatred.png",
+        "sort": 4,
+        "abilityId": "Mephisto|Passive"
+      }
+    ],
+    "4": [
+      {
+        "tooltipId": "MephistoSkullMissileHatefulMending",
+        "talentTreeId": "MephistoSkullMissileHatefulMending",
+        "name": "Hateful Mending",
+        "description": "Skull Missile heals Mephisto for 50% of the damage it deals to Heroes.",
+        "icon": "storm_ui_icon_mephisto_skull.png",
+        "sort": 1,
+        "abilityId": "Mephisto|Q1"
+      },
+      {
+        "tooltipId": "MephistoLightningNovaStaticBarrier",
+        "talentTreeId": "MephistoLightningNovaStaticBarrier",
+        "name": "Static Barrier",
+        "description": "At the end of its duration, Lightning Nova grants Mephisto a Shield equal to 50% of the damage it dealt to Heroes. Lasts 7 seconds.",
+        "icon": "storm_ui_icon_mephisto_lightning.png",
+        "sort": 2,
+        "abilityId": "Mephisto|W1"
+      },
+      {
+        "tooltipId": "MephistoSpite",
+        "talentTreeId": "MephistoSpite",
+        "name": "Spite",
+        "description": "Increase Regeneration Globe healing duration by 460%. Every tick of Regeneration Globe healing activates Lord of Hatred, reducing Basic Ability cooldowns by 0.5 seconds.",
+        "icon": "storm_ui_icon_mephisto_hatred.png",
+        "sort": 3,
+        "abilityId": "Mephisto|Passive"
+      }
+    ],
+    "7": [
+      {
+        "tooltipId": "MephistoShadeOfMephistoGhastlyArmor",
+        "talentTreeId": "MephistoShadeOfMephistoGhastlyArmor",
+        "name": "Ghastly Armor",
+        "description": "Shade of Mephisto grants 20 Armor while active and for 2.5 seconds after it ends.",
+        "icon": "storm_ui_icon_mephisto_shade.png",
+        "sort": 1,
+        "abilityId": "Mephisto|E1"
+      },
+      {
+        "tooltipId": "MephistoShadeOfMephistoFrostStorm",
+        "talentTreeId": "MephistoShadeOfMephistoFrostStorm",
+        "name": "Frost Storm",
+        "description": "Enemies near Shade of Mephisto are Slowed by 50% for 2 seconds. Hitting enemies with Skull Missile while Shade of Mephisto is active increases its Slow to 50%.",
+        "icon": "storm_ui_icon_mephisto_shade_b.png",
+        "sort": 2,
+        "abilityId": "Mephisto|E1"
+      },
+      {
+        "tooltipId": "MephistoShadeOfMephistoTrickery",
+        "talentTreeId": "MephistoShadeOfMephistoTrickery",
+        "name": "Trickery",
+        "description": "Shade of Mephisto grants 20% Movement Speed while active and for 2.5 seconds after it ends. After Shade of Mephisto expires, all Slows and Roots are removed from Mephisto.",
+        "icon": "storm_ui_icon_mephisto_shade_c.png",
+        "sort": 3,
+        "abilityId": "Mephisto|E1"
+      }
+    ],
+    "10": [
+      {
+        "tooltipId": "MephistoConsumeSouls",
+        "talentTreeId": "MephistoConsumeSouls",
+        "name": "Consume Souls",
+        "description": "Channel for 2.5 seconds, revealing all enemy Heroes. After the Channel completes, all enemy Heroes take 357 (+4% per level) damage and are Slowed by 40% for 2.5 seconds.",
+        "icon": "storm_ui_icon_mephisto_souls.png",
+        "sort": 1,
+        "abilityId": "Mephisto|R1",
+        "cooldown": 120
+      },
+      {
+        "tooltipId": "MephistoDuranceOfHate",
+        "talentTreeId": "MephistoDuranceOfHate",
+        "name": "Durance of Hate",
+        "description": "After 1 second, unleash a wave of evil spirits that Root the first enemy Hero hit for 2 seconds and deal 160 (+4% per level) damage to them over the same duration.  Durance of Hate spreads outwards from its initial target, Rooting and damaging additional nearby enemy Heroes.",
+        "icon": "storm_ui_icon_mephisto_durance.png",
+        "sort": 2,
+        "abilityId": "Mephisto|R2",
+        "cooldown": 80
+      }
+    ],
+    "13": [
+      {
+        "tooltipId": "MephistoSkullMissileAbhorredSkull",
+        "talentTreeId": "MephistoSkullMissileAbhorredSkull",
+        "name": "Abhorred Skull",
+        "description": "Hitting a Hero with Skull Missile grants 20% Spell Power for 6 seconds.",
+        "icon": "storm_ui_icon_mephisto_skull.png",
+        "sort": 1,
+        "abilityId": "Mephisto|Q1"
+      },
+      {
+        "tooltipId": "MephistoLordofHatredHysteria",
+        "talentTreeId": "MephistoLordOfHatredHysteria",
+        "name": "Hysteria",
+        "description": "Lord of Hatred also reduces the cooldown of Mephisto's Heroic Ability.",
+        "icon": "storm_ui_icon_mephisto_hatred.png",
+        "sort": 2,
+        "abilityId": "Mephisto|D1"
+      },
+      {
+        "tooltipId": "MephistoShardOfHate",
+        "talentTreeId": "MephistoShardOfHate",
+        "name": "Shard of Hate",
+        "description": "Basic Attacks hit enemies near the primary target.",
+        "icon": "storm_ui_icon_mephisto_splash.png",
+        "sort": 3,
+        "abilityId": "Mephisto|Passive"
+      }
+    ],
+    "16": [
+      {
+        "tooltipId": "MephistoSkullMissileLightningReaction",
+        "talentTreeId": "MephistoSkullMissileLightningReaction",
+        "name": "Lightning Reaction",
+        "description": "Skull Missile explodes on contact with Lightning Nova, dealing 144 (+4% per level) damage to nearby enemies.",
+        "icon": "storm_ui_icon_mephisto_skull.png",
+        "sort": 1,
+        "abilityId": "Mephisto|Q1"
+      },
+      {
+        "tooltipId": "MephistoLightningNovaStaticField",
+        "talentTreeId": "MephistoLightningNovaStaticField",
+        "name": "Static Field",
+        "description": "When Lightning Nova's damage bonus reaches 40%, enemy Heroes within its radius take damage equal to 12% of their maximum Health.",
+        "icon": "storm_ui_icon_mephisto_lightning.png",
+        "sort": 2,
+        "abilityId": "Mephisto|W1"
+      },
+      {
+        "tooltipId": "MephistoAnimosity",
+        "talentTreeId": "MephistoAnimosity",
+        "name": "Animosity",
+        "description": "Activate to extend the duration of Lightning Nova by 2.5 seconds.  Passive: Basic Attacks while Lightning Nova is active cause an immediate pulse of Lightning Nova damage.",
+        "icon": "storm_ui_icon_mephisto_lightning_b.png",
+        "sort": 3,
+        "abilityId": "Mephisto|Active",
+        "cooldown": 15
+      }
+    ],
+    "20": [
+      {
+        "tooltipId": "MephistoConsumeSoulsConsumedByHatred",
+        "talentTreeId": "MephistoConsumeSoulsConsumedByHatred",
+        "name": "Consumed by Hatred",
+        "description": "Consume Souls deals bonus damage equal to 10% of the target's missing Health. If Consume Souls initial cast kills a Hero it will cast 1 additional time.",
+        "icon": "storm_ui_icon_mephisto_souls.png",
+        "sort": 1,
+        "abilityId": "Mephisto|R1"
+      },
+      {
+        "tooltipId": "MephistoDuranceOfHateUnspeakableHorror",
+        "talentTreeId": "MephistoDuranceOfHateUnspeakableHorror",
+        "name": "Unspeakable Horror",
+        "description": "Durance of Hate Silences enemies for 3 seconds after its Root expires.",
+        "icon": "storm_ui_icon_mephisto_durance.png",
+        "sort": 2,
+        "abilityId": "Mephisto|R2"
+      },
+      {
+        "tooltipId": "MephistoLightningNovaShadeOfMephistoMimic",
+        "talentTreeId": "MephistoLightningNovaMimic",
+        "name": "Mimic",
+        "description": "While both Shade of Mephisto and Lightning Nova are active, Lightning Nova also casts from the Shade's location.",
+        "icon": "storm_ui_icon_mephisto_lightning.png",
+        "sort": 3,
+        "abilityId": "Mephisto|W1"
+      },
+      {
+        "tooltipId": "MephistoShadeOfMephistoShadeLord",
+        "talentTreeId": "MephistoShadeOfMephistoShadeLord",
+        "name": "Shade Lord",
+        "description": "Activate to swap locations with Shade of Mephisto and refresh its duration.  Passive: Shade of Mephisto benefits from all of Mephisto's level 7 Talents.",
+        "icon": "storm_ui_icon_mephisto_shade.png",
+        "sort": 4,
+        "abilityId": "Mephisto|Active",
+        "cooldown": 60
+      }
+    ]
+  }
+}
