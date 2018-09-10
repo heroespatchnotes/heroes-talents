@@ -283,7 +283,7 @@ Example:
 </a>
 <a class="img-wrap" href="hero/lucio.json">
   <img class="img-rounded" src="images/heroes/lucio.png" />
-  <span>Lucio</span>
+  <span>Lúcio</span>
 </a>
 <a class="img-wrap" href="hero/lunara.json">
   <img class="img-rounded" src="images/heroes/lunara.png" />
