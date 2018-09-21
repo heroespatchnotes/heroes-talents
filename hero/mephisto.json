@@ -19,7 +19,7 @@
       },
       {
         "name": "Lightning Nova",
-        "description": "A ring of lightning appears around Mephisto for 2.5 seconds. Enemies within the ring take 48 (+4% per level) damage every 0.25 seconds.  Each time a cast of Lightning Nova hits a Hero, its damage is increased by 4%, up to 40%.",
+        "description": "A ring of lightning appears around Mephisto for 2.5 seconds. Enemies within the ring take 45 (+4% per level) damage every 0.25 seconds.  Each time a cast of Lightning Nova hits a Hero, its damage is increased by 3%, up to 30%.",
         "hotkey": "W",
         "abilityId": "Mephisto|W1",
         "cooldown": 14,
@@ -35,7 +35,7 @@
       },
       {
         "name": "Consume Souls",
-        "description": "Channel for 2.5 seconds, revealing all enemy Heroes. After the Channel completes, all enemy Heroes take 357 (+4% per level) damage and are Slowed by 40% for 2.5 seconds.",
+        "description": "Channel for 2.5 seconds, revealing all enemy Heroes. After the Channel completes, all enemy Heroes take 357 (+4% per level) damage and are Slowed by 25% for 2.5 seconds.",
         "hotkey": "R",
         "abilityId": "Mephisto|R1",
         "cooldown": 120,
@@ -43,7 +43,7 @@
       },
       {
         "name": "Durance of Hate",
-        "description": "After 1 second, unleash a wave of evil spirits that Root the first enemy Hero hit for 2 seconds and deal 160 (+4% per level) damage to them over the same duration.  Durance of Hate spreads outwards from its initial target, Rooting and damaging additional nearby enemy Heroes.",
+        "description": "After 1 second, unleash a wave of evil spirits that Root the first enemy Hero hit for 2.5 seconds and deal 250 (+4% per level) damage to them over the same duration.  Durance of Hate spreads outwards from its initial target, Rooting and damaging additional nearby enemy Heroes.",
         "hotkey": "R",
         "abilityId": "Mephisto|R2",
         "cooldown": 80,
@@ -63,7 +63,7 @@
         "tooltipId": "MephistoSkullMissileUnyieldingPower",
         "talentTreeId": "MephistoSkullMissileUnyieldingPower",
         "name": "Unyielding Power",
-        "description": "Quest: Hit Heroes with Skull Missile.  Reward: After hitting 20 Heroes, increase Skull Missile's damage by 60.  Reward: After hitting 40 Heroes, Skull Missile's cooldown is permanently reduced to 5 seconds.",
+        "description": "Quest: Hit Heroes with Skull Missile.  Reward: After hitting 20 Heroes, increase Skull Missile's damage by 100.  Reward: After hitting 40 Heroes, Skull Missile's cooldown is permanently reduced to 5 seconds.",
         "icon": "storm_ui_icon_mephisto_skull.png",
         "sort": 1,
         "abilityId": "Mephisto|Q1"
@@ -90,7 +90,7 @@
         "tooltipId": "MephistoLordOfHatredAnger",
         "talentTreeId": "MephistoLordOfHatredAnger",
         "name": "Anger",
-        "description": "Basic Attacks against enemy Heroes also activate Lord of Hatred, reducing Basic Ability cooldowns by 0.75 seconds.",
+        "description": "Basic Attacks against enemy Heroes also activate Lord of Hatred, reducing Basic Ability cooldowns by 1 second.",
         "icon": "storm_ui_icon_mephisto_hatred.png",
         "sort": 4,
         "abilityId": "Mephisto|Passive"
@@ -110,7 +110,7 @@
         "tooltipId": "MephistoLightningNovaStaticBarrier",
         "talentTreeId": "MephistoLightningNovaStaticBarrier",
         "name": "Static Barrier",
-        "description": "At the end of its duration, Lightning Nova grants Mephisto a Shield equal to 50% of the damage it dealt to Heroes. Lasts 7 seconds.",
+        "description": "At the end of its duration, Lightning Nova grants Mephisto a Shield equal to 40% of the damage it dealt to Heroes. Lasts 7 seconds.",
         "icon": "storm_ui_icon_mephisto_lightning.png",
         "sort": 2,
         "abilityId": "Mephisto|W1"
@@ -159,7 +159,7 @@
         "tooltipId": "MephistoConsumeSouls",
         "talentTreeId": "MephistoConsumeSouls",
         "name": "Consume Souls",
-        "description": "Channel for 2.5 seconds, revealing all enemy Heroes. After the Channel completes, all enemy Heroes take 357 (+4% per level) damage and are Slowed by 40% for 2.5 seconds.",
+        "description": "Channel for 2.5 seconds, revealing all enemy Heroes. After the Channel completes, all enemy Heroes take 357 (+4% per level) damage and are Slowed by 25% for 2.5 seconds.",
         "icon": "storm_ui_icon_mephisto_souls.png",
         "sort": 1,
         "abilityId": "Mephisto|R1",
@@ -169,7 +169,7 @@
         "tooltipId": "MephistoDuranceOfHate",
         "talentTreeId": "MephistoDuranceOfHate",
         "name": "Durance of Hate",
-        "description": "After 1 second, unleash a wave of evil spirits that Root the first enemy Hero hit for 2 seconds and deal 160 (+4% per level) damage to them over the same duration.  Durance of Hate spreads outwards from its initial target, Rooting and damaging additional nearby enemy Heroes.",
+        "description": "After 1 second, unleash a wave of evil spirits that Root the first enemy Hero hit for 2.5 seconds and deal 250 (+4% per level) damage to them over the same duration.  Durance of Hate spreads outwards from its initial target, Rooting and damaging additional nearby enemy Heroes.",
         "icon": "storm_ui_icon_mephisto_durance.png",
         "sort": 2,
         "abilityId": "Mephisto|R2",
@@ -210,7 +210,7 @@
         "tooltipId": "MephistoSkullMissileLightningReaction",
         "talentTreeId": "MephistoSkullMissileLightningReaction",
         "name": "Lightning Reaction",
-        "description": "Skull Missile explodes on contact with Lightning Nova, dealing 144 (+4% per level) damage to nearby enemies.",
+        "description": "Skull Missile explodes on contact with Lightning Nova, dealing 138 (+4% per level) damage to nearby enemies.",
         "icon": "storm_ui_icon_mephisto_skull.png",
         "sort": 1,
         "abilityId": "Mephisto|Q1"
@@ -219,7 +219,7 @@
         "tooltipId": "MephistoLightningNovaStaticField",
         "talentTreeId": "MephistoLightningNovaStaticField",
         "name": "Static Field",
-        "description": "When Lightning Nova's damage bonus reaches 40%, enemy Heroes within its radius take damage equal to 12% of their maximum Health.",
+        "description": "When Lightning Nova's damage bonus reaches 30%, enemy Heroes within its radius take damage equal to 10% of their maximum Health.",
         "icon": "storm_ui_icon_mephisto_lightning.png",
         "sort": 2,
         "abilityId": "Mephisto|W1"
@@ -271,7 +271,7 @@
         "icon": "storm_ui_icon_mephisto_shade.png",
         "sort": 4,
         "abilityId": "Mephisto|Active",
-        "cooldown": 60
+        "cooldown": 40
       }
     ]
   }

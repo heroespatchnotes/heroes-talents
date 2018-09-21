@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Blaze|Q1",
         "cooldown": 4,
-        "manaCost": "25"
+        "manaCost": "30"
       },
       {
         "name": "Oil Spill",
@@ -23,27 +23,27 @@
         "hotkey": "W",
         "abilityId": "Blaze|W1",
         "cooldown": 12,
-        "manaCost": "40"
+        "manaCost": "50"
       },
       {
         "name": "Jet Propulsion",
         "description": "After 0.5 seconds, charge forward. Colliding with an enemy Hero deals 52 (+4% per level) damage to all nearby enemy Heroes and Stuns them for 1.25 seconds.",
         "hotkey": "E",
         "abilityId": "Blaze|E1",
-        "cooldown": 12,
+        "cooldown": 10,
         "manaCost": "50"
       },
       {
         "name": "Bunker Drop",
-        "description": "After 0.5 seconds, deploy and enter a Bunker with 1435 (+4% per level) Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 179 (+4% per level) damage to enemies in a line.  Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.",
+        "description": "After 0.5 seconds, deploy and enter a Bunker with 1435 (+4% per level) Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 170 (+4% per level) damage to enemies in a line.  Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.",
         "hotkey": "R",
         "abilityId": "Blaze|R1",
-        "cooldown": 60,
-        "manaCost": "40"
+        "cooldown": 80,
+        "manaCost": "80"
       },
       {
         "name": "Combustion",
-        "description": "Channel for up to 2.6 seconds. Upon ending, Slow nearby enemies by 60% and deal 52 (+4% per level) damage to them every 0.5 seconds. Combustion's Slow and damage over time duration is extended the longer Blaze Channels, from 1 second up to 5 seconds.  Blaze's Movement Speed is reduced by 50% while Channeling.",
+        "description": "Channel for up to 2.6 seconds. Upon ending, Slow nearby enemies by 60% and deal 55 (+4% per level) damage to them every 0.5 seconds. Combustion's Slow and damage over time duration is extended the longer Blaze Channels, from 1 second up to 5 seconds.  Blaze's Movement Speed is reduced by 40% while Channeling.",
         "hotkey": "R",
         "abilityId": "Blaze|R2",
         "cooldown": 80,
@@ -75,7 +75,7 @@
         "tooltipId": "FirebatEnduranceStimpack",
         "talentTreeId": "FirebatEnduranceStimpack",
         "name": "Endurance Stimpack",
-        "description": "Activate to gain a Shield that absorbs 450 (+4% per level) damage over 5 seconds.",
+        "description": "Activate to gain a Shield that absorbs 480 (+4% per level) damage over 5 seconds.",
         "icon": "storm_ui_icon_blaze_stim_1.png",
         "sort": 2,
         "abilityId": "Blaze|Active",
@@ -85,7 +85,7 @@
         "tooltipId": "FirebatNeuralStimpack",
         "talentTreeId": "FirebatNeuralStimpack",
         "name": "Neural Stimpack",
-        "description": "Activate to gain 50 Mana and cause Basic Ability cooldowns to recharge 100% faster for 5 seconds.",
+        "description": "Activate to gain 30 Mana and cause Basic Ability cooldowns to recharge 100% faster for 5 seconds.",
         "icon": "storm_ui_icon_blaze_stim_3.png",
         "sort": 3,
         "abilityId": "Blaze|Active",
@@ -95,7 +95,7 @@
         "tooltipId": "FirebatNewHabits",
         "talentTreeId": "FirebatNewHabits",
         "name": "New Habits",
-        "description": "Collecting Regeneration Globes reduces the cooldown of Pyromania by 5 seconds.  Quest: Collect 15 Regeneration Globes.  Reward: Pyromania grants Unstoppable for 2 seconds.",
+        "description": "Collecting Regeneration Globes reduces the cooldown of Pyromania by 8 seconds.  Quest: Collect 15 Regeneration Globes.  Reward: Pyromania grants Unstoppable for 2 seconds.",
         "icon": "storm_ui_icon_blaze_new_habits.png",
         "sort": 4,
         "abilityId": "Blaze|D1"
@@ -173,17 +173,17 @@
         "tooltipId": "FirebatBunkerDrop",
         "talentTreeId": "FirebatHeroicAbilityBunkerDrop",
         "name": "Bunker Drop",
-        "description": "After 0.5 seconds, deploy and enter a Bunker with 1435 (+4% per level) Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 179 (+4% per level) damage to enemies in a line.  Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.",
+        "description": "After 0.5 seconds, deploy and enter a Bunker with 1435 (+4% per level) Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 170 (+4% per level) damage to enemies in a line.  Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.",
         "icon": "storm_ui_icon_blaze_bunker.png",
         "sort": 1,
         "abilityId": "Blaze|R1",
-        "cooldown": 60
+        "cooldown": 80
       },
       {
         "tooltipId": "FirebatCombustion",
         "talentTreeId": "FirebatHeroicAbilityCombustion",
         "name": "Combustion",
-        "description": "Channel for up to 2.6 seconds. Upon ending, Slow nearby enemies by 60% and deal 52 (+4% per level) damage to them every 0.5 seconds. Combustion's Slow and damage over time duration is extended the longer Blaze Channels, from 1 second up to 5 seconds.  Blaze's Movement Speed is reduced by 50% while Channeling.",
+        "description": "Channel for up to 2.6 seconds. Upon ending, Slow nearby enemies by 60% and deal 55 (+4% per level) damage to them every 0.5 seconds. Combustion's Slow and damage over time duration is extended the longer Blaze Channels, from 1 second up to 5 seconds.  Blaze's Movement Speed is reduced by 40% while Channeling.",
         "icon": "storm_ui_icon_blaze_combustion.png",
         "sort": 2,
         "abilityId": "Blaze|R2",
@@ -204,7 +204,7 @@
         "tooltipId": "FirebatOilSpillNanomachineCoating",
         "talentTreeId": "FirebatOilSpillNanomachineCoating",
         "name": "Nanomachine Coating",
-        "description": "Enemies standing in Oil Spills and Ignited Oil Spills have their Attack Speed reduced by 40% for 2.5 seconds.",
+        "description": "Enemies standing in Oil Spills and Ignited Oil Spills have their Attack Speed reduced by 50% for 2.5 seconds.",
         "icon": "storm_ui_icon_blaze_oil.png",
         "sort": 2,
         "abilityId": "Blaze|W1"
@@ -224,7 +224,7 @@
         "tooltipId": "FirebatJetPropulsionThermalProtection",
         "talentTreeId": "FirebatJetPropulsionThermalProtection",
         "name": "Thermal Protection",
-        "description": "Each enemy hit by Jet Propulsion grants 10 Armor for 3 seconds and reduces its cooldown by 2 seconds.",
+        "description": "Each enemy hit by Jet Propulsion grants 10 Armor for 3 seconds and reduces its cooldown by 1.5 seconds.",
         "icon": "storm_ui_icon_blaze_jet.png",
         "sort": 1,
         "abilityId": "Blaze|E1"

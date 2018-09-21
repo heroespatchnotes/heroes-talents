@@ -11,11 +11,11 @@
     "Tyrande": [
       {
         "name": "Light of Elune",
-        "description": "Heal target allied Hero for 275 (+4% per level) Health.   Stores up to 2 charges. Light of Elune's cooldown replenishes all charges at the same time.  Passive: Basic Attacks lower the cooldown of this Ability by 1.5 seconds. Passive: Damaging Heroes with Abilities lowers the cooldown of this Ability by 1.5 seconds.",
+        "description": "Heal an ally for 265 (+4% per level). Light of Elune's cooldown is reduced by 1.5 seconds every time Tyrande damages an enemy.  Stores up to 2 charges. Cooldown replenishes all charges at the same time.",
         "hotkey": "Q",
         "abilityId": "Tyrande|Q1",
         "cooldown": 15,
-        "manaCost": "10"
+        "manaCost": "15"
       },
       {
         "name": "Sentinel",
@@ -35,7 +35,7 @@
       },
       {
         "name": "Shadowstalk",
-        "description": "Grant all allied Heroes Stealth for 10 seconds and heal them for 400 (+4% per level) Health over 10 seconds. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.",
+        "description": "Grant all allied Heroes Stealth for 10 seconds and heal them for 380 (+4% per level) Health over 10 seconds. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.",
         "hotkey": "R",
         "abilityId": "Tyrande|R1",
         "cooldown": 80,
@@ -65,7 +65,7 @@
         "tooltipId": "TyrandeMoonlitArrows",
         "talentTreeId": "TyrandeMoonlitArrows",
         "name": "Moonlit Arrows",
-        "description": "Basic Attacks decrease the cooldown of Light of Elune by an additional 0.25 seconds.",
+        "description": "Basic Attacks decrease the cooldown of Light of Elune by an additional 0.75 seconds.",
         "icon": "storm_ui_icon_tyrande_lightofelune.png",
         "sort": 1,
         "abilityId": "Tyrande|Q1"
@@ -104,7 +104,7 @@
         "tooltipId": "TyrandeLunarFlareLunarBlazeTalent",
         "talentTreeId": "TyrandeMasteryLunarBlaze",
         "name": "Lunar Blaze",
-        "description": "Increase Lunar Flare's range by 50%.  Quest: Hitting a Hero with Lunar Flare increases its damage by 5%, up to 100%.",
+        "description": "Increase Lunar Flare's range by 40%.  Quest: Hitting a Hero with Lunar Flare increases its damage by 5%, up to 100%.",
         "icon": "storm_ui_icon_tyrande_lunarflare.png",
         "sort": 2,
         "abilityId": "Tyrande|E1"
@@ -113,7 +113,7 @@
         "tooltipId": "TyrandeHuntersMarkTrueshotAuraTalent",
         "talentTreeId": "TyrandeTrueshotAura",
         "name": "Trueshot Aura",
-        "description": "Activate to reset the cooldown of Hunter's Mark and grant 20% increased Basic Attack damage to nearby allied Heroes for 5 seconds.  Passive: Basic Attack damage increased by 20%.",
+        "description": "Activate to reset the cooldown of Hunter's Mark and grant 15% increased Basic Attack damage to nearby allied Heroes for 5 seconds.  Passive: Basic Attack damage increased by 15%.",
         "icon": "storm_ui_icon_tyrande_trueshotaura.png",
         "sort": 3,
         "abilityId": "Tyrande|Active",
@@ -143,7 +143,7 @@
         "tooltipId": "TyrandeElunesChosen",
         "talentTreeId": "TyrandeElunesChosen",
         "name": "Elune's Chosen",
-        "description": "Activate to make Tyrande's Basic Attacks heal the target ally for 200% of the damage dealt. Lasts for 10 seconds.",
+        "description": "Activate to make Tyrande's Basic Attacks heal the target ally for 200% of the damage dealt. Lasts for 8 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_heal.png",
         "sort": 3,
         "abilityId": "Tyrande|Active",
@@ -155,7 +155,7 @@
         "tooltipId": "TyrandeShadowstalk",
         "talentTreeId": "TyrandeHeroicAbilityShadowstalk",
         "name": "Shadowstalk",
-        "description": "Grant all allied Heroes Stealth for 10 seconds and heal them for 400 (+4% per level) Health over 10 seconds. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.",
+        "description": "Grant all allied Heroes Stealth for 10 seconds and heal them for 380 (+4% per level) Health over 10 seconds. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.",
         "icon": "storm_ui_icon_tyrande_shadowstalk.png",
         "sort": 1,
         "abilityId": "Tyrande|R1",
@@ -177,7 +177,7 @@
         "tooltipId": "TyrandeLightOfEluneQuickeningBlessingTalent",
         "talentTreeId": "TyrandeMasteryLightofEluneQuickeningBlessing",
         "name": "Quickening Blessing",
-        "description": "Gain 10% Movement Speed. Light of Elune increases the target's Movement Speed by 20% for 3 seconds.",
+        "description": "Gain 10% Movement Speed. Light of Elune increases the target's Movement Speed by 15% for 3 seconds.",
         "icon": "storm_ui_icon_tyrande_lightofelune.png",
         "sort": 1,
         "abilityId": "Tyrande|Q1"
@@ -224,7 +224,7 @@
         "tooltipId": "TyrandeDarnassianArchery",
         "talentTreeId": "TyrandeDarnassianArchery",
         "name": "Darnassian Archery",
-        "description": "Basic Attacks against enemy Heroes grant a stacking 10% increased Attack Damage bonus for 8 seconds. This bonus is lost when Basic Attacking non-Heroes.",
+        "description": "Basic Attacks against enemy Heroes grant a stacking 10% increased Attack Damage bonus for 6 seconds. This bonus is lost when Basic Attacking non-Heroes.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 3,
         "abilityId": "Tyrande|Passive"
