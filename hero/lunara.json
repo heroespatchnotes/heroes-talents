@@ -15,7 +15,8 @@
         "hotkey": "Q",
         "abilityId": "Lunara|Q1",
         "cooldown": 8,
-        "manaCost": "60"
+        "manaCost": "60",
+        "icon": "storm_ui_icon_lunara_pollencloud.png"
       },
       {
         "name": "Crippling Spores",
@@ -23,14 +24,16 @@
         "hotkey": "W",
         "abilityId": "Lunara|W1",
         "cooldown": 10,
-        "manaCost": "40"
+        "manaCost": "40",
+        "icon": "storm_ui_icon_lunara_fullbloom.png"
       },
       {
         "name": "Wisp",
         "description": "Spawn a Wisp to scout an area. Can be redirected once active. When the Wisp is in a bush for more 2 seconds, its vision radius is increased by 75%.  Lasts 45 seconds.",
         "hotkey": "E",
         "abilityId": "Lunara|E1",
-        "cooldown": 30
+        "cooldown": 30,
+        "icon": "storm_ui_icon_lunara_wisp.png"
       },
       {
         "name": "Thornwood Vine",
@@ -38,7 +41,8 @@
         "hotkey": "R",
         "abilityId": "Lunara|R1",
         "cooldown": 15,
-        "manaCost": "35"
+        "manaCost": "35",
+        "icon": "storm_ui_icon_lunara_wildspear.png"
       },
       {
         "name": "Leaping Strike",
@@ -46,19 +50,22 @@
         "hotkey": "R",
         "abilityId": "Lunara|R2",
         "cooldown": 20,
-        "manaCost": "50"
+        "manaCost": "50",
+        "icon": "storm_ui_icon_lunara_boundlessstride.png"
       },
       {
         "name": "Nature's Toxin",
         "description": "Lunara's Basic Attacks and damaging Abilities poison their target, dealing 30 (+5% per level) damage a second for 3 seconds. Every additional application increases the duration by 3 seconds, up to a maximum of 9 seconds.",
         "trait": true,
-        "abilityId": "Lunara|D1"
+        "abilityId": "Lunara|D1",
+        "icon": "storm_ui_icon_lunara_stiflingblossom.png"
       },
       {
         "name": "Dryad's Swiftness",
         "description": "Lunara moves 20% faster by leaping short distances.",
         "hotkey": "Z",
-        "abilityId": "Lunara|Z1"
+        "abilityId": "Lunara|Z1",
+        "icon": "storm_ui_icon_lunara_mount.png"
       }
     ]
   },
