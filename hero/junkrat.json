@@ -14,41 +14,47 @@
         "description": "Launch a grenade that explodes at the end of its path or upon hitting an enemy, dealing 128 (+4% per level) damage to nearby enemies. Grenades can ricochet off of terrain. Deals 50% less damage to Structures.  Stores up to 4 charges. Frag Launcher's cooldown replenishes all charges at the same time.",
         "hotkey": "Q",
         "abilityId": "Junkrat|Q1",
-        "cooldown": 12
+        "cooldown": 12,
+        "icon": "storm_ui_icon_junkrat_frag_launcher.png"
       },
       {
         "name": "Concussion Mine",
         "description": "Place a mine on the ground. Junkrat's Trait can be activated to detonate the mine, dealing 180 (+4% per level) damage to nearby enemies and knocking them back. Junkrat can also be affected by Concussion Mine, but takes no damage.  Limit 1 active mine.",
         "hotkey": "W",
         "abilityId": "Junkrat|W1",
-        "cooldown": 16
+        "cooldown": 16,
+        "icon": "storm_ui_icon_junkrat_concussion_mine.png"
       },
       {
         "name": "Steel Trap",
         "description": "Place a trap on the ground that arms after 2 seconds. Deals 130 (+4% per level) damage to the first enemy that walks over it and Roots them for 2 seconds.  Limit 1 active trap.",
         "hotkey": "E",
         "abilityId": "Junkrat|E1",
-        "cooldown": 12
+        "cooldown": 12,
+        "icon": "storm_ui_icon_junkrat_steel_trap.png"
       },
       {
         "name": "RIP-Tire",
         "description": "Create a motorized bomb with 530 (+4% per level) Health that lasts 15 seconds. While active, Junkrat is immobile but gains control of RIP-Tire's movement.  RIP-Tire can be reactivated to detonate immediately, knocking nearby enemies back and dealing 475 (+4% per level), 625 (+4% per level), or 775 (+4% per level) damage to enemies depending on how close they are to the center of the blast (with the highest amount near the center).",
         "hotkey": "R",
         "abilityId": "Junkrat|R1",
-        "cooldown": 80
+        "cooldown": 80,
+        "icon": "storm_ui_icon_junkrat_rip_tire.png"
       },
       {
         "name": "Rocket Ride",
         "description": "After 1.25 seconds, Junkrat launches into the air. While in the air, he can steer the landing location by moving.  After 3.75 seconds, Junkrat lands, dealing 750 (+4% per level) damage to nearby enemies and activating Total Mayhem. 5 seconds after landing, Junkrat reappears at the Altar and gains 150% additional Movement Speed until dismounted.",
         "hotkey": "R",
         "abilityId": "Junkrat|R2",
-        "cooldown": 100
+        "cooldown": 100,
+        "icon": "storm_ui_icon_junkrat_rocket_ride.png"
       },
       {
         "name": "Total Mayhem",
         "description": "Upon dying, drop 5 grenades that explode after 0.75 seconds, each dealing 250 (+4% per level) damage to nearby enemies. Deals 75% less damage to Structures.  Detonate Mine  Detonate an active Concussion Mine.",
         "trait": true,
-        "abilityId": "Junkrat|D1"
+        "abilityId": "Junkrat|D1",
+        "icon": "storm_ui_icon_junkrat_bomb_pack.png"
       }
     ]
   },
