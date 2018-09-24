@@ -14,44 +14,50 @@
         "description": "Spawn and attach a Symbiote to a target ally or Structure. While active, Abathur controls the Symbiote, gaining access to new Abilities. The Symbiote is able to gain XP from nearby enemy deaths.",
         "hotkey": "Q",
         "abilityId": "Abathur|Q1",
-        "cooldown": 4
+        "cooldown": 4,
+        "icon": "storm_ui_icon_abathur_symbiote.png"
       },
       {
         "name": "Toxic Nest",
         "description": "Spawn a mine that becomes active after a short time. Deals 153 (+4% per level) damage and reveals the enemy for 4 seconds. Lasts 90 seconds.  Stores up to 3 charges.",
         "hotkey": "W",
         "abilityId": "Abathur|W1",
-        "cooldown": 10
+        "cooldown": 10,
+        "icon": "storm_ui_icon_abathur_toxicnest.png"
       },
       {
         "name": "Evolve Monstrosity",
         "description": "Turn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it gains 5% Health and 5% Basic Attack damage, stacking up to 40 times.  The Monstrosity takes 50% less damage from non-Heroic enemies.  Using Symbiote on the Monstrosity allows Abathur to control it, in addition to Symbiote's normal benefits.  This Ability can be reactivated to automatically cast Symbiote on his Monstrosity.",
         "hotkey": "R",
         "abilityId": "Abathur|R1",
-        "cooldown": 90
+        "cooldown": 90,
+        "icon": "storm_ui_icon_abathur_evolvemonstrosity.png"
       },
       {
         "name": "Ultimate Evolution",
         "description": "Clone target allied Hero and control it for 20 seconds. Abathur has perfected the clone, granting it 20% Spell Power, 20% bonus Attack Damage, and 10% bonus Movement Speed. Cannot use their Heroic Ability.",
         "hotkey": "R",
         "abilityId": "Abathur|R2",
-        "cooldown": 70
+        "cooldown": 70,
+        "icon": "storm_ui_icon_abathur_ultimateevolution.png"
       },
       {
         "name": "Locust Strain",
         "description": "Spawns a Locust to attack down the nearest lane every 15 seconds. Locusts last for 25 seconds, have 316 (+4% per level) health and deal 34 (+4% per level) damage with each Basic Attack.",
         "trait": true,
         "abilityId": "Abathur|D1",
-        "cooldown": 15
+        "cooldown": 15,
+        "icon": "storm_ui_icon_abathur_spawnlocust.png"
       },
       {
         "name": "Deep Tunnel",
         "description": "Quickly tunnel to a visible location",
         "hotkey": "Z",
         "abilityId": "Abathur|Z1",
-        "cooldown": 30
+        "cooldown": 30,
+        "icon": "storm_ui_icon_abathur_mount.png"
       }
-    ], 
+    ],
     "AbathurSymbiote": [
       {
         "name": "Stab",

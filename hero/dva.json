@@ -14,42 +14,48 @@
         "description": "Increase D.Va's Movement Speed by 125% for 2 seconds. Enemies that are hit take 135 (+4% per level) damage and are knocked away.  D.Va cannot be Slowed while Boosters are active, and each enemy can only be hit once per use.",
         "hotkey": "Q",
         "abilityId": "D.Va|Q1",
-        "cooldown": 9
+        "cooldown": 9,
+        "icon": "storm_ui_icon_dva_boosters.png"
       },
       {
         "name": "Defense Matrix",
         "description": "Channel a defensive field in the target direction for 3 seconds, reducing the damage dealt by enemy Heroes inside it by 75%. The Mech can move while channeling, but cannot turn.  Damage dealt to the Mech from enemies within Defense Matrix still grants the same amount of Self-Destruct Charge.",
         "hotkey": "W",
         "abilityId": "D.Va|W1",
-        "cooldown": 10
+        "cooldown": 10,
+        "icon": "storm_ui_icon_dva_defensematrix.png"
       },
       {
         "name": "Self-Destruct",
         "description": "Eject from the Mech, setting it to self-destruct after 4 seconds. Deals 400 (+4% per level) to 1200 (+4% per level) damage in a large area, depending on distance from center. Only deals 50% damage against Structures.  Gain 1% Charge for every 2 seconds spent Basic Attacking, and 30% Charge per 100% of Mech Health lost.",
         "hotkey": "E",
-        "abilityId": "D.Va|E1"
+        "abilityId": "D.Va|E1",
+        "icon": "storm_ui_icon_dva_selfdestruct.png"
       },
       {
         "name": "Bunny Hop",
         "description": "D.Va's Mech becomes Unstoppable and stomps every 0.5 seconds, dealing 60 (+4% per level) damage and Slowing enemies by 40%. Lasts 4 seconds.  Requires Mech Mode.",
         "hotkey": "R",
         "abilityId": "D.Va|R1",
-        "cooldown": 100
+        "cooldown": 100,
+        "icon": "storm_ui_icon_dva_bunnyhop.png"
       },
       {
         "name": "Big Shot",
         "description": "Deal 250 (+4% per level) damage to all enemies in a line. The cooldown of Call Mech is reduced by 8 seconds for each enemy Hero hit.  Requires Pilot Mode.",
         "hotkey": "R",
         "abilityId": "D.Va|R2",
-        "cooldown": 4
+        "cooldown": 4,
+        "icon": "storm_ui_icon_dva_bigshot.png"
       },
       {
         "name": "Mech Mode",
         "description": "When D.Va's Mech dies, she is ejected out after 0.75 seconds and can continue to fight. D.Va's Mech only awards 50% of a normal Hero's experience upon dying.",
         "trait": true,
-        "abilityId": "D.Va|D1"
+        "abilityId": "D.Va|D1",
+        "icon": "storm_ui_icon_dva_mechmode.png"
       }
-    ], 
+    ],
     "D.VaPilot": [
       {
         "name": "Call Mech",

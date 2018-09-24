@@ -15,41 +15,47 @@
         "hotkey": "Q",
         "abilityId": "Lt. Morales|Q1",
         "cooldown": 0.5,
-        "manaCost": "6 per second"
+        "manaCost": "6 per second",
+        "icon": "storm_ui_icon_medic_healingbeam.png"
       },
       {
         "name": "Safeguard",
         "description": "Grant target ally Hero 25 Armor for 3 seconds.",
         "hotkey": "W",
         "abilityId": "Lt. Morales|W1",
-        "cooldown": 12
+        "cooldown": 12,
+        "icon": "storm_ui_icon_medic_deployshield.png"
       },
       {
         "name": "Displacement Grenade",
         "description": "Fire a grenade that can be manually detonated, dealing 198 (+4% per level) to nearby enemies and knocking them away.",
         "hotkey": "E",
         "abilityId": "Lt. Morales|E1",
-        "cooldown": 12
+        "cooldown": 12,
+        "icon": "storm_ui_icon_medic_displacementgrenade.png"
       },
       {
         "name": "Stim Drone",
         "description": "Grant an allied Hero 75% Attack Speed and 25% Movement Speed for 10 seconds.",
         "hotkey": "R",
         "abilityId": "Lt. Morales|R1",
-        "cooldown": 90
+        "cooldown": 90,
+        "icon": "storm_ui_icon_medic_stim.png"
       },
       {
         "name": "Medivac Dropship",
         "description": "Target a location for a Medivac transport. For up to 10 seconds before takeoff, allies can right-click to enter the Medivac.",
         "hotkey": "R",
         "abilityId": "Lt. Morales|R2",
-        "cooldown": 60
+        "cooldown": 60,
+        "icon": "storm_ui_icon_medic_medivacdropship.png"
       },
       {
         "name": "Caduceus Reactor",
         "description": "While channeling Healing Beam, Lt. Morales regenerates 2% of her maximum Health per second.",
         "trait": true,
-        "abilityId": "Lt. Morales|D1"
+        "abilityId": "Lt. Morales|D1",
+        "icon": "storm_ui_icon_medic_caduceusreactor.png"
       }
     ]
   },
