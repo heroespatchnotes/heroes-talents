@@ -26,7 +26,8 @@ Example:
         "hotkey": "Q",
         "abilityId": "Malthael|Q1",
         "cooldown": 2,
-        "manaCost": "20"
+        "manaCost": "20",
+        "icon": "storm_ui_icon_malthael_soulrip.png"
       },
       ...
       {
@@ -35,14 +36,16 @@ Example:
         "hotkey": "R",
         "abilityId": "Malthael|R1",
         "cooldown": 100,
-        "manaCost": "100"
+        "manaCost": "100",
+        "icon": "storm_ui_icon_malthael_tormentedsoul.png"
       },
       ...
       {
         "name": "Reaper's Mark",
         "description": "Basic Attacks afflict non-Structure targets with Reaper's Mark for 4 seconds.  Marked enemies are revealed and take damage equal to 2.25% of their maximum Health every 1 second.",
         "trait": true,
-        "abilityId": "Malthael|D1"
+        "abilityId": "Malthael|D1",
+        "icon": "storm_ui_icon_malthael_reapersmark.png"
       }
     ]
   },
