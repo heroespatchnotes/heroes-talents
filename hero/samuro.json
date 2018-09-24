@@ -14,35 +14,40 @@
         "description": "Teleport a short distance in the direction of the mouse cursor, creating 2 Mirror Images for 18 seconds with 100% of Samuro's current Health that Basic Attack enemies for 9 (+4% per level) damage. Whenever an Image takes damage, it deals that amount of damage to itself, effectively doubling the damage it takes.  Maximum 2 Mirror Images can be active at at time. Using Mirror Image removes most negative effects from Samuro.",
         "hotkey": "Q",
         "abilityId": "Samuro|Q1",
-        "cooldown": 18
+        "cooldown": 18,
+        "icon": "storm_ui_icon_samuro_mirrorimage.png"
       },
       {
         "name": "Critical Strike",
         "description": "Samuro's next Basic Attack within 8 seconds will be a Critical Strike, dealing 50% increased damage. This also applies to Images, and does not break Wind Walk.  Passive: Samuro and his Images deal a Critical Strike on every 4th Basic Attack.",
         "hotkey": "W",
         "abilityId": "Samuro|W1",
-        "cooldown": 10
+        "cooldown": 10,
+        "icon": "storm_ui_icon_samuro_criticalstrike.png"
       },
       {
         "name": "Wind Walk",
         "description": "Grant Samuro Stealth for up to 10 seconds or until he attacks, uses an Ability, or takes damage.  While Stealthed, Samuro's Movement Speed is increased by 25% and he can pass through other units. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.  Samuro is Unrevealable for the first 1 second of Wind Walk.",
         "hotkey": "E",
         "abilityId": "Samuro|E1",
-        "cooldown": 15
+        "cooldown": 15,
+        "icon": "storm_ui_icon_samuro_windwalk.png"
       },
       {
         "name": "Bladestorm",
         "description": "Cause a Bladestorm of destructive force around Samuro for 4 seconds, making him Unstoppable and dealing 235 (+4% per level) damage per second to nearby enemies.",
         "hotkey": "R",
         "abilityId": "Samuro|R1",
-        "cooldown": 110
+        "cooldown": 110,
+        "icon": "storm_ui_icon_samuro_bladestorm.png"
       },
       {
         "name": "Illusion Master",
         "description": "Mirror Images can be controlled individually or as a group and their damage is increased by 100%.  Passive: Samuro's Basic Attack damage is increased by 10%, and Image Transmission's cooldown is reduced to 8 seconds.",
         "hotkey": "R",
         "abilityId": "Samuro|R2",
-        "cooldown": 8
+        "cooldown": 8,
+        "icon": "storm_ui_icon_samuro_illusiondancer.png"
       },
       {
         "name": "Image Transmission",
@@ -50,7 +55,8 @@
         "hotkey": "D",
         "trait": true,
         "abilityId": "Samuro|D1",
-        "cooldown": 25
+        "cooldown": 25,
+        "icon": "storm_ui_icon_samuro_flowingstrikes.png"
       }
     ]
   },

@@ -14,65 +14,75 @@
         "description": "Activate to have each Viking deal 101 (+4% per level) damage to nearby enemies.",
         "hotkey": "Q",
         "abilityId": "The Lost Vikings|Q1",
-        "cooldown": 10
+        "cooldown": 10,
+        "icon": "storm_ui_icon_lostvikings_spintowin.png"
       },
       {
         "name": "Nordic Attack Squad",
         "description": "Activate to have all Viking Basic Attacks deal bonus damage equal to 1% of a Hero's maximum Health for 5 seconds.",
         "hotkey": "W",
         "abilityId": "The Lost Vikings|W1",
-        "cooldown": 30
+        "cooldown": 30,
+        "icon": "storm_ui_icon_talent_autoattack_damage.png"
       },
       {
         "name": "Viking Bribery",
         "description": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Bosses. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.  Current number of Bribe stacks: 0",
         "hotkey": "E",
-        "abilityId": "The Lost Vikings|E1"
+        "abilityId": "The Lost Vikings|E1",
+        "icon": "storm_ui_icon_talent_bribe.png"
       },
       {
         "name": "Play Again!",
         "description": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.  Only one Viking may attempt to summon at a time.",
         "hotkey": "R",
         "abilityId": "The Lost Vikings|R1",
-        "cooldown": 80
+        "cooldown": 80,
+        "icon": "storm_ui_icon_lostvikings_playagain.png"
       },
       {
         "name": "Longboat Raid!",
         "description": "Hop into an Unstoppable Longboat that fires at nearby enemies for 112 (+4% per level) damage per second and can fire a mortar that deals 205 (+4% per level) damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are stunned for 1.5 seconds. Lasts 15 seconds.  Requires all surviving Vikings to be nearby.",
         "hotkey": "R",
         "abilityId": "The Lost Vikings|R2",
-        "cooldown": 90
+        "cooldown": 90,
+        "icon": "storm_ui_icon_lostvikings_longboatraid.png"
       },
       {
         "name": "Viking Hoard",
         "description": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.",
         "trait": true,
-        "abilityId": "The Lost Vikings|D1"
+        "abilityId": "The Lost Vikings|D1",
+        "icon": "storm_ui_icon_lostvikings_vikinghoard.png"
       },
       {
         "name": "Go Go Go!",
         "description": "The Vikings gain 30% increased Movement Speed for 4 seconds.",
         "hotkey": "Z",
         "abilityId": "The Lost Vikings|Z1",
-        "cooldown": 30
+        "cooldown": 30,
+        "icon": "storm_ui_icon_lostvikings_mount.png"
       },
       {
         "name": "Select Olaf",
         "description": "Olaf can charge enemies and slow their Movement Speed by 30% for 3 seconds by right-clicking on them. 8 second cooldown.  Olaf gains increased Health Regeneration when out of combat for 4 seconds.",
         "hotkey": "1",
-        "abilityId": "The Lost Vikings|11"
+        "abilityId": "The Lost Vikings|11",
+        "icon": "storm_ui_icon_lostvikings_selectolaf.png"
       },
       {
         "name": "Select Baleog",
         "description": "Baleog's Basic Attacks deal 50% splash damage to enemies behind his attack target.",
         "hotkey": "2",
-        "abilityId": "The Lost Vikings|21"
+        "abilityId": "The Lost Vikings|21",
+        "icon": "storm_ui_icon_lostvikings_selectbaleog.png"
       },
       {
         "name": "Select Erik",
         "description": "Erik moves faster than the other Vikings and has increased Basic Attack range.",
         "hotkey": "3",
-        "abilityId": "The Lost Vikings|31"
+        "abilityId": "The Lost Vikings|31",
+        "icon": "storm_ui_icon_lostvikings_selecterik.png"
       },
       {
         "name": "Select All Vikings",
