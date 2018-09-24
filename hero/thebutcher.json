@@ -15,7 +15,8 @@
         "hotkey": "Q",
         "abilityId": "Butcher|Q1",
         "cooldown": 4,
-        "manaCost": "40"
+        "manaCost": "40",
+        "icon": "storm_ui_icon_butcher_hamstring.png"
       },
       {
         "name": "Butcher's Brand",
@@ -23,7 +24,8 @@
         "hotkey": "W",
         "abilityId": "Butcher|W1",
         "cooldown": 14,
-        "manaCost": "65"
+        "manaCost": "65",
+        "icon": "storm_ui_icon_butcher_tenderize.png"
       },
       {
         "name": "Ruthless Onslaught",
@@ -31,7 +33,8 @@
         "hotkey": "E",
         "abilityId": "Butcher|E1",
         "cooldown": 15,
-        "manaCost": "55"
+        "manaCost": "55",
+        "icon": "storm_ui_icon_butcher_fullboar.png"
       },
       {
         "name": "Lamb to the Slaughter",
@@ -39,7 +42,8 @@
         "hotkey": "R",
         "abilityId": "Butcher|R1",
         "cooldown": 90,
-        "manaCost": "75"
+        "manaCost": "75",
+        "icon": "storm_ui_icon_butcher_lambtotheslaughter.png"
       },
       {
         "name": "Furnace Blast",
@@ -47,13 +51,15 @@
         "hotkey": "R",
         "abilityId": "Butcher|R2",
         "cooldown": 60,
-        "manaCost": "75"
+        "manaCost": "75",
+        "icon": "storm_ui_icon_butcher_furnaceblast.png"
       },
       {
         "name": "Fresh Meat",
         "description": "Upon dying, nearby enemy Minions drop 1 Fresh Meat and enemy Heroes drop 20 Fresh Meat. Fresh Meat can be picked up to gain 0.5 Attack Damage per Meat. The Butcher loses 15 Fresh Meat upon dying.  Quest: Collect 200 Fresh Meat.  Reward: Gain an additional 125 Attack Damage and 25% increased Attack Speed. Heroes continue to drop 10 Fresh Meat, Minions no longer drop Fresh Meat, and Fresh Meat is no longer lost on death.",
         "trait": true,
-        "abilityId": "Butcher|D1"
+        "abilityId": "Butcher|D1",
+        "icon": "storm_ui_icon_butcher_freshmeat.png"
       }
     ]
   },

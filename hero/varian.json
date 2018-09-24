@@ -15,7 +15,8 @@
         "hotkey": "Q",
         "abilityId": "Varian|Q1",
         "cooldown": 8,
-        "manaCost": "50"
+        "manaCost": "50",
+        "icon": "storm_ui_icon_varian_lionsfang.png"
       },
       {
         "name": "Parry",
@@ -23,7 +24,8 @@
         "hotkey": "W",
         "abilityId": "Varian|W1",
         "cooldown": 10,
-        "manaCost": "20"
+        "manaCost": "20",
+        "icon": "storm_ui_icon_varian_parry.png"
       },
       {
         "name": "Charge",
@@ -31,7 +33,8 @@
         "hotkey": "E",
         "abilityId": "Varian|E1",
         "cooldown": 12,
-        "manaCost": "45"
+        "manaCost": "45",
+        "icon": "storm_ui_icon_varian_charge.png"
       },
       {
         "name": "Taunt",
@@ -39,7 +42,8 @@
         "hotkey": "R",
         "abilityId": "Varian|R1",
         "cooldown": 16,
-        "manaCost": "20"
+        "manaCost": "20",
+        "icon": "storm_ui_icon_varian_taunt.png"
       },
       {
         "name": "Colossus Smash",
@@ -47,20 +51,23 @@
         "hotkey": "R",
         "abilityId": "Varian|R2",
         "cooldown": 20,
-        "manaCost": "40"
+        "manaCost": "40",
+        "icon": "storm_ui_icon_varian_colossus_smash.png"
       },
       {
         "name": "Twin Blades of Fury",
         "description": "Basic Attacks reduce Heroic Strike's cooldown by 9 seconds, and increase Varian's Movement Speed by 30% for 2 seconds.  Passive: Attack Speed increased by 100%. Passive: Base Attack Damage reduced by 20%.",
         "hotkey": "R",
-        "abilityId": "Varian|R3"
+        "abilityId": "Varian|R3",
+        "icon": "storm_ui_icon_varian_twinbladesoffury.png"
       },
       {
         "name": "Heroic Strike",
         "description": "Every 18 seconds, Varian's next Basic Attack deals 125 (+4% per level) bonus Spell Damage. Basic Attacks reduce this cooldown by 2 seconds.",
         "trait": true,
         "abilityId": "Varian|D1",
-        "cooldown": 18
+        "cooldown": 18,
+        "icon": "storm_ui_icon_varian_heroicstrike.png"
       }
     ]
   },
