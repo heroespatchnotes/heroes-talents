@@ -14,35 +14,40 @@
         "description": "Deal 86 (+4% per level) damage and apply Slime on nearby enemies for 6 seconds, slowing them by 20%.  Deal 210 (+4% per level) damage to enemies who are already Slimed.",
         "hotkey": "Q",
         "abilityId": "Murky|Q1",
-        "cooldown": 4
+        "cooldown": 4,
+        "icon": "storm_ui_icon_murky_slime.png"
       },
       {
         "name": "Pufferfish",
         "description": "Spit out a Pufferfish with 225 (+5.5% per level) health at the target point. After 3 seconds, the fish will blow up for 410 (+4% per level) damage. Deals 50% less damage to Structures.",
         "hotkey": "W",
         "abilityId": "Murky|W1",
-        "cooldown": 15
+        "cooldown": 15,
+        "icon": "storm_ui_icon_murky_pufferfish.png"
       },
       {
         "name": "Safety Bubble",
         "description": "Becomes Invulnerable for 2 seconds. While active, Murky cannot attack or use abilities.",
         "hotkey": "E",
         "abilityId": "Murky|E1",
-        "cooldown": 14
+        "cooldown": 14,
+        "icon": "storm_ui_icon_murky_safetybubble.png"
       },
       {
         "name": "March of the Murlocs",
         "description": "After 0.75 seconds, Murky commands a legion of Murlocs to march in a target direction, each one leaping onto the first enemy Hero or Structure they find. Each Murloc deals 125 (+4% per level) damage and slows its target by 15% for 5 seconds. Murlocs deal 50% damage to Structures.",
         "hotkey": "R",
         "abilityId": "Murky|R1",
-        "cooldown": 110
+        "cooldown": 110,
+        "icon": "storm_ui_icon_murky_marchofthemurlocs.png"
       },
       {
         "name": "Octo-Grab",
         "description": "Murky becomes Unstoppable and Stuns target enemy Hero for 3 seconds while he hits them for 1 damage a second.",
         "hotkey": "R",
         "abilityId": "Murky|R2",
-        "cooldown": 50
+        "cooldown": 50,
+        "icon": "storm_ui_icon_murky_octograb.png"
       },
       {
         "name": "Spawn Egg",
@@ -50,7 +55,8 @@
         "hotkey": "D",
         "trait": true,
         "abilityId": "Murky|D1",
-        "cooldown": 15
+        "cooldown": 15,
+        "icon": "storm_ui_icon_murky_trait_spawnegg.png"
       }
     ]
   },
