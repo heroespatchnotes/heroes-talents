@@ -14,35 +14,40 @@
         "description": "Activate to begin charging Surging Fist. Activate again to dash forward, knocking aside enemies and dealing 46 (+4% per level) damage. The dash range increases by up to 250%, depending on how long it is charged.",
         "hotkey": "Q",
         "abilityId": "Cho|Q1",
-        "cooldown": 12
+        "cooldown": 12,
+        "icon": "storm_ui_icon_cho_moltensurge_a.png"
       },
       {
         "name": "Consuming Blaze",
         "description": "Ignite nearby enemies, dealing 150 (+4% per level) damage over 5 seconds. Basic Attacking burning enemies re-Ignites them. Cho is healed for 40 (+4% per level) when an enemy is Ignited.",
         "hotkey": "W",
         "abilityId": "Cho|W1",
-        "cooldown": 12
+        "cooldown": 12,
+        "icon": "storm_ui_icon_cho_consumingflame.png"
       },
       {
         "name": "Rune Bomb",
         "description": "Roll a bomb dealing 91 (+4% per level) damage to enemies in its path. Gall can use Runic Blast to detonate it to deal 233 (+4% per level) damage in an area.",
         "hotkey": "E",
         "abilityId": "Cho|E1",
-        "cooldown": 8
+        "cooldown": 8,
+        "icon": "storm_ui_icon_cho_runebomb.png"
       },
       {
         "name": "Hammer of Twilight",
         "description": "Activate to swing the Hammer of Twilight, dealing 150 (+4.5% per level) damage, pushing enemies away, and Stunning them for 0.75 seconds.  Passive: Cho's Basic Attacks deal 25% increased damage.",
         "hotkey": "R",
         "abilityId": "Cho|R1",
-        "cooldown": 15
+        "cooldown": 15,
+        "icon": "storm_ui_icon_cho_hammeroftwilight.png"
       },
       {
         "name": "Upheaval",
         "description": "After 1 second, pull enemies towards Cho'gall, slowing them by 25% for 3 seconds and dealing 175 (+4% per level) damage.",
         "hotkey": "R",
         "abilityId": "Cho|R2",
-        "cooldown": 60
+        "cooldown": 60,
+        "icon": "storm_ui_icon_cho_upheaval.png"
       },
       {
         "name": "Ogre Hide",
@@ -50,7 +55,8 @@
         "hotkey": "D",
         "trait": true,
         "abilityId": "Cho|D1",
-        "cooldown": 5
+        "cooldown": 5,
+        "icon": "storm_ui_icon_cho_ogrehide.png"
       }
     ]
   },

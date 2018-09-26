@@ -14,7 +14,8 @@
         "description": "Sacrifice 15% of Alexstrasza's current Health, healing an ally for 150% of that amount.  Dragonqueen: Breath of Life Cooldown greatly reduced and does not cost Health.",
         "hotkey": "Q",
         "abilityId": "Alexstrasza|Q1",
-        "cooldown": 7
+        "cooldown": 7,
+        "icon": "storm_ui_icon_alexstrasza_gift_of_life.png"
       },
       {
         "name": "Abundance",
@@ -22,7 +23,8 @@
         "hotkey": "W",
         "abilityId": "Alexstrasza|W1",
         "cooldown": 16,
-        "manaCost": "75"
+        "manaCost": "75",
+        "icon": "storm_ui_icon_alexstrasza_abundance.png"
       },
       {
         "name": "Flame Buffet",
@@ -30,7 +32,8 @@
         "hotkey": "E",
         "abilityId": "Alexstrasza|E1",
         "cooldown": 2,
-        "manaCost": "50"
+        "manaCost": "50",
+        "icon": "storm_ui_icon_alexstrasza_flame_buffet.png"
       },
       {
         "name": "Life-Binder",
@@ -38,7 +41,8 @@
         "hotkey": "R",
         "abilityId": "Alexstrasza|R1",
         "cooldown": 60,
-        "manaCost": "80"
+        "manaCost": "80",
+        "icon": "storm_ui_icon_alexstrasza_life_binder.png"
       },
       {
         "name": "Cleansing Flame",
@@ -46,7 +50,8 @@
         "hotkey": "R",
         "abilityId": "Alexstrasza|R2",
         "cooldown": 100,
-        "manaCost": "100"
+        "manaCost": "100",
+        "icon": "storm_ui_icon_alexstrasza_cleansing_flame.png"
       },
       {
         "name": "Dragonqueen",
@@ -54,30 +59,34 @@
         "hotkey": "D",
         "trait": true,
         "abilityId": "Alexstrasza|D1",
-        "cooldown": 150
+        "cooldown": 150,
+        "icon": "storm_ui_icon_alexstrasza_dragon_queen.png"
       }
-    ], 
+    ],
     "AlexstraszaDragon": [
       {
         "name": "Breath of Life",
         "description": "Heal an ally for 20% of Alexstrasza's current Health.",
         "hotkey": "Q",
         "abilityId": "Alexstrasza|Q2",
-        "cooldown": 3
+        "cooldown": 3,
+        "icon": "storm_ui_icon_alexstrasza_breath_of_life.png"
       },
       {
         "name": "Preservation",
         "description": "Plant a seed of healing that blooms after 3 seconds, healing nearby allied Heroes for 30% of their maximum Health.",
         "hotkey": "W",
         "abilityId": "Alexstrasza|W2",
-        "cooldown": 16
+        "cooldown": 16,
+        "icon": "storm_ui_icon_alexstrasza_preservation.png"
       },
       {
         "name": "Wing Buffet",
         "description": "Deal 150 (+4% per level) damage to enemies in an area, knocking them back and Slowing them by 50% for 3 seconds.",
         "hotkey": "E",
         "abilityId": "Alexstrasza|E2",
-        "cooldown": 4
+        "cooldown": 4,
+        "icon": "storm_ui_icon_alexstrasza_wing_buffet.png"
       }
     ]
   },
