@@ -11,16 +11,16 @@
     "Kerrigan": [
       {
         "name": "Ravage",
-        "description": "Leap to a target, dealing 210 (+4% per level) damage. If the enemy dies within 1.5 seconds, this cooldown is instantly reset.",
+        "description": "Leap to a target, dealing 130 (+4% per level) damage. If the enemy dies within 1.5 seconds, restore 1 charge and refund 20 Mana.",
         "hotkey": "Q",
         "abilityId": "Kerrigan|Q1",
         "cooldown": 8,
-        "manaCost": "40",
+        "manaCost": "20",
         "icon": "storm_ui_icon_kerrigan_ravage.png"
       },
       {
         "name": "Impaling Blades",
-        "description": "After 1.25 seconds, deal 261 (+4% per level) damage to enemies within the target area, stunning them for 1 second.",
+        "description": "After 1.25 seconds, deal 180 (+4% per level) damage to enemies within the target area, stunning them for 1 second.",
         "hotkey": "W",
         "abilityId": "Kerrigan|W1",
         "cooldown": 12,
@@ -29,7 +29,7 @@
       },
       {
         "name": "Primal Grasp",
-        "description": "Pulls enemies within the target area towards Kerrigan, dealing 114 (+4% per level) damage.",
+        "description": "Pulls enemies within the target area towards Kerrigan, dealing 25 (+4% per level) damage. After 2.5 seconds, an explosion occurs around Kerrigan, dealing 180 (+4% per level) damage to nearby enemies.",
         "hotkey": "E",
         "abilityId": "Kerrigan|E1",
         "cooldown": 10,
@@ -38,7 +38,7 @@
       },
       {
         "name": "Summon Ultralisk",
-        "description": "Summon an Ultralisk that attacks the target to deal 100 (+4% per level) damage. Attacks splash to nearby enemies for 50% damage. Can reactivate the Ability to retarget the Ultralisk. Lasts for 20 seconds.",
+        "description": "After 0.5 seconds, summon an Ultralisk that rushes forward upon spawning, dealing 250 (+4% per level) damage to the first enemy Hero hit and Stunning them for 0.5 seconds.  The Ultralisk's Basic Attacks deal 50% of their damage in an area around their target. Reactivate to retarget the Ultralisk.",
         "hotkey": "R",
         "abilityId": "Kerrigan|R1",
         "cooldown": 80,
@@ -56,7 +56,7 @@
       },
       {
         "name": "Assimilation",
-        "description": "Gain 10% of damage dealt from Basic Attacks and Abilities as Shields for 6 seconds. Shield amount gained doubled against Heroes.  Current maximum: 1004 (+4% per level)",
+        "description": "Gain 15% of damage dealt from Basic Attacks and Abilities as Shields for 6 seconds. Shield amount gained doubled against Heroes.  Current maximum: 1004 (+4% per level)",
         "trait": true,
         "abilityId": "Kerrigan|D1",
         "icon": "storm_ui_icon_kerrigan_assimilation.png"
@@ -66,96 +66,86 @@
   "talents": {
     "1": [
       {
-        "tooltipId": "KerriganRavageSiphoningImpactTalent",
-        "talentTreeId": "KerriganSiphoningImpactRavage",
+        "tooltipId": "KerriganRavageSiphoningImpact",
+        "talentTreeId": "KerriganRavageSiphoningImpact",
         "name": "Siphoning Impact",
-        "description": "If the targeted enemy dies within 1.5 seconds, Kerrigan heals for 10% of her maximum Health.",
+        "description": "Hitting an enemy Hero with Ravage grants 90 (+4% per level) points of Assimilation Shields.",
         "icon": "storm_ui_icon_kerrigan_ravage.png",
         "sort": 1,
         "abilityId": "Kerrigan|Q1"
       },
       {
-        "tooltipId": "KerriganImpalingBladesSharpenedBladesTalent",
-        "talentTreeId": "KerriganSharpenedBladesImpalingBlades",
-        "name": "Sharpened Blades",
-        "description": "Impaling Blades deals 25% more damage.",
-        "icon": "storm_ui_icon_kerrigan_impalingblades.png",
+        "tooltipId": "KerriganAssimilationMasteryTalent",
+        "talentTreeId": "KerriganAssimilationMastery",
+        "name": "Assimilation Mastery",
+        "description": "Regeneration Globe healing grants 40 (+4% per level) points of Assimilation Shields per second while active. While Assimilation is active, Kerrigan's Health and Mana regeneration is increased by 100%.",
+        "icon": "storm_ui_icon_kerrigan_assimilation.png",
         "sort": 2,
-        "abilityId": "Kerrigan|W1"
+        "abilityId": "Kerrigan|D1"
       },
       {
-        "tooltipId": "GenericBlockTalent",
-        "talentTreeId": "GenericTalentBlock",
-        "name": "Block",
-        "description": "Every 5 seconds, gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%.  Stores up to 2 charges.",
-        "icon": "storm_ui_icon_talent_block.png",
+        "tooltipId": "KerriganAssimilationFuryOfTheSwarmTalent",
+        "talentTreeId": "KerriganFuryOfTheSwarm",
+        "name": "Fury of the Swarm",
+        "description": "Gain 10% more Assimilation Shields from Basic Attacks. After casting Ravage, Kerrigan's next 2 Basic Attacks within 3 seconds splash for 100% damage around the target.",
+        "icon": "storm_ui_icon_talent_autoattack_aoe.png",
         "sort": 3,
         "abilityId": "Kerrigan|Passive"
       }
     ],
     "4": [
       {
-        "tooltipId": "KerriganRavageCleanKillTalent",
-        "talentTreeId": "KerriganCleanKillRavage",
-        "name": "Clean Kill",
-        "description": "If Ravage kills the target, it restores 75% of its Mana cost and increases the damage of the next Ravage by 25%.",
+        "tooltipId": "KerriganRavageSharpenedBlades",
+        "talentTreeId": "KerriganRavageSharpenedBlades",
+        "name": "Sharpened Blades",
+        "description": "Quest: Minions and Heroes that die within 1.5 seconds of being hit by Ravage increase its damage up to a maximum of 50.  Minions grant 0.5 increased damage and Heroes grant 5 increased damage.  Reward: After reaching a 50 damage increase, Ravage gains 50 additional damage.",
         "icon": "storm_ui_icon_kerrigan_ravage.png",
         "sort": 1,
         "abilityId": "Kerrigan|Q1"
       },
       {
-        "tooltipId": "KerriganPrimalGraspPsionicPulseTalent",
-        "talentTreeId": "KerriganPsionicPulsePrimalGrasp",
-        "name": "Psionic Pulse",
-        "description": "After casting Primal Grasp, deal 36 (+4% per level) damage per second to nearby enemies. Lasts 5 seconds.",
-        "icon": "storm_ui_icon_kerrigan_primalgrasp.png",
+        "tooltipId": "KerriganImpalingBladesKineticFulmination",
+        "talentTreeId": "KerriganImpalingBladesKineticFulmination",
+        "name": "Kinetic Fulmination",
+        "description": "Damaging an enemy increases the damage of Kerrigan's next Impaling Blades within 10 seconds by 15%, up to 150%.",
+        "icon": "storm_ui_icon_kerrigan_impalingblades.png",
         "sort": 2,
-        "abilityId": "Kerrigan|E1"
+        "abilityId": "Kerrigan|W1"
       },
       {
-        "tooltipId": "KerriganAssimilationFuryOfTheSwarmTalent",
-        "talentTreeId": "KerriganCombatStyleFuryoftheSwarm",
-        "name": "Fury of the Swarm",
-        "description": "Kerrigan's Basic Attacks splash for 60% damage around the target.",
-        "icon": "storm_ui_icon_talent_autoattack_aoe.png",
+        "tooltipId": "KerriganPrimalGraspPsionicPulse",
+        "talentTreeId": "KerriganPrimalGraspPsionicPulse",
+        "name": "Psionic Pulse",
+        "description": "Primal Grasp explodes a second time 2.5 seconds after its first explosion.",
+        "icon": "storm_ui_icon_kerrigan_primalgrasp.png",
         "sort": 3,
-        "abilityId": "Kerrigan|Passive"
-      },
-      {
-        "tooltipId": "GenericEnvenomTalent",
-        "talentTreeId": "GenericTalentEnvenom",
-        "name": "Envenom",
-        "description": "Activate to poison an enemy Hero, dealing 352 (+4% per level) damage over 10 seconds.",
-        "icon": "storm_ui_icon_talent_envenom.png",
-        "sort": 4,
-        "abilityId": "Kerrigan|Active",
-        "cooldown": 60
+        "abilityId": "Kerrigan|E1"
       }
     ],
     "7": [
       {
-        "tooltipId": "KerriganImpalingBladesBladeTorrentTalent",
-        "talentTreeId": "KerriganBladeTorrentImpalingBlades",
-        "name": "Blade Torrent",
-        "description": "Increases Impaling Blades' radius by 30%.",
-        "icon": "storm_ui_icon_kerrigan_impalingblades.png",
+        "tooltipId": "KerriganRavageQueenOfBlades",
+        "talentTreeId": "KerriganRavageQueenOfBlades",
+        "name": "Queen of Blades",
+        "description": "Damaging a Hero with Primal Grasp reduces Ravage's cooldown by 4 seconds.",
+        "icon": "storm_ui_icon_kerrigan_ravage.png",
         "sort": 1,
-        "abilityId": "Kerrigan|W1"
+        "abilityId": "Kerrigan|Q1"
       },
       {
-        "tooltipId": "KerriganAssimilationMasteryTalent",
-        "talentTreeId": "KerriganAssimilationMastery",
-        "name": "Assimilation Mastery",
-        "description": "Increases the duration of Assimilation by 100%. While Assimilation is active, Kerrigan's Health and Mana regeneration is increased by 100%.",
-        "icon": "storm_ui_icon_kerrigan_assimilation.png",
+        "tooltipId": "KerriganRavageBoundlessFury",
+        "talentTreeId": "KerriganRavageBoundlessFury",
+        "name": "Boundless Fury",
+        "description": "Hitting an enemy Hero with Ravage grants a charge of Ravage. Can only occur once every 10 seconds per Hero.",
+        "icon": "storm_ui_icon_kerrigan_ravage_b.png",
         "sort": 2,
-        "abilityId": "Kerrigan|D1"
+        "abilityId": "Kerrigan|Q1"
       },
       {
         "tooltipId": "KerriganBladedMomentum",
         "talentTreeId": "KerriganBladedMomentum",
         "name": "Bladed Momentum",
-        "description": "Basic Attacks reduce Kerrigan's Basic Ability cooldowns by 0.6 seconds.",
+        "description": "Basic Attacks against enemy Heroes reduce the cooldown of Kerrigan's Basic Abilities by 0.6 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
         "sort": 3,
         "abilityId": "Kerrigan|Passive"
@@ -176,7 +166,7 @@
         "tooltipId": "KerriganSummonUltralisk",
         "talentTreeId": "KerriganHeroicAbilitySummonUltralisk",
         "name": "Summon Ultralisk",
-        "description": "Summon an Ultralisk that attacks the target to deal 100 (+4% per level) damage. Attacks splash to nearby enemies for 50% damage. Can reactivate the Ability to retarget the Ultralisk. Lasts for 20 seconds.",
+        "description": "After 0.5 seconds, summon an Ultralisk that rushes forward upon spawning, dealing 250 (+4% per level) damage to the first enemy Hero hit and Stunning them for 0.5 seconds.  The Ultralisk's Basic Attacks deal 50% of their damage in an area around their target. Reactivate to retarget the Ultralisk.",
         "icon": "storm_ui_icon_kerrigan_ultralisk.png",
         "sort": 2,
         "abilityId": "Kerrigan|R1",
@@ -185,63 +175,61 @@
     ],
     "13": [
       {
-        "tooltipId": "KerriganRavageEviscerateTalent",
-        "talentTreeId": "KerriganEviscerate",
-        "name": "Eviscerate",
-        "description": "Increases Ravage's range by 40%.",
+        "tooltipId": "KerriganPrimalGraspPsionicBarrier",
+        "talentTreeId": "KerriganPrimalGraspPsionicBarrier",
+        "name": "Psionic Barrier",
+        "description": "Each enemy Hero hit by Primal Grasp grants 15 Spell Armor for 4 seconds.",
+        "icon": "storm_ui_icon_kerrigan_primalgrasp.png",
+        "sort": 1,
+        "abilityId": "Kerrigan|E1"
+      },
+      {
+        "tooltipId": "KerriganAssimilationVolatilePower",
+        "talentTreeId": "KerriganAssimilationVolatilePower",
+        "name": "Volatile Power",
+        "description": "Increase the amount of Assimilation Shields granted from damage dealt by 15%, but reduce duration of Assimilation by 3 seconds.",
+        "icon": "storm_ui_icon_kerrigan_assimilation.png",
+        "sort": 2,
+        "abilityId": "Kerrigan|D1"
+      },
+      {
+        "tooltipId": "KerriganChrysalis",
+        "talentTreeId": "KerriganChrysalis",
+        "name": "Chrysalis",
+        "description": "Activate to place Kerrigan in a Chrysalis with 550 (+4% per level) Health for 5 seconds. While inside, Kerrigan regenerates 5% of her maximum Health per second.  Enemies can destroy the Chrysalis to end its effects early.",
+        "icon": "storm_ui_icon_kerrigan_chrysalis.png",
+        "sort": 3,
+        "abilityId": "Kerrigan|Active",
+        "cooldown": 90
+      }
+    ],
+    "16": [
+      {
+        "tooltipId": "KerriganRavageMountingPotency",
+        "talentTreeId": "KerriganRavageMountingPotency",
+        "name": "Mounting Potency",
+        "description": "Ravage grants 5% Spell Power for 4 seconds, up to 40%.",
         "icon": "storm_ui_icon_kerrigan_ravage.png",
         "sort": 1,
         "abilityId": "Kerrigan|Q1"
       },
       {
-        "tooltipId": "KerriganAssimilationDoubleStrikeTalent",
-        "talentTreeId": "KerriganCombatStyleDoubleStrike",
-        "name": "Double Strike",
-        "description": "When a Basic Ability damages an enemy, Kerrigan's next Basic Attack hits for 75% bonus damage.",
-        "icon": "storm_ui_icon_kerrigan_ravage_a.png",
+        "tooltipId": "KerriganImpalingBladesPainfulSpikes",
+        "talentTreeId": "KerriganImpalingBladesPainfulSpikes",
+        "name": "Painful Spikes",
+        "description": "Enemies hit by Impaling Blades take an additional 75 (+4% per level) damage the next 6 times Kerrigan damages them within 5 seconds.",
+        "icon": "storm_ui_icon_kerrigan_impalingblades.png",
         "sort": 2,
+        "abilityId": "Kerrigan|W1"
+      },
+      {
+        "tooltipId": "KerriganUnbridledEnergy",
+        "talentTreeId": "KerriganUnbridledEnergy",
+        "name": "Unbridled Energy",
+        "description": "Damaging a Hero with a Heroic Ability grants 30% Spell Power for 4 seconds.",
+        "icon": "storm_ui_icon_talent_abilitytalent_damage.png",
+        "sort": 3,
         "abilityId": "Kerrigan|Passive"
-      },
-      {
-        "tooltipId": "KerriganQueensRushHotbar",
-        "talentTreeId": "KerriganQueensRush",
-        "name": "Queen's Rush",
-        "description": "Activate to gain 30% Movement Speed for 4 seconds. Queen's Rush is also applied for free on Takedowns.",
-        "icon": "storm_ui_icon_kerrigan_queensrush.png",
-        "sort": 3,
-        "abilityId": "Kerrigan|Active",
-        "cooldown": 50
-      }
-    ],
-    "16": [
-      {
-        "tooltipId": "KerriganAggressiveDefenseTalent",
-        "talentTreeId": "KerriganAggressiveDefense",
-        "name": "Aggressive Defense",
-        "description": "Increases base Shield amount gained from Assimilation by 100%.",
-        "icon": "storm_ui_icon_kerrigan_assimilation.png",
-        "sort": 1,
-        "abilityId": "Kerrigan|D1"
-      },
-      {
-        "tooltipId": "KerriganEssenceForEssenceHotbar",
-        "talentTreeId": "KerriganEssenceForEssence",
-        "name": "Essence for Essence",
-        "description": "Activate to deal 10% of target enemy Hero's Max Health and gain Assimilation Shields for twice that amount.",
-        "icon": "storm_ui_icon_kerrigan_assimilation_a.png",
-        "sort": 2,
-        "abilityId": "Kerrigan|Active",
-        "cooldown": 60
-      },
-      {
-        "tooltipId": "GenericOverdriveTalent",
-        "talentTreeId": "GenericTalentOverdrive",
-        "name": "Overdrive",
-        "description": "Activate to increase Spell Power by 25% and Mana costs by 40% for 5 seconds.",
-        "icon": "storm_ui_icon_talent_overdrive.png",
-        "sort": 3,
-        "abilityId": "Kerrigan|Active",
-        "cooldown": 25
       }
     ],
     "20": [
@@ -249,7 +237,7 @@
         "tooltipId": "KerriganMaelstromOmegastormTalent",
         "talentTreeId": "KerriganOmegastormMaelstrom",
         "name": "Omegastorm",
-        "description": "Maelstrom size increased by 25%. Amount of Assimilation Shields generated by Maelstrom increased by 100%.",
+        "description": "Maelstrom's duration is increased by 0.125 seconds every time it damages a Hero.",
         "icon": "storm_ui_icon_kerrigan_maelstrom.png",
         "sort": 1,
         "abilityId": "Kerrigan|R2"
@@ -264,11 +252,11 @@
         "abilityId": "Kerrigan|R1"
       },
       {
-        "tooltipId": "NexusBladesTalent",
-        "talentTreeId": "GenericTalentNexusBlades",
-        "name": "Nexus Blades",
-        "description": "Basic Attacks deal 20% more damage and Slow enemy Movement Speed by 20% for 1 second.",
-        "icon": "storm_ui_icon_talent_autoattack_slow.png",
+        "tooltipId": "KerriganAssimilationBlades",
+        "talentTreeId": "KerriganAssimilationAssimilationBlades",
+        "name": "Assimilation Blades",
+        "description": "Damaging an enemy increases Basic Attack damage by 2% for 5 seconds, up to 40%.",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 3,
         "abilityId": "Kerrigan|Passive"
       },
