@@ -1,0 +1,402 @@
+
+*** RAW DATA FROM HeroesDataParser - WIP ***
+{
+  "MalGanis": {
+    "name": "Mal'Ganis",
+    "cHeroId": "MalGanis",
+    "cUnitId": "HeroMalGanis",
+    "attributeId": "MalG",
+    "difficulty": "Medium",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "innerRadius": 0.6875,
+    "radius": 0.875,
+    "releaseDate": "2018-10-16",
+    "sight": 12.0,
+    "speed": 4.3984,
+    "type": "Melee",
+    "rarity": "Legendary",
+    "description": "A self-sustaining Tank that peels for allies and disrupts enemies.",
+    "portraits": {
+      "heroSelect": "storm_ui_ingame_heroselect_btn_malganis.png",
+      "leaderboard": "storm_ui_ingame_hero_leaderboard_malganis.png",
+      "loading": "storm_ui_ingame_hero_loadingscreen_malganis.png",
+      "partyPanel": "storm_ui_ingame_partypanel_btn_malganis.png",
+      "target": "ui_targetportrait_hero_malganis.png"
+    },
+    "life": {
+      "amount": 2700.0,
+      "scale": 0.04,
+      "regenRate": 5.625,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500.0,
+      "type": "Mana",
+      "regenRate": 3.0
+    },
+    "roles": [
+      "Warrior"
+    ],
+    "ratings": {
+      "complexity": 3.0,
+      "damage": 5.0,
+      "survivability": 7.0,
+      "utility": 3.0
+    },
+    "weapons": [
+      {
+        "nameId": "HeroMalGanisWeapon",
+        "range": 1.3,
+        "period": 1.1,
+        "damage": 105.0,
+        "damageScale": 0.04
+      }
+    ],
+    "abilities": {
+      "basic": [
+        {
+          "nameId": "MalGanisFelClawsFirst",
+          "name": "Fel Claws",
+          "shortTooltipId": "MalGanisFelClawsFirst",
+          "fullTooltipId": "MalGanisFelClawsFirst",
+          "icon": "storm_ui_icon_malganis_fel_1.png",
+          "energyTooltip": "Mana: 50",
+          "cooldownTooltip": "Cooldown: 8 seconds",
+          "shortTooltip": "Swipe forward multiple times to deal damage",
+          "fullTooltip": "Violently slash in the chosen direction, dealing 72 (+4% per level) damage to enemies.  Reactivate to slash up to 2 more times. The third slash Stuns enemies for 0.75 seconds.",
+          "abilityType": "Q"
+        },
+        {
+          "nameId": "MalGanisNecroticEmbrace",
+          "name": "Necrotic Embrace",
+          "shortTooltipId": "MalGanisNecroticEmbrace",
+          "fullTooltipId": "MalGanisNecroticEmbrace",
+          "icon": "storm_ui_icon_malganis_necrotic.png",
+          "energyTooltip": "Mana: 30",
+          "cooldownTooltip": "Cooldown: 8 seconds",
+          "shortTooltip": "Deal damage around Mal'Ganis and gain Armor",
+          "fullTooltip": "Desecrate the air, dealing 110 (+4% per level) damage to nearby enemies and gaining 25 Armor for 3 seconds.",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "MalGanisNightRush",
+          "name": "Night Rush",
+          "shortTooltipId": "MalGanisNightRush",
+          "fullTooltipId": "MalGanisNightRush",
+          "icon": "storm_ui_icon_malganis_nightrush.png",
+          "energyTooltip": "Mana: 70",
+          "cooldownTooltip": "Cooldown: 16 seconds",
+          "shortTooltip": "Gain Move Speed and put enemies to Sleep",
+          "fullTooltip": "After 0.75 seconds, gain 50% Movement Speed for 2 seconds. While active, Mal'Ganis can move through enemy Heroes and put them to Sleep for 2.5 seconds.",
+          "abilityType": "E"
+        }
+      ],
+      "heroic": [
+        {
+          "nameId": "MalGanisCarrionSwarm",
+          "name": "Carrion Swarm",
+          "shortTooltipId": "MalGanisCarrionSwarm",
+          "fullTooltipId": "MalGanisCarrionSwarm",
+          "icon": "storm_ui_icon_malganis_ult_swarm.png",
+          "toggleCooldown": 0.0625,
+          "energyTooltip": "Mana: 70",
+          "cooldownTooltip": "Cooldown: 80 seconds",
+          "shortTooltip": "Disperse and deal damage in an area",
+          "fullTooltip": "After 1 second, disperse into an Invulnerable swarm of bats for 3 seconds, dealing 132 (+4% per level) damage per second to enemies.  Vampiric Touch heals for 100% of Carrion Swarm's damage to Heroes.",
+          "abilityType": "Heroic"
+        },
+        {
+          "nameId": "MalGanisDarkConversion",
+          "name": "Dark Conversion",
+          "shortTooltipId": "MalGanisDarkConversion",
+          "fullTooltipId": "MalGanisDarkConversion",
+          "icon": "storm_ui_icon_malganis_ult_conversion.png",
+          "energyTooltip": "Mana: 70",
+          "cooldownTooltip": "Cooldown: 80 seconds",
+          "shortTooltip": "Channel to swap Health with an enemy Hero",
+          "fullTooltip": "Channel on an enemy Hero for 0.75 seconds, then swap Health percentages with the target over 3 seconds.",
+          "abilityType": "Heroic"
+        }
+      ],
+      "trait": [
+        {
+          "nameId": "MalGanisVampiricTouch",
+          "name": "Vampiric Touch",
+          "shortTooltipId": "MalGanisVampiricTouch",
+          "fullTooltipId": "MalGanisVampiricTouch",
+          "icon": "storm_ui_icon_malganis_trait.png",
+          "shortTooltip": "Mal'Ganis heals from damage dealt",
+          "fullTooltip": "Mal'Ganis heals for 45% of damage dealt to enemy Heroes and 15% of damage dealt to non-Heroes.",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "talents": {
+      "level1": [
+        {
+          "nameId": "MalGanisNecroticEmbraceWingedGuard",
+          "name": "Winged Guard",
+          "shortTooltipId": "MalGanisNecroticEmbraceWingedGuard",
+          "fullTooltipId": "MalGanisNecroticEmbraceWingedGuard",
+          "icon": "storm_ui_icon_malganis_necrotic.png",
+          "shortTooltip": "Necrotic Embrace grants extra Physical Armor",
+          "fullTooltip": "Each time Necrotic Embrace hits an enemy Hero, gain 50 Physical Armor against the next enemy Hero Basic Attack.  If Winged Guard has no charges, Mal'Ganis will gain 1 charge after 6 seconds.",
+          "abilityType": "W",
+          "sort": 1
+        },
+        {
+          "nameId": "MalGanisVampiricTouchVampiricAura",
+          "name": "Vampiric Aura",
+          "shortTooltipId": "MalGanisVampiricTouchVampiricAura",
+          "fullTooltipId": "MalGanisVampiricTouchVampiricAura",
+          "icon": "storm_ui_icon_malganis_trait.png",
+          "shortTooltip": "Improve Vampiric Touch and share it with allies",
+          "fullTooltip": "Mal'Ganis and nearby allied Heroes heal for 10% of Physical Damage dealt.",
+          "abilityType": "Trait",
+          "sort": 2
+        },
+        {
+          "nameId": "MalGanisVampiricTouchTimeToFeed",
+          "name": "Time to Feed",
+          "shortTooltipId": "MalGanisVampiricTouchTimeToFeed",
+          "fullTooltipId": "MalGanisVampiricTouchTimeToFeed",
+          "icon": "storm_ui_icon_malganis_trait_b.png",
+          "shortTooltip": "Heal when initially damaging enemy Heroes",
+          "fullTooltip": "Mal'Ganis heals for 48 (+4% per level) when damaging a nearby enemy Hero. This can occur once every 6 seconds against each enemy Hero.",
+          "abilityType": "Passive",
+          "sort": 3
+        }
+      ],
+      "level4": [
+        {
+          "nameId": "MalGanisNecroticEmbraceFueledByTorment",
+          "name": "Fueled by Torment",
+          "shortTooltipId": "MalGanisNecroticEmbraceFueledByTorment",
+          "fullTooltipId": "MalGanisNecroticEmbraceFueledByTorment",
+          "icon": "storm_ui_icon_malganis_necrotic.png",
+          "shortTooltip": "Necrotic Embrace heals when damage is taken",
+          "fullTooltip": "While Necrotic Embrace is active, Mal'Ganis heals for 12 (+4% per level) when damage is taken and Vampiric Touch converts 15% more Hero damage into healing.",
+          "abilityType": "W",
+          "sort": 1
+        },
+        {
+          "nameId": "MalGanisNecroticEmbraceMightOfSargeras",
+          "name": "Might of Sargeras",
+          "shortTooltipId": "MalGanisNecroticEmbraceMightOfSargeras",
+          "fullTooltipId": "MalGanisNecroticEmbraceMightOfSargeras",
+          "icon": "storm_ui_icon_malganis_necrotic_b.png",
+          "shortTooltip": "Raise Necrotic Embrace Armor, but lower duration",
+          "fullTooltip": "Necrotic Embrace's Armor is increased to 50, but the duration is reduced to 2 seconds.",
+          "abilityType": "W",
+          "sort": 2
+        },
+        {
+          "nameId": "MalGanisNecroticEmbraceEchoOfDoom",
+          "name": "Echo of Doom",
+          "shortTooltipId": "MalGanisNecroticEmbraceEchoOfDoom",
+          "fullTooltipId": "MalGanisNecroticEmbraceEchoOfDoom",
+          "icon": "storm_ui_icon_malganis_necrotic_c.png",
+          "shortTooltip": "Necrotic Embrace explodes when expiring",
+          "fullTooltip": "When Necrotic Embrace expires, it explodes again for 50 (+4% per level) damage. If an enemy Hero is hit, Mal'Ganis retains 25 Armor for 1 more second.  Does not wake Sleeping targets.",
+          "abilityType": "W",
+          "sort": 3
+        }
+      ],
+      "level7": [
+        {
+          "nameId": "MalGanisFelClawsBlackClaws",
+          "name": "Black Claws",
+          "shortTooltipId": "MalGanisFelClawsBlackClaws",
+          "fullTooltipId": "MalGanisFelClawsBlackClaws",
+          "icon": "storm_ui_icon_malganis_fel_1.png",
+          "shortTooltip": "Fel Claws increases Basic Attack damage",
+          "fullTooltip": "After Mal'Ganis hits an enemy Hero with Fel Claws, his next Basic Attack deals 45% more damage.",
+          "abilityType": "Q",
+          "sort": 1
+        },
+        {
+          "nameId": "MalGanisFelClawsWillOfTichondrius",
+          "name": "Will of Tichondrius",
+          "shortTooltipId": "MalGanisFelClawsWillOfTichondrius",
+          "fullTooltipId": "MalGanisFelClawsWillOfTichondrius",
+          "icon": "storm_ui_icon_malganis_fel_1_b.png",
+          "shortTooltip": "Fel Claws steals percent Health",
+          "fullTooltip": "The third slash of Fel Claws steals 4% of maximum Health from enemy Heroes.",
+          "abilityType": "Q",
+          "sort": 2
+        },
+        {
+          "nameId": "MalGanisNightRushSpreadingPlague",
+          "name": "Spreading Plague",
+          "shortTooltipId": "MalGanisNightRushSpreadingPlague",
+          "fullTooltipId": "MalGanisNightRushSpreadingPlague",
+          "icon": "storm_ui_icon_malganis_nightrush.png",
+          "shortTooltip": "Periodically deal damage after Night Rush",
+          "fullTooltip": "After Night Rush expires, deal 30 (+4% per level) damage per second to nearby enemies for 4 seconds. Basic Attacks against Heroes refresh this.  Does not wake Sleeping targets.",
+          "abilityType": "E",
+          "sort": 3
+        },
+        {
+          "nameId": "MalGanisNightmareFuel",
+          "name": "Nightmare Fuel",
+          "shortTooltipId": "MalGanisNightmareFuel",
+          "fullTooltipId": "MalGanisNightmareFuel",
+          "icon": "storm_ui_icon_malganis_nightmarefuel.png",
+          "shortTooltip": "Basic Attacks can deal more damage",
+          "fullTooltip": "Basic Attacks deal 30% more damage while in a bush and for 4 seconds after leaving. They also deal 125% more damage to Sleeping targets.",
+          "abilityType": "Passive",
+          "sort": 4
+        }
+      ],
+      "level10": [
+        {
+          "nameId": "MalGanisCarrionSwarm",
+          "name": "Carrion Swarm",
+          "shortTooltipId": "MalGanisCarrionSwarm",
+          "fullTooltipId": "MalGanisCarrionSwarm",
+          "icon": "storm_ui_icon_malganis_ult_swarm.png",
+          "toggleCooldown": 0.0625,
+          "energyTooltip": "Mana: 70",
+          "cooldownTooltip": "Cooldown: 80 seconds",
+          "shortTooltip": "Disperse and deal damage in an area",
+          "fullTooltip": "After 1 second, disperse into an Invulnerable swarm of bats for 3 seconds, dealing 132 (+4% per level) damage per second to enemies.  Vampiric Touch heals for 100% of Carrion Swarm's damage to Heroes.",
+          "abilityType": "Heroic",
+          "isActive": true,
+          "sort": 1
+        },
+        {
+          "nameId": "MalGanisDarkConversion",
+          "name": "Dark Conversion",
+          "shortTooltipId": "MalGanisDarkConversion",
+          "fullTooltipId": "MalGanisDarkConversion",
+          "icon": "storm_ui_icon_malganis_ult_conversion.png",
+          "energyTooltip": "Mana: 70",
+          "cooldownTooltip": "Cooldown: 80 seconds",
+          "shortTooltip": "Channel to swap Health with an enemy Hero",
+          "fullTooltip": "Channel on an enemy Hero for 0.75 seconds, then swap Health percentages with the target over 3 seconds.",
+          "abilityType": "Heroic",
+          "isActive": true,
+          "sort": 2
+        }
+      ],
+      "level13": [
+        {
+          "nameId": "MalGanisNightRushDeepSleep",
+          "name": "Deep Sleep",
+          "shortTooltipId": "MalGanisNightRushDeepSleep",
+          "fullTooltipId": "MalGanisNightRushDeepSleep",
+          "icon": "storm_ui_icon_malganis_nightrush.png",
+          "shortTooltip": "Increase Night Rush Sleep duration",
+          "fullTooltip": "Increase Night Rush's Sleep duration by 0.75 seconds and its Movement Speed bonus by 10%.",
+          "abilityType": "E",
+          "sort": 1
+        },
+        {
+          "nameId": "MalGanisNightRushTheNightBeckons",
+          "name": "The Night Beckons",
+          "shortTooltipId": "MalGanisNightRushTheNightBeckons",
+          "fullTooltipId": "MalGanisNightRushTheNightBeckons",
+          "icon": "storm_ui_icon_malganis_nightrush_b.png",
+          "shortTooltip": "Night Rush Slows enemies",
+          "fullTooltip": "After Night Rush's Sleep ends, targets are Slowed by 30% for 2.5 seconds.",
+          "abilityType": "E",
+          "sort": 2
+        },
+        {
+          "nameId": "MalGanisVampiricTouchBloodRush",
+          "name": "Blood Rush",
+          "shortTooltipId": "MalGanisVampiricTouchBloodRush",
+          "fullTooltipId": "MalGanisVampiricTouchBloodRush",
+          "icon": "storm_ui_icon_malganis_trait.png",
+          "shortTooltip": "Healing increases Move Speed",
+          "fullTooltip": "When Mal'Ganis is healed, he gains 1% Movement Speed for 8 seconds, up to 15%.",
+          "abilityType": "Trait",
+          "sort": 3
+        }
+      ],
+      "level16": [
+        {
+          "nameId": "MalGanisNecroticEmbracePlagueBats",
+          "name": "Plague Bats",
+          "shortTooltipId": "MalGanisNecroticEmbracePlagueBats",
+          "fullTooltipId": "MalGanisNecroticEmbracePlagueBats",
+          "icon": "storm_ui_icon_malganis_necrotic.png",
+          "shortTooltip": "Necrotic Embrace unleashes a wave of bats",
+          "fullTooltip": "Necrotic Embrace unleashes a wave of bats in front of Mal'Ganis, dealing 85 (+4% per level) damage.",
+          "abilityType": "W",
+          "sort": 1
+        },
+        {
+          "nameId": "MalGanisVampiricTouchFrenziedAssault",
+          "name": "Frenzied Assault",
+          "shortTooltipId": "MalGanisVampiricTouchFrenziedAssault",
+          "fullTooltipId": "MalGanisVampiricTouchFrenziedAssault",
+          "icon": "storm_ui_icon_malganis_trait.png",
+          "shortTooltip": "Gain Attack Speed against higher Health Heroes",
+          "fullTooltip": "Basic Attacks against Heroes with a higher Health percentage grant 40% Attack Speed and 10% increased Physical Damage for 3 seconds.",
+          "abilityType": "Passive",
+          "sort": 2
+        },
+        {
+          "nameId": "MalGanisFelClawsBlindAsABat",
+          "name": "Blind as a Bat",
+          "shortTooltipId": "MalGanisFelClawsBlindAsABat",
+          "fullTooltipId": "MalGanisFelClawsBlindAsABat",
+          "icon": "storm_ui_icon_malganis_blindbat.png",
+          "cooldownTooltip": "Cooldown: 80 seconds",
+          "shortTooltip": "Remove Fel Claws cooldown, but lose all vision",
+          "fullTooltip": "Activate to erupt with blind rage, removing the cooldown and Mana cost of Fel Claws, but losing all vision. Lasts 6 seconds.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 3
+        }
+      ],
+      "level20": [
+        {
+          "nameId": "MalGanisCarrionSwarmSeekerSwarm",
+          "name": "Seeker Swarm",
+          "shortTooltipId": "MalGanisCarrionSwarmSeekerSwarm",
+          "fullTooltipId": "MalGanisCarrionSwarmSeekerSwarm",
+          "icon": "storm_ui_icon_malganis_ult_swarm.png",
+          "shortTooltip": "Carrion Swarm Sleeps Heroes after expiring",
+          "fullTooltip": "Upon expiring, Carrion Swarm's bats seek nearby enemy Heroes, dealing 132 (+4% per level) damage and Sleeping them for 2.5 seconds.",
+          "abilityType": "Heroic",
+          "sort": 1
+        },
+        {
+          "nameId": "MalGanisDarkConversionWrathOfNathreza",
+          "name": "Wrath of Nathreza",
+          "shortTooltipId": "MalGanisDarkConversionWrathOfNathreza",
+          "fullTooltipId": "MalGanisDarkConversionWrathOfNathreza",
+          "icon": "storm_ui_icon_malganis_ult_conversion.png",
+          "shortTooltip": "Dark Conversion damages Heroes near the target",
+          "fullTooltip": "Enemy Heroes near the target suffer 75% of the transferred Health as damage over 3 seconds.  Does not benefit from Vampiric Touch.",
+          "abilityType": "Heroic",
+          "sort": 2
+        },
+        {
+          "nameId": "MalGanisFelClawsVanquishTheWeak",
+          "name": "Vanquish the Weak",
+          "shortTooltipId": "MalGanisFelClawsVanquishTheWeak",
+          "fullTooltipId": "MalGanisFelClawsVanquishTheWeak",
+          "icon": "storm_ui_icon_malganis_fel_1.png",
+          "shortTooltip": "Fel Claws and Basic Attacks Slow",
+          "fullTooltip": "Damage from Fel Claws and Basic Attacks Slows enemies by 15% for 1.5 seconds, and Vampiric Touch converts 10% more damage into healing versus Slowed Heroes.",
+          "abilityType": "Q",
+          "sort": 3
+        },
+        {
+          "nameId": "MalGanisNightRushAloneInTheDark",
+          "name": "Alone in the Dark",
+          "shortTooltipId": "MalGanisNightRushAloneInTheDark",
+          "fullTooltipId": "MalGanisNightRushAloneInTheDark",
+          "icon": "storm_ui_icon_malganis_nightrush.png",
+          "shortTooltip": "Night Rush reduces enemy vision",
+          "fullTooltip": "Enemy Heroes put to Sleep by Night Rush have their vision greatly reduced during the Sleep and for 2 seconds after.",
+          "abilityType": "E",
+          "sort": 4
+        }
+      ]
+    }
+  }
