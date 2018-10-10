@@ -15,7 +15,8 @@
         "hotkey": "Q",
         "abilityId": "The Lost Vikings|Q1",
         "cooldown": 10,
-        "icon": "storm_ui_icon_lostvikings_spintowin.png"
+        "icon": "storm_ui_icon_lostvikings_spintowin.png",
+        "type": "basic"
       },
       {
         "name": "Nordic Attack Squad",
@@ -23,14 +24,16 @@
         "hotkey": "W",
         "abilityId": "The Lost Vikings|W1",
         "cooldown": 30,
-        "icon": "storm_ui_icon_talent_autoattack_damage.png"
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "type": "basic"
       },
       {
         "name": "Viking Bribery",
         "description": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Bosses. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.  Current number of Bribe stacks: 0",
         "hotkey": "E",
         "abilityId": "The Lost Vikings|E1",
-        "icon": "storm_ui_icon_talent_bribe.png"
+        "icon": "storm_ui_icon_talent_bribe.png",
+        "type": "basic"
       },
       {
         "name": "Play Again!",
@@ -38,7 +41,8 @@
         "hotkey": "R",
         "abilityId": "The Lost Vikings|R1",
         "cooldown": 80,
-        "icon": "storm_ui_icon_lostvikings_playagain.png"
+        "icon": "storm_ui_icon_lostvikings_playagain.png",
+        "type": "heroic"
       },
       {
         "name": "Longboat Raid!",
@@ -46,14 +50,16 @@
         "hotkey": "R",
         "abilityId": "The Lost Vikings|R2",
         "cooldown": 90,
-        "icon": "storm_ui_icon_lostvikings_longboatraid.png"
+        "icon": "storm_ui_icon_lostvikings_longboatraid.png",
+        "type": "heroic"
       },
       {
         "name": "Viking Hoard",
         "description": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.",
         "trait": true,
         "abilityId": "The Lost Vikings|D1",
-        "icon": "storm_ui_icon_lostvikings_vikinghoard.png"
+        "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
+        "type": "trait"
       },
       {
         "name": "Go Go Go!",
@@ -61,34 +67,39 @@
         "hotkey": "Z",
         "abilityId": "The Lost Vikings|Z1",
         "cooldown": 30,
-        "icon": "storm_ui_icon_lostvikings_mount.png"
+        "icon": "storm_ui_icon_lostvikings_mount.png",
+        "type": "mount"
       },
       {
         "name": "Select Olaf",
         "description": "Olaf can charge enemies and slow their Movement Speed by 30% for 3 seconds by right-clicking on them. 8 second cooldown.  Olaf gains increased Health Regeneration when out of combat for 4 seconds.",
         "hotkey": "1",
         "abilityId": "The Lost Vikings|11",
-        "icon": "storm_ui_icon_lostvikings_selectolaf.png"
+        "icon": "storm_ui_icon_lostvikings_selectolaf.png",
+        "type": "activable"
       },
       {
         "name": "Select Baleog",
         "description": "Baleog's Basic Attacks deal 50% splash damage to enemies behind his attack target.",
         "hotkey": "2",
         "abilityId": "The Lost Vikings|21",
-        "icon": "storm_ui_icon_lostvikings_selectbaleog.png"
+        "icon": "storm_ui_icon_lostvikings_selectbaleog.png",
+        "type": "activable"
       },
       {
         "name": "Select Erik",
         "description": "Erik moves faster than the other Vikings and has increased Basic Attack range.",
         "hotkey": "3",
         "abilityId": "The Lost Vikings|31",
-        "icon": "storm_ui_icon_lostvikings_selecterik.png"
+        "icon": "storm_ui_icon_lostvikings_selecterik.png",
+        "type": "activable"
       },
       {
         "name": "Select All Vikings",
         "description": "The Lost Vikings can be controlled individually or as a group. Each Viking has particular strengths.",
         "hotkey": "4",
-        "abilityId": "The Lost Vikings|41"
+        "abilityId": "The Lost Vikings|41",
+        "type": "activable"
       }
     ]
   },

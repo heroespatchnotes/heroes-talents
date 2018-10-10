@@ -16,7 +16,8 @@
         "abilityId": "Kharazim|Q1",
         "cooldown": 12,
         "manaCost": "30",
-        "icon": "storm_ui_icon_monk_dash.png"
+        "icon": "storm_ui_icon_monk_dash.png",
+        "type": "basic"
       },
       {
         "name": "Breath of Heaven",
@@ -25,7 +26,8 @@
         "abilityId": "Kharazim|W1",
         "cooldown": 10,
         "manaCost": "65",
-        "icon": "storm_ui_icon_monk_breath0fheaven.png"
+        "icon": "storm_ui_icon_monk_breath0fheaven.png",
+        "type": "basic"
       },
       {
         "name": "Deadly Reach",
@@ -34,7 +36,8 @@
         "abilityId": "Kharazim|E1",
         "cooldown": 10,
         "manaCost": "50",
-        "icon": "storm_ui_icon_monk_deadlyreach.png"
+        "icon": "storm_ui_icon_monk_deadlyreach.png",
+        "type": "basic"
       },
       {
         "name": "Seven-Sided Strike",
@@ -43,7 +46,8 @@
         "abilityId": "Kharazim|R1",
         "cooldown": 50,
         "manaCost": "77",
-        "icon": "storm_ui_icon_monk_sevensidedstrike.png"
+        "icon": "storm_ui_icon_monk_sevensidedstrike.png",
+        "type": "heroic"
       },
       {
         "name": "Divine Palm",
@@ -52,28 +56,32 @@
         "abilityId": "Kharazim|R2",
         "cooldown": 60,
         "manaCost": "50",
-        "icon": "storm_ui_icon_monk_divinepalm.png"
+        "icon": "storm_ui_icon_monk_divinepalm.png",
+        "type": "heroic"
       },
       {
         "name": "Transcendence",
         "description": "Every 3rd Basic Attack heals the lowest nearby allied Hero for 104 (+4% per level) and gives 25% increased Move Speed for 2 seconds.",
         "trait": true,
         "abilityId": "Kharazim|D1",
-        "icon": "storm_ui_icon_monk_trait_transcendence.png"
+        "icon": "storm_ui_icon_monk_trait_transcendence.png",
+        "type": "trait"
       },
       {
         "name": "Insight",
         "description": "Quest: Every 3rd Basic Attack restores 14 (+4% per level) Mana, grants a stack of Insight, and gives 25% increased Movement Speed for 2 seconds.  Reward: Upon getting 100 stacks of Insight, every 3rd attack also reduces Basic Ability cooldowns by 1.75 seconds.",
         "trait": true,
         "abilityId": "Kharazim|D2",
-        "icon": "storm_ui_icon_monk_trait_insight.png"
+        "icon": "storm_ui_icon_monk_trait_insight.png",
+        "type": "trait"
       },
       {
         "name": "Iron Fists",
         "description": "Every 3rd Basic Attack deals 110% bonus damage and gives 25% increased Move Speed for 2 seconds.",
         "trait": true,
         "abilityId": "Kharazim|D3",
-        "icon": "storm_ui_icon_monk_trait_ironfist.png"
+        "icon": "storm_ui_icon_monk_trait_ironfist.png",
+        "type": "trait"
       }
     ]
   },

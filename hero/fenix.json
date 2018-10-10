@@ -15,14 +15,16 @@
         "hotkey": "Q",
         "abilityId": "Fenix|Q1",
         "cooldown": 12,
-        "icon": "storm_ui_icon_fenix_q.png"
+        "icon": "storm_ui_icon_fenix_q.png",
+        "type": "basic"
       },
       {
         "name": "Weapon Modes",
         "description": "Activate to change between Weapon Mode: Repeater Cannon and Weapon Mode: Phase Bomb.  Weapon Mode: Repeater Cannon: Basic Attack speed increased by 150%.  Weapon Mode: Phase Bomb: Basic Attacks have 1.25 increased range, deal 25% more damage, and splash to nearby enemies.",
         "hotkey": "W",
         "abilityId": "Fenix|W1",
-        "icon": "storm_ui_icon_fenix_w_2.png"
+        "icon": "storm_ui_icon_fenix_w_2.png",
+        "type": "basic"
       },
       {
         "name": "Warp",
@@ -30,7 +32,8 @@
         "hotkey": "E",
         "abilityId": "Fenix|E1",
         "cooldown": 17,
-        "icon": "storm_ui_icon_fenix_teleport.png"
+        "icon": "storm_ui_icon_fenix_teleport.png",
+        "type": "basic"
       },
       {
         "name": "Purification Salvo",
@@ -38,7 +41,8 @@
         "hotkey": "R",
         "abilityId": "Fenix|R1",
         "cooldown": 90,
-        "icon": "storm_ui_icon_fenix_r_scan.png"
+        "icon": "storm_ui_icon_fenix_r_scan.png",
+        "type": "heroic"
       },
       {
         "name": "Planet Cracker",
@@ -46,14 +50,16 @@
         "hotkey": "R",
         "abilityId": "Fenix|R2",
         "cooldown": 100,
-        "icon": "storm_ui_icon_fenix_r_planet_cracker.png"
+        "icon": "storm_ui_icon_fenix_r_planet_cracker.png",
+        "type": "heroic"
       },
       {
         "name": "Shield Capacitor",
         "description": "Fenix has a permanent 760 (+4% per level) Shield which regenerates at 76 (+4% per level) per second after not taking damage for 5 seconds.",
         "trait": true,
         "abilityId": "Fenix|D1",
-        "icon": "storm_ui_icon_fenix_shield_1.png"
+        "icon": "storm_ui_icon_fenix_shield_1.png",
+        "type": "trait"
       }
     ]
   },

@@ -16,7 +16,8 @@
         "abilityId": "Lt. Morales|Q1",
         "cooldown": 0.5,
         "manaCost": "6 per second",
-        "icon": "storm_ui_icon_medic_healingbeam.png"
+        "icon": "storm_ui_icon_medic_healingbeam.png",
+        "type": "basic"
       },
       {
         "name": "Safeguard",
@@ -24,7 +25,8 @@
         "hotkey": "W",
         "abilityId": "Lt. Morales|W1",
         "cooldown": 12,
-        "icon": "storm_ui_icon_medic_deployshield.png"
+        "icon": "storm_ui_icon_medic_deployshield.png",
+        "type": "basic"
       },
       {
         "name": "Displacement Grenade",
@@ -32,7 +34,8 @@
         "hotkey": "E",
         "abilityId": "Lt. Morales|E1",
         "cooldown": 12,
-        "icon": "storm_ui_icon_medic_displacementgrenade.png"
+        "icon": "storm_ui_icon_medic_displacementgrenade.png",
+        "type": "basic"
       },
       {
         "name": "Stim Drone",
@@ -40,7 +43,8 @@
         "hotkey": "R",
         "abilityId": "Lt. Morales|R1",
         "cooldown": 90,
-        "icon": "storm_ui_icon_medic_stim.png"
+        "icon": "storm_ui_icon_medic_stim.png",
+        "type": "heroic"
       },
       {
         "name": "Medivac Dropship",
@@ -48,14 +52,16 @@
         "hotkey": "R",
         "abilityId": "Lt. Morales|R2",
         "cooldown": 60,
-        "icon": "storm_ui_icon_medic_medivacdropship.png"
+        "icon": "storm_ui_icon_medic_medivacdropship.png",
+        "type": "heroic"
       },
       {
         "name": "Caduceus Reactor",
         "description": "While channeling Healing Beam, Lt. Morales regenerates 2% of her maximum Health per second.",
         "trait": true,
         "abilityId": "Lt. Morales|D1",
-        "icon": "storm_ui_icon_medic_caduceusreactor.png"
+        "icon": "storm_ui_icon_medic_caduceusreactor.png",
+        "type": "trait"
       }
     ]
   },

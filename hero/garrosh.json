@@ -16,7 +16,8 @@
         "abilityId": "Garrosh|Q1",
         "cooldown": 8,
         "manaCost": "30",
-        "icon": "storm_ui_icon_garrosh_groundbreaker.png"
+        "icon": "storm_ui_icon_garrosh_groundbreaker.png",
+        "type": "basic"
       },
       {
         "name": "Bloodthirst",
@@ -25,7 +26,8 @@
         "abilityId": "Garrosh|W1",
         "cooldown": 12,
         "manaCost": "55",
-        "icon": "storm_ui_icon_garrosh_bloodthirst.png"
+        "icon": "storm_ui_icon_garrosh_bloodthirst.png",
+        "type": "basic"
       },
       {
         "name": "Wrecking Ball",
@@ -34,7 +36,8 @@
         "abilityId": "Garrosh|E1",
         "cooldown": 14,
         "manaCost": "60",
-        "icon": "storm_ui_icon_garrosh_wrecking_ball.png"
+        "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
+        "type": "basic"
       },
       {
         "name": "Warlord's Challenge",
@@ -43,7 +46,8 @@
         "abilityId": "Garrosh|R1",
         "cooldown": 50,
         "manaCost": "40",
-        "icon": "storm_ui_icon_garrosh_warlords_challenge.png"
+        "icon": "storm_ui_icon_garrosh_warlords_challenge.png",
+        "type": "heroic"
       },
       {
         "name": "Decimate",
@@ -52,14 +56,16 @@
         "abilityId": "Garrosh|R2",
         "cooldown": 8,
         "manaCost": "25",
-        "icon": "storm_ui_icon_garrosh_decimate.png"
+        "icon": "storm_ui_icon_garrosh_decimate.png",
+        "type": "heroic"
       },
       {
         "name": "Armor Up",
         "description": "Garrosh gains 1 Armor for every 2% of maximum Health missing.",
         "trait": true,
         "abilityId": "Garrosh|D1",
-        "icon": "storm_ui_icon_garrosh_armor_up.png"
+        "icon": "storm_ui_icon_garrosh_armor_up.png",
+        "type": "trait"
       }
     ]
   },

@@ -16,7 +16,8 @@
         "abilityId": "Whitemane|Q1",
         "cooldown": 0.3,
         "manaCost": "30",
-        "icon": "storm_ui_icon_whitemane_desperation.png"
+        "icon": "storm_ui_icon_whitemane_desperation.png",
+        "type": "basic"
       },
       {
         "name": "Inquisition",
@@ -24,7 +25,8 @@
         "hotkey": "W",
         "abilityId": "Whitemane|W1",
         "cooldown": 14,
-        "icon": "storm_ui_icon_whitemane_inquisition.png"
+        "icon": "storm_ui_icon_whitemane_inquisition.png",
+        "type": "basic"
       },
       {
         "name": "Searing Lash",
@@ -32,7 +34,8 @@
         "hotkey": "E",
         "abilityId": "Whitemane|E1",
         "cooldown": 6,
-        "icon": "storm_ui_icon_whitemane_lash.png"
+        "icon": "storm_ui_icon_whitemane_lash.png",
+        "type": "basic"
       },
       {
         "name": "Scarlet Aegis",
@@ -40,7 +43,8 @@
         "hotkey": "R",
         "abilityId": "Whitemane|R1",
         "cooldown": 60,
-        "icon": "storm_ui_icon_whitemane_aegis.png"
+        "icon": "storm_ui_icon_whitemane_aegis.png",
+        "type": "heroic"
       },
       {
         "name": "Divine Reckoning",
@@ -48,14 +52,16 @@
         "hotkey": "R",
         "abilityId": "Whitemane|R2",
         "cooldown": 100,
-        "icon": "storm_ui_icon_whitemane_reckoning.png"
+        "icon": "storm_ui_icon_whitemane_reckoning.png",
+        "type": "heroic"
       },
       {
         "name": "Zeal",
         "description": "Whitemane's healing Abilities apply Zeal for 8 seconds.  Allies with Zeal are healed for 100% of the damage Whitemane deals to Heroes.",
         "trait": true,
         "abilityId": "Whitemane|D1",
-        "icon": "storm_ui_icon_whitemane_zeal.png"
+        "icon": "storm_ui_icon_whitemane_zeal.png",
+        "type": "trait"
       }
     ]
   },
