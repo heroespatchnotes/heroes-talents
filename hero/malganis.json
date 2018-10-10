@@ -16,7 +16,8 @@
         "abilityId": "Mal'Ganis|Q1",
         "cooldown": 8,
         "manaCost": "50",
-        "icon": "storm_ui_icon_malganis_fel_1.png"
+        "icon": "storm_ui_icon_malganis_fel_1.png",
+        "type": "basic"
       },
       {
         "name": "Necrotic Embrace",
@@ -25,7 +26,8 @@
         "abilityId": "Mal'Ganis|W1",
         "cooldown": 8,
         "manaCost": "30",
-        "icon": "storm_ui_icon_malganis_necrotic.png"
+        "icon": "storm_ui_icon_malganis_necrotic.png",
+        "type": "basic"
       },
       {
         "name": "Night Rush",
@@ -34,7 +36,8 @@
         "abilityId": "Mal'Ganis|E1",
         "cooldown": 16,
         "manaCost": "70",
-        "icon": "storm_ui_icon_malganis_nightrush.png"
+        "icon": "storm_ui_icon_malganis_nightrush.png",
+        "type": "basic"
       },
       {
         "name": "Carrion Swarm",
@@ -43,7 +46,8 @@
         "abilityId": "Mal'Ganis|R1",
         "cooldown": 80,
         "manaCost": "70",
-        "icon": "storm_ui_icon_malganis_ult_swarm.png"
+        "icon": "storm_ui_icon_malganis_ult_swarm.png",
+        "type": "heroic"
       },
       {
         "name": "Dark Conversion",
@@ -52,14 +56,16 @@
         "abilityId": "Mal'Ganis|R2",
         "cooldown": 80,
         "manaCost": "70",
-        "icon": "storm_ui_icon_malganis_ult_conversion.png"
+        "icon": "storm_ui_icon_malganis_ult_conversion.png",
+        "type": "heroic"
       },
       {
         "name": "Vampiric Touch",
         "description": "Mal'Ganis heals for 45% of damage dealt to enemy Heroes and 15% of damage dealt to non-Heroes.",
         "trait": true,
         "abilityId": "Mal'Ganis|D1",
-        "icon": "storm_ui_icon_malganis_trait.png"
+        "icon": "storm_ui_icon_malganis_trait.png",
+        "type": "trait"
       }
     ]
   },

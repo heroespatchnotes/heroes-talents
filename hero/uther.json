@@ -16,7 +16,8 @@
         "abilityId": "Uther|Q1",
         "cooldown": 12,
         "manaCost": "90",
-        "icon": "storm_ui_icon_uther_holylight.png"
+        "icon": "storm_ui_icon_uther_holylight.png",
+        "type": "basic"
       },
       {
         "name": "Holy Radiance",
@@ -25,7 +26,8 @@
         "abilityId": "Uther|W1",
         "cooldown": 12,
         "manaCost": "70",
-        "icon": "storm_ui_icon_uther_holyradiance.png"
+        "icon": "storm_ui_icon_uther_holyradiance.png",
+        "type": "basic"
       },
       {
         "name": "Hammer of Justice",
@@ -34,7 +36,8 @@
         "abilityId": "Uther|E1",
         "cooldown": 8,
         "manaCost": "40",
-        "icon": "storm_ui_icon_uther_hammerofjustice.png"
+        "icon": "storm_ui_icon_uther_hammerofjustice.png",
+        "type": "basic"
       },
       {
         "name": "Divine Shield",
@@ -43,7 +46,8 @@
         "abilityId": "Uther|R1",
         "cooldown": 90,
         "manaCost": "80",
-        "icon": "storm_ui_icon_uther_divineshield.png"
+        "icon": "storm_ui_icon_uther_divineshield.png",
+        "type": "heroic"
       },
       {
         "name": "Divine Storm",
@@ -52,21 +56,24 @@
         "abilityId": "Uther|R2",
         "cooldown": 80,
         "manaCost": "80",
-        "icon": "storm_ui_icon_uther_divinestorm.png"
+        "icon": "storm_ui_icon_uther_divinestorm.png",
+        "type": "heroic"
       },
       {
         "name": "Devotion",
         "description": "Heroes healed by Uther's Basic Abilities gain 15 Armor for 2 seconds. This effect does not stack with itself.",
         "trait": true,
         "abilityId": "Uther|D1",
-        "icon": "storm_ui_icon_uther_eternaldevotion.png"
+        "icon": "storm_ui_icon_uther_eternaldevotion.png",
+        "type": "trait"
       },
       {
         "name": "Eternal Vanguard",
         "description": "Upon dying, Uther becomes an Invulnerable spirit for up to 8 seconds. While in spirit form, Uther can heal allies with Flash of Light.",
         "trait": true,
         "abilityId": "Uther|D2",
-        "icon": "storm_ui_icon_uther_eternaldevotion.png"
+        "icon": "storm_ui_icon_uther_eternaldevotion.png",
+        "type": "sub-trait"
       }
     ],
     "UtherEternalVanguard": [
@@ -76,7 +83,8 @@
         "hotkey": "Q",
         "abilityId": "Uther|Q2",
         "cooldown": 1.5,
-        "icon": "storm_ui_icon_uther_flashoflight.png"
+        "icon": "storm_ui_icon_uther_flashoflight.png",
+        "type": "sub-basic"
       }
     ]
   },

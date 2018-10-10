@@ -16,7 +16,8 @@
         "abilityId": "Malthael|Q1",
         "cooldown": 2,
         "manaCost": "25",
-        "icon": "storm_ui_icon_malthael_soulrip.png"
+        "icon": "storm_ui_icon_malthael_soulrip.png",
+        "type": "basic"
       },
       {
         "name": "Wraith Strike",
@@ -25,7 +26,8 @@
         "abilityId": "Malthael|W1",
         "cooldown": 5,
         "manaCost": "30",
-        "icon": "storm_ui_icon_malthael_wraithstrike.png"
+        "icon": "storm_ui_icon_malthael_wraithstrike.png",
+        "type": "basic"
       },
       {
         "name": "Death Shroud",
@@ -34,7 +36,8 @@
         "abilityId": "Malthael|E1",
         "cooldown": 8,
         "manaCost": "50",
-        "icon": "storm_ui_icon_malthael_deathshroud.png"
+        "icon": "storm_ui_icon_malthael_deathshroud.png",
+        "type": "basic"
       },
       {
         "name": "Tormented Souls",
@@ -43,7 +46,8 @@
         "abilityId": "Malthael|R1",
         "cooldown": 80,
         "manaCost": "100",
-        "icon": "storm_ui_icon_malthael_tormentedsoul.png"
+        "icon": "storm_ui_icon_malthael_tormentedsoul.png",
+        "type": "heroic"
       },
       {
         "name": "Last Rites",
@@ -52,14 +56,16 @@
         "abilityId": "Malthael|R2",
         "cooldown": 65,
         "manaCost": "100",
-        "icon": "storm_ui_icon_malthael_lastrites.png"
+        "icon": "storm_ui_icon_malthael_lastrites.png",
+        "type": "heroic"
       },
       {
         "name": "Reaper's Mark",
         "description": "Basic Attacks cleave in an area in front of Malthael and afflict non-Structure targets with Reaper's Mark for 4 seconds.  Marked enemies are revealed and take damage equal to 1.75% of their maximum Health every 1 second.",
         "trait": true,
         "abilityId": "Malthael|D1",
-        "icon": "storm_ui_icon_malthael_reapersmark.png"
+        "icon": "storm_ui_icon_malthael_reapersmark.png",
+        "type": "trait"
       }
     ]
   },
