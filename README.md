@@ -300,6 +300,10 @@ Example:
   <img class="img-rounded" src="images/heroes/malfurion.png" />
   <span>Malfurion</span>
 </a>
+<a class="img-wrap" href="hero/malganis.json">
+  <img class="img-rounded" src="images/heroes/malganis.png" />
+  <span>Mal'Ganis</span>
+</a>
 <a class="img-wrap" href="hero/malthael.json">
   <img class="img-rounded" src="images/heroes/malthael.png" />
   <span>Malthael</span>
