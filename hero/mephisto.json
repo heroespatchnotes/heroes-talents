@@ -50,7 +50,7 @@
         "description": "After 1 second, unleash a wave of evil spirits that Root the first enemy Hero hit for 2.5 seconds and deal 250 (+4% per level) damage to them over the same duration.  Durance of Hate spreads outwards from its initial target, Rooting and damaging additional nearby enemy Heroes.",
         "hotkey": "R",
         "abilityId": "Mephisto|R2",
-        "cooldown": 80,
+        "cooldown": 60,
         "manaCost": "60",
         "icon": "storm_ui_icon_mephisto_durance.png"
       },
@@ -87,7 +87,7 @@
         "tooltipId": "MephistoShadeOfMephistoMaliciousIntent",
         "talentTreeId": "MephistoShadeOfMephistoMaliciousIntent",
         "name": "Malicious Intent",
-        "description": "Shade of Mephisto grants 20% Spell Power while active and for 2.5 seconds after ending.",
+        "description": "Shade of Mephisto grants 15% Spell Power while active and for 2.5 seconds after ending.",
         "icon": "storm_ui_icon_mephisto_shade.png",
         "sort": 3,
         "abilityId": "Mephisto|E1"
@@ -107,7 +107,7 @@
         "tooltipId": "MephistoSkullMissileHatefulMending",
         "talentTreeId": "MephistoSkullMissileHatefulMending",
         "name": "Hateful Mending",
-        "description": "Skull Missile heals Mephisto for 50% of the damage it deals to Heroes.",
+        "description": "Skull Missile heals Mephisto for 60% of the damage it deals to Heroes.",
         "icon": "storm_ui_icon_mephisto_skull.png",
         "sort": 1,
         "abilityId": "Mephisto|Q1"
@@ -116,7 +116,7 @@
         "tooltipId": "MephistoLightningNovaStaticBarrier",
         "talentTreeId": "MephistoLightningNovaStaticBarrier",
         "name": "Static Barrier",
-        "description": "At the end of its duration, Lightning Nova grants Mephisto a Shield equal to 40% of the damage it dealt to Heroes. Lasts 7 seconds.",
+        "description": "At the end of its duration, Lightning Nova grants Mephisto a Shield equal to 40% of the damage it dealt to Heroes. Lasts 5 seconds.",
         "icon": "storm_ui_icon_mephisto_lightning.png",
         "sort": 2,
         "abilityId": "Mephisto|W1"
@@ -125,7 +125,7 @@
         "tooltipId": "MephistoSpite",
         "talentTreeId": "MephistoSpite",
         "name": "Spite",
-        "description": "Increase Regeneration Globe healing duration by 60%. Every tick of Regeneration Globe healing activates Lord of Hatred, reducing Basic Ability cooldowns by 0.5 seconds.",
+        "description": "Increase Regeneration Globe healing duration by 100%. Every tick of Regeneration Globe healing activates Lord of Hatred, reducing Basic Ability cooldowns by 0.5 seconds.",
         "icon": "storm_ui_icon_mephisto_hatred.png",
         "sort": 3,
         "abilityId": "Mephisto|Passive"
@@ -179,7 +179,7 @@
         "icon": "storm_ui_icon_mephisto_durance.png",
         "sort": 2,
         "abilityId": "Mephisto|R2",
-        "cooldown": 80
+        "cooldown": 60
       }
     ],
     "13": [

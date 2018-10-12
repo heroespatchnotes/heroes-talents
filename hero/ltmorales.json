@@ -20,15 +20,15 @@
       },
       {
         "name": "Safeguard",
-        "description": "Grant target ally Hero 25 Armor for 3 seconds.",
+        "description": "Grant target ally Hero 30 Armor for 3 seconds.",
         "hotkey": "W",
         "abilityId": "Lt. Morales|W1",
-        "cooldown": 12,
+        "cooldown": 10,
         "icon": "storm_ui_icon_medic_deployshield.png"
       },
       {
         "name": "Displacement Grenade",
-        "description": "Fire a grenade that can be manually detonated, dealing 198 (+4% per level) to nearby enemies and knocking them away.",
+        "description": "Fire a grenade that can be manually detonated, dealing 208 (+4% per level) to nearby enemies and knocking them away.",
         "hotkey": "E",
         "abilityId": "Lt. Morales|E1",
         "cooldown": 12,
@@ -124,7 +124,7 @@
         "tooltipId": "MedicPhysicalTherapy",
         "talentTreeId": "MedicPhysicalTherapy",
         "name": "Physical Therapy",
-        "description": "Safeguard removes all Slows from its target. When a Slow is removed this way, reduce the cooldown of Safeguard by 4 seconds.",
+        "description": "Safeguard removes all Slows from its target. When a Slow is removed this way, reduce the cooldown of Safeguard by 5 seconds.",
         "icon": "storm_ui_icon_medic_deployshield.png",
         "sort": 1,
         "abilityId": "Lt. Morales|W1"
@@ -133,7 +133,7 @@
         "tooltipId": "MedicVanadiumPlating",
         "talentTreeId": "MedicVanadiumPlating",
         "name": "Vanadium Plating",
-        "description": "While an ally affected by Safeguard is Stunned, Safeguard grants an additional 25 Armor and its duration is paused.",
+        "description": "While an ally affected by Safeguard is Rooted or Stunned, Safeguard grants an additional 25 Armor and its duration is paused.",
         "icon": "storm_ui_icon_medic_deployshield_b.png",
         "sort": 2,
         "abilityId": "Lt. Morales|W1"
@@ -175,7 +175,7 @@
         "tooltipId": "MedicEMPGrenadeTalent",
         "talentTreeId": "MedicEMPGrenade",
         "name": "EMP Grenade",
-        "description": "Displacement Grenade deals an additional 80 (+4% per level) damage over 2 seconds, and up to 400 (+4% per level) bonus damage to Shields.",
+        "description": "Displacement Grenade deals an additional 96 (+4% per level) damage over 2 seconds, and up to 400 (+4% per level) bonus damage to Shields.",
         "icon": "storm_ui_icon_medic_displacementgrenade.png",
         "sort": 1,
         "abilityId": "Lt. Morales|E1"
