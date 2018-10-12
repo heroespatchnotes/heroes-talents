@@ -23,7 +23,7 @@
         "description": "Protect an allied Hero from all damage for 1.5 seconds.  Upon expiration, Force of Will heals the target for 20% of the damage it absorbed.",
         "hotkey": "W",
         "abilityId": "Medivh|W1",
-        "cooldown": 8,
+        "cooldown": 9,
         "manaCost": "60",
         "icon": "storm_ui_icon_medivh_forceofwill.png"
       },
@@ -100,7 +100,7 @@
         "tooltipId": "MedivhPortalMageArmor",
         "talentTreeId": "MedivhPortalMageArmor",
         "name": "Mage Armor",
-        "description": "The first time an ally uses a Portal, they gain 25 Armor for 4 seconds, reducing their damage taken by 25%.",
+        "description": "The first time an ally uses a Portal, they gain 30 Armor for 4 seconds, reducing their damage taken by 30%.",
         "icon": "storm_ui_icon_medivh_portal.png",
         "sort": 1,
         "abilityId": "Medivh|E1"
@@ -148,7 +148,7 @@
         "tooltipId": "MedivhForceofMagic",
         "talentTreeId": "MedivhForceofMagic",
         "name": "Force of Magic",
-        "description": "Preventing at least 268 (+4% per level) damage with a single cast of Force of Will grants 25% Spell Power for 15 seconds. Stacks up to 2 times.",
+        "description": "Preventing at least 268 (+4% per level) damage with a single cast of Force of Will grants 30%  Spell Power for 15 seconds. Stacks up to 2 times.",
         "icon": "storm_ui_icon_medivh_forceofwill_b.png",
         "sort": 3,
         "abilityId": "Medivh|W1"
@@ -190,7 +190,7 @@
         "tooltipId": "MedivhForceOfWillEnduringWill",
         "talentTreeId": "MedivhForceOfWillEnduringWill",
         "name": "Enduring Will",
-        "description": "Preventing at least 268 (+4% per level) damage with Force of Will reduces its cooldown to 3 seconds.",
+        "description": "Preventing at least 268 (+4% per level) damage with Force of Will reduces its cooldown to 4 seconds.",
         "icon": "storm_ui_icon_medivh_forceofwill_a.png",
         "sort": 2,
         "abilityId": "Medivh|W1"
