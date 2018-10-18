@@ -56,11 +56,11 @@
       },
       {
         "name": "Soothing Mist",
-        "description": "Activate to remove all Stun, Root, Slow, and Silence effects from nearby allied Heroes.  Passive: Brightwing heals nearby allied Heroes for 100 (+4% per level) every 4 seconds",
+        "description": "Activate to remove all Stun, Root, Slow, and Silence effects from nearby allied Heroes.  Passive: Brightwing heals nearby allied Heroes for 105 (+4% per level) every 4 seconds",
         "hotkey": "D",
         "trait": true,
         "abilityId": "Brightwing|D1",
-        "cooldown": 120,
+        "cooldown": 100,
         "icon": "storm_ui_icon_brightwing_soothingmist.png"
       },
       {
@@ -155,7 +155,7 @@
         "tooltipId": "BrightwingCalmingMistCriticalMist",
         "talentTreeId": "BrightwingCriticalMistCalmingMist",
         "name": "Critical Mist",
-        "description": "If Soothing Mist removes a disabling effect from an ally, heal them for 200 (+4% per level).",
+        "description": "If Soothing Mist removes a disabling effect from an ally, heal them for 250 (+4% per level).",
         "icon": "storm_ui_icon_brightwing_soothingmist.png",
         "sort": 3,
         "abilityId": "Brightwing|D1"

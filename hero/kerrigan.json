@@ -56,7 +56,7 @@
       },
       {
         "name": "Assimilation",
-        "description": "Gain 15% of damage dealt from Basic Attacks and Abilities as Shields for 6 seconds. Shield amount gained doubled against Heroes.  Current maximum: 1004 (+4% per level)",
+        "description": "Gain 10% of damage dealt from Basic Attacks and Abilities as Shields for 6 seconds. Shield amount gained doubled against Heroes.  Current maximum: 1004 (+4% per level)",
         "trait": true,
         "abilityId": "Kerrigan|D1",
         "icon": "storm_ui_icon_kerrigan_assimilation.png"
@@ -87,7 +87,7 @@
         "tooltipId": "KerriganAssimilationFuryOfTheSwarmTalent",
         "talentTreeId": "KerriganFuryOfTheSwarm",
         "name": "Fury of the Swarm",
-        "description": "Gain 10% more Assimilation Shields from Basic Attacks. After casting Ravage, Kerrigan's next 2 Basic Attacks within 3 seconds splash for 100% damage around the target.",
+        "description": "Gain 10% more Assimilation Shields from Basic Attacks. After casting Ravage, Kerrigan's next Basic Attack within 3 seconds splashes for 100% damage around the target.",
         "icon": "storm_ui_icon_talent_autoattack_aoe.png",
         "sort": 3,
         "abilityId": "Kerrigan|Passive"
@@ -107,7 +107,7 @@
         "tooltipId": "KerriganImpalingBladesKineticFulmination",
         "talentTreeId": "KerriganImpalingBladesKineticFulmination",
         "name": "Kinetic Fulmination",
-        "description": "Damaging an enemy increases the damage of Kerrigan's next Impaling Blades within 10 seconds by 15%, up to 150%.",
+        "description": "Damaging an enemy increases the damage of Kerrigan's next Impaling Blades within 10 seconds by 10%, up to 100%.",
         "icon": "storm_ui_icon_kerrigan_impalingblades.png",
         "sort": 2,
         "abilityId": "Kerrigan|W1"
@@ -127,7 +127,7 @@
         "tooltipId": "KerriganRavageQueenOfBlades",
         "talentTreeId": "KerriganRavageQueenOfBlades",
         "name": "Queen of Blades",
-        "description": "Damaging a Hero with Primal Grasp reduces Ravage's cooldown by 4 seconds.",
+        "description": "Damaging a Hero with Primal Grasp reduces Ravage's cooldown by 6 seconds.",
         "icon": "storm_ui_icon_kerrigan_ravage.png",
         "sort": 1,
         "abilityId": "Kerrigan|Q1"
@@ -187,7 +187,7 @@
         "tooltipId": "KerriganAssimilationVolatilePower",
         "talentTreeId": "KerriganAssimilationVolatilePower",
         "name": "Volatile Power",
-        "description": "Increase the amount of Assimilation Shields granted from damage dealt by 15%, but reduce duration of Assimilation by 3 seconds.",
+        "description": "Increase the amount of Assimilation Shields granted from damage dealt by 10%, but reduce duration of Assimilation by 3 seconds.",
         "icon": "storm_ui_icon_kerrigan_assimilation.png",
         "sort": 2,
         "abilityId": "Kerrigan|D1"
@@ -217,7 +217,7 @@
         "tooltipId": "KerriganImpalingBladesPainfulSpikes",
         "talentTreeId": "KerriganImpalingBladesPainfulSpikes",
         "name": "Painful Spikes",
-        "description": "Enemies hit by Impaling Blades take an additional 75 (+4% per level) damage the next 6 times Kerrigan damages them within 5 seconds.",
+        "description": "Enemies hit by Impaling Blades take an additional 70 (+4% per level) damage the next 6 times Kerrigan damages them within 5 seconds.",
         "icon": "storm_ui_icon_kerrigan_impalingblades.png",
         "sort": 2,
         "abilityId": "Kerrigan|W1"
@@ -237,7 +237,7 @@
         "tooltipId": "KerriganMaelstromOmegastormTalent",
         "talentTreeId": "KerriganOmegastormMaelstrom",
         "name": "Omegastorm",
-        "description": "Maelstrom's duration is increased by 0.125 seconds every time it damages a Hero.",
+        "description": "Maelstrom's duration is increased by 0.1875 seconds every time it damages a Hero.",
         "icon": "storm_ui_icon_kerrigan_maelstrom.png",
         "sort": 1,
         "abilityId": "Kerrigan|R2"
