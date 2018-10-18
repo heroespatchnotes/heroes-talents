@@ -11,7 +11,7 @@
     "Ana": [
       {
         "name": "Healing Dart",
-        "description": "Fire a dart which heals the first allied Hero hit for 215 (+4% per level) Health.",
+        "description": "Fire a dart which heals the first allied Hero hit for 215 (+4% per level) Health. Does not affect full Health Heroes.",
         "hotkey": "Q",
         "abilityId": "Ana|Q1",
         "cooldown": 2,
@@ -110,7 +110,8 @@
         "description": "Shrike can be activated to increase vision radius by 100% and Basic Attack range by 2 but reduce Movement Speed by 20%. Lasts until canceled.",
         "icon": "storm_ui_icon_ana_aim_down_sights.png",
         "sort": 2,
-        "abilityId": "Ana|D1"
+        "abilityId": "Ana|D1",
+        "cooldown": 3
       },
       {
         "tooltipId": "AnaBioticGrenadeAirStrike",
