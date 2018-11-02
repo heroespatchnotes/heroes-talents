@@ -11,7 +11,7 @@
     "Mal'Ganis": [
       {
         "name": "Fel Claws",
-        "description": "Violently slash in the chosen direction, dealing 72 (+4% per level) damage to enemies.  Reactivate to slash up to 2 more times. The third slash Stuns enemies for 0.75 seconds.",
+        "description": "Violently slash in the chosen direction, dealing 69 (+4% per level) damage to enemies.  Reactivate to slash up to 2 more times. The third slash Stuns enemies for 0.75 seconds.",
         "hotkey": "Q",
         "abilityId": "Mal'Ganis|Q1",
         "cooldown": 8,
@@ -38,7 +38,7 @@
       },
       {
         "name": "Carrion Swarm",
-        "description": "After 1 second, disperse into an Invulnerable swarm of bats for 3 seconds, dealing 132 (+4% per level) damage per second to enemies.  Vampiric Touch heals for 100% of Carrion Swarm's damage to Heroes.",
+        "description": "After 1 second, disperse into an Invulnerable swarm of bats for 3 seconds, dealing 132 (+4% per level) damage per second to enemies.  Vampiric Touch heals for 75% of Carrion Swarm's damage to Heroes.",
         "hotkey": "R",
         "abilityId": "Mal'Ganis|R1",
         "cooldown": 80,
@@ -56,7 +56,7 @@
       },
       {
         "name": "Vampiric Touch",
-        "description": "Mal'Ganis heals for 45% of damage dealt to enemy Heroes and 15% of damage dealt to non-Heroes.",
+        "description": "Mal'Ganis heals for 45% of damage dealt to enemy Heroes and 10% of damage dealt to non-Heroes.",
         "trait": true,
         "abilityId": "Mal'Ganis|D1",
         "icon": "storm_ui_icon_malganis_trait.png"
@@ -154,7 +154,7 @@
         "tooltipId": "MalGanisNightmareFuel",
         "talentTreeId": "MalGanisNightmareFuel",
         "name": "Nightmare Fuel",
-        "description": "Basic Attacks deal 30% more damage while in a bush and for 4 seconds after leaving. They also deal 125% more damage to Sleeping targets.",
+        "description": "Basic Attacks deal 30% more damage while in a bush and for 4 seconds after leaving. They also deal 150% more damage to Sleeping targets.",
         "icon": "storm_ui_icon_malganis_nightmarefuel.png",
         "sort": 4,
         "abilityId": "Mal'Ganis|Passive"
@@ -165,7 +165,7 @@
         "tooltipId": "MalGanisCarrionSwarm",
         "talentTreeId": "MalGanisCarrionSwarm",
         "name": "Carrion Swarm",
-        "description": "After 1 second, disperse into an Invulnerable swarm of bats for 3 seconds, dealing 132 (+4% per level) damage per second to enemies.  Vampiric Touch heals for 100% of Carrion Swarm's damage to Heroes.",
+        "description": "After 1 second, disperse into an Invulnerable swarm of bats for 3 seconds, dealing 132 (+4% per level) damage per second to enemies.  Vampiric Touch heals for 75% of Carrion Swarm's damage to Heroes.",
         "icon": "storm_ui_icon_malganis_ult_swarm.png",
         "sort": 1,
         "abilityId": "Mal'Ganis|R1",
@@ -205,7 +205,7 @@
         "tooltipId": "MalGanisVampiricTouchBloodRush",
         "talentTreeId": "MalGanisVampiricTouchBloodRush",
         "name": "Blood Rush",
-        "description": "When Mal'Ganis is healed, he gains 1% Movement Speed for 8 seconds, up to 15%.",
+        "description": "When Mal'Ganis is healed by a Hero, he gains 1% Movement Speed for 8 seconds, up to 15%.",
         "icon": "storm_ui_icon_malganis_trait.png",
         "sort": 3,
         "abilityId": "Mal'Ganis|D1"
@@ -216,7 +216,7 @@
         "tooltipId": "MalGanisNecroticEmbracePlagueBats",
         "talentTreeId": "MalGanisNecroticEmbracePlagueBats",
         "name": "Plague Bats",
-        "description": "Necrotic Embrace unleashes a wave of bats in front of Mal'Ganis, dealing 85 (+4% per level) damage.",
+        "description": "Necrotic Embrace unleashes a wave of bats in front of Mal'Ganis, dealing 81 (+4% per level) damage.",
         "icon": "storm_ui_icon_malganis_necrotic.png",
         "sort": 1,
         "abilityId": "Mal'Ganis|W1"
@@ -225,7 +225,7 @@
         "tooltipId": "MalGanisVampiricTouchFrenziedAssault",
         "talentTreeId": "MalGanisVampiricTouchFrenziedAssault",
         "name": "Frenzied Assault",
-        "description": "Basic Attacks against Heroes with a higher Health percentage grant 40% Attack Speed and 10% increased Physical Damage for 3 seconds.",
+        "description": "Basic Attacks against Heroes with a higher Health percentage grant 40% Attack Speed and 15% increased Physical Damage for 3 seconds.",
         "icon": "storm_ui_icon_malganis_trait.png",
         "sort": 2,
         "abilityId": "Mal'Ganis|Passive"
