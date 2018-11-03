@@ -11,7 +11,7 @@
     "Tyrande": [
       {
         "name": "Light of Elune",
-        "description": "Heal an ally for 265 (+4% per level). Light of Elune's cooldown is reduced by 1.5 seconds every time Tyrande damages an enemy.  Stores up to 2 charges. Cooldown replenishes all charges at the same time.",
+        "description": "Heal an ally Hero for 255 (+4% per level). Light of Elune's cooldown is reduced by 1.5 seconds every time Tyrande damages an enemy.  Stores up to 2 charges. Cooldown replenishes all charges at the same time.",
         "hotkey": "Q",
         "abilityId": "Tyrande|Q1",
         "cooldown": 15,
@@ -34,7 +34,7 @@
         "description": "After 0.75 seconds, deal 150 (+4% per level) damage and Stun enemies in the target area for 0.75 seconds.",
         "hotkey": "E",
         "abilityId": "Tyrande|E1",
-        "cooldown": 12,
+        "cooldown": 13,
         "manaCost": "60",
         "icon": "storm_ui_icon_tyrande_lunarflare.png",
         "type": "basic"
@@ -44,7 +44,7 @@
         "description": "Grant all allied Heroes Stealth for 10 seconds and heal them for 380 (+4% per level) Health over 10 seconds. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.",
         "hotkey": "R",
         "abilityId": "Tyrande|R1",
-        "cooldown": 80,
+        "cooldown": 90,
         "manaCost": "75",
         "icon": "storm_ui_icon_tyrande_shadowstalk.png",
         "type": "heroic"
@@ -95,7 +95,7 @@
         "tooltipId": "TyrandeKaldoreiResistance",
         "talentTreeId": "TyrandeKaldoreiResistance",
         "name": "Kaldorei Resistance",
-        "description": "Light of Elune grants the target 15 Spell Armor for 3 seconds. This effect stacks up to 2 times.",
+        "description": "Light of Elune grants the target 10 Spell Armor for 2 seconds. This effect stacks up to 2 times.",
         "icon": "storm_ui_icon_tyrande_lightofelune_a.png",
         "sort": 3,
         "abilityId": "Tyrande|Q1"
@@ -106,7 +106,7 @@
         "tooltipId": "TyrandeSentinelRangerTalent",
         "talentTreeId": "TyrandeRanger",
         "name": "Ranger",
-        "description": "Activate to make the next Sentinel pierce through all Heroes hit.  Passive: Sentinel's width is increased by 25% and deals up to 150% more damage based on distance traveled.",
+        "description": "Activate to make the next Sentinel pierce through all Heroes hit.  Passive: Sentinel's width is increased by 25% and deals up to 250% more damage based on distance traveled.",
         "icon": "storm_ui_icon_tyrande_sentinel.png",
         "sort": 1,
         "abilityId": "Tyrande|W1",
@@ -116,7 +116,7 @@
         "tooltipId": "TyrandeLunarFlareLunarBlazeTalent",
         "talentTreeId": "TyrandeMasteryLunarBlaze",
         "name": "Lunar Blaze",
-        "description": "Increase Lunar Flare's range by 40%.  Quest: Hitting a Hero with Lunar Flare increases its damage by 5%, up to 100%.",
+        "description": "Increase Lunar Flare's range by 30%.  Quest: Hitting a Hero with Lunar Flare increases its damage by 5%, up to 100%.",
         "icon": "storm_ui_icon_tyrande_lunarflare.png",
         "sort": 2,
         "abilityId": "Tyrande|E1"
@@ -171,7 +171,7 @@
         "icon": "storm_ui_icon_tyrande_shadowstalk.png",
         "sort": 1,
         "abilityId": "Tyrande|R1",
-        "cooldown": 80
+        "cooldown": 90
       },
       {
         "tooltipId": "TyrandeStarfall",
@@ -189,7 +189,7 @@
         "tooltipId": "TyrandeLightOfEluneQuickeningBlessingTalent",
         "talentTreeId": "TyrandeMasteryLightofEluneQuickeningBlessing",
         "name": "Quickening Blessing",
-        "description": "Gain 10% Movement Speed. Light of Elune increases the target's Movement Speed by 15% for 3 seconds.",
+        "description": "Gain 5% Movement Speed. Light of Elune increases the target's Movement Speed by 15% for 3 seconds.",
         "icon": "storm_ui_icon_tyrande_lightofelune.png",
         "sort": 1,
         "abilityId": "Tyrande|Q1"
@@ -274,7 +274,7 @@
         "tooltipId": "TyrandeIcebladeArrows",
         "talentTreeId": "TyrandeIcebladeArrows",
         "name": "Iceblade Arrows",
-        "description": "Increase Attack Speed by 25%. Basic Attacks against enemy Heroes reduce their damage dealt by 8% for 2 seconds. This effect stacks up to 5 times.",
+        "description": "Increase Attack Speed by 20%. Basic Attacks against enemy Heroes reduce their damage dealt by 8% for 2 seconds. This effect stacks up to 5 times.",
         "icon": "storm_ui_icon_talent_autoattack_slow.png",
         "sort": 4,
         "abilityId": "Tyrande|Passive"

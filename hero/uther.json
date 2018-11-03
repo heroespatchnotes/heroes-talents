@@ -11,7 +11,7 @@
     "Uther": [
       {
         "name": "Holy Light",
-        "description": "Heal target ally for 362 (+4% per level) Health. When used on a target other than Uther, also heal Uther for 181 (+4% per level) Health.",
+        "description": "Heal target allied Hero for 362 (+4% per level) Health. When used on a target other than Uther, also heal Uther for 181 (+4% per level) Health.",
         "hotkey": "Q",
         "abilityId": "Uther|Q1",
         "cooldown": 12,
@@ -21,7 +21,7 @@
       },
       {
         "name": "Holy Radiance",
-        "description": "Heal all allies in a line for 177 (+4% per level) Health, dealing 177 (+4% per level) damage to enemies.",
+        "description": "Heal all allied Heroes and Minions in a line for 177 (+4% per level) Health, dealing 177 (+4% per level) damage to enemies.",
         "hotkey": "W",
         "abilityId": "Uther|W1",
         "cooldown": 12,
@@ -31,7 +31,7 @@
       },
       {
         "name": "Hammer of Justice",
-        "description": "Deal 109 (+4% per level) damage and Stun the target for 0.75 seconds.",
+        "description": "Deal 109 (+4% per level) damage and Stun the target for 1 second.",
         "hotkey": "E",
         "abilityId": "Uther|E1",
         "cooldown": 8,
@@ -73,7 +73,7 @@
         "trait": true,
         "abilityId": "Uther|D2",
         "icon": "storm_ui_icon_uther_eternaldevotion.png",
-        "type": "sub-trait"
+        "type": "trait"
       }
     ],
     "UtherEternalVanguard": [
@@ -204,7 +204,7 @@
         "tooltipId": "UtherEternalDevotionBlessedChampionTalent",
         "talentTreeId": "UtherMasteryBlessedChampion",
         "name": "Blessed Champion",
-        "description": "For the next 5 seconds after using Holy Light, Uther's Basic Attacks heal him and nearby allies for 15% of the total amount healed by Holy Light.",
+        "description": "For the next 5 seconds after using Holy Light, Uther's Basic Attacks heal him and nearby allied Heroes for 15% of the total amount healed by Holy Light.",
         "icon": "storm_ui_icon_uther_holylight.png",
         "sort": 1,
         "abilityId": "Uther|Q1"
