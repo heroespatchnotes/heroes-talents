@@ -11,7 +11,7 @@
     "Alexstrasza": [
       {
         "name": "Gift of Life",
-        "description": "Sacrifice 15% of Alexstrasza's current Health, healing an ally for 150% of that amount.  Dragonqueen: Breath of Life Cooldown greatly reduced and does not cost Health.",
+        "description": "Sacrifice 15% of Alexstrasza's current Health, healing an allied Hero for 150% of that amount.  Dragonqueen: Breath of Life Cooldown greatly reduced and does not cost Health.",
         "hotkey": "Q",
         "abilityId": "Alexstrasza|Q1",
         "cooldown": 7,
@@ -56,7 +56,7 @@
         "cooldown": 100,
         "manaCost": "100",
         "icon": "storm_ui_icon_alexstrasza_cleansing_flame.png",
-        "type": "unit-heroic"
+        "type": "heroic"
       },
       {
         "name": "Dragonqueen",
@@ -77,7 +77,7 @@
         "abilityId": "Alexstrasza|Q2",
         "cooldown": 3,
         "icon": "storm_ui_icon_alexstrasza_breath_of_life.png",
-        "type": "unit-basic"
+        "type": "sub-basic"
       },
       {
         "name": "Preservation",
@@ -86,7 +86,7 @@
         "abilityId": "Alexstrasza|W2",
         "cooldown": 16,
         "icon": "storm_ui_icon_alexstrasza_preservation.png",
-        "type": "unit-basic"
+        "type": "sub-basic"
       },
       {
         "name": "Wing Buffet",
@@ -95,7 +95,7 @@
         "abilityId": "Alexstrasza|E2",
         "cooldown": 4,
         "icon": "storm_ui_icon_alexstrasza_wing_buffet.png",
-        "type": "unit-basic"
+        "type": "sub-basic"
       }
     ]
   },

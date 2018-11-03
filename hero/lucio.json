@@ -21,7 +21,7 @@
       },
       {
         "name": "Crossfade",
-        "description": "Play one of two music tracks for L\u00facio and his allies.  Healing Boost: Passively heal L\u00facio and nearby allied Heroes for 16 (+4% per level) health per second.  Speed Boost: Increase the Movement Speed of L\u00facio and nearby allied Heroes by 15%.",
+        "description": "Play one of two music tracks for L\u00facio and his allies.  Healing Boost: Passively heal L\u00facio and nearby allied Heroes for 16 (+4% per level) health per second.  Speed Boost: Increase the Movement Speed of L\u00facio and nearby allied Heroes by 20%.",
         "hotkey": "W",
         "abilityId": "Lucio|W1",
         "cooldown": 0,
@@ -33,8 +33,8 @@
         "description": "Raise L\u00facio's Crossfade track volume for 3 seconds, amping Healing Boost to 114 (+4% per level) health per second and Speed Boost to 45% increased Movement Speed.",
         "hotkey": "E",
         "abilityId": "Lucio|E1",
-        "cooldown": 15,
-        "manaCost": "100",
+        "cooldown": 13,
+        "manaCost": "90",
         "icon": "storm_ui_icon_lucio_ampitup.png",
         "type": "basic"
       },
@@ -78,21 +78,12 @@
   "talents": {
     "1": [
       {
-        "tooltipId": "LucioCrossfadeSpeedBoostWeMoveTogether",
-        "talentTreeId": "LucioCrossfadeSpeedBoostWeMoveTogether",
-        "name": "We Move Together",
-        "description": "Increase the base Movement Speed bonus of Crossfade's Speed Boost to 20%.",
-        "icon": "storm_ui_icon_lucio_crossfadespeed.png",
-        "sort": 1,
-        "abilityId": "Lucio|W1"
-      },
-      {
         "tooltipId": "LucioAmpItUpMaximumTempo",
         "talentTreeId": "LucioAmpItUpMaximumTempoQuest",
         "name": "Maximum Tempo",
         "description": "Quest: Kill 5 enemy Heroes while Crossfade's Speed Boost is active.  Reward: Permanently increase the Amp It Up bonus for Crossfade's Speed Boost to 60%.",
         "icon": "storm_ui_icon_lucio_ampitup.png",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Lucio|W1"
       },
       {
@@ -101,7 +92,7 @@
         "name": "Accelerando",
         "description": "Wall Ride's Movement Speed bonus gradually increases to 40% over 4 seconds while L\u00facio maintains its effect.",
         "icon": "storm_ui_icon_lucio_wallride.png",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Lucio|D1"
       },
       {
@@ -110,7 +101,7 @@
         "name": "Slip",
         "description": "Passing through or near an enemy Hero during Wall Ride's effect increases its Movement Speed bonus to 70% for 1 second.",
         "icon": "storm_ui_icon_lucio_wallride_a.png",
-        "sort": 4,
+        "sort": 3,
         "abilityId": "Lucio|D1"
       }
     ],
@@ -256,7 +247,7 @@
         "tooltipId": "LucioAmpItUpUpTheFrequency",
         "talentTreeId": "LucioAmpItUpUpTheFrequency",
         "name": "Up the Frequency",
-        "description": "Amp It Up's mana cost is reduced from 100 to 80 and dealing Basic Attack damage to enemy Heroes also reduces the cooldown of Amp It Up by 0.45 seconds.",
+        "description": "Amp It Up's mana cost is reduced from 90 to 70 and dealing Basic Attack damage to enemy Heroes also reduces the cooldown of Amp It Up by 0.45 seconds.",
         "icon": "storm_ui_icon_lucio_ampitup_b.png",
         "sort": 3,
         "abilityId": "Lucio|E1"

@@ -21,7 +21,7 @@
       },
       {
         "name": "Oil Spill",
-        "description": "Vector Targeting Dispense a slick of oil that lasts for 5 seconds and Slows enemies that come in contact with it by 40%.  Oil Spills are Ignited for 2.5 seconds when hit by Flame Stream. Ignited Oil Spills no longer Slow enemies, but instead deal 18 (+4% per level) damage to them every 0.3 seconds. Additionally, Blaze is healed for 49 (+4% per level) Health every 0.3 seconds while standing in Ignited Oil Spills.  Stores up to 2 charges.",
+        "description": "Vector Targeting Dispense a slick of oil that lasts for 5 seconds and Slows enemies that come in contact with it by 50%.  Oil Spills are Ignited for 2.5 seconds when hit by Flame Stream. Ignited Oil Spills no longer Slow enemies, but instead deal 16 (+4% per level) damage to them every 0.3 seconds. Additionally, Blaze is healed for 49 (+4% per level) Health every 0.3 seconds while standing in Ignited Oil Spills.  Stores up to 2 charges.",
         "hotkey": "W",
         "abilityId": "Blaze|W1",
         "cooldown": 12,
@@ -34,8 +34,8 @@
         "description": "After 0.5 seconds, charge forward. Colliding with an enemy Hero deals 52 (+4% per level) damage to all nearby enemy Heroes and Stuns them for 1.25 seconds.",
         "hotkey": "E",
         "abilityId": "Blaze|E1",
-        "cooldown": 10,
-        "manaCost": "50",
+        "cooldown": 9,
+        "manaCost": "45",
         "icon": "storm_ui_icon_blaze_jet.png",
         "type": "basic"
       },
@@ -61,7 +61,7 @@
       },
       {
         "name": "Pyromania",
-        "description": "Gain 25 Armor and deal 40 (+4% per level) damage to nearby enemies every 0.5 seconds for 4 seconds.  Each Hero hit by Flame Stream reduces Pyromania's cooldown by 5 seconds.",
+        "description": "Gain 35 Armor and deal 40 (+4% per level) damage to nearby enemies every 0.5 seconds for 4 seconds.  Each Hero hit by Flame Stream reduces Pyromania's cooldown by 5 seconds.",
         "hotkey": "D",
         "trait": true,
         "abilityId": "Blaze|D1",
