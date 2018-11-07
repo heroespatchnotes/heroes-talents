@@ -15,7 +15,8 @@
         "hotkey": "Q",
         "abilityId": "Cho|Q1",
         "cooldown": 12,
-        "icon": "storm_ui_icon_cho_moltensurge_a.png"
+        "icon": "storm_ui_icon_cho_moltensurge_a.png",
+        "type": "basic"
       },
       {
         "name": "Consuming Blaze",
@@ -23,7 +24,8 @@
         "hotkey": "W",
         "abilityId": "Cho|W1",
         "cooldown": 12,
-        "icon": "storm_ui_icon_cho_consumingflame.png"
+        "icon": "storm_ui_icon_cho_consumingflame.png",
+        "type": "basic"
       },
       {
         "name": "Rune Bomb",
@@ -31,7 +33,8 @@
         "hotkey": "E",
         "abilityId": "Cho|E1",
         "cooldown": 8,
-        "icon": "storm_ui_icon_cho_runebomb.png"
+        "icon": "storm_ui_icon_cho_runebomb.png",
+        "type": "basic"
       },
       {
         "name": "Hammer of Twilight",
@@ -39,7 +42,8 @@
         "hotkey": "R",
         "abilityId": "Cho|R1",
         "cooldown": 15,
-        "icon": "storm_ui_icon_cho_hammeroftwilight.png"
+        "icon": "storm_ui_icon_cho_hammeroftwilight.png",
+        "type": "heroic"
       },
       {
         "name": "Upheaval",
@@ -47,7 +51,8 @@
         "hotkey": "R",
         "abilityId": "Cho|R2",
         "cooldown": 60,
-        "icon": "storm_ui_icon_cho_upheaval.png"
+        "icon": "storm_ui_icon_cho_upheaval.png",
+        "type": "heroic"
       },
       {
         "name": "Ogre Hide",
@@ -56,7 +61,8 @@
         "trait": true,
         "abilityId": "Cho|D1",
         "cooldown": 5,
-        "icon": "storm_ui_icon_cho_ogrehide.png"
+        "icon": "storm_ui_icon_cho_ogrehide.png",
+        "type": "trait"
       }
     ]
   },
@@ -105,7 +111,7 @@
         "talentTreeId": "ChoRollback",
         "name": "Rollback",
         "description": "Rune Bomb rolls back to Cho, damaging enemies in its path.",
-        "icon": "storm_ui_icon_cho_runebomb_var1.png",
+        "icon": "storm_ui_icon_cho_runebomb.png",
         "sort": 2,
         "abilityId": "Cho|E1"
       },

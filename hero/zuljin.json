@@ -16,7 +16,8 @@
         "abilityId": "Zul'jin|Q1",
         "cooldown": 8,
         "manaCost": "50",
-        "icon": "storm_ui_icon_zuljin_grievousthrow.png"
+        "icon": "storm_ui_icon_zuljin_grievousthrow.png",
+        "type": "basic"
       },
       {
         "name": "Twin Cleave",
@@ -25,7 +26,8 @@
         "abilityId": "Zul'jin|W1",
         "cooldown": 10,
         "manaCost": "60",
-        "icon": "storm_ui_icon_zuljin_twincleave.png"
+        "icon": "storm_ui_icon_zuljin_twincleave.png",
+        "type": "basic"
       },
       {
         "name": "Regeneration",
@@ -34,7 +36,8 @@
         "abilityId": "Zul'jin|E1",
         "cooldown": 15,
         "manaCost": "75",
-        "icon": "storm_ui_icon_zuljin_regeneration.png"
+        "icon": "storm_ui_icon_zuljin_regeneration.png",
+        "type": "basic"
       },
       {
         "name": "Taz'dingo!",
@@ -43,7 +46,8 @@
         "abilityId": "Zul'jin|R1",
         "cooldown": 90,
         "manaCost": "75",
-        "icon": "storm_ui_icon_zuljin_tazdingo.png"
+        "icon": "storm_ui_icon_zuljin_tazdingo.png",
+        "type": "heroic"
       },
       {
         "name": "Guillotine",
@@ -52,14 +56,16 @@
         "abilityId": "Zul'jin|R2",
         "cooldown": 40,
         "manaCost": "70",
-        "icon": "storm_ui_icon_zuljin_guillotine.png"
+        "icon": "storm_ui_icon_zuljin_guillotine.png",
+        "type": "heroic"
       },
       {
         "name": "Berserker",
         "description": "Activate to increase Basic Attack damage by 25% but consume 2% maximum Health per attack.  Passive: Zul'jin attacks 1% faster for every 1% of maximum Health missing.  You Want Axe?  Quest: Every 5 Basic Attacks against Heroes permanently increases Basic Attack damage by 1.  Reward: After attacking Heroes 75 times, Basic Attack range is increased by 1.1.  Reward: After attacking Heroes 150 times, Twin Cleave now revolves twice.",
         "trait": true,
         "abilityId": "Zul'jin|D1",
-        "icon": "storm_ui_icon_zuljin_berzerker.png"
+        "icon": "storm_ui_icon_zuljin_berzerker.png",
+        "type": "trait"
       },
       {
         "name": "Amani Rage",
@@ -67,7 +73,8 @@
         "hotkey": "1",
         "abilityId": "Zul'jin|11",
         "cooldown": 30,
-        "icon": "storm_ui_icon_zuljin_davoodooshuffle.png"
+        "icon": "storm_ui_icon_zuljin_davoodooshuffle.png",
+        "type": "activable"
       }
     ]
   },

@@ -16,7 +16,8 @@
         "abilityId": "Nazeebo|Q1",
         "cooldown": 9,
         "manaCost": "50",
-        "icon": "storm_ui_icon_nazeebo_corpsespider.png"
+        "icon": "storm_ui_icon_nazeebo_corpsespider.png",
+        "type": "basic"
       },
       {
         "name": "Zombie Wall",
@@ -25,7 +26,8 @@
         "abilityId": "Nazeebo|W1",
         "cooldown": 14,
         "manaCost": "70",
-        "icon": "storm_ui_icon_nazeebo_zombiewall.png"
+        "icon": "storm_ui_icon_nazeebo_zombiewall.png",
+        "type": "basic"
       },
       {
         "name": "Plague of Toads",
@@ -34,7 +36,8 @@
         "abilityId": "Nazeebo|E1",
         "cooldown": 8,
         "manaCost": "30",
-        "icon": "storm_ui_icon_nazeebo_plagueoftoads.png"
+        "icon": "storm_ui_icon_nazeebo_plagueoftoads.png",
+        "type": "basic"
       },
       {
         "name": "Gargantuan",
@@ -43,7 +46,8 @@
         "abilityId": "Nazeebo|R1",
         "cooldown": 70,
         "manaCost": "90",
-        "icon": "storm_ui_icon_nazeebo_gargantuan.png"
+        "icon": "storm_ui_icon_nazeebo_gargantuan.png",
+        "type": "heroic"
       },
       {
         "name": "Ravenous Spirit",
@@ -52,14 +56,16 @@
         "abilityId": "Nazeebo|R2",
         "cooldown": 90,
         "manaCost": "100",
-        "icon": "storm_ui_icon_nazeebo_ravenousspirit.png"
+        "icon": "storm_ui_icon_nazeebo_ravenousspirit.png",
+        "type": "heroic"
       },
       {
         "name": "Voodoo Ritual",
         "description": "Nazeebo's Basic Attacks and Abilities poison Non-Heroic enemies, causing them to take 67 (+4% per level) additional damage over 6 seconds.  Quest: If a Minion dies while poisoned by Voodoo Ritual, Nazeebo permanently gains 6 Health and 1 Mana.",
         "trait": true,
         "abilityId": "Nazeebo|D1",
-        "icon": "storm_ui_icon_nazeebo_voodooritual.png"
+        "icon": "storm_ui_icon_nazeebo_voodooritual.png",
+        "type": "trait"
       }
     ]
   },

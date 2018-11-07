@@ -16,7 +16,8 @@
         "abilityId": "Dehaka|Q1",
         "cooldown": 15,
         "manaCost": "75",
-        "icon": "storm_ui_icon_dehaka_drag.png"
+        "icon": "storm_ui_icon_dehaka_drag.png",
+        "type": "basic"
       },
       {
         "name": "Dark Swarm",
@@ -25,7 +26,8 @@
         "abilityId": "Dehaka|W1",
         "cooldown": 10,
         "manaCost": "50",
-        "icon": "storm_ui_icon_dehaka_trample.png"
+        "icon": "storm_ui_icon_dehaka_trample.png",
+        "type": "basic"
       },
       {
         "name": "Burrow",
@@ -34,7 +36,8 @@
         "abilityId": "Dehaka|E1",
         "cooldown": 20,
         "manaCost": "65",
-        "icon": "storm_ui_icon_dehaka_burrow.png"
+        "icon": "storm_ui_icon_dehaka_burrow.png",
+        "type": "basic"
       },
       {
         "name": "Isolation",
@@ -43,7 +46,8 @@
         "abilityId": "Dehaka|R1",
         "cooldown": 60,
         "manaCost": "100",
-        "icon": "storm_ui_icon_dehaka_isolation.png"
+        "icon": "storm_ui_icon_dehaka_isolation.png",
+        "type": "heroic"
       },
       {
         "name": "Adaptation",
@@ -52,7 +56,8 @@
         "abilityId": "Dehaka|R2",
         "cooldown": 80,
         "manaCost": "85",
-        "icon": "storm_ui_icon_dehaka_adaptation.png"
+        "icon": "storm_ui_icon_dehaka_adaptation.png",
+        "type": "heroic"
       },
       {
         "name": "Essence Collection",
@@ -61,15 +66,17 @@
         "trait": true,
         "abilityId": "Dehaka|D1",
         "cooldown": 5,
-        "icon": "storm_ui_icon_dehaka_essencecollection.png"
+        "icon": "storm_ui_icon_dehaka_essencecollection.png",
+        "type": "trait"
       },
       {
         "name": "Brushstalker",
         "description": "Activate to burrow to a bush on the Battleground.  Passive: Gain 20% movement speed while in a bush and for 2 seconds after leaving.",
         "hotkey": "Z",
         "abilityId": "Dehaka|Z1",
-        "cooldown": 60,
-        "icon": "storm_ui_icon_dehaka_mount.png"
+        "cooldown": 75,
+        "icon": "storm_ui_icon_dehaka_mount.png",
+        "type": "mount"
       }
     ]
   },
@@ -264,7 +271,7 @@
         "tooltipId": "DehakaBrushstalkerApexPredatorTalent",
         "talentTreeId": "DehakaBrushstalkerApexPredator",
         "name": "Apex Predator",
-        "description": "Reduces Brushstalker's cooldown by 25 seconds and the cast time by 0.5 seconds.",
+        "description": "Reduces Brushstalker's cooldown by 35 seconds and the cast time by 0.5 seconds.",
         "icon": "storm_ui_icon_dehaka_brushstalker.png",
         "sort": 3,
         "abilityId": "Dehaka|Z1"

@@ -16,7 +16,8 @@
         "abilityId": "Mephisto|Q1",
         "cooldown": 8,
         "manaCost": "20",
-        "icon": "storm_ui_icon_mephisto_skull.png"
+        "icon": "storm_ui_icon_mephisto_skull.png",
+        "type": "basic"
       },
       {
         "name": "Lightning Nova",
@@ -25,7 +26,8 @@
         "abilityId": "Mephisto|W1",
         "cooldown": 14,
         "manaCost": "55",
-        "icon": "storm_ui_icon_mephisto_lightning.png"
+        "icon": "storm_ui_icon_mephisto_lightning.png",
+        "type": "basic"
       },
       {
         "name": "Shade of Mephisto",
@@ -34,7 +36,8 @@
         "abilityId": "Mephisto|E1",
         "cooldown": 18,
         "manaCost": "40",
-        "icon": "storm_ui_icon_mephisto_shade.png"
+        "icon": "storm_ui_icon_mephisto_shade.png",
+        "type": "basic"
       },
       {
         "name": "Consume Souls",
@@ -43,7 +46,8 @@
         "abilityId": "Mephisto|R1",
         "cooldown": 120,
         "manaCost": "80",
-        "icon": "storm_ui_icon_mephisto_souls.png"
+        "icon": "storm_ui_icon_mephisto_souls.png",
+        "type": "heroic"
       },
       {
         "name": "Durance of Hate",
@@ -52,14 +56,16 @@
         "abilityId": "Mephisto|R2",
         "cooldown": 60,
         "manaCost": "60",
-        "icon": "storm_ui_icon_mephisto_durance.png"
+        "icon": "storm_ui_icon_mephisto_durance.png",
+        "type": "heroic"
       },
       {
         "name": "Lord Of Hatred",
         "description": "Hitting enemy Heroes with Basic Abilities reduces Mephisto's Basic Ability cooldowns.  Skull Missile and Shade of Mephisto grant 1.5 seconds of cooldown reduction per Hero hit, and Lightning Nova grants 0.3 seconds per Hero hit.",
         "trait": true,
         "abilityId": "Mephisto|D1",
-        "icon": "storm_ui_icon_mephisto_hatred.png"
+        "icon": "storm_ui_icon_mephisto_hatred.png",
+        "type": "trait"
       }
     ]
   },

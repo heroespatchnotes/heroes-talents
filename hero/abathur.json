@@ -15,7 +15,8 @@
         "hotkey": "Q",
         "abilityId": "Abathur|Q1",
         "cooldown": 4,
-        "icon": "storm_ui_icon_abathur_symbiote.png"
+        "icon": "storm_ui_icon_abathur_symbiote.png",
+        "type": "basic"
       },
       {
         "name": "Toxic Nest",
@@ -23,7 +24,8 @@
         "hotkey": "W",
         "abilityId": "Abathur|W1",
         "cooldown": 10,
-        "icon": "storm_ui_icon_abathur_toxicnest.png"
+        "icon": "storm_ui_icon_abathur_toxicnest.png",
+        "type": "basic"
       },
       {
         "name": "Evolve Monstrosity",
@@ -31,7 +33,8 @@
         "hotkey": "R",
         "abilityId": "Abathur|R1",
         "cooldown": 90,
-        "icon": "storm_ui_icon_abathur_evolvemonstrosity.png"
+        "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
+        "type": "heroic"
       },
       {
         "name": "Ultimate Evolution",
@@ -39,7 +42,8 @@
         "hotkey": "R",
         "abilityId": "Abathur|R2",
         "cooldown": 70,
-        "icon": "storm_ui_icon_abathur_ultimateevolution.png"
+        "icon": "storm_ui_icon_abathur_ultimateevolution.png",
+        "type": "heroic"
       },
       {
         "name": "Locust Strain",
@@ -47,7 +51,8 @@
         "trait": true,
         "abilityId": "Abathur|D1",
         "cooldown": 15,
-        "icon": "storm_ui_icon_abathur_spawnlocust.png"
+        "icon": "storm_ui_icon_abathur_spawnlocust.png",
+        "type": "trait"
       },
       {
         "name": "Deep Tunnel",
@@ -55,7 +60,8 @@
         "hotkey": "Z",
         "abilityId": "Abathur|Z1",
         "cooldown": 30,
-        "icon": "storm_ui_icon_abathur_mount.png"
+        "icon": "storm_ui_icon_abathur_mount.png",
+        "type": "mount"
       }
     ],
     "AbathurSymbiote": [
@@ -65,7 +71,8 @@
         "hotkey": "Q",
         "abilityId": "Abathur|Q2",
         "cooldown": 3,
-        "icon": "storm_ui_icon_abathur_stab.png"
+        "icon": "storm_ui_icon_abathur_stab.png",
+        "type": "sub-basic"
       },
       {
         "name": "Spike Burst",
@@ -73,7 +80,8 @@
         "hotkey": "W",
         "abilityId": "Abathur|W2",
         "cooldown": 6,
-        "icon": "storm_ui_icon_abathur_spikeburst.png"
+        "icon": "storm_ui_icon_abathur_spikeburst.png",
+        "type": "sub-basic"
       },
       {
         "name": "Carapace",
@@ -81,14 +89,16 @@
         "hotkey": "E",
         "abilityId": "Abathur|E1",
         "cooldown": 12,
-        "icon": "storm_ui_icon_abathur_carapace.png"
+        "icon": "storm_ui_icon_abathur_carapace.png",
+        "type": "sub-basic"
       },
       {
         "name": "Cancel Symbiote",
         "description": "Cancels the Symbiote ability. Releases your ally and returns to controlling Abathur.",
         "hotkey": "R",
         "abilityId": "Abathur|R3",
-        "cooldown": 1.5
+        "cooldown": 1.5,
+        "type": "sub-basic"
       }
     ]
   },

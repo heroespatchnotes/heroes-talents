@@ -16,7 +16,8 @@
         "abilityId": "Lunara|Q1",
         "cooldown": 8,
         "manaCost": "60",
-        "icon": "storm_ui_icon_lunara_pollencloud.png"
+        "icon": "storm_ui_icon_lunara_pollencloud.png",
+        "type": "basic"
       },
       {
         "name": "Crippling Spores",
@@ -25,7 +26,8 @@
         "abilityId": "Lunara|W1",
         "cooldown": 10,
         "manaCost": "40",
-        "icon": "storm_ui_icon_lunara_fullbloom.png"
+        "icon": "storm_ui_icon_lunara_fullbloom.png",
+        "type": "basic"
       },
       {
         "name": "Wisp",
@@ -33,7 +35,8 @@
         "hotkey": "E",
         "abilityId": "Lunara|E1",
         "cooldown": 30,
-        "icon": "storm_ui_icon_lunara_wisp.png"
+        "icon": "storm_ui_icon_lunara_wisp.png",
+        "type": "basic"
       },
       {
         "name": "Thornwood Vine",
@@ -42,7 +45,8 @@
         "abilityId": "Lunara|R1",
         "cooldown": 15,
         "manaCost": "35",
-        "icon": "storm_ui_icon_lunara_wildspear.png"
+        "icon": "storm_ui_icon_lunara_wildspear.png",
+        "type": "heroic"
       },
       {
         "name": "Leaping Strike",
@@ -51,21 +55,24 @@
         "abilityId": "Lunara|R2",
         "cooldown": 20,
         "manaCost": "50",
-        "icon": "storm_ui_icon_lunara_boundlessstride.png"
+        "icon": "storm_ui_icon_lunara_boundlessstride.png",
+        "type": "heroic"
       },
       {
         "name": "Nature's Toxin",
         "description": "Lunara's Basic Attacks and damaging Abilities poison their target, dealing 30 (+5% per level) damage a second for 3 seconds. Every additional application increases the duration by 3 seconds, up to a maximum of 9 seconds.",
         "trait": true,
         "abilityId": "Lunara|D1",
-        "icon": "storm_ui_icon_lunara_stiflingblossom.png"
+        "icon": "storm_ui_icon_lunara_stiflingblossom.png",
+        "type": "trait"
       },
       {
         "name": "Dryad's Swiftness",
         "description": "Lunara moves 20% faster by leaping short distances.",
         "hotkey": "Z",
         "abilityId": "Lunara|Z1",
-        "icon": "storm_ui_icon_lunara_mount.png"
+        "icon": "storm_ui_icon_lunara_mount.png",
+        "type": "mount"
       }
     ]
   },
@@ -142,7 +149,7 @@
         "tooltipId": "DryadChokingPollenTalent",
         "talentTreeId": "DryadChokingPollen",
         "name": "Choking Pollen",
-        "description": "Noxious Blossom deals 75% more damage to enemies afflicted by Nature's Toxin, increased to 125% against enemies with 3 stacks.",
+        "description": "Noxious Blossom deals 85% more damage to enemies afflicted by Nature's Toxin, increased to 135% against enemies with 3 stacks.",
         "icon": "storm_ui_icon_lunara_pollencloud_b.png",
         "sort": 2,
         "abilityId": "Lunara|Q1"

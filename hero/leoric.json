@@ -16,7 +16,8 @@
         "abilityId": "Leoric|Q1",
         "cooldown": 14,
         "manaCost": "80",
-        "icon": "storm_ui_icon_leoric_skeletalswing.png"
+        "icon": "storm_ui_icon_leoric_skeletalswing.png",
+        "type": "basic"
       },
       {
         "name": "Drain Hope",
@@ -25,7 +26,8 @@
         "abilityId": "Leoric|W1",
         "cooldown": 10,
         "manaCost": "60",
-        "icon": "storm_ui_icon_leoric_drainhope.png"
+        "icon": "storm_ui_icon_leoric_drainhope.png",
+        "type": "basic"
       },
       {
         "name": "Wraith Walk",
@@ -34,7 +36,8 @@
         "abilityId": "Leoric|E1",
         "cooldown": 14,
         "manaCost": "50",
-        "icon": "storm_ui_icon_leoric_wraithwalk.png"
+        "icon": "storm_ui_icon_leoric_wraithwalk.png",
+        "type": "basic"
       },
       {
         "name": "Entomb",
@@ -43,7 +46,8 @@
         "abilityId": "Leoric|R1",
         "cooldown": 50,
         "manaCost": "90",
-        "icon": "storm_ui_icon_leoric_entomb.png"
+        "icon": "storm_ui_icon_leoric_entomb.png",
+        "type": "heroic"
       },
       {
         "name": "March of the Black King",
@@ -52,14 +56,16 @@
         "abilityId": "Leoric|R2",
         "cooldown": 50,
         "manaCost": "75",
-        "icon": "storm_ui_icon_leoric_r2.png"
+        "icon": "storm_ui_icon_leoric_r2.png",
+        "type": "heroic"
       },
       {
         "name": "Undying",
         "description": "Leoric becomes a ghost when he dies, and resurrects upon reaching full Health. Leoric deals no damage while dead.  Wrath Of The Bone King  Leoric's first two Basic Attacks cleave for 100% damage, and his third Basic Attack deals 200% damage to a single target.",
         "trait": true,
         "abilityId": "Leoric|D1",
-        "icon": "storm_ui_icon_leoric_trait.png"
+        "icon": "storm_ui_icon_leoric_trait.png",
+        "type": "trait"
       }
     ],
     "LeoricUndying": [
@@ -69,7 +75,8 @@
         "hotkey": "Q",
         "abilityId": "Leoric|Q2",
         "cooldown": 8,
-        "icon": "storm_ui_icon_leoric_skeletalswing_undead.png"
+        "icon": "storm_ui_icon_leoric_skeletalswing_undead.png",
+        "type": "sub-basic"
       },
       {
         "name": "Drain Essence",
@@ -77,7 +84,8 @@
         "hotkey": "W",
         "abilityId": "Leoric|W2",
         "cooldown": 9,
-        "icon": "storm_ui_icon_leoric_drainhope_undead.png"
+        "icon": "storm_ui_icon_leoric_drainhope_undead.png",
+        "type": "sub-basic"
       }
     ]
   },

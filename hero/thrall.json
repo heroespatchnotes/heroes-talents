@@ -16,7 +16,8 @@
         "abilityId": "Thrall|Q1",
         "cooldown": 7,
         "manaCost": "40",
-        "icon": "storm_ui_icon_thrall_chainlightning.png"
+        "icon": "storm_ui_icon_thrall_chainlightning.png",
+        "type": "basic"
       },
       {
         "name": "Feral Spirit",
@@ -25,7 +26,8 @@
         "abilityId": "Thrall|W1",
         "cooldown": 12,
         "manaCost": "60",
-        "icon": "storm_ui_icon_thrall_feralspirit.png"
+        "icon": "storm_ui_icon_thrall_feralspirit.png",
+        "type": "basic"
       },
       {
         "name": "Windfury",
@@ -34,7 +36,8 @@
         "abilityId": "Thrall|E1",
         "cooldown": 12,
         "manaCost": "60",
-        "icon": "storm_ui_icon_thrall_windfury.png"
+        "icon": "storm_ui_icon_thrall_windfury.png",
+        "type": "basic"
       },
       {
         "name": "Sundering",
@@ -43,7 +46,8 @@
         "abilityId": "Thrall|R1",
         "cooldown": 70,
         "manaCost": "75",
-        "icon": "storm_ui_icon_thrall_sundering.png"
+        "icon": "storm_ui_icon_thrall_sundering.png",
+        "type": "heroic"
       },
       {
         "name": "Earthquake",
@@ -52,14 +56,16 @@
         "abilityId": "Thrall|R2",
         "cooldown": 100,
         "manaCost": "90",
-        "icon": "storm_ui_icon_thrall_earthquake.png"
+        "icon": "storm_ui_icon_thrall_earthquake.png",
+        "type": "heroic"
       },
       {
         "name": "Frostwolf Resilience",
         "description": "Dealing damage with Abilities grants 1 stack of Frostwolf Resilience. At 5 stacks, Thrall is instantly healed for 223 (+4% per level) Health.",
         "trait": true,
         "abilityId": "Thrall|D1",
-        "icon": "storm_ui_icon_thrall_frostwolfresilience.png"
+        "icon": "storm_ui_icon_thrall_frostwolfresilience.png",
+        "type": "trait"
       }
     ]
   },
