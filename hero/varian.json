@@ -16,7 +16,8 @@
         "abilityId": "Varian|Q1",
         "cooldown": 8,
         "manaCost": "50",
-        "icon": "storm_ui_icon_varian_lionsfang.png"
+        "icon": "storm_ui_icon_varian_lionsfang.png",
+        "type": "basic"
       },
       {
         "name": "Parry",
@@ -25,7 +26,8 @@
         "abilityId": "Varian|W1",
         "cooldown": 10,
         "manaCost": "20",
-        "icon": "storm_ui_icon_varian_parry.png"
+        "icon": "storm_ui_icon_varian_parry.png",
+        "type": "basic"
       },
       {
         "name": "Charge",
@@ -34,7 +36,8 @@
         "abilityId": "Varian|E1",
         "cooldown": 12,
         "manaCost": "45",
-        "icon": "storm_ui_icon_varian_charge.png"
+        "icon": "storm_ui_icon_varian_charge.png",
+        "type": "basic"
       },
       {
         "name": "Taunt",
@@ -43,7 +46,8 @@
         "abilityId": "Varian|R1",
         "cooldown": 16,
         "manaCost": "20",
-        "icon": "storm_ui_icon_varian_taunt.png"
+        "icon": "storm_ui_icon_varian_taunt.png",
+        "type": "heroic"
       },
       {
         "name": "Colossus Smash",
@@ -52,14 +56,16 @@
         "abilityId": "Varian|R2",
         "cooldown": 20,
         "manaCost": "40",
-        "icon": "storm_ui_icon_varian_colossus_smash.png"
+        "icon": "storm_ui_icon_varian_colossus_smash.png",
+        "type": "heroic"
       },
       {
         "name": "Twin Blades of Fury",
         "description": "Basic Attacks reduce Heroic Strike's cooldown by 9 seconds, and increase Varian's Movement Speed by 30% for 2 seconds.  Passive: Attack Speed increased by 100%. Passive: Base Attack Damage reduced by 20%.",
         "hotkey": "R",
         "abilityId": "Varian|R3",
-        "icon": "storm_ui_icon_varian_twinbladesoffury.png"
+        "icon": "storm_ui_icon_varian_twinbladesoffury.png",
+        "type": "heroic"
       },
       {
         "name": "Heroic Strike",
@@ -67,7 +73,8 @@
         "trait": true,
         "abilityId": "Varian|D1",
         "cooldown": 18,
-        "icon": "storm_ui_icon_varian_heroicstrike.png"
+        "icon": "storm_ui_icon_varian_heroicstrike.png",
+        "type": "trait"
       }
     ]
   },

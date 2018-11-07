@@ -15,7 +15,8 @@
         "hotkey": "Q",
         "abilityId": "Sonya|Q1",
         "cooldown": 13,
-        "icon": "storm_ui_icon_sonya_ancientspear.png"
+        "icon": "storm_ui_icon_sonya_ancientspear.png",
+        "type": "basic"
       },
       {
         "name": "Seismic Slam",
@@ -24,7 +25,8 @@
         "abilityId": "Sonya|W1",
         "cooldown": 1,
         "manaCost": "25",
-        "icon": "storm_ui_icon_sonya_seismicslam.png"
+        "icon": "storm_ui_icon_sonya_seismicslam.png",
+        "type": "basic"
       },
       {
         "name": "Whirlwind",
@@ -33,7 +35,8 @@
         "abilityId": "Sonya|E1",
         "cooldown": 5,
         "manaCost": "40",
-        "icon": "storm_ui_icon_sonya_whirlwind.png"
+        "icon": "storm_ui_icon_sonya_whirlwind.png",
+        "type": "basic"
       },
       {
         "name": "Leap",
@@ -41,7 +44,8 @@
         "hotkey": "R",
         "abilityId": "Sonya|R1",
         "cooldown": 70,
-        "icon": "storm_ui_icon_sonya_leap.png"
+        "icon": "storm_ui_icon_sonya_leap.png",
+        "type": "heroic"
       },
       {
         "name": "Wrath of the Berserker",
@@ -49,14 +53,16 @@
         "hotkey": "R",
         "abilityId": "Sonya|R2",
         "cooldown": 60,
-        "icon": "storm_ui_icon_sonya_wrathoftheberserker.png"
+        "icon": "storm_ui_icon_sonya_wrathoftheberserker.png",
+        "type": "heroic"
       },
       {
         "name": "Fury",
         "description": "Use Fury instead of Mana, which is gained by taking damage or dealing Basic Attack damage. Using a Basic or Heroic Ability grants 10% Movement Speed for 4 seconds.",
         "trait": true,
         "abilityId": "Sonya|D1",
-        "icon": "storm_ui_icon_sonya_fury.png"
+        "icon": "storm_ui_icon_sonya_fury.png",
+        "type": "trait"
       }
     ]
   },

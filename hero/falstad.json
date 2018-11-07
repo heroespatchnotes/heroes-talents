@@ -16,7 +16,8 @@
         "abilityId": "Falstad|Q1",
         "cooldown": 10,
         "manaCost": "60",
-        "icon": "storm_ui_icon_falstad_hammerang.png"
+        "icon": "storm_ui_icon_falstad_hammerang.png",
+        "type": "basic"
       },
       {
         "name": "Lightning Rod",
@@ -25,7 +26,8 @@
         "abilityId": "Falstad|W1",
         "cooldown": 13,
         "manaCost": "60",
-        "icon": "storm_ui_icon_falstad_lightningrod.png"
+        "icon": "storm_ui_icon_falstad_lightningrod.png",
+        "type": "basic"
       },
       {
         "name": "Barrel Roll",
@@ -34,7 +36,8 @@
         "abilityId": "Falstad|E1",
         "cooldown": 13,
         "manaCost": "70",
-        "icon": "storm_ui_icon_falstad_barrelroll.png"
+        "icon": "storm_ui_icon_falstad_barrelroll.png",
+        "type": "basic"
       },
       {
         "name": "Hinterland Blast",
@@ -43,7 +46,8 @@
         "abilityId": "Falstad|R1",
         "cooldown": 120,
         "manaCost": "100",
-        "icon": "storm_ui_icon_falstad_hinterlandblast.png"
+        "icon": "storm_ui_icon_falstad_hinterlandblast.png",
+        "type": "heroic"
       },
       {
         "name": "Mighty Gust",
@@ -52,14 +56,16 @@
         "abilityId": "Falstad|R2",
         "cooldown": 60,
         "manaCost": "70",
-        "icon": "storm_ui_icon_falstad_mightygust.png"
+        "icon": "storm_ui_icon_falstad_mightygust.png",
+        "type": "heroic"
       },
       {
         "name": "Tailwind",
         "description": "Gain 15% increased Movement Speed after not taking damage for 6 seconds.",
         "trait": true,
         "abilityId": "Falstad|D1",
-        "icon": "storm_ui_icon_falstad_tailwind.png"
+        "icon": "storm_ui_icon_falstad_tailwind.png",
+        "type": "trait"
       },
       {
         "name": "Flight",
@@ -67,7 +73,8 @@
         "hotkey": "Z",
         "abilityId": "Falstad|Z1",
         "cooldown": 75,
-        "icon": "storm_ui_icon_falstad_mount.png"
+        "icon": "storm_ui_icon_falstad_mount.png",
+        "type": "mount"
       }
     ]
   },

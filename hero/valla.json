@@ -16,7 +16,8 @@
         "abilityId": "Valla|Q1",
         "cooldown": 10,
         "manaCost": "60",
-        "icon": "storm_ui_icon_valla_hungeringarrow.png"
+        "icon": "storm_ui_icon_valla_hungeringarrow.png",
+        "type": "basic"
       },
       {
         "name": "Multishot",
@@ -25,7 +26,8 @@
         "abilityId": "Valla|W1",
         "cooldown": 12,
         "manaCost": "75",
-        "icon": "storm_ui_icon_valla_multishot.png"
+        "icon": "storm_ui_icon_valla_multishot.png",
+        "type": "basic"
       },
       {
         "name": "Vault",
@@ -34,7 +36,8 @@
         "abilityId": "Valla|E1",
         "cooldown": 10,
         "manaCost": "50",
-        "icon": "storm_ui_icon_valla_vault.png"
+        "icon": "storm_ui_icon_valla_vault.png",
+        "type": "basic"
       },
       {
         "name": "Rain of Vengeance",
@@ -43,7 +46,8 @@
         "abilityId": "Valla|R1",
         "cooldown": 50,
         "manaCost": "50",
-        "icon": "storm_ui_icon_valla_rainofvengeance.png"
+        "icon": "storm_ui_icon_valla_rainofvengeance.png",
+        "type": "heroic"
       },
       {
         "name": "Strafe",
@@ -52,14 +56,16 @@
         "abilityId": "Valla|R2",
         "cooldown": 60,
         "manaCost": "80",
-        "icon": "storm_ui_icon_valla_strafe.png"
+        "icon": "storm_ui_icon_valla_strafe.png",
+        "type": "heroic"
       },
       {
         "name": "Hatred",
         "description": "Basic Attacks grant a stack of Hatred, up to 10. Each Hatred stack increases Basic Attack damage by 8% and Movement Speed by 1%. Lasts 6 seconds.",
         "trait": true,
         "abilityId": "Valla|D1",
-        "icon": "storm_ui_icon_valla_hatred.png"
+        "icon": "storm_ui_icon_valla_hatred.png",
+        "type": "trait"
       }
     ]
   },

@@ -16,7 +16,8 @@
         "abilityId": "Kel'Thuzad|Q1",
         "cooldown": 5,
         "manaCost": "20",
-        "icon": "storm_ui_icon_kel'thuzad_deathanddecay.png"
+        "icon": "storm_ui_icon_kel'thuzad_deathanddecay.png",
+        "type": "basic"
       },
       {
         "name": "Frost Nova",
@@ -25,7 +26,8 @@
         "abilityId": "Kel'Thuzad|W1",
         "cooldown": 8,
         "manaCost": "50",
-        "icon": "storm_ui_icon_kel'thuzad_frostnova.png"
+        "icon": "storm_ui_icon_kel'thuzad_frostnova.png",
+        "type": "basic"
       },
       {
         "name": "Chains of Kel'Thuzad",
@@ -34,7 +36,8 @@
         "abilityId": "Kel'Thuzad|E1",
         "cooldown": 10,
         "manaCost": "50",
-        "icon": "storm_ui_icon_kel'thuzad_chains.png"
+        "icon": "storm_ui_icon_kel'thuzad_chains.png",
+        "type": "basic"
       },
       {
         "name": "Frost Blast",
@@ -43,7 +46,8 @@
         "abilityId": "Kel'Thuzad|R1",
         "cooldown": 60,
         "manaCost": "50",
-        "icon": "storm_ui_icon_kel'thuzad_frozentomb.png"
+        "icon": "storm_ui_icon_kel'thuzad_frozentomb.png",
+        "type": "heroic"
       },
       {
         "name": "Shadow Fissure",
@@ -52,14 +56,16 @@
         "abilityId": "Kel'Thuzad|R2",
         "cooldown": 16,
         "manaCost": "45",
-        "icon": "storm_ui_icon_kel'thuzad_shadowfissure.png"
+        "icon": "storm_ui_icon_kel'thuzad_shadowfissure.png",
+        "type": "heroic"
       },
       {
         "name": "Master of the Cold Dark",
         "description": "Quest: Gain 1 Blight every time a Hero is Rooted by Frost Nova or hit by Chains of Kel'Thuzad.  Reward: After gaining 15 Blight, gain the Glacial Spike Ability.  Reward: After gaining 30 Blight, gain 75% Spell Power.  Blight: 0/30",
         "trait": true,
         "abilityId": "Kel'Thuzad|D1",
-        "icon": "storm_ui_icon_kel'thuzad_powerofthecolddark.png"
+        "icon": "storm_ui_icon_kel'thuzad_powerofthecolddark.png",
+        "type": "trait"
       }
     ]
   },
