@@ -16,7 +16,8 @@
         "abilityId": "Chromie|Q1",
         "cooldown": 2.5,
         "manaCost": "15",
-        "icon": "storm_ui_icon_chromie_aethercannon.png"
+        "icon": "storm_ui_icon_chromie_aethercannon.png",
+        "type": "basic"
       },
       {
         "name": "Dragon's Breath",
@@ -25,7 +26,8 @@
         "abilityId": "Chromie|W1",
         "cooldown": 8,
         "manaCost": "50",
-        "icon": "storm_ui_icon_chromie_sandstrike.png"
+        "icon": "storm_ui_icon_chromie_sandstrike.png",
+        "type": "basic"
       },
       {
         "name": "Time Trap",
@@ -34,7 +36,8 @@
         "abilityId": "Chromie|E1",
         "cooldown": 18,
         "manaCost": "25",
-        "icon": "storm_ui_icon_chromie_timetrap.png"
+        "icon": "storm_ui_icon_chromie_timetrap.png",
+        "type": "basic"
       },
       {
         "name": "Temporal Loop",
@@ -43,7 +46,8 @@
         "abilityId": "Chromie|R1",
         "cooldown": 70,
         "manaCost": "60",
-        "icon": "storm_ui_icon_chromie_looper.png"
+        "icon": "storm_ui_icon_chromie_looper.png",
+        "type": "heroic"
       },
       {
         "name": "Slowing Sands",
@@ -52,14 +56,16 @@
         "abilityId": "Chromie|R2",
         "cooldown": 5,
         "manaCost": "4 per second",
-        "icon": "storm_ui_icon_chromie_timewarp.png"
+        "icon": "storm_ui_icon_chromie_timewarp.png",
+        "type": "heroic"
       },
       {
         "name": "Timewalker",
         "description": "Chromie has traveled to the future, and as such, will learn her Talents 2 levels earlier than her teammates!  Bronze Talons  Hitting an enemy Hero with a Basic Ability increases the damage of Chromie's next Basic Attack by 140%.",
         "trait": true,
         "abilityId": "Chromie|D1",
-        "icon": "storm_ui_icon_chromie_timetraveler.png"
+        "icon": "storm_ui_icon_chromie_timetraveler.png",
+        "type": "trait"
       }
     ]
   },

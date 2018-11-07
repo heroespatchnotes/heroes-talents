@@ -15,7 +15,8 @@
         "hotkey": "Q",
         "abilityId": "Tracer|Q1",
         "cooldown": 9,
-        "icon": "storm_ui_icon_tracer_blink.png"
+        "icon": "storm_ui_icon_tracer_blink.png",
+        "type": "basic"
       },
       {
         "name": "Melee",
@@ -23,7 +24,8 @@
         "hotkey": "W",
         "abilityId": "Tracer|W1",
         "cooldown": 8,
-        "icon": "storm_ui_icon_tracer_melee.png"
+        "icon": "storm_ui_icon_tracer_melee.png",
+        "type": "basic"
       },
       {
         "name": "Recall",
@@ -31,14 +33,16 @@
         "hotkey": "E",
         "abilityId": "Tracer|E1",
         "cooldown": 30,
-        "icon": "storm_ui_icon_tracer_recall.png"
+        "icon": "storm_ui_icon_tracer_recall.png",
+        "type": "basic"
       },
       {
         "name": "Pulse Bomb",
         "description": "Fire a short range bomb that can attach to an enemy if it hits them. The bomb explodes after 2 seconds dealing 360 (+6% per level) damage to them and 180 (+6% per level) damage to other nearby enemies.  This Ability is slowly charged over time by dealing damage to enemies with Basic Attacks and Melee.",
         "hotkey": "R",
         "abilityId": "Tracer|R1",
-        "icon": "storm_ui_icon_tracer_pulsebomb.png"
+        "icon": "storm_ui_icon_tracer_pulsebomb.png",
+        "type": "heroic"
       },
       {
         "name": "Reload",
@@ -47,7 +51,8 @@
         "trait": true,
         "abilityId": "Tracer|D1",
         "cooldown": 1,
-        "icon": "storm_ui_icon_tracer_reload.png"
+        "icon": "storm_ui_icon_tracer_reload.png",
+        "type": "trait"
       }
     ]
   },

@@ -16,7 +16,8 @@
         "abilityId": "Nova|Q1",
         "cooldown": 6,
         "manaCost": "50",
-        "icon": "storm_ui_icon_nova_snipe.png"
+        "icon": "storm_ui_icon_nova_snipe.png",
+        "type": "basic"
       },
       {
         "name": "Pinning Shot",
@@ -25,7 +26,8 @@
         "abilityId": "Nova|W1",
         "cooldown": 12,
         "manaCost": "65",
-        "icon": "storm_ui_icon_nova_pinningshot.png"
+        "icon": "storm_ui_icon_nova_pinningshot.png",
+        "type": "basic"
       },
       {
         "name": "Holo Decoy",
@@ -34,7 +36,8 @@
         "abilityId": "Nova|E1",
         "cooldown": 15,
         "manaCost": "50",
-        "icon": "storm_ui_icon_nova_holodecoy.png"
+        "icon": "storm_ui_icon_nova_holodecoy.png",
+        "type": "basic"
       },
       {
         "name": "Triple Tap",
@@ -43,7 +46,8 @@
         "abilityId": "Nova|R1",
         "cooldown": 100,
         "manaCost": "100",
-        "icon": "storm_ui_icon_nova_tripletap.png"
+        "icon": "storm_ui_icon_nova_tripletap.png",
+        "type": "heroic"
       },
       {
         "name": "Precision Strike",
@@ -52,14 +56,16 @@
         "abilityId": "Nova|R2",
         "cooldown": 60,
         "manaCost": "100",
-        "icon": "storm_ui_icon_nova_orbitalstrike.png"
+        "icon": "storm_ui_icon_nova_orbitalstrike.png",
+        "type": "heroic"
       },
       {
         "name": "Permanent Cloak",
         "description": "Gain Stealth when out of combat for 3 seconds. Taking damage, attacking, using Abilities, or Channeling ends Stealth. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.  Passive: Gain 15% Movement Speed while Stealthed.",
         "trait": true,
         "abilityId": "Nova|D1",
-        "icon": "storm_ui_icon_nova_personalcloaking.png"
+        "icon": "storm_ui_icon_nova_personalcloaking.png",
+        "type": "trait"
       },
       {
         "name": "Ghost Protocol",
@@ -67,7 +73,8 @@
         "hotkey": "1",
         "abilityId": "Nova|11",
         "cooldown": 60,
-        "icon": "storm_ui_icon_nova_personalcloaking.png"
+        "icon": "storm_ui_icon_nova_personalcloaking.png",
+        "type": "activable"
       }
     ]
   },

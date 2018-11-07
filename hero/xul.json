@@ -16,7 +16,8 @@
         "abilityId": "Xul|Q1",
         "cooldown": 8,
         "manaCost": "55",
-        "icon": "storm_ui_icon_necromancer_reap.png"
+        "icon": "storm_ui_icon_necromancer_reap.png",
+        "type": "basic"
       },
       {
         "name": "Cursed Strikes",
@@ -25,7 +26,8 @@
         "abilityId": "Xul|W1",
         "cooldown": 16,
         "manaCost": "60",
-        "icon": "storm_ui_icon_necromancer_cursedstrikes_off.png"
+        "icon": "storm_ui_icon_necromancer_cursedstrikes_off.png",
+        "type": "basic"
       },
       {
         "name": "Bone Prison",
@@ -34,7 +36,8 @@
         "abilityId": "Xul|E1",
         "cooldown": 10,
         "manaCost": "70",
-        "icon": "storm_ui_icon_necromancer_boneprison.png"
+        "icon": "storm_ui_icon_necromancer_boneprison.png",
+        "type": "basic"
       },
       {
         "name": "Skeletal Mages",
@@ -43,7 +46,8 @@
         "abilityId": "Xul|R1",
         "cooldown": 90,
         "manaCost": "80",
-        "icon": "storm_ui_icon_necromancer_skeletalmages.png"
+        "icon": "storm_ui_icon_necromancer_skeletalmages.png",
+        "type": "heroic"
       },
       {
         "name": "Poison Nova",
@@ -52,14 +56,16 @@
         "abilityId": "Xul|R2",
         "cooldown": 90,
         "manaCost": "100",
-        "icon": "storm_ui_icon_necromancer_poisonnova.png"
+        "icon": "storm_ui_icon_necromancer_poisonnova.png",
+        "type": "heroic"
       },
       {
         "name": "Raise Skeleton",
         "description": "When a nearby enemy Minion dies, it becomes a Skeletal Warrior with 225 (+4% per level) Health that attacks for 21 (+4% per level) damage and last up to 15 seconds. Up to 4 Skeletal Warriors can be active at once.",
         "trait": true,
         "abilityId": "Xul|D1",
-        "icon": "storm_ui_icon_necromancer_raiseskeleton.png"
+        "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
+        "type": "trait"
       },
       {
         "name": "Bone Armor",
@@ -67,7 +73,8 @@
         "hotkey": "1",
         "abilityId": "Xul|11",
         "cooldown": 30,
-        "icon": "storm_ui_icon_necromancer_bonearmor.png"
+        "icon": "storm_ui_icon_necromancer_bonearmor.png",
+        "type": "activable"
       }
     ]
   },

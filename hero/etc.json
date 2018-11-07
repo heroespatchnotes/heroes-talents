@@ -16,7 +16,8 @@
         "abilityId": "E.T.C.|Q1",
         "cooldown": 12,
         "manaCost": "60",
-        "icon": "storm_ui_icon_etc_powerslide.png"
+        "icon": "storm_ui_icon_etc_powerslide.png",
+        "type": "basic"
       },
       {
         "name": "Face Melt",
@@ -25,7 +26,8 @@
         "abilityId": "E.T.C.|W1",
         "cooldown": 10,
         "manaCost": "50",
-        "icon": "storm_ui_icon_etc_facemelt.png"
+        "icon": "storm_ui_icon_etc_facemelt.png",
+        "type": "basic"
       },
       {
         "name": "Guitar Solo",
@@ -34,7 +36,8 @@
         "abilityId": "E.T.C.|E1",
         "cooldown": 8,
         "manaCost": "40",
-        "icon": "storm_ui_icon_etc_guitarsolo.png"
+        "icon": "storm_ui_icon_etc_guitarsolo.png",
+        "type": "basic"
       },
       {
         "name": "Mosh Pit",
@@ -43,7 +46,8 @@
         "abilityId": "E.T.C.|R1",
         "cooldown": 120,
         "manaCost": "100",
-        "icon": "storm_ui_icon_etc_moshpit.png"
+        "icon": "storm_ui_icon_etc_moshpit.png",
+        "type": "heroic"
       },
       {
         "name": "Stage Dive",
@@ -52,14 +56,16 @@
         "abilityId": "E.T.C.|R2",
         "cooldown": 75,
         "manaCost": "100",
-        "icon": "storm_ui_icon_etc_stagedive.png"
+        "icon": "storm_ui_icon_etc_stagedive.png",
+        "type": "heroic"
       },
       {
         "name": "Rockstar",
         "description": "After E.T.C. uses a Basic or Heroic ability, he gains 20 Armor for 2 seconds.  This effect does not stack with itself.",
         "trait": true,
         "abilityId": "E.T.C.|D1",
-        "icon": "storm_ui_icon_etc_rockstar.png"
+        "icon": "storm_ui_icon_etc_rockstar.png",
+        "type": "trait"
       }
     ]
   },

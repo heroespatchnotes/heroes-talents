@@ -16,7 +16,8 @@
         "abilityId": "Muradin|Q1",
         "cooldown": 10,
         "manaCost": "45",
-        "icon": "storm_ui_icon_muradin_stormbolt.png"
+        "icon": "storm_ui_icon_muradin_stormbolt.png",
+        "type": "basic"
       },
       {
         "name": "Thunder Clap",
@@ -25,7 +26,8 @@
         "abilityId": "Muradin|W1",
         "cooldown": 8,
         "manaCost": "50",
-        "icon": "storm_ui_icon_muradin_thunderclap.png"
+        "icon": "storm_ui_icon_muradin_thunderclap.png",
+        "type": "basic"
       },
       {
         "name": "Dwarf Toss",
@@ -34,7 +36,8 @@
         "abilityId": "Muradin|E1",
         "cooldown": 10,
         "manaCost": "55",
-        "icon": "storm_ui_icon_muradin_dwarftoss.png"
+        "icon": "storm_ui_icon_muradin_dwarftoss.png",
+        "type": "basic"
       },
       {
         "name": "Avatar",
@@ -43,7 +46,8 @@
         "abilityId": "Muradin|R1",
         "cooldown": 90,
         "manaCost": "80",
-        "icon": "storm_ui_icon_muradin_avatar.png"
+        "icon": "storm_ui_icon_muradin_avatar.png",
+        "type": "heroic"
       },
       {
         "name": "Haymaker",
@@ -52,14 +56,16 @@
         "abilityId": "Muradin|R2",
         "cooldown": 40,
         "manaCost": "60",
-        "icon": "storm_ui_icon_muradin_haymaker.png"
+        "icon": "storm_ui_icon_muradin_haymaker.png",
+        "type": "heroic"
       },
       {
         "name": "Second Wind",
         "description": "Muradin restores 55 (+4% per level) Health per second when he has not taken damage for 4 seconds. When below 40% Health, increased to 111 (+4% per level) Health per second.",
         "trait": true,
         "abilityId": "Muradin|D1",
-        "icon": "storm_ui_icon_muradin_secondwind.png"
+        "icon": "storm_ui_icon_muradin_secondwind.png",
+        "type": "trait"
       }
     ]
   },
