@@ -16,7 +16,8 @@
         "abilityId": "Raynor|Q1",
         "cooldown": 10,
         "manaCost": "50",
-        "icon": "storm_ui_icon_raynor_penetratinground.png"
+        "icon": "storm_ui_icon_raynor_penetratinground.png",
+        "type": "basic"
       },
       {
         "name": "Inspire",
@@ -25,7 +26,8 @@
         "abilityId": "Raynor|W1",
         "cooldown": 12,
         "manaCost": "40",
-        "icon": "storm_ui_icon_raynor_inspire.png"
+        "icon": "storm_ui_icon_raynor_inspire.png",
+        "type": "basic"
       },
       {
         "name": "Adrenaline Rush",
@@ -34,7 +36,8 @@
         "abilityId": "Raynor|E1",
         "cooldown": 45,
         "manaCost": "75",
-        "icon": "storm_ui_icon_raynor_adrenalinrush.png"
+        "icon": "storm_ui_icon_raynor_adrenalinrush.png",
+        "type": "basic"
       },
       {
         "name": "Hyperion",
@@ -43,7 +46,8 @@
         "abilityId": "Raynor|R1",
         "cooldown": 100,
         "manaCost": "100",
-        "icon": "storm_ui_icon_raynor_hyperion.png"
+        "icon": "storm_ui_icon_raynor_hyperion.png",
+        "type": "heroic"
       },
       {
         "name": "Raynor's Raider",
@@ -51,14 +55,16 @@
         "hotkey": "R",
         "abilityId": "Raynor|R2",
         "cooldown": 45,
-        "icon": "storm_ui_icon_raynor_raynorsraiders.png"
+        "icon": "storm_ui_icon_raynor_raynorsraiders.png",
+        "type": "heroic"
       },
       {
         "name": "Give 'Em Some Pepper",
         "description": "Every 4th Basic Attack splashes in a small area and deals 125% more damage to the main target.",
         "trait": true,
         "abilityId": "Raynor|D1",
-        "icon": "storm_ui_icon_raynor_acquireweakspot.png"
+        "icon": "storm_ui_icon_raynor_acquireweakspot.png",
+        "type": "trait"
       }
     ]
   },
@@ -78,7 +84,7 @@
         "talentTreeId": "RaynorAceInTheHole",
         "name": "Ace in the Hole",
         "description": "Deal 15% more damage to Stunned or Slowed Heroes.",
-        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "icon": "storm_ui_icon_raynor_acardtoplay.png",
         "sort": 2,
         "abilityId": "Raynor|Passive"
       },

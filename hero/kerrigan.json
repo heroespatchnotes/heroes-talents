@@ -16,7 +16,8 @@
         "abilityId": "Kerrigan|Q1",
         "cooldown": 8,
         "manaCost": "20",
-        "icon": "storm_ui_icon_kerrigan_ravage.png"
+        "icon": "storm_ui_icon_kerrigan_ravage.png",
+        "type": "basic"
       },
       {
         "name": "Impaling Blades",
@@ -25,7 +26,8 @@
         "abilityId": "Kerrigan|W1",
         "cooldown": 12,
         "manaCost": "75",
-        "icon": "storm_ui_icon_kerrigan_impalingblades.png"
+        "icon": "storm_ui_icon_kerrigan_impalingblades.png",
+        "type": "basic"
       },
       {
         "name": "Primal Grasp",
@@ -34,7 +36,8 @@
         "abilityId": "Kerrigan|E1",
         "cooldown": 10,
         "manaCost": "60",
-        "icon": "storm_ui_icon_kerrigan_primalgrasp.png"
+        "icon": "storm_ui_icon_kerrigan_primalgrasp.png",
+        "type": "basic"
       },
       {
         "name": "Summon Ultralisk",
@@ -43,7 +46,8 @@
         "abilityId": "Kerrigan|R1",
         "cooldown": 80,
         "manaCost": "100",
-        "icon": "storm_ui_icon_kerrigan_ultralisk.png"
+        "icon": "storm_ui_icon_kerrigan_ultralisk.png",
+        "type": "heroic"
       },
       {
         "name": "Maelstrom",
@@ -52,14 +56,16 @@
         "abilityId": "Kerrigan|R2",
         "cooldown": 90,
         "manaCost": "100",
-        "icon": "storm_ui_icon_kerrigan_maelstrom.png"
+        "icon": "storm_ui_icon_kerrigan_maelstrom.png",
+        "type": "heroic"
       },
       {
         "name": "Assimilation",
         "description": "Gain 10% of damage dealt from Basic Attacks and Abilities as Shields for 6 seconds. Shield amount gained doubled against Heroes.  Current maximum: 1004 (+4% per level)",
         "trait": true,
         "abilityId": "Kerrigan|D1",
-        "icon": "storm_ui_icon_kerrigan_assimilation.png"
+        "icon": "storm_ui_icon_kerrigan_assimilation.png",
+        "type": "trait"
       }
     ]
   },

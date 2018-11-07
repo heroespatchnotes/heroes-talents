@@ -16,7 +16,8 @@
         "abilityId": "Falstad|Q1",
         "cooldown": 10,
         "manaCost": "60",
-        "icon": "storm_ui_icon_falstad_hammerang.png"
+        "icon": "storm_ui_icon_falstad_hammerang.png",
+        "type": "basic"
       },
       {
         "name": "Lightning Rod",
@@ -25,7 +26,8 @@
         "abilityId": "Falstad|W1",
         "cooldown": 13,
         "manaCost": "60",
-        "icon": "storm_ui_icon_falstad_lightningrod.png"
+        "icon": "storm_ui_icon_falstad_lightningrod.png",
+        "type": "basic"
       },
       {
         "name": "Barrel Roll",
@@ -34,7 +36,8 @@
         "abilityId": "Falstad|E1",
         "cooldown": 13,
         "manaCost": "70",
-        "icon": "storm_ui_icon_falstad_barrelroll.png"
+        "icon": "storm_ui_icon_falstad_barrelroll.png",
+        "type": "basic"
       },
       {
         "name": "Hinterland Blast",
@@ -43,7 +46,8 @@
         "abilityId": "Falstad|R1",
         "cooldown": 120,
         "manaCost": "100",
-        "icon": "storm_ui_icon_falstad_hinterlandblast.png"
+        "icon": "storm_ui_icon_falstad_hinterlandblast.png",
+        "type": "heroic"
       },
       {
         "name": "Mighty Gust",
@@ -52,22 +56,25 @@
         "abilityId": "Falstad|R2",
         "cooldown": 60,
         "manaCost": "70",
-        "icon": "storm_ui_icon_falstad_mightygust.png"
+        "icon": "storm_ui_icon_falstad_mightygust.png",
+        "type": "heroic"
       },
       {
         "name": "Tailwind",
         "description": "Gain 15% increased Movement Speed after not taking damage for 6 seconds.",
         "trait": true,
         "abilityId": "Falstad|D1",
-        "icon": "storm_ui_icon_falstad_tailwind.png"
+        "icon": "storm_ui_icon_falstad_tailwind.png",
+        "type": "trait"
       },
       {
         "name": "Flight",
         "description": "Instead of mounting, Falstad can fly a great distance over terrain.",
         "hotkey": "Z",
         "abilityId": "Falstad|Z1",
-        "cooldown": 60,
-        "icon": "storm_ui_icon_falstad_mount.png"
+        "cooldown": 75,
+        "icon": "storm_ui_icon_falstad_mount.png",
+        "type": "mount"
       }
     ]
   },
@@ -271,7 +278,7 @@
         "tooltipId": "FalstadEpicMountTalent",
         "talentTreeId": "FalstadMasteryFlightEpicMount",
         "name": "Epic Mount",
-        "description": "Reduce the cooldown of Flight to 30 seconds, reduce the cast time before flying to 0.5 seconds, and increase the speed by 50%.",
+        "description": "Reduce the cooldown of Flight by 40 seconds, reduce the cast time before flying to 0.5 seconds, and increase the speed by 50%.",
         "icon": "storm_ui_icon_falstad_epicmount.png",
         "sort": 4,
         "abilityId": "Falstad|Z1"

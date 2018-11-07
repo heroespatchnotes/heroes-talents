@@ -16,7 +16,8 @@
         "abilityId": "Greymane|Q1",
         "cooldown": 9,
         "manaCost": "55",
-        "icon": "storm_ui_icon_greymane_qattack.png"
+        "icon": "storm_ui_icon_greymane_qattack.png",
+        "type": "basic"
       },
       {
         "name": "Inner Beast",
@@ -25,7 +26,8 @@
         "abilityId": "Greymane|W1",
         "cooldown": 20,
         "manaCost": "70",
-        "icon": "storm_ui_icon_greymane_beastfocus.png"
+        "icon": "storm_ui_icon_greymane_beastfocus.png",
+        "type": "basic"
       },
       {
         "name": "Darkflight",
@@ -34,7 +36,8 @@
         "abilityId": "Greymane|E1",
         "cooldown": 5,
         "manaCost": "10",
-        "icon": "storm_ui_icon_greymane_darkflight.png"
+        "icon": "storm_ui_icon_greymane_darkflight.png",
+        "type": "basic"
       },
       {
         "name": "Go for the Throat",
@@ -43,7 +46,8 @@
         "abilityId": "Greymane|R1",
         "cooldown": 80,
         "manaCost": "90",
-        "icon": "storm_ui_icon_greymane_goforthethroat.png"
+        "icon": "storm_ui_icon_greymane_goforthethroat.png",
+        "type": "heroic"
       },
       {
         "name": "Cursed Bullet",
@@ -52,14 +56,16 @@
         "abilityId": "Greymane|R2",
         "cooldown": 30,
         "manaCost": "50",
-        "icon": "storm_ui_icon_greymane_snapshot.png"
+        "icon": "storm_ui_icon_greymane_snapshot.png",
+        "type": "heroic"
       },
       {
         "name": "Curse of the Worgen",
         "description": "Greymane can use certain Abilities to shapeshift between a Human and a Worgen.  While Human, Greymane's Basic Attacks are ranged.  While Worgen, Greymane gains 10 Armor, and his Basic Attacks become melee but deal 40% more damage.",
         "trait": true,
         "abilityId": "Greymane|D1",
-        "icon": "storm_ui_icon_greymane_curseoftheworgen.png"
+        "icon": "storm_ui_icon_greymane_curseoftheworgen.png",
+        "type": "trait"
       }
     ],
     "GreymaneWorgen": [
@@ -70,7 +76,8 @@
         "abilityId": "Greymane|Q2",
         "cooldown": 4,
         "manaCost": "30",
-        "icon": "storm_ui_icon_greymane_swipe.png"
+        "icon": "storm_ui_icon_greymane_swipe.png",
+        "type": "sub-basic"
       },
       {
         "name": "Disengage",
@@ -78,7 +85,8 @@
         "hotkey": "E",
         "abilityId": "Greymane|E2",
         "cooldown": 5,
-        "icon": "storm_ui_icon_greymane_disengage.png"
+        "icon": "storm_ui_icon_greymane_disengage.png",
+        "type": "sub-basic"
       }
     ]
   },

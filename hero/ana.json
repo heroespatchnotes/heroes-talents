@@ -16,7 +16,8 @@
         "abilityId": "Ana|Q1",
         "cooldown": 2,
         "manaCost": "10",
-        "icon": "storm_ui_icon_ana_healing_dart.png"
+        "icon": "storm_ui_icon_ana_healing_dart.png",
+        "type": "basic"
       },
       {
         "name": "Biotic Grenade",
@@ -25,7 +26,8 @@
         "abilityId": "Ana|W1",
         "cooldown": 16,
         "manaCost": "50",
-        "icon": "storm_ui_icon_ana_biotic_grenade.png"
+        "icon": "storm_ui_icon_ana_biotic_grenade.png",
+        "type": "basic"
       },
       {
         "name": "Sleep Dart",
@@ -34,7 +36,8 @@
         "abilityId": "Ana|E1",
         "cooldown": 14,
         "manaCost": "50",
-        "icon": "storm_ui_icon_ana_sleep_dart.png"
+        "icon": "storm_ui_icon_ana_sleep_dart.png",
+        "type": "basic"
       },
       {
         "name": "Eye of Horus",
@@ -43,7 +46,8 @@
         "abilityId": "Ana|R1",
         "cooldown": 45,
         "manaCost": "45",
-        "icon": "storm_ui_icon_ana_overwatch.png"
+        "icon": "storm_ui_icon_ana_overwatch.png",
+        "type": "heroic"
       },
       {
         "name": "Nano Boost",
@@ -52,14 +56,16 @@
         "abilityId": "Ana|R2",
         "cooldown": 70,
         "manaCost": "60",
-        "icon": "storm_ui_icon_ana_nano_bost.png"
+        "icon": "storm_ui_icon_ana_nano_bost.png",
+        "type": "heroic"
       },
       {
         "name": "Shrike",
         "description": "Basic Attacks apply a Dose to enemies, dealing an additional 40 (+4% per level) damage over 5 seconds, and stacking up to 5 times.  Every 0.5 seconds, Ana is healed for 50% of the damage dealt by Shrike.",
         "trait": true,
         "abilityId": "Ana|D1",
-        "icon": "storm_ui_icon_ana_shrike.png"
+        "icon": "storm_ui_icon_ana_shrike.png",
+        "type": "trait"
       }
     ]
   },

@@ -15,7 +15,8 @@
         "hotkey": "Q",
         "abilityId": "Illidan|Q1",
         "cooldown": 6,
-        "icon": "storm_ui_icon_illidan_dive.png"
+        "icon": "storm_ui_icon_illidan_dive.png",
+        "type": "basic"
       },
       {
         "name": "Sweeping Strike",
@@ -23,7 +24,8 @@
         "hotkey": "W",
         "abilityId": "Illidan|W1",
         "cooldown": 8,
-        "icon": "storm_ui_icon_illidan_sweepingstrike.png"
+        "icon": "storm_ui_icon_illidan_sweepingstrike.png",
+        "type": "basic"
       },
       {
         "name": "Evasion",
@@ -31,7 +33,8 @@
         "hotkey": "E",
         "abilityId": "Illidan|E1",
         "cooldown": 15,
-        "icon": "storm_ui_icon_illidan_evasion.png"
+        "icon": "storm_ui_icon_illidan_evasion.png",
+        "type": "basic"
       },
       {
         "name": "The Hunt",
@@ -39,7 +42,8 @@
         "hotkey": "R",
         "abilityId": "Illidan|R1",
         "cooldown": 100,
-        "icon": "storm_ui_icon_illidan_thehunt.png"
+        "icon": "storm_ui_icon_illidan_thehunt.png",
+        "type": "heroic"
       },
       {
         "name": "Metamorphosis",
@@ -47,14 +51,16 @@
         "hotkey": "R",
         "abilityId": "Illidan|R2",
         "cooldown": 120,
-        "icon": "storm_ui_icon_illidan_metamorphosis.png"
+        "icon": "storm_ui_icon_illidan_metamorphosis.png",
+        "type": "heroic"
       },
       {
         "name": "Betrayer's Thirst",
         "description": "Basic Attacks heal for 30% of damage dealt and reduce Ability cooldowns by 1 second.",
         "trait": true,
         "abilityId": "Illidan|D1",
-        "icon": "storm_ui_icon_illidan_betrayersthirst.png"
+        "icon": "storm_ui_icon_illidan_betrayersthirst.png",
+        "type": "trait"
       }
     ]
   },
