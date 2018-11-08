@@ -22,30 +22,33 @@ Example:
     "Malthael": [
       {
         "name": "Soul Rip",
-        "description": "Extract the souls of nearby enemies afflicted by Reaper's Mark, dealing 100 (+4% per level) damage and healing Malthael for 44 per target hit. Heroic targets heal Malthael for an additional 3% of the Hero's maximum Health.",
+        "description": "Extract the souls of nearby enemies afflicted by Reaper's Mark, dealing 100 (+4% per level) damage and healing Malthael for 25 (+4% per level) per target hit. Heroic targets heal Malthael for an additional 4% of the Hero's maximum Health.",
         "hotkey": "Q",
         "abilityId": "Malthael|Q1",
         "cooldown": 2,
-        "manaCost": "20",
-        "icon": "storm_ui_icon_malthael_soulrip.png"
+        "manaCost": 25,
+        "icon": "storm_ui_icon_malthael_soulrip.png",
+        "type": "basic"
       },
       ...
       {
         "name": "Tormented Souls",
-        "description": "Gain 10 Armor and unleash a torrent of souls, continually applying Reaper's Mark to nearby enemies for 4 seconds.",
+        "description": "Unleash a torrent of souls, continually applying Reaper's Mark to nearby enemies for 4 seconds.",
         "hotkey": "R",
         "abilityId": "Malthael|R1",
-        "cooldown": 100,
-        "manaCost": "100",
-        "icon": "storm_ui_icon_malthael_tormentedsoul.png"
+        "cooldown": 80,
+        "manaCost": 100,
+        "icon": "storm_ui_icon_malthael_tormentedsoul.png",
+        "type": "heroic"
       },
       ...
       {
         "name": "Reaper's Mark",
-        "description": "Basic Attacks afflict non-Structure targets with Reaper's Mark for 4 seconds.  Marked enemies are revealed and take damage equal to 2.25% of their maximum Health every 1 second.",
+        "description": "Basic Attacks cleave in an area in front of Malthael and afflict non-Structure targets with Reaper's Mark for 4 seconds.  Marked enemies are revealed and take damage equal to 1.75% of their maximum Health every 1 second.",
         "trait": true,
         "abilityId": "Malthael|D1",
-        "icon": "storm_ui_icon_malthael_reapersmark.png"
+        "icon": "storm_ui_icon_malthael_reapersmark.png",
+        "type": "trait"
       }
     ]
   },
@@ -331,6 +334,10 @@ Example:
 <a class="img-wrap" href="hero/nova.json">
   <img class="img-rounded" src="images/heroes/nova.png" />
   <span>Nova</span>
+</a>
+<a class="img-wrap" href="hero/orphea.json">
+  <img class="img-rounded" src="images/heroes/orphea.png" />
+  <span>Orphea</span>
 </a>
 <a class="img-wrap" href="hero/probius.json">
   <img class="img-rounded" src="images/heroes/probius.png" />
