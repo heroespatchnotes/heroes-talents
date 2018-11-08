@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Lunara|Q1",
         "cooldown": 8,
-        "manaCost": "60",
+        "manaCost": 60,
         "icon": "storm_ui_icon_lunara_pollencloud.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Lunara|W1",
         "cooldown": 10,
-        "manaCost": "40",
+        "manaCost": 40,
         "icon": "storm_ui_icon_lunara_fullbloom.png",
         "type": "basic"
       },
@@ -44,7 +44,7 @@
         "hotkey": "R",
         "abilityId": "Lunara|R1",
         "cooldown": 15,
-        "manaCost": "35",
+        "manaCost": 35,
         "icon": "storm_ui_icon_lunara_wildspear.png",
         "type": "heroic"
       },
@@ -54,7 +54,7 @@
         "hotkey": "R",
         "abilityId": "Lunara|R2",
         "cooldown": 20,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_lunara_boundlessstride.png",
         "type": "heroic"
       },
@@ -73,6 +73,17 @@
         "abilityId": "Lunara|Z1",
         "icon": "storm_ui_icon_lunara_mount.png",
         "type": "mount"
+      }
+    ],
+    "LunaraWisp": [
+      {
+        "name": "Relocate Wisp",
+        "description": "Moves the Wisp to a new location.",
+        "hotkey": "E",
+        "abilityId": "Lunara|E2",
+        "cooldown": 1,
+        "icon": "storm_ui_icon_lunara_wispredirect.png",
+        "type": "subunit"
       }
     ]
   },
@@ -298,7 +309,7 @@
         "description": "Activate to increase the Movement Speed bonus of Dryad's Swiftness to 80% for 6 seconds.",
         "icon": "storm_ui_icon_lunara_boundlessstride_a.png",
         "sort": 4,
-        "abilityId": "Lunara|Active",
+        "abilityId": "Lunara|Z1",
         "cooldown": 30
       }
     ]

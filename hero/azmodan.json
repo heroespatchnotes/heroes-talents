@@ -6,7 +6,7 @@
   "icon": "azmodan.png",
   "role": "Specialist",
   "type": "Ranged",
-  "releaseDate": "2014-10-07",
+  "releaseDate": "2014-10-14",
   "abilities": {
     "Azmodan": [
       {
@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Azmodan|Q1",
         "cooldown": 10,
-        "manaCost": "60",
+        "manaCost": 60,
         "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Azmodan|W1",
         "cooldown": 10,
-        "manaCost": "30",
+        "manaCost": 30,
         "icon": "storm_ui_icon_azmodan_summondemonwarrior.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Azmodan|E1",
         "cooldown": 6,
-        "manaCost": "40",
+        "manaCost": 40,
         "icon": "storm_ui_icon_azmodan_allshallburn.png",
         "type": "basic"
       },
@@ -45,7 +45,7 @@
         "hotkey": "R",
         "abilityId": "Azmodan|R1",
         "cooldown": 20,
-        "manaCost": "100",
+        "manaCost": 100,
         "icon": "storm_ui_icon_azmodan_blackpool.png",
         "type": "heroic"
       },
@@ -55,7 +55,7 @@
         "hotkey": "R",
         "abilityId": "Azmodan|R2",
         "cooldown": 90,
-        "manaCost": "60",
+        "manaCost": 60,
         "icon": "storm_ui_icon_azmodan_demonicinvasion.png",
         "type": "heroic"
       },
@@ -198,7 +198,7 @@
         "description": "Reduces the Channel time of All Shall Burn by 0.5 seconds. If All Shall Burn's Channel lasts its full duration against a Hero, Azmodan is healed for 8% of his maximum Health.",
         "icon": "storm_ui_icon_azmodan_allshallburn.png",
         "sort": 2,
-        "abilityId": "Azmodan|Q1"
+        "abilityId": "Azmodan|E1"
       },
       {
         "tooltipId": "AzmodanChainOfCommand",

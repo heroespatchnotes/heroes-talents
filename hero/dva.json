@@ -73,19 +73,12 @@
     "D.VaPilot": [
       {
         "name": "Call Mech",
-        "description": "Call a new Mech and enter Mech Mode. Basic Attacks lower this cooldown by 0.5 seconds each.",
+        "description": "Call a new Mech and enter Mech Mode.  Basic Attacks lower this cooldown by 0.5 seconds each.",
         "hotkey": "E",
         "abilityId": "D.Va|E2",
         "cooldown": 45,
         "icon": "storm_ui_icon_dva_callmech.png",
-        "type": "sub-basic"
-      },
-      {
-        "name": "Pilot Mode",
-        "description": "Basic Attacks reduce the cooldown of Call Mech by 0.5 seconds. As a Pilot, D.Va only awards 50% of a normal Hero's experience upon dying.",
-        "trait": true,
-        "abilityId": "D.Va|D2",
-        "type": "trait"
+        "type": "subunit"
       }
     ]
   },
@@ -103,7 +96,7 @@
       {
         "tooltipId": "DVaBoostersHitTheNitrous",
         "talentTreeId": "DVaBoostersHitTheNitrous",
-        "name": "Hit The Nitrous",
+        "name": "Hit the Nitrous",
         "description": "Initial speed bonus of Boosters is increased to 325%, then decays to normal boost speed over 0.5 seconds. During this time, Boosters deals 50% extra damage.",
         "icon": "storm_ui_icon_dva_boosters_a.png",
         "sort": 2,
@@ -141,7 +134,7 @@
       {
         "tooltipId": "DVaDefenseMatrixGetThroughThis",
         "talentTreeId": "DVaDefenseMatrixGetThroughThis",
-        "name": "Get through This!",
+        "name": "Get Through This!",
         "description": "Increase the duration of Defense Matrix by 3 seconds.",
         "icon": "storm_ui_icon_dva_defensematrix_a.png",
         "sort": 2,
@@ -154,7 +147,7 @@
         "description": "Every time an enemy Hero deals damage while inside Defense Matrix, D.Va's Self-Destruct Charge increases by 1%.  Max of 15% Charge gained per use.",
         "icon": "storm_ui_icon_dva_defensematrix_b.png",
         "sort": 3,
-        "abilityId": "D.Va|E1"
+        "abilityId": "D.Va|W1"
       },
       {
         "tooltipId": "DVaSelfDestructBringItOn",
@@ -234,7 +227,7 @@
         "description": "Increase Mech Health by 20%, but also increase the cooldown of Call Mech by 15 seconds.  This does not decrease the amount of Self-Destruct Charge gained.",
         "icon": "storm_ui_icon_dva_callmech.png",
         "sort": 1,
-        "abilityId": "D.Va|Passive"
+        "abilityId": "D.Va|E1"
       },
       {
         "tooltipId": "DVaMechEmergencyShielding",
@@ -320,7 +313,7 @@
         "description": "D.Va gains the Concussive Pulse ability, allowing her to deal 141 (+4% per level) damage to enemies in a cone and knock them back.  Requires Pilot Mode.",
         "icon": "storm_ui_icon_dva_concussivecharge.png",
         "sort": 3,
-        "abilityId": "D.Va|Active",
+        "abilityId": "D.Va|W1",
         "cooldown": 7
       },
       {
@@ -330,7 +323,7 @@
         "description": "Call Mech is instant and can target a location. Upon landing, the Mech deals 202 (+4% per level) damage to enemies in the impact area.",
         "icon": "storm_ui_icon_dva_callmech.png",
         "sort": 4,
-        "abilityId": "D.Va|Active",
+        "abilityId": "D.Va|E2",
         "cooldown": 45
       }
     ]

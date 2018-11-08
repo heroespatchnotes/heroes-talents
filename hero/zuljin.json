@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Zul'jin|Q1",
         "cooldown": 8,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_zuljin_grievousthrow.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Zul'jin|W1",
         "cooldown": 10,
-        "manaCost": "60",
+        "manaCost": 60,
         "icon": "storm_ui_icon_zuljin_twincleave.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Zul'jin|E1",
         "cooldown": 15,
-        "manaCost": "75",
+        "manaCost": 75,
         "icon": "storm_ui_icon_zuljin_regeneration.png",
         "type": "basic"
       },
@@ -45,7 +45,7 @@
         "hotkey": "R",
         "abilityId": "Zul'jin|R1",
         "cooldown": 90,
-        "manaCost": "75",
+        "manaCost": 75,
         "icon": "storm_ui_icon_zuljin_tazdingo.png",
         "type": "heroic"
       },
@@ -55,7 +55,7 @@
         "hotkey": "R",
         "abilityId": "Zul'jin|R2",
         "cooldown": 40,
-        "manaCost": "70",
+        "manaCost": 70,
         "icon": "storm_ui_icon_zuljin_guillotine.png",
         "type": "heroic"
       },
@@ -70,7 +70,7 @@
       {
         "name": "Amani Rage",
         "description": "Activate to cause Zul'jin to instantly lose 50% of his current Health and heal for that amount over 10 seconds.",
-        "hotkey": "1",
+        "hotkey": 1,
         "abilityId": "Zul'jin|11",
         "cooldown": 30,
         "icon": "storm_ui_icon_zuljin_davoodooshuffle.png",
@@ -227,7 +227,7 @@
         "description": "Zul'jin's Basic Attacks against enemy Heroes marked with Grievous Throw ignore Armor.",
         "icon": "storm_ui_icon_zuljin_grievousthrow.png",
         "sort": 1,
-        "abilityId": "Zul'jin|Passive"
+        "abilityId": "Zul'jin|Q1"
       },
       {
         "tooltipId": "ZuljinWrongPlaceWrongTime",

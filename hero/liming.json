@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Li-Ming|Q1",
         "cooldown": 3,
-        "manaCost": "20",
+        "manaCost": 20,
         "icon": "storm_ui_icon_wizard_magicmissiles.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Li-Ming|W1",
         "cooldown": 8,
-        "manaCost": "40",
+        "manaCost": 40,
         "icon": "storm_ui_icon_wizard_arcaneorb.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Li-Ming|E1",
         "cooldown": 5,
-        "manaCost": "30",
+        "manaCost": 30,
         "icon": "storm_ui_icon_wizard_teleport.png",
         "type": "basic"
       },
@@ -45,17 +45,17 @@
         "hotkey": "R",
         "abilityId": "Li-Ming|R1",
         "cooldown": 30,
-        "manaCost": "80",
+        "manaCost": 80,
         "icon": "storm_ui_icon_wizard_disintegrate.png",
         "type": "heroic"
       },
       {
-        "name": "Wave Of Force",
+        "name": "Wave of Force",
         "description": "Knock away all enemies from an area and deal 160 (+5% per level) damage.",
         "hotkey": "R",
         "abilityId": "Li-Ming|R2",
         "cooldown": 20,
-        "manaCost": "80",
+        "manaCost": 80,
         "icon": "storm_ui_icon_wizard_waveofforce.png",
         "type": "heroic"
       },
@@ -180,7 +180,7 @@
       {
         "tooltipId": "WizardWaveOfForce",
         "talentTreeId": "WizardHeroicAbilityWaveOfForce",
-        "name": "Wave Of Force",
+        "name": "Wave of Force",
         "description": "Knock away all enemies from an area and deal 160 (+5% per level) damage.",
         "icon": "storm_ui_icon_wizard_waveofforce.png",
         "sort": 2,
@@ -240,7 +240,7 @@
         "tooltipId": "WizardArcaneOrbArcaneOrbitTalent",
         "talentTreeId": "WizardArcaneOrbArcaneOrbit",
         "name": "Arcane Orbit",
-        "description": "Arcane Orb travels 25% farther, doing up to 25% more damage.",
+        "description": "Arcane Orb travels 25% farther, increasing it's maximum distance damage bonus from 270 (+3% per level) to 371 (+3% per level).",
         "icon": "storm_ui_icon_wizard_arcaneorb.png",
         "sort": 3,
         "abilityId": "Li-Ming|W1"

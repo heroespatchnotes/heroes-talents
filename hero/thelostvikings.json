@@ -73,7 +73,7 @@
       {
         "name": "Select Olaf",
         "description": "Olaf can charge enemies and slow their Movement Speed by 30% for 3 seconds by right-clicking on them. 8 second cooldown.  Olaf gains increased Health Regeneration when out of combat for 4 seconds.",
-        "hotkey": "1",
+        "hotkey": 1,
         "abilityId": "The Lost Vikings|11",
         "icon": "storm_ui_icon_lostvikings_selectolaf.png",
         "type": "activable"
@@ -81,7 +81,7 @@
       {
         "name": "Select Baleog",
         "description": "Baleog's Basic Attacks deal 50% splash damage to enemies behind his attack target.",
-        "hotkey": "2",
+        "hotkey": 2,
         "abilityId": "The Lost Vikings|21",
         "icon": "storm_ui_icon_lostvikings_selectbaleog.png",
         "type": "activable"
@@ -89,17 +89,39 @@
       {
         "name": "Select Erik",
         "description": "Erik moves faster than the other Vikings and has increased Basic Attack range.",
-        "hotkey": "3",
+        "hotkey": 3,
         "abilityId": "The Lost Vikings|31",
         "icon": "storm_ui_icon_lostvikings_selecterik.png",
         "type": "activable"
       },
       {
-        "name": "Select All Vikings",
-        "description": "The Lost Vikings can be controlled individually or as a group. Each Viking has particular strengths.",
-        "hotkey": "4",
-        "abilityId": "The Lost Vikings|41",
-        "type": "activable"
+        "name": "Jump!",
+        "description": "Makes all Vikings Invulnerable and able to pass over enemies for 1.5 seconds.",
+        "hotkey": "W",
+        "abilityId": "The Lost Vikings|W2",
+        "cooldown": 30,
+        "icon": "storm_ui_icon_lostvikings_jump.png",
+        "type": "basic"
+      },
+      {
+        "name": "Norse Force!",
+        "description": "All Vikings gain a 110 (+4% per level) to 220 (+4% per level) point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.",
+        "hotkey": "Q",
+        "abilityId": "The Lost Vikings|Q2",
+        "cooldown": 30,
+        "icon": "storm_ui_icon_lostvikings_norseforce.png",
+        "type": "basic"
+      }
+    ],
+    "LostVikingsLongboat": [
+      {
+        "name": "Mortar",
+        "description": "Fires a mortar at the targeted location, dealing 205 (+4% per level) damage in a large area.",
+        "hotkey": "Q",
+        "abilityId": "The Lost Vikings|Q3",
+        "cooldown": 3,
+        "icon": "storm_ui_icon_lostvikings_mortar.png",
+        "type": "subunit"
       }
     ]
   },
@@ -139,7 +161,7 @@
         "description": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Bosses. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.  Current number of Bribe stacks: 0",
         "icon": "storm_ui_icon_talent_bribe.png",
         "sort": 4,
-        "abilityId": "The Lost Vikings|Active"
+        "abilityId": "The Lost Vikings|E1"
       }
     ],
     "4": [
