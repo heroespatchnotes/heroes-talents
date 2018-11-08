@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Garrosh|Q1",
         "cooldown": 8,
-        "manaCost": "30",
+        "manaCost": 30,
         "icon": "storm_ui_icon_garrosh_groundbreaker.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Garrosh|W1",
         "cooldown": 12,
-        "manaCost": "55",
+        "manaCost": 55,
         "icon": "storm_ui_icon_garrosh_bloodthirst.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Garrosh|E1",
         "cooldown": 14,
-        "manaCost": "60",
+        "manaCost": 60,
         "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
         "type": "basic"
       },
@@ -45,7 +45,7 @@
         "hotkey": "R",
         "abilityId": "Garrosh|R1",
         "cooldown": 50,
-        "manaCost": "40",
+        "manaCost": 40,
         "icon": "storm_ui_icon_garrosh_warlords_challenge.png",
         "type": "heroic"
       },
@@ -55,7 +55,7 @@
         "hotkey": "R",
         "abilityId": "Garrosh|R2",
         "cooldown": 8,
-        "manaCost": "25",
+        "manaCost": 25,
         "icon": "storm_ui_icon_garrosh_decimate.png",
         "type": "heroic"
       },
@@ -104,7 +104,7 @@
       {
         "tooltipId": "GarroshBloodthirstInFortheKill",
         "talentTreeId": "GarroshBloodthirstInFortheKill",
-        "name": "In for the Kill",
+        "name": "In For the Kill",
         "description": "Increase Bloodthirst's damage against non-Heroes by 70%. Killing enemies with Bloodthirst resets its cooldown and refunds its Mana cost.",
         "icon": "storm_ui_icon_garrosh_bloodthirst.png",
         "sort": 1,
@@ -117,7 +117,7 @@
         "description": "Basic Attacks against Heroes reduce the cooldown of Bloodthirst by 2 seconds.",
         "icon": "storm_ui_icon_garrosh_bloodthirst_var1.png",
         "sort": 2,
-        "abilityId": "Garrosh|Passive"
+        "abilityId": "Garrosh|W1"
       },
       {
         "tooltipId": "GarroshIndomitable",

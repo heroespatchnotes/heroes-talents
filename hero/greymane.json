@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Greymane|Q1",
         "cooldown": 9,
-        "manaCost": "55",
+        "manaCost": 55,
         "icon": "storm_ui_icon_greymane_qattack.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Greymane|W1",
         "cooldown": 20,
-        "manaCost": "70",
+        "manaCost": 70,
         "icon": "storm_ui_icon_greymane_beastfocus.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Greymane|E1",
         "cooldown": 5,
-        "manaCost": "10",
+        "manaCost": 10,
         "icon": "storm_ui_icon_greymane_darkflight.png",
         "type": "basic"
       },
@@ -45,7 +45,7 @@
         "hotkey": "R",
         "abilityId": "Greymane|R1",
         "cooldown": 80,
-        "manaCost": "90",
+        "manaCost": 90,
         "icon": "storm_ui_icon_greymane_goforthethroat.png",
         "type": "heroic"
       },
@@ -55,7 +55,7 @@
         "hotkey": "R",
         "abilityId": "Greymane|R2",
         "cooldown": 30,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_greymane_snapshot.png",
         "type": "heroic"
       },
@@ -71,22 +71,22 @@
     "GreymaneWorgen": [
       {
         "name": "Razor Swipe",
-        "description": "Swipe towards the area in front of you for 126 (+4% per level) damage.  Human: Gilnean Cocktail  Damage the first enemy hit and deal heavy damage behind them.",
+        "description": "Swipe in the targeted direction, dealing 126 (+4% per level) damage to enemies hit.  Human: Gilnean Cocktail Damage the first enemy hit and deal heavy damage behind them.",
         "hotkey": "Q",
         "abilityId": "Greymane|Q2",
         "cooldown": 4,
-        "manaCost": "30",
+        "manaCost": 30,
         "icon": "storm_ui_icon_greymane_swipe.png",
-        "type": "sub-basic"
+        "type": "subunit"
       },
       {
         "name": "Disengage",
-        "description": "Roll away and shapeshift into a Human.  Human: Darkflight  Leap at an enemy and shapeshift into a Worgen.",
+        "description": "Roll away and shapeshift into a Human.  Human: Darkflight Leap at an enemy and shapeshift into a Worgen.",
         "hotkey": "E",
         "abilityId": "Greymane|E2",
         "cooldown": 5,
         "icon": "storm_ui_icon_greymane_disengage.png",
-        "type": "sub-basic"
+        "type": "subunit"
       }
     ]
   },

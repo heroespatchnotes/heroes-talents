@@ -6,7 +6,7 @@
   "icon": "rehgar.png",
   "role": "Support",
   "type": "Melee",
-  "releaseDate": "2014-07-23",
+  "releaseDate": "2014-07-22",
   "abilities": {
     "Rehgar": [
       {
@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Rehgar|Q1",
         "cooldown": 8,
-        "manaCost": "55",
+        "manaCost": 55,
         "icon": "storm_ui_icon_rehgar_chainheal.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Rehgar|W1",
         "cooldown": 8,
-        "manaCost": "60",
+        "manaCost": 60,
         "icon": "storm_ui_icon_rehgar_lightningshield.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Rehgar|E1",
         "cooldown": 15,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
         "type": "basic"
       },
@@ -45,7 +45,7 @@
         "hotkey": "R",
         "abilityId": "Rehgar|R1",
         "cooldown": 90,
-        "manaCost": "70",
+        "manaCost": 70,
         "icon": "storm_ui_icon_rehgar_bloodlust.png",
         "type": "heroic"
       },
@@ -55,19 +55,24 @@
         "hotkey": "R",
         "abilityId": "Rehgar|R2",
         "cooldown": 100,
-        "manaCost": "80",
+        "manaCost": 80,
         "icon": "storm_ui_icon_rehgar_ancestralhealing.png",
         "type": "heroic"
       },
       {
         "name": "Ghost Wolf",
-        "description": "Instead of using a mount, Rehgar transforms into a Ghost Wolf with 20% increased Movement Speed. Basic Attacks in Ghost Wolf form cause him to lunge at his target and deal 75% bonus damage. Dealing damage, using Abilities, and channeling cancels Ghost Wolf form.",
+        "description": "Increases Movement Speed by 20%.",
         "hotkey": "Z",
-        "trait": true,
         "abilityId": "Rehgar|Z1",
-        "cooldown": 1,
+        "cooldown": 4,
         "icon": "storm_ui_icon_rehgar_mount.png",
         "type": "mount"
+      },
+      {
+        "name": "Ghost Wolf",
+        "description": "Instead of using a mount, Rehgar transforms into a Ghost Wolf with 20% increased Movement Speed. Basic Attacks in Ghost Wolf form cause him to lunge at his target and deal 75% bonus damage. Dealing damage, using Abilities, and channeling cancels Ghost Wolf form.",
+        "icon": "storm_ui_icon_rehgar_ghostwolf.png",
+        "type": "trait"
       }
     ]
   },
@@ -242,7 +247,7 @@
         "abilityId": "Rehgar|E1"
       },
       {
-        "tooltipId": "RehgarHungeroftheWolf",
+        "tooltipId": "RehgarHungeroftheWolfTalent",
         "talentTreeId": "RehgarHungerOfTheWolf",
         "name": "Hunger of the Wolf",
         "description": "Ghost Wolf attacks against Heroes deal an additional 5% of the target's maximum Health and heal Rehgar for 5% of his maximum Health.",

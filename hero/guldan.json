@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Gul'dan|Q1",
         "cooldown": 1.5,
-        "manaCost": "75",
+        "manaCost": 75,
         "icon": "storm_ui_icon_guldan_felflame.png",
         "type": "basic"
       },
@@ -34,7 +34,7 @@
         "hotkey": "E",
         "abilityId": "Gul'dan|E1",
         "cooldown": 14,
-        "manaCost": "80",
+        "manaCost": 80,
         "icon": "storm_ui_icon_guldan_handofguldan.png",
         "type": "basic"
       },
@@ -44,7 +44,7 @@
         "hotkey": "R",
         "abilityId": "Gul'dan|R1",
         "cooldown": 80,
-        "manaCost": "90",
+        "manaCost": 90,
         "icon": "storm_ui_icon_guldan_horrify.png",
         "type": "heroic"
       },
@@ -54,7 +54,7 @@
         "hotkey": "R",
         "abilityId": "Gul'dan|R2",
         "cooldown": 100,
-        "manaCost": "90",
+        "manaCost": 90,
         "icon": "storm_ui_icon_guldan_rainoffire.png",
         "type": "heroic"
       },
@@ -146,7 +146,7 @@
         "description": "Drain Life deals 50% more damage and Slows the target's Movement Speed by 25% if they are afflicted by Corruption.",
         "icon": "storm_ui_icon_guldan_healthfunnel.png",
         "sort": 2,
-        "abilityId": "Gul'dan|E1"
+        "abilityId": "Gul'dan|W1"
       },
       {
         "tooltipId": "GuldanLifeTapHungerforPower",
@@ -188,7 +188,7 @@
         "description": "Hitting an enemy Hero with Fel Flame grants 40 Spell Armor for 2.5 seconds, reducing Ability Damage taken by 40%.",
         "icon": "storm_ui_icon_guldan_felflame.png",
         "sort": 1,
-        "abilityId": "Gul'dan|Passive"
+        "abilityId": "Gul'dan|Q1"
       },
       {
         "tooltipId": "GuldanDrainLifeHarvestLife",
@@ -224,7 +224,7 @@
         "tooltipId": "GuldanFelFlameRampantHellfire",
         "talentTreeId": "GuldanFelFlameRampantHellfire",
         "name": "Rampant Hellfire",
-        "description": "Fel Flame's damage is increased by 8% for 5 seconds when hitting an enemy Hero. This can stack up to 5 times.",
+        "description": "Fel Flame's damage is increased by 10% for 5 seconds when hitting an enemy Hero. This can stack up to 5 times.",
         "icon": "storm_ui_icon_guldan_felflame.png",
         "sort": 1,
         "abilityId": "Gul'dan|Q1"
