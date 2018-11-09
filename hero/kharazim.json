@@ -62,6 +62,8 @@
       {
         "name": "Pick Your Trait",
         "description": "Choose between Transcendence, Iron Fists, and Insight from the Talents panel.",
+        "trait": true,
+        "abilityId": "Kharazim|D1",
         "icon": "storm_ui_icon_monk_trait1.png",
         "type": "trait"
       }
@@ -166,7 +168,7 @@
         "description": "Protect an allied Hero from death, causing them to be healed for 1084 (+4% per level) if they take fatal damage in the next 3 seconds.",
         "icon": "storm_ui_icon_monk_divinepalm.png",
         "sort": 1,
-        "abilityId": "Kharazim|R2",
+        "abilityId": "",
         "cooldown": 60
       },
       {
@@ -176,7 +178,7 @@
         "description": "Become Invulnerable and strike 7 times over 2 seconds. Each strike hits the highest Health nearby Hero for 7% of their maximum Health.",
         "icon": "storm_ui_icon_monk_sevensidedstrike.png",
         "sort": 2,
-        "abilityId": "Kharazim|R1",
+        "abilityId": "",
         "cooldown": 50
       }
     ],
@@ -264,7 +266,7 @@
         "description": "Divine Palm's cooldown is set to 5 seconds if the Hero does not die.",
         "icon": "storm_ui_icon_monk_divinepalm.png",
         "sort": 1,
-        "abilityId": "Kharazim|R2"
+        "abilityId": ""
       },
       {
         "tooltipId": "MonkElevenSidedStrikeTalent",
@@ -273,7 +275,7 @@
         "description": "Seven-Sided Strike hits 4 additional times.",
         "icon": "storm_ui_icon_monk_sevensidedstrike.png",
         "sort": 2,
-        "abilityId": "Kharazim|R1"
+        "abilityId": ""
       },
       {
         "tooltipId": "GenericStormShield",

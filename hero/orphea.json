@@ -3,7 +3,7 @@
   "shortName": "orphea",
   "attributeId": "ORPH",
   "name": "Orphea",
-  "icon": "",
+  "icon": "orphea.png",
   "role": "Assassin",
   "type": "Ranged",
   "releaseDate": "2018-11-13",
@@ -62,6 +62,8 @@
       {
         "name": "Overflowing Chaos",
         "description": "Hitting an enemy Hero with a Basic Ability grants 1 Chaos. Chaos can stack up to 3 times.  While Orphea has Chaos, her Basic Attacks against Heroes consumes all Chaos, dealing 50% increased damage per stack, and healing for 100% of the damage dealt.",
+        "trait": true,
+        "abilityId": "Orphea|D1",
         "icon": "storm_ui_icon_orphea_trait.png",
         "type": "trait"
       }
@@ -163,7 +165,7 @@
         "description": "After 1.5 seconds, deal 210 (+4% per level) damage in an area. Eternal Feast repeats every 1 second as long as it hits an enemy Hero.",
         "icon": "storm_ui_icon_orphea_ult_darkfall.png",
         "sort": 1,
-        "abilityId": "",
+        "abilityId": "Orphea|R1",
         "cooldown": 50
       },
       {
@@ -173,7 +175,7 @@
         "description": "After 1.25 seconds, pulls enemies in an area towards the center, dealing 275 (+4% per level) damage and Stunning them for 0.75 seconds.",
         "icon": "storm_ui_icon_orphea_ult_thrasher.png",
         "sort": 2,
-        "abilityId": "",
+        "abilityId": "Orphea|R2",
         "cooldown": 50
       }
     ],
