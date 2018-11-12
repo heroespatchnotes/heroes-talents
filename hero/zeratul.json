@@ -70,7 +70,7 @@
       {
         "name": "Vorpal Blade",
         "description": "Activate to teleport to Zeratul's last non-structure Basic Attack target within 3 seconds. The target is revealed during these 3 seconds.",
-        "hotkey": 1,
+        "hotkey": "1",
         "abilityId": "Zeratul|11",
         "cooldown": 15,
         "icon": "storm_ui_icon_zeratul_vorpalblade.png",
@@ -175,7 +175,7 @@
         "description": "Activate to cast an untalented version of Zeratul's most recently used Basic Ability, dealing 50% less damage.  Passive: After using an Ability, Zeratul's next Basic Attack within 6 seconds deals 30% more damage.",
         "icon": "storm_ui_icon_zeratul_mightofnerazim.png",
         "sort": 1,
-        "abilityId": "",
+        "abilityId": "Zeratul|R1",
         "cooldown": 20
       },
       {
@@ -185,7 +185,7 @@
         "description": "Slows time in an area to a near standstill, placing allies and enemies in Time Stop for 5 seconds. Zeratul is not affected.",
         "icon": "storm_ui_icon_zeratul_voidprison.png",
         "sort": 2,
-        "abilityId": "",
+        "abilityId": "Zeratul|R2",
         "cooldown": 100
       }
     ],
@@ -215,7 +215,7 @@
         "description": "Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 50%.  Can be toggled to allow or prevent this talent from triggering automatically.",
         "icon": "storm_ui_icon_talent_spellshield.png",
         "sort": 3,
-        "abilityId": "Zeratul|Passive"
+        "abilityId": "Zeratul|Active"
       }
     ],
     "16": [
@@ -255,7 +255,7 @@
         "description": "Might of the Nerazim resets the cooldown of all Basic Abilities.",
         "icon": "storm_ui_icon_zeratul_mightofnerazim.png",
         "sort": 1,
-        "abilityId": ""
+        "abilityId": "Zeratul|R1"
       },
       {
         "tooltipId": "ZeratulGiftoftheXelNaga",
@@ -264,7 +264,7 @@
         "description": "Allies are no longer affected by Void Prison, and enemies are slowed by 50% for 3 seconds once Void Prison ends.",
         "icon": "storm_ui_icon_zeratul_voidprison.png",
         "sort": 2,
-        "abilityId": ""
+        "abilityId": "Zeratul|R2"
       },
       {
         "tooltipId": "NexusBladesTalent",

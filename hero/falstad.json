@@ -96,7 +96,7 @@
         "description": "Quest: Every Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage.  Reward: Upon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 40% for 3 seconds. 60 second cooldown.",
         "icon": "storm_ui_icon_talent_seasonedmarksman.png",
         "sort": 2,
-        "abilityId": "Falstad|Active"
+        "abilityId": "Falstad|Passive"
       },
       {
         "tooltipId": "FalstadWingmanHotbarTalent",
@@ -174,7 +174,7 @@
         "description": "After 1 second, deal 475 (+4.75% per level) damage to enemies within a long line. The cooldown is reduced by 25 seconds for every enemy Hero hit.",
         "icon": "storm_ui_icon_falstad_hinterlandblast.png",
         "sort": 1,
-        "abilityId": "",
+        "abilityId": "Falstad|R1",
         "cooldown": 120
       },
       {
@@ -184,7 +184,7 @@
         "description": "Push enemies away, and slow their Movement Speed by 40% decaying over 4 seconds.",
         "icon": "storm_ui_icon_falstad_mightygust.png",
         "sort": 2,
-        "abilityId": "",
+        "abilityId": "Falstad|R2",
         "cooldown": 60
       }
     ],
@@ -254,7 +254,7 @@
         "description": "Hinterland Blast has double the range and deals 25% more damage.",
         "icon": "storm_ui_icon_falstad_hinterlandblast.png",
         "sort": 1,
-        "abilityId": ""
+        "abilityId": "Falstad|R1"
       },
       {
         "tooltipId": "FalstadWindTunnelTalent",
@@ -263,7 +263,7 @@
         "description": "Mighty Gust creates a wind tunnel for 4 seconds. Enemies caught in the tunnel will periodically be pushed back.",
         "icon": "storm_ui_icon_falstad_mightygust.png",
         "sort": 2,
-        "abilityId": ""
+        "abilityId": "Falstad|R2"
       },
       {
         "tooltipId": "NexusFrenzyTalent",

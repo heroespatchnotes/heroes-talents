@@ -70,7 +70,7 @@
       {
         "name": "Ghost Protocol",
         "description": "Activate to instantly grant Stealth to Nova and spawn a Holo Decoy at her location. Nova is Unrevealable for the first 0.5 seconds when Stealthed by Ghost Protocol.",
-        "hotkey": 1,
+        "hotkey": "1",
         "abilityId": "Nova|11",
         "cooldown": 60,
         "icon": "storm_ui_icon_nova_personalcloaking.png",
@@ -174,7 +174,7 @@
         "description": "Locks in on the target Hero, then fires 3 shots that hit the first Hero or Structure they come in contact with for 372 (+4% per level) damage each.",
         "icon": "storm_ui_icon_nova_tripletap.png",
         "sort": 1,
-        "abilityId": "",
+        "abilityId": "Nova|R1",
         "cooldown": 100
       },
       {
@@ -184,7 +184,7 @@
         "description": "After a 1.5 second delay, deals 435 (+4% per level) damage to enemies within an area. Unlimited range.",
         "icon": "storm_ui_icon_nova_orbitalstrike.png",
         "sort": 2,
-        "abilityId": "",
+        "abilityId": "Nova|R2",
         "cooldown": 60
       }
     ],
@@ -254,7 +254,7 @@
         "description": "Triple Tap's cooldown is reset if it kills an enemy Hero.",
         "icon": "storm_ui_icon_nova_tripletap.png",
         "sort": 1,
-        "abilityId": ""
+        "abilityId": "Nova|R1"
       },
       {
         "tooltipId": "NovaPrecisionStrikePrecisionBarrageTalent",
@@ -263,7 +263,7 @@
         "description": "Precision Strike gains a 2nd charge and its coodown is reduced by 30 seconds.",
         "icon": "storm_ui_icon_nova_orbitalstrike.png",
         "sort": 2,
-        "abilityId": ""
+        "abilityId": "Nova|R2"
       },
       {
         "tooltipId": "NovaGhostProtocolApolloSuitTalent",

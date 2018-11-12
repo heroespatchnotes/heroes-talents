@@ -96,7 +96,7 @@
         "description": "Quest: Stack 5 Doses on an enemy Hero.  Reward: After reaching maximum Dosage 12 times, unlock the Active Reload Ability, which can be activated to instantly gain 3 charges of Healing Dart.",
         "icon": "storm_ui_icon_ana_detachableboxmagazine.png",
         "sort": 3,
-        "abilityId": "Ana|D1"
+        "abilityId": "Ana|Passive"
       }
     ],
     "4": [
@@ -126,7 +126,7 @@
         "description": "Activate to use Biotic Grenade with a 275% increased range, but Grenades thrown this way take 3 seconds to land.  Passive: Reduce Biotic Grenade cooldown by 4 seconds.",
         "icon": "storm_ui_icon_ana_biotic_grenade.png",
         "sort": 3,
-        "abilityId": "Ana|W1",
+        "abilityId": "Ana|Active",
         "cooldown": 12
       }
     ],
@@ -168,7 +168,7 @@
         "description": "Instantly boost an allied Hero, restoring 200 Mana. For the next 8 seconds, they gain 30% Spell Power and their Basic Ability cooldowns recharge 150% faster.  Cannot be used on Ana.",
         "icon": "storm_ui_icon_ana_nano_bost.png",
         "sort": 1,
-        "abilityId": "",
+        "abilityId": "Ana|R2",
         "cooldown": 70
       },
       {
@@ -178,7 +178,7 @@
         "description": "Assume a sniping position, gaining the ability to fire up to 6 specialized rounds with unlimited range. Rounds hit the first allied or enemy Hero or enemy Structure in their path. Allies are healed for 285 (+4% per level) and enemies are damaged for 166 (+4% per level). Deals 50% less damage to Structures.  Ana is unable to move while Eye of Horus is active.",
         "icon": "storm_ui_icon_ana_overwatch.png",
         "sort": 2,
-        "abilityId": "",
+        "abilityId": "Ana|R1",
         "cooldown": 45
       }
     ],
@@ -248,7 +248,7 @@
         "description": "Allies affected by Nano Boost heal for 50% of Spell Damage dealt.",
         "icon": "storm_ui_icon_ana_nano_bost.png",
         "sort": 1,
-        "abilityId": ""
+        "abilityId": "Ana|R2"
       },
       {
         "tooltipId": "AnaEyeOfHorusBallisticAdvantage",
@@ -257,7 +257,7 @@
         "description": "Eye of Horus rounds explode upon impacting a Hero, healing nearby allies for 300 (+4% per level) and dealing 150 (+4% per level) damage to nearby enemy Heroes.",
         "icon": "storm_ui_icon_ana_overwatch.png",
         "sort": 2,
-        "abilityId": ""
+        "abilityId": "Ana|R1"
       },
       {
         "tooltipId": "AnaSomnolentDoses",
@@ -266,7 +266,7 @@
         "description": "Upon stacking 5 Doses, Heroes are put to Sleep for 2 seconds.",
         "icon": "storm_ui_icon_ana_shrike.png",
         "sort": 3,
-        "abilityId": "Ana|E1"
+        "abilityId": "Ana|D1"
       },
       {
         "tooltipId": "AnaDynamicShooting",
@@ -284,7 +284,7 @@
         "description": "Increase the Aim Down Sights Basic Attack range bonus from 2 to 4.",
         "icon": "storm_ui_icon_ana_aim_down_sights.png",
         "sort": 5,
-        "abilityId": "Ana|Active"
+        "abilityId": "Ana|D1"
       }
     ]
   }

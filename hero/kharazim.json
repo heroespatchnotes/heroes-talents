@@ -87,7 +87,7 @@
         "description": "Every 3rd Basic Attack deals 110% bonus damage and gives 25% increased Move Speed for 2 seconds.",
         "icon": "storm_ui_icon_monk_trait_ironfist.png",
         "sort": 2,
-        "abilityId": "Kharazim|D3"
+        "abilityId": "Kharazim|D1"
       },
       {
         "tooltipId": "MonkInsightTalent",
@@ -96,7 +96,7 @@
         "description": "Quest: Every 3rd Basic Attack restores 14 (+4% per level) Mana, grants a stack of Insight, and gives 25% increased Movement Speed for 2 seconds.  Reward: Upon getting 100 stacks of Insight, every 3rd attack also reduces Basic Ability cooldowns by 1.75 seconds.",
         "icon": "storm_ui_icon_monk_trait_insight.png",
         "sort": 3,
-        "abilityId": "Kharazim|D2"
+        "abilityId": "Kharazim|D1"
       }
     ],
     "4": [
@@ -168,7 +168,7 @@
         "description": "Protect an allied Hero from death, causing them to be healed for 1084 (+4% per level) if they take fatal damage in the next 3 seconds.",
         "icon": "storm_ui_icon_monk_divinepalm.png",
         "sort": 1,
-        "abilityId": "",
+        "abilityId": "Kharazim|R2",
         "cooldown": 60
       },
       {
@@ -178,7 +178,7 @@
         "description": "Become Invulnerable and strike 7 times over 2 seconds. Each strike hits the highest Health nearby Hero for 7% of their maximum Health.",
         "icon": "storm_ui_icon_monk_sevensidedstrike.png",
         "sort": 2,
-        "abilityId": "",
+        "abilityId": "Kharazim|R1",
         "cooldown": 50
       }
     ],
@@ -208,7 +208,7 @@
         "description": "Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 50%.  Can be toggled to allow or prevent this talent from triggering automatically.",
         "icon": "storm_ui_icon_talent_spellshield.png",
         "sort": 3,
-        "abilityId": "Kharazim|Passive"
+        "abilityId": "Kharazim|Active"
       },
       {
         "tooltipId": "MonkSixthSense",
@@ -266,7 +266,7 @@
         "description": "Divine Palm's cooldown is set to 5 seconds if the Hero does not die.",
         "icon": "storm_ui_icon_monk_divinepalm.png",
         "sort": 1,
-        "abilityId": ""
+        "abilityId": "Kharazim|R2"
       },
       {
         "tooltipId": "MonkElevenSidedStrikeTalent",
@@ -275,7 +275,7 @@
         "description": "Seven-Sided Strike hits 4 additional times.",
         "icon": "storm_ui_icon_monk_sevensidedstrike.png",
         "sort": 2,
-        "abilityId": ""
+        "abilityId": "Kharazim|R1"
       },
       {
         "tooltipId": "GenericStormShield",

@@ -157,7 +157,7 @@
         "description": "Increases Greymane's Human Basic Attack range by 1.1.",
         "icon": "storm_ui_icon_greymane_curseoftheworgen.png",
         "sort": 1,
-        "abilityId": "Greymane|Passive"
+        "abilityId": "Greymane|D1"
       },
       {
         "tooltipId": "GreymaneGilneanCocktailIncendiaryElixirTalent",
@@ -175,7 +175,7 @@
         "description": "Quest: Every 6 Human Basic Attacks against Heroes increase Basic Attack damage by 1%, up to 30%. Worgen Basic Attacks grant credit for 3 Basic Attacks. Half of this bonus is lost upon death.",
         "icon": "storm_ui_icon_greymane_curseoftheworgen_var1.png",
         "sort": 3,
-        "abilityId": "Greymane|Passive"
+        "abilityId": "Greymane|D1"
       }
     ],
     "10": [
@@ -186,7 +186,7 @@
         "description": "Leap at an enemy Hero and shapeshift into a Worgen, slashing for 355 (+4% per level) damage. If this kills them, the Ability can be used a second time within 10 seconds for free.",
         "icon": "storm_ui_icon_greymane_goforthethroat.png",
         "sort": 1,
-        "abilityId": "",
+        "abilityId": "Greymane|R1",
         "cooldown": 80
       },
       {
@@ -196,7 +196,7 @@
         "description": "Greymane shapeshifts into a Human and fires a bullet that hits the first enemy Hero in its path, dealing 35% of their current Health in damage.  Does not affect Vehicles.",
         "icon": "storm_ui_icon_greymane_snapshot.png",
         "sort": 2,
-        "abilityId": "",
+        "abilityId": "Greymane|R2",
         "cooldown": 30
       }
     ],
@@ -255,7 +255,7 @@
         "description": "Worgen Basic Attacks against Heroes deal bonus damage equal to 3% of the Hero's maximum Health.",
         "icon": "storm_ui_icon_greymane_curseoftheworgen_var1.png",
         "sort": 3,
-        "abilityId": "Greymane|Passive"
+        "abilityId": "Greymane|D1"
       }
     ],
     "20": [
@@ -266,7 +266,7 @@
         "description": "If the free cast of Go for the Throat kills its target, another free cast is provided that deals 35% more damage, up to 140%.",
         "icon": "storm_ui_icon_greymane_goforthethroat.png",
         "sort": 1,
-        "abilityId": ""
+        "abilityId": "Greymane|R1"
       },
       {
         "tooltipId": "GreymaneCursedBulletGilneanRouletteTalent",
@@ -275,7 +275,7 @@
         "description": "Cursed Bullet now hits all enemy heroes in its path and has its cooldown reduced by 5 seconds per hit.",
         "icon": "storm_ui_icon_greymane_snapshot.png",
         "sort": 2,
-        "abilityId": ""
+        "abilityId": "Greymane|R2"
       },
       {
         "tooltipId": "GreymaneHuntersBlunderbussTalent",
@@ -284,7 +284,7 @@
         "description": "Human Basic Attacks splash for 100% damage behind the target.",
         "icon": "storm_ui_icon_greymane_curseoftheworgen.png",
         "sort": 3,
-        "abilityId": "Greymane|Passive"
+        "abilityId": "Greymane|D1"
       },
       {
         "tooltipId": "GreymaneToothAndClawTalent",
@@ -293,7 +293,7 @@
         "description": "Worgen Basic Attacks cleave for 100% damage.",
         "icon": "storm_ui_icon_greymane_curseoftheworgen_var1.png",
         "sort": 4,
-        "abilityId": "Greymane|Passive"
+        "abilityId": "Greymane|D1"
       }
     ]
   }

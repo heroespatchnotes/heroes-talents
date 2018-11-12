@@ -70,7 +70,7 @@
       {
         "name": "Amani Rage",
         "description": "Activate to cause Zul'jin to instantly lose 50% of his current Health and heal for that amount over 10 seconds.",
-        "hotkey": 1,
+        "hotkey": "1",
         "abilityId": "Zul'jin|11",
         "cooldown": 30,
         "icon": "storm_ui_icon_zuljin_davoodooshuffle.png",
@@ -96,7 +96,7 @@
         "description": "While Zul'jin is below 75% Health, he gains 10% Spell Power. While he is below 50% Health, his Basic Attack damage is increased by 20%.",
         "icon": "storm_ui_icon_zuljin_berzerker.png",
         "sort": 2,
-        "abilityId": "Zul'jin|Passive"
+        "abilityId": "Zul'jin|D1"
       },
       {
         "tooltipId": "ZuljinHeadhunter",
@@ -135,7 +135,7 @@
         "description": "Lower the cooldown of Amani Rage by 10 seconds and gain 10 Armor while regenerating Health from it.",
         "icon": "storm_ui_icon_zuljin_davoodooshuffle.png",
         "sort": 3,
-        "abilityId": "Zul'jin|11"
+        "abilityId": "Zul'jin|Active"
       }
     ],
     "7": [
@@ -256,7 +256,7 @@
         "description": "Increase Taz'dingo's duration by 1 second. Upon expiring, Zul'jin heals for 50% of the damage he dealt during Taz'dingo.",
         "icon": "storm_ui_icon_zuljin_tazdingo.png",
         "sort": 1,
-        "abilityId": ""
+        "abilityId": "Zul'jin|R1"
       },
       {
         "tooltipId": "ZuljinBuzzsaw",
@@ -265,7 +265,7 @@
         "description": "After impact, Guillotine continues forward, dealing 75% damage to enemies hit. If a Hero is killed by Guillotine, Zul'jin is instantly healed to full.",
         "icon": "storm_ui_icon_zuljin_guillotine.png",
         "sort": 2,
-        "abilityId": ""
+        "abilityId": "Zul'jin|R2"
       },
       {
         "tooltipId": "ZuljinForestMedicine",

@@ -188,7 +188,7 @@
         "description": "After 0.5 seconds, deploy and enter a Bunker with 1435 (+4% per level) Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 170 (+4% per level) damage to enemies in a line.  Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.",
         "icon": "storm_ui_icon_blaze_bunker.png",
         "sort": 1,
-        "abilityId": "",
+        "abilityId": "Blaze|R1",
         "cooldown": 80
       },
       {
@@ -198,7 +198,7 @@
         "description": "Channel for up to 2.6 seconds. Upon ending, Slow nearby enemies by 60% and deal 55 (+4% per level) damage to them every 0.5 seconds. Combustion's Slow and damage over time duration is extended the longer Blaze Channels, from 1 second up to 5 seconds.  Blaze's Movement Speed is reduced by 40% while Channeling.",
         "icon": "storm_ui_icon_blaze_combustion.png",
         "sort": 2,
-        "abilityId": "",
+        "abilityId": "Blaze|R2",
         "cooldown": 80
       }
     ],
@@ -269,7 +269,7 @@
         "description": "Occupants can cast Oil Spill from Bunker Drop every 6 seconds. Additionally, Bunker Drop's Armor bonus upon exiting is increased by 25, and its duration by 1 second.",
         "icon": "storm_ui_icon_blaze_bunker.png",
         "sort": 1,
-        "abilityId": ""
+        "abilityId": "Blaze|R1"
       },
       {
         "tooltipId": "FirebatCombustionFlashFire",
@@ -278,7 +278,7 @@
         "description": "While Channeling Combustion, Blaze's Movement Speed is no longer reduced, and nearby enemies are Slowed by 60%.",
         "icon": "storm_ui_icon_blaze_combustion.png",
         "sort": 2,
-        "abilityId": ""
+        "abilityId": "Blaze|R2"
       },
       {
         "tooltipId": "FirebatWeaponBurnNotice",

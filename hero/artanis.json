@@ -97,7 +97,7 @@
         "description": "Quest: Every Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage.  Reward: Upon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 40% for 3 seconds. 60 second cooldown.",
         "icon": "storm_ui_icon_talent_seasonedmarksman.png",
         "sort": 3,
-        "abilityId": "Artanis|Active"
+        "abilityId": "Artanis|Passive"
       }
     ],
     "4": [
@@ -175,7 +175,7 @@
         "description": "Fire a large area pulse from the Spear of Adun, dealing 114 (+4% per level) damage and Blinding enemies for 4 seconds. Unlimited range.",
         "icon": "storm_ui_icon_artanis_disruptionweb.png",
         "sort": 1,
-        "abilityId": "",
+        "abilityId": "Artanis|R2",
         "cooldown": 50
       },
       {
@@ -185,7 +185,7 @@
         "description": "Target an enemy Hero with an orbital beam from the Spear of Adun, dealing 184 (+4% per level) damage per second for 8 seconds. The beam will chase the target as they move.  Unlimited range.",
         "icon": "storm_ui_icon_artanis_purifierbeam.png",
         "sort": 2,
-        "abilityId": "",
+        "abilityId": "Artanis|R1",
         "cooldown": 80
       }
     ],
@@ -264,7 +264,7 @@
         "description": "Suppression Pulse gains an additional charge.  There is a 10 second cooldown between uses.",
         "icon": "storm_ui_icon_artanis_disruptionweb.png",
         "sort": 1,
-        "abilityId": ""
+        "abilityId": "Artanis|R2"
       },
       {
         "tooltipId": "ArtanisSpearofAdunPurifierBeamTargetPurifiedTalent",
@@ -273,7 +273,7 @@
         "description": "Increase the speed of Purifier Beam by 15%. If the target of Purifier Beam dies, it automatically recasts on the nearest visible enemy Hero.",
         "icon": "storm_ui_icon_artanis_purifierbeam.png",
         "sort": 2,
-        "abilityId": ""
+        "abilityId": "Artanis|R1"
       },
       {
         "tooltipId": "ArtanisTwinBladesZealotChargeTalent",
