@@ -101,8 +101,15 @@ Example:
 * `sort` indicates the order of talents on that level/tier
 * `icon` is the image name for the talent from game files
 
+### Game data
+
+* heroes/ and images/ contain standardized and optimized version of the game data
+* raw/ contains game data directly extracted using [HeroesDataParser](https://github.com/koliva8245/HeroesDataParser) with the following command:
+`./HeroesData --description 3 --storagePath [Live/PTR HotS directory] --extract all --json --outputDirectory "/tmp/HeroesDataParser" --heroWarnings --localization all`
+
 ### Resources
 
+* Automated game data extractions are acquired using koliva8245's [HeroesDataParser](https://github.com/koliva8245/HeroesDataParser)
 * Several values are pulled directly from game files using an altered version of [heroesinfo from HotsData](https://github.com/hotsdata/heroesinfo)
 * Most damage and scaling numbers are from dizzyMongoose's [Scaling Stats Google sheet](https://docs.google.com/spreadsheets/d/1QTStBbvf9o5RuJBeM0X1rHrQxd3PCOT4y4li3Mwu9jY/pubhtml#)
 
