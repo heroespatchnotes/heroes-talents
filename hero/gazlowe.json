@@ -70,7 +70,7 @@
       {
         "name": "Focus Turrets!",
         "description": "Orders any nearby Rock-It! Turrets to focus the target.",
-        "hotkey": 1,
+        "hotkey": "1",
         "abilityId": "Gazlowe|11",
         "cooldown": 1,
         "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",
@@ -192,7 +192,7 @@
         "description": "Activate to gain 30 Armor and 30% Movement Speed for 4 seconds.  Passive: Basic Attacks deal 100% bonus damage.",
         "icon": "storm_ui_icon_gazlowe_robogoblin.png",
         "sort": 1,
-        "abilityId": "",
+        "abilityId": "Gazlowe|R2",
         "cooldown": 60
       },
       {
@@ -202,7 +202,7 @@
         "description": "After a 2 second delay, pull enemies toward the center of an area and deal 251 (+4% per level) damage.",
         "icon": "storm_ui_icon_gazlowe_gravobomb.png",
         "sort": 2,
-        "abilityId": "",
+        "abilityId": "Gazlowe|R1",
         "cooldown": 110
       }
     ],
@@ -272,7 +272,7 @@
         "description": "Basic Attacks deal an additional 100% damage.  Passive: Gain 25 Armor.",
         "icon": "storm_ui_icon_gazlowe_robogoblin.png",
         "sort": 1,
-        "abilityId": ""
+        "abilityId": "Gazlowe|R2"
       },
       {
         "tooltipId": "TinkerGravOBombMiniatureBlackHoleTalent",
@@ -281,7 +281,7 @@
         "description": "Increases Grav-O-Bomb radius by 25% and damage by 50%.",
         "icon": "storm_ui_icon_gazlowe_gravobomb.png",
         "sort": 2,
-        "abilityId": ""
+        "abilityId": "Gazlowe|R1"
       },
       {
         "tooltipId": "TinkerFirinMahLazorz",

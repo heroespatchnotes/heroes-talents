@@ -71,7 +71,7 @@
       {
         "name": "Helping Hand",
         "description": "Pull the first ally or enemy hit towards Stitches. Enemies are temporarily stunned and take 91 (+4% per level) damage. When used to pull allies, the cooldown is reduced by 50%.",
-        "hotkey": 1,
+        "hotkey": "1",
         "abilityId": "Stitches|11",
         "cooldown": 16,
         "manaCost": 75,
@@ -194,7 +194,7 @@
         "description": "Emit bile that deals 37 (+4% per level) damage per second to enemies within, slowing them by 35%. Stitches gains 20% Movement Speed while emitting bile. Lasts 8 seconds.",
         "icon": "storm_ui_icon_stitches_putridbile.png",
         "sort": 1,
-        "abilityId": "",
+        "abilityId": "Stitches|R1",
         "cooldown": 60
       },
       {
@@ -204,7 +204,7 @@
         "description": "Consume an enemy Hero, trapping them for 4 seconds. When Gorge ends, the enemy Hero takes 274 (+4% per level) damage. The trapped Hero cannot move or act and doesn't take damage from other sources.",
         "icon": "storm_ui_icon_stitches_cannibalize.png",
         "sort": 2,
-        "abilityId": "",
+        "abilityId": "Stitches|R2",
         "cooldown": 60
       }
     ],
@@ -284,7 +284,7 @@
         "description": "Putrid Bile lasts 6 seconds longer and its slow amount is increased from 35% to 45%.",
         "icon": "storm_ui_icon_stitches_putridbile.png",
         "sort": 1,
-        "abilityId": ""
+        "abilityId": "Stitches|R1"
       },
       {
         "tooltipId": "StitchesGorgeHungryHungryStitchesTalent",
@@ -293,7 +293,7 @@
         "description": "For 4 seconds after using Gorge, Stitches can teleport a short distance to additional targets and Gorge them.",
         "icon": "storm_ui_icon_stitches_cannibalize.png",
         "sort": 2,
-        "abilityId": ""
+        "abilityId": "Stitches|R2"
       },
       {
         "tooltipId": "HardenedShieldTalent",

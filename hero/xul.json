@@ -70,7 +70,7 @@
       {
         "name": "Bone Armor",
         "description": "Activate to gain a Shield equal to 25% of Xul's maximum Health for 3 seconds.",
-        "hotkey": 1,
+        "hotkey": "1",
         "abilityId": "Xul|11",
         "cooldown": 30,
         "icon": "storm_ui_icon_necromancer_bonearmor.png",
@@ -174,7 +174,7 @@
         "description": "After 0.5 seconds, release poisonous missiles that deal 570 (+4% per level) damage to all enemies hit over 10 seconds.",
         "icon": "storm_ui_icon_necromancer_poisonnova.png",
         "sort": 1,
-        "abilityId": "",
+        "abilityId": "Xul|R2",
         "cooldown": 90
       },
       {
@@ -184,7 +184,7 @@
         "description": "Vector Targeting Summon 4 Frost Mages in a line that attack nearby enemies for 47 (+4% per level) damage a second and Slow them by 30% for 2 seconds. Last up to 15 seconds.",
         "icon": "storm_ui_icon_necromancer_skeletalmages.png",
         "sort": 2,
-        "abilityId": "",
+        "abilityId": "Xul|R1",
         "cooldown": 90
       }
     ],
@@ -255,7 +255,7 @@
         "description": "Poison Nova heals for 50% of the damage dealt.  Passive: Skeletal Warriors deal 50% increased damage.",
         "icon": "storm_ui_icon_necromancer_poisonnova.png",
         "sort": 1,
-        "abilityId": ""
+        "abilityId": "Xul|R2"
       },
       {
         "tooltipId": "NecromancerColdHandOfDeath",
@@ -264,7 +264,7 @@
         "description": "Increase the Slow of Frost Mages by 20%.  Passive: Skeletal Warrior attacks Slow enemies by 30% for 2 seconds.",
         "icon": "storm_ui_icon_necromancer_skeletalmages.png",
         "sort": 2,
-        "abilityId": ""
+        "abilityId": "Xul|R1"
       },
       {
         "tooltipId": "NecromancerMortalWound",
@@ -273,7 +273,7 @@
         "description": "Enemy Heroes hit by Spectral Scythe receive 75% less healing for 4 seconds.",
         "icon": "storm_ui_icon_necromancer_reap.png",
         "sort": 3,
-        "abilityId": "Xul|Q1"
+        "abilityId": "Xul|D1"
       },
       {
         "tooltipId": "NecromancerTalentKalansEdict",

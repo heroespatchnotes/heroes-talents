@@ -98,7 +98,7 @@
         "description": "Quest: Regeneration Globes grant an additional 100% Mana.  Reward: After collecting 15 Regeneration Globes, Plasma Shield's value is increased by 20%.  Reward: After collecting 30 Regeneration Globes, Plasma Shield's value is increased by 40%.",
         "icon": "storm_ui_icon_talent_conjurerspursuit.png",
         "sort": 3,
-        "abilityId": "Tassadar|Q1"
+        "abilityId": "Tassadar|Passive"
       }
     ],
     "4": [
@@ -167,7 +167,7 @@
         "description": "Tassadar transforms into an Archon and gains a Plasma Shield. His Basic Attacks deal 158 (+4% per level) damage, slow the target by 30% for 1 second and splash for 79 (+4% per level) damage to enemies within 2.5 range. Lasts for 10 seconds.  Passive: Archon refreshes the cooldown of Dimensional Shift.",
         "icon": "storm_ui_icon_tassadar_archon.png",
         "sort": 1,
-        "abilityId": "",
+        "abilityId": "Tassadar|R1",
         "cooldown": 100
       },
       {
@@ -177,7 +177,7 @@
         "description": "Create a wall that blocks all units from moving through it for 2 seconds.  Passive: Increases the slow amount of Distortion Beam to 30%.",
         "icon": "storm_ui_icon_tassadar_forcewall.png",
         "sort": 2,
-        "abilityId": "",
+        "abilityId": "Tassadar|R2",
         "cooldown": 8
       }
     ],
@@ -248,7 +248,7 @@
         "description": "Basic Attacks while in Archon form increase its duration by 2 seconds.",
         "icon": "storm_ui_icon_tassadar_archon.png",
         "sort": 1,
-        "abilityId": ""
+        "abilityId": "Tassadar|R1"
       },
       {
         "tooltipId": "TassadarForceWallForceBarrierTalent",
@@ -257,7 +257,7 @@
         "description": "Force Wall's Range is increased by 100% and its cooldown is reduced by 5 seconds.",
         "icon": "storm_ui_icon_tassadar_forcewall.png",
         "sort": 2,
-        "abilityId": ""
+        "abilityId": "Tassadar|R2"
       },
       {
         "tooltipId": "TassadarPrismaticLink",

@@ -160,7 +160,7 @@
         "description": "Increases the energy stored from Auriel's Basic Attacks to 100% of the damage against Heroes and 45% of the damage against non-Heroes.  Does not affect Auriel's Bestow Hope ally.",
         "icon": "storm_ui_icon_auriel_bestowhope_a.png",
         "sort": 3,
-        "abilityId": "Auriel|Passive"
+        "abilityId": "Auriel|D1"
       }
     ],
     "10": [
@@ -171,7 +171,7 @@
         "description": "Channel on the spirit of a dead ally for 0.5 seconds. After a 5 second delay, they are brought back to life with 50% of their maximum Health at the location where they died.",
         "icon": "storm_ui_icon_auriel_resurrect.png",
         "sort": 1,
-        "abilityId": "",
+        "abilityId": "Auriel|R2",
         "cooldown": 80
       },
       {
@@ -181,7 +181,7 @@
         "description": "Place an allied Hero into Stasis for 2 seconds. Upon expiration, Crystal Aegis deals 255 (+4% per level) damage to all nearby enemies.",
         "icon": "storm_ui_icon_auriel_ribboncocoon.png",
         "sort": 2,
-        "abilityId": "",
+        "abilityId": "Auriel|R1",
         "cooldown": 60
       }
     ],
@@ -251,7 +251,7 @@
         "description": "Resurrected allies gain 200% increased Movement Speed, decaying over 4 seconds.  While a resurrected ally remains alive, Resurrect's next cooldown recharges 100% faster.",
         "icon": "storm_ui_icon_auriel_resurrect.png",
         "sort": 1,
-        "abilityId": ""
+        "abilityId": "Auriel|R2"
       },
       {
         "tooltipId": "AurielDiamondResolveCrystalAegisTalent",
@@ -260,7 +260,7 @@
         "description": "When Crystal Aegis expires, it grants the target 75 Armor for 5 seconds, reducing damage taken by 75%.",
         "icon": "storm_ui_icon_auriel_ribboncocoon.png",
         "sort": 2,
-        "abilityId": ""
+        "abilityId": "Auriel|R1"
       },
       {
         "tooltipId": "AurielAngelicFlightTalent",

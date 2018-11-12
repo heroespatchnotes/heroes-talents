@@ -142,7 +142,7 @@
         "description": "Quest: Play Lúcio's Crossfade tracks to nearby Allies for a total of 8 minutes. Multiple Allies provide additional time.  Reward: Permanently increase Crossfade's range by 20%.",
         "icon": "storm_ui_icon_lucio_crossfade_all.png",
         "sort": 1,
-        "abilityId": "Lucio|W1"
+        "abilityId": "Lúcio|Active"
       },
       {
         "tooltipId": "LucioAmpItUpSonicAmplifier",
@@ -160,7 +160,7 @@
         "description": "Place a boombox that plays Lúcio's active Crossfade track for 30 seconds. Its volume adjusts with Amp It Up.  Crossfade tracks do not stack.",
         "icon": "storm_ui_icon_lucio_fineshrine.png",
         "sort": 3,
-        "abilityId": "Lucio|Active",
+        "abilityId": "Lúcio|Active",
         "cooldown": 20
       }
     ],
@@ -194,7 +194,7 @@
         "description": "After switching Crossfade tracks, if the next song plays for at least 1.5 seconds, Lúcio gains a 100 (+4% per level) point Shield that lasts indefinitely.  Switching tracks again removes the Shield.",
         "icon": "storm_ui_icon_lucio_crossfade_all.png",
         "sort": 1,
-        "abilityId": "Lucio|W1"
+        "abilityId": "Lúcio|Active"
       },
       {
         "tooltipId": "LucioWallRideCantStopWontStop",
@@ -221,7 +221,7 @@
         "description": "Heal for 245 (+4% per level) upon entering a Stun, Silence, or Time Stop effect. This cannot happen more than once every 10 seconds.",
         "icon": "storm_ui_icon_lucio_mrbrightside.png",
         "sort": 4,
-        "abilityId": "Lucio|Passive"
+        "abilityId": "Lucio|D1"
       }
     ],
     "16": [
@@ -261,7 +261,7 @@
         "description": "Reduce the cooldown of Sound Barrier to 30 seconds, but the shield now decays over 4 seconds.",
         "icon": "storm_ui_icon_lucio_soundbarrier.png",
         "sort": 1,
-        "abilityId": ""
+        "abilityId": "Lucio|R1"
       },
       {
         "tooltipId": "LucioReverseAmpNonstopRemix",
@@ -270,7 +270,7 @@
         "description": "While Reverse Amp is affecting at least 2 enemy Heroes, its duration lasts indefinitely.",
         "icon": "storm_ui_icon_lucio_reverseamp.png",
         "sort": 2,
-        "abilityId": ""
+        "abilityId": "Lucio|R2"
       },
       {
         "tooltipId": "LucioAmptItUpBonusTrack",

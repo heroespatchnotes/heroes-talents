@@ -98,7 +98,7 @@
         "description": "Nearby Ranged Minions deal an additional 100% damage, plus an additional 1% per 1000 Siege damage Zagara has dealt. Can be toggled on or off.",
         "icon": "storm_ui_icon_zagara_infest.png",
         "sort": 3,
-        "abilityId": "Zagara|Passive"
+        "abilityId": "Zagara|Active"
       }
     ],
     "4": [
@@ -168,7 +168,7 @@
         "description": "Summon a Devouring Maw that devours enemies for 4 seconds. Devoured enemies cannot fight and take 88 (+4% per level) damage per second.  Usable on Unstoppable enemies.",
         "icon": "storm_ui_icon_zagara_devouringmaw.png",
         "sort": 1,
-        "abilityId": "",
+        "abilityId": "Zagara|R2",
         "cooldown": 80
       },
       {
@@ -178,7 +178,7 @@
         "description": "Summon a Nydus Worm on Creep anywhere that Zagara has vision. Zagara can enter a Nydus Worm and travel to any other Nydus Worm by right-clicking near it. While inside a Nydus Worm, Zagara regenerates 10% Health and Mana per second.  Stores up to 2 charges. Maximum of 4 Nydus Worms at a time.  Passive: Creep spreads 15% farther.  Passive: While on Creep, each Basic Attack reduces all of Zagara's cooldowns by 0.5 seconds.",
         "icon": "storm_ui_icon_zagara_nydusworm.png",
         "sort": 2,
-        "abilityId": "",
+        "abilityId": "Zagara|R1",
         "cooldown": 120
       }
     ],
@@ -208,7 +208,7 @@
         "description": "Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 50%.  Can be toggled to allow or prevent this talent from triggering automatically.",
         "icon": "storm_ui_icon_talent_spellshield.png",
         "sort": 3,
-        "abilityId": "Zagara|Passive"
+        "abilityId": "Zagara|Active"
       }
     ],
     "16": [
@@ -248,7 +248,7 @@
         "description": "Devouring Maw deals 50% more damage. Takedowns reduce its cooldown by 25 seconds.",
         "icon": "storm_ui_icon_zagara_devouringmaw.png",
         "sort": 1,
-        "abilityId": ""
+        "abilityId": "Zagara|R2"
       },
       {
         "tooltipId": "ZagaraCreepTumorEndlessCreepTalent",
@@ -257,7 +257,7 @@
         "description": "The cast range for Creep Tumor is increased by 2000%. Creep Tumors now last 600 seconds. While on Creep, Zagara gains an additional 10% Movement Speed.",
         "icon": "storm_ui_icon_zagara_nydusworm.png",
         "sort": 2,
-        "abilityId": ""
+        "abilityId": "Zagara|R1"
       },
       {
         "tooltipId": "FuryoftheStormTalent",
