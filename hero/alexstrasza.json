@@ -24,7 +24,7 @@
         "hotkey": "W",
         "abilityId": "Alexstrasza|W1",
         "cooldown": 16,
-        "manaCost": "75",
+        "manaCost": 75,
         "icon": "storm_ui_icon_alexstrasza_abundance.png",
         "type": "basic"
       },
@@ -34,7 +34,7 @@
         "hotkey": "E",
         "abilityId": "Alexstrasza|E1",
         "cooldown": 2,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_alexstrasza_flame_buffet.png",
         "type": "basic"
       },
@@ -44,7 +44,7 @@
         "hotkey": "R",
         "abilityId": "Alexstrasza|R1",
         "cooldown": 60,
-        "manaCost": "80",
+        "manaCost": 80,
         "icon": "storm_ui_icon_alexstrasza_life_binder.png",
         "type": "heroic"
       },
@@ -54,7 +54,7 @@
         "hotkey": "R",
         "abilityId": "Alexstrasza|R2",
         "cooldown": 100,
-        "manaCost": "100",
+        "manaCost": 100,
         "icon": "storm_ui_icon_alexstrasza_cleansing_flame.png",
         "type": "heroic"
       },
@@ -72,30 +72,40 @@
     "AlexstraszaDragon": [
       {
         "name": "Breath of Life",
-        "description": "Heal an ally for 20% of Alexstrasza's current Health.",
+        "description": "Heal an allied Hero for 20% of Alexstrasza's current Health.",
         "hotkey": "Q",
-        "abilityId": "Alexstrasza|Q2",
+        "abilityId": "Alexstrasza|Q4",
         "cooldown": 3,
         "icon": "storm_ui_icon_alexstrasza_breath_of_life.png",
-        "type": "sub-basic"
+        "type": "subunit"
       },
       {
         "name": "Preservation",
         "description": "Plant a seed of healing that blooms after 3 seconds, healing nearby allied Heroes for 30% of their maximum Health.",
         "hotkey": "W",
-        "abilityId": "Alexstrasza|W2",
+        "abilityId": "Alexstrasza|W4",
         "cooldown": 16,
         "icon": "storm_ui_icon_alexstrasza_preservation.png",
-        "type": "sub-basic"
+        "type": "subunit"
       },
       {
         "name": "Wing Buffet",
         "description": "Deal 150 (+4% per level) damage to enemies in an area, knocking them back and Slowing them by 50% for 3 seconds.",
         "hotkey": "E",
-        "abilityId": "Alexstrasza|E2",
+        "abilityId": "Alexstrasza|E4",
         "cooldown": 4,
         "icon": "storm_ui_icon_alexstrasza_wing_buffet.png",
-        "type": "sub-basic"
+        "type": "subunit"
+      },
+      {
+        "name": "Cleansing Flame",
+        "description": "Take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 135 (+4% per level) damage to enemies and heal allied Heroes for 300 (+4% per level) Health.  2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
+        "hotkey": "R",
+        "abilityId": "Alexstrasza|R3",
+        "cooldown": 90,
+        "manaCost": 100,
+        "icon": "storm_ui_icon_alexstrasza_cleansing_flame.png",
+        "type": "subunit"
       }
     ]
   },

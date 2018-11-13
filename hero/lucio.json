@@ -8,14 +8,14 @@
   "type": "Ranged",
   "releaseDate": "2017-02-14",
   "abilities": {
-    "Lucio": [
+    "Lúcio": [
       {
         "name": "Soundwave",
         "description": "Deal 105 (+4% per level) damage to enemies in an area and knock them back.",
         "hotkey": "Q",
-        "abilityId": "Lucio|Q1",
+        "abilityId": "Lúcio|Q1",
         "cooldown": 7,
-        "manaCost": "30",
+        "manaCost": 30,
         "icon": "storm_ui_icon_lucio_soundwave.png",
         "type": "basic"
       },
@@ -23,8 +23,7 @@
         "name": "Crossfade",
         "description": "Play one of two music tracks for Lúcio and his allies.  Healing Boost: Passively heal Lúcio and nearby allied Heroes for 16 (+4% per level) health per second.  Speed Boost: Increase the Movement Speed of Lúcio and nearby allied Heroes by 20%.",
         "hotkey": "W",
-        "abilityId": "Lucio|W1",
-        "cooldown": 0,
+        "abilityId": "Lúcio|W1",
         "icon": "storm_ui_icon_lucio_crossfade_all.png",
         "type": "basic"
       },
@@ -32,9 +31,9 @@
         "name": "Amp It Up",
         "description": "Raise Lúcio's Crossfade track volume for 3 seconds, amping Healing Boost to 114 (+4% per level) health per second and Speed Boost to 45% increased Movement Speed.",
         "hotkey": "E",
-        "abilityId": "Lucio|E1",
+        "abilityId": "Lúcio|E1",
         "cooldown": 13,
-        "manaCost": "90",
+        "manaCost": 90,
         "icon": "storm_ui_icon_lucio_ampitup.png",
         "type": "basic"
       },
@@ -42,9 +41,9 @@
         "name": "Sound Barrier",
         "description": "After 1 second, Lúcio and nearby Allied Heroes gain a 1296 (+4% per level) point shield that rapidly decays over 6 seconds.",
         "hotkey": "R",
-        "abilityId": "Lucio|R1",
+        "abilityId": "Lúcio|R1",
         "cooldown": 80,
-        "manaCost": "100",
+        "manaCost": 100,
         "icon": "storm_ui_icon_lucio_soundbarrier.png",
         "type": "heroic"
       },
@@ -52,9 +51,9 @@
         "name": "Reverse Amp",
         "description": "Blast Lúcio's Crossfade track at enemy Heroes for 4 seconds, causing Healing Boost to inflict 104 (+4% per level) damage per second and Speed Boost to slow for 45%.  This ability is unaffected by Crossfade talents.  Passive: Increase Amp It Up's duration to 4 seconds.",
         "hotkey": "R",
-        "abilityId": "Lucio|R2",
+        "abilityId": "Lúcio|R2",
         "cooldown": 45,
-        "manaCost": "55",
+        "manaCost": 55,
         "icon": "storm_ui_icon_lucio_reverseamp.png",
         "type": "heroic"
       },
@@ -62,14 +61,15 @@
         "name": "Wall Ride",
         "description": "When moving alongside impassable battleground terrain and Structures, Lúcio can walk through other units and his Movement Speed is increased by 20%.  This works together with other Movement Speed bonuses.",
         "trait": true,
-        "abilityId": "Lucio|D1",
+        "abilityId": "Lúcio|D1",
         "icon": "storm_ui_icon_lucio_wallride.png",
         "type": "trait"
       },
       {
         "name": "Skate Mode",
         "description": "Lúcio can shoot while moving. Lúcio skates or dies!",
-        "abilityId": "Lucio|Z1",
+        "hotkey": "Z",
+        "abilityId": "Lúcio|Z1",
         "icon": "storm_ui_icon_lucio_mount.png",
         "type": "mount"
       }
@@ -84,7 +84,7 @@
         "description": "Quest: Kill 5 enemy Heroes while Crossfade's Speed Boost is active.  Reward: Permanently increase the Amp It Up bonus for Crossfade's Speed Boost to 60%.",
         "icon": "storm_ui_icon_lucio_ampitup.png",
         "sort": 1,
-        "abilityId": "Lucio|W1"
+        "abilityId": "Lúcio|E1"
       },
       {
         "tooltipId": "LucioWallRideAccelerando",
@@ -93,7 +93,7 @@
         "description": "Wall Ride's Movement Speed bonus gradually increases to 40% over 4 seconds while Lúcio maintains its effect.",
         "icon": "storm_ui_icon_lucio_wallride.png",
         "sort": 2,
-        "abilityId": "Lucio|D1"
+        "abilityId": "Lúcio|D1"
       },
       {
         "tooltipId": "LucioWallRideSlip",
@@ -102,7 +102,7 @@
         "description": "Passing through or near an enemy Hero during Wall Ride's effect increases its Movement Speed bonus to 70% for 1 second.",
         "icon": "storm_ui_icon_lucio_wallride_a.png",
         "sort": 3,
-        "abilityId": "Lucio|D1"
+        "abilityId": "Lúcio|D1"
       }
     ],
     "4": [
@@ -113,7 +113,7 @@
         "description": "Enemies within the first half of Soundwave's range are knocked back 50% farther.",
         "icon": "storm_ui_icon_lucio_soundwave.png",
         "sort": 1,
-        "abilityId": "Lucio|Q1"
+        "abilityId": "Lúcio|Q1"
       },
       {
         "tooltipId": "LucioSoundwaveOffTheWall",
@@ -122,7 +122,7 @@
         "description": "If Soundwave is cast while having Wall Ride's speed bonus, the cooldown is reduced by 3 seconds.",
         "icon": "storm_ui_icon_lucio_soundwave_a.png",
         "sort": 2,
-        "abilityId": "Lucio|Q1"
+        "abilityId": "Lúcio|Q1"
       },
       {
         "tooltipId": "LucioSoundwaveChaseTheBass",
@@ -131,7 +131,7 @@
         "description": "Quest: Hit 20 enemy Heroes with Soundwave.  Reward: Increase Soundwave's arc by 50% and its range by 20%.",
         "icon": "storm_ui_icon_lucio_soundwave_b.png",
         "sort": 3,
-        "abilityId": "Lucio|Q1"
+        "abilityId": "Lúcio|Q1"
       }
     ],
     "7": [
@@ -142,7 +142,7 @@
         "description": "Quest: Play Lúcio's Crossfade tracks to nearby Allies for a total of 8 minutes. Multiple Allies provide additional time.  Reward: Permanently increase Crossfade's range by 20%.",
         "icon": "storm_ui_icon_lucio_crossfade_all.png",
         "sort": 1,
-        "abilityId": "Lucio|W1"
+        "abilityId": "Lúcio|Active"
       },
       {
         "tooltipId": "LucioAmpItUpSonicAmplifier",
@@ -151,7 +151,7 @@
         "description": "If at least 2 Allied Heroes are nearby when Amp It Up is cast, Crossfade's radius is increased by 50% for the duration.",
         "icon": "storm_ui_icon_lucio_ampitup.png",
         "sort": 2,
-        "abilityId": "Lucio|E1"
+        "abilityId": "Lúcio|E1"
       },
       {
         "tooltipId": "LucioBoomboxBoombox",
@@ -160,7 +160,7 @@
         "description": "Place a boombox that plays Lúcio's active Crossfade track for 30 seconds. Its volume adjusts with Amp It Up.  Crossfade tracks do not stack.",
         "icon": "storm_ui_icon_lucio_fineshrine.png",
         "sort": 3,
-        "abilityId": "Lucio|Active",
+        "abilityId": "Lúcio|Active",
         "cooldown": 20
       }
     ],
@@ -172,7 +172,7 @@
         "description": "After 1 second, Lúcio and nearby Allied Heroes gain a 1296 (+4% per level) point shield that rapidly decays over 6 seconds.",
         "icon": "storm_ui_icon_lucio_soundbarrier.png",
         "sort": 1,
-        "abilityId": "Lucio|R1",
+        "abilityId": "Lúcio|R1",
         "cooldown": 80
       },
       {
@@ -182,7 +182,7 @@
         "description": "Blast Lúcio's Crossfade track at enemy Heroes for 4 seconds, causing Healing Boost to inflict 104 (+4% per level) damage per second and Speed Boost to slow for 45%.  This ability is unaffected by Crossfade talents.  Passive: Increase Amp It Up's duration to 4 seconds.",
         "icon": "storm_ui_icon_lucio_reverseamp.png",
         "sort": 2,
-        "abilityId": "Lucio|R2",
+        "abilityId": "Lúcio|R2",
         "cooldown": 45
       }
     ],
@@ -194,7 +194,7 @@
         "description": "After switching Crossfade tracks, if the next song plays for at least 1.5 seconds, Lúcio gains a 100 (+4% per level) point Shield that lasts indefinitely.  Switching tracks again removes the Shield.",
         "icon": "storm_ui_icon_lucio_crossfade_all.png",
         "sort": 1,
-        "abilityId": "Lucio|W1"
+        "abilityId": "Lúcio|Active"
       },
       {
         "tooltipId": "LucioWallRideCantStopWontStop",
@@ -203,7 +203,7 @@
         "description": "While Wall Ride's Movement Speed bonus is active, Lúcio is immune to all enemy Slow and Root effects.",
         "icon": "storm_ui_icon_lucio_wallride.png",
         "sort": 2,
-        "abilityId": "Lucio|D1"
+        "abilityId": "Lúcio|D1"
       },
       {
         "tooltipId": "LucioWallRideHardStyle",
@@ -212,7 +212,7 @@
         "description": "Gain 25 Armor while Wall Ride's Movement Speed bonus is active, reducing damage taken by 25%.",
         "icon": "storm_ui_icon_lucio_wallride_a.png",
         "sort": 3,
-        "abilityId": "Lucio|D1"
+        "abilityId": "Lúcio|D1"
       },
       {
         "tooltipId": "LucioBackInTheMix",
@@ -221,7 +221,7 @@
         "description": "Heal for 245 (+4% per level) upon entering a Stun, Silence, or Time Stop effect. This cannot happen more than once every 10 seconds.",
         "icon": "storm_ui_icon_lucio_mrbrightside.png",
         "sort": 4,
-        "abilityId": "Lucio|Passive"
+        "abilityId": "Lúcio|D1"
       }
     ],
     "16": [
@@ -232,7 +232,7 @@
         "description": "While Amp It Up is active, Crossfade's Healing Boost heals for an additional 2.5% of the target's maximum health each second.",
         "icon": "storm_ui_icon_lucio_ampitup.png",
         "sort": 1,
-        "abilityId": "Lucio|E1"
+        "abilityId": "Lúcio|E1"
       },
       {
         "tooltipId": "LucioAmpItUpBringItTogether",
@@ -241,7 +241,7 @@
         "description": "If at least 2 Allied Heroes are nearby when Amp It Up is cast, Crossfade's Healing Boost is increased by 45% for the duration.",
         "icon": "storm_ui_icon_lucio_ampitup_a.png",
         "sort": 2,
-        "abilityId": "Lucio|E1"
+        "abilityId": "Lúcio|E1"
       },
       {
         "tooltipId": "LucioAmpItUpUpTheFrequency",
@@ -250,7 +250,7 @@
         "description": "Amp It Up's mana cost is reduced from 90 to 70 and dealing Basic Attack damage to enemy Heroes also reduces the cooldown of Amp It Up by 0.45 seconds.",
         "icon": "storm_ui_icon_lucio_ampitup_b.png",
         "sort": 3,
-        "abilityId": "Lucio|E1"
+        "abilityId": "Lúcio|E1"
       }
     ],
     "20": [
@@ -261,7 +261,7 @@
         "description": "Reduce the cooldown of Sound Barrier to 30 seconds, but the shield now decays over 4 seconds.",
         "icon": "storm_ui_icon_lucio_soundbarrier.png",
         "sort": 1,
-        "abilityId": "Lucio|R1"
+        "abilityId": "Lúcio|R1"
       },
       {
         "tooltipId": "LucioReverseAmpNonstopRemix",
@@ -270,7 +270,7 @@
         "description": "While Reverse Amp is affecting at least 2 enemy Heroes, its duration lasts indefinitely.",
         "icon": "storm_ui_icon_lucio_reverseamp.png",
         "sort": 2,
-        "abilityId": "Lucio|R2"
+        "abilityId": "Lúcio|R2"
       },
       {
         "tooltipId": "LucioAmptItUpBonusTrack",
@@ -279,7 +279,7 @@
         "description": "Swapping Crossfade tracks while Amp It Up is active will set Amp It Up back to its max duration.  Can only happen once per cast.",
         "icon": "storm_ui_icon_lucio_ampitup.png",
         "sort": 3,
-        "abilityId": "Lucio|E1"
+        "abilityId": "Lúcio|E1"
       },
       {
         "tooltipId": "LucioAmpItUpSynaesthesiaAuditiva",
@@ -288,7 +288,7 @@
         "description": "The initial cast of Amp It Up removes all Stun, Slow, and Root effects from Allies, and also removes Slow and Root effects on Lúcio.",
         "icon": "storm_ui_icon_lucio_ampitup_a.png",
         "sort": 4,
-        "abilityId": "Lucio|E1"
+        "abilityId": "Lúcio|E1"
       }
     ]
   }

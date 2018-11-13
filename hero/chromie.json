@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Chromie|Q1",
         "cooldown": 2.5,
-        "manaCost": "15",
+        "manaCost": 15,
         "icon": "storm_ui_icon_chromie_aethercannon.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Chromie|W1",
         "cooldown": 8,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_chromie_sandstrike.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Chromie|E1",
         "cooldown": 18,
-        "manaCost": "25",
+        "manaCost": 25,
         "icon": "storm_ui_icon_chromie_timetrap.png",
         "type": "basic"
       },
@@ -43,9 +43,9 @@
         "name": "Temporal Loop",
         "description": "Choose an enemy Hero. After 3 seconds, they will teleport back to the location where Temporal Loop was cast on them.",
         "hotkey": "R",
-        "abilityId": "Chromie|R1",
+        "abilityId": "Chromie|R2",
         "cooldown": 70,
-        "manaCost": "60",
+        "manaCost": 60,
         "icon": "storm_ui_icon_chromie_looper.png",
         "type": "heroic"
       },
@@ -53,9 +53,9 @@
         "name": "Slowing Sands",
         "description": "Place a sand vortex that greatly Slows enemies inside it. The longer it is active the more it Slows, up to 60% after 3 seconds.",
         "hotkey": "R",
-        "abilityId": "Chromie|R2",
+        "abilityId": "Chromie|R1",
         "cooldown": 5,
-        "manaCost": "4 per second",
+        "manaCost": 4,
         "icon": "storm_ui_icon_chromie_timewarp.png",
         "type": "heroic"
       },
@@ -108,7 +108,7 @@
         "description": "Increase the damage from Bronze Talons by an additional 100%. Hitting an enemy Hero with Sand Blast applies Bronze Talons to Chromie's next 2 Basic Attacks.",
         "icon": "storm_ui_icon_chromie_aethercannon.png",
         "sort": 1,
-        "abilityId": "Chromie|D1"
+        "abilityId": "Chromie|Q1"
       },
       {
         "tooltipId": "ChromieDragonsBreathEnvelopingAssault",
@@ -166,7 +166,7 @@
         "description": "Place a sand vortex that greatly Slows enemies inside it. The longer it is active the more it Slows, up to 60% after 3 seconds.",
         "icon": "storm_ui_icon_chromie_timewarp.png",
         "sort": 1,
-        "abilityId": "Chromie|R2",
+        "abilityId": "Chromie|R1",
         "cooldown": 5
       },
       {
@@ -176,7 +176,7 @@
         "description": "Choose an enemy Hero. After 3 seconds, they will teleport back to the location where Temporal Loop was cast on them.",
         "icon": "storm_ui_icon_chromie_looper.png",
         "sort": 2,
-        "abilityId": "Chromie|R1",
+        "abilityId": "Chromie|R2",
         "cooldown": 70
       }
     ],
@@ -188,7 +188,7 @@
         "description": "Reduce the cast time of Hearthstone by 75%, and it is not interrupted by taking damage.",
         "icon": "storm_ui_icon_chromie_poof.png",
         "sort": 1,
-        "abilityId": "Chromie|Passive"
+        "abilityId": "Chromie|Active"
       },
       {
         "tooltipId": "ChromieHereAndThere",
@@ -249,7 +249,7 @@
         "description": "Remove Slowing Sands Mana cost and increase the Slow from 60% to 80%.",
         "icon": "storm_ui_icon_chromie_timewarp.png",
         "sort": 1,
-        "abilityId": "Chromie|R2"
+        "abilityId": "Chromie|R1"
       },
       {
         "tooltipId": "ChromieTemporalLoopStuckInALoop",
@@ -258,7 +258,7 @@
         "description": "Temporal Loop teleports the target a second time after the first.",
         "icon": "storm_ui_icon_chromie_looper.png",
         "sort": 2,
-        "abilityId": "Chromie|R1"
+        "abilityId": "Chromie|R2"
       },
       {
         "tooltipId": "ChromieSandBlastPiercingSands",
