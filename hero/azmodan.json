@@ -6,7 +6,7 @@
   "icon": "azmodan.png",
   "role": "Specialist",
   "type": "Ranged",
-  "releaseDate": "2014-10-07",
+  "releaseDate": "2014-10-14",
   "abilities": {
     "Azmodan": [
       {
@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Azmodan|Q1",
         "cooldown": 10,
-        "manaCost": "60",
+        "manaCost": 60,
         "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Azmodan|W1",
         "cooldown": 10,
-        "manaCost": "30",
+        "manaCost": 30,
         "icon": "storm_ui_icon_azmodan_summondemonwarrior.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Azmodan|E1",
         "cooldown": 6,
-        "manaCost": "40",
+        "manaCost": 40,
         "icon": "storm_ui_icon_azmodan_allshallburn.png",
         "type": "basic"
       },
@@ -43,9 +43,9 @@
         "name": "Tide of Sin",
         "description": "Activate to make the next Globe of Annihilation cost no Mana and deal 50% more damage.",
         "hotkey": "R",
-        "abilityId": "Azmodan|R1",
+        "abilityId": "Azmodan|R2",
         "cooldown": 20,
-        "manaCost": "100",
+        "manaCost": 100,
         "icon": "storm_ui_icon_azmodan_blackpool.png",
         "type": "heroic"
       },
@@ -53,9 +53,9 @@
         "name": "Demonic Invasion",
         "description": "Rain a small army of Demonic Grunts down on enemies, dealing 65 (+4% per level) damage per impact. Grunts deal 42 (+4% per level) damage, have 750 (+4% per level) Health and last up to 10 seconds. When Grunts die they explode, dealing 98 (+4% per level) damage to nearby enemies.",
         "hotkey": "R",
-        "abilityId": "Azmodan|R2",
+        "abilityId": "Azmodan|R1",
         "cooldown": 90,
-        "manaCost": "60",
+        "manaCost": 60,
         "icon": "storm_ui_icon_azmodan_demonicinvasion.png",
         "type": "heroic"
       },
@@ -167,7 +167,7 @@
         "description": "Rain a small army of Demonic Grunts down on enemies, dealing 65 (+4% per level) damage per impact. Grunts deal 42 (+4% per level) damage, have 750 (+4% per level) Health and last up to 10 seconds. When Grunts die they explode, dealing 98 (+4% per level) damage to nearby enemies.",
         "icon": "storm_ui_icon_azmodan_demonicinvasion.png",
         "sort": 1,
-        "abilityId": "Azmodan|R2",
+        "abilityId": "Azmodan|R1",
         "cooldown": 90
       },
       {
@@ -177,7 +177,7 @@
         "description": "Activate to make the next Globe of Annihilation cost no Mana and deal 50% more damage.",
         "icon": "storm_ui_icon_azmodan_blackpool.png",
         "sort": 2,
-        "abilityId": "Azmodan|R1",
+        "abilityId": "Azmodan|R2",
         "cooldown": 20
       }
     ],
@@ -198,7 +198,7 @@
         "description": "Reduces the Channel time of All Shall Burn by 0.5 seconds. If All Shall Burn's Channel lasts its full duration against a Hero, Azmodan is healed for 8% of his maximum Health.",
         "icon": "storm_ui_icon_azmodan_allshallburn.png",
         "sort": 2,
-        "abilityId": "Azmodan|Q1"
+        "abilityId": "Azmodan|E1"
       },
       {
         "tooltipId": "AzmodanChainOfCommand",
@@ -247,7 +247,7 @@
         "description": "Azmodan's Demons deal 50% increased damage to Structures.",
         "icon": "storm_ui_icon_azmodan_demonicinvasion.png",
         "sort": 1,
-        "abilityId": "Azmodan|R2"
+        "abilityId": "Azmodan|R1"
       },
       {
         "tooltipId": "AzmodanTideOfSinBlackPoolTalent",
@@ -256,7 +256,7 @@
         "description": "Globes of Annihilation empowered by Tide of Sin also leave a Black Pool at their impact location for 5 seconds. Enemies within the pool lose 8 Armor per second, up to 15, and take 56 (+4% per level) damage per second.",
         "icon": "storm_ui_icon_azmodan_blackpool.png",
         "sort": 2,
-        "abilityId": "Azmodan|R1"
+        "abilityId": "Azmodan|R2"
       },
       {
         "tooltipId": "AzmodanPride",

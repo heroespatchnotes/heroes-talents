@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Ragnaros|Q1",
         "cooldown": 4,
-        "manaCost": "25",
+        "manaCost": 25,
         "icon": "storm_ui_icon_ragnaros_empowersulfuras.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Ragnaros|W1",
         "cooldown": 12,
-        "manaCost": "60",
+        "manaCost": 60,
         "icon": "storm_ui_icon_ragnaros_livingmeteor.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Ragnaros|E1",
         "cooldown": 9,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_ragnaros_blastwave.png",
         "type": "basic"
       },
@@ -45,7 +45,7 @@
         "hotkey": "R",
         "abilityId": "Ragnaros|R1",
         "cooldown": 80,
-        "manaCost": "75",
+        "manaCost": 75,
         "icon": "storm_ui_icon_ragnaros_sulfurassmash.png",
         "type": "heroic"
       },
@@ -55,7 +55,7 @@
         "hotkey": "R",
         "abilityId": "Ragnaros|R2",
         "cooldown": 120,
-        "manaCost": "80",
+        "manaCost": 80,
         "icon": "storm_ui_icon_ragnaros_lavawave.png",
         "type": "heroic"
       },
@@ -75,28 +75,28 @@
         "name": "Molten Swing",
         "description": "Swing Sulfuras in a wide arc, dealing 161 (+4% per level) damage and Stunning enemies for 1 second.  Damage increased by 25% versus Minions, Mercenaries, and Monsters.",
         "hotkey": "Q",
-        "abilityId": "Ragnaros|Q2",
+        "abilityId": "Ragnaros|Q4",
         "cooldown": 6,
         "icon": "storm_ui_icon_ragnaros_moltenswing.png",
-        "type": "sub-basic"
+        "type": "subunit"
       },
       {
         "name": "Meteor Shower",
         "description": "Vector Targeting Summon 3 meteors at the target point that fall in the target direction. Each meteor deals 151 (+4% per level) damage and slows enemies by 25% for 2 seconds.  Damage increased by 25% versus Minions, Mercenaries, and Monsters.",
         "hotkey": "W",
-        "abilityId": "Ragnaros|W2",
+        "abilityId": "Ragnaros|W4",
         "cooldown": 2.5,
         "icon": "storm_ui_icon_ragnaros_meteorshower.png",
-        "type": "sub-basic"
+        "type": "subunit"
       },
       {
         "name": "Explosive Rune",
         "description": "Create a rune that deals 285 (+4% per level) damage to non-Structure enemies after 1.5 seconds.  Damage increased by 25% versus Minions, Mercenaries, and Monsters.",
         "hotkey": "E",
-        "abilityId": "Ragnaros|E2",
+        "abilityId": "Ragnaros|E4",
         "cooldown": 4,
         "icon": "storm_ui_icon_ragnaros_explosiverune.png",
-        "type": "sub-basic"
+        "type": "subunit"
       }
     ]
   },

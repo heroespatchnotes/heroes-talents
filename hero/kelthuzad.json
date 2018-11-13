@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Kel'Thuzad|Q1",
         "cooldown": 5,
-        "manaCost": "20",
+        "manaCost": 20,
         "icon": "storm_ui_icon_kel'thuzad_deathanddecay.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Kel'Thuzad|W1",
         "cooldown": 8,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_kel'thuzad_frostnova.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Kel'Thuzad|E1",
         "cooldown": 10,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_kel'thuzad_chains.png",
         "type": "basic"
       },
@@ -45,7 +45,7 @@
         "hotkey": "R",
         "abilityId": "Kel'Thuzad|R1",
         "cooldown": 60,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_kel'thuzad_frozentomb.png",
         "type": "heroic"
       },
@@ -55,7 +55,7 @@
         "hotkey": "R",
         "abilityId": "Kel'Thuzad|R2",
         "cooldown": 16,
-        "manaCost": "45",
+        "manaCost": 45,
         "icon": "storm_ui_icon_kel'thuzad_shadowfissure.png",
         "type": "heroic"
       },
@@ -116,7 +116,7 @@
         "description": "Quest: Collect 12 Regeneration Globes to charge Kel'Thuzad's Phylactery.  Reward: Kel'Thuzad's Phylactery can be activated while dead to immediately respawn at the Hall of Storms, but must be charged again.  Passive: Kel'Thuzad heals for 10% of all Spell Damage dealt while the Phylactery is charged.",
         "icon": "storm_ui_icon_kel'thuzad_phylactery.png",
         "sort": 2,
-        "abilityId": "Kel'Thuzad|Active"
+        "abilityId": "Kel'Thuzad|Passive"
       },
       {
         "tooltipId": "KelThuzadArchlichArmor",
@@ -143,7 +143,7 @@
         "tooltipId": "KelThuzadChillingTouch",
         "talentTreeId": "KelThuzadChillingTouch",
         "name": "Chilling Touch",
-        "description": "Every 8 seconds, Kel'Thuzad's next Basic Attack hits all enemies in the area for 100% additional damage, deals Spell damage instead of Physical, and Slows by 30% for 2 seconds.",
+        "description": "Every 8 seconds, Kel'Thuzad's next Basic Attack hits all enemies in the area for 100%  additional damage, deals Spell damage instead of Physical, and Slows by 30% for 2 seconds.",
         "icon": "storm_ui_icon_kel'thuzad_chillingtouch.png",
         "sort": 2,
         "abilityId": "Kel'Thuzad|Passive"
@@ -226,7 +226,7 @@
         "description": "Enemies that are Rooted take an additional 55 (+2.5% per level) damage each time they are damaged by Kel'Thuzad.",
         "icon": "storm_ui_icon_talent_abilitytalent_damage.png",
         "sort": 2,
-        "abilityId": "Kel'Thuzad|W1"
+        "abilityId": "Kel'Thuzad|Passive"
       },
       {
         "tooltipId": "KelThuzadPowerOfIcecrown",
