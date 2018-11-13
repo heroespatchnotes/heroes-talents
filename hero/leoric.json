@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Leoric|Q1",
         "cooldown": 14,
-        "manaCost": "80",
+        "manaCost": 80,
         "icon": "storm_ui_icon_leoric_skeletalswing.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Leoric|W1",
         "cooldown": 10,
-        "manaCost": "60",
+        "manaCost": 60,
         "icon": "storm_ui_icon_leoric_drainhope.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Leoric|E1",
         "cooldown": 14,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_leoric_wraithwalk.png",
         "type": "basic"
       },
@@ -45,7 +45,7 @@
         "hotkey": "R",
         "abilityId": "Leoric|R1",
         "cooldown": 50,
-        "manaCost": "90",
+        "manaCost": 90,
         "icon": "storm_ui_icon_leoric_entomb.png",
         "type": "heroic"
       },
@@ -55,7 +55,7 @@
         "hotkey": "R",
         "abilityId": "Leoric|R2",
         "cooldown": 50,
-        "manaCost": "75",
+        "manaCost": 75,
         "icon": "storm_ui_icon_leoric_r2.png",
         "type": "heroic"
       },
@@ -76,7 +76,7 @@
         "abilityId": "Leoric|Q2",
         "cooldown": 8,
         "icon": "storm_ui_icon_leoric_skeletalswing_undead.png",
-        "type": "sub-basic"
+        "type": "subunit"
       },
       {
         "name": "Drain Essence",
@@ -85,7 +85,7 @@
         "abilityId": "Leoric|W2",
         "cooldown": 9,
         "icon": "storm_ui_icon_leoric_drainhope_undead.png",
-        "type": "sub-basic"
+        "type": "subunit"
       }
     ]
   },
@@ -107,7 +107,7 @@
         "description": "When a nearby friendly or enemy Minion dies, Leoric restores 1% of his maximum Health and 5 Mana.",
         "icon": "storm_ui_icon_leoric_trait.png",
         "sort": 2,
-        "abilityId": "Leoric|Passive"
+        "abilityId": "Leoric|D1"
       },
       {
         "tooltipId": "LeoricOsseinRenewal",
@@ -293,7 +293,7 @@
         "description": "Deal 40 (+4% per level) damage per second to nearby enemies. The damage and area is increased by 100% while Drain Hope is active.",
         "icon": "storm_ui_icon_leoric_drainhope.png",
         "sort": 4,
-        "abilityId": "Leoric|Passive"
+        "abilityId": "Leoric|W1"
       },
       {
         "tooltipId": "LeoricShroudoftheDeadKingTalent",

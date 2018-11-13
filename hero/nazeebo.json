@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Nazeebo|Q1",
         "cooldown": 9,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_nazeebo_corpsespider.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Nazeebo|W1",
         "cooldown": 14,
-        "manaCost": "70",
+        "manaCost": 70,
         "icon": "storm_ui_icon_nazeebo_zombiewall.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Nazeebo|E1",
         "cooldown": 8,
-        "manaCost": "30",
+        "manaCost": 30,
         "icon": "storm_ui_icon_nazeebo_plagueoftoads.png",
         "type": "basic"
       },
@@ -45,7 +45,7 @@
         "hotkey": "R",
         "abilityId": "Nazeebo|R1",
         "cooldown": 70,
-        "manaCost": "90",
+        "manaCost": 90,
         "icon": "storm_ui_icon_nazeebo_gargantuan.png",
         "type": "heroic"
       },
@@ -55,7 +55,7 @@
         "hotkey": "R",
         "abilityId": "Nazeebo|R2",
         "cooldown": 90,
-        "manaCost": "100",
+        "manaCost": 100,
         "icon": "storm_ui_icon_nazeebo_ravenousspirit.png",
         "type": "heroic"
       },
@@ -66,6 +66,16 @@
         "abilityId": "Nazeebo|D1",
         "icon": "storm_ui_icon_nazeebo_voodooritual.png",
         "type": "trait"
+      }
+    ],
+    "NazeeboGargantuan": [
+      {
+        "name": "Gargantuan Stomp",
+        "description": "Order the Gargantuan to stomp, dealing 240 (+4% per level) damage to nearby enemies and slowing them by 30% for 2 seconds.",
+        "hotkey": "Q",
+        "abilityId": "Nazeebo|Q2",
+        "icon": "storm_ui_icon_nazeebo_gargantuanstomp.png",
+        "type": "subunit"
       }
     ]
   },
@@ -271,7 +281,7 @@
         "tooltipId": "WitchDoctorVileInfection",
         "talentTreeId": "WitchDoctorVileInfection",
         "name": "Vile Infection",
-        "description": "Quest: Reach 175 stacks of Voodoo Ritual.  Reward: After reaching 175 stacks of Voodoo Ritual, it can also be applied to Heroes and its damage is increased by 150%.",
+        "description": "Quest: Reach 175 stacks of Voodoo Ritual.  Reward: After reaching 175 stacks of Voodoo Ritual, it can also be applied to Heroes and its damage is increased from 67 (+4% per level) to 167 (+4% per level) over 6 seconds.",
         "icon": "storm_ui_icon_nazeebo_voodooritual.png",
         "sort": 4,
         "abilityId": "Nazeebo|D1"

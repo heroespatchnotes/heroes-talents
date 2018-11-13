@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Greymane|Q1",
         "cooldown": 9,
-        "manaCost": "55",
+        "manaCost": 55,
         "icon": "storm_ui_icon_greymane_qattack.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Greymane|W1",
         "cooldown": 20,
-        "manaCost": "70",
+        "manaCost": 70,
         "icon": "storm_ui_icon_greymane_beastfocus.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Greymane|E1",
         "cooldown": 5,
-        "manaCost": "10",
+        "manaCost": 10,
         "icon": "storm_ui_icon_greymane_darkflight.png",
         "type": "basic"
       },
@@ -45,7 +45,7 @@
         "hotkey": "R",
         "abilityId": "Greymane|R1",
         "cooldown": 80,
-        "manaCost": "90",
+        "manaCost": 90,
         "icon": "storm_ui_icon_greymane_goforthethroat.png",
         "type": "heroic"
       },
@@ -55,7 +55,7 @@
         "hotkey": "R",
         "abilityId": "Greymane|R2",
         "cooldown": 30,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_greymane_snapshot.png",
         "type": "heroic"
       },
@@ -71,22 +71,22 @@
     "GreymaneWorgen": [
       {
         "name": "Razor Swipe",
-        "description": "Swipe towards the area in front of you for 126 (+4% per level) damage.  Human: Gilnean Cocktail  Damage the first enemy hit and deal heavy damage behind them.",
+        "description": "Swipe in the targeted direction, dealing 126 (+4% per level) damage to enemies hit.  Human: Gilnean Cocktail Damage the first enemy hit and deal heavy damage behind them.",
         "hotkey": "Q",
-        "abilityId": "Greymane|Q2",
+        "abilityId": "Greymane|Q3",
         "cooldown": 4,
-        "manaCost": "30",
+        "manaCost": 30,
         "icon": "storm_ui_icon_greymane_swipe.png",
-        "type": "sub-basic"
+        "type": "subunit"
       },
       {
         "name": "Disengage",
-        "description": "Roll away and shapeshift into a Human.  Human: Darkflight  Leap at an enemy and shapeshift into a Worgen.",
+        "description": "Roll away and shapeshift into a Human.  Human: Darkflight Leap at an enemy and shapeshift into a Worgen.",
         "hotkey": "E",
-        "abilityId": "Greymane|E2",
+        "abilityId": "Greymane|E3",
         "cooldown": 5,
         "icon": "storm_ui_icon_greymane_disengage.png",
-        "type": "sub-basic"
+        "type": "subunit"
       }
     ]
   },
@@ -137,7 +137,7 @@
         "description": "Disengage grants Stealth for 3 seconds.",
         "icon": "storm_ui_icon_greymane_disengage.png",
         "sort": 2,
-        "abilityId": "Greymane|E2"
+        "abilityId": "Greymane|E3"
       },
       {
         "tooltipId": "GreymaneInnerBeastInsatiableTalent",
@@ -157,7 +157,7 @@
         "description": "Increases Greymane's Human Basic Attack range by 1.1.",
         "icon": "storm_ui_icon_greymane_curseoftheworgen.png",
         "sort": 1,
-        "abilityId": "Greymane|Passive"
+        "abilityId": "Greymane|D1"
       },
       {
         "tooltipId": "GreymaneGilneanCocktailIncendiaryElixirTalent",
@@ -175,7 +175,7 @@
         "description": "Quest: Every 6 Human Basic Attacks against Heroes increase Basic Attack damage by 1%, up to 30%. Worgen Basic Attacks grant credit for 3 Basic Attacks. Half of this bonus is lost upon death.",
         "icon": "storm_ui_icon_greymane_curseoftheworgen_var1.png",
         "sort": 3,
-        "abilityId": "Greymane|Passive"
+        "abilityId": "Greymane|D1"
       }
     ],
     "10": [
@@ -217,7 +217,7 @@
         "description": "Increases Razor Swipe's lunge distance by 60%, and Worgen Basic Attacks reduce Razor Swipe's cooldown by 1.5 seconds.",
         "icon": "storm_ui_icon_greymane_swipe.png",
         "sort": 2,
-        "abilityId": "Greymane|Q2"
+        "abilityId": "Greymane|Q3"
       },
       {
         "tooltipId": "GreymaneInnerBeastOnTheProwlTalent",
@@ -255,7 +255,7 @@
         "description": "Worgen Basic Attacks against Heroes deal bonus damage equal to 3% of the Hero's maximum Health.",
         "icon": "storm_ui_icon_greymane_curseoftheworgen_var1.png",
         "sort": 3,
-        "abilityId": "Greymane|Passive"
+        "abilityId": "Greymane|D1"
       }
     ],
     "20": [
@@ -284,7 +284,7 @@
         "description": "Human Basic Attacks splash for 100% damage behind the target.",
         "icon": "storm_ui_icon_greymane_curseoftheworgen.png",
         "sort": 3,
-        "abilityId": "Greymane|Passive"
+        "abilityId": "Greymane|D1"
       },
       {
         "tooltipId": "GreymaneToothAndClawTalent",
@@ -293,7 +293,7 @@
         "description": "Worgen Basic Attacks cleave for 100% damage.",
         "icon": "storm_ui_icon_greymane_curseoftheworgen_var1.png",
         "sort": 4,
-        "abilityId": "Greymane|Passive"
+        "abilityId": "Greymane|D1"
       }
     ]
   }

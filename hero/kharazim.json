@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Kharazim|Q1",
         "cooldown": 12,
-        "manaCost": "30",
+        "manaCost": 30,
         "icon": "storm_ui_icon_monk_dash.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Kharazim|W1",
         "cooldown": 10,
-        "manaCost": "65",
+        "manaCost": 65,
         "icon": "storm_ui_icon_monk_breath0fheaven.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Kharazim|E1",
         "cooldown": 10,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_monk_deadlyreach.png",
         "type": "basic"
       },
@@ -45,7 +45,7 @@
         "hotkey": "R",
         "abilityId": "Kharazim|R1",
         "cooldown": 50,
-        "manaCost": "77",
+        "manaCost": 77,
         "icon": "storm_ui_icon_monk_sevensidedstrike.png",
         "type": "heroic"
       },
@@ -55,32 +55,16 @@
         "hotkey": "R",
         "abilityId": "Kharazim|R2",
         "cooldown": 60,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_monk_divinepalm.png",
         "type": "heroic"
       },
       {
-        "name": "Transcendence",
-        "description": "Every 3rd Basic Attack heals the lowest nearby allied Hero for 104 (+4% per level) and gives 25% increased Move Speed for 2 seconds.",
+        "name": "Pick Your Trait",
+        "description": "Choose between Transcendence, Iron Fists, and Insight from the Talents panel.",
         "trait": true,
         "abilityId": "Kharazim|D1",
-        "icon": "storm_ui_icon_monk_trait_transcendence.png",
-        "type": "trait"
-      },
-      {
-        "name": "Insight",
-        "description": "Quest: Every 3rd Basic Attack restores 14 (+4% per level) Mana, grants a stack of Insight, and gives 25% increased Movement Speed for 2 seconds.  Reward: Upon getting 100 stacks of Insight, every 3rd attack also reduces Basic Ability cooldowns by 1.75 seconds.",
-        "trait": true,
-        "abilityId": "Kharazim|D2",
-        "icon": "storm_ui_icon_monk_trait_insight.png",
-        "type": "trait"
-      },
-      {
-        "name": "Iron Fists",
-        "description": "Every 3rd Basic Attack deals 110% bonus damage and gives 25% increased Move Speed for 2 seconds.",
-        "trait": true,
-        "abilityId": "Kharazim|D3",
-        "icon": "storm_ui_icon_monk_trait_ironfist.png",
+        "icon": "storm_ui_icon_monk_trait1.png",
         "type": "trait"
       }
     ]
@@ -103,7 +87,7 @@
         "description": "Every 3rd Basic Attack deals 110% bonus damage and gives 25% increased Move Speed for 2 seconds.",
         "icon": "storm_ui_icon_monk_trait_ironfist.png",
         "sort": 2,
-        "abilityId": "Kharazim|D3"
+        "abilityId": "Kharazim|D1"
       },
       {
         "tooltipId": "MonkInsightTalent",
@@ -112,7 +96,7 @@
         "description": "Quest: Every 3rd Basic Attack restores 14 (+4% per level) Mana, grants a stack of Insight, and gives 25% increased Movement Speed for 2 seconds.  Reward: Upon getting 100 stacks of Insight, every 3rd attack also reduces Basic Ability cooldowns by 1.75 seconds.",
         "icon": "storm_ui_icon_monk_trait_insight.png",
         "sort": 3,
-        "abilityId": "Kharazim|D2"
+        "abilityId": "Kharazim|D1"
       }
     ],
     "4": [
@@ -224,7 +208,7 @@
         "description": "Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 50%.  Can be toggled to allow or prevent this talent from triggering automatically.",
         "icon": "storm_ui_icon_talent_spellshield.png",
         "sort": 3,
-        "abilityId": "Kharazim|Passive"
+        "abilityId": "Kharazim|Active"
       },
       {
         "tooltipId": "MonkSixthSense",
@@ -271,7 +255,7 @@
         "description": "Radiant Dashing to an ally increases the healing they receive from Breath of Heaven by 75% for 3 seconds.",
         "icon": "storm_ui_icon_monk_breath0fheaven_var1.png",
         "sort": 4,
-        "abilityId": "Kharazim|Q1"
+        "abilityId": "Kharazim|W1"
       }
     ],
     "20": [
