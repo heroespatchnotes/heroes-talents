@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Zagara|Q1",
         "cooldown": 3,
-        "manaCost": "10",
+        "manaCost": 10,
         "icon": "storm_ui_icon_zagara_banelingbarrage.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Zagara|W1",
         "cooldown": 14,
-        "manaCost": "60",
+        "manaCost": 60,
         "icon": "storm_ui_icon_zagara_hunterkiller.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Zagara|E1",
         "cooldown": 12,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_zagara_infesteddrop.png",
         "type": "basic"
       },
@@ -45,7 +45,7 @@
         "hotkey": "R",
         "abilityId": "Zagara|R1",
         "cooldown": 120,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_zagara_nydusworm.png",
         "type": "heroic"
       },
@@ -55,7 +55,7 @@
         "hotkey": "R",
         "abilityId": "Zagara|R2",
         "cooldown": 80,
-        "manaCost": "100",
+        "manaCost": 100,
         "icon": "storm_ui_icon_zagara_devouringmaw.png",
         "type": "heroic"
       },
@@ -98,7 +98,7 @@
         "description": "Nearby Ranged Minions deal an additional 100% damage, plus an additional 1% per 1000 Siege damage Zagara has dealt. Can be toggled on or off.",
         "icon": "storm_ui_icon_zagara_infest.png",
         "sort": 3,
-        "abilityId": "Zagara|Passive"
+        "abilityId": "Zagara|Active"
       }
     ],
     "4": [
@@ -122,7 +122,7 @@
         "abilityId": "Zagara|Passive"
       },
       {
-        "tooltipId": "ZagaraSerratedSpinesTalent",
+        "tooltipId": "ZagaraSerratedSpines",
         "talentTreeId": "ZagaraMasterySerratedSpines",
         "name": "Serrated Spines",
         "description": "Quest: Each Basic Attack against a Hero increases Zagara's Attack Damage by 0.3.",
@@ -208,7 +208,7 @@
         "description": "Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 50%.  Can be toggled to allow or prevent this talent from triggering automatically.",
         "icon": "storm_ui_icon_talent_spellshield.png",
         "sort": 3,
-        "abilityId": "Zagara|Passive"
+        "abilityId": "Zagara|Active"
       }
     ],
     "16": [
@@ -257,7 +257,7 @@
         "description": "The cast range for Creep Tumor is increased by 2000%. Creep Tumors now last 600 seconds. While on Creep, Zagara gains an additional 10% Movement Speed.",
         "icon": "storm_ui_icon_zagara_nydusworm.png",
         "sort": 2,
-        "abilityId": "Zagara|D1"
+        "abilityId": "Zagara|R1"
       },
       {
         "tooltipId": "FuryoftheStormTalent",

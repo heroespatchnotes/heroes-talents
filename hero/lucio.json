@@ -8,14 +8,14 @@
   "type": "Ranged",
   "releaseDate": "2017-02-14",
   "abilities": {
-    "Lucio": [
+    "Lúcio": [
       {
         "name": "Soundwave",
         "description": "Deal 105 (+4% per level) damage to enemies in an area and knock them back.",
         "hotkey": "Q",
         "abilityId": "Lucio|Q1",
         "cooldown": 7,
-        "manaCost": "30",
+        "manaCost": 30,
         "icon": "storm_ui_icon_lucio_soundwave.png",
         "type": "basic"
       },
@@ -24,7 +24,6 @@
         "description": "Play one of two music tracks for Lúcio and his allies.  Healing Boost: Passively heal Lúcio and nearby allied Heroes for 16 (+4% per level) health per second.  Speed Boost: Increase the Movement Speed of Lúcio and nearby allied Heroes by 20%.",
         "hotkey": "W",
         "abilityId": "Lucio|W1",
-        "cooldown": 0,
         "icon": "storm_ui_icon_lucio_crossfade_all.png",
         "type": "basic"
       },
@@ -34,7 +33,7 @@
         "hotkey": "E",
         "abilityId": "Lucio|E1",
         "cooldown": 13,
-        "manaCost": "90",
+        "manaCost": 90,
         "icon": "storm_ui_icon_lucio_ampitup.png",
         "type": "basic"
       },
@@ -44,7 +43,7 @@
         "hotkey": "R",
         "abilityId": "Lucio|R1",
         "cooldown": 80,
-        "manaCost": "100",
+        "manaCost": 100,
         "icon": "storm_ui_icon_lucio_soundbarrier.png",
         "type": "heroic"
       },
@@ -54,7 +53,7 @@
         "hotkey": "R",
         "abilityId": "Lucio|R2",
         "cooldown": 45,
-        "manaCost": "55",
+        "manaCost": 55,
         "icon": "storm_ui_icon_lucio_reverseamp.png",
         "type": "heroic"
       },
@@ -69,6 +68,7 @@
       {
         "name": "Skate Mode",
         "description": "Lúcio can shoot while moving. Lúcio skates or dies!",
+        "hotkey": "Z",
         "abilityId": "Lucio|Z1",
         "icon": "storm_ui_icon_lucio_mount.png",
         "type": "mount"
@@ -84,7 +84,7 @@
         "description": "Quest: Kill 5 enemy Heroes while Crossfade's Speed Boost is active.  Reward: Permanently increase the Amp It Up bonus for Crossfade's Speed Boost to 60%.",
         "icon": "storm_ui_icon_lucio_ampitup.png",
         "sort": 1,
-        "abilityId": "Lucio|W1"
+        "abilityId": "Lucio|E1"
       },
       {
         "tooltipId": "LucioWallRideAccelerando",
@@ -142,7 +142,7 @@
         "description": "Quest: Play Lúcio's Crossfade tracks to nearby Allies for a total of 8 minutes. Multiple Allies provide additional time.  Reward: Permanently increase Crossfade's range by 20%.",
         "icon": "storm_ui_icon_lucio_crossfade_all.png",
         "sort": 1,
-        "abilityId": "Lucio|W1"
+        "abilityId": "Lúcio|Active"
       },
       {
         "tooltipId": "LucioAmpItUpSonicAmplifier",
@@ -160,7 +160,7 @@
         "description": "Place a boombox that plays Lúcio's active Crossfade track for 30 seconds. Its volume adjusts with Amp It Up.  Crossfade tracks do not stack.",
         "icon": "storm_ui_icon_lucio_fineshrine.png",
         "sort": 3,
-        "abilityId": "Lucio|Active",
+        "abilityId": "Lúcio|Active",
         "cooldown": 20
       }
     ],
@@ -194,7 +194,7 @@
         "description": "After switching Crossfade tracks, if the next song plays for at least 1.5 seconds, Lúcio gains a 100 (+4% per level) point Shield that lasts indefinitely.  Switching tracks again removes the Shield.",
         "icon": "storm_ui_icon_lucio_crossfade_all.png",
         "sort": 1,
-        "abilityId": "Lucio|W1"
+        "abilityId": "Lúcio|Active"
       },
       {
         "tooltipId": "LucioWallRideCantStopWontStop",
@@ -221,7 +221,7 @@
         "description": "Heal for 245 (+4% per level) upon entering a Stun, Silence, or Time Stop effect. This cannot happen more than once every 10 seconds.",
         "icon": "storm_ui_icon_lucio_mrbrightside.png",
         "sort": 4,
-        "abilityId": "Lucio|Passive"
+        "abilityId": "Lucio|D1"
       }
     ],
     "16": [
