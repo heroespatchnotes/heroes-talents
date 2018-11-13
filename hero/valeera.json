@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Valeera|Q1",
         "cooldown": 5,
-        "manaCost": "30",
+        "manaCost": 30,
         "icon": "storm_ui_icon_valeera_sinisterstrike.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Valeera|W1",
         "cooldown": 4,
-        "manaCost": "40",
+        "manaCost": 40,
         "icon": "storm_ui_icon_valeera_bladeflurry.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Valeera|E1",
         "cooldown": 1,
-        "manaCost": "25",
+        "manaCost": 25,
         "icon": "storm_ui_icon_valeera_eviscerate.png",
         "type": "basic"
       },
@@ -71,33 +71,33 @@
     "ValeeraVanish": [
       {
         "name": "Ambush",
-        "description": "Ambush an enemy, dealing 130 (+4% per level) damage and reducing their Armor by 10 for 5 seconds.  Awards 1 Combo Point.  Unstealth: Sinister Strike: Dash forward, damaging enemies.",
+        "description": "Ambush an enemy, dealing 130 (+4% per level) damage and reducing their Armor by 10 for 5 seconds.  Awards 1 Combo Point.  Unstealth: Sinister Strike Dash forward, damaging enemies.",
         "hotkey": "Q",
         "abilityId": "Valeera|Q2",
         "cooldown": 1,
-        "manaCost": "10",
+        "manaCost": 10,
         "icon": "storm_ui_icon_valeera_ambush.png",
-        "type": "sub-basic"
+        "type": "subunit"
       },
       {
         "name": "Cheap Shot",
-        "description": "Deal 30 (+4% per level) damage to an enemy, Stun them for 0.75 seconds, and Blind them for 2 seconds once Cheap Shot's Stun expires.  Awards 1 Combo Point.  Unstealth: Blade Flurry: Deal damage in an area around Valeera.",
+        "description": "Deal 30 (+4% per level) damage to an enemy, Stun them for 0.75 seconds, and Blind them for 2 seconds once Cheap Shot's Stun expires.  Awards 1 Combo Point.  Unstealth: Blade Flurry Deal damage in an area around Valeera.",
         "hotkey": "W",
         "abilityId": "Valeera|W2",
         "cooldown": 1,
-        "manaCost": "30",
+        "manaCost": 30,
         "icon": "storm_ui_icon_valeera_cheapshot.png",
-        "type": "sub-basic"
+        "type": "subunit"
       },
       {
         "name": "Garrote",
-        "description": "Deal 20 (+4% per level) damage to an enemy and an additional 140 (+4% per level) damage over 7 seconds, and Silence them for 2.5 seconds.  Awards 1 Combo Point.  Unstealth: Eviscerate: High damage finishing move.",
+        "description": "Deal 20 (+4% per level) damage to an enemy and an additional 140 (+4% per level) damage over 7 seconds, and Silence them for 2.5 seconds.  Awards 1 Combo Point.  Unstealth: Eviscerate High damage finishing move.",
         "hotkey": "E",
         "abilityId": "Valeera|E2",
         "cooldown": 1,
-        "manaCost": "30",
+        "manaCost": 30,
         "icon": "storm_ui_icon_valeera_garrote.png",
-        "type": "sub-basic"
+        "type": "subunit"
       }
     ]
   },

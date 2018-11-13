@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Hanzo|Q1",
         "cooldown": 4,
-        "manaCost": "15",
+        "manaCost": 15,
         "icon": "storm_ui_icon_hanzo_stormbow.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Hanzo|W1",
         "cooldown": 8,
-        "manaCost": "40",
+        "manaCost": 40,
         "icon": "storm_ui_icon_hanzo_scatterarrow.png",
         "type": "basic"
       },
@@ -35,17 +35,17 @@
         "hotkey": "E",
         "abilityId": "Hanzo|E1",
         "cooldown": 20,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_hanzo_sonicarrow.png",
         "type": "basic"
       },
       {
         "name": "Dragonstrike",
-        "description": "After 1.5 seconds, summon a pair of Spirit Dragons which travel forward, dealing 70 (+4% per level) damage every 0.25 seconds to enemy Heroes in its area.  Enemies in the center take 150% damage.",
+        "description": "After 1.5 seconds, summon a pair of Spirit Dragons which travel forward, dealing 70 (+4% per level) damage every 0.25 seconds to enemy Heroes in its area.  Enemies in the center take 50% increased damage.",
         "hotkey": "R",
         "abilityId": "Hanzo|R1",
         "cooldown": 100,
-        "manaCost": "100",
+        "manaCost": 100,
         "icon": "storm_ui_icon_hanzo_dragonstrike.png",
         "type": "heroic"
       },
@@ -55,7 +55,7 @@
         "hotkey": "R",
         "abilityId": "Hanzo|R2",
         "cooldown": 70,
-        "manaCost": "90",
+        "manaCost": 90,
         "icon": "storm_ui_icon_hanzo_thedragonsarrow.png",
         "type": "heroic"
       },
@@ -156,7 +156,7 @@
         "description": "Hitting a Hero with Storm Bow or Basic Attacks reduces their Armor by 2 for 3 seconds, up to a maximum reduction of 20 Armor.",
         "icon": "storm_ui_icon_hanzo_shieldbreaker.png",
         "sort": 3,
-        "abilityId": "Hanzo|W1"
+        "abilityId": "Hanzo|Passive"
       }
     ],
     "10": [
@@ -164,7 +164,7 @@
         "tooltipId": "HanzoDragonstrike",
         "talentTreeId": "HanzoDragonstrike",
         "name": "Dragonstrike",
-        "description": "After 1.5 seconds, summon a pair of Spirit Dragons which travel forward, dealing 70 (+4% per level) damage every 0.25 seconds to enemy Heroes in its area.  Enemies in the center take 150% damage.",
+        "description": "After 1.5 seconds, summon a pair of Spirit Dragons which travel forward, dealing 70 (+4% per level) damage every 0.25 seconds to enemy Heroes in its area.  Enemies in the center take 50% increased damage.",
         "icon": "storm_ui_icon_hanzo_dragonstrike.png",
         "sort": 1,
         "abilityId": "Hanzo|R1",
@@ -218,7 +218,7 @@
         "description": "Hitting Heroes with Storm Bow increases the damage of Hanzo's next Basic Attack within 5 seconds by 25%. Basic Attacks against Heroes increase the damage of Hanzo's next Storm Bow within 5 seconds by 25%.",
         "icon": "storm_ui_icon_hanzo_fromonething.png",
         "sort": 1,
-        "abilityId": "Hanzo|Q1"
+        "abilityId": "Hanzo|Passive"
       },
       {
         "tooltipId": "HanzoPiercingArrows",
@@ -227,7 +227,7 @@
         "description": "Storm Bow and Scatter Arrow pierce, hitting an additional enemy. Additionally, Scatter Arrow can pierce through 1 enemy each time it ricochets.",
         "icon": "storm_ui_icon_hanzo_piercingarrows.png",
         "sort": 2,
-        "abilityId": "Hanzo|W1"
+        "abilityId": "Hanzo|Passive"
       },
       {
         "tooltipId": "HanzoGiantSlayer",

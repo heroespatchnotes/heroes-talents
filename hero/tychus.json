@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Tychus|Q1",
         "cooldown": 12,
-        "manaCost": "60",
+        "manaCost": 60,
         "icon": "storm_ui_icon_tychus_overkill.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Tychus|W1",
         "cooldown": 10,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_tychus_fraggrenade.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Tychus|E1",
         "cooldown": 10,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_tychus_runandgun.png",
         "type": "basic"
       },
@@ -45,7 +45,7 @@
         "hotkey": "R",
         "abilityId": "Tychus|R1",
         "cooldown": 100,
-        "manaCost": "100",
+        "manaCost": 100,
         "icon": "storm_ui_icon_tychus_drakkinlaserdrill.png",
         "type": "heroic"
       },
@@ -55,7 +55,7 @@
         "hotkey": "R",
         "abilityId": "Tychus|R2",
         "cooldown": 100,
-        "manaCost": "100",
+        "manaCost": 100,
         "icon": "storm_ui_icon_tychus_commandeerodin.png",
         "type": "heroic"
       },
@@ -78,16 +78,16 @@
         "abilityId": "Tychus|Q2",
         "cooldown": 7,
         "icon": "storm_ui_icon_tychus_annihilate.png",
-        "type": "sub-basic"
+        "type": "subunit"
       },
       {
         "name": "Ragnarok Missiles",
-        "description": "Launches a missile at each nearby enemy, dealing 141 (+4% per level) damage.",
+        "description": "Launches a volley of missiles at target area, dealing 132 (+4% per level) damage and slowing enemy Movement Speed by 30% for 2 seconds.",
         "hotkey": "W",
         "abilityId": "Tychus|W2",
         "cooldown": 7,
         "icon": "storm_ui_icon_tychus_ragnarokmissiles.png",
-        "type": "sub-basic"
+        "type": "subunit"
       },
       {
         "name": "Thrusters",
@@ -96,7 +96,7 @@
         "abilityId": "Tychus|E2",
         "cooldown": 8,
         "icon": "storm_ui_icon_tychus_thrusters.png",
-        "type": "sub-basic"
+        "type": "subunit"
       }
     ]
   },
@@ -295,7 +295,7 @@
         "description": "Basic Attacks deal bonus damage to Heroes equal to 1% of their maximum Health. Stacks with Minigun.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 3,
-        "abilityId": "Tychus|Passive"
+        "abilityId": "Tychus|D1"
       },
       {
         "tooltipId": "TychusRunAndGunBobAndWeaveTalent",

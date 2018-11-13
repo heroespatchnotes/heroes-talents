@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Butcher|Q1",
         "cooldown": 4,
-        "manaCost": "40",
+        "manaCost": 40,
         "icon": "storm_ui_icon_butcher_hamstring.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Butcher|W1",
         "cooldown": 14,
-        "manaCost": "65",
+        "manaCost": 65,
         "icon": "storm_ui_icon_butcher_tenderize.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Butcher|E1",
         "cooldown": 15,
-        "manaCost": "55",
+        "manaCost": 55,
         "icon": "storm_ui_icon_butcher_fullboar.png",
         "type": "basic"
       },
@@ -45,7 +45,7 @@
         "hotkey": "R",
         "abilityId": "Butcher|R1",
         "cooldown": 90,
-        "manaCost": "75",
+        "manaCost": 75,
         "icon": "storm_ui_icon_butcher_lambtotheslaughter.png",
         "type": "heroic"
       },
@@ -55,7 +55,7 @@
         "hotkey": "R",
         "abilityId": "Butcher|R2",
         "cooldown": 60,
-        "manaCost": "75",
+        "manaCost": 75,
         "icon": "storm_ui_icon_butcher_furnaceblast.png",
         "type": "heroic"
       },
@@ -87,7 +87,7 @@
         "description": "Every 5 seconds, gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%.  Stores up to 2 charges.",
         "icon": "storm_ui_icon_talent_block.png",
         "sort": 2,
-        "abilityId": "Butcher|Passive"
+        "abilityId": "The Butcher|Passive"
       },
       {
         "tooltipId": "ButcherHamstringChopMeatTalent",
@@ -145,7 +145,7 @@
         "description": "Every time a nearby enemy minion dies, The Butcher heals 5% of his maximum health.",
         "icon": "storm_ui_icon_butcher_freshmeat.png",
         "sort": 2,
-        "abilityId": "Butcher|Passive"
+        "abilityId": "Butcher|D1"
       },
       {
         "tooltipId": "ButcherMeatShield",
@@ -187,7 +187,7 @@
         "description": "Basic Attacks deal 35% of The Butcher's Basic Attack Damage in an area around the target.",
         "icon": "storm_ui_icon_talent_autoattack_aoe.png",
         "sort": 1,
-        "abilityId": "Butcher|Passive"
+        "abilityId": "The Butcher|Passive"
       },
       {
         "tooltipId": "ButcherRuthlessOnslaughtSavageChargeTalent",
@@ -225,7 +225,7 @@
         "description": "While below 50% of his maximum Health, taking damage causes The Butcher to become Enraged for 10 seconds, gaining 40% Attack Speed and 15 Armor, reducing damage taken by 15%.  This effect has a 25 second cooldown.",
         "icon": "storm_ui_icon_butcher_enraged.png",
         "sort": 2,
-        "abilityId": "Butcher|Passive"
+        "abilityId": "The Butcher|Passive"
       },
       {
         "tooltipId": "ButcherFreshBloodFrenzyMeatTalent",
@@ -234,7 +234,7 @@
         "description": "Basic Attacks against enemy Heroes grant 5% increased Attack and Movement Speed for 3 seconds, up to 25%.",
         "icon": "storm_ui_icon_talent_autoattack_speed.png",
         "sort": 3,
-        "abilityId": "Butcher|Passive"
+        "abilityId": "The Butcher|Passive"
       }
     ],
     "20": [
@@ -263,7 +263,7 @@
         "description": "Basic Attacks deal 20% more damage and Slow enemy Movement Speed by 20% for 1 second.",
         "icon": "storm_ui_icon_talent_autoattack_slow.png",
         "sort": 3,
-        "abilityId": "Butcher|Passive"
+        "abilityId": "The Butcher|Passive"
       },
       {
         "tooltipId": "GenericBoltoftheStormTalent",
@@ -272,7 +272,7 @@
         "description": "Activate to teleport to a nearby location.",
         "icon": "storm_ui_icon_talent_boltofthestorm.png",
         "sort": 4,
-        "abilityId": "Butcher|Active",
+        "abilityId": "The Butcher|Active",
         "cooldown": 70
       }
     ]

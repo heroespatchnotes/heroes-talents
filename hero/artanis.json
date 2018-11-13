@@ -6,7 +6,7 @@
   "icon": "artanis.png",
   "role": "Warrior",
   "type": "Melee",
-  "releaseDate": "2015-10-20",
+  "releaseDate": "2015-10-27",
   "abilities": {
     "Artanis": [
       {
@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Artanis|Q1",
         "cooldown": 10,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_artanis_powerstrikes.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Artanis|W1",
         "cooldown": 4,
-        "manaCost": "20",
+        "manaCost": 20,
         "icon": "storm_ui_icon_artanis_doubleslash_on.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Artanis|E1",
         "cooldown": 14,
-        "manaCost": "60",
+        "manaCost": 60,
         "icon": "storm_ui_icon_artanis_repositionmatrix.png",
         "type": "basic"
       },
@@ -45,7 +45,7 @@
         "hotkey": "R",
         "abilityId": "Artanis|R1",
         "cooldown": 80,
-        "manaCost": "80",
+        "manaCost": 80,
         "icon": "storm_ui_icon_artanis_purifierbeam.png",
         "type": "heroic"
       },
@@ -55,7 +55,7 @@
         "hotkey": "R",
         "abilityId": "Artanis|R2",
         "cooldown": 50,
-        "manaCost": "40",
+        "manaCost": 40,
         "icon": "storm_ui_icon_artanis_disruptionweb.png",
         "type": "heroic"
       },
@@ -97,7 +97,7 @@
         "description": "Quest: Every Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage.  Reward: Upon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 40% for 3 seconds. 60 second cooldown.",
         "icon": "storm_ui_icon_talent_seasonedmarksman.png",
         "sort": 3,
-        "abilityId": "Artanis|Active"
+        "abilityId": "Artanis|Passive"
       }
     ],
     "4": [
