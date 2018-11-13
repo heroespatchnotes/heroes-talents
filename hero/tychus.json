@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Tychus|Q1",
         "cooldown": 12,
-        "manaCost": "60",
+        "manaCost": 60,
         "icon": "storm_ui_icon_tychus_overkill.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Tychus|W1",
         "cooldown": 10,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_tychus_fraggrenade.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Tychus|E1",
         "cooldown": 10,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_tychus_runandgun.png",
         "type": "basic"
       },
@@ -43,9 +43,9 @@
         "name": "Drakken Laser Drill",
         "description": "Call down a Laser Drill to attack nearby enemies, dealing 142 (+4% per level) damage every second. Reactivate to assign a new target. Lasts 22 seconds.",
         "hotkey": "R",
-        "abilityId": "Tychus|R1",
+        "abilityId": "Tychus|R2",
         "cooldown": 100,
-        "manaCost": "100",
+        "manaCost": 100,
         "icon": "storm_ui_icon_tychus_drakkinlaserdrill.png",
         "type": "heroic"
       },
@@ -53,9 +53,9 @@
         "name": "Commandeer Odin",
         "description": "Call down an Odin to pilot. The Odin deals increased Damage, has 100% increased Basic Attack range, and uses different Abilities. The Odin has 25 Armor and lasts 23 seconds.",
         "hotkey": "R",
-        "abilityId": "Tychus|R2",
+        "abilityId": "Tychus|R1",
         "cooldown": 100,
-        "manaCost": "100",
+        "manaCost": 100,
         "icon": "storm_ui_icon_tychus_commandeerodin.png",
         "type": "heroic"
       },
@@ -78,16 +78,16 @@
         "abilityId": "Tychus|Q2",
         "cooldown": 7,
         "icon": "storm_ui_icon_tychus_annihilate.png",
-        "type": "sub-basic"
+        "type": "subunit"
       },
       {
         "name": "Ragnarok Missiles",
-        "description": "Launches a missile at each nearby enemy, dealing 141 (+4% per level) damage.",
+        "description": "Launches a volley of missiles at target area, dealing 132 (+4% per level) damage and slowing enemy Movement Speed by 30% for 2 seconds.",
         "hotkey": "W",
         "abilityId": "Tychus|W2",
         "cooldown": 7,
         "icon": "storm_ui_icon_tychus_ragnarokmissiles.png",
-        "type": "sub-basic"
+        "type": "subunit"
       },
       {
         "name": "Thrusters",
@@ -96,7 +96,7 @@
         "abilityId": "Tychus|E2",
         "cooldown": 8,
         "icon": "storm_ui_icon_tychus_thrusters.png",
-        "type": "sub-basic"
+        "type": "subunit"
       }
     ]
   },
@@ -196,7 +196,7 @@
         "description": "Call down an Odin to pilot. The Odin deals increased Damage, has 100% increased Basic Attack range, and uses different Abilities. The Odin has 25 Armor and lasts 23 seconds.",
         "icon": "storm_ui_icon_tychus_commandeerodin.png",
         "sort": 1,
-        "abilityId": "Tychus|R2",
+        "abilityId": "Tychus|R1",
         "cooldown": 100
       },
       {
@@ -206,7 +206,7 @@
         "description": "Call down a Laser Drill to attack nearby enemies, dealing 142 (+4% per level) damage every second. Reactivate to assign a new target. Lasts 22 seconds.",
         "icon": "storm_ui_icon_tychus_drakkinlaserdrill.png",
         "sort": 2,
-        "abilityId": "Tychus|R1",
+        "abilityId": "Tychus|R2",
         "cooldown": 100
       }
     ],
@@ -277,7 +277,7 @@
         "description": "Odin lasts 50% longer and Ragnarok Missiles also launches a Nuclear Missile which lands 2.5 seconds later, dealing 319 (+4% per level) damage in its area.",
         "icon": "storm_ui_icon_tychus_commandeerodin.png",
         "sort": 1,
-        "abilityId": "Tychus|R2"
+        "abilityId": "Tychus|R1"
       },
       {
         "tooltipId": "TychusDrakkenLaserFocusingDiodesTalent",
@@ -286,7 +286,7 @@
         "description": "Increases the range of the Drakken Laser Drill by 50%.  Deals increasing damage the longer it remains on a single target, up to 100% extra damage.",
         "icon": "storm_ui_icon_tychus_drakkinlaserdrill.png",
         "sort": 2,
-        "abilityId": "Tychus|R1"
+        "abilityId": "Tychus|R2"
       },
       {
         "tooltipId": "TychusSizzlinAttacks",
@@ -295,7 +295,7 @@
         "description": "Basic Attacks deal bonus damage to Heroes equal to 1% of their maximum Health. Stacks with Minigun.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 3,
-        "abilityId": "Tychus|Passive"
+        "abilityId": "Tychus|D1"
       },
       {
         "tooltipId": "TychusRunAndGunBobAndWeaveTalent",

@@ -15,7 +15,7 @@
         "hotkey": "Q",
         "abilityId": "Kael'thas|Q1",
         "cooldown": 7,
-        "manaCost": "70",
+        "manaCost": 70,
         "icon": "storm_ui_icon_kaelthas_flamestrike.png",
         "type": "basic"
       },
@@ -25,7 +25,7 @@
         "hotkey": "W",
         "abilityId": "Kael'thas|W1",
         "cooldown": 10,
-        "manaCost": "50",
+        "manaCost": 50,
         "icon": "storm_ui_icon_kaelthas_livingbomb.png",
         "type": "basic"
       },
@@ -35,7 +35,7 @@
         "hotkey": "E",
         "abilityId": "Kael'thas|E1",
         "cooldown": 14,
-        "manaCost": "90",
+        "manaCost": 90,
         "icon": "storm_ui_icon_kaelthas_gravitylapse.png",
         "type": "basic"
       },
@@ -43,19 +43,19 @@
         "name": "Pyroblast",
         "description": "After 1.5 seconds, cast a slow-moving fireball that deals 810 (+5% per level) damage to an enemy Hero and 405 (+5% per level) damage to enemies nearby.",
         "hotkey": "R",
-        "abilityId": "Kael'thas|R1",
+        "abilityId": "Kael'thas|R2",
         "cooldown": 100,
-        "manaCost": "80",
+        "manaCost": 80,
         "icon": "storm_ui_icon_kaelthas_pyroblast.png",
         "type": "heroic"
       },
       {
         "name": "Phoenix",
-        "description": "Launch a Phoenix to an area, dealing 78 (+4% per level) damage to enemies along the way. The Phoenix persists for 7 seconds, attacking enemies for 78 (+4% per level) damage and splashing for 50%.",
+        "description": "Launch a Phoenix to an area, dealing 78 (+4% per level) damage to enemies along the way. The Phoenix persists for 7 seconds, attacking enemies for 78 (+4% per level) damage and splashing for 39 (+4% per level) damage.",
         "hotkey": "R",
-        "abilityId": "Kael'thas|R2",
+        "abilityId": "Kael'thas|R1",
         "cooldown": 60,
-        "manaCost": "80",
+        "manaCost": 80,
         "icon": "storm_ui_icon_kaelthas_phoenix.png",
         "type": "heroic"
       },
@@ -98,7 +98,7 @@
         "description": "Quest: Gathering a Regeneration Globe increases Kael'thas's maximum Mana by 15.  Reward: After gathering 20 Globes, Kael'thas can activate Arcane Barrier to gain a Shield equal to 100% of his maximum Mana for 4 seconds. 45 second cooldown.",
         "icon": "storm_ui_icon_kaelthas_manaaddict.png",
         "sort": 3,
-        "abilityId": "Kael'thas|Active"
+        "abilityId": "Kael'thas|Passive"
       }
     ],
     "4": [
@@ -164,10 +164,10 @@
         "tooltipId": "KaelthasPhoenix",
         "talentTreeId": "KaelthasHeroicAbilityPhoenix",
         "name": "Phoenix",
-        "description": "Launch a Phoenix to an area, dealing 78 (+4% per level) damage to enemies along the way. The Phoenix persists for 7 seconds, attacking enemies for 78 (+4% per level) damage and splashing for 50%.",
+        "description": "Launch a Phoenix to an area, dealing 78 (+4% per level) damage to enemies along the way. The Phoenix persists for 7 seconds, attacking enemies for 78 (+4% per level) damage and splashing for 39 (+4% per level) damage.",
         "icon": "storm_ui_icon_kaelthas_phoenix.png",
         "sort": 1,
-        "abilityId": "Kael'thas|R2",
+        "abilityId": "Kael'thas|R1",
         "cooldown": 60
       },
       {
@@ -177,7 +177,7 @@
         "description": "After 1.5 seconds, cast a slow-moving fireball that deals 810 (+5% per level) damage to an enemy Hero and 405 (+5% per level) damage to enemies nearby.",
         "icon": "storm_ui_icon_kaelthas_pyroblast.png",
         "sort": 2,
-        "abilityId": "Kael'thas|R1",
+        "abilityId": "Kael'thas|R2",
         "cooldown": 100
       }
     ],
@@ -247,7 +247,7 @@
         "description": "Increases Phoenix duration by 100%. While alive, the Phoenix may be ordered to move to a different location.",
         "icon": "storm_ui_icon_kaelthas_phoenix.png",
         "sort": 1,
-        "abilityId": "Kael'thas|R2"
+        "abilityId": "Kael'thas|R1"
       },
       {
         "tooltipId": "KaelthasPyroblastPresenceOfMindTalent",
@@ -256,10 +256,10 @@
         "description": "Increases Pyroblast's explosion radius by 50%. Heroes that are hit by Flamestrike or have Living Bomb spread to them reduce the cooldown of Pyroblast by 10 seconds.",
         "icon": "storm_ui_icon_kaelthas_pyroblast.png",
         "sort": 2,
-        "abilityId": "Kael'thas|R1"
+        "abilityId": "Kael'thas|R2"
       },
       {
-        "tooltipId": "KaelthasMasterOfFlamesLivingBomb",
+        "tooltipId": "KaelthasVerdantSpheresMasterOfFlameTalent",
         "talentTreeId": "KaelthasMasterOfFlames",
         "name": "Master of Flames",
         "description": "Living Bomb's spread from explosions can now also spread Living Bomb.",
