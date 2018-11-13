@@ -43,7 +43,7 @@
         "name": "Counter-Strike",
         "description": "Alarak targets an area and channels for 1 second, becoming Protected and Unstoppable. After, if he took damage from an enemy Hero, he sends a shockwave that deals 275 (+4% per level) damage.",
         "hotkey": "R",
-        "abilityId": "Alarak|R1",
+        "abilityId": "Alarak|R2",
         "cooldown": 30,
         "manaCost": 50,
         "icon": "storm_ui_icon_alarak_counterstrike.png",
@@ -53,7 +53,7 @@
         "name": "Deadly Charge",
         "description": "After channeling, Alarak charges forward dealing 200 (+4% per level) damage to all enemies in his path. Distance is increased based on the amount of time channeled, up to 1.5 seconds.  Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling.",
         "hotkey": "R",
-        "abilityId": "Alarak|R2",
+        "abilityId": "Alarak|R1",
         "cooldown": 45,
         "manaCost": 60,
         "icon": "storm_ui_icon_alarak_recklesscharge.png",
@@ -165,7 +165,7 @@
         "description": "After channeling, Alarak charges forward dealing 200 (+4% per level) damage to all enemies in his path. Distance is increased based on the amount of time channeled, up to 1.5 seconds.  Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling.",
         "icon": "storm_ui_icon_alarak_recklesscharge.png",
         "sort": 1,
-        "abilityId": "Alarak|R2",
+        "abilityId": "Alarak|R1",
         "cooldown": 45
       },
       {
@@ -175,7 +175,7 @@
         "description": "Alarak targets an area and channels for 1 second, becoming Protected and Unstoppable. After, if he took damage from an enemy Hero, he sends a shockwave that deals 275 (+4% per level) damage.",
         "icon": "storm_ui_icon_alarak_counterstrike.png",
         "sort": 2,
-        "abilityId": "Alarak|R1",
+        "abilityId": "Alarak|R2",
         "cooldown": 30
       }
     ],
@@ -246,7 +246,7 @@
         "description": "Alarak targets an area and channels for 1 second, becoming Protected and Unstoppable. After, if he took damage from an enemy Hero, he sends a shockwave that deals 275 (+4% per level) damage.  This ability will take over Alarak's Trait button.",
         "icon": "storm_ui_icon_alarak_counterstrike.png",
         "sort": 1,
-        "abilityId": "Alarak|R1",
+        "abilityId": "Alarak|R2",
         "cooldown": 30
       },
       {
@@ -256,7 +256,7 @@
         "description": "After channeling, Alarak charges forward dealing 200 (+4% per level) damage to all enemies in his path. Distance is increased based on the amount of time channeled, up to 1.5 seconds.  Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling.",
         "icon": "storm_ui_icon_alarak_recklesscharge.png",
         "sort": 2,
-        "abilityId": "Alarak|R2",
+        "abilityId": "Alarak|R1",
         "cooldown": 45
       },
       {

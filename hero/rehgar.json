@@ -43,7 +43,7 @@
         "name": "Bloodlust",
         "description": "Grant nearby allied Heroes 40% Attack Speed and 25% Movement Speed and causes them to heal for 30% of the Basic Attack damage to their primary target. Lasts for 8 seconds.",
         "hotkey": "R",
-        "abilityId": "Rehgar|R1",
+        "abilityId": "Rehgar|R2",
         "cooldown": 90,
         "manaCost": 70,
         "icon": "storm_ui_icon_rehgar_bloodlust.png",
@@ -53,7 +53,7 @@
         "name": "Ancestral Healing",
         "description": "After 1 second, heal an allied Hero for 1180 (+4% per level) Health.  Cannot be used on Rehgar.",
         "hotkey": "R",
-        "abilityId": "Rehgar|R2",
+        "abilityId": "Rehgar|R1",
         "cooldown": 100,
         "manaCost": 80,
         "icon": "storm_ui_icon_rehgar_ancestralhealing.png",
@@ -71,6 +71,8 @@
       {
         "name": "Ghost Wolf",
         "description": "Instead of using a mount, Rehgar transforms into a Ghost Wolf with 20% increased Movement Speed. Basic Attacks in Ghost Wolf form cause him to lunge at his target and deal 75% bonus damage. Dealing damage, using Abilities, and channeling cancels Ghost Wolf form.",
+        "trait": true,
+        "abilityId": "Rehgar|D1",
         "icon": "storm_ui_icon_rehgar_ghostwolf.png",
         "type": "trait"
       }
@@ -193,7 +195,7 @@
         "description": "After 1 second, heal an allied Hero for 1180 (+4% per level) Health.  Cannot be used on Rehgar.",
         "icon": "storm_ui_icon_rehgar_ancestralhealing.png",
         "sort": 1,
-        "abilityId": "Rehgar|R2",
+        "abilityId": "Rehgar|R1",
         "cooldown": 100
       },
       {
@@ -203,7 +205,7 @@
         "description": "Grant nearby allied Heroes 40% Attack Speed and 25% Movement Speed and causes them to heal for 30% of the Basic Attack damage to their primary target. Lasts for 8 seconds.",
         "icon": "storm_ui_icon_rehgar_bloodlust.png",
         "sort": 2,
-        "abilityId": "Rehgar|R1",
+        "abilityId": "Rehgar|R2",
         "cooldown": 90
       }
     ],
@@ -273,7 +275,7 @@
         "description": "Increases healing amount by 75%. Allies near the target are healed for 75% of the amount of Health regained.",
         "icon": "storm_ui_icon_rehgar_ancestralhealing.png",
         "sort": 1,
-        "abilityId": "Rehgar|R2"
+        "abilityId": "Rehgar|R1"
       },
       {
         "tooltipId": "RehgarBloodlustGladiatorsWarShout",
@@ -282,7 +284,7 @@
         "description": "Increases Bloodlust's healing from 30% to 60% of Basic Attack damage done.",
         "icon": "storm_ui_icon_rehgar_bloodlust.png",
         "sort": 2,
-        "abilityId": "Rehgar|R1"
+        "abilityId": "Rehgar|R2"
       },
       {
         "tooltipId": "GenericRewindHotbar",

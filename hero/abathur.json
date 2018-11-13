@@ -31,7 +31,7 @@
         "name": "Evolve Monstrosity",
         "description": "Turn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it gains 5% Health and 5% Basic Attack damage, stacking up to 40 times.  The Monstrosity takes 50% less damage from non-Heroic enemies.  Using Symbiote on the Monstrosity allows Abathur to control it, in addition to Symbiote's normal benefits.  This Ability can be reactivated to automatically cast Symbiote on his Monstrosity.",
         "hotkey": "R",
-        "abilityId": "Abathur|R1",
+        "abilityId": "Abathur|R2",
         "cooldown": 90,
         "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
         "type": "heroic"
@@ -40,7 +40,7 @@
         "name": "Ultimate Evolution",
         "description": "Clone target allied Hero and control it for 20 seconds. Abathur has perfected the clone, granting it 20% Spell Power, 20% bonus Attack Damage, and 10% bonus Movement Speed. Cannot use their Heroic Ability.",
         "hotkey": "R",
-        "abilityId": "Abathur|R2",
+        "abilityId": "Abathur|R1",
         "cooldown": 70,
         "icon": "storm_ui_icon_abathur_ultimateevolution.png",
         "type": "heroic"
@@ -69,7 +69,7 @@
         "name": "Stab",
         "description": "Shoots a spike towards target area that deals 119 (+4% per level) damage to the first enemy it contacts.",
         "hotkey": "Q",
-        "abilityId": "Abathur|Q2",
+        "abilityId": "Abathur|Q4",
         "cooldown": 3,
         "icon": "storm_ui_icon_abathur_stab.png",
         "type": "subunit"
@@ -78,7 +78,7 @@
         "name": "Spike Burst",
         "description": "Deals 120 (+4% per level) damage to nearby enemies.",
         "hotkey": "W",
-        "abilityId": "Abathur|W2",
+        "abilityId": "Abathur|W4",
         "cooldown": 6,
         "icon": "storm_ui_icon_abathur_spikeburst.png",
         "type": "subunit"
@@ -87,7 +87,7 @@
         "name": "Carapace",
         "description": "Shields the assisted ally for 157 (+4% per level). Lasts for 8 seconds.",
         "hotkey": "E",
-        "abilityId": "Abathur|E1",
+        "abilityId": "Abathur|E3",
         "cooldown": 12,
         "icon": "storm_ui_icon_abathur_carapace.png",
         "type": "subunit"
@@ -103,7 +103,7 @@
         "description": "Increases the range of Symbiote's Spike Burst by 25% and decreases the cooldown by 1 second.",
         "icon": "storm_ui_icon_abathur_spikeburst.png",
         "sort": 1,
-        "abilityId": "Abathur|W2"
+        "abilityId": "Abathur|W4"
       },
       {
         "tooltipId": "AbathurLocustStrainSurvivalInstinctsTalent",
@@ -121,7 +121,7 @@
         "description": "Symbiote's Carapace heals the target for 68 (+4% per level) Health per second over 4 seconds.",
         "icon": "storm_ui_icon_abathur_carapace.png",
         "sort": 3,
-        "abilityId": "Abathur|E1"
+        "abilityId": "Abathur|E3"
       },
       {
         "tooltipId": "AbathurToxicNestEnvenomedNestTalent",
@@ -159,7 +159,7 @@
         "description": "Increases the Shield amount of Symbiote's Carapace by 40% and allows it to persist after Symbiote ends.",
         "icon": "storm_ui_icon_abathur_carapace.png",
         "sort": 3,
-        "abilityId": "Abathur|E1"
+        "abilityId": "Abathur|E3"
       },
       {
         "tooltipId": "AbathurSymbioteAdrenalOverloadTalent",
@@ -179,7 +179,7 @@
         "description": "Increases the damage and range of Symbiote's Stab by 20%.",
         "icon": "storm_ui_icon_abathur_stab.png",
         "sort": 1,
-        "abilityId": "Abathur|Q2"
+        "abilityId": "Abathur|Q4"
       },
       {
         "tooltipId": "AbathurToxicNestVileNestTalent",
@@ -197,7 +197,7 @@
         "description": "Using Symbiote's Carapace also applies an untalented Carapace Shield to all nearby allied Heroes, Minions, and Mercenaries.",
         "icon": "storm_ui_icon_abathur_carapace.png",
         "sort": 3,
-        "abilityId": "Abathur|E1"
+        "abilityId": "Abathur|E3"
       },
       {
         "tooltipId": "GenericCalldownMule",
@@ -218,7 +218,7 @@
         "description": "Clone target allied Hero and control it for 20 seconds. Abathur has perfected the clone, granting it 20% Spell Power, 20% bonus Attack Damage, and 10% bonus Movement Speed. Cannot use their Heroic Ability.",
         "icon": "storm_ui_icon_abathur_ultimateevolution.png",
         "sort": 1,
-        "abilityId": "Abathur|R2",
+        "abilityId": "Abathur|R1",
         "cooldown": 70
       },
       {
@@ -228,7 +228,7 @@
         "description": "Turn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it gains 5% Health and 5% Basic Attack damage, stacking up to 40 times.  The Monstrosity takes 50% less damage from non-Heroic enemies.  Using Symbiote on the Monstrosity allows Abathur to control it, in addition to Symbiote's normal benefits.  This Ability can be reactivated to automatically cast Symbiote on his Monstrosity.",
         "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
         "sort": 2,
-        "abilityId": "Abathur|R1",
+        "abilityId": "Abathur|R2",
         "cooldown": 90
       }
     ],
@@ -258,7 +258,7 @@
         "description": "Symbiote's Stab gains 1 additional charge and its Cooldown is reduced by .5 seconds.",
         "icon": "storm_ui_icon_abathur_stab.png",
         "sort": 3,
-        "abilityId": "Abathur|Q2"
+        "abilityId": "Abathur|Q4"
       },
       {
         "tooltipId": "AbathurSymbioteSpikeBurstSomaTransferenceTalent",
@@ -267,7 +267,7 @@
         "description": "Symbiote's Spike Burst heals the host for 64 (+4% per level) Health per enemy Hero hit.",
         "icon": "storm_ui_icon_abathur_spikeburst.png",
         "sort": 4,
-        "abilityId": "Abathur|W2"
+        "abilityId": "Abathur|W4"
       }
     ],
     "16": [
@@ -278,7 +278,7 @@
         "description": "Abathur's Symbiote's Spike Burst also slows enemy Movement Speed by 40% for 2 seconds.",
         "icon": "storm_ui_icon_abathur_spikeburst.png",
         "sort": 1,
-        "abilityId": "Abathur|W2"
+        "abilityId": "Abathur|W4"
       },
       {
         "tooltipId": "AbathurSymbioteAdrenalineBoostTalent",
@@ -287,7 +287,7 @@
         "description": "Symbiote's Carapace increases the Movement Speed of the target by 40% for 3.5 seconds.",
         "icon": "storm_ui_icon_abathur_carapace.png",
         "sort": 2,
-        "abilityId": "Abathur|E1"
+        "abilityId": "Abathur|E3"
       },
       {
         "tooltipId": "AbathurLocustSwarm",
@@ -306,7 +306,7 @@
         "description": "Ultimate Evolution clones and Monstrosities deal 137 (+4% per level) damage to nearby enemies every 3 seconds and when they die.",
         "icon": "storm_ui_icon_abathur_volatilemutation.png",
         "sort": 4,
-        "abilityId": "Abathur|R2"
+        "abilityId": "Abathur|R1"
       }
     ],
     "20": [
@@ -317,7 +317,7 @@
         "description": "As long as the Ultimate Evolution is alive, the original target of the clone gains a Shield equal to 25% of their maximum Health.  Refreshes every 5 seconds.",
         "icon": "storm_ui_icon_abathur_ultimateevolution.png",
         "sort": 1,
-        "abilityId": "Abathur|R2"
+        "abilityId": "Abathur|R1"
       },
       {
         "tooltipId": "AbathurMonstrosityEvolutionCompleteTalent",
@@ -326,7 +326,7 @@
         "description": "Monstrosity gains the ability to Deep Tunnel to any visible location once every 25 seconds.",
         "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
         "sort": 2,
-        "abilityId": "Abathur|R1"
+        "abilityId": "Abathur|R2"
       },
       {
         "tooltipId": "AbathurSymbioteHivemindTalent",

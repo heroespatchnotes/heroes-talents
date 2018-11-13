@@ -43,7 +43,7 @@
         "name": "Purifier Beam",
         "description": "Target an enemy Hero with an orbital beam from the Spear of Adun, dealing 184 (+4% per level) damage per second for 8 seconds. The beam will chase the target as they move.  Unlimited range.",
         "hotkey": "R",
-        "abilityId": "Artanis|R1",
+        "abilityId": "Artanis|R2",
         "cooldown": 80,
         "manaCost": 80,
         "icon": "storm_ui_icon_artanis_purifierbeam.png",
@@ -53,7 +53,7 @@
         "name": "Suppression Pulse",
         "description": "Fire a large area pulse from the Spear of Adun, dealing 114 (+4% per level) damage and Blinding enemies for 4 seconds. Unlimited range.",
         "hotkey": "R",
-        "abilityId": "Artanis|R2",
+        "abilityId": "Artanis|R1",
         "cooldown": 50,
         "manaCost": 40,
         "icon": "storm_ui_icon_artanis_disruptionweb.png",
@@ -175,7 +175,7 @@
         "description": "Fire a large area pulse from the Spear of Adun, dealing 114 (+4% per level) damage and Blinding enemies for 4 seconds. Unlimited range.",
         "icon": "storm_ui_icon_artanis_disruptionweb.png",
         "sort": 1,
-        "abilityId": "Artanis|R2",
+        "abilityId": "Artanis|R1",
         "cooldown": 50
       },
       {
@@ -185,7 +185,7 @@
         "description": "Target an enemy Hero with an orbital beam from the Spear of Adun, dealing 184 (+4% per level) damage per second for 8 seconds. The beam will chase the target as they move.  Unlimited range.",
         "icon": "storm_ui_icon_artanis_purifierbeam.png",
         "sort": 2,
-        "abilityId": "Artanis|R1",
+        "abilityId": "Artanis|R2",
         "cooldown": 80
       }
     ],
@@ -264,7 +264,7 @@
         "description": "Suppression Pulse gains an additional charge.  There is a 10 second cooldown between uses.",
         "icon": "storm_ui_icon_artanis_disruptionweb.png",
         "sort": 1,
-        "abilityId": "Artanis|R2"
+        "abilityId": "Artanis|R1"
       },
       {
         "tooltipId": "ArtanisSpearofAdunPurifierBeamTargetPurifiedTalent",
@@ -273,7 +273,7 @@
         "description": "Increase the speed of Purifier Beam by 15%. If the target of Purifier Beam dies, it automatically recasts on the nearest visible enemy Hero.",
         "icon": "storm_ui_icon_artanis_purifierbeam.png",
         "sort": 2,
-        "abilityId": "Artanis|R1"
+        "abilityId": "Artanis|R2"
       },
       {
         "tooltipId": "ArtanisTwinBladesZealotChargeTalent",
