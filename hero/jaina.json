@@ -43,7 +43,7 @@
         "name": "Summon Water Elemental",
         "description": "Summon a Water Elemental at target location. The Water Elemental's Basic Attacks deal 62 (+4% per level) damage, splash for 25% damage and Chill. The Ability can be reactivated to retarget the Water Elemental.  Lasts 20 seconds.",
         "hotkey": "R",
-        "abilityId": "Jaina|R1",
+        "abilityId": "Jaina|R2",
         "cooldown": 60,
         "manaCost": 60,
         "icon": "storm_ui_icon_jaina_summonwaterelemental.png",
@@ -53,7 +53,7 @@
         "name": "Ring of Frost",
         "description": "After a 1.5 second delay, create a Ring of Frost in an area that deals 310 (+4% per level) damage and Roots enemies for 3 seconds. The ring persists for 3 seconds afterward, Chilling any enemies who touch it.",
         "hotkey": "R",
-        "abilityId": "Jaina|R2",
+        "abilityId": "Jaina|R1",
         "cooldown": 80,
         "manaCost": 70,
         "icon": "storm_ui_icon_jaina_ringoffrost.png",
@@ -165,7 +165,7 @@
         "description": "After a 1.5 second delay, create a Ring of Frost in an area that deals 310 (+4% per level) damage and Roots enemies for 3 seconds. The ring persists for 3 seconds afterward, Chilling any enemies who touch it.",
         "icon": "storm_ui_icon_jaina_ringoffrost.png",
         "sort": 1,
-        "abilityId": "Jaina|R2",
+        "abilityId": "Jaina|R1",
         "cooldown": 80
       },
       {
@@ -175,7 +175,7 @@
         "description": "Summon a Water Elemental at target location. The Water Elemental's Basic Attacks deal 62 (+4% per level) damage, splash for 25% damage and Chill. The Ability can be reactivated to retarget the Water Elemental.  Lasts 20 seconds.",
         "icon": "storm_ui_icon_jaina_summonwaterelemental.png",
         "sort": 2,
-        "abilityId": "Jaina|R1",
+        "abilityId": "Jaina|R2",
         "cooldown": 60
       }
     ],
@@ -246,7 +246,7 @@
         "description": "The center area of Ring of Frost deals 310 (+4% per level) damage and Roots enemies after the outer ring expires. Each enemy Hero hit reduces its cooldown by 10 seconds.",
         "icon": "storm_ui_icon_jaina_ringoffrost.png",
         "sort": 1,
-        "abilityId": "Jaina|R2"
+        "abilityId": "Jaina|R1"
       },
       {
         "tooltipId": "JainaSummonWaterElementalWintermuteTalent",
@@ -255,7 +255,7 @@
         "description": "Increases the cast range of Water Elemental by 50%, and the Water Elemental will now mimic Jaina's Basic Abilities for 50% damage.",
         "icon": "storm_ui_icon_jaina_summonwaterelemental.png",
         "sort": 2,
-        "abilityId": "Jaina|R1"
+        "abilityId": "Jaina|R2"
       },
       {
         "tooltipId": "JainaFrigidTransmission",

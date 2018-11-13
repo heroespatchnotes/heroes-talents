@@ -43,7 +43,7 @@
         "name": "Rain of Vengeance",
         "description": "Launch a wave of Shadow Beasts that deals 250 (+4% per level) damage and stuns enemies in the target area for 0.5 seconds.  Stores up to 2 charges.",
         "hotkey": "R",
-        "abilityId": "Valla|R1",
+        "abilityId": "Valla|R2",
         "cooldown": 50,
         "manaCost": 50,
         "icon": "storm_ui_icon_valla_rainofvengeance.png",
@@ -53,7 +53,7 @@
         "name": "Strafe",
         "description": "Rapidly attack enemies within 10 range for 60 (+4% per level) damage per hit, prioritizing Heroes over Minions. Valla is able to move and use Vault while strafing. Lasts for 4 seconds.",
         "hotkey": "R",
-        "abilityId": "Valla|R2",
+        "abilityId": "Valla|R1",
         "cooldown": 60,
         "manaCost": 80,
         "icon": "storm_ui_icon_valla_strafe.png",
@@ -165,7 +165,7 @@
         "description": "Rapidly attack enemies within 10 range for 60 (+4% per level) damage per hit, prioritizing Heroes over Minions. Valla is able to move and use Vault while strafing. Lasts for 4 seconds.",
         "icon": "storm_ui_icon_valla_strafe.png",
         "sort": 1,
-        "abilityId": "Valla|R2",
+        "abilityId": "Valla|R1",
         "cooldown": 60
       },
       {
@@ -175,7 +175,7 @@
         "description": "Launch a wave of Shadow Beasts that deals 250 (+4% per level) damage and stuns enemies in the target area for 0.5 seconds.  Stores up to 2 charges.",
         "icon": "storm_ui_icon_valla_rainofvengeance.png",
         "sort": 2,
-        "abilityId": "Valla|R1",
+        "abilityId": "Valla|R2",
         "cooldown": 50
       }
     ],
@@ -246,7 +246,7 @@
         "description": "Strafe also fires penetrating bolts in a line for 34 (+4% per level) damage every 0.25 seconds. 25% of the damage dealt with Strafe is returned as Health.",
         "icon": "storm_ui_icon_valla_strafe.png",
         "sort": 1,
-        "abilityId": "Valla|R2"
+        "abilityId": "Valla|R1"
       },
       {
         "tooltipId": "DemonHunterRainOfVengeanceStormOfVengeanceTalent",
@@ -255,7 +255,7 @@
         "description": "Basic Attacks reduce the charge cooldown of Rain of Vengeance by 5 seconds.",
         "icon": "storm_ui_icon_valla_rainofvengeance.png",
         "sort": 2,
-        "abilityId": "Valla|R1"
+        "abilityId": "Valla|R2"
       },
       {
         "tooltipId": "DemonHunterHatredRancorTalent",
