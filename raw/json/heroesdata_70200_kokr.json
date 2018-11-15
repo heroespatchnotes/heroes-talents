@@ -8884,14 +8884,14 @@
         },
         {
           "nameId": "FenixPhaseBomb",
-          "name": "무기 모드",
-          "shortTooltipId": "FenixWeaponModes",
-          "fullTooltipId": "FenixWeaponModes",
+          "name": "무기 모드: 연발포",
+          "shortTooltipId": "FenixPhaseBomb",
+          "fullTooltipId": "FenixPhaseBomb",
           "icon": "storm_ui_icon_fenix_w_2.png",
           "toggleCooldown": 0.5,
-          "shortTooltip": "두 가지 무기 모드 전환 가능",
-          "fullTooltip": "사용하면 일반 공격을 무기 모드: 연발포 또는 무기 모드: 위상 폭탄으로 전환합니다.  무기 모드: 연발포: 공격 속도가 150% 증가합니다.  무기 모드: 위상 폭탄: 일반 공격 사거리가 1.25 증가하고 일반 공격이 25%의 추가 피해를 주며 주위에 방사 피해를 줍니다.",
-          "abilityType": "Active"
+          "shortTooltip": "공격 속도 증가",
+          "fullTooltip": "공격 속도가 150% 증가합니다.  사용하면 무기 모드: 위상 폭탄으로 전환하여 일반 공격의 공격력 및 사거리가 증가하고 방사 피해를 주도록 변경됩니다.",
+          "abilityType": "W"
         },
         {
           "nameId": "FenixWarp",
@@ -8942,6 +8942,25 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "FenixPhaseBomb": {
+          "basic": [
+            {
+              "nameId": "FenixRepeaterCannon",
+              "name": "무기 모드: 위상 폭탄",
+              "shortTooltipId": "FenixRepeaterCannon",
+              "fullTooltipId": "FenixRepeaterCannon",
+              "icon": "storm_ui_icon_fenix_w_1.png",
+              "toggleCooldown": 0.5,
+              "shortTooltip": "일반 공격력 및 일반 공격 사거리 증가, 일반 공격 시 방사 피해",
+              "fullTooltip": "일반 공격의 사거리가 1.25 증가하고 25%의 추가 피해를 주며 대상 주위에 방사 피해를 줍니다.  사용하면 무기 모드: 연발포로 전환하여 공격 속도가 증가합니다.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -8964,7 +8983,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "연발포가 위상 폭탄 강화",
           "fullTooltip": "연발포로 적 영웅에게 피해를 3회 주면 다음 위상 폭탄의 공격력이 150% 증가하고 방사 피해의 범위가 50% 증가합니다.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -8975,7 +8994,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "이동 시 일반 공격 강화",
           "fullTooltip": "이동하면 다음 일반 공격이 35%의 추가 피해를 줍니다.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3
         }
       ],
@@ -8988,7 +9007,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "연발포가 이동 속도를 증가시킴",
           "fullTooltip": "느려진 적 영웅을 연발포로 일반 공격하면 이동 속도가 4초 동안 10% 증가하여 최대 40% 증가합니다.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -8999,7 +9018,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "위상 폭탄이 적을 느려지게 함",
           "fullTooltip": "위상 폭탄이 활성화된 동안 플라스마 절단기로 느려진 적 영웅에게 일반 공격을 하면 주위 모든 적들을 4초 동안 35% 느려지게 합니다.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -9145,7 +9164,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "연발포 연속 공격 시 일반 공격 강화",
           "fullTooltip": "연발포가 적 영웅에게 3회 적중할 때마다 대상의 최대 생명력의 6%만큼 추가 피해를 줍니다.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -9191,7 +9210,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "무기 모드 강화",
           "fullTooltip": "연발포의 공격 속도가 100% 증가하고 위상 폭탄의 사거리가 1.25 증가합니다.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -17529,15 +17548,15 @@
           "abilityType": "Q"
         },
         {
-          "nameId": "LucioCrossfade",
+          "nameId": "LucioCrossfadeActivateHealingBoost",
           "name": "분위기 전환!",
-          "shortTooltipId": "LucioCrossfadeShop",
-          "fullTooltipId": "LucioCrossfadeShop",
-          "icon": "storm_ui_icon_lucio_crossfade_all.png",
+          "shortTooltipId": "LucioCrossfadeActivateHealingBoost",
+          "fullTooltipId": "LucioCrossfadeActivateHealingBoost",
+          "icon": "storm_ui_icon_Lucio_CrossfadeHealing.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "치유 증폭 또는 속도 증폭 음악을 틈",
-          "fullTooltip": "자신과 주위 아군에게 두 가지 곡 중 하나를 들려줍니다.  치유 증폭: 자신과 주위 아군 영웅들의 생명력을 초당 16 (+4% per level) 회복시킵니다.  속도 증폭: 자신과 주위 아군 영웅들의 이동 속도가 20% 증가합니다.",
-          "abilityType": "Active"
+          "fullTooltip": "현재 속도 증폭 음악을 틀고 있습니다. 자신과 주위 아군 영웅들의 이동 속도가 20% 증가합니다.  다시 사용하면 치유 증폭 음악을 틉니다.",
+          "abilityType": "W"
         },
         {
           "nameId": "LucioAmpItUp",
@@ -17604,6 +17623,25 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "LucioCrossfadeActivateHealingBoost": {
+          "basic": [
+            {
+              "nameId": "LucioCrossfade",
+              "name": "분위기 전환!",
+              "shortTooltipId": "LucioCrossfadeActivateSpeedBoost",
+              "fullTooltipId": "LucioCrossfadeActivateSpeedBoost",
+              "icon": "storm_ui_icon_Lucio_CrossfadeSpeed.png",
+              "toggleCooldown": 0.5,
+              "shortTooltip": "치유 증폭 또는 속도 증폭 음악을 틈",
+              "fullTooltip": "현재 치유 증폭 음악을 틀고 있습니다. 자신과 주위 아군 영웅들의 생명력을 초당 16 (+4% per level) 회복시킵니다.  다시 사용하면 속도 증폭 음악을 틉니다.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -17686,7 +17724,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "퀘스트: 아군 주위에서 분위기 전환! 사용 시 사거리 증가",
           "fullTooltip": "퀘스트: 분위기 전환! 음악을 주위 아군에게 총 8분 동안 들려줘야 합니다. 동시에 여러 아군에게 들려주면 퀘스트가 더 빨리 진행됩니다.  보상: 분위기 전환!의 사거리가 영구히 20% 증가합니다.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "isQuest": true,
           "sort": 1
         },
@@ -17755,7 +17793,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "분위기 전환! 사용 후 보호막 획득",
           "fullTooltip": "분위기 전환! 음악을 바꾼 후에 해당 곡을 1.5초 동안 유지하면 100 (+4% per level)의 피해를 흡수하는 보호막을 얻습니다. 이 보호막은 계속 유지됩니다.  음악을 다시 바꾸면 보호막을 잃습니다.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -28658,7 +28696,7 @@
           "cooldownTooltip": "충전 대기시간: 9초",
           "shortTooltip": "대상 지점을 향해 질주",
           "fullTooltip": "대상 지점을 향해 질주합니다. 최대 3회 충전됩니다.",
-          "abilityType": "Active"
+          "abilityType": "Q"
         },
         {
           "nameId": "TracerMelee",
@@ -28795,7 +28833,7 @@
           "icon": "storm_ui_icon_tracer_blink_b.png",
           "shortTooltip": "점멸 충전 횟수 증가",
           "fullTooltip": "점멸의 충전 횟수가 1회 증가하지만 재사용 대기시간이 2초 증가합니다.",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 1
         },
         {
@@ -28806,7 +28844,7 @@
           "icon": "storm_ui_icon_tracer_blink_c.png",
           "shortTooltip": "일반 공격 시 점멸 재사용 대기시간 감소",
           "fullTooltip": "일반 공격을 할 때마다 점멸의 재사용 대기시간이 0.15초 감소합니다.",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 2
         },
         {
@@ -28817,7 +28855,7 @@
           "icon": "storm_ui_icon_tracer_blink_d.png",
           "shortTooltip": "영웅 처치 시 점멸 충전",
           "fullTooltip": "영웅을 처치하면 점멸이 2회 충전됩니다.",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 3
         }
       ],

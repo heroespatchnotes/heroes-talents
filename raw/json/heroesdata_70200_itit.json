@@ -8884,14 +8884,14 @@
         },
         {
           "nameId": "FenixPhaseBomb",
-          "name": "Modalità Arma",
-          "shortTooltipId": "FenixWeaponModes",
-          "fullTooltipId": "FenixWeaponModes",
+          "name": "Arma: Cannone a Ripetizione",
+          "shortTooltipId": "FenixPhaseBomb",
+          "fullTooltipId": "FenixPhaseBomb",
           "icon": "storm_ui_icon_fenix_w_2.png",
           "toggleCooldown": 0.5,
-          "shortTooltip": "Equipaggia le armi possibili.",
-          "fullTooltip": "Attiva per passare da Arma: Cannone a Ripetizione ad Arma: Bomba Fasica.  Arma: Cannone a Ripetizione: Aumenta del 150% la velocità degli attacchi base.  Arma: Bomba Fasica: Estende di 1.25 la portata degli attacchi base e consente loro di infliggere il 25% di danni aggiuntivi e di infliggere danni radiali ai nemici vicini.",
-          "abilityType": "Active"
+          "shortTooltip": "Aumenta la velocità degli attacchi base.",
+          "fullTooltip": "Aumenta del 150% la velocità degli attacchi base.  Attiva per passare a Arma: Bomba Fasica, aumentando portata e danni degli attacchi e consentendo agli attacchi base di infliggere danni radiali.",
+          "abilityType": "W"
         },
         {
           "nameId": "FenixWarp",
@@ -8942,6 +8942,25 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "FenixPhaseBomb": {
+          "basic": [
+            {
+              "nameId": "FenixRepeaterCannon",
+              "name": "Arma: Bomba Fasica",
+              "shortTooltipId": "FenixRepeaterCannon",
+              "fullTooltipId": "FenixRepeaterCannon",
+              "icon": "storm_ui_icon_fenix_w_1.png",
+              "toggleCooldown": 0.5,
+              "shortTooltip": "Estende la portata degli attacchi base, che infliggono più danni e danni radiali.",
+              "fullTooltip": "Estende di 1.25 la portata degli attacchi base e consente loro di infliggere il 25% di danni aggiuntivi e di infliggere danni radiali ai nemici vicini.  Attiva per passare a Arma: Cannone a Ripetizione, aumentando la velocità degli attacchi base.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -8964,7 +8983,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "Cannone a Ripetizione potenzia Bomba Fasica.",
           "fullTooltip": "Il primo attacco base con Bomba Fasica dopo aver colpito eroi nemici con attacchi base per 3 volte durante Cannone a Ripetizione infligge il 150% di danni aggiuntivi e ha un'area estesa del 50%.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -8975,7 +8994,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Spostarsi potenzia gli attacchi base.",
           "fullTooltip": "Il primo attacco base successivo al movimento infligge il 35% di danni aggiuntivi agli eroi.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3
         }
       ],
@@ -8988,7 +9007,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Cannone a Ripetizione può aumentare la velocità di movimento.",
           "fullTooltip": "Gli attacchi base contro eroi rallentati durante Cannone a Ripetizione aumentano del 10% la velocità di movimento per 4 s, fino a un massimo del 40%.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -8999,7 +9018,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "Bomba Fasica può rallentare i nemici colpiti.",
           "fullTooltip": "Finché Bomba Fasica è attiva, gli attacchi base contro gli eroi rallentati da Lama al Plasma rallentano tutti i nemici nell'area del 35% per 4 s.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -9145,7 +9164,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Gli usi successivi di Cannone a Ripetizione infliggono danni aggiuntivi.",
           "fullTooltip": "Ogni 3° attacco base contro gli eroi durante Cannone a Ripetizione infligge danni aggiuntivi pari al 6% della Salute massima del bersaglio.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -9191,7 +9210,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Aumenta i bonus delle armi.",
           "fullTooltip": "Cannone a Ripetizione aumenta del 100% la velocità d'attacco. Bomba Fasica estende di 1.25 la portata.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -17529,15 +17548,15 @@
           "abilityType": "Q"
         },
         {
-          "nameId": "LucioCrossfade",
+          "nameId": "LucioCrossfadeActivateHealingBoost",
           "name": "Vibrazioni",
-          "shortTooltipId": "LucioCrossfadeShop",
-          "fullTooltipId": "LucioCrossfadeShop",
-          "icon": "storm_ui_icon_lucio_crossfade_all.png",
+          "shortTooltipId": "LucioCrossfadeActivateHealingBoost",
+          "fullTooltipId": "LucioCrossfadeActivateHealingBoost",
+          "icon": "storm_ui_icon_Lucio_CrossfadeHealing.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Riproduce Vibrazioni Curative o Vibrazioni Rapide.",
-          "fullTooltip": "Riproduce una traccia musicale per Lúcio e gli alleati.  Vibrazioni Curative: cura Lúcio e gli eroi alleati vicini di 16 (+4% per level) Salute al secondo.  Vibrazioni Rapide: aumenta del 20% la velocità di movimento di Lúcio e degli eroi alleati vicini.",
-          "abilityType": "Active"
+          "fullTooltip": "Riproduce Vibrazioni Rapide, aumentando del 20% la velocità di movimento di Lúcio e degli eroi alleati vicini.  Riattiva per riprodurre Vibrazioni Curative.",
+          "abilityType": "W"
         },
         {
           "nameId": "LucioAmpItUp",
@@ -17604,6 +17623,25 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "LucioCrossfadeActivateHealingBoost": {
+          "basic": [
+            {
+              "nameId": "LucioCrossfade",
+              "name": "Vibrazioni",
+              "shortTooltipId": "LucioCrossfadeActivateSpeedBoost",
+              "fullTooltipId": "LucioCrossfadeActivateSpeedBoost",
+              "icon": "storm_ui_icon_Lucio_CrossfadeSpeed.png",
+              "toggleCooldown": 0.5,
+              "shortTooltip": "Riproduce Vibrazioni Curative o Vibrazioni Rapide.",
+              "fullTooltip": "Riproduce Vibrazioni Curative, curando Lúcio e gli eroi alleati vicini di 16 (+4% per level) Salute al secondo.  Riattiva per riprodurre Vibrazioni Rapide.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -17686,7 +17724,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "Missione: Riprodurre Vibrazioni per gli alleati ne estende la portata.",
           "fullTooltip": "Missione: Riproduci le tracce di Vibrazioni per gli alleati vicini per un totale di 8 minuti. Più alleati forniscono più tempo.  Ricompensa: Estende permanentemente la portata di Vibrazioni del 20%.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "isQuest": true,
           "sort": 1
         },
@@ -17755,7 +17793,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "Fornisce uno scudo cambiando traccia di Vibrazioni.",
           "fullTooltip": "Se Lúcio cambia la traccia di Vibrazioni e la riproduce per almeno 1.5 s, ottiene 100 (+4% per level) scudo.  Cambiare di nuovo traccia rimuove lo scudo.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -28658,7 +28696,7 @@
           "cooldownTooltip": "Recupero carica: 9 s",
           "shortTooltip": "Scatta in una direzione.",
           "fullTooltip": "Scatta in una direzione. Accumula fino a 3 cariche.",
-          "abilityType": "Active"
+          "abilityType": "Q"
         },
         {
           "nameId": "TracerMelee",
@@ -28795,7 +28833,7 @@
           "icon": "storm_ui_icon_tracer_blink_b.png",
           "shortTooltip": "Aumenta le cariche di Traslazione.",
           "fullTooltip": "Aumenta di 1 le cariche di Traslazione, ma aumenta anche il tempo di recupero di 2 s.",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 1
         },
         {
@@ -28806,7 +28844,7 @@
           "icon": "storm_ui_icon_tracer_blink_c.png",
           "shortTooltip": "Gli attacchi base riducono il tempo di recupero di Traslazione.",
           "fullTooltip": "Gli attacchi base riducono di 0.15 s il tempo di recupero di Traslazione.",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 2
         },
         {
@@ -28817,7 +28855,7 @@
           "icon": "storm_ui_icon_tracer_blink_d.png",
           "shortTooltip": "Le uccisioni forniscono cariche di Traslazione.",
           "fullTooltip": "Uccidere eroi fornisce 2 cariche di Traslazione.",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 3
         }
       ],
