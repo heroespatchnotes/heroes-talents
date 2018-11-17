@@ -8884,14 +8884,14 @@
         },
         {
           "nameId": "FenixPhaseBomb",
-          "name": "Tryby Broni",
-          "shortTooltipId": "FenixWeaponModes",
-          "fullTooltipId": "FenixWeaponModes",
+          "name": "Tryb Broni: Działko Szybkostrzelne",
+          "shortTooltipId": "FenixPhaseBomb",
+          "fullTooltipId": "FenixPhaseBomb",
           "icon": "storm_ui_icon_fenix_w_2.png",
           "toggleCooldown": 0.5,
-          "shortTooltip": "Fenix przełącza się między Trybami Broni",
-          "fullTooltip": "Aktywuj, aby Fenix przełączył się między Trybem Broni: Działkiem Szybkostrzelnym oraz Trybem Broni: Bombą Fazową.  Tryb Broni: Działko Szybkostrzelne: Szybkość ataków podstawowych wzrasta o 150%.  Tryb Broni: Bomba Fazowa: Zasięg ataków podstawowych wzrasta o 1.25, a zadawane przez nie obrażenia o 25%. Ataki podstawowe zadają pobliskim wrogom obrażenia rozpryskowe.",
-          "abilityType": "Active"
+          "shortTooltip": "Zwiększona szybkość ataków podstawowych",
+          "fullTooltip": "Szybkość ataków podstawowych wzrasta o 150%.  Aktywuj, aby Fenix zmienił tryb broni na Bombę Fazową, która zwiększa zasięg i obrażenia ataków podstawowych i sprawia, że zadają one obrażenia rozpryskowe.",
+          "abilityType": "W"
         },
         {
           "nameId": "FenixWarp",
@@ -8942,6 +8942,25 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "FenixPhaseBomb": {
+          "basic": [
+            {
+              "nameId": "FenixRepeaterCannon",
+              "name": "Tryb Broni: Bomba Fazowa",
+              "shortTooltipId": "FenixRepeaterCannon",
+              "fullTooltipId": "FenixRepeaterCannon",
+              "icon": "storm_ui_icon_fenix_w_1.png",
+              "toggleCooldown": 0.5,
+              "shortTooltip": "Ataki podstawowe zadają zwiększone obrażenia oraz obrażenia rozpryskowe i mają zwiększony zasięg",
+              "fullTooltip": "Zasięg ataków podstawowych wzrasta o 1.25, a zadawane przez nie obrażenia o 25%. Ataki podstawowe zadają pobliskim wrogom obrażenia rozpryskowe.  Aktywuj, aby Fenix zmienił tryb broni na Działko Szybkostrzelne, które zwiększa szybkość ataków podstawowych.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -8964,7 +8983,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "Działko Szybkostrzelne wzmacnia Bombę Fazową",
           "fullTooltip": "Po trafieniu wrogich bohaterów atakami podstawowymi 3 razy, kiedy Działko Szybkostrzelne jest aktywne, kolejny atak podstawowy wykonany w czasie działania Bomby Fazowej zada obrażenia zwiększone o 150%, a rozprysk nastąpi na powierzchni zwiększonej o 50%.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -8975,7 +8994,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Poruszanie się wzmacnia ataki podstawowe",
           "fullTooltip": "Kolejny atak podstawowy Feniksa wykonany po przemieszczeniu się zadaje bohaterom obrażenia zwiększone o 35%.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3
         }
       ],
@@ -8988,7 +9007,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Działko Szybkostrzelne może zwiększać szybkość ruchu",
           "fullTooltip": "Kiedy aktywne jest Działko Szybkostrzelne, ataki podstawowe wymierzone w spowolnionych bohaterów zapewniają Feniksowi premię 10% do szybkości ruchu na 4 sek., maksymalnie do 40%.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -8999,7 +9018,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "Bomba Fazowa może spowalniać trafionych przeciwników",
           "fullTooltip": "Trafienie atakiem podstawowym bohatera spowolnionego Przecinakiem Plazmowym w czasie działania Bomby Fazowej obejmuje wszystkich przeciwników na danym obszarze efektem spowolnienia o 35% na 4 sek.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -9145,7 +9164,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Wzmacnia kolejne ataki Działkiem Szybkostrzelnym",
           "fullTooltip": "Każdy co 3 atak podstawowy wymierzony w bohaterów w czasie, gdy Działko Szybkostrzelne jest aktywne, zadaje dodatkowo obrażenia równe 6% wartości ich maksymalnego zdrowia.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -9191,7 +9210,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Zwiększa premie za Tryb Broni",
           "fullTooltip": "Dodatkowo zwiększa premię do szybkości ataku zapewnianą przez Działko Szybkostrzelne o 100% oraz premię do zasięgu zapewnianą przez Bombę Fazową o 1.25.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -17529,15 +17548,15 @@
           "abilityType": "Q"
         },
         {
-          "nameId": "LucioCrossfade",
+          "nameId": "LucioCrossfadeActivateHealingBoost",
           "name": "Przejście",
-          "shortTooltipId": "LucioCrossfadeShop",
-          "fullTooltipId": "LucioCrossfadeShop",
-          "icon": "storm_ui_icon_lucio_crossfade_all.png",
+          "shortTooltipId": "LucioCrossfadeActivateHealingBoost",
+          "fullTooltipId": "LucioCrossfadeActivateHealingBoost",
+          "icon": "storm_ui_icon_Lucio_CrossfadeHealing.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Gra kawałek zapewniający Podleczenie lub Przyśpieszenie",
-          "fullTooltip": "Lúcio odtwarza sobie i swoim sojusznikom jeden z dwóch utworów muzycznych.  Podleczenie: Pasywnie przywraca Lúcio i pobliskim sojuszniczym bohaterom 16 (+4% per level) pkt. zdrowia na sekundę.  Przyśpieszenie: Zwiększa szybkość ruchu Lúcio i pobliskich bohaterów sojuszniczych o 20%.",
-          "abilityType": "Active"
+          "fullTooltip": "Dzięki obecnie odtwarzanemu Przyśpieszeniu zwiększasz szybkość ruchu twoją i pobliskich bohaterów sojuszniczych o 20%.  Aktywuj, aby zamiast tego odtworzyć Podleczenie.",
+          "abilityType": "W"
         },
         {
           "nameId": "LucioAmpItUp",
@@ -17604,6 +17623,25 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "LucioCrossfadeActivateHealingBoost": {
+          "basic": [
+            {
+              "nameId": "LucioCrossfade",
+              "name": "Przejście",
+              "shortTooltipId": "LucioCrossfadeActivateSpeedBoost",
+              "fullTooltipId": "LucioCrossfadeActivateSpeedBoost",
+              "icon": "storm_ui_icon_Lucio_CrossfadeSpeed.png",
+              "toggleCooldown": 0.5,
+              "shortTooltip": "Gra kawałek zapewniający Podleczenie lub Przyśpieszenie",
+              "fullTooltip": "Dzięki obecnie odtwarzanemu Podleczeniu przywracasz sobie i pobliskim bohaterom sojuszniczym 16 (+4% per level) pkt. zdrowia na sekundę.  Aktywuj, aby zamiast tego odtworzyć Przyśpieszenie.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -17686,7 +17724,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "Zadanie: Używaj Przejścia w pobliżu sojuszników, aby zwiększyć jego zasięg",
           "fullTooltip": "Zadanie: Odtwarzaj Przejście dla pobliskich sojuszników łącznie przez 8 min. Odtwarzanie Przejścia dla wielu sojuszników jednocześnie zapewnia dodatkowy czas.  Nagroda: Zasięg Przejścia na stałe wzrasta o 20%.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "isQuest": true,
           "sort": 1
         },
@@ -17755,7 +17793,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "Zyskujesz osłonę po zmianie utworów za pomocą Przejścia",
           "fullTooltip": "Jeśli utwór zmieniony Przejściem będzie odtwarzany przez przynajmniej 1.5 sek., Lúcio zyska na stałe osłonę o wartości 100 (+4% per level) pkt.  Ponowna zmiana utworów usuwa osłonę.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -28658,7 +28696,7 @@
           "cooldownTooltip": "Czas odnowienia ładunku: 9 sek.",
           "shortTooltip": "Dokonuje przeskoku w kierunku obszaru",
           "fullTooltip": "Dokonuje przeskoku w wybranym kierunku. Maksymalna liczba ładunków: 3.",
-          "abilityType": "Active"
+          "abilityType": "Q"
         },
         {
           "nameId": "TracerMelee",
@@ -28795,7 +28833,7 @@
           "icon": "storm_ui_icon_tracer_blink_b.png",
           "shortTooltip": "Zwiększa liczbę ładunków Mignięcia",
           "fullTooltip": "Zwiększa liczbę ładunków Mignięcia o 1, ale wydłuża również jego czas odnowienia o 2 sek.",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 1
         },
         {
@@ -28806,7 +28844,7 @@
           "icon": "storm_ui_icon_tracer_blink_c.png",
           "shortTooltip": "Ataki podstawowe skracają czas odnowienia Mignięcia",
           "fullTooltip": "Ataki podstawowe skracają czas odnowienia Mignięcia o 0.15 sek.",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 2
         },
         {
@@ -28817,7 +28855,7 @@
           "icon": "storm_ui_icon_tracer_blink_d.png",
           "shortTooltip": "Udział w zabiciu bohatera zapewnia ładunki Mignięcia",
           "fullTooltip": "Udział w zabiciu wrogiego bohatera zapewnia ładunki Mignięcia (2).",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 3
         }
       ],

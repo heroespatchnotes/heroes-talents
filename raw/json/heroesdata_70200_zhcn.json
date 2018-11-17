@@ -8884,14 +8884,14 @@
         },
         {
           "nameId": "FenixPhaseBomb",
-          "name": "武器模式",
-          "shortTooltipId": "FenixWeaponModes",
-          "fullTooltipId": "FenixWeaponModes",
+          "name": "武器模式：光继炮",
+          "shortTooltipId": "FenixPhaseBomb",
+          "fullTooltipId": "FenixPhaseBomb",
           "icon": "storm_ui_icon_fenix_w_2.png",
           "toggleCooldown": 0.5,
-          "shortTooltip": "切换不同的武器模式",
-          "fullTooltip": "激活后在武器模式：光继炮与武器模式：相位炸弹之间切换。  武器模式：光继炮： 普通攻击速度提高150%。  武器模式：相位炸弹：普通攻击的射程增加1.25码，造成25%额外伤害，并对附近的敌人造成溅射伤害。",
-          "abilityType": "Active"
+          "shortTooltip": "提高普通攻击速度",
+          "fullTooltip": "普通攻击速度提高150%。  激活后切换成武器模式：相位炸弹，提高普通攻击射程和伤害，使普通攻击可以溅射。",
+          "abilityType": "W"
         },
         {
           "nameId": "FenixWarp",
@@ -8942,6 +8942,25 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "FenixPhaseBomb": {
+          "basic": [
+            {
+              "nameId": "FenixRepeaterCannon",
+              "name": "武器模式：相位炸弹",
+              "shortTooltipId": "FenixRepeaterCannon",
+              "fullTooltipId": "FenixRepeaterCannon",
+              "icon": "storm_ui_icon_fenix_w_1.png",
+              "toggleCooldown": 0.5,
+              "shortTooltip": "普通攻击溅射，造成的伤害提高，拥有更远射程",
+              "fullTooltip": "普通攻击的射程增加1.25码，造成的伤害提高25%，并且对附近的敌人造成溅射伤害。  激活后切换成武器模式：光继炮，提高普通攻击速度。",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -8964,7 +8983,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "光继炮可强化相位炸弹",
           "fullTooltip": "在光继炮激活状态下使用普通攻击命中敌方英雄3次后，你的下一次相位炸弹普通攻击造成的伤害提高150%，溅射范围扩大50%。",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -8975,7 +8994,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "移动强化普通攻击",
           "fullTooltip": "移动后，菲尼克斯的下一次普通攻击对英雄造成35%额外伤害。",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3
         }
       ],
@@ -8988,7 +9007,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "光继炮可给予移动速度",
           "fullTooltip": "使用光继炮对被减速的英雄进行普通攻击可给予10%移动速度，持续4秒，最高可叠加至40%。",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -8999,7 +9018,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "相位炸弹可以减速被命中的敌人",
           "fullTooltip": "相位炸弹激活时，对被等离子光线刀减速的英雄进行普通攻击，会使范围内的所有敌人减速35%，持续4秒。",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -9145,7 +9164,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "光继炮模式下的每第三次普通攻击可被强化",
           "fullTooltip": "在光继炮激活状态下，对英雄的每第3次普通攻击造成相当于目标最大生命值6%的额外伤害。",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -9191,7 +9210,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "提高武器模式的各项加成",
           "fullTooltip": "光继炮给予100%额外攻击速度，相位炸弹给予1.25码额外射程。",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -17529,15 +17548,15 @@
           "abilityType": "Q"
         },
         {
-          "nameId": "LucioCrossfade",
+          "nameId": "LucioCrossfadeActivateHealingBoost",
           "name": "切歌",
-          "shortTooltipId": "LucioCrossfadeShop",
-          "fullTooltipId": "LucioCrossfadeShop",
-          "icon": "storm_ui_icon_lucio_crossfade_all.png",
+          "shortTooltipId": "LucioCrossfadeActivateHealingBoost",
+          "fullTooltipId": "LucioCrossfadeActivateHealingBoost",
+          "icon": "storm_ui_icon_Lucio_CrossfadeHealing.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "播放治愈音效或加速音效",
-          "fullTooltip": "为卢西奥和他的盟友播放两首歌曲中的一首。  治愈音效：每秒为卢西奥和附近盟友被动恢复16 (+4% per level)点生命值。  加速音效：使卢西奥和附近盟友的移动速度提高20%。",
-          "abilityType": "Active"
+          "fullTooltip": "目前正在播放加速音效，使卢西奥和附近友方英雄的移动速度提高20%。  切换后播放治愈音效。",
+          "abilityType": "W"
         },
         {
           "nameId": "LucioAmpItUp",
@@ -17604,6 +17623,25 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "LucioCrossfadeActivateHealingBoost": {
+          "basic": [
+            {
+              "nameId": "LucioCrossfade",
+              "name": "切歌",
+              "shortTooltipId": "LucioCrossfadeActivateSpeedBoost",
+              "fullTooltipId": "LucioCrossfadeActivateSpeedBoost",
+              "icon": "storm_ui_icon_Lucio_CrossfadeSpeed.png",
+              "toggleCooldown": 0.5,
+              "shortTooltip": "播放治愈音效或加速音效",
+              "fullTooltip": "目前正在播放治愈音效，使卢西奥和附近友方英雄每秒被动恢复16 (+4% per level)点生命值。  切换后播放加速音效。",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -17686,7 +17724,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "任务：为盟友播放切歌扩大范围",
           "fullTooltip": "任务：为附近盟友播放总共8分钟的卢西奥切歌。多个盟友提供额外的时间。  奖励：切歌的范围永久扩大20%。",
-          "abilityType": "Active",
+          "abilityType": "W",
           "isQuest": true,
           "sort": 1
         },
@@ -17755,7 +17793,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "切换切歌后获得护盾",
           "fullTooltip": "切换切歌后，如果下一首歌播放了至少1.5秒，那么卢西奥获得100 (+4% per level)点的永久护盾。  再次切歌移除护盾。",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -28658,7 +28696,7 @@
           "cooldownTooltip": "充能时间：9秒",
           "shortTooltip": "冲向目标位置",
           "fullTooltip": "冲向目标位置。最多储存3次使用次数。",
-          "abilityType": "Active"
+          "abilityType": "Q"
         },
         {
           "nameId": "TracerMelee",
@@ -28795,7 +28833,7 @@
           "icon": "storm_ui_icon_tracer_blink_b.png",
           "shortTooltip": "闪现获得额外一层使用次数",
           "fullTooltip": "闪现获得额外1次使用次数，但是其冷却时间也会提高2秒。",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 1
         },
         {
@@ -28806,7 +28844,7 @@
           "icon": "storm_ui_icon_tracer_blink_c.png",
           "shortTooltip": "普通攻击缩短闪现冷却时间",
           "fullTooltip": "普通攻击可以使闪现的冷却时间缩短0.15秒。",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 2
         },
         {
@@ -28817,7 +28855,7 @@
           "icon": "storm_ui_icon_tracer_blink_d.png",
           "shortTooltip": "击杀英雄提供闪现次数",
           "fullTooltip": "击杀英雄提供2次闪现使用次数。",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 3
         }
       ],

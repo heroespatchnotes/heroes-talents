@@ -8884,14 +8884,14 @@
         },
         {
           "nameId": "FenixPhaseBomb",
-          "name": "Waffenmodi",
-          "shortTooltipId": "FenixWeaponModes",
-          "fullTooltipId": "FenixWeaponModes",
+          "name": "Waffenmodus: Repetierkanone",
+          "shortTooltipId": "FenixPhaseBomb",
+          "fullTooltipId": "FenixPhaseBomb",
           "icon": "storm_ui_icon_fenix_w_2.png",
           "toggleCooldown": 0.5,
-          "shortTooltip": "Wechselt zwischen Waffenmodi.",
-          "fullTooltip": "Aktivieren, um zwischen Waffenmodus: Repetierkanone und Waffenmodus: Phasenbombe zu wechseln.  Waffenmodus: Repetierkanone: Erhöht die Angriffsgeschwindigkeit um 150%.  Waffenmodus: Phasenbombe: Automatische Angriffe haben eine um 1.25 erhöhte Reichweite, verursachen 25% mehr Schaden und fügen Gegnern in der Nähe Flächenschaden zu.",
-          "abilityType": "Active"
+          "shortTooltip": "Erhöht die Angriffsgeschwindigkeit.",
+          "fullTooltip": "Erhöht die Angriffsgeschwindigkeit um 150%.  Aktivieren, um in den Waffenmodus: Phasenbombe zu wechseln. Dieser Modus erhöht die Reichweite und den Schaden automatischer Angriffe und lässt sie Flächenschaden verursachen.",
+          "abilityType": "W"
         },
         {
           "nameId": "FenixWarp",
@@ -8942,6 +8942,25 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "FenixPhaseBomb": {
+          "basic": [
+            {
+              "nameId": "FenixRepeaterCannon",
+              "name": "Waffenmodus: Phasenbombe",
+              "shortTooltipId": "FenixRepeaterCannon",
+              "fullTooltipId": "FenixRepeaterCannon",
+              "icon": "storm_ui_icon_fenix_w_1.png",
+              "toggleCooldown": 0.5,
+              "shortTooltip": "Erhöht Schaden und Reichweite automatischer Angriffe. Dazu verursachen sie Flächenschaden.",
+              "fullTooltip": "Automatische Angriffe haben eine um 1.25 erhöhte Reichweite, verursachen 25% mehr Schaden und fügen Gegnern in der Nähe Flächenschaden zu.  Aktivieren, um in den Waffenmodus: Repetierkanone zu wechseln. Dieser Modus erhöht die Angriffsgeschwindigkeit.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -8964,7 +8983,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "Die Repetierkanone verstärkt die Phasenbombe.",
           "fullTooltip": "Wenn die Repetierkanone gegnerische Helden 3-mal getroffen hat, wird der Schaden des nächsten Angriffs mit der Phasenbombe um 150% erhöht und der Bereich des Flächenschadens dabei um 50% vergrößert.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -8975,7 +8994,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Bewegungen verstärken automatische Angriffe gegen Helden.",
           "fullTooltip": "Wenn sich Fenix bewegt, fügt sein nächster automatischer Angriff Helden 35% mehr Schaden zu.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3
         }
       ],
@@ -8988,7 +9007,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Die Repetierkanone kann die Bewegungsgeschwindigkeit erhöhen.",
           "fullTooltip": "Wenn die Repetierkanone einen verlangsamten Helden trifft, wird Fenix' Bewegungsgeschwindigkeit 4 Sek. lang um 10% erhöht, bis maximal 40%.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -8999,7 +9018,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "Die Phasenbombe kann Gegner verlangsamen.",
           "fullTooltip": "Solange die Phasenbombe aktiv ist, verlangsamen automatische Angriffe gegen Helden, die durch den Plasmaschneider verlangsamt wurden, alle Gegner im Umkreis 4 Sek. lang um 35%.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -9145,7 +9164,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Verstärkt aufeinanderfolgende Angriffe mit der Repetierkanone.",
           "fullTooltip": "Jeder 3. automatische Angriff gegen Helden mit der Repetierkanone verursacht Bonusschaden in Höhe von 6% der maximalen Lebenspunkte des Ziels.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -9191,7 +9210,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Verstärkt die Repetierkanone und die Phasenbombe.",
           "fullTooltip": "Erhöht die Angriffsgeschwindigkeit der Repetierkanone um weitere 100% und die Reichweite der Phasenbombe zusätzlich um 1.25.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -17529,15 +17548,15 @@
           "abilityType": "Q"
         },
         {
-          "nameId": "LucioCrossfade",
+          "nameId": "LucioCrossfadeActivateHealingBoost",
           "name": "Crossfade",
-          "shortTooltipId": "LucioCrossfadeShop",
-          "fullTooltipId": "LucioCrossfadeShop",
-          "icon": "storm_ui_icon_lucio_crossfade_all.png",
+          "shortTooltipId": "LucioCrossfadeActivateHealingBoost",
+          "fullTooltipId": "LucioCrossfadeActivateHealingBoost",
+          "icon": "storm_ui_icon_Lucio_CrossfadeHealing.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Wechselt zwischen Heilungsboost und Tempoboost.",
-          "fullTooltip": "Spielt für Lúcio und seine Verbündeten einen von zwei Songs ab.  Heilungsboost: Heilt Lúcio und verbündete Helden in der Nähe um 16 (+4% per level) Lebenspunkte pro Sekunde.  Tempoboost: Erhöht die Bewegungsgeschwindigkeit von Lúcio und verbündeten Helden in der Nähe um 20%.",
-          "abilityType": "Active"
+          "fullTooltip": "Aktuelle Wiedergabe: Tempoboost. Erhöht die Bewegungsgeschwindigkeit von Lúcio und verbündeten Helden in der Nähe um 20%.  Aktivieren, um zu Heilungsboost zu wechseln.",
+          "abilityType": "W"
         },
         {
           "nameId": "LucioAmpItUp",
@@ -17604,6 +17623,25 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "LucioCrossfadeActivateHealingBoost": {
+          "basic": [
+            {
+              "nameId": "LucioCrossfade",
+              "name": "Crossfade",
+              "shortTooltipId": "LucioCrossfadeActivateSpeedBoost",
+              "fullTooltipId": "LucioCrossfadeActivateSpeedBoost",
+              "icon": "storm_ui_icon_Lucio_CrossfadeSpeed.png",
+              "toggleCooldown": 0.5,
+              "shortTooltip": "Wechselt zwischen Heilungsboost und Tempoboost.",
+              "fullTooltip": "Aktuelle Wiedergabe: Heilungsboost. Heilt Lúcio und verbündete Helden in der Nähe um 16 (+4% per level) Lebenspunkte pro Sekunde.  Aktivieren, um zu Tempoboost zu wechseln.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -17686,7 +17724,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "Quest: Längeres Abspielen von Crossfade für Verbündete erhöht die Reichweite.",
           "fullTooltip": "Quest: Spiele Lúcios Crossfade-Titel insgesamt 8 Min. in der Nähe von Verbündeten. Je mehr Verbündete es sind, desto mehr Zeit wird gesammelt.  Belohnung: Erhöht die Reichweite von Crossfade dauerhaft um 20%.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "isQuest": true,
           "sort": 1
         },
@@ -17755,7 +17793,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "Das Wechseln zwischen Crossfade-Titeln gewährt einen Schild.",
           "fullTooltip": "Wenn nach dem Wechseln zwischen Crossfade-Titeln der nächste Song mindestens 1.5 Sek. lang wiedergegeben wird, erhält Lúcio einen Schild mit 100 (+4% per level) Schildpunkten, der dauerhaft anhält.  Wenn Lúcio den Song erneut wechselt, verliert er den Schild.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -28658,7 +28696,7 @@
           "cooldownTooltip": "Ladungsabklingzeit: 9 Sek.",
           "shortTooltip": "Tracer sprintet in die Zielrichtung.",
           "fullTooltip": "Tracer sprintet in die Zielrichtung. Maximal 3 Aufladungen.",
-          "abilityType": "Active"
+          "abilityType": "Q"
         },
         {
           "nameId": "TracerMelee",
@@ -28795,7 +28833,7 @@
           "icon": "storm_ui_icon_tracer_blink_b.png",
           "shortTooltip": "Erhöht die Anzahl der Aufladungen von Warp.",
           "fullTooltip": "Erhöht die Anzahl der Aufladungen von Warp um 1. Erhöht aber auch die Abklingzeit um 2 Sek.",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 1
         },
         {
@@ -28806,7 +28844,7 @@
           "icon": "storm_ui_icon_tracer_blink_c.png",
           "shortTooltip": "Automatische Angriffe verringern die Abklingzeit von Warp.",
           "fullTooltip": "Automatische Angriffe verringern die Abklingzeit von Warp um 0.15 Sek.",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 2
         },
         {
@@ -28817,7 +28855,7 @@
           "icon": "storm_ui_icon_tracer_blink_d.png",
           "shortTooltip": "Kills gewähren Aufladungen von Warp.",
           "fullTooltip": "Getötete Helden gewähren 2 Aufladungen von Warp.",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 3
         }
       ],

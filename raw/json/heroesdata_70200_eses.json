@@ -8884,14 +8884,14 @@
         },
         {
           "nameId": "FenixPhaseBomb",
-          "name": "Modos de arma",
-          "shortTooltipId": "FenixWeaponModes",
-          "fullTooltipId": "FenixWeaponModes",
+          "name": "Modo de arma: Cañón de repetición",
+          "shortTooltipId": "FenixPhaseBomb",
+          "fullTooltipId": "FenixPhaseBomb",
           "icon": "storm_ui_icon_fenix_w_2.png",
           "toggleCooldown": 0.5,
-          "shortTooltip": "Cambias de modo de arma.",
-          "fullTooltip": "Actívala para cambiar entre Modo de arma: Cañón de repetición y Modo de arma: Bomba de fase.  Modo de arma: Cañón de repetición: Aumenta la velocidad de ataque básico un 150%.  Modo de arma: Bomba de fase: Los ataques básicos tienen 1.25 más de alcance, infligen un 25% más de daño y el daño se esparce a los enemigos cercanos.",
-          "abilityType": "Active"
+          "shortTooltip": "Aumenta la velocidad de ataque básico.",
+          "fullTooltip": "Velocidad de ataque básico aumentada un 150%.  Actívala para cambiar a Modo de arma: Bomba de fase, lo que aumenta el alcance y el daño de los ataques básicos, y hace que se esparzan.",
+          "abilityType": "W"
         },
         {
           "nameId": "FenixWarp",
@@ -8942,6 +8942,25 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "FenixPhaseBomb": {
+          "basic": [
+            {
+              "nameId": "FenixRepeaterCannon",
+              "name": "Modo de arma: Bomba de fase",
+              "shortTooltipId": "FenixRepeaterCannon",
+              "fullTooltipId": "FenixRepeaterCannon",
+              "icon": "storm_ui_icon_fenix_w_1.png",
+              "toggleCooldown": 0.5,
+              "shortTooltip": "Los ataques básicos se esparcen, infligen más daño y tienen mayor alcance.",
+              "fullTooltip": "Los ataques básicos tienen 1.25 más de alcance, infligen un 25% más de daño y se esparcen a enemigos cercanos.  Actívala para cambiar a Modo de arma: Cañón de repetición, lo que aumenta la velocidad de ataque básico.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -8964,7 +8983,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "Cañón de repetición potencia Bomba de fase.",
           "fullTooltip": "Tras golpear a héroes enemigos con 3 ataques básicos mientras estás en modo Cañón de repetición, el próximo ataque básico en modo Bomba de fase inflige un 50% más de daño, que se esparce en un área un 150% más grande.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -8975,7 +8994,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Moverse potencia los ataques básicos.",
           "fullTooltip": "Después de moverte, tu próximo ataque básico inflige un 35% más de daño a héroes.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3
         }
       ],
@@ -8988,7 +9007,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Cañón de repetición otorga velocidad de movimiento.",
           "fullTooltip": "Los ataques básicos contra héroes ralentizados mientras estás en modo Cañón de repetición te otorgan un 10% de velocidad de movimiento durante 4 s, hasta un máximo de un 40%.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -8999,7 +9018,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "Bomba de fase puede ralentizar a los enemigos golpeados.",
           "fullTooltip": "Cuando el modo Bomba de fase está activo, los ataques básicos contra héroes ralentizados por Cortador de plasma ralentizan a todos los enemigos de la zona un 35% durante 4 s.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -9145,7 +9164,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Los ataques en modo Cañón de repetición se potencian al usarse de forma sucesiva.",
           "fullTooltip": "Cada tercer ataque básico contra héroes mientras estás en modo Cañón de repetición inflige un daño adicional equivalente a un 6% de la salud máxima del objetivo.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -9191,7 +9210,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Aumenta las bonificaciones de los modos de arma.",
           "fullTooltip": "Cañón de repetición te otorga un 100% más de velocidad de ataque y Bomba de fase te otorga 1.25 más de alcance.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -17529,15 +17548,15 @@
           "abilityType": "Q"
         },
         {
-          "nameId": "LucioCrossfade",
+          "nameId": "LucioCrossfadeActivateHealingBoost",
           "name": "Cambio de pista",
-          "shortTooltipId": "LucioCrossfadeShop",
-          "fullTooltipId": "LucioCrossfadeShop",
-          "icon": "storm_ui_icon_lucio_crossfade_all.png",
+          "shortTooltipId": "LucioCrossfadeActivateHealingBoost",
+          "fullTooltipId": "LucioCrossfadeActivateHealingBoost",
+          "icon": "storm_ui_icon_Lucio_CrossfadeHealing.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Pones un tema de Mejora de sanación o de Mejora de velocidad.",
-          "fullTooltip": "Reproduce una de las dos pistas para ti y tus aliados.  Mejora de sanación: Os cura a ti y a los héroes aliados cercanos de forma pasiva 16 (+4% per level) de salud por segundo.  Mejora de velocidad: Aumenta tu velocidad de movimiento y la de los héroes aliados cercanos un 20%.",
-          "abilityType": "Active"
+          "fullTooltip": "Está sonando Mejora de velocidad, lo que aumenta un 20% tu velocidad de movimiento y la de los héroes aliados cercanos.  Pulsa de nuevo para cambiar a Mejora de sanación.",
+          "abilityType": "W"
         },
         {
           "nameId": "LucioAmpItUp",
@@ -17604,6 +17623,25 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "LucioCrossfadeActivateHealingBoost": {
+          "basic": [
+            {
+              "nameId": "LucioCrossfade",
+              "name": "Cambio de pista",
+              "shortTooltipId": "LucioCrossfadeActivateSpeedBoost",
+              "fullTooltipId": "LucioCrossfadeActivateSpeedBoost",
+              "icon": "storm_ui_icon_Lucio_CrossfadeSpeed.png",
+              "toggleCooldown": 0.5,
+              "shortTooltip": "Pones un tema de Mejora de sanación o de Mejora de velocidad.",
+              "fullTooltip": "Está sonando Mejora de sanación, lo que os cura de forma pasiva a ti y a los héroes aliados cercanos 16 (+4% per level) de salud por segundo.  Pulsa de nuevo para cambiar a Mejora de velocidad.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -17686,7 +17724,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "Misión: Usa Cambio de pista con aliados cerca para aumentar el alcance.",
           "fullTooltip": "Misión: Pon los temas de Cambio de pista cerca de los aliados durante 8 min en total. Si hay más de un aliado cerca, obtienes tiempo adicional.  Recompensa: El alcance de Cambio de pista aumenta un 20% de forma permanente.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "isQuest": true,
           "sort": 1
         },
@@ -17755,7 +17793,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "Obtienes un escudo tras usar Cambio de pista.",
           "fullTooltip": "Tras usar Cambio de pista, si el siguiente tema suena durante al menos 1.5 s, obtienes 100 (+4% per level) de escudo.  Si vuelves a cambiar de pista, el escudo desaparece.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -28658,7 +28696,7 @@
           "cooldownTooltip": "Tiempo de reutilización de carga: 9 s",
           "shortTooltip": "Cargas hacia un área.",
           "fullTooltip": "Cargas hacia un área. Puedes almacenar hasta 3 cargas.",
-          "abilityType": "Active"
+          "abilityType": "Q"
         },
         {
           "nameId": "TracerMelee",
@@ -28795,7 +28833,7 @@
           "icon": "storm_ui_icon_tracer_blink_b.png",
           "shortTooltip": "Aumenta las cargas de Traslación.",
           "fullTooltip": "Aumenta las cargas de Traslación en 1, pero también aumenta 2 s el tiempo de reutilización de Traslación.",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 1
         },
         {
@@ -28806,7 +28844,7 @@
           "icon": "storm_ui_icon_tracer_blink_c.png",
           "shortTooltip": "Los ataques básicos reducen el tiempo de reutilización de Traslación.",
           "fullTooltip": "Los ataques básicos reducen el tiempo de reutilización de Traslación 0.15 s.",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 2
         },
         {
@@ -28817,7 +28855,7 @@
           "icon": "storm_ui_icon_tracer_blink_d.png",
           "shortTooltip": "Las bajas en las que participes otorgan cargas de Traslación.",
           "fullTooltip": "Las bajas de héroes en las que participes te otorgan 2 cargas de Traslación.",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 3
         }
       ],
