@@ -8884,14 +8884,14 @@
         },
         {
           "nameId": "FenixPhaseBomb",
-          "name": "Боевые режимы",
-          "shortTooltipId": "FenixWeaponModes",
-          "fullTooltipId": "FenixWeaponModes",
+          "name": "Режим полуавтоматического орудия",
+          "shortTooltipId": "FenixPhaseBomb",
+          "fullTooltipId": "FenixPhaseBomb",
           "icon": "storm_ui_icon_fenix_w_2.png",
           "toggleCooldown": 0.5,
-          "shortTooltip": "Переключает боевой режим.",
-          "fullTooltip": "При использовании переключается между режимами полуавтоматического орудия и фазовой бомбардировки.  Режим полуавтоматического орудия: скорость атаки повышается на 150%.  Режим фазовой бомбардировки: дальность атаки увеличивается на 1.25 м; автоатаки наносят на 25% больше урона и поражают противников рядом с целью.",
-          "abilityType": "Active"
+          "shortTooltip": "Скорость атаки повышена.",
+          "fullTooltip": "Скорость атаки повышена на 150%.  При использовании переключается в режим фазовой бомбардировки, увеличивая дальность и урон от автоатак, а также позволяя автоатакам наносить урон по области.",
+          "abilityType": "W"
         },
         {
           "nameId": "FenixWarp",
@@ -8942,6 +8942,25 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "FenixPhaseBomb": {
+          "basic": [
+            {
+              "nameId": "FenixRepeaterCannon",
+              "name": "Режим фазовой бомбардировки",
+              "shortTooltipId": "FenixRepeaterCannon",
+              "fullTooltipId": "FenixRepeaterCannon",
+              "icon": "storm_ui_icon_fenix_w_1.png",
+              "toggleCooldown": 0.5,
+              "shortTooltip": "Автоатаки наносят больше урона на большем расстоянии и действуют по области.",
+              "fullTooltip": "Дальность атаки увеличена на 1.25 м; автоатаки наносят на 25% больше урона и поражают противников рядом с целью.  При использовании переключается в режим полуавтоматического орудия, повышая скорость атаки.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -8964,7 +8983,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "Режим полуавтоматического орудия усиливает режим фазовой бомбардировки.",
           "fullTooltip": "После 3 попаданий по героям автоатаками в режиме полуавтоматического орудия усиливает следующую автоатаку в режиме фазовой бомбардировки, увеличивая область поражения на 50%, а урон – на 150%.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -8975,7 +8994,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Передвижение усиливает автоатаки.",
           "fullTooltip": "Следующая автоатака после передвижения наносит героям на 35% больше урона.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3
         }
       ],
@@ -8988,7 +9007,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Режим полуавтоматического орудия может ускорить передвижение.",
           "fullTooltip": "Каждая автоатака по замедленным героям в режиме полуавтоматического орудия повышает скорость передвижения на 10% на 4 сек., вплоть до 40%.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -8999,7 +9018,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "Фазовая бомбардировка замедляет противников рядом с целью.",
           "fullTooltip": "Поражая автоатакой замедленного «Плазменным резаком» героя в режиме фазовой бомбардировки, Феникс замедляет всех противников в области поражения на 35% на 4 сек.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -9145,7 +9164,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Усиливает последовательные автоатаки в режиме полуавтоматического орудия.",
           "fullTooltip": "Каждая третья автоатака по героям в режиме полуавтоматического орудия наносит дополнительный урон в объеме 6% от максимального запаса здоровья цели.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -9191,7 +9210,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Увеличивает бонусы от боевых режимов.",
           "fullTooltip": "Увеличивает бонус к скорости атаки в режиме полуавтоматического орудия на 100%, а бонус к дальности атаки в режиме фазовой бомбардировки – на 1.25 м.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2
         },
         {
@@ -17529,15 +17548,15 @@
           "abilityType": "Q"
         },
         {
-          "nameId": "LucioCrossfade",
+          "nameId": "LucioCrossfadeActivateHealingBoost",
           "name": "Кроссфейд",
-          "shortTooltipId": "LucioCrossfadeShop",
-          "fullTooltipId": "LucioCrossfadeShop",
-          "icon": "storm_ui_icon_lucio_crossfade_all.png",
+          "shortTooltipId": "LucioCrossfadeActivateHealingBoost",
+          "fullTooltipId": "LucioCrossfadeActivateHealingBoost",
+          "icon": "storm_ui_icon_Lucio_CrossfadeHealing.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Проигрывает исцеляющий или ускоряющий трек.",
-          "fullTooltip": "Лусио проигрывает один из двух треков для себя и союзников.  Исцеляющий трек постоянно восполняет Лусио и находящимся поблизости союзным героям 16 (+4% per level) ед. здоровья в секунду.  Ускоряющий трек повышает скорость передвижения Лусио и находящихся поблизости союзных героев на 20%.",
-          "abilityType": "Active"
+          "fullTooltip": "Проигрывает ускоряющий трек, повышающий скорость передвижения Лусио и союзных героев рядом с ним на 20%.  При использовании меняет трек на исцеляющий.",
+          "abilityType": "W"
         },
         {
           "nameId": "LucioAmpItUp",
@@ -17604,6 +17623,25 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "LucioCrossfadeActivateHealingBoost": {
+          "basic": [
+            {
+              "nameId": "LucioCrossfade",
+              "name": "Кроссфейд",
+              "shortTooltipId": "LucioCrossfadeActivateSpeedBoost",
+              "fullTooltipId": "LucioCrossfadeActivateSpeedBoost",
+              "icon": "storm_ui_icon_Lucio_CrossfadeSpeed.png",
+              "toggleCooldown": 0.5,
+              "shortTooltip": "Проигрывает исцеляющий или ускоряющий трек.",
+              "fullTooltip": "Проигрывает исцеляющий трек, пассивно восполняющий Лусио и союзным героям рядом с ним 16 (+4% per level) ед. здоровья в секунду.  При использовании меняет трек на ускоряющий.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -17686,7 +17724,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "Задача: играйте треки для союзников, чтобы увеличить радиус «Кроссфейда».",
           "fullTooltip": "Задача: проигрывайте треки рядом с союзниками в течение 8 мин. Если треки слышат сразу несколько союзников, засчитывается дополнительное время.  Награда: дальность действия треков увеличится на 20% до конца матча.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "isQuest": true,
           "sort": 1
         },
@@ -17755,7 +17793,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "Смена трека дает щит.",
           "fullTooltip": "Если следующий после смены трек проигрывается хотя бы 1.5 сек., Лусио получает постоянный щит прочностью 100 (+4% per level) ед.  При очередной смене трека щит пропадает.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 1
         },
         {
@@ -28658,7 +28696,7 @@
           "cooldownTooltip": "Время восстановления заряда: 9 сек.",
           "shortTooltip": "Мгновенно перемещается в выбранном направлении.",
           "fullTooltip": "Трейсер быстро перемещается в указанное место. Максимум зарядов – 3.",
-          "abilityType": "Active"
+          "abilityType": "Q"
         },
         {
           "nameId": "TracerMelee",
@@ -28795,7 +28833,7 @@
           "icon": "storm_ui_icon_tracer_blink_b.png",
           "shortTooltip": "«Скачок» получает больше зарядов.",
           "fullTooltip": "Увеличивает максимальное число зарядов «Скачка» на 1, но также увеличивает время его восстановления на 2 сек.",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 1
         },
         {
@@ -28806,7 +28844,7 @@
           "icon": "storm_ui_icon_tracer_blink_c.png",
           "shortTooltip": "Автоатаки ускоряют восстановление «Скачка».",
           "fullTooltip": "Автоатаки Трейсер сокращают время восстановления «Скачка» на 0.15 сек.",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 2
         },
         {
@@ -28817,7 +28855,7 @@
           "icon": "storm_ui_icon_tracer_blink_d.png",
           "shortTooltip": "Убийства героев дают заряды «Скачка».",
           "fullTooltip": "При убийстве героя Трейсер получает 2 заряда «Скачка».",
-          "abilityType": "Active",
+          "abilityType": "Q",
           "sort": 3
         }
       ],
