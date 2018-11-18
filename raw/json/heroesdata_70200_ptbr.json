@@ -8884,14 +8884,14 @@
         },
         {
           "nameId": "FenixPhaseBomb",
-          "name": "Modo de Arma: Canhão de Repetição",
-          "shortTooltipId": "FenixPhaseBomb",
-          "fullTooltipId": "FenixPhaseBomb",
+          "name": "Modos de Arma",
+          "shortTooltipId": "FenixWeaponModes",
+          "fullTooltipId": "FenixWeaponModes",
           "icon": "storm_ui_icon_fenix_w_2.png",
           "toggleCooldown": 0.5,
-          "shortTooltip": "Velocidade de Ataque Básico aumentada",
-          "fullTooltip": "Velocidade de Ataque Básico aumentada em 150%.  Ative para mudar para o Modo de Arma: Bomba Fásica, aumentando o dano e o alcance dos Ataques Básicos e fazendo com que eles causem dano colateral.",
-          "abilityType": "W"
+          "shortTooltip": "Troca o Modo de Arma",
+          "fullTooltip": "Ative para alternar entre o Modo de Arma: Canhão de Repetição e o Modo de Arma: Bomba Fásica.  Modo de Arma: Canhão de Repetição: Velocidade de Ataque Básico aumenta em 150%.  Modo de Arma: Bomba Fásica: Aumenta em 1.25 o alcance e em 25% o dano dos Ataques Básicos, e faz com que acertem inimigos próximos.",
+          "abilityType": "Active"
         },
         {
           "nameId": "FenixWarp",
@@ -8942,25 +8942,6 @@
         }
       ]
     },
-    "subAbilities": [
-      {
-        "FenixPhaseBomb": {
-          "basic": [
-            {
-              "nameId": "FenixRepeaterCannon",
-              "name": "Modo de Arma: Bomba Fásica",
-              "shortTooltipId": "FenixRepeaterCannon",
-              "fullTooltipId": "FenixRepeaterCannon",
-              "icon": "storm_ui_icon_fenix_w_1.png",
-              "toggleCooldown": 0.5,
-              "shortTooltip": "Ataques Básicos causam dano colateral, causam mais dano, chegam mais longe",
-              "fullTooltip": "Aumenta em 1.25 o alcance e em 25% o dano dos Ataques Básicos e faz com que acertem inimigos próximos.  Ative para mudar para o Modo de Arma: Canhão de Repetição, aumentando a Velocidade de Ataque Básico.",
-              "abilityType": "W"
-            }
-          ]
-        }
-      }
-    ],
     "talents": {
       "level1": [
         {
@@ -8983,7 +8964,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "Canhão de Repetição potencializa Bomba Fásica",
           "fullTooltip": "Após acertar Heróis inimigos com Ataques Básicos 3 vezes enquanto o Canhão de Repetição estiver ativo, o próximo Ataque Básico com a Bomba Fásica causará 150% a mais de dano e atingirá uma área 50% maior.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -8994,7 +8975,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Movimentar-se potencializa os Ataques Básicos",
           "fullTooltip": "Após mover-se, o próximo Ataque Básico de Fenix causará 35% a mais de dano a Heróis.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 3
         }
       ],
@@ -9007,7 +8988,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Canhão de Repetição aumenta a Velocidade de Movimento",
           "fullTooltip": "Ataques Básicos com o Canhão de Repetição contra Heróis desacelerados aumentam em 10% a Velocidade de Movimento por 4 s, até 40%.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -9018,7 +8999,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "Bomba Fásica pode desacelerar os inimigos atingidos",
           "fullTooltip": "Enquanto Bomba Fásica está ativada, os Ataques Básicos contra Heróis desacelerados pelo Retalhador Plásmico desaceleram em 35% todos os inimigos na área por 4 s.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -9164,7 +9145,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Potencializa ataques sucessivos com o Canhão de Repetição",
           "fullTooltip": "A cada 3 Ataques Básicos contra Heróis enquanto o Canhão de Repetição estiver ativo, Fenix causará dano extra equivalente a 6% do máximo de Vida do alvo.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -9210,7 +9191,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Aumenta os bônus dos Modos de Arma",
           "fullTooltip": "O Canhão de Repetição aumenta em 100% a Velocidade de Ataque, e a Bomba Fásica aumenta em 1.25 o alcance.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -17548,15 +17529,15 @@
           "abilityType": "Q"
         },
         {
-          "nameId": "LucioCrossfadeActivateHealingBoost",
+          "nameId": "LucioCrossfade",
           "name": "Transição",
-          "shortTooltipId": "LucioCrossfadeActivateHealingBoost",
-          "fullTooltipId": "LucioCrossfadeActivateHealingBoost",
-          "icon": "storm_ui_icon_Lucio_CrossfadeHealing.png",
+          "shortTooltipId": "LucioCrossfadeShop",
+          "fullTooltipId": "LucioCrossfadeShop",
+          "icon": "storm_ui_icon_lucio_crossfade_all.png",
           "toggleCooldown": 0.5,
-          "shortTooltip": "Toca uma música de Impulso de Cura ou de Impulso de Velocidade.",
-          "fullTooltip": "Tocando Impulso de Velocidade, que aumenta a Velocidade de Movimento de Lúcio e dos Heróis aliados próximos em 20%.  Ative para tocar Impulso de Cura em vez disso.",
-          "abilityType": "W"
+          "shortTooltip": "Toca uma música de Impulso de Cura ou de Impulso de Velocidade",
+          "fullTooltip": "Toca uma das duas músicas para o Lúcio e os aliados.  Impulso de Cura: Cura passivamente o Lúcio e os Heróis aliados próximos em 16 (+4% per level) de Vida por segundo.  Impulso de Velocidade: Aumenta a Velocidade de Movimento do Lúcio e dos Heróis aliados próximos em 20%.",
+          "abilityType": "Active"
         },
         {
           "nameId": "LucioAmpItUp",
@@ -17623,25 +17604,6 @@
         }
       ]
     },
-    "subAbilities": [
-      {
-        "LucioCrossfadeActivateHealingBoost": {
-          "basic": [
-            {
-              "nameId": "LucioCrossfade",
-              "name": "Transição",
-              "shortTooltipId": "LucioCrossfadeActivateSpeedBoost",
-              "fullTooltipId": "LucioCrossfadeActivateSpeedBoost",
-              "icon": "storm_ui_icon_Lucio_CrossfadeSpeed.png",
-              "toggleCooldown": 0.5,
-              "shortTooltip": "Toca uma música de Impulso de Cura ou de Impulso de Velocidade.",
-              "fullTooltip": "Tocando Impulso de Cura, que cura passivamente o Lúcio e os Heróis aliados próximos em 16 (+4% per level) pontos de Vida por segundo.  Ative para tocar Impulso de Velocidade em vez disso.",
-              "abilityType": "W"
-            }
-          ]
-        }
-      }
-    ],
     "talents": {
       "level1": [
         {
@@ -17724,7 +17686,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "Missão: Tocar Transição para aliados aumenta o alcance",
           "fullTooltip": "Missão: Tocar Transição para aliados por um total de 8 minutos. Mais aliados concedem mais tempo.  Recompensa: Aumenta permanentemente o alcance de Transição em 20%.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "isQuest": true,
           "sort": 1
         },
@@ -17793,7 +17755,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "Ganha um Escudo após trocar a música da Transição",
           "fullTooltip": "Após trocar a música da Transição, se a próxima música for tocada por pelo menos 1.5 s, Lúcio ganhará 100 (+4% per level) pontos de Escudo indefinidamente.  Trocar de música novamente remove o Escudo.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -28696,7 +28658,7 @@
           "cooldownTooltip": "Recarga da carga: 9 segundos",
           "shortTooltip": "Arremete em uma direção",
           "fullTooltip": "Arremete em uma direção. Acumula até 3 cargas.",
-          "abilityType": "Q"
+          "abilityType": "Active"
         },
         {
           "nameId": "TracerMelee",
@@ -28833,7 +28795,7 @@
           "icon": "storm_ui_icon_tracer_blink_b.png",
           "shortTooltip": "Aumenta cargas de Teleportar",
           "fullTooltip": "Aumenta as cargas de Teleportar em 1, mas também aumenta a recarga em 2 s.",
-          "abilityType": "Q",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -28844,7 +28806,7 @@
           "icon": "storm_ui_icon_tracer_blink_c.png",
           "shortTooltip": "Ataques básicos reduzem a recarga de Teleportar",
           "fullTooltip": "Ataques Básicos reduzem a recarga de Teleportar em 0.15 segundo.",
-          "abilityType": "Q",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -28855,7 +28817,7 @@
           "icon": "storm_ui_icon_tracer_blink_d.png",
           "shortTooltip": "Abates concedem cargas de Teleportar",
           "fullTooltip": "Abates de Herói concedem 2 cargas de Teleportar.",
-          "abilityType": "Q",
+          "abilityType": "Active",
           "sort": 3
         }
       ],

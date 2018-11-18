@@ -8884,14 +8884,14 @@
         },
         {
           "nameId": "FenixPhaseBomb",
-          "name": "武器模式：極速光砲",
-          "shortTooltipId": "FenixPhaseBomb",
-          "fullTooltipId": "FenixPhaseBomb",
+          "name": "武器模式",
+          "shortTooltipId": "FenixWeaponModes",
+          "fullTooltipId": "FenixWeaponModes",
           "icon": "storm_ui_icon_fenix_w_2.png",
           "toggleCooldown": 0.5,
-          "shortTooltip": "提高基本攻擊速度",
-          "fullTooltip": "基本攻擊速度提高150%。  啟動此技能可切換為武器模式：相位光彈，提高基本攻擊的距離和傷害，並且會造成擴散傷害。",
-          "abilityType": "W"
+          "shortTooltip": "切換武器模式",
+          "fullTooltip": "啟動此技能可切換為武器模式：極速光砲或武器模式：相位光彈。  武器模式：極速光砲：基本攻擊速度提高150%。  武器模式：相位光彈：基本攻擊距離提高1.25格，造成的傷害提高25%，並且會對附近敵人造成擴散傷害。",
+          "abilityType": "Active"
         },
         {
           "nameId": "FenixWarp",
@@ -8942,25 +8942,6 @@
         }
       ]
     },
-    "subAbilities": [
-      {
-        "FenixPhaseBomb": {
-          "basic": [
-            {
-              "nameId": "FenixRepeaterCannon",
-              "name": "武器模式：相位光彈",
-              "shortTooltipId": "FenixRepeaterCannon",
-              "fullTooltipId": "FenixRepeaterCannon",
-              "icon": "storm_ui_icon_fenix_w_1.png",
-              "toggleCooldown": 0.5,
-              "shortTooltip": "基本攻擊會造成擴散傷害，並且提高距離和傷害",
-              "fullTooltip": "基本攻擊距離提高1.25格，造成的傷害提高25%，並且會對附近敵人造成擴散傷害。  啟動此技能可切換為武器模式：極速光砲，提高基本攻擊速度。",
-              "abilityType": "W"
-            }
-          ]
-        }
-      }
-    ],
     "talents": {
       "level1": [
         {
@@ -8983,7 +8964,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "極速光砲可強化相位光彈",
           "fullTooltip": "在極速光砲模式下，以基本攻擊命中敵方英雄3次後，下一發相位光彈的基本攻擊會額外造成150%傷害，並且擴散範圍提高50%。",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -8994,7 +8975,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "移動會強化基本攻擊",
           "fullTooltip": "在移動後，菲尼克斯的下一次基本攻擊會對英雄額外造成35%傷害。",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 3
         }
       ],
@@ -9007,7 +8988,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "極速光砲可賦予移動速度",
           "fullTooltip": "在極速光砲模式下，對被緩速的英雄進行基本攻擊會提高10%移動速度，持續4秒，最多可提高40%。",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -9018,7 +8999,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "相位光彈可對敵人造成緩速",
           "fullTooltip": "在相位光彈模式下，以相位光彈擊中被電漿雷射緩速的英雄時，會對爆炸範圍內的所有敵人造成35%的緩速效果，持續4秒。",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -9164,7 +9145,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "極速光砲連續攻擊可造成額外傷害",
           "fullTooltip": "在極速光砲模式下，對英雄每造成3次基本攻擊，可對目標額外造成其最大生命值6%的傷害。",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -9210,7 +9191,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "提高武器模式的加成效果",
           "fullTooltip": "極速光砲賦予的攻擊速度提高100%，相位光彈賦予的攻擊距離提高1.25格。",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -17548,15 +17529,15 @@
           "abilityType": "Q"
         },
         {
-          "nameId": "LucioCrossfadeActivateHealingBoost",
+          "nameId": "LucioCrossfade",
           "name": "混音單曲",
-          "shortTooltipId": "LucioCrossfadeActivateHealingBoost",
-          "fullTooltipId": "LucioCrossfadeActivateHealingBoost",
-          "icon": "storm_ui_icon_Lucio_CrossfadeHealing.png",
+          "shortTooltipId": "LucioCrossfadeShop",
+          "fullTooltipId": "LucioCrossfadeShop",
+          "icon": "storm_ui_icon_lucio_crossfade_all.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "播放治療曲目或加速曲目",
-          "fullTooltip": "目前正在播放加速曲目，可使路西歐及附近友方英雄的移動速度提高20%。  可切換成治療曲目。",
-          "abilityType": "W"
+          "fullTooltip": "為路西歐和盟友播放兩首混音單曲的其中一首。  治療曲目：持續治療路西歐和附近友方英雄，每秒可恢復16 (+4% per level)點生命值。  加速曲目：使路西歐和附近友方英雄的移動速度提高20%。",
+          "abilityType": "Active"
         },
         {
           "nameId": "LucioAmpItUp",
@@ -17623,25 +17604,6 @@
         }
       ]
     },
-    "subAbilities": [
-      {
-        "LucioCrossfadeActivateHealingBoost": {
-          "basic": [
-            {
-              "nameId": "LucioCrossfade",
-              "name": "混音單曲",
-              "shortTooltipId": "LucioCrossfadeActivateSpeedBoost",
-              "fullTooltipId": "LucioCrossfadeActivateSpeedBoost",
-              "icon": "storm_ui_icon_Lucio_CrossfadeSpeed.png",
-              "toggleCooldown": 0.5,
-              "shortTooltip": "播放治療曲目或加速曲目",
-              "fullTooltip": "目前正在播放治療曲目，每秒自動為路西歐及附近友方英雄恢復16 (+4% per level)點生命值。  可切換成加速曲目。",
-              "abilityType": "W"
-            }
-          ]
-        }
-      }
-    ],
     "talents": {
       "level1": [
         {
@@ -17724,7 +17686,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "任務：為盟友播放混音單曲可提高播放距離",
           "fullTooltip": "任務：為附近盟友播放混音單曲的總時間長達8分鐘。為多名盟友播放的時間可累計。  獎勵：永久使混音單曲的播放距離提高20%。",
-          "abilityType": "W",
+          "abilityType": "Active",
           "isQuest": true,
           "sort": 1
         },
@@ -17793,7 +17755,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "切換混音單曲可獲得護盾",
           "fullTooltip": "切換混音單曲的曲目後，若下一首曲目播放1.5秒以上，路西歐會獲得100 (+4% per level)點護盾值，護盾會持續存在。  再次切換曲目會使護盾消失。",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -28696,7 +28658,7 @@
           "cooldownTooltip": "補充時間：9秒",
           "shortTooltip": "衝向目標區域",
           "fullTooltip": "衝向目標區域。可累積3次使用次數。",
-          "abilityType": "Q"
+          "abilityType": "Active"
         },
         {
           "nameId": "TracerMelee",
@@ -28833,7 +28795,7 @@
           "icon": "storm_ui_icon_tracer_blink_b.png",
           "shortTooltip": "提高閃現的使用次數",
           "fullTooltip": "閃現的使用次數提高1次，但冷卻時間提高2秒。",
-          "abilityType": "Q",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -28844,7 +28806,7 @@
           "icon": "storm_ui_icon_tracer_blink_c.png",
           "shortTooltip": "基本攻擊可降低閃現的冷卻時間",
           "fullTooltip": "基本攻擊可使閃現的冷卻時間降低0.15秒。",
-          "abilityType": "Q",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -28855,7 +28817,7 @@
           "icon": "storm_ui_icon_tracer_blink_d.png",
           "shortTooltip": "參與擊殺英雄可獲得閃現的使用次數",
           "fullTooltip": "參與擊殺英雄可獲得2次閃現的使用次數。",
-          "abilityType": "Q",
+          "abilityType": "Active",
           "sort": 3
         }
       ],

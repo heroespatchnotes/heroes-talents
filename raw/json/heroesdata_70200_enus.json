@@ -8884,14 +8884,14 @@
         },
         {
           "nameId": "FenixPhaseBomb",
-          "name": "Weapon Mode: Repeater Cannon",
-          "shortTooltipId": "FenixPhaseBomb",
-          "fullTooltipId": "FenixPhaseBomb",
+          "name": "Weapon Modes",
+          "shortTooltipId": "FenixWeaponModes",
+          "fullTooltipId": "FenixWeaponModes",
           "icon": "storm_ui_icon_fenix_w_2.png",
           "toggleCooldown": 0.5,
-          "shortTooltip": "Basic Attack speed increased",
-          "fullTooltip": "Basic Attack speed increased by 150%.  Activate to change to Weapon Mode: Phase Bomb, increasing Basic Attack range and damage, and causing Basic Attacks to splash.",
-          "abilityType": "W"
+          "shortTooltip": "Switch between Weapon Modes",
+          "fullTooltip": "Activate to change between Weapon Mode: Repeater Cannon and Weapon Mode: Phase Bomb.  Weapon Mode: Repeater Cannon: Basic Attack speed increased by 150%.  Weapon Mode: Phase Bomb: Basic Attacks have 1.25 increased range, deal 25% more damage, and splash to nearby enemies.",
+          "abilityType": "Active"
         },
         {
           "nameId": "FenixWarp",
@@ -8942,25 +8942,6 @@
         }
       ]
     },
-    "subAbilities": [
-      {
-        "FenixPhaseBomb": {
-          "basic": [
-            {
-              "nameId": "FenixRepeaterCannon",
-              "name": "Weapon Mode: Phase Bomb",
-              "shortTooltipId": "FenixRepeaterCannon",
-              "fullTooltipId": "FenixRepeaterCannon",
-              "icon": "storm_ui_icon_fenix_w_1.png",
-              "toggleCooldown": 0.5,
-              "shortTooltip": "Basic Attacks splash, deal more damage, have longer range",
-              "fullTooltip": "Basic Attacks have 1.25 increased range, deal 25% more damage, and splash to nearby enemies.  Activate to change to Weapon Mode: Repeater Cannon, increasing Basic Attack speed.",
-              "abilityType": "W"
-            }
-          ]
-        }
-      }
-    ],
     "talents": {
       "level1": [
         {
@@ -8983,7 +8964,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "Repeater Cannon empowers Phase Bomb",
           "fullTooltip": "After hitting enemy Heroes with Basic Attacks 3 times while Repeater Cannon is active, the next Basic Attack with Phase Bomb deals 150% more damage and splashes in a 50% larger area.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -8994,7 +8975,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Movement empowers Basic Attacks",
           "fullTooltip": "After moving, Fenix's next Basic Attack deals 35% more damage to Heroes.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 3
         }
       ],
@@ -9007,7 +8988,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Repeater Cannon can grant Move Speed",
           "fullTooltip": "Basic Attacks against Slowed Heroes with Repeater Cannon active grant 10% Movement Speed for 4 seconds, up to 40%.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -9018,7 +8999,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "Phase Bomb can Slow enemies hit",
           "fullTooltip": "While Phase Bomb is active, Basic Attacks against Heroes Slowed by Plasma Cutter Slow all enemies in the area by 35% for 4 seconds.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -9164,7 +9145,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Successive Repeater Cannon attacks empowered",
           "fullTooltip": "Every 3rd Basic Attack against Heroes while Repeater Cannon is active deals an additional 6% of the target's maximum Health as damage.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -9210,7 +9191,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Increase Weapon Mode bonuses",
           "fullTooltip": "Repeater Cannon grants 100% more Attack Speed, and Phase Bomb grants 1.25 more range.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -17548,15 +17529,15 @@
           "abilityType": "Q"
         },
         {
-          "nameId": "LucioCrossfadeActivateHealingBoost",
+          "nameId": "LucioCrossfade",
           "name": "Crossfade",
-          "shortTooltipId": "LucioCrossfadeActivateHealingBoost",
-          "fullTooltipId": "LucioCrossfadeActivateHealingBoost",
-          "icon": "storm_ui_icon_Lucio_CrossfadeHealing.png",
+          "shortTooltipId": "LucioCrossfadeShop",
+          "fullTooltipId": "LucioCrossfadeShop",
+          "icon": "storm_ui_icon_lucio_crossfade_all.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Play a Healing Boost or Speed Boost track",
-          "fullTooltip": "Currently playing Speed Boost, increasing the Movement Speed of Lúcio and nearby allied Heroes by 20%.  Toggle to play Healing Boost instead.",
-          "abilityType": "W"
+          "fullTooltip": "Play one of two music tracks for Lúcio and his allies.  Healing Boost: Passively heal Lúcio and nearby allied Heroes for 16 (+4% per level) health per second.  Speed Boost: Increase the Movement Speed of Lúcio and nearby allied Heroes by 20%.",
+          "abilityType": "Active"
         },
         {
           "nameId": "LucioAmpItUp",
@@ -17623,25 +17604,6 @@
         }
       ]
     },
-    "subAbilities": [
-      {
-        "LucioCrossfadeActivateHealingBoost": {
-          "basic": [
-            {
-              "nameId": "LucioCrossfade",
-              "name": "Crossfade",
-              "shortTooltipId": "LucioCrossfadeActivateSpeedBoost",
-              "fullTooltipId": "LucioCrossfadeActivateSpeedBoost",
-              "icon": "storm_ui_icon_Lucio_CrossfadeSpeed.png",
-              "toggleCooldown": 0.5,
-              "shortTooltip": "Play a Healing Boost or Speed Boost track",
-              "fullTooltip": "Currently playing Healing Boost, passively healing Lúcio and nearby allied Heroes for 16 (+4% per level) health per second.  Toggle to play Speed Boost instead.",
-              "abilityType": "W"
-            }
-          ]
-        }
-      }
-    ],
     "talents": {
       "level1": [
         {
@@ -17724,7 +17686,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "Quest: Playing Crossfade for Allies increases range",
           "fullTooltip": "Quest: Play Lúcio's Crossfade tracks to nearby Allies for a total of 8 minutes. Multiple Allies provide additional time.  Reward: Permanently increase Crossfade's range by 20%.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "isQuest": true,
           "sort": 1
         },
@@ -17793,7 +17755,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "Gain a Shield after switching Crossfade tracks",
           "fullTooltip": "After switching Crossfade tracks, if the next song plays for at least 1.5 seconds, Lúcio gains a 100 (+4% per level) point Shield that lasts indefinitely.  Switching tracks again removes the Shield.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -28696,7 +28658,7 @@
           "cooldownTooltip": "Charge Cooldown: 9 seconds",
           "shortTooltip": "Dash towards an area",
           "fullTooltip": "Dash towards an area. Stores up to 3 charges.",
-          "abilityType": "Q"
+          "abilityType": "Active"
         },
         {
           "nameId": "TracerMelee",
@@ -28833,7 +28795,7 @@
           "icon": "storm_ui_icon_tracer_blink_b.png",
           "shortTooltip": "Increases Blink charges",
           "fullTooltip": "Increases Blink's charges by 1, but also increases Blink's cooldown by 2 seconds.",
-          "abilityType": "Q",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -28844,7 +28806,7 @@
           "icon": "storm_ui_icon_tracer_blink_c.png",
           "shortTooltip": "Basic Attacks reduce Blink cooldown",
           "fullTooltip": "Basic Attacks lower the cooldown of Blink by 0.15 seconds.",
-          "abilityType": "Q",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -28855,7 +28817,7 @@
           "icon": "storm_ui_icon_tracer_blink_d.png",
           "shortTooltip": "Takedowns grant Blink charges",
           "fullTooltip": "Hero Takedowns grant 2 charges of Blink.",
-          "abilityType": "Q",
+          "abilityType": "Active",
           "sort": 3
         }
       ],

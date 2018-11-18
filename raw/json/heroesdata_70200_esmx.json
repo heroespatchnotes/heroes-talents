@@ -8884,14 +8884,14 @@
         },
         {
           "nameId": "FenixPhaseBomb",
-          "name": "Modo de arma: Cañón bláster",
-          "shortTooltipId": "FenixPhaseBomb",
-          "fullTooltipId": "FenixPhaseBomb",
+          "name": "Modos de arma",
+          "shortTooltipId": "FenixWeaponModes",
+          "fullTooltipId": "FenixWeaponModes",
           "icon": "storm_ui_icon_fenix_w_2.png",
           "toggleCooldown": 0.5,
-          "shortTooltip": "Aumenta la velocidad de los ataques básicos",
-          "fullTooltip": "Aumenta un 150% la velocidad de los ataques básicos.  Activar para cambiar a Modo de arma: Bomba de fase, lo que aumenta el alcance y el daño de los ataques básicos y les otorga daño por proximidad.",
-          "abilityType": "W"
+          "shortTooltip": "Cambia entre dos modos de arma",
+          "fullTooltip": "Activar para cambiar entre el Modo de arma: Cañón bláster y el Modo de arma: Bomba de fase.  Modo de arma: Cañón bláster: Aumenta un 150% la velocidad de los ataques básicos.  Modo de arma: Bomba de fase: Aumenta el alcance de los ataques básicos en 1.25, inflige un 25% de daño adicional e inflige daño por proximidad a los enemigos cercanos.",
+          "abilityType": "Active"
         },
         {
           "nameId": "FenixWarp",
@@ -8942,25 +8942,6 @@
         }
       ]
     },
-    "subAbilities": [
-      {
-        "FenixPhaseBomb": {
-          "basic": [
-            {
-              "nameId": "FenixRepeaterCannon",
-              "name": "Modo de arma: Bomba de fase",
-              "shortTooltipId": "FenixRepeaterCannon",
-              "fullTooltipId": "FenixRepeaterCannon",
-              "icon": "storm_ui_icon_fenix_w_1.png",
-              "toggleCooldown": 0.5,
-              "shortTooltip": "Los ataques básicos infligen daño adicional por proximidad y tienen mayor alcance",
-              "fullTooltip": "Aumenta el alcance de los ataques básicos en 1.25, inflige un 25% de daño adicional e inflige daño por proximidad a los enemigos cercanos.  Activar para cambiar a Modo de arma: Cañón bláster, lo que aumenta la velocidad de los ataques básicos.",
-              "abilityType": "W"
-            }
-          ]
-        }
-      }
-    ],
     "talents": {
       "level1": [
         {
@@ -8983,7 +8964,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "Cañón bláster potencia Bomba de fase",
           "fullTooltip": "Tras golpear a héroes enemigos con ataques básicos 3 veces en modo Cañón bláster, el siguiente ataque básico con Bomba de fase inflige un 150% más de daño por proximidad en un área un 50% más grande.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -8994,7 +8975,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "El movimiento potencia los ataques básicos",
           "fullTooltip": "Luego de moverse, el siguiente ataque básico de Fénix inflige un 35% más de daño a héroes.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 3
         }
       ],
@@ -9007,7 +8988,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Cañón bláster otorga velocidad de movimiento",
           "fullTooltip": "Los ataques básicos contra héroes ralentizados con Cañón bláster otorgan un 10% más de velocidad de movimiento durante 4 segundos, hasta un máximo del 40%.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -9018,7 +8999,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "Bomba de fase ralentiza a los enemigos golpeados",
           "fullTooltip": "Mientras Bomba de fase está activa, los ataques básicos contra héroes ralentizados por Cortador de plasma ralentizan un 35% a todos los enemigos en el área durante 4 segundos.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -9164,7 +9145,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Potencia los ataques sucesivos en modo Cañón bláster",
           "fullTooltip": "Cada 3 ataques básicos contra héroes en modo Cañón bláster, inflige un 6% de la salud máxima del objetivo como daño adicional.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -9210,7 +9191,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Aumenta las bonificaciones de las diferentes armas",
           "fullTooltip": "Cañón bláster otorga un 100% más de velocidad de ataque y Bomba de fase otorga 1.25 más de alcance.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -17548,15 +17529,15 @@
           "abilityType": "Q"
         },
         {
-          "nameId": "LucioCrossfadeActivateHealingBoost",
+          "nameId": "LucioCrossfade",
           "name": "Mezclador",
-          "shortTooltipId": "LucioCrossfadeActivateHealingBoost",
-          "fullTooltipId": "LucioCrossfadeActivateHealingBoost",
-          "icon": "storm_ui_icon_Lucio_CrossfadeHealing.png",
+          "shortTooltipId": "LucioCrossfadeShop",
+          "fullTooltipId": "LucioCrossfadeShop",
+          "icon": "storm_ui_icon_lucio_crossfade_all.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Reproduce una pista de Potenciador de salud o Potenciador de velocidad",
-          "fullTooltip": "Reproduce Potenciador de velocidad y aumenta la velocidad de movimiento de Lúcio y de los héroes aliados cercanos un 20%.  Actívalo para reproducir Potenciador de salud en su lugar.",
-          "abilityType": "W"
+          "fullTooltip": "Reproduce una de las dos pistas para Lúcio y sus aliados.  Potenciador de salud: Sana pasivamente a Lúcio y a los héroes aliados cercanos por 16 (+4% per level) de salud por segundo.  Potenciador de velocidad: Aumenta la velocidad de movimiento de Lúcio y los héroes aliados cercanos un 20%.",
+          "abilityType": "Active"
         },
         {
           "nameId": "LucioAmpItUp",
@@ -17623,25 +17604,6 @@
         }
       ]
     },
-    "subAbilities": [
-      {
-        "LucioCrossfadeActivateHealingBoost": {
-          "basic": [
-            {
-              "nameId": "LucioCrossfade",
-              "name": "Mezclador",
-              "shortTooltipId": "LucioCrossfadeActivateSpeedBoost",
-              "fullTooltipId": "LucioCrossfadeActivateSpeedBoost",
-              "icon": "storm_ui_icon_Lucio_CrossfadeSpeed.png",
-              "toggleCooldown": 0.5,
-              "shortTooltip": "Reproduce una pista de Potenciador de salud o Potenciador de velocidad",
-              "fullTooltip": "Reproduce Potenciador de salud y sana pasivamente a Lúcio y a los héroes aliados cercanos por 16 (+4% per level) de salud por segundo.  Actívalo para reproducir Potenciador de velocidad en su lugar.",
-              "abilityType": "W"
-            }
-          ]
-        }
-      }
-    ],
     "talents": {
       "level1": [
         {
@@ -17724,7 +17686,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "Misión: Usar Mezclador en los aliados aumenta el alcance",
           "fullTooltip": "Misión: Reproduce las pistas del Mezclador de Lucio para los aliados cercanos durante un total de 8 minutos. Cuantos más aliados haya, más tiempo agrega.  Recompensa: Aumenta  el alcance del Mezclador un 20% de forma permanente.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "isQuest": true,
           "sort": 1
         },
@@ -17793,7 +17755,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "Otorga un escudo al cambiar pistas en el Mezclador",
           "fullTooltip": "Después de cambiar la pista del Mezclador, si la siguiente canción suena por lo menos durante 1.5 segundos, Lúcio obtiene un escudo de 100 (+4% per level) puntos que dura indefinidamente.  Volver a cambiar de pista elimina el escudo.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -28696,7 +28658,7 @@
           "cooldownTooltip": "Tiempo de reutilización de carga: 9 segundos",
           "shortTooltip": "Arremetes hacia un área",
           "fullTooltip": "Arremetes hacia un área. Acumula hasta 3 cargas.",
-          "abilityType": "Q"
+          "abilityType": "Active"
         },
         {
           "nameId": "TracerMelee",
@@ -28833,7 +28795,7 @@
           "icon": "storm_ui_icon_tracer_blink_b.png",
           "shortTooltip": "Aumenta las cargas de Traslación",
           "fullTooltip": "Aumenta las cargas de Traslación en 1, pero también incrementa el tiempo de reutilización de Traslación 2 segundos.",
-          "abilityType": "Q",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -28844,7 +28806,7 @@
           "icon": "storm_ui_icon_tracer_blink_c.png",
           "shortTooltip": "Los ataques básicos reducen el tiempo de reutilización de Traslación",
           "fullTooltip": "Los ataques básicos disminuyen 0.15 segundos el tiempo de reutilización de Traslación.",
-          "abilityType": "Q",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -28855,7 +28817,7 @@
           "icon": "storm_ui_icon_tracer_blink_d.png",
           "shortTooltip": "Los derribos otorgan cargas de Traslación",
           "fullTooltip": "Los derribos de héroes otorgan 2 cargas de Traslación.",
-          "abilityType": "Q",
+          "abilityType": "Active",
           "sort": 3
         }
       ],

@@ -8884,14 +8884,14 @@
         },
         {
           "nameId": "FenixPhaseBomb",
-          "name": "Arme modulable : canon automatique",
-          "shortTooltipId": "FenixPhaseBomb",
-          "fullTooltipId": "FenixPhaseBomb",
+          "name": "Arme modulable",
+          "shortTooltipId": "FenixWeaponModes",
+          "fullTooltipId": "FenixWeaponModes",
           "icon": "storm_ui_icon_fenix_w_2.png",
           "toggleCooldown": 0.5,
-          "shortTooltip": "Augmente la vitesse des attaques de base.",
-          "fullTooltip": "Augmente la vitesse des attaques de base de 150%.  Activer permet de moduler l’arme en bombe phasique, ce qui augmente la portée et les dégâts des attaques de base, et leur permet d’infliger des dégâts de zone.",
-          "abilityType": "W"
+          "shortTooltip": "Alterne entre les armes modulables",
+          "fullTooltip": "Permet de moduler l’arme de Fénix en canon automatique ou en bombe phasique.  Canon automatique : augmente la vitesse des attaques de base de 150%.  Bombe phasique : augmente la portée des attaques de base de 1.25 mètre, augmente leurs dégâts de 25%, et leur permet d’infliger des dégâts de zone.",
+          "abilityType": "Active"
         },
         {
           "nameId": "FenixWarp",
@@ -8942,25 +8942,6 @@
         }
       ]
     },
-    "subAbilities": [
-      {
-        "FenixPhaseBomb": {
-          "basic": [
-            {
-              "nameId": "FenixRepeaterCannon",
-              "name": "Arme modulable : bombe phasique",
-              "shortTooltipId": "FenixRepeaterCannon",
-              "fullTooltipId": "FenixRepeaterCannon",
-              "icon": "storm_ui_icon_fenix_w_1.png",
-              "toggleCooldown": 0.5,
-              "shortTooltip": "Les attaques de base infligent des dégâts de zone et leur puissance ainsi que leur portée sont augmentées.",
-              "fullTooltip": "La portée des attaques de base est augmentée de 1.25 mètre, leurs dégâts sont augmentés de 25% et s’appliquent en zone.  Activer permet de moduler l’arme en canon automatique, ce qui augmente la vitesse des attaques de base.",
-              "abilityType": "W"
-            }
-          ]
-        }
-      }
-    ],
     "talents": {
       "level1": [
         {
@@ -8983,7 +8964,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "Canon automatique renforce Bombe phasique.",
           "fullTooltip": "Une fois 3 attaques portées à des héros avec Canon automatique, la prochaine attaque de base portée avec Bombe phasique inflige 150% de dégâts supplémentaires et sa zone d’effet augmente de 50%.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -8994,7 +8975,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Se déplacer renforce les attaques de base.",
           "fullTooltip": "Après un déplacement, la première attaque de base que Fénix porte à un héros lui inflige 35% de dégâts supplémentaires.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 3
         }
       ],
@@ -9007,7 +8988,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Canon automatique peut augmenter la vitesse de déplacement.",
           "fullTooltip": "Les attaques de base portées avec canon automatique à des héros ralentis par Découpeur à plasma augmentent la vitesse de déplacement de Fénix de 10% pendant 4 secondes, cumulable jusqu’à 40%.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -9018,7 +8999,7 @@
           "icon": "storm_ui_icon_fenix_w_1.png",
           "shortTooltip": "Bombe phasique peut ralentir les ennemis touchés.",
           "fullTooltip": "Quand Bombe phasique est active, les attaques de base portées à des héros ralentis par Découpeur à plasma ralentissent tous les ennemis dans la zone de 35% pendant 4 secondes.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -9164,7 +9145,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Les attaques successives de Canon automatique gagnent en puissance.",
           "fullTooltip": "Chaque troisième attaque de base portée à un héros avec Canon automatique lui inflige un supplément de dégâts équivalent à 6% de son maximum de points de vie.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -9210,7 +9191,7 @@
           "icon": "storm_ui_icon_fenix_w_2.png",
           "shortTooltip": "Augmente les bonus conférés par l’arme modulable.",
           "fullTooltip": "Le module Canon automatique augmente la vitesse d’attaque de 100% supplémentaires et le module Bombe phasique augmente la portée de 1.25 mètre supplémentaire.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -17548,15 +17529,15 @@
           "abilityType": "Q"
         },
         {
-          "nameId": "LucioCrossfadeActivateHealingBoost",
+          "nameId": "LucioCrossfade",
           "name": "Crossfade",
-          "shortTooltipId": "LucioCrossfadeActivateHealingBoost",
-          "fullTooltipId": "LucioCrossfadeActivateHealingBoost",
-          "icon": "storm_ui_icon_Lucio_CrossfadeHealing.png",
+          "shortTooltipId": "LucioCrossfadeShop",
+          "fullTooltipId": "LucioCrossfadeShop",
+          "icon": "storm_ui_icon_lucio_crossfade_all.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Joue un beat de soins ou un beat de vitesse.",
-          "fullTooltip": "Diffuse le beat de vitesse, qui augmente la vitesse de déplacement de Lúcio et de ses alliés proches de 20%.  Activer pour passer au beat de soins.",
-          "abilityType": "W"
+          "fullTooltip": "Diffuse l’un des deux morceaux pour Lúcio et ses alliés.  Beat de soins : rend 16 (+4% per level) points de vie par seconde à Lúcio et aux héros alliés proches.  Beat de vitesse : augmente de 20% la vitesse de déplacement de Lúcio et des héros alliés proches.",
+          "abilityType": "Active"
         },
         {
           "nameId": "LucioAmpItUp",
@@ -17623,25 +17604,6 @@
         }
       ]
     },
-    "subAbilities": [
-      {
-        "LucioCrossfadeActivateHealingBoost": {
-          "basic": [
-            {
-              "nameId": "LucioCrossfade",
-              "name": "Crossfade",
-              "shortTooltipId": "LucioCrossfadeActivateSpeedBoost",
-              "fullTooltipId": "LucioCrossfadeActivateSpeedBoost",
-              "icon": "storm_ui_icon_Lucio_CrossfadeSpeed.png",
-              "toggleCooldown": 0.5,
-              "shortTooltip": "Joue un beat de soins ou un beat de vitesse.",
-              "fullTooltip": "Diffuse le beat de soins, qui rend automatiquement 16 (+4% per level) points de vie par seconde à Lúcio et à ses alliés proches.  Activer pour passer au beat de vitesse.",
-              "abilityType": "W"
-            }
-          ]
-        }
-      }
-    ],
     "talents": {
       "level1": [
         {
@@ -17724,7 +17686,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "Quête : jouer Crossfade pour des alliés en augmente la portée.",
           "fullTooltip": "Quête : diffuser les beats de Crossfade aux alliés pendant 8 minutes au total. La vitesse du compteur dépend du nombre de héros alliés présents dans la zone d’effet de Crossfade.  Récompense : augmente de manière permanente la portée de Crossfade de 20%.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "isQuest": true,
           "sort": 1
         },
@@ -17793,7 +17755,7 @@
           "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
           "shortTooltip": "Confère un bouclier après avoir changé le beat de Crossfade.",
           "fullTooltip": "Après avoir changé de beat, si le nouveau morceau est diffusé pendant au moins 1.5 seconde, Lúcio obtient un bouclier capable d’absorber 100 (+4% per level) points de dégâts.  Changer de nouveau de beat annule le bouclier.",
-          "abilityType": "W",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -28696,7 +28658,7 @@
           "cooldownTooltip": "Temps de recharge : 9 secondes",
           "shortTooltip": "Fonce vers l’emplacement ciblé.",
           "fullTooltip": "Fonce vers l’emplacement ciblé. Cumule jusqu’à 3 charges.",
-          "abilityType": "Q"
+          "abilityType": "Active"
         },
         {
           "nameId": "TracerMelee",
@@ -28833,7 +28795,7 @@
           "icon": "storm_ui_icon_tracer_blink_b.png",
           "shortTooltip": "Augmente le nombre de charges de Transfert.",
           "fullTooltip": "Augmente de 1 le nombre de charges de Transfert, mais augmente aussi son temps de recharge de 2 secondes.",
-          "abilityType": "Q",
+          "abilityType": "Active",
           "sort": 1
         },
         {
@@ -28844,7 +28806,7 @@
           "icon": "storm_ui_icon_tracer_blink_c.png",
           "shortTooltip": "Les attaques de base réduisent le temps de recharge de Transfert.",
           "fullTooltip": "Les attaques de base réduisent le temps de recharge de Transfert de 0.15 seconde.",
-          "abilityType": "Q",
+          "abilityType": "Active",
           "sort": 2
         },
         {
@@ -28855,7 +28817,7 @@
           "icon": "storm_ui_icon_tracer_blink_d.png",
           "shortTooltip": "Les victimes confèrent des charges de Transfert.",
           "fullTooltip": "Tuer des héros confère 2 charges de Transfert.",
-          "abilityType": "Q",
+          "abilityType": "Active",
           "sort": 3
         }
       ],
