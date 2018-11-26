@@ -78,7 +78,8 @@
         "description": "While Guitar Solo is active, E.T.C. heals for 50% of his damage dealt by Basic Attacks.",
         "icon": "storm_ui_icon_etc_guitarsolo.png",
         "sort": 1,
-        "abilityId": "E.T.C.|E1"
+        "abilityId": "E.T.C.|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "ETCProgRockTalent",
@@ -87,7 +88,8 @@
         "description": "Quest: Gathering a Regeneration Globe permanently increases the healing per second of Guitar Solo by 5, to a maximum of 100  Reward: After gathering 20 Regeneration Globes, Guitar Solo also heals nearby allied Heroes for 50 (+4% per level) Health every second while it is active.",
         "icon": "storm_ui_icon_etc_guitarsolo_a.png",
         "sort": 2,
-        "abilityId": "E.T.C.|E1"
+        "abilityId": "E.T.C.|E1",
+        "isQuest": 1
       },
       {
         "tooltipId": "ETCBlockParty",
@@ -96,7 +98,8 @@
         "description": "Using a Basic or Heroic ability also gives nearby allied Heroes a stack of Block, granting 50 Physical Armor against the next Hero Basic Attack for 8 seconds, reducing the damage taken by 50%. Maximum 2 stacks of Block.",
         "icon": "storm_ui_icon_etc_rockstar.png",
         "sort": 3,
-        "abilityId": "E.T.C.|D1"
+        "abilityId": "E.T.C.|D1",
+        "isQuest": 0
       }
     ],
     "4": [
@@ -107,7 +110,8 @@
         "description": "Allows Powerslide to travel over walls and terrain.",
         "icon": "storm_ui_icon_etc_powerslide.png",
         "sort": 1,
-        "abilityId": "E.T.C.|Q1"
+        "abilityId": "E.T.C.|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "L90ETCFaceMeltLoudSpeakersTalent",
@@ -116,7 +120,8 @@
         "description": "Increases Face Melt range and knockback by 50%.",
         "icon": "storm_ui_icon_etc_facemelt.png",
         "sort": 2,
-        "abilityId": "E.T.C.|W1"
+        "abilityId": "E.T.C.|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "ETCSpeedMetalTalent",
@@ -125,7 +130,8 @@
         "description": "Using a Basic or Heroic ability also gives nearby allied Heroes 15% Movement Speed for 2 seconds.",
         "icon": "storm_ui_icon_etc_speedmetal.png",
         "sort": 3,
-        "abilityId": "E.T.C.|D1"
+        "abilityId": "E.T.C.|D1",
+        "isQuest": 0
       }
     ],
     "7": [
@@ -136,7 +142,8 @@
         "description": "Face Melt does 300% more damage to enemies recently affected by Powerslide.",
         "icon": "storm_ui_icon_etc_facemelt.png",
         "sort": 1,
-        "abilityId": "E.T.C.|W1"
+        "abilityId": "E.T.C.|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "L90ETCRockstarEchoPedalTalent",
@@ -145,7 +152,8 @@
         "description": "Using a Basic or Heroic Ability releases two pulses of 15 (+4% per level) damage.  This deals 250% bonus damage to Minions, Mercenaries, and Monsters. The first occurs instantly, the second occurs 2 seconds later.",
         "icon": "storm_ui_icon_etc_echopedal.png",
         "sort": 2,
-        "abilityId": "E.T.C.|Passive"
+        "abilityId": "E.T.C.|Passive",
+        "isQuest": 0
       },
       {
         "tooltipId": "ETCHammeronTalent",
@@ -154,7 +162,8 @@
         "description": "After using an Ability, E.T.C.'s next 2 Basic Attacks deal 35% more damage.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 3,
-        "abilityId": "E.T.C.|Passive"
+        "abilityId": "E.T.C.|Passive",
+        "isQuest": 0
       }
     ],
     "10": [
@@ -166,7 +175,8 @@
         "icon": "storm_ui_icon_etc_moshpit.png",
         "sort": 1,
         "abilityId": "E.T.C.|R1",
-        "cooldown": 120
+        "cooldown": 120,
+        "isQuest": 0
       },
       {
         "tooltipId": "L90ETCStageDive",
@@ -176,7 +186,8 @@
         "icon": "storm_ui_icon_etc_stagedive.png",
         "sort": 2,
         "abilityId": "E.T.C.|R2",
-        "cooldown": 75
+        "cooldown": 75,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -187,7 +198,8 @@
         "description": "Hitting at least 2 targets with Face Melt reduces its cooldown by 6 seconds.",
         "icon": "storm_ui_icon_etc_facemelt.png",
         "sort": 1,
-        "abilityId": "E.T.C.|W1"
+        "abilityId": "E.T.C.|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "ETCEncoreTalent",
@@ -196,7 +208,8 @@
         "description": "Face Melt leaves an Amp behind, which will knock enemies away again 2 seconds later.",
         "icon": "storm_ui_icon_etc_facemelt_a.png",
         "sort": 2,
-        "abilityId": "E.T.C.|W1"
+        "abilityId": "E.T.C.|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "L90ETCFaceMeltFaceSmeltTalent",
@@ -205,7 +218,8 @@
         "description": "Face Melt slows enemies by 50% fading over 2 seconds.",
         "icon": "storm_ui_icon_etc_facemelt_b.png",
         "sort": 3,
-        "abilityId": "E.T.C.|W1"
+        "abilityId": "E.T.C.|W1",
+        "isQuest": 0
       }
     ],
     "16": [
@@ -216,7 +230,8 @@
         "description": "After using Powerslide, gain 15 Armor for 4 seconds, reducing all damage taken by 15%.",
         "icon": "storm_ui_icon_etc_powerslide.png",
         "sort": 1,
-        "abilityId": "E.T.C.|Q1"
+        "abilityId": "E.T.C.|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "ETCGuitarSoloAggressiveShreddingTalent",
@@ -225,7 +240,8 @@
         "description": "E.T.C.'s Basic Attacks reduce the cooldown of Guitar Solo by 0.75 seconds.",
         "icon": "storm_ui_icon_etc_guitarsolo.png",
         "sort": 2,
-        "abilityId": "E.T.C.|E1"
+        "abilityId": "E.T.C.|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenericImposingPresenceTalent",
@@ -235,7 +251,8 @@
         "icon": "storm_ui_icon_talent_imposingpresence.png",
         "sort": 3,
         "abilityId": "E.T.C.|Active",
-        "cooldown": 20
+        "cooldown": 20,
+        "isQuest": 0
       }
     ],
     "20": [
@@ -246,7 +263,8 @@
         "description": "Mosh Pit refreshes the cooldown of Powerslide. E.T.C. can Powerslide during Mosh Pit, which also increases its duration by 2 seconds.",
         "icon": "storm_ui_icon_etc_moshpit.png",
         "sort": 1,
-        "abilityId": "E.T.C.|R1"
+        "abilityId": "E.T.C.|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "ETCStageDiveCrowdPleaserTalent",
@@ -255,7 +273,8 @@
         "description": "Stage Dive's impact area is 50% bigger, and its cooldown is reduced by 10 seconds for every enemy Hero hit.",
         "icon": "storm_ui_icon_etc_stagedive.png",
         "sort": 2,
-        "abilityId": "E.T.C.|R2"
+        "abilityId": "E.T.C.|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "L90ETCDeathMetalTalent",
@@ -264,7 +283,8 @@
         "description": "Upon dying, a ghost uses Mosh Pit at E.T.C's location.",
         "icon": "storm_ui_icon_etc_moshpit_a.png",
         "sort": 3,
-        "abilityId": "E.T.C.|Passive"
+        "abilityId": "E.T.C.|Passive",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenericStormShield",
@@ -274,7 +294,8 @@
         "icon": "storm_ui_icon_talent_stormshield.png",
         "sort": 4,
         "abilityId": "E.T.C.|Active",
-        "cooldown": 45
+        "cooldown": 45,
+        "isQuest": 0
       },
       {
         "tooltipId": "GenericBoltoftheStormTalent",
@@ -284,7 +305,8 @@
         "icon": "storm_ui_icon_talent_boltofthestorm.png",
         "sort": 5,
         "abilityId": "E.T.C.|Active",
-        "cooldown": 70
+        "cooldown": 70,
+        "isQuest": 0
       }
     ]
   }

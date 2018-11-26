@@ -89,7 +89,8 @@
         "description": "Dark Swarm grants 50 Spell Armor while active.",
         "icon": "storm_ui_icon_dehaka_trample.png",
         "sort": 1,
-        "abilityId": "Dehaka|W1"
+        "abilityId": "Dehaka|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DehakaEssenceCollectionTalentTissueRegeneration",
@@ -98,7 +99,8 @@
         "description": "Regeneration Globes grant 10 Essence.  Repeatable Quest: Every 50 Essence collected permanently increases Health Regeneration by 4, up to 40, and maximum Essence by 1, up to 10.",
         "icon": "storm_ui_icon_dehaka_essencecollection.png",
         "sort": 2,
-        "abilityId": "Dehaka|D1"
+        "abilityId": "Dehaka|D1",
+        "isQuest": 1
       },
       {
         "tooltipId": "DehakaEssenceCollectionTalentEnhancedAgility",
@@ -107,7 +109,8 @@
         "description": "Brushstalker's Movement Speed bonus now lasts for 5 seconds after leaving a bush.  Repeatable Quest: Every 50 Essence collected permanently increases the Movement Speed bonus of Brushstalker by 2%, up to 20%.",
         "icon": "storm_ui_icon_dehaka_brushstalker.png",
         "sort": 3,
-        "abilityId": "Dehaka|Z1"
+        "abilityId": "Dehaka|Z1",
+        "isQuest": 1
       }
     ],
     "4": [
@@ -118,7 +121,8 @@
         "description": "Emerging from Burrow grants Dehaka Stealth for 3 seconds and also knocks nearby enemies back, Slowing them by 30% for 3 seconds.",
         "icon": "storm_ui_icon_dehaka_burrow.png",
         "sort": 1,
-        "abilityId": "Dehaka|E1"
+        "abilityId": "Dehaka|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DehakaEssenceCollectionOneWhoCollectsTalent",
@@ -127,7 +131,8 @@
         "description": "Increases Essence collected from Minions by 50%.",
         "icon": "storm_ui_icon_dehaka_essencecollection.png",
         "sort": 2,
-        "abilityId": "Dehaka|D1"
+        "abilityId": "Dehaka|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DehakaEssenceCollectionTalentHeroStalker",
@@ -136,7 +141,8 @@
         "description": "Increases Essence gained from Takedowns by 100%, and gain 1 Essence each time an enemy Hero is hit by Dark Swarm.",
         "icon": "storm_ui_icon_dehaka_essencecollection_var1.png",
         "sort": 3,
-        "abilityId": "Dehaka|D1"
+        "abilityId": "Dehaka|D1",
+        "isQuest": 0
       }
     ],
     "7": [
@@ -147,7 +153,8 @@
         "description": "Basic Attacks reduce Drag's cooldown by 2 seconds.",
         "icon": "storm_ui_icon_dehaka_drag.png",
         "sort": 1,
-        "abilityId": "Dehaka|Q1"
+        "abilityId": "Dehaka|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DehakaDragTalentConstriction",
@@ -156,7 +163,8 @@
         "description": "Increases Drag duration by 0.5 seconds.",
         "icon": "storm_ui_icon_dehaka_drag_var1.png",
         "sort": 2,
-        "abilityId": "Dehaka|Q1"
+        "abilityId": "Dehaka|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DehakaDarkSwarmTalentSymbiosis",
@@ -165,7 +173,8 @@
         "description": "Every time Dark Swarm damages an enemy Hero, reduce its cooldown by 0.4 seconds.",
         "icon": "storm_ui_icon_dehaka_trample.png",
         "sort": 3,
-        "abilityId": "Dehaka|W1"
+        "abilityId": "Dehaka|W1",
+        "isQuest": 0
       }
     ],
     "10": [
@@ -177,7 +186,8 @@
         "icon": "storm_ui_icon_dehaka_isolation.png",
         "sort": 1,
         "abilityId": "Dehaka|R1",
-        "cooldown": 60
+        "cooldown": 60,
+        "isQuest": 0
       },
       {
         "tooltipId": "DehakaAdaptation",
@@ -187,7 +197,8 @@
         "icon": "storm_ui_icon_dehaka_adaptation.png",
         "sort": 2,
         "abilityId": "Dehaka|R2",
-        "cooldown": 80
+        "cooldown": 80,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -198,7 +209,8 @@
         "description": "Gain 1% increased Attack Damage per Essence stored.",
         "icon": "storm_ui_icon_dehaka_essencecollection.png",
         "sort": 1,
-        "abilityId": "Dehaka|D1"
+        "abilityId": "Dehaka|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DehakaBrushstalkerFerociousStalkerTalent",
@@ -207,7 +219,8 @@
         "description": "Dark Swarm deals 50% more damage while Brushstalker's Movement Speed bonus is active.",
         "icon": "storm_ui_icon_dehaka_trample.png",
         "sort": 2,
-        "abilityId": "Dehaka|W1"
+        "abilityId": "Dehaka|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DehakaPrimalSwarm",
@@ -216,7 +229,8 @@
         "description": "Dark Swarm causes enemies hit to lose 10 Armor for 0.75 seconds, causing them to take 10% extra damage.",
         "icon": "storm_ui_icon_dehaka_trample_a.png",
         "sort": 3,
-        "abilityId": "Dehaka|W1"
+        "abilityId": "Dehaka|W1",
+        "isQuest": 0
       }
     ],
     "16": [
@@ -227,7 +241,8 @@
         "description": "Drag Slows enemies by 50% for 2 seconds after it ends.",
         "icon": "storm_ui_icon_dehaka_drag.png",
         "sort": 1,
-        "abilityId": "Dehaka|Q1"
+        "abilityId": "Dehaka|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DehakaDragTalentElongatedTongue",
@@ -236,7 +251,8 @@
         "description": "Increase Drag range by 20%.",
         "icon": "storm_ui_icon_dehaka_drag_var1.png",
         "sort": 2,
-        "abilityId": "Dehaka|Q1"
+        "abilityId": "Dehaka|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DehakaTunnelingClaws",
@@ -245,7 +261,8 @@
         "description": "Dehaka can move while Burrowed.",
         "icon": "storm_ui_icon_dehaka_burrow.png",
         "sort": 3,
-        "abilityId": "Dehaka|E1"
+        "abilityId": "Dehaka|E1",
+        "isQuest": 0
       }
     ],
     "20": [
@@ -256,7 +273,8 @@
         "description": "Isolation hits all Heroes near the first target.",
         "icon": "storm_ui_icon_dehaka_isolation.png",
         "sort": 1,
-        "abilityId": "Dehaka|R1"
+        "abilityId": "Dehaka|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DehakaAdaptationChangeIsSurvivalTalent",
@@ -265,7 +283,8 @@
         "description": "Increases Adaptation healing to 200% of the damage received and reduces the cooldown by 30 seconds.",
         "icon": "storm_ui_icon_dehaka_adaptation.png",
         "sort": 2,
-        "abilityId": "Dehaka|R2"
+        "abilityId": "Dehaka|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "DehakaBrushstalkerApexPredatorTalent",
@@ -274,7 +293,8 @@
         "description": "Reduces Brushstalker's cooldown by 35 seconds and the cast time by 0.5 seconds.",
         "icon": "storm_ui_icon_dehaka_brushstalker.png",
         "sort": 3,
-        "abilityId": "Dehaka|Z1"
+        "abilityId": "Dehaka|Z1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DehakaEssenceClaws",
@@ -283,7 +303,8 @@
         "description": "Dehaka's Basic Attacks slow the target by 20% for 1 second. If the target is a Hero, Dehaka gains 5 Essence.",
         "icon": "storm_ui_icon_dehaka_essencecollection.png",
         "sort": 4,
-        "abilityId": "Dehaka|D1"
+        "abilityId": "Dehaka|D1",
+        "isQuest": 0
       }
     ]
   }

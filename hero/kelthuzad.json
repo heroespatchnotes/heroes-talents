@@ -78,7 +78,8 @@
         "description": "Increase Death and Decay's duration by 1 second. After gaining 30 Blight, increase the radius of Death and Decay's pool by 30%.",
         "icon": "storm_ui_icon_kelthuzad_deathanddecay.png",
         "sort": 1,
-        "abilityId": "Kel'Thuzad|Q1"
+        "abilityId": "Kel'Thuzad|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KelThuzadBlightedFrost",
@@ -87,7 +88,8 @@
         "description": "Frost Nova deals 75% more damage to enemies in the center. After gaining 30 Blight, increase Frost Nova's Root duration by 0.5 seconds.",
         "icon": "storm_ui_icon_kelthuzad_frostnova.png",
         "sort": 2,
-        "abilityId": "Kel'Thuzad|W1"
+        "abilityId": "Kel'Thuzad|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KelThuzadBarbedChains",
@@ -96,7 +98,8 @@
         "description": "Increase Chains of Kel'Thuzad damage by 125%. After gaining 30 Blight, Chains of Kel'Thuzad reduces the Armor of pulled Heroes by 10 for 4 seconds.",
         "icon": "storm_ui_icon_kelthuzad_chains.png",
         "sort": 3,
-        "abilityId": "Kel'Thuzad|E1"
+        "abilityId": "Kel'Thuzad|E1",
+        "isQuest": 0
       }
     ],
     "4": [
@@ -107,7 +110,8 @@
         "description": "Pulling a Hero with Chains of Kel'Thuzad grants Kel'Thuzad a permanent 128 (+4% per level) Shield, stacking up to 2 times.  Additionally, Chains of Kel'Thuzad deals up to 270 (+2.5% per level) bonus damage to Heroes' Shields.",
         "icon": "storm_ui_icon_kelthuzad_chains.png",
         "sort": 1,
-        "abilityId": "Kel'Thuzad|E1"
+        "abilityId": "Kel'Thuzad|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KelThuzadPhylactery",
@@ -116,7 +120,8 @@
         "description": "Quest: Collect 12 Regeneration Globes to charge Kel'Thuzad's Phylactery.  Reward: Kel'Thuzad's Phylactery can be activated while dead to immediately respawn at the Hall of Storms, but must be charged again.  Passive: Kel'Thuzad heals for 10% of all Spell Damage dealt while the Phylactery is charged.",
         "icon": "storm_ui_icon_kelthuzad_phylactery.png",
         "sort": 2,
-        "abilityId": "Kel'Thuzad|Passive"
+        "abilityId": "Kel'Thuzad|Passive",
+        "isQuest": 1
       },
       {
         "tooltipId": "KelThuzadArchlichArmor",
@@ -126,7 +131,8 @@
         "icon": "storm_ui_icon_kelthuzad_armorofthearchlich.png",
         "sort": 3,
         "abilityId": "Kel'Thuzad|Active",
-        "cooldown": 25
+        "cooldown": 25,
+        "isQuest": 0
       }
     ],
     "7": [
@@ -137,7 +143,8 @@
         "description": "Each time a Hero is hit by Death and Decay's pool, they take 20% more periodic damage from Death and Decay for the next 4 seconds, stacking up to 6 times.",
         "icon": "storm_ui_icon_kelthuzad_deathanddecay.png",
         "sort": 1,
-        "abilityId": "Kel'Thuzad|Q1"
+        "abilityId": "Kel'Thuzad|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KelThuzadChillingTouch",
@@ -146,7 +153,8 @@
         "description": "Every 8 seconds, Kel'Thuzad's next Basic Attack hits all enemies in the area for 100%  additional damage, deals Spell damage instead of Physical, and Slows by 30% for 2 seconds.",
         "icon": "storm_ui_icon_kelthuzad_chillingtouch.png",
         "sort": 2,
-        "abilityId": "Kel'Thuzad|Passive"
+        "abilityId": "Kel'Thuzad|Passive",
+        "isQuest": 0
       },
       {
         "tooltipId": "KelThuzadIceCold",
@@ -155,7 +163,8 @@
         "description": "Reduce the cooldown of Glacial Spike by 5 seconds and increase its damage by 300%.",
         "icon": "storm_ui_icon_kelthuzad_glacialspike.png",
         "sort": 3,
-        "abilityId": "Kel'Thuzad|Passive"
+        "abilityId": "Kel'Thuzad|Passive",
+        "isQuest": 0
       }
     ],
     "10": [
@@ -167,7 +176,8 @@
         "icon": "storm_ui_icon_kelthuzad_frozentomb.png",
         "sort": 1,
         "abilityId": "Kel'Thuzad|R1",
-        "cooldown": 60
+        "cooldown": 60,
+        "isQuest": 0
       },
       {
         "tooltipId": "KelThuzadShadowFissure",
@@ -177,7 +187,8 @@
         "icon": "storm_ui_icon_kelthuzad_shadowfissure.png",
         "sort": 2,
         "abilityId": "Kel'Thuzad|R2",
-        "cooldown": 16
+        "cooldown": 16,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -188,7 +199,8 @@
         "description": "Increase Frost Nova's Slow by 15%. Each time Kel'thuzad damages enemies Slowed by Frost Nova, its Slow duration is increased by 0.5 seconds.",
         "icon": "storm_ui_icon_kelthuzad_frostnova.png",
         "sort": 1,
-        "abilityId": "Kel'Thuzad|W1"
+        "abilityId": "Kel'Thuzad|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KelThuzadChainsOfIce",
@@ -197,7 +209,8 @@
         "description": "After Chains of Kel'Thuzad's Stun expires, the enemy is also Slowed by 60% for 1 second.",
         "icon": "storm_ui_icon_kelthuzad_chains.png",
         "sort": 2,
-        "abilityId": "Kel'Thuzad|E1"
+        "abilityId": "Kel'Thuzad|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KelThuzadChainLink",
@@ -206,7 +219,8 @@
         "description": "Pulling a Hero with Chains of Kel'Thuzad reduces its cooldown by 5 seconds and refunds its Mana cost.",
         "icon": "storm_ui_icon_kelthuzad_chains_a.png",
         "sort": 3,
-        "abilityId": "Kel'Thuzad|E1"
+        "abilityId": "Kel'Thuzad|E1",
+        "isQuest": 0
       }
     ],
     "16": [
@@ -217,7 +231,8 @@
         "description": "Whenever Kel'Thuzad hits an enemy Hero with Death and Decay's explosion, its cooldown is reduced by 1.5 seconds.",
         "icon": "storm_ui_icon_kelthuzad_deathanddecay.png",
         "sort": 1,
-        "abilityId": "Kel'Thuzad|Q1"
+        "abilityId": "Kel'Thuzad|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KelThuzadHungeringCold",
@@ -226,7 +241,8 @@
         "description": "Enemies that are Rooted take an additional 55 (+2.5% per level) damage each time they are damaged by Kel'Thuzad.",
         "icon": "storm_ui_icon_talent_abilitytalent_damage.png",
         "sort": 2,
-        "abilityId": "Kel'Thuzad|Passive"
+        "abilityId": "Kel'Thuzad|Passive",
+        "isQuest": 0
       },
       {
         "tooltipId": "KelThuzadPowerOfIcecrown",
@@ -235,7 +251,8 @@
         "description": "Stunning, Rooting, or Slowing a Hero grants 6% Spell Power for 10 seconds, stacking up to 5 times.",
         "icon": "storm_ui_icon_kelthuzad_poweroficecrown.png",
         "sort": 3,
-        "abilityId": "Kel'Thuzad|Passive"
+        "abilityId": "Kel'Thuzad|Passive",
+        "isQuest": 0
       }
     ],
     "20": [
@@ -246,7 +263,8 @@
         "description": "When Frost Blast's Root expires, enemies are Slowed by 40% for 3 seconds. Heroes killed while under the effects of Frost Blast instantly release another Frost Blast explosion.",
         "icon": "storm_ui_icon_kelthuzad_frozentomb.png",
         "sort": 1,
-        "abilityId": "Kel'Thuzad|R1"
+        "abilityId": "Kel'Thuzad|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KelThuzadMightOfTheScourge",
@@ -255,7 +273,8 @@
         "description": "Hitting a Hero with Shadow Fissure resets its cooldown.",
         "icon": "storm_ui_icon_kelthuzad_shadowfissure.png",
         "sort": 2,
-        "abilityId": "Kel'Thuzad|R2"
+        "abilityId": "Kel'Thuzad|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "KelThuzadShiftingMalice",
@@ -265,7 +284,8 @@
         "icon": "storm_ui_icon_kelthuzad_shiftingmalice.png",
         "sort": 3,
         "abilityId": "Kel'Thuzad|Active",
-        "cooldown": 240
+        "cooldown": 240,
+        "isQuest": 0
       },
       {
         "tooltipId": "KelThuzadTheDamnedReturn",
@@ -275,7 +295,8 @@
         "icon": "storm_ui_icon_kelthuzad_cultofthedamned.png",
         "sort": 4,
         "abilityId": "Kel'Thuzad|Active",
-        "cooldown": 15
+        "cooldown": 15,
+        "isQuest": 0
       }
     ]
   }

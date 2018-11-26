@@ -80,7 +80,8 @@
         "description": "Banelings can travel 50% further before exploding and their damage to non-Heroes is increased by 50%.",
         "icon": "storm_ui_icon_zagara_banelingbarrage.png",
         "sort": 1,
-        "abilityId": "Zagara|Q1"
+        "abilityId": "Zagara|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "ZagaraInfestedDropCorpseFeedersTalent",
@@ -89,7 +90,8 @@
         "description": "Reduces the cooldown of Infested Drop by 3 seconds and Roachlings take 50% less damage from non-Heroic sources.",
         "icon": "storm_ui_icon_zagara_infesteddrop.png",
         "sort": 2,
-        "abilityId": "Zagara|E1"
+        "abilityId": "Zagara|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "ZagaraInfest",
@@ -98,7 +100,8 @@
         "description": "Nearby Ranged Minions deal an additional 100% damage, plus an additional 1% per 1000 Siege damage Zagara has dealt. Can be toggled on or off.",
         "icon": "storm_ui_icon_zagara_infest.png",
         "sort": 3,
-        "abilityId": "Zagara|Active"
+        "abilityId": "Zagara|Active",
+        "isQuest": 0
       }
     ],
     "4": [
@@ -110,7 +113,8 @@
         "icon": "storm_ui_icon_talent_autoattack_range.png",
         "sort": 1,
         "abilityId": "Zagara|Active",
-        "cooldown": 30
+        "cooldown": 30,
+        "isQuest": 0
       },
       {
         "tooltipId": "ZagaraMedusaBladesTalent",
@@ -119,7 +123,8 @@
         "description": "Basic Attacks deal 33% damage to three nearby targets.",
         "icon": "storm_ui_icon_talent_autoattack_aoe.png",
         "sort": 2,
-        "abilityId": "Zagara|Passive"
+        "abilityId": "Zagara|Passive",
+        "isQuest": 0
       },
       {
         "tooltipId": "ZagaraSerratedSpines",
@@ -128,7 +133,8 @@
         "description": "Quest: Each Basic Attack against a Hero increases Zagara's Attack Damage by 0.3.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 3,
-        "abilityId": "Zagara|Passive"
+        "abilityId": "Zagara|Passive",
+        "isQuest": 1
       }
     ],
     "7": [
@@ -139,7 +145,8 @@
         "description": "Gain 2 additional charges of Banelings.",
         "icon": "storm_ui_icon_zagara_banelingbarrage.png",
         "sort": 1,
-        "abilityId": "Zagara|Q1"
+        "abilityId": "Zagara|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "ZagaraViscousAcid",
@@ -148,7 +155,8 @@
         "description": "Banelings slow enemies by 20% for 1.5 seconds.",
         "icon": "storm_ui_icon_zagara_banelingbarrage_a.png",
         "sort": 2,
-        "abilityId": "Zagara|Q1"
+        "abilityId": "Zagara|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "ZagaraInfestedDropBileDropTalent",
@@ -157,7 +165,8 @@
         "description": "Quest: Passively increases the damage of Infested Drop by 50%. Each Hero hit by the impact damage of Infested Drop increases this bonus by 5%.  Reward: Upon reaching 150% bonus damage, increase the impact radius of Infested Drop by 20%.",
         "icon": "storm_ui_icon_zagara_infesteddrop.png",
         "sort": 3,
-        "abilityId": "Zagara|E1"
+        "abilityId": "Zagara|E1",
+        "isQuest": 1
       }
     ],
     "10": [
@@ -169,7 +178,8 @@
         "icon": "storm_ui_icon_zagara_devouringmaw.png",
         "sort": 1,
         "abilityId": "Zagara|R1",
-        "cooldown": 80
+        "cooldown": 80,
+        "isQuest": 0
       },
       {
         "tooltipId": "ZagaraNydusNetwork",
@@ -179,7 +189,8 @@
         "icon": "storm_ui_icon_zagara_nydusworm.png",
         "sort": 2,
         "abilityId": "Zagara|R2",
-        "cooldown": 120
+        "cooldown": 120,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -190,7 +201,8 @@
         "description": "Zagara is healed for 75% of the damage dealt by Hunter Killers' Basic Attacks to Heroes.",
         "icon": "storm_ui_icon_zagara_hunterkiller.png",
         "sort": 1,
-        "abilityId": "Zagara|W1"
+        "abilityId": "Zagara|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "ZagaraCreepTumorProtectiveCoating",
@@ -199,7 +211,8 @@
         "description": "While on Creep, Zagara gains 20 Armor, taking 20% less damage.",
         "icon": "storm_ui_icon_zagara_creep.png",
         "sort": 2,
-        "abilityId": "Zagara|D1"
+        "abilityId": "Zagara|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenericSpellShieldTalent",
@@ -208,7 +221,8 @@
         "description": "Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 50%.  Can be toggled to allow or prevent this talent from triggering automatically.",
         "icon": "storm_ui_icon_talent_spellshield.png",
         "sort": 3,
-        "abilityId": "Zagara|Active"
+        "abilityId": "Zagara|Active",
+        "isQuest": 0
       }
     ],
     "16": [
@@ -219,7 +233,8 @@
         "description": "Reduces the cooldown of Hunter Killer by 7 seconds and its Mana cost by 30.",
         "icon": "storm_ui_icon_zagara_hunterkiller.png",
         "sort": 1,
-        "abilityId": "Zagara|W1"
+        "abilityId": "Zagara|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "ZagaraCorrosiveSalivaHunterKillerTalent",
@@ -228,7 +243,8 @@
         "description": "When used against Heroes, Hunter Killers deal additional damage equal to 2.5% of their maximum Health.",
         "icon": "storm_ui_icon_zagara_hunterkiller_a.png",
         "sort": 2,
-        "abilityId": "Zagara|W1"
+        "abilityId": "Zagara|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "ZagaraHunterKillerMutaliskTalent",
@@ -237,7 +253,8 @@
         "description": "Hunter Killer now spawns a Mutalisk. Mutalisks have a bounce attack and last for 30 seconds.",
         "icon": "storm_ui_icon_zagara_hunterkillermuta.png",
         "sort": 3,
-        "abilityId": "Zagara|W1"
+        "abilityId": "Zagara|W1",
+        "isQuest": 0
       }
     ],
     "20": [
@@ -248,7 +265,8 @@
         "description": "Devouring Maw deals 50% more damage. Takedowns reduce its cooldown by 25 seconds.",
         "icon": "storm_ui_icon_zagara_devouringmaw.png",
         "sort": 1,
-        "abilityId": "Zagara|R1"
+        "abilityId": "Zagara|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "ZagaraCreepTumorEndlessCreepTalent",
@@ -257,7 +275,8 @@
         "description": "The cast range for Creep Tumor is increased by 2000%. Creep Tumors now last 600 seconds. While on Creep, Zagara gains an additional 10% Movement Speed.",
         "icon": "storm_ui_icon_zagara_nydusworm.png",
         "sort": 2,
-        "abilityId": "Zagara|R2"
+        "abilityId": "Zagara|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "FuryoftheStormTalent",
@@ -266,7 +285,8 @@
         "description": "Every 5 seconds, your next Basic Attack will deal an additional 91 (+4% per level) damage to the target, and 228 (+4% per level) damage to all nearby Minions, Mercenaries, and Monsters.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 3,
-        "abilityId": "Zagara|Passive"
+        "abilityId": "Zagara|Passive",
+        "isQuest": 0
       }
     ]
   }

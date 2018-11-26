@@ -77,7 +77,8 @@
         "description": "When a nearby enemy Minion dies, a free Withering Fire is shot. This cannot hit Heroes.",
         "icon": "storm_ui_icon_sylvanas_witheringfire.png",
         "sort": 1,
-        "abilityId": "Sylvanas|Q1"
+        "abilityId": "Sylvanas|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "SylvanasDreadfulWake",
@@ -86,7 +87,8 @@
         "description": "Haunting Wave's application of Black Arrow on Minions and Mercenaries increases the duration to 7 seconds. Haunting Wave restores 5 Mana per Minion or Mercenary hit.",
         "icon": "storm_ui_icon_sylvanas_hauntingwave.png",
         "sort": 2,
-        "abilityId": "Sylvanas|E1"
+        "abilityId": "Sylvanas|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "SylvanasMercenaryQueenTalent",
@@ -95,7 +97,8 @@
         "description": "Friendly non-Boss Mercenaries near Sylvanas deal 60% more damage.",
         "icon": "storm_ui_icon_sylvanas_bansheequeen.png",
         "sort": 3,
-        "abilityId": "Sylvanas|Passive"
+        "abilityId": "Sylvanas|Passive",
+        "isQuest": 0
       }
     ],
     "4": [
@@ -106,7 +109,8 @@
         "description": "Increase Withering Fire charges by 1. Charges can be fired 33% faster.",
         "icon": "storm_ui_icon_sylvanas_witheringfire.png",
         "sort": 1,
-        "abilityId": "Sylvanas|Q1"
+        "abilityId": "Sylvanas|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "SylvanasWitheringFireWithTheWindTalent",
@@ -115,7 +119,8 @@
         "description": "Increases Withering Fire's range by 25%.",
         "icon": "storm_ui_icon_sylvanas_witheringfire_var1.png",
         "sort": 2,
-        "abilityId": "Sylvanas|Q1"
+        "abilityId": "Sylvanas|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "SylvanasShadowDaggerLostSoulTalent",
@@ -124,7 +129,8 @@
         "description": "Reduce Shadow Dagger's cooldown by 1 seconds each time it spreads to a Hero.",
         "icon": "storm_ui_icon_sylvanas_shadowdagger.png",
         "sort": 3,
-        "abilityId": "Sylvanas|W1"
+        "abilityId": "Sylvanas|W1",
+        "isQuest": 0
       }
     ],
     "7": [
@@ -135,7 +141,8 @@
         "description": "Withering Fire deals 200% bonus damage to Minions, Mercenaries, and Monsters.",
         "icon": "storm_ui_icon_sylvanas_witheringfire.png",
         "sort": 1,
-        "abilityId": "Sylvanas|Q1"
+        "abilityId": "Sylvanas|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "SylvanasBlackArrowsUnstablePoisonTalent",
@@ -144,7 +151,8 @@
         "description": "Minions that die under the effects of Black Arrows explode, dealing 116 (+4% per level) damage to nearby enemies.  Does not damage Heroes or Structures.",
         "icon": "storm_ui_icon_sylvanas_blackarrows.png",
         "sort": 2,
-        "abilityId": "Sylvanas|D1"
+        "abilityId": "Sylvanas|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "SylvanasPossession",
@@ -154,7 +162,8 @@
         "icon": "storm_ui_icon_sylvanas_possession.png",
         "sort": 3,
         "abilityId": "Sylvanas|Active",
-        "cooldown": 8
+        "cooldown": 8,
+        "isQuest": 0
       }
     ],
     "10": [
@@ -166,7 +175,8 @@
         "icon": "storm_ui_icon_sylvanas_wailingarrow.png",
         "sort": 1,
         "abilityId": "Sylvanas|R1",
-        "cooldown": 90
+        "cooldown": 90,
+        "isQuest": 0
       },
       {
         "tooltipId": "SylvanasMindControl",
@@ -176,7 +186,8 @@
         "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
         "sort": 2,
         "abilityId": "Sylvanas|R2",
-        "cooldown": 60
+        "cooldown": 60,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -187,7 +198,8 @@
         "description": "Shadow Dagger heals Sylvanas for 37 (+4% per level) each time it spreads to an enemy.",
         "icon": "storm_ui_icon_sylvanas_shadowdagger.png",
         "sort": 1,
-        "abilityId": "Sylvanas|W1"
+        "abilityId": "Sylvanas|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "SylvanasHauntingWaveWindrunnerTalent",
@@ -196,7 +208,8 @@
         "description": "Teleporting with Haunting Wave fully recharges Withering Fire. Haunting Wave can be cast a second time for free within 5 seconds after teleporting.",
         "icon": "storm_ui_icon_sylvanas_hauntingwave.png",
         "sort": 2,
-        "abilityId": "Sylvanas|E1"
+        "abilityId": "Sylvanas|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "SylvanasWillOfTheForsaken",
@@ -206,7 +219,8 @@
         "icon": "storm_ui_icon_sylvanas_willoftheforsaken.png",
         "sort": 3,
         "abilityId": "Sylvanas|Active",
-        "cooldown": 60
+        "cooldown": 60,
+        "isQuest": 0
       },
       {
         "tooltipId": "GenericSpellShieldTalent",
@@ -215,7 +229,8 @@
         "description": "Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 50%.  Can be toggled to allow or prevent this talent from triggering automatically.",
         "icon": "storm_ui_icon_talent_spellshield.png",
         "sort": 4,
-        "abilityId": "Sylvanas|Active"
+        "abilityId": "Sylvanas|Active",
+        "isQuest": 0
       }
     ],
     "16": [
@@ -226,7 +241,8 @@
         "description": "When an enemy is hit with Withering Fire, gain 10% Movement Speed for 2 seconds, stacking up to 30%.",
         "icon": "storm_ui_icon_sylvanas_witheringfire.png",
         "sort": 1,
-        "abilityId": "Sylvanas|Q1"
+        "abilityId": "Sylvanas|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "SylvanasShadowDaggerColdEmbraceTalent",
@@ -235,7 +251,8 @@
         "description": "Shadow Dagger lowers the Armor of the initial enemy by 25 for 2 seconds, causing them to take 25% more damage.",
         "icon": "storm_ui_icon_sylvanas_shadowdagger.png",
         "sort": 2,
-        "abilityId": "Sylvanas|W1"
+        "abilityId": "Sylvanas|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "SylvanasBlackArrowsOverwhelmingAfflictionTalent",
@@ -244,7 +261,8 @@
         "description": "Black Arrows now also applies to Heroes, slowing their Movement Speed by 6% for the duration. Stacks up to 5 times.",
         "icon": "storm_ui_icon_sylvanas_blackarrows.png",
         "sort": 3,
-        "abilityId": "Sylvanas|D1"
+        "abilityId": "Sylvanas|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "SylvanasRemorselessTalent",
@@ -253,7 +271,8 @@
         "description": "After using an Ability, Sylvanas's next Basic Attack within 3 seconds deals 40% additional damage.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 4,
-        "abilityId": "Sylvanas|Passive"
+        "abilityId": "Sylvanas|Passive",
+        "isQuest": 0
       }
     ],
     "20": [
@@ -264,7 +283,8 @@
         "description": "Enemies at the center of Wailing Arrow's explosion take 50% more damage and are silenced for twice as long.",
         "icon": "storm_ui_icon_sylvanas_wailingarrow.png",
         "sort": 1,
-        "abilityId": "Sylvanas|R1"
+        "abilityId": "Sylvanas|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "SylvanasDarkLadysCallMindControlTalent",
@@ -273,7 +293,8 @@
         "description": "Mind Controlled enemies gain 100% Movement Speed for the duration.",
         "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
         "sort": 2,
-        "abilityId": "Sylvanas|R2"
+        "abilityId": "Sylvanas|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "FuryoftheStormTalent",
@@ -282,7 +303,8 @@
         "description": "Every 5 seconds, your next Basic Attack will deal an additional 91 (+4% per level) damage to the target, and 228 (+4% per level) damage to all nearby Minions, Mercenaries, and Monsters.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 3,
-        "abilityId": "Sylvanas|Passive"
+        "abilityId": "Sylvanas|Passive",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenericBoltoftheStormTalent",
@@ -292,7 +314,8 @@
         "icon": "storm_ui_icon_talent_boltofthestorm.png",
         "sort": 4,
         "abilityId": "Sylvanas|Active",
-        "cooldown": 70
+        "cooldown": 70,
+        "isQuest": 0
       }
     ]
   }

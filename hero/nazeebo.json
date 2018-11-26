@@ -88,7 +88,8 @@
         "description": "Reward: After Corpse Spiders attack Heroes 100 times, their attack damage is increased by 30%.",
         "icon": "storm_ui_icon_nazeebo_corpsespider.png",
         "sort": 1,
-        "abilityId": "Nazeebo|Q1"
+        "abilityId": "Nazeebo|Q1",
+        "isQuest": 1
       },
       {
         "tooltipId": "WitchDoctorPandemic",
@@ -97,7 +98,8 @@
         "description": "Reward: After hitting 40 Heroes with Plague of Toads, it spawns 2 additional toads.",
         "icon": "storm_ui_icon_nazeebo_plagueoftoads.png",
         "sort": 2,
-        "abilityId": "Nazeebo|E1"
+        "abilityId": "Nazeebo|E1",
+        "isQuest": 1
       },
       {
         "tooltipId": "WitchDoctorThingOfTheDeepTalent",
@@ -106,7 +108,8 @@
         "description": "Increases the range of Nazeebo's Basic Abilities by 20%.",
         "icon": "storm_ui_icon_talent_elunesgrace.png",
         "sort": 3,
-        "abilityId": "Nazeebo|Passive"
+        "abilityId": "Nazeebo|Passive",
+        "isQuest": 0
       }
     ],
     "4": [
@@ -117,7 +120,8 @@
         "description": "Corpse Spiders restore 1% of Nazeebo's maximum Health and Mana when they attack an enemy Hero.",
         "icon": "storm_ui_icon_nazeebo_corpsespider.png",
         "sort": 1,
-        "abilityId": "Nazeebo|Q1"
+        "abilityId": "Nazeebo|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "WitchDoctorBigVoodoo",
@@ -126,7 +130,8 @@
         "description": "Increases the Health and Mana bonuses from Voodoo Ritual by 100%.",
         "icon": "storm_ui_icon_nazeebo_voodooritual.png",
         "sort": 2,
-        "abilityId": "Nazeebo|D1"
+        "abilityId": "Nazeebo|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "WitchDoctorVoodooRitualBloodRitualTalent",
@@ -135,7 +140,8 @@
         "description": "If an enemy dies while poisoned by Voodoo Ritual, restore 2% of Nazeebo's maximum Health and Mana.",
         "icon": "storm_ui_icon_nazeebo_voodooritual_a.png",
         "sort": 3,
-        "abilityId": "Nazeebo|D1"
+        "abilityId": "Nazeebo|D1",
+        "isQuest": 0
       }
     ],
     "7": [
@@ -146,7 +152,8 @@
         "description": "If Corpse Spiders hits only one enemy, it creates 2 additional spiders.",
         "icon": "storm_ui_icon_nazeebo_corpsespider.png",
         "sort": 1,
-        "abilityId": "Nazeebo|Q1"
+        "abilityId": "Nazeebo|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "WitchDoctorZombieWallDeadRushTalent",
@@ -155,7 +162,8 @@
         "description": "Zombie Wall deals 75% more damage. When it expires up to 5 remaining Zombies uproot and attack nearby enemies for 3 seconds.",
         "icon": "storm_ui_icon_nazeebo_zombiewall.png",
         "sort": 2,
-        "abilityId": "Nazeebo|W1"
+        "abilityId": "Nazeebo|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "WitchDoctorPlagueOfToadsToadsOfHugenessTalent",
@@ -164,7 +172,8 @@
         "description": "Increase the damage and explosion radius of Plague of Toads by 25% after each hop, up to a maximum of 100%.",
         "icon": "storm_ui_icon_nazeebo_plagueoftoads.png",
         "sort": 3,
-        "abilityId": "Nazeebo|E1"
+        "abilityId": "Nazeebo|E1",
+        "isQuest": 0
       }
     ],
     "10": [
@@ -176,7 +185,8 @@
         "icon": "storm_ui_icon_nazeebo_gargantuan.png",
         "sort": 1,
         "abilityId": "Nazeebo|R1",
-        "cooldown": 70
+        "cooldown": 70,
+        "isQuest": 0
       },
       {
         "tooltipId": "WitchDoctorRavenousSpirit",
@@ -186,7 +196,8 @@
         "icon": "storm_ui_icon_nazeebo_ravenousspirit.png",
         "sort": 2,
         "abilityId": "Nazeebo|R2",
-        "cooldown": 90
+        "cooldown": 90,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -197,7 +208,8 @@
         "description": "Hitting an enemy Hero with Plague of Toads gives 25 Armor for 2 seconds, reducing damage taken by 25%.",
         "icon": "storm_ui_icon_nazeebo_plagueoftoads.png",
         "sort": 1,
-        "abilityId": "Nazeebo|E1"
+        "abilityId": "Nazeebo|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "WitchDoctorSuperstition",
@@ -206,7 +218,8 @@
         "description": "Gain 40 Spell Armor. Heroic Basic Attacks against Nazeebo remove this bonus for 3 seconds.",
         "icon": "storm_ui_icon_nazeebo_suprerstition.png",
         "sort": 2,
-        "abilityId": "Nazeebo|Passive"
+        "abilityId": "Nazeebo|Passive",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenericIceBlockTalent",
@@ -216,7 +229,8 @@
         "icon": "storm_ui_icon_talent_iceblock.png",
         "sort": 3,
         "abilityId": "Nazeebo|Active",
-        "cooldown": 60
+        "cooldown": 60,
+        "isQuest": 0
       }
     ],
     "16": [
@@ -227,7 +241,8 @@
         "description": "Corpse Spider Attacks against Heroes reduce the cooldowns of Zombie Wall and Plague of Toads by 0.25 seconds.",
         "icon": "storm_ui_icon_nazeebo_corpsespider.png",
         "sort": 1,
-        "abilityId": "Nazeebo|Q1"
+        "abilityId": "Nazeebo|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "WitchDoctorRingOfPoison",
@@ -236,7 +251,8 @@
         "description": "Zombie Wall lasts 1 second longer, and the center is filled with poison that deals a total of 319 (+4% per level) damage over 4 seconds. This damage starts small and increases over the duration.",
         "icon": "storm_ui_icon_nazeebo_zombiewall.png",
         "sort": 2,
-        "abilityId": "Nazeebo|W1"
+        "abilityId": "Nazeebo|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "WitchDoctorSoulHarvest",
@@ -246,7 +262,8 @@
         "icon": "storm_ui_icon_nazeebo_soulharvest.png",
         "sort": 3,
         "abilityId": "Nazeebo|Active",
-        "cooldown": 15
+        "cooldown": 15,
+        "isQuest": 0
       }
     ],
     "20": [
@@ -257,7 +274,8 @@
         "description": "Reduce Gargantuan's cooldown by 40 seconds and its Mana cost by 50%.",
         "icon": "storm_ui_icon_nazeebo_gargantuan.png",
         "sort": 1,
-        "abilityId": "Nazeebo|R1"
+        "abilityId": "Nazeebo|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "WitchDoctorRavenousSpiritAnnihilatingSpiritTalent",
@@ -266,7 +284,8 @@
         "description": "Increases the range of Ravenous Spirit by 50% and Movement Speed by 30%.",
         "icon": "storm_ui_icon_nazeebo_ravenousspirit.png",
         "sort": 2,
-        "abilityId": "Nazeebo|R2"
+        "abilityId": "Nazeebo|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "FuryoftheStormTalent",
@@ -275,7 +294,8 @@
         "description": "Every 5 seconds, your next Basic Attack will deal an additional 91 (+4% per level) damage to the target, and 228 (+4% per level) damage to all nearby Minions, Mercenaries, and Monsters.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 3,
-        "abilityId": "Nazeebo|Passive"
+        "abilityId": "Nazeebo|Passive",
+        "isQuest": 0
       },
       {
         "tooltipId": "WitchDoctorVileInfection",
@@ -284,7 +304,8 @@
         "description": "Quest: Reach 175 stacks of Voodoo Ritual.  Reward: After reaching 175 stacks of Voodoo Ritual, it can also be applied to Heroes and its damage is increased from 67 (+4% per level) to 167 (+4% per level) over 6 seconds.",
         "icon": "storm_ui_icon_nazeebo_voodooritual.png",
         "sort": 4,
-        "abilityId": "Nazeebo|D1"
+        "abilityId": "Nazeebo|D1",
+        "isQuest": 1
       }
     ]
   }

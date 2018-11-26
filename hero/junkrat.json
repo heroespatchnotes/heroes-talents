@@ -73,7 +73,8 @@
         "description": "Increase Frag Launcher's travel distance by 50%, but does not increase its speed.",
         "icon": "storm_ui_icon_junkrat_frag_launcher_c.png",
         "sort": 1,
-        "abilityId": "Junkrat|Q1"
+        "abilityId": "Junkrat|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JunkratExtraWoundTimersFragLauncherTalent",
@@ -82,7 +83,8 @@
         "description": "Frag Launcher grenades last an additional 2 seconds before automatically detonating.",
         "icon": "storm_ui_icon_junkrat_frag_launcher_b.png",
         "sort": 2,
-        "abilityId": "Junkrat|Q1"
+        "abilityId": "Junkrat|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JunkratFragLauncherBouncyBouncy",
@@ -91,7 +93,8 @@
         "description": "Upon colliding with terrain for the first time, Frag Launcher grenades deal 20% more damage.",
         "icon": "storm_ui_icon_junkrat_frag_launcher_a.png",
         "sort": 3,
-        "abilityId": "Junkrat|Q1"
+        "abilityId": "Junkrat|Q1",
+        "isQuest": 0
       }
     ],
     "4": [
@@ -102,7 +105,8 @@
         "description": "Quest: Hitting a Hero with Frag Launcher increases its damage by 0.5, up to 100.",
         "icon": "storm_ui_icon_junkrat_frag_launcher.png",
         "sort": 1,
-        "abilityId": "Junkrat|Q1"
+        "abilityId": "Junkrat|Q1",
+        "isQuest": 1
       },
       {
         "tooltipId": "JunkratBonzerHitsConcussionMineTalent",
@@ -111,7 +115,8 @@
         "description": "Quest: Hit enemy Heroes 12 times with Concussion Mine.  Reward: Concussion Mine deals 40% more damage and knocks enemies back 30% farther.",
         "icon": "storm_ui_icon_junkrat_concussion_mine.png",
         "sort": 2,
-        "abilityId": "Junkrat|W1"
+        "abilityId": "Junkrat|W1",
+        "isQuest": 1
       },
       {
         "tooltipId": "JunkratGottaTrapEmAllSteelTrapTalent",
@@ -120,7 +125,8 @@
         "description": "Quest: Hit 7 Heroes with Steel Trap.  Reward: Reduce Steel Trap's cooldown by 3 seconds and increase the maximum number of active traps to 3.",
         "icon": "storm_ui_icon_junkrat_steel_trap.png",
         "sort": 3,
-        "abilityId": "Junkrat|E1"
+        "abilityId": "Junkrat|E1",
+        "isQuest": 1
       }
     ],
     "7": [
@@ -131,7 +137,8 @@
         "description": "While Frag Launcher has no charges left, gain 15% Movement Speed.",
         "icon": "storm_ui_icon_junkrat_frag_launcher.png",
         "sort": 1,
-        "abilityId": "Junkrat|Q1"
+        "abilityId": "Junkrat|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JunkratBigAsSteelTrapTalent",
@@ -140,7 +147,8 @@
         "description": "Increase Steel Trap's radius and damage by 50%.",
         "icon": "storm_ui_icon_junkrat_steel_trap_a.png",
         "sort": 2,
-        "abilityId": "Junkrat|E1"
+        "abilityId": "Junkrat|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JunkratStickyWicketSteelTrapTalent",
@@ -149,7 +157,8 @@
         "description": "Steel Trap no longer Roots enemies, and instead Slows them by 90% for 3.5 seconds.",
         "icon": "storm_ui_icon_junkrat_steel_trap_b.png",
         "sort": 3,
-        "abilityId": "Junkrat|E1"
+        "abilityId": "Junkrat|E1",
+        "isQuest": 0
       }
     ],
     "10": [
@@ -161,7 +170,8 @@
         "icon": "storm_ui_icon_junkrat_rip_tire.png",
         "sort": 1,
         "abilityId": "Junkrat|R1",
-        "cooldown": 80
+        "cooldown": 80,
+        "isQuest": 0
       },
       {
         "tooltipId": "JunkratRocketRide",
@@ -171,7 +181,8 @@
         "icon": "storm_ui_icon_junkrat_rocket_ride.png",
         "sort": 2,
         "abilityId": "Junkrat|R2",
-        "cooldown": 100
+        "cooldown": 100,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -182,7 +193,8 @@
         "description": "Junkrat is knocked back 50% farther by Concussion Mine. Additionally, Concussion Mine's cooldown is reduced by 12 seconds if only Junkrat is hit.",
         "icon": "storm_ui_icon_junkrat_concussion_mine.png",
         "sort": 1,
-        "abilityId": "Junkrat|W1"
+        "abilityId": "Junkrat|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JunkratBoggedDownConcussionMineTalent",
@@ -191,7 +203,8 @@
         "description": "Enemies launched by Concussion Mine are Slowed by 60% for 2 seconds upon landing.",
         "icon": "storm_ui_icon_junkrat_concussion_mine_a.png",
         "sort": 2,
-        "abilityId": "Junkrat|W1"
+        "abilityId": "Junkrat|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JunkratChatteringTeethSteelTrapTalent",
@@ -200,7 +213,8 @@
         "description": "Steel Traps will slowly chase nearby enemy Heroes.",
         "icon": "storm_ui_icon_junkrat_steel_trap.png",
         "sort": 3,
-        "abilityId": "Junkrat|E1"
+        "abilityId": "Junkrat|E1",
+        "isQuest": 0
       }
     ],
     "16": [
@@ -211,7 +225,8 @@
         "description": "Frag Launcher fires all of its charges in a continuous burst, its cooldown is reduced by 6 seconds, but it loses 1 maximum charge.",
         "icon": "storm_ui_icon_junkrat_frag_launcher_f.png",
         "sort": 1,
-        "abilityId": "Junkrat|Q1"
+        "abilityId": "Junkrat|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JunkratEndlessNadesFragLauncherTalent",
@@ -220,7 +235,8 @@
         "description": "Hitting an enemy Hero with Frag Launcher reduces its cooldown by 1.5 seconds.",
         "icon": "storm_ui_icon_junkrat_frag_launcher_e.png",
         "sort": 2,
-        "abilityId": "Junkrat|Q1"
+        "abilityId": "Junkrat|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JunkratSpreadVolleyFragLauncherTalent",
@@ -230,7 +246,8 @@
         "icon": "storm_ui_icon_junkrat_frag_launcher_d.png",
         "sort": 3,
         "abilityId": "Junkrat|Active",
-        "cooldown": 30
+        "cooldown": 30,
+        "isQuest": 0
       }
     ],
     "20": [
@@ -241,7 +258,8 @@
         "description": "Increase RIP-Tire's knockback distance by 50%, and its cooldown is reduced by 20 seconds for each enemy Hero hit.",
         "icon": "storm_ui_icon_junkrat_rip_tire.png",
         "sort": 1,
-        "abilityId": "Junkrat|R1"
+        "abilityId": "Junkrat|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JunkratPuckishScampRocketRideTalent",
@@ -250,7 +268,8 @@
         "description": "Reduce Rocket Ride's cooldown by 70 seconds.",
         "icon": "storm_ui_icon_junkrat_rocket_ride.png",
         "sort": 2,
-        "abilityId": "Junkrat|R2"
+        "abilityId": "Junkrat|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "JunkratCannonballFragLauncherTalent",
@@ -259,7 +278,8 @@
         "description": "Increase the radius and explosion radius of grenades from Basic Attacks and Frag Launcher by 50%.",
         "icon": "storm_ui_icon_junkrat_frag_launcher_g.png",
         "sort": 3,
-        "abilityId": "Junkrat|Q1"
+        "abilityId": "Junkrat|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JunkratBOOMPOWConcussionMineTalent",
@@ -268,7 +288,8 @@
         "description": "Hitting an enemy Hero with Concussion Mine reduces its cooldown by 10 seconds.",
         "icon": "storm_ui_icon_junkrat_concussion_mine.png",
         "sort": 4,
-        "abilityId": "Junkrat|W1"
+        "abilityId": "Junkrat|W1",
+        "isQuest": 0
       }
     ]
   }

@@ -78,7 +78,8 @@
         "description": "Reduces the Mana cost of Hungering Arrow by 40 and increases the damage it deals to Minions, Mercenaries, and Monsters by 150%.",
         "icon": "storm_ui_icon_valla_hungeringarrow.png",
         "sort": 1,
-        "abilityId": "Valla|Q1"
+        "abilityId": "Valla|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DemonHunterVaultCaltropsTalent",
@@ -87,7 +88,8 @@
         "description": "Drop 3 Caltrops while Vaulting. Caltrops do 60 (+4% per level) damage and slow enemies by 25% for 1 second.  Quest: Spend 160 seconds at 10 stacks of Hatred.  Reward: Vault cooldown is reduced by 5 seconds.",
         "icon": "storm_ui_icon_valla_vault.png",
         "sort": 2,
-        "abilityId": "Valla|E1"
+        "abilityId": "Valla|E1",
+        "isQuest": 1
       },
       {
         "tooltipId": "DemonHunterHatredHotPursuitTalent",
@@ -96,7 +98,8 @@
         "description": "When at 10 stacks of Hatred, the Movement Speed bonus increases to 20% total and Valla gains 4 Mana per second.",
         "icon": "storm_ui_icon_valla_hatred.png",
         "sort": 3,
-        "abilityId": "Valla|D1"
+        "abilityId": "Valla|D1",
+        "isQuest": 0
       }
     ],
     "4": [
@@ -107,7 +110,8 @@
         "description": "Quest: Hitting an enemy Hero with the initial impact of Hungering Arrow increases its damage by 5, up to a maximum of 100.  Reward: After gaining 100 bonus damage, gain an additional 75 bonus damage and Hungering Arrow also bounces 1 additional time.",
         "icon": "storm_ui_icon_valla_hungeringarrow.png",
         "sort": 1,
-        "abilityId": "Valla|Q1"
+        "abilityId": "Valla|Q1",
+        "isQuest": 1
       },
       {
         "tooltipId": "DemonHunterHatredPunishmentTalent",
@@ -116,7 +120,8 @@
         "description": "Each stack of Hatred increases the damage of Multishot by 4%.",
         "icon": "storm_ui_icon_valla_multishot.png",
         "sort": 2,
-        "abilityId": "Valla|D1"
+        "abilityId": "Valla|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DemonHunterCreedoftheHunter",
@@ -125,7 +130,8 @@
         "description": "Increases Attack Speed by 10%.  Quest: Use 100 Basic Attacks against Heroes.  Reward: Hatred grants an additional 2% Basic Attack Damage per stack.",
         "icon": "storm_ui_icon_valla_hatred.png",
         "sort": 3,
-        "abilityId": "Valla|D1"
+        "abilityId": "Valla|D1",
+        "isQuest": 1
       }
     ],
     "7": [
@@ -136,7 +142,8 @@
         "description": "Multishot also fires 3 grenades which deal 120 (+4% per level) damage. Each enemy Hero hit by a grenade reduces the cooldown of Multishot by 2 seconds.",
         "icon": "storm_ui_icon_valla_multishot.png",
         "sort": 1,
-        "abilityId": "Valla|W1"
+        "abilityId": "Valla|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DemonHunterDeathDealer",
@@ -145,7 +152,8 @@
         "description": "Increases Vault Basic Attack damage bonus from 6% to 14% per stack of Hatred. If this attack kills its victim, the Mana cost and cooldown of Vault are refunded.",
         "icon": "storm_ui_icon_valla_vault.png",
         "sort": 2,
-        "abilityId": "Valla|E1"
+        "abilityId": "Valla|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DemonHunterVaultRepeatingArrowTalent",
@@ -154,7 +162,8 @@
         "description": "The cooldown for Hungering Arrow is reset when Vault is used.",
         "icon": "storm_ui_icon_valla_vault_a.png",
         "sort": 3,
-        "abilityId": "Valla|E1"
+        "abilityId": "Valla|E1",
+        "isQuest": 0
       }
     ],
     "10": [
@@ -166,7 +175,8 @@
         "icon": "storm_ui_icon_valla_strafe.png",
         "sort": 1,
         "abilityId": "Valla|R1",
-        "cooldown": 60
+        "cooldown": 60,
+        "isQuest": 0
       },
       {
         "tooltipId": "DemonHunterRainOfVengeance",
@@ -176,7 +186,8 @@
         "icon": "storm_ui_icon_valla_rainofvengeance.png",
         "sort": 2,
         "abilityId": "Valla|R2",
-        "cooldown": 50
+        "cooldown": 50,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -187,7 +198,8 @@
         "description": "Valla heals for 75% of the damage dealt to Heroes by Hungering Arrow.",
         "icon": "storm_ui_icon_valla_hungeringarrow.png",
         "sort": 1,
-        "abilityId": "Valla|Q1"
+        "abilityId": "Valla|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DemonHunterHatredTemperedByDisciplineTalent",
@@ -196,7 +208,8 @@
         "description": "While at 10 stacks of Hatred, Basic Attacks heal for 25% of the damage dealt.",
         "icon": "storm_ui_icon_valla_hatred.png",
         "sort": 2,
-        "abilityId": "Valla|D1"
+        "abilityId": "Valla|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DemonHunterGloom",
@@ -206,7 +219,8 @@
         "icon": "storm_ui_icon_valla_hatred_var1.png",
         "sort": 3,
         "abilityId": "Valla|Active",
-        "cooldown": 5
+        "cooldown": 5,
+        "isQuest": 0
       }
     ],
     "16": [
@@ -217,7 +231,8 @@
         "description": "Increases the range of Multishot by 20% and it also slows by 25% for 1.5 seconds.",
         "icon": "storm_ui_icon_valla_multishot.png",
         "sort": 1,
-        "abilityId": "Valla|W1"
+        "abilityId": "Valla|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DemonHunterSeethingHatred",
@@ -226,7 +241,8 @@
         "description": "Basic Attacks now grant 2 stacks of Hatred and the time it takes before Hatred expires is increased by 2 seconds.",
         "icon": "storm_ui_icon_valla_hatred.png",
         "sort": 2,
-        "abilityId": "Valla|D1"
+        "abilityId": "Valla|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DemonHunterManticore",
@@ -235,7 +251,8 @@
         "description": "Every 3rd Basic Attack against the same Heroic target deals an additional 5% of their maximum Health as damage.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 3,
-        "abilityId": "Valla|Passive"
+        "abilityId": "Valla|Passive",
+        "isQuest": 0
       }
     ],
     "20": [
@@ -246,7 +263,8 @@
         "description": "Strafe also fires penetrating bolts in a line for 34 (+4% per level) damage every 0.25 seconds. 25% of the damage dealt with Strafe is returned as Health.",
         "icon": "storm_ui_icon_valla_strafe.png",
         "sort": 1,
-        "abilityId": "Valla|R1"
+        "abilityId": "Valla|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DemonHunterRainOfVengeanceStormOfVengeanceTalent",
@@ -255,7 +273,8 @@
         "description": "Basic Attacks reduce the charge cooldown of Rain of Vengeance by 5 seconds.",
         "icon": "storm_ui_icon_valla_rainofvengeance.png",
         "sort": 2,
-        "abilityId": "Valla|R2"
+        "abilityId": "Valla|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "DemonHunterHatredRancorTalent",
@@ -264,7 +283,8 @@
         "description": "Each stack of Hatred also increases Attack Speed by 2%. While at 10 stacks of Hatred, gain an additional 30% Attack Speed.",
         "icon": "storm_ui_icon_valla_hatred.png",
         "sort": 3,
-        "abilityId": "Valla|D1"
+        "abilityId": "Valla|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "DemonHunterFarflightQuiver",
@@ -273,7 +293,8 @@
         "description": "Increases Valla's Basic Attack range by 2.2.",
         "icon": "storm_ui_icon_talent_autoattack_range.png",
         "sort": 4,
-        "abilityId": "Valla|Passive"
+        "abilityId": "Valla|Passive",
+        "isQuest": 0
       }
     ]
   }

@@ -103,7 +103,8 @@
         "description": "Increases the range of Symbiote's Spike Burst by 25% and decreases the cooldown by 1 second.",
         "icon": "storm_ui_icon_abathur_spikeburst.png",
         "sort": 1,
-        "abilityId": "Abathur|W2"
+        "abilityId": "Abathur|W2",
+        "isQuest": 0
       },
       {
         "tooltipId": "AbathurLocustStrainSurvivalInstinctsTalent",
@@ -112,7 +113,8 @@
         "description": "Increases Locust's Health by 40% and duration by 40%.",
         "icon": "storm_ui_icon_abathur_spawnlocust.png",
         "sort": 2,
-        "abilityId": "Abathur|D1"
+        "abilityId": "Abathur|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AbathurSymbioteRegenerativeMicrobesTalent",
@@ -121,7 +123,8 @@
         "description": "Symbiote's Carapace heals the target for 68 (+4% per level) Health per second over 4 seconds.",
         "icon": "storm_ui_icon_abathur_carapace.png",
         "sort": 3,
-        "abilityId": "Abathur|E1"
+        "abilityId": "Abathur|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AbathurToxicNestEnvenomedNestTalent",
@@ -130,7 +133,8 @@
         "description": "Toxic Nests deal 75% more damage over 3 seconds.",
         "icon": "storm_ui_icon_abathur_toxicnest.png",
         "sort": 4,
-        "abilityId": "Abathur|W1"
+        "abilityId": "Abathur|W1",
+        "isQuest": 0
       }
     ],
     "4": [
@@ -141,7 +145,8 @@
         "description": "Reduces the cooldown of Toxic Nest by 2 seconds and adds 2 additional charges.",
         "icon": "storm_ui_icon_abathur_toxicnest.png",
         "sort": 1,
-        "abilityId": "Abathur|W1"
+        "abilityId": "Abathur|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AbathurToxicNestBallistosporesTalent",
@@ -150,7 +155,8 @@
         "description": "Increases Toxic Nest's range to global and increases duration by 25%.",
         "icon": "storm_ui_icon_abathur_toxicnest_var1.png",
         "sort": 2,
-        "abilityId": "Abathur|W1"
+        "abilityId": "Abathur|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AbathurSymbioteCarapaceSustainedCarapaceTalent",
@@ -159,7 +165,8 @@
         "description": "Increases the Shield amount of Symbiote's Carapace by 40% and allows it to persist after Symbiote ends.",
         "icon": "storm_ui_icon_abathur_carapace.png",
         "sort": 3,
-        "abilityId": "Abathur|E1"
+        "abilityId": "Abathur|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AbathurSymbioteAdrenalOverloadTalent",
@@ -168,7 +175,8 @@
         "description": "Heroic Symbiote hosts gain 25% increased Attack Speed.",
         "icon": "storm_ui_icon_abathur_symbiote.png",
         "sort": 4,
-        "abilityId": "Abathur|Q1"
+        "abilityId": "Abathur|Q1",
+        "isQuest": 0
       }
     ],
     "7": [
@@ -179,7 +187,8 @@
         "description": "Increases the damage and range of Symbiote's Stab by 20%.",
         "icon": "storm_ui_icon_abathur_stab.png",
         "sort": 1,
-        "abilityId": "Abathur|Q2"
+        "abilityId": "Abathur|Q2",
+        "isQuest": 0
       },
       {
         "tooltipId": "AbathurToxicNestVileNestTalent",
@@ -188,7 +197,8 @@
         "description": "Toxic Nests slow enemy Movement Speed by 40% for 2.5 seconds.",
         "icon": "storm_ui_icon_abathur_toxicnest.png",
         "sort": 2,
-        "abilityId": "Abathur|W1"
+        "abilityId": "Abathur|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AbathurSymbioteCarapaceNetworkedCarapaceTalent",
@@ -197,7 +207,8 @@
         "description": "Using Symbiote's Carapace also applies an untalented Carapace Shield to all nearby allied Heroes, Minions, and Mercenaries.",
         "icon": "storm_ui_icon_abathur_carapace.png",
         "sort": 3,
-        "abilityId": "Abathur|E1"
+        "abilityId": "Abathur|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenericCalldownMule",
@@ -207,7 +218,8 @@
         "icon": "storm_ui_icon_talent_mule.png",
         "sort": 4,
         "abilityId": "Abathur|Active",
-        "cooldown": 60
+        "cooldown": 60,
+        "isQuest": 0
       }
     ],
     "10": [
@@ -219,7 +231,8 @@
         "icon": "storm_ui_icon_abathur_ultimateevolution.png",
         "sort": 1,
         "abilityId": "Abathur|R1",
-        "cooldown": 70
+        "cooldown": 70,
+        "isQuest": 0
       },
       {
         "tooltipId": "AbathurEvolveMonstrosityHotbar",
@@ -229,7 +242,8 @@
         "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
         "sort": 2,
         "abilityId": "Abathur|R2",
-        "cooldown": 90
+        "cooldown": 90,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -240,7 +254,8 @@
         "description": "Locust Basic Attacks cleave for 50% damage, and explode on death for 102 (+4% per level) damage.",
         "icon": "storm_ui_icon_abathur_spawnlocust.png",
         "sort": 1,
-        "abilityId": "Abathur|D1"
+        "abilityId": "Abathur|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AbathurLocustStrainBombardStrainTalent",
@@ -249,7 +264,8 @@
         "description": "Locust's Basic Attacks become a long-range siege attack that deal 70% more damage.",
         "icon": "storm_ui_icon_abathur_spawnlocust_var1.png",
         "sort": 2,
-        "abilityId": "Abathur|D1"
+        "abilityId": "Abathur|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AbathurSymbioteSpatialEfficiencyTalent",
@@ -258,7 +274,8 @@
         "description": "Symbiote's Stab gains 1 additional charge and its Cooldown is reduced by .5 seconds.",
         "icon": "storm_ui_icon_abathur_stab.png",
         "sort": 3,
-        "abilityId": "Abathur|Q2"
+        "abilityId": "Abathur|Q2",
+        "isQuest": 0
       },
       {
         "tooltipId": "AbathurSymbioteSpikeBurstSomaTransferenceTalent",
@@ -267,7 +284,8 @@
         "description": "Symbiote's Spike Burst heals the host for 64 (+4% per level) Health per enemy Hero hit.",
         "icon": "storm_ui_icon_abathur_spikeburst.png",
         "sort": 4,
-        "abilityId": "Abathur|W2"
+        "abilityId": "Abathur|W2",
+        "isQuest": 0
       }
     ],
     "16": [
@@ -278,7 +296,8 @@
         "description": "Abathur's Symbiote's Spike Burst also slows enemy Movement Speed by 40% for 2 seconds.",
         "icon": "storm_ui_icon_abathur_spikeburst.png",
         "sort": 1,
-        "abilityId": "Abathur|W2"
+        "abilityId": "Abathur|W2",
+        "isQuest": 0
       },
       {
         "tooltipId": "AbathurSymbioteAdrenalineBoostTalent",
@@ -287,7 +306,8 @@
         "description": "Symbiote's Carapace increases the Movement Speed of the target by 40% for 3.5 seconds.",
         "icon": "storm_ui_icon_abathur_carapace.png",
         "sort": 2,
-        "abilityId": "Abathur|E1"
+        "abilityId": "Abathur|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AbathurLocustSwarm",
@@ -297,7 +317,8 @@
         "icon": "storm_ui_icon_abathur_spawnlocust.png",
         "sort": 3,
         "abilityId": "Abathur|Active",
-        "cooldown": 45
+        "cooldown": 45,
+        "isQuest": 0
       },
       {
         "tooltipId": "AbathurVolatileMutationTalent",
@@ -306,7 +327,8 @@
         "description": "Ultimate Evolution clones and Monstrosities deal 137 (+4% per level) damage to nearby enemies every 3 seconds and when they die.",
         "icon": "storm_ui_icon_abathur_volatilemutation.png",
         "sort": 4,
-        "abilityId": "Abathur|R1"
+        "abilityId": "Abathur|R1",
+        "isQuest": 0
       }
     ],
     "20": [
@@ -317,7 +339,8 @@
         "description": "As long as the Ultimate Evolution is alive, the original target of the clone gains a Shield equal to 25% of their maximum Health.  Refreshes every 5 seconds.",
         "icon": "storm_ui_icon_abathur_ultimateevolution.png",
         "sort": 1,
-        "abilityId": "Abathur|R1"
+        "abilityId": "Abathur|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AbathurMonstrosityEvolutionCompleteTalent",
@@ -326,7 +349,8 @@
         "description": "Monstrosity gains the ability to Deep Tunnel to any visible location once every 25 seconds.",
         "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
         "sort": 2,
-        "abilityId": "Abathur|R2"
+        "abilityId": "Abathur|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "AbathurSymbioteHivemindTalent",
@@ -335,7 +359,8 @@
         "description": "Symbiote creates an additional Symbiote on a nearby allied Hero.  This Symbiote mimics the commands of the first, but does half damage and shielding.",
         "icon": "storm_ui_icon_abathur_symbiote.png",
         "sort": 3,
-        "abilityId": "Abathur|Q1"
+        "abilityId": "Abathur|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AbathurLocustMasterHotbar",
@@ -345,7 +370,8 @@
         "icon": "storm_ui_icon_abathur_locustnest.png",
         "sort": 4,
         "abilityId": "Abathur|Active",
-        "cooldown": 45
+        "cooldown": 45,
+        "isQuest": 0
       }
     ]
   }

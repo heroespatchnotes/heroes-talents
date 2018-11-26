@@ -109,7 +109,8 @@
         "description": "Run and Gun increases Tychus's Basic Attack range by 1.5 for 3 seconds.",
         "icon": "storm_ui_icon_tychus_runandgun.png",
         "sort": 1,
-        "abilityId": "Tychus|E1"
+        "abilityId": "Tychus|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "TychusRunandGunDashTalent",
@@ -118,7 +119,8 @@
         "description": "Quest: Run and Gun increases Tychus's Movement Speed by 1% for each Regeneration Globe gathered, up to 25%. Lasts 2 seconds.  Reward: Once 25 Regeneration Globes have been gathered, the range of Run and Gun is increased by 50%.",
         "icon": "storm_ui_icon_tychus_runandgun_a.png",
         "sort": 2,
-        "abilityId": "Tychus|E1"
+        "abilityId": "Tychus|E1",
+        "isQuest": 1
       },
       {
         "tooltipId": "TychusCombatTactician",
@@ -127,7 +129,8 @@
         "description": "Basic Attacks reduce the cooldown of Run and Gun by 0.8 seconds.",
         "icon": "storm_ui_icon_tychus_runandgun_b.png",
         "sort": 3,
-        "abilityId": "Tychus|E1"
+        "abilityId": "Tychus|E1",
+        "isQuest": 0
       }
     ],
     "4": [
@@ -138,7 +141,8 @@
         "description": "Quest: While Minigun is active, Basic Attacks against Heroes permanently increase future Minigun durations by 0.03 seconds.",
         "icon": "storm_ui_icon_tychus_minigun.png",
         "sort": 1,
-        "abilityId": "Tychus|D1"
+        "abilityId": "Tychus|D1",
+        "isQuest": 1
       },
       {
         "tooltipId": "TychusTheBiggerTheyAre",
@@ -147,7 +151,8 @@
         "description": "Lower the cooldown of Minigun by 2 seconds. Increase the damage bonus to 4% while enemy Heroes are above 35% Health, but Minigun no longer has any effect on targets below 35%.",
         "icon": "storm_ui_icon_tychus_minigun_a.png",
         "sort": 2,
-        "abilityId": "Tychus|D1"
+        "abilityId": "Tychus|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "TychusMasterAssassinTalent",
@@ -156,7 +161,8 @@
         "description": "Quest: Hero Takedowns increase Tychus's Attack Speed by 1%, up to 15%.  Reward: After getting 15 Takedowns, Tychus's Attack Speed is increased by an additional 10%.",
         "icon": "storm_ui_icon_talent_autoattack_speed.png",
         "sort": 3,
-        "abilityId": "Tychus|Passive"
+        "abilityId": "Tychus|Passive",
+        "isQuest": 1
       }
     ],
     "7": [
@@ -167,7 +173,8 @@
         "description": "Increases the range of Frag Grenade by 50%.",
         "icon": "storm_ui_icon_tychus_fraggrenade.png",
         "sort": 1,
-        "abilityId": "Tychus|W1"
+        "abilityId": "Tychus|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "TychusFragGrenadeConcussionGrenadeTalent",
@@ -176,7 +183,8 @@
         "description": "Increases Frag Grenade's radius by 25% and the knockback distance by 100%.",
         "icon": "storm_ui_icon_tychus_fraggrenade_a.png",
         "sort": 2,
-        "abilityId": "Tychus|W1"
+        "abilityId": "Tychus|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "TychusRelentlessSoldierTalent",
@@ -185,7 +193,8 @@
         "description": "Being Stunned or Rooted grants 25 Armor for 3 seconds, reducing damage taken by 25%.",
         "icon": "storm_ui_icon_talent_relentless.png",
         "sort": 3,
-        "abilityId": "Tychus|Passive"
+        "abilityId": "Tychus|Passive",
+        "isQuest": 0
       }
     ],
     "10": [
@@ -197,7 +206,8 @@
         "icon": "storm_ui_icon_tychus_commandeerodin.png",
         "sort": 1,
         "abilityId": "Tychus|R1",
-        "cooldown": 100
+        "cooldown": 100,
+        "isQuest": 0
       },
       {
         "tooltipId": "TychusDrakkenLaserDrill",
@@ -207,7 +217,8 @@
         "icon": "storm_ui_icon_tychus_drakkinlaserdrill.png",
         "sort": 2,
         "abilityId": "Tychus|R2",
-        "cooldown": 100
+        "cooldown": 100,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -218,7 +229,8 @@
         "description": "Minigun heals Tychus for 100% of the bonus damage dealt after it expires.",
         "icon": "storm_ui_icon_tychus_minigun.png",
         "sort": 1,
-        "abilityId": "Tychus|D1"
+        "abilityId": "Tychus|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "TychusNeosteelCoatingTalent",
@@ -228,7 +240,8 @@
         "icon": "storm_temp_btn-upgrade-terran-neosteelframe.png",
         "sort": 2,
         "abilityId": "Tychus|Active",
-        "cooldown": 30
+        "cooldown": 30,
+        "isQuest": 0
       },
       {
         "tooltipId": "TychusOverkillSprayNPrayTalent",
@@ -237,7 +250,8 @@
         "description": "Increases Overkill's range by 25%.",
         "icon": "storm_ui_icon_tychus_overkill.png",
         "sort": 3,
-        "abilityId": "Tychus|Q1"
+        "abilityId": "Tychus|Q1",
+        "isQuest": 0
       }
     ],
     "16": [
@@ -248,7 +262,8 @@
         "description": "Frag Grenade deals bonus damage to Heroes equal to 5% of their maximum Health.",
         "icon": "storm_ui_icon_tychus_fraggrenade.png",
         "sort": 1,
-        "abilityId": "Tychus|W1"
+        "abilityId": "Tychus|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "TychusOverkillLeadRainTalent",
@@ -257,7 +272,8 @@
         "description": "Overkill also Slows enemy Movement Speed by 30%.",
         "icon": "storm_ui_icon_tychus_overkill.png",
         "sort": 2,
-        "abilityId": "Tychus|Q1"
+        "abilityId": "Tychus|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "TychusOverkillArmorPiercingRoundsTalent",
@@ -266,7 +282,8 @@
         "description": "Increases Overkill's damage to the primary target by 50%.",
         "icon": "storm_ui_icon_tychus_overkill_a.png",
         "sort": 3,
-        "abilityId": "Tychus|Q1"
+        "abilityId": "Tychus|Q1",
+        "isQuest": 0
       }
     ],
     "20": [
@@ -277,7 +294,8 @@
         "description": "Odin lasts 50% longer and Ragnarok Missiles also launches a Nuclear Missile which lands 2.5 seconds later, dealing 319 (+4% per level) damage in its area.",
         "icon": "storm_ui_icon_tychus_commandeerodin.png",
         "sort": 1,
-        "abilityId": "Tychus|R1"
+        "abilityId": "Tychus|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "TychusDrakkenLaserFocusingDiodesTalent",
@@ -286,7 +304,8 @@
         "description": "Increases the range of the Drakken Laser Drill by 50%.  Deals increasing damage the longer it remains on a single target, up to 100% extra damage.",
         "icon": "storm_ui_icon_tychus_drakkinlaserdrill.png",
         "sort": 2,
-        "abilityId": "Tychus|R2"
+        "abilityId": "Tychus|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "TychusSizzlinAttacks",
@@ -295,7 +314,8 @@
         "description": "Basic Attacks deal bonus damage to Heroes equal to 1% of their maximum Health. Stacks with Minigun.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 3,
-        "abilityId": "Tychus|D1"
+        "abilityId": "Tychus|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "TychusRunAndGunBobAndWeaveTalent",
@@ -304,7 +324,8 @@
         "description": "Run and Gun and Odin's Thrusters gain 2 additional charges and reduces Run and Gun's Mana cost from 50 to 25.",
         "icon": "storm_ui_icon_tychus_runandgun.png",
         "sort": 4,
-        "abilityId": "Tychus|E1"
+        "abilityId": "Tychus|E1",
+        "isQuest": 0
       }
     ]
   }

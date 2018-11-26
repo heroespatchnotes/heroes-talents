@@ -78,7 +78,8 @@
         "description": "Quest: Stun Heroes with Groundbreaker.  Reward: After Stunning 5 Heroes, Groundbreaker's Stun deals an additional 165 (+4% per level) damage over 3 seconds to Heroes.  Reward: After Stunning 15 Heroes, permanently reduce Groundbreaker's cooldown by 2 seconds.",
         "icon": "storm_ui_icon_garrosh_groundbreaker.png",
         "sort": 1,
-        "abilityId": "Garrosh|Q1"
+        "abilityId": "Garrosh|Q1",
+        "isQuest": 1
       },
       {
         "tooltipId": "GarroshWreckingBallUnrivaledStrength",
@@ -87,7 +88,8 @@
         "description": "Increase Wrecking Ball's throw range by 25% and its damage by 75%.",
         "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
         "sort": 2,
-        "abilityId": "Garrosh|E1"
+        "abilityId": "Garrosh|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GarroshArmorUpBodyCheck",
@@ -97,7 +99,8 @@
         "icon": "storm_ui_icon_garrosh_slam.png",
         "sort": 3,
         "abilityId": "Garrosh|Active",
-        "cooldown": 16
+        "cooldown": 16,
+        "isQuest": 0
       }
     ],
     "4": [
@@ -108,7 +111,8 @@
         "description": "Increase Bloodthirst's damage against non-Heroes by 70%. Killing enemies with Bloodthirst resets its cooldown and refunds its Mana cost.",
         "icon": "storm_ui_icon_garrosh_bloodthirst.png",
         "sort": 1,
-        "abilityId": "Garrosh|W1"
+        "abilityId": "Garrosh|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GarroshBloodthirstThirstforBattle",
@@ -117,7 +121,8 @@
         "description": "Basic Attacks against Heroes reduce the cooldown of Bloodthirst by 2 seconds.",
         "icon": "storm_ui_icon_garrosh_bloodthirst_var1.png",
         "sort": 2,
-        "abilityId": "Garrosh|W1"
+        "abilityId": "Garrosh|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GarroshIndomitable",
@@ -127,7 +132,8 @@
         "icon": "storm_ui_icon_garrosh_indomitablel.png",
         "sort": 3,
         "abilityId": "Garrosh|Active",
-        "cooldown": 40
+        "cooldown": 40,
+        "isQuest": 0
       }
     ],
     "7": [
@@ -138,7 +144,8 @@
         "description": "Groundbreaker reduces the Attack Speed of Heroes hit by 40% for 4 seconds.",
         "icon": "storm_ui_icon_garrosh_groundbreaker.png",
         "sort": 1,
-        "abilityId": "Garrosh|Q1"
+        "abilityId": "Garrosh|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GarroshOppressor",
@@ -147,7 +154,8 @@
         "description": "Basic Attacks against Heroes reduce the target's Spell Power by 40% for 2.5 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_slow.png",
         "sort": 2,
-        "abilityId": "Garrosh|Passive"
+        "abilityId": "Garrosh|Passive",
+        "isQuest": 0
       },
       {
         "tooltipId": "GarroshBodyCheckBruteForce",
@@ -156,7 +164,8 @@
         "description": "Enemy Heroes hit by Body Check receive 50% reduced healing for 4 seconds.",
         "icon": "storm_ui_icon_garrosh_slam.png",
         "sort": 3,
-        "abilityId": "Garrosh|Active"
+        "abilityId": "Garrosh|Active",
+        "isQuest": 0
       },
       {
         "tooltipId": "GarroshWreckingBallIntotheFray",
@@ -166,7 +175,8 @@
         "icon": "storm_ui_icon_garrosh_intothefray.png",
         "sort": 4,
         "abilityId": "Garrosh|Active",
-        "cooldown": 45
+        "cooldown": 45,
+        "isQuest": 0
       }
     ],
     "10": [
@@ -178,7 +188,8 @@
         "icon": "storm_ui_icon_garrosh_warlords_challenge.png",
         "sort": 1,
         "abilityId": "Garrosh|R1",
-        "cooldown": 50
+        "cooldown": 50,
+        "isQuest": 0
       },
       {
         "tooltipId": "GarroshDecimate",
@@ -188,7 +199,8 @@
         "icon": "storm_ui_icon_garrosh_decimate.png",
         "sort": 2,
         "abilityId": "Garrosh|R2",
-        "cooldown": 8
+        "cooldown": 8,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -199,7 +211,8 @@
         "description": "If Groundbreaker Stuns a Hero, Garrosh gains a 350 (+4% per level) Shield for 6 seconds.",
         "icon": "storm_ui_icon_garrosh_groundbreaker.png",
         "sort": 1,
-        "abilityId": "Garrosh|Q1"
+        "abilityId": "Garrosh|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GarroshBloodthirstBloodcraze",
@@ -208,7 +221,8 @@
         "description": "When hitting a Hero, Bloodthirst heals for an additional 10% of Garrosh's maximum Health over 3 seconds.",
         "icon": "storm_ui_icon_garrosh_bloodthirst.png",
         "sort": 2,
-        "abilityId": "Garrosh|W1"
+        "abilityId": "Garrosh|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GarroshArmorUpDoubleUp",
@@ -218,7 +232,8 @@
         "icon": "storm_ui_icon_garrosh_armor_up.png",
         "sort": 3,
         "abilityId": "Garrosh|Active",
-        "cooldown": 40
+        "cooldown": 40,
+        "isQuest": 0
       }
     ],
     "16": [
@@ -229,7 +244,8 @@
         "description": "Increase Groundbreaker's Slow amount by 10% and duration by 1 second.",
         "icon": "storm_ui_icon_garrosh_groundbreaker.png",
         "sort": 1,
-        "abilityId": "Garrosh|Q1"
+        "abilityId": "Garrosh|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GarroshGroundbreakerMortalCombo",
@@ -238,7 +254,8 @@
         "description": "If Wrecking Ball is used on a Hero within 3 seconds of Stunning them with Groundbreaker, Wrecking Ball's cooldown is reduced by 9 seconds.",
         "icon": "storm_ui_icon_garrosh_groundbreaker_var1.png",
         "sort": 2,
-        "abilityId": "Garrosh|Q1"
+        "abilityId": "Garrosh|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GarroshWreckingBallEarthshaker",
@@ -247,7 +264,8 @@
         "description": "Wrecking Ball Stuns enemies near the impact area for 0.5 seconds.",
         "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
         "sort": 3,
-        "abilityId": "Garrosh|E1"
+        "abilityId": "Garrosh|E1",
+        "isQuest": 0
       }
     ],
     "20": [
@@ -258,7 +276,8 @@
         "description": "If an enemy Hero is killed while Taunted by Warlord's Challenge, its cooldown is reduced by 45 seconds.",
         "icon": "storm_ui_icon_garrosh_warlords_challenge.png",
         "sort": 1,
-        "abilityId": "Garrosh|R1"
+        "abilityId": "Garrosh|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GarroshDecimateDeadlyCalm",
@@ -267,7 +286,8 @@
         "description": "Heroes hit by Decimate deal 20% less damage for 3 seconds.",
         "icon": "storm_ui_icon_garrosh_decimate.png",
         "sort": 2,
-        "abilityId": "Garrosh|R2"
+        "abilityId": "Garrosh|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "GarroshWreckingBallTitanicMight",
@@ -276,7 +296,8 @@
         "description": "Wrecking Ball now throws the 2 closest enemies.",
         "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
         "sort": 3,
-        "abilityId": "Garrosh|E1"
+        "abilityId": "Garrosh|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GarroshArmorUpInnerRage",
@@ -285,7 +306,8 @@
         "description": "Body Check gains an additional charge, and its cooldown recharges 200% faster while Armor Up's bonus is at or above 25.",
         "icon": "storm_ui_icon_garrosh_slam.png",
         "sort": 4,
-        "abilityId": "Garrosh|Active"
+        "abilityId": "Garrosh|Active",
+        "isQuest": 0
       }
     ]
   }
