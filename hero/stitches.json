@@ -89,8 +89,7 @@
         "description": "Using Devour also heals Stitches for 10% of his max Health over 3 seconds.",
         "icon": "storm_ui_icon_stitches_devour.png",
         "sort": 1,
-        "abilityId": "Stitches|E1",
-        "isQuest": 0
+        "abilityId": "Stitches|E1"
       },
       {
         "tooltipId": "TalentDampenMagic",
@@ -99,8 +98,7 @@
         "description": "Every 8 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 50%.",
         "icon": "storm_ui_icon_talent_dampenmagic.png",
         "sort": 2,
-        "abilityId": "Stitches|Passive",
-        "isQuest": 0
+        "abilityId": "Stitches|Passive"
       },
       {
         "tooltipId": "StitchesHungryforMore",
@@ -110,7 +108,7 @@
         "icon": "storm_ui_icon_talent_regenerationmaster.png",
         "sort": 3,
         "abilityId": "Stitches|Passive",
-        "isQuest": 1
+        "isQuest": true
       },
       {
         "tooltipId": "StitchesSlamHeavySlamTalent",
@@ -119,8 +117,7 @@
         "description": "Slam damage increased by 40%.",
         "icon": "storm_ui_icon_stitches_slam.png",
         "sort": 4,
-        "abilityId": "Stitches|W1",
-        "isQuest": 0
+        "abilityId": "Stitches|W1"
       }
     ],
     "4": [
@@ -131,8 +128,7 @@
         "description": "Increases regeneration effects and all healing received by 30%.",
         "icon": "storm_ui_icon_talent_amplifiedhealing.png",
         "sort": 1,
-        "abilityId": "Stitches|Passive",
-        "isQuest": 0
+        "abilityId": "Stitches|Passive"
       },
       {
         "tooltipId": "StitchesRestorativeFumes",
@@ -141,8 +137,7 @@
         "description": "Whenever Vile Gas damages an enemy Hero, Stitches is healed for 27 (+4% per level) Health.",
         "icon": "storm_ui_icon_stitches_acidcloud.png",
         "sort": 2,
-        "abilityId": "Stitches|D1",
-        "isQuest": 0
+        "abilityId": "Stitches|D1"
       },
       {
         "tooltipId": "StitchesSlamPutridGroundTalent",
@@ -151,8 +146,7 @@
         "description": "Enemies hit by Slam are infected with Vile Gas.",
         "icon": "storm_ui_icon_stitches_slam.png",
         "sort": 3,
-        "abilityId": "Stitches|W1",
-        "isQuest": 0
+        "abilityId": "Stitches|W1"
       }
     ],
     "7": [
@@ -164,7 +158,7 @@
         "icon": "storm_ui_icon_stitches_devour.png",
         "sort": 1,
         "abilityId": "Stitches|E1",
-        "isQuest": 1
+        "isQuest": true
       },
       {
         "tooltipId": "StitchesDevourLastBiteTalent",
@@ -173,8 +167,7 @@
         "description": "If an enemy dies within 3 seconds of being damaged by Devour, its cooldown is reduced by 12 seconds.",
         "icon": "storm_ui_icon_stitches_devour_var1.png",
         "sort": 2,
-        "abilityId": "Stitches|E1",
-        "isQuest": 0
+        "abilityId": "Stitches|E1"
       },
       {
         "tooltipId": "StitchesVileGasTenderizerTalent",
@@ -183,8 +176,7 @@
         "description": "Basic Attacks slow enemy Movement Speed by 25% for 1.5 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_slow.png",
         "sort": 3,
-        "abilityId": "Stitches|Passive",
-        "isQuest": 0
+        "abilityId": "Stitches|Passive"
       },
       {
         "tooltipId": "StitchesVileGasToxicGasTalent",
@@ -193,8 +185,7 @@
         "description": "Increases Vile Gas' radius by 25% and its damage by 50%.",
         "icon": "storm_ui_icon_stitches_acidcloud.png",
         "sort": 4,
-        "abilityId": "Stitches|D1",
-        "isQuest": 0
+        "abilityId": "Stitches|D1"
       }
     ],
     "10": [
@@ -206,8 +197,7 @@
         "icon": "storm_ui_icon_stitches_putridbile.png",
         "sort": 1,
         "abilityId": "Stitches|R1",
-        "cooldown": 60,
-        "isQuest": 0
+        "cooldown": 60
       },
       {
         "tooltipId": "StitchesGorge",
@@ -217,8 +207,7 @@
         "icon": "storm_ui_icon_stitches_cannibalize.png",
         "sort": 2,
         "abilityId": "Stitches|R2",
-        "cooldown": 60,
-        "isQuest": 0
+        "cooldown": 60
       }
     ],
     "13": [
@@ -229,8 +218,7 @@
         "description": "Whenever Stitches is stunned or rooted, his Basic Ability cooldowns are reduced by 6 seconds.",
         "icon": "storm_ui_icon_talent_relentless.png",
         "sort": 1,
-        "abilityId": "Stitches|Passive",
-        "isQuest": 0
+        "abilityId": "Stitches|Passive"
       },
       {
         "tooltipId": "StitchesSlamMegaSmashTalent",
@@ -239,8 +227,7 @@
         "description": "Range and arc of Slam increased by 25%.",
         "icon": "storm_ui_icon_stitches_slam.png",
         "sort": 2,
-        "abilityId": "Stitches|W1",
-        "isQuest": 0
+        "abilityId": "Stitches|W1"
       },
       {
         "tooltipId": "StitchesDevourIndigestionTalent",
@@ -249,8 +236,7 @@
         "description": "Using Devour also creates a Retchling that applies Vile Gas Poison when it attacks.",
         "icon": "storm_ui_icon_stitches_devour.png",
         "sort": 3,
-        "abilityId": "Stitches|E1",
-        "isQuest": 0
+        "abilityId": "Stitches|E1"
       }
     ],
     "16": [
@@ -261,8 +247,7 @@
         "description": "Decreases Slam's cooldown by 2 seconds and it also slows enemies by 75% for 1 second.",
         "icon": "storm_ui_icon_stitches_slam.png",
         "sort": 1,
-        "abilityId": "Stitches|W1",
-        "isQuest": 0
+        "abilityId": "Stitches|W1"
       },
       {
         "tooltipId": "StitchesHookFishingHookTalent",
@@ -271,8 +256,7 @@
         "description": "Hook has an additional 40% range.",
         "icon": "storm_ui_icon_stitches_hook.png",
         "sort": 2,
-        "abilityId": "Stitches|Q1",
-        "isQuest": 0
+        "abilityId": "Stitches|Q1"
       },
       {
         "tooltipId": "StitchesHookShishKabobTalent",
@@ -281,8 +265,7 @@
         "description": "Hook can pull up to 2 targets.",
         "icon": "storm_ui_icon_stitches_hook_var1.png",
         "sort": 3,
-        "abilityId": "Stitches|Q1",
-        "isQuest": 0
+        "abilityId": "Stitches|Q1"
       },
       {
         "tooltipId": "GenericStoneskin",
@@ -292,8 +275,7 @@
         "icon": "storm_ui_icon_talent_stoneskin.png",
         "sort": 4,
         "abilityId": "Stitches|Active",
-        "cooldown": 60,
-        "isQuest": 0
+        "cooldown": 60
       }
     ],
     "20": [
@@ -304,8 +286,7 @@
         "description": "Putrid Bile lasts 6 seconds longer and its slow amount is increased from 35% to 45%.",
         "icon": "storm_ui_icon_stitches_putridbile.png",
         "sort": 1,
-        "abilityId": "Stitches|R1",
-        "isQuest": 0
+        "abilityId": "Stitches|R1"
       },
       {
         "tooltipId": "StitchesGorgeHungryHungryStitchesTalent",
@@ -314,8 +295,7 @@
         "description": "For 4 seconds after using Gorge, Stitches can teleport a short distance to additional targets and Gorge them.",
         "icon": "storm_ui_icon_stitches_cannibalize.png",
         "sort": 2,
-        "abilityId": "Stitches|R2",
-        "isQuest": 0
+        "abilityId": "Stitches|R2"
       },
       {
         "tooltipId": "HardenedShieldTalent",
@@ -325,8 +305,7 @@
         "icon": "storm_ui_icon_talent_hardenedshield.png",
         "sort": 3,
         "abilityId": "Stitches|Active",
-        "cooldown": 60,
-        "isQuest": 0
+        "cooldown": 60
       },
       {
         "tooltipId": "StitchesCannibalize",
@@ -335,8 +314,7 @@
         "description": "Basic Attacks against Heroes heal Stitches for 5% of his maximum Health.",
         "icon": "storm_ui_icon_talent_autoattack_heal.png",
         "sort": 4,
-        "abilityId": "Stitches|Passive",
-        "isQuest": 0
+        "abilityId": "Stitches|Passive"
       }
     ]
   }

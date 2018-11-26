@@ -79,7 +79,7 @@
         "icon": "storm_ui_icon_guldan_felflame.png",
         "sort": 1,
         "abilityId": "Gul'dan|Q1",
-        "isQuest": 1
+        "isQuest": true
       },
       {
         "tooltipId": "GuldanChaoticEnergy",
@@ -89,7 +89,7 @@
         "icon": "storm_ui_icon_guldan_healthfunnel.png",
         "sort": 2,
         "abilityId": "Gul'dan|W1",
-        "isQuest": 1
+        "isQuest": true
       },
       {
         "tooltipId": "GuldanCorruptionEchoedCorruption",
@@ -99,7 +99,7 @@
         "icon": "storm_ui_icon_guldan_handofguldan.png",
         "sort": 3,
         "abilityId": "Gul'dan|E1",
-        "isQuest": 1
+        "isQuest": true
       }
     ],
     "4": [
@@ -110,8 +110,7 @@
         "description": "Drain Life's cooldown recharges 100% faster while it is channeling. If an enemy dies while under the effect of Drain Life, the cooldown is instantly refreshed.",
         "icon": "storm_ui_icon_guldan_healthfunnel.png",
         "sort": 1,
-        "abilityId": "Gul'dan|W1",
-        "isQuest": 0
+        "abilityId": "Gul'dan|W1"
       },
       {
         "tooltipId": "GuldanLifeTapImprovedLifeTap",
@@ -120,8 +119,7 @@
         "description": "Increase the Mana restored by Life Tap to 35%.",
         "icon": "storm_ui_icon_guldan_lifetap.png",
         "sort": 2,
-        "abilityId": "Gul'dan|D1",
-        "isQuest": 0
+        "abilityId": "Gul'dan|D1"
       },
       {
         "tooltipId": "GuldanConsumeSoul",
@@ -131,8 +129,7 @@
         "icon": "storm_ui_icon_guldan_darkpact.png",
         "sort": 3,
         "abilityId": "Gul'dan|Active",
-        "cooldown": 30,
-        "isQuest": 0
+        "cooldown": 30
       }
     ],
     "7": [
@@ -143,8 +140,7 @@
         "description": "Each enemy Hero hit with Fel Flame reduces the cooldown of Corruption by 1 second.",
         "icon": "storm_ui_icon_guldan_felflame.png",
         "sort": 1,
-        "abilityId": "Gul'dan|Q1",
-        "isQuest": 0
+        "abilityId": "Gul'dan|Q1"
       },
       {
         "tooltipId": "GuldanCorruptionCurseOfExhaustion",
@@ -153,8 +149,7 @@
         "description": "Drain Life deals 50% more damage and Slows the target's Movement Speed by 25% if they are afflicted by Corruption.",
         "icon": "storm_ui_icon_guldan_healthfunnel.png",
         "sort": 2,
-        "abilityId": "Gul'dan|W1",
-        "isQuest": 0
+        "abilityId": "Gul'dan|W1"
       },
       {
         "tooltipId": "GuldanLifeTapHungerforPower",
@@ -163,8 +158,7 @@
         "description": "Increases Spell Power by 15% but reduces healing received from allies by 25%.",
         "icon": "storm_ui_icon_guldan_hungerforpower.png",
         "sort": 3,
-        "abilityId": "Gul'dan|Passive",
-        "isQuest": 0
+        "abilityId": "Gul'dan|Passive"
       }
     ],
     "10": [
@@ -176,8 +170,7 @@
         "icon": "storm_ui_icon_guldan_horrify.png",
         "sort": 1,
         "abilityId": "Gul'dan|R1",
-        "cooldown": 80,
-        "isQuest": 0
+        "cooldown": 80
       },
       {
         "tooltipId": "GuldanRainOfDestruction",
@@ -187,8 +180,7 @@
         "icon": "storm_ui_icon_guldan_rainoffire.png",
         "sort": 2,
         "abilityId": "Gul'dan|R2",
-        "cooldown": 100,
-        "isQuest": 0
+        "cooldown": 100
       }
     ],
     "13": [
@@ -199,8 +191,7 @@
         "description": "Hitting an enemy Hero with Fel Flame grants 40 Spell Armor for 2.5 seconds, reducing Ability Damage taken by 40%.",
         "icon": "storm_ui_icon_guldan_felflame.png",
         "sort": 1,
-        "abilityId": "Gul'dan|Q1",
-        "isQuest": 0
+        "abilityId": "Gul'dan|Q1"
       },
       {
         "tooltipId": "GuldanDrainLifeHarvestLife",
@@ -209,8 +200,7 @@
         "description": "Drain Life heals for 50% more Health when used on Heroes.",
         "icon": "storm_ui_icon_guldan_healthfunnel.png",
         "sort": 2,
-        "abilityId": "Gul'dan|W1",
-        "isQuest": 0
+        "abilityId": "Gul'dan|W1"
       },
       {
         "tooltipId": "GuldanDarkBargain",
@@ -219,8 +209,7 @@
         "description": "Gul'dan's maximum Health is permanently increased by 25% but his respawn time is increased by 15 seconds.",
         "icon": "storm_ui_icon_guldan_darkbargain.png",
         "sort": 3,
-        "abilityId": "Gul'dan|Passive",
-        "isQuest": 0
+        "abilityId": "Gul'dan|Passive"
       },
       {
         "tooltipId": "GuldanHealthstone",
@@ -230,8 +219,7 @@
         "icon": "storm_ui_icon_guldan_healthstone.png",
         "sort": 4,
         "abilityId": "Gul'dan|Active",
-        "cooldown": 60,
-        "isQuest": 0
+        "cooldown": 60
       }
     ],
     "16": [
@@ -242,8 +230,7 @@
         "description": "Fel Flame's damage is increased by 10% for 5 seconds when hitting an enemy Hero. This can stack up to 5 times.",
         "icon": "storm_ui_icon_guldan_felflame.png",
         "sort": 1,
-        "abilityId": "Gul'dan|Q1",
-        "isQuest": 0
+        "abilityId": "Gul'dan|Q1"
       },
       {
         "tooltipId": "GuldanCorruptionRuinousAffliction",
@@ -252,8 +239,7 @@
         "description": "Corruption deals an additional 78 (+4% per level) damage on impact. If the enemy is hit by all three strikes, the third strike deals 233 (+4% per level) damage.",
         "icon": "storm_ui_icon_guldan_handofguldan.png",
         "sort": 2,
-        "abilityId": "Gul'dan|E1",
-        "isQuest": 0
+        "abilityId": "Gul'dan|E1"
       },
       {
         "tooltipId": "GuldanLifeTapDarknessWithin",
@@ -262,8 +248,7 @@
         "description": "After using Life Tap, the damage and healing of Gul'dan's next Ability is increased by 25%.",
         "icon": "storm_ui_icon_guldan_lifetap.png",
         "sort": 3,
-        "abilityId": "Gul'dan|D1",
-        "isQuest": 0
+        "abilityId": "Gul'dan|D1"
       }
     ],
     "20": [
@@ -274,8 +259,7 @@
         "description": "Increases the duration of Horrify by 1 second, and while Feared, enemies lose 20 Armor, causing them to take 20% increased damage.",
         "icon": "storm_ui_icon_guldan_horrify.png",
         "sort": 1,
-        "abilityId": "Gul'dan|R1",
-        "isQuest": 0
+        "abilityId": "Gul'dan|R1"
       },
       {
         "tooltipId": "GuldanRainOfDestructionDeepImpact",
@@ -284,8 +268,7 @@
         "description": "Rain of Destruction slows enemies Movement Speed by 90% for 0.5 seconds.",
         "icon": "storm_ui_icon_guldan_rainoffire.png",
         "sort": 2,
-        "abilityId": "Gul'dan|R2",
-        "isQuest": 0
+        "abilityId": "Gul'dan|R2"
       },
       {
         "tooltipId": "GuldanDemonicCircle",
@@ -295,8 +278,7 @@
         "icon": "storm_ui_icon_guldan_demoniccircle.png",
         "sort": 3,
         "abilityId": "Gul'dan|Active",
-        "cooldown": 60,
-        "isQuest": 0
+        "cooldown": 60
       }
     ]
   }

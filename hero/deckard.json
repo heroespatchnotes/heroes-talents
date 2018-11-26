@@ -79,7 +79,7 @@
         "icon": "storm_ui_icon_deckard_scroll_of_sealing.png",
         "sort": 1,
         "abilityId": "Deckard|E1",
-        "isQuest": 1
+        "isQuest": true
       },
       {
         "tooltipId": "DeckardFieldStudy",
@@ -88,8 +88,7 @@
         "description": "Each enemy Hero hit by Scroll of Sealing grants 15% Spell Power for 14 seconds, up to 30%.",
         "icon": "storm_ui_icon_deckard_scroll_of_sealing_a.png",
         "sort": 2,
-        "abilityId": "Deckard|E1",
-        "isQuest": 0
+        "abilityId": "Deckard|E1"
       },
       {
         "tooltipId": "DeckardGemSapphire",
@@ -99,8 +98,7 @@
         "icon": "storm_ui_icon_deckard_sapphire.png",
         "sort": 3,
         "abilityId": "Deckard|Active",
-        "cooldown": 30,
-        "isQuest": 0
+        "cooldown": 30
       }
     ],
     "4": [
@@ -111,8 +109,7 @@
         "description": "Whenever an ally is healed by a Healing Potion, they gain a 122 (+4% per level) Shield for 6 seconds.",
         "icon": "storm_ui_icon_deckard_healing_potion.png",
         "sort": 1,
-        "abilityId": "Deckard|Q1",
-        "isQuest": 0
+        "abilityId": "Deckard|Q1"
       },
       {
         "tooltipId": "DeckardRejuvenationPotion",
@@ -121,8 +118,7 @@
         "description": "Healing Potions restore 10 Mana and heal for an additional 108 (+4% per level) over 4 seconds.",
         "icon": "storm_ui_icon_deckard_rejuvination_potion.png",
         "sort": 2,
-        "abilityId": "Deckard|Q1",
-        "isQuest": 0
+        "abilityId": "Deckard|Q1"
       },
       {
         "tooltipId": "DeckardGemRuby",
@@ -132,8 +128,7 @@
         "icon": "storm_ui_icon_deckard_ruby.png",
         "sort": 3,
         "abilityId": "Deckard|Active",
-        "cooldown": 30,
-        "isQuest": 0
+        "cooldown": 30
       }
     ],
     "7": [
@@ -144,8 +139,7 @@
         "description": "Each enemy Hero hit by Horadric Cube reduces the cooldown of Scroll of Sealing by 3 seconds.",
         "icon": "storm_ui_icon_deckard_horadric_cube.png",
         "sort": 1,
-        "abilityId": "Deckard|W1",
-        "isQuest": 0
+        "abilityId": "Deckard|W1"
       },
       {
         "tooltipId": "DeckardKanaisCube",
@@ -154,8 +148,7 @@
         "description": "Horadric Cube reduces Hero damage dealt by 30% for 4 seconds.",
         "icon": "storm_ui_icon_deckard_kanais_cube.png",
         "sort": 2,
-        "abilityId": "Deckard|W1",
-        "isQuest": 0
+        "abilityId": "Deckard|W1"
       },
       {
         "tooltipId": "DeckardGemEmerald",
@@ -165,8 +158,7 @@
         "icon": "storm_ui_icon_deckard_emerald.png",
         "sort": 3,
         "abilityId": "Deckard|Active",
-        "cooldown": 30,
-        "isQuest": 0
+        "cooldown": 30
       }
     ],
     "10": [
@@ -178,8 +170,7 @@
         "icon": "storm_ui_icon_deckard_stay_awhile_and_listen.png",
         "sort": 1,
         "abilityId": "Deckard|R1",
-        "cooldown": 70,
-        "isQuest": 0
+        "cooldown": 70
       },
       {
         "tooltipId": "DeckardLorenado",
@@ -189,8 +180,7 @@
         "icon": "storm_ui_icon_deckard_lorenado.png",
         "sort": 2,
         "abilityId": "Deckard|R2",
-        "cooldown": 40,
-        "isQuest": 0
+        "cooldown": 40
       }
     ],
     "13": [
@@ -201,8 +191,7 @@
         "description": "If a Healing Potion isn't picked up for at least 2 seconds, it heals for 80% more.",
         "icon": "storm_ui_icon_deckard_super_healing_potion.png",
         "sort": 1,
-        "abilityId": "Deckard|Q1",
-        "isQuest": 0
+        "abilityId": "Deckard|Q1"
       },
       {
         "tooltipId": "DeckardPotionOfRevival",
@@ -211,8 +200,7 @@
         "description": "When a Healing Potion is picked up, it also heals all nearby allied Heroes for 35% of the healing amount.",
         "icon": "storm_ui_icon_deckard_unstable_healing_potion.png",
         "sort": 2,
-        "abilityId": "Deckard|Q1",
-        "isQuest": 0
+        "abilityId": "Deckard|Q1"
       },
       {
         "tooltipId": "DeckardAncientBlessings",
@@ -222,8 +210,7 @@
         "icon": "storm_ui_icon_deckard_angelic_conduit.png",
         "sort": 3,
         "abilityId": "Deckard|Active",
-        "cooldown": 60,
-        "isQuest": 0
+        "cooldown": 60
       }
     ],
     "16": [
@@ -234,8 +221,7 @@
         "description": "Scroll of Sealing deals 200% more damage when hitting at least 2 Heroes.",
         "icon": "storm_ui_icon_deckard_scroll_of_sealing.png",
         "sort": 1,
-        "abilityId": "Deckard|E1",
-        "isQuest": 0
+        "abilityId": "Deckard|E1"
       },
       {
         "tooltipId": "DeckardSafetyInNumbers",
@@ -244,8 +230,7 @@
         "description": "If at least 3 allied Heroes are nearby, Fortitude of the Faithful grants an additional 10 Armor and causes Deckard's Basic Abilities to recharge an additional 50% faster.",
         "icon": "storm_ui_icon_deckard_study_time.png",
         "sort": 2,
-        "abilityId": "Deckard|D1",
-        "isQuest": 0
+        "abilityId": "Deckard|D1"
       },
       {
         "tooltipId": "DeckardHoradricStaff",
@@ -254,8 +239,7 @@
         "description": "Every 5 seconds, Deckard's next Basic Attack Stuns Heroes for 0.75 seconds.",
         "icon": "storm_ui_icon_deckard_horadric_staff.png",
         "sort": 3,
-        "abilityId": "Deckard|Passive",
-        "isQuest": 0
+        "abilityId": "Deckard|Passive"
       }
     ],
     "20": [
@@ -266,8 +250,7 @@
         "description": "Stay Awhile and Listen Silences and Blinds enemies for 2 seconds upon waking up from Sleep.",
         "icon": "storm_ui_icon_deckard_stay_awhile_and_listen.png",
         "sort": 1,
-        "abilityId": "Deckard|R1",
-        "isQuest": 0
+        "abilityId": "Deckard|R1"
       },
       {
         "tooltipId": "DeckardMorenados",
@@ -276,8 +259,7 @@
         "description": "Lorenado's cooldown is reduced by 6 seconds every time an enemy Hero is knocked back. This effect can only occur once per 0.5 seconds.",
         "icon": "storm_ui_icon_deckard_lorenado.png",
         "sort": 2,
-        "abilityId": "Deckard|R2",
-        "isQuest": 0
+        "abilityId": "Deckard|R2"
       },
       {
         "tooltipId": "DeckardBottomlessFlask",
@@ -286,8 +268,7 @@
         "description": "After use, Healing Potions recharge after 8 seconds.",
         "icon": "storm_ui_icon_deckard_healing_potion.png",
         "sort": 3,
-        "abilityId": "Deckard|Q1",
-        "isQuest": 0
+        "abilityId": "Deckard|Q1"
       },
       {
         "tooltipId": "DeckardPerfectGems",
@@ -296,8 +277,7 @@
         "description": "Reduce the cooldown of all Gems by 25 seconds and the cooldown of Horadric Cube by 5 seconds.",
         "icon": "storm_ui_icon_deckard_perfect_gems.png",
         "sort": 4,
-        "abilityId": "Deckard|W1",
-        "isQuest": 0
+        "abilityId": "Deckard|W1"
       }
     ]
   }
