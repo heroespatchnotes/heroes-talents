@@ -91,8 +91,7 @@
         "description": "If D.Va neither takes nor deals damage during Boosters, its cooldown is lowered by 7 seconds.",
         "icon": "storm_ui_icon_dva_boosters.png",
         "sort": 1,
-        "abilityId": "D.Va|Q1",
-        "isQuest": 0
+        "abilityId": "D.Va|Q1"
       },
       {
         "tooltipId": "DVaBoostersHitTheNitrous",
@@ -101,8 +100,7 @@
         "description": "Initial speed bonus of Boosters is increased to 325%, then decays to normal boost speed over 0.5 seconds. During this time, Boosters deals 50% extra damage.",
         "icon": "storm_ui_icon_dva_boosters_a.png",
         "sort": 2,
-        "abilityId": "D.Va|Q1",
-        "isQuest": 0
+        "abilityId": "D.Va|Q1"
       },
       {
         "tooltipId": "DVaBoostersCrashCourse",
@@ -112,7 +110,7 @@
         "icon": "storm_ui_icon_dva_boosters_b.png",
         "sort": 3,
         "abilityId": "D.Va|Q1",
-        "isQuest": 1
+        "isQuest": true
       },
       {
         "tooltipId": "DVaMechProMoves",
@@ -121,8 +119,7 @@
         "description": "D.Va's Mech gains 2% Movement Speed for 1.5 seconds every time it takes damage, up to 30%.",
         "icon": "storm_ui_icon_dva_mechmode.png",
         "sort": 4,
-        "abilityId": "D.Va|D1",
-        "isQuest": 0
+        "abilityId": "D.Va|D1"
       }
     ],
     "4": [
@@ -133,8 +130,7 @@
         "description": "The area of Defense Matrix is 100% wider and 25% longer, but D.Va's Movement Speed is reduced by 30% for the duration.",
         "icon": "storm_ui_icon_dva_defensematrix.png",
         "sort": 1,
-        "abilityId": "D.Va|W1",
-        "isQuest": 0
+        "abilityId": "D.Va|W1"
       },
       {
         "tooltipId": "DVaDefenseMatrixGetThroughThis",
@@ -143,8 +139,7 @@
         "description": "Increase the duration of Defense Matrix by 3 seconds.",
         "icon": "storm_ui_icon_dva_defensematrix_a.png",
         "sort": 2,
-        "abilityId": "D.Va|W1",
-        "isQuest": 0
+        "abilityId": "D.Va|W1"
       },
       {
         "tooltipId": "DVaDefenseMatrixFusionGenerator",
@@ -153,8 +148,7 @@
         "description": "Every time an enemy Hero deals damage while inside Defense Matrix, D.Va's Self-Destruct Charge increases by 1%.  Max of 15% Charge gained per use.",
         "icon": "storm_ui_icon_dva_defensematrix_b.png",
         "sort": 3,
-        "abilityId": "D.Va|W1",
-        "isQuest": 0
+        "abilityId": "D.Va|W1"
       },
       {
         "tooltipId": "DVaSelfDestructBringItOn",
@@ -163,8 +157,7 @@
         "description": "Self-Destruct's Charge amount gained from losing Mech Health is increased by 30%.",
         "icon": "storm_ui_icon_dva_selfdestruct.png",
         "sort": 4,
-        "abilityId": "D.Va|E1",
-        "isQuest": 0
+        "abilityId": "D.Va|E1"
       }
     ],
     "7": [
@@ -175,8 +168,7 @@
         "description": "Knockback distance of Boosters is increased by 100%.",
         "icon": "storm_ui_icon_dva_boosters.png",
         "sort": 1,
-        "abilityId": "D.Va|Q1",
-        "isQuest": 0
+        "abilityId": "D.Va|Q1"
       },
       {
         "tooltipId": "DVaDefenseMatrixDazerZone",
@@ -185,8 +177,7 @@
         "description": "Enemy Heroes affected by Defense Matrix are Slowed by 20%.",
         "icon": "storm_ui_icon_dva_defensematrix.png",
         "sort": 2,
-        "abilityId": "D.Va|W1",
-        "isQuest": 0
+        "abilityId": "D.Va|W1"
       },
       {
         "tooltipId": "DVaDefenseMatrixAggressionMatrix",
@@ -195,8 +186,7 @@
         "description": "Basic Attacks in Mech Mode against Heroes lower the cooldown of Defense Matrix by 0.25 seconds.",
         "icon": "storm_ui_icon_dva_defensematrix_a.png",
         "sort": 3,
-        "abilityId": "D.Va|W1",
-        "isQuest": 0
+        "abilityId": "D.Va|W1"
       },
       {
         "tooltipId": "DVaSelfDestructNuclearOption",
@@ -205,8 +195,7 @@
         "description": "Increase Self Destruct's detonation timer by 3 seconds. Detonation damage increased by 70%.  A new Mech can still be called after 4 seconds.",
         "icon": "storm_ui_icon_dva_selfdestruct.png",
         "sort": 4,
-        "abilityId": "D.Va|E1",
-        "isQuest": 0
+        "abilityId": "D.Va|E1"
       }
     ],
     "10": [
@@ -218,8 +207,7 @@
         "icon": "storm_ui_icon_dva_bunnyhop.png",
         "sort": 1,
         "abilityId": "D.Va|R1",
-        "cooldown": 100,
-        "isQuest": 0
+        "cooldown": 100
       },
       {
         "tooltipId": "DVaPilotBigShot",
@@ -229,8 +217,7 @@
         "icon": "storm_ui_icon_dva_bigshot.png",
         "sort": 2,
         "abilityId": "D.Va|R2",
-        "cooldown": 4,
-        "isQuest": 0
+        "cooldown": 4
       }
     ],
     "13": [
@@ -241,8 +228,7 @@
         "description": "Increase Mech Health by 20%, but also increase the cooldown of Call Mech by 15 seconds.  This does not decrease the amount of Self-Destruct Charge gained.",
         "icon": "storm_ui_icon_dva_callmech.png",
         "sort": 1,
-        "abilityId": "D.Va|E2",
-        "isQuest": 0
+        "abilityId": "D.Va|E2"
       },
       {
         "tooltipId": "DVaMechEmergencyShielding",
@@ -251,8 +237,7 @@
         "description": "When D.Va's Mech would be destroyed, it instead gains a Shield that absorbs 210 (+4% per level) damage over 6 seconds.  This effect has a 15 second cooldown.",
         "icon": "storm_ui_icon_dva_mechmode.png",
         "sort": 2,
-        "abilityId": "D.Va|D1",
-        "isQuest": 0
+        "abilityId": "D.Va|D1"
       },
       {
         "tooltipId": "DVaMechAblativeArmor",
@@ -261,8 +246,7 @@
         "description": "Damage against D.Va's Mech that would deal 4% or less of its maximum Health is reduced by 50%.  This does not decrease the amount of Self-Destruct Charge gained.",
         "icon": "storm_ui_icon_dva_mechmode_a.png",
         "sort": 3,
-        "abilityId": "D.Va|D1",
-        "isQuest": 0
+        "abilityId": "D.Va|D1"
       }
     ],
     "16": [
@@ -274,8 +258,7 @@
         "icon": "storm_ui_icon_dva_jetpackattack.png",
         "sort": 1,
         "abilityId": "D.Va|Active",
-        "cooldown": 12,
-        "isQuest": 0
+        "cooldown": 12
       },
       {
         "tooltipId": "DVaPilotGGWP",
@@ -284,8 +267,7 @@
         "description": "Increase Pilot Mode Basic Attack damage by 50%. Participating in a Takedown while in Pilot Mode instantly refreshes the cooldown of Call Mech.",
         "icon": "storm_ui_icon_dva_pilotmode.png",
         "sort": 2,
-        "abilityId": "D.Va|D1",
-        "isQuest": 0
+        "abilityId": "D.Va|D1"
       },
       {
         "tooltipId": "DVaPilotNanoweaveSuit",
@@ -294,8 +276,7 @@
         "description": "For 4 seconds after ejecting from her Mech, D.Va gains 50 Armor and her Basic Attacks grant 50% more cooldown reduction towards Call Mech.",
         "icon": "storm_ui_icon_dva_pilotmode_a.png",
         "sort": 3,
-        "abilityId": "D.Va|D1",
-        "isQuest": 0
+        "abilityId": "D.Va|D1"
       },
       {
         "tooltipId": "DVaPilotSuppressingFire",
@@ -304,8 +285,7 @@
         "description": "Pilot Mode Basic Attacks have 20% increased range and Slow enemy Movement Speed by 20% for 2.5 seconds.",
         "icon": "storm_ui_icon_dva_pilotmode_b.png",
         "sort": 4,
-        "abilityId": "D.Va|D1",
-        "isQuest": 0
+        "abilityId": "D.Va|D1"
       }
     ],
     "20": [
@@ -316,8 +296,7 @@
         "description": "Bunny Hop deals 200% more damage if D.Va isn't moving at the moment of impact.",
         "icon": "storm_ui_icon_dva_bunnyhop.png",
         "sort": 1,
-        "abilityId": "D.Va|R1",
-        "isQuest": 0
+        "abilityId": "D.Va|R1"
       },
       {
         "tooltipId": "DVaBigShotPewPewPew",
@@ -326,8 +305,7 @@
         "description": "Instead of a single shot, Big Shot fires 3 shots over 0.5 seconds. Each shot deals 50% damage.",
         "icon": "storm_ui_icon_dva_bigshot.png",
         "sort": 2,
-        "abilityId": "D.Va|R2",
-        "isQuest": 0
+        "abilityId": "D.Va|R2"
       },
       {
         "tooltipId": "DVaPilotConcussivePulseTalent",
@@ -337,8 +315,7 @@
         "icon": "storm_ui_icon_dva_concussivecharge.png",
         "sort": 3,
         "abilityId": "D.Va|W1",
-        "cooldown": 7,
-        "isQuest": 0
+        "cooldown": 7
       },
       {
         "tooltipId": "DVaPilotCallMechMEKAfallTalent",
@@ -348,8 +325,7 @@
         "icon": "storm_ui_icon_dva_callmech.png",
         "sort": 4,
         "abilityId": "D.Va|E2",
-        "cooldown": 45,
-        "isQuest": 0
+        "cooldown": 45
       }
     ]
   }

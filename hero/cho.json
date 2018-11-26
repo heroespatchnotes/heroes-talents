@@ -75,8 +75,7 @@
         "description": "Consuming Blaze heals for 150% more when a Hero is Ignited.",
         "icon": "storm_ui_icon_cho_consumingflame.png",
         "sort": 1,
-        "abilityId": "Cho|W1",
-        "isQuest": 0
+        "abilityId": "Cho|W1"
       },
       {
         "tooltipId": "ChoFuelForTheFlameTalent",
@@ -86,7 +85,7 @@
         "icon": "storm_ui_icon_cho_consumingflame_var1.png",
         "sort": 2,
         "abilityId": "Cho|W1",
-        "isQuest": 1
+        "isQuest": true
       },
       {
         "tooltipId": "ChoCallousedHide",
@@ -95,8 +94,7 @@
         "description": "Ogre Hide also increases healing received by 15%.",
         "icon": "storm_ui_icon_cho_ogrehide.png",
         "sort": 3,
-        "abilityId": "Cho|D1",
-        "isQuest": 0
+        "abilityId": "Cho|D1"
       }
     ],
     "4": [
@@ -107,8 +105,7 @@
         "description": "Surging Fist deals additional damage to Heroes equal to 7% of their max Health.",
         "icon": "storm_ui_icon_cho_moltensurge_a.png",
         "sort": 1,
-        "abilityId": "Cho|Q1",
-        "isQuest": 0
+        "abilityId": "Cho|Q1"
       },
       {
         "tooltipId": "ChoRollbackTalent",
@@ -117,8 +114,7 @@
         "description": "Rune Bomb rolls back to Cho, damaging enemies in its path.",
         "icon": "storm_ui_icon_cho_runebomb.png",
         "sort": 2,
-        "abilityId": "Cho|E1",
-        "isQuest": 0
+        "abilityId": "Cho|E1"
       },
       {
         "tooltipId": "ChoSearedFleshTalent",
@@ -127,8 +123,7 @@
         "description": "Each consecutive Basic Attack to an enemy Hero deals 20% more damage, to a maximum of 60% damage. This bonus lasts 5 seconds or until a different enemy is attacked.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 3,
-        "abilityId": "Cho|Passive",
-        "isQuest": 0
+        "abilityId": "Cho|Passive"
       }
     ],
     "7": [
@@ -139,8 +134,7 @@
         "description": "Each Hero hit by Surging Fist reduces its cooldown by 4 seconds.",
         "icon": "storm_ui_icon_cho_moltensurge_a.png",
         "sort": 1,
-        "abilityId": "Cho|Q1",
-        "isQuest": 0
+        "abilityId": "Cho|Q1"
       },
       {
         "tooltipId": "ChoFirestarter",
@@ -149,8 +143,7 @@
         "description": "Basic Attacks against ignited Heroes decreases the cooldown of Consuming Blaze by 1 second.  Passive: Reduce the cooldown of Consuming Blaze by 3 seconds.",
         "icon": "storm_ui_icon_cho_consumingflame.png",
         "sort": 2,
-        "abilityId": "Cho|W1",
-        "isQuest": 0
+        "abilityId": "Cho|W1"
       },
       {
         "tooltipId": "ChoEnragedRegeneration",
@@ -159,8 +152,7 @@
         "description": "While Gall's Ogre Rage is active, Cho's Health Regeneration is increased by 200%.",
         "icon": "storm_ui_icon_cho_ogrehide.png",
         "sort": 3,
-        "abilityId": "Cho|D1",
-        "isQuest": 0
+        "abilityId": "Cho|D1"
       }
     ],
     "10": [
@@ -172,8 +164,7 @@
         "icon": "storm_ui_icon_cho_hammeroftwilight.png",
         "sort": 1,
         "abilityId": "Cho|R1",
-        "cooldown": 15,
-        "isQuest": 0
+        "cooldown": 15
       },
       {
         "tooltipId": "ChoUpheaval",
@@ -183,8 +174,7 @@
         "icon": "storm_ui_icon_cho_upheaval.png",
         "sort": 2,
         "abilityId": "Cho|R2",
-        "cooldown": 60,
-        "isQuest": 0
+        "cooldown": 60
       }
     ],
     "13": [
@@ -195,8 +185,7 @@
         "description": "Gain 75% Attack Speed for 5 seconds after using Surging Fist.",
         "icon": "storm_ui_icon_cho_moltensurge_a.png",
         "sort": 1,
-        "abilityId": "Cho|Q1",
-        "isQuest": 0
+        "abilityId": "Cho|Q1"
       },
       {
         "tooltipId": "ChoRunicFeedbackTalent",
@@ -205,8 +194,7 @@
         "description": "Gall's Runic Blast reduces Cho's Rune Bomb cooldown by 1 seconds per enemy hit, and 2 seconds for each Hero hit.",
         "icon": "storm_ui_icon_cho_runebomb.png",
         "sort": 2,
-        "abilityId": "Cho|E1",
-        "isQuest": 0
+        "abilityId": "Cho|E1"
       },
       {
         "tooltipId": "ChoRunedGauntletTalent",
@@ -215,8 +203,7 @@
         "description": "Basic Attacks reduce the cooldown of Cho and Gall's Heroic Abilities by 0.75 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
         "sort": 3,
-        "abilityId": "Cho|Passive",
-        "isQuest": 0
+        "abilityId": "Cho|Passive"
       }
     ],
     "16": [
@@ -227,8 +214,7 @@
         "description": "While channeling Surging Fist, Cho heals for 150 (+4% per level) Health per second.",
         "icon": "storm_ui_icon_cho_moltensurge_a.png",
         "sort": 1,
-        "abilityId": "Cho|Q1",
-        "isQuest": 0
+        "abilityId": "Cho|Q1"
       },
       {
         "tooltipId": "ChoTwilightVeilTalent",
@@ -238,8 +224,7 @@
         "icon": "storm_ui_icon_talent_hardenedshield.png",
         "sort": 2,
         "abilityId": "Cho|Active",
-        "cooldown": 30,
-        "isQuest": 0
+        "cooldown": 30
       },
       {
         "tooltipId": "ChoTalentMoltenBlock",
@@ -249,8 +234,7 @@
         "icon": "storm_ui_icon_cho_moltenblock.png",
         "sort": 3,
         "abilityId": "Cho|Active",
-        "cooldown": 60,
-        "isQuest": 0
+        "cooldown": 60
       }
     ],
     "20": [
@@ -261,8 +245,7 @@
         "description": "Cho's Basic Attack becomes ranged and slows targets by 20% for 2 seconds.",
         "icon": "storm_ui_icon_cho_hammeroftwilight.png",
         "sort": 1,
-        "abilityId": "Cho|R1",
-        "isQuest": 0
+        "abilityId": "Cho|R1"
       },
       {
         "tooltipId": "ChoFavorOfTheOldGodsTalent",
@@ -271,8 +254,7 @@
         "description": "Upheaval roots enemy Heroes for 1.5 seconds.",
         "icon": "storm_ui_icon_cho_upheaval.png",
         "sort": 2,
-        "abilityId": "Cho|R2",
-        "isQuest": 0
+        "abilityId": "Cho|R2"
       },
       {
         "tooltipId": "ChoTheWillofCho",
@@ -281,8 +263,7 @@
         "description": "Takedowns permanently increase the Armor granted by Ogre Hide by 2, to a max of 50 extra Armor.",
         "icon": "storm_ui_icon_cho_ogrehide.png",
         "sort": 3,
-        "abilityId": "Cho|D1",
-        "isQuest": 0
+        "abilityId": "Cho|D1"
       },
       {
         "tooltipId": "ChoHourofTwilight",
@@ -291,8 +272,7 @@
         "description": "Decreases Cho'gall's death timer by 50%.",
         "icon": "storm_ui_icon_gall_psychoticbreak.png",
         "sort": 4,
-        "abilityId": "Cho|Passive",
-        "isQuest": 0
+        "abilityId": "Cho|Passive"
       }
     ]
   }

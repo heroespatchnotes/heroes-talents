@@ -81,7 +81,7 @@
         "icon": "storm_ui_icon_hanzo_stormbow.png",
         "sort": 1,
         "abilityId": "Hanzo|Q1",
-        "isQuest": 1
+        "isQuest": true
       },
       {
         "tooltipId": "HanzoSimpleGeometry",
@@ -91,7 +91,7 @@
         "icon": "storm_ui_icon_hanzo_scatterarrow.png",
         "sort": 2,
         "abilityId": "Hanzo|W1",
-        "isQuest": 1
+        "isQuest": true
       },
       {
         "tooltipId": "HanzoRedemption",
@@ -101,7 +101,7 @@
         "icon": "storm_ui_icon_hanzo_redemption.png",
         "sort": 3,
         "abilityId": "Hanzo|Passive",
-        "isQuest": 1
+        "isQuest": true
       }
     ],
     "4": [
@@ -112,8 +112,7 @@
         "description": "Upon hitting a Minion or Monster, Storm Bow deals 75% of its damage to enemies around its target.",
         "icon": "storm_ui_icon_hanzo_stormbow.png",
         "sort": 1,
-        "abilityId": "Hanzo|Q1",
-        "isQuest": 0
+        "abilityId": "Hanzo|Q1"
       },
       {
         "tooltipId": "HanzoSerratedArrows",
@@ -122,8 +121,7 @@
         "description": "Scatter Arrow deals 100% more damage to Minions, Mercenaries, and Monsters.",
         "icon": "storm_ui_icon_hanzo_scatterarrow.png",
         "sort": 2,
-        "abilityId": "Hanzo|W1",
-        "isQuest": 0
+        "abilityId": "Hanzo|W1"
       },
       {
         "tooltipId": "HanzoIgnoreAllDistractions",
@@ -132,8 +130,7 @@
         "description": "Basic Attacks instantly kill Minions and increase Hanzo's Basic Attack range by 2 for 3 seconds.",
         "icon": "storm_ui_icon_hanzo_fromonething.png",
         "sort": 3,
-        "abilityId": "Hanzo|Passive",
-        "isQuest": 0
+        "abilityId": "Hanzo|Passive"
       }
     ],
     "7": [
@@ -144,8 +141,7 @@
         "description": "Hitting a Hero with Storm Bow grants 5% Spell Power for 10 seconds, stacking up to 20%.",
         "icon": "storm_ui_icon_hanzo_draconicadvantage.png",
         "sort": 1,
-        "abilityId": "Hanzo|Q1",
-        "isQuest": 0
+        "abilityId": "Hanzo|Q1"
       },
       {
         "tooltipId": "HanzoNeverOutmatched",
@@ -154,8 +150,7 @@
         "description": "Reduce Scatter Arrow's Mana cost from 40 to 20. Basic Attacks lower the cooldown of Scatter Arrow by 2.5 seconds.",
         "icon": "storm_ui_icon_hanzo_scatterarrow.png",
         "sort": 2,
-        "abilityId": "Hanzo|W1",
-        "isQuest": 0
+        "abilityId": "Hanzo|W1"
       },
       {
         "tooltipId": "HanzoSharpenedArrowheads",
@@ -164,8 +159,7 @@
         "description": "Hitting a Hero with Storm Bow or Basic Attacks reduces their Armor by 2 for 3 seconds, up to a maximum reduction of 20 Armor.",
         "icon": "storm_ui_icon_hanzo_shieldbreaker.png",
         "sort": 3,
-        "abilityId": "Hanzo|Passive",
-        "isQuest": 0
+        "abilityId": "Hanzo|Passive"
       }
     ],
     "10": [
@@ -177,8 +171,7 @@
         "icon": "storm_ui_icon_hanzo_dragonstrike.png",
         "sort": 1,
         "abilityId": "Hanzo|R1",
-        "cooldown": 100,
-        "isQuest": 0
+        "cooldown": 100
       },
       {
         "tooltipId": "HanzoDragonsArrow",
@@ -188,8 +181,7 @@
         "icon": "storm_ui_icon_hanzo_thedragonsarrow.png",
         "sort": 2,
         "abilityId": "Hanzo|R2",
-        "cooldown": 70,
-        "isQuest": 0
+        "cooldown": 70
       }
     ],
     "13": [
@@ -200,8 +192,7 @@
         "description": "Hitting a Hero with Storm Bow grants 10% Movement Speed for 6 seconds, up to 30%.",
         "icon": "storm_ui_icon_hanzo_stormbow.png",
         "sort": 1,
-        "abilityId": "Hanzo|Q1",
-        "isQuest": 0
+        "abilityId": "Hanzo|Q1"
       },
       {
         "tooltipId": "HanzoNinjaAssassin",
@@ -210,8 +201,7 @@
         "description": "Hitting Heroes with Storm Bow lowers Natural Agility's cooldown by 10 seconds. Additionally, Hero Takedowns reset Natural Agility's cooldown.",
         "icon": "storm_ui_icon_hanzo_wallvault.png",
         "sort": 2,
-        "abilityId": "Hanzo|D1",
-        "isQuest": 0
+        "abilityId": "Hanzo|D1"
       },
       {
         "tooltipId": "HanzoMountedArchery",
@@ -220,8 +210,7 @@
         "description": "Upon mounting, gain 20% additional Movement Speed for 5 seconds. Using Natural Agility instantly mounts.",
         "icon": "storm_ui_icon_hanzo_grabthereins.png",
         "sort": 3,
-        "abilityId": "Hanzo|Passive",
-        "isQuest": 0
+        "abilityId": "Hanzo|Passive"
       }
     ],
     "16": [
@@ -232,8 +221,7 @@
         "description": "Hitting Heroes with Storm Bow increases the damage of Hanzo's next Basic Attack within 5 seconds by 25%. Basic Attacks against Heroes increase the damage of Hanzo's next Storm Bow within 5 seconds by 25%.",
         "icon": "storm_ui_icon_hanzo_fromonething.png",
         "sort": 1,
-        "abilityId": "Hanzo|Passive",
-        "isQuest": 0
+        "abilityId": "Hanzo|Passive"
       },
       {
         "tooltipId": "HanzoPiercingArrows",
@@ -242,8 +230,7 @@
         "description": "Storm Bow and Scatter Arrow pierce, hitting an additional enemy. Additionally, Scatter Arrow can pierce through 1 enemy each time it ricochets.",
         "icon": "storm_ui_icon_hanzo_piercingarrows.png",
         "sort": 2,
-        "abilityId": "Hanzo|Passive",
-        "isQuest": 0
+        "abilityId": "Hanzo|Passive"
       },
       {
         "tooltipId": "HanzoGiantSlayer",
@@ -252,8 +239,7 @@
         "description": "Enemy Heroes hit by Scatter Arrow and Basic Attacks take a bonus 1.5% of their maximum Health as damage.",
         "icon": "storm_ui_icon_hanzo_kaijuhunter.png",
         "sort": 3,
-        "abilityId": "Hanzo|Passive",
-        "isQuest": 0
+        "abilityId": "Hanzo|Passive"
       }
     ],
     "20": [
@@ -264,8 +250,7 @@
         "description": "Hitting a Hero with Storm Bow, Scatter Arrow, or Basic Attacks reduces the cooldown of Dragonstrike by 5 seconds.",
         "icon": "storm_ui_icon_hanzo_dragonstrike.png",
         "sort": 1,
-        "abilityId": "Hanzo|R1",
-        "isQuest": 0
+        "abilityId": "Hanzo|R1"
       },
       {
         "tooltipId": "HanzoPOTG",
@@ -274,8 +259,7 @@
         "description": "While in flight or for up to 2 seconds after impacting a target, Dragon's Arrow can be reactivated to teleport to its location and jump backwards. If used after impact, Hanzo shoots arrows that deal 132 (+4% per level) damage to each target hit by the impact.  Hanzo is Unstoppable during Play of the Game.",
         "icon": "storm_ui_icon_hanzo_thedragonsarrow.png",
         "sort": 2,
-        "abilityId": "Hanzo|R2",
-        "isQuest": 0
+        "abilityId": "Hanzo|R2"
       },
       {
         "tooltipId": "HanzoBullseye",
@@ -284,8 +268,7 @@
         "description": "Increase Sonic Arrow's speed and center radius by 100%. Additionally, Heroes hit by Sonic Arrow's center are Stunned for 1 second.",
         "icon": "storm_ui_icon_hanzo_sonicarrow.png",
         "sort": 3,
-        "abilityId": "Hanzo|E1",
-        "isQuest": 0
+        "abilityId": "Hanzo|E1"
       },
       {
         "tooltipId": "HanzoPerfectAgility",
@@ -294,8 +277,7 @@
         "description": "Natural Agility gains a 2nd charge and its cooldown is reduced by 10 seconds.",
         "icon": "storm_ui_icon_hanzo_wallvault.png",
         "sort": 4,
-        "abilityId": "Hanzo|D1",
-        "isQuest": 0
+        "abilityId": "Hanzo|D1"
       }
     ]
   }

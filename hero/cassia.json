@@ -79,7 +79,7 @@
         "icon": "storm_ui_icon_cassia_lightningfury.png",
         "sort": 1,
         "abilityId": "Cassia|Q1",
-        "isQuest": 1
+        "isQuest": true
       },
       {
         "tooltipId": "AmazonBlindingLightSeraphsHymn",
@@ -88,8 +88,7 @@
         "description": "Reduce the cooldown and Mana cost of Blinding Light by 33%. Basic Attacks against Blinded enemies deal 100% more damage.",
         "icon": "storm_ui_icon_cassia_blindinglight.png",
         "sort": 2,
-        "abilityId": "Cassia|W1",
-        "isQuest": 0
+        "abilityId": "Cassia|W1"
       },
       {
         "tooltipId": "AmazonAvoidanceChargedStrikes",
@@ -99,8 +98,7 @@
         "icon": "storm_ui_icon_cassia_chargedstrikes.png",
         "sort": 3,
         "abilityId": "Cassia|Active",
-        "cooldown": 20,
-        "isQuest": 0
+        "cooldown": 20
       }
     ],
     "4": [
@@ -111,8 +109,7 @@
         "description": "Whenever Cassia is Stunned or Rooted, Blinding Light is cast at her location.  This effect has a 6 second cooldown.  Passive: Blinding Light's radius is increased by 25%.",
         "icon": "storm_ui_icon_cassia_innerlight.png",
         "sort": 1,
-        "abilityId": "Cassia|W1",
-        "isQuest": 0
+        "abilityId": "Cassia|W1"
       },
       {
         "tooltipId": "AmazonRingoftheLeech",
@@ -121,8 +118,7 @@
         "description": "Cassia heals for 25% of the damage she deals to Blinded enemies.",
         "icon": "storm_ui_icon_cassia_ringoftheleech.png",
         "sort": 2,
-        "abilityId": "Cassia|Passive",
-        "isQuest": 0
+        "abilityId": "Cassia|Passive"
       },
       {
         "tooltipId": "AmazonAvoidancePlateoftheWhale",
@@ -132,7 +128,7 @@
         "icon": "storm_ui_icon_cassia_avoidance.png",
         "sort": 3,
         "abilityId": "Cassia|D1",
-        "isQuest": 1
+        "isQuest": true
       }
     ],
     "7": [
@@ -143,8 +139,7 @@
         "description": "Enemies below 60% Health take 50% increased damage from Fend.",
         "icon": "storm_ui_icon_cassia_fend.png",
         "sort": 1,
-        "abilityId": "Cassia|E1",
-        "isQuest": 0
+        "abilityId": "Cassia|E1"
       },
       {
         "tooltipId": "AmazonAvoidanceWarTraveler",
@@ -153,8 +148,7 @@
         "description": "Cassia gains 4% Movement Speed every 0.5 seconds while Avoidance is active, up to 20%.  This bonus is reset when Cassia stops moving or uses an Ability.",
         "icon": "storm_ui_icon_cassia_avoidance.png",
         "sort": 2,
-        "abilityId": "Cassia|D1",
-        "isQuest": 0
+        "abilityId": "Cassia|D1"
       },
       {
         "tooltipId": "AmazonAvoidanceSurgeOfLight",
@@ -163,8 +157,7 @@
         "description": "After taking 500 (+4% per level) damage with Avoidance active, Cassia can activate Avoidance to deal 210 (+4% per level) damage to enemies around her.",
         "icon": "storm_ui_icon_cassia_avoidance_a.png",
         "sort": 3,
-        "abilityId": "Cassia|D1",
-        "isQuest": 0
+        "abilityId": "Cassia|D1"
       }
     ],
     "10": [
@@ -176,8 +169,7 @@
         "icon": "storm_ui_icon_cassia_balllightning.png",
         "sort": 1,
         "abilityId": "Cassia|R1",
-        "cooldown": 60,
-        "isQuest": 0
+        "cooldown": 60
       },
       {
         "tooltipId": "AmazonValkyrie",
@@ -187,8 +179,7 @@
         "icon": "storm_ui_icon_cassia_valkrie.png",
         "sort": 2,
         "abilityId": "Cassia|R2",
-        "cooldown": 60,
-        "isQuest": 0
+        "cooldown": 60
       }
     ],
     "13": [
@@ -199,8 +190,7 @@
         "description": "Lightning Fury Slows enemies hit by 20% for 1.5 seconds.",
         "icon": "storm_ui_icon_cassia_lightningfury.png",
         "sort": 1,
-        "abilityId": "Cassia|Q1",
-        "isQuest": 0
+        "abilityId": "Cassia|Q1"
       },
       {
         "tooltipId": "AmazonLightningFuryThundergodsVigor",
@@ -209,8 +199,7 @@
         "description": "Enemy Heroes hit by the primary missile of Lightning Fury reduce its cooldown by 1 second.",
         "icon": "storm_ui_icon_cassia_lightningfury_a.png",
         "sort": 2,
-        "abilityId": "Cassia|Q1",
-        "isQuest": 0
+        "abilityId": "Cassia|Q1"
       },
       {
         "tooltipId": "AmazonFendLungingStrike",
@@ -219,8 +208,7 @@
         "description": "Increase Fend's range and area by 20%, and its duration by 0.5 seconds.",
         "icon": "storm_ui_icon_cassia_fend.png",
         "sort": 3,
-        "abilityId": "Cassia|E1",
-        "isQuest": 0
+        "abilityId": "Cassia|E1"
       }
     ],
     "16": [
@@ -231,8 +219,7 @@
         "description": "The primary missile of Lightning Fury now pierces, but splits only when hitting Heroes.",
         "icon": "storm_ui_icon_cassia_lightningfury.png",
         "sort": 1,
-        "abilityId": "Cassia|Q1",
-        "isQuest": 0
+        "abilityId": "Cassia|Q1"
       },
       {
         "tooltipId": "AmazonFendPenetrate",
@@ -241,8 +228,7 @@
         "description": "Enemies take 3% increased damage from Fend each consecutive hit.",
         "icon": "storm_ui_icon_cassia_fend.png",
         "sort": 2,
-        "abilityId": "Cassia|E1",
-        "isQuest": 0
+        "abilityId": "Cassia|E1"
       },
       {
         "tooltipId": "AmazonMartialLaw",
@@ -251,8 +237,7 @@
         "description": "Basic Attacks against Stunned, Rooted, or Slowed enemy Heroes deal bonus damage equal to 3% of the Hero's maximum Health.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 3,
-        "abilityId": "Cassia|Passive",
-        "isQuest": 0
+        "abilityId": "Cassia|Passive"
       }
     ],
     "20": [
@@ -263,8 +248,7 @@
         "description": "Ball Lightning can now bounce indefinitely, and its cooldown is reduced by 3 seconds every time an enemy Hero is hit.",
         "icon": "storm_ui_icon_cassia_balllightning_a.png",
         "sort": 1,
-        "abilityId": "Cassia|R1",
-        "isQuest": 0
+        "abilityId": "Cassia|R1"
       },
       {
         "tooltipId": "AmazonValkyrieImprisoningLight",
@@ -273,8 +257,7 @@
         "description": "Upon impaling a Hero, Cassia's Valkyrie creates a wave of light that deals 200 (+4% per level) damage to nearby enemies and Roots them for 3 seconds.",
         "icon": "storm_ui_icon_cassia_valkrie_a.png",
         "sort": 2,
-        "abilityId": "Cassia|R2",
-        "isQuest": 0
+        "abilityId": "Cassia|R2"
       },
       {
         "tooltipId": "AmazonTitansRevenge",
@@ -283,8 +266,7 @@
         "description": "Cassia's Basic Attacks now ignore Armor, and her Basic Attack range is increased by 2.",
         "icon": "storm_ui_icon_talent_autoattack_range.png",
         "sort": 3,
-        "abilityId": "Cassia|Passive",
-        "isQuest": 0
+        "abilityId": "Cassia|Passive"
       }
     ]
   }

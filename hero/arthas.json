@@ -82,7 +82,7 @@
         "icon": "storm_ui_icon_arthas_frostmournehungers_off.png",
         "sort": 1,
         "abilityId": "Arthas|D1",
-        "isQuest": 1
+        "isQuest": true
       },
       {
         "tooltipId": "ArthasFrostPresenceHowlingBlastTalent",
@@ -92,7 +92,7 @@
         "icon": "storm_ui_icon_arthas_howlingblast.png",
         "sort": 2,
         "abilityId": "Arthas|W1",
-        "isQuest": 1
+        "isQuest": true
       },
       {
         "tooltipId": "ArthasRime",
@@ -101,8 +101,7 @@
         "description": "Every 5 seconds, gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%. Stores up to 3 charges.",
         "icon": "storm_ui_icon_talent_block.png",
         "sort": 3,
-        "abilityId": "Arthas|Passive",
-        "isQuest": 0
+        "abilityId": "Arthas|Passive"
       }
     ],
     "4": [
@@ -114,7 +113,7 @@
         "icon": "storm_ui_icon_arthas_frosentempest.png",
         "sort": 1,
         "abilityId": "Arthas|E1",
-        "isQuest": 1
+        "isQuest": true
       },
       {
         "tooltipId": "ArthasIcyTalons",
@@ -123,8 +122,7 @@
         "description": "Gain 3% Attack Speed for 1.5 seconds every time a Hero is damaged by Frozen Tempest, to a maximum of 60%.",
         "icon": "storm_ui_icon_arthas_frosentempest_a.png",
         "sort": 2,
-        "abilityId": "Arthas|E1",
-        "isQuest": 0
+        "abilityId": "Arthas|E1"
       },
       {
         "tooltipId": "ArthasDeathlord",
@@ -133,8 +131,7 @@
         "description": "Reduces Death Coil's cooldown by 3 seconds and increase its range by 30%.",
         "icon": "storm_ui_icon_arthas_deathcoil.png",
         "sort": 3,
-        "abilityId": "Arthas|Q1",
-        "isQuest": 0
+        "abilityId": "Arthas|Q1"
       }
     ],
     "7": [
@@ -145,8 +142,7 @@
         "description": "Every 3rd Basic Attack heals Arthas for 4% of his max Health.",
         "icon": "storm_ui_icon_arthas_runetap.png",
         "sort": 1,
-        "abilityId": "Arthas|Passive",
-        "isQuest": 0
+        "abilityId": "Arthas|Passive"
       },
       {
         "tooltipId": "ArthasImmortalCoilDeathCoilTalent",
@@ -155,8 +151,7 @@
         "description": "Gain the healing effect of Death Coil even when used on enemies. If Death Coil is used on Arthas, it heals for an additional 50% bonus healing.",
         "icon": "storm_ui_icon_arthas_deathcoil.png",
         "sort": 2,
-        "abilityId": "Arthas|Q1",
-        "isQuest": 0
+        "abilityId": "Arthas|Q1"
       },
       {
         "tooltipId": "ArthasIceboundFortitudeTalent",
@@ -166,8 +161,7 @@
         "icon": "storm_ui_icon_talent_icebound_fortitude.png",
         "sort": 3,
         "abilityId": "Arthas|Active",
-        "cooldown": 35,
-        "isQuest": 0
+        "cooldown": 35
       }
     ],
     "10": [
@@ -179,8 +173,7 @@
         "icon": "storm_ui_icon_arthas_armyofthedead.png",
         "sort": 1,
         "abilityId": "Arthas|R1",
-        "cooldown": 80,
-        "isQuest": 0
+        "cooldown": 80
       },
       {
         "tooltipId": "ArthasSummonSindragosa",
@@ -190,8 +183,7 @@
         "icon": "storm_ui_icon_arthas_summonsindragosa.png",
         "sort": 2,
         "abilityId": "Arthas|R2",
-        "cooldown": 100,
-        "isQuest": 0
+        "cooldown": 100
       }
     ],
     "13": [
@@ -202,8 +194,7 @@
         "description": "Enemy Heroes hit by Howling Blast have their Armor reduced by 15 for 4 seconds.",
         "icon": "storm_ui_icon_arthas_howlingblast.png",
         "sort": 1,
-        "abilityId": "Arthas|W1",
-        "isQuest": 0
+        "abilityId": "Arthas|W1"
       },
       {
         "tooltipId": "ArthasFrostStrikeFrostmourneHungersTalent",
@@ -212,8 +203,7 @@
         "description": "Reduces Frostmourne Hungers' cooldown by 2 seconds. Frostmourne Hungers also Slows the enemy by 50% for 1.5 seconds.",
         "icon": "storm_ui_icon_arthas_frostmournehungers_off.png",
         "sort": 2,
-        "abilityId": "Arthas|D1",
-        "isQuest": 0
+        "abilityId": "Arthas|D1"
       },
       {
         "tooltipId": "ArthasBitingColdFrozenTempestTalent",
@@ -222,8 +212,7 @@
         "description": "Each second an enemy is damaged by Frozen Tempest, it deals 12.5% bonus damage, up to a 50% bonus.",
         "icon": "storm_ui_icon_arthas_frosentempest.png",
         "sort": 3,
-        "abilityId": "Arthas|E1",
-        "isQuest": 0
+        "abilityId": "Arthas|E1"
       }
     ],
     "16": [
@@ -234,8 +223,7 @@
         "description": "Enemy Heroes that remain within Frozen Tempest for 3 seconds are Rooted for 1.25 seconds. This effect can only happen once every 10 seconds.",
         "icon": "storm_ui_icon_arthas_frosentempest.png",
         "sort": 1,
-        "abilityId": "Arthas|E1",
-        "isQuest": 0
+        "abilityId": "Arthas|E1"
       },
       {
         "tooltipId": "ArthasFrostmourneFeedsFrostmourneHungersTalents",
@@ -244,8 +232,7 @@
         "description": "Increases the amount of Basic Attacks empowered by Frostmourne Hungers to 2.",
         "icon": "storm_ui_icon_arthas_frostmournehungers_off.png",
         "sort": 2,
-        "abilityId": "Arthas|D1",
-        "isQuest": 0
+        "abilityId": "Arthas|D1"
       },
       {
         "tooltipId": "ArthasEmbraceDeathDeathCoilTalent",
@@ -254,8 +241,7 @@
         "description": "Death Coil deals more damage and heals more the lower Arthas's current Health is, to a maximum of 100% bonus damage and healing.",
         "icon": "storm_ui_icon_arthas_deathcoil.png",
         "sort": 3,
-        "abilityId": "Arthas|Q1",
-        "isQuest": 0
+        "abilityId": "Arthas|Q1"
       }
     ],
     "20": [
@@ -266,8 +252,7 @@
         "description": "3 additional Ghouls are created.  Ghouls heal for an additional 50% and last 5 seconds longer.",
         "icon": "storm_ui_icon_arthas_armyofthedead.png",
         "sort": 1,
-        "abilityId": "Arthas|R1",
-        "isQuest": 0
+        "abilityId": "Arthas|R1"
       },
       {
         "tooltipId": "ArthasAbsoluteZeroSummonSindragosaTalent",
@@ -276,8 +261,7 @@
         "description": "Sindragosa flies twice as far.  Enemy Heroes are Rooted for 2 seconds, and then Slowed by 60% for 3.5 seconds.",
         "icon": "storm_ui_icon_arthas_summonsindragosa.png",
         "sort": 2,
-        "abilityId": "Arthas|R2",
-        "isQuest": 0
+        "abilityId": "Arthas|R2"
       },
       {
         "tooltipId": "ArthasDeathsAdvanceTalent",
@@ -287,8 +271,7 @@
         "icon": "storm_ui_icon_talent_deaths_advance.png",
         "sort": 3,
         "abilityId": "Arthas|Active",
-        "cooldown": 50,
-        "isQuest": 0
+        "cooldown": 50
       },
       {
         "tooltipId": "ArthasAntiMagicShellTalent",
@@ -298,8 +281,7 @@
         "icon": "storm_temp_war3_btnantimagicshell.png",
         "sort": 4,
         "abilityId": "Arthas|Active",
-        "cooldown": 60,
-        "isQuest": 0
+        "cooldown": 60
       }
     ]
   }

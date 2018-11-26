@@ -110,7 +110,7 @@
         "icon": "storm_ui_icon_ragnaros_empowersulfuras.png",
         "sort": 1,
         "abilityId": "Ragnaros|Q1",
-        "isQuest": 1
+        "isQuest": true
       },
       {
         "tooltipId": "RagnarosLivingMeteorShiftingMeteor",
@@ -120,7 +120,7 @@
         "icon": "storm_ui_icon_ragnaros_livingmeteor.png",
         "sort": 2,
         "abilityId": "Ragnaros|W1",
-        "isQuest": 1
+        "isQuest": true
       },
       {
         "tooltipId": "RagnarosBlastWaveEngulfingFlame",
@@ -129,8 +129,7 @@
         "description": "Increase Blast Wave's damage by 75% and its radius by 15%.",
         "icon": "storm_ui_icon_ragnaros_blastwave.png",
         "sort": 3,
-        "abilityId": "Ragnaros|E1",
-        "isQuest": 0
+        "abilityId": "Ragnaros|E1"
       }
     ],
     "4": [
@@ -141,8 +140,7 @@
         "description": "When Living Meteor hits an enemy Hero, gain a charge of Spell Armor, reducing damage from the next enemy ability by 50%.  Stores up to 2 charges.",
         "icon": "storm_ui_icon_ragnaros_livingmeteor.png",
         "sort": 1,
-        "abilityId": "Ragnaros|W1",
-        "isQuest": 0
+        "abilityId": "Ragnaros|W1"
       },
       {
         "tooltipId": "RagnarosBlastWaveSlowBurn",
@@ -151,8 +149,7 @@
         "description": "Blast Wave slows enemies hit by 40% for 2 seconds.",
         "icon": "storm_ui_icon_ragnaros_blastwave.png",
         "sort": 2,
-        "abilityId": "Ragnaros|E1",
-        "isQuest": 0
+        "abilityId": "Ragnaros|E1"
       },
       {
         "tooltipId": "RagnarosCatchingFireTalent",
@@ -163,7 +160,7 @@
         "sort": 3,
         "abilityId": "Ragnaros|Active",
         "cooldown": 30,
-        "isQuest": 1
+        "isQuest": true
       }
     ],
     "7": [
@@ -174,8 +171,7 @@
         "description": "If Empower Sulfuras hits at least 2 enemy Heroes, it restores 10 Mana and its cooldown is reduced by 2 seconds.",
         "icon": "storm_ui_icon_ragnaros_empowersulfuras.png",
         "sort": 1,
-        "abilityId": "Ragnaros|Q1",
-        "isQuest": 0
+        "abilityId": "Ragnaros|Q1"
       },
       {
         "tooltipId": "RagnarosLivingMeteorMoltenPower",
@@ -184,8 +180,7 @@
         "description": "Each enemy Hero hit by Living Meteor increases the damage of the next Living Meteor by 20%, up to a maximum of 100%.",
         "icon": "storm_ui_icon_ragnaros_livingmeteor.png",
         "sort": 2,
-        "abilityId": "Ragnaros|W1",
-        "isQuest": 0
+        "abilityId": "Ragnaros|W1"
       },
       {
         "tooltipId": "RagnarosBlisteringAttacks",
@@ -194,8 +189,7 @@
         "description": "Every 10 seconds, Ragnaros's next Basic Attack against a Hero deals 60% bonus damage. Hitting enemies with Basic Abilities reduces this cooldown by 1 second.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 3,
-        "abilityId": "Ragnaros|Passive",
-        "isQuest": 0
+        "abilityId": "Ragnaros|Passive"
       }
     ],
     "10": [
@@ -207,8 +201,7 @@
         "icon": "storm_ui_icon_ragnaros_sulfurassmash.png",
         "sort": 1,
         "abilityId": "Ragnaros|R1",
-        "cooldown": 80,
-        "isQuest": 0
+        "cooldown": 80
       },
       {
         "tooltipId": "RagnarosLavaWaveTargetPoint",
@@ -218,8 +211,7 @@
         "icon": "storm_ui_icon_ragnaros_lavawave.png",
         "sort": 2,
         "abilityId": "Ragnaros|R2",
-        "cooldown": 120,
-        "isQuest": 0
+        "cooldown": 120
       }
     ],
     "13": [
@@ -230,8 +222,7 @@
         "description": "Empower Sulfuras heals for an additional 40% of damage dealt to Heroes over 2 seconds.",
         "icon": "storm_ui_icon_ragnaros_empowersulfuras.png",
         "sort": 1,
-        "abilityId": "Ragnaros|Q1",
-        "isQuest": 0
+        "abilityId": "Ragnaros|Q1"
       },
       {
         "tooltipId": "RagnarosBlastWaveTemperedFlame",
@@ -240,8 +231,7 @@
         "description": "When Blast Wave damages an enemy Hero, gain a Shield equal to 100% of the damage dealt for 3 seconds.",
         "icon": "storm_ui_icon_ragnaros_blastwave.png",
         "sort": 2,
-        "abilityId": "Ragnaros|E1",
-        "isQuest": 0
+        "abilityId": "Ragnaros|E1"
       },
       {
         "tooltipId": "RagnarosResilientFlame",
@@ -250,8 +240,7 @@
         "description": "When Ragnaros is Stunned, he gains 40 Armor for 3 seconds, reducing damage taken by 40%.  This effect has a 15 second cooldown.",
         "icon": "storm_ui_icon_talent_resistance.png",
         "sort": 3,
-        "abilityId": "Ragnaros|Passive",
-        "isQuest": 0
+        "abilityId": "Ragnaros|Passive"
       }
     ],
     "16": [
@@ -262,8 +251,7 @@
         "description": "Empower Sulfuras burns enemy Heroes for 9% of their maximum Health over 3 seconds. This additional damage does not heal Ragnaros.",
         "icon": "storm_ui_icon_ragnaros_empowersulfuras.png",
         "sort": 1,
-        "abilityId": "Ragnaros|Q1",
-        "isQuest": 0
+        "abilityId": "Ragnaros|Q1"
       },
       {
         "tooltipId": "RagnarosLivingMeteorMeteorBomb",
@@ -272,8 +260,7 @@
         "description": "Living Meteor explodes at the end of its path, dealing 220 (+4% per level) damage to all nearby enemies.",
         "icon": "storm_ui_icon_ragnaros_livingmeteor.png",
         "sort": 2,
-        "abilityId": "Ragnaros|W1",
-        "isQuest": 0
+        "abilityId": "Ragnaros|W1"
       },
       {
         "tooltipId": "RagnarosBlastWaveBlastEcho",
@@ -282,8 +269,7 @@
         "description": "After Blast Wave explodes, another Blast Wave is created on Ragnaros.",
         "icon": "storm_ui_icon_ragnaros_blastwave.png",
         "sort": 3,
-        "abilityId": "Ragnaros|E1",
-        "isQuest": 0
+        "abilityId": "Ragnaros|E1"
       }
     ],
     "20": [
@@ -294,8 +280,7 @@
         "description": "Sulfuras Smash slows enemies by 50% for 2 seconds, and enemies in the center are stunned for an additional 0.5 seconds.",
         "icon": "storm_ui_icon_ragnaros_sulfurassmash.png",
         "sort": 1,
-        "abilityId": "Ragnaros|R1",
-        "isQuest": 0
+        "abilityId": "Ragnaros|R1"
       },
       {
         "tooltipId": "RagnarosLavaWaveLavaSurge",
@@ -304,8 +289,7 @@
         "description": "Lava Wave gains an additional charge and its cooldown is reduced by 30 seconds.",
         "icon": "storm_ui_icon_ragnaros_lavawave.png",
         "sort": 2,
-        "abilityId": "Ragnaros|R2",
-        "isQuest": 0
+        "abilityId": "Ragnaros|R2"
       },
       {
         "tooltipId": "RagnarosMoltenCoreHeroicDifficulty",
@@ -314,8 +298,7 @@
         "description": "Molten Core has 25% increased Health and Damage, and its cooldown is reduced by 50 seconds.",
         "icon": "storm_ui_icon_ragnaros_moltencore.png",
         "sort": 3,
-        "abilityId": "Ragnaros|D1",
-        "isQuest": 0
+        "abilityId": "Ragnaros|D1"
       },
       {
         "tooltipId": "RagnarosSubmerge",
@@ -325,8 +308,7 @@
         "icon": "storm_ui_icon_ragnaros_submerge.png",
         "sort": 4,
         "abilityId": "Ragnaros|Active",
-        "cooldown": 90,
-        "isQuest": 0
+        "cooldown": 90
       }
     ]
   }
