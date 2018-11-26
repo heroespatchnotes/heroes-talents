@@ -87,7 +87,8 @@
         "description": "Increases Raven Form's Movement Speed bonus by 50%.",
         "icon": "storm_ui_icon_medivh_ravenform.png",
         "sort": 1,
-        "abilityId": "Medivh|Z1"
+        "abilityId": "Medivh|Z1",
+        "isQuest": 0
       },
       {
         "tooltipId": "MedivhTransformRavenRavensIntellect",
@@ -96,7 +97,8 @@
         "description": "Raven Form increases Medivh's Mana and Health Regeneration by 75%.",
         "icon": "storm_ui_icon_medivh_ravenform_b.png",
         "sort": 2,
-        "abilityId": "Medivh|Z1"
+        "abilityId": "Medivh|Z1",
+        "isQuest": 0
       },
       {
         "tooltipId": "MedivhPortalPortalMasteryTalent",
@@ -106,7 +108,8 @@
         "icon": "storm_ui_icon_medivh_portal.png",
         "sort": 3,
         "abilityId": "Medivh|Active",
-        "cooldown": 16
+        "cooldown": 16,
+        "isQuest": 0
       }
     ],
     "4": [
@@ -117,7 +120,8 @@
         "description": "The first time an ally uses a Portal, they gain 30 Armor for 4 seconds, reducing their damage taken by 30%.",
         "icon": "storm_ui_icon_medivh_portal.png",
         "sort": 1,
-        "abilityId": "Medivh|E1"
+        "abilityId": "Medivh|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "MedivhPortalRavenFamiliar",
@@ -126,7 +130,8 @@
         "description": "A Raven Familiar joins allies each time they use a Portal. The Raven will dive at the ally's next Basic Attack against a Hero within 5 seconds, dealing 114 (+4% per level) damage and Slowing them by 30% for 2.5 seconds.",
         "icon": "storm_ui_icon_medivh_portal_a.png",
         "sort": 2,
-        "abilityId": "Medivh|E1"
+        "abilityId": "Medivh|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "MedivhDustOfAppearance",
@@ -136,7 +141,8 @@
         "icon": "storm_ui_icon_medivh_dustofappearance.png",
         "sort": 3,
         "abilityId": "Medivh|Active",
-        "cooldown": 45
+        "cooldown": 45,
+        "isQuest": 0
       }
     ],
     "7": [
@@ -147,7 +153,8 @@
         "description": "If Arcane Rift hits an enemy Hero, Medivh's next Basic Attack within 6 seconds deals 40% more damage and heals for 40% of the damage dealt.",
         "icon": "storm_ui_icon_medivh_arcanemissile.png",
         "sort": 1,
-        "abilityId": "Medivh|Q1"
+        "abilityId": "Medivh|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "MedivhForceOfWillArcaneExplosion",
@@ -156,7 +163,8 @@
         "description": "When Force of Will expires, it deals 80 (+4% per level) damage to nearby enemies, plus 50% of the damage it prevented, up to 315 (+4% per level) additional damage.",
         "icon": "storm_ui_icon_medivh_forceofwill.png",
         "sort": 2,
-        "abilityId": "Medivh|W1"
+        "abilityId": "Medivh|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "MedivhForceofMagic",
@@ -165,7 +173,8 @@
         "description": "Preventing at least 268 (+4% per level) damage with a single cast of Force of Will grants 30% Spell Power for 15 seconds. Stacks up to 2 times.",
         "icon": "storm_ui_icon_medivh_forceofwill_b.png",
         "sort": 3,
-        "abilityId": "Medivh|W1"
+        "abilityId": "Medivh|W1",
+        "isQuest": 0
       }
     ],
     "10": [
@@ -177,7 +186,8 @@
         "icon": "storm_ui_icon_medivh_polybomb.png",
         "sort": 1,
         "abilityId": "Medivh|R1",
-        "cooldown": 40
+        "cooldown": 40,
+        "isQuest": 0
       },
       {
         "tooltipId": "MedivhLeyLineSeal",
@@ -187,7 +197,8 @@
         "icon": "storm_ui_icon_medivh_leylineblast.png",
         "sort": 2,
         "abilityId": "Medivh|R2",
-        "cooldown": 80
+        "cooldown": 80,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -198,7 +209,8 @@
         "description": "Force of Will also applies to allies near the target, but its cooldown is increased by 2 seconds.",
         "icon": "storm_ui_icon_medivh_forceofwill.png",
         "sort": 1,
-        "abilityId": "Medivh|W1"
+        "abilityId": "Medivh|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "MedivhForceOfWillEnduringWill",
@@ -207,7 +219,8 @@
         "description": "Preventing at least 268 (+4% per level) damage with Force of Will reduces its cooldown to 4 seconds.",
         "icon": "storm_ui_icon_medivh_forceofwill_a.png",
         "sort": 2,
-        "abilityId": "Medivh|W1"
+        "abilityId": "Medivh|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "MedivhForceOfWillReabsorption",
@@ -216,7 +229,8 @@
         "description": "Increase the amount of healing from Force Of Will to 70% of the damage it absorbed.",
         "icon": "storm_ui_icon_medivh_forceofwill_b.png",
         "sort": 3,
-        "abilityId": "Medivh|W1"
+        "abilityId": "Medivh|W1",
+        "isQuest": 0
       }
     ],
     "16": [
@@ -227,7 +241,8 @@
         "description": "When Arcane Rift damages an enemy Hero, the next Arcane Rift deals 15% more damage.",
         "icon": "storm_ui_icon_medivh_arcanemissile.png",
         "sort": 1,
-        "abilityId": "Medivh|Q1"
+        "abilityId": "Medivh|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "MedivhTemporalFlux",
@@ -236,7 +251,8 @@
         "description": "Basic Attacks reduce Medivh's Heroic Ability cooldown by 1 second. Each enemy Hero hit by Arcane Rift reduces Medivh's Heroic Ability cooldown by 3 seconds.",
         "icon": "storm_ui_icon_medivh_arcanemissile_a.png",
         "sort": 2,
-        "abilityId": "Medivh|Q1"
+        "abilityId": "Medivh|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "MedivhPortalStablePortal",
@@ -245,7 +261,8 @@
         "description": "Decrease Portal cooldown by 25% and increase Portal duration by 50%.",
         "icon": "storm_ui_icon_medivh_portal.png",
         "sort": 3,
-        "abilityId": "Medivh|E1"
+        "abilityId": "Medivh|E1",
+        "isQuest": 0
       }
     ],
     "20": [
@@ -256,7 +273,8 @@
         "description": "Poly Bomb explodes 1 second sooner and the spread radius is increased by 25%.",
         "icon": "storm_ui_icon_medivh_polybomb.png",
         "sort": 1,
-        "abilityId": "Medivh|R1"
+        "abilityId": "Medivh|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "MedivhLeyLineSealMedivhCheats",
@@ -265,7 +283,8 @@
         "description": "Increase the duration of the Time Stop by 33% and gain the ability to redirect the wave once while it's active.",
         "icon": "storm_ui_icon_medivh_leylineblast.png",
         "sort": 2,
-        "abilityId": "Medivh|R2"
+        "abilityId": "Medivh|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "MedivhArcaneRiftGuardianOfTirisfal",
@@ -274,7 +293,8 @@
         "description": "Minions and Catapults hit by Arcane Rift are instantly killed.",
         "icon": "storm_ui_icon_medivh_arcanemissile.png",
         "sort": 3,
-        "abilityId": "Medivh|Q1"
+        "abilityId": "Medivh|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "MedivhArcaneBrilliance",
@@ -284,7 +304,8 @@
         "icon": "storm_ui_icon_jaina_arcaneintellect.png",
         "sort": 4,
         "abilityId": "Medivh|Active",
-        "cooldown": 60
+        "cooldown": 60,
+        "isQuest": 0
       },
       {
         "tooltipId": "MedivhDustofDisappearance",
@@ -294,7 +315,8 @@
         "icon": "storm_ui_icon_medivh_invisibility.png",
         "sort": 5,
         "abilityId": "Medivh|Active",
-        "cooldown": 10
+        "cooldown": 10,
+        "isQuest": 0
       }
     ]
   }

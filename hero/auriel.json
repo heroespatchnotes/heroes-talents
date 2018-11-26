@@ -75,7 +75,8 @@
         "description": "Increases the cast speed of Sacred Sweep by 50%.",
         "icon": "storm_ui_icon_auriel_angelicsweep.png",
         "sort": 1,
-        "abilityId": "Auriel|Q1"
+        "abilityId": "Auriel|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AurielIncreasingClaritySacredSweepTalent",
@@ -84,7 +85,8 @@
         "description": "Quest: Every time Sacred Sweep hits a Hero in the center, increase the center damage by 2, up to 50.  Reward: After hitting 25 Heroes, this center damage bonus is increased to 150.",
         "icon": "storm_ui_icon_auriel_angelicsweep_a.png",
         "sort": 2,
-        "abilityId": "Auriel|Q1"
+        "abilityId": "Auriel|Q1",
+        "isQuest": 1
       },
       {
         "tooltipId": "AurielRighteousAssaultSacredSweepTalent",
@@ -93,7 +95,8 @@
         "description": "Reduces the cooldown of Sacred Sweep by 3 seconds for each enemy Hero hit by its center.",
         "icon": "storm_ui_icon_auriel_angelicsweep_b.png",
         "sort": 3,
-        "abilityId": "Auriel|Q1"
+        "abilityId": "Auriel|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AurielSearingLightRayOfHeavenTalent",
@@ -102,7 +105,8 @@
         "description": "Ray of Heaven also deals damage to enemies in the area equal to 30% of the energy consumed.",
         "icon": "storm_ui_icon_auriel_rayofheaven.png",
         "sort": 4,
-        "abilityId": "Auriel|W1"
+        "abilityId": "Auriel|W1",
+        "isQuest": 0
       }
     ],
     "4": [
@@ -113,7 +117,8 @@
         "description": "Increases the radius of Sacred Sweep by 15%.",
         "icon": "storm_ui_icon_auriel_angelicsweep.png",
         "sort": 1,
-        "abilityId": "Auriel|Q1"
+        "abilityId": "Auriel|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AurielHeavyBurdenDetainmentStrikeTalent",
@@ -122,7 +127,8 @@
         "description": "When an enemy Hero is stunned by Detainment Strike, their Movement Speed is slowed by 40% for 3 seconds after the stun.",
         "icon": "storm_ui_icon_auriel_restrainingblow.png",
         "sort": 2,
-        "abilityId": "Auriel|E1"
+        "abilityId": "Auriel|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AurielRepeatedOffenseDetainmentStrikeTalent",
@@ -131,7 +137,8 @@
         "description": "Enemies hit by Detainment Strike are knocked back 25% farther.  Quest: Every time Detainment Strike stuns a Hero, increase the stun damage by 10, up to 60.  Reward: After stunning 6 Heroes, increase this damage bonus to 250.",
         "icon": "storm_ui_icon_auriel_restrainingblow_a.png",
         "sort": 3,
-        "abilityId": "Auriel|E1"
+        "abilityId": "Auriel|E1",
+        "isQuest": 1
       }
     ],
     "7": [
@@ -142,7 +149,8 @@
         "description": "Collecting a Regeneration Globe reduces the cost of Auriel's next Ray of Heaven by 75%.",
         "icon": "storm_ui_icon_auriel_rayofheaven.png",
         "sort": 1,
-        "abilityId": "Auriel|W1"
+        "abilityId": "Auriel|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AurielEmpathicLinkBestowHopeTalent",
@@ -151,7 +159,8 @@
         "description": "Auriel stores 25% of damage taken by allies with Bestow Hope.",
         "icon": "storm_ui_icon_auriel_bestowhope.png",
         "sort": 2,
-        "abilityId": "Auriel|D1"
+        "abilityId": "Auriel|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AurielEnergizedCordRayOfHeavenTalent",
@@ -160,7 +169,8 @@
         "description": "Increases the energy stored from Auriel's Basic Attacks to 100% of the damage against Heroes and 45% of the damage against non-Heroes.  Does not affect Auriel's Bestow Hope ally.",
         "icon": "storm_ui_icon_auriel_bestowhope_a.png",
         "sort": 3,
-        "abilityId": "Auriel|D1"
+        "abilityId": "Auriel|D1",
+        "isQuest": 0
       }
     ],
     "10": [
@@ -172,7 +182,8 @@
         "icon": "storm_ui_icon_auriel_resurrect.png",
         "sort": 1,
         "abilityId": "Auriel|R2",
-        "cooldown": 80
+        "cooldown": 80,
+        "isQuest": 0
       },
       {
         "tooltipId": "AurielCrystalAegis",
@@ -182,7 +193,8 @@
         "icon": "storm_ui_icon_auriel_ribboncocoon.png",
         "sort": 2,
         "abilityId": "Auriel|R1",
-        "cooldown": 60
+        "cooldown": 60,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -193,7 +205,8 @@
         "description": "Enemies hit by the center area of Sacred Sweep are blinded for 2 seconds.",
         "icon": "storm_ui_icon_auriel_angelicsweep.png",
         "sort": 1,
-        "abilityId": "Auriel|Q1"
+        "abilityId": "Auriel|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AurielConvergingForceSacredSweepTalent",
@@ -202,7 +215,8 @@
         "description": "Enemies hit by the outer area are pushed slightly toward the center.",
         "icon": "storm_ui_icon_auriel_angelicsweep_a.png",
         "sort": 2,
-        "abilityId": "Auriel|Q1"
+        "abilityId": "Auriel|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AurielPiercingLashDetainmentStrikeTalent",
@@ -211,7 +225,8 @@
         "description": "Detainment Strike now pierces and hits all enemy Heroes in a line, reducing the cooldown by 2 seconds for each Hero hit.",
         "icon": "storm_ui_icon_auriel_restrainingblow.png",
         "sort": 3,
-        "abilityId": "Auriel|E1"
+        "abilityId": "Auriel|E1",
+        "isQuest": 0
       }
     ],
     "16": [
@@ -222,7 +237,8 @@
         "description": "Quest: Each maximum energy Ray of Heaven Auriel casts increases the maximum amount of energy that can be stored by 75.",
         "icon": "storm_ui_icon_auriel_rayofheaven.png",
         "sort": 1,
-        "abilityId": "Auriel|W1"
+        "abilityId": "Auriel|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AurielWillofHeavenBestowHopeTalent",
@@ -231,7 +247,8 @@
         "description": "Allies with Bestow Hope gain 20% Attack Speed.",
         "icon": "storm_ui_icon_auriel_bestowhope.png",
         "sort": 2,
-        "abilityId": "Auriel|D1"
+        "abilityId": "Auriel|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AurielWrathofHeavenBestowHopeTalent",
@@ -240,7 +257,8 @@
         "description": "Allies with Bestow Hope gain 10% Spell Power.",
         "icon": "storm_ui_icon_auriel_bestowhope_a.png",
         "sort": 3,
-        "abilityId": "Auriel|D1"
+        "abilityId": "Auriel|D1",
+        "isQuest": 0
       }
     ],
     "20": [
@@ -251,7 +269,8 @@
         "description": "Resurrected allies gain 200% increased Movement Speed, decaying over 4 seconds.  While a resurrected ally remains alive, Resurrect's next cooldown recharges 100% faster.",
         "icon": "storm_ui_icon_auriel_resurrect.png",
         "sort": 1,
-        "abilityId": "Auriel|R2"
+        "abilityId": "Auriel|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "AurielDiamondResolveCrystalAegisTalent",
@@ -260,7 +279,8 @@
         "description": "When Crystal Aegis expires, it grants the target 75 Armor for 5 seconds, reducing damage taken by 75%.",
         "icon": "storm_ui_icon_auriel_ribboncocoon.png",
         "sort": 2,
-        "abilityId": "Auriel|R1"
+        "abilityId": "Auriel|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AurielAngelicFlightTalent",
@@ -270,7 +290,8 @@
         "icon": "storm_ui_icon_auriel_angelicflight.png",
         "sort": 3,
         "abilityId": "Auriel|Active",
-        "cooldown": 30
+        "cooldown": 30,
+        "isQuest": 0
       },
       {
         "tooltipId": "AurielShieldOfHopeTalent",
@@ -280,7 +301,8 @@
         "icon": "storm_ui_icon_auriel_shieldofhope.png",
         "sort": 4,
         "abilityId": "Auriel|Active",
-        "cooldown": 60
+        "cooldown": 60,
+        "isQuest": 0
       }
     ]
   }

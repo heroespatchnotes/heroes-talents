@@ -78,7 +78,8 @@
         "description": "Hitting an enemy Hero with Ravage grants 90 (+4% per level) points of Assimilation Shields.",
         "icon": "storm_ui_icon_kerrigan_ravage.png",
         "sort": 1,
-        "abilityId": "Kerrigan|Q1"
+        "abilityId": "Kerrigan|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KerriganAssimilationMasteryTalent",
@@ -87,7 +88,8 @@
         "description": "Regeneration Globe healing grants 40 (+4% per level) points of Assimilation Shields per second while active. While Assimilation is active, Kerrigan's Health and Mana regeneration is increased by 100%.",
         "icon": "storm_ui_icon_kerrigan_assimilation.png",
         "sort": 2,
-        "abilityId": "Kerrigan|D1"
+        "abilityId": "Kerrigan|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KerriganAssimilationFuryOfTheSwarmTalent",
@@ -96,7 +98,8 @@
         "description": "Gain 10% more Assimilation Shields from Basic Attacks. After casting Ravage, Kerrigan's next Basic Attack within 3 seconds splashes for 100% damage around the target.",
         "icon": "storm_ui_icon_talent_autoattack_aoe.png",
         "sort": 3,
-        "abilityId": "Kerrigan|Passive"
+        "abilityId": "Kerrigan|Passive",
+        "isQuest": 0
       }
     ],
     "4": [
@@ -107,7 +110,8 @@
         "description": "Quest: Minions and Heroes that die within 1.5 seconds of being hit by Ravage increase its damage up to a maximum of 50.  Minions grant 0.5 increased damage and Heroes grant 5 increased damage.  Reward: After reaching a 50 damage increase, Ravage gains 50 additional damage.",
         "icon": "storm_ui_icon_kerrigan_ravage.png",
         "sort": 1,
-        "abilityId": "Kerrigan|Q1"
+        "abilityId": "Kerrigan|Q1",
+        "isQuest": 1
       },
       {
         "tooltipId": "KerriganImpalingBladesKineticFulmination",
@@ -116,7 +120,8 @@
         "description": "Damaging an enemy increases the damage of Kerrigan's next Impaling Blades within 10 seconds by 10%, up to 100%.",
         "icon": "storm_ui_icon_kerrigan_impalingblades.png",
         "sort": 2,
-        "abilityId": "Kerrigan|W1"
+        "abilityId": "Kerrigan|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KerriganPrimalGraspPsionicPulse",
@@ -125,7 +130,8 @@
         "description": "Primal Grasp explodes a second time 2.5 seconds after its first explosion.",
         "icon": "storm_ui_icon_kerrigan_primalgrasp.png",
         "sort": 3,
-        "abilityId": "Kerrigan|E1"
+        "abilityId": "Kerrigan|E1",
+        "isQuest": 0
       }
     ],
     "7": [
@@ -136,7 +142,8 @@
         "description": "Damaging a Hero with Primal Grasp reduces Ravage's cooldown by 6 seconds.",
         "icon": "storm_ui_icon_kerrigan_ravage.png",
         "sort": 1,
-        "abilityId": "Kerrigan|Q1"
+        "abilityId": "Kerrigan|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KerriganRavageBoundlessFury",
@@ -145,7 +152,8 @@
         "description": "Hitting an enemy Hero with Ravage grants a charge of Ravage. Can only occur once every 10 seconds per Hero.",
         "icon": "storm_ui_icon_kerrigan_ravage_b.png",
         "sort": 2,
-        "abilityId": "Kerrigan|Q1"
+        "abilityId": "Kerrigan|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KerriganBladedMomentum",
@@ -154,7 +162,8 @@
         "description": "Basic Attacks against enemy Heroes reduce the cooldown of Kerrigan's Basic Abilities by 0.6 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
         "sort": 3,
-        "abilityId": "Kerrigan|Passive"
+        "abilityId": "Kerrigan|Passive",
+        "isQuest": 0
       }
     ],
     "10": [
@@ -166,7 +175,8 @@
         "icon": "storm_ui_icon_kerrigan_maelstrom.png",
         "sort": 1,
         "abilityId": "Kerrigan|R1",
-        "cooldown": 90
+        "cooldown": 90,
+        "isQuest": 0
       },
       {
         "tooltipId": "KerriganSummonUltralisk",
@@ -176,7 +186,8 @@
         "icon": "storm_ui_icon_kerrigan_ultralisk.png",
         "sort": 2,
         "abilityId": "Kerrigan|R2",
-        "cooldown": 80
+        "cooldown": 80,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -187,7 +198,8 @@
         "description": "Each enemy Hero hit by Primal Grasp grants 15 Spell Armor for 4 seconds.",
         "icon": "storm_ui_icon_kerrigan_primalgrasp.png",
         "sort": 1,
-        "abilityId": "Kerrigan|E1"
+        "abilityId": "Kerrigan|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KerriganAssimilationVolatilePower",
@@ -196,7 +208,8 @@
         "description": "Increase the amount of Assimilation Shields granted from damage dealt by 10%, but reduce duration of Assimilation by 3 seconds.",
         "icon": "storm_ui_icon_kerrigan_assimilation.png",
         "sort": 2,
-        "abilityId": "Kerrigan|D1"
+        "abilityId": "Kerrigan|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KerriganChrysalis",
@@ -206,7 +219,8 @@
         "icon": "storm_ui_icon_kerrigan_chrysalis.png",
         "sort": 3,
         "abilityId": "Kerrigan|Active",
-        "cooldown": 90
+        "cooldown": 90,
+        "isQuest": 0
       }
     ],
     "16": [
@@ -217,7 +231,8 @@
         "description": "Ravage grants 5% Spell Power for 4 seconds, up to 40%.",
         "icon": "storm_ui_icon_kerrigan_ravage.png",
         "sort": 1,
-        "abilityId": "Kerrigan|Q1"
+        "abilityId": "Kerrigan|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KerriganImpalingBladesPainfulSpikes",
@@ -226,7 +241,8 @@
         "description": "Enemies hit by Impaling Blades take an additional 70 (+4% per level) damage the next 6 times Kerrigan damages them within 5 seconds.",
         "icon": "storm_ui_icon_kerrigan_impalingblades.png",
         "sort": 2,
-        "abilityId": "Kerrigan|W1"
+        "abilityId": "Kerrigan|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KerriganUnbridledEnergy",
@@ -235,7 +251,8 @@
         "description": "Damaging a Hero with a Heroic Ability grants 30% Spell Power for 4 seconds.",
         "icon": "storm_ui_icon_talent_abilitytalent_damage.png",
         "sort": 3,
-        "abilityId": "Kerrigan|R1"
+        "abilityId": "Kerrigan|R1",
+        "isQuest": 0
       }
     ],
     "20": [
@@ -246,7 +263,8 @@
         "description": "Maelstrom's duration is increased by 0.1875 seconds every time it damages a Hero.",
         "icon": "storm_ui_icon_kerrigan_maelstrom.png",
         "sort": 1,
-        "abilityId": "Kerrigan|R1"
+        "abilityId": "Kerrigan|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KerriganSummonUltraliskTorrasqueTalent",
@@ -255,7 +273,8 @@
         "description": "The Ultralisk morphs into an egg when it dies. If the egg isn't killed within 4 seconds, a new Ultralisk is born.",
         "icon": "storm_ui_icon_kerrigan_ultralisk.png",
         "sort": 2,
-        "abilityId": "Kerrigan|R2"
+        "abilityId": "Kerrigan|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "KerriganAssimilationBlades",
@@ -264,7 +283,8 @@
         "description": "Damaging an enemy increases Basic Attack damage by 2% for 5 seconds, up to 40%.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 3,
-        "abilityId": "Kerrigan|Passive"
+        "abilityId": "Kerrigan|Passive",
+        "isQuest": 0
       },
       {
         "tooltipId": "KerriganPsionicShift",
@@ -274,7 +294,8 @@
         "icon": "storm_ui_icon_talent_boltofthestorm.png",
         "sort": 4,
         "abilityId": "Kerrigan|Active",
-        "cooldown": 70
+        "cooldown": 70,
+        "isQuest": 0
       }
     ]
   }

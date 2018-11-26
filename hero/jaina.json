@@ -78,7 +78,8 @@
         "description": "Increase the range of Frostbolt by 30%.",
         "icon": "storm_ui_icon_jaina_frostbolt.png",
         "sort": 1,
-        "abilityId": "Jaina|Q1"
+        "abilityId": "Jaina|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JainaFrostbiteLingeringChillTalent",
@@ -87,7 +88,8 @@
         "description": "Increase the duration of Chill from 4 seconds to 6 seconds.",
         "icon": "storm_ui_icon_jaina_frostbite.png",
         "sort": 2,
-        "abilityId": "Jaina|D1"
+        "abilityId": "Jaina|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JainaFingersOfFrost",
@@ -96,7 +98,8 @@
         "description": "Quest: Gather Regeneration Globes to increase Jaina's Mana regeneration by 0.1 per second, up to 2 per second.  Reward: After gathering 20 Globes, the damage bonus from Frostbite is increased by 10%.",
         "icon": "storm_ui_icon_talent_conjurerspursuit.png",
         "sort": 3,
-        "abilityId": "Jaina|Passive"
+        "abilityId": "Jaina|Passive",
+        "isQuest": 1
       }
     ],
     "4": [
@@ -107,7 +110,8 @@
         "description": "Frostbolt will now pierce the first target to hit an additional target behind them.",
         "icon": "storm_ui_icon_jaina_frostbolt.png",
         "sort": 1,
-        "abilityId": "Jaina|Q1"
+        "abilityId": "Jaina|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JainaFrostbiteArcaneIntellectTalent",
@@ -116,7 +120,8 @@
         "description": "Dealing damage to a Chilled target returns Mana to Jaina. Basic Attacks return 5 Mana and Abilities return 20.",
         "icon": "storm_ui_icon_jaina_arcaneintellect.png",
         "sort": 2,
-        "abilityId": "Jaina|D1"
+        "abilityId": "Jaina|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JainaFrostbiteFrostArmorTalent",
@@ -125,7 +130,8 @@
         "description": "Enemies that attack Jaina are Chilled. Additionally, every 10 seconds, Jaina gains 50 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 50%.",
         "icon": "storm_ui_icon_jaina_frostarmor.png",
         "sort": 3,
-        "abilityId": "Jaina|Passive"
+        "abilityId": "Jaina|Passive",
+        "isQuest": 0
       }
     ],
     "7": [
@@ -136,7 +142,8 @@
         "description": "Hitting a Chilled target with Frostbolt reduces its cooldown by 2 seconds and restores 10 Mana.",
         "icon": "storm_ui_icon_jaina_frostbolt.png",
         "sort": 1,
-        "abilityId": "Jaina|Q1"
+        "abilityId": "Jaina|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JainaConeOfColdIceFloesTalent",
@@ -145,7 +152,8 @@
         "description": "Increase the width of Cone of Cold by 100% and cause each chilled Hero hit to reduce its cooldown by 2.5 seconds, up to a maximum of 5 seconds per use.",
         "icon": "storm_ui_icon_jaina_coneofcold.png",
         "sort": 2,
-        "abilityId": "Jaina|E1"
+        "abilityId": "Jaina|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JainaIcefuryWand",
@@ -154,7 +162,8 @@
         "description": "Basic Attacks against Chilled Heroes deal 75% more damage and lower the cooldown of Blizzard by 1 second.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 3,
-        "abilityId": "Jaina|Passive"
+        "abilityId": "Jaina|Passive",
+        "isQuest": 0
       }
     ],
     "10": [
@@ -166,7 +175,8 @@
         "icon": "storm_ui_icon_jaina_ringoffrost.png",
         "sort": 1,
         "abilityId": "Jaina|R1",
-        "cooldown": 80
+        "cooldown": 80,
+        "isQuest": 0
       },
       {
         "tooltipId": "JainaSummonWaterElemental",
@@ -176,7 +186,8 @@
         "icon": "storm_ui_icon_jaina_summonwaterelemental.png",
         "sort": 2,
         "abilityId": "Jaina|R2",
-        "cooldown": 60
+        "cooldown": 60,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -187,7 +198,8 @@
         "description": "Increase cast range of Blizzard by 100%.",
         "icon": "storm_ui_icon_jaina_blizzard.png",
         "sort": 1,
-        "abilityId": "Jaina|W1"
+        "abilityId": "Jaina|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JainaFrostbiteIceBarrierTalent",
@@ -196,7 +208,8 @@
         "description": "Gain a Shield for 25% of Ability damage dealt to Chilled targets. The shield lasts 4 seconds.",
         "icon": "storm_ui_icon_jaina_frostbite.png",
         "sort": 2,
-        "abilityId": "Jaina|D1"
+        "abilityId": "Jaina|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JainaIcyVeinsHotbar",
@@ -206,7 +219,8 @@
         "icon": "storm_ui_icon_jaina_icyveins.png",
         "sort": 3,
         "abilityId": "Jaina|Active",
-        "cooldown": 60
+        "cooldown": 60,
+        "isQuest": 0
       }
     ],
     "16": [
@@ -217,7 +231,8 @@
         "description": "Increase the radius of Blizzard by 30%.",
         "icon": "storm_ui_icon_jaina_blizzard.png",
         "sort": 1,
-        "abilityId": "Jaina|W1"
+        "abilityId": "Jaina|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JainaConeOfColdNorthernExposureTalent",
@@ -226,7 +241,8 @@
         "description": "Enemies damaged by Cone of Cold have their Armor lowered by 25 for 2 seconds, increasing their damage taken by 25%.",
         "icon": "storm_ui_icon_jaina_coneofcold.png",
         "sort": 2,
-        "abilityId": "Jaina|E1"
+        "abilityId": "Jaina|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JainaConeOfColdNumbingBlastTalent",
@@ -235,7 +251,8 @@
         "description": "Cone of Cold Roots Chilled targets for 1 second.",
         "icon": "storm_ui_icon_jaina_coneofcold_var1.png",
         "sort": 3,
-        "abilityId": "Jaina|E1"
+        "abilityId": "Jaina|E1",
+        "isQuest": 0
       }
     ],
     "20": [
@@ -246,7 +263,8 @@
         "description": "The center area of Ring of Frost deals 310 (+4% per level) damage and Roots enemies after the outer ring expires. Each enemy Hero hit reduces its cooldown by 10 seconds.",
         "icon": "storm_ui_icon_jaina_ringoffrost.png",
         "sort": 1,
-        "abilityId": "Jaina|R1"
+        "abilityId": "Jaina|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "JainaSummonWaterElementalWintermuteTalent",
@@ -255,7 +273,8 @@
         "description": "Increases the cast range of Water Elemental by 50%, and the Water Elemental will now mimic Jaina's Basic Abilities for 50% damage.",
         "icon": "storm_ui_icon_jaina_summonwaterelemental.png",
         "sort": 2,
-        "abilityId": "Jaina|R2"
+        "abilityId": "Jaina|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "JainaFrigidTransmission",
@@ -265,7 +284,8 @@
         "icon": "storm_ui_icon_talent_boltofthestorm.png",
         "sort": 3,
         "abilityId": "Jaina|Active",
-        "cooldown": 60
+        "cooldown": 60,
+        "isQuest": 0
       },
       {
         "tooltipId": "JainaFrostbiteDeepChillTalent",
@@ -274,7 +294,8 @@
         "description": "Frostbite's Chill can now stack a second time, slowing targets up to 40%.",
         "icon": "storm_ui_icon_jaina_frostbite.png",
         "sort": 4,
-        "abilityId": "Jaina|D1"
+        "abilityId": "Jaina|D1",
+        "isQuest": 0
       }
     ]
   }

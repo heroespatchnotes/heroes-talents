@@ -80,7 +80,8 @@
         "description": "Quest: Damaging an enemy Hero with Flamestrike increase its damage by 5, up to 100. This bonus is lost on death.  Reward: After hitting 20 enemy Heroes, increase Flamestrike damage by an additional 100 and no longer lose any bonuses on death.",
         "icon": "storm_ui_icon_kaelthas_flamestrike.png",
         "sort": 1,
-        "abilityId": "Kael'thas|Q1"
+        "abilityId": "Kael'thas|Q1",
+        "isQuest": 1
       },
       {
         "tooltipId": "KaelthasVerdantSpheresFelInfusionTalent",
@@ -89,7 +90,8 @@
         "description": "Increases Kael'thas's Spell Power by 4%. Kael'thas heals for 94 (+4% per level) Health when activating Verdant Spheres.",
         "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
         "sort": 2,
-        "abilityId": "Kael'thas|D1"
+        "abilityId": "Kael'thas|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KaelthasManaAddictTalent",
@@ -98,7 +100,8 @@
         "description": "Quest: Gathering a Regeneration Globe increases Kael'thas's maximum Mana by 15.  Reward: After gathering 20 Globes, Kael'thas can activate Arcane Barrier to gain a Shield equal to 100% of his maximum Mana for 4 seconds. 45 second cooldown.",
         "icon": "storm_ui_icon_kaelthas_manaaddict.png",
         "sort": 3,
-        "abilityId": "Kael'thas|Passive"
+        "abilityId": "Kael'thas|Passive",
+        "isQuest": 1
       }
     ],
     "4": [
@@ -109,7 +112,8 @@
         "description": "Increases Gravity Lapse's range by 30%. When Gravity Lapse hits an enemy Hero, refund 80 Mana.",
         "icon": "storm_ui_icon_kaelthas_gravitylapse.png",
         "sort": 1,
-        "abilityId": "Kael'thas|E1"
+        "abilityId": "Kael'thas|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KaelthasGravityLapseEnergyRoilTalent",
@@ -118,7 +122,8 @@
         "description": "Reduce the Mana cost of Gravity Lapse by 70.  If Gravity Lapse hits a Hero, reduce its cooldown by 9 seconds.",
         "icon": "storm_ui_icon_kaelthas_gravitylapse_a.png",
         "sort": 2,
-        "abilityId": "Kael'thas|E1"
+        "abilityId": "Kael'thas|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KaelthasManaTapTalent",
@@ -127,7 +132,8 @@
         "description": "Activating Verdant Spheres restores 4% of Kael'thas's maximum Mana.",
         "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
         "sort": 3,
-        "abilityId": "Kael'thas|D1"
+        "abilityId": "Kael'thas|D1",
+        "isQuest": 0
       }
     ],
     "7": [
@@ -138,7 +144,8 @@
         "description": "When Flamestrike damages 2 or more Heroes, they take additional damage equal to 8% of their maximum Health.",
         "icon": "storm_ui_icon_kaelthas_flamestrike.png",
         "sort": 1,
-        "abilityId": "Kael'thas|Q1"
+        "abilityId": "Kael'thas|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KaelthasLivingBombSunKingsFury",
@@ -147,7 +154,8 @@
         "description": "Living Bombs that spread to enemy Heroes deal 35% more damage.",
         "icon": "storm_ui_icon_kaelthas_livingbomb.png",
         "sort": 2,
-        "abilityId": "Kael'thas|W1"
+        "abilityId": "Kael'thas|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KaelthasSunfireEnchantmentTalent",
@@ -156,7 +164,8 @@
         "description": "Activating Verdant Spheres causes Kael'thas's next 2 Basic Attacks to instead deal 115 (+4% per level) Spell Damage.  If both of these Attacks hit enemy Heroes, gain 15% Spell Power for 10 seconds.",
         "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
         "sort": 3,
-        "abilityId": "Kael'thas|D1"
+        "abilityId": "Kael'thas|D1",
+        "isQuest": 0
       }
     ],
     "10": [
@@ -168,7 +177,8 @@
         "icon": "storm_ui_icon_kaelthas_phoenix.png",
         "sort": 1,
         "abilityId": "Kael'thas|R1",
-        "cooldown": 60
+        "cooldown": 60,
+        "isQuest": 0
       },
       {
         "tooltipId": "KaelthasPyroblast",
@@ -178,7 +188,8 @@
         "icon": "storm_ui_icon_kaelthas_pyroblast.png",
         "sort": 2,
         "abilityId": "Kael'thas|R2",
-        "cooldown": 100
+        "cooldown": 100,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -189,7 +200,8 @@
         "description": "Each time Living Bomb deals periodic damage, Kael'thas's Basic Ability cooldowns are reduced by 0.5 seconds.",
         "icon": "storm_ui_icon_kaelthas_livingbomb.png",
         "sort": 1,
-        "abilityId": "Kael'thas|W1"
+        "abilityId": "Kael'thas|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KaelthasLivingBombBackdraftTalent",
@@ -198,7 +210,8 @@
         "description": "Living Bomb's explosion slows enemy Movement Speed by 30% for 2 seconds.",
         "icon": "storm_ui_icon_kaelthas_livingbomb_var1.png",
         "sort": 2,
-        "abilityId": "Kael'thas|W1"
+        "abilityId": "Kael'thas|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KaelthasLivingBombFissionBombTalent",
@@ -207,7 +220,8 @@
         "description": "Increases Living Bomb's explosion radius by 20%.",
         "icon": "storm_ui_icon_kaelthas_livingbomb_b.png",
         "sort": 3,
-        "abilityId": "Kael'thas|W1"
+        "abilityId": "Kael'thas|W1",
+        "isQuest": 0
       }
     ],
     "16": [
@@ -218,7 +232,8 @@
         "description": "Flamestrike will explode a second time 1.5 seconds later.",
         "icon": "storm_ui_icon_kaelthas_flamestrike.png",
         "sort": 1,
-        "abilityId": "Kael'thas|Q1"
+        "abilityId": "Kael'thas|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KaelthasLivingBombIgnite",
@@ -227,7 +242,8 @@
         "description": "Flamestrikes apply Living Bomb to the enemy Hero closest to its center who is not currently affected by Living Bomb.",
         "icon": "storm_ui_icon_kaelthas_livingbomb.png",
         "sort": 2,
-        "abilityId": "Kael'thas|W1"
+        "abilityId": "Kael'thas|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KaelthasVerdantSpheresTwinSpheresTalent",
@@ -236,7 +252,8 @@
         "description": "Verdant Spheres gains a second charge.",
         "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
         "sort": 3,
-        "abilityId": "Kael'thas|D1"
+        "abilityId": "Kael'thas|D1",
+        "isQuest": 0
       }
     ],
     "20": [
@@ -247,7 +264,8 @@
         "description": "Increases Phoenix duration by 100%. While alive, the Phoenix may be ordered to move to a different location.",
         "icon": "storm_ui_icon_kaelthas_phoenix.png",
         "sort": 1,
-        "abilityId": "Kael'thas|R1"
+        "abilityId": "Kael'thas|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KaelthasPyroblastPresenceOfMindTalent",
@@ -256,7 +274,8 @@
         "description": "Increases Pyroblast's explosion radius by 50%. Heroes that are hit by Flamestrike or have Living Bomb spread to them reduce the cooldown of Pyroblast by 10 seconds.",
         "icon": "storm_ui_icon_kaelthas_pyroblast.png",
         "sort": 2,
-        "abilityId": "Kael'thas|R2"
+        "abilityId": "Kael'thas|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "KaelthasVerdantSpheresMasterOfFlameTalent",
@@ -265,7 +284,8 @@
         "description": "Living Bomb's spread from explosions can now also spread Living Bomb.",
         "icon": "storm_ui_icon_kaelthas_livingbomb.png",
         "sort": 3,
-        "abilityId": "Kael'thas|W1"
+        "abilityId": "Kael'thas|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "KaelthasFlamethrowerTalent",
@@ -274,7 +294,8 @@
         "description": "Increases the cast range of Flamestrike by 40%. If Flamestrike hits 2 or more Heroes, its cooldown is reduced by 4 seconds.",
         "icon": "storm_ui_icon_kaelthas_flamestrike.png",
         "sort": 4,
-        "abilityId": "Kael'thas|Q1"
+        "abilityId": "Kael'thas|Q1",
+        "isQuest": 0
       }
     ]
   }

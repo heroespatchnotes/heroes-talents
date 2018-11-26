@@ -78,7 +78,8 @@
         "description": "Quest: Hit enemy Heroes with Biotic Grenade.  Reward: After hitting 10 Heroes, Biotic Grenade does 75% more damage per allied and enemy Hero hit.  Reward: After hitting 20 Heroes, Biotic Grenade's duration on allies is increased from 4 seconds to 12 seconds, its healing radius is increased by 100%, and its healing amplification applies to all sources.",
         "icon": "storm_ui_icon_ana_biotic_grenade.png",
         "sort": 1,
-        "abilityId": "Ana|W1"
+        "abilityId": "Ana|W1",
+        "isQuest": 1
       },
       {
         "tooltipId": "AnaPiercingDarts",
@@ -87,7 +88,8 @@
         "description": "Quest: Hit Heroes with Sleep Dart.  Reward: After hitting 10 Heroes, Sleep Dart now hits 2 Heroes and its range is increased by 25%.  Reward: After hitting 20 Heroes, Healing Dart now hits 2 Heroes and its range is increased by 25%.",
         "icon": "storm_ui_icon_ana_sleep_dart.png",
         "sort": 2,
-        "abilityId": "Ana|E1"
+        "abilityId": "Ana|E1",
+        "isQuest": 1
       },
       {
         "tooltipId": "AnaDetachableBoxMagazine",
@@ -96,7 +98,8 @@
         "description": "Quest: Stack 5 Doses on an enemy Hero.  Reward: After reaching maximum Dosage 12 times, unlock the Active Reload Ability, which can be activated to instantly gain 3 charges of Healing Dart.",
         "icon": "storm_ui_icon_ana_detachableboxmagazine.png",
         "sort": 3,
-        "abilityId": "Ana|Passive"
+        "abilityId": "Ana|Passive",
+        "isQuest": 1
       }
     ],
     "4": [
@@ -107,7 +110,8 @@
         "description": "Hitting enemy Heroes with Sleep Dart applies 3 Doses.",
         "icon": "storm_ui_icon_ana_sleep_dart.png",
         "sort": 1,
-        "abilityId": "Ana|E1"
+        "abilityId": "Ana|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AnaAimDownSights",
@@ -117,7 +121,8 @@
         "icon": "storm_ui_icon_ana_aim_down_sights.png",
         "sort": 2,
         "abilityId": "Ana|D1",
-        "cooldown": 3
+        "cooldown": 3,
+        "isQuest": 0
       },
       {
         "tooltipId": "AnaBioticGrenadeAirStrike",
@@ -127,7 +132,8 @@
         "icon": "storm_ui_icon_ana_biotic_grenade.png",
         "sort": 3,
         "abilityId": "Ana|Active",
-        "cooldown": 12
+        "cooldown": 12,
+        "isQuest": 0
       }
     ],
     "7": [
@@ -138,7 +144,8 @@
         "description": "After Sleep Dart's effects wear off, targets are Blinded for 2 seconds.",
         "icon": "storm_ui_icon_ana_sleep_dart.png",
         "sort": 1,
-        "abilityId": "Ana|E1"
+        "abilityId": "Ana|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AnaMindNumbingAgent",
@@ -147,7 +154,8 @@
         "description": "Every Dose a Hero has reduces their Spell Power by 10%.",
         "icon": "storm_ui_icon_ana_shrike.png",
         "sort": 2,
-        "abilityId": "Ana|D1"
+        "abilityId": "Ana|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AnaDebilitatingDart",
@@ -157,7 +165,8 @@
         "icon": "storm_ui_icon_ana_debilitatingdart.png",
         "sort": 3,
         "abilityId": "Ana|Active",
-        "cooldown": 20
+        "cooldown": 20,
+        "isQuest": 0
       }
     ],
     "10": [
@@ -169,7 +178,8 @@
         "icon": "storm_ui_icon_ana_nano_bost.png",
         "sort": 1,
         "abilityId": "Ana|R1",
-        "cooldown": 70
+        "cooldown": 70,
+        "isQuest": 0
       },
       {
         "tooltipId": "AnaEyeOfHorusActivate",
@@ -179,7 +189,8 @@
         "icon": "storm_ui_icon_ana_overwatch.png",
         "sort": 2,
         "abilityId": "Ana|R2",
-        "cooldown": 45
+        "cooldown": 45,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -190,7 +201,8 @@
         "description": "Healing Dart grants 25% Movement Speed to affected Heroes for 2 seconds.",
         "icon": "storm_ui_icon_ana_healing_dart.png",
         "sort": 1,
-        "abilityId": "Ana|Q1"
+        "abilityId": "Ana|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AnaHealingDartPurifyingDarts",
@@ -199,7 +211,8 @@
         "description": "Healing Dart removes Roots and Slows from the target, and heals for 20% more when doing so.",
         "icon": "storm_ui_icon_ana_healing_dart_a.png",
         "sort": 2,
-        "abilityId": "Ana|Q1"
+        "abilityId": "Ana|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AnaHealingDartSmellingSalts",
@@ -208,7 +221,8 @@
         "description": "Healing Dart removes Stuns from the target, and grants them 50 Armor for 2 seconds when doing so.",
         "icon": "storm_ui_icon_ana_healing_dart_b.png",
         "sort": 3,
-        "abilityId": "Ana|Q1"
+        "abilityId": "Ana|Q1",
+        "isQuest": 0
       }
     ],
     "16": [
@@ -219,7 +233,8 @@
         "description": "Healing Dart's healing is increased by 5% if it heals a Hero, up to 50%. This bonus is reset if Healing Dart fails to hit a Hero.",
         "icon": "storm_ui_icon_ana_healing_dart.png",
         "sort": 1,
-        "abilityId": "Ana|Q1"
+        "abilityId": "Ana|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AnaHealingDartConcentratedDoses",
@@ -228,7 +243,8 @@
         "description": "Increase Healing Dart's healing by 10% for each Dose active on enemy Heroes.",
         "icon": "storm_ui_icon_ana_healing_dart_a.png",
         "sort": 2,
-        "abilityId": "Ana|Q1"
+        "abilityId": "Ana|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AnaBioticGrenadeContactHealing",
@@ -237,7 +253,8 @@
         "description": "Biotic Grenade heals for 30% more per allied and enemy Hero hit.",
         "icon": "storm_ui_icon_ana_biotic_grenade.png",
         "sort": 3,
-        "abilityId": "Ana|W1"
+        "abilityId": "Ana|W1",
+        "isQuest": 0
       }
     ],
     "20": [
@@ -248,7 +265,8 @@
         "description": "Allies affected by Nano Boost heal for 50% of Spell Damage dealt.",
         "icon": "storm_ui_icon_ana_nano_bost.png",
         "sort": 1,
-        "abilityId": "Ana|R1"
+        "abilityId": "Ana|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AnaEyeOfHorusBallisticAdvantage",
@@ -257,7 +275,8 @@
         "description": "Eye of Horus rounds explode upon impacting a Hero, healing nearby allies for 300 (+4% per level) and dealing 150 (+4% per level) damage to nearby enemy Heroes.",
         "icon": "storm_ui_icon_ana_overwatch.png",
         "sort": 2,
-        "abilityId": "Ana|R2"
+        "abilityId": "Ana|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "AnaSomnolentDoses",
@@ -266,7 +285,8 @@
         "description": "Upon stacking 5 Doses, Heroes are put to Sleep for 2 seconds.",
         "icon": "storm_ui_icon_ana_shrike.png",
         "sort": 3,
-        "abilityId": "Ana|D1"
+        "abilityId": "Ana|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AnaDynamicShooting",
@@ -275,7 +295,8 @@
         "description": "Basic Attacks increase Attack Speed by 10% for 4 seconds, up to 100%.",
         "icon": "storm_ui_icon_talent_autoattack_speed.png",
         "sort": 4,
-        "abilityId": "Ana|Passive"
+        "abilityId": "Ana|Passive",
+        "isQuest": 0
       },
       {
         "tooltipId": "AnaAimDownSightsCustomOptics",
@@ -284,7 +305,8 @@
         "description": "Increase the Aim Down Sights Basic Attack range bonus from 2 to 4.",
         "icon": "storm_ui_icon_ana_aim_down_sights.png",
         "sort": 5,
-        "abilityId": "Ana|D1"
+        "abilityId": "Ana|D1",
+        "isQuest": 0
       }
     ]
   }

@@ -87,7 +87,8 @@
         "description": "When Bone Armor expires, nearby enemy Heroes take damage equal to 12% of their maximum Health.",
         "icon": "storm_ui_icon_necromancer_bonearmor_b.png",
         "sort": 1,
-        "abilityId": "Xul|11"
+        "abilityId": "Xul|Passive",
+        "isQuest": 0
       },
       {
         "tooltipId": "NecromancerBoneArmorShackler",
@@ -96,7 +97,8 @@
         "description": "While Bone Armor is active, nearby enemies are Slowed by 35% for 1 second. Basic Attacks against Heroes that are Stunned, Rooted, or Slowed reduce the cooldown of Bone Armor by 2 seconds.",
         "icon": "storm_ui_icon_necromancer_bonearmor_c.png",
         "sort": 2,
-        "abilityId": "Xul|11"
+        "abilityId": "Xul|Passive",
+        "isQuest": 0
       },
       {
         "tooltipId": "NecromancerBoneArmorShade",
@@ -105,7 +107,8 @@
         "description": "While Bone Armor is active, Xul evades all Basic Attacks, but increases the cooldown of Bone Armor by 20 seconds.",
         "icon": "storm_ui_icon_necromancer_bonearmor.png",
         "sort": 3,
-        "abilityId": "Xul|11"
+        "abilityId": "Xul|Passive",
+        "isQuest": 0
       }
     ],
     "4": [
@@ -116,7 +119,8 @@
         "description": "Quest: Hit 20 Heroes with Spectral Scythe.  Reward: Reduce the cooldown of Spectral Scythe by 3 seconds.",
         "icon": "storm_ui_icon_necromancer_reap.png",
         "sort": 1,
-        "abilityId": "Xul|Q1"
+        "abilityId": "Xul|Q1",
+        "isQuest": 1
       },
       {
         "tooltipId": "NecromancerCursedStrikesGrimScythe",
@@ -125,7 +129,8 @@
         "description": "Each enemy hit by Cursed Strikes reduces its cooldown by 1 second, up to 12 seconds.",
         "icon": "storm_ui_icon_necromancer_cursedstrikes_off.png",
         "sort": 2,
-        "abilityId": "Xul|W1"
+        "abilityId": "Xul|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "NecromancerJailors",
@@ -134,7 +139,8 @@
         "description": "Bone Prison spawns 2 Skeletal Warriors.  These do not count towards Xul's Raise Skeleton maximum.  Quest: Spawn 80 Skeletal Warriors.  Reward: While fixating on an enemy, Skeletal Warriors gain 40% Movement and Attack Speed.",
         "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
         "sort": 3,
-        "abilityId": "Xul|D1"
+        "abilityId": "Xul|D1",
+        "isQuest": 1
       }
     ],
     "7": [
@@ -145,7 +151,8 @@
         "description": "Cursed Strikes heals for 70% of the damage dealt to Heroes.",
         "icon": "storm_ui_icon_necromancer_cursedstrikes_off.png",
         "sort": 1,
-        "abilityId": "Xul|W1"
+        "abilityId": "Xul|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "NecromancerWeaken",
@@ -154,7 +161,8 @@
         "description": "Increase the Attack Speed reduction of Cursed Strikes by 35% and the duration by 1 second.",
         "icon": "storm_ui_icon_necromancer_cursedstrikes_b.png",
         "sort": 2,
-        "abilityId": "Xul|W1"
+        "abilityId": "Xul|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "NecromancerTragOulsEssence",
@@ -163,7 +171,8 @@
         "description": "Every time a Skeletal Warrior attacks an enemy, restore 0.5% of Xul's maximum Health and 0.2% of his maximum Mana.",
         "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
         "sort": 3,
-        "abilityId": "Xul|D1"
+        "abilityId": "Xul|D1",
+        "isQuest": 0
       }
     ],
     "10": [
@@ -175,7 +184,8 @@
         "icon": "storm_ui_icon_necromancer_poisonnova.png",
         "sort": 1,
         "abilityId": "Xul|R1",
-        "cooldown": 90
+        "cooldown": 90,
+        "isQuest": 0
       },
       {
         "tooltipId": "NecromancerSkeletalMages",
@@ -185,7 +195,8 @@
         "icon": "storm_ui_icon_necromancer_skeletalmages.png",
         "sort": 2,
         "abilityId": "Xul|R2",
-        "cooldown": 90
+        "cooldown": 90,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -196,7 +207,8 @@
         "description": "Spectral Scythe spawns 2 additional scythes next to the first after 1.5 seconds, dealing 60% damage.",
         "icon": "storm_ui_icon_necromancer_reap.png",
         "sort": 1,
-        "abilityId": "Xul|Q1"
+        "abilityId": "Xul|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "NecromancerCursedStrikesRapidHarvest",
@@ -205,7 +217,8 @@
         "description": "Gain 5% Attack Speed for 3 seconds each time Cursed Strikes hits an enemy, up to 75%.",
         "icon": "storm_ui_icon_necromancer_cursedstrikes_off.png",
         "sort": 2,
-        "abilityId": "Xul|W1"
+        "abilityId": "Xul|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenericExecutionerTalent",
@@ -214,7 +227,8 @@
         "description": "Attacking a Hero that is slowed, rooted, or stunned increases your Basic Attack damage by 30% for 3 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "sort": 3,
-        "abilityId": "Xul|Passive"
+        "abilityId": "Xul|Passive",
+        "isQuest": 0
       }
     ],
     "16": [
@@ -225,7 +239,8 @@
         "description": "Enemies Rooted by Bone Prison lose 25 Armor for 1.75 seconds.",
         "icon": "storm_ui_icon_necromancer_boneprison.png",
         "sort": 1,
-        "abilityId": "Xul|E1"
+        "abilityId": "Xul|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "NecromancerTalentCorpseExplosion",
@@ -234,7 +249,8 @@
         "description": "When Skeletal Warriors die they explode for 55 (+4% per level) damage in a small area. Deals 100% increased damage to non-Heroic enemies.",
         "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
         "sort": 2,
-        "abilityId": "Xul|D1"
+        "abilityId": "Xul|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "NecromancerBoneSpear",
@@ -244,7 +260,8 @@
         "icon": "storm_ui_icon_necromancer_bonespear.png",
         "sort": 3,
         "abilityId": "Xul|Active",
-        "cooldown": 12
+        "cooldown": 12,
+        "isQuest": 0
       }
     ],
     "20": [
@@ -255,7 +272,8 @@
         "description": "Poison Nova heals for 50% of the damage dealt.  Passive: Skeletal Warriors deal 50% increased damage.",
         "icon": "storm_ui_icon_necromancer_poisonnova.png",
         "sort": 1,
-        "abilityId": "Xul|R1"
+        "abilityId": "Xul|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "NecromancerColdHandOfDeath",
@@ -264,7 +282,8 @@
         "description": "Increase the Slow of Frost Mages by 20%.  Passive: Skeletal Warrior attacks Slow enemies by 30% for 2 seconds.",
         "icon": "storm_ui_icon_necromancer_skeletalmages.png",
         "sort": 2,
-        "abilityId": "Xul|R2"
+        "abilityId": "Xul|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "NecromancerMortalWound",
@@ -273,7 +292,8 @@
         "description": "Enemy Heroes hit by Spectral Scythe receive 75% less healing for 4 seconds.",
         "icon": "storm_ui_icon_necromancer_reap.png",
         "sort": 3,
-        "abilityId": "Xul|D1"
+        "abilityId": "Xul|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "NecromancerTalentKalansEdict",
@@ -282,7 +302,8 @@
         "description": "Skeletal Warrior attacks reduce the cooldown of Xul's Heroic Ability by 1%.",
         "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
         "sort": 4,
-        "abilityId": "Xul|D1"
+        "abilityId": "Xul|D1",
+        "isQuest": 0
       }
     ]
   }

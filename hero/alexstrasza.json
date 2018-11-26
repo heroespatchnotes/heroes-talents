@@ -118,7 +118,8 @@
         "description": "While Alexstrasza is above 75% Health, Gift of Life's cooldown recharges 100% faster.",
         "icon": "storm_ui_icon_alexstrasza_gift_of_life.png",
         "sort": 1,
-        "abilityId": "Alexstrasza|Q1"
+        "abilityId": "Alexstrasza|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AlexstraszaCircleOfLifeAbundance",
@@ -127,7 +128,8 @@
         "description": "Quest: Collect Regeneration Globes.  Reward: After collecting 15 Regeneration Globes, Abundance heals for an additional 5% maximum Health.  Reward: After collecting 25 Regeneration Globes, Abundance's healing burst creates a Regeneration Globe.",
         "icon": "storm_ui_icon_alexstrasza_abundance.png",
         "sort": 2,
-        "abilityId": "Alexstrasza|W1"
+        "abilityId": "Alexstrasza|W1",
+        "isQuest": 1
       },
       {
         "tooltipId": "AlexstraszaFlamesOfFuryFlameBuffet",
@@ -136,7 +138,8 @@
         "description": "Quest: Hit 20 Burning Heroes with Flame Buffet.  Reward: Hitting a Burning Hero with Flame Buffet reduces Dragonqueen's cooldown by 5 seconds.",
         "icon": "storm_ui_icon_alexstrasza_flame_buffet.png",
         "sort": 3,
-        "abilityId": "Alexstrasza|E1"
+        "abilityId": "Alexstrasza|E1",
+        "isQuest": 1
       }
     ],
     "4": [
@@ -147,7 +150,8 @@
         "description": "Abundance's healing burst grants allied Heroes 30% Movement Speed for 3 seconds.",
         "icon": "storm_ui_icon_alexstrasza_abundance.png",
         "sort": 1,
-        "abilityId": "Alexstrasza|W1"
+        "abilityId": "Alexstrasza|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AlexstraszaHeatExhaustionFlameBuffet",
@@ -156,7 +160,8 @@
         "description": "Increase Flame Buffet's initial Slow from 40% to 60%.",
         "icon": "storm_ui_icon_alexstrasza_flame_buffet.png",
         "sort": 2,
-        "abilityId": "Alexstrasza|E1"
+        "abilityId": "Alexstrasza|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AlexstraszaExuberance",
@@ -165,7 +170,8 @@
         "description": "While above 75% Health, gain 15% Movement Speed.",
         "icon": "storm_ui_icon_alexstrasza_exuberance.png",
         "sort": 3,
-        "abilityId": "Alexstrasza|Passive"
+        "abilityId": "Alexstrasza|Passive",
+        "isQuest": 0
       }
     ],
     "7": [
@@ -176,7 +182,8 @@
         "description": "While Alexstrasza is above 75% Health, Gift of Life creates a Lifeblossom at the target's location. Alexstrasza can collect the Lifeblossom to make her next Gift of Life cost no Health.",
         "icon": "storm_ui_icon_alexstrasza_life_blossom.png",
         "sort": 1,
-        "abilityId": "Alexstrasza|Q1"
+        "abilityId": "Alexstrasza|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AlexstraszaVerdantFlourishAbundance",
@@ -185,7 +192,8 @@
         "description": "Alexstrasza receives 30% more healing from Abundance and 100% more healing from Regeneration Globes.",
         "icon": "storm_ui_icon_alexstrasza_abundance.png",
         "sort": 2,
-        "abilityId": "Alexstrasza|W1"
+        "abilityId": "Alexstrasza|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AlexstraszaFireWithinFlameBuffet",
@@ -194,7 +202,8 @@
         "description": "Hitting a Burning Hero with Flame Buffet heals Alexstrasza for 10% of her maximum Health.",
         "icon": "storm_ui_icon_alexstrasza_flame_buffet.png",
         "sort": 3,
-        "abilityId": "Alexstrasza|E1"
+        "abilityId": "Alexstrasza|E1",
+        "isQuest": 0
       }
     ],
     "10": [
@@ -206,7 +215,8 @@
         "icon": "storm_ui_icon_alexstrasza_life_binder.png",
         "sort": 1,
         "abilityId": "Alexstrasza|R1",
-        "cooldown": 60
+        "cooldown": 60,
+        "isQuest": 0
       },
       {
         "tooltipId": "AlexstraszaCleansingFlame",
@@ -216,7 +226,8 @@
         "icon": "storm_ui_icon_alexstrasza_cleansing_flame.png",
         "sort": 2,
         "abilityId": "Alexstrasza|R2",
-        "cooldown": 100
+        "cooldown": 100,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -227,7 +238,8 @@
         "description": "Gain 30 Armor while Stunned, Rooted, or Silenced, and for 2 seconds after. Can only trigger once every 10 seconds.",
         "icon": "storm_ui_icon_alexstrasza_dragon_scales.png",
         "sort": 1,
-        "abilityId": "Alexstrasza|Passive"
+        "abilityId": "Alexstrasza|Passive",
+        "isQuest": 0
       },
       {
         "tooltipId": "AlexstraszaPacify",
@@ -237,7 +249,8 @@
         "icon": "storm_ui_icon_alexstrasza_pacify.png",
         "sort": 2,
         "abilityId": "Alexstrasza|Active",
-        "cooldown": 60
+        "cooldown": 60,
+        "isQuest": 0
       },
       {
         "tooltipId": "AlexstraszaLifeUnbound",
@@ -247,7 +260,8 @@
         "icon": "storm_ui_icon_alexstrasza_life_unbound.png",
         "sort": 3,
         "abilityId": "Alexstrasza|Active",
-        "cooldown": 90
+        "cooldown": 90,
+        "isQuest": 0
       }
     ],
     "16": [
@@ -258,7 +272,8 @@
         "description": "While Alexstrasza is above 75% Health, Gift of Life grants its target 20 Armor for 2 seconds.",
         "icon": "storm_ui_icon_alexstrasza_gift_of_life.png",
         "sort": 1,
-        "abilityId": "Alexstrasza|Q1"
+        "abilityId": "Alexstrasza|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AlexstraszaOverprotectiveAbundance",
@@ -267,7 +282,8 @@
         "description": "Heroes healed by Abundance gain a Shield for 3 seconds equal to 60% of the amount healed.",
         "icon": "storm_ui_icon_alexstrasza_abundance.png",
         "sort": 2,
-        "abilityId": "Alexstrasza|W1"
+        "abilityId": "Alexstrasza|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AlexstraszaDraconicDisciplineDragonqueen",
@@ -276,7 +292,8 @@
         "description": "Increase Dragonqueen's duration by 7 seconds.",
         "icon": "storm_ui_icon_alexstrasza_dragon_queen.png",
         "sort": 3,
-        "abilityId": "Alexstrasza|D1"
+        "abilityId": "Alexstrasza|D1",
+        "isQuest": 0
       }
     ],
     "20": [
@@ -287,7 +304,8 @@
         "description": "Life-Binder activates 3 times over 6 seconds.",
         "icon": "storm_ui_icon_alexstrasza_life_binder.png",
         "sort": 1,
-        "abilityId": "Alexstrasza|R1"
+        "abilityId": "Alexstrasza|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AlexstraszaOnRubyWingsCleansingFlame",
@@ -296,7 +314,8 @@
         "description": "Healing or damaging Heroes 8 or more times with Cleansing Flame activates Dragonqueen for 15 seconds upon landing.",
         "icon": "storm_ui_icon_alexstrasza_cleansing_flame.png",
         "sort": 2,
-        "abilityId": "Alexstrasza|R2"
+        "abilityId": "Alexstrasza|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "AlexstraszaAncientFlameFlameBuffet",
@@ -305,7 +324,8 @@
         "description": "While Dragonqueen is active, Alexstrasza's Basic Attacks apply Flame Buffet, but her Attack Speed is reduced by 25%.",
         "icon": "storm_ui_icon_alexstrasza_dragon_queen_a.png",
         "sort": 3,
-        "abilityId": "Alexstrasza|D1"
+        "abilityId": "Alexstrasza|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "AlexstraszaBlessingOfTheRed",
@@ -315,7 +335,8 @@
         "icon": "storm_ui_icon_alexstrasza_blessing_of_the_red.png",
         "sort": 4,
         "abilityId": "Alexstrasza|Active",
-        "cooldown": 40
+        "cooldown": 40,
+        "isQuest": 0
       }
     ]
   }

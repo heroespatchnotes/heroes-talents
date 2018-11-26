@@ -80,7 +80,8 @@
         "description": "Hitting an enemy Hero with Swift Strike increases Genji's Movement Speed by 30% for 3 seconds.",
         "icon": "storm_ui_icon_genji_swiftstrike.png",
         "sort": 1,
-        "abilityId": "Genji|E1"
+        "abilityId": "Genji|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenjiCyberAgilityAgileDismount",
@@ -89,7 +90,8 @@
         "description": "While mounted, the range of Cyber Agility is increased by 70% and its cooldown is reduced by 10 seconds.",
         "icon": "storm_ui_icon_genji_cyberagility.png",
         "sort": 2,
-        "abilityId": "Genji|D1"
+        "abilityId": "Genji|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenjiCyberAgilityPathfinder",
@@ -98,7 +100,8 @@
         "description": "Jumping over terrain with Cyber Agility increases Genji's Movement Speed by 25% for 6 seconds.",
         "icon": "storm_ui_icon_genji_cyberagility_a.png",
         "sort": 3,
-        "abilityId": "Genji|D1"
+        "abilityId": "Genji|D1",
+        "isQuest": 0
       }
     ],
     "4": [
@@ -109,7 +112,8 @@
         "description": "Quest: Hit enemy Heroes with Shuriken.  Reward: After hitting 35 Heroes, Shuriken damage is increased by 25.  Reward: After hitting 75 Heroes, Cyber Agility now refunds 2 charges of Shuriken.",
         "icon": "storm_ui_icon_genji_shurikens.png",
         "sort": 1,
-        "abilityId": "Genji|Q1"
+        "abilityId": "Genji|Q1",
+        "isQuest": 1
       },
       {
         "tooltipId": "GenjiSwiftStrikeStrikeAtTheHeart",
@@ -118,7 +122,8 @@
         "description": "Enemies hit by the end of Swift Strike take an additional 138 (+4% per level) damage over 2 seconds.",
         "icon": "storm_ui_icon_genji_swiftstrike.png",
         "sort": 2,
-        "abilityId": "Genji|E1"
+        "abilityId": "Genji|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenjiDeflectDragonClawTalent",
@@ -127,7 +132,8 @@
         "description": "After Genji blocks 330 (+4% per level) damage with Deflect, activate to release a Dragon Claw, dealing 190 (+4% per level) damage to all nearby enemies.",
         "icon": "storm_ui_icon_genji_shurikens_dragonsoul.png",
         "sort": 3,
-        "abilityId": "Genji|Active"
+        "abilityId": "Genji|Active",
+        "isQuest": 0
       }
     ],
     "7": [
@@ -138,7 +144,8 @@
         "description": "When Deflect ends, Genji gains a Shield equal to 50% of the damage blocked for 4 seconds.",
         "icon": "storm_ui_icon_genji_deflect.png",
         "sort": 1,
-        "abilityId": "Genji|W1"
+        "abilityId": "Genji|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenjiDeflectPerfectDefense",
@@ -147,7 +154,8 @@
         "description": "Deflected damage reduces the cooldown of Deflect by 2 seconds, up to a maximum of 10 seconds.",
         "icon": "storm_ui_icon_genji_deflect_a.png",
         "sort": 2,
-        "abilityId": "Genji|W1"
+        "abilityId": "Genji|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenjiCyberAgilityCyberShield",
@@ -156,7 +164,8 @@
         "description": "Using Cyber Agility grants 50 Spell Armor for 2.5 seconds.",
         "icon": "storm_ui_icon_genji_cyberagility.png",
         "sort": 3,
-        "abilityId": "Genji|D1"
+        "abilityId": "Genji|D1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenjiDodge",
@@ -165,7 +174,8 @@
         "description": "Genji dodges 1 Heroic Basic Attack every 8 seconds.",
         "icon": "storm_ui_icon_genji_dodge.png",
         "sort": 4,
-        "abilityId": "Genji|Passive"
+        "abilityId": "Genji|Passive",
+        "isQuest": 0
       }
     ],
     "10": [
@@ -177,7 +187,8 @@
         "icon": "storm_ui_icon_genji_dragonblade.png",
         "sort": 1,
         "abilityId": "Genji|R1",
-        "cooldown": 100
+        "cooldown": 100,
+        "isQuest": 0
       },
       {
         "tooltipId": "GenjiXStrike",
@@ -187,7 +198,8 @@
         "icon": "storm_ui_icon_genji_shurikens_xblade.png",
         "sort": 2,
         "abilityId": "Genji|R2",
-        "cooldown": 80
+        "cooldown": 80,
+        "isQuest": 0
       }
     ],
     "13": [
@@ -198,7 +210,8 @@
         "description": "Hitting an enemy with all 3 Shuriken deals 115 (+4% per level) bonus damage.",
         "icon": "storm_ui_icon_genji_shurikens.png",
         "sort": 1,
-        "abilityId": "Genji|Q1"
+        "abilityId": "Genji|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenjiSwiftStrikeFlowLikeWater",
@@ -207,7 +220,8 @@
         "description": "Each enemy Hero hit with Swift Strike reduces its cooldown by 3 seconds.",
         "icon": "storm_ui_icon_genji_swiftstrike.png",
         "sort": 2,
-        "abilityId": "Genji|E1"
+        "abilityId": "Genji|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenjiCyberAgilityDoubleJump",
@@ -216,7 +230,8 @@
         "description": "Cyber Agility stores 2 charges.",
         "icon": "storm_ui_icon_genji_cyberagility.png",
         "sort": 3,
-        "abilityId": "Genji|D1"
+        "abilityId": "Genji|D1",
+        "isQuest": 0
       }
     ],
     "16": [
@@ -227,7 +242,8 @@
         "description": "Deflect also deals an additional 33% of the damage blocked.",
         "icon": "storm_ui_icon_genji_deflect.png",
         "sort": 1,
-        "abilityId": "Genji|W1"
+        "abilityId": "Genji|W1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenjiSwiftStrikeFinalCut",
@@ -236,7 +252,8 @@
         "description": "After 1 second, Swift Strike deals an additional 125 (+4% per level) damage to all enemies in the area.",
         "icon": "storm_ui_icon_genji_swiftstrike.png",
         "sort": 2,
-        "abilityId": "Genji|E1"
+        "abilityId": "Genji|E1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenjiSwiftStrikeSteadyBlade",
@@ -245,7 +262,8 @@
         "description": "Each enemy Hero hit by Swift Strike increases the damage of the next Swift Strike by 20%. This bonus stacks up to 3 times.",
         "icon": "storm_ui_icon_genji_swiftstrike_a.png",
         "sort": 3,
-        "abilityId": "Genji|E1"
+        "abilityId": "Genji|E1",
+        "isQuest": 0
       }
     ],
     "20": [
@@ -256,7 +274,8 @@
         "description": "Each time Dragonblade hits an enemy Hero, the duration of Dragonblade is increased by 0.5 seconds. If a Hero is killed within 1.5 seconds of being hit by Dragonblade, Swift Strike's cooldown is reset.",
         "icon": "storm_ui_icon_genji_dragonblade.png",
         "sort": 1,
-        "abilityId": "Genji|R1"
+        "abilityId": "Genji|R1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenjiXStrikeLivingWeapon",
@@ -265,7 +284,8 @@
         "description": "Each enemy Hero hit by X-Strike reduces its cooldown by 12 seconds.",
         "icon": "storm_ui_icon_genji_shurikens_xblade.png",
         "sort": 2,
-        "abilityId": "Genji|R2"
+        "abilityId": "Genji|R2",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenjiShurikenSharpenedStars",
@@ -274,7 +294,8 @@
         "description": "Shuriken now pierce all enemies hit.",
         "icon": "storm_ui_icon_genji_shurikens.png",
         "sort": 3,
-        "abilityId": "Genji|Q1"
+        "abilityId": "Genji|Q1",
+        "isQuest": 0
       },
       {
         "tooltipId": "GenjiDeflectZanshin",
@@ -283,7 +304,8 @@
         "description": "Quest: Block 6500 damage with Deflect, including damage blocked so far.  Reward: Deflect hits all nearby enemy Heroes.",
         "icon": "storm_ui_icon_genji_deflect_b.png",
         "sort": 4,
-        "abilityId": "Genji|W1"
+        "abilityId": "Genji|W1",
+        "isQuest": 1
       }
     ]
   }
