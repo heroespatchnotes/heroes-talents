@@ -19,8 +19,8 @@
         "type": "basic"
       },
       {
-        "name": "Weapon Modes",
-        "description": "Activate to change between Weapon Mode: Repeater Cannon and Weapon Mode: Phase Bomb.  Weapon Mode: Repeater Cannon: Basic Attack speed increased by 150%.  Weapon Mode: Phase Bomb: Basic Attacks have 1.25 increased range, deal 25% more damage, and splash to nearby enemies.",
+        "name": "Weapon Mode: Repeater Cannon",
+        "description": "Basic Attack speed increased by 150%.  Activate to change to Weapon Mode: Phase Bomb, increasing Basic Attack range and damage, and causing Basic Attacks to splash.",
         "hotkey": "W",
         "abilityId": "Fenix|W1",
         "icon": "storm_ui_icon_fenix_w_2.png",
@@ -61,6 +61,16 @@
         "icon": "storm_ui_icon_fenix_shield_1.png",
         "type": "trait"
       }
+    ],
+    "FenixPhaseBomb": [
+      {
+        "name": "Weapon Mode: Phase Bomb",
+        "description": "Basic Attacks have 1.25 increased range, deal 25% more damage, and splash to nearby enemies.  Activate to change to Weapon Mode: Repeater Cannon, increasing Basic Attack speed.",
+        "hotkey": "W",
+        "abilityId": "Fenix|W2",
+        "icon": "storm_ui_icon_fenix_w_1.png",
+        "type": "subunit"
+      }
     ]
   },
   "talents": {
@@ -72,7 +82,8 @@
         "description": "Quest: Hitting enemy Heroes with Plasma Cutter permanently increases Fenix's Basic Attack damage by 0.5, up to 60.  Reward: After hitting 30 Heroes, Plasma Cutter circles an additional time.",
         "icon": "storm_ui_icon_fenix_q.png",
         "sort": 1,
-        "abilityId": "Fenix|Q1"
+        "abilityId": "Fenix|Q1",
+        "isQuest": true
       },
       {
         "tooltipId": "FenixArsenalSynergy",
@@ -81,7 +92,7 @@
         "description": "After hitting enemy Heroes with Basic Attacks 3 times while Repeater Cannon is active, the next Basic Attack with Phase Bomb deals 150% more damage and splashes in a 50% larger area.",
         "icon": "storm_ui_icon_fenix_w_1.png",
         "sort": 2,
-        "abilityId": "Fenix|Active"
+        "abilityId": "Fenix|W1"
       },
       {
         "tooltipId": "FenixMobileOffense",
@@ -90,7 +101,7 @@
         "description": "After moving, Fenix's next Basic Attack deals 35% more damage to Heroes.",
         "icon": "storm_ui_icon_fenix_w_2.png",
         "sort": 3,
-        "abilityId": "Fenix|Active"
+        "abilityId": "Fenix|W2"
       }
     ],
     "4": [
@@ -101,7 +112,7 @@
         "description": "Basic Attacks against Slowed Heroes with Repeater Cannon active grant 10% Movement Speed for 4 seconds, up to 40%.",
         "icon": "storm_ui_icon_fenix_w_2.png",
         "sort": 1,
-        "abilityId": "Fenix|Active"
+        "abilityId": "Fenix|W2"
       },
       {
         "tooltipId": "FenixInhibitingEnergy",
@@ -110,7 +121,7 @@
         "description": "While Phase Bomb is active, Basic Attacks against Heroes Slowed by Plasma Cutter Slow all enemies in the area by 35% for 4 seconds.",
         "icon": "storm_ui_icon_fenix_w_1.png",
         "sort": 2,
-        "abilityId": "Fenix|Active"
+        "abilityId": "Fenix|W1"
       },
       {
         "tooltipId": "FenixWarpConduit",
@@ -229,7 +240,7 @@
         "description": "Every 3rd Basic Attack against Heroes while Repeater Cannon is active deals an additional 6% of the target's maximum Health as damage.",
         "icon": "storm_ui_icon_fenix_w_2.png",
         "sort": 1,
-        "abilityId": "Fenix|Active"
+        "abilityId": "Fenix|W2"
       },
       {
         "tooltipId": "FenixPhotonicWeaponry",
@@ -267,7 +278,7 @@
         "description": "Repeater Cannon grants 100% more Attack Speed, and Phase Bomb grants 1.25 more range.",
         "icon": "storm_ui_icon_fenix_w_2.png",
         "sort": 2,
-        "abilityId": "Fenix|Active"
+        "abilityId": "Fenix|W2"
       },
       {
         "tooltipId": "FenixUnconqueredSpirit",
@@ -276,7 +287,7 @@
         "description": "Upon taking fatal damage, Shield Capacitor regains 800 (+4% per level) Shields. This effect has a 120 second cooldown.",
         "icon": "storm_ui_icon_fenix_shield_1.png",
         "sort": 3,
-        "abilityId": "Fenix|D1"
+        "abilityId": "Fenix|Passive"
       }
     ]
   }

@@ -88,7 +88,8 @@
         "description": "Reward: After Corpse Spiders attack Heroes 100 times, their attack damage is increased by 30%.",
         "icon": "storm_ui_icon_nazeebo_corpsespider.png",
         "sort": 1,
-        "abilityId": "Nazeebo|Q1"
+        "abilityId": "Nazeebo|Q1",
+        "isQuest": true
       },
       {
         "tooltipId": "WitchDoctorPandemic",
@@ -97,7 +98,8 @@
         "description": "Reward: After hitting 40 Heroes with Plague of Toads, it spawns 2 additional toads.",
         "icon": "storm_ui_icon_nazeebo_plagueoftoads.png",
         "sort": 2,
-        "abilityId": "Nazeebo|E1"
+        "abilityId": "Nazeebo|E1",
+        "isQuest": true
       },
       {
         "tooltipId": "WitchDoctorThingOfTheDeepTalent",
@@ -106,7 +108,7 @@
         "description": "Increases the range of Nazeebo's Basic Abilities by 20%.",
         "icon": "storm_ui_icon_talent_elunesgrace.png",
         "sort": 3,
-        "abilityId": "Nazeebo|Passive"
+        "abilityId": "Nazeebo|Q1"
       }
     ],
     "4": [
@@ -284,7 +286,8 @@
         "description": "Quest: Reach 175 stacks of Voodoo Ritual.  Reward: After reaching 175 stacks of Voodoo Ritual, it can also be applied to Heroes and its damage is increased from 67 (+4% per level) to 167 (+4% per level) over 6 seconds.",
         "icon": "storm_ui_icon_nazeebo_voodooritual.png",
         "sort": 4,
-        "abilityId": "Nazeebo|D1"
+        "abilityId": "Nazeebo|D1",
+        "isQuest": true
       }
     ]
   }
