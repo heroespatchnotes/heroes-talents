@@ -14,7 +14,7 @@
         "description": "Heal an ally Hero for 255 (+4% per level). Light of Elune's cooldown is reduced by 1.5 seconds every time Tyrande damages an enemy.  Stores up to 2 charges. Cooldown replenishes all charges at the same time.",
         "hotkey": "Q",
         "abilityId": "Tyrande|Q1",
-        "cooldown": 15,
+        "cooldown": 16,
         "manaCost": 15,
         "icon": "storm_ui_icon_tyrande_lightofelune.png",
         "type": "basic"
@@ -74,31 +74,32 @@
   "talents": {
     "1": [
       {
-        "tooltipId": "TyrandeMoonlitArrows",
-        "talentTreeId": "TyrandeMoonlitArrows",
-        "name": "Moonlit Arrows",
-        "description": "Basic Attacks decrease the cooldown of Light of Elune by an additional 0.75 seconds.",
+        "tooltipId": "TyrandeLightOfEluneEverlastingLight",
+        "talentTreeId": "TyrandeLightOfEluneEverlastingLight",
+        "name": "Everlasting Light",
+        "description": "If Light of Elune's second charge is cast on a different target from the first, it heals for 40% more.",
         "icon": "storm_ui_icon_tyrande_lightofelune.png",
         "sort": 1,
         "abilityId": "Tyrande|Q1"
       },
       {
-        "tooltipId": "TyrandeLightOfEluneCelestialAttunementTalent",
-        "talentTreeId": "TyrandeCelestialAttunement",
-        "name": "Celestial Attunement",
-        "description": "Light of Elune removes Stuns, Silences, and Slows from its target.",
-        "icon": "storm_ui_icon_tyrande_lightofelune_b.png",
+        "tooltipId": "TyrandeHuntersMarkMarkOfMendingTalent",
+        "talentTreeId": "TyrandeMarkofMending",
+        "name": "Mark of Mending",
+        "description": "Tyrande's Basic Attacks heal her for 2% of her maximum Health. Basic Attacks against targets with Hunter's Mark heal the attacker for 2% of their maximum Health.",
+        "icon": "storm_ui_icon_tyrande_huntersmark.png",
         "sort": 2,
-        "abilityId": "Tyrande|Q1"
+        "abilityId": "Tyrande|D1"
       },
       {
-        "tooltipId": "TyrandeKaldoreiResistance",
-        "talentTreeId": "TyrandeKaldoreiResistance",
-        "name": "Kaldorei Resistance",
-        "description": "Light of Elune grants the target 10 Spell Armor for 2 seconds. This effect stacks up to 2 times.",
-        "icon": "storm_ui_icon_tyrande_lightofelune_a.png",
+        "tooltipId": "TyrandeElunesChosen",
+        "talentTreeId": "TyrandeElunesChosen",
+        "name": "Elune's Chosen",
+        "description": "Activate to make Tyrande's Basic Attacks heal target allied Hero for 200% of the damage dealt. Lasts for 8 seconds.",
+        "icon": "storm_ui_icon_talent_autoattack_heal.png",
         "sort": 3,
-        "abilityId": "Tyrande|Q1"
+        "abilityId": "Tyrande|Active",
+        "cooldown": 30
       }
     ],
     "4": [
@@ -135,32 +136,31 @@
     ],
     "7": [
       {
-        "tooltipId": "TyrandeLightOfEluneEverlastingLight",
-        "talentTreeId": "TyrandeLightOfEluneEverlastingLight",
-        "name": "Everlasting Light",
-        "description": "If Light of Elune's second charge is cast on a different target from the first, it heals for 40% more.",
+        "tooltipId": "TyrandeMoonlitArrows",
+        "talentTreeId": "TyrandeMoonlitArrows",
+        "name": "Moonlit Arrows",
+        "description": "Basic Attacks decrease the cooldown of Light of Elune by an additional 0.75 seconds.",
         "icon": "storm_ui_icon_tyrande_lightofelune.png",
         "sort": 1,
         "abilityId": "Tyrande|Q1"
       },
       {
-        "tooltipId": "TyrandeHuntersMarkMarkOfMendingTalent",
-        "talentTreeId": "TyrandeMarkofMending",
-        "name": "Mark of Mending",
-        "description": "Tyrande's Basic Attacks heal her for 2% of her maximum Health. Basic Attacks against targets with Hunter's Mark heal the attacker for 2% of their maximum Health.",
-        "icon": "storm_ui_icon_tyrande_huntersmark.png",
+        "tooltipId": "TyrandeLightOfEluneCelestialAttunementTalent",
+        "talentTreeId": "TyrandeCelestialAttunement",
+        "name": "Celestial Attunement",
+        "description": "Light of Elune removes Stuns, Silences, and Slows from its target.",
+        "icon": "storm_ui_icon_tyrande_lightofelune_b.png",
         "sort": 2,
-        "abilityId": "Tyrande|D1"
+        "abilityId": "Tyrande|Q1"
       },
       {
-        "tooltipId": "TyrandeElunesChosen",
-        "talentTreeId": "TyrandeElunesChosen",
-        "name": "Elune's Chosen",
-        "description": "Activate to make Tyrande's Basic Attacks heal target allied Hero for 200% of the damage dealt. Lasts for 8 seconds.",
-        "icon": "storm_ui_icon_talent_autoattack_heal.png",
+        "tooltipId": "TyrandeKaldoreiResistance",
+        "talentTreeId": "TyrandeKaldoreiResistance",
+        "name": "Kaldorei Resistance",
+        "description": "Light of Elune grants the target 10 Spell Armor for 2 seconds. This effect stacks up to 2 times.",
+        "icon": "storm_ui_icon_tyrande_lightofelune_a.png",
         "sort": 3,
-        "abilityId": "Tyrande|Active",
-        "cooldown": 30
+        "abilityId": "Tyrande|Q1"
       }
     ],
     "10": [
