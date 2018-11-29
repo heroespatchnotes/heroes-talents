@@ -56,6 +56,7 @@
         "abilityId": "Chromie|R1",
         "cooldown": 5,
         "manaCost": 4,
+        "manaPerSecond": true,
         "icon": "storm_ui_icon_chromie_timewarp.png",
         "type": "heroic"
       },
@@ -87,7 +88,8 @@
         "description": "Quest: Every time Dragon's Breath hits a Hero increase its damage by 5, up to 60.  Reward: After hitting 12 Heroes, increase its damage by an additional 140 and also increase Chromie's sight radius by 100%.",
         "icon": "storm_ui_icon_chromie_sandstrike.png",
         "sort": 2,
-        "abilityId": "Chromie|W1"
+        "abilityId": "Chromie|W1",
+        "isQuest": true
       },
       {
         "tooltipId": "ChromieTimewalkersPursuit",
@@ -97,7 +99,8 @@
         "icon": "storm_ui_icon_talent_clairvoyance.png",
         "sort": 3,
         "abilityId": "Chromie|Active",
-        "cooldown": 25
+        "cooldown": 25,
+        "isQuest": true
       }
     ],
     "4": [

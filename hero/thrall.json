@@ -78,7 +78,8 @@
         "description": "Quest: Kill Minions or Heroes within 1.5 seconds of hitting them with Chain Lightning.  Reward: After killing 10 enemies, reduce the Mana cost of Chain Lightning from 40 to 25.  Reward: After killing 20 enemies, gain a second charge of Chain Lightning.",
         "icon": "storm_ui_icon_thrall_chainlightning.png",
         "sort": 1,
-        "abilityId": "Thrall|Q1"
+        "abilityId": "Thrall|Q1",
+        "isQuest": true
       },
       {
         "tooltipId": "ThrallCrashLightning",
@@ -87,7 +88,8 @@
         "description": "Repeatable Quest: Hitting at least 2 Heroes with a single use of Chain Lightning increases the damage of its bounces by 12, up to 360.  Reward: After hitting multiple Heroes 30 times, Chain Lightning prioritizes bouncing to Heroes.",
         "icon": "storm_ui_icon_thrall_chainlightning_var1.png",
         "sort": 2,
-        "abilityId": "Thrall|Q1"
+        "abilityId": "Thrall|Q1",
+        "isQuest": true
       },
       {
         "tooltipId": "ThrallRollingThunderTalent",
@@ -116,7 +118,8 @@
         "description": "Quest: Hit 6 Heroes with Feral Spirit. Progress is lost on death and when Thrall fails to hit a Hero.  Reward: Reduce the cooldown and Mana cost of Feral Spirit by 50%.",
         "icon": "storm_ui_icon_thrall_feralspirit_var1.png",
         "sort": 2,
-        "abilityId": "Thrall|W1"
+        "abilityId": "Thrall|W1",
+        "isQuest": true
       },
       {
         "tooltipId": "ThrallManaTideTalent",
@@ -136,7 +139,8 @@
         "description": "Repeatable Quest: Basic Attacks against Heroes while Windfury's Movement Speed bonus is active increase Attack Damage by 1.  Reward: After gaining 20 Attack Damage, increase the Movement Speed bonus of Windfury to 40%.  Reward: After gaining 40 Attack Damage, Thrall permanently gains 15% increased Movement Speed.",
         "icon": "storm_ui_icon_thrall_windfury_var1.png",
         "sort": 1,
-        "abilityId": "Thrall|E1"
+        "abilityId": "Thrall|E1",
+        "isQuest": true
       },
       {
         "tooltipId": "ThrallAncestralWrath",
@@ -227,7 +231,8 @@
         "description": "Chain Lightning Slows targets by 8% for 2 seconds.  Quest: Targeting a Hero directly with Chain Lightning increases this Slow by 8%, up to an additional 40%.  Reward: While at a 40% bonus, Chain Lightning's damage is increased by 25%.  Bonuses are reset if Chain Lightning is used on the same Hero it was last used on, or if Thrall dies.",
         "icon": "storm_ui_icon_thrall_chainlightning.png",
         "sort": 2,
-        "abilityId": "Thrall|Q1"
+        "abilityId": "Thrall|Q1",
+        "isQuest": true
       },
       {
         "tooltipId": "ThrallAlphaWolf",

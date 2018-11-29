@@ -117,7 +117,8 @@
         "description": "Quest: Hit 15 Heroes with Death Shroud.  Reward: Permanently increase Death Shroud's range by 33%, reduce its cooldown by 3.75 seconds, and reduce its Mana cost from 50 to 25.",
         "icon": "storm_ui_icon_malthael_deathshroud.png",
         "sort": 2,
-        "abilityId": "Malthael|E1"
+        "abilityId": "Malthael|E1",
+        "isQuest": true
       },
       {
         "tooltipId": "MalthaelBlackHarvest",
@@ -126,7 +127,8 @@
         "description": "Quest: Apply Reaper's Mark to Heroes for a total of 180 seconds.  Reward: Permanently increase Reaper's Mark's duration by 2 seconds.",
         "icon": "storm_ui_icon_malthael_reapersmark.png",
         "sort": 3,
-        "abilityId": "Malthael|D1"
+        "abilityId": "Malthael|D1",
+        "isQuest": true
       }
     ],
     "7": [
@@ -178,7 +180,8 @@
         "icon": "storm_ui_icon_malthael_lastrites.png",
         "sort": 2,
         "abilityId": "Malthael|R2",
-        "cooldown": 65
+        "cooldown": 65,
+        "isQuest": true
       }
     ],
     "13": [
