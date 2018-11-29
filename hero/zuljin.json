@@ -105,7 +105,8 @@
         "description": "Quest: Zul'jin's first Takedown against each enemy Hero permanently increases his damage dealt by 2%.  Reward: After getting Takedowns on every enemy Hero, Basic Attack range is increased by 1.1.",
         "icon": "storm_ui_icon_zuljin_headhunter.png",
         "sort": 3,
-        "abilityId": "Zul'jin|Passive"
+        "abilityId": "Zul'jin|Passive",
+        "isQuest": true
       }
     ],
     "4": [
@@ -125,7 +126,7 @@
         "description": "Activate to remove Roots and Slows.  Passive: Lower the cooldown and Mana cost of Regeneration by 40%.",
         "icon": "storm_ui_icon_zuljin_regeneration_a.png",
         "sort": 2,
-        "abilityId": "Zul'jin|Active",
+        "abilityId": "Zul'jin|E1",
         "cooldown": 10
       },
       {
@@ -135,7 +136,7 @@
         "description": "Lower the cooldown of Amani Rage by 10 seconds and gain 10 Armor while regenerating Health from it.",
         "icon": "storm_ui_icon_zuljin_davoodooshuffle.png",
         "sort": 3,
-        "abilityId": "Zul'jin|Active"
+        "abilityId": "Zul'jin|11"
       }
     ],
     "7": [
@@ -155,7 +156,8 @@
         "description": "Quest: Twin Cleave's damage is permanently increased by 0.75 every time it hits a Hero.",
         "icon": "storm_ui_icon_zuljin_twincleave.png",
         "sort": 2,
-        "abilityId": "Zul'jin|W1"
+        "abilityId": "Zul'jin|W1",
+        "isQuest": true
       },
       {
         "tooltipId": "ZuljinFerocity",

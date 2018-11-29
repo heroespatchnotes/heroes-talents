@@ -110,7 +110,8 @@
         "description": "Collecting Regeneration Globes reduces the cooldown of Pyromania by 8 seconds.  Quest: Collect 15 Regeneration Globes.  Reward: Pyromania grants Unstoppable for 2 seconds.",
         "icon": "storm_ui_icon_blaze_new_habits.png",
         "sort": 4,
-        "abilityId": "Blaze|D1"
+        "abilityId": "Blaze|D1",
+        "isQuest": true
       }
     ],
     "4": [
@@ -118,7 +119,7 @@
         "tooltipId": "FirebatFlameStreamFeedingtheFlame",
         "talentTreeId": "FirebatFlameStreamFeedingtheFlame",
         "name": "Feeding the Flame",
-        "description": "Each enemy Hero hit by Flame Stream reduces the cooldown of Oil Spill by 2.5 seconds.",
+        "description": "Each enemy Hero hit by Flame Stream reduces the cooldown of Oil Spill by 2 seconds and refunds 5 Mana.",
         "icon": "storm_ui_icon_blaze_flame.png",
         "sort": 1,
         "abilityId": "Blaze|Q1"
@@ -136,7 +137,7 @@
         "tooltipId": "FirebatOilSpillOilDispersal",
         "talentTreeId": "FirebatOilSpillOilDispersal",
         "name": "Oil Dispersal",
-        "description": "Increase Oil Spill's area by 20% and Slow amount by 10%.",
+        "description": "Increase Oil Spill's area by 20%.",
         "icon": "storm_ui_icon_blaze_oil_b.png",
         "sort": 3,
         "abilityId": "Blaze|W1"
@@ -145,7 +146,7 @@
         "tooltipId": "FirebatIgniteMeltdown",
         "talentTreeId": "FirebatIgniteMeltdown",
         "name": "Meltdown",
-        "description": "Hitting an enemy Hero with Pyromania reduces their damage dealt by 5% for 2.5 seconds, up to 30%.",
+        "description": "Hitting an enemy Hero with Pyromania reduces their damage dealt by 7% for 2.5 seconds, up to 35%.",
         "icon": "storm_ui_icon_blaze_pyromania.png",
         "sort": 4,
         "abilityId": "Blaze|D1"
@@ -168,7 +169,8 @@
         "description": "Quest: Damage enemy Heroes with Ignited Oil Spills 60 times.  Reward: Increase Oil Spill's Ignite duration by 2 seconds, and damage by 20%.",
         "icon": "storm_ui_icon_blaze_oil.png",
         "sort": 2,
-        "abilityId": "Blaze|W1"
+        "abilityId": "Blaze|W1",
+        "isQuest": true
       },
       {
         "tooltipId": "FirebatWeaponIncineratorGauntlets",

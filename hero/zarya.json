@@ -73,7 +73,8 @@
         "description": "Quest: For every 5 enemy Heroes hit by Particle Grenade, its recharge rate lowers by 0.4375 seconds, up to 3.5 seconds.  Reward: Once Particle Grenade has hit 40 enemy Heroes, its radius is increased by 15%.",
         "icon": "storm_ui_icon_zarya_particlegrenade.png",
         "sort": 1,
-        "abilityId": "Zarya|Q1"
+        "abilityId": "Zarya|Q1",
+        "isQuest": true
       },
       {
         "tooltipId": "ZaryaShieldAllyTogetherWeAreStrongTalent",
@@ -100,7 +101,8 @@
         "description": "Regen Globes now instantly grant 20 Energy.  Quest: Spend 150 seconds at or above 50 Energy.  Reward: Gain an additional 20 maximum Energy.",
         "icon": "storm_ui_icon_zarya_energy.png",
         "sort": 4,
-        "abilityId": "Zarya|D1"
+        "abilityId": "Zarya|D1",
+        "isQuest": true
       }
     ],
     "4": [
@@ -120,7 +122,8 @@
         "description": "Quest: Regeneration Globes increase Shield Ally absorb amount by 15, up to 300 permanently.  Reward: After collecting 20 Regen Globes, permanently reduce the cooldown of Shield Ally by 2 seconds.",
         "icon": "storm_ui_icon_zarya_shieldally.png",
         "sort": 2,
-        "abilityId": "Zarya|E1"
+        "abilityId": "Zarya|E1",
+        "isQuest": true
       },
       {
         "tooltipId": "ZaryaShieldAllySpeedBarrierTalent",
