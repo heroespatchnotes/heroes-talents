@@ -87,7 +87,8 @@
         "description": "Quest: Every time Lion's Fang hits a Hero, increase its damage by 4, up to 120.  Reward: After hitting 30 Heroes, the Slow is increased to 50% and its duration is increased to 2 seconds.",
         "icon": "storm_ui_icon_varian_lionsfang.png",
         "sort": 1,
-        "abilityId": "Varian|Q1"
+        "abilityId": "Varian|Q1",
+        "isQuest": true
       },
       {
         "tooltipId": "VarianParryOverpower",
@@ -105,7 +106,8 @@
         "description": "Quest: Hit 50 Heroes with Basic Attacks. Quest: Participate in 5 Hero Takedowns. Quest: Gather 20 Regeneration Globes.  Reward: Completing a Quest grants 10 Base Attack Damage. Completing all 3 Quests grants an additional 45 Base Attack Damage.",
         "icon": "storm_ui_icon_varian_highkingsquest.png",
         "sort": 3,
-        "abilityId": "Varian|Passive"
+        "abilityId": "Varian|Passive",
+        "isQuest": true
       }
     ],
     "4": [
@@ -136,7 +138,7 @@
         "description": "Basic Attacks reduce Heroic Strike's cooldown by 9 seconds, and increase Varian's Movement Speed by 30% for 2 seconds.  Passive: Attack Speed increased by 100%. Passive: Base Attack Damage reduced by 20%.",
         "icon": "storm_ui_icon_varian_twinbladesoffury.png",
         "sort": 3,
-        "abilityId": "Varian|R3"
+        "abilityId": "Varian|Passive"
       }
     ],
     "7": [
@@ -276,7 +278,7 @@
         "description": "Twin Blades of Fury increases Varian's Attack Speed by an additional 15%, and Basic Attacks increase his Movement Speed by an additional 10%.",
         "icon": "storm_ui_icon_varian_twinbladesoffury.png",
         "sort": 3,
-        "abilityId": "Varian|R3"
+        "abilityId": "Varian|Passive"
       },
       {
         "tooltipId": "VarianBannersGloryToTheAlliance",
