@@ -21,21 +21,21 @@
       },
       {
         "name": "Impaling Blades",
-        "description": "After 1.25 seconds, deal 180 (+4% per level) damage to enemies within the target area, stunning them for 1 second.",
+        "description": "After 1.25 seconds, deal 165 (+4% per level) damage to enemies within the target area, stunning them for 1 second.",
         "hotkey": "W",
         "abilityId": "Kerrigan|W1",
         "cooldown": 12,
-        "manaCost": 75,
+        "manaCost": 80,
         "icon": "storm_ui_icon_kerrigan_impalingblades.png",
         "type": "basic"
       },
       {
         "name": "Primal Grasp",
-        "description": "Pulls enemies within the target area towards Kerrigan, dealing 25 (+4% per level) damage. After 2.5 seconds, an explosion occurs around Kerrigan, dealing 180 (+4% per level) damage to nearby enemies.",
+        "description": "Pulls enemies within the target area towards Kerrigan, dealing 25 (+4% per level) damage. After 2.5 seconds, an explosion occurs around Kerrigan, dealing 195 (+4% per level) damage to nearby enemies.",
         "hotkey": "E",
         "abilityId": "Kerrigan|E1",
         "cooldown": 10,
-        "manaCost": 60,
+        "manaCost": 65,
         "icon": "storm_ui_icon_kerrigan_primalgrasp.png",
         "type": "basic"
       },
@@ -84,7 +84,7 @@
         "tooltipId": "KerriganAssimilationMasteryTalent",
         "talentTreeId": "KerriganAssimilationMastery",
         "name": "Assimilation Mastery",
-        "description": "Regeneration Globe healing grants 40 (+4% per level) points of Assimilation Shields per second while active. While Assimilation is active, Kerrigan's Health and Mana regeneration is increased by 100%.",
+        "description": "Regeneration Globe healing grants 40 (+4% per level) points of Assimilation Shields per second while active. While Assimilation is active, Kerrigan's Health and Mana regeneration is increased by 150%.",
         "icon": "storm_ui_icon_kerrigan_assimilation.png",
         "sort": 2,
         "abilityId": "Kerrigan|D1"
@@ -104,10 +104,11 @@
         "tooltipId": "KerriganRavageSharpenedBlades",
         "talentTreeId": "KerriganRavageSharpenedBlades",
         "name": "Sharpened Blades",
-        "description": "Quest: Minions and Heroes that die within 1.5 seconds of being hit by Ravage increase its damage up to a maximum of 50.  Minions grant 0.5 increased damage and Heroes grant 5 increased damage.  Reward: After reaching a 50 damage increase, Ravage gains 50 additional damage.",
+        "description": "Quest: Minions and Heroes that die within 1.5 seconds of being hit by Ravage increase its damage up to a maximum of 75.  Minions grant 1 increased damage and Heroes grant 5 increased damage.  Reward: After reaching a 75 damage increase, Ravage gains 50 additional damage.",
         "icon": "storm_ui_icon_kerrigan_ravage.png",
         "sort": 1,
-        "abilityId": "Kerrigan|Q1"
+        "abilityId": "Kerrigan|Q1",
+        "isQuest": true
       },
       {
         "tooltipId": "KerriganImpalingBladesKineticFulmination",
@@ -202,7 +203,7 @@
         "tooltipId": "KerriganChrysalis",
         "talentTreeId": "KerriganChrysalis",
         "name": "Chrysalis",
-        "description": "Activate to place Kerrigan in a Chrysalis with 550 (+4% per level) Health for 5 seconds. While inside, Kerrigan regenerates 5% of her maximum Health per second.  Enemies can destroy the Chrysalis to end its effects early.",
+        "description": "Activate to place Kerrigan in a Chrysalis with 750 (+4% per level) Health for 5 seconds. While inside, Kerrigan regenerates 5% of her maximum Health per second.  Enemies can destroy the Chrysalis to end its effects early.",
         "icon": "storm_ui_icon_kerrigan_chrysalis.png",
         "sort": 3,
         "abilityId": "Kerrigan|Active",
@@ -214,7 +215,7 @@
         "tooltipId": "KerriganRavageMountingPotency",
         "talentTreeId": "KerriganRavageMountingPotency",
         "name": "Mounting Potency",
-        "description": "Ravage grants 5% Spell Power for 4 seconds, up to 40%.",
+        "description": "Ravage grants 5% Spell Power for 5 seconds, up to 40%.",
         "icon": "storm_ui_icon_kerrigan_ravage.png",
         "sort": 1,
         "abilityId": "Kerrigan|Q1"
@@ -232,7 +233,7 @@
         "tooltipId": "KerriganUnbridledEnergy",
         "talentTreeId": "KerriganUnbridledEnergy",
         "name": "Unbridled Energy",
-        "description": "Damaging a Hero with a Heroic Ability grants 30% Spell Power for 4 seconds.",
+        "description": "Damaging a Hero with a Heroic Ability grants 35% Spell Power for 4 seconds.",
         "icon": "storm_ui_icon_talent_abilitytalent_damage.png",
         "sort": 3,
         "abilityId": "Kerrigan|R1"
@@ -243,7 +244,7 @@
         "tooltipId": "KerriganMaelstromOmegastormTalent",
         "talentTreeId": "KerriganOmegastormMaelstrom",
         "name": "Omegastorm",
-        "description": "Maelstrom's duration is increased by 0.1875 seconds every time it damages a Hero.",
+        "description": "Maelstrom's duration is increased by 0.25 seconds every time it damages a Hero.",
         "icon": "storm_ui_icon_kerrigan_maelstrom.png",
         "sort": 1,
         "abilityId": "Kerrigan|R1"

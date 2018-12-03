@@ -41,7 +41,7 @@
       },
       {
         "name": "Tide of Sin",
-        "description": "Activate to make the next Globe of Annihilation cost no Mana and deal 50% more damage.",
+        "description": "Activate to make the next Globe of Annihilation cost no Mana and deal 50% more damage.  Usable while Channeling All Shall Burn.",
         "hotkey": "R",
         "abilityId": "Azmodan|R2",
         "cooldown": 20,
@@ -51,7 +51,7 @@
       },
       {
         "name": "Demonic Invasion",
-        "description": "Rain a small army of Demonic Grunts down on enemies, dealing 65 (+4% per level) damage per impact. Grunts deal 42 (+4% per level) damage, have 750 (+4% per level) Health and last up to 10 seconds. When Grunts die they explode, dealing 98 (+4% per level) damage to nearby enemies.",
+        "description": "Rain a small army of Demonic Grunts down on enemies, dealing 65 (+4% per level) damage per impact. Grunts deal 42 (+4% per level) damage, have 750 (+4% per level) Health and last up to 10 seconds. When Grunts die they explode, dealing 98 (+4% per level) damage to nearby enemies.  Usable while Channeling All Shall Burn.",
         "hotkey": "R",
         "abilityId": "Azmodan|R1",
         "cooldown": 90,
@@ -80,7 +80,8 @@
         "description": "Increase the time Minions will grant Annihilation from 1.5 to 3 seconds.  Quest: After gaining 200 Annihilation, Globe of Annihilation's range is increased by 33% and it deals 20% more damage to non-Heroic targets.",
         "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
         "sort": 1,
-        "abilityId": "Azmodan|Q1"
+        "abilityId": "Azmodan|Q1",
+        "isQuest": true
       },
       {
         "tooltipId": "AzmodanGluttony",
@@ -89,7 +90,8 @@
         "description": "Increase the number of stacks of Annihilation gained by hitting Heroes with Globe of Annihilation from 2 to 3.  Quest: After gaining 200 Annihilation, each enemy hit by Globe of Annihilation reduces its cooldown by 0.25 seconds, doubled against Heroes.",
         "icon": "storm_ui_icon_azmodan_globeofannihilation_a.png",
         "sort": 2,
-        "abilityId": "Azmodan|Q1"
+        "abilityId": "Azmodan|Q1",
+        "isQuest": true
       },
       {
         "tooltipId": "AzmodanWrath",
@@ -98,7 +100,8 @@
         "description": "Basic Attacks against Heroes under 75% Health grant 1 Annihilation.  Quest: After gaining 200 Annihilation, hitting a Hero with Globe of Annihilation increases the damage of Azmodan's next Basic Attack against them within 3 seconds by 75% the amount of Annihilation he has.",
         "icon": "storm_ui_icon_azmodan_globeofannihilation_b.png",
         "sort": 3,
-        "abilityId": "Azmodan|Q1"
+        "abilityId": "Azmodan|Q1",
+        "isQuest": true
       }
     ],
     "4": [
@@ -144,7 +147,7 @@
         "tooltipId": "AzmodanBombardment",
         "talentTreeId": "AzmodanBombardment",
         "name": "Bombardment",
-        "description": "After casting Globe of Annihilation, Azmodan's Basic Attacks within the next 3 seconds have an additional 2 range and can hit 2 additional targets. Hitting Heroes with Basic Attacks empowered by Bombardment grant 1 Annihilation.",
+        "description": "After casting Globe of Annihilation, Azmodan's Basic Attacks within the next 3 seconds have an additional 1.5 range and can hit 2 additional targets. Hitting Heroes with Basic Attacks empowered by Bombardment grant 1 Annihilation.",
         "icon": "storm_ui_icon_azmodan_globeofannihilation_a.png",
         "sort": 2,
         "abilityId": "Azmodan|Q1"
@@ -164,7 +167,7 @@
         "tooltipId": "AzmodanDemonicInvasion",
         "talentTreeId": "AzmodanHeroicAbilityDemonicInvasion",
         "name": "Demonic Invasion",
-        "description": "Rain a small army of Demonic Grunts down on enemies, dealing 65 (+4% per level) damage per impact. Grunts deal 42 (+4% per level) damage, have 750 (+4% per level) Health and last up to 10 seconds. When Grunts die they explode, dealing 98 (+4% per level) damage to nearby enemies.",
+        "description": "Rain a small army of Demonic Grunts down on enemies, dealing 65 (+4% per level) damage per impact. Grunts deal 42 (+4% per level) damage, have 750 (+4% per level) Health and last up to 10 seconds. When Grunts die they explode, dealing 98 (+4% per level) damage to nearby enemies.  Usable while Channeling All Shall Burn.",
         "icon": "storm_ui_icon_azmodan_demonicinvasion.png",
         "sort": 1,
         "abilityId": "Azmodan|R1",
@@ -174,7 +177,7 @@
         "tooltipId": "AzmodanTideOfSin",
         "talentTreeId": "AzmodanTideOfSin",
         "name": "Tide of Sin",
-        "description": "Activate to make the next Globe of Annihilation cost no Mana and deal 50% more damage.",
+        "description": "Activate to make the next Globe of Annihilation cost no Mana and deal 50% more damage.  Usable while Channeling All Shall Burn.",
         "icon": "storm_ui_icon_azmodan_blackpool.png",
         "sort": 2,
         "abilityId": "Azmodan|R2",
@@ -262,7 +265,7 @@
         "tooltipId": "AzmodanPride",
         "talentTreeId": "AzmodanPride",
         "name": "Pride",
-        "description": "After gaining 400 Annihilation, the area of Globe of Annihilation is increased by 15% and it deals 125 additional damage.",
+        "description": "After gaining 400 Annihilation, the area of Globe of Annihilation is increased by 15% and it deals 100 additional damage.",
         "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
         "sort": 3,
         "abilityId": "Azmodan|Q1"

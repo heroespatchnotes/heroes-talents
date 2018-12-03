@@ -85,10 +85,10 @@
         "tooltipId": "AnubarakNerubianArmor",
         "talentTreeId": "AnubarakNerubianArmor",
         "name": "Nerubian Armor",
-        "description": "Every 12 seconds, gain 30 Spell Armor against the next enemy Ability and subsequent Abilities for 1.5 seconds, reducing the damage taken by 30%.",
-        "icon": "storm_ui_icon_talent_dampenmagic.png",
+        "description": "Increase Hardened Carapace's Spell Armor by 20.",
+        "icon": "storm_ui_icon_anubarak_hardencarapace_var1.png",
         "sort": 2,
-        "abilityId": "Anub'arak|Passive"
+        "abilityId": "Anub'arak|W1"
       },
       {
         "tooltipId": "GenericRegenerationMasterTalent",
@@ -97,7 +97,8 @@
         "description": "Quest: Gathering a Regeneration Globe increases your Health Regeneration by 1 per second, up to 30.  Reward: After gathering 30 Regeneration Globes, you also gain 500 Health.",
         "icon": "storm_ui_icon_talent_regenerationmaster.png",
         "sort": 3,
-        "abilityId": "Anub'arak|Passive"
+        "abilityId": "Anub'arak|Passive",
+        "isQuest": true
       }
     ],
     "4": [
@@ -244,7 +245,7 @@
         "description": "Every 3rd Basic Attack against enemy Heroes spawns a Beetle.",
         "icon": "storm_ui_icon_anubarak_scarabhost.png",
         "sort": 3,
-        "abilityId": "Anub'arak|D1"
+        "abilityId": "Anub'arak|Passive"
       }
     ],
     "20": [

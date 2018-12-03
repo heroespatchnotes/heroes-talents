@@ -20,14 +20,6 @@
         "type": "basic"
       },
       {
-        "name": "Crossfade",
-        "description": "Play one of two music tracks for Lúcio and his allies.  Healing Boost: Passively heal Lúcio and nearby allied Heroes for 16 (+4% per level) health per second.  Speed Boost: Increase the Movement Speed of Lúcio and nearby allied Heroes by 20%.",
-        "hotkey": "W",
-        "abilityId": "Lúcio|W1",
-        "icon": "storm_ui_icon_lucio_crossfade_all.png",
-        "type": "basic"
-      },
-      {
         "name": "Amp It Up",
         "description": "Raise Lúcio's Crossfade track volume for 3 seconds, amping Healing Boost to 114 (+4% per level) health per second and Speed Boost to 45% increased Movement Speed.",
         "hotkey": "E",
@@ -72,6 +64,24 @@
         "abilityId": "Lúcio|Z1",
         "icon": "storm_ui_icon_lucio_mount.png",
         "type": "mount"
+      },
+      {
+        "name": "Crossfade",
+        "description": "Currently playing Speed Boost, increasing the Movement Speed of Lúcio and nearby allied Heroes by 20%.  Toggle to play Healing Boost instead.",
+        "hotkey": "W",
+        "abilityId": "Lúcio|W1",
+        "icon": "storm_ui_icon_lucio_crossfadehealing.png",
+        "type": "basic"
+      }
+    ],
+    "LucioCrossfadeActivateHealingBoost": [
+      {
+        "name": "Crossfade",
+        "description": "Currently playing Healing Boost, passively healing Lúcio and nearby allied Heroes for 16 (+4% per level) health per second.  Toggle to play Speed Boost instead.",
+        "hotkey": "W",
+        "abilityId": "Lúcio|W2",
+        "icon": "storm_ui_icon_lucio_crossfadespeed.png",
+        "type": "subunit"
       }
     ]
   },
@@ -84,7 +94,8 @@
         "description": "Quest: Kill 5 enemy Heroes while Crossfade's Speed Boost is active.  Reward: Permanently increase the Amp It Up bonus for Crossfade's Speed Boost to 60%.",
         "icon": "storm_ui_icon_lucio_ampitup.png",
         "sort": 1,
-        "abilityId": "Lúcio|E1"
+        "abilityId": "Lúcio|E1",
+        "isQuest": true
       },
       {
         "tooltipId": "LucioWallRideAccelerando",
@@ -131,7 +142,8 @@
         "description": "Quest: Hit 20 enemy Heroes with Soundwave.  Reward: Increase Soundwave's arc by 50% and its range by 20%.",
         "icon": "storm_ui_icon_lucio_soundwave_b.png",
         "sort": 3,
-        "abilityId": "Lúcio|Q1"
+        "abilityId": "Lúcio|Q1",
+        "isQuest": true
       }
     ],
     "7": [
@@ -142,7 +154,8 @@
         "description": "Quest: Play Lúcio's Crossfade tracks to nearby Allies for a total of 8 minutes. Multiple Allies provide additional time.  Reward: Permanently increase Crossfade's range by 20%.",
         "icon": "storm_ui_icon_lucio_crossfade_all.png",
         "sort": 1,
-        "abilityId": "Lúcio|Active"
+        "abilityId": "Lúcio|W2",
+        "isQuest": true
       },
       {
         "tooltipId": "LucioAmpItUpSonicAmplifier",
@@ -194,7 +207,7 @@
         "description": "After switching Crossfade tracks, if the next song plays for at least 1.5 seconds, Lúcio gains a 100 (+4% per level) point Shield that lasts indefinitely.  Switching tracks again removes the Shield.",
         "icon": "storm_ui_icon_lucio_crossfade_all.png",
         "sort": 1,
-        "abilityId": "Lúcio|Active"
+        "abilityId": "Lúcio|W2"
       },
       {
         "tooltipId": "LucioWallRideCantStopWontStop",

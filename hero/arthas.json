@@ -36,6 +36,7 @@
         "abilityId": "Arthas|E1",
         "cooldown": 1,
         "manaCost": 15,
+        "manaPerSecond": true,
         "icon": "storm_ui_icon_arthas_frosentempest.png",
         "type": "basic"
       },
@@ -80,7 +81,8 @@
         "description": "Quest: Use Frostmourne Hungers on an enemy Hero.  Reward: Increases the Mana it restores by 4, to a maximum of 40, and its damage by 4.",
         "icon": "storm_ui_icon_arthas_frostmournehungers_off.png",
         "sort": 1,
-        "abilityId": "Arthas|D1"
+        "abilityId": "Arthas|D1",
+        "isQuest": true
       },
       {
         "tooltipId": "ArthasFrostPresenceHowlingBlastTalent",
@@ -89,7 +91,8 @@
         "description": "Quest: Root enemy Heroes with Howling Blast.  Reward: After Rooting 5 Heroes, Howling Blast's cooldown is reduced by 2 seconds.  Reward: After Rooting 10 Heroes, Howling Blast's range is increased by 30%.  Reward: After Rooting 20 Heroes, Howling Blast also Roots enemies in its path.",
         "icon": "storm_ui_icon_arthas_howlingblast.png",
         "sort": 2,
-        "abilityId": "Arthas|W1"
+        "abilityId": "Arthas|W1",
+        "isQuest": true
       },
       {
         "tooltipId": "ArthasRime",
@@ -109,7 +112,8 @@
         "description": "Frozen Tempest Mana cost reduced by 4 per second.  Quest: Damage enemy Heroes with Frozen Tempest.  Reward: After damaging enemy Heroes 150 times with Frozen Tempest, the Movement and Attack Speed Slows of Frozen Tempest last an extra 1.5 seconds against enemy Heroes.",
         "icon": "storm_ui_icon_arthas_frosentempest.png",
         "sort": 1,
-        "abilityId": "Arthas|E1"
+        "abilityId": "Arthas|E1",
+        "isQuest": true
       },
       {
         "tooltipId": "ArthasIcyTalons",

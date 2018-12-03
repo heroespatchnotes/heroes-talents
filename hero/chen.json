@@ -73,7 +73,7 @@
         "name": "Fire",
         "description": "Increase the Attack Speed of the spirits by 100% for 5 seconds.",
         "hotkey": "E",
-        "abilityId": "Chen|E4",
+        "abilityId": "Chen|E2",
         "cooldown": 12,
         "icon": "storm_temp_war3_btnmarkoffire.png",
         "type": "subunit"
@@ -82,7 +82,7 @@
         "name": "Earth",
         "description": "Fire and Earth leap to the target location, slowing enemies in a large area by 70% for 1.5 seconds.",
         "hotkey": "W",
-        "abilityId": "Chen|W4",
+        "abilityId": "Chen|W2",
         "cooldown": 6,
         "icon": "storm_temp_war3_btnearthquake.png",
         "type": "subunit"
@@ -91,7 +91,7 @@
         "name": "Storm",
         "description": "Increase the Movement Speed of the spirits by 50% for 5 seconds.",
         "hotkey": "Q",
-        "abilityId": "Chen|Q4",
+        "abilityId": "Chen|Q2",
         "cooldown": 12,
         "icon": "storm_temp_war3_btntornado.png",
         "type": "subunit"
@@ -107,7 +107,8 @@
         "description": "Quest: Every time a Hero is Ignited with Breath of Fire, increase its damage over time by 2%, up to 60%.  Reward: After Igniting 30 Heroes, gain 15 Armor for every enemy Hero ignited with Breath Of Fire. This lasts for 3 seconds.",
         "icon": "storm_ui_icon_chen_breathoffire.png",
         "sort": 1,
-        "abilityId": "Chen|E1"
+        "abilityId": "Chen|E1",
+        "isQuest": true
       },
       {
         "tooltipId": "ChenFreshestIngredients",
@@ -116,7 +117,8 @@
         "description": "Quest: Gathering a Regeneration Globe increases Chen's Health Regeneration by 1 per second.  Reward: After gathering 30 Regeneration Globes, 50% of the Shield from Fortifying Brew persists indefinitely after drinking.",
         "icon": "storm_ui_icon_chen_fortifyingbrew.png",
         "sort": 2,
-        "abilityId": "Chen|D1"
+        "abilityId": "Chen|D1",
+        "isQuest": true
       },
       {
         "tooltipId": "ChenElusiveBrawler",
@@ -146,7 +148,8 @@
         "description": "Quest: Every time Keg Smash hits a Hero, increase its damage by 4, up to 80.  Reward: After hitting 20 Heroes, increase its range by 125% and gain an additional charge.",
         "icon": "storm_ui_icon_chen_kegsmash.png",
         "sort": 2,
-        "abilityId": "Chen|W1"
+        "abilityId": "Chen|W1",
+        "isQuest": true
       },
       {
         "tooltipId": "ChenBreathOfFireRingOfFireTalent",
@@ -181,7 +184,7 @@
         "tooltipId": "ChenPurifyingBrew",
         "talentTreeId": "ChenPurifyingBrew",
         "name": "Purifying Brew",
-        "description": "The next Stun or Silence used against Chen has its duration reduced by 75% and resets the cooldown of Fortifying Brew. Can only trigger once every 15 seconds. While channeling Fortifying Brew gain 30 Spell Armor, reducing Ability Damage taken by 30%.",
+        "description": "The next Stun or Silence used against Chen has its duration reduced by 75% and resets the cooldown of Fortifying Brew. Can only trigger once every 15 seconds. While channeling Fortifying Brew gain 40 Spell Armor, reducing Ability Damage taken by 40%.",
         "icon": "storm_ui_icon_chen_fortifyingbrew_b.png",
         "sort": 3,
         "abilityId": "Chen|D1"
@@ -272,7 +275,7 @@
         "tooltipId": "ChenWanderingKegUntappedPotentialTalent",
         "talentTreeId": "ChenMasteryWanderingKegUntappedPotential",
         "name": "Untapped Potential",
-        "description": "Wandering Keg increases Movement Speed by 100% and grants 50 Armor, reducing damage taken by 50%.",
+        "description": "Wandering Keg increases Movement Speed by 100% and grants 60 Armor, reducing damage taken by 60%.",
         "icon": "storm_ui_icon_chen_wanderingkeg.png",
         "sort": 1,
         "abilityId": "Chen|R1"

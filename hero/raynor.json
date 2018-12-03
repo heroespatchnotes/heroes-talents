@@ -77,7 +77,8 @@
         "description": "Quest: Every time the primary target of Give 'Em Some Pepper is a Hero, permanently increase its damage bonus by 0.75%.",
         "icon": "storm_ui_icon_raynor_acquireweakspot.png",
         "sort": 1,
-        "abilityId": "Raynor|D1"
+        "abilityId": "Raynor|D1",
+        "isQuest": true
       },
       {
         "tooltipId": "RaynorAceInTheHole",
@@ -124,7 +125,8 @@
         "description": "Gain 200 bonus maximum Health.   Quest: Every time Give 'Em Some Pepper's primary target is a Hero, gain an additional 5 maximum Health.",
         "icon": "storm_ui_icon_raynor_hulkarmor.png",
         "sort": 3,
-        "abilityId": "Raynor|Passive"
+        "abilityId": "Raynor|Passive",
+        "isQuest": true
       }
     ],
     "7": [
@@ -187,7 +189,7 @@
         "description": "Decrease the cooldown of Penetrating Round by 3 seconds. While Inspire is active, Penetrating Round's Slow is increased by 20%.",
         "icon": "storm_ui_icon_raynor_split_fuelrush.png",
         "sort": 1,
-        "abilityId": "Raynor|Passive"
+        "abilityId": "Raynor|Q1"
       },
       {
         "tooltipId": "RaynorInspireRallyingCry",
@@ -231,7 +233,7 @@
         "tooltipId": "RaynorBountyHunter",
         "talentTreeId": "RaynorBountyHunter",
         "name": "Bounty Hunter",
-        "description": "If Give 'Em Some Pepper's target is a Hero, it deals an additional 3% of their maximum Health as damage and grants Raynor 5 Armor for 3 seconds.  Activate Give 'Em Some Pepper to apply it to Raynor's next Basic Attack.",
+        "description": "If Give 'Em Some Pepper's target is a Hero, it deals an additional 3% of their maximum Health as damage and grants Raynor 10 Armor for 3 seconds.  Activate Give 'Em Some Pepper to apply it to Raynor's next Basic Attack.",
         "icon": "storm_ui_icon_raynor_acquireweakspot.png",
         "sort": 3,
         "abilityId": "Raynor|D1",

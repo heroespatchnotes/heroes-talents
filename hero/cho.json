@@ -84,7 +84,8 @@
         "description": "Quest: Every Minion killed near Cho increases the amount healed by Consuming Blaze by 0.3%.  Quest: Every Hero Takedown increases the amount healed by Consuming Blaze by 3%.",
         "icon": "storm_ui_icon_cho_consumingflame_var1.png",
         "sort": 2,
-        "abilityId": "Cho|W1"
+        "abilityId": "Cho|W1",
+        "isQuest": true
       },
       {
         "tooltipId": "ChoCallousedHide",
@@ -219,7 +220,7 @@
         "tooltipId": "ChoTwilightVeilTalent",
         "talentTreeId": "ChoTwilightVeil",
         "name": "Twilight Veil",
-        "description": "Activate to increase the Armor bonus of Ogre Hide by 200% for 2 seconds. If cast while Ogre Rage is active, it instantly swaps to Ogre Hide.",
+        "description": "Activate to increase the Armor bonus of Ogre Hide by 100% for 2 seconds. If cast while Ogre Rage is active, it instantly swaps to Ogre Hide.",
         "icon": "storm_ui_icon_talent_hardenedshield.png",
         "sort": 2,
         "abilityId": "Cho|Active",

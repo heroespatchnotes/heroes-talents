@@ -41,7 +41,7 @@
       },
       {
         "name": "Smoke Bomb",
-        "description": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 25 Armor, reducing damage taken by 25%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds.  Using this Ability does not break Stealth.",
+        "description": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 30 Armor, reducing damage taken by 30%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds.  Using this Ability does not break Stealth.",
         "hotkey": "R",
         "abilityId": "Valeera|R1",
         "cooldown": 60,
@@ -110,7 +110,8 @@
         "description": "Valeera regenerates an additional 2.5 Energy per second.  Reward: After Gathering 20 Regen Globes, increase Valeera's maximum Energy to 120.",
         "icon": "storm_ui_icon_talent_conjurerspursuit.png",
         "sort": 1,
-        "abilityId": "Valeera|Passive"
+        "abilityId": "Valeera|Passive",
+        "isQuest": true
       },
       {
         "tooltipId": "ValeeraSubtlety",
@@ -197,7 +198,8 @@
         "description": "Quest: Each time Blade Flurry damages an enemy Hero, its damage increases by 4, up to 80.  Reward: After damaging 20 Heroes with Blade Flurry, permanently reduce its Energy cost by 20.",
         "icon": "storm_ui_icon_valeera_bladeflurry.png",
         "sort": 2,
-        "abilityId": "Valeera|W1"
+        "abilityId": "Valeera|W1",
+        "isQuest": true
       },
       {
         "tooltipId": "ValeeraSliceAndDice",
@@ -214,7 +216,7 @@
         "tooltipId": "ValeeraSmokeBomb",
         "talentTreeId": "ValeeraSmokeBomb",
         "name": "Smoke Bomb",
-        "description": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 25 Armor, reducing damage taken by 25%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds.  Using this Ability does not break Stealth.",
+        "description": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 30 Armor, reducing damage taken by 30%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds.  Using this Ability does not break Stealth.",
         "icon": "storm_ui_icon_valeera_smokebomb.png",
         "sort": 1,
         "abilityId": "Valeera|R1",
