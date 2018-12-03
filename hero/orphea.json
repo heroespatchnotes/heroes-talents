@@ -11,11 +11,11 @@
     "Orphea": [
       {
         "name": "Shadow Waltz",
-        "description": "After 0.5 seconds, deal 150 (+4% per level) damage to enemies in a line.  Hitting a Hero with Shadow Waltz sets its cooldown to 2 seconds, refunds 25 Mana, and causes Orphea to dash a short distance upon moving.",
+        "description": "After 0.5 seconds, deal 165 (+4% per level) damage to enemies in a line.  Hitting a Hero with Shadow Waltz sets its cooldown to 2 seconds, refunds 40 Mana, and causes Orphea to dash a short distance upon moving.",
         "hotkey": "Q",
         "abilityId": "Orphea|Q1",
-        "cooldown": 5,
-        "manaCost": 25,
+        "cooldown": 6,
+        "manaCost": 40,
         "icon": "storm_ui_icon_orphea_q.png",
         "type": "basic"
       },
@@ -51,17 +51,17 @@
       },
       {
         "name": "Crushing Jaws",
-        "description": "After 1.25 seconds, pulls enemies in an area towards the center, dealing 275 (+4% per level) damage and Stunning them for 0.75 seconds.",
+        "description": "After 1.25 seconds, pull enemies in an area towards the center, dealing 275 (+4% per level) damage and Stunning them for 0.75 seconds.",
         "hotkey": "R",
         "abilityId": "Orphea|R2",
-        "cooldown": 50,
+        "cooldown": 70,
         "manaCost": 75,
         "icon": "storm_ui_icon_orphea_ult_thrasher.png",
         "type": "heroic"
       },
       {
         "name": "Overflowing Chaos",
-        "description": "Hitting an enemy Hero with a Basic Ability grants 1 Chaos. Chaos can stack up to 3 times.  While Orphea has Chaos, her Basic Attacks against Heroes consumes all Chaos, dealing 50% increased damage per stack, and healing for 100% of the damage dealt.",
+        "description": "Hitting an enemy Hero with a Basic Ability grants 1 Chaos. Chaos can stack up to 3 times.  While Orphea has Chaos, her Basic Attacks against Heroes consume all Chaos, dealing 50% increased damage per stack, and healing for 100% of the damage dealt.",
         "trait": true,
         "abilityId": "Orphea|D1",
         "icon": "storm_ui_icon_orphea_trait.png",
@@ -75,7 +75,7 @@
         "tooltipId": "OrpheaEnPointe",
         "talentTreeId": "OrpheaEnPointe",
         "name": "En Pointe",
-        "description": "Shadow Waltz deals an increased 50% damage to enemies hit by its end.",
+        "description": "Shadow Waltz deals an increased 75% damage to enemies hit by its end.",
         "icon": "storm_ui_icon_orphea_q.png",
         "sort": 1,
         "abilityId": "Orphea|Q1"
@@ -142,10 +142,11 @@
         "tooltipId": "OrpheaRavenousHunger",
         "talentTreeId": "OrpheaRavenousHunger",
         "name": "Ravenous Hunger",
-        "description": "Quest: Minions that die within 1.5 seconds of being hit by Chomp permanently increase its damage by 3 and heal Orphea for 60 (+4% per level).  Heroes that die increase its damage by 60 and heal Orphea for 25% of her maximum Health.",
+        "description": "Quest: Minions that die within 1.5 seconds of being hit by Chomp permanently increase its damage by 2 and heal Orphea for 60 (+4% per level).  Heroes that die increase its damage by 40 and heal Orphea for 25% of her maximum Health.",
         "icon": "storm_ui_icon_orphea_w_2.png",
         "sort": 2,
-        "abilityId": "Orphea|W1"
+        "abilityId": "Orphea|W1",
+        "isQuest": true
       },
       {
         "tooltipId": "OrpheaMindDevourer",
@@ -154,7 +155,8 @@
         "description": "Quest: Hitting Heroes with Dread increases its damage by 5, up to 200.  Reward: After hitting 40 Heroes, hitting an enemy Hero with Dread's eruption sets its cooldown to 6 seconds and refunds 50 Mana.",
         "icon": "storm_ui_icon_orphea_e.png",
         "sort": 3,
-        "abilityId": "Orphea|E1"
+        "abilityId": "Orphea|E1",
+        "isQuest": true
       }
     ],
     "10": [
@@ -172,11 +174,11 @@
         "tooltipId": "OrpheaCrushingJaws",
         "talentTreeId": "OrpheaCrushingJaws",
         "name": "Crushing Jaws",
-        "description": "After 1.25 seconds, pulls enemies in an area towards the center, dealing 275 (+4% per level) damage and Stunning them for 0.75 seconds.",
+        "description": "After 1.25 seconds, pull enemies in an area towards the center, dealing 275 (+4% per level) damage and Stunning them for 0.75 seconds.",
         "icon": "storm_ui_icon_orphea_ult_thrasher.png",
         "sort": 2,
         "abilityId": "Orphea|R2",
-        "cooldown": 50
+        "cooldown": 70
       }
     ],
     "13": [
@@ -232,11 +234,11 @@
         "tooltipId": "OrpheaLurkingTerror",
         "talentTreeId": "OrpheaLurkingTerror",
         "name": "Lurking Terror",
-        "description": "After Dread erupts and for 2 seconds after, activate to cast Chomp from the eruption area.  Does not share a cooldown with Chomp.",
+        "description": "After Dread erupts and for 2 seconds after, activate to cast Chomp from the eruption area.",
         "icon": "storm_ui_icon_orphea_e_terror.png",
         "sort": 3,
         "abilityId": "Orphea|Active",
-        "cooldown": 25
+        "cooldown": 10
       }
     ],
     "20": [
@@ -262,7 +264,7 @@
         "tooltipId": "OrpheaEldritchConduit",
         "talentTreeId": "OrpheaEldritchConduit",
         "name": "Eldritch Conduit",
-        "description": "Each Chaos consumed increases Orphea's Spell Power by 5%, up to 50%. After reaching the maximum bonus, the Spell Power is further increased by an additional 50%. Lasts 10 seconds.",
+        "description": "Each Chaos consumed increases Orphea's Spell Power by 3%, up to 30%. After reaching the maximum bonus, the Spell Power is increased by an additional 30%. Lasts 10 seconds.",
         "icon": "storm_ui_icon_orphea_trait.png",
         "sort": 3,
         "abilityId": "Orphea|D1"

@@ -87,7 +87,7 @@
         "description": "When Bone Armor expires, nearby enemy Heroes take damage equal to 12% of their maximum Health.",
         "icon": "storm_ui_icon_necromancer_bonearmor_b.png",
         "sort": 1,
-        "abilityId": "Xul|11"
+        "abilityId": "Xul|Passive"
       },
       {
         "tooltipId": "NecromancerBoneArmorShackler",
@@ -96,7 +96,7 @@
         "description": "While Bone Armor is active, nearby enemies are Slowed by 35% for 1 second. Basic Attacks against Heroes that are Stunned, Rooted, or Slowed reduce the cooldown of Bone Armor by 2 seconds.",
         "icon": "storm_ui_icon_necromancer_bonearmor_c.png",
         "sort": 2,
-        "abilityId": "Xul|11"
+        "abilityId": "Xul|Passive"
       },
       {
         "tooltipId": "NecromancerBoneArmorShade",
@@ -116,7 +116,8 @@
         "description": "Quest: Hit 20 Heroes with Spectral Scythe.  Reward: Reduce the cooldown of Spectral Scythe by 3 seconds.",
         "icon": "storm_ui_icon_necromancer_reap.png",
         "sort": 1,
-        "abilityId": "Xul|Q1"
+        "abilityId": "Xul|Q1",
+        "isQuest": true
       },
       {
         "tooltipId": "NecromancerCursedStrikesGrimScythe",
@@ -134,7 +135,8 @@
         "description": "Bone Prison spawns 2 Skeletal Warriors.  These do not count towards Xul's Raise Skeleton maximum.  Quest: Spawn 80 Skeletal Warriors.  Reward: While fixating on an enemy, Skeletal Warriors gain 40% Movement and Attack Speed.",
         "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
         "sort": 3,
-        "abilityId": "Xul|D1"
+        "abilityId": "Xul|D1",
+        "isQuest": true
       }
     ],
     "7": [

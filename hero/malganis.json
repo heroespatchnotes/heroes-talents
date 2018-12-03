@@ -14,7 +14,7 @@
         "description": "Violently slash in the chosen direction, dealing 69 (+4% per level) damage to enemies.  Reactivate to slash up to 2 more times. The third slash Stuns enemies for 0.75 seconds.",
         "hotkey": "Q",
         "abilityId": "Mal'Ganis|Q1",
-        "cooldown": 8,
+        "cooldown": 9,
         "manaCost": 50,
         "icon": "storm_ui_icon_malganis_fel_1.png",
         "type": "basic"
@@ -41,7 +41,7 @@
       },
       {
         "name": "Carrion Swarm",
-        "description": "After 1 second, disperse into an Invulnerable swarm of bats for 3 seconds, dealing 132 (+4% per level) damage per second to enemies.  Vampiric Touch heals for 75% of Carrion Swarm's damage to Heroes.",
+        "description": "After 1 second, disperse into an Invulnerable swarm of bats for 3 seconds, dealing 126 (+4% per level) damage per second to enemies.  Vampiric Touch heals for 75% of Carrion Swarm's damage to Heroes.",
         "hotkey": "R",
         "abilityId": "Mal'Ganis|R1",
         "cooldown": 80,
@@ -142,7 +142,7 @@
         "tooltipId": "MalGanisFelClawsWillOfTichondrius",
         "talentTreeId": "MalGanisFelClawsWillOfTichondrius",
         "name": "Will of Tichondrius",
-        "description": "The third slash of Fel Claws steals 4% of maximum Health from enemy Heroes.",
+        "description": "The third slash of Fel Claws steals 3% of maximum Health from enemy Heroes.",
         "icon": "storm_ui_icon_malganis_fel_1_b.png",
         "sort": 2,
         "abilityId": "Mal'Ganis|Q1"
@@ -171,7 +171,7 @@
         "tooltipId": "MalGanisCarrionSwarm",
         "talentTreeId": "MalGanisCarrionSwarm",
         "name": "Carrion Swarm",
-        "description": "After 1 second, disperse into an Invulnerable swarm of bats for 3 seconds, dealing 132 (+4% per level) damage per second to enemies.  Vampiric Touch heals for 75% of Carrion Swarm's damage to Heroes.",
+        "description": "After 1 second, disperse into an Invulnerable swarm of bats for 3 seconds, dealing 126 (+4% per level) damage per second to enemies.  Vampiric Touch heals for 75% of Carrion Swarm's damage to Heroes.",
         "icon": "storm_ui_icon_malganis_ult_swarm.png",
         "sort": 1,
         "abilityId": "Mal'Ganis|R1",
@@ -234,7 +234,7 @@
         "description": "Basic Attacks against Heroes with a higher Health percentage grant 40% Attack Speed and 15% increased Physical Damage for 3 seconds.",
         "icon": "storm_ui_icon_malganis_trait.png",
         "sort": 2,
-        "abilityId": "Mal'Ganis|D1"
+        "abilityId": "Mal'Ganis|Passive"
       },
       {
         "tooltipId": "MalGanisFelClawsBlindAsABat",

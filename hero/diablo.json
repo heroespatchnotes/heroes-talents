@@ -106,7 +106,7 @@
         "tooltipId": "DiabloShadowChargeSacrificialSoul",
         "talentTreeId": "DiabloShadowChargeSacrificialSoul",
         "name": "Sacrificial Soul",
-        "description": "Stunning a Hero with Shadow Charge grants 5 Souls and 20 Armor for 4 seconds. While at 100 Souls, increase this Armor to 40.",
+        "description": "Stunning a Hero with Shadow Charge grants 5 Souls and 25 Armor for 4 seconds. While at 100 Souls, increase this Armor to 50.",
         "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
         "sort": 1,
         "abilityId": "Diablo|Q1"
@@ -189,7 +189,8 @@
         "description": "Increase Shadow Charge's terrain collision damage by 80%.  Quest: Each time an enemy Hero takes terrain collision damage, increase this bonus by 20%, to a maximum of 120%.",
         "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
         "sort": 1,
-        "abilityId": "Diablo|Q1"
+        "abilityId": "Diablo|Q1",
+        "isQuest": true
       },
       {
         "tooltipId": "DiabloShadowChargeOverpowerCruelty",

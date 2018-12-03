@@ -80,7 +80,8 @@
         "description": "Quest: Gain 1 Mana for every non-Structure enemy hit by Psionic Storm.  Reward: After hitting 500 enemies, increase the size of Psionic Storm by 20%.  Reward: After hitting 1000 enemies, increase the damage of Psionic Storm by 20%",
         "icon": "storm_ui_icon_tassadar_psionicstorm.png",
         "sort": 1,
-        "abilityId": "Tassadar|W1"
+        "abilityId": "Tassadar|W1",
+        "isQuest": true
       },
       {
         "tooltipId": "TassadarOracleTemplarsWillTalent",
@@ -89,7 +90,8 @@
         "description": "Quest: Attacking enemy Heroes restores 8 mana per second.  Reward: After spending 30 seconds attacking Heroes, Distortion Beam's damage is increased by 125%.  Reward: After spending 60 seconds attacking Heroes, Distortion Beam's range is increased by an additional 1.",
         "icon": "storm_ui_icon_talent_autoattack_mana.png",
         "sort": 2,
-        "abilityId": "Tassadar|Passive"
+        "abilityId": "Tassadar|Passive",
+        "isQuest": true
       },
       {
         "tooltipId": "TassadarKhaydarinResonance",
@@ -98,7 +100,8 @@
         "description": "Quest: Regeneration Globes grant an additional 100% Mana.  Reward: After collecting 15 Regeneration Globes, Plasma Shield's value is increased by 20%.  Reward: After collecting 30 Regeneration Globes, Plasma Shield's value is increased by 40%.",
         "icon": "storm_ui_icon_talent_conjurerspursuit.png",
         "sort": 3,
-        "abilityId": "Tassadar|Passive"
+        "abilityId": "Tassadar|Passive",
+        "isQuest": true
       }
     ],
     "4": [
@@ -124,7 +127,7 @@
         "tooltipId": "TassadarKhalasLight",
         "talentTreeId": "TassadarKhalasLight",
         "name": "Khala's Light",
-        "description": "Plasma Shield grants Heroes 15 Armor for 3 seconds upon breaking or expiring, causing them to take 15% less damage.",
+        "description": "Plasma Shield grants Heroes 20 Armor for 3 seconds upon breaking or expiring, causing them to take 20% less damage.",
         "icon": "storm_ui_icon_tassadar_plasmashield_b.png",
         "sort": 3,
         "abilityId": "Tassadar|Q1"
@@ -138,7 +141,7 @@
         "description": "Increases the cast range of Plasma Shield and Psionic Storm by 40%.",
         "icon": "storm_ui_icon_talent_elunesgrace.png",
         "sort": 1,
-        "abilityId": "Tassadar|Passive"
+        "abilityId": "Tassadar|Q1"
       },
       {
         "tooltipId": "TassadarPsionicStormResonationTalent",
@@ -156,7 +159,8 @@
         "description": "Quest: Each Takedown earned lowers the cooldown of Oracle by 3 seconds, to a maximum of 15 seconds.  Reward: Upon getting 5 Takedowns, the sight range of Oracle is increased by 50%.",
         "icon": "storm_ui_icon_tassadar_oracle.png",
         "sort": 3,
-        "abilityId": "Tassadar|D1"
+        "abilityId": "Tassadar|D1",
+        "isQuest": true
       }
     ],
     "10": [

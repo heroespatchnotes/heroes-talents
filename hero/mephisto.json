@@ -78,7 +78,8 @@
         "description": "Quest: Hit Heroes with Skull Missile.  Reward: After hitting 20 Heroes, increase Skull Missile's damage by 100.  Reward: After hitting 40 Heroes, Skull Missile's cooldown is permanently reduced to 5 seconds.",
         "icon": "storm_ui_icon_mephisto_skull.png",
         "sort": 1,
-        "abilityId": "Mephisto|Q1"
+        "abilityId": "Mephisto|Q1",
+        "isQuest": true
       },
       {
         "tooltipId": "MephistoLightningNovaFuriousSpark",
@@ -105,7 +106,7 @@
         "description": "Basic Attacks against enemy Heroes also activate Lord of Hatred, reducing Basic Ability cooldowns by 1 second.",
         "icon": "storm_ui_icon_mephisto_hatred.png",
         "sort": 4,
-        "abilityId": "Mephisto|D1"
+        "abilityId": "Mephisto|Passive"
       }
     ],
     "4": [
@@ -134,7 +135,7 @@
         "description": "Increase Regeneration Globe healing duration by 100%. Every tick of Regeneration Globe healing activates Lord of Hatred, reducing Basic Ability cooldowns by 0.5 seconds.",
         "icon": "storm_ui_icon_mephisto_hatred.png",
         "sort": 3,
-        "abilityId": "Mephisto|D1"
+        "abilityId": "Mephisto|Passive"
       }
     ],
     "7": [

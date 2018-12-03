@@ -11,7 +11,7 @@
     "Ana": [
       {
         "name": "Healing Dart",
-        "description": "Fire a dart which heals the first allied Hero hit for 215 (+4% per level) Health. Does not affect full Health Heroes.",
+        "description": "Fire a dart which heals the first allied Hero hit for 205 (+4% per level) Health. Does not affect full Health Heroes.",
         "hotkey": "Q",
         "abilityId": "Ana|Q1",
         "cooldown": 2,
@@ -78,7 +78,8 @@
         "description": "Quest: Hit enemy Heroes with Biotic Grenade.  Reward: After hitting 10 Heroes, Biotic Grenade does 75% more damage per allied and enemy Hero hit.  Reward: After hitting 20 Heroes, Biotic Grenade's duration on allies is increased from 4 seconds to 12 seconds, its healing radius is increased by 100%, and its healing amplification applies to all sources.",
         "icon": "storm_ui_icon_ana_biotic_grenade.png",
         "sort": 1,
-        "abilityId": "Ana|W1"
+        "abilityId": "Ana|W1",
+        "isQuest": true
       },
       {
         "tooltipId": "AnaPiercingDarts",
@@ -87,7 +88,8 @@
         "description": "Quest: Hit Heroes with Sleep Dart.  Reward: After hitting 10 Heroes, Sleep Dart now hits 2 Heroes and its range is increased by 25%.  Reward: After hitting 20 Heroes, Healing Dart now hits 2 Heroes and its range is increased by 25%.",
         "icon": "storm_ui_icon_ana_sleep_dart.png",
         "sort": 2,
-        "abilityId": "Ana|E1"
+        "abilityId": "Ana|E1",
+        "isQuest": true
       },
       {
         "tooltipId": "AnaDetachableBoxMagazine",
@@ -96,7 +98,8 @@
         "description": "Quest: Stack 5 Doses on an enemy Hero.  Reward: After reaching maximum Dosage 12 times, unlock the Active Reload Ability, which can be activated to instantly gain 3 charges of Healing Dart.",
         "icon": "storm_ui_icon_ana_detachableboxmagazine.png",
         "sort": 3,
-        "abilityId": "Ana|Passive"
+        "abilityId": "Ana|Passive",
+        "isQuest": true
       }
     ],
     "4": [
@@ -126,7 +129,7 @@
         "description": "Activate to use Biotic Grenade with a 275% increased range, but Grenades thrown this way take 3 seconds to land.  Passive: Reduce Biotic Grenade cooldown by 4 seconds.",
         "icon": "storm_ui_icon_ana_biotic_grenade.png",
         "sort": 3,
-        "abilityId": "Ana|Active",
+        "abilityId": "Ana|W1",
         "cooldown": 12
       }
     ],
