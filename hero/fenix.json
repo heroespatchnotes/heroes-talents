@@ -39,7 +39,7 @@
       },
       {
         "name": "Purification Salvo",
-        "description": "Channel for 1.5 seconds, sweeping a laser in front of Fenix that locks onto enemy Heroes. Once Channeling finishes, fire 5 missiles at each locked Hero, dealing 86 (+4% per level) damage each. Deals 50% increased damage to Slowed targets.",
+        "description": "Channel for 1.5 seconds, sweeping a laser in front of Fenix that locks onto enemy Heroes. Once Channeling finishes, fire 5 missiles at each locked Hero, dealing 79 (+4% per level) damage each. Deals 50% increased damage to Slowed targets.",
         "hotkey": "R",
         "abilityId": "Fenix|R1",
         "cooldown": 90,
@@ -120,19 +120,10 @@
         "tooltipId": "FenixInhibitingEnergy",
         "talentTreeId": "FenixInhibitingEnergy",
         "name": "Inhibiting Energy",
-        "description": "While Phase Bomb is active, Basic Attacks against Heroes Slowed by Plasma Cutter Slow all enemies in the area by 35% for 4 seconds.",
+        "description": "While Phase Bomb is active, Basic Attacks against Slowed Heroes Slow all enemies in the area by 30% for 3 seconds. Does not spread from Inhibiting Energy's Slow.",
         "icon": "storm_ui_icon_fenix_w_1.png",
         "sort": 2,
         "abilityId": "Fenix|W1"
-      },
-      {
-        "tooltipId": "FenixWarpConduit",
-        "talentTreeId": "FenixWarpConduit",
-        "name": "Warp Conduit",
-        "description": "Hero Takedowns reset Warp's cooldown.",
-        "icon": "storm_ui_icon_fenix_teleport.png",
-        "sort": 3,
-        "abilityId": "Fenix|E1"
       },
       {
         "tooltipId": "FenixEmergencyProtocol",
@@ -140,7 +131,7 @@
         "name": "Emergency Protocol",
         "description": "When Shield Capacitor's Shield becomes depleted, gain 25% Movement Speed for 5 seconds.",
         "icon": "storm_ui_icon_fenix_shield_1.png",
-        "sort": 4,
+        "sort": 3,
         "abilityId": "Fenix|D1"
       }
     ],
@@ -158,7 +149,7 @@
         "tooltipId": "FenixWarpWarfare",
         "talentTreeId": "FenixWarpWarfare",
         "name": "Warp Warfare",
-        "description": "After arriving with Warp, gain 175% Attack Speed for 4 seconds while in Repeater Cannon mode.",
+        "description": "After arriving with Warp, gain 175% Attack Speed for 4 seconds while in Repeater Cannon mode. Hero Takedowns reset Warp's cooldown.",
         "icon": "storm_ui_icon_fenix_teleport.png",
         "sort": 2,
         "abilityId": "Fenix|E1"
@@ -167,11 +158,11 @@
         "tooltipId": "FenixDivertPowerWeapons",
         "talentTreeId": "FenixDivertPowerWeaponsTalent",
         "name": "Divert Power: Weapons",
-        "description": "Activate to instantly drain Shield Capacitor's Shield, but increase Basic Attack damage for 5 seconds proportionate to the amount of Shields drained, up to an 80% increase.",
+        "description": "Activate to gain 40% Basic Attack damage for 5 seconds. Basic Attacking a Hero refreshes this duration. Once Divert Power: Weapons ends, drain all of Shield Capacitor's Shields.",
         "icon": "storm_ui_icon_fenix_w_2.png",
         "sort": 3,
         "abilityId": "Fenix|Active",
-        "cooldown": 20
+        "cooldown": 40
       }
     ],
     "10": [
@@ -179,7 +170,7 @@
         "tooltipId": "FenixPurificationSalvo",
         "talentTreeId": "FenixHeroicAbilityPurificationSalvo",
         "name": "Purification Salvo",
-        "description": "Channel for 1.5 seconds, sweeping a laser in front of Fenix that locks onto enemy Heroes. Once Channeling finishes, fire 5 missiles at each locked Hero, dealing 86 (+4% per level) damage each. Deals 50% increased damage to Slowed targets.",
+        "description": "Channel for 1.5 seconds, sweeping a laser in front of Fenix that locks onto enemy Heroes. Once Channeling finishes, fire 5 missiles at each locked Hero, dealing 79 (+4% per level) damage each. Deals 50% increased damage to Slowed targets.",
         "icon": "storm_ui_icon_fenix_r_scan.png",
         "sort": 1,
         "abilityId": "Fenix|R1",
@@ -210,7 +201,7 @@
         "tooltipId": "FenixDampeningField",
         "talentTreeId": "FenixDampeningField",
         "name": "Dampening Field",
-        "description": "Fenix gains 20 Spell Armor while he has a Shield from Shield Capacitor.",
+        "description": "Fenix gains 25 Spell Armor while he has a Shield from Shield Capacitor.",
         "icon": "storm_ui_icon_fenix_shield_1.png",
         "sort": 2,
         "abilityId": "Fenix|D1"
@@ -228,7 +219,7 @@
         "tooltipId": "FenixAuxiliaryShields",
         "talentTreeId": "FenixAuxiliaryShields",
         "name": "Auxiliary Shields",
-        "description": "Permanently reduce Fenix's maximum Health by 10% but increase Shield Capacitor's Shield by 20%. Basic Attacks regenerate Shields equal to 10% of the damage dealt.",
+        "description": "Permanently reduce Fenix's maximum Health by 30% but increase Shield Capacitor's Shield by 40%. Basic Attacks regenerate Shields equal to 10% of the damage dealt.",
         "icon": "storm_ui_icon_fenix_shield_2.png",
         "sort": 4,
         "abilityId": "Fenix|D1"
@@ -268,7 +259,7 @@
         "tooltipId": "FenixSecondaryFire",
         "talentTreeId": "FenixSecondaryFire",
         "name": "Secondary Fire",
-        "description": "Hitting an enemy Hero with Plasma Cutter fires a Purification Salvo missile at them after 0.5 seconds, dealing 86 (+4% per level) damage. Deals 50% increased damage to Slowed targets.",
+        "description": "Hitting an enemy Hero with Plasma Cutter fires a Purification Salvo missile at them after 0.5 seconds, dealing 79 (+4% per level) damage. Deals 50% increased damage to Slowed targets.",
         "icon": "storm_ui_icon_fenix_q.png",
         "sort": 1,
         "abilityId": "Fenix|Q1"
