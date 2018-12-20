@@ -3254,7 +3254,7 @@
           "fullTooltipId": "AurielIncreasingClaritySacredSweepTalent",
           "icon": "storm_ui_icon_auriel_angelicsweep_a.png",
           "shortTooltip": "Misión: Golpea a héroes para aumentar el daño del centro.",
-          "fullTooltip": "Misión: Golpea a un héroe enemigo con el centro de Barrido sacro para aumentar el daño infligido en dicho centro en 2, hasta un máximo de 50.   Recompensa: Tras golpear a 25 héroes, la bonificación al daño del centro aumenta a 150.",
+          "fullTooltip": "Misión: Golpea a un héroe enemigo con el centro de Barrido sacro para aumentar el daño infligido en dicho centro en 2, hasta un máximo de 50.   Recompensa: Tras golpear a 25 héroes, la bonificación al daño del centro aumenta a 180.",
           "abilityType": "Q",
           "isQuest": true,
           "abilityTalentLinkId": "AurielSacredSweep",
@@ -5772,9 +5772,9 @@
       "target": "ui_targetportrait_hero_cho.png"
     },
     "life": {
-      "amount": 2950.0,
+      "amount": 2750.0,
       "scale": 0.045,
-      "regenRate": 6.1445,
+      "regenRate": 5.7304,
       "regenScale": 0.045
     },
     "roles": [
@@ -5827,7 +5827,7 @@
           "icon": "storm_ui_icon_Cho_RuneBomb.png",
           "cooldownTooltip": "Tiempo de reutilización: 8 s",
           "shortTooltip": "Lanzas una bomba rúnica en línea recta. Gall puede detonarla para infligir daño de área.",
-          "fullTooltip": "Lanzas rodando una bomba que inflige 91 (+4% por nivel) de daño a los enemigos que encuentra a su paso. Gall puede usar Explosión rúnica para detonarla e infligir 233 (+4% por nivel) de daño de área.",
+          "fullTooltip": "Lanzas rodando una bomba que inflige 91 (+4% por nivel) de daño a los enemigos que encuentra a su paso. Gall puede usar Explosión rúnica para detonarla e infligir 210 (+4% por nivel) de daño de área.",
           "abilityType": "E"
         }
       ],
@@ -6714,7 +6714,7 @@
           "fullTooltipId": "DeckardFieldStudy",
           "icon": "storm_ui_icon_deckard_scroll_of_sealing_a.png",
           "shortTooltip": "Pergamino de sellado puede otorgar poder de habilidad.",
-          "fullTooltip": "Cada héroe enemigo golpeado con Pergamino de sellado otorga un 15% de poder de habilidad durante 14 s, hasta un máximo de un 30%.",
+          "fullTooltip": "Cada héroe enemigo golpeado con Pergamino de sellado otorga un 20% de poder de habilidad durante 14 s, hasta un máximo de un 40%.",
           "abilityType": "E",
           "abilityTalentLinkId": "DeckardScrollOfSealing",
           "sort": 2
@@ -6768,7 +6768,7 @@
           "toggleCooldown": 0.5,
           "cooldownTooltip": "Tiempo de reutilización: 30 s",
           "shortTooltip": "Tu siguiente Cubo horádrico crea pociones curativas inferiores.",
-          "fullTooltip": "Actívalo para que tu siguiente Cubo horádrico haga que aparezcan 3 pociones curativas inferiores de cada héroe enemigo golpeado. Cada poción cura 205 (+4% por nivel) de salud al héroe aliado que la recoge. Cada poción curativa inferior dura 10 s.  Solo puedes tener 1 gema activa a la vez.",
+          "fullTooltip": "Actívalo para que tu siguiente Cubo horádrico haga que aparezcan 3 pociones curativas inferiores de cada héroe enemigo golpeado. Cada poción cura 220 (+4% por nivel) de salud al héroe aliado que la recoge. Cada poción curativa inferior dura 10 s.  Solo puedes tener 1 gema activa a la vez.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -6854,7 +6854,7 @@
           "fullTooltipId": "DeckardSuperHealingPotion",
           "icon": "storm_ui_icon_deckard_super_healing_potion.png",
           "shortTooltip": "Las pociones curativas curan más tras recogerlas después de un tiempo.",
-          "fullTooltip": "Si no se recoge una poción curativa durante al menos 2 s, cura un 80% más.",
+          "fullTooltip": "Si no se recoge una poción curativa durante al menos 2 s, cura un 100% más.",
           "abilityType": "Q",
           "abilityTalentLinkId": "DeckardHealingPotion",
           "sort": 1
@@ -6866,7 +6866,7 @@
           "fullTooltipId": "DeckardPotionOfRevival",
           "icon": "storm_ui_icon_deckard_unstable_healing_potion.png",
           "shortTooltip": "Las pociones curativas curan en un área.",
-          "fullTooltip": "Cuando se recoge una poción curativa, esta también cura a todos los héroes aliados cercanos un 35% de la cantidad de curación.",
+          "fullTooltip": "Cuando se recoge una poción curativa, esta también cura a todos los héroes aliados cercanos un 45% de la cantidad de curación.",
           "abilityType": "Q",
           "abilityTalentLinkId": "DeckardHealingPotion",
           "sort": 2
@@ -6905,7 +6905,7 @@
           "fullTooltipId": "DeckardSafetyInNumbers",
           "icon": "storm_ui_icon_deckard_study_time.png",
           "shortTooltip": "Los aliados adicionales potencian Fortaleza de los fieles.",
-          "fullTooltip": "Si hay al menos 3 héroes aliados cerca de ti, Fortaleza de los fieles otorga 10 más de armadura y aumenta un 50% más el ritmo de recarga del tiempo de reutilización de tus habilidades básicas.",
+          "fullTooltip": "Si hay al menos 3 héroes aliados cerca de ti, Fortaleza de los fieles otorga 15 más de armadura y aumenta un 50% más el ritmo de recarga del tiempo de reutilización de tus habilidades básicas.",
           "abilityType": "Trait",
           "sort": 2
         },
@@ -7857,7 +7857,7 @@
         "nameId": "DVaMechWeapon",
         "range": 3.75,
         "period": 0.25,
-        "damage": 24.0,
+        "damage": 26.0,
         "damageScale": 0.04
       }
     ],
@@ -9624,7 +9624,7 @@
           "icon": "storm_ui_icon_Gall_DetonateRunes.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Detonas Bomba rúnica de Cho, lo que inflige daño de área.",
-          "fullTooltip": "Detonas Bomba rúnica de Cho, lo que inflige 233 (+4% por nivel) de daño a su alrededor.",
+          "fullTooltip": "Detonas Bomba rúnica de Cho, lo que inflige 210 (+4% por nivel) de daño a su alrededor.",
           "abilityType": "E"
         }
       ],
@@ -9718,7 +9718,7 @@
           "fullTooltipId": "GallTaskmaster",
           "icon": "storm_ui_icon_gall_shove_a.png",
           "shortTooltip": "Reduce el tiempo de reutilización de Empujón.",
-          "fullTooltip": "Reduce 10 s el tiempo de reutilización de Empujón. Cada vez que el ataque básico de un héroe golpea a Cho, se reduce 1 s el tiempo de reutilización de Empujón.",
+          "fullTooltip": "Cada vez que el ataque básico de un héroe golpea a Cho, se reduce 1 s el tiempo de reutilización de Empujón.",
           "abilityType": "Z",
           "abilityTalentLinkId": "GallShove",
           "sort": 2
@@ -9768,7 +9768,7 @@
           "fullTooltipId": "GallBombsAwayTalent",
           "icon": "storm_ui_icon_cho_runebomb_var1.png",
           "shortTooltip": "Misión: Potencia Explosión rúnica.",
-          "fullTooltip": "Misión: Daña a un héroe con Explosión rúnica para aumentar su daño en 5.  Recompensa: Tras dañar a 20 héroes, el alcance y la velocidad de la Bomba rúnica de Cho aumentan un 20%.",
+          "fullTooltip": "Misión: Daña a un héroe con Explosión rúnica para aumentar su daño en 5, hasta un máximo de 200.  Recompensa: Tras dañar a 20 héroes, el alcance y la velocidad de la Bomba rúnica de Cho aumentan un 20%.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 3
@@ -9794,7 +9794,7 @@
           "fullTooltipId": "GallDoubleTroubleTalent",
           "icon": "storm_ui_icon_Gall_Shadowflame_var1.png",
           "shortTooltip": "Misión: Golpea a héroes en llamas con Llama de las sombras.",
-          "fullTooltip": "Misión: Haz que Llama de las sombras golpee a un héroe enemigo afectado por Fuego devorador de Cho para que su tiempo de reutilización se reduzca 1 s.  Recompensa: Tras golpear a 20 héroes, el tiempo de reutilización de Llama de las sombras se reduce 1 s de forma permanente.",
+          "fullTooltip": "Misión: Haz que Llama de las sombras golpee a un héroe enemigo afectado por Fuego devorador de Cho para que su tiempo de reutilización se reduzca 0 s.  Recompensa: Tras golpear a 20 héroes, el tiempo de reutilización de Llama de las sombras se reduce 0.5 s de forma permanente.",
           "abilityType": "Q",
           "isQuest": true,
           "abilityTalentLinkId": "GallShadowflame",
@@ -17935,7 +17935,7 @@
           "fullTooltipId": "MedicPhysicalTherapy",
           "icon": "storm_ui_icon_medic_deployshield.png",
           "shortTooltip": "Salvaguarda elimina la ralentización.",
-          "fullTooltip": "Salvaguarda elimina todos los efectos de ralentización del objetivo. Eliminar así una ralentización hace que el tiempo de reutilización de Salvaguarda se reduzca 5 s.",
+          "fullTooltip": "Salvaguarda elimina todos los efectos de ralentización del objetivo y su tiempo de reutilización se reduce 2 s.",
           "abilityType": "W",
           "abilityTalentLinkId": "MedicSafeguard",
           "sort": 1
@@ -20057,7 +20057,7 @@
           "fullTooltipId": "MalGanisNecroticEmbraceFueledByTorment",
           "icon": "storm_ui_icon_malganis_necrotic.png",
           "shortTooltip": "Abrazo necrótico cura al sufrir daño.",
-          "fullTooltip": "Mientras Abrazo necrótico está activo, te curas 12 (+4% por nivel) de salud al sufrir daño, y Toque vampírico convierte un 15% más del daño a héroes en curación.",
+          "fullTooltip": "Mientras Abrazo necrótico está activo, te curas 11 (+4% por nivel) de salud al sufrir daño, y Toque vampírico convierte un 15% más del daño a héroes en curación.",
           "abilityType": "W",
           "abilityTalentLinkId": "MalGanisNecroticEmbrace",
           "sort": 1
@@ -23285,9 +23285,9 @@
       "target": "ui_targetportrait_hero_orphea.png"
     },
     "life": {
-      "amount": 1662.0,
+      "amount": 1525.0,
       "scale": 0.04,
-      "regenRate": 3.457,
+      "regenRate": 3.1757,
       "regenScale": 0.04
     },
     "energy": {
@@ -23374,7 +23374,7 @@
           "energyTooltip": "Maná: 75",
           "cooldownTooltip": "Tiempo de reutilización: 70 s",
           "shortTooltip": "Atraes, dañas y aturdes a los enemigos en un área.",
-          "fullTooltip": "Tras 1.25 s, atraes a los enemigos de un área hacia el centro, les infliges 275 (+4% por nivel) de daño y los aturdes durante 0.75 s.",
+          "fullTooltip": "Tras 1.25 s, atraes a los enemigos de un área hacia el centro, les infliges 250 (+4% por nivel) de daño y los aturdes durante 0.5 s.",
           "abilityType": "Heroic"
         }
       ],
@@ -23412,7 +23412,7 @@
           "fullTooltipId": "OrpheaGrowingNightmare",
           "icon": "storm_ui_icon_orphea_e.png",
           "shortTooltip": "Aumenta el daño de la erupción de Terror al golpear a héroes.",
-          "fullTooltip": "Cada héroe golpeado por la ola de Terror aumenta un 25% el daño de su erupción.",
+          "fullTooltip": "Cada héroe golpeado por la ola de Terror aumenta un 20% el daño de su erupción.",
           "abilityType": "E",
           "abilityTalentLinkId": "OrpheaDread",
           "sort": 2
@@ -23424,7 +23424,7 @@
           "fullTooltipId": "OrpheaAncestralStrength",
           "icon": "storm_ui_icon_orphea_trait.png",
           "shortTooltip": "Las habilidades infligen más daño a enemigos incapacitados.",
-          "fullTooltip": "Las habilidades no heroicas infligen un 25% más de daño a los enemigos aturdidos, inmovilizados, silenciados o ralentizados y otorgan 1 de caos adicional al golpear a héroes.",
+          "fullTooltip": "Las habilidades no heroicas infligen un 20% más de daño a los enemigos aturdidos, inmovilizados, silenciados o ralentizados y otorgan 1 de caos adicional al golpear a héroes.",
           "abilityType": "Trait",
           "sort": 3
         }
@@ -23448,8 +23448,8 @@
           "shortTooltipId": "OrpheaBackbiter",
           "fullTooltipId": "OrpheaBackbiter",
           "icon": "storm_ui_icon_orphea_w.png",
-          "shortTooltip": "Cuando Ñam golpea a un héroe, retrocedes rápidamente.",
-          "fullTooltip": "Si Ñam golpea a un héroe, retrocedes de inmediato una corta distancia.",
+          "shortTooltip": "Cuando Ñam golpea a un héroe, retrocedes rápidamente y obtienes salud.",
+          "fullTooltip": "Si Ñam golpea a un héroe, retrocedes de inmediato una corta distancia.  Pasiva: Obtienes un 10% de salud máxima.",
           "abilityType": "W",
           "abilityTalentLinkId": "OrpheaChomp",
           "sort": 2
@@ -23460,8 +23460,8 @@
           "shortTooltipId": "OrpheaFright",
           "fullTooltipId": "OrpheaFright",
           "icon": "storm_ui_icon_orphea_e.png",
-          "shortTooltip": "La ola de Terror ralentiza y la ralentización se acumula.",
-          "fullTooltip": "La ralentización de Terror se aplica también a los enemigos en su camino. Se acumula hasta un máximo de un 50%.",
+          "shortTooltip": "La ola de Terror ralentiza.",
+          "fullTooltip": "La ralentización de Terror se aplica también a los enemigos en su camino.",
           "abilityType": "E",
           "abilityTalentLinkId": "OrpheaDread",
           "sort": 3
@@ -23532,7 +23532,7 @@
           "energyTooltip": "Maná: 75",
           "cooldownTooltip": "Tiempo de reutilización: 70 s",
           "shortTooltip": "Atraes, dañas y aturdes a los enemigos en un área.",
-          "fullTooltip": "Tras 1.25 s, atraes a los enemigos de un área hacia el centro, les infliges 275 (+4% por nivel) de daño y los aturdes durante 0.75 s.",
+          "fullTooltip": "Tras 1.25 s, atraes a los enemigos de un área hacia el centro, les infliges 250 (+4% por nivel) de daño y los aturdes durante 0.5 s.",
           "abilityType": "Heroic",
           "isActive": true,
           "abilityTalentLinkId": "OrpheaCrushingJaws",
@@ -25997,9 +25997,9 @@
           "shortTooltipId": "SamuroIllusionMasterTalent",
           "fullTooltipId": "SamuroIllusionMasterTalent",
           "icon": "storm_ui_icon_samuro_illusiondancer.png",
-          "cooldownTooltip": "Tiempo de reutilización: 8 s",
+          "cooldownTooltip": "Tiempo de reutilización: 10 s",
           "shortTooltip": "Puedes controlar a los reflejos.",
-          "fullTooltip": "Los reflejos pueden controlarse individualmente o en grupo. Su daño aumenta un 100%.   Pasiva: El daño de tus ataques básicos aumenta un 10%, y se reduce el tiempo de reutilización de Transmisión de reflejo a 8 s.",
+          "fullTooltip": "Los reflejos pueden controlarse individualmente o en grupo. Su daño aumenta un 100%.   Pasiva: Se reduce el tiempo de reutilización de Transmisión de reflejo a 10 s.",
           "abilityType": "Heroic"
         }
       ],
@@ -26026,7 +26026,7 @@
           "fullTooltipId": "SamuroWayOfIllusion",
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "shortTooltip": "Misión: Los golpes críticos de los reflejos potencian los ataques básicos.",
-          "fullTooltip": "Misión: Cada vez que un reflejo inflige un golpe crítico a un héroe, obtienes 0.5 de daño de ataque, hasta un máximo de 20.  Recompensa: Tras golpear a 40 héroes, obtienes 20 de daño de ataque adicional.",
+          "fullTooltip": "Misión: Cada vez que un reflejo inflige un golpe crítico a un héroe, obtienes 0.2 de daño de ataque, hasta un máximo de 10.  Recompensa: Tras golpear a 40 héroes, obtienes 20 de daño de ataque adicional.",
           "abilityType": "Q",
           "isQuest": true,
           "abilityTalentLinkId": "SamuroMirrorImageTargeted",
@@ -26153,9 +26153,9 @@
           "shortTooltipId": "SamuroIllusionMasterTalent",
           "fullTooltipId": "SamuroIllusionMasterTalent",
           "icon": "storm_ui_icon_samuro_illusiondancer.png",
-          "cooldownTooltip": "Tiempo de reutilización: 8 s",
+          "cooldownTooltip": "Tiempo de reutilización: 10 s",
           "shortTooltip": "Puedes controlar a los reflejos.",
-          "fullTooltip": "Los reflejos pueden controlarse individualmente o en grupo. Su daño aumenta un 100%.   Pasiva: El daño de tus ataques básicos aumenta un 10%, y se reduce el tiempo de reutilización de Transmisión de reflejo a 8 s.",
+          "fullTooltip": "Los reflejos pueden controlarse individualmente o en grupo. Su daño aumenta un 100%.   Pasiva: Se reduce el tiempo de reutilización de Transmisión de reflejo a 10 s.",
           "abilityType": "Heroic",
           "isActive": true,
           "abilityTalentLinkId": "SamuroIllusionMaster",
@@ -27139,9 +27139,9 @@
       "target": "ui_targetportrait_hero_stitches.png"
     },
     "life": {
-      "amount": 3000.0,
+      "amount": 3060.0,
       "scale": 0.04,
-      "regenRate": 6.25,
+      "regenRate": 6.375,
       "regenScale": 0.04
     },
     "energy": {
@@ -27337,7 +27337,7 @@
           "fullTooltipId": "StitchesChopChop",
           "icon": "storm_ui_icon_stitches_slam_b.png",
           "shortTooltip": "Embate aumenta la velocidad de ataque básico.",
-          "fullTooltip": "Golpear a un héroe enemigo con el área de impacto interna de Embate te otorga un 50% más de velocidad de ataque durante 4 s.",
+          "fullTooltip": "Golpear a un héroe enemigo con el área de impacto interna de Embate te otorga un 50% más de velocidad de ataque durante 5 s.",
           "abilityType": "W",
           "abilityTalentLinkId": "StitchesSlam",
           "sort": 3
@@ -27432,7 +27432,7 @@
           "fullTooltipId": "StitchesDigestiveJuices",
           "icon": "storm_ui_icon_stitches_devour.png",
           "shortTooltip": "Devorar reduce el daño que infligen los enemigos.",
-          "fullTooltip": "Los héroes golpeados por Devorar infligen un 40% menos de daño durante 4 s.",
+          "fullTooltip": "Los héroes golpeados por Devorar infligen un 50% menos de daño durante 5 s.",
           "abilityType": "E",
           "abilityTalentLinkId": "StitchesDevour",
           "sort": 2
@@ -28008,9 +28008,9 @@
       "target": "ui_targetportrait_hero_sylvanas.png"
     },
     "life": {
-      "amount": 1550.0,
+      "amount": 1650.0,
       "scale": 0.04,
-      "regenRate": 3.2304,
+      "regenRate": 3.4414,
       "regenScale": 0.04
     },
     "energy": {
@@ -28059,7 +28059,7 @@
           "energyTooltip": "Maná: 50",
           "cooldownTooltip": "Tiempo de reutilización: 11 s",
           "shortTooltip": "Infliges daño en el tiempo a un enemigo y se esparce al golpear.",
-          "fullTooltip": "Lanzas una daga a un objetivo enemigo que inflige 29 (+4% por nivel) de daño y 145 (+4% por nivel) de daño adicional durante 2.5 s. El daño que infliges al objetivo inicial esparce Daga de las sombras a todos los enemigos cercanos.",
+          "fullTooltip": "Lanzas una daga a un objetivo enemigo que inflige 32 (+4% por nivel) de daño y 160 (+4% por nivel) de daño adicional durante 2.5 s. El daño que infliges al objetivo inicial esparce Daga de las sombras a todos los enemigos cercanos.",
           "abilityType": "W"
         },
         {
@@ -31523,7 +31523,7 @@
           "fullTooltipId": "UtherEternalDevotionArmorOfFaithTalent",
           "icon": "storm_ui_icon_uther_holylight.png",
           "shortTooltip": "Luz sagrada se recarga más rápido cuando sufres efectos de pérdida de control.",
-          "fullTooltip": "Estar aturdido, inmovilizado o silenciado provoca que el tiempo de reutilización de Luz sagrada se recargue un 200% más rápido durante 6 s.",
+          "fullTooltip": "Estar aturdido, inmovilizado o silenciado te otorga 90 de maná y provoca que el tiempo de reutilización de Luz sagrada se recargue un 200% más rápido durante 6 s. Este efecto tiene un tiempo de reutilización de 20 s.",
           "abilityType": "Trait",
           "sort": 1
         },
@@ -34334,7 +34334,7 @@
         "nameId": "HeroZagara",
         "range": 5.5,
         "period": 0.8,
-        "damage": 80.0,
+        "damage": 76.0,
         "damageScale": 0.04
       }
     ],
@@ -34364,10 +34364,10 @@
           "shortTooltipId": "ZagaraHunterKiller",
           "fullTooltipId": "ZagaraHunterKiller",
           "icon": "storm_ui_icon_zagara_hunterkiller.png",
-          "energyTooltip": "Maná: 60",
-          "cooldownTooltip": "Tiempo de reutilización: 14 s",
+          "energyTooltip": "Maná: 75",
+          "cooldownTooltip": "Tiempo de reutilización: 16 s",
           "shortTooltip": "Liberas un hidralisco contra un enemigo.",
-          "fullTooltip": "Invocas un hidralisco que ataca a un solo objetivo e inflige 65 (+5% por nivel) de daño por segundo. Dura 8 s.",
+          "fullTooltip": "Invocas un hidralisco que ataca a un solo objetivo e inflige 71 (+5% por nivel) de daño por segundo. Dura 8 s.",
           "abilityType": "W"
         },
         {
@@ -34411,7 +34411,7 @@
           },
           "cooldownTooltip": "Tiempo de reutilización de carga: 120 s",
           "shortTooltip": "Potencia la biomateria y te permite crear orugas nydus.",
-          "fullTooltip": "Invocas a una oruga nydus en cualquier lugar cubierto por biomateria en tu campo de visión. Haz clic derecho sobre una oruga para entrar en ella y desplazarte hasta otra oruga. Mientras estás dentro, recuperas un 10% de salud y maná por segundo.  Puedes almacenar hasta 2 cargas, y puedes tener un máximo de 4 orugas nydus a la vez.  Pasiva: La biomateria se extiende un 15% más lejos.  Pasiva: Mientras estás sobre biomateria, cada ataque básico reduce 0.5 s todos tus tiempos de reutilización.",
+          "fullTooltip": "Invocas a una oruga nydus en cualquier lugar cubierto por biomateria en tu campo de visión. Haz clic derecho sobre una oruga para entrar en ella y desplazarte hasta otra oruga. Mientras estás dentro, recuperas un 10% de salud y maná por segundo.  Puedes almacenar hasta 2 cargas, y puedes tener un máximo de 4 orugas nydus a la vez.  Pasiva: La biomateria se extiende un 15% más lejos.  Pasiva: Mientras estás sobre biomateria, cada ataque básico reduce 0.4 s todos tus tiempos de reutilización.",
           "abilityType": "Heroic"
         }
       ],
@@ -34584,7 +34584,7 @@
           },
           "cooldownTooltip": "Tiempo de reutilización de carga: 120 s",
           "shortTooltip": "Potencia la biomateria y te permite crear orugas nydus.",
-          "fullTooltip": "Invocas a una oruga nydus en cualquier lugar cubierto por biomateria en tu campo de visión. Haz clic derecho sobre una oruga para entrar en ella y desplazarte hasta otra oruga. Mientras estás dentro, recuperas un 10% de salud y maná por segundo.  Puedes almacenar hasta 2 cargas, y puedes tener un máximo de 4 orugas nydus a la vez.  Pasiva: La biomateria se extiende un 15% más lejos.  Pasiva: Mientras estás sobre biomateria, cada ataque básico reduce 0.5 s todos tus tiempos de reutilización.",
+          "fullTooltip": "Invocas a una oruga nydus en cualquier lugar cubierto por biomateria en tu campo de visión. Haz clic derecho sobre una oruga para entrar en ella y desplazarte hasta otra oruga. Mientras estás dentro, recuperas un 10% de salud y maná por segundo.  Puedes almacenar hasta 2 cargas, y puedes tener un máximo de 4 orugas nydus a la vez.  Pasiva: La biomateria se extiende un 15% más lejos.  Pasiva: Mientras estás sobre biomateria, cada ataque básico reduce 0.4 s todos tus tiempos de reutilización.",
           "abilityType": "Heroic",
           "isActive": true,
           "abilityTalentLinkId": "ZagaraSummonNydusWorm",

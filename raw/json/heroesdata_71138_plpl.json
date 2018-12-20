@@ -3254,7 +3254,7 @@
           "fullTooltipId": "AurielIncreasingClaritySacredSweepTalent",
           "icon": "storm_ui_icon_auriel_angelicsweep_a.png",
           "shortTooltip": "Zadanie: Trafiaj bohaterów, aby zwiększyć obrażenia w centrum",
-          "fullTooltip": "Zadanie: Za każdym razem, kiedy Uświęcony Zamach trafi bohatera znajdującego się w jego centrum, obrażenia zadawane w centrum wzrastają o 2 pkt., maksymalnie do 50 pkt.  Nagroda: Po trafieniu 25 bohaterów obrażenia zadawane w centrum wzrastają do 150 pkt.",
+          "fullTooltip": "Zadanie: Za każdym razem, kiedy Uświęcony Zamach trafi bohatera znajdującego się w jego centrum, obrażenia zadawane w centrum wzrastają o 2 pkt., maksymalnie do 50 pkt.  Nagroda: Po trafieniu 25 bohaterów obrażenia zadawane w centrum wzrastają do 180 pkt.",
           "abilityType": "Q",
           "isQuest": true,
           "abilityTalentLinkId": "AurielSacredSweep",
@@ -5772,9 +5772,9 @@
       "target": "ui_targetportrait_hero_cho.png"
     },
     "life": {
-      "amount": 2950.0,
+      "amount": 2750.0,
       "scale": 0.045,
-      "regenRate": 6.1445,
+      "regenRate": 5.7304,
       "regenScale": 0.045
     },
     "roles": [
@@ -5827,7 +5827,7 @@
           "icon": "storm_ui_icon_Cho_RuneBomb.png",
           "cooldownTooltip": "Czas odnowienia: 8 sek.",
           "shortTooltip": "Rzuca po linii prostej bombę. Gal może ją zdetonować i zadać obrażenia obszarowe",
-          "fullTooltip": "Czo wypuszcza bombę, która zadaje 91 (+4% na poziom) pkt. obrażeń wszystkim wrogom na swojej drodze. Gal może wykorzystać Runiczny Wybuch, aby zdetonować ją i zadać 233 (+4% na poziom) pkt. obrażeń obszarowych.",
+          "fullTooltip": "Czo wypuszcza bombę, która zadaje 91 (+4% na poziom) pkt. obrażeń wszystkim wrogom na swojej drodze. Gal może wykorzystać Runiczny Wybuch, aby zdetonować ją i zadać 210 (+4% na poziom) pkt. obrażeń obszarowych.",
           "abilityType": "E"
         }
       ],
@@ -6714,7 +6714,7 @@
           "fullTooltipId": "DeckardFieldStudy",
           "icon": "storm_ui_icon_deckard_scroll_of_sealing_a.png",
           "shortTooltip": "Zwój Opieczętowania może zwiększyć moc zaklęć",
-          "fullTooltip": "Trafienie wrogiego bohatera Zwojem Opieczętowania zapewnia premię 15% do mocy zaklęć na 14 sek., maksymalnie do 30%.",
+          "fullTooltip": "Trafienie wrogiego bohatera Zwojem Opieczętowania zapewnia premię 20% do mocy zaklęć na 14 sek., maksymalnie do 40%.",
           "abilityType": "E",
           "abilityTalentLinkId": "DeckardScrollOfSealing",
           "sort": 2
@@ -6768,7 +6768,7 @@
           "toggleCooldown": 0.5,
           "cooldownTooltip": "Czas odnowienia: 30 sek.",
           "shortTooltip": "Kostka Horadrimów tworzy Mniejsze Mikstury Leczenia",
-          "fullTooltip": "Aktywuj, aby kolejna Kostka Horadrimów sprawiła, że każdy trafiony wrogi bohater upuści 3 Mniejsze Mikstury Leczenia. Przywracają one bohaterom sojuszniczym przy podniesieniu 205 (+4% na poziom) pkt. zdrowia. Mniejsze Mikstury Leczenia utrzymują się przez 10 sek.  W danym momencie może być aktywny 1 klejnot.",
+          "fullTooltip": "Aktywuj, aby kolejna Kostka Horadrimów sprawiła, że każdy trafiony wrogi bohater upuści 3 Mniejsze Mikstury Leczenia. Przywracają one bohaterom sojuszniczym przy podniesieniu 220 (+4% na poziom) pkt. zdrowia. Mniejsze Mikstury Leczenia utrzymują się przez 10 sek.  W danym momencie może być aktywny 1 klejnot.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -6854,7 +6854,7 @@
           "fullTooltipId": "DeckardSuperHealingPotion",
           "icon": "storm_ui_icon_deckard_super_healing_potion.png",
           "shortTooltip": "Po pewnym czasie Mikstury Leczenia leczą skuteczniej",
-          "fullTooltip": "Jeśli Mikstura Leczenia nie zostanie podniesiona w ciągu 2 sek., jej skuteczność leczenia wzrasta o 80%.",
+          "fullTooltip": "Jeśli Mikstura Leczenia nie zostanie podniesiona w ciągu 2 sek., jej skuteczność leczenia wzrasta o 100%.",
           "abilityType": "Q",
           "abilityTalentLinkId": "DeckardHealingPotion",
           "sort": 1
@@ -6866,7 +6866,7 @@
           "fullTooltipId": "DeckardPotionOfRevival",
           "icon": "storm_ui_icon_deckard_unstable_healing_potion.png",
           "shortTooltip": "Mikstury Leczenia leczą na obszarze",
-          "fullTooltip": "Przy podniesieniu Mikstura Leczenia przywraca również zdrowie wszystkim pobliskim bohaterom sojuszniczym. Skuteczność takiego leczenia to 35% wartości wyjściowej.",
+          "fullTooltip": "Przy podniesieniu Mikstura Leczenia przywraca również zdrowie wszystkim pobliskim bohaterom sojuszniczym. Skuteczność takiego leczenia to 45% wartości wyjściowej.",
           "abilityType": "Q",
           "abilityTalentLinkId": "DeckardHealingPotion",
           "sort": 2
@@ -6905,7 +6905,7 @@
           "fullTooltipId": "DeckardSafetyInNumbers",
           "icon": "storm_ui_icon_deckard_study_time.png",
           "shortTooltip": "Dodatkowi sojusznicy wzmacniają Wytrwałość Wiernych",
-          "fullTooltip": "Jeśli w pobliżu Deckarda znajduje się co najmniej 3 bohaterów sojuszniczych, Wytrwałość Wiernych zapewnia dodatkowo 10 pkt. pancerza, a czasy odnowienia zdolności podstawowych Deckarda upływają o kolejne 50% szybciej.",
+          "fullTooltip": "Jeśli w pobliżu Deckarda znajduje się co najmniej 3 bohaterów sojuszniczych, Wytrwałość Wiernych zapewnia dodatkowo 15 pkt. pancerza, a czasy odnowienia zdolności podstawowych Deckarda upływają o kolejne 50% szybciej.",
           "abilityType": "Trait",
           "sort": 2
         },
@@ -7857,7 +7857,7 @@
         "nameId": "DVaMechWeapon",
         "range": 3.75,
         "period": 0.25,
-        "damage": 24.0,
+        "damage": 26.0,
         "damageScale": 0.04
       }
     ],
@@ -9624,7 +9624,7 @@
           "icon": "storm_ui_icon_Gall_DetonateRunes.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Detonuje Runiczną Bombę Czo, zadając obrażenia obszarowe",
-          "fullTooltip": "Detonuje Runiczną Bombę Czo, zadając wokół niej 233 (+4% na poziom) pkt. obrażeń.",
+          "fullTooltip": "Detonuje Runiczną Bombę Czo, zadając wokół niej 210 (+4% na poziom) pkt. obrażeń.",
           "abilityType": "E"
         }
       ],
@@ -9718,7 +9718,7 @@
           "fullTooltipId": "GallTaskmaster",
           "icon": "storm_ui_icon_gall_shove_a.png",
           "shortTooltip": "Skraca czas odnowienia Pchnięcia",
-          "fullTooltip": "Skraca czas odnowienia Pchnięcia o 10 sek. Za każdym razem, kiedy Czo zostaje trafiony atakiem podstawowym wrogiego bohatera, czas odnowienia Pchnięcia zostaje skrócony o 1 sek.",
+          "fullTooltip": "Za każdym razem, kiedy Czo zostaje trafiony atakiem podstawowym wrogiego bohatera, czas odnowienia Pchnięcia zostaje skrócony o 1 sek.",
           "abilityType": "Z",
           "abilityTalentLinkId": "GallShove",
           "sort": 2
@@ -9768,7 +9768,7 @@
           "fullTooltipId": "GallBombsAwayTalent",
           "icon": "storm_ui_icon_cho_runebomb_var1.png",
           "shortTooltip": "Zadanie: Wzmocnij Runiczny Wybuch",
-          "fullTooltip": "Zadanie: Rań wrogich bohaterów Runicznym Wybuchem, aby zwiększyć jego obrażenia o 5 pkt.  Nagroda: Po zranieniu 20 bohaterów zasięg i szerokość Runicznej Bomby Czo wzrasta o 20%.",
+          "fullTooltip": "Zadanie: Rań wrogich bohaterów Runicznym Wybuchem, aby zwiększyć jego obrażenia o 5 pkt., maksymalnie do 200 pkt.  Nagroda: Po zranieniu 20 bohaterów zasięg i szerokość Runicznej Bomby Czo wzrasta o 20%.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 3
@@ -9794,7 +9794,7 @@
           "fullTooltipId": "GallDoubleTroubleTalent",
           "icon": "storm_ui_icon_Gall_Shadowflame_var1.png",
           "shortTooltip": "Zadanie: Skróć czas odnowienia Cienistego Płomienia",
-          "fullTooltip": "Zadanie: Trafiaj wrogich bohaterów Cienistym Płomieniem, kiedy znajdują się pod wpływem Żarłocznej Pożogi Czo, aby skrócić jego czas odnowienia o 1 sek.  Nagroda: Po trafieniu 20 bohaterów czas odnowienia Cienistego Płomienia zostaje zamiast tego skrócony na stałe o 1 sek.",
+          "fullTooltip": "Zadanie: Trafiaj wrogich bohaterów Cienistym Płomieniem, kiedy znajdują się pod wpływem Żarłocznej Pożogi Czo, aby skrócić jego czas odnowienia o 0 sek.  Nagroda: Po trafieniu 20 bohaterów czas odnowienia Cienistego Płomienia zostaje zamiast tego skrócony na stałe o 0.5 sek.",
           "abilityType": "Q",
           "isQuest": true,
           "abilityTalentLinkId": "GallShadowflame",
@@ -17935,7 +17935,7 @@
           "fullTooltipId": "MedicPhysicalTherapy",
           "icon": "storm_ui_icon_medic_deployshield.png",
           "shortTooltip": "Opieka usuwa efekty spowolnienia",
-          "fullTooltip": "Użycie Opieki usuwa z celu wszystkie działające nań efekty spowolnienia. Jeśli efekt spowolnienia zostanie usunięty w ten sposób, czas odnowienia Opieki zostaje skrócony o 5 sek.",
+          "fullTooltip": "Opieka usuwa z celu wszystkie działające na niego efekty spowolnienia, a jej czas odnowienia zostaje skrócony o 2 sek.",
           "abilityType": "W",
           "abilityTalentLinkId": "MedicSafeguard",
           "sort": 1
@@ -20057,7 +20057,7 @@
           "fullTooltipId": "MalGanisNecroticEmbraceFueledByTorment",
           "icon": "storm_ui_icon_malganis_necrotic.png",
           "shortTooltip": "Nekrotyczne Objęcia leczą przy otrzymywaniu obrażeń",
-          "fullTooltip": "Kiedy aktywne są Nekrotyczne Objęcia, Mal'Ganis odzyskuje 12 (+4% na poziom) pkt. zdrowia za każdym razem, kiedy odnosi obrażenia, a Wampiryczny Dotyk zamienia dodatkowo równowartość 15% obrażeń zadanych bohaterom w punkty zdrowia.",
+          "fullTooltip": "Kiedy aktywne są Nekrotyczne Objęcia, Mal'Ganis odzyskuje 11 (+4% na poziom) pkt. zdrowia za każdym razem, kiedy odnosi obrażenia, a Wampiryczny Dotyk zamienia dodatkowo równowartość 15% obrażeń zadanych bohaterom w punkty zdrowia.",
           "abilityType": "W",
           "abilityTalentLinkId": "MalGanisNecroticEmbrace",
           "sort": 1
@@ -23285,9 +23285,9 @@
       "target": "ui_targetportrait_hero_orphea.png"
     },
     "life": {
-      "amount": 1662.0,
+      "amount": 1525.0,
       "scale": 0.04,
-      "regenRate": 3.457,
+      "regenRate": 3.1757,
       "regenScale": 0.04
     },
     "energy": {
@@ -23374,7 +23374,7 @@
           "energyTooltip": "Mana: 75",
           "cooldownTooltip": "Czas odnowienia: 70 sek.",
           "shortTooltip": "Przyciąga, ogłusza i rani przeciwników na danym obszarze",
-          "fullTooltip": "Po upływie 1.25 sek. przyciąga wrogów znajdujących się na obszarze w kierunku centrum, zadaje im 275 (+4% na poziom) pkt. obrażeń oraz ogłusza ich na 0.75 sek.",
+          "fullTooltip": "Po upływie 1.25 sek. przyciąga wrogów znajdujących się na obszarze w kierunku centrum, zadaje im 250 (+4% na poziom) pkt. obrażeń oraz ogłusza ich na 0.5 sek.",
           "abilityType": "Heroic"
         }
       ],
@@ -23412,7 +23412,7 @@
           "fullTooltipId": "OrpheaGrowingNightmare",
           "icon": "storm_ui_icon_orphea_e.png",
           "shortTooltip": "Trafianie bohaterów zwiększa obrażenia od erupcji Zgrozy",
-          "fullTooltip": "Za każdego bohatera trafionego falą Zgrozy obrażenia jej erupcji wzrastają o 25%.",
+          "fullTooltip": "Za każdego bohatera trafionego falą Zgrozy obrażenia jej erupcji wzrastają o 20%.",
           "abilityType": "E",
           "abilityTalentLinkId": "OrpheaDread",
           "sort": 2
@@ -23424,7 +23424,7 @@
           "fullTooltipId": "OrpheaAncestralStrength",
           "icon": "storm_ui_icon_orphea_trait.png",
           "shortTooltip": "Zdolności zadają większe obrażenia obezwładnionym wrogom",
-          "fullTooltip": "Zdolności niebohaterskie zadają obrażenia zwiększone o 25% ogłuszonym, unieruchomionym, wyciszonym lub spowolnionym przeciwnikom oraz zapewniają 1 dodatkowy poziom kumulacji Chaosu przy trafieniu bohaterów.",
+          "fullTooltip": "Zdolności niebohaterskie zadają obrażenia zwiększone o 20% ogłuszonym, unieruchomionym, wyciszonym lub spowolnionym przeciwnikom oraz zapewniają 1 dodatkowy poziom kumulacji Chaosu przy trafieniu bohaterów.",
           "abilityType": "Trait",
           "sort": 3
         }
@@ -23448,8 +23448,8 @@
           "shortTooltipId": "OrpheaBackbiter",
           "fullTooltipId": "OrpheaBackbiter",
           "icon": "storm_ui_icon_orphea_w.png",
-          "shortTooltip": "Orfea odskakuje, gdy Chaps trafia bohatera",
-          "fullTooltip": "Jeśli Chaps trafi bohatera, Orfea natychmiast odskakuje do tyłu na niewielką odległość.",
+          "shortTooltip": "Orfea odskakuje po użyciu Chapsa i zyskuje premię do zdrowia",
+          "fullTooltip": "Jeśli Chaps trafi bohatera, Orfea natychmiast odskakuje do tyłu na niewielką odległość.  Działanie pasywne: Orfea zyskuje premię 10% do maksymalnego zdrowia.",
           "abilityType": "W",
           "abilityTalentLinkId": "OrpheaChomp",
           "sort": 2
@@ -23460,8 +23460,8 @@
           "shortTooltipId": "OrpheaFright",
           "fullTooltipId": "OrpheaFright",
           "icon": "storm_ui_icon_orphea_e.png",
-          "shortTooltip": "Fala Zgrozy spowalnia, a efekty spowolnienia kumulują się",
-          "fullTooltip": "Spowolnienie wywoływane przez Zgrozę działa również na przeciwników znajdujących się na drodze jej fali, a także kumuluje się do 50%.",
+          "shortTooltip": "Fala Zgrozy spowalnia",
+          "fullTooltip": "Spowolnienie wywoływane przez Zgrozę działa również na przeciwników znajdujących się na drodze jej fali.",
           "abilityType": "E",
           "abilityTalentLinkId": "OrpheaDread",
           "sort": 3
@@ -23532,7 +23532,7 @@
           "energyTooltip": "Mana: 75",
           "cooldownTooltip": "Czas odnowienia: 70 sek.",
           "shortTooltip": "Przyciąga, ogłusza i rani przeciwników na danym obszarze",
-          "fullTooltip": "Po upływie 1.25 sek. przyciąga wrogów znajdujących się na obszarze w kierunku centrum, zadaje im 275 (+4% na poziom) pkt. obrażeń oraz ogłusza ich na 0.75 sek.",
+          "fullTooltip": "Po upływie 1.25 sek. przyciąga wrogów znajdujących się na obszarze w kierunku centrum, zadaje im 250 (+4% na poziom) pkt. obrażeń oraz ogłusza ich na 0.5 sek.",
           "abilityType": "Heroic",
           "isActive": true,
           "abilityTalentLinkId": "OrpheaCrushingJaws",
@@ -25997,9 +25997,9 @@
           "shortTooltipId": "SamuroIllusionMasterTalent",
           "fullTooltipId": "SamuroIllusionMasterTalent",
           "icon": "storm_ui_icon_samuro_illusiondancer.png",
-          "cooldownTooltip": "Czas odnowienia: 8 sek.",
+          "cooldownTooltip": "Czas odnowienia: 10 sek.",
           "shortTooltip": "Można kontrolować Lustrzane Odbicia",
-          "fullTooltip": "Lustrzane Odbicia można kontrolować pojedynczo bądź grupowo, a zadawane przez nie obrażenia wzrastają o 100%.   Działanie pasywne: Obrażenia ataków podstawowych Samuro wzrastają o 10%, a czas odnowienia Projekcji Odbić zostaje skrócony do 8 sek.",
+          "fullTooltip": "Lustrzane Odbicia można kontrolować pojedynczo bądź grupowo, a zadawane przez nie obrażenia wzrastają o 100%.   Działanie pasywne: Czas odnowienia Projekcji Odbić zostaje skrócony do 10 sek.",
           "abilityType": "Heroic"
         }
       ],
@@ -26026,7 +26026,7 @@
           "fullTooltipId": "SamuroWayOfIllusion",
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "shortTooltip": "Zadanie: Krytyczne Uderzenia odbić wzmacniają ataki podstawowe",
-          "fullTooltip": "Zadanie: Za każdym razem, kiedy jedno z Lustrzanych Odbić Samuro trafia bohatera Krytycznym Uderzeniem, obrażenia od ataków Samuro wzrastają o 0.5 pkt., maksymalnie do 20 pkt.  Nagroda: Po trafieniu 40 bohaterów obrażenia od ataku Samuro wzrastają dodatkowo o 20 pkt.",
+          "fullTooltip": "Zadanie: Za każdym razem, kiedy jedno z Lustrzanych Odbić Samuro trafia bohatera Krytycznym Uderzeniem, obrażenia od ataków Samuro wzrastają o 0.2 pkt., maksymalnie do 10 pkt.  Nagroda: Po trafieniu 40 bohaterów obrażenia od ataku Samuro wzrastają dodatkowo o 20 pkt.",
           "abilityType": "Q",
           "isQuest": true,
           "abilityTalentLinkId": "SamuroMirrorImageTargeted",
@@ -26153,9 +26153,9 @@
           "shortTooltipId": "SamuroIllusionMasterTalent",
           "fullTooltipId": "SamuroIllusionMasterTalent",
           "icon": "storm_ui_icon_samuro_illusiondancer.png",
-          "cooldownTooltip": "Czas odnowienia: 8 sek.",
+          "cooldownTooltip": "Czas odnowienia: 10 sek.",
           "shortTooltip": "Można kontrolować Lustrzane Odbicia",
-          "fullTooltip": "Lustrzane Odbicia można kontrolować pojedynczo bądź grupowo, a zadawane przez nie obrażenia wzrastają o 100%.   Działanie pasywne: Obrażenia ataków podstawowych Samuro wzrastają o 10%, a czas odnowienia Projekcji Odbić zostaje skrócony do 8 sek.",
+          "fullTooltip": "Lustrzane Odbicia można kontrolować pojedynczo bądź grupowo, a zadawane przez nie obrażenia wzrastają o 100%.   Działanie pasywne: Czas odnowienia Projekcji Odbić zostaje skrócony do 10 sek.",
           "abilityType": "Heroic",
           "isActive": true,
           "abilityTalentLinkId": "SamuroIllusionMaster",
@@ -27139,9 +27139,9 @@
       "target": "ui_targetportrait_hero_stitches.png"
     },
     "life": {
-      "amount": 3000.0,
+      "amount": 3060.0,
       "scale": 0.04,
-      "regenRate": 6.25,
+      "regenRate": 6.375,
       "regenScale": 0.04
     },
     "energy": {
@@ -27337,7 +27337,7 @@
           "fullTooltipId": "StitchesChopChop",
           "icon": "storm_ui_icon_stitches_slam_b.png",
           "shortTooltip": "Łomot zwiększa szybkość ataku podstawowego",
-          "fullTooltip": "Trafienie wrogiego bohatera w obrębie wewnętrznego pola rażenia Łomotu zapewnia Zszywańcowi premię 50% do szybkości ataku na 4 sek.",
+          "fullTooltip": "Trafienie wrogiego bohatera w obrębie wewnętrznego pola rażenia Łomotu zapewnia Zszywańcowi premię 50% do szybkości ataku na 5 sek.",
           "abilityType": "W",
           "abilityTalentLinkId": "StitchesSlam",
           "sort": 3
@@ -27432,7 +27432,7 @@
           "fullTooltipId": "StitchesDigestiveJuices",
           "icon": "storm_ui_icon_stitches_devour.png",
           "shortTooltip": "Pożarcie zmniejsza obrażenia zadawane przez wrogów",
-          "fullTooltip": "Wrodzy bohaterowie trafieni Pożarciem zadają obrażenia zmniejszone o 40% przez 4 sek.",
+          "fullTooltip": "Wrodzy bohaterowie trafieni Pożarciem zadają obrażenia zmniejszone o 50% przez 5 sek.",
           "abilityType": "E",
           "abilityTalentLinkId": "StitchesDevour",
           "sort": 2
@@ -28008,9 +28008,9 @@
       "target": "ui_targetportrait_hero_sylvanas.png"
     },
     "life": {
-      "amount": 1550.0,
+      "amount": 1650.0,
       "scale": 0.04,
-      "regenRate": 3.2304,
+      "regenRate": 3.4414,
       "regenScale": 0.04
     },
     "energy": {
@@ -28059,7 +28059,7 @@
           "energyTooltip": "Mana: 50",
           "cooldownTooltip": "Czas odnowienia: 11 sek.",
           "shortTooltip": "Zadaje z upływem czasu obrażenia, które rozprzestrzeniają się po trafieniu przeciwnika",
-          "fullTooltip": "Sylwana rzuca w wybranego przeciwnika sztyletem, który zadaje 29 (+4% na poziom) pkt. obrażeń oraz dodatkowo 145 (+4% na poziom) pkt. obrażeń w ciągu 2.5 sek. Zadanie obrażeń pierwotnemu celowi przez Sylwanę powoduje objęcie wszystkich pobliskich przeciwników działaniem Sztyletu Cienia.",
+          "fullTooltip": "Sylwana rzuca w wybranego przeciwnika sztyletem, który zadaje 32 (+4% na poziom) pkt. obrażeń oraz dodatkowo 160 (+4% na poziom) pkt. obrażeń w ciągu 2.5 sek. Zadanie obrażeń pierwotnemu celowi przez Sylwanę powoduje objęcie wszystkich pobliskich przeciwników działaniem Sztyletu Cienia.",
           "abilityType": "W"
         },
         {
@@ -31523,7 +31523,7 @@
           "fullTooltipId": "UtherEternalDevotionArmorOfFaithTalent",
           "icon": "storm_ui_icon_uther_holylight.png",
           "shortTooltip": "Święta Światłość doładowuje się szybciej w czasie trwania efektów obezwładniających",
-          "fullTooltip": "Bycie pod wpływem efektów ogłuszenia, unieruchomienia lub wyciszenia sprawia, że czas odnowienia Świętej Światłości upływa o 200% szybciej przez 6 sek.",
+          "fullTooltip": "Bycie pod wpływem efektów ogłuszenia, unieruchomienia lub wyciszenia zapewnia Utherowi 90 pkt. many i sprawia, że czas odnowienia Świętej Światłości upływa o 200% szybciej przez 6 sek. Czas odnowienia tego efektu wynosi 20 sek.",
           "abilityType": "Trait",
           "sort": 1
         },
@@ -34334,7 +34334,7 @@
         "nameId": "HeroZagara",
         "range": 5.5,
         "period": 0.8,
-        "damage": 80.0,
+        "damage": 76.0,
         "damageScale": 0.04
       }
     ],
@@ -34364,10 +34364,10 @@
           "shortTooltipId": "ZagaraHunterKiller",
           "fullTooltipId": "ZagaraHunterKiller",
           "icon": "storm_ui_icon_zagara_hunterkiller.png",
-          "energyTooltip": "Mana: 60",
-          "cooldownTooltip": "Czas odnowienia: 14 sek.",
+          "energyTooltip": "Mana: 75",
+          "cooldownTooltip": "Czas odnowienia: 16 sek.",
           "shortTooltip": "Wysyła Hydraliska, by atakował wybranego wroga",
-          "fullTooltip": "Przyzywa Hydraliska, który atakuje pojedynczy cel, zadając 65 (+5% na poziom) pkt. obrażeń na sekundę. Czas działania: 8 sek.",
+          "fullTooltip": "Przyzywa Hydraliska, który atakuje pojedynczy cel, zadając 71 (+5% na poziom) pkt. obrażeń na sekundę. Czas działania: 8 sek.",
           "abilityType": "W"
         },
         {
@@ -34411,7 +34411,7 @@
           },
           "cooldownTooltip": "Czas odnowienia ładunku: 120 sek.",
           "shortTooltip": "Wzmacnia biomasę i może tworzyć Czerwie Nydusowe",
-          "fullTooltip": "Przyzywa Czerwia Nydusowego w dowolne miejsce znajdujące się w polu widzenia Zagary. Dzięki niemu Zagara może przenieść się do innego Czerwia Nydusowego po kliknięciu PPM w pobliżu celu. Będąc wewnątrz, Zagara regeneruje 10% zdrowia i many na sekundę.  Maksymalna liczba ładunków: 2. Można posiadać maksymalnie 4 aktywnych Czerwi Nydusowych.  Działanie pasywne: Biomasa rozprzestrzenia się o 15% dalej.  Działanie pasywne: Każdy atak podstawowy wykonany na biomasie skraca wszystkie czasy odnowienia Zagary o 0.5 sek.",
+          "fullTooltip": "Przyzywa Czerwia Nydusowego w dowolne miejsce znajdujące się w polu widzenia Zagary. Dzięki niemu Zagara może przenieść się do innego Czerwia Nydusowego po kliknięciu PPM w pobliżu celu. Będąc wewnątrz, Zagara regeneruje 10% zdrowia i many na sekundę.  Maksymalna liczba ładunków: 2. Można posiadać maksymalnie 4 aktywnych Czerwi Nydusowych.  Działanie pasywne: Biomasa rozprzestrzenia się o 15% dalej.  Działanie pasywne: Każdy atak podstawowy wykonany na biomasie skraca wszystkie czasy odnowienia Zagary o 0.4 sek.",
           "abilityType": "Heroic"
         }
       ],
@@ -34584,7 +34584,7 @@
           },
           "cooldownTooltip": "Czas odnowienia ładunku: 120 sek.",
           "shortTooltip": "Wzmacnia biomasę i może tworzyć Czerwie Nydusowe",
-          "fullTooltip": "Przyzywa Czerwia Nydusowego w dowolne miejsce znajdujące się w polu widzenia Zagary. Dzięki niemu Zagara może przenieść się do innego Czerwia Nydusowego po kliknięciu PPM w pobliżu celu. Będąc wewnątrz, Zagara regeneruje 10% zdrowia i many na sekundę.  Maksymalna liczba ładunków: 2. Można posiadać maksymalnie 4 aktywnych Czerwi Nydusowych.  Działanie pasywne: Biomasa rozprzestrzenia się o 15% dalej.  Działanie pasywne: Każdy atak podstawowy wykonany na biomasie skraca wszystkie czasy odnowienia Zagary o 0.5 sek.",
+          "fullTooltip": "Przyzywa Czerwia Nydusowego w dowolne miejsce znajdujące się w polu widzenia Zagary. Dzięki niemu Zagara może przenieść się do innego Czerwia Nydusowego po kliknięciu PPM w pobliżu celu. Będąc wewnątrz, Zagara regeneruje 10% zdrowia i many na sekundę.  Maksymalna liczba ładunków: 2. Można posiadać maksymalnie 4 aktywnych Czerwi Nydusowych.  Działanie pasywne: Biomasa rozprzestrzenia się o 15% dalej.  Działanie pasywne: Każdy atak podstawowy wykonany na biomasie skraca wszystkie czasy odnowienia Zagary o 0.4 sek.",
           "abilityType": "Heroic",
           "isActive": true,
           "abilityTalentLinkId": "ZagaraSummonNydusWorm",
