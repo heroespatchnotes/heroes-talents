@@ -88,9 +88,13 @@
         "name": "Gathering Storm",
         "description": "Quest: Each time a Hero is hit by Hammerang, its damage is permanently increased by 1.5 and it refunds 10 Mana.",
         "icon": "storm_ui_icon_falstad_hammerang.png",
+        "type": "Q",
         "sort": 1,
+        "isQuest": true,
         "abilityId": "Falstad|Q1",
-        "isQuest": true
+        "abilityLinks": [
+          "Falstad|Q1"
+        ]
       },
       {
         "tooltipId": "GenericSeasonedMarksmanTalent",
@@ -98,9 +102,10 @@
         "name": "Seasoned Marksman",
         "description": "Quest: Every Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage.  Reward: Upon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 40% for 3 seconds. 60 second cooldown.",
         "icon": "storm_ui_icon_talent_seasonedmarksman.png",
+        "type": "Passive",
         "sort": 2,
-        "abilityId": "Falstad|Passive",
-        "isQuest": true
+        "isQuest": true,
+        "abilityId": "Falstad|Passive"
       },
       {
         "tooltipId": "FalstadWingmanHotbarTalent",
@@ -108,8 +113,12 @@
         "name": "Wingman",
         "description": "Enemy Minions killed near Falstad grant a stack of Bribe. Falstad can use 20 stacks to bribe a Mercenary, instantly defeating them and permanently increasing the damage of Lightning Rod by 5%.  Does not work on Elite Mercenaries. Maximum of 80 stacks.  Passive: Reduce Lightning Rod's cooldown by 3 seconds.",
         "icon": "storm_ui_icon_talent_bribe.png",
+        "type": "Active",
         "sort": 3,
-        "abilityId": "Falstad|W1"
+        "abilityId": "Falstad|W1",
+        "abilityLinks": [
+          "Falstad|W1"
+        ]
       }
     ],
     "4": [
@@ -119,8 +128,12 @@
         "name": "Static Shield",
         "description": "Gain a Shield equal to 4% of Falstad's maximum Health after every Lightning Rod strike. Lasts 4 seconds and stacks.",
         "icon": "storm_ui_icon_falstad_lightningrod.png",
+        "type": "W",
         "sort": 1,
-        "abilityId": "Falstad|W1"
+        "abilityId": "Falstad|W1",
+        "abilityLinks": [
+          "Falstad|W1"
+        ]
       },
       {
         "tooltipId": "FalstadBarrelRollUpdraftTalent",
@@ -128,8 +141,12 @@
         "name": "Updraft",
         "description": "Increases Barrel Roll's range and Shield amount by 40%, and its Shield now lasts indefinitely.",
         "icon": "storm_ui_icon_falstad_barrelroll.png",
+        "type": "E",
         "sort": 2,
-        "abilityId": "Falstad|E1"
+        "abilityId": "Falstad|E1",
+        "abilityLinks": [
+          "Falstad|E1"
+        ]
       },
       {
         "tooltipId": "FalstadHammerGainsTalent",
@@ -137,6 +154,7 @@
         "name": "Hammer Gains",
         "description": "Basic Attacks heal for 20% of the damage dealt to the primary target.",
         "icon": "storm_ui_icon_talent_autoattack_heal.png",
+        "type": "Passive",
         "sort": 3,
         "abilityId": "Falstad|Passive"
       }
@@ -148,8 +166,12 @@
         "name": "Secret Weapon",
         "description": "Increases Hammerang's range by 30% and Basic Attacks deal 60% bonus damage while Hammerang is in flight.",
         "icon": "storm_ui_icon_falstad_hammerang.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Falstad|Q1"
+        "abilityId": "Falstad|Q1",
+        "abilityLinks": [
+          "Falstad|Q1"
+        ]
       },
       {
         "tooltipId": "FalstadHammerangBOOMerangTalent",
@@ -157,8 +179,12 @@
         "name": "BOOMerang",
         "description": "Reactivate Hammerang mid-flight to deal 165 (+4% per level) damage around the hammer.",
         "icon": "storm_ui_icon_falstad_hammerang_a.png",
+        "type": "Q",
         "sort": 2,
-        "abilityId": "Falstad|Q1"
+        "abilityId": "Falstad|Q1",
+        "abilityLinks": [
+          "Falstad|Q1"
+        ]
       },
       {
         "tooltipId": "FalstadChargedUpTalent",
@@ -166,8 +192,12 @@
         "name": "Charged Up",
         "description": "Increases the number of Lightning Rod strikes by 2 and its range by 25%.",
         "icon": "storm_ui_icon_falstad_lightningrod.png",
+        "type": "W",
         "sort": 3,
-        "abilityId": "Falstad|W1"
+        "abilityId": "Falstad|W1",
+        "abilityLinks": [
+          "Falstad|W1"
+        ]
       }
     ],
     "10": [
@@ -177,9 +207,13 @@
         "name": "Hinterland Blast",
         "description": "After 1 second, deal 475 (+4.75% per level) damage to enemies within a long line. The cooldown is reduced by 25 seconds for every enemy Hero hit.",
         "icon": "storm_ui_icon_falstad_hinterlandblast.png",
+        "type": "Heroic",
         "sort": 1,
+        "cooldown": 120,
         "abilityId": "Falstad|R1",
-        "cooldown": 120
+        "abilityLinks": [
+          "Falstad|R1"
+        ]
       },
       {
         "tooltipId": "FalstadMightyGust",
@@ -187,9 +221,13 @@
         "name": "Mighty Gust",
         "description": "Push enemies away, and slow their Movement Speed by 40% decaying over 4 seconds.",
         "icon": "storm_ui_icon_falstad_mightygust.png",
+        "type": "Heroic",
         "sort": 2,
+        "cooldown": 60,
         "abilityId": "Falstad|R2",
-        "cooldown": 60
+        "abilityLinks": [
+          "Falstad|R2"
+        ]
       }
     ],
     "13": [
@@ -199,8 +237,12 @@
         "name": "Thunderstrikes",
         "description": "Lightning Rod deals 20% more damage each subsequent strike.",
         "icon": "storm_ui_icon_falstad_lightningrod.png",
+        "type": "W",
         "sort": 1,
-        "abilityId": "Falstad|W1"
+        "abilityId": "Falstad|W1",
+        "abilityLinks": [
+          "Falstad|W1"
+        ]
       },
       {
         "tooltipId": "FalstadFlowRiderTalent",
@@ -208,8 +250,12 @@
         "name": "Flow Rider",
         "description": "While Tailwind is active, Falstad's Basic Abilities recharge 100% faster.",
         "icon": "storm_ui_icon_falstad_tailwind.png",
+        "type": "Trait",
         "sort": 2,
-        "abilityId": "Falstad|D1"
+        "abilityId": "Falstad|D1",
+        "abilityLinks": [
+          "Falstad|D1"
+        ]
       },
       {
         "tooltipId": "GenericGiantKiller",
@@ -217,6 +263,7 @@
         "name": "Giant Killer",
         "description": "Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "type": "Passive",
         "sort": 3,
         "abilityId": "Falstad|Passive"
       }
@@ -228,8 +275,12 @@
         "name": "Crippling Hammer",
         "description": "Increases Hammerang's slow from 25% to 50%.",
         "icon": "storm_ui_icon_falstad_hammerang.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Falstad|Q1"
+        "abilityId": "Falstad|Q1",
+        "abilityLinks": [
+          "Falstad|Q1"
+        ]
       },
       {
         "tooltipId": "FalstadTailwindAerieGustsTalent",
@@ -237,8 +288,12 @@
         "name": "Aerie Gusts",
         "description": "Reduces the activation time for Tailwind from 6 to 3 seconds, and increases the Movement Speed bonus from 15% to 25%.",
         "icon": "storm_ui_icon_falstad_tailwind.png",
+        "type": "Trait",
         "sort": 2,
-        "abilityId": "Falstad|D1"
+        "abilityId": "Falstad|D1",
+        "abilityLinks": [
+          "Falstad|D1"
+        ]
       },
       {
         "tooltipId": "FalstadBarrelRollAfterburnerTalent",
@@ -246,8 +301,12 @@
         "name": "Afterburner",
         "description": "Barrel Roll increases Movement Speed by 60%, decaying over 3 seconds.",
         "icon": "storm_ui_icon_falstad_barrelroll.png",
+        "type": "E",
         "sort": 3,
-        "abilityId": "Falstad|E1"
+        "abilityId": "Falstad|E1",
+        "abilityLinks": [
+          "Falstad|E1"
+        ]
       }
     ],
     "20": [
@@ -257,8 +316,12 @@
         "name": "Call of the Wildhammer",
         "description": "Hinterland Blast has double the range and deals 25% more damage.",
         "icon": "storm_ui_icon_falstad_hinterlandblast.png",
+        "type": "Heroic",
         "sort": 1,
-        "abilityId": "Falstad|R1"
+        "abilityId": "Falstad|R1",
+        "abilityLinks": [
+          "Falstad|R1"
+        ]
       },
       {
         "tooltipId": "FalstadWindTunnelTalent",
@@ -266,8 +329,12 @@
         "name": "Wind Tunnel",
         "description": "Mighty Gust creates a wind tunnel for 4 seconds. Enemies caught in the tunnel will periodically be pushed back.",
         "icon": "storm_ui_icon_falstad_mightygust.png",
+        "type": "Heroic",
         "sort": 2,
-        "abilityId": "Falstad|R2"
+        "abilityId": "Falstad|R2",
+        "abilityLinks": [
+          "Falstad|R2"
+        ]
       },
       {
         "tooltipId": "NexusFrenzyTalent",
@@ -275,6 +342,7 @@
         "name": "Nexus Frenzy",
         "description": "Increases Attack Speed by 20% and Attack Range by 1.1.",
         "icon": "storm_ui_icon_talent_autoattack_range.png",
+        "type": "Passive",
         "sort": 3,
         "abilityId": "Falstad|Passive"
       },
@@ -284,8 +352,12 @@
         "name": "Epic Mount",
         "description": "Reduce the cooldown of Flight by 40 seconds, reduce the cast time before flying to 0.5 seconds, and increase the speed by 50%.",
         "icon": "storm_ui_icon_falstad_epicmount.png",
+        "type": "Z",
         "sort": 4,
-        "abilityId": "Falstad|Z1"
+        "abilityId": "Falstad|Z1",
+        "abilityLinks": [
+          "Falstad|Z1"
+        ]
       }
     ]
   }

@@ -79,8 +79,12 @@
         "name": "Astral Presence",
         "description": "Li-Ming's Mana regeneration is increased by 100% while below 25% Mana.",
         "icon": "storm_btn_d3_traits_wizard_astralpresence.png",
+        "type": "Passive",
         "sort": 1,
-        "abilityId": "Li-Ming|Passive"
+        "abilityId": "Li-Ming|D1",
+        "abilityLinks": [
+          "Li-Ming|D1"
+        ]
       },
       {
         "tooltipId": "WizardPowerHungryTalent",
@@ -88,8 +92,12 @@
         "name": "Power Hungry",
         "description": "Regeneration Globes restore 100% more Mana and grant 10% Spell Power for 20 seconds.",
         "icon": "storm_ui_icon_talent_powerhungry.png",
+        "type": "Passive",
         "sort": 2,
-        "abilityId": "Li-Ming|Passive"
+        "abilityId": "Li-Ming|D1",
+        "abilityLinks": [
+          "Li-Ming|D1"
+        ]
       },
       {
         "tooltipId": "WizardForceArmorTalent",
@@ -97,8 +105,12 @@
         "name": "Force Armor",
         "description": "When Magic Missiles damages an enemy Hero, gain 50 Spell Armor against the next enemy Ability, reducing the damage taken by 50%. Gain 1 charge per cast.  Stores up to 4 charges.",
         "icon": "storm_ui_icon_wizard_magicmissiles.png",
+        "type": "Q",
         "sort": 3,
-        "abilityId": "Li-Ming|Q1"
+        "abilityId": "Li-Ming|Q1",
+        "abilityLinks": [
+          "Li-Ming|Q1"
+        ]
       },
       {
         "tooltipId": "WizardAetherWalkerTalent",
@@ -106,8 +118,12 @@
         "name": "Aether Walker",
         "description": "If Li-Ming hasn't taken damage in the last 4 seconds, Teleport costs no mana and its cooldown is decreased by 2 seconds.",
         "icon": "storm_ui_icon_wizard_teleport.png",
+        "type": "E",
         "sort": 4,
-        "abilityId": "Li-Ming|E1"
+        "abilityId": "Li-Ming|E1",
+        "abilityLinks": [
+          "Li-Ming|E1"
+        ]
       }
     ],
     "4": [
@@ -117,8 +133,12 @@
         "name": "Charged Blast",
         "description": "Basic Attacking a target recently hit by a Magic Missile does an extra 87 (+4% per level) damage.",
         "icon": "storm_ui_icon_wizard_magicmissiles.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Li-Ming|Q1"
+        "abilityId": "Li-Ming|Q1",
+        "abilityLinks": [
+          "Li-Ming|Q1"
+        ]
       },
       {
         "tooltipId": "WizardArcaneOrbTriumvirateTalent",
@@ -126,8 +146,12 @@
         "name": "Triumvirate",
         "description": "If Arcane Orb hits an enemy Hero after traveling at least 50% of its base range, the cooldown is reduced by 50%.",
         "icon": "storm_ui_icon_wizard_arcaneorb.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Li-Ming|W1"
+        "abilityId": "Li-Ming|W1",
+        "abilityLinks": [
+          "Li-Ming|W1"
+        ]
       },
       {
         "tooltipId": "WizardDominanceTalent",
@@ -135,8 +159,12 @@
         "name": "Dominance",
         "description": "Takedowns restore 30% of Li-Ming's missing Health.",
         "icon": "storm_ui_icon_wizard_criticalmass.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Li-Ming|D1"
+        "abilityId": "Li-Ming|D1",
+        "abilityLinks": [
+          "Li-Ming|D1"
+        ]
       }
     ],
     "7": [
@@ -146,8 +174,12 @@
         "name": "Seeker",
         "description": "If three Magic Missiles hit the same target, the third one deals an additional 125 (+4% per level) damage.",
         "icon": "storm_ui_icon_wizard_magicmissiles.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Li-Ming|Q1"
+        "abilityId": "Li-Ming|Q1",
+        "abilityLinks": [
+          "Li-Ming|Q1"
+        ]
       },
       {
         "tooltipId": "WizardArcaneOrbZeisVengeanceTalent",
@@ -155,8 +187,12 @@
         "name": "Zei's Vengeance",
         "description": "Increase Arcane Orb's damage increase for distance traveled by 25%. Additionally, reduce its cooldown by 2 seconds.",
         "icon": "storm_ui_icon_wizard_arcaneorb.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Li-Ming|W1"
+        "abilityId": "Li-Ming|W1",
+        "abilityLinks": [
+          "Li-Ming|W1"
+        ]
       },
       {
         "tooltipId": "WizardTeleportCalamityTalent",
@@ -164,8 +200,12 @@
         "name": "Calamity",
         "description": "Teleport does 300 (+3% per level) damage to enemy Heroes near the destination.",
         "icon": "storm_ui_icon_wizard_teleport.png",
+        "type": "E",
         "sort": 3,
-        "abilityId": "Li-Ming|E1"
+        "abilityId": "Li-Ming|E1",
+        "abilityLinks": [
+          "Li-Ming|E1"
+        ]
       }
     ],
     "10": [
@@ -175,9 +215,13 @@
         "name": "Disintegrate",
         "description": "Channel a powerful beam, dealing 440 (+5% per level) damage over 2.6 seconds to enemies while they are in it. The direction of the beam changes with your mouse cursor position.",
         "icon": "storm_ui_icon_wizard_disintegrate.png",
+        "type": "Heroic",
         "sort": 1,
+        "cooldown": 30,
         "abilityId": "Li-Ming|R1",
-        "cooldown": 30
+        "abilityLinks": [
+          "Li-Ming|R1"
+        ]
       },
       {
         "tooltipId": "WizardWaveOfForce",
@@ -185,9 +229,13 @@
         "name": "Wave of Force",
         "description": "Knock away all enemies from an area and deal 160 (+5% per level) damage.",
         "icon": "storm_ui_icon_wizard_waveofforce.png",
+        "type": "Heroic",
         "sort": 2,
+        "cooldown": 20,
         "abilityId": "Li-Ming|R2",
-        "cooldown": 20
+        "abilityLinks": [
+          "Li-Ming|R2"
+        ]
       }
     ],
     "13": [
@@ -197,8 +245,12 @@
         "name": "Cannoneer",
         "description": "When Li-Ming uses an Ability, her next Basic Attack's damage is increased by 75% and deals Spell damage instead of Physical.  Stacks up to 3 times.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "type": "Passive",
         "sort": 1,
-        "abilityId": "Li-Ming|Passive"
+        "abilityId": "Li-Ming|D1",
+        "abilityLinks": [
+          "Li-Ming|D1"
+        ]
       },
       {
         "tooltipId": "WizardGlassCannonTalent",
@@ -206,8 +258,12 @@
         "name": "Glass Cannon",
         "description": "Increase Li-Ming's Spell Power by 15%, but decrease her maximum Health by 15%.",
         "icon": "storm_btn_d3_traits_wizard_glasscannon.png",
+        "type": "Passive",
         "sort": 2,
-        "abilityId": "Li-Ming|Passive"
+        "abilityId": "Li-Ming|D1",
+        "abilityLinks": [
+          "Li-Ming|D1"
+        ]
       },
       {
         "tooltipId": "WizardTeleportIllusionistTalent",
@@ -215,8 +271,12 @@
         "name": "Illusionist",
         "description": "If Li-Ming loses more than 20% of her Health at once, its cooldown is instantly refreshed.  This effect has a 4 second cooldown.  Passive: Increases Teleport range by 50%",
         "icon": "storm_ui_icon_wizard_teleport.png",
+        "type": "E",
         "sort": 3,
-        "abilityId": "Li-Ming|E1"
+        "abilityId": "Li-Ming|E1",
+        "abilityLinks": [
+          "Li-Ming|E1"
+        ]
       }
     ],
     "16": [
@@ -226,8 +286,12 @@
         "name": "Fireflies",
         "description": "Drastically increases Magic Missiles speed. Its cooldown is reduced by 1 second, and its Mana cost is reduced by 5.",
         "icon": "storm_ui_icon_wizard_magicmissiles.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Li-Ming|Q1"
+        "abilityId": "Li-Ming|Q1",
+        "abilityLinks": [
+          "Li-Ming|Q1"
+        ]
       },
       {
         "tooltipId": "WizardMagicMissilesMirrorballTalent",
@@ -235,8 +299,12 @@
         "name": "Mirrorball",
         "description": "Magic Missiles fires an additional 2 missiles, but its Mana cost is increased by 5.",
         "icon": "storm_ui_icon_wizard_magicmissiles_b.png",
+        "type": "Q",
         "sort": 2,
-        "abilityId": "Li-Ming|Q1"
+        "abilityId": "Li-Ming|Q1",
+        "abilityLinks": [
+          "Li-Ming|Q1"
+        ]
       },
       {
         "tooltipId": "WizardArcaneOrbArcaneOrbitTalent",
@@ -244,8 +312,12 @@
         "name": "Arcane Orbit",
         "description": "Arcane Orb travels 25% farther, increasing its maximum distance damage bonus from 270 (+3% per level) to 371 (+3% per level).",
         "icon": "storm_ui_icon_wizard_arcaneorb.png",
+        "type": "W",
         "sort": 3,
-        "abilityId": "Li-Ming|W1"
+        "abilityId": "Li-Ming|W1",
+        "abilityLinks": [
+          "Li-Ming|W1"
+        ]
       },
       {
         "tooltipId": "WizardTeleportDiamondSkinTalent",
@@ -253,8 +325,12 @@
         "name": "Diamond Skin",
         "description": "Teleport grants a Shield equal to 20% of Li-Ming's maximum Health for 4 seconds.",
         "icon": "storm_ui_icon_wizard_teleport.png",
+        "type": "E",
         "sort": 4,
-        "abilityId": "Li-Ming|E1"
+        "abilityId": "Li-Ming|E1",
+        "abilityLinks": [
+          "Li-Ming|E1"
+        ]
       }
     ],
     "20": [
@@ -264,8 +340,12 @@
         "name": "Temporal Flux",
         "description": "Disintegrate gradually slows enemies caught in its beam, to a maximum of 60%.",
         "icon": "storm_ui_icon_wizard_disintegrate.png",
+        "type": "Heroic",
         "sort": 1,
-        "abilityId": "Li-Ming|R1"
+        "abilityId": "Li-Ming|R1",
+        "abilityLinks": [
+          "Li-Ming|R1"
+        ]
       },
       {
         "tooltipId": "WizardWaveOfForceRepulsionTalent",
@@ -273,8 +353,12 @@
         "name": "Repulsion",
         "description": "Increases Wave of Force knockback distance by 150% and increases its cast range by 100%.",
         "icon": "storm_ui_icon_wizard_waveofforce.png",
+        "type": "Heroic",
         "sort": 2,
-        "abilityId": "Li-Ming|R2"
+        "abilityId": "Li-Ming|R2",
+        "abilityLinks": [
+          "Li-Ming|R2"
+        ]
       },
       {
         "tooltipId": "WizardTalRashasElementsTalent",
@@ -282,8 +366,12 @@
         "name": "Tal Rasha's Elements",
         "description": "Casting Abilities increases the damage of the next Ability by 5%, up to 20%.  This bonus is reset when the same Ability is used within a chain.",
         "icon": "storm_btn_d3_traits_wizard_elementalexposure.png",
+        "type": "Passive",
         "sort": 3,
-        "abilityId": "Li-Ming|Passive"
+        "abilityId": "Li-Ming|D1",
+        "abilityLinks": [
+          "Li-Ming|D1"
+        ]
       },
       {
         "tooltipId": "WizardArchonPurePowerHotbar",
@@ -291,6 +379,7 @@
         "name": "Archon: Pure Power",
         "description": "Activate to enter Archon form, allowing Li-Ming to repeatedly use Disintegrate, but be unable to cast other Abilities.",
         "icon": "storm_ui_icon_wizard_archon.png",
+        "type": "Active",
         "sort": 4,
         "abilityId": "Li-Ming|Active"
       }

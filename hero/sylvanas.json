@@ -80,8 +80,12 @@
         "name": "Might of the Banshee Queen",
         "description": "Hitting an enemy Hero with Withering Fire increases Sylvanas's Attack Speed and Spell Power by 5% for 6 seconds, stacking up to 5 times.",
         "icon": "storm_ui_icon_sylvanas_witheringfire.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Sylvanas|Q1"
+        "abilityId": "Sylvanas|Q1",
+        "abilityLinks": [
+          "Sylvanas|Q1"
+        ]
       },
       {
         "tooltipId": "SylvanasShadowDaggerUnfurlingShadows",
@@ -89,9 +93,13 @@
         "name": "Unfurling Shadows",
         "description": "Quest: Each time an enemy Hero with 3 stacks of Banshee's Curse is hit by Shadow Dagger, its damage is permanently increased by 0.5%.",
         "icon": "storm_ui_icon_sylvanas_shadowdagger.png",
+        "type": "W",
         "sort": 2,
+        "isQuest": true,
         "abilityId": "Sylvanas|W1",
-        "isQuest": true
+        "abilityLinks": [
+          "Sylvanas|W1"
+        ]
       },
       {
         "tooltipId": "SylvanasBlackArrowsOverwhelmingAfflictionTalent",
@@ -99,8 +107,12 @@
         "name": "Overwhelming Affliction",
         "description": "Enemy Heroes with 3 stacks of Banshee's Curse are Slowed by 15%. Sylvanas's Basic Attacks against Slowed enemy Heroes deal 1% of their maximum Health as damage.",
         "icon": "storm_ui_icon_sylvanas_blackarrows.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Sylvanas|D1"
+        "abilityId": "Sylvanas|D1",
+        "abilityLinks": [
+          "Sylvanas|D1"
+        ]
       }
     ],
     "4": [
@@ -110,8 +122,12 @@
         "name": "Unstable Poison",
         "description": "Minions that die under the effects of Shadow Dagger or Sylvanas's Traits explode, dealing 130 (+4% per level) damage to nearby Minions, Mercenaries, and Summons.",
         "icon": "storm_ui_icon_sylvanas_shadowdagger.png",
+        "type": "Trait",
         "sort": 1,
-        "abilityId": "Sylvanas|D1"
+        "abilityId": "Sylvanas|W1",
+        "abilityLinks": [
+          "Sylvanas|W1"
+        ]
       },
       {
         "tooltipId": "SylvanasMercenaryQueenTalent",
@@ -119,8 +135,12 @@
         "name": "Mercenary Queen",
         "description": "Friendly non-Elite Mercenaries near Sylvanas deal 60% more damage. Sylvanas Stuns and deals 30% additional damage to Mercenaries with 3 stacks of Banshee's Curse.",
         "icon": "storm_ui_icon_sylvanas_blackarrows.png",
+        "type": "Trait",
         "sort": 2,
-        "abilityId": "Sylvanas|Passive"
+        "abilityId": "Sylvanas|D1",
+        "abilityLinks": [
+          "Sylvanas|D1"
+        ]
       },
       {
         "tooltipId": "SylvanasPossession",
@@ -128,9 +148,10 @@
         "name": "Possession",
         "description": "Activate to force an enemy Minion to fight for Sylvanas's team. Catapults require 3 charges. Stores up to 3 charges.",
         "icon": "storm_ui_icon_sylvanas_possession.png",
+        "type": "Active",
         "sort": 3,
-        "abilityId": "Sylvanas|Active",
-        "cooldown": 8
+        "cooldown": 8,
+        "abilityId": "Sylvanas|Active"
       }
     ],
     "7": [
@@ -140,8 +161,12 @@
         "name": "Barbed Shot",
         "description": "Hitting the same enemy with 5 shots of Withering Fire causes the 5th shot to deal 350% bonus damage.",
         "icon": "storm_ui_icon_sylvanas_witheringfire.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Sylvanas|Q1"
+        "abilityId": "Sylvanas|Q1",
+        "abilityLinks": [
+          "Sylvanas|Q1"
+        ]
       },
       {
         "tooltipId": "SylvanasShadowDaggerLostSoulTalent",
@@ -149,8 +174,12 @@
         "name": "Lost Soul",
         "description": "Basic Attacks against Heroes with 3 stacks of Banshee's Curse reduce the cooldown of Shadow Dagger by 1.75 seconds.",
         "icon": "storm_ui_icon_sylvanas_shadowdagger.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Sylvanas|W1"
+        "abilityId": "Sylvanas|W1",
+        "abilityLinks": [
+          "Sylvanas|W1"
+        ]
       },
       {
         "tooltipId": "SylvanasBlackArrowsFesteringWounds",
@@ -158,8 +187,12 @@
         "name": "Festering Wounds",
         "description": "Increase Haunting Wave's damage by 25%. Haunting Wave applies 3 stacks of Banshee's Curse.",
         "icon": "storm_ui_icon_sylvanas_hauntingwave.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Sylvanas|E1"
+        "abilityId": "Sylvanas|E1",
+        "abilityLinks": [
+          "Sylvanas|E1"
+        ]
       }
     ],
     "10": [
@@ -169,9 +202,13 @@
         "name": "Wailing Arrow",
         "description": "Shoot an arrow that can be reactivated to deal 228 (+4% per level) damage and Silence enemies in an area for 2.5 seconds. The arrow detonates automatically if it reaches maximum range.",
         "icon": "storm_ui_icon_sylvanas_wailingarrow.png",
+        "type": "Heroic",
         "sort": 1,
+        "cooldown": 90,
         "abilityId": "Sylvanas|R1",
-        "cooldown": 90
+        "abilityLinks": [
+          "Sylvanas|R1"
+        ]
       },
       {
         "tooltipId": "SylvanasMindControlMissile",
@@ -179,9 +216,13 @@
         "name": "Mind Control",
         "description": "After 0.25 seconds, fire a missile that Mind Controls the first enemy Hero hit. Heroes hit are Silenced, Slowed by 30%, and forced to walk towards Sylvanas for 1.75 seconds.",
         "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
+        "type": "Heroic",
         "sort": 2,
+        "cooldown": 50,
         "abilityId": "Sylvanas|R2",
-        "cooldown": 50
+        "abilityLinks": [
+          "Sylvanas|R2"
+        ]
       }
     ],
     "13": [
@@ -191,8 +232,12 @@
         "name": "Cold Embrace",
         "description": "Shadow Dagger reduces the Armor of the initial target by 25 and any enemy it spreads to by 10 for 2.5 seconds.",
         "icon": "storm_ui_icon_sylvanas_shadowdagger.png",
+        "type": "W",
         "sort": 1,
-        "abilityId": "Sylvanas|W1"
+        "abilityId": "Sylvanas|W1",
+        "abilityLinks": [
+          "Sylvanas|W1"
+        ]
       },
       {
         "tooltipId": "SylvanasHauntingWaveWindrunnerTalent",
@@ -200,8 +245,12 @@
         "name": "Windrunner",
         "description": "Haunting Wave can be cast a second time for free within 5 seconds after teleporting. Teleporting with Haunting Wave resets the cooldown of Withering Fire.",
         "icon": "storm_ui_icon_sylvanas_hauntingwave.png",
+        "type": "E",
         "sort": 2,
-        "abilityId": "Sylvanas|E1"
+        "abilityId": "Sylvanas|E1",
+        "abilityLinks": [
+          "Sylvanas|E1"
+        ]
       },
       {
         "tooltipId": "SylvanasRemorselessTalent",
@@ -209,6 +258,7 @@
         "name": "Remorseless",
         "description": "Increase Sylvanas's Basic Attack range by 1. Sylvanas's Basic Attacks against enemy Heroes with 3 stacks of Banshee's Curse shoot an untalented shot of Withering Fire. This shot of Withering Fire applies Banshee's Curse.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "type": "Passive",
         "sort": 3,
         "abilityId": "Sylvanas|Passive"
       }
@@ -220,8 +270,12 @@
         "name": "Evasive Fire",
         "description": "Hitting an enemy with Withering Fire grants 6% Movement Speed for 2 seconds, up to 30%. Basic Attacks refresh this duration.",
         "icon": "storm_ui_icon_sylvanas_witheringfire.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Sylvanas|Q1"
+        "abilityId": "Sylvanas|Q1",
+        "abilityLinks": [
+          "Sylvanas|Q1"
+        ]
       },
       {
         "tooltipId": "SylvanasBlackArrowsLifeDrainTalent",
@@ -229,8 +283,12 @@
         "name": "Life Drain",
         "description": "Heal for 15% of damage dealt by Sylvanas to enemies with 3 stacks of Banshee's Curse. Healing is doubled against Heroes.",
         "icon": "storm_ui_icon_talent_autoattack_heal.png",
+        "type": "Passive",
         "sort": 2,
-        "abilityId": "Sylvanas|Passive"
+        "abilityId": "Sylvanas|D1",
+        "abilityLinks": [
+          "Sylvanas|D1"
+        ]
       },
       {
         "tooltipId": "SylvanasWillOfTheForsaken",
@@ -238,9 +296,10 @@
         "name": "Will of the Forsaken",
         "description": "Activate to become Unstoppable and gain 40% Movement Speed for 3 seconds.",
         "icon": "storm_ui_icon_sylvanas_willoftheforsaken.png",
+        "type": "Active",
         "sort": 3,
-        "abilityId": "Sylvanas|Active",
-        "cooldown": 60
+        "cooldown": 60,
+        "abilityId": "Sylvanas|Active"
       }
     ],
     "20": [
@@ -250,8 +309,12 @@
         "name": "Deafening Blast",
         "description": "Enemies at the center of Wailing Arrow's explosion take 50% more damage and are Silenced for twice as long.",
         "icon": "storm_ui_icon_sylvanas_wailingarrow.png",
+        "type": "Heroic",
         "sort": 1,
-        "abilityId": "Sylvanas|R1"
+        "abilityId": "Sylvanas|R1",
+        "abilityLinks": [
+          "Sylvanas|R1"
+        ]
       },
       {
         "tooltipId": "SylvanasDarkLadysCallMindControlTalent",
@@ -259,8 +322,12 @@
         "name": "Dark Lady's Call",
         "description": "Heroes hit by Mind Control have their vision radius greatly reduced for 5 seconds. Mind Control's cooldown is reduced by 30 seconds.",
         "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
+        "type": "Heroic",
         "sort": 2,
-        "abilityId": "Sylvanas|R2"
+        "abilityId": "Sylvanas|R2",
+        "abilityLinks": [
+          "Sylvanas|R2"
+        ]
       },
       {
         "tooltipId": "SylvanasWitheringFireWitheringBarrage",
@@ -268,8 +335,12 @@
         "name": "Withering Barrage",
         "description": "Enemy Heroes hit by Withering Fire reduce its cooldown by 0.75 seconds.",
         "icon": "storm_ui_icon_sylvanas_witheringfire.png",
+        "type": "Q",
         "sort": 3,
-        "abilityId": "Sylvanas|Q1"
+        "abilityId": "Sylvanas|Q1",
+        "abilityLinks": [
+          "Sylvanas|Q1"
+        ]
       },
       {
         "tooltipId": "GenericBoltoftheStormTalent",
@@ -277,9 +348,10 @@
         "name": "Bolt of the Storm",
         "description": "Activate to teleport to a nearby location.",
         "icon": "storm_ui_icon_talent_boltofthestorm.png",
+        "type": "Active",
         "sort": 4,
-        "abilityId": "Sylvanas|Active",
-        "cooldown": 70
+        "cooldown": 70,
+        "abilityId": "Sylvanas|Active"
       }
     ]
   }
