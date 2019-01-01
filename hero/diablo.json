@@ -80,8 +80,13 @@
         "name": "Feast on Fear",
         "description": "Stunning an enemy Hero with Shadow Charge or Overpower heals Diablo for 12% of his maximum Health over 3 seconds.",
         "icon": "storm_ui_icon_diablo_combo_1.png",
+        "type": "Passive",
         "sort": 1,
-        "abilityId": "Diablo|Passive"
+        "abilityId": "Diablo|Q1",
+        "abilityLinks": [
+          "Diablo|Q1",
+          "Diablo|E1"
+        ]
       },
       {
         "tooltipId": "DiabloBlackSoulstoneDevilsDueTalent",
@@ -89,8 +94,12 @@
         "name": "Devil's Due",
         "description": "Black Soulstone increases the effects of Regen Globes and Healing Fountains by 2.25% per Soul.",
         "icon": "storm_ui_icon_diablo_blacksoulstone_var1.png",
+        "type": "Trait",
         "sort": 2,
-        "abilityId": "Diablo|D1"
+        "abilityId": "Diablo|D1",
+        "abilityLinks": [
+          "Diablo|D1"
+        ]
       },
       {
         "tooltipId": "DiabloSoulShield",
@@ -98,9 +107,10 @@
         "name": "Soul Shield",
         "description": "Activate to gain 25 plus 50% of Diablo's current Souls as Spell Armor for 4 seconds.  Every time Diablo damages an enemy Hero, reduce this cooldown by 1 second.",
         "icon": "storm_ui_icon_talent_spellshield.png",
+        "type": "Active",
         "sort": 3,
-        "abilityId": "Diablo|Active",
-        "cooldown": 45
+        "cooldown": 45,
+        "abilityId": "Diablo|Active"
       }
     ],
     "4": [
@@ -110,8 +120,12 @@
         "name": "Sacrificial Soul",
         "description": "Stunning a Hero with Shadow Charge grants 5 Souls and 25 Armor for 4 seconds. While at 100 Souls, increase this Armor to 50.",
         "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Diablo|Q1"
+        "abilityId": "Diablo|Q1",
+        "abilityLinks": [
+          "Diablo|Q1"
+        ]
       },
       {
         "tooltipId": "DiabloFireStompSoulsToTheFlame",
@@ -119,8 +133,12 @@
         "name": "Souls to the Flame",
         "description": "Fire Stomp grants 1 Soul every 3 times it damages an enemy Hero, and heals for an additional 1.3% of its damage dealt per Soul.",
         "icon": "storm_ui_icon_diablo_firestomp.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Diablo|W1"
+        "abilityId": "Diablo|W1",
+        "abilityLinks": [
+          "Diablo|W1"
+        ]
       },
       {
         "tooltipId": "DiabloLifeLeechTalent",
@@ -128,8 +146,12 @@
         "name": "Life Leech",
         "description": "Diablo gains 1 Soul and heals for 1.5% of his maximum Health when Basic Attacking an enemy Hero. While at 100 Souls, increase this healing to 3% of his maximum Health.",
         "icon": "storm_ui_icon_talent_autoattack_heal.png",
+        "type": "Passive",
         "sort": 3,
-        "abilityId": "Diablo|Passive"
+        "abilityId": "Diablo|D1",
+        "abilityLinks": [
+          "Diablo|D1"
+        ]
       }
     ],
     "7": [
@@ -139,8 +161,12 @@
         "name": "Eternal Flames",
         "description": "When Diablo Stuns an enemy Hero with Shadow Charge or Overpower, reset the cooldown of Fire Stomp.",
         "icon": "storm_ui_icon_diablo_firestomp.png",
+        "type": "W",
         "sort": 1,
-        "abilityId": "Diablo|W1"
+        "abilityId": "Diablo|W1",
+        "abilityLinks": [
+          "Diablo|W1"
+        ]
       },
       {
         "tooltipId": "DiabloMalevolence",
@@ -148,8 +174,12 @@
         "name": "Malevolence",
         "description": "Basic Abilities cause Diablo's next Basic Attack within 6 seconds to deal an additional 100 (+4% per level) Spell Damage. Stores up to 2 charges.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "type": "Passive",
         "sort": 2,
-        "abilityId": "Diablo|Passive"
+        "abilityId": "Diablo|D1",
+        "abilityLinks": [
+          "Diablo|D1"
+        ]
       },
       {
         "tooltipId": "DiabloDiabolicalMomentum",
@@ -157,8 +187,12 @@
         "name": "Diabolical Momentum",
         "description": "When Diablo's Basic Attacks damage enemies, reduce the cooldown of his Basic Abilities by 1 second.",
         "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
+        "type": "Passive",
         "sort": 3,
-        "abilityId": "Diablo|Passive"
+        "abilityId": "Diablo|D1",
+        "abilityLinks": [
+          "Diablo|D1"
+        ]
       }
     ],
     "10": [
@@ -168,9 +202,13 @@
         "name": "Apocalypse",
         "description": "Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and Stunning them for 1.75 seconds.",
         "icon": "storm_ui_icon_diablo_apocalypse.png",
+        "type": "Heroic",
         "sort": 1,
+        "cooldown": 90,
         "abilityId": "Diablo|R1",
-        "cooldown": 90
+        "abilityLinks": [
+          "Diablo|R1"
+        ]
       },
       {
         "tooltipId": "DiabloLightningBreath",
@@ -178,9 +216,13 @@
         "name": "Lightning Breath",
         "description": "After 0.5 seconds, become Unstoppable and Channel for up to 4 seconds, dealing 50 (+4% per level) damage every 0.25 seconds to enemies in front of Diablo. Enemies affected are Slowed by 4% for 2 seconds, up to 40%.  Lightning Breath's direction changes with your mouse cursor position.",
         "icon": "storm_ui_icon_diablo_lightningbreath.png",
+        "type": "Heroic",
         "sort": 2,
+        "cooldown": 90,
         "abilityId": "Diablo|R2",
-        "cooldown": 90
+        "abilityLinks": [
+          "Diablo|R2"
+        ]
       }
     ],
     "13": [
@@ -190,9 +232,13 @@
         "name": "Devastating Charge",
         "description": "Increase Shadow Charge's terrain collision damage by 80%.  Quest: Each time an enemy Hero takes terrain collision damage, increase this bonus by 20%, to a maximum of 120%.",
         "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
+        "type": "Q",
         "sort": 1,
+        "isQuest": true,
         "abilityId": "Diablo|Q1",
-        "isQuest": true
+        "abilityLinks": [
+          "Diablo|Q1"
+        ]
       },
       {
         "tooltipId": "DiabloShadowChargeOverpowerCruelty",
@@ -200,8 +246,13 @@
         "name": "Cruelty",
         "description": "Stunning an enemy Hero with Shadow Charge or Overpower increases Diablo's Attack Speed by 50% for 7 seconds, up to 100%.",
         "icon": "storm_ui_icon_diablo_combo_1.png",
+        "type": "Passive",
         "sort": 2,
-        "abilityId": "Diablo|Passive"
+        "abilityId": "Diablo|Q1",
+        "abilityLinks": [
+          "Diablo|Q1",
+          "Diablo|E1"
+        ]
       },
       {
         "tooltipId": "DiabloHellfire",
@@ -209,8 +260,12 @@
         "name": "Hellfire",
         "description": "Each enemy Hero hit by Fire Stomp grants 2% Spell Power for 10 seconds, up to 30%.",
         "icon": "storm_ui_icon_diablo_firestomp.png",
+        "type": "W",
         "sort": 3,
-        "abilityId": "Diablo|W1"
+        "abilityId": "Diablo|W1",
+        "abilityLinks": [
+          "Diablo|W1"
+        ]
       }
     ],
     "16": [
@@ -220,8 +275,13 @@
         "name": "Domination",
         "description": "Casting Overpower resets the cooldown of Shadow Charge.",
         "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Diablo|Q1"
+        "abilityId": "Diablo|Q1",
+        "abilityLinks": [
+          "Diablo|Q1",
+          "Diablo|E1"
+        ]
       },
       {
         "tooltipId": "DiabloDebilitatingFlames",
@@ -229,8 +289,12 @@
         "name": "Debilitating Flames",
         "description": "Enemy Heroes hit by Fire Stomp are Slowed by 5% for 4 seconds, up to 50%. Heroes Slowed by 25% or more by Debilitating Flames deal 50% less damage.",
         "icon": "storm_ui_icon_diablo_firestomp.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Diablo|W1"
+        "abilityId": "Diablo|W1",
+        "abilityLinks": [
+          "Diablo|W1"
+        ]
       },
       {
         "tooltipId": "DiabloOverpowerOverpoweringNightmareTalent",
@@ -238,8 +302,12 @@
         "name": "Overpowering Nightmare",
         "description": "Gain 2 additional charges of Overpower, with a 2 second cooldown between uses.",
         "icon": "storm_ui_icon_diablo_overpower_var1.png",
+        "type": "E",
         "sort": 3,
-        "abilityId": "Diablo|E1"
+        "abilityId": "Diablo|E1",
+        "abilityLinks": [
+          "Diablo|E1"
+        ]
       }
     ],
     "20": [
@@ -249,8 +317,12 @@
         "name": "Dying Breath",
         "description": "Apocalypse's cooldown is reduced by 25 seconds for every enemy Hero hit (to a minimum of 5 seconds) and is cast for free when Diablo dies.",
         "icon": "storm_ui_icon_diablo_apocalypse.png",
+        "type": "Heroic",
         "sort": 1,
-        "abilityId": "Diablo|R1"
+        "abilityId": "Diablo|R1",
+        "abilityLinks": [
+          "Diablo|R1"
+        ]
       },
       {
         "tooltipId": "DiabloLightningBreathHellstormTalent",
@@ -258,8 +330,12 @@
         "name": "Hellstorm",
         "description": "Lightning Breath lasts 200% longer.",
         "icon": "storm_ui_icon_diablo_lightningbreath.png",
+        "type": "Heroic",
         "sort": 2,
-        "abilityId": "Diablo|R2"
+        "abilityId": "Diablo|R2",
+        "abilityLinks": [
+          "Diablo|R2"
+        ]
       },
       {
         "tooltipId": "DiabloLordOfTerror",
@@ -267,9 +343,10 @@
         "name": "Lord of Terror",
         "description": "Activate to steal 10% of the maximum Health of nearby enemy Heroes and gain 5 Souls per Hero hit.",
         "icon": "storm_ui_icon_diablo_lordofterror.png",
+        "type": "Active",
         "sort": 3,
-        "abilityId": "Diablo|Active",
-        "cooldown": 60
+        "cooldown": 60,
+        "abilityId": "Diablo|Active"
       },
       {
         "tooltipId": "DiabloHellgateTalent",
@@ -277,9 +354,10 @@
         "name": "Hellgate",
         "description": "Teleport and place a demonic rune at target location. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and stunning enemies for 1.75 seconds.",
         "icon": "storm_ui_icon_talent_boltofthestorm.png",
+        "type": "Active",
         "sort": 4,
-        "abilityId": "Diablo|Active",
-        "cooldown": 100
+        "cooldown": 100,
+        "abilityId": "Diablo|Active"
       }
     ]
   }
