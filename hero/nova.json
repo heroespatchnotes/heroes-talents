@@ -88,8 +88,12 @@
         "name": "Longshot",
         "description": "Increases the cast range of Pinning Shot by 30%. Pinning Shot also increases the range of Nova's next Basic Attack by 2.",
         "icon": "storm_ui_icon_nova_pinningshot.png",
+        "type": "W",
         "sort": 1,
-        "abilityId": "Nova|W1"
+        "abilityId": "Nova|W1",
+        "abilityLinks": [
+          "Nova|W1"
+        ]
       },
       {
         "tooltipId": "NovaCovertOpsTalent",
@@ -97,8 +101,12 @@
         "name": "Covert Ops",
         "description": "After being Stealthed for 5 seconds, Pinning Shot's Slow is increased to 55% and costs no Mana. Bonus is lost after losing Stealth for 1 second.",
         "icon": "storm_ui_icon_nova_pinningshot_var1.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Nova|W1"
+        "abilityId": "Nova|W1",
+        "abilityLinks": [
+          "Nova|W1"
+        ]
       },
       {
         "tooltipId": "NovaPermanentCloakSniperAdvancedCloakingTalent",
@@ -106,8 +114,12 @@
         "name": "Advanced Cloaking",
         "description": "After being Stealthed for 2 seconds, gain an additional 10% Movement Speed. While Stealthed, regenerate 2 Mana per second.",
         "icon": "storm_ui_icon_nova_personalcloaking.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Nova|D1"
+        "abilityId": "Nova|D1",
+        "abilityLinks": [
+          "Nova|D1"
+        ]
       }
     ],
     "4": [
@@ -117,8 +129,12 @@
         "name": "Rapid Projection",
         "description": "Reduces Holo Decoy's cooldown and Mana cost by 40%.",
         "icon": "storm_ui_icon_nova_holodecoy_var1.png",
+        "type": "E",
         "sort": 1,
-        "abilityId": "Nova|E1"
+        "abilityId": "Nova|E1",
+        "abilityLinks": [
+          "Nova|E1"
+        ]
       },
       {
         "tooltipId": "NovaHoloDecoyHoloStabilityTalent",
@@ -126,8 +142,12 @@
         "name": "Holo Stability",
         "description": "Increase the cast range and duration of Holo Decoy by 100%.",
         "icon": "storm_ui_icon_nova_holodecoy_var2.png",
+        "type": "E",
         "sort": 2,
-        "abilityId": "Nova|E1"
+        "abilityId": "Nova|E1",
+        "abilityLinks": [
+          "Nova|E1"
+        ]
       },
       {
         "tooltipId": "NovaCovertMissionTalent",
@@ -135,6 +155,7 @@
         "name": "Covert Mission",
         "description": "Enemy Minions killed near Nova grant a stack of Bribe. Hero Takedowns grant 10 stacks of Bribe. Use 25 stacks to bribe a Mercenary, instantly defeating them.  Does not work on Elite Mercenaries.  Maximum of 100 stacks. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.",
         "icon": "storm_ui_icon_talent_bribe.png",
+        "type": "Active",
         "sort": 3,
         "abilityId": "Nova|Active"
       }
@@ -146,8 +167,12 @@
         "name": "Perfect Shot",
         "description": "Hitting an enemy Hero with Snipe reduces its cooldown by 4 seconds and refunds its Mana cost.",
         "icon": "storm_ui_icon_nova_snipe.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Nova|Q1"
+        "abilityId": "Nova|Q1",
+        "abilityLinks": [
+          "Nova|Q1"
+        ]
       },
       {
         "tooltipId": "NovaOneintheChamberTalent",
@@ -155,8 +180,12 @@
         "name": "One in the Chamber",
         "description": "After using an Ability, Nova's next Basic Attack within 3 seconds deals 60% additional damage.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "type": "Passive",
         "sort": 2,
-        "abilityId": "Nova|Passive"
+        "abilityId": "Nova|D1",
+        "abilityLinks": [
+          "Nova|D1"
+        ]
       },
       {
         "tooltipId": "NovaAntiArmorShellsTalent",
@@ -164,8 +193,12 @@
         "name": "Anti-Armor Shells",
         "description": "Nova's Basic Attacks deal 250% damage and decrease the Physical Armor of Heroic targets by 15 for 3 seconds, but her Attack Speed is proportionally slower.",
         "icon": "storm_ui_icon_talent_antiarmorshells.png",
+        "type": "Passive",
         "sort": 3,
-        "abilityId": "Nova|Passive"
+        "abilityId": "Nova|D1",
+        "abilityLinks": [
+          "Nova|D1"
+        ]
       }
     ],
     "10": [
@@ -175,9 +208,13 @@
         "name": "Triple Tap",
         "description": "Locks in on the target Hero, then fires 3 shots that hit the first Hero or Structure they come in contact with for 372 (+4% per level) damage each.",
         "icon": "storm_ui_icon_nova_tripletap.png",
+        "type": "Heroic",
         "sort": 1,
+        "cooldown": 100,
         "abilityId": "Nova|R1",
-        "cooldown": 100
+        "abilityLinks": [
+          "Nova|R1"
+        ]
       },
       {
         "tooltipId": "NovaPrecisionStrike",
@@ -185,9 +222,13 @@
         "name": "Precision Strike",
         "description": "After a 1.5 second delay, deals 435 (+4% per level) damage to enemies within an area. Unlimited range.",
         "icon": "storm_ui_icon_nova_orbitalstrike.png",
+        "type": "Heroic",
         "sort": 2,
+        "cooldown": 60,
         "abilityId": "Nova|R2",
-        "cooldown": 60
+        "abilityLinks": [
+          "Nova|R2"
+        ]
       }
     ],
     "13": [
@@ -197,8 +238,12 @@
         "name": "Psionic Efficiency",
         "description": "Snipe's range is increased by 15% and hitting a Hero grants an additional stack of Precision Sniper.",
         "icon": "storm_ui_icon_nova_snipe.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Nova|Q1"
+        "abilityId": "Nova|Q1",
+        "abilityLinks": [
+          "Nova|Q1"
+        ]
       },
       {
         "tooltipId": "NovaPinningShotDoubleTapTalent",
@@ -206,8 +251,12 @@
         "name": "Double Tap",
         "description": "Pinning Shot now has 2 charges, but its cooldown is increased by 2 seconds.",
         "icon": "storm_ui_icon_nova_pinningshot.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Nova|W1"
+        "abilityId": "Nova|W1",
+        "abilityLinks": [
+          "Nova|W1"
+        ]
       },
       {
         "tooltipId": "NovaIonicForceFieldTalent",
@@ -215,8 +264,12 @@
         "name": "Ionic Force Field",
         "description": "Gain 25 Armor for 3 seconds after losing Stealth.",
         "icon": "storm_ui_icon_nova_personalcloaking.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Nova|D1"
+        "abilityId": "Nova|D1",
+        "abilityLinks": [
+          "Nova|D1"
+        ]
       }
     ],
     "16": [
@@ -226,8 +279,12 @@
         "name": "Explosive Round",
         "description": "Snipe also deals 80% damage to enemies near the impact.",
         "icon": "storm_ui_icon_nova_snipe.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Nova|Q1"
+        "abilityId": "Nova|Q1",
+        "abilityLinks": [
+          "Nova|Q1"
+        ]
       },
       {
         "tooltipId": "NovaPinningShotCripplingShotTalent",
@@ -235,8 +292,12 @@
         "name": "Crippling Shot",
         "description": "Pinning Shot lowers a Hero's Armor by 20 for the duration of the Slow, causing them to take 20% increased damage.",
         "icon": "storm_ui_icon_nova_pinningshot.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Nova|W1"
+        "abilityId": "Nova|W1",
+        "abilityLinks": [
+          "Nova|W1"
+        ]
       },
       {
         "tooltipId": "NovaHoloDecoyLethalDecoyTalent",
@@ -244,8 +305,12 @@
         "name": "Lethal Decoy",
         "description": "Increases the damage Holo Decoy deals to 30% of Nova's damage.",
         "icon": "storm_ui_icon_nova_holodecoy.png",
+        "type": "E",
         "sort": 3,
-        "abilityId": "Nova|E1"
+        "abilityId": "Nova|E1",
+        "abilityLinks": [
+          "Nova|E1"
+        ]
       }
     ],
     "20": [
@@ -255,8 +320,12 @@
         "name": "Fast Reload",
         "description": "Triple Tap's cooldown is reset if it kills an enemy Hero.",
         "icon": "storm_ui_icon_nova_tripletap.png",
+        "type": "Heroic",
         "sort": 1,
-        "abilityId": "Nova|R1"
+        "abilityId": "Nova|R1",
+        "abilityLinks": [
+          "Nova|R1"
+        ]
       },
       {
         "tooltipId": "NovaPrecisionStrikePrecisionBarrageTalent",
@@ -264,8 +333,12 @@
         "name": "Precision Barrage",
         "description": "Precision Strike gains a 2nd charge and its coodown is reduced by 30 seconds.",
         "icon": "storm_ui_icon_nova_orbitalstrike.png",
+        "type": "Heroic",
         "sort": 2,
-        "abilityId": "Nova|R2"
+        "abilityId": "Nova|R2",
+        "abilityLinks": [
+          "Nova|R2"
+        ]
       },
       {
         "tooltipId": "NovaGhostProtocolApolloSuitTalent",
@@ -273,8 +346,12 @@
         "name": "Apollo Suit",
         "description": "Reduce the cooldown of Permanent Cloak by 2 seconds.",
         "icon": "storm_ui_icon_nova_personalcloaking.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Nova|D1"
+        "abilityId": "Nova|D1",
+        "abilityLinks": [
+          "Nova|D1"
+        ]
       },
       {
         "tooltipId": "GenericRewindHotbar",
@@ -282,9 +359,10 @@
         "name": "Rewind",
         "description": "Activate to reset the cooldowns of your Basic Abilities.",
         "icon": "storm_ui_icon_talent_rewind.png",
+        "type": "Active",
         "sort": 4,
-        "abilityId": "Nova|Active",
-        "cooldown": 60
+        "cooldown": 60,
+        "abilityId": "Nova|Active"
       }
     ]
   }
