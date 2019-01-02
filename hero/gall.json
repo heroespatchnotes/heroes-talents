@@ -31,7 +31,7 @@
       },
       {
         "name": "Runic Blast",
-        "description": "Detonate Cho's Rune Bomb, dealing 233 (+4% per level) damage around it.",
+        "description": "Detonate Cho's Rune Bomb, dealing 210 (+4% per level) damage around it.",
         "hotkey": "E",
         "abilityId": "Gall|E1",
         "cooldown": 1,
@@ -94,17 +94,25 @@
         "name": "Keep Moving!",
         "description": "Increases the duration of Shove's movement speed bonus by 1 second. Cho's Basic Attacks against Heroes increases the duration of an active Shove by 1 second.",
         "icon": "storm_ui_icon_gall_shove.png",
+        "type": "Z",
         "sort": 1,
-        "abilityId": "Gall|Z1"
+        "abilityId": "Gall|Z1",
+        "abilityLinks": [
+          "Gall|Z1"
+        ]
       },
       {
         "tooltipId": "GallTaskmaster",
         "talentTreeId": "GallTaskmaster",
         "name": "Taskmaster",
-        "description": "Reduces the cooldown of Shove by 10 seconds. Every time Cho is hit by a Hero Basic Attack, reduce the Cooldown of Shove by 1 second.",
+        "description": "Every time Cho is hit by a Hero Basic Attack, reduce the Cooldown of Shove by 1 second.",
         "icon": "storm_ui_icon_gall_shove_a.png",
+        "type": "Z",
         "sort": 2,
-        "abilityId": "Gall|Z1"
+        "abilityId": "Gall|Z1",
+        "abilityLinks": [
+          "Gall|Z1"
+        ]
       },
       {
         "tooltipId": "GallWeSeeYou",
@@ -112,8 +120,12 @@
         "name": "We See You!",
         "description": "Eye of Kilrogg's cooldown is decreased by 15 seconds and its range is increased by 33%.",
         "icon": "storm_ui_icon_gall_eyeofkilrogg.png",
+        "type": "Passive",
         "sort": 3,
-        "abilityId": "Gall|11"
+        "abilityId": "Gall|11",
+        "abilityLinks": [
+          "Gall|11"
+        ]
       }
     ],
     "4": [
@@ -123,8 +135,12 @@
         "name": "Double Back",
         "description": "Activate Dread Orb before the second bounce ends to reverse the direction of the third bounce.  Passive: The third bounce of Dread Orb deals 200% more damage to Non-Heroic targets.",
         "icon": "storm_ui_icon_gall_chaoscollision.png",
+        "type": "W",
         "sort": 1,
-        "abilityId": "Gall|W1"
+        "abilityId": "Gall|W1",
+        "abilityLinks": [
+          "Gall|W1"
+        ]
       },
       {
         "tooltipId": "GallRunicPersistenceTalent",
@@ -132,18 +148,26 @@
         "name": "Runic Persistence",
         "description": "Runic Blast deals an additional 180 (+4% per level) damage over 3 seconds in an area around the detonation point.",
         "icon": "storm_ui_icon_gall_detonaterunes.png",
+        "type": "E",
         "sort": 2,
-        "abilityId": "Gall|E1"
+        "abilityId": "Gall|E1",
+        "abilityLinks": [
+          "Gall|E1"
+        ]
       },
       {
         "tooltipId": "GallBombsAwayTalent",
         "talentTreeId": "GallBombsAway",
         "name": "Bomb's Away",
-        "description": "Quest: Damaging a Hero with Runic Blast increases its damage by 5.  Reward: After damaging 20 Heroes, the range and speed of Cho's Rune Bomb is increased by 20%.",
+        "description": "Quest: Damaging a Hero with Runic Blast increases its damage by 5, up to 200.  Reward: After damaging 20 Heroes, the range and speed of Cho's Rune Bomb is increased by 20%.",
         "icon": "storm_ui_icon_cho_runebomb_var1.png",
+        "type": "E",
         "sort": 3,
+        "isQuest": true,
         "abilityId": "Gall|E1",
-        "isQuest": true
+        "abilityLinks": [
+          "Gall|E1"
+        ]
       }
     ],
     "7": [
@@ -153,18 +177,26 @@
         "name": "Edge of Madness",
         "description": "Every subsequent hit of Shadowflame against the same enemy Hero deals an additional 8% damage, to a maximum of 40%. These bonuses are lost if the Hero has not been hit for 4 seconds.",
         "icon": "storm_ui_icon_gall_shadowflame.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Gall|Q1"
+        "abilityId": "Gall|Q1",
+        "abilityLinks": [
+          "Gall|Q1"
+        ]
       },
       {
         "tooltipId": "GallDoubleTroubleTalent",
         "talentTreeId": "GallDoubleTrouble",
         "name": "Double Trouble",
-        "description": "Quest: If Shadowflame hits an enemy Hero that is afflicted by Cho's Consuming Blaze, its cooldown is reduced by 1 second.  Reward: After hitting 20 Heroes, Shadowflame's cooldown is instead permanently reduced by 1 second.",
+        "description": "Quest: If Shadowflame hits an enemy Hero that is afflicted by Cho's Consuming Blaze, its cooldown is reduced by 0.5 seconds.  Reward: After hitting 20 Heroes, Shadowflame's cooldown is instead permanently reduced by 0.5 seconds.",
         "icon": "storm_ui_icon_gall_shadowflame_var1.png",
+        "type": "Q",
         "sort": 2,
+        "isQuest": true,
         "abilityId": "Gall|Q1",
-        "isQuest": true
+        "abilityLinks": [
+          "Gall|Q1"
+        ]
       },
       {
         "tooltipId": "GallOgreRampage",
@@ -172,8 +204,12 @@
         "name": "Ogre Rampage",
         "description": "Gall's Basic Abilities cooldown 75% faster for 5 seconds after Cho activates Ogre Hide.",
         "icon": "storm_ui_icon_gall_ogrerage.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Gall|D1"
+        "abilityId": "Gall|D1",
+        "abilityLinks": [
+          "Gall|D1"
+        ]
       }
     ],
     "10": [
@@ -183,9 +219,13 @@
         "name": "Shadow Bolt Volley",
         "description": "After 1 second, unleash 20 Shadow Bolts over 4 seconds, each dealing 87 (+4% per level) damage to the first target hit. The bolts fire towards your mouse.",
         "icon": "storm_ui_icon_gall_shadowboltvolley.png",
+        "type": "Heroic",
         "sort": 1,
+        "cooldown": 60,
         "abilityId": "Gall|R1",
-        "cooldown": 60
+        "abilityLinks": [
+          "Gall|R1"
+        ]
       },
       {
         "tooltipId": "GallTwistingNether",
@@ -193,9 +233,13 @@
         "name": "Twisting Nether",
         "description": "After 1 second, nearby enemies are slowed by 50% while Gall channels, up to 5 seconds. Activate to deal 353 (+5% per level) damage.",
         "icon": "storm_ui_icon_gall_twistingnether_a.png",
+        "type": "Heroic",
         "sort": 2,
+        "cooldown": 80,
         "abilityId": "Gall|R2",
-        "cooldown": 80
+        "abilityLinks": [
+          "Gall|R2"
+        ]
       }
     ],
     "13": [
@@ -205,8 +249,12 @@
         "name": "Searing Shadows",
         "description": "Enemy Heroes hit by Shadowflame take an additional 2% of their maximum Health as damage.",
         "icon": "storm_ui_icon_gall_shadowflame.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Gall|Q1"
+        "abilityId": "Gall|Q1",
+        "abilityLinks": [
+          "Gall|Q1"
+        ]
       },
       {
         "tooltipId": "GallRisingDreadTalent",
@@ -214,8 +262,12 @@
         "name": "Rising Dread",
         "description": "Each bounce of Dread Orb increases its radius by 25% and damage by 25%.",
         "icon": "storm_ui_icon_gall_chaoscollision.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Gall|W1"
+        "abilityId": "Gall|W1",
+        "abilityLinks": [
+          "Gall|W1"
+        ]
       },
       {
         "tooltipId": "GallTwilightNovaTalent",
@@ -223,8 +275,12 @@
         "name": "Twilight Nova",
         "description": "After the first bounce of Dread Orb, 2 extra bombs bounce to the sides once.",
         "icon": "storm_ui_icon_gall_chaoscollision_var1.png",
+        "type": "W",
         "sort": 3,
-        "abilityId": "Gall|W1"
+        "abilityId": "Gall|W1",
+        "abilityLinks": [
+          "Gall|W1"
+        ]
       }
     ],
     "16": [
@@ -234,8 +290,12 @@
         "name": "Shadowsnare",
         "description": "Shadowflame slows enemy Heroes by 10% for 4 seconds. This effect can stack up to 3 times.",
         "icon": "storm_ui_icon_gall_shadowflame.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Gall|Q1"
+        "abilityId": "Gall|Q1",
+        "abilityLinks": [
+          "Gall|Q1"
+        ]
       },
       {
         "tooltipId": "GallLeadenOrb",
@@ -243,8 +303,12 @@
         "name": "Leaden Orb",
         "description": "Dread Orb stuns enemy Heroes for 0.5 seconds.",
         "icon": "storm_ui_icon_gall_chaoscollision.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Gall|W1"
+        "abilityId": "Gall|W1",
+        "abilityLinks": [
+          "Gall|W1"
+        ]
       },
       {
         "tooltipId": "GallDeafeningBlast",
@@ -252,8 +316,12 @@
         "name": "Deafening Blast",
         "description": "Runic Blast silences enemy Heroes for 1.25 seconds.",
         "icon": "storm_ui_icon_gall_detonaterunes.png",
+        "type": "E",
         "sort": 3,
-        "abilityId": "Gall|E1"
+        "abilityId": "Gall|E1",
+        "abilityLinks": [
+          "Gall|E1"
+        ]
       }
     ],
     "20": [
@@ -263,8 +331,12 @@
         "name": "Shadowfury",
         "description": "Shadow Bolt Volley hits all enemies in its path.",
         "icon": "storm_ui_icon_gall_shadowboltvolley.png",
+        "type": "Heroic",
         "sort": 1,
-        "abilityId": "Gall|R1"
+        "abilityId": "Gall|R1",
+        "abilityLinks": [
+          "Gall|R1"
+        ]
       },
       {
         "tooltipId": "GallShiftingNether",
@@ -272,8 +344,12 @@
         "name": "Shifting Nether",
         "description": "Twisting Nether now teleports Cho to a targeted location before it begins channeling.",
         "icon": "storm_ui_icon_gall_twistingnether_a.png",
+        "type": "Heroic",
         "sort": 2,
-        "abilityId": "Gall|R2"
+        "abilityId": "Gall|R2",
+        "abilityLinks": [
+          "Gall|R2"
+        ]
       },
       {
         "tooltipId": "GallTheWillofGall",
@@ -281,8 +357,12 @@
         "name": "The Will of Gall",
         "description": "Takedowns permanently increase the bonus of Ogre Rage by 2%.",
         "icon": "storm_ui_icon_gall_ogrerage.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Gall|D1"
+        "abilityId": "Gall|D1",
+        "abilityLinks": [
+          "Gall|D1"
+        ]
       },
       {
         "tooltipId": "GallPsychoticBreakTalent",
@@ -290,6 +370,7 @@
         "name": "Psychotic Break",
         "description": "Upon dying, Gall gains Ogre Rage and can use Abilities for 10 seconds.",
         "icon": "storm_ui_icon_gall_psychoticbreak.png",
+        "type": "Passive",
         "sort": 4,
         "abilityId": "Gall|Passive"
       }
