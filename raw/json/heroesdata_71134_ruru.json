@@ -14,21 +14,30 @@
       ],
       "hearth": [
         {
-          "nameId": "PortBackToBase",
-          "name": "Камень возвращения",
-          "shortTooltipId": "PortBackToBase",
-          "fullTooltipId": "PortBackToBase",
+          "nameId": "Hearthstone",
+          "name": "Возвращение",
+          "shortTooltipId": "Hearthstone",
+          "fullTooltipId": "Hearthstone",
           "icon": "storm_ui_icon_miscrune_1.png",
-          "fullTooltip": "После подготовки длительностью 6 сек. переносит вашего героя к алтарю, моментально восполняя 1125 ед. здоровья и 150 ед. маны.",
+          "fullTooltip": "После поддержания в течение 6 сек. телепортирует героя в Зал Штормов, моментально восполняя 1125 ед. здоровья и 150 ед. маны.",
           "abilityType": "B"
         },
         {
-          "nameId": "PortBackToBaseNoMana",
-          "name": "Hearthstone",
-          "shortTooltipId": "PortBackToBaseNoMana",
-          "fullTooltipId": "PortBackToBaseNoMana",
+          "nameId": "HearthstoneNoMana",
+          "name": "Возвращение",
+          "shortTooltipId": "HearthstoneNoMana",
+          "fullTooltipId": "HearthstoneNoMana",
           "icon": "storm_ui_icon_miscrune_1.png",
-          "fullTooltip": "После подготовки длительностью 6 сек. переносит вашего героя к алтарю, моментально восполняя 1125 ед. здоровья.",
+          "fullTooltip": "После поддержания в течение 6 сек. телепортирует героя в Зал Штормов, моментально восполняя 1125 ед. здоровья.",
+          "abilityType": "B"
+        },
+        {
+          "nameId": "HearthstoneBrew",
+          "name": "Возвращение",
+          "shortTooltipId": "HearthstoneBrew",
+          "fullTooltipId": "HearthstoneBrew",
+          "icon": "storm_ui_icon_miscrune_1.png",
+          "fullTooltip": "После поддержания в течение 6 сек. телепортирует героя в Зал Штормов, моментально восполняя 1125 ед. здоровья и 150 ед. отвара.",
           "abilityType": "B"
         }
       ]
@@ -50,7 +59,7 @@
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "AbathurDeepTunnel",
-    "hearthLinkId": "PortBackToBaseNoMana",
+    "hearthLinkId": "HearthstoneNoMana",
     "description": "Уникальный герой, способный влиять на ход матча из любого уголка поля боя.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_infestor.png",
@@ -134,7 +143,7 @@
           "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
           "cooldownTooltip": "Время восстановления: 90 сек.",
           "shortTooltip": "Превращает воина или саранчида в мощного монстра.",
-          "fullTooltip": "Превращает союзного воина или саранчида в монстра. Когда рядом с монстром погибает воин противника, он получает бонус в размере 5% к запасу здоровья и 5% к урону от автоатак. Бонус суммируется до 40 раз. Монстр получает на 50% меньше урона от всех, кроме героев.  Используя на монстре «Симбионта», Абатур получает возможность им управлять. При повторном использовании этой способности автоматически помещает на монстра симбионта.",
+          "fullTooltip": "Превращает союзного воина или саранчида в монстра. Когда рядом с монстром погибает воин противника, он получает бонус в размере 2% к запасу здоровья и 2% к урону от автоатак. Бонус суммируется до 40 раз. Монстр получает на 50% меньше урона от всех, кроме героев.  Используя на монстре «Симбионта», Абатур может им управлять. При повторном использовании автоматически помещает на монстра симбионта.",
           "abilityType": "Heroic"
         }
       ],
@@ -369,7 +378,7 @@
           "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
           "cooldownTooltip": "Время восстановления: 90 сек.",
           "shortTooltip": "Превращает воина или саранчида в мощного монстра.",
-          "fullTooltip": "Превращает союзного воина или саранчида в монстра. Когда рядом с монстром погибает воин противника, он получает бонус в размере 5% к запасу здоровья и 5% к урону от автоатак. Бонус суммируется до 40 раз. Монстр получает на 50% меньше урона от всех, кроме героев.  Используя на монстре «Симбионта», Абатур получает возможность им управлять. При повторном использовании этой способности автоматически помещает на монстра симбионта.",
+          "fullTooltip": "Превращает союзного воина или саранчида в монстра. Когда рядом с монстром погибает воин противника, он получает бонус в размере 2% к запасу здоровья и 2% к урону от автоатак. Бонус суммируется до 40 раз. Монстр получает на 50% меньше урона от всех, кроме героев.  Используя на монстре «Симбионта», Абатур может им управлять. При повторном использовании автоматически помещает на монстра симбионта.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -631,7 +640,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Убийца, полагающийся на комбинированные атаки. Может перемещать противников и жестоко наказывает их за ошибки.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_alarak.png",
@@ -1086,7 +1095,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Лекарь, который делится здоровьем с союзниками и усиливает свои способности, превращаясь в дракона.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_alexstrasza.png",
@@ -1614,7 +1623,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Лекарь, восполняющий большой объем здоровья за короткое время. Специализируется на снайперском исцелении союзников и блокировании исцеления противников.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_ana.png",
@@ -2084,7 +2093,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Танк, особенно эффективно действующий против магов.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_anubarak.png",
@@ -2537,7 +2546,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Мощный рубака, наносящий огромный урон командам, неспособным его нейтрализовать.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_artanis.png",
@@ -3024,7 +3033,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Танк, особенно эффективный против героев ближнего боя, полагающихся на автоатаки. Способен замедлять противников.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_arthas.png",
@@ -3123,7 +3132,7 @@
           "energyTooltip": "Мана: 100",
           "cooldownTooltip": "Время восстановления: 100 сек.",
           "shortTooltip": "Выводит из строя противников и строения.",
-          "fullTooltip": "Наносит 230 (+4% за уровень) ед. урона и замедляет противников на 60% на 4 сек. Также обезвреживает цели, не являющиеся героями, включая строения, на 20 сек.",
+          "fullTooltip": "Наносит 230 (+4% за уровень) ед. урона и замедляет противников на 60% на 4 сек. Также обезвреживает воинов, наемников, монстров и строения на 20 сек.",
           "abilityType": "Heroic"
         }
       ],
@@ -3297,7 +3306,7 @@
           "energyTooltip": "Мана: 100",
           "cooldownTooltip": "Время восстановления: 100 сек.",
           "shortTooltip": "Выводит из строя противников и строения.",
-          "fullTooltip": "Наносит 230 (+4% за уровень) ед. урона и замедляет противников на 60% на 4 сек. Также обезвреживает цели, не являющиеся героями, включая строения, на 20 сек.",
+          "fullTooltip": "Наносит 230 (+4% за уровень) ед. урона и замедляет противников на 60% на 4 сек. Также обезвреживает воинов, наемников, монстров и строения на 20 сек.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -3468,7 +3477,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBaseNoMana",
+    "hearthLinkId": "HearthstoneNoMana",
     "description": "Лекарь, который прекрасно показывает себя в команде с героями, наносящими большой урон.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_auriel.png",
@@ -3603,7 +3612,7 @@
           "fullTooltipId": "AurielIncreasingClaritySacredSweepTalent",
           "icon": "storm_ui_icon_auriel_angelicsweep_a.png",
           "shortTooltip": "Задача: поражайте героев, чтобы увеличить урон в центре области действия.",
-          "fullTooltip": "Задача: каждый раз, когда вражеский герой попадает в центр области действия «Освящающего взмаха», урон, наносимый по целям в центре области действия этой способности, увеличивается на 2 ед., вплоть до 50 ед.   Награда: после 25 попаданий по героям бонус к урону в центре области действия увеличится до 150 ед.",
+          "fullTooltip": "Задача: каждый раз, когда вражеский герой попадает в центр области действия «Освящающего взмаха», урон, наносимый по целям в центре области действия этой способности, увеличивается на 2 ед., вплоть до 50 ед.   Награда: после 25 попаданий по героям бонус к урону в центре области действия увеличится до 180 ед.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 2,
@@ -3925,7 +3934,7 @@
     "type": "Дальний бой",
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Призывает на помощь прислужников и наносит большой урон в дальнем бою.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_azmodan.png",
@@ -4379,7 +4388,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Танк дальнего боя, который первым вступает в битву и наносит урон по области с помощью огнеметов.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_firebat.png",
@@ -4841,7 +4850,7 @@
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "BrightwingPhaseShift",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Лекарь, который может телепортироваться к союзникам и лучше всего раскрывается на больших полях боя.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_faeriedragon.png",
@@ -5311,7 +5320,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Убийца, особенно эффективная против героев, полагающихся на автоатаки.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_d2amazonf.png",
@@ -5550,7 +5559,7 @@
           "fullTooltipId": "AmazonAvoidanceWarTraveler",
           "icon": "storm_ui_icon_cassia_avoidance.png",
           "shortTooltip": "«Ускользание» ускоряет передвижение.",
-          "fullTooltip": "Повышает скорость передвижения на 4% за каждые 1 сек. действия «Ускользания», вплоть до 20%. Бонус обнуляется, если Кассия останавливается или использует способность.",
+          "fullTooltip": "Повышает скорость передвижения на 8% за каждые 1 сек. действия «Ускользания», вплоть до 20%. Бонус обнуляется, если Кассия останавливается или использует способность.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -5749,7 +5758,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "HearthstoneBrew",
     "description": "Мощный рубака, который лучше всего раскрывается против команд с невысокой мобильностью.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_chen.png",
@@ -5998,7 +6007,7 @@
           "fullTooltipId": "ChenPurifyingBrew",
           "icon": "storm_ui_icon_chen_fortifyingbrew_b.png",
           "shortTooltip": "«Укрепляющий отвар» ослабляет эффекты контроля.",
-          "fullTooltip": "Следующий примененный к Чэню эффект оглушения или немоты действует на 75% меньше времени, а также восстанавливает «Укрепляющий отвар». Этот эффект срабатывает не чаще одного раза в 15 сек. Пока Чэнь поддерживает «Укрепляющий отвар», он получает 40 ед. энергетической брони, уменьшающей урон, получаемый от способностей, на 40%.",
+          "fullTooltip": "Следующий примененный к Чэню эффект оглушения или немоты длится на 75% короче, а также восстанавливает «Укрепляющий отвар». Срабатывает не чаще одного раза в 15 сек. Пока на Чэня действует щит от «Укрепляющего отвара», он получает 40 ед. энергетической брони, уменьшающей получаемый урон от способностей на 40%.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -6341,7 +6350,7 @@
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBaseNoMana",
+    "hearthLinkId": "HearthstoneNoMana",
     "description": "Первая голова двухголового огра. Чо контролирует тело Чо'Галла.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_cho.png",
@@ -6351,9 +6360,9 @@
       "target": "ui_targetportrait_hero_cho.png"
     },
     "life": {
-      "amount": 2950.0,
+      "amount": 2750.0,
       "scale": 0.045,
-      "regenRate": 6.1445,
+      "regenRate": 5.7304,
       "regenScale": 0.045
     },
     "roles": [
@@ -6406,7 +6415,7 @@
           "icon": "storm_ui_icon_Cho_RuneBomb.png",
           "cooldownTooltip": "Время восстановления: 8 сек.",
           "shortTooltip": "Чо бросает рунную бомбу. Галл может взорвать ее и нанести урон по области.",
-          "fullTooltip": "Чо бросает бомбу, наносящую 91 (+4% за уровень) ед. урона всем противникам на своем пути. Галл может применить «Рунный взрыв», чтобы вызвать ее детонацию и нанести 233 (+4% за уровень) ед. урона по области.",
+          "fullTooltip": "Чо бросает бомбу, наносящую 91 (+4% за уровень) ед. урона всем противникам на своем пути. Галл может применить «Рунный взрыв», чтобы вызвать ее детонацию и нанести 210 (+4% за уровень) ед. урона по области.",
           "abilityType": "E"
         }
       ],
@@ -6770,7 +6779,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Маг, который наносит большой урон в дальнем бою, но требует грамотного расчета времени и состава команды.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_chromie.png",
@@ -7071,13 +7080,13 @@
       ],
       "level13": [
         {
-          "nameId": "ChromiePortBackToBaseByeBye",
+          "nameId": "ChromieHearthstoneByeBye",
           "name": "Пока-пока!",
-          "shortTooltipId": "ChromiePortBackToBaseByeBye",
-          "fullTooltipId": "ChromiePortBackToBaseByeBye",
+          "shortTooltipId": "ChromieHearthstoneByeBye",
+          "fullTooltipId": "ChromieHearthstoneByeBye",
           "icon": "storm_ui_icon_Chromie_Poof.png",
-          "shortTooltip": "Ускоряет применение камня возвращения.",
-          "fullTooltip": "Уменьшает время применения камня возвращения на 75%. Получение урона не прерывает его применение.",
+          "shortTooltip": "Ускоряет «Возвращение».",
+          "fullTooltip": "Применение «Возвращения» занимает на 75% меньше времени и не прерывается при получении урона.",
           "abilityType": "Active",
           "sort": 1
         },
@@ -7228,7 +7237,7 @@
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Лекарь, восполняющий большой объем здоровья за короткое время. Может готовить поле боя к будущей схватке, а также использовать против вражеской команды эффекты контроля.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_deckard.png",
@@ -7368,7 +7377,7 @@
           "fullTooltipId": "DeckardFieldStudy",
           "icon": "storm_ui_icon_deckard_scroll_of_sealing_a.png",
           "shortTooltip": "«Свиток запечатывания» может увеличить силу способностей.",
-          "fullTooltip": "Увеличивает силу способностей на 15% на 14 сек. (вплоть до 30%) за каждого пораженного «Свитком запечатывания» героя.",
+          "fullTooltip": "Увеличивает силу способностей на 20% на 14 сек. (вплоть до 40%) за каждого пораженного «Свитком запечатывания» героя.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -7431,7 +7440,7 @@
           "toggleCooldown": 0.5,
           "cooldownTooltip": "Время восстановления: 30 сек.",
           "shortTooltip": "Следующий «Хорадримский куб» создает малые зелья здоровья.",
-          "fullTooltip": "Следующий «Хорадримский куб» после использования «Рубина» создает 3 малых зелья здоровья за каждого пораженного героя. Эти зелья существуют в течение 10 сек. и восполняют подбирающим их союзным героям 205 (+4% за уровень) ед. здоровья.  Одновременно можно использовать только 1 самоцвет.",
+          "fullTooltip": "Следующий «Хорадримский куб» после использования «Рубина» создает 3 малых зелья здоровья за каждого пораженного героя. Эти зелья существуют в течение 10 сек. и восполняют подбирающим их союзным героям 220 (+4% за уровень) ед. здоровья.  Одновременно можно использовать только 1 самоцвет.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3,
@@ -7531,7 +7540,7 @@
           "fullTooltipId": "DeckardSuperHealingPotion",
           "icon": "storm_ui_icon_deckard_super_healing_potion.png",
           "shortTooltip": "«Зелье здоровья» спустя некоторое время восполняет больше здоровья.",
-          "fullTooltip": "Если «Зелье здоровья» просуществовало не менее 2 сек., оно восполняет на 80% больше здоровья.",
+          "fullTooltip": "Если «Зелье здоровья» просуществовало не менее 2 сек., оно восполняет на 100% больше здоровья.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -7545,7 +7554,7 @@
           "fullTooltipId": "DeckardPotionOfRevival",
           "icon": "storm_ui_icon_deckard_unstable_healing_potion.png",
           "shortTooltip": "«Зелье здоровья» действует по области.",
-          "fullTooltip": "При подборе «Зелье здоровья» также исцеляет других находящихся рядом союзных героев, восполняя им 35% от базового объема исцеления.",
+          "fullTooltip": "При подборе «Зелье здоровья» также исцеляет других находящихся рядом союзных героев, восполняя им 45% от базового объема исцеления.",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -7588,7 +7597,7 @@
           "fullTooltipId": "DeckardSafetyInNumbers",
           "icon": "storm_ui_icon_deckard_study_time.png",
           "shortTooltip": "Союзники усиливают «Стойкость духа».",
-          "fullTooltip": "Когда рядом с Декардом находится 3 союзных героя или более, «Стойкость духа» дополнительно дает 10 ед. брони и ускоряет восстановление базовых способностей еще на 50%.",
+          "fullTooltip": "Когда рядом с Декардом находится 3 союзных героя или более, «Стойкость духа» дополнительно дает 15 ед. брони и ускоряет восстановление базовых способностей еще на 50%.",
           "abilityType": "Trait",
           "sort": 2
         },
@@ -7680,7 +7689,7 @@
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "DehakaBrushstalker",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Рубака, который может оказаться где угодно на поле боя и легко расправляется с большими скоплениями воинов.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_dehaka.png",
@@ -8151,7 +8160,7 @@
     "type": "ближний бой",
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Агрессивный танк, способный нанести вражеской команде непоправимый ущерб комбинированными атаками.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_diablo.png",
@@ -8608,7 +8617,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "DVaMechanizedWalker",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Хорошо защищенная рубака, наносящая внушительный урон и способная оттеснить врагов от союзников.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_dva.png",
@@ -8642,7 +8651,7 @@
         "nameId": "DVaMechWeapon",
         "range": 3.75,
         "period": 0.25,
-        "damage": 24.0,
+        "damage": 26.0,
         "damageScale": 0.04
       }
     ],
@@ -9164,7 +9173,7 @@
     "type": "ближний бой",
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Танк, располагающий множеством способов поддержать союзников в бою.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_etc.png",
@@ -9625,7 +9634,7 @@
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "FalstadFlight",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Убийца, способный пролетать большие расстояния. Особенно силен на больших полях боя.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_gryphon_rider.png",
@@ -10083,7 +10092,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Убийца со стабильно высоким уроном и восстанавливающимся щитом, который дает преимущество в дуэлях.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_fenix.png",
@@ -10588,7 +10597,7 @@
           "icon": "storm_ui_icon_Gall_DetonateRunes.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Взрывает «Рунную бомбу» Чо, нанося урон по области.",
-          "fullTooltip": "Галл взрывает «Рунную бомбу» Чо, нанося 233 (+4% за уровень) ед. урона находящимся рядом противникам.",
+          "fullTooltip": "Галл взрывает «Рунную бомбу» Чо, нанося 210 (+4% за уровень) ед. урона находящимся рядом противникам.",
           "abilityType": "E"
         }
       ],
@@ -10685,7 +10694,7 @@
           "fullTooltipId": "GallTaskmaster",
           "icon": "storm_ui_icon_gall_shove_a.png",
           "shortTooltip": "Ускоряет восстановление «Толчка».",
-          "fullTooltip": "Сокращает время восстановления «Толчка» на 10 сек. Каждая автоатака вражеского героя, попавшая по Чо, сокращает время восстановления «Толчка» еще на 1 сек.",
+          "fullTooltip": "Каждая автоатака героя, попавшая по Чо, сокращает время восстановления «Толчка» на 1 сек.",
           "abilityType": "Z",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -10743,7 +10752,7 @@
           "fullTooltipId": "GallBombsAwayTalent",
           "icon": "storm_ui_icon_cho_runebomb_var1.png",
           "shortTooltip": "Задача: усильте «Рунный взрыв».",
-          "fullTooltip": "Задача: каждый раз, когда «Рунный взрыв» попадает по герою, урон от него увеличивается на 5 ед.  Награда: после 20 попаданий по героям дальность действия и скорость «Рунной бомбы» Чо увеличатся на 20%.",
+          "fullTooltip": "Задача: каждый раз, когда «Рунный взрыв» попадает по герою, урон от него увеличивается на 5 ед., вплоть до 200 ед.  Награда: после 20 попаданий по героям дальность действия и скорость «Рунной бомбы» Чо увеличатся на 20%.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 3,
@@ -10774,7 +10783,7 @@
           "fullTooltipId": "GallDoubleTroubleTalent",
           "icon": "storm_ui_icon_Gall_Shadowflame_var1.png",
           "shortTooltip": "Задача: ускорьте восстановление «Пламени Тьмы».",
-          "fullTooltip": "Задача: при попадании «Пламени Тьмы» по подожженным «Всепоглощающим жаром» Чо героям время восстановления «Пламени Тьмы» сокращается на 1 сек.  Награда: после 20 попаданий по героям время восстановления «Пламени Тьмы» вместо этого уменьшится на 1 сек. до конца матча.",
+          "fullTooltip": "Задача: при попадании «Пламени Тьмы» по подожженным «Всепоглощающим жаром» Чо героям время восстановления «Пламени Тьмы» сокращается на 0 сек.  Награда: после 20 попаданий по героям время восстановления «Пламени Тьмы» вместо этого уменьшится на 0.5 сек. до конца матча.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 2,
@@ -10992,7 +11001,7 @@
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Мощный танк, который врывается в битву и изолирует противников от группы, чтобы их было легче убить.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_garrosh.png",
@@ -11244,7 +11253,10 @@
           "shortTooltip": "«Силовой прием» снижает эффективность исцеления врагов.",
           "fullTooltip": "«Силовой прием» снижает эффективность получаемого пораженным героем исцеления на 50% на 4 сек.",
           "abilityType": "Active",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "GarroshArmorUpBodyCheck"
+          ]
         },
         {
           "nameId": "GarroshWreckingBallIntotheFray",
@@ -11444,7 +11456,10 @@
           "shortTooltip": "«Силовой прием» получает дополнительный заряд.",
           "fullTooltip": "«Силовой прием» получает второй заряд. Пока бонус к броне от умения «Поднять щит!» превышает 25 ед., «Силовой прием» восстанавливается на 200% быстрее.",
           "abilityType": "Active",
-          "sort": 4
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "GarroshArmorUpBodyCheck"
+          ]
         }
       ]
     }
@@ -11465,7 +11480,7 @@
     "type": "ближний бой",
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Призыватель, специализирующийся на удержании ключевых областей на поле боя.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_gazlowe.png",
@@ -11962,7 +11977,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Коварный мобильный убийца, способный серьезно потрепать слабые тылы.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_genji.png",
@@ -12439,7 +12454,7 @@
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Убийца, который изматывает противников огнем с дальней дистанции, а затем добивает их в ближнем бою.  10 ед. брони в облике воргена",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_genngreymane.png",
@@ -12939,7 +12954,7 @@
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Маг с высоким уроном, который расходует здоровье для пополнения запаса маны, но может также похищать его у врагов.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_guldan.png",
@@ -13394,7 +13409,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Убийца дальнего боя и превосходный разведчик, который расправляется с противниками издалека.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_hanzo.png",
@@ -13855,7 +13870,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBaseNoMana",
+    "hearthLinkId": "HearthstoneNoMana",
     "description": "Убийца с отличной мобильностью и стабильно высоким уроном. Особенно опасен, если его усиливают союзники.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_illidan.png",
@@ -14278,6 +14293,454 @@
       ]
     }
   },
+  "Imperius": {
+    "name": "Империй",
+    "cHeroId": "Imperius",
+    "cUnitId": "HeroImperius",
+    "attributeId": "IMPE",
+    "difficulty": "средняя",
+    "franchise": "Diablo",
+    "gender": "Male",
+    "innerRadius": 0.8125,
+    "radius": 0.8125,
+    "releaseDate": "2019-01-08",
+    "sight": 12.0,
+    "speed": 4.3984,
+    "type": "ближний бой",
+    "rarity": "Legendary",
+    "mountLinkId": "SummonMount",
+    "hearthLinkId": "Hearthstone",
+    "description": "Рубака, который легко завязывает бой и наносит значительный урон одиночным целям. Хорошо подходит для рискованных атак в авангарде сражения.",
+    "portraits": {
+      "heroSelect": "storm_ui_ingame_heroselect_btn_imperius.png",
+      "leaderboard": "storm_ui_ingame_hero_leaderboard_imperius.png",
+      "loading": "storm_ui_ingame_hero_loadingscreen_imperius.png",
+      "partyPanel": "storm_ui_ingame_partypanel_btn_imperius.png",
+      "target": "ui_targetportrait_hero_imperius.png"
+    },
+    "life": {
+      "amount": 2450.0,
+      "scale": 0.04,
+      "regenRate": 5.1054,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500.0,
+      "type": "Мана",
+      "regenRate": 3.0
+    },
+    "roles": [
+      "Боец"
+    ],
+    "ratings": {
+      "complexity": 6.0,
+      "damage": 6.0,
+      "survivability": 5.0,
+      "utility": 6.0
+    },
+    "weapons": [
+      {
+        "nameId": "ImperiusHeroWeapon",
+        "range": 2.0,
+        "period": 1.2,
+        "damage": 122.0,
+        "damageScale": 0.04
+      }
+    ],
+    "abilities": {
+      "basic": [
+        {
+          "nameId": "ImperiusCelestialCharge",
+          "name": "Небесный рывок",
+          "shortTooltipId": "ImperiusCelestialCharge",
+          "fullTooltipId": "ImperiusCelestialCharge",
+          "icon": "storm_ui_icon_imperius_q.png",
+          "energyTooltip": "Мана: 40",
+          "cooldownTooltip": "Время восстановления: 10 сек.",
+          "shortTooltip": "Совершает рывок и оглушает противников.",
+          "fullTooltip": "Совершает рывок в указанном направлении и пронзает противников, нанося 35 (+4% за уровень) ед. урона. Поражая героя, Империй поддерживает способность и оглушает цель в течение 1 сек., после чего наносит еще 70 (+4% за уровень) ед. урона.",
+          "abilityType": "Q"
+        },
+        {
+          "nameId": "ImperiusSolarionsFire",
+          "name": "Пламя Солариона",
+          "shortTooltipId": "ImperiusSolarionsFire",
+          "fullTooltipId": "ImperiusSolarionsFire",
+          "icon": "storm_ui_icon_imperius_w.png",
+          "energyTooltip": "Мана: 60",
+          "cooldownTooltip": "Время восстановления: 8 сек.",
+          "shortTooltip": "Наносит урон противникам на прямой линии и замедляет их.",
+          "fullTooltip": "Выпускает огненную волну, наносящую 100 (+4% за уровень) ед. урона. Противники, попавшие в центр области действия, получают еще 50 (+4% за уровень) ед. урона и замедляются на 40% на 3 сек.",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "ImperiusMoltenArmor",
+          "name": "Раскаленный доспех",
+          "shortTooltipId": "ImperiusMoltenArmor",
+          "fullTooltipId": "ImperiusMoltenArmor",
+          "icon": "storm_ui_icon_imperius_e.png",
+          "energyTooltip": "Мана: 50",
+          "cooldownTooltip": "Время восстановления: 12 сек.",
+          "shortTooltip": "Опаляет противников рядом с собой, восполняет здоровье.",
+          "fullTooltip": "Окружает Империя пламенем, которое наносит находящимся рядом противникам 19 (+4% за уровень) ед. урона раз в 0.25 сек. Время действия – 3 сек. Восполняет здоровье в объеме 100% от этого урона и вдвое больше от урона по героям.",
+          "abilityType": "E"
+        }
+      ],
+      "heroic": [
+        {
+          "nameId": "ImperiusAngelicArmaments",
+          "name": "Ангельский арсенал",
+          "shortTooltipId": "ImperiusAngelicArmaments",
+          "fullTooltipId": "ImperiusAngelicArmaments",
+          "icon": "storm_ui_icon_imperius_r1.png",
+          "energyTooltip": "Мана: 60",
+          "cooldownTooltip": "Время восстановления: 60 сек.",
+          "shortTooltip": "Дает прочный щит. При повторном использовании наносит урон.",
+          "fullTooltip": "Призывает кольцо из пылающих мечей, дающее щит прочностью 1000 (+4% за уровень) ед. на 3 сек.  Если щит держится все это время, «Ангельский арсенал» можно использовать повторно в течение 5 сек., чтобы выпустить из щита 6 меч,меча,мечей в указанную область. Каждый меч наносит первому пораженному противнику 140 (+4% за уровень) ед. урона.",
+          "abilityType": "Heroic"
+        },
+        {
+          "nameId": "ImperiusWrathOfTheAngiris",
+          "name": "Ангирский гнев",
+          "shortTooltipId": "ImperiusWrathOfTheAngiris",
+          "fullTooltipId": "ImperiusWrathOfTheAngiris",
+          "icon": "storm_ui_icon_imperius_r2.png",
+          "energyTooltip": "Мана: 80",
+          "cooldownTooltip": "Время восстановления: 80 сек.",
+          "shortTooltip": "Взмывает вместе с противником в Небеса.",
+          "fullTooltip": "После паузы в 0.75 сек. совершает рывок в указанном направлении и уносит первого вражеского героя на своем пути в Небеса. Находясь в воздухе, Империй может перемещать точку приземления.  Спустя 2 сек. он низвергает цель с Небес, нанося ей 375 (+4% за уровень) ед. урона и оглушая на 1 сек.",
+          "abilityType": "Heroic"
+        }
+      ],
+      "trait": [
+        {
+          "nameId": "ImperiusValorousBrand",
+          "name": "Клеймо доблести",
+          "shortTooltipId": "ImperiusValorousBrand",
+          "fullTooltipId": "ImperiusValorousBrand",
+          "icon": "storm_ui_icon_imperius_trait.png",
+          "shortTooltip": "Базовые способности отмечают героев, увеличивая последующий урон от автоатак.",
+          "fullTooltip": "Базовые способности отмечают героев на 10 сек. Автоатаки снимают метки с целей, нанося 30% дополнительного урона за каждую метку.",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "talents": {
+      "level1": [
+        {
+          "nameId": "ImperiusCelestialChargeImpalingLight",
+          "name": "Пронзающий Свет",
+          "shortTooltipId": "ImperiusCelestialChargeImpalingLight",
+          "fullTooltipId": "ImperiusCelestialChargeImpalingLight",
+          "icon": "storm_ui_icon_imperius_q.png",
+          "shortTooltip": "Задача: ускорьте восстановление «Небесного рывка».",
+          "fullTooltip": "«Небесный рывок» наносит на 125% больше урона.  Задача: оглушайте нескольких героев одним «Небесным рывком».  Награда: при одновременном оглушении 2 героев время восстановления «Небесного рывка» уменьшится на 2 сек. до конца матча.  Награда: при одновременном оглушении 3 героев время восстановления «Небесного рывка» уменьшится еще на 2 сек. до конца матча.",
+          "abilityType": "Q",
+          "isQuest": true,
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "ImperiusCelestialCharge"
+          ]
+        },
+        {
+          "nameId": "ImperiusSolarionsFireConsumingFlame",
+          "name": "Пожирающее пламя",
+          "shortTooltipId": "ImperiusSolarionsFireConsumingFlame",
+          "fullTooltipId": "ImperiusSolarionsFireConsumingFlame",
+          "icon": "storm_ui_icon_imperius_w.png",
+          "shortTooltip": "Задача: увеличьте урон от центральной области «Пламени Солариона».",
+          "fullTooltip": "Задача: наносите героям урон центром «Пламени Солариона», чтобы увеличить этот урон на 10 ед., вплоть до 150 ед.  Награда: после 15 попаданий по героям замедление от «Пламени Солариона» усилится на 15%.",
+          "abilityType": "W",
+          "isQuest": true,
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "ImperiusSolarionsFire"
+          ]
+        },
+        {
+          "nameId": "ImperiusSolarionsFireBurnTheImpure",
+          "name": "Каленое железо",
+          "shortTooltipId": "ImperiusSolarionsFireBurnTheImpure",
+          "fullTooltipId": "ImperiusSolarionsFireBurnTheImpure",
+          "icon": "storm_ui_icon_imperius_w_alt_01.png",
+          "shortTooltip": "Метки «Пламени Солариона» наносят дополнительный урон.",
+          "fullTooltip": "При поглощении метки «Пламени Солариона» Империй наносит герою дополнительный урон в объеме 3% от максимального запаса здоровья цели.",
+          "abilityType": "W",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "ImperiusSolarionsFire"
+          ]
+        }
+      ],
+      "level4": [
+        {
+          "nameId": "ImperiusSolarionsFireBulwarkOfFlame",
+          "name": "Укрывающее пламя",
+          "shortTooltipId": "ImperiusSolarionsFireBulwarkOfFlame",
+          "fullTooltipId": "ImperiusSolarionsFireBulwarkOfFlame",
+          "icon": "storm_ui_icon_imperius_w.png",
+          "shortTooltip": "«Пламя Солариона» дает кинетическую броню.",
+          "fullTooltip": "Поражая героя, «Пламя Солариона» дает 60 ед. кинетической брони, защищающей от 2 следующей автоатаки,следующих автоатак,следующих автоатак героев. Максимум зарядов – 4 .",
+          "abilityType": "W",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "ImperiusSolarionsFire"
+          ]
+        },
+        {
+          "nameId": "ImperiusMoltenArmorUnshakableFaith",
+          "name": "Непоколебимая вера",
+          "shortTooltipId": "ImperiusMoltenArmorUnshakableFaith",
+          "fullTooltipId": "ImperiusMoltenArmorUnshakableFaith",
+          "icon": "storm_ui_icon_imperius_e.png",
+          "shortTooltip": "«Раскаленный доспех» снимает эффекты замедления и обездвиживания.",
+          "fullTooltip": "При использовании «Раскаленный доспех» снимает эффекты замедления и обездвиживания; в таком случае Империй восполняет 250 (+4% за уровень) ед. здоровья.",
+          "abilityType": "E",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "ImperiusMoltenArmor"
+          ]
+        },
+        {
+          "nameId": "ImperiusValorousBrandBattleHunger",
+          "name": "Жажда битвы",
+          "shortTooltipId": "ImperiusValorousBrandBattleHunger",
+          "fullTooltipId": "ImperiusValorousBrandBattleHunger",
+          "icon": "storm_ui_icon_imperius_trait.png",
+          "shortTooltip": "«Клеймо доблести» восполняет здоровье.",
+          "fullTooltip": "Восполняет 82 (+4% за уровень) ед. здоровья за каждую поглощенную метку «Клейма доблести».",
+          "abilityType": "Trait",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "ImperiusValorousBrand"
+          ]
+        }
+      ],
+      "level7": [
+        {
+          "nameId": "ImperiusCelestialChargeFlashOfAnger",
+          "name": "Вспышка ярости",
+          "shortTooltipId": "ImperiusCelestialChargeFlashOfAnger",
+          "fullTooltipId": "ImperiusCelestialChargeFlashOfAnger",
+          "icon": "storm_ui_icon_imperius_q.png",
+          "shortTooltip": "«Пламя Солариона» может нанести урон по области.",
+          "fullTooltip": "Поражая героя, отмеченного «Пламенем Солариона», «Небесный рывок» наносит 160 (+4% за уровень) ед. урона по области вокруг цели.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "ImperiusCelestialCharge"
+          ]
+        },
+        {
+          "nameId": "ImperiusSolarionsFireBlazeOfGlory",
+          "name": "Сияние славы",
+          "shortTooltipId": "ImperiusSolarionsFireBlazeOfGlory",
+          "fullTooltipId": "ImperiusSolarionsFireBlazeOfGlory",
+          "icon": "storm_ui_icon_imperius_w.png",
+          "shortTooltip": "«Пламя Солариона» с некоторой задержкой вызывает взрыв.",
+          "fullTooltip": "«Пламя Солариона» оставляет вдоль центра области действия пылающую полосу, которая взрывается спустя 2 сек. и наносит 125 (+4% за уровень) ед. урона.",
+          "abilityType": "W",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "ImperiusSolarionsFire"
+          ]
+        },
+        {
+          "nameId": "ImperiusHolyFervor",
+          "name": "Ангельское рвение",
+          "shortTooltipId": "ImperiusHolyFervor",
+          "fullTooltipId": "ImperiusHolyFervor",
+          "icon": "storm_ui_icon_imperius_item_01.png",
+          "cooldownTooltip": "Время восстановления: 18 сек.",
+          "shortTooltip": "Автоатаки наносят урон по области.",
+          "fullTooltip": "При использовании 4 следующая автоатака,следующих автоатаки,следующих автоатак наносят 157 (+4% за уровень) ед. урона по области.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 3
+        }
+      ],
+      "level10": [
+        {
+          "nameId": "ImperiusAngelicArmaments",
+          "name": "Ангельский арсенал",
+          "shortTooltipId": "ImperiusAngelicArmaments",
+          "fullTooltipId": "ImperiusAngelicArmaments",
+          "icon": "storm_ui_icon_imperius_r1.png",
+          "energyTooltip": "Мана: 60",
+          "cooldownTooltip": "Время восстановления: 60 сек.",
+          "shortTooltip": "Дает прочный щит. При повторном использовании наносит урон.",
+          "fullTooltip": "Призывает кольцо из пылающих мечей, дающее щит прочностью 1000 (+4% за уровень) ед. на 3 сек.  Если щит держится все это время, «Ангельский арсенал» можно использовать повторно в течение 5 сек., чтобы выпустить из щита 6 меч,меча,мечей в указанную область. Каждый меч наносит первому пораженному противнику 140 (+4% за уровень) ед. урона.",
+          "abilityType": "Heroic",
+          "isActive": true,
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "ImperiusAngelicArmaments"
+          ]
+        },
+        {
+          "nameId": "ImperiusWrathOfTheAngiris",
+          "name": "Ангирский гнев",
+          "shortTooltipId": "ImperiusWrathOfTheAngiris",
+          "fullTooltipId": "ImperiusWrathOfTheAngiris",
+          "icon": "storm_ui_icon_imperius_r2.png",
+          "energyTooltip": "Мана: 80",
+          "cooldownTooltip": "Время восстановления: 80 сек.",
+          "shortTooltip": "Взмывает вместе с противником в Небеса.",
+          "fullTooltip": "После паузы в 0.75 сек. совершает рывок в указанном направлении и уносит первого вражеского героя на своем пути в Небеса. Находясь в воздухе, Империй может перемещать точку приземления.  Спустя 2 сек. он низвергает цель с Небес, нанося ей 375 (+4% за уровень) ед. урона и оглушая на 1 сек.",
+          "abilityType": "Heroic",
+          "isActive": true,
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "ImperiusWrathOfTheAngiris"
+          ]
+        }
+      ],
+      "level13": [
+        {
+          "nameId": "ImperiusCelestialChargePatheticMortals",
+          "name": "Жалкие смертные",
+          "shortTooltipId": "ImperiusCelestialChargePatheticMortals",
+          "fullTooltipId": "ImperiusCelestialChargePatheticMortals",
+          "icon": "storm_ui_icon_imperius_q.png",
+          "shortTooltip": "«Небесный рывок» уменьшает наносимый целями урон.",
+          "fullTooltip": "Когда «Небесный рывок» оглушает героев, наносимый ими урон уменьшается на 35% на 4 сек.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "ImperiusCelestialCharge"
+          ]
+        },
+        {
+          "nameId": "ImperiusMoltenArmorDivineRage",
+          "name": "Ангельская ярость",
+          "shortTooltipId": "ImperiusMoltenArmorDivineRage",
+          "fullTooltipId": "ImperiusMoltenArmorDivineRage",
+          "icon": "storm_ui_icon_imperius_e.png",
+          "shortTooltip": "«Раскаленный доспех» восстанавливается быстрее при поражении героев.",
+          "fullTooltip": "Когда «Раскаленный доспех» поражает героя, время его восстановления сокращается на 0.25 сек.",
+          "abilityType": "E",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "ImperiusMoltenArmor"
+          ]
+        },
+        {
+          "nameId": "ImperiusMoltenArmorHeatOfBattle",
+          "name": "Пыл битвы",
+          "shortTooltipId": "ImperiusMoltenArmorHeatOfBattle",
+          "fullTooltipId": "ImperiusMoltenArmorHeatOfBattle",
+          "icon": "storm_ui_icon_imperius_e_alt_01.png",
+          "shortTooltip": "Усиливает исцеление от «Раскаленного доспеха» при низком уровне здоровья.",
+          "fullTooltip": "«Раскаленный доспех» исцеляет на 25% эффективнее, когда у Империя остается менее 50% здоровья.",
+          "abilityType": "E",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "ImperiusMoltenArmor"
+          ]
+        }
+      ],
+      "level16": [
+        {
+          "nameId": "ImperiusCelestialChargeCelestialSwiftness",
+          "name": "Стремительность Небес",
+          "shortTooltipId": "ImperiusCelestialSwiftness",
+          "fullTooltipId": "ImperiusCelestialSwiftness",
+          "icon": "storm_ui_icon_imperius_q.png",
+          "shortTooltip": "«Небесный рывок» ускоряет атаки и передвижение.",
+          "fullTooltip": "Когда «Небесный рывок» оглушает героя, скорость атаки Империя повышается на 50%, а скорость передвижения – на 20% на 5 сек.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "ImperiusCelestialCharge"
+          ]
+        },
+        {
+          "nameId": "ImperiusMoltenArmorMeltingTouch",
+          "name": "Расплавляющее касание",
+          "shortTooltipId": "ImperiusMoltenArmorMeltingTouch",
+          "fullTooltipId": "ImperiusMoltenArmorMeltingTouch",
+          "icon": "storm_ui_icon_imperius_e.png",
+          "shortTooltip": "Метки «Раскаленного доспеха» ослабляют броню.",
+          "fullTooltip": "При поглощении метки «Раскаленного доспеха» ослабляет броню цели на 25 ед. на 4 сек.",
+          "abilityType": "E",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "ImperiusMoltenArmor"
+          ]
+        },
+        {
+          "nameId": "ImperiusMoltenArmorSovereignArmor",
+          "name": "Броня властителя",
+          "shortTooltipId": "ImperiusMoltenArmorSovereignArmor",
+          "fullTooltipId": "ImperiusMoltenArmorSovereignArmor",
+          "icon": "storm_ui_icon_imperius_e_alt_01.png",
+          "shortTooltip": "«Раскаленный доспех» дает броню.",
+          "fullTooltip": "«Раскаленный доспех» дает 50 ед. брони на 2.5 сек.",
+          "abilityType": "E",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "ImperiusMoltenArmor"
+          ]
+        }
+      ],
+      "level20": [
+        {
+          "nameId": "ImperiusAngelicArmamentsHeavenlyHost",
+          "name": "Небесное воинство",
+          "shortTooltipId": "ImperiusAngelicArmamentsHeavenlyHost",
+          "fullTooltipId": "ImperiusAngelicArmamentsHeavenlyHost",
+          "icon": "storm_ui_icon_imperius_r1.png",
+          "shortTooltip": "Дает союзным героям щит, наносящий урон противникам.",
+          "fullTooltip": "Дает находящимся рядом союзным героям щит прочностью 600 (+4% за уровень) ед. на 3 сек.  Если щит держится все это время, из него вылетает меч, наносящий ближайшему герою 140 (+4% за уровень) ед. урона.",
+          "abilityType": "Heroic",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "ImperiusAngelicArmaments"
+          ]
+        },
+        {
+          "nameId": "ImperiusWrathOfTheAngirisUnrelentingDescent",
+          "name": "Неотвратимая кара",
+          "shortTooltipId": "ImperiusWrathOfTheAngirisUnrelentingDescent",
+          "fullTooltipId": "ImperiusWrathOfTheAngirisUnrelentingDescent",
+          "icon": "storm_ui_icon_imperius_r2.png",
+          "shortTooltip": "«Клеймо доблести» ускоряет восстановление «Ангирского гнева».",
+          "fullTooltip": "При поглощении метки «Клейма доблести» время восстановления «Ангирского гнева» сокращается на 5 сек.",
+          "abilityType": "Heroic",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "ImperiusWrathOfTheAngiris"
+          ]
+        },
+        {
+          "nameId": "ImperiusImpervious",
+          "name": "Несокрушимость",
+          "shortTooltipId": "ImperiusImpervious",
+          "fullTooltipId": "ImperiusImpervious",
+          "icon": "storm_ui_icon_imperius_item_02.png",
+          "cooldownTooltip": "Время восстановления: 75 сек.",
+          "shortTooltip": "Дает неудержимость и энергетическую броню.",
+          "fullTooltip": "При использовании дает неудержимость и 75 ед. энергетической брони на 2 сек. Когда вражеский герой попадает в центр области действия «Пламени Солариона», время восстановления «Несокрушимости» сокращается на 5 сек.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 3
+        },
+        {
+          "nameId": "ImperiusValorousPursuit",
+          "name": "Доблестное преследование",
+          "shortTooltipId": "ImperiusValorousPursuit",
+          "fullTooltipId": "ImperiusValorousPursuit",
+          "icon": "storm_ui_icon_imperius_item_03.png",
+          "cooldownTooltip": "Время восстановления: 15 сек.",
+          "shortTooltip": "Телепортирует Империя к противникам, отмеченным «Клеймом доблести».",
+          "fullTooltip": "При использовании телепортирует Империя к противнику, отмеченному «Клеймом доблести».",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 4
+        }
+      ]
+    }
+  },
   "Jaina": {
     "name": "Джайна",
     "cHeroId": "Jaina",
@@ -14294,7 +14757,7 @@
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Может заморозить всю команду противника с помощью магии льда.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_jaina.png",
@@ -14758,7 +15221,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Танк, особенно сильный против любителей автоатак. Быстро расправляется с группами воинов.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_johanna.png",
@@ -15196,7 +15659,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Убийца с высокой мобильностью, забрасывающий противников гранатами издалека. Сеет хаос с помощью мин и капканов.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_junkrat.png",
@@ -15647,7 +16110,7 @@
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Легко уничтожает плотные группы противников с помощью магии огня.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_kaelthas.png",
@@ -16102,7 +16565,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Маг, способный нанести большой урон, обездвижить противника и сокрушить его комбинированными атаками.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_kelthuzad.png",
@@ -16568,7 +17031,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Универсальная убийца, которая обожает врываться в гущу боя.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_kerrigan.png",
@@ -17014,7 +17477,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Универсальный лекарь, отлично действующий в команде с героями ближнего боя в гуще сражения.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_monk.png",
@@ -17486,7 +17949,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Рубака, особенно сильный против команд, герои которых обладают большим запасом здоровья.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_leoric.png",
@@ -17974,7 +18437,7 @@
     "type": "Дальний бой",
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Лекарь, успешно противостоящий любителям автоатак благодаря способности ослеплять их.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_lili.png",
@@ -18423,7 +18886,7 @@
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Маг, который наносит высокий урон и восстанавливает способности, убивая героев.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_wizard.png",
@@ -18897,7 +19360,7 @@
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "LostVikingsGoGoGo",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Три героя в одном! Могут собирать опыт для команды сразу в нескольких местах.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_lostvikings.png",
@@ -19519,7 +19982,7 @@
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Универсальный лекарь. Если ей не помешать, не допустит гибели подопечного союзника практически в любой ситуации.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_medic.png",
@@ -19729,7 +20192,7 @@
           "fullTooltipId": "MedicPhysicalTherapy",
           "icon": "storm_ui_icon_medic_deployshield.png",
           "shortTooltip": "«Страховка» снимает эффекты замедления.",
-          "fullTooltip": "«Страховка» снимает с цели все эффекты замедления. При этом время восстановления «Страховки» сокращается на 5 сек.",
+          "fullTooltip": "«Страховка» снимает с цели эффекты замедления. При этом время ее восстановления сокращается на 2 сек.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -19923,8 +20386,8 @@
           "fullTooltipId": "MedicReinforcements",
           "icon": "storm_ui_icon_medic_medivacdropship_b.png",
           "cooldownTooltip": "Время восстановления: 30 сек.",
-          "shortTooltip": "Медэвак появляется у алтаря и восстанавливается быстрее.",
-          "fullTooltip": "При использовании вызывает медэвак к вашему алтарю. После паузы в 10 сек. или при повторном использовании способности медэвак отправляется на место вызова для выгрузки пассажиров. «Подкрепление» и «Медэвак» имеют общее время восстановления.  Пассивный эффект: уменьшает время восстановления «Медэвака» с 60 до 30 сек.  Не требует наличия таланта «Медэвак».",
+          "shortTooltip": "Медэвак появляется у Зала Штормов.",
+          "fullTooltip": "При использовании вызывает медэвак к вашему Залу Штормов. После паузы в 10 сек. или при повторном использовании медэвак отправляется на место вызова для выгрузки пассажиров. «Подкрепление» и «Медэвак» имеют общее время восстановления.  Пассивный эффект: уменьшает время восстановления «Медэвака» с 60 до 30 сек.  Не требует наличия таланта «Медэвак».",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3,
@@ -19965,7 +20428,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "LucioSkateMode",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Универсальный лекарь, который повышает мобильность своей команды и держит противника на расстоянии.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_lucio.png",
@@ -20464,7 +20927,7 @@
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "DryadGallopingGait",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Убийца, изматывающая врагов отравляющими атаками в дальнем бою.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_lunara.png",
@@ -21001,7 +21464,7 @@
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Стремительная убийца, которая легко расправляется с группами врагов, не позволяя им уйти.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_maiev.png",
@@ -21455,7 +21918,7 @@
     "type": "Дальний бой",
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Универсальный лекарь, который обезвреживает противников и помогает союзникам их убивать.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_malfurion.png",
@@ -21911,7 +22374,7 @@
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Танк, восполняющий себе здоровье и способный как прикрыть союзников, так и дезорганизовать противников.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_malganis.png",
@@ -22081,7 +22544,7 @@
           "fullTooltipId": "MalGanisNecroticEmbraceFueledByTorment",
           "icon": "storm_ui_icon_malganis_necrotic.png",
           "shortTooltip": "«Объятия смерти» исцеляют Мал'Ганиса при получении урона.",
-          "fullTooltip": "Во время действия «Объятий смерти» Мал'Ганис восполняет 12 (+4% за уровень) ед. здоровья при получении урона, а исцеление от «Прикосновения вампира» при нанесении урона героям становится на 15% эффективнее.",
+          "fullTooltip": "Во время действия «Объятий смерти» Мал'Ганис восполняет 11 (+4% за уровень) ед. здоровья при получении урона, а исцеление от «Прикосновения вампира» при нанесении урона героям становится на 15% эффективнее.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -22375,7 +22838,7 @@
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Убийца, отмечающий врагов смертоносной меткой и с легкостью убивающий противников с высоким запасом здоровья.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_malthael.png",
@@ -22557,7 +23020,7 @@
           "fullTooltipId": "MalthaelThrowingShade",
           "icon": "storm_ui_icon_Malthael_DeathShroud.png",
           "shortTooltip": "Задача: увеличьте дальность действия «Пелены смерти».",
-          "fullTooltip": "Задача: поразите героев «Пеленой смерти» 15 раз.  Награда: дальность действия «Пелены смерти» увеличится на 33%, время восстановления сократится на 3.75 сек., а стоимость уменьшится с 50 до 25 ед. маны до конца матча.",
+          "fullTooltip": "Задача: поразите героев «Пеленой смерти» 15 раз.  Награда: дальность действия «Пелены смерти» увеличится на 33%, время восстановления уменьшится на 4 сек., а стоимость снизится с 50 до 25 ед. маны до конца матча.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 2,
@@ -22836,7 +23299,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "MedivhTransformRaven",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Герой поддержки, который нейтрализует попытки быстрого убийства союзников и позволяет им телепортироваться.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_medivh.png",
@@ -23318,7 +23781,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Убийца, способный постоянно наносить высокий урон и эффективно расправляться с группами противников.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_mephisto.png",
@@ -23771,7 +24234,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Стойкий танк, который прекрасно показывает себя почти в любой ситуации.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_muradin.png",
@@ -24228,7 +24691,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBaseNoMana",
+    "hearthLinkId": "HearthstoneNoMana",
     "description": "Слабый герой только на первый взгляд. Может отложить яйцо и очень быстро возродиться из него после гибели.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_murky.png",
@@ -24667,7 +25130,7 @@
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Маг, который наносит стабильно высокий урон и становится сильнее, убивая вражеских воинов.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_witchdoctor.png",
@@ -25133,7 +25596,7 @@
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Замаскированный маг, способный быстро расправляться с героями из засады.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_nova.png",
@@ -25618,7 +26081,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Убийца дальнего боя, которая танцует вокруг противников и использует способности, усиливающие ее атаки.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_orphea.png",
@@ -25628,9 +26091,9 @@
       "target": "ui_targetportrait_hero_orphea.png"
     },
     "life": {
-      "amount": 1662.0,
+      "amount": 1525.0,
       "scale": 0.04,
-      "regenRate": 3.457,
+      "regenRate": 3.1757,
       "regenScale": 0.04
     },
     "energy": {
@@ -25705,7 +26168,7 @@
           "energyTooltip": "Мана: 75",
           "cooldownTooltip": "Время восстановления: 50 сек.",
           "shortTooltip": "Наносит периодический урон противникам в указанной области.",
-          "fullTooltip": "После паузы в 1.5 сек. наносит 210 (+4% за уровень) ед. урона противникам в указанной области. «Вечный пир» повторяется раз в 1 сек., пока поражает героя.",
+          "fullTooltip": "После паузы в 1.5 сек. наносит 210 (+4% за уровень) ед. урона противникам в указанной области. «Вечный пир» повторяется раз в 0 сек., пока поражает героя.",
           "abilityType": "Heroic"
         },
         {
@@ -25717,7 +26180,7 @@
           "energyTooltip": "Мана: 75",
           "cooldownTooltip": "Время восстановления: 70 сек.",
           "shortTooltip": "Притягивает противников в указанной области, оглушает их и наносит им урон.",
-          "fullTooltip": "После паузы в 1.25 сек. притягивает противников в указанной области к ее центру, наносит им 275 (+4% за уровень) ед. урона и оглушает их на 0.75 сек.",
+          "fullTooltip": "После паузы в 1.25 сек. притягивает противников в указанной области к ее центру, наносит им 250 (+4% за уровень) ед. урона и оглушает их на 0.5 сек.",
           "abilityType": "Heroic"
         }
       ],
@@ -25757,7 +26220,7 @@
           "fullTooltipId": "OrpheaGrowingNightmare",
           "icon": "storm_ui_icon_orphea_e.png",
           "shortTooltip": "Увеличивает урон от взрыва «Ужаса» при попаданиях по героям.",
-          "fullTooltip": "Увеличивает урон от взрыва «Ужаса» на 25% за каждого пораженного его волной героя.",
+          "fullTooltip": "Увеличивает урон от взрыва «Ужаса» на 20% за каждого пораженного его волной героя.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -25771,7 +26234,7 @@
           "fullTooltipId": "OrpheaAncestralStrength",
           "icon": "storm_ui_icon_orphea_trait.png",
           "shortTooltip": "Способности наносят больше урона противникам под эффектами контроля.",
-          "fullTooltip": "Негероические способности наносят на 25% больше урона противникам, находящимся под воздействием эффектов оглушения, обездвиживания, немоты и замедления, а также дают 1 дополнительный эффект «Хаоса» при попадании по героям.",
+          "fullTooltip": "Негероические способности наносят на 20% больше урона противникам, находящимся под воздействием эффектов оглушения, обездвиживания, немоты и замедления, а также дают 1 дополнительный эффект «Хаоса» при попадании по героям.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -25800,8 +26263,8 @@
           "shortTooltipId": "OrpheaBackbiter",
           "fullTooltipId": "OrpheaBackbiter",
           "icon": "storm_ui_icon_orphea_w.png",
-          "shortTooltip": "Когда «Хрум» поражает героя, Орфея отскакивает назад.",
-          "fullTooltip": "Когда «Хрум» поражает героя, Орфея мгновенно совершает короткий рывок назад.",
+          "shortTooltip": "Когда «Хрум» поражает героя, Орфея отскакивает назад. Увеличивает запас здоровья.",
+          "fullTooltip": "Когда «Хрум» поражает героя, Орфея мгновенно совершает короткий рывок назад.  Пассивный эффект: увеличивает максимальный запас здоровья на 10%.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -25814,8 +26277,8 @@
           "shortTooltipId": "OrpheaFright",
           "fullTooltipId": "OrpheaFright",
           "icon": "storm_ui_icon_orphea_e.png",
-          "shortTooltip": "Волна «Ужаса» замедляет цели. Эффект замедления суммируется.",
-          "fullTooltip": "Эффект замедления от «Ужаса» также действует на противников на пути волны и суммируется до 50%.",
+          "shortTooltip": "Волна «Ужаса» замедляет цели.",
+          "fullTooltip": "Эффект замедления от «Ужаса» также действует на противников на пути волны.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -25879,7 +26342,7 @@
           "energyTooltip": "Мана: 75",
           "cooldownTooltip": "Время восстановления: 50 сек.",
           "shortTooltip": "Наносит периодический урон противникам в указанной области.",
-          "fullTooltip": "После паузы в 1.5 сек. наносит 210 (+4% за уровень) ед. урона противникам в указанной области. «Вечный пир» повторяется раз в 1 сек., пока поражает героя.",
+          "fullTooltip": "После паузы в 1.5 сек. наносит 210 (+4% за уровень) ед. урона противникам в указанной области. «Вечный пир» повторяется раз в 0 сек., пока поражает героя.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -25896,7 +26359,7 @@
           "energyTooltip": "Мана: 75",
           "cooldownTooltip": "Время восстановления: 70 сек.",
           "shortTooltip": "Притягивает противников в указанной области, оглушает их и наносит им урон.",
-          "fullTooltip": "После паузы в 1.25 сек. притягивает противников в указанной области к ее центру, наносит им 275 (+4% за уровень) ед. урона и оглушает их на 0.75 сек.",
+          "fullTooltip": "После паузы в 1.25 сек. притягивает противников в указанной области к ее центру, наносит им 250 (+4% за уровень) ед. урона и оглушает их на 0.5 сек.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -25913,7 +26376,7 @@
           "fullTooltipId": "OrpheaDetermination",
           "icon": "storm_ui_icon_orphea_q.png",
           "shortTooltip": "После рывка «Вальс теней» дает энергетическую броню.",
-          "fullTooltip": "Когда Орфея совершает рывок после использования «Вальса теней», она получает 50 ед. энергетической брони. Эффект суммируется до 2 раз. Под действием «Упорства» наносимый Орфеей урон от автоатак увеличивается на 15%.",
+          "fullTooltip": "Когда Орфея совершает рывок после использования «Вальса теней», она получает 50 ед. энергетической брони, защищающей от следующей способности противника. Суммируется до 2 раз. Под действием «Упорства» наносимый Орфеей урон от автоатак увеличивается на 15%.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -26073,7 +26536,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "ProbiusWorkerRush",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Вызывает пушки и наносит большой урон, но для эффективных действий должен находиться рядом с пилонами.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_probius.png",
@@ -26556,7 +27019,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Рубака, способный свести на нет попытки штурма союзных фортов или крепостей.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_ragnaros.png",
@@ -27076,7 +27539,7 @@
     "type": "Дальний бой",
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Убийца с сильными автоатаками, способный держать врага на расстоянии.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_raynor.png",
@@ -27539,7 +28002,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "RehgarGhostWolfActivate",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Лекарь, лучше всего работающий в команде с героями ближнего боя.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_rehgar.png",
@@ -28024,7 +28487,7 @@
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Рубака, сражающийся вместе с медведицей Мишей. Силен в удержании контроля над областями на поле боя.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_rexxar.png",
@@ -28497,7 +28960,7 @@
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBaseNoMana",
+    "hearthLinkId": "HearthstoneNoMana",
     "description": "Замаскированный убийца, который быстро захватывает лагеря наемников и искусно уходит от смерти.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_samuro.png",
@@ -28591,9 +29054,9 @@
           "shortTooltipId": "SamuroIllusionMasterTalent",
           "fullTooltipId": "SamuroIllusionMasterTalent",
           "icon": "storm_ui_icon_samuro_illusiondancer.png",
-          "cooldownTooltip": "Время восстановления: 8 сек.",
+          "cooldownTooltip": "Время восстановления: 10 сек.",
           "shortTooltip": "Зеркальными копиями можно управлять.",
-          "fullTooltip": "Зеркальными копиями можно управлять по отдельности или группой, а их урон увеличивается на 100%.  Пассивный эффект: урон от автоатак Самуро увеличивается на 10%, а время восстановления «Проекции» уменьшается до 8 сек.",
+          "fullTooltip": "Зеркальными копиями можно управлять по отдельности или группой, а их урон увеличивается на 100%.  Пассивный эффект: время восстановления «Проекции» уменьшается до 10 сек.",
           "abilityType": "Heroic"
         }
       ],
@@ -28620,7 +29083,7 @@
           "fullTooltipId": "SamuroWayOfIllusion",
           "icon": "storm_ui_icon_samuro_mirrorimage.png",
           "shortTooltip": "Задача: увеличьте урон от автоатак за счет критических ударов зеркальных копий.",
-          "fullTooltip": "Задача: каждый раз, когда копия наносит критический удар герою, урон от автоатак Самуро увеличивается на 0.5 ед., вплоть до 20 ед.  Награда: после 40 попаданий по героям бонус к урону дополнительно увеличится на 20 ед.",
+          "fullTooltip": "Задача: каждый раз, когда копия наносит критический удар герою, урон от автоатак Самуро увеличивается на 0.2 ед., вплоть до 10 ед.  Награда: после 40 попаданий по героям бонус к урону дополнительно увеличится на 20 ед.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -28768,9 +29231,9 @@
           "shortTooltipId": "SamuroIllusionMasterTalent",
           "fullTooltipId": "SamuroIllusionMasterTalent",
           "icon": "storm_ui_icon_samuro_illusiondancer.png",
-          "cooldownTooltip": "Время восстановления: 8 сек.",
+          "cooldownTooltip": "Время восстановления: 10 сек.",
           "shortTooltip": "Зеркальными копиями можно управлять.",
-          "fullTooltip": "Зеркальными копиями можно управлять по отдельности или группой, а их урон увеличивается на 100%.  Пассивный эффект: урон от автоатак Самуро увеличивается на 10%, а время восстановления «Проекции» уменьшается до 8 сек.",
+          "fullTooltip": "Зеркальными копиями можно управлять по отдельности или группой, а их урон увеличивается на 100%.  Пассивный эффект: время восстановления «Проекции» уменьшается до 10 сек.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -28943,7 +29406,7 @@
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SgtHammerThrusters",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Наносит повышенный урон автоатаками с большого расстояния, но всегда требует поддержки союзников.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_sgthammer.png",
@@ -29068,7 +29531,7 @@
           "icon": "storm_ui_icon_sgthammer_mount.png",
           "cooldownTooltip": "Время восстановления: 30 сек.",
           "shortTooltip": "Временно повышают скорость передвижения.",
-          "fullTooltip": "Повышают скорость передвижения на 60% на 4 сек. Ускорители активны все время, пока сержант Кувалда находится у алтаря. Использование «Ускорителей» отменяет осадный режим.",
+          "fullTooltip": "Повышают скорость передвижения на 60% на 4 сек. Ускорители активны все время, пока сержант Кувалда находится в Зале Штормов. Использование «Ускорителей» отменяет осадный режим.",
           "abilityType": "Z"
         }
       ]
@@ -29408,7 +29871,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBaseNoMana",
+    "hearthLinkId": "HearthstoneNoMana",
     "description": "Рубака, способная быстро захватывать лагеря наемников и обожающая врываться в самую гущу боя.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_femalebarbarian.png",
@@ -29850,7 +30313,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Танк, предпочитающий атаковать одиноких противников и изолировать их от команды.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_stitches.png",
@@ -29860,9 +30323,9 @@
       "target": "ui_targetportrait_hero_stitches.png"
     },
     "life": {
-      "amount": 3000.0,
+      "amount": 3060.0,
       "scale": 0.04,
-      "regenRate": 6.25,
+      "regenRate": 6.375,
       "regenScale": 0.04
     },
     "energy": {
@@ -29908,8 +30371,8 @@
           "shortTooltipId": "StitchesSlam",
           "fullTooltipId": "StitchesSlam",
           "icon": "storm_ui_icon_stitches_slam.png",
-          "energyTooltip": "Мана: 30",
-          "cooldownTooltip": "Время восстановления: 6 сек.",
+          "energyTooltip": "Мана: 35",
+          "cooldownTooltip": "Время восстановления: 7 сек.",
           "shortTooltip": "Замедляет противников в области поражения и наносит им урон.",
           "fullTooltip": "Наносит противникам в указанной области 104 (+4% за уровень) ед. урона. Противники во внутреннем радиусе получают на 40% больше урона и замедляются на 40% на 1.5 сек.",
           "abilityType": "W"
@@ -29996,7 +30459,7 @@
           "fullTooltipId": "StitchesDevourSavorTheFlavorTalent",
           "icon": "storm_ui_icon_stitches_devour.png",
           "shortTooltip": "Задача: «Пожирание» восполняет больше здоровья и ускоряет его восстановление.",
-          "fullTooltip": "Когда «Пожирание» поражает героя, Стежок дополнительно восполняет себе 10% от максимального запаса здоровья и маны в течение 5 сек.   Задача: каждое использование «Пожирания» против героев повышает скорость восстановления здоровья до конца матча на 1 ед. в секунду.",
+          "fullTooltip": "Когда «Пожирание» поражает героя, Стежок дополнительно восполняет себе 8% от максимального запаса здоровья и маны в течение 4 сек.   Задача: каждое использование «Пожирания» против героев повышает скорость восстановления здоровья до конца матча на 1 ед. в секунду.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 1,
@@ -30011,7 +30474,7 @@
           "fullTooltipId": "StitchesPatchworkCreation",
           "icon": "storm_ui_icon_stitches_patchwork.png",
           "shortTooltip": "Усиливает исцеляющие эффекты. Убийства восполняют здоровье.",
-          "fullTooltip": "Повышает эффективность регенерации и получаемого исцеления на 15%. Когда рядом погибает вражеский воин, Стежок восполняет 30 (+4% за уровень) ед. здоровья. При убийстве героя Стежок восполняет 300 (+4% за уровень) ед. здоровья.",
+          "fullTooltip": "Повышает эффективность регенерации и получаемого исцеления на 15%. Когда рядом погибает вражеский воин, Стежок восполняет 30 (+4% за уровень) ед. здоровья. При убийстве героя Стежок восполняет 240 (+4% за уровень) ед. здоровья.",
           "abilityType": "Passive",
           "sort": 2
         },
@@ -30036,7 +30499,7 @@
           "fullTooltipId": "StitchesSerratedEdge",
           "icon": "storm_ui_icon_stitches_hook.png",
           "shortTooltip": "«Крюк» наносит больше урона и восстанавливается быстрее.",
-          "fullTooltip": "Поражая героя, «Крюк» наносит дополнительный урон в объеме 5% от максимального запаса здоровья цели, а время его восстановления сокращается на 4 сек.",
+          "fullTooltip": "Поражая героя, «Крюк» наносит дополнительный урон в объеме 5% от максимального запаса здоровья цели, а время его восстановления сокращается на 3 сек.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -30064,7 +30527,7 @@
           "fullTooltipId": "StitchesChopChop",
           "icon": "storm_ui_icon_stitches_slam_b.png",
           "shortTooltip": "«Сильный удар» повышает скорость атаки.",
-          "fullTooltip": "Когда Стежок поражает героя внутренним радиусом «Сильного удара», скорость атаки Стежка повышается на 50% на 4 сек.",
+          "fullTooltip": "Когда Стежок поражает героя внутренним радиусом «Сильного удара», скорость атаки Стежка повышается на 50% на 5 сек.",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -30096,7 +30559,7 @@
           "fullTooltipId": "StitchesCannibalize",
           "icon": "storm_ui_icon_talent_autoattack_heal.png",
           "shortTooltip": "Автоатаки и «Сильный удар» лечат Стежка.",
-          "fullTooltip": "Когда Стежок поражает героев автоатаками или внутренним радиусом «Сильного удара», он восполняет себе 2% от максимального запаса здоровья.",
+          "fullTooltip": "Когда Стежок поражает героев автоатаками или внутренним радиусом «Сильного удара», он восполняет себе 1.75% от максимального запаса здоровья.",
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -30178,7 +30641,7 @@
           "fullTooltipId": "StitchesDigestiveJuices",
           "icon": "storm_ui_icon_stitches_devour.png",
           "shortTooltip": "«Пожирание» уменьшает наносимый врагами урон.",
-          "fullTooltip": "Пораженные «Пожиранием» герои наносят на 40% меньше урона в течение 4 сек.",
+          "fullTooltip": "Пораженные «Пожиранием» герои наносят на 50% меньше урона в течение 5 сек.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -30192,7 +30655,7 @@
           "fullTooltipId": "StitchesGasFlare",
           "icon": "storm_ui_icon_talent_burningrage.png",
           "shortTooltip": "Наносит урон находящимся рядом противникам.",
-          "fullTooltip": "Наносит противникам рядом с собой 16 (+4% за уровень) ед. урона в секунду. Когда Стежок поражает героя «Крюком», этот урон увеличивается на 150% на 4 сек.",
+          "fullTooltip": "Наносит противникам рядом с собой 15 (+4% за уровень) ед. урона в секунду. Когда Стежок поражает героя «Крюком», этот урон увеличивается на 150% на 4 сек.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -30234,7 +30697,7 @@
           "fullTooltipId": "StitchesSlamPulverizeTalent",
           "icon": "storm_ui_icon_stitches_slam.png",
           "shortTooltip": "«Сильный удар» замедляет всех пораженных врагов. Замедление усиливается.",
-          "fullTooltip": "«Сильный удар» замедляет противников на 75% на 1 сек.",
+          "fullTooltip": "«Сильный удар» замедляет противников на 75% на 0.75 сек.",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -30317,7 +30780,7 @@
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Лекарь, способный сильно навредить врагам на большом расстоянии.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_stukov.png",
@@ -30807,7 +31270,7 @@
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Убийца, способная выводить из строя вражеские форты и крепости.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_sylvanas.png",
@@ -30817,9 +31280,9 @@
       "target": "ui_targetportrait_hero_sylvanas.png"
     },
     "life": {
-      "amount": 1550.0,
+      "amount": 1650.0,
       "scale": 0.04,
-      "regenRate": 3.2304,
+      "regenRate": 3.4414,
       "regenScale": 0.04
     },
     "energy": {
@@ -30868,7 +31331,7 @@
           "energyTooltip": "Мана: 50",
           "cooldownTooltip": "Время восстановления: 11 сек.",
           "shortTooltip": "Наносит периодический урон и распространяется при нанесении урона.",
-          "fullTooltip": "Бросает в цель кинжал, нанося ей 29 (+4% за уровень) ед. урона и дополнительно 145 (+4% за уровень) ед. в течение 2.5 сек. Когда Сильвана наносит урон основной цели, эффект «Кинжала тени» переходит на находящихся рядом противников.",
+          "fullTooltip": "Бросает в цель кинжал, нанося ей 32 (+4% за уровень) ед. урона и дополнительно 160 (+4% за уровень) ед. в течение 2.5 сек. Когда Сильвана наносит урон основной цели, эффект «Кинжала тени» переходит на находящихся рядом противников.",
           "abilityType": "W"
         },
         {
@@ -30928,7 +31391,7 @@
       "level1": [
         {
           "nameId": "SylvanasTalentMightOfTheBansheeQueen",
-          "name": "Мощь королевы банши",
+          "name": "Мощь Королевы-банши",
           "shortTooltipId": "SylvanasMightOfTheBansheeQueenWitheringFireTalent",
           "fullTooltipId": "SylvanasMightOfTheBansheeQueenWitheringFireTalent",
           "icon": "storm_ui_icon_sylvanas_witheringfire.png",
@@ -31257,7 +31720,7 @@
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Герой поддержки, усиливающий любителей врываться в гущу боя.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_tassadar.png",
@@ -31706,7 +32169,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Убийца, который наносит чудовищный урон, стоит ему собрать достаточно свежего мяса.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_butcher.png",
@@ -32139,7 +32602,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Рубака, способный удерживать целую линию в одиночку.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_thrall.png",
@@ -32598,7 +33061,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBaseNoMana",
+    "hearthLinkId": "HearthstoneNoMana",
     "description": "Мобильная убийца, способная быстро догонять и добивать отрезанных от команды противников.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_tracer.png",
@@ -33013,7 +33476,7 @@
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Убийца, специализирующийся на ликвидации противников с высоким запасом здоровья.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_tychus.png",
@@ -33515,7 +33978,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Танк, который лучше всего раскрывается в паре с союзниками, врывающимися в гущу боя.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_tyrael.png",
@@ -33958,7 +34421,7 @@
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Герой поддержки, помогающий команде обезвреживать и убивать вражеских героев.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_tyrande.png",
@@ -34421,7 +34884,7 @@
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Лекарь, способный свести на нет попытки быстрого убийства союзников.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_uther.png",
@@ -34653,7 +35116,7 @@
           "fullTooltipId": "UtherEternalDevotionArmorOfFaithTalent",
           "icon": "storm_ui_icon_uther_holylight.png",
           "shortTooltip": "«Свет небес» восстанавливается быстрее, если Утер обезврежен.",
-          "fullTooltip": "При оглушении, обездвиживании или немоте скорость восстановления «Света небес» повышается на 200% на 6 сек.",
+          "fullTooltip": "При оглушении, обездвиживании или немоте Утер получает 90 ед. маны, а восстановление «Света небес» ускоряется на 200% на 6 сек. Время восстановления этого эффекта – 20 сек.",
           "abilityType": "Trait",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -34878,7 +35341,7 @@
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBaseNoMana",
+    "hearthLinkId": "HearthstoneNoMana",
     "description": "Замаскированная убийца, которая обезвреживает героев противника и быстро с ними расправляется.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_valeera.png",
@@ -35391,7 +35854,7 @@
     "type": "Дальний бой",
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Убийца, которая обладает отличной мобильностью и может непрерывно наносить высокий урон.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_demonhunter.png",
@@ -35858,7 +36321,7 @@
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Может стать как танком, так и эффективным убийцей.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_varian.png",
@@ -36100,8 +36563,7 @@
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "VarianLionsFang",
-            "VarianParry"
+            "VarianLionsFang"
           ]
         },
         {
@@ -36293,7 +36755,12 @@
           "shortTooltip": "Знамя также повышает эффективность исцеления.",
           "fullTooltip": "Сокращает время восстановления знамени на 20 сек. Знамя также повышает скорость восстановления здоровья и эффективность получаемого исцеления на 50%.",
           "abilityType": "Passive",
-          "sort": 4
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "VarianBannerOfStormwind",
+            "VarianBannerOfIronforge",
+            "VarianBannerOfDalaran"
+          ]
         },
         {
           "nameId": "VarianDemoralizingShout",
@@ -36327,7 +36794,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Разноплановый лекарь, способный исцелять союзников, нанося урон врагам.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_whitemane.png",
@@ -36783,7 +37250,7 @@
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Призыватель, который может с легкостью вести наступление по нескольким линиям.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_necromancer.png",
@@ -37243,7 +37710,7 @@
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Осмотрительный танк ближнего боя. Может усилить свои способности, потратив время на обстоятельную подготовку.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_yrel.png",
@@ -37689,7 +38156,7 @@
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Призыватель, обеспечивающий союзникам обзор на поле боя.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_zagara.png",
@@ -37723,7 +38190,7 @@
         "nameId": "HeroZagara",
         "range": 5.5,
         "period": 0.8,
-        "damage": 80.0,
+        "damage": 76.0,
         "damageScale": 0.04
       }
     ],
@@ -37753,10 +38220,10 @@
           "shortTooltipId": "ZagaraHunterKiller",
           "fullTooltipId": "ZagaraHunterKiller",
           "icon": "storm_ui_icon_zagara_hunterkiller.png",
-          "energyTooltip": "Мана: 60",
-          "cooldownTooltip": "Время восстановления: 14 сек.",
+          "energyTooltip": "Мана: 75",
+          "cooldownTooltip": "Время восстановления: 16 сек.",
           "shortTooltip": "Призывает гидралиска, который атакует цель.",
-          "fullTooltip": "Призывает гидралиска, который атакует цель и наносит ей 65 (+5% за уровень) ед. урона в секунду. Время существования гидралиска – 8  сек.",
+          "fullTooltip": "Призывает гидралиска, который атакует цель и наносит ей 71 (+5% за уровень) ед. урона в секунду. Время существования гидралиска – 8  сек.",
           "abilityType": "W"
         },
         {
@@ -37800,7 +38267,7 @@
           },
           "cooldownTooltip": "Время восстановления заряда: 120 сек.",
           "shortTooltip": "Усиливает действие слизи и создает червей Нидуса.",
-          "fullTooltip": "Призывает червя Нидуса в указанной видимой точке на слизи. Зайти в червя или попасть в любого другого червя можно, щелкнув правой кнопкой рядом с ним. Пока Загара находится внутри, она восполняет здоровье и ману в объеме 10% от максимального запаса каждую секунду.  Максимум зарядов – 2. Одновременно может существовать не более 4 червей Нидуса.  Пассивный эффект: слизь распространяется на 15% дальше.  Пассивный эффект: пока Загара находится на слизи, каждая ее автоатака сокращает время восстановления ее способностей на 0.5 сек.",
+          "fullTooltip": "Призывает червя Нидуса в указанной видимой точке на слизи. Зайти в червя или попасть в любого другого червя можно, щелкнув правой кнопкой рядом с ним. Пока Загара находится внутри, она восполняет здоровье и ману в объеме 10% от максимального запаса каждую секунду.  Максимум зарядов – 2. Одновременно может существовать не более 4 червей Нидуса.  Пассивный эффект: слизь распространяется на 15% дальше.  Пассивный эффект: пока Загара находится на слизи, каждая ее автоатака сокращает время восстановления ее способностей на 0.4 сек.",
           "abilityType": "Heroic"
         }
       ],
@@ -37985,7 +38452,7 @@
           },
           "cooldownTooltip": "Время восстановления заряда: 120 сек.",
           "shortTooltip": "Усиливает действие слизи и создает червей Нидуса.",
-          "fullTooltip": "Призывает червя Нидуса в указанной видимой точке на слизи. Зайти в червя или попасть в любого другого червя можно, щелкнув правой кнопкой рядом с ним. Пока Загара находится внутри, она восполняет здоровье и ману в объеме 10% от максимального запаса каждую секунду.  Максимум зарядов – 2. Одновременно может существовать не более 4 червей Нидуса.  Пассивный эффект: слизь распространяется на 15% дальше.  Пассивный эффект: пока Загара находится на слизи, каждая ее автоатака сокращает время восстановления ее способностей на 0.5 сек.",
+          "fullTooltip": "Призывает червя Нидуса в указанной видимой точке на слизи. Зайти в червя или попасть в любого другого червя можно, щелкнув правой кнопкой рядом с ним. Пока Загара находится внутри, она восполняет здоровье и ману в объеме 10% от максимального запаса каждую секунду.  Максимум зарядов – 2. Одновременно может существовать не более 4 червей Нидуса.  Пассивный эффект: слизь распространяется на 15% дальше.  Пассивный эффект: пока Загара находится на слизи, каждая ее автоатака сокращает время восстановления ее способностей на 0.4 сек.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -38140,7 +38607,7 @@
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBaseNoMana",
+    "hearthLinkId": "HearthstoneNoMana",
     "description": "Рубака, способная превращать союзников-убийц в машины смерти и предотвращать получение большого количества урона за короткое время.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_zarya.png",
@@ -38660,7 +39127,7 @@
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Замаскированный убийца, способный незамеченным пробираться в тыл врага.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_zeratul.png",
@@ -39116,7 +39583,7 @@
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
-    "hearthLinkId": "PortBackToBase",
+    "hearthLinkId": "Hearthstone",
     "description": "Убийца, который становится тем сильнее, чем меньше у него остается здоровья.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_zuljin.png",
