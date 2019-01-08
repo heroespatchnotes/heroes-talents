@@ -9,6 +9,7 @@
   "role": "Multiclass",
   "type": "Melee",
   "releaseDate": "2016-11-15",
+  "releasePatch": "1.22.0.48027",
   "abilities": {
     "Varian": [
       {
@@ -88,9 +89,13 @@
         "name": "Lion's Maw",
         "description": "Quest: Every time Lion's Fang hits a Hero, increase its damage by 4, up to 120.  Reward: After hitting 30 Heroes, the Slow is increased to 50% and its duration is increased to 2 seconds.",
         "icon": "storm_ui_icon_varian_lionsfang.png",
+        "type": "Q",
         "sort": 1,
+        "isQuest": true,
         "abilityId": "Varian|Q1",
-        "isQuest": true
+        "abilityLinks": [
+          "Varian|Q1"
+        ]
       },
       {
         "tooltipId": "VarianParryOverpower",
@@ -98,8 +103,12 @@
         "name": "Overpower",
         "description": "When Parry blocks a Hero's Basic Attack, Heroic Strike's cooldown is refreshed and the next one does 30% more damage.",
         "icon": "storm_ui_icon_varian_parry.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Varian|W1"
+        "abilityId": "Varian|W1",
+        "abilityLinks": [
+          "Varian|W1"
+        ]
       },
       {
         "tooltipId": "VarianHighKingsQuestQuest",
@@ -107,9 +116,13 @@
         "name": "High King's Quest",
         "description": "Quest: Hit 50 Heroes with Basic Attacks. Quest: Participate in 5 Hero Takedowns. Quest: Gather 20 Regeneration Globes.  Reward: Completing a Quest grants 10 Base Attack Damage. Completing all 3 Quests grants an additional 45 Base Attack Damage.",
         "icon": "storm_ui_icon_varian_highkingsquest.png",
+        "type": "Passive",
         "sort": 3,
+        "isQuest": true,
         "abilityId": "Varian|Passive",
-        "isQuest": true
+        "abilityLinks": [
+          "Varian|D1"
+        ]
       }
     ],
     "4": [
@@ -119,9 +132,13 @@
         "name": "Taunt",
         "description": "Silence a target Hero and force them to attack Varian for 1.25 seconds.  Passive: Maximum Health and Health Regeneration increased by 30%.",
         "icon": "storm_ui_icon_varian_taunt.png",
+        "type": "Heroic",
         "sort": 1,
+        "cooldown": 16,
         "abilityId": "Varian|R1",
-        "cooldown": 16
+        "abilityLinks": [
+          "Varian|R1"
+        ]
       },
       {
         "tooltipId": "VarianColossusSmash",
@@ -129,9 +146,13 @@
         "name": "Colossus Smash",
         "description": "Smash a target enemy, dealing 160 (+4% per level) damage and lowering their Armor by 20 for 3 seconds, causing them to take 20% increased damage.  Passive: Base Attack Damage increased by 100%. Passive: Maximum Health and Health Regeneration reduced by 10%.",
         "icon": "storm_ui_icon_varian_colossus_smash.png",
+        "type": "Heroic",
         "sort": 2,
+        "cooldown": 20,
         "abilityId": "Varian|R2",
-        "cooldown": 20
+        "abilityLinks": [
+          "Varian|R2"
+        ]
       },
       {
         "tooltipId": "VarianTwinBladesOfFury",
@@ -139,6 +160,7 @@
         "name": "Twin Blades of Fury",
         "description": "Basic Attacks reduce Heroic Strike's cooldown by 9 seconds, and increase Varian's Movement Speed by 30% for 2 seconds.  Passive: Attack Speed increased by 100%. Passive: Base Attack Damage reduced by 20%.",
         "icon": "storm_ui_icon_varian_twinbladesoffury.png",
+        "type": "Passive",
         "sort": 3,
         "abilityId": "Varian|Passive"
       }
@@ -150,8 +172,12 @@
         "name": "Lionheart",
         "description": "Increase Lion's Fang's healing from Heroes by 50%.",
         "icon": "storm_ui_icon_varian_lionsfang.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Varian|Q1"
+        "abilityId": "Varian|Q1",
+        "abilityLinks": [
+          "Varian|Q1"
+        ]
       },
       {
         "tooltipId": "VarianSecondWind",
@@ -159,6 +185,7 @@
         "name": "Second Wind",
         "description": "Basic Attacks heal Varian for 1% of his maximum Health. While below 50% Health, they also heal him for 50% of the damage dealt.",
         "icon": "storm_ui_icon_varian_secondwind.png",
+        "type": "Passive",
         "sort": 2,
         "abilityId": "Varian|Passive"
       },
@@ -168,6 +195,7 @@
         "name": "Victory Rush",
         "description": "Every 30 seconds, Varian's next Basic Attack will heal him for 350 (+4% per level) Health. When a nearby enemy Minion or Monster dies, the cooldown is reduced by 10 seconds.",
         "icon": "storm_ui_icon_varian_victoryrush.png",
+        "type": "Passive",
         "sort": 3,
         "abilityId": "Varian|Passive"
       }
@@ -179,8 +207,12 @@
         "name": "Shield Wall",
         "description": "Parry grants Protected, preventing all incoming damage while active. Additionally, Parry's cooldown is reduced by 5 seconds, but it loses 1 charge.",
         "icon": "storm_ui_icon_varian_parry.png",
+        "type": "W",
         "sort": 1,
-        "abilityId": "Varian|W1"
+        "abilityId": "Varian|W1",
+        "abilityLinks": [
+          "Varian|W1"
+        ]
       },
       {
         "tooltipId": "VarianChargeWarbringer",
@@ -188,8 +220,12 @@
         "name": "Warbringer",
         "description": "Reduce Charge's cooldown by 8 seconds and Mana cost from 45 to 22. Additionally, Charge can be cast on allied Heroes.",
         "icon": "storm_ui_icon_varian_charge.png",
+        "type": "E",
         "sort": 2,
-        "abilityId": "Varian|E1"
+        "abilityId": "Varian|E1",
+        "abilityLinks": [
+          "Varian|E1"
+        ]
       }
     ],
     "13": [
@@ -199,8 +235,12 @@
         "name": "Juggernaut",
         "description": "Charge deals bonus damage to Heroes equal to 4% of their maximum Health.",
         "icon": "storm_ui_icon_varian_charge.png",
+        "type": "E",
         "sort": 1,
-        "abilityId": "Varian|E1"
+        "abilityId": "Varian|E1",
+        "abilityLinks": [
+          "Varian|E1"
+        ]
       },
       {
         "tooltipId": "VarianMortalStrike",
@@ -208,8 +248,12 @@
         "name": "Mortal Strike",
         "description": "Heroes hit by Heroic Strike receive 40% reduced healing for 4 seconds.",
         "icon": "storm_ui_icon_varian_mortalstrike.png",
+        "type": "Trait",
         "sort": 2,
-        "abilityId": "Varian|D1"
+        "abilityId": "Varian|D1",
+        "abilityLinks": [
+          "Varian|D1"
+        ]
       },
       {
         "tooltipId": "VarianShatteringThrow",
@@ -217,9 +261,10 @@
         "name": "Shattering Throw",
         "description": "Activate to throw a sword at a target Hero that deals 50 (+4% per level) damage, and up to 1400 (+4% per level) bonus damage to their Shields.  Passive: Basic Attacks against Heroes deal up to 200% bonus Physical Damage to Shields.",
         "icon": "storm_ui_icon_varian_shatteringthrow.png",
+        "type": "Active",
         "sort": 3,
-        "abilityId": "Varian|Active",
-        "cooldown": 30
+        "cooldown": 30,
+        "abilityId": "Varian|Active"
       }
     ],
     "16": [
@@ -229,9 +274,10 @@
         "name": "Banner of Stormwind",
         "description": "Activate to place a Banner that grants 25% increased Movement Speed to nearby allied Heroes. Lasts 12 seconds.",
         "icon": "storm_ui_icon_varian_bannerofstormwind.png",
+        "type": "Active",
         "sort": 1,
-        "abilityId": "Varian|Active",
-        "cooldown": 45
+        "cooldown": 45,
+        "abilityId": "Varian|Active"
       },
       {
         "tooltipId": "VarianBannerOfIronforge",
@@ -239,9 +285,10 @@
         "name": "Banner of Ironforge",
         "description": "Activate to place a Banner that grants 20 Armor to nearby allied Heroes, reducing damage taken by 20%. Lasts 12 seconds.",
         "icon": "storm_ui_icon_varian_bannerofironforge.png",
+        "type": "Active",
         "sort": 2,
-        "abilityId": "Varian|Active",
-        "cooldown": 45
+        "cooldown": 45,
+        "abilityId": "Varian|Active"
       },
       {
         "tooltipId": "VarianBannerOfDalaran",
@@ -249,9 +296,10 @@
         "name": "Banner of Dalaran",
         "description": "Activate to place a Banner that grants 20% increased Spell Power to nearby allied Heroes. Lasts 12 seconds.",
         "icon": "storm_ui_icon_varian_bannerofdalaran.png",
+        "type": "Active",
         "sort": 3,
-        "abilityId": "Varian|Active",
-        "cooldown": 45
+        "cooldown": 45,
+        "abilityId": "Varian|Active"
       }
     ],
     "20": [
@@ -261,8 +309,12 @@
         "name": "Vigilance",
         "description": "Being hit by a Hero Basic Attack reduces the cooldown of Taunt by 1 seconds.",
         "icon": "storm_ui_icon_varian_taunt.png",
+        "type": "Heroic",
         "sort": 1,
-        "abilityId": "Varian|R1"
+        "abilityId": "Varian|R1",
+        "abilityLinks": [
+          "Varian|R1"
+        ]
       },
       {
         "tooltipId": "VarianColossusSmashMasterAtArms",
@@ -270,8 +322,12 @@
         "name": "Master at Arms",
         "description": "Colossus Smash affects all enemies near the target, and its cooldown is reduced by 10 seconds.",
         "icon": "storm_ui_icon_varian_colossus_smash.png",
+        "type": "Heroic",
         "sort": 2,
-        "abilityId": "Varian|R2"
+        "abilityId": "Varian|R2",
+        "abilityLinks": [
+          "Varian|R2"
+        ]
       },
       {
         "tooltipId": "VarianTwinBladesOfFuryFrenzy",
@@ -279,8 +335,12 @@
         "name": "Frenzy",
         "description": "Twin Blades of Fury increases Varian's Attack Speed by an additional 15%, and Basic Attacks increase his Movement Speed by an additional 10%.",
         "icon": "storm_ui_icon_varian_twinbladesoffury.png",
+        "type": "Passive",
         "sort": 3,
-        "abilityId": "Varian|Passive"
+        "abilityId": "Varian|Passive",
+        "abilityLinks": [
+          "Varian|R3"
+        ]
       },
       {
         "tooltipId": "VarianBannersGloryToTheAlliance",
@@ -288,8 +348,14 @@
         "name": "Glory to the Alliance",
         "description": "Banner now also increases health regeneration and all healing received for nearby allied Heroes by 50%, and the cooldown is reduced by 20 seconds.",
         "icon": "storm_ui_icon_varian_glorytothealliance.png",
+        "type": "Passive",
         "sort": 4,
-        "abilityId": "Varian|Passive"
+        "abilityId": "Varian|Passive",
+        "abilityLinks": [
+          "Varian|11",
+          "Varian|12",
+          "Varian|13"
+        ]
       },
       {
         "tooltipId": "VarianDemoralizingShout",
@@ -297,9 +363,10 @@
         "name": "Demoralizing Shout",
         "description": "Activate to demoralize nearby enemy Heroes, reducing damage they deal by 40% for 5 seconds.",
         "icon": "storm_ui_icon_varian_demoralizingshout.png",
+        "type": "Active",
         "sort": 5,
-        "abilityId": "Varian|Active",
-        "cooldown": 25
+        "cooldown": 25,
+        "abilityId": "Varian|Active"
       }
     ]
   }

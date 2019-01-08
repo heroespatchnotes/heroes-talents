@@ -9,6 +9,7 @@
   "role": "Specialist",
   "type": "Melee",
   "releaseDate": "2014-03-13",
+  "releasePatch": "0.1.1.00000",
   "abilities": {
     "Gazlowe": [
       {
@@ -88,8 +89,12 @@
         "name": "Extra TNT",
         "description": "Increases Xplodium Charge damage by 10% per target hit, up to 100%.",
         "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+        "type": "E",
         "sort": 1,
-        "abilityId": "Gazlowe|E1"
+        "abilityId": "Gazlowe|E1",
+        "abilityLinks": [
+          "Gazlowe|E1"
+        ]
       },
       {
         "tooltipId": "TinkerSalvagerScrapOMaticSmelterTalent",
@@ -97,8 +102,12 @@
         "name": "Scrap-o-Matic Smelter",
         "description": "Increases the Mana restored from Scrap by 100%.",
         "icon": "storm_ui_icon_gazlowe_salvager.png",
+        "type": "Trait",
         "sort": 2,
-        "abilityId": "Gazlowe|D1"
+        "abilityId": "Gazlowe|D1",
+        "abilityLinks": [
+          "Gazlowe|D1"
+        ]
       },
       {
         "tooltipId": "TinkerSalvagerBreakItDownTalent",
@@ -106,8 +115,12 @@
         "name": "Break it Down!",
         "description": "Scrap causes Abilities to cooldown four times as fast for 3 seconds.",
         "icon": "storm_ui_icon_gazlowe_salvager_var1.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Gazlowe|D1"
+        "abilityId": "Gazlowe|D1",
+        "abilityLinks": [
+          "Gazlowe|D1"
+        ]
       },
       {
         "tooltipId": "TinkerGoblinRepairs",
@@ -115,9 +128,10 @@
         "name": "Goblin Repairs",
         "description": "Quest: Gathering a Regeneration Globe increases Health Regeneration by 1 per second, up to 25.  Reward: After gathering 25 Globes, gain an additional 15 Health Regeneration per second.",
         "icon": "storm_ui_icon_talent_regenerationmaster.png",
+        "type": "Passive",
         "sort": 4,
-        "abilityId": "Gazlowe|Passive",
-        "isQuest": true
+        "isQuest": true,
+        "abilityId": "Gazlowe|Passive"
       }
     ],
     "4": [
@@ -127,9 +141,13 @@
         "name": "Clockwerk Steam Fists",
         "description": "Quest: Basic Attacks increase the duration of active Rock-It! Turrets by 1.5 seconds.  Reward: After increasing turret duration by 600 total seconds, reduce the charge cooldown of Rock-It! Turret by 3 seconds.",
         "icon": "storm_ui_icon_gazlowe_rockitturret.png",
+        "type": "Q",
         "sort": 1,
+        "isQuest": true,
         "abilityId": "Gazlowe|Q1",
-        "isQuest": true
+        "abilityLinks": [
+          "Gazlowe|Q1"
+        ]
       },
       {
         "tooltipId": "TinkerARKReaktor",
@@ -137,8 +155,12 @@
         "name": "ARK Reaktor",
         "description": "Reduces Xplodium Charge's cooldown by 2 seconds.  If Xplodium Charge hits an enemy Hero, gain 2 charges of Rock-It! Turret.",
         "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+        "type": "E",
         "sort": 2,
-        "abilityId": "Gazlowe|E1"
+        "abilityId": "Gazlowe|E1",
+        "abilityLinks": [
+          "Gazlowe|E1"
+        ]
       },
       {
         "tooltipId": "TinkerSalvagerReduceReuseRecycleTalent",
@@ -146,8 +168,12 @@
         "name": "Reduce, Reuse, Recycle",
         "description": "Enemy Minions that die nearby have a 15% chance to drop Scrap.",
         "icon": "storm_ui_icon_gazlowe_salvager.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Gazlowe|D1"
+        "abilityId": "Gazlowe|D1",
+        "abilityLinks": [
+          "Gazlowe|D1"
+        ]
       },
       {
         "tooltipId": "TinkerHiredGoons",
@@ -155,6 +181,7 @@
         "name": "Hired Goons",
         "description": "Friendly non-Boss Mercenaries near Gazlowe deal 50% more damage. Rock-it! Turrets gain 50 Armor against Minions and Mercenaries, reducing their damage taken by 50%.",
         "icon": "storm_ui_icon_talent_mercenarylord.png",
+        "type": "Passive",
         "sort": 4,
         "abilityId": "Gazlowe|Passive"
       }
@@ -166,8 +193,12 @@
         "name": "Rock-It! Turret XL",
         "description": "Rock-It! Turrets attack up to 2 additional enemies for 60% damage.",
         "icon": "storm_ui_icon_gazlowe_rockitturret.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Gazlowe|Q1"
+        "abilityId": "Gazlowe|Q1",
+        "abilityLinks": [
+          "Gazlowe|Q1"
+        ]
       },
       {
         "tooltipId": "TinkerRockItTurretEngineGunkTalent",
@@ -175,8 +206,12 @@
         "name": "Engine Gunk",
         "description": "Rock-It! Turret attacks Slow enemies by 20% for 2 seconds.",
         "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",
+        "type": "Q",
         "sort": 2,
-        "abilityId": "Gazlowe|Q1"
+        "abilityId": "Gazlowe|Q1",
+        "abilityLinks": [
+          "Gazlowe|Q1"
+        ]
       },
       {
         "tooltipId": "TinkerDethLazorHyperfocusCoilsTalent",
@@ -184,8 +219,12 @@
         "name": "Hyperfocus Coils",
         "description": "The mana cost of Deth Lazor is reduced by 30 and it charges twice as fast.",
         "icon": "storm_ui_icon_gazlowe_dethlazor.png",
+        "type": "W",
         "sort": 3,
-        "abilityId": "Gazlowe|W1"
+        "abilityId": "Gazlowe|W1",
+        "abilityLinks": [
+          "Gazlowe|W1"
+        ]
       }
     ],
     "10": [
@@ -195,9 +234,13 @@
         "name": "Robo-Goblin",
         "description": "Activate to gain 40 Armor and 30% Movement Speed for 4 seconds.  Passive: Basic Attacks deal 100% bonus damage.",
         "icon": "storm_ui_icon_gazlowe_robogoblin.png",
+        "type": "Heroic",
         "sort": 1,
+        "cooldown": 60,
         "abilityId": "Gazlowe|R1",
-        "cooldown": 60
+        "abilityLinks": [
+          "Gazlowe|R1"
+        ]
       },
       {
         "tooltipId": "TinkerGravOBomb3000",
@@ -205,9 +248,13 @@
         "name": "Grav-O-Bomb 3000",
         "description": "After a 2 second delay, pull enemies toward the center of an area and deal 251 (+4% per level) damage.",
         "icon": "storm_ui_icon_gazlowe_gravobomb.png",
+        "type": "Heroic",
         "sort": 2,
+        "cooldown": 110,
         "abilityId": "Gazlowe|R2",
-        "cooldown": 110
+        "abilityLinks": [
+          "Gazlowe|R2"
+        ]
       }
     ],
     "13": [
@@ -217,8 +264,12 @@
         "name": "EZ-PZ Dimensional Ripper",
         "description": "Deth Lazor Slows Heroes by 50% and Stuns non-Heroes for 3 seconds.",
         "icon": "storm_ui_icon_gazlowe_dethlazor.png",
+        "type": "W",
         "sort": 1,
-        "abilityId": "Gazlowe|W1"
+        "abilityId": "Gazlowe|W1",
+        "abilityLinks": [
+          "Gazlowe|W1"
+        ]
       },
       {
         "tooltipId": "TinkerDethLazorGoblinFusionTalent",
@@ -226,8 +277,12 @@
         "name": "Goblin Fusion",
         "description": "Deth Lazor can be charged for 1 additional second to increase its damage bonus by an additional 100%.",
         "icon": "storm_ui_icon_gazlowe_dethlazor_a.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Gazlowe|W1"
+        "abilityId": "Gazlowe|W1",
+        "abilityLinks": [
+          "Gazlowe|W1"
+        ]
       },
       {
         "tooltipId": "TinkerXplodiumChargeXtraLargeBombsTalent",
@@ -235,8 +290,12 @@
         "name": "X-Tra Large Bombs",
         "description": "Increases Xplodium Charge radius by 30%. Being stunned or rooted causes an Xplodium Charge to drop at Gazlowe's feet.  This effect has a 10 second cooldown.",
         "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+        "type": "E",
         "sort": 3,
-        "abilityId": "Gazlowe|E1"
+        "abilityId": "Gazlowe|E1",
+        "abilityLinks": [
+          "Gazlowe|E1"
+        ]
       }
     ],
     "16": [
@@ -246,8 +305,12 @@
         "name": "Turret Storage",
         "description": "Increases Rock-It! Turret maximum charges from 2 to 3.",
         "icon": "storm_ui_icon_gazlowe_rockitturret.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Gazlowe|Q1"
+        "abilityId": "Gazlowe|Q1",
+        "abilityLinks": [
+          "Gazlowe|Q1"
+        ]
       },
       {
         "tooltipId": "TinkerSuperiorSchematics",
@@ -255,8 +318,12 @@
         "name": "Superior Schematics",
         "description": "Gazlowe's Rock-It! Turrets have 25% increased range while he is within their attack range.",
         "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",
+        "type": "Q",
         "sort": 2,
-        "abilityId": "Gazlowe|Q1"
+        "abilityId": "Gazlowe|Q1",
+        "abilityLinks": [
+          "Gazlowe|Q1"
+        ]
       },
       {
         "tooltipId": "TinkerXplodiumChargeKwikReleaseChargeTalent",
@@ -264,8 +331,12 @@
         "name": "Kwik Release Charge",
         "description": "Xplodium Charge gains a second charge.",
         "icon": "storm_ui_icon_gazlowe_explodiumcharge.png",
+        "type": "E",
         "sort": 3,
-        "abilityId": "Gazlowe|E1"
+        "abilityId": "Gazlowe|E1",
+        "abilityLinks": [
+          "Gazlowe|E1"
+        ]
       }
     ],
     "20": [
@@ -275,8 +346,12 @@
         "name": "Mecha-Lord",
         "description": "Basic Attacks deal an additional 100% damage.  Passive: Gain 25 Armor.",
         "icon": "storm_ui_icon_gazlowe_robogoblin.png",
+        "type": "Heroic",
         "sort": 1,
-        "abilityId": "Gazlowe|R1"
+        "abilityId": "Gazlowe|R1",
+        "abilityLinks": [
+          "Gazlowe|R1"
+        ]
       },
       {
         "tooltipId": "TinkerGravOBombMiniatureBlackHoleTalent",
@@ -284,8 +359,12 @@
         "name": "Miniature Black Hole",
         "description": "Increases Grav-O-Bomb radius by 25% and damage by 50%.",
         "icon": "storm_ui_icon_gazlowe_gravobomb.png",
+        "type": "Heroic",
         "sort": 2,
-        "abilityId": "Gazlowe|R2"
+        "abilityId": "Gazlowe|R2",
+        "abilityLinks": [
+          "Gazlowe|R2"
+        ]
       },
       {
         "tooltipId": "TinkerFirinMahLazorz",
@@ -293,8 +372,12 @@
         "name": "Firin' Mah Lazorz",
         "description": "Firing Deth Lazor causes all of Gazlowe's Rock-It! Turrets to fire a Deth Lazor of their own that deals 137 (+4% per level) damage.",
         "icon": "storm_ui_icon_gazlowe_dethlazor.png",
+        "type": "W",
         "sort": 3,
-        "abilityId": "Gazlowe|W1"
+        "abilityId": "Gazlowe|W1",
+        "abilityLinks": [
+          "Gazlowe|W1"
+        ]
       },
       {
         "tooltipId": "TinkerItsRainingScrap",
@@ -302,9 +385,10 @@
         "name": "It's Raining Scrap",
         "description": "Activate to create 5 Scrap around Gazlowe over 5 seconds.",
         "icon": "storm_ui_icon_gazlowe_itsrainingscrap.png",
+        "type": "Active",
         "sort": 4,
-        "abilityId": "Gazlowe|Active",
-        "cooldown": 60
+        "cooldown": 60,
+        "abilityId": "Gazlowe|Active"
       }
     ]
   }
