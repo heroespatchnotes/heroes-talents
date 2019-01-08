@@ -60,8 +60,12 @@ Example:
         "name": "Death's Reach",
         "description": "Increase Wraith Strike's range by 35%.",
         "icon": "storm_ui_icon_malthael_wraithstrike.png",
+        "type": "W",
         "sort": 1,
-        "abilityId": "Malthael|W1"
+        "abilityId": "Malthael|W1",
+        "abilityLinks": [
+          "Malthael|W1"
+        ]
       },
       {
         "tooltipId": "MalthaelOnAPaleHorse",
@@ -69,8 +73,12 @@ Example:
         "name": "On a Pale Horse",
         "description": "Gain an additional 20% Movement Speed while mounted.",
         "icon": "storm_ui_icon_malthael_onpalehorse.png",
+        "type": "Passive",
         "sort": 2,
-        "abilityId": "Malthael|Passive"
+        "abilityId": "_stormhero|Z1",
+        "abilityLinks": [
+          "_stormhero|Z1"
+        ]
       },
       {
         "tooltipId": "MalthaelFearTheReaper",
@@ -78,9 +86,10 @@ Example:
         "name": "Fear the Reaper",
         "description": "Activate to increase Movement Speed by 25% and pass through other units for 4 seconds.",
         "icon": "storm_ui_icon_malthael_fearthereaper.png",
+        "type": "Active",
         "sort": 3,
-        "abilityId": "Malthael|Active",
-        "cooldown": 25
+        "cooldown": 25,
+        "abilityId": "Malthael|Active"
       }
     ],
     "4": [
@@ -245,6 +254,10 @@ Example:
 <a class="img-wrap" href="hero/illidan.json">
   <img class="img-rounded" src="images/heroes/illidan.png" />
   <span>Illidan</span>
+</a>
+<a class="img-wrap" href="hero/imperius.json">
+  <img class="img-rounded" src="images/heroes/imperius.png" />
+  <span>Imperius</span>
 </a>
 <a class="img-wrap" href="hero/jaina.json">
   <img class="img-rounded" src="images/heroes/jaina.png" />
