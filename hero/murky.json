@@ -9,6 +9,7 @@
   "role": "Specialist",
   "type": "Melee",
   "releaseDate": "2014-05-22",
+  "releasePatch": "0.1.1.00000",
   "abilities": {
     "Murky": [
       {
@@ -76,8 +77,12 @@
         "name": "Fish Eye",
         "description": "Egg's Health is increased by 100%, its sight radius is increased by 300% and it can see Stealthed enemies.  Passive: Spawning from his Egg increases Murky's mount speed to 45% for 5 seconds.",
         "icon": "storm_ui_icon_murky_trait_spawnegg.png",
+        "type": "Trait",
         "sort": 1,
-        "abilityId": "Murky|D1"
+        "abilityId": "Murky|D1",
+        "abilityLinks": [
+          "Murky|D1"
+        ]
       },
       {
         "tooltipId": "MurkyEggHuntTalent",
@@ -85,9 +90,10 @@
         "name": "Egg Hunt",
         "description": "Activate to place a fake Egg. If the fake Egg dies, it casts an untalented Slime. Maximum 3 fake Eggs.  Passive: Spawning from his Egg grants Murky Stealth for 5 seconds.",
         "icon": "storm_ui_icon_murky_egghunt.png",
+        "type": "Active",
         "sort": 2,
-        "abilityId": "Murky|Active",
-        "cooldown": 3
+        "cooldown": 3,
+        "abilityId": "Murky|Active"
       },
       {
         "tooltipId": "MurkyAFishyDeal",
@@ -95,6 +101,7 @@
         "name": "A Fishy Deal",
         "description": "Killing a Minion with Pufferfish grants a stack of Bribe. Use 8 stacks to bribe a Mercenary, instantly defeating them. Does not work on Elite Mercenaries.  Maximum of 32 stacks of Bribe.",
         "icon": "storm_ui_icon_talent_bribe.png",
+        "type": "Active",
         "sort": 3,
         "abilityId": "Murky|Active"
       }
@@ -106,9 +113,13 @@
         "name": "Slime Time",
         "description": "Quest: Slime enemy Heroes that are already Slimed.  Reward: After Sliming 15 Heroes, increase Slime's bonus damage by 125.  Reward: After Sliming 30 Heroes, increase Slime's slow amount to 30%.",
         "icon": "storm_ui_icon_murky_slime.png",
+        "type": "Q",
         "sort": 1,
+        "isQuest": true,
         "abilityId": "Murky|Q1",
-        "isQuest": true
+        "abilityLinks": [
+          "Murky|Q1"
+        ]
       },
       {
         "tooltipId": "MurkyPufferfishTufferfishTalent",
@@ -116,8 +127,12 @@
         "name": "Tufferfish",
         "description": "Pufferfish gains 50 Spell Armor and deals 50% more damage to Slimed targets.",
         "icon": "storm_ui_icon_murky_pufferfish.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Murky|W1"
+        "abilityId": "Murky|W1",
+        "abilityLinks": [
+          "Murky|W1"
+        ]
       },
       {
         "tooltipId": "MurkyLivingTheDreamTalent",
@@ -125,9 +140,13 @@
         "name": "Living the Dream",
         "description": "Quest: Every 15 seconds Murky is alive, he gains 5% Spell Power, up to 15%. This bonus is reset upon his death.",
         "icon": "storm_ui_icon_murky_trait_spawnegg_var1.png",
+        "type": "Passive",
         "sort": 3,
+        "isQuest": true,
         "abilityId": "Murky|Passive",
-        "isQuest": true
+        "abilityLinks": [
+          "Murky|D1"
+        ]
       }
     ],
     "7": [
@@ -137,8 +156,12 @@
         "name": "Black Lagoon",
         "description": "Increase Slime's radius by 30%.",
         "icon": "storm_ui_icon_murky_slime.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Murky|Q1"
+        "abilityId": "Murky|Q1",
+        "abilityLinks": [
+          "Murky|Q1"
+        ]
       },
       {
         "tooltipId": "MurkySafetyBubbleSlipperyWhenWetTalent",
@@ -146,8 +169,12 @@
         "name": "Slippery When Wet",
         "description": "Gain 50% Movement Speed and move through units while in Safety Bubble. Additionally, Safety Bubble's cooldown is reduced by 2 seconds.",
         "icon": "storm_ui_icon_murky_safetybubble.png",
+        "type": "E",
         "sort": 2,
-        "abilityId": "Murky|E1"
+        "abilityId": "Murky|E1",
+        "abilityLinks": [
+          "Murky|E1"
+        ]
       },
       {
         "tooltipId": "MurkyTimetoKrill",
@@ -155,6 +182,7 @@
         "name": "Time to Krill",
         "description": "Basic Attacks against Heroes deal an additional 7 (+4% per level) damage a second and slow the target by 7% for 4 seconds. This effect can stack up to 5 times.",
         "icon": "storm_ui_icon_talent_autoattack_slow.png",
+        "type": "Passive",
         "sort": 3,
         "abilityId": "Murky|Passive"
       }
@@ -166,9 +194,13 @@
         "name": "March of the Murlocs",
         "description": "After 0.75 seconds, Murky commands a legion of Murlocs to march in a target direction, each one leaping onto the first enemy Hero or Structure they find. Each Murloc deals 125 (+4% per level) damage and slows its target by 15% for 5 seconds. Murlocs deal 50% damage to Structures.",
         "icon": "storm_ui_icon_murky_marchofthemurlocs.png",
+        "type": "Heroic",
         "sort": 1,
+        "cooldown": 110,
         "abilityId": "Murky|R1",
-        "cooldown": 110
+        "abilityLinks": [
+          "Murky|R1"
+        ]
       },
       {
         "tooltipId": "MurkyOctoGrab",
@@ -176,9 +208,13 @@
         "name": "Octo-Grab",
         "description": "Murky becomes Unstoppable and Stuns target enemy Hero for 3 seconds while he hits them for 1 damage a second.",
         "icon": "storm_ui_icon_murky_octograb.png",
+        "type": "Heroic",
         "sort": 2,
+        "cooldown": 50,
         "abilityId": "Murky|R2",
-        "cooldown": 50
+        "abilityLinks": [
+          "Murky|R2"
+        ]
       }
     ],
     "13": [
@@ -188,8 +224,12 @@
         "name": "Rejuvenating Bubble",
         "description": "Safety Bubble restores 40% of Murky's maximum Health.",
         "icon": "storm_ui_icon_murky_safetybubble.png",
+        "type": "E",
         "sort": 1,
-        "abilityId": "Murky|E1"
+        "abilityId": "Murky|E1",
+        "abilityLinks": [
+          "Murky|E1"
+        ]
       },
       {
         "tooltipId": "MurkyEggShell",
@@ -197,8 +237,12 @@
         "name": "Egg Shell",
         "description": "Spawning from his Egg grants Murky a Shield equal to 100% of his maximum Health. The shield lasts indefinitely.",
         "icon": "storm_ui_icon_murky_trait_spawnegg.png",
+        "type": "Trait",
         "sort": 2,
-        "abilityId": "Murky|D1"
+        "abilityId": "Murky|D1",
+        "abilityLinks": [
+          "Murky|D1"
+        ]
       },
       {
         "tooltipId": "MurkyFishTank",
@@ -206,8 +250,12 @@
         "name": "Fish Tank",
         "description": "Murky is healed for 25% of the damage he deals with Basic Attacks and Basic Abilities.",
         "icon": "storm_ui_icon_murky_fishtank.png",
+        "type": "Passive",
         "sort": 3,
-        "abilityId": "Murky|Passive"
+        "abilityId": "Murky|Passive",
+        "abilityLinks": [
+          "Murky|D1"
+        ]
       }
     ],
     "16": [
@@ -217,8 +265,12 @@
         "name": "Toxic Buildup",
         "description": "Every 3rd consecutive Basic Attack against an enemy Hero causes a free Slime to be cast upon them.",
         "icon": "storm_ui_icon_murky_slime.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Murky|Q1"
+        "abilityId": "Murky|Q1",
+        "abilityLinks": [
+          "Murky|Q1"
+        ]
       },
       {
         "tooltipId": "MurkyFishOil",
@@ -226,8 +278,12 @@
         "name": "Fish Oil",
         "description": "The Pufferfish casts Slime at its location upon landing.",
         "icon": "storm_ui_icon_murky_pufferfish.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Murky|W1"
+        "abilityId": "Murky|W1",
+        "abilityLinks": [
+          "Murky|W1"
+        ]
       },
       {
         "tooltipId": "MurkyPufferfishWrathOfCodTalent",
@@ -235,8 +291,12 @@
         "name": "Wrath of Cod",
         "description": "Heroes hit by Pufferfish take additional damage equal to 15% of their maximum Health over 5 seconds.",
         "icon": "storm_ui_icon_murky_pufferfish_b.png",
+        "type": "W",
         "sort": 3,
-        "abilityId": "Murky|W1"
+        "abilityId": "Murky|W1",
+        "abilityLinks": [
+          "Murky|W1"
+        ]
       }
     ],
     "20": [
@@ -246,8 +306,12 @@
         "name": "Never-Ending Murlocs",
         "description": "March of the Murlocs can be channeled, sending little Murlocs indefinitely.",
         "icon": "storm_ui_icon_murky_marchofthemurlocs.png",
+        "type": "Heroic",
         "sort": 1,
-        "abilityId": "Murky|R1"
+        "abilityId": "Murky|R1",
+        "abilityLinks": [
+          "Murky|R1"
+        ]
       },
       {
         "tooltipId": "MurkyOctoGrabAndASharkTooTalent",
@@ -255,8 +319,12 @@
         "name": "... And a Shark Too!",
         "description": "Increase the damage of Octo-Grab by 13700%.",
         "icon": "storm_ui_icon_murky_octograb.png",
+        "type": "Heroic",
         "sort": 2,
-        "abilityId": "Murky|R2"
+        "abilityId": "Murky|R2",
+        "abilityLinks": [
+          "Murky|R2"
+        ]
       },
       {
         "tooltipId": "MurkyBigTunaKahuna",
@@ -264,8 +332,12 @@
         "name": "Big Tuna Kahuna",
         "description": "Murky's maximum Health and Egg respawn time are doubled.",
         "icon": "storm_ui_ingame_heroselect_btn_murky.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Murky|D1"
+        "abilityId": "Murky|D1",
+        "abilityLinks": [
+          "Murky|D1"
+        ]
       },
       {
         "tooltipId": "MurkyMakingInky",
@@ -273,8 +345,12 @@
         "name": "Making Inky",
         "description": "Reduces the Cooldown of Slime from 4 seconds to 2 seconds.",
         "icon": "storm_ui_icon_murky_slime.png",
+        "type": "Q",
         "sort": 4,
-        "abilityId": "Murky|Q1"
+        "abilityId": "Murky|Q1",
+        "abilityLinks": [
+          "Murky|Q1"
+        ]
       }
     ]
   }

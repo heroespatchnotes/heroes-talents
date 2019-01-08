@@ -9,6 +9,7 @@
   "role": "Specialist",
   "type": "Ranged",
   "releaseDate": "2017-03-14",
+  "releasePatch": "1.24.0.51375",
   "abilities": {
     "Probius": [
       {
@@ -89,8 +90,12 @@
         "name": "Echo Pulse",
         "description": "Disruption Pulse now returns to Probius 1.25 seconds after reaching its target, dealing 75% damage on the return trip.",
         "icon": "storm_ui_icon_probius_disruptionpulse.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Probius|Q1"
+        "abilityId": "Probius|Q1",
+        "abilityLinks": [
+          "Probius|Q1"
+        ]
       },
       {
         "tooltipId": "ProbiusWarpRiftWarpResonanceQuestTalent",
@@ -98,9 +103,13 @@
         "name": "Warp Resonance",
         "description": "Quest: Hit Heroes with Warp Rift explosions.  Reward: After hitting 10 Heroes with Warp Rift explosions, increase the explosion damage by 100.  Reward: After hitting 20 Heroes with Warp Rift explosions, Warp Rift gains 1 additional charge.",
         "icon": "storm_ui_icon_probius_warprift.png",
+        "type": "W",
         "sort": 2,
+        "isQuest": true,
         "abilityId": "Probius|W1",
-        "isQuest": true
+        "abilityLinks": [
+          "Probius|W1"
+        ]
       },
       {
         "tooltipId": "ProbiusGatherMineralsPhotonCannonQuestTalent",
@@ -108,9 +117,13 @@
         "name": "Gather Minerals",
         "description": "Quest: Enemy Heroes and Minions drop Minerals when killed. Collect them to increase the Health of Photon Cannons by 8, up to 560.  Reward: After collecting 70 Minerals, Photon Cannons deal 35% more damage, can see over obstacles, and reveal nearby Cloaked units.",
         "icon": "storm_ui_icon_probius_photoncannon.png",
+        "type": "E",
         "sort": 3,
+        "isQuest": true,
         "abilityId": "Probius|E1",
-        "isQuest": true
+        "abilityLinks": [
+          "Probius|E1"
+        ]
       }
     ],
     "4": [
@@ -120,8 +133,12 @@
         "name": "Photon Barrier",
         "description": "While a Photon Cannon is alive and powered, Probius gains 30 Spell Armor.",
         "icon": "storm_ui_icon_probius_photoncannon.png",
+        "type": "E",
         "sort": 1,
-        "abilityId": "Probius|E1"
+        "abilityId": "Probius|E1",
+        "abilityLinks": [
+          "Probius|E1"
+        ]
       },
       {
         "tooltipId": "ProbiusTurboChargedWorkerRushTalent",
@@ -129,8 +146,12 @@
         "name": "Turbo Charged",
         "description": "Worker Rush grants an additional 10% passive Movement Speed while in a Power Field, and its cooldown is reduced by 10 seconds.",
         "icon": "storm_ui_icon_probius_workerrush.png",
+        "type": "Z",
         "sort": 2,
-        "abilityId": "Probius|Z1"
+        "abilityId": "Probius|Z1",
+        "abilityLinks": [
+          "Probius|Z1"
+        ]
       },
       {
         "tooltipId": "ProbiusShieldCapacitorTalent",
@@ -138,8 +159,12 @@
         "name": "Shield Capacitor",
         "description": "Probius gains permanent Shields equal to 10% of his max Health. Shields regenerate quickly as long as he hasn't taken damage recently.",
         "icon": "storm_ui_icon_probius_shieldcapacitor.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Probius|D1"
+        "abilityId": "Probius|D1",
+        "abilityLinks": [
+          "Probius|D1"
+        ]
       }
     ],
     "7": [
@@ -149,8 +174,12 @@
         "name": "Particle Accelerator",
         "description": "Disruption Pulse deals 10% more damage for each enemy or Warp Rift hit, up to 50%.",
         "icon": "storm_ui_icon_probius_disruptionpulse.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Probius|Q1"
+        "abilityId": "Probius|Q1",
+        "abilityLinks": [
+          "Probius|Q1"
+        ]
       },
       {
         "tooltipId": "ProbiusRiftShockWarpRiftTalent",
@@ -158,8 +187,12 @@
         "name": "Rift Shock",
         "description": "Hitting an enemy Hero with Warp Rift explosion increases Probius's damage against them by 20% for 10 seconds.",
         "icon": "storm_ui_icon_probius_warprift.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Probius|W1"
+        "abilityId": "Probius|W1",
+        "abilityLinks": [
+          "Probius|W1"
+        ]
       },
       {
         "tooltipId": "ProbiusTowerDefensePhotonCannonTalent",
@@ -167,8 +200,12 @@
         "name": "Tower Defense",
         "description": "When Photon Cannon damages an enemy Hero, its cooldown is reduced by 1.25 seconds.",
         "icon": "storm_ui_icon_probius_photoncannon.png",
+        "type": "E",
         "sort": 3,
-        "abilityId": "Probius|E1"
+        "abilityId": "Probius|E1",
+        "abilityLinks": [
+          "Probius|E1"
+        ]
       }
     ],
     "10": [
@@ -178,9 +215,13 @@
         "name": "Pylon Overcharge",
         "description": "Increase the size of Pylon power fields and allow them to attack enemies within it for 96 (+4% per level) damage per second. Lasts 10 seconds.",
         "icon": "storm_ui_icon_probius_pylonovercharge.png",
+        "type": "Heroic",
         "sort": 1,
+        "cooldown": 80,
         "abilityId": "Probius|R1",
-        "cooldown": 80
+        "abilityLinks": [
+          "Probius|R1"
+        ]
       },
       {
         "tooltipId": "ProbiusNullGate",
@@ -188,9 +229,13 @@
         "name": "Null Gate",
         "description": "Vector Targeting Project a barrier of negative energy in the target direction that lasts 4 seconds. Enemies who touch the barrier take 68 (+4% per level) damage per second and are slowed by 80% for as long as they remain in contact with it.",
         "icon": "storm_ui_icon_probius_voidgate.png",
+        "type": "Heroic",
         "sort": 2,
+        "cooldown": 30,
         "abilityId": "Probius|R2",
-        "cooldown": 30
+        "abilityLinks": [
+          "Probius|R2"
+        ]
       }
     ],
     "13": [
@@ -200,8 +245,12 @@
         "name": "Aggressive Matrix",
         "description": "Pylon's Power Field grants allied Heroes 35% increased Attack Damage.",
         "icon": "storm_ui_icon_probius_warpinpylon.png",
+        "type": "Trait",
         "sort": 1,
-        "abilityId": "Probius|D1"
+        "abilityId": "Probius|D1",
+        "abilityLinks": [
+          "Probius|D1"
+        ]
       },
       {
         "tooltipId": "ProbiusPowerOverflowingWarpInPylonTalent",
@@ -209,8 +258,12 @@
         "name": "Power Overflowing",
         "description": "Pylon's Power Field grants allied Heroes 10% increased Spell Power and 2 Mana per second.",
         "icon": "storm_ui_icon_probius_warpinpylon_a.png",
+        "type": "Trait",
         "sort": 2,
-        "abilityId": "Probius|D1"
+        "abilityId": "Probius|D1",
+        "abilityLinks": [
+          "Probius|D1"
+        ]
       },
       {
         "tooltipId": "ProbiusShieldBatteryWarpInPylonTalent",
@@ -218,8 +271,12 @@
         "name": "Shield Battery",
         "description": "Pylon's Power Field grants allied Heroes 28 (+4% per level) Shields per second, up to 112 (+4% per level). Shields persist for 2 seconds after exiting a Pylon Power Field.",
         "icon": "storm_ui_icon_probius_warpinpylon_b.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Probius|D1"
+        "abilityId": "Probius|D1",
+        "abilityLinks": [
+          "Probius|D1"
+        ]
       }
     ],
     "16": [
@@ -229,8 +286,12 @@
         "name": "Quantum Entanglement",
         "description": "Enemies continue to be slowed for 3 seconds after their last contact with a Warp Rift.",
         "icon": "storm_ui_icon_probius_warprift.png",
+        "type": "W",
         "sort": 1,
-        "abilityId": "Probius|W1"
+        "abilityId": "Probius|W1",
+        "abilityLinks": [
+          "Probius|W1"
+        ]
       },
       {
         "tooltipId": "ProbiusGravityWellWarpRiftTalent",
@@ -238,8 +299,12 @@
         "name": "Gravity Well",
         "description": "Enemies are slowed more the closer they are to the center of the Warp Rift, up to a maximum slow of 60%.",
         "icon": "storm_ui_icon_probius_warprift_a.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Probius|W1"
+        "abilityId": "Probius|W1",
+        "abilityLinks": [
+          "Probius|W1"
+        ]
       },
       {
         "tooltipId": "ProbiusRepulsorWarpRiftTalent",
@@ -247,8 +312,12 @@
         "name": "Repulsor",
         "description": "Enemies hit by a Warp Rift explosion are knocked away from the center.",
         "icon": "storm_ui_icon_probius_warprift_b.png",
+        "type": "W",
         "sort": 3,
-        "abilityId": "Probius|W1"
+        "abilityId": "Probius|W1",
+        "abilityLinks": [
+          "Probius|W1"
+        ]
       },
       {
         "tooltipId": "ProbiusInterferenceWarpRiftTalent",
@@ -256,8 +325,12 @@
         "name": "Interference",
         "description": "Enemy Heroes hit by Warp Rift detonations have their Spell Power reduced by 35% for 5 seconds.",
         "icon": "storm_ui_icon_probius_warprift_c.png",
+        "type": "W",
         "sort": 4,
-        "abilityId": "Probius|W1"
+        "abilityId": "Probius|W1",
+        "abilityLinks": [
+          "Probius|W1"
+        ]
       }
     ],
     "20": [
@@ -267,8 +340,12 @@
         "name": "Construct Additional Pylons",
         "description": "Probius can now have up to 3 active Pylons, and increase the damage of Pylon Overcharge by 25%.",
         "icon": "storm_ui_icon_probius_pylonovercharge.png",
+        "type": "Heroic",
         "sort": 1,
-        "abilityId": "Probius|R1"
+        "abilityId": "Probius|R1",
+        "abilityLinks": [
+          "Probius|R1"
+        ]
       },
       {
         "tooltipId": "ProbiusGateKeeperNullGateTalent",
@@ -276,8 +353,12 @@
         "name": "Gate Keeper",
         "description": "Null Gate lasts indefinitely if either end is within a Power Field.  Only one Null Gate may be active at a time.",
         "icon": "storm_ui_icon_probius_voidgate.png",
+        "type": "Heroic",
         "sort": 2,
-        "abilityId": "Probius|R2"
+        "abilityId": "Probius|R2",
+        "abilityLinks": [
+          "Probius|R2"
+        ]
       },
       {
         "tooltipId": "ProbiusShootEmUpDisruptionPulseTalent",
@@ -285,8 +366,12 @@
         "name": "Shoot 'Em Up",
         "description": "Hitting a Warp Rift with Disruption Pulse causes 4 additional pulses that deal 50% damage to be fired from the impact location in different directions.   Additional Pulses do not benefit from Echo Pulse or Particle Accelerator.",
         "icon": "storm_ui_icon_probius_disruptionpulse.png",
+        "type": "Q",
         "sort": 3,
-        "abilityId": "Probius|Q1"
+        "abilityId": "Probius|Q1",
+        "abilityLinks": [
+          "Probius|Q1"
+        ]
       },
       {
         "tooltipId": "ProbiusProbiusLoopWarpRiftTalent",
@@ -294,8 +379,12 @@
         "name": "Probius Loop",
         "description": "Whenever a Rift explosion hits 1 or more enemy Heroes, create a new Warp Rift in the same location.",
         "icon": "storm_ui_icon_probius_warprift.png",
+        "type": "W",
         "sort": 4,
-        "abilityId": "Probius|W1"
+        "abilityId": "Probius|W1",
+        "abilityLinks": [
+          "Probius|W1"
+        ]
       }
     ]
   }
