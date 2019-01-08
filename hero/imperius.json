@@ -1,0 +1,362 @@
+{
+  "id": "85",
+  "shortName": "imperius",
+  "attributeId": "IMPE",
+  "cHeroId": "Imperius",
+  "cUnitId": "HeroImperius",
+  "name": "Imperius",
+  "icon": "imperius.png",
+  "role": "Warrior",
+  "type": "Melee",
+  "releaseDate": "2019-01-08",
+  "releasePatch": "2.42.0.71449",
+  "abilities": {
+    "Imperius": [
+      {
+        "name": "Celestial Charge",
+        "description": "Lunge towards a targeted direction and stab, dealing 35 (+4% per level) damage. If an enemy Hero is hit, Channel to Stun for 1 second and deal 70 (+4% per level) additional damage when it fully finishes.",
+        "hotkey": "Q",
+        "abilityId": "Imperius|Q1",
+        "cooldown": 10,
+        "manaCost": 40,
+        "icon": "storm_ui_icon_imperius_q.png",
+        "type": "basic"
+      },
+      {
+        "name": "Solarion's Fire",
+        "description": "Release a fiery wave that deals 100 (+4% per level) damage. Enemies hit by the center take 50 (+4% per level) bonus damage and are Slowed by 40% for 3 seconds.",
+        "hotkey": "W",
+        "abilityId": "Imperius|W1",
+        "cooldown": 8,
+        "manaCost": 60,
+        "icon": "storm_ui_icon_imperius_w.png",
+        "type": "basic"
+      },
+      {
+        "name": "Molten Armor",
+        "description": "Shroud Imperius in flames for 3 seconds, striking a nearby enemy for 19 (+4% per level) damage every 0.25 seconds. Imperius heals for 100% of the damage dealt, with healing doubled versus Heroes.",
+        "hotkey": "E",
+        "abilityId": "Imperius|E1",
+        "cooldown": 12,
+        "manaCost": 50,
+        "icon": "storm_ui_icon_imperius_e.png",
+        "type": "basic"
+      },
+      {
+        "name": "Angelic Armaments",
+        "description": "Summon a ring of blazing swords that grants 1000 (+4% per level) Shield for 3 seconds.  If the Shield lasts the full duration, this ability can be reactivated within 5 seconds to launch 6 swords toward an area, each dealing 140 (+4% per level) damage to the first enemy hit.",
+        "hotkey": "R",
+        "abilityId": "Imperius|R1",
+        "cooldown": 60,
+        "manaCost": 60,
+        "icon": "storm_ui_icon_imperius_r1.png",
+        "type": "heroic"
+      },
+      {
+        "name": "Wrath of the Angiris",
+        "description": "After 0.75 seconds, charge in the target direction, lifting the first enemy Hero hit into the Heavens. While in the air, Imperius can steer the landing location by moving.  After 2 seconds, slam the target into the ground, dealing 375 (+4% per level) damage and Stunning them for 1 second.",
+        "hotkey": "R",
+        "abilityId": "Imperius|R2",
+        "cooldown": 80,
+        "manaCost": 80,
+        "icon": "storm_ui_icon_imperius_r2.png",
+        "type": "heroic"
+      },
+      {
+        "name": "Valorous Brand",
+        "description": "Each Basic Ability marks enemy Heroes hit for 10 seconds. Basic Attacks consume the target's marks, dealing 30% bonus damage per mark.",
+        "trait": true,
+        "abilityId": "Imperius|D1",
+        "icon": "storm_ui_icon_imperius_trait.png",
+        "type": "trait"
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "tooltipId": "ImperiusCelestialChargeImpalingLight",
+        "talentTreeId": "ImperiusCelestialChargeImpalingLight",
+        "name": "Impaling Light",
+        "description": "Celestial Charge deals 125% increased damage.  Quest: Stun multiple enemy Heroes with a single Celestial Charge.  Reward: After Stunning 2 Heroes, permanently reduce the cooldown by 2 seconds.  Reward: After Stunning 3 Heroes, permanently reduce the cooldown by an additional 2 seconds.",
+        "icon": "storm_ui_icon_imperius_q.png",
+        "type": "Q",
+        "sort": 1,
+        "isQuest": true,
+        "abilityId": "Imperius|Q1",
+        "abilityLinks": [
+          "Imperius|Q1"
+        ]
+      },
+      {
+        "tooltipId": "ImperiusSolarionsFireConsumingFlame",
+        "talentTreeId": "ImperiusSolarionsFireConsumingFlame",
+        "name": "Consuming Flame",
+        "description": "Quest: Hitting Heroes with the center of Solarion's Fire increases its center damage by 10, up to 150.  Reward: After hitting 15 Heroes, increase Solarion's Fire Slow by 15%.",
+        "icon": "storm_ui_icon_imperius_w.png",
+        "type": "W",
+        "sort": 2,
+        "isQuest": true,
+        "abilityId": "Imperius|W1",
+        "abilityLinks": [
+          "Imperius|W1"
+        ]
+      },
+      {
+        "tooltipId": "ImperiusSolarionsFireBurnTheImpure",
+        "talentTreeId": "ImperiusSolarionsFireBurnTheImpure",
+        "name": "Burn The Impure",
+        "description": "Consuming a Solarion's Fire mark deals bonus damage equal to 3% of the Hero's maximum Health.",
+        "icon": "storm_ui_icon_imperius_w_alt_01.png",
+        "type": "W",
+        "sort": 3,
+        "abilityId": "Imperius|W1",
+        "abilityLinks": [
+          "Imperius|W1"
+        ]
+      }
+    ],
+    "4": [
+      {
+        "tooltipId": "ImperiusSolarionsFireBulwarkOfFlame",
+        "talentTreeId": "ImperiusSolarionsFireBulwarkOfFlame",
+        "name": "Bulwark of Flame",
+        "description": "Hitting a Hero with Solarion's Fire grants 60 Physical Armor against the next 2 enemy Hero Basic Attacks. Stores up to 4 Charges.",
+        "icon": "storm_ui_icon_imperius_w.png",
+        "type": "W",
+        "sort": 1,
+        "abilityId": "Imperius|W1",
+        "abilityLinks": [
+          "Imperius|W1"
+        ]
+      },
+      {
+        "tooltipId": "ImperiusMoltenArmorUnshakableFaith",
+        "talentTreeId": "ImperiusMoltenArmorUnshakableFaith",
+        "name": "Unshakable Faith",
+        "description": "Activating Molten Armor removes Roots and Slows. If a disabling effect is removed, heal for 250 (+4% per level).",
+        "icon": "storm_ui_icon_imperius_e.png",
+        "type": "E",
+        "sort": 2,
+        "abilityId": "Imperius|E1",
+        "abilityLinks": [
+          "Imperius|E1"
+        ]
+      },
+      {
+        "tooltipId": "ImperiusValorousBrandBattleHunger",
+        "talentTreeId": "ImperiusValorousBrandBattleHunger",
+        "name": "Battle Hunger",
+        "description": "Heal for 82 (+4% per level) Health for every Valorous Brand mark consumed.",
+        "icon": "storm_ui_icon_imperius_trait.png",
+        "type": "Trait",
+        "sort": 3,
+        "abilityId": "Imperius|D1",
+        "abilityLinks": [
+          "Imperius|D1"
+        ]
+      }
+    ],
+    "7": [
+      {
+        "tooltipId": "ImperiusCelestialChargeFlashOfAnger",
+        "talentTreeId": "ImperiusCelestialChargeFlashOfAnger",
+        "name": "Flash of Anger",
+        "description": "Hitting a Hero marked by Solarion's Fire with Celestial Charge deals 160 (+4% per level) damage around the target.",
+        "icon": "storm_ui_icon_imperius_q.png",
+        "type": "Q",
+        "sort": 1,
+        "abilityId": "Imperius|Q1",
+        "abilityLinks": [
+          "Imperius|Q1"
+        ]
+      },
+      {
+        "tooltipId": "ImperiusSolarionsFireBlazeOfGlory",
+        "talentTreeId": "ImperiusSolarionsFireBlazeOfGlory",
+        "name": "Blaze of Glory",
+        "description": "Solarion's Fire leaves a line of scorched earth along its center, exploding after 2 seconds and dealing 125 (+4% per level) damage.",
+        "icon": "storm_ui_icon_imperius_w.png",
+        "type": "W",
+        "sort": 2,
+        "abilityId": "Imperius|W1",
+        "abilityLinks": [
+          "Imperius|W1"
+        ]
+      },
+      {
+        "tooltipId": "ImperiusHolyFervor",
+        "talentTreeId": "ImperiusHolyFervor",
+        "name": "Holy Fervor",
+        "description": "Activate to cause the next 4 Basic Attacks to cleave for 157 (+4% per level) damage.",
+        "icon": "storm_ui_icon_imperius_item_01.png",
+        "type": "Active",
+        "sort": 3,
+        "cooldown": 18,
+        "abilityId": "Imperius|Active"
+      }
+    ],
+    "10": [
+      {
+        "tooltipId": "ImperiusAngelicArmaments",
+        "talentTreeId": "ImperiusAngelicArmaments",
+        "name": "Angelic Armaments",
+        "description": "Summon a ring of blazing swords that grants 1000 (+4% per level) Shield for 3 seconds.  If the Shield lasts the full duration, this ability can be reactivated within 5 seconds to launch 6 swords toward an area, each dealing 140 (+4% per level) damage to the first enemy hit.",
+        "icon": "storm_ui_icon_imperius_r1.png",
+        "type": "Heroic",
+        "sort": 1,
+        "cooldown": 60,
+        "abilityId": "Imperius|R1",
+        "abilityLinks": [
+          "Imperius|R1"
+        ]
+      },
+      {
+        "tooltipId": "ImperiusWrathOfTheAngiris",
+        "talentTreeId": "ImperiusWrathOfTheAngiris",
+        "name": "Wrath of the Angiris",
+        "description": "After 0.75 seconds, charge in the target direction, lifting the first enemy Hero hit into the Heavens. While in the air, Imperius can steer the landing location by moving.  After 2 seconds, slam the target into the ground, dealing 375 (+4% per level) damage and Stunning them for 1 second.",
+        "icon": "storm_ui_icon_imperius_r2.png",
+        "type": "Heroic",
+        "sort": 2,
+        "cooldown": 80,
+        "abilityId": "Imperius|R2",
+        "abilityLinks": [
+          "Imperius|R2"
+        ]
+      }
+    ],
+    "13": [
+      {
+        "tooltipId": "ImperiusCelestialChargePatheticMortals",
+        "talentTreeId": "ImperiusCelestialChargePatheticMortals",
+        "name": "Pathetic Mortals",
+        "description": "Stunning enemy Heroes with Celestial Charge reduces their damage by 35% for 4 seconds.",
+        "icon": "storm_ui_icon_imperius_q.png",
+        "type": "Q",
+        "sort": 1,
+        "abilityId": "Imperius|Q1",
+        "abilityLinks": [
+          "Imperius|Q1"
+        ]
+      },
+      {
+        "tooltipId": "ImperiusMoltenArmorDivineRage",
+        "talentTreeId": "ImperiusMoltenArmorDivineRage",
+        "name": "Divine Rage",
+        "description": "Striking an enemy Hero with Molten Armor reduces its cooldown by 0.25 seconds.",
+        "icon": "storm_ui_icon_imperius_e.png",
+        "type": "E",
+        "sort": 2,
+        "abilityId": "Imperius|E1",
+        "abilityLinks": [
+          "Imperius|E1"
+        ]
+      },
+      {
+        "tooltipId": "ImperiusMoltenArmorHeatOfBattle",
+        "talentTreeId": "ImperiusMoltenArmorHeatOfBattle",
+        "name": "Heat of Battle",
+        "description": "Molten Armor heals 25% more while Imperius is below 50% Health.",
+        "icon": "storm_ui_icon_imperius_e_alt_01.png",
+        "type": "E",
+        "sort": 3,
+        "abilityId": "Imperius|E1",
+        "abilityLinks": [
+          "Imperius|E1"
+        ]
+      }
+    ],
+    "16": [
+      {
+        "tooltipId": "ImperiusCelestialSwiftness",
+        "talentTreeId": "ImperiusCelestialChargeCelestialSwiftness",
+        "name": "Celestial Swiftness",
+        "description": "Stunning an enemy Hero with Celestial Charge grants 50% Attack Speed and 20% Movement Speed for 5 seconds.",
+        "icon": "storm_ui_icon_imperius_q.png",
+        "type": "Q",
+        "sort": 1,
+        "abilityId": "Imperius|Q1",
+        "abilityLinks": [
+          "Imperius|Q1"
+        ]
+      },
+      {
+        "tooltipId": "ImperiusMoltenArmorMeltingTouch",
+        "talentTreeId": "ImperiusMoltenArmorMeltingTouch",
+        "name": "Melting Touch",
+        "description": "Consuming a Molten Armor mark reduces the target's Armor by 25 for 4 seconds.",
+        "icon": "storm_ui_icon_imperius_e.png",
+        "type": "E",
+        "sort": 2,
+        "abilityId": "Imperius|E1",
+        "abilityLinks": [
+          "Imperius|E1"
+        ]
+      },
+      {
+        "tooltipId": "ImperiusMoltenArmorSovereignArmor",
+        "talentTreeId": "ImperiusMoltenArmorSovereignArmor",
+        "name": "Sovereign Armor",
+        "description": "Molten Armor grants 50 Armor for 2.5 seconds.",
+        "icon": "storm_ui_icon_imperius_e_alt_01.png",
+        "type": "E",
+        "sort": 3,
+        "abilityId": "Imperius|E1",
+        "abilityLinks": [
+          "Imperius|E1"
+        ]
+      }
+    ],
+    "20": [
+      {
+        "tooltipId": "ImperiusAngelicArmamentsHeavenlyHost",
+        "talentTreeId": "ImperiusAngelicArmamentsHeavenlyHost",
+        "name": "Heavenly Host",
+        "description": "Nearby allied Heroes gain 600 (+4% per level) Shield for 3 seconds.  If the Shield lasts the full duration, fire a sword at the nearest enemy Hero, dealing 140 (+4% per level) damage.",
+        "icon": "storm_ui_icon_imperius_r1.png",
+        "type": "Heroic",
+        "sort": 1,
+        "abilityId": "Imperius|R1",
+        "abilityLinks": [
+          "Imperius|R1"
+        ]
+      },
+      {
+        "tooltipId": "ImperiusWrathOfTheAngirisUnrelentingDescent",
+        "talentTreeId": "ImperiusWrathOfTheAngirisUnrelentingDescent",
+        "name": "Unrelenting Descent",
+        "description": "Consuming a Valorous Brand reduces the cooldown of Wrath of the Angiris by 5 seconds.",
+        "icon": "storm_ui_icon_imperius_r2.png",
+        "type": "Heroic",
+        "sort": 2,
+        "abilityId": "Imperius|R2",
+        "abilityLinks": [
+          "Imperius|R2"
+        ]
+      },
+      {
+        "tooltipId": "ImperiusImpervious",
+        "talentTreeId": "ImperiusImpervious",
+        "name": "Impervious",
+        "description": "Activate to become Unstoppable and gain 75 Spell Armor for 2 seconds. Hitting Heroes with the center of Solarion's Fire reduces this cooldown by 5 seconds.",
+        "icon": "storm_ui_icon_imperius_item_02.png",
+        "type": "Active",
+        "sort": 3,
+        "cooldown": 75,
+        "abilityId": "Imperius|Active"
+      },
+      {
+        "tooltipId": "ImperiusValorousPursuit",
+        "talentTreeId": "ImperiusValorousPursuit",
+        "name": "Valorous Pursuit",
+        "description": "Activate to teleport to an enemy that has been marked by Valorous Brand.",
+        "icon": "storm_ui_icon_imperius_item_03.png",
+        "type": "Active",
+        "sort": 4,
+        "cooldown": 15,
+        "abilityId": "Imperius|Active"
+      }
+    ]
+  }
+}

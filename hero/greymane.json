@@ -9,6 +9,7 @@
   "role": "Assassin",
   "type": "Ranged",
   "releaseDate": "2016-01-12",
+  "releasePatch": "1.15.6.40087",
   "abilities": {
     "Greymane": [
       {
@@ -100,8 +101,12 @@
         "name": "Wolfheart",
         "description": "Increase the cooldown reduction from Basic Attacks during Inner Beast from 0.5 to 1 second.",
         "icon": "storm_ui_icon_greymane_beastfocus.png",
+        "type": "W",
         "sort": 1,
-        "abilityId": "Greymane|W1"
+        "abilityId": "Greymane|W1",
+        "abilityLinks": [
+          "Greymane|W1"
+        ]
       },
       {
         "tooltipId": "GreymaneGilneanCocktailPerfectAimTalent",
@@ -109,8 +114,12 @@
         "name": "Perfect Aim",
         "description": "Increases Gilnean Cocktail's range by 30% and refunds 45 Mana if it hits an enemy Hero.",
         "icon": "storm_ui_icon_greymane_qattack.png",
+        "type": "Q",
         "sort": 2,
-        "abilityId": "Greymane|Q1"
+        "abilityId": "Greymane|Q1",
+        "abilityLinks": [
+          "Greymane|Q1"
+        ]
       },
       {
         "tooltipId": "GreymaneInnerBeastViciousnessTalent",
@@ -118,8 +127,12 @@
         "name": "Viciousness",
         "description": "Increases Inner Beast's duration to 4 seconds, and causes Ability damage to also refresh its duration.",
         "icon": "storm_ui_icon_greymane_beastfocus_var1.png",
+        "type": "W",
         "sort": 3,
-        "abilityId": "Greymane|W1"
+        "abilityId": "Greymane|W1",
+        "abilityLinks": [
+          "Greymane|W1"
+        ]
       }
     ],
     "4": [
@@ -129,8 +142,12 @@
         "name": "Thick Skin",
         "description": "Using Darkflight grants 50 Physical Armor against the next 2 Hero Basic Attacks while in Worgen Form, reducing the damage taken by 50%.",
         "icon": "storm_ui_icon_greymane_darkflight.png",
+        "type": "E",
         "sort": 1,
-        "abilityId": "Greymane|E1"
+        "abilityId": "Greymane|E1",
+        "abilityLinks": [
+          "Greymane|E1"
+        ]
       },
       {
         "tooltipId": "GreymaneDisengageEyesInTheDarkTalent",
@@ -138,8 +155,12 @@
         "name": "Eyes in the Dark",
         "description": "Disengage grants Stealth for 3 seconds.",
         "icon": "storm_ui_icon_greymane_disengage.png",
+        "type": "E",
         "sort": 2,
-        "abilityId": "Greymane|E2"
+        "abilityId": "Greymane|E2",
+        "abilityLinks": [
+          "Greymane|E2"
+        ]
       },
       {
         "tooltipId": "GreymaneInnerBeastInsatiableTalent",
@@ -147,8 +168,12 @@
         "name": "Insatiable",
         "description": "Inner Beast causes Basic Attacks to restore 10 Mana.",
         "icon": "storm_ui_icon_greymane_beastfocus.png",
+        "type": "W",
         "sort": 3,
-        "abilityId": "Greymane|W1"
+        "abilityId": "Greymane|W1",
+        "abilityLinks": [
+          "Greymane|W1"
+        ]
       }
     ],
     "7": [
@@ -158,8 +183,12 @@
         "name": "Quicksilver Bullets",
         "description": "Increases Greymane's Human Basic Attack range by 1.1.",
         "icon": "storm_ui_icon_greymane_curseoftheworgen.png",
+        "type": "Trait",
         "sort": 1,
-        "abilityId": "Greymane|D1"
+        "abilityId": "Greymane|D1",
+        "abilityLinks": [
+          "Greymane|D1"
+        ]
       },
       {
         "tooltipId": "GreymaneGilneanCocktailIncendiaryElixirTalent",
@@ -167,9 +196,13 @@
         "name": "Incendiary Elixir",
         "description": "Quest: Every time Greymane hits an enemy Hero with the explosion damage from Gilnean Cocktail, increase its explosion damage by 15, up to 225.  Reward: After hitting 15 Heroes, the cooldown is also reduced by 4 seconds.",
         "icon": "storm_ui_icon_greymane_qattack.png",
+        "type": "Q",
         "sort": 2,
+        "isQuest": true,
         "abilityId": "Greymane|Q1",
-        "isQuest": true
+        "abilityLinks": [
+          "Greymane|Q1"
+        ]
       },
       {
         "tooltipId": "GreymaneWizenedDuelistTalent",
@@ -177,9 +210,13 @@
         "name": "Wizened Duelist",
         "description": "Quest: Every 6 Human Basic Attacks against Heroes increase Basic Attack damage by 1%, up to 30%. Worgen Basic Attacks grant credit for 3 Basic Attacks. Half of this bonus is lost upon death.",
         "icon": "storm_ui_icon_greymane_curseoftheworgen_var1.png",
+        "type": "Trait",
         "sort": 3,
+        "isQuest": true,
         "abilityId": "Greymane|D1",
-        "isQuest": true
+        "abilityLinks": [
+          "Greymane|D1"
+        ]
       }
     ],
     "10": [
@@ -189,9 +226,13 @@
         "name": "Go for the Throat",
         "description": "Leap at an enemy Hero and shapeshift into a Worgen, slashing for 355 (+4% per level) damage. If this kills them, the Ability can be used a second time within 10 seconds for free.",
         "icon": "storm_ui_icon_greymane_goforthethroat.png",
+        "type": "Heroic",
         "sort": 1,
+        "cooldown": 80,
         "abilityId": "Greymane|R1",
-        "cooldown": 80
+        "abilityLinks": [
+          "Greymane|R1"
+        ]
       },
       {
         "tooltipId": "GreymaneCursedBullet",
@@ -199,9 +240,13 @@
         "name": "Cursed Bullet",
         "description": "Greymane shapeshifts into a Human and fires a bullet that hits the first enemy Hero in its path, dealing 35% of their current Health in damage.  Does not affect Vehicles.",
         "icon": "storm_ui_icon_greymane_snapshot.png",
+        "type": "Heroic",
         "sort": 2,
+        "cooldown": 30,
         "abilityId": "Greymane|R2",
-        "cooldown": 30
+        "abilityLinks": [
+          "Greymane|R2"
+        ]
       }
     ],
     "13": [
@@ -211,8 +256,13 @@
         "name": "Running Wild",
         "description": "Increases Darkflight and Disengage's range by 35%.",
         "icon": "storm_ui_icon_greymane_darkflight.png",
+        "type": "E",
         "sort": 1,
-        "abilityId": "Greymane|E1"
+        "abilityId": "Greymane|E1",
+        "abilityLinks": [
+          "Greymane|E1",
+          "Greymane|E2"
+        ]
       },
       {
         "tooltipId": "GreymaneRazorSwipeUnfetteredAssaultTalent",
@@ -220,8 +270,12 @@
         "name": "Unfettered Assault",
         "description": "Increases Razor Swipe's lunge distance by 60%, and Worgen Basic Attacks reduce Razor Swipe's cooldown by 1.5 seconds.",
         "icon": "storm_ui_icon_greymane_swipe.png",
+        "type": "Q",
         "sort": 2,
-        "abilityId": "Greymane|Q2"
+        "abilityId": "Greymane|Q2",
+        "abilityLinks": [
+          "Greymane|Q2"
+        ]
       },
       {
         "tooltipId": "GreymaneInnerBeastOnTheProwlTalent",
@@ -229,8 +283,12 @@
         "name": "On the Prowl",
         "description": "Inner Beast increases Movement Speed by 30% once it has been active for 3 seconds.",
         "icon": "storm_ui_icon_greymane_beastfocus.png",
+        "type": "W",
         "sort": 3,
-        "abilityId": "Greymane|W1"
+        "abilityId": "Greymane|W1",
+        "abilityLinks": [
+          "Greymane|W1"
+        ]
       }
     ],
     "16": [
@@ -240,8 +298,12 @@
         "name": "Eager Wolf",
         "description": "Increases the Attack Speed bonus of Inner Beast by an additional 40% after it has been active for 4 seconds.",
         "icon": "storm_ui_icon_greymane_beastfocus.png",
+        "type": "W",
         "sort": 1,
-        "abilityId": "Greymane|W1"
+        "abilityId": "Greymane|W1",
+        "abilityLinks": [
+          "Greymane|W1"
+        ]
       },
       {
         "tooltipId": "GenericExecutionerTalent",
@@ -249,6 +311,7 @@
         "name": "Executioner",
         "description": "Attacking a Hero that is slowed, rooted, or stunned increases your Basic Attack damage by 30% for 3 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "type": "Passive",
         "sort": 2,
         "abilityId": "Greymane|Passive"
       },
@@ -258,8 +321,12 @@
         "name": "Alpha Killer",
         "description": "Worgen Basic Attacks against Heroes deal bonus damage equal to 3% of the Hero's maximum Health.",
         "icon": "storm_ui_icon_greymane_curseoftheworgen_var1.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Greymane|D1"
+        "abilityId": "Greymane|D1",
+        "abilityLinks": [
+          "Greymane|D1"
+        ]
       }
     ],
     "20": [
@@ -269,8 +336,12 @@
         "name": "Unleashed",
         "description": "If the free cast of Go for the Throat kills its target, another free cast is provided that deals 35% more damage, up to 140%.",
         "icon": "storm_ui_icon_greymane_goforthethroat.png",
+        "type": "Heroic",
         "sort": 1,
-        "abilityId": "Greymane|R1"
+        "abilityId": "Greymane|R1",
+        "abilityLinks": [
+          "Greymane|R1"
+        ]
       },
       {
         "tooltipId": "GreymaneCursedBulletGilneanRouletteTalent",
@@ -278,8 +349,12 @@
         "name": "Gilnean Roulette",
         "description": "Cursed Bullet now hits all enemy heroes in its path and has its cooldown reduced by 5 seconds per hit.",
         "icon": "storm_ui_icon_greymane_snapshot.png",
+        "type": "Heroic",
         "sort": 2,
-        "abilityId": "Greymane|R2"
+        "abilityId": "Greymane|R2",
+        "abilityLinks": [
+          "Greymane|R2"
+        ]
       },
       {
         "tooltipId": "GreymaneHuntersBlunderbussTalent",
@@ -287,8 +362,12 @@
         "name": "Hunter's Blunderbuss",
         "description": "Human Basic Attacks splash for 100% damage behind the target.",
         "icon": "storm_ui_icon_greymane_curseoftheworgen.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Greymane|D1"
+        "abilityId": "Greymane|D1",
+        "abilityLinks": [
+          "Greymane|D1"
+        ]
       },
       {
         "tooltipId": "GreymaneToothAndClawTalent",
@@ -296,8 +375,12 @@
         "name": "Tooth and Claw",
         "description": "Worgen Basic Attacks cleave for 100% damage.",
         "icon": "storm_ui_icon_greymane_curseoftheworgen_var1.png",
+        "type": "Trait",
         "sort": 4,
-        "abilityId": "Greymane|D1"
+        "abilityId": "Greymane|D1",
+        "abilityLinks": [
+          "Greymane|D1"
+        ]
       }
     ]
   }

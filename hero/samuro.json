@@ -9,6 +9,7 @@
   "role": "Assassin",
   "type": "Melee",
   "releaseDate": "2016-10-18",
+  "releasePatch": "1.21.0.47219",
   "abilities": {
     "Samuro": [
       {
@@ -76,9 +77,13 @@
         "name": "Way of Illusion",
         "description": "Quest: Every time a Mirror Image Critically Strikes a Hero, Samuro gains 0.25 Attack Damage, up to 10.  Reward: After hitting 40 Heroes, Samuro gains an additional 20 Attack Damage.",
         "icon": "storm_ui_icon_samuro_mirrorimage.png",
+        "type": "Q",
         "sort": 1,
+        "isQuest": true,
         "abilityId": "Samuro|Q1",
-        "isQuest": true
+        "abilityLinks": [
+          "Samuro|Q1"
+        ]
       },
       {
         "tooltipId": "SamuroWayoftheBlade",
@@ -86,8 +91,12 @@
         "name": "Way of the Blade",
         "description": "Critical Strike now happens for Samuro and his Mirror Images every 3rd Basic Attack.",
         "icon": "storm_ui_icon_samuro_criticalstrike.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Samuro|W1"
+        "abilityId": "Samuro|W1",
+        "abilityLinks": [
+          "Samuro|W1"
+        ]
       },
       {
         "tooltipId": "SamuroWayOfTheWind",
@@ -95,8 +104,12 @@
         "name": "Way of the Wind",
         "description": "Gain 40% Movement Speed for 3 seconds after entering or exiting Wind Walk.",
         "icon": "storm_ui_icon_samuro_windwalk.png",
+        "type": "E",
         "sort": 3,
-        "abilityId": "Samuro|E1"
+        "abilityId": "Samuro|E1",
+        "abilityLinks": [
+          "Samuro|E1"
+        ]
       }
     ],
     "4": [
@@ -106,8 +119,12 @@
         "name": "Mirage",
         "description": "Mirror Image grants Samuro and his Images 40 Spell Armor against the next 2 sources of Spell damage, reducing their damage by 40%.",
         "icon": "storm_ui_icon_samuro_mirrorimage.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Samuro|Q1"
+        "abilityId": "Samuro|Q1",
+        "abilityLinks": [
+          "Samuro|Q1"
+        ]
       },
       {
         "tooltipId": "SamuroOneWithTheWindTalent",
@@ -115,8 +132,12 @@
         "name": "One With The Wind",
         "description": "While Samuro has Wind Walk and for 3 seconds after breaking it, both he and his Mirror Images gain 30 Armor, taking 30% reduced damage from all sources.",
         "icon": "storm_ui_icon_samuro_windwalk.png",
+        "type": "E",
         "sort": 2,
-        "abilityId": "Samuro|E1"
+        "abilityId": "Samuro|E1",
+        "abilityLinks": [
+          "Samuro|E1"
+        ]
       },
       {
         "tooltipId": "SamuroDeflectionTalent",
@@ -124,8 +145,12 @@
         "name": "Deflection",
         "description": "Advancing Strikes grants Samuro and his Mirror Images 30 Physical Armor.",
         "icon": "storm_ui_icon_samuro_flowingstrikes.png",
+        "type": "Passive",
         "sort": 3,
-        "abilityId": "Samuro|Passive"
+        "abilityId": "Samuro|Passive",
+        "abilityLinks": [
+          "Samuro|D1"
+        ]
       }
     ],
     "7": [
@@ -135,8 +160,12 @@
         "name": "Burning Blade",
         "description": "Critical Strikes from Samuro and Mirror Images deal an additional 50% of their Basic Attack damage as Spell Damage to the target and nearby enemies.",
         "icon": "storm_ui_icon_samuro_criticalstrike.png",
+        "type": "W",
         "sort": 1,
-        "abilityId": "Samuro|W1"
+        "abilityId": "Samuro|W1",
+        "abilityLinks": [
+          "Samuro|W1"
+        ]
       },
       {
         "tooltipId": "SamuroPhantomsStrikeTalent",
@@ -144,8 +173,12 @@
         "name": "Phantom Pain",
         "description": "Samuro's Critical Strikes deal an additional 45% of his Basic Attack damage for each Mirror Image that is active.",
         "icon": "storm_ui_icon_samuro_criticalstrike_a.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Samuro|W1"
+        "abilityId": "Samuro|W1",
+        "abilityLinks": [
+          "Samuro|W1"
+        ]
       },
       {
         "tooltipId": "SamuroOverpoweringBlow",
@@ -153,8 +186,12 @@
         "name": "Crushing Blows",
         "description": "Critical Strike now has 2 charges. Samuro's Basic Attacks against Heroes reduce the cooldown of Critical Strike by 1.75 seconds.",
         "icon": "storm_ui_icon_samuro_criticalstrike_b.png",
+        "type": "W",
         "sort": 3,
-        "abilityId": "Samuro|W1"
+        "abilityId": "Samuro|W1",
+        "abilityLinks": [
+          "Samuro|W1"
+        ]
       }
     ],
     "10": [
@@ -164,9 +201,13 @@
         "name": "Bladestorm",
         "description": "Cause a Bladestorm of destructive force around Samuro for 4 seconds, making him Unstoppable and dealing 235 (+4% per level) damage per second to nearby enemies.",
         "icon": "storm_ui_icon_samuro_bladestorm.png",
+        "type": "Heroic",
         "sort": 1,
+        "cooldown": 110,
         "abilityId": "Samuro|R1",
-        "cooldown": 110
+        "abilityLinks": [
+          "Samuro|R1"
+        ]
       },
       {
         "tooltipId": "SamuroIllusionMasterTalent",
@@ -174,9 +215,13 @@
         "name": "Illusion Master",
         "description": "Mirror Images can be controlled individually or as a group and their damage is increased by 100%.  Passive: Image Transmission's cooldown is reduced to 10 seconds.",
         "icon": "storm_ui_icon_samuro_illusiondancer.png",
+        "type": "Heroic",
         "sort": 2,
+        "cooldown": 10,
         "abilityId": "Samuro|R2",
-        "cooldown": 10
+        "abilityLinks": [
+          "Samuro|R2"
+        ]
       }
     ],
     "13": [
@@ -186,8 +231,12 @@
         "name": "Mirrored Steel",
         "description": "Samuro's Basic Attacks against Heroes reduce the cooldown of Mirror Image by 1 second.",
         "icon": "storm_ui_icon_samuro_mirrorimage.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Samuro|Q1"
+        "abilityId": "Samuro|Q1",
+        "abilityLinks": [
+          "Samuro|Q1"
+        ]
       },
       {
         "tooltipId": "WindwalkKawarimiTalent",
@@ -195,8 +244,12 @@
         "name": "Kawarimi",
         "description": "Wind Walk creates a Mirror Image at Samuro's location that will continue whatever he was doing.",
         "icon": "storm_ui_icon_samuro_windwalk.png",
+        "type": "E",
         "sort": 2,
-        "abilityId": "Samuro|E1"
+        "abilityId": "Samuro|E1",
+        "abilityLinks": [
+          "Samuro|E1"
+        ]
       },
       {
         "tooltipId": "SamuroShukuchiTalent",
@@ -204,8 +257,12 @@
         "name": "Shukuchi",
         "description": "Wind Walk teleports Samuro a short distance in the direction he's currently facing.",
         "icon": "storm_ui_icon_samuro_windwalk_a.png",
+        "type": "E",
         "sort": 3,
-        "abilityId": "Samuro|E1"
+        "abilityId": "Samuro|E1",
+        "abilityLinks": [
+          "Samuro|E1"
+        ]
       }
     ],
     "16": [
@@ -215,8 +272,12 @@
         "name": "Merciless Strikes",
         "description": "Samuro's Basic Attacks against Stunned, Rooted, or Slowed enemies are always Critical Strikes.",
         "icon": "storm_ui_icon_samuro_criticalstrike.png",
+        "type": "W",
         "sort": 1,
-        "abilityId": "Samuro|W1"
+        "abilityId": "Samuro|W1",
+        "abilityLinks": [
+          "Samuro|W1"
+        ]
       },
       {
         "tooltipId": "SamuroHarshWinds",
@@ -224,8 +285,12 @@
         "name": "Harsh Winds",
         "description": "Attacking a Hero during Wind Walk causes them to take 30% increased damage from Samuro for 3 seconds.",
         "icon": "storm_ui_icon_samuro_windwalk.png",
+        "type": "E",
         "sort": 2,
-        "abilityId": "Samuro|E1"
+        "abilityId": "Samuro|E1",
+        "abilityLinks": [
+          "Samuro|E1"
+        ]
       },
       {
         "tooltipId": "SamuroPressTheAttack",
@@ -233,8 +298,12 @@
         "name": "Press the Attack",
         "description": "While Advancing Strikes is active, Samuro and his Mirror Images gain 10% Attack Speed every time they Basic Attack, up to 40%.",
         "icon": "storm_ui_icon_samuro_flowingstrikes.png",
+        "type": "Passive",
         "sort": 3,
-        "abilityId": "Samuro|Passive"
+        "abilityId": "Samuro|Passive",
+        "abilityLinks": [
+          "Samuro|D1"
+        ]
       }
     ],
     "20": [
@@ -244,8 +313,12 @@
         "name": "Dance Of Death",
         "description": "Mirror Images use Bladestorm when Samuro does, but for 25% damage.",
         "icon": "storm_ui_icon_samuro_bladestorm.png",
+        "type": "Heroic",
         "sort": 1,
-        "abilityId": "Samuro|R2"
+        "abilityId": "Samuro|R1",
+        "abilityLinks": [
+          "Samuro|R1"
+        ]
       },
       {
         "tooltipId": "SamuroThreeBladeStyleTalent",
@@ -253,8 +326,12 @@
         "name": "Three Blade Style",
         "description": "Samuro's Mirror Images no longer take additional damage, effecively increasing their health by 50% and their duration is increased to 36 seconds.",
         "icon": "storm_ui_icon_samuro_illusiondancer.png",
+        "type": "Heroic",
         "sort": 2,
-        "abilityId": "Samuro|R2"
+        "abilityId": "Samuro|R2",
+        "abilityLinks": [
+          "Samuro|R2"
+        ]
       },
       {
         "tooltipId": "SamuroWindStrider",
@@ -262,8 +339,12 @@
         "name": "Wind Strider",
         "description": "Wind Walk's cooldown is reduced by 6 seconds.",
         "icon": "storm_ui_icon_samuro_windwalk.png",
+        "type": "E",
         "sort": 3,
-        "abilityId": "Samuro|E1"
+        "abilityId": "Samuro|E1",
+        "abilityLinks": [
+          "Samuro|E1"
+        ]
       },
       {
         "tooltipId": "SamuroBlademastersPursuitTalent",
@@ -271,8 +352,12 @@
         "name": "Blademaster's Pursuit",
         "description": "Advancing Strikes grants an additional 15% Movement Speed for Samuro and his Mirror Images, and its duration is increased by 2 seconds.",
         "icon": "storm_ui_icon_samuro_flowingstrikes.png",
+        "type": "Passive",
         "sort": 4,
-        "abilityId": "Samuro|Passive"
+        "abilityId": "Samuro|Passive",
+        "abilityLinks": [
+          "Samuro|D1"
+        ]
       }
     ]
   }
