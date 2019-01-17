@@ -187,8 +187,8 @@ Example:
   <img class="img-rounded" src="images/heroes/chen.png" />
   <span>Chen</span>
 </a>
-<a class="img-wrap" href="hero/cho.json">
-  <img class="img-rounded" src="images/heroes/cho.png" />
+<a class="img-wrap" href="hero/chogall.json">
+  <img class="img-rounded" src="images/heroes/chogall.png" />
   <span>Cho</span>
 </a>
 <a class="img-wrap" href="hero/chromie.json">
@@ -299,8 +299,8 @@ Example:
   <img class="img-rounded" src="images/heroes/liming.png" />
   <span>Li-Ming</span>
 </a>
-<a class="img-wrap" href="hero/thelostvikings.json">
-  <img class="img-rounded" src="images/heroes/thelostvikings.png" />
+<a class="img-wrap" href="hero/lostvikings.json">
+  <img class="img-rounded" src="images/heroes/lostvikings.png" />
   <span>The Lost Vikings</span>
 </a>
 <a class="img-wrap" href="hero/ltmorales.json">
