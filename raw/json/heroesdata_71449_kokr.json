@@ -51,6 +51,7 @@
     "difficulty": "아주 어려움",
     "franchise": "Starcraft",
     "gender": "Neutral",
+    "title": "진화 군주",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -60,6 +61,7 @@
     "rarity": "Legendary",
     "mountLinkId": "AbathurDeepTunnel",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "아바투르 저그 군단 군단의 심장 군심 스1 스타1 스타크래프트1 스타크래프트 1 스2 스타2 스타크래프트2 스타크래프트 2 음슴체",
     "description": "전장 어디에서나 전투에 영향을 줄 수 있는 독특한 영웅입니다.",
     "descriptors": [
       "Ganker",
@@ -640,6 +642,7 @@
     "difficulty": "어려움",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "탈다림의 군주",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2016-09-13",
@@ -649,6 +652,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "알라라크 프로토스 승천자 스타 스2 스타크래프트 스타2 스타크래프트2 스타크래프트 2 공허의 유산 공유 비밀 작전",
     "description": "기술 조합형 암살자로 적의 위치를 조작하고 허점을 보인 상대를 무참히 공격합니다.",
     "descriptors": [
       "EnergyImportant",
@@ -1102,6 +1106,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "생명의 어머니",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2017-11-14",
@@ -1111,6 +1116,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "알랙스트라자 어머님 워크래프트 2 워크2 와우 대격변 리치 왕의 분노 리분 용 용족 엘프 용의 여왕 어머니 어머님",
     "description": "아군에게 자신의 생명력을 베푸는 지원가입니다. 용으로 변신하여 기술을 강화할 수 있습니다.",
     "descriptors": [
       "AllyHealer",
@@ -1553,6 +1559,12 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "원거리",
+          "descriptors": [
+            "AllyHealer",
+            "Helper",
+            "Overconfident",
+            "RoleSupport"
+          ],
           "life": {
             "amount": 1787.0,
             "scale": 0.04,
@@ -1636,6 +1648,7 @@
     "difficulty": "어려움",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "노련한 저격수",
     "innerRadius": 0.5625,
     "radius": 0.5625,
     "releaseDate": "2017-09-26",
@@ -1645,6 +1658,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "애나 인간 호루스의눈 시계 아마리",
     "description": "순간적으로 많은 생명력을 회복시킬 수 있는 지원가입니다. 정확한 조준으로 아군을 치유하고 적의 치유를 방해합니다.",
     "descriptors": [
       "AllyHealer",
@@ -2114,6 +2128,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "배신자 왕",
     "innerRadius": 0.875,
     "radius": 1.0625,
     "releaseDate": "2014-10-07",
@@ -2123,6 +2138,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "아눕아락 아눕 아누바락 언데드 지하군주 풍뎅이 월드 오브 워크래프트 와우 워3 워크3 워크래프트3 워크래프트 3 프로즌 쓰론 리치 왕의 분노 리분",
     "description": "기술 공격형 영웅을 상대할 때 효과적인 전사입니다.",
     "descriptors": [
       "BodyBlocker",
@@ -2575,6 +2591,7 @@
     "difficulty": "중간",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "댈람의 신관",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2015-10-27",
@@ -2584,6 +2601,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "아르타니스 알타 프로토스 아이어 공유 공허의 유산 브루드 워 종족 전쟁 스1 스타1 스타크래프트1 스타크래프트 1 스2 스타2 스타크래프트2 스타크래프트 2",
     "description": "상대 팀에서 저지하지 못하면 높은 피해를 주는 강인한 돌격형 전사입니다.",
     "descriptors": [
       "BodyBlocker",
@@ -3070,6 +3088,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "리치 왕",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -3079,6 +3098,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "아서스 리치 왕 리치왕 리치킹 리치킹 메네실 왕자 죽음의 기사 언데드 와우 월드 오브 워크래프트 워3 워크3 워크래프트3 워크래프트 3 레인 오브 카오스 프로즌 쓰론 리치 왕의 분노 리분 하스스톤 하스",
     "description": "물리 공격형 암살자들을 느려지게 만들어 무력화시키는 전사입니다.",
     "descriptors": [
       "BodyBlocker",
@@ -3521,6 +3541,7 @@
     "difficulty": "중간",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "희망의 대천사",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-08-09",
@@ -3530,6 +3551,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "아우리엘 희망의 대천사 천사 대천사 디아블로 3 디3 디아3",
     "description": "공격력이 높은 아군과 함께 움직일 때 높은 치유량을 낼 수 있는 지원가입니다.",
     "descriptors": [
       "AllyHealer",
@@ -3984,6 +4006,7 @@
     "difficulty": "중간",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "죄악의 군주",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2014-10-14",
@@ -3993,6 +4016,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "아즈모단 악마 죄악 군주디3 디아3 디아블로3 디아블로 3 농구",
     "description": "먼 거리에서 큰 피해를 줄 수 있는 소환형 전문가입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -4445,6 +4469,7 @@
     "difficulty": "중간",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "노련한 화염방사병",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2018-01-09",
@@ -4454,6 +4479,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "화염방사병 테란 히어로즈 오브 더 스톰",
     "description": "교전을 개시하는 데 능숙한 원거리 전사입니다. 불을 지펴 광역 공격을 합니다.",
     "descriptors": [
       "BodyBlocker",
@@ -4915,6 +4941,7 @@
     "difficulty": "어려움",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "요정용",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2014-04-15",
@@ -4924,6 +4951,7 @@
     "rarity": "Epic",
     "mountLinkId": "BrightwingPhaseShift",
     "hearthLinkId": "Hearthstone",
+    "searchText": "빛나래 요정용 와우 월드 오브 워크래프트 군단 히어로즈 오브 더 스톰",
     "description": "아군 영웅에게 순간이동할 수 있는 지원가입니다. 큰 전장에서 높은 효율을 보입니다.",
     "descriptors": [
       "AllyHealer",
@@ -5394,6 +5422,7 @@
     "difficulty": "중간",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "아마존 여군주",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-04-04",
@@ -5403,6 +5432,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "카시아 아마존 자벨마 투창마 디2 디아2 디아블로2 2 II 인간",
     "description": "물리 공격형 영웅들을 상대하는 데 특화된 암살자입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -5663,7 +5693,11 @@
           "shortTooltip": "사용 시 피해를 줌",
           "fullTooltip": "공격 저지로 총 500 (레벨 당 +4%)의 피해를 저지하면 공격 저지를 사용하여 주위 적들에게 210 (레벨 당 +4%)의 피해를 줄 수 있습니다.",
           "abilityType": "Trait",
-          "sort": 3
+          "isActive": true,
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "AmazonAvoidance"
+          ]
         }
       ],
       "level10": [
@@ -5838,6 +5872,7 @@
     "difficulty": "어려움",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "전설의 양조사",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2014-09-09",
@@ -5847,6 +5882,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneBrew",
+    "searchText": "첸 스톰스타우트 판다렌 와우 월드 오브 워크래프트 워3 워크3 워크래프트3 워크래프트 3 프로즌 쓰론 판다리아의 안개 판다",
     "description": "기동성이 떨어지는 상대를 압도할 수 있는 돌격형 전사입니다.",
     "descriptors": [
       "BodyBlocker",
@@ -6438,6 +6474,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "황혼의 망치단 족장",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2015-11-17",
@@ -6447,6 +6484,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "초갈 초 갈 오우거 오거 두머리 워2 워크2 워크래프트2 워크래프트 2 호드 암흑의 물결 와우 월드 오브 워크래프트 대격변 드레노어의 전쟁군주 드군 호드",
     "description": "초갈의 첫 번째 머리입니다. 초갈의 몸을 조종합니다.",
     "descriptors": [
       "BodyBlocker",
@@ -6876,6 +6914,7 @@
     "difficulty": "어려움",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "시간의 수호자",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-05-17",
@@ -6885,6 +6924,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "크로미 크로노르무 청동용 와우 월드 오브 워크래프트 리치 왕의 분노 리분 대격변 판다리아의 안개 판다 드레노어의 전쟁군주 드군",
     "description": "먼 거리에서 폭발적인 피해를 줄 수 있는 마법사형 암살자입니다. 적의 움직임을 예측하는 실력이 요구됩니다.",
     "descriptors": [
       "EnergyImportant",
@@ -7338,6 +7378,7 @@
     "difficulty": "중간",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "마지막 호라드림",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2018-04-24",
@@ -7347,6 +7388,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "케인 디1 디2 디3 디아1 디아2 디아3 디아블로1 디아블로2 디아블로3 디아블로 1 디아블로 2 디아블로 3",
     "description": "폭발적인 치유량을 낼 수 있는 지원가입니다. 교전이 일어나기 전에 준비를 마치고 무력화 효과로 적을 방해할 수 있습니다.",
     "descriptors": [
       "AllyHealer",
@@ -7688,7 +7730,10 @@
           "fullTooltip": "케인의 수호자를 사용하면 주위 아군 영웅을 8초 동안 강화하여 일반 공격이 62 (레벨 당 +4%)의 광역 피해를 주게 하고 피해를 준 적 영웅 하나당 90 (레벨 당 +4%)의 생명력을 회복시키게 합니다. 이 효과는 1초에 최대 한 번씩만 발동합니다.",
           "abilityType": "Active",
           "isActive": true,
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DeckardFortitudeOfTheFaithful"
+          ]
         }
       ],
       "level16": [
@@ -7715,7 +7760,10 @@
           "shortTooltip": "주위에 아군 영웅이 여럿 있으면 케인의 수호자 강화",
           "fullTooltip": "주위에 아군 영웅이 3명 이상 있으면 케인의 수호자로 증가하는 방어력이 추가로 15 증가하고 일반 기술의 재사용 대기시간 감소량이 추가로 50% 증가합니다.",
           "abilityType": "Trait",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DeckardFortitudeOfTheFaithful"
+          ]
         },
         {
           "nameId": "DeckardHoradricStaff",
@@ -7797,6 +7845,7 @@
     "difficulty": "중간",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "원시 무리 우두머리",
     "innerRadius": 0.875,
     "radius": 1.0,
     "releaseDate": "2016-03-29",
@@ -7806,6 +7855,7 @@
     "rarity": "Legendary",
     "mountLinkId": "DehakaBrushstalker",
     "hearthLinkId": "Hearthstone",
+    "searchText": "데하카 대하카 원시 저그 스1 스타1 스타크래프트1 스타크래프트 1 스2 스타2 스타크래프트2 스타크래프트 2 군단의 심장 군심",
     "description": "전장 곳곳에서 강력한 존재감을 나타내며, 돌격병 무리를 효과적으로 제거하는 돌격형 전사입니다.",
     "descriptors": [
       "BodyBlocker",
@@ -8277,6 +8327,7 @@
     "difficulty": "중간",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "공포의 군주",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2014-03-13",
@@ -8286,6 +8337,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "디아블로 악마 공포 군주 디1 디2 디3 디아1 디아2 디아3 디아블로1 디아블로2 디아블로3 디아블로 1 디아블로 2 디아블로 3 도마뱀",
     "description": "과감하게 적진에 돌진하는 기술 조합형 전사입니다. 상대를 와해시킬 수 있는 잠재력을 가지고 있습니다.",
     "descriptors": [
       "BodyBlocker",
@@ -8741,6 +8793,7 @@
     "difficulty": "중간",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "MEKA 조종사",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2017-05-16",
@@ -8750,6 +8803,7 @@
     "rarity": "Legendary",
     "mountLinkId": "DVaMechanizedWalker",
     "hearthLinkId": "Hearthstone",
+    "searchText": "DVa 디바 하나 송 송하나 오버워치 시계 인간",
     "description": "생존력이 좋으며 아군을 보호하고 적을 교란할 수 있는 돌격형 전사입니다.",
     "descriptors": [
       "BodyBlocker",
@@ -9162,7 +9216,10 @@
           "shortTooltip": "조종사일 때 일반 공격력 증가 및 영웅 처치 시 즉시 메카 호출 가능",
           "fullTooltip": "조종사 모드일 때 일반 공격력이 50% 증가하고 영웅을 처치하면 메카 호출의 재사용 대기시간이 즉시 초기화됩니다.",
           "abilityType": "Trait",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DVaPilotPilotMode"
+          ]
         },
         {
           "nameId": "DVaPilotNanoweaveSuit",
@@ -9173,7 +9230,10 @@
           "shortTooltip": "메카에서 탈출 시 방어력 증가 및 메카 호출 재사용 대기시간 더 빨리 감소",
           "fullTooltip": "메카에서 탈출한 후 4초 동안 방어력이 50 증가합니다. 일반 공격으로 감소하는 메카 호출의 재사용 대기시간이 50% 증가합니다.",
           "abilityType": "Trait",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DVaPilotPilotMode"
+          ]
         },
         {
           "nameId": "DVaPilotSuppressingFire",
@@ -9184,7 +9244,10 @@
           "shortTooltip": "조종사 일반 공격 사거리 증가 및 적을 느려지게 함",
           "fullTooltip": "조종사 모드일 때 일반 공격의 사거리가 20% 증가하고 적을 2.5초 동안 20% 느려지게 합니다.",
           "abilityType": "Trait",
-          "sort": 4
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "DVaPilotPilotMode"
+          ]
         }
       ],
       "level20": [
@@ -9257,6 +9320,9 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "원거리",
+          "descriptors": [
+            "RoleAutoAttacker"
+          ],
           "life": {
             "amount": 1109.0,
             "scale": 0.04,
@@ -9289,6 +9355,17 @@
                 "fullTooltip": "메카를 호출하여 탑승하고 메카 모드로 전환합니다.  일반 공격을 하면 메카 호출의 재사용 대기시간이 0.5초 감소합니다.",
                 "abilityType": "E"
               }
+            ],
+            "trait": [
+              {
+                "nameId": "DVaPilotPilotMode",
+                "name": "조종사 모드",
+                "shortTooltipId": "DVaPilotPilotMode",
+                "fullTooltipId": "DVaPilotPilotMode",
+                "icon": "storm_ui_icon_dva_pilotmode.png",
+                "fullTooltip": "일반 공격을 하면 메카 호출의 재사용 대기시간이 0.5초 감소합니다. 조종사일 때 죽으면 적에게 영웅 처치 경험치의 50%만 줍니다.",
+                "abilityType": "Trait"
+              }
             ]
           }
         }
@@ -9303,6 +9380,7 @@
     "difficulty": "쉬움",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "록의 신",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2014-03-13",
@@ -9312,6 +9390,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "정예 타우렌 족장 정타족 ETC 이티씨 소 레벨 90 호드 히어로즈 오브 더 스톰 와우",
     "description": "다양한 기술로 팀을 이끄는 전사입니다.",
     "descriptors": [
       "BodyBlocker",
@@ -9773,6 +9852,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "와일드해머 영주",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -9782,6 +9862,7 @@
     "rarity": "Epic",
     "mountLinkId": "FalstadFlight",
     "hearthLinkId": "Hearthstone",
+    "searchText": "폴스타트 폴스타드 그리핀 기수 와일드해머 드워프 얼라이언스 와우 월드 오브 워크래프트 대격변 격아 격전의 아제로스",
     "description": "먼 거리를 날아갈 수 있는 암살자입니다. 큰 전장에서 높은 효율을 보입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -10238,6 +10319,7 @@
     "difficulty": "중간",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "기사단의 귀감",
     "innerRadius": 0.9375,
     "radius": 1.0625,
     "releaseDate": "2018-03-27",
@@ -10247,6 +10329,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "피닉스 용기병 프로토스 스타 스타1 스타크래프트 2 II 스타2 종족 전쟁 브루드워 드라군",
     "description": "지속적으로 피해를 주는 암살자입니다. 주기적으로 보호막을 얻어 적을 효율적으로 상대할 수 있습니다.",
     "descriptors": [
       "Escaper",
@@ -10703,11 +10786,13 @@
     "difficulty": "쉬움",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "황혼의 망치단 족장",
     "releaseDate": "2015-11-17",
     "sight": 12.0,
     "speed": 4.3984,
     "type": "원거리",
     "rarity": "Legendary",
+    "searchText": "초 갈 초갈 오우거 오거 두머리 워2 워크2 워크래프트2 워크래프트 2 호드 암흑의 물결 와우 월드 오브 워크래프트 대격변 드레노어의 전쟁군주 드군 호드",
     "description": "초갈의 두 번째 머리입니다. 초에게 결속되어 있는 강력한 마법사형 암살자입니다.",
     "descriptors": [
       "GoalsDisabled",
@@ -11157,6 +11242,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "헬스크림의 아들",
     "innerRadius": 0.875,
     "radius": 0.875,
     "releaseDate": "2017-08-08",
@@ -11166,6 +11252,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "가로쉬 와우 오크 대족장 판다리아의 안개 판다리아 드레노어의 전쟁군주 드레노어 불타는 성전 불성 리치 왕의 분노 대격변 호드 하스스톤 하스",
     "description": "최전방에 뛰어들어 적을 고립시켜 압도적인 힘으로 처치하는 전사입니다.",
     "descriptors": [
       "BodyBlocker",
@@ -11643,6 +11730,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "톱니항 두목",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -11652,6 +11740,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "가즈로 땜장이 팅커 고블린 호드 와우 월드 오브 워크래프트 워3 워크3 워크래프트3 워크래프트 3 프로즌 쓰론 대격변 드레노어의 전쟁군주 드군 격아 격전의 아제로스",
     "description": "전장의 요충지를 사수할 수 있는 소환형 전문가입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -12148,6 +12237,7 @@
     "difficulty": "어려움",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "사이보그 닌자",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-04-25",
@@ -12157,6 +12247,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "인간 사이보그 오버워치 시계 시마다",
     "description": "기동력이 높은 암살자로 후방에 있는 적의 허점을 파고들어 단숨에 베어버립니다.",
     "descriptors": [
       "EnergyImportant",
@@ -12632,6 +12723,7 @@
     "difficulty": "어려움",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "늑대인간의 지도자",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2016-01-12",
@@ -12641,6 +12733,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "그레이메인 겐 그메 늑대인간 늑인 길니아스 얼라이언스 그메 와우 월드 오브 워크래프트 워2 워크2 워크래프트2 워크래프트 2 어둠의 물결 대격변 군단 격아 격전의 아제로스",
     "description": "멀리서 적을 괴롭히다가 뛰어들어 결정타를 가합니다.  늑대인간 형상일 때 방어력 +10",
     "descriptors": [
       "EnergyImportant",
@@ -13140,6 +13233,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "어둠의 화신",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2016-07-12",
@@ -13149,6 +13243,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "굴단 흑마법사 오크 호드 워크1 워크2 워크3 워1 워2 워3 워크래프트1 워크래프트2 워크래프트3 워크래프트 1 워크래프트 2 워크래프트 3 어둠의 물결 레인 오브 카오스 와우 월드 오브 워크래프트 불타는 성전 불성 드레노어의 전쟁군주 드군 군단 호드 하스스톤 하스",
     "description": "자신의 생명력을 소모하여 지속적으로 피해를 줄 수 있는 마법사형 암살자입니다. 적의 생명력을 흡수할 수 있습니다.",
     "descriptors": [
       "RoleCaster",
@@ -13601,6 +13696,7 @@
     "difficulty": "중간",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "일급 암살자",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-12-12",
@@ -13610,6 +13706,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "인간 오버워치 시계 시마다",
     "description": "먼 거리에서 적을 정찰하고 처치하는 원거리 암살자입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -14068,6 +14165,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "배신자",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -14077,6 +14175,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "일리단 스톰레이지 악사 악마사냥꾼 나이트엘프 데몬헌터 와우 월드 오브 워크래프트 워3 워크3 워크래프트3 워크래프트 3 레인 오브 카오스 프로즌 쓰론 불타는 성전 불성 군단",
     "description": "기동성이 뛰어나고 지속적으로 피해를 줄 수 있는 암살자입니다. 자신을 보조해줄 수 있는 영웅이 있다면 매우 위협적입니다.",
     "descriptors": [
       "BodyBlocker",
@@ -14515,6 +14614,7 @@
     "difficulty": "중간",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "용기의 대천사",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2019-01-08",
@@ -14524,6 +14624,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "엠페리우스 임피리우스 천사 대천사 디아블로 3 디3 디아3",
     "description": "강력한 교전 개시 기술과 단일 대상 공격 능력이 뛰어난 돌격형 영웅입니다.",
     "descriptors": [
       "BodyBlocker",
@@ -14970,6 +15071,7 @@
     "difficulty": "쉬움",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "대마법사",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-12-02",
@@ -14979,6 +15081,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "제이나 프라우드무어 인간 테라모어 얼라이언스 와우 월드 오브 워크래프트 워3 워크3 워크래프트3 워크래프트 3 레인 오브 카오스 프로즌 쓰론 불타는 성전 불성 리치 왕의 분노 리분 대격변 판다리아의 안개 판다 드레노어의 전쟁군주 드군 군단 하스스톤 하스 격아 격전의 아제로스",
     "description": "적 팀을 느리게 만드는 냉기 마법사형 암살자입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -15440,6 +15543,7 @@
     "difficulty": "중간",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "자카룸의 성전사",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-06-02",
@@ -15449,6 +15553,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "요한나 요안나 성전사 네팔렘 디3 디아3 디아블로3 디아블로 3 영혼을 거두는 자 영거자",
     "description": "물리 공격형 암살자들을 효과적으로 상대할 수 있고 돌격병 무리를 빠르게 정리할 수 있는 전사입니다.",
     "descriptors": [
       "BodyBlocker",
@@ -15884,6 +15989,7 @@
     "difficulty": "중간",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "쓰레기촌 폭파 전문가",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-10-17",
@@ -15893,6 +15999,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "쓰레기 정크렛 데모맨 정커 인간 오버워치 재미슨 포크스 시계",
     "description": "기동력이 좋은 암살자입니다. 원거리에서 적에게 폭탄을 투척하며 함정과 지뢰로 전장을 난장판으로 만듭니다.",
     "descriptors": [
       "RoleSpecialist",
@@ -16340,6 +16447,7 @@
     "difficulty": "어려움",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "태양왕",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2015-05-12",
@@ -16349,6 +16457,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "캘타스 켈타스 왕저 선스트라이더 마법사 블러드 엘프 와우 월드 오브 워크래프트 워크래프트 워3 워크3 워크래프트3 워크래프트 3 프로즌 쓰론 불타는 성전 불성",
     "description": "모여있는 적들을 상대할 때 좋은 화염 마법사형 암살자입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -16802,6 +16911,7 @@
     "difficulty": "어려움",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "낙스라마스의 고위 리치",
     "innerRadius": 0.875,
     "radius": 0.875,
     "releaseDate": "2017-09-05",
@@ -16811,6 +16921,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "켈투 켈투자드 캘투 캘투자드 켈자드 낙스라마스의 고위 리치 역병지대의 리치 군주 죽음의 요새의 지휘관 저주받은 자들의 교단의 교주 6인의 의회의 전 의원 파멸자 아키몬드를 소환한 자 인류의 배신자 하스스톤의 귀재 리치 왕의 대리인 골렘의 창조자 언데드 워3 워크3 레인 오브 카오스 프로즌 쓰론 와우 리분",
     "description": "강력한 기술을 연계하여 적을 무력화시키고 폭발적인 피해를 주는 마법사형 영웅입니다.",
     "descriptors": [
       "DeadUpdater",
@@ -17274,6 +17385,7 @@
     "difficulty": "어려움",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "칼날 여왕",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2014-03-13",
@@ -17283,6 +17395,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "케리건 캐리건 사라 군단 칼날 여왕 저그 캐리건 군심 군단의 심장 브루드 워 종족 전쟁 자유의 날개 자날 공허의 유산 공유 군단의 심장 군심 스1 스타1 스타크래프트1 스타크래프트 1 스2 스타2 스타크래프트2 스타크래프트 2",
     "description": "적진에 뛰어들어 모든 걸 쏟아붓는 기술 조합형 암살자입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -17726,6 +17839,7 @@
     "difficulty": "중간",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "베라다니의 수도사",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2015-08-18",
@@ -17735,6 +17849,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "카라짐 수도사 네팔렘 디3 디아3 디아블로3 디아블로 3 영혼을 거두는 자 영거자",
     "description": "아군과 함께 적 팀에 뛰어들 수 있는 지원가입니다.",
     "descriptors": [
       "AllyHealer",
@@ -18207,6 +18322,7 @@
     "difficulty": "쉬움",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "해골 왕",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2015-07-21",
@@ -18216,6 +18332,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "해골 왕 레오릭 해골왕 트리스트럼 언데드 디1 디아1 디아블로1 디아블로 1 디3 디아3 디아블로3 디아블로 3",
     "description": "생명력이 높은 영웅이 많은 팀을 상대로 효과적인 돌격형 전사입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -18701,6 +18818,7 @@
     "difficulty": "쉬움",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "세계 유랑자",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-04-15",
@@ -18710,6 +18828,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "리 리 리리 판다렌 와우 월드 오브 워크래프트 판다리아의 안개 판다",
     "description": "물리 공격형 영웅들의 눈을 멀게 할 수 있는 지속형 지원가입니다.",
     "descriptors": [
       "AllyHealer",
@@ -19157,6 +19276,7 @@
     "difficulty": "중간",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "반항적인 마법사",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-02-02",
@@ -19166,6 +19286,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "리밍 리 밍 마법사 네팔렘 디3 디아3 디아블로3 디아블로 3 영혼을 거두는 자 영거자",
     "description": "폭발적인 피해를 줄 수 있는 마법사형 암살자입니다. 적 영웅을 처치하면 기술을 다시 사용할 수 있습니다.",
     "descriptors": [
       "EnergyImportant",
@@ -19639,6 +19760,7 @@
     "difficulty": "아주 어려움",
     "franchise": "Classic",
     "gender": "Male",
+    "title": "답 없는 삼형제",
     "innerRadius": 0.75,
     "releaseDate": "2015-02-10",
     "speed": 20.0,
@@ -19646,6 +19768,7 @@
     "rarity": "Legendary",
     "mountLinkId": "LostVikingsGoGoGo",
     "hearthLinkId": "Hearthstone",
+    "searchText": "길 잃은 바이킹 길바 올라프 에릭 밸로그 2 LV2 고전",
     "description": "한꺼번에 세 영웅을 조종해야 합니다! 여러 공격로에서 동시에 경험치를 획득할 수 있습니다.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_lostvikings.png",
@@ -19750,13 +19873,13 @@
       ],
       "trait": [
         {
-          "nameId": "LostVikingsVikingHoardHeroSelect",
+          "nameId": "LostVikingsVikingHoardTalent",
           "name": "바이킹 비상 식량",
-          "shortTooltipId": "LostVikingsVikingHoardHeroSelect",
-          "fullTooltipId": "LostVikingsVikingHoardHeroSelect",
+          "shortTooltipId": "LostVikingsVikingHoardTalent",
+          "fullTooltipId": "LostVikingsVikingHoardTalent",
           "icon": "storm_ui_icon_LostVikings_VikingHoard.png",
           "shortTooltip": "재생의 구슬 획득 시 생명력 재생량 증가",
-          "fullTooltip": "재생의 구슬을 획득할 때마다 모든 바이킹의 초당 생명력 재생량이 영구히 0.5 증가합니다.",
+          "fullTooltip": "바이킹으로 재생의 구슬을 획득할 때마다 모든 바이킹의 초당 생명력 재생량이 0.5 증가합니다.  현재 추가 생명력 재생량: 초당 0",
           "abilityType": "Trait"
         }
       ],
@@ -20148,7 +20271,10 @@
           "shortTooltip": "모든 바이킹의 부활 대기시간 감소",
           "fullTooltip": "길 잃은 바이킹의 부활 대기시간이 50% 감소합니다.",
           "abilityType": "Trait",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "LostVikingsVikingHoardTalent"
+          ]
         },
         {
           "nameId": "LostVikingsTalentFuryoftheStorm",
@@ -20173,6 +20299,11 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "원거리",
+          "descriptors": [
+            "Helper",
+            "RoleAutoAttacker",
+            "WaveClearer"
+          ],
           "life": {
             "amount": 1095.0,
             "scale": 0.04,
@@ -20206,6 +20337,11 @@
           "sight": 13.0,
           "speed": 5.0,
           "type": "원거리",
+          "descriptors": [
+            "Escaper",
+            "Helper",
+            "RoleAutoAttacker"
+          ],
           "life": {
             "amount": 767.0,
             "scale": 0.04,
@@ -20232,6 +20368,11 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "원거리",
+          "descriptors": [
+            "Helper",
+            "Overconfident",
+            "RoleTank"
+          ],
           "life": {
             "amount": 1424.0,
             "scale": 0.04,
@@ -20259,6 +20400,7 @@
     "difficulty": "중간",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "전투 의무관",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-10-06",
@@ -20268,6 +20410,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "모랄레스 중위 의무관 메딕 테란 히어로즈 오브 더 스톰 스타 브루드 워 종족 전쟁 UED 지구 집정 연합",
     "description": "적의 공격을 받지 않으면 끊임없이 아군을 치유할 수 있는 지원가입니다.",
     "descriptors": [
       "AllyHealer",
@@ -20710,6 +20853,7 @@
     "difficulty": "중간",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "자유의 투사 DJ",
     "innerRadius": 0.4375,
     "radius": 0.6875,
     "releaseDate": "2017-02-14",
@@ -20719,6 +20863,7 @@
     "rarity": "Legendary",
     "mountLinkId": "LucioSkateMode",
     "hearthLinkId": "Hearthstone",
+    "searchText": "루시우 인간 오버워치 시계",
     "description": "기동력이 좋은 지원가로 주위 아군의 생명력을 계속해서 회복하거나 이동 속도를 증가시킵니다.",
     "descriptors": [
       "AllyHealer",
@@ -21217,6 +21362,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "세나리우스의 첫 번째 딸",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-12-15",
@@ -21226,6 +21372,7 @@
     "rarity": "Epic",
     "mountLinkId": "DryadGallopingGait",
     "hearthLinkId": "Hearthstone",
+    "searchText": "루나라 드리아드 나이트 엘프 세나리우스 와우 월드 오브 워크래프트 군단 히어로즈 오브 더 스톰 하스스톤",
     "description": "대상을 중독시켜 원거리에서 지속적으로 적을 괴롭히는 암살자입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -21762,6 +21909,7 @@
     "difficulty": "어려움",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "감시관",
     "radius": 0.75,
     "releaseDate": "2018-02-06",
     "sight": 12.0,
@@ -21770,6 +21918,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "섀도송 섀도우송 감시관 감시자 나이트 엘프 얼라이언스 와우 WoW 월드 오브 워크래프트 워3 워크3 프로즌 쓰론 드레노어의 전쟁군주 드군 군단 하스스톤 하스",
     "description": "기동력이 좋은 암살자입니다. 뭉쳐있는 적을 상대할 때 뛰어나며 달아나는 적을 방해할 수 있습니다.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_maiev.png",
@@ -22215,6 +22364,7 @@
     "difficulty": "쉬움",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "대드루이드",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -22224,6 +22374,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "말퓨리온 스톰레이지 나이트 엘프 드루이드 얼라이언스 노루 와우 월드 오브 워크래프트 워3 워크3 워크래프트3 워크래프트 3 레인 오브 카오스 프로즌 쓰론 대격변 드레노어의 전쟁군주 드군 군단 하스스톤 하스",
     "description": "지속적으로 아군을 치유할 수 있는 지원가입니다. 적을 무력화시켜 아군이 처치할 수 있도록 도울 수 있습니다.",
     "descriptors": [
       "AllyHealer",
@@ -22678,6 +22829,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "나스레짐 군주",
     "innerRadius": 0.6875,
     "radius": 0.875,
     "releaseDate": "2018-10-16",
@@ -22687,6 +22839,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "말가니스 공포의 군주 공포군주 공군 언데드 악마 워3 워크 3 레인 오브 카오스 와우 리분 군단",
     "description": "아군에게서 적을 떼어내며 적진을 교란시키는 생존력이 강한 전사입니다.",
     "descriptors": [
       "BodyBlocker",
@@ -23149,6 +23302,7 @@
     "difficulty": "중간",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "죽음의 화신",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-06-13",
@@ -23158,6 +23312,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "말티엘 말티앨 천사 대천사 디아블로3 디3 영혼을 거두는 자 영거자",
     "description": "적에게 징표를 남기고 생명력이 높은 적을 도륙낼 수 있는 암살자입니다.",
     "descriptors": [
       "BodyBlocker",
@@ -23619,6 +23774,7 @@
     "difficulty": "아주 어려움",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "최후의 수호자",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2016-06-14",
@@ -23628,6 +23784,7 @@
     "rarity": "Legendary",
     "mountLinkId": "MedivhTransformRaven",
     "hearthLinkId": "Hearthstone",
+    "searchText": "메디브 매디브 예언자 워1 워크1 워크래프트1 워크래프트 1 워3 워크3 워크래프트3 워크래프트 3 레인 오브 카오스 와우 월드 오브 워크래프트 불타는 성전 불성 하스스톤 하스",
     "description": "순간적인 피해를 막고 아군이 순간이동할 수 있게 도와주는 지원가입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -24108,6 +24265,7 @@
     "difficulty": "중간",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "증오의 군주",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2018-09-04",
@@ -24117,6 +24275,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "악마 디2 디아2 디아블로 2 II 디아블로2",
     "description": "지속적으로 피해를 주는 암살자로 여러 적을 상대할 때 효과적입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -24352,7 +24511,10 @@
           "shortTooltip": "메피스토의 그림자가 방어력을 증가시킴",
           "fullTooltip": "메피스토의 그림자가 활성화된 동안 방어력이 20 증가합니다. 메피스토의 그림자가 사라진 후에도 2.5초 동안 유지됩니다.",
           "abilityType": "E",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "MephistoShadeOfMephisto"
+          ]
         },
         {
           "nameId": "MephistoShadeOfMephistoFrostStorm",
@@ -24363,7 +24525,10 @@
           "shortTooltip": "메피스토의 그림자가 적을 느려지게 함",
           "fullTooltip": "메피스토의 그림자 주위의 적들이 2초 동안 50% 느려집니다. 메피스토의 그림자가 활성화된 동안 섬뜩한 해골이 적에게 적중하면 감속 효과가 50%로 증가합니다.",
           "abilityType": "E",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "MephistoShadeOfMephisto"
+          ]
         },
         {
           "nameId": "MephistoShadeOfMephistoTrickery",
@@ -24374,7 +24539,10 @@
           "shortTooltip": "메피스토의 그림자가 이동 속도를 증가시킴",
           "fullTooltip": "메피스토의 그림자가 만료되면 이동 속도가 2.5초 동안 20% 증가하고 모든 감속 및 이동 불가 효과가 제거됩니다.",
           "abilityType": "E",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "MephistoShadeOfMephisto"
+          ]
         }
       ],
       "level10": [
@@ -24567,6 +24735,7 @@
     "difficulty": "쉬움",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "산왕",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -24576,6 +24745,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "무라딘 브론즈비어드 드워프 얼라이언스 워3 워크3 워크래프트3 워크래프트 3 레인 오브 카오스 와우 리치 왕의 분노 리분 대격변",
     "description": "여러 상황에서 활약할 수 있는 강인한 전사입니다.",
     "descriptors": [
       "BodyBlocker",
@@ -25032,6 +25202,7 @@
     "difficulty": "어려움",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "아기 멀록",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-05-22",
@@ -25041,6 +25212,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "머키 멀록 와우 군단 히어로즈 오브 더 스톰",
     "description": "다른 영웅들처럼 강하진 않지만 알을 놓아 전투에 빨리 복귀할 수 있습니다.",
     "descriptors": [
       "BodyBlocker",
@@ -25482,6 +25654,7 @@
     "difficulty": "중간",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "이교도 부두술사",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2014-03-13",
@@ -25491,6 +25664,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "나지보 부두술사 위치 닥터 네팔렘 디3 디아3 디아블로3 디아블로 3 영혼을 거두는 자 영거자 두부",
     "description": "지속적으로 피해를 줄 수 있는 마법사형 전문가입니다. 적 돌격병을 처치할수록 더욱 강해집니다.",
     "descriptors": [
       "EnergyImportant",
@@ -25955,6 +26129,7 @@
     "difficulty": "중간",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "자치령 유령",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -25964,6 +26139,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "노바 테라 유령 고스트 노벰버 테란 스1 스타1 스타크래프트1 스타크래프트 1 스2 스타2 스타크래프트2 스타크래프트 2 자유의 날개 자날 군단의 심장 군심 비밀 작전",
     "description": "은신한 상태에서 적을 기습하여 폭발적인 피해를 줄 수 있는 마법사형 암살자입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -26446,6 +26622,7 @@
     "difficulty": "중간",
     "franchise": "Nexus",
     "gender": "Female",
+    "title": "까마귀 궁정의 후예",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2018-11-13",
@@ -26455,6 +26632,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "오르피아 ",
     "description": "공격을 강화하는 주문을 사용하며 적 주위를 춤추듯 누비는 원거리 암살자입니다.",
     "descriptors": [
       "Escaper",
@@ -26790,7 +26968,10 @@
           "fullTooltip": "사용 시 2초 후 주위 모든 적들에게 150 (레벨 당 +4%)의 피해를 줍니다. 적중한 적 영웅 하나당 182 (레벨 당 +4%)의 생명력을 회복하고 혼돈이 1회 중첩됩니다.",
           "abilityType": "Trait",
           "isActive": true,
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "OrpheaOverflowingChaos"
+          ]
         }
       ],
       "level16": [
@@ -26910,6 +27091,7 @@
     "difficulty": "어려움",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "호기심 많은 탐사정",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-03-14",
@@ -26919,6 +27101,7 @@
     "rarity": "Legendary",
     "mountLinkId": "ProbiusWorkerRush",
     "hearthLinkId": "Hearthstone",
+    "searchText": "탐사정 프로브 탐사정 프로토스 스타 스타1 스타크래프트 2 II 스타2 스타크래프트2",
     "description": "높은 피해를 주는 소환사형 전문가로, 수정탑 주위에 있어야 위력을 낼 수 있습니다.",
     "descriptors": [
       "RoleSpecialist",
@@ -27399,6 +27582,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "불의 군주",
     "innerRadius": 0.875,
     "radius": 1.0,
     "releaseDate": "2016-12-14",
@@ -27408,6 +27592,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "라그나로스 라그라노스 불의 군주 화산 심장부 화심 정령 와우 월드 오브 워크래프트 대격변 하스스톤 하스",
     "description": "아군 요새나 성채를 공격하는 적을 저지할 수 있는 돌격형 암살자입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -27926,6 +28111,7 @@
     "difficulty": "쉬움",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "반란군 사령관",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -27935,6 +28121,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "레이너 래이너 장군 제임스 지미 사령관 해병 마린 테란 군단의 심장 군심 스1 스타1 스타크래프트1 스타크래프트 1 스2 스타2 스타크래프트2 스타크래프트 2 브루드 워 종족 전쟁 공유 공허의 유산 자유의 날개 자날",
     "description": "적을 밀쳐낼 수 있는 물리 공격형 암살자입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -28394,6 +28581,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "대지 고리회 주술사",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-07-22",
@@ -28403,6 +28591,7 @@
     "rarity": "Epic",
     "mountLinkId": "RehgarGhostWolfActivate",
     "hearthLinkId": "Hearthstone",
+    "searchText": "레가르 래가르 어스퓨리 오크 주술사 호드 와우 월드 오브 워크래프트 군단",
     "description": "근접 영웅들과 좋은 효율을 내는 균형 잡힌 지원가입니다.",
     "descriptors": [
       "AllyHealer",
@@ -28888,6 +29077,7 @@
     "difficulty": "어려움",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "호드의 용사",
     "innerRadius": 0.875,
     "radius": 0.875,
     "releaseDate": "2015-09-08",
@@ -28897,6 +29087,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "렉사르 랙사르 미샤 족장 야수조련사 사냥꾼 하프 오크 오우거 호드 곰 미샤 와우 월드 오브 워크래프트 워3 워크3 워크래프트3 워크래프트 3 프로즌 쓰론 불타는 성전 불성 드레노어의 전쟁군주 드군 군단 하스스톤 하스 격아 격전의 아제로스",
     "description": "곰 미샤와 함께 싸우며, 전장의 지역 장악 능력이 뛰어난 돌격형 전사입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -29368,6 +29559,7 @@
     "difficulty": "어려움",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "검귀",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2016-10-18",
@@ -29377,6 +29569,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "사무로 오크 블레이드마스터 블마 검귀 호드 워크래프트3 워크3 워3 프로즌 쓰론 와우",
     "description": "생존력이 높고 용병 캠프를 점령하는 데 능숙한 은신 암살자입니다.",
     "descriptors": [
       "Ganker",
@@ -29821,6 +30014,7 @@
     "difficulty": "어려움",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "공성 전차 전차장",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2014-03-13",
@@ -29830,6 +30024,7 @@
     "rarity": "Epic",
     "mountLinkId": "SgtHammerThrusters",
     "hearthLinkId": "Hearthstone",
+    "searchText": "해머 상사 공성 전차 시즈 탱크 테란 히어로즈 오브 더 스톰 스2 스타2 스타크래프트2 스타크래프트 2 공허의 유산 공유",
     "description": "아군의 보호가 필요한 장거리 물리 공격형 전문가입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -30292,6 +30487,7 @@
     "difficulty": "중간",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "떠도는 야만용사",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -30301,6 +30497,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "소냐 쏘냐 바바리안 야만용사 네팔렘 디3 디아3 디아블로3 디아블로 3 영혼을 거두는 자 영거자 ",
     "description": "용병 캠프 점령에 탁월하고, 적 팀에 과감히 뛰어드는 돌격형 전사입니다.",
     "descriptors": [
       "Ganker",
@@ -30743,6 +30940,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "어둠골의 공포",
     "innerRadius": 0.9375,
     "radius": 1.0625,
     "releaseDate": "2014-03-13",
@@ -30752,6 +30950,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "누더기 스티치 누더기골렘 언데드 와우 월드 오브 워크래프트",
     "description": "멀리 있는 적 영웅을 강제로 끌어올 수 있는 전사입니다.",
     "descriptors": [
       "BodyBlocker",
@@ -31217,6 +31416,7 @@
     "difficulty": "중간",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "감염된 제독",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-07-11",
@@ -31226,6 +31426,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "스투코브 스타크래프트 브루드 워 종족 전쟁 스타크래프트2 스타 군단의 심장 군심 공허의 유산 공유 저그 감염된 테란 UED 지구 집정 연합",
     "description": "원거리에서 적을 괴롭히면서 아군을 치유할 수 있는 지원가입니다.",
     "descriptors": [
       "AllyHealer",
@@ -31714,6 +31915,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "밴시 여왕",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2015-03-24",
@@ -31723,6 +31925,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "실바나스 윈드러너 여왕 포세이큰 언데드 엘프 호드 와우 월드 오브 워크래프트 워3 워크3 워크래프트3 워크래프트 3 레인 오브 카오스 프로즌 쓰론 대격변 드레노어의 전쟁군주 드군 군단 대족장 격아 격전의 아제로스",
     "description": "적의 구조물을 무력화시킬 수 있는 전문가입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -32173,6 +32376,7 @@
     "difficulty": "중간",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "기사단의 구원자",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -32182,6 +32386,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "태사다르 테사다르 고위 기사 하이 템플러 하템 프로토스 아이어 스1 스타1 스타크래프트1 스타크래프트 1",
     "description": "적진에 뛰어들어야 하는 영웅들을 보조하기 좋은 지원가입니다.",
     "descriptors": [
       "ChanneledAutoAttacker",
@@ -32629,6 +32834,7 @@
     "difficulty": "중간",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "고기 해체자",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2015-06-30",
@@ -32638,6 +32844,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "도살자 디1 디아1 디아블로1 디아블로 1 디3 디아3 디아블로3 디아블로 3",
     "description": "처음에는 위협적이지 않지만 고기를 충분히 획득하면 무시무시한 피해를 주는 암살자입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -33070,6 +33277,7 @@
     "difficulty": "쉬움",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "호드의 대족장",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-01-13",
@@ -33079,6 +33287,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "스랄 쓰랄 고엘 대족장 주술사 오크 호드 와우 월드 오브 워크래프트 워3 워크3 워크래프트3 워크래프트 3 레인 오브 카오스 프로즌 쓰론 불타는 성전 불성 리치 왕의 분노 리분 대격변 판다리아의 안개 판다 군단 하스스톤 하스",
     "description": "공격로를 혼자서 맡을 수 있는 돌격형 암살자입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -33536,6 +33745,7 @@
     "difficulty": "어려움",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "오버워치 요원",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-04-19",
@@ -33545,6 +33755,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "트레이서 레나 옥스턴 인간 오버워치 시계",
     "description": "기동력이 좋은 암살자로, 뒤처진 적을 습격하여 처치합니다.",
     "descriptors": [
       "Escaper",
@@ -33751,7 +33962,10 @@
           "shortTooltip": "점멸 충전 횟수 증가",
           "fullTooltip": "점멸의 충전 횟수가 1회 증가하지만 재사용 대기시간이 2초 증가합니다.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "TracerBlink"
+          ]
         },
         {
           "nameId": "TracerBulletTime",
@@ -33762,7 +33976,10 @@
           "shortTooltip": "일반 공격 시 점멸 재사용 대기시간 감소",
           "fullTooltip": "일반 공격을 할 때마다 점멸의 재사용 대기시간이 0.15초 감소합니다.",
           "abilityType": "Q",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "TracerBlink"
+          ]
         },
         {
           "nameId": "TracerSpatialEcho",
@@ -33773,7 +33990,10 @@
           "shortTooltip": "영웅 처치 시 점멸 충전",
           "fullTooltip": "영웅을 처치하면 점멸이 2회 충전됩니다.",
           "abilityType": "Q",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "TracerBlink"
+          ]
         }
       ],
       "level10": [
@@ -33956,6 +34176,7 @@
     "difficulty": "중간",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "악명 높은 범죄자",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-18",
@@ -33965,6 +34186,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "타이커스 핀들레이 마린 해병 무법자 테란 스2 스타2 스타크래프트2 스타크래프트 2 자유의 날개 자날",
     "description": "생명력이 높은 적을 순식간에 처치할 수 있는 암살자입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -34464,6 +34686,7 @@
     "difficulty": "중간",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "정의의 대천사",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -34473,6 +34696,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "티리엘 티리앨 천사 정의 디2 디아2 디아블로2 디아블로 2 디3 디아3 디아블로3 디아블로 3 파괴의 군주 파군 영혼을 거두는 자 영거자",
     "description": "아군과 함께 적 팀에 뛰어들 수 있는 전사입니다.",
     "descriptors": [
       "BodyBlocker",
@@ -34916,6 +35140,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "엘룬의 대여사제",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -34925,6 +35150,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "티란데 위스퍼윈드 여사제 엘룬 나이트 엘프 여사냥꾼 얼라이언스 와우 월드 오브 워크래프트 워3 워크3 워크래프트3 워크래프트 3 레인 오브 카오스 프로즌 쓰론 대격변 판다리아의 안개 판다 드레노어의 전쟁군주 드군 군단 하스스톤",
     "description": "적을 무력화하여 아군이 처치할 수 있도록 도와주는 지원가입니다.",
     "descriptors": [
       "AllyHealer",
@@ -35388,6 +35614,7 @@
     "difficulty": "쉬움",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "빛의 수호자",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -35397,6 +35624,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "우서 성기사 빛의 인도자 인간 얼라이언스 워2 워크2 워크래프트2 워크래프트 2 어둠의 물결 월드 오브 워크래프트 워3 워크3 워크래프트3 워크래프트 3 레인 오브 카오스 하스스톤 하스",
     "description": "상대방의 폭발적인 피해를 방지할 수 있는 지원가입니다.",
     "descriptors": [
       "AllyHealer",
@@ -35509,13 +35737,14 @@
       ],
       "trait": [
         {
-          "nameId": "UtherDevotionEternalVanguardShop",
-          "name": "헌신, 영원한 선봉장",
-          "shortTooltipId": "UtherDevotionEternalVanguardShop",
-          "fullTooltipId": "UtherDevotionEternalVanguardShop",
+          "nameId": "UtherEternalDevotion",
+          "name": "헌신",
+          "shortTooltipId": "UtherEternalDevotion",
+          "fullTooltipId": "UtherEternalDevotion",
           "icon": "storm_ui_icon_uther_eternaldevotion.png",
+          "cooldownTooltip": "재사용 대기시간: 180초",
           "shortTooltip": "영웅 치유 시 대상 방어력 증가, 죽으면 영혼 상태가 됨",
-          "fullTooltip": "일반 기술로 치유한 아군 영웅의 방어력이 2초 동안 25 증가합니다. 이 기술 자체로는 효과가 중첩되지 않습니다.  죽으면 최대 8초 동안 무적 상태의 영혼이 됩니다. 영혼 상태에서는 빛의 섬광으로 아군을 치유할 수 있습니다.",
+          "fullTooltip": "일반 기술로 치유한 아군 영웅의 방어력이 2초 동안 25 증가합니다. 이 기술 자체로는 효과가 중첩되지 않습니다.  영원한 선봉장  죽으면 최대 8초 동안 무적 상태의 영혼이 됩니다. 영혼 상태에서는 빛의 섬광으로 아군을 치유할 수 있습니다.",
           "abilityType": "Trait"
         }
       ]
@@ -35625,7 +35854,10 @@
           "shortTooltip": "주위 적들에게 피해",
           "fullTooltip": "주위 적들에게 초당 13 (레벨 당 +4%)의 피해를 줍니다. 일반 공격으로 적 영웅을 공격할 때마다 이 효과의 공격력이 3초 동안 20% 증가합니다. 최대 3회 중첩됩니다.",
           "abilityType": "Passive",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         }
       ],
       "level7": [
@@ -35652,7 +35884,10 @@
           "shortTooltip": "무력화된 대상에게 헌신의 방어력 효과 증가",
           "fullTooltip": "기절, 침묵, 이동 불가 상태인 영웅을 치유하면 헌신의 방어력 증가 효과가 25에서 50으로,로 증가합니다.",
           "abilityType": "Trait",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         },
         {
           "nameId": "UtherHandOfProtection",
@@ -35829,7 +36064,10 @@
           "shortTooltip": "영원한 선봉장 만료 시 부활",
           "fullTooltip": "영원한 선봉장이 만료되면 영혼이 있던 자리에서 최대 생명력의 50%를 지닌 채 되살아납니다.  이 효과는 180초에 한 번씩만 발동합니다.",
           "abilityType": "Trait",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         },
         {
           "nameId": "UtherEternalDevotionDivineProtection",
@@ -35840,7 +36078,10 @@
           "shortTooltip": "헌신 방어력 증가",
           "fullTooltip": "헌신 효과가 이미 적용된 영웅에게 헌신 효과를 다시 부여하면 대상의 방어력을 50으로,로 증가시킵니다.",
           "abilityType": "Trait",
-          "sort": 4
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         }
       ]
     }
@@ -35853,6 +36094,7 @@
     "difficulty": "어려움",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "무관의 그림자",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2017-01-24",
@@ -35862,6 +36104,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "발레라 생귀나르 도적 블러드 엘프 와우 월드 오브 워크래프트 군단 하스스톤 돌겜",
     "description": "은신 암살자 영웅으로 적을 무력화시키는 데 능숙합니다.",
     "descriptors": [
       "Ganker",
@@ -36373,6 +36616,7 @@
     "difficulty": "쉬움",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "악마사냥꾼",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -36382,6 +36626,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "발라 악마 사냥꾼 악사 악마사냥꾼 네팔렘 데몬헌터 디3 디아3 디아블로3 디아블로 3 영혼을 거두는 자 영거자",
     "description": "기동성이 뛰어나고 지속적으로 높은 피해를 주는 다재다능한 암살자입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -36847,6 +37092,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "얼라이언스의 국왕",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2016-11-15",
@@ -36856,6 +37102,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "바리안 린 로고쉬 로고시 스톰윈드 인간 휴먼 얼라이언스 와우 월드 오브 워크래프트 리치 왕의 분노 리분 대격변 판다리아의 안개 판안 드레노어의 전쟁군주 드군 군단",
     "description": "아군을 보호하는 전사 혹은 높은 공격력의 암살자가 될 수 있는 다중 역할 영웅입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -37327,6 +37574,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "종교재판관",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2018-08-07",
@@ -37336,6 +37584,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "샐리 셀리 화메 사제 인간 와우 월드 오브 워크래프트 판다리아의 안개 판안 군단",
     "description": "적들을 응징하며 아군을 치유하는 유연한 지원가입니다.",
     "descriptors": [
       "AllyHealer",
@@ -37789,6 +38038,7 @@
     "difficulty": "중간",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "수수께끼의 강령술사",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2016-03-01",
@@ -37798,6 +38048,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "줄 쥴 강령술사 인간 디2 디아블로2 디아블로 2 네크로맨서",
     "description": "여러 공격로를 손쉽게 압박할 수 있는 소환형 전문가입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -38258,6 +38509,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "희망의 빛",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2018-06-12",
@@ -38267,6 +38519,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "이랠 WoW 와우 드레나이 드레노어의 전쟁군주 드군 얼라이언스 성기사 격아 격전의 아제로스",
     "description": "신중한 근접 전사입니다. 시간을 들여 기술을 강화하여 더욱 큰 효과를 낼 수 있습니다.",
     "descriptors": [
       "BodyBlocker",
@@ -38713,6 +38966,7 @@
     "difficulty": "중간",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "군단의 무리어미",
     "innerRadius": 0.9375,
     "radius": 1.125,
     "releaseDate": "2014-06-25",
@@ -38722,6 +38976,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "자가라 무리어미 여왕 퀸 저그 군단의 심장 군심 스2 스타2 스타크래프트2 스타크래프트 2",
     "description": "전장의 시야를 넓게 확보할 수 있는 소환형 전문가입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -39171,6 +39426,7 @@
     "difficulty": "쉬움",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "러시아의 수호자",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2016-09-27",
@@ -39180,6 +39436,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "자리야 알렉산드라 인간 오버워치 시계",
     "description": "공격력이 높은 아군을 보조할 수 있는 돌격형 전사입니다. 자신이나 아군이 받는 피해를 방벽으로 흡수합니다.",
     "descriptors": [
       "ChanneledAutoAttacker",
@@ -39697,6 +39954,7 @@
     "difficulty": "어려움",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "암흑 정무관",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -39706,6 +39964,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "제라툴 암흑 기사 다크 템플러 다템 정무관 프로토스 다크 템플러 다템 군심 군단의 심장 브루드 워 종족 전쟁 자유의 날개 자날 공허의 유산 공유 군단의 심장 군심 스1 스타1 스타크래프트1 스타크래프트 1 스2 스타2 스타크래프트2 스타크래프트 2",
     "description": "은신하며 적을 교란시킬 수 있는 신출귀몰한 암살자입니다.",
     "descriptors": [
       "EnergyImportant",
@@ -40162,6 +40421,7 @@
     "difficulty": "중간",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "아마니의 전쟁군주",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2017-01-04",
@@ -40171,6 +40431,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "줄진 도끼투척 트롤 호드 워2 워크2 워크래프트2 워크래프트 II 2 어둠의 물결 월드 오브 워크래프트 와우 불타는 성전 불성",
     "description": "생명력이 낮을수록 강해지는 물리 공격형 암살자입니다.",
     "descriptors": [
       "EnergyImportant",

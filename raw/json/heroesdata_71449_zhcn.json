@@ -51,6 +51,7 @@
     "difficulty": "极难",
     "franchise": "Starcraft",
     "gender": "Neutral",
+    "title": "进化大师",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -60,6 +61,7 @@
     "rarity": "Legendary",
     "mountLinkId": "AbathurDeepTunnel",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "阿巴瑟 异虫，虫群，虫群之心，星际争霸",
     "description": "一位可以在战场任何位置操纵战局的独特英雄。",
     "descriptors": [
       "Ganker",
@@ -640,6 +642,7 @@
     "difficulty": "困难",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "塔达林的高阶领主",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2016-09-13",
@@ -649,6 +652,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "阿拉纳克 升格，星灵，星际争霸，虚空之遗，隐秘行动",
     "description": "一位能改变敌人位置，并制裁走位失误的敌人的连招型刺客。",
     "descriptors": [
       "EnergyImportant",
@@ -1102,6 +1106,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "生命缚誓者",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2017-11-14",
@@ -1111,6 +1116,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "阿里克斯塔萨，阿历克斯塔萨，阿莱克丝塔萨，阿莱克斯塔撒 魔兽争霸2，WC2，WoW，大灾变，巫妖王之怒，WLK，龙，精灵，红龙，女王，红龙女王，魔兽，魔兽世界",
     "description": "一名治疗者，能与盟友分享生命值，还能变身成巨龙，强化自己的技能。",
     "descriptors": [
       "AllyHealer",
@@ -1553,6 +1559,12 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "远程",
+          "descriptors": [
+            "AllyHealer",
+            "Helper",
+            "Overconfident",
+            "RoleSupport"
+          ],
           "life": {
             "amount": 1787.0,
             "scale": 0.04,
@@ -1636,6 +1648,7 @@
     "difficulty": "困难",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "老练的狙击手",
     "innerRadius": 0.5625,
     "radius": 0.5625,
     "releaseDate": "2017-09-26",
@@ -1645,6 +1658,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "安娜 人类，荷鲁斯之眼，守望先锋，艾玛莉",
     "description": "一位爆发型的治疗者，使用精确的非指向性技能来治疗盟友，也能阻止敌方获得治疗。",
     "descriptors": [
       "AllyHealer",
@@ -2114,6 +2128,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "叛变的国王",
     "innerRadius": 0.875,
     "radius": 1.0625,
     "releaseDate": "2014-10-07",
@@ -2123,6 +2138,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "阿努巴拉克 亡灵，地穴领主，魔兽世界，魔兽争霸，冰封王座，巫妖王之怒",
     "description": "一位擅长对抗法师英雄的坦克。",
     "descriptors": [
       "BodyBlocker",
@@ -2575,6 +2591,7 @@
     "difficulty": "中等",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "达拉姆的大主教",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2015-10-27",
@@ -2584,6 +2601,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "阿塔尼斯 星灵，艾尔，虚空之遗，星际争霸，母巢之战",
     "description": "一位能够在敌方队伍无法限制他时制造大量伤害的坚韧斗士。",
     "descriptors": [
       "BodyBlocker",
@@ -3070,6 +3088,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "巫妖王",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -3079,6 +3098,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "阿尔萨斯，巫妖王 巫妖王，王子，米奈希尔，死亡骑士，亡灵，魔兽世界，魔兽争霸，混乱之治，冰封王座，巫妖王之怒，炉石，炉石传说",
     "description": "一位擅长对抗近战物理攻击者，并使其减速的坦克。",
     "descriptors": [
       "BodyBlocker",
@@ -3521,6 +3541,7 @@
     "difficulty": "中等",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "希望大天使",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-08-09",
@@ -3530,6 +3551,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "奥莉尔 天使，大天使，暗黑破坏神",
     "description": "一位擅长与高输出英雄配合的治疗者。",
     "descriptors": [
       "AllyHealer",
@@ -3984,6 +4006,7 @@
     "difficulty": "中等",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "罪恶之王",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2014-10-14",
@@ -3993,6 +4016,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "阿兹莫丹 恶魔，罪恶之王，暗黑破坏神",
     "description": "一位能够从远处制造大量伤害的召唤者。",
     "descriptors": [
       "EnergyImportant",
@@ -4445,6 +4469,7 @@
     "difficulty": "中等",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "精英火蝠",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2018-01-09",
@@ -4454,6 +4479,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "火蝠 人类，泰伦，风暴英雄",
     "description": "一位远程坦克型英雄，擅长发起战斗和使用喷火攻击制造范围性伤害。",
     "descriptors": [
       "BodyBlocker",
@@ -4915,6 +4941,7 @@
     "difficulty": "困难",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "精灵龙",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2014-04-15",
@@ -4924,6 +4951,7 @@
     "rarity": "Epic",
     "mountLinkId": "BrightwingPhaseShift",
     "hearthLinkId": "Hearthstone",
+    "searchText": "光明之翼 精灵龙，魔兽世界，军团再临，风暴英雄",
     "description": "一位能够传送到盟友身边，并在大型战场中表现优异的治疗者。",
     "descriptors": [
       "AllyHealer",
@@ -5394,6 +5422,7 @@
     "difficulty": "中等",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "亚马逊战争仕女",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-04-04",
@@ -5403,6 +5432,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "卡西娅，亚马逊 标枪流，暗黑破坏神二，人类",
     "description": "一位擅长对付物理攻击者的刺客。",
     "descriptors": [
       "EnergyImportant",
@@ -5663,7 +5693,11 @@
           "shortTooltip": "激活闪避来造成伤害",
           "fullTooltip": "闪避激活时受到500 (每级 +4%)点伤害后，卡西娅可以激活闪避对她附近的敌人造成210 (每级 +4%)点伤害。",
           "abilityType": "Trait",
-          "sort": 3
+          "isActive": true,
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "AmazonAvoidance"
+          ]
         }
       ],
       "level10": [
@@ -5838,6 +5872,7 @@
     "difficulty": "困难",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "传奇酒仙",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2014-09-09",
@@ -5847,6 +5882,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneBrew",
+    "searchText": "陈 风暴烈酒，熊猫人，魔兽世界，魔兽争霸，冰封王座，熊猫人之谜",
     "description": "一位能够在敌方队伍缺乏移动性时支配战局的强大斗士。",
     "descriptors": [
       "BodyBlocker",
@@ -6438,6 +6474,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "暮光之锤的酋长",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2015-11-17",
@@ -6447,6 +6484,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "古加尔，古，加尔 食人魔，双头，魔兽争霸，黑暗之潮，魔兽世界，大地的裂变，德拉诺之王，部落",
     "description": "双头食人魔英雄中的一个，古控制着古加尔的身体。",
     "descriptors": [
       "BodyBlocker",
@@ -6876,6 +6914,7 @@
     "difficulty": "困难",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "时光守护者",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-05-17",
@@ -6885,6 +6924,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "克罗诺姆 青铜龙，魔兽世界，巫妖王之怒，大地的裂变，熊猫人之谜，德拉诺之王",
     "description": "一位需要出色的时间把握和走位能力的远程高爆发伤害型法师。",
     "descriptors": [
       "EnergyImportant",
@@ -7338,6 +7378,7 @@
     "difficulty": "中等",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "赫拉迪姆最后一人",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2018-04-24",
@@ -7347,6 +7388,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "凯恩 D1，D2，D3，暗黑，暗黑1，暗黑2，暗黑3，赫拉迪姆，老头，神棍，暗黑破坏神",
     "description": "一位爆发型治疗者，擅长在战斗开始前搭建战场环境，可以使用群体控制妨碍敌人。",
     "descriptors": [
       "AllyHealer",
@@ -7688,7 +7730,10 @@
           "fullTooltip": "激活信仰弥坚来强化附近友方英雄的普通攻击，持续8秒，使他们造成额外62 (每级 +4%)点范围伤害，并且每击中一名英雄治疗90 (每级 +4%)点生命值。该效果每秒只能生效一次。",
           "abilityType": "Active",
           "isActive": true,
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DeckardFortitudeOfTheFaithful"
+          ]
         }
       ],
       "level16": [
@@ -7715,7 +7760,10 @@
           "shortTooltip": "额外的盟友可强化信仰弥坚",
           "fullTooltip": "如果周围有至少3名友方英雄在身边，信仰弥坚给予额外15点护甲，并且使迪卡德的基本技能回复速度加快50%。",
           "abilityType": "Trait",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DeckardFortitudeOfTheFaithful"
+          ]
         },
         {
           "nameId": "DeckardHoradricStaff",
@@ -7797,6 +7845,7 @@
     "difficulty": "中等",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "原始虫群首领",
     "innerRadius": 0.875,
     "radius": 1.0,
     "releaseDate": "2016-03-29",
@@ -7806,6 +7855,7 @@
     "rarity": "Legendary",
     "mountLinkId": "DehakaBrushstalker",
     "hearthLinkId": "Hearthstone",
+    "searchText": "德哈卡 原始异虫，星际争霸，虫群之心",
     "description": "一位拥有强大的全图支援能力，能够高效地清理小兵的斗士。",
     "descriptors": [
       "BodyBlocker",
@@ -8277,6 +8327,7 @@
     "difficulty": "中等",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "恐惧之王",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2014-03-13",
@@ -8286,6 +8337,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "迪亚波罗 恶魔，恐惧之王，暗黑破坏神",
     "description": "一位拥有使用一套连招消灭整支敌方队伍潜力的高风险坦克。",
     "descriptors": [
       "BodyBlocker",
@@ -8741,6 +8793,7 @@
     "difficulty": "中等",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "MEKA驾驶员",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2017-05-16",
@@ -8750,6 +8803,7 @@
     "rarity": "Legendary",
     "mountLinkId": "DVaMechanizedWalker",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Dva Diva Hana Song 宋哈娜 Overwatch 守望先锋 OW 机甲",
     "description": "一位难以击杀的斗士，她可以使用强力干扰技能让敌人远离她的盟友。",
     "descriptors": [
       "BodyBlocker",
@@ -9162,7 +9216,10 @@
           "shortTooltip": "提高驾驶员的伤害，击杀英雄刷新机甲",
           "fullTooltip": "驾驶员模式下的普通伤害提高50%。在驾驶员模式下参与一次英雄击杀可以立即刷新呼叫机甲的冷却时间。",
           "abilityType": "Trait",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DVaPilotPilotMode"
+          ]
         },
         {
           "nameId": "DVaPilotNanoweaveSuit",
@@ -9173,7 +9230,10 @@
           "shortTooltip": "呼叫机甲更快，弹射脱离后获得护甲",
           "fullTooltip": "弹射脱离机甲后，D.Va获得50点护甲，持续4秒。她的普通攻击可以让呼叫机甲的冷却时间加快50%。",
           "abilityType": "Trait",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DVaPilotPilotMode"
+          ]
         },
         {
           "nameId": "DVaPilotSuppressingFire",
@@ -9184,7 +9244,10 @@
           "shortTooltip": "驾驶员普通攻击使敌人减速，并且射程增加。",
           "fullTooltip": "驾驶员模式普通攻击的射程提高20%，并降低敌人移动速度20%，持续2.5秒。",
           "abilityType": "Trait",
-          "sort": 4
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "DVaPilotPilotMode"
+          ]
         }
       ],
       "level20": [
@@ -9257,6 +9320,9 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "远程",
+          "descriptors": [
+            "RoleAutoAttacker"
+          ],
           "life": {
             "amount": 1109.0,
             "scale": 0.04,
@@ -9289,6 +9355,17 @@
                 "fullTooltip": "呼叫一台新的机甲，进入机甲模式。  每一次普通攻击可使该技能的冷却时间缩短0.5秒。",
                 "abilityType": "E"
               }
+            ],
+            "trait": [
+              {
+                "nameId": "DVaPilotPilotMode",
+                "name": "驾驶员模式",
+                "shortTooltipId": "DVaPilotPilotMode",
+                "fullTooltipId": "DVaPilotPilotMode",
+                "icon": "storm_ui_icon_dva_pilotmode.png",
+                "fullTooltip": "普通攻击使呼叫机甲的冷却时间减少0.5秒。身为驾驶员时，D.Va死亡只奖励50%的正常英雄经验。",
+                "abilityType": "Trait"
+              }
             ]
           }
         }
@@ -9303,6 +9380,7 @@
     "difficulty": "简单",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "摇滚教父",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2014-03-13",
@@ -9312,6 +9390,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "E.T.C，ETC，牛头人酋长 90级，部落，风暴英雄，魔兽世界",
     "description": "一位能够为队伍提供辅助的坦克。",
     "descriptors": [
       "BodyBlocker",
@@ -9773,6 +9852,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "蛮锤领主",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -9782,6 +9862,7 @@
     "rarity": "Epic",
     "mountLinkId": "FalstadFlight",
     "hearthLinkId": "Hearthstone",
+    "searchText": "弗斯塔德 狮鹫骑士，蛮锤，矮人，联盟，魔兽世界，大灾变，BFA，争霸艾泽拉斯",
     "description": "一位能够远距离飞行，并在大型战场中表现优异的刺客。",
     "descriptors": [
       "EnergyImportant",
@@ -10238,6 +10319,7 @@
     "difficulty": "中等",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "圣堂武士管理者",
     "innerRadius": 0.9375,
     "radius": 1.0625,
     "releaseDate": "2018-03-27",
@@ -10247,6 +10329,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "菲尼克斯 龙骑，龙骑兵，星灵，SC，SC1，星际争霸，星际争霸II，SC2，母巢之战，BW",
     "description": "一位伤害持久的刺杀型英雄，拥有可回复护盾，能有效地独自对抗敌人。",
     "descriptors": [
       "Escaper",
@@ -10703,11 +10786,13 @@
     "difficulty": "简单",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "暮光之锤的酋长",
     "releaseDate": "2015-11-17",
     "sight": 12.0,
     "speed": 4.3984,
     "type": "远程",
     "rarity": "Legendary",
+    "searchText": "古加尔 食人魔，双头，魔兽争霸，黑暗之潮，魔兽世界，大地的裂变，德拉诺之王，部落",
     "description": "双头食人魔英雄中的一个，加尔是一个强大的法师。",
     "descriptors": [
       "GoalsDisabled",
@@ -11157,6 +11242,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "地狱咆哮之子",
     "innerRadius": 0.875,
     "radius": 0.875,
     "releaseDate": "2017-08-08",
@@ -11166,6 +11252,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "加尔鲁什 魔兽世界，兽人，大酋长，熊猫人之谜，德拉诺之王，燃烧的远征，巫妖王之怒，大地的裂变，部落，脑残吼，地狱吼，地狱咆哮，炉石传说，炉石，聪明吼",
     "description": "一位擅长冲入敌阵的前排坦克，可将单个敌人隔离起来进而将其消灭。",
     "descriptors": [
       "BodyBlocker",
@@ -11643,6 +11730,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "棘齿城老板",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -11652,6 +11740,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "加兹鲁维 工匠，地精，部落，魔兽世界，魔兽争霸，冰封王座，大地的裂变，德拉诺之王，争霸艾泽拉斯",
     "description": "一位擅长控制战场关键位置的召唤者。",
     "descriptors": [
       "EnergyImportant",
@@ -12148,6 +12237,7 @@
     "difficulty": "困难",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "半机械忍者",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-04-25",
@@ -12157,6 +12247,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "人类，半机械，守望先锋，OW，岛田",
     "description": "一位能够轻易切入后排的高机动机会型刺客。",
     "descriptors": [
       "EnergyImportant",
@@ -12632,6 +12723,7 @@
     "difficulty": "困难",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "狼人之王",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2016-01-12",
@@ -12641,6 +12733,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "格雷迈恩，吉恩 狼人，吉尔尼斯，联盟，魔兽世界，魔兽争霸，黑暗之潮，大地的裂变，军团再临，争霸艾泽拉斯",
     "description": "一位能够从远处削弱敌人，随后近身将其击杀的高伤害刺客。  10 点护甲（狼人形态）",
     "descriptors": [
       "EnergyImportant",
@@ -13140,6 +13233,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "黑暗的化身",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2016-07-12",
@@ -13149,6 +13243,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "古尔丹 兽人术士，部落，魔兽争霸，魔兽世界，黑暗之潮，混乱之治，燃烧的远征，德拉诺之王，军团再临，部落，炉石传说",
     "description": "一位利用自身生命值，但能偷取敌人生命值的持续伤害型法师。",
     "descriptors": [
       "RoleCaster",
@@ -13601,6 +13696,7 @@
     "difficulty": "中等",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "刺客大师",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-12-12",
@@ -13610,6 +13706,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "人类，守望先锋，OW，岛田，随缘",
     "description": "一位远程刺杀者，擅长从远距离侦察并解决掉敌人。",
     "descriptors": [
       "EnergyImportant",
@@ -14068,6 +14165,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "背叛者",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -14077,6 +14175,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "伊利丹 怒风，恶魔猎手，暗夜精灵，魔兽世界，魔兽争霸，混乱之治，冰封王座，燃烧的远征，军团再临",
     "description": "一位与能够辅助他的英雄配合良好的高机动持续伤害型刺客。",
     "descriptors": [
       "BodyBlocker",
@@ -14515,6 +14614,7 @@
     "difficulty": "中等",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "勇气大天使",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2019-01-08",
@@ -14524,6 +14624,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "英普瑞斯 天使，大天使迪亚波罗，迪亚波罗，暗黑破坏神，暗黑3",
     "description": "一往无前的斗士型英雄，拥有强大的先手技能和单体伤害能力。",
     "descriptors": [
       "BodyBlocker",
@@ -14970,6 +15071,7 @@
     "difficulty": "简单",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "大法师",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-12-02",
@@ -14979,6 +15081,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "吉安娜 普罗德摩尔，人类，塞拉摩，联盟，魔兽世界，魔兽争霸，混乱之治，燃烧的远征，巫妖王之怒，大地的裂变，熊猫人之谜，德拉诺之王，军团再临，炉石传说，恐惧魔王，争霸艾泽拉斯",
     "description": "一位能够使整支敌方队伍减速的冰霜法师。",
     "descriptors": [
       "EnergyImportant",
@@ -15440,6 +15543,7 @@
     "difficulty": "中等",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "萨卡兰姆圣教军",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-06-02",
@@ -15449,6 +15553,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "乔汉娜 圣教军，奈非天，暗黑破坏神，夺魂之镰",
     "description": "一位擅长对抗物理攻击者以及清理小兵的坦克。",
     "descriptors": [
       "BodyBlocker",
@@ -15884,6 +15989,7 @@
     "difficulty": "中等",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "渣客爆破手",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-10-17",
@@ -15893,6 +15999,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "渣客，榴弹 人类，守望先锋，OW，詹米森，法尔克斯",
     "description": "一名高机动性的刺杀型英雄，能从远处轰炸敌人，并利用陷阱和地雷引发混乱。",
     "descriptors": [
       "RoleSpecialist",
@@ -16340,6 +16447,7 @@
     "difficulty": "困难",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "太阳之王",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2015-05-12",
@@ -16349,6 +16457,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "凯尔萨斯 王子，逐日者法师，血精灵，魔兽世界，魔兽争霸，冰封王座，燃烧的远征",
     "description": "一位擅长对付抱团敌人的火焰法师。",
     "descriptors": [
       "EnergyImportant",
@@ -16802,6 +16911,7 @@
     "difficulty": "困难",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "纳克萨玛斯的大巫妖",
     "innerRadius": 0.875,
     "radius": 0.875,
     "releaseDate": "2017-09-05",
@@ -16811,6 +16921,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "克总，克尔苏加德，克苏加德 纳克萨玛斯的大巫妖，瘟疫之地的巫妖领主，天灾浮空城的指挥官，诅咒教派的主人兼创始人，前任六人议会成员，憎恶的创造者，污染者阿克蒙德的召唤者，人类的背叛者，炉石传说爱好者，巫妖王的总管，亡灵，魔兽争霸3，冰封王座，魔兽世界，巫妖王之怒，克总",
     "description": "一位爆发型伤害的法师，能困锁敌人并用强大的组合技对其造成巨大伤害。",
     "descriptors": [
       "DeadUpdater",
@@ -17274,6 +17385,7 @@
     "difficulty": "困难",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "刀锋女王",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2014-03-13",
@@ -17283,6 +17395,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "凯瑞甘 莎拉，刀锋女王，异虫，虫群之心，星际争霸，母巢之战，虚空之遗，自由之翼",
     "description": "一位擅长冲入敌方队伍的连招型刺客。",
     "descriptors": [
       "EnergyImportant",
@@ -17726,6 +17839,7 @@
     "difficulty": "中等",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "梵罗达尼武僧",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2015-08-18",
@@ -17735,6 +17849,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "卡拉辛姆 武僧，奈非天，暗黑破坏神，夺魂之镰",
     "description": "一位能够与喜欢冲入敌方队伍的近战盟友配合良好的灵活治疗者。",
     "descriptors": [
       "AllyHealer",
@@ -18207,6 +18322,7 @@
     "difficulty": "简单",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "骷髅王",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2015-07-21",
@@ -18216,6 +18332,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "李奥瑞克，骷髅王 崔斯特姆，亡灵，暗黑破坏神",
     "description": "一位能够对高生命值英雄制造大量伤害的斗士。",
     "descriptors": [
       "EnergyImportant",
@@ -18701,6 +18818,7 @@
     "difficulty": "简单",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "世界行者",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-04-15",
@@ -18710,6 +18828,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "丽丽 熊猫人，魔兽世界，熊猫人之谜",
     "description": "一位能够致盲物理攻击者的持续治疗者。",
     "descriptors": [
       "AllyHealer",
@@ -19157,6 +19276,7 @@
     "difficulty": "中等",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "狂热的魔法师",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-02-02",
@@ -19166,6 +19286,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "李敏 魔法师，奈非天，暗黑破坏神，夺魂之镰",
     "description": "一位能够在击杀英雄后重置技能冷却时间的高爆发伤害型法师。",
     "descriptors": [
       "EnergyImportant",
@@ -19639,6 +19760,7 @@
     "difficulty": "极难",
     "franchise": "Classic",
     "gender": "Male",
+    "title": "麻烦三人组",
     "innerRadius": 0.75,
     "releaseDate": "2015-02-10",
     "speed": 20.0,
@@ -19646,6 +19768,7 @@
     "rarity": "Legendary",
     "mountLinkId": "LostVikingsGoGoGo",
     "hearthLinkId": "Hearthstone",
+    "searchText": "失落的维京人，奥拉夫，埃瑞克，巴尔洛戈 失落的维京人，经典",
     "description": "三个英雄团结而战！可以从多个位置收集经验值。",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_lostvikings.png",
@@ -19750,13 +19873,13 @@
       ],
       "trait": [
         {
-          "nameId": "LostVikingsVikingHoardHeroSelect",
+          "nameId": "LostVikingsVikingHoardTalent",
           "name": "维京宝藏",
-          "shortTooltipId": "LostVikingsVikingHoardHeroSelect",
-          "fullTooltipId": "LostVikingsVikingHoardHeroSelect",
+          "shortTooltipId": "LostVikingsVikingHoardTalent",
+          "fullTooltipId": "LostVikingsVikingHoardTalent",
           "icon": "storm_ui_icon_LostVikings_VikingHoard.png",
           "shortTooltip": "收集恢复之球可提高生命恢复速度",
-          "fullTooltip": "维京人收集恢复之球后，所有维京人的每秒生命恢复永久提高0.5点。",
+          "fullTooltip": "维京人收集恢复之球后，所有维京人的每秒生命恢复永久提高0.5点。  当前加成：每秒恢复0点",
           "abilityType": "Trait"
         }
       ],
@@ -20148,7 +20271,10 @@
           "shortTooltip": "降低所有维京人的复活时间",
           "fullTooltip": "失落的维京人的复活时间缩短50%。",
           "abilityType": "Trait",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "LostVikingsVikingHoardTalent"
+          ]
         },
         {
           "nameId": "LostVikingsTalentFuryoftheStorm",
@@ -20173,6 +20299,11 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "远程",
+          "descriptors": [
+            "Helper",
+            "RoleAutoAttacker",
+            "WaveClearer"
+          ],
           "life": {
             "amount": 1095.0,
             "scale": 0.04,
@@ -20206,6 +20337,11 @@
           "sight": 13.0,
           "speed": 5.0,
           "type": "远程",
+          "descriptors": [
+            "Escaper",
+            "Helper",
+            "RoleAutoAttacker"
+          ],
           "life": {
             "amount": 767.0,
             "scale": 0.04,
@@ -20232,6 +20368,11 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "远程",
+          "descriptors": [
+            "Helper",
+            "Overconfident",
+            "RoleTank"
+          ],
           "life": {
             "amount": 1424.0,
             "scale": 0.04,
@@ -20259,6 +20400,7 @@
     "difficulty": "中等",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "战地医疗兵",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-10-06",
@@ -20268,6 +20410,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "莫拉莉斯中尉，医疗兵 人类，风暴英雄，星际争霸，母巢之战，UED，地球远征军",
     "description": "一位不加以针对就难以被击杀的强大持续治疗者。",
     "descriptors": [
       "AllyHealer",
@@ -20710,6 +20853,7 @@
     "difficulty": "中等",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "自由战士DJ",
     "innerRadius": 0.4375,
     "radius": 0.6875,
     "releaseDate": "2017-02-14",
@@ -20719,6 +20863,7 @@
     "rarity": "Legendary",
     "mountLinkId": "LucioSkateMode",
     "hearthLinkId": "Hearthstone",
+    "searchText": "卢西奥 人类，守望先锋",
     "description": "一位能为全队提供机动能力，并让敌人难以靠近队友的持续治疗者。",
     "descriptors": [
       "AllyHealer",
@@ -21217,6 +21362,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "塞纳留斯的长女",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-12-15",
@@ -21226,6 +21372,7 @@
     "rarity": "Epic",
     "mountLinkId": "DryadGallopingGait",
     "hearthLinkId": "Hearthstone",
+    "searchText": "露娜拉 树妖，暗夜精灵，塞纳留斯，魔兽世界，军团再临，风暴英雄，炉石传说",
     "description": "一位使用毒素从远处削弱敌人的持续伤害型刺客。",
     "descriptors": [
       "EnergyImportant",
@@ -21762,6 +21909,7 @@
     "difficulty": "困难",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "守望者",
     "radius": 0.75,
     "releaseDate": "2018-02-06",
     "sight": 12.0,
@@ -21770,6 +21918,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "影歌，守望者，暗夜精灵，联盟，魔兽，魔兽世界，WoW，War3，魔兽争霸3，冰封王座，德拉诺之王，燃烧军团，炉石传说，炉石",
     "description": "一名拥有高机动性的刺杀者，擅长对付站位密集的敌人并防止他们脱逃。",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_maiev.png",
@@ -22215,6 +22364,7 @@
     "difficulty": "简单",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "大德鲁伊",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -22224,6 +22374,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "玛法里奥 怒风，暗夜精灵，德鲁伊，联盟，魔兽世界，魔兽争霸，混乱之治，冰封王座，大地的裂变，德拉诺之王，军团再临，炉石传说",
     "description": "一位能够帮助队友限制敌人来确保击杀的强大持续治疗者。",
     "descriptors": [
       "AllyHealer",
@@ -22678,6 +22829,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "纳斯雷兹姆领主",
     "innerRadius": 0.6875,
     "radius": 0.875,
     "releaseDate": "2018-10-16",
@@ -22687,6 +22839,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "玛尔加尼斯 恐惧魔王，亡灵，恶魔，魔兽争霸3，混乱之治，魔兽世界，巫妖王之怒，军团",
     "description": "可自我续航的坦克型英雄，可为盟友提供增益和对敌人进行干扰。",
     "descriptors": [
       "BodyBlocker",
@@ -23149,6 +23302,7 @@
     "difficulty": "中等",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "死亡化身",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-06-13",
@@ -23158,6 +23312,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "马瑟伊尔，马瑟尔，马萨尔 天使，大天使，暗黑破坏神Ⅲ，夺魂之镰",
     "description": "一名刺杀型英雄，他可以标记目标，削弱高生命值的敌人。",
     "descriptors": [
       "BodyBlocker",
@@ -23619,6 +23774,7 @@
     "difficulty": "极难",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "最后的守护者",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2016-06-14",
@@ -23628,6 +23784,7 @@
     "rarity": "Legendary",
     "mountLinkId": "MedivhTransformRaven",
     "hearthLinkId": "Hearthstone",
+    "searchText": "麦迪文 先知，魔兽争霸，混乱之治，魔兽世界，燃烧的远征，炉石传说",
     "description": "一位能够抵挡爆发伤害，并为盟友提供传送能力的辅助。",
     "descriptors": [
       "EnergyImportant",
@@ -24108,6 +24265,7 @@
     "difficulty": "中等",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "憎恨之王",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2018-09-04",
@@ -24117,6 +24275,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "恶魔，D2，暗黑破坏神2，暗黑破坏神二",
     "description": "擅长在敌人集群时进行持续输出的刺杀型英雄。",
     "descriptors": [
       "EnergyImportant",
@@ -24352,7 +24511,10 @@
           "shortTooltip": "墨菲斯托之影给予护甲",
           "fullTooltip": "激活时，墨菲斯托之影给予20点护甲，该加成可在技能结束后延续2.5秒。",
           "abilityType": "E",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "MephistoShadeOfMephisto"
+          ]
         },
         {
           "nameId": "MephistoShadeOfMephistoFrostStorm",
@@ -24363,7 +24525,10 @@
           "shortTooltip": "墨菲斯托之影使敌人减速",
           "fullTooltip": "靠近墨菲斯托之影的敌人会被减速50%，持续2秒。当墨菲斯托之影激活时，使用魔颅飞弹击中敌人可以使该减速效果提升至50%。",
           "abilityType": "E",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "MephistoShadeOfMephisto"
+          ]
         },
         {
           "nameId": "MephistoShadeOfMephistoTrickery",
@@ -24374,7 +24539,10 @@
           "shortTooltip": "墨菲斯托之影提供移动速度",
           "fullTooltip": "墨菲斯托之影激活时给予20%的移动速度，该效果在技能结束后仍可持续2.5秒。在墨菲斯托之影消失后，所有减速和定身效果都会从墨菲斯托身上移除。",
           "abilityType": "E",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "MephistoShadeOfMephisto"
+          ]
         }
       ],
       "level10": [
@@ -24567,6 +24735,7 @@
     "difficulty": "简单",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "山丘之王",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -24576,6 +24745,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "穆拉丁 铜须，矮人，联盟，魔兽世界，魔兽争霸，混乱之治，巫妖王之怒，大地的裂变",
     "description": "一位能够应付多种战场形势的坚韧坦克。",
     "descriptors": [
       "BodyBlocker",
@@ -25032,6 +25202,7 @@
     "difficulty": "困难",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "鱼人宝宝",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-05-22",
@@ -25041,6 +25212,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "奔波尔霸 鱼人，魔兽世界，军团再临，风暴英雄",
     "description": "虽然并不是一个真正意义上的英雄，但奔波尔霸可以放置鱼蛋从而快速复活。",
     "descriptors": [
       "BodyBlocker",
@@ -25482,6 +25654,7 @@
     "difficulty": "中等",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "异端巫医",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2014-03-13",
@@ -25491,6 +25664,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "纳兹波 奈非天，暗黑破坏神，夺魂之镰，巫医",
     "description": "一位能够在杀死敌方小兵时获得强度的持续伤害法师。",
     "descriptors": [
       "EnergyImportant",
@@ -25955,6 +26129,7 @@
     "difficulty": "中等",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "帝国幽灵特工",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -25964,6 +26139,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "诺娃 泰拉，幽灵，人类，星际争霸，自由之翼，虫群之心，隐秘任务",
     "description": "一位擅长从潜行中伏击敌人的爆发伤害型法师。",
     "descriptors": [
       "EnergyImportant",
@@ -26446,6 +26622,7 @@
     "difficulty": "中等",
     "franchise": "Nexus",
     "gender": "Female",
+    "title": "乌鸦庭继承人",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2018-11-13",
@@ -26455,6 +26632,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "奥菲娅 ",
     "description": "远程刺杀型英雄，可在敌人周围像舞蹈般展开攻击，并使用法术强化普通攻击。",
     "descriptors": [
       "Escaper",
@@ -26790,7 +26968,10 @@
           "fullTooltip": "激活此技能，在2秒的延迟后，对周围所有敌方英雄造成150 (每级 +4%)点伤害。每击中一名英雄就可以恢复182 (每级 +4%)点生命值并获得1层混乱。",
           "abilityType": "Trait",
           "isActive": true,
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "OrpheaOverflowingChaos"
+          ]
         }
       ],
       "level16": [
@@ -26910,6 +27091,7 @@
     "difficulty": "困难",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "充满好奇心的探机",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-03-14",
@@ -26919,6 +27101,7 @@
     "rarity": "Legendary",
     "mountLinkId": "ProbiusWorkerRush",
     "hearthLinkId": "Hearthstone",
+    "searchText": "探机 星灵，星际争霸",
     "description": "一位必须在水晶塔附近才能发挥出实力的高伤害召唤者。",
     "descriptors": [
       "RoleSpecialist",
@@ -27399,6 +27582,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "炎魔之王",
     "innerRadius": 0.875,
     "radius": 1.0,
     "releaseDate": "2016-12-14",
@@ -27408,6 +27592,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "拉格纳罗斯 炎魔之王，熔火之心，魔兽世界，大地的裂变，炉石，炉石传说",
     "description": "一位能够抵挡敌人进攻我方堡垒和要塞的斗士。",
     "descriptors": [
       "EnergyImportant",
@@ -27926,6 +28111,7 @@
     "difficulty": "简单",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "起义军指挥官",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -27935,6 +28121,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "雷诺 詹姆斯，吉米，指挥官，人类，星际争霸，虫群之心，虚空之遗，母巢之战，自由之翼",
     "description": "一位能够让敌人难以接近的物理伤害型刺客。",
     "descriptors": [
       "EnergyImportant",
@@ -28394,6 +28581,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "大地之环萨满",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-07-22",
@@ -28403,6 +28591,7 @@
     "rarity": "Epic",
     "mountLinkId": "RehgarGhostWolfActivate",
     "hearthLinkId": "Hearthstone",
+    "searchText": "雷加尔 大地之怒，兽人，萨满，部落，魔兽世界，军团再临",
     "description": "一位擅长与近战盟友配合的全能治疗者。",
     "descriptors": [
       "AllyHealer",
@@ -28888,6 +29077,7 @@
     "difficulty": "困难",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "部落的勇士",
     "innerRadius": 0.875,
     "radius": 0.875,
     "releaseDate": "2015-09-08",
@@ -28897,6 +29087,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "雷克萨 米莎，兽王，猎人，半兽人，食人魔，魔兽争霸，魔兽世界，冰封王座，燃烧的远征，德拉诺之王，军团再临，炉石传说，争霸艾泽拉斯",
     "description": "一位擅长和巨熊米莎一起控制战场的斗士。",
     "descriptors": [
       "EnergyImportant",
@@ -29368,6 +29559,7 @@
     "difficulty": "困难",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "剑圣",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2016-10-18",
@@ -29377,6 +29569,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "萨穆罗 兽人，剑圣，部落，魔兽争霸，冰封王座，魔兽世界",
     "description": "一位擅长占领雇佣兵营地，并且难以被杀死的潜行刺客。",
     "descriptors": [
       "Ganker",
@@ -29821,6 +30014,7 @@
     "difficulty": "困难",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "攻城坦克驾驶员",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2014-03-13",
@@ -29830,6 +30024,7 @@
     "rarity": "Epic",
     "mountLinkId": "SgtHammerThrusters",
     "hearthLinkId": "Hearthstone",
+    "searchText": "重锤军士 攻城坦克，人类，风暴英雄，星际争霸，虚空之遗",
     "description": "一位需要队友保护的远程物理伤害输出者。",
     "descriptors": [
       "EnergyImportant",
@@ -30292,6 +30487,7 @@
     "difficulty": "中等",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "迷途野蛮人",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -30301,6 +30497,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "桑娅 野蛮人，奈非天，暗黑破坏神，夺魂之镰",
     "description": "一位擅长占领雇佣兵营地以及冲锋陷阵的斗士。",
     "descriptors": [
       "Ganker",
@@ -30743,6 +30940,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "夜色镇的梦魇",
     "innerRadius": 0.9375,
     "radius": 1.0625,
     "releaseDate": "2014-03-13",
@@ -30752,6 +30950,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "缝合怪 憎恶，亡灵，魔兽世界",
     "description": "一位想要将远处的敌方英雄从队伍中分离的坦克。",
     "descriptors": [
       "BodyBlocker",
@@ -31217,6 +31416,7 @@
     "difficulty": "中等",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "被感染的中将",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-07-11",
@@ -31226,6 +31426,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "斯图科夫 斯杜科夫 星际争霸 母巢之战 星际争霸II 虫群之心 虚空之遗 异虫 感染人类 UED",
     "description": "一名治疗者，可以从远距离严重干扰敌人。",
     "descriptors": [
       "AllyHealer",
@@ -31714,6 +31915,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "女妖之王",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2015-03-24",
@@ -31723,6 +31925,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "希尔瓦娜斯 风行者，女王，被遗忘者，亡灵，精灵，部落，魔兽争霸，魔兽世界，混乱之治，冰封王座，大地的裂变，德拉诺之王，军团再临，大酋长，争霸艾泽拉斯",
     "description": "一位能够瘫痪敌方堡垒和要塞的刺客。",
     "descriptors": [
       "EnergyImportant",
@@ -32173,6 +32376,7 @@
     "difficulty": "中等",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "圣堂救世主",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -32182,6 +32386,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "塔萨达尔 星灵，艾尔，星际争霸，高阶圣堂武士",
     "description": "一位擅长保护喜欢冲入敌方队伍的伤害输出者的辅助。",
     "descriptors": [
       "ChanneledAutoAttacker",
@@ -32629,6 +32834,7 @@
     "difficulty": "中等",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "血肉雕刻者",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2015-06-30",
@@ -32638,6 +32844,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "屠夫 恶魔，暗黑破坏神",
     "description": "一位前期中庸，但在收集足够多的肉后便能造成极高伤害的刺客。",
     "descriptors": [
       "EnergyImportant",
@@ -33070,6 +33277,7 @@
     "difficulty": "简单",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "部落大酋长",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-01-13",
@@ -33079,6 +33287,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "萨尔 古伊尔，酋长，萨满，兽人，部落，魔兽世界，魔兽争霸，混乱之治，冰封王座，燃烧的远征，巫妖王之怒，大地的裂变，熊猫人之谜，军团再临，炉石传说",
     "description": "一位能够在兵线上独自战斗的斗士。",
     "descriptors": [
       "EnergyImportant",
@@ -33536,6 +33745,7 @@
     "difficulty": "困难",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "守望先锋特工",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-04-19",
@@ -33545,6 +33755,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "猎空 莉娜·奥克斯顿，人类，守望先锋",
     "description": "一位能够骚扰敌人并将其消灭的高机动刺客。",
     "descriptors": [
       "Escaper",
@@ -33751,7 +33962,10 @@
           "shortTooltip": "闪现获得额外一层使用次数",
           "fullTooltip": "闪现获得额外1次使用次数，但是其冷却时间也会提高2秒。",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "TracerBlink"
+          ]
         },
         {
           "nameId": "TracerBulletTime",
@@ -33762,7 +33976,10 @@
           "shortTooltip": "普通攻击缩短闪现冷却时间",
           "fullTooltip": "普通攻击可以使闪现的冷却时间缩短0.15秒。",
           "abilityType": "Q",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "TracerBlink"
+          ]
         },
         {
           "nameId": "TracerSpatialEcho",
@@ -33773,7 +33990,10 @@
           "shortTooltip": "击杀英雄提供闪现次数",
           "fullTooltip": "击杀英雄提供2次闪现使用次数。",
           "abilityType": "Q",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "TracerBlink"
+          ]
         }
       ],
       "level10": [
@@ -33956,6 +34176,7 @@
     "difficulty": "中等",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "臭名昭著的罪犯",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-18",
@@ -33965,6 +34186,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "泰凯斯 芬利，罪犯，人类，星际争霸，自由之翼",
     "description": "一位擅长对付高生命值敌人的刺客。",
     "descriptors": [
       "EnergyImportant",
@@ -34464,6 +34686,7 @@
     "difficulty": "中等",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "正义天使",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -34473,6 +34696,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "泰瑞尔 天使，D2，D3，正义大天使，暗黑破坏神，毁灭之王，夺魂之镰",
     "description": "一位与喜欢冲入敌方队伍的盟友配合良好的坦克。",
     "descriptors": [
       "BodyBlocker",
@@ -34916,6 +35140,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "艾露恩的高阶女祭司",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -34925,6 +35150,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "泰兰德 语风，暗夜精灵，高阶女祭司，艾露恩，女猎手，联盟，高阶祭司，魔兽争霸，魔兽世界，混乱之治，冰封王座，大地的裂变，熊猫人之谜，德拉诺之王，军团再临，炉石传说",
     "description": "一位能够帮助队友限制并消灭敌人的辅助。",
     "descriptors": [
       "AllyHealer",
@@ -35388,6 +35614,7 @@
     "difficulty": "简单",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "光明使者",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -35397,6 +35624,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "乌瑟尔 圣骑士，人类，光明使者，联盟，魔兽世界，魔兽争霸，黑暗之潮，混乱之治，炉石传说",
     "description": "一位能够阻挡高爆发伤害的治疗者。",
     "descriptors": [
       "AllyHealer",
@@ -35509,13 +35737,14 @@
       ],
       "trait": [
         {
-          "nameId": "UtherDevotionEternalVanguardShop",
-          "name": "虔诚，永恒先锋",
-          "shortTooltipId": "UtherDevotionEternalVanguardShop",
-          "fullTooltipId": "UtherDevotionEternalVanguardShop",
+          "nameId": "UtherEternalDevotion",
+          "name": "虔诚",
+          "shortTooltipId": "UtherEternalDevotion",
+          "fullTooltipId": "UtherEternalDevotion",
           "icon": "storm_ui_icon_uther_eternaldevotion.png",
+          "cooldownTooltip": "冷却时间：180秒",
           "shortTooltip": "乌瑟尔的治疗提供护甲，并在被杀死后灵魂继续战斗",
-          "fullTooltip": "受到乌瑟尔基本技能影响的友方英雄获得25点护甲，持续2秒。该效果无法与自身叠加。  死亡后，乌瑟尔变为无敌的灵魂状态，持续最多8秒。在灵魂状态下，乌瑟尔可以使用圣光闪现治疗盟友。",
+          "fullTooltip": "受到乌瑟尔基本技能影响的友方英雄获得25点护甲，持续2秒。该效果无法与自身叠加。  永恒先锋  死亡后，乌瑟尔变为无敌的灵魂状态，持续最多8秒。在灵魂状态下，乌瑟尔可以使用圣光闪现治疗盟友。",
           "abilityType": "Trait"
         }
       ]
@@ -35625,7 +35854,10 @@
           "shortTooltip": "对附近敌人造成伤害",
           "fullTooltip": "每秒对附近敌人造成13 (每级 +4%)点伤害。对敌方英雄的普通攻击使该伤害提高20%，持续3秒。该效果最多叠加3次。",
           "abilityType": "Passive",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         }
       ],
       "level7": [
@@ -35652,7 +35884,10 @@
           "shortTooltip": "提高被控制的目标的虔诚护甲",
           "fullTooltip": "治疗被击晕、定身或沉默的英雄使其从虔诚获得的护甲加成从25点提高至50点。",
           "abilityType": "Trait",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         },
         {
           "nameId": "UtherHandOfProtection",
@@ -35829,7 +36064,10 @@
           "shortTooltip": "永恒先锋结束后复活",
           "fullTooltip": "永恒先锋结束后，乌瑟尔在灵魂位置以50%的最大生命值复活。  该效果有180秒的冷却时间。",
           "abilityType": "Trait",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         },
         {
           "nameId": "UtherEternalDevotionDivineProtection",
@@ -35840,7 +36078,10 @@
           "shortTooltip": "虔诚的护甲值提高",
           "fullTooltip": "对已经受到虔诚影响的英雄施放虔诚可以令其护甲提高至50点。",
           "abilityType": "Trait",
-          "sort": 4
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         }
       ]
     }
@@ -35853,6 +36094,7 @@
     "difficulty": "困难",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "无冕者之影",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2017-01-24",
@@ -35862,6 +36104,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "瓦莉拉 萨古纳尔，潜行者，潜行者，血精灵，魔兽世界，军团再临，炉石传说",
     "description": "一位擅长终结对手的潜行刺客。",
     "descriptors": [
       "Ganker",
@@ -36373,6 +36616,7 @@
     "difficulty": "简单",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "猎魔人",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -36382,6 +36626,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "维拉 猎魔人，奈非天，暗黑破坏神，夺魂之镰",
     "description": "一位拥有高机动性，并能制造大量持续伤害的全能刺客。",
     "descriptors": [
       "EnergyImportant",
@@ -36847,6 +37092,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "联盟的至高王",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2016-11-15",
@@ -36856,6 +37102,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "瓦里安 乌瑞恩，洛戈什，暴风城，人类，联盟，魔兽世界，巫妖王之怒，大地的裂变，熊猫人之谜，德拉诺之王，军团再临",
     "description": "一位能够为队友承担伤害，或对敌人制造大量伤害的混合型英雄。",
     "descriptors": [
       "EnergyImportant",
@@ -37327,6 +37574,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "大检察官",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2018-08-07",
@@ -37336,6 +37584,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "萨莉 牧师，人类，WoW，魔兽世界，熊猫人之谜，MoP，军团",
     "description": "一位全面的治疗者，可通过惩击敌人为盟友恢复生命。",
     "descriptors": [
       "AllyHealer",
@@ -37789,6 +38038,7 @@
     "difficulty": "中等",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "神秘的死灵法师",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2016-03-01",
@@ -37798,6 +38048,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "祖尔，死灵法师 死灵法师，人类，暗黑破坏神",
     "description": "一位能够轻易推进多条兵线的召唤者。",
     "descriptors": [
       "EnergyImportant",
@@ -38258,6 +38509,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "希望之光",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2018-06-12",
@@ -38267,6 +38519,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "伊蕊尔，尹瑞尔 WoW, 德拉诺，德拉诺之王，魔兽，联盟，德莱尼，圣骑士，争霸艾泽拉斯",
     "description": "一位身手稳健的近战型坦克英雄。她的各种重量级技能若是施放时机越合理并且投入越多，其收效就越大。",
     "descriptors": [
       "BodyBlocker",
@@ -38713,6 +38966,7 @@
     "difficulty": "中等",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "虫群之母",
     "innerRadius": 0.9375,
     "radius": 1.125,
     "releaseDate": "2014-06-25",
@@ -38722,6 +38976,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "扎加拉 虫母，虫后，异虫，虫群之心，星际争霸",
     "description": "一位能够提供大范围战场视野的召唤者。",
     "descriptors": [
       "EnergyImportant",
@@ -39171,6 +39426,7 @@
     "difficulty": "简单",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "俄罗斯卫士",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2016-09-27",
@@ -39180,6 +39436,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "查莉娅 亚历山德拉，人类，守望先锋",
     "description": "一位能够保护高输出盟友，并擅长吸收爆发伤害的斗士。",
     "descriptors": [
       "ChanneledAutoAttacker",
@@ -39697,6 +39954,7 @@
     "difficulty": "困难",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "黑暗教长",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -39706,6 +39964,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "泽拉图 黑暗圣堂武士，黑暗教长，星灵，虫群之心，星际争霸，母巢之战，虚空之遗， 自由之翼",
     "description": "一位能够在敌人中进退自如的潜行刺客。",
     "descriptors": [
       "EnergyImportant",
@@ -40162,6 +40421,7 @@
     "difficulty": "中等",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "阿曼尼督军",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2017-01-04",
@@ -40171,6 +40431,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "祖尔金 掷斧者，巨魔，部落，魔兽争霸，黑暗之潮，魔兽世界，燃烧的远征",
     "description": "一位生命值越低伤害就越高的物理伤害刺客。",
     "descriptors": [
       "EnergyImportant",
