@@ -10,6 +10,13 @@
   "type": "Melee",
   "releaseDate": "2018-04-24",
   "releasePatch": "2.32.0.64455",
+  "tags": [
+    "AllyHealer",
+    "EnergyImportant",
+    "Helper",
+    "RoleSupport",
+    "SelfHealer"
+  ],
   "abilities": {
     "Deckard": [
       {
@@ -266,7 +273,10 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 60,
-        "abilityId": "Deckard|Active"
+        "abilityId": "Deckard|D1",
+        "abilityLinks": [
+          "Deckard|D1"
+        ]
       }
     ],
     "16": [
@@ -291,7 +301,10 @@
         "icon": "storm_ui_icon_deckard_study_time.png",
         "type": "Trait",
         "sort": 2,
-        "abilityId": "Deckard|Trait"
+        "abilityId": "Deckard|D1",
+        "abilityLinks": [
+          "Deckard|D1"
+        ]
       },
       {
         "tooltipId": "DeckardHoradricStaff",

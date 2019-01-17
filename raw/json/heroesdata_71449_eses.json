@@ -51,6 +51,7 @@
     "difficulty": "Muy difícil",
     "franchise": "Starcraft",
     "gender": "Neutral",
+    "title": "Maestro de evolución",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -60,6 +61,7 @@
     "rarity": "Legendary",
     "mountLinkId": "AbathurDeepTunnel",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Abathur Zerg Enjambre abathur HotS Heart of the Swarm StarCraft II 2 SC2 Star2 Starcraft2 SC gusano",
     "description": "Un héroe único que puede manipular la batalla desde cualquier punto del mapa.",
     "descriptors": [
       "Ganker",
@@ -640,6 +642,7 @@
     "difficulty": "Difícil",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Gran Señor de los tal'darim",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2016-09-13",
@@ -649,6 +652,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Alarak Protoss ascendiente SC SC2 StarCraft Star2 Starcraft2 II 2 Legacy of the Void LotV Operación Sigilo OS",
     "description": "Un asesino que utiliza combinaciones de habilidades, puede desplazar a los enemigos y castigar los errores.",
     "descriptors": [
       "EnergyImportant",
@@ -1102,6 +1106,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "La Protectora",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2017-11-14",
@@ -1111,6 +1116,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Alexstraza Alekstrasza Alekstraza Alextrasza Alextrazsa Alextrasa Warcraft 2 WC2 WoW Cataclysm Wrath of the Lich King WotLK dragona elfa reina de dragones",
     "description": "Una sanadora que comparte su salud con los aliados y que se puede transformar en dragón para potenciar sus habilidades.",
     "descriptors": [
       "AllyHealer",
@@ -1553,6 +1559,12 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "a distancia",
+          "descriptors": [
+            "AllyHealer",
+            "Helper",
+            "Overconfident",
+            "RoleSupport"
+          ],
           "life": {
             "amount": 1787.0,
             "scale": 0.04,
@@ -1636,6 +1648,7 @@
     "difficulty": "Difícil",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "Francotiradora veterana",
     "innerRadius": 0.5625,
     "radius": 0.5625,
     "releaseDate": "2017-09-26",
@@ -1645,6 +1658,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Anna Humana OjodeHorus OW Amari",
     "description": "Una sanadora que usa disparos de habilidad precisos para curar a sus aliados al momento y que puede impedir la curación de sus enemigos.",
     "descriptors": [
       "AllyHealer",
@@ -2114,6 +2128,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Rey Traidor",
     "innerRadius": 0.875,
     "radius": 1.0625,
     "releaseDate": "2014-10-07",
@@ -2123,6 +2138,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Anub'arak Anubarak anubarak Noob Nub No-muerto Señor de la cripta World of WoW Warcraft III 3 War3 WC3 Warcraft3 Frozen Throne FT WotLK Wrath of the Lich King",
     "description": "Un tanque especialmente hábil contra magos.",
     "descriptors": [
       "BodyBlocker",
@@ -2575,6 +2591,7 @@
     "difficulty": "Media",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Jerarca de los daelaam",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2015-10-27",
@@ -2584,6 +2601,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Artanis Protoss Aiur LotV Legacy of the Void StarCraft II 2 SC2 Brood War BW SC 1 SC1 Star2 Starcraft2",
     "description": "Un poderoso agresor que puede resultar letal si el equipo enemigo no tiene manera de detenerlo.",
     "descriptors": [
       "BodyBlocker",
@@ -3070,6 +3088,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "El Rey Exánime",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -3079,6 +3098,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Arthas Rey Exánime Artas LK príncipe Menethil Caballero de la Muerte no-muerto WoW World of Warcraft III 3 War3 WC3 Warcraft3 Reign of Chaos RoC Frozen Throne FT WotLK Wrath of the Lich King Hearthstone HS",
     "description": "Un tanque experto en contrarrestar enemigos de ataque cuerpo a cuerpo gracias a sus efectos de ralentización.",
     "descriptors": [
       "BodyBlocker",
@@ -3521,6 +3541,7 @@
     "difficulty": "Media",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "Arcángel de la Esperanza",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-08-09",
@@ -3530,6 +3551,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Auriel Ángel Arcángel Diablo 3 III D3 Diablo3",
     "description": "Una sanadora que resulta de gran ayuda cuando acompaña a héroes que infligen mucho daño.",
     "descriptors": [
       "AllyHealer",
@@ -3984,6 +4006,7 @@
     "difficulty": "Media",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Señor del Pecado",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2014-10-14",
@@ -3993,6 +4016,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Azmodan Señor demoníaco pecado D3 Diablo3 Diablo 3 III mate",
     "description": "Un invocador que también puede infligir mucho daño a distancia.",
     "descriptors": [
       "EnergyImportant",
@@ -4445,6 +4469,7 @@
     "difficulty": "Media",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Murciélago de fuego veterano",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2018-01-09",
@@ -4454,6 +4479,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Murciélago de fuego Terran Heroes of the Storm",
     "description": "Un tanque a distancia especializado en iniciar peleas e infligir daño de área mediante sus llamas.",
     "descriptors": [
       "BodyBlocker",
@@ -4915,6 +4941,7 @@
     "difficulty": "Difícil",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Dragón feérico",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2014-04-15",
@@ -4924,6 +4951,7 @@
     "rarity": "Epic",
     "mountLinkId": "BrightwingPhaseShift",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Alafeliz BW AF Duende dardo Dragón feérico WoW World of Warcraft Legion Heroes of the Storm",
     "description": "Una heroína que puede teletransportarse hasta sus aliados, lo que resulta muy útil en campos de batalla grandes.",
     "descriptors": [
       "AllyHealer",
@@ -5394,6 +5422,7 @@
     "difficulty": "Media",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "Amazona matriarca de guerra",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-04-04",
@@ -5403,6 +5432,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Amazona Cassia Javazon D2 Diablo 2 II Diablo2 Humana",
     "description": "Una asesina experta en contrarrestar enemigos que concentran su poder en los ataques básicos.",
     "descriptors": [
       "EnergyImportant",
@@ -5663,7 +5693,11 @@
           "shortTooltip": "Activa Evitar para infligir daño.",
           "fullTooltip": "Tras sufrir 500 (+4% por nivel) de daño con Evitar activo, puedes activar Evitar para infligir 210 (+4% por nivel) de daño a los enemigos a tu alrededor.",
           "abilityType": "Trait",
-          "sort": 3
+          "isActive": true,
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "AmazonAvoidance"
+          ]
         }
       ],
       "level10": [
@@ -5838,6 +5872,7 @@
     "difficulty": "Difícil",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Maestro de brebajes legendario",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2014-09-09",
@@ -5847,6 +5882,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneBrew",
+    "searchText": "Chen Shen Cerveza de Trueno Pandaren WoW World of Warcraft WC3 Warcraft3 Warcraft III 3 War3 Frozen Throne FT Mists of Pandaria MoP",
     "description": "Un resistente agresor que destaca si el equipo enemigo carece de movilidad.",
     "descriptors": [
       "BodyBlocker",
@@ -6438,6 +6474,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Jefe del Martillo Crepuscular",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2015-11-17",
@@ -6447,6 +6484,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Cho'gall Chogall gall Ogro bicéfalo dos cabezas War2 Warcraft 2 WC2 Warcraft II 2 Tides of Darkness ToD WoW World of Warcraft Cataclysm Warlords of Draenor WoD Horda",
     "description": "Cho controla el cuerpo de Cho'gall y es la primera cabeza de este héroe bicéfalo.",
     "descriptors": [
       "BodyBlocker",
@@ -6876,6 +6914,7 @@
     "difficulty": "Difícil",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Vigilante del Tiempo",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-05-17",
@@ -6885,6 +6924,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Chronormu Cronormu Bronce dragona WoW World of Warcraft Wrath of the Lich King WotLK Cataclysm Mists of Pandaria MoP Warlords of Draenor WoD",
     "description": "Una maga que inflige grandes oleadas de daño a larga distancia. Requiere el momento y la preparación adecuados.",
     "descriptors": [
       "EnergyImportant",
@@ -7338,6 +7378,7 @@
     "difficulty": "Media",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "El último Horadrim",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2018-04-24",
@@ -7347,6 +7388,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Caín D1 D2 D3 Diablo 1 2 3 I II III Diablo1 Diablo2 Diablo3",
     "description": "Un sanador que lanza ráfagas de curación a sus aliados. Resulta muy útil para preparar el campo de batalla antes de un combate y para obstaculizar a los enemigos con su control de masas.",
     "descriptors": [
       "AllyHealer",
@@ -7688,7 +7730,10 @@
           "fullTooltip": "Activa Fortaleza de los fieles para potenciar tus ataques básicos y los de los héroes aliados cercanos durante 8 s, lo que hace que inflijáis 62 (+4% por nivel) más de daño en un área y os curéis 90 (+4% por nivel) de salud por cada héroe enemigo golpeado. Este efecto solo puede ocurrir una vez por segundo.",
           "abilityType": "Active",
           "isActive": true,
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DeckardFortitudeOfTheFaithful"
+          ]
         }
       ],
       "level16": [
@@ -7715,7 +7760,10 @@
           "shortTooltip": "Los aliados adicionales potencian Fortaleza de los fieles.",
           "fullTooltip": "Si hay al menos 3 héroes aliados cerca de ti, Fortaleza de los fieles otorga 15 más de armadura y aumenta un 50% más el ritmo de recarga del tiempo de reutilización de tus habilidades básicas.",
           "abilityType": "Trait",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DeckardFortitudeOfTheFaithful"
+          ]
         },
         {
           "nameId": "DeckardHoradricStaff",
@@ -7797,6 +7845,7 @@
     "difficulty": "Media",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Líder de manada primigenio",
     "innerRadius": 0.875,
     "radius": 1.0,
     "releaseDate": "2016-03-29",
@@ -7806,6 +7855,7 @@
     "rarity": "Legendary",
     "mountLinkId": "DehakaBrushstalker",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Dehaka Deaka Primigenio zerg SC 2 SC2 Star2 Starcraft2 StarCraft II Heart of the Swarm HotS",
     "description": "Un agresor con una fuerte presencia en todo el área de los mapas, que puede eliminar rápidamente a grupos de esbirros.",
     "descriptors": [
       "BodyBlocker",
@@ -8277,6 +8327,7 @@
     "difficulty": "Media",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Señor del Terror",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2014-03-13",
@@ -8286,6 +8337,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Diablo Señor demoníaco terror D1 D2 D3 Diablo 1 2 3 I II III Diablo1 Diablo2 Diablo3 rojo",
     "description": "Un guerrero de riesgo, que puede devastar al equipo enemigo gracias a su potencial para los combos.",
     "descriptors": [
       "BodyBlocker",
@@ -8741,6 +8793,7 @@
     "difficulty": "Media",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "Piloto de MEKA",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2017-05-16",
@@ -8750,6 +8803,7 @@
     "rarity": "Legendary",
     "mountLinkId": "DVaMechanizedWalker",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Dva Diva Hana Song Overwatch OW humana",
     "description": "Una guerrera dura de pelar que puede anular el daño enemigo para proteger a sus aliados.",
     "descriptors": [
       "BodyBlocker",
@@ -9162,7 +9216,10 @@
           "shortTooltip": "Aumenta tu daño en Modo piloto. Las bajas en las que participas reinician el meca.",
           "fullTooltip": "Aumenta un 50% el daño de los ataques básicos en Modo piloto. Participar en una baja mientras estás en Modo piloto reinicia al instante el tiempo de reutilización de Solicitar meca.",
           "abilityType": "Trait",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DVaPilotPilotMode"
+          ]
         },
         {
           "nameId": "DVaPilotNanoweaveSuit",
@@ -9173,7 +9230,10 @@
           "shortTooltip": "Solicitar meca se carga más rápido y la eyección otorga armadura.",
           "fullTooltip": "Durante 4 s tras saltar del meca, obtienes 50 de armadura y cada ataque básico aumenta un 50% la reducción del tiempo de reutilización de Solicitar meca.",
           "abilityType": "Trait",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DVaPilotPilotMode"
+          ]
         },
         {
           "nameId": "DVaPilotSuppressingFire",
@@ -9184,7 +9244,10 @@
           "shortTooltip": "Los ataques básicos en Modo piloto ralentizan y tienen un mayor alcance.",
           "fullTooltip": "Los ataques básicos en Modo piloto tienen un 20% más de alcance y reducen la velocidad de movimiento de los enemigos un 20% durante 2.5 s.",
           "abilityType": "Trait",
-          "sort": 4
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "DVaPilotPilotMode"
+          ]
         }
       ],
       "level20": [
@@ -9257,6 +9320,9 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "a distancia",
+          "descriptors": [
+            "RoleAutoAttacker"
+          ],
           "life": {
             "amount": 1109.0,
             "scale": 0.04,
@@ -9289,6 +9355,17 @@
                 "fullTooltip": "Solicitas un meca nuevo y entras en Modo meca.  Cada ataque básico reduce 0.5 s el tiempo de reutilización.",
                 "abilityType": "E"
               }
+            ],
+            "trait": [
+              {
+                "nameId": "DVaPilotPilotMode",
+                "name": "Modo piloto",
+                "shortTooltipId": "DVaPilotPilotMode",
+                "fullTooltipId": "DVaPilotPilotMode",
+                "icon": "storm_ui_icon_dva_pilotmode.png",
+                "fullTooltip": "Cada ataque básico reduce 0.5 s el tiempo de reutilización de Solicitar meca. En Modo piloto, solo aportas un 50% de la experiencia normal que otorga la muerte de un héroe.",
+                "abilityType": "Trait"
+              }
             ]
           }
         }
@@ -9303,6 +9380,7 @@
     "difficulty": "Fácil",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Dios del rock",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2014-03-13",
@@ -9312,6 +9390,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "E.T.C. Elite Tauren Chieftain ETC etc Level 90 Horda Heroes of the Storm WoW",
     "description": "Un tanque que aporta beneficios a su equipo.",
     "descriptors": [
       "BodyBlocker",
@@ -9773,6 +9852,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Señor feudal Martillo Salvaje",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -9782,6 +9862,7 @@
     "rarity": "Epic",
     "mountLinkId": "FalstadFlight",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Falstad Jinete de grifos Martillo Salvaje Enano Alianza falstad WoW World of Warcraft Cataclysm BfA Battle for Azeroth",
     "description": "Un asesino que puede volar a cualquier parte del mapa, lo que resulta muy útil en campos de batalla grandes.",
     "descriptors": [
       "EnergyImportant",
@@ -10238,6 +10319,7 @@
     "difficulty": "Media",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Representante de los templarios",
     "innerRadius": 0.9375,
     "radius": 1.0625,
     "releaseDate": "2018-03-27",
@@ -10247,6 +10329,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Fénix Dragón Protoss SC SC1 StarCraft II 2 SC2 Brood War BW",
     "description": "Fénix es un asesino que inflige daño continuo y cuenta con un escudo que se regenera, lo que le permite enfrentarse eficazmente a cualquier adversario.",
     "descriptors": [
       "Escaper",
@@ -10703,11 +10786,13 @@
     "difficulty": "Fácil",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Jefe del Martillo Crepuscular",
     "releaseDate": "2015-11-17",
     "sight": 12.0,
     "speed": 4.3984,
     "type": "a distancia",
     "rarity": "Legendary",
+    "searchText": "Cho Gall Cho'gall Chogall Ogro bicéfalo dos cabezas War2 Warcraft 2 WC2 Warcraft II 2 Tides of Darkness ToD WoW World of Warcraft Cataclysm Warlords of Draenor WoD Horda",
     "description": "Gall es un poderoso mago unido a Cho, y es la segunda cabeza del héroe bicéfalo.",
     "descriptors": [
       "GoalsDisabled",
@@ -11157,6 +11242,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Hijo de Grito Infernal",
     "innerRadius": 0.875,
     "radius": 0.875,
     "releaseDate": "2017-08-08",
@@ -11166,6 +11252,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Garosh WoW orco Jefe de Guerra Mists of Pandaria MoP Warlords of Draenor WoD Burning Crusade BC Hearthstone HS Wrath of the Lich King WotLK Cataclysm Horda",
     "description": "Un tanque de primera línea que se lanza a la batalla para aislar a los oponentes y, así, eliminarlos.",
     "descriptors": [
       "BodyBlocker",
@@ -11643,6 +11730,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Jefe de Trinquete",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -11652,6 +11740,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Gazlowe Manitas Goblin Horda gazlowe WoW World of Warcraft War3 WC3 Warcraft3 III 3 Frozen Throne FT Cataclysm Warlords Draenor WoD BfA Battle for Azeroth",
     "description": "Un invocador que se especializa en controlar áreas clave del campo de batalla.",
     "descriptors": [
       "EnergyImportant",
@@ -12148,6 +12237,7 @@
     "difficulty": "Difícil",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "Ninja cibernético",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-04-25",
@@ -12157,6 +12247,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Humano Cíborg Overwatch OW Robot Japonés Japón Shimada",
     "description": "Un asesino ágil y oportunista que puede destrozar la retaguardia enemiga.",
     "descriptors": [
       "EnergyImportant",
@@ -12632,6 +12723,7 @@
     "difficulty": "Difícil",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Señor de los huargen",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2016-01-12",
@@ -12641,6 +12733,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Cringrís Genn CG GM Huargen Gilneas Alianza lobo WoW World of Warcraft War2 WC2 Warcraft2 Mareas Tenebrosas MT II Cataclysm Legion BfA Battle for Azeroth",
     "description": "Un asesino que inflige mucho daño, desgasta a los enemigos a distancia y se lanza a la yugular.  10 de armadura (en forma de huargen).",
     "descriptors": [
       "EnergyImportant",
@@ -13140,6 +13233,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Oscuridad personificada",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2016-07-12",
@@ -13149,6 +13243,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Gul'dan Guldan Gul dan Orco brujo War1 1 I War2 War3 WC1 WC2 WC3 Warcraft1 Warcraft2 Warcraft3 Warcraft 2 Tides of Darkness ToD II 2 III 3 Reign of Chaos RoC WoW World of Warcraft Burning Crusade BC Warlords of Draenor WoD Legion Horda Hearthstone HS",
     "description": "Un mago que inflige daño continuo y usa su salud como recurso, pero puede robar vida a sus enemigos.",
     "descriptors": [
       "RoleCaster",
@@ -13601,6 +13696,7 @@
     "difficulty": "Media",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "Maestro asesino",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-12-12",
@@ -13610,6 +13706,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Humano Overwatch OW Shimada",
     "description": "Un asesino a distancia especializado en explorar y eliminar enemigos desde lejos.",
     "descriptors": [
       "EnergyImportant",
@@ -14068,6 +14165,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "El Traidor",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -14077,6 +14175,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Illidan Ilidan Tempestira Cazador de demonios DH Elfo de la noche WoW World of Warcraft War3 WC3 Warcraft3 III 3 Reign of Chaos RoC Frozen Throne FT Burning Crusade BC Legion",
     "description": "Un asesino ágil que inflige daño continuo. Es bueno combinarlo con héroes que potencien sus habilidades.",
     "descriptors": [
       "BodyBlocker",
@@ -14515,6 +14614,7 @@
     "difficulty": "Media",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Arcángel del Valor",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2019-01-08",
@@ -14524,6 +14624,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Imperious Impirius Ángel Arcángel Diablo 3 III D3 Diablo3",
     "description": "Un agresor temerario que lidera la carga con gran iniciativa y desata su daño contra un único objetivo.",
     "descriptors": [
       "BodyBlocker",
@@ -14970,6 +15071,7 @@
     "difficulty": "Fácil",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Archimaga",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-12-02",
@@ -14979,6 +15081,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Jaina Valiente Humana Theramore Alianza WoW World of Warcraft War3 WC3 Warcraft3 III Reign of Chaos RoC Frozen Throne FT Burning Crusade BC Wrath Lich King WotLK Cataclysm Mists of Pandaria MoP Warlords Draenor WoD Legion Hearthstone HS Señora del Terror? BfA Battle for Azeroth",
     "description": "Una maga de escarcha que puede ralentizar a todo el equipo enemigo.",
     "descriptors": [
       "EnergyImportant",
@@ -15440,6 +15543,7 @@
     "difficulty": "Media",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "Cruzada de Zakarum",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-06-02",
@@ -15449,6 +15553,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Johanna Johana Joana Joanna Cruzada Nephalem D3 Diablo 3 Diablo3 III Reaper of Souls RoS",
     "description": "Una tanque excelente contra enemigos que infligen ataques básicos, capaz de eliminar rápidamente a grupos de esbirros.",
     "descriptors": [
       "BodyBlocker",
@@ -15884,6 +15989,7 @@
     "difficulty": "Media",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "Junker demoledor",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-10-17",
@@ -15893,6 +15999,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Junker Granadas Explosivos Patapalo Humano Overwatch OW Jamison Fawkes",
     "description": "Un asesino ágil que bombardea al enemigo a distancia y siembra el caos con cepos y minas.",
     "descriptors": [
       "RoleSpecialist",
@@ -16340,6 +16447,7 @@
     "difficulty": "Difícil",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "El Rey Sol",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2015-05-12",
@@ -16349,6 +16457,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Kael'thas Kaelthas KT Príncipe Caminante del Sol Caminasol Mago Elfo de sangre WoW World of Warcraft War3 WC3 Warcraft3 III 3 Frozen Throne FT Burning Crusade BC",
     "description": "Un mago de fuego que castiga a los enemigos que permanecen juntos.",
     "descriptors": [
       "EnergyImportant",
@@ -16802,6 +16911,7 @@
     "difficulty": "Difícil",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Archiexánime de Naxxramas",
     "innerRadius": 0.875,
     "radius": 0.875,
     "releaseDate": "2017-09-05",
@@ -16811,6 +16921,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "KT Kelthuzad Archiexánime de Naxxramas estimado Señor Exánime de las Tierras de la Peste Comandante de la Necrópolis Aterradora Maestro y fundador del Culto de los Malditos Regreso de los malditos antiguo miembro del Consejo de los Seis Creador de Abominaciones Invocador de Archimonde el Corruptor Traidor de la Humanidad Entusiasta de Hearthstone y mayordomo del mismísimo Rey Exánime no-muerto WC3 Reign of Chaos Frozen Throne FT WoW Wrath WotLK",
     "description": "Un mago que inflige un daño explosivo y que puede atrapar a los enemigos y destrozarlos mediante poderosas combinaciones de habilidades.",
     "descriptors": [
       "DeadUpdater",
@@ -17274,6 +17385,7 @@
     "difficulty": "Difícil",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "La Reina de Espadas",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2014-03-13",
@@ -17283,6 +17395,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Kerrigan Karrigan Kerigan Sarah Reina del Enjambre Espadas zerg HotS Heart of the Swarm StarCraft II 2 SC2 Brood War BW LotV Legacy Void Wings Liberty WoL SC 1 SC1 Star2 Starcraft2",
     "description": "Una asesina avezada que utiliza combinaciones de habilidades, lo da todo y se lanza contra el equipo enemigo.",
     "descriptors": [
       "EnergyImportant",
@@ -17726,6 +17839,7 @@
     "difficulty": "Media",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Monje veradani",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2015-08-18",
@@ -17735,6 +17849,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Karazim Monje Nephalem D3 Diablo 3 III Reaper of Souls RoS Diablo3",
     "description": "Un sanador flexible que hace buen equipo con aliados cuerpo a cuerpo a los que les guste lanzarse contra el equipo enemigo.",
     "descriptors": [
       "AllyHealer",
@@ -18207,6 +18322,7 @@
     "difficulty": "Fácil",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "El Rey Esqueleto",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2015-07-21",
@@ -18216,6 +18332,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Leoric Rey Esqueleto Tristán muerto viviente Diablo Diablo1 Diablo3 D1 I 1 D3 III 3",
     "description": "Un agresor que inflige mucho daño contra héroes que tienen mucha salud.",
     "descriptors": [
       "EnergyImportant",
@@ -18701,6 +18818,7 @@
     "difficulty": "Fácil",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Aventurera",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-04-15",
@@ -18710,6 +18828,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Li Li LiLi Pandaren WoW World of Warcraft Mists of Pandaria MoP",
     "description": "Una sanadora capaz de cegar a héroes que infligen ataques básicos.",
     "descriptors": [
       "AllyHealer",
@@ -19157,6 +19276,7 @@
     "difficulty": "Media",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "Maga rebelde",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-02-02",
@@ -19166,6 +19286,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Li-Ming Li Ming LiMing liming Liming LM Leeming Mago Nephalem D3 Diablo 3 Diablo3 III Reaper of Souls RoS",
     "description": "Una maga que inflige grandes oleadas de daño y puede reiniciar sus habilidades al participar en una baja.",
     "descriptors": [
       "EnergyImportant",
@@ -19639,6 +19760,7 @@
     "difficulty": "Muy difícil",
     "franchise": "Classic",
     "gender": "Male",
+    "title": "Triple amenaza",
     "innerRadius": 0.75,
     "releaseDate": "2015-02-10",
     "speed": 20.0,
@@ -19646,6 +19768,7 @@
     "rarity": "Legendary",
     "mountLinkId": "LostVikingsGoGoGo",
     "hearthLinkId": "Hearthstone",
+    "searchText": "The Lost Vikings TLV LV TheLostVikings Lost Vikings LostVikings Olaf Eric Baleog 2 LV2 Classic",
     "description": "¡Tres héroes en uno! Puedes ganar experiencia desde varios puntos.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_lostvikings.png",
@@ -19750,13 +19873,13 @@
       ],
       "trait": [
         {
-          "nameId": "LostVikingsVikingHoardHeroSelect",
+          "nameId": "LostVikingsVikingHoardTalent",
           "name": "Såqueø vikingø",
-          "shortTooltipId": "LostVikingsVikingHoardHeroSelect",
-          "fullTooltipId": "LostVikingsVikingHoardHeroSelect",
+          "shortTooltipId": "LostVikingsVikingHoardTalent",
+          "fullTooltipId": "LostVikingsVikingHoardTalent",
           "icon": "storm_ui_icon_LostVikings_VikingHoard.png",
           "shortTooltip": "Recoge esferas de regeneración para aumentar la regeneración de salud.",
-          "fullTooltip": "Reunir esferas de regeneración con un vikingo aumenta permanentemente la regeneración de salud 0.5 por segundo.",
+          "fullTooltip": "Reunir esferas de regeneración con un vikingo aumenta permanentemente la regeneración de salud 0.5 por segundo.  Bonificación actual: 0 de regeneración por segundo.",
           "abilityType": "Trait"
         }
       ],
@@ -20148,7 +20271,10 @@
           "shortTooltip": "Reduce el tiempo de muerte de todos los vikingos.",
           "fullTooltip": "Reduce el tiempo de muerte de los vikingos un 50%.",
           "abilityType": "Trait",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "LostVikingsVikingHoardTalent"
+          ]
         },
         {
           "nameId": "LostVikingsTalentFuryoftheStorm",
@@ -20173,6 +20299,11 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "a distancia",
+          "descriptors": [
+            "Helper",
+            "RoleAutoAttacker",
+            "WaveClearer"
+          ],
           "life": {
             "amount": 1095.0,
             "scale": 0.04,
@@ -20206,6 +20337,11 @@
           "sight": 13.0,
           "speed": 5.0,
           "type": "a distancia",
+          "descriptors": [
+            "Escaper",
+            "Helper",
+            "RoleAutoAttacker"
+          ],
           "life": {
             "amount": 767.0,
             "scale": 0.04,
@@ -20232,6 +20368,11 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "a distancia",
+          "descriptors": [
+            "Helper",
+            "Overconfident",
+            "RoleTank"
+          ],
           "life": {
             "amount": 1424.0,
             "scale": 0.04,
@@ -20259,6 +20400,7 @@
     "difficulty": "Media",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "Médico de combate",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-10-06",
@@ -20268,6 +20410,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Tte. Morales teniente médico TteMorales Terran Heroes of the Storm SC Brood War BW DUT",
     "description": "Una sanadora fuerte y continua que resulta imbatible si los enemigos se olvidan de ella.",
     "descriptors": [
       "AllyHealer",
@@ -20710,6 +20853,7 @@
     "difficulty": "Media",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "DJ que lucha por la libertad",
     "innerRadius": 0.4375,
     "radius": 0.6875,
     "releaseDate": "2017-02-14",
@@ -20719,6 +20863,7 @@
     "rarity": "Legendary",
     "mountLinkId": "LucioSkateMode",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Lúcio Humano Overwatch OW",
     "description": "Un sanador que otorga a su equipo movilidad y ayuda a sus aliados apartando al enemigo.",
     "descriptors": [
       "AllyHealer",
@@ -21217,6 +21362,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Primogénita de Cenarius",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-12-15",
@@ -21226,6 +21372,7 @@
     "rarity": "Epic",
     "mountLinkId": "DryadGallopingGait",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Lunara Dríade Elfa de la noche Cenarius WoW World of Warcraft Legion Heroes of the Storm Hearthstone",
     "description": "Una asesina que puede desgastar a los enemigos a distancia con su veneno.",
     "descriptors": [
       "EnergyImportant",
@@ -21762,6 +21909,7 @@
     "difficulty": "Difícil",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "La Celadora",
     "radius": 0.75,
     "releaseDate": "2018-02-06",
     "sight": 12.0,
@@ -21770,6 +21918,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Cantosombrío Celadora Vigilante Elfa de la noche Alianza WoW World of Warcraft War3 WC3 Warcraft3 III 3 Frozen Throne FT Warlords Draenor WoD Legion Hearthstone HS",
     "description": "Una asesina ágil muy útil contra enemigos agrupados, ya que evita que escapen.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_maiev.png",
@@ -22215,6 +22364,7 @@
     "difficulty": "Fácil",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Archidruida",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -22224,6 +22374,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Malfurion Tempestira Elfo de la noche druida Alianza World of Warcraft War3 WC3 Warcraft3 War III 3 Reign of Chaos RoC Frozen Throne FT Cataclysm Warlords Draenor WoD Legion Hearthstone HS",
     "description": "Un sanador fuerte que puede ayudar a inmovilizar enemigos para asegurar bajas.",
     "descriptors": [
       "AllyHealer",
@@ -22678,6 +22829,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Señor Nathrezim",
     "innerRadius": 0.6875,
     "radius": 0.875,
     "releaseDate": "2018-10-16",
@@ -22687,6 +22839,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Malganis Señor del Terror no-muerto demonio WC3 Reign of Chaos WoW Wrath of the Lich King WotLK Legion",
     "description": "Un tanque autosuficiente que ayuda a los aliados y entorpece a los enemigos.",
     "descriptors": [
       "BodyBlocker",
@@ -23149,6 +23302,7 @@
     "difficulty": "Media",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Aspecto de la Muerte",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-06-13",
@@ -23158,6 +23312,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Malthel Malthiel Ángel Arcángel Diablo 3 D3 Reaper of Souls RoS",
     "description": "Un asesino que marca a sus enemigos y pulveriza a objetivos con mucha salud.",
     "descriptors": [
       "BodyBlocker",
@@ -23619,6 +23774,7 @@
     "difficulty": "Muy difícil",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "El Último Guardián",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2016-06-14",
@@ -23628,6 +23784,7 @@
     "rarity": "Legendary",
     "mountLinkId": "MedivhTransformRaven",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Medivh Profeta War1 I WC1 Warcraft1 Warcraft3 Warcraft III WC3 War3 3 Reign of Chaos RoC WoW World of Warcraft Burning Crusade BC Hearthstone HS",
     "description": "Un héroe de apoyo que puede evitar grandes oleadas de daño y permite a sus aliados teletransportarse.",
     "descriptors": [
       "EnergyImportant",
@@ -24108,6 +24265,7 @@
     "difficulty": "Media",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Señor del Odio",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2018-09-04",
@@ -24117,6 +24275,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Demonio D2 Diablo 2 II Diablo2",
     "description": "Un asesino sólido muy eficaz contra grupos de enemigos.",
     "descriptors": [
       "EnergyImportant",
@@ -24352,7 +24511,10 @@
           "shortTooltip": "Sombra de Mefisto otorga armadura.",
           "fullTooltip": "Sombra de Mefisto otorga 20 de armadura mientras esté activa y durante 2.5 s después de expirar.",
           "abilityType": "E",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "MephistoShadeOfMephisto"
+          ]
         },
         {
           "nameId": "MephistoShadeOfMephistoFrostStorm",
@@ -24363,7 +24525,10 @@
           "shortTooltip": "Sombra de Mefisto ralentiza a los enemigos.",
           "fullTooltip": "Los enemigos cerca de la Sombra de Mefisto quedan ralentizados un 50% durante 2 s. Golpear a enemigos con Misil calavera mientras Sombra de Mefisto está activa aumenta su ralentización a un 50%.",
           "abilityType": "E",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "MephistoShadeOfMephisto"
+          ]
         },
         {
           "nameId": "MephistoShadeOfMephistoTrickery",
@@ -24374,7 +24539,10 @@
           "shortTooltip": "Sombra de Mefisto otorga velocidad de movimiento.",
           "fullTooltip": "Sombra de Mefisto otorga un 20% de velocidad de movimiento mientras está activa y durante 2.5 s tras finalizar. Cuando Sombra de Mefisto expira, se eliminan todos los efectos de ralentización e inmovilización que sufras.",
           "abilityType": "E",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "MephistoShadeOfMephisto"
+          ]
         }
       ],
       "level10": [
@@ -24567,6 +24735,7 @@
     "difficulty": "Fácil",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Rey de la montaña",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -24576,6 +24745,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Muradin Barbabronce Enano Alianza Warcraft III War3 WC3 Warcraft3 3 Reign of Chaos RoC  WoW Wrath of the Lich King WotLK Cataclysm",
     "description": "Un robusto tanque que puede resultar útil en multitud de situaciones.",
     "descriptors": [
       "BodyBlocker",
@@ -25032,6 +25202,7 @@
     "difficulty": "Difícil",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Bebé múrloc",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-05-22",
@@ -25041,6 +25212,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Murky Múrloc WoW Legion Heroes of the Storm",
     "description": "No cuenta como un héroe completo, pero Murky puede colocar un huevo para revivir y volver rápidamente al combate.",
     "descriptors": [
       "BodyBlocker",
@@ -25482,6 +25654,7 @@
     "difficulty": "Media",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Médico brujo herético",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2014-03-13",
@@ -25491,6 +25664,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Nazeebo Médico Brujo Médicobrujo Nephalem D3 Diablo 3 Diablo3 III Reaper of Souls RoS WD MB",
     "description": "Un médico brujo que inflige daño continuo y obtiene poder al matar a esbirros enemigos.",
     "descriptors": [
       "EnergyImportant",
@@ -25955,6 +26129,7 @@
     "difficulty": "Media",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "Fantasma del Dominio",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -25964,6 +26139,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Nova Terra Fantasma November Terran SC2 StarCraft 2 II Wings of Liberty WoL Heart of the Swarm HotS SC Covert Ops CO Star2 Starcraft2",
     "description": "Una maga que inflige grandes oleadas de daño y puede tender emboscadas a los enemigos estando en sigilo.",
     "descriptors": [
       "EnergyImportant",
@@ -26446,6 +26622,7 @@
     "difficulty": "Media",
     "franchise": "Nexus",
     "gender": "Female",
+    "title": "Heredera de la Corte del Cuervo",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2018-11-13",
@@ -26455,6 +26632,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Orphea Orfia Orphia ",
     "description": "Una asesina a distancia con gran movilidad que usa habilidades para potenciar sus ataques.",
     "descriptors": [
       "Escaper",
@@ -26790,7 +26968,10 @@
           "fullTooltip": "Actívalo para infligir 150 (+4% por nivel) de daño a todos los enemigos cercanos después de 2 s. Por cada héroe golpeado, te curas 182 (+4% por nivel) de salud y obtienes 1 de caos.",
           "abilityType": "Trait",
           "isActive": true,
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "OrpheaOverflowingChaos"
+          ]
         }
       ],
       "level16": [
@@ -26910,6 +27091,7 @@
     "difficulty": "Difícil",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Sonda curiosa",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-03-14",
@@ -26919,6 +27101,7 @@
     "rarity": "Legendary",
     "mountLinkId": "ProbiusWorkerRush",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Sonda Protoss SC SC1 StarCraft II 2 SC2 Star2 Starcraft2",
     "description": "Un invocador que inflige mucho daño. Debe permanecer cerca de pilones para ser efectivo.",
     "descriptors": [
       "RoleSpecialist",
@@ -27399,6 +27582,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "El Señor del Fuego",
     "innerRadius": 0.875,
     "radius": 1.0,
     "releaseDate": "2016-12-14",
@@ -27408,6 +27592,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Ragnaros Señor del Fuego Núcleo de Magma NM Elemental WoW World of Warcraft Cataclysm Hearthstone HS",
     "description": "Un asesino que puede anular el avance enemigo contra sus fuertes y fortalezas.",
     "descriptors": [
       "EnergyImportant",
@@ -27926,6 +28111,7 @@
     "difficulty": "Fácil",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Comandante renegado",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -27935,6 +28121,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Raynor General James Jimmy Comandante Soldado Terran HotS Heart of the Swarm SC SC1 StarCraft II 2 SC2 Brood War BW LotV Legacy Void Wings Liberty WoL Star2 Starcraft2",
     "description": "Un asesino que inflige daño de ataque básico y puede mantener alejados a los enemigos.",
     "descriptors": [
       "EnergyImportant",
@@ -28394,6 +28581,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Chamán del Anillo de la Tierra",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-07-22",
@@ -28403,6 +28591,7 @@
     "rarity": "Epic",
     "mountLinkId": "RehgarGhostWolfActivate",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Rehgar Regar Furiatierra Orco chamán Horda WoW World of Warcraft Legion",
     "description": "Un sanador muy completo que hace buen equipo con aliados cuerpo a cuerpo.",
     "descriptors": [
       "AllyHealer",
@@ -28888,6 +29077,7 @@
     "difficulty": "Difícil",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Campeón de la Horda",
     "innerRadius": 0.875,
     "radius": 0.875,
     "releaseDate": "2015-09-08",
@@ -28897,6 +29087,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Rexxar Rexar Misha Jefe Maestro de bestias Cazador Semiorco semiogro Horda WoW World of Warcraft War3 WC3 Warcraft3 III Frozen Throne FT Burning Crusade BC Warlords Draenor WoD Legion Hearthstone HS BfA Battle for Azeroth",
     "description": "Un agresor que, junto a su osa Misha, controla bien las zonas de los campos de batalla.",
     "descriptors": [
       "EnergyImportant",
@@ -29368,6 +29559,7 @@
     "difficulty": "Difícil",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Maestro de las espadas",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2016-10-18",
@@ -29377,6 +29569,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Samuro Orco maestro de las espadas Horda Warcraft III 3 War3 Warcraft3 WC3 Frozen Throne FT WoW",
     "description": "Un asesino sigiloso experto en capturar campamentos de mercenarios y difícil de matar.",
     "descriptors": [
       "Ganker",
@@ -29821,6 +30014,7 @@
     "difficulty": "Difícil",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "Operadora de tanques de asedio",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2014-03-13",
@@ -29830,6 +30024,7 @@
     "rarity": "Epic",
     "mountLinkId": "SgtHammerThrusters",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Sgto. Martillo sargento SgtoMartillo Sgto Tanque de asedio Terran Heroes of the Storm StarCraft II SC 2 SC2 Legacy of the Void LotV Star2 Starcraft2",
     "description": "Una heroína que inflige mucho daño de ataque básico a gran distancia y que necesita que sus aliados la protejan.",
     "descriptors": [
       "EnergyImportant",
@@ -30292,6 +30487,7 @@
     "difficulty": "Media",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "Bárbara nómada",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -30301,6 +30497,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Sonya Sonia Bárbara Nephalem sonya D3 Diablo 3 Diablo3 III Reaper of Souls RoS",
     "description": "Una agresora experta en capturar campamentos de mercenarios y a la que le gusta lanzarse contra el equipo enemigo.",
     "descriptors": [
       "Ganker",
@@ -30743,6 +30940,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Terror de Villa Oscura",
     "innerRadius": 0.9375,
     "radius": 1.0625,
     "releaseDate": "2014-03-13",
@@ -30752,6 +30950,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Puntos Abominación No-muerto WoW World of Warcraft",
     "description": "Un tanque cuya misión es aislar a héroes enemigos lejanos.",
     "descriptors": [
       "BodyBlocker",
@@ -31217,6 +31416,7 @@
     "difficulty": "Media",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Almirante infestado",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-07-11",
@@ -31226,6 +31426,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Stewkov Starcraft Brood War BW SC2 SC Heart of the Swarm HotS Legacy of the Void LotV Zerg Infested Infesado Terran UED TUD",
     "description": "Un sanador que causa estragos a distancia.",
     "descriptors": [
       "AllyHealer",
@@ -31714,6 +31915,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "La Reina alma en pena",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2015-03-24",
@@ -31723,6 +31925,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Sylvanas Brisaveloz Reina Renegados elfa no-muerta Horda sylvanas WoW World of Warcraft War3 WC3 Warcraft3 III Reign of Chaos RoC Frozen Throne FT Cataclysm Warlords Draenor WoD Legion jefa de guerra BfA Battle for Azeroth",
     "description": "Una especialista que puede anular fuertes y fortalezas enemigas.",
     "descriptors": [
       "EnergyImportant",
@@ -32173,6 +32376,7 @@
     "difficulty": "Media",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Salvador de los templarios",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -32182,6 +32386,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Tassadar Alto templario altotemplario AT HT Protoss Aiur SC StarCraft 1 SC1 Star1 Starcraft1",
     "description": "Un héroe de apoyo que potencia a los héroes que infligen daño y a los que les gusta lanzarse contra el equipo enemigo.",
     "descriptors": [
       "ChanneledAutoAttacker",
@@ -32629,6 +32834,7 @@
     "difficulty": "Media",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Descarnador",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2015-06-30",
@@ -32638,6 +32844,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "El carnicero Elcarnicero Demonio D1 D3 Diablo 1 3 I III Diablo1 Diablo3",
     "description": "Un asesino que empieza lentamente pero inflige un daño extremo tras recoger suficiente carne.",
     "descriptors": [
       "EnergyImportant",
@@ -33070,6 +33277,7 @@
     "difficulty": "Fácil",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Jefe de Guerra de la Horda",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-01-13",
@@ -33079,6 +33287,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Thrall Trall Go'el Goel Jefe de Guerra Chamán orco Horda thrall WoW World of Warcraft War3 WC3 Warcraft3 III 3 Reign of Chaos RoC Frozen Throne FT Burning Crusade BC Wrath Lich King WotLK Cataclysm Mists of Pandaria MoP Legion Hearthstone HS",
     "description": "Un asesino que puede arreglárselas solo en un camino del campo de batalla.",
     "descriptors": [
       "EnergyImportant",
@@ -33536,6 +33745,7 @@
     "difficulty": "Difícil",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "Agente de Overwatch",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-04-19",
@@ -33545,6 +33755,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Tracer Lena Oxton humana Overwatch OW",
     "description": "Una asesina con gran movilidad que ataca a enemigos en apuros y los remata.",
     "descriptors": [
       "Escaper",
@@ -33751,7 +33962,10 @@
           "shortTooltip": "Aumenta las cargas de Traslación.",
           "fullTooltip": "Aumenta las cargas de Traslación en 1, pero también aumenta 2 s el tiempo de reutilización de Traslación.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "TracerBlink"
+          ]
         },
         {
           "nameId": "TracerBulletTime",
@@ -33762,7 +33976,10 @@
           "shortTooltip": "Los ataques básicos reducen el tiempo de reutilización de Traslación.",
           "fullTooltip": "Los ataques básicos reducen el tiempo de reutilización de Traslación 0.15 s.",
           "abilityType": "Q",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "TracerBlink"
+          ]
         },
         {
           "nameId": "TracerSpatialEcho",
@@ -33773,7 +33990,10 @@
           "shortTooltip": "Las bajas en las que participes otorgan cargas de Traslación.",
           "fullTooltip": "Las bajas de héroes en las que participes te otorgan 2 cargas de Traslación.",
           "abilityType": "Q",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "TracerBlink"
+          ]
         }
       ],
       "level10": [
@@ -33956,6 +34176,7 @@
     "difficulty": "Media",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Forajido infame",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-18",
@@ -33965,6 +34186,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Tychus Findlay Soldado Forajido terran soldado tychus SC2 SC 2 II StarCraft Wings of Liberty WoL Star2 Starcraft2",
     "description": "Un asesino que pulveriza a enemigos con mucha salud.",
     "descriptors": [
       "EnergyImportant",
@@ -34464,6 +34686,7 @@
     "difficulty": "Media",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Arcángel de la Justicia",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -34473,6 +34696,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Tyrael Ángel Justicia D2 D3 Diablo2 Diablo3 Diablo 2 3 III Lord of Destruction LoD Reaper of Souls RoS",
     "description": "Un tanque que puede combinarse muy bien con aliados a los que les guste lanzarse contra el equipo enemigo.",
     "descriptors": [
       "BodyBlocker",
@@ -34916,6 +35140,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Suma sacerdotisa de Elune",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -34925,6 +35150,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Tyrande Susurravientos Sacerdotisa Elfa de la noche Suma sacerdotisa Elune cazadora Alianza WoW World of Warcraft War3 WC3 Warcraft3 III 3 Reign of Chaos RoC Frozen Throne FT Cataclysm Mists of Pandaria MoP Warlords Draenor WoD Legion Hearthstone HS",
     "description": "Una heroína de apoyo que ayuda a sus aliados a paralizar y acabar con sus enemigos.",
     "descriptors": [
       "AllyHealer",
@@ -35388,6 +35614,7 @@
     "difficulty": "Fácil",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "El Iluminado",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -35397,6 +35624,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Uther Paladín Iluminado Humano Alianza uther WoW War2 WC2 Warcraft2 2 II Tides of Darkness ToD World of Warcraft War3 WC3 Warcraft3 III 3 Reign of Chaos RoC Hearthstone HS",
     "description": "Un sanador que puede repeler grandes oleadas de daño.",
     "descriptors": [
       "AllyHealer",
@@ -35509,13 +35737,14 @@
       ],
       "trait": [
         {
-          "nameId": "UtherDevotionEternalVanguardShop",
-          "name": "Devoción, Vanguardia eterna",
-          "shortTooltipId": "UtherDevotionEternalVanguardShop",
-          "fullTooltipId": "UtherDevotionEternalVanguardShop",
+          "nameId": "UtherEternalDevotion",
+          "name": "Devoción",
+          "shortTooltipId": "UtherEternalDevotion",
+          "fullTooltipId": "UtherEternalDevotion",
           "icon": "storm_ui_icon_uther_eternaldevotion.png",
+          "cooldownTooltip": "Tiempo de reutilización: 180 s",
           "shortTooltip": "Tu curación otorga armadura y, cuando mueres, tu espíritu persiste.",
-          "fullTooltip": "Los héroes aliados que se ven afectados por tus habilidades básicas obtienen 25 de armadura durante 2 s. Este efecto no se acumula consigo mismo.  Al morir, te conviertes en un espíritu invulnerable durante un máximo de 8 s. En forma de espíritu, puedes curar a los aliados con Destello de Luz.",
+          "fullTooltip": "Los héroes aliados que se ven afectados por tus habilidades básicas obtienen 25 de armadura durante 2 s. Este efecto no se acumula consigo mismo.  Vanguardia eterna  Al morir, te conviertes en un espíritu invulnerable durante un máximo de 8 s. En forma de espíritu, puedes curar a los aliados con Destello de Luz.",
           "abilityType": "Trait"
         }
       ]
@@ -35625,7 +35854,10 @@
           "shortTooltip": "Infliges daño a los enemigos cercanos.",
           "fullTooltip": "Infliges 13 (+4% por nivel) de daño por segundo a los enemigos cercanos. Los ataques básicos contra los héroes enemigos aumentan un 20% dicho daño durante 3 s. Se puede acumular hasta un máximo de 3 veces.",
           "abilityType": "Passive",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         }
       ],
       "level7": [
@@ -35652,7 +35884,10 @@
           "shortTooltip": "Aumenta la armadura de Devoción en objetivos que sufren efectos de pérdida de control.",
           "fullTooltip": "Curar a un héroe aturdido, inmovilizado o silenciado aumenta la bonificación a la armadura que recibe de Devoción de 25 a 50.",
           "abilityType": "Trait",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         },
         {
           "nameId": "UtherHandOfProtection",
@@ -35829,7 +36064,10 @@
           "shortTooltip": "Resucitas cuando Vanguardia eterna acaba.",
           "fullTooltip": "Cuando Vanguardia eterna acaba, revives donde se encuentra tu espíritu con un 50% de tu salud máxima.  Este efecto tiene un tiempo de reutilización de 180 s.",
           "abilityType": "Trait",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         },
         {
           "nameId": "UtherEternalDevotionDivineProtection",
@@ -35840,7 +36078,10 @@
           "shortTooltip": "Aumenta la armadura de Devoción.",
           "fullTooltip": "Aplicar Devoción a un héroe que ya tiene Devoción aumenta su armadura a 50.",
           "abilityType": "Trait",
-          "sort": 4
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         }
       ]
     }
@@ -35853,6 +36094,7 @@
     "difficulty": "Difícil",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Sombra de los Descoronados",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2017-01-24",
@@ -35862,6 +36104,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Valera Sanguinar pícara elfa de sangre WoW World of Warcraft Legion Hearthstone HS",
     "description": "Una asesina sigilosa experta en acorralar a sus oponentes.",
     "descriptors": [
       "Ganker",
@@ -36373,6 +36616,7 @@
     "difficulty": "Fácil",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "Cazadora de demonios",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -36382,6 +36626,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Valla Cazador de demonios cazademonios DH Nephalem D3 Diablo 3 III  Diablo3 Reaper of Souls RoS",
     "description": "Una asesina versátil extremadamente ágil y que puede infligir mucho daño continuo.",
     "descriptors": [
       "EnergyImportant",
@@ -36847,6 +37092,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Rey de la Alianza",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2016-11-15",
@@ -36856,6 +37102,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Varian Wrynn Logosh Lo'Gosh Ventormenta humano Alianza WoW World of Warcraft Wrath of the Lich King WotLK Cataclysm Mists of Pandaria MoP Warlords of Draenor WoD Legion",
     "description": "Un héroe multiclase que puede hacer tanto de tanque como de asesino implacable.",
     "descriptors": [
       "EnergyImportant",
@@ -37327,6 +37574,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Alta inquisidora",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2018-08-07",
@@ -37336,6 +37584,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "sally sacerdotisa sacerdote humana WoW World of Warcraft Mists of Pandaria MoP Legion",
     "description": "Una sanadora versátil que cura a sus aliados golpeando a sus enemigos.",
     "descriptors": [
       "AllyHealer",
@@ -37789,6 +38038,7 @@
     "difficulty": "Media",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Nigromante misterioso",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2016-03-01",
@@ -37798,6 +38048,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Xul Xuul Zuul Zul Zool Nigromante Humano D2 Diablo2 Diablo 2 II",
     "description": "Un invocador que puede avanzar por varios caminos con facilidad.",
     "descriptors": [
       "EnergyImportant",
@@ -38258,6 +38509,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Luz de la Esperanza",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2018-06-12",
@@ -38267,6 +38519,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Irel WoW draenei Warlords of Draenor WoD Alianza paladín BfA Battle for Azeroth",
     "description": "Una tanque cuerpo a cuerpo prudente, dotada de unas poderosas habilidades que recompensan la estrategia y la precisión.",
     "descriptors": [
       "BodyBlocker",
@@ -38713,6 +38966,7 @@
     "difficulty": "Media",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "Madre de la prole del Enjambre",
     "innerRadius": 0.9375,
     "radius": 1.125,
     "releaseDate": "2014-06-25",
@@ -38722,6 +38976,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Zagara Madre de la prole Reina Enjambre zerg zagara HotS Heart of the Swarm StarCraft II 2 SC2 SC Star2 Starcraft2",
     "description": "Una invocadora que otorga mayor visión del campo de batalla.",
     "descriptors": [
       "EnergyImportant",
@@ -39171,6 +39426,7 @@
     "difficulty": "Fácil",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "Defensora de Rusia",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2016-09-27",
@@ -39180,6 +39436,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Zarya Aleksandra humana Overwatch OW",
     "description": "Una agresora capaz de proteger a aliados letales e idónea para evitar grandes oleadas de daño instantáneo.",
     "descriptors": [
       "ChanneledAutoAttacker",
@@ -39697,6 +39954,7 @@
     "difficulty": "Difícil",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Prelado tétrico",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -39706,6 +39964,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Zeratul ZT Templario tétrico DT TT Prelado protoss HotS Heart of the Swarm StarCraft II 2 SC2 Brood War BW LotV Legacy Void Wings Liberty WoL SC 1 SC1 Star2 Starcraft2 Star1 Starcraft1",
     "description": "Un asesino sigiloso que puede desplazarse rápidamente entre sus enemigos.",
     "descriptors": [
       "EnergyImportant",
@@ -40162,6 +40421,7 @@
     "difficulty": "Media",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Señor de la guerra de los Amani",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2017-01-04",
@@ -40171,6 +40431,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Zuljin Lanzahachas Trol Horda War2 WC2 Warcraft2 Warcraft II 2 Tides of Darkness ToD World of Warcraft WoW Burning Crusade BC",
     "description": "Un asesino que inflige daño de ataque básico y se potencia al perder salud.",
     "descriptors": [
       "EnergyImportant",

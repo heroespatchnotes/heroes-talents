@@ -51,6 +51,7 @@
     "difficulty": "極難",
     "franchise": "Starcraft",
     "gender": "Neutral",
+    "title": "進化管理者",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -60,6 +61,7 @@
     "rarity": "Legendary",
     "mountLinkId": "AbathurDeepTunnel",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "阿巴瑟 Abathur 蟲族 蟲群 HotS 蟲族之心 星海爭霸II SC2 星海2 星海爭霸2 SC 蛞蝓 Zerg Swarm HotS Heart of the Swarm StarCraft II 2 Star2 Starcraft2 SC slug",
     "description": "能從地圖任意位置操控戰場的特殊英雄。",
     "descriptors": [
       "Ganker",
@@ -640,6 +642,7 @@
     "difficulty": "困難",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "塔達力姆大領主",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2016-09-13",
@@ -649,6 +652,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "亞拉瑞克 Alarak 飛升者 神族 SC SC2 星海爭霸 星海2 星海爭霸2 II 2 虛空之遺 LotV 特務密令 CO",
     "description": "連招型的刺客，能改變敵人位置，並且制裁走位失誤的敵人。",
     "descriptors": [
       "EnergyImportant",
@@ -1102,6 +1106,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "生命守縛者",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2017-11-14",
@@ -1111,6 +1116,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Alexstraza Alekstrasza Alekstraza 雅立 史卓莎 亞立 雅麗 史卓沙 Warcraft 2 WC2 WoW Cataclysm Wrath of the Lich King WotLK dragon elf Queen of Dragons 魔獸爭霸 魔獸 世界 大災變 浩劫與重生 巫妖王之怒 龍 精靈 女王 龍后",
     "description": "她是與盟友共享生命值的治療者，可以變成巨龍，強化自己的技能。",
     "descriptors": [
       "AllyHealer",
@@ -1553,6 +1559,12 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "遠程",
+          "descriptors": [
+            "AllyHealer",
+            "Helper",
+            "Overconfident",
+            "RoleSupport"
+          ],
           "life": {
             "amount": 1787.0,
             "scale": 0.04,
@@ -1636,6 +1648,7 @@
     "difficulty": "困難",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "狙擊老手",
     "innerRadius": 0.5625,
     "radius": 0.5625,
     "releaseDate": "2017-09-26",
@@ -1645,6 +1658,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Anna 安那 Human EyeOfHorus OW Amari 人類 荷魯斯之眼 鬥陣特攻 阿瑪利",
     "description": "她是治療爆發力強的英雄，擅長使用精準的射擊技能治療盟友，並且阻止敵人獲得治療。",
     "descriptors": [
       "AllyHealer",
@@ -2114,6 +2128,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "逆王",
     "innerRadius": 0.875,
     "radius": 1.0625,
     "releaseDate": "2014-10-07",
@@ -2123,6 +2138,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "阿努巴拉克 Anub'arak Anubarak Noob Nub 不死族 地穴領主 努巴 努 魔獸世界 魔獸爭霸III 3 魔獸3 WC3 魔獸爭霸3 寒冰霸權 FT WotLF 巫妖王之怒",
     "description": "擅長對抗法師的肉盾型戰士。",
     "descriptors": [
       "BodyBlocker",
@@ -2575,6 +2591,7 @@
     "difficulty": "普通",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "達蘭的大主教",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2015-10-27",
@@ -2584,6 +2601,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "亞坦尼斯 Artanis 神族 艾爾 LotV 虛空之遺 星海爭霸II SC2 怒火燎原 BW SC1 星海2 星海爭霸2  星海1",
     "description": "能承受許多傷害的鬥士，若敵人無法克制他，可對敵隊造成大量傷害。",
     "descriptors": [
       "BodyBlocker",
@@ -3070,6 +3088,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "巫妖王",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -3079,6 +3098,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "阿薩斯 巫妖 王 Arthas Lich King Artas 巫妖王 米奈希爾 王子 死亡騎士 不死族 WoW 魔獸世界 魔獸爭霸III 3 魔獸3 WC3 魔獸爭霸3 混亂之治 RoC 寒冰霸權 FT WotLk 巫妖王之怒 爐石 LK Prince Menethil Death Knight Undead WoW World of Warcraft III 3 War3 Warcraft3 Reign of Chaos Frozen Throne Wrath of the Lich King Hearthstone HS",
     "description": "能有效對抗近戰物理攻擊者，並且使其緩速的肉盾型戰士。",
     "descriptors": [
       "BodyBlocker",
@@ -3521,6 +3541,7 @@
     "difficulty": "普通",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "望天使",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-08-09",
@@ -3530,6 +3551,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "奧莉爾 Ariel 天使 大天使 暗黑破壞神III 暗黑III 暗黑3  D3 Angel Archangel Diablo 3 III Diablo3",
     "description": "與高傷害型角色搭配能發揮絕佳能力的治療者。",
     "descriptors": [
       "AllyHealer",
@@ -3984,6 +4006,7 @@
     "difficulty": "普通",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "罪惡之王",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2014-10-14",
@@ -3993,6 +4016,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "阿茲莫丹 Azmodan 惡魔之王 罪惡之王 D3 暗黑破壞神3 暗黑破壞神 3 III 灌籃 Demon Lord Sin Diablo3 Diablo dunk",
     "description": "能從遠處造成大量傷害的召喚者。",
     "descriptors": [
       "EnergyImportant",
@@ -4445,6 +4469,7 @@
     "difficulty": "普通",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "身經百戰的火焰兵",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2018-01-09",
@@ -4454,6 +4479,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Firebat 火焰兵 Terran Heroes of the Storm 暴雪 英霸 人類",
     "description": "遠程肉盾型戰士，擅長主動開啟戰端，利用火焰造成範圍傷害。",
     "descriptors": [
       "BodyBlocker",
@@ -4915,6 +4941,7 @@
     "difficulty": "困難",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "精靈龍",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2014-04-15",
@@ -4924,6 +4951,7 @@
     "rarity": "Epic",
     "mountLinkId": "BrightwingPhaseShift",
     "hearthLinkId": "Hearthstone",
+    "searchText": "亮翼 Brightwing BW 精靈龍 精龍 精靈 龍 WoW 魔獸世界 軍臨天下 暴雪英霸 Sprite Darter Faerie Dragon World of Warcraft Legion Heroes of the Storm",
     "description": "能傳送至隊友身邊的治療者，在大型戰場的表現相當出色。",
     "descriptors": [
       "AllyHealer",
@@ -5394,6 +5422,7 @@
     "difficulty": "普通",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "亞馬遜戰爭仕女",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-04-04",
@@ -5403,6 +5432,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "卡西雅 亞馬遜 Casia Amazon 標槍亞馬遜 暗黑2 暗黑破壞神2 II 暗黑II 人類 Javazon D2 Diablo 2 II Diablo2 Human",
     "description": "她是刺客，擅長對付以物理攻擊為主的對手。",
     "descriptors": [
       "EnergyImportant",
@@ -5663,7 +5693,11 @@
           "shortTooltip": "啟動迴避，對敵人造成傷害",
           "fullTooltip": "在迴避的作用期間內受到500 (每級 +4%)點傷害後，卡西雅可啟動迴避，對附近敵人造成210 (每級 +4%)點傷害。",
           "abilityType": "Trait",
-          "sort": 3
+          "isActive": true,
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "AmazonAvoidance"
+          ]
         }
       ],
       "level10": [
@@ -5838,6 +5872,7 @@
     "difficulty": "困難",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "傳奇釀酒大師",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2014-09-09",
@@ -5847,6 +5882,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneBrew",
+    "searchText": "老陳 陳 Chen Shen 風暴烈酒 熊貓人 WoW 魔獸世界 WC3 魔獸爭霸3 魔獸爭霸III 3 魔獸3 寒冰霸權 FT 潘達利亞之謎 MoP Stormstout Pandaren World of Warcraft Warcraft3 Warcraft III War3 Frozen Throne Mists of Pandaria",
     "description": "能力強大的鬥士，面對缺乏機動性的敵方隊伍時能夠操控戰局。",
     "descriptors": [
       "BodyBlocker",
@@ -6438,6 +6474,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "暮光之鎚的酋長",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2015-11-17",
@@ -6447,6 +6484,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "丘 加利 丘加利 Cho'gall Chogall gall 巨魔 雙頭 兩顆 頭 魔獸2 魔獸爭霸2 黑暗之潮 魔獸世界 浩劫與重生 德拉諾之霸 部落 Ogre Twoheaded Two Headed Two-headed War2 Warcraft2 WC2 Warcraft II 2 Tides of Darkness ToD WoW World of Warcraft Cataclysm Warlords of Draenor WoD Horde",
     "description": "雙頭巨魔的其中一顆腦袋。丘負責控制丘加利的身體。",
     "descriptors": [
       "BodyBlocker",
@@ -6876,6 +6914,7 @@
     "difficulty": "困難",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "時光守護者",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-05-17",
@@ -6885,6 +6924,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "克羅諾穆 Chronormu 青銅 龍 WoW 魔獸世界 巫妖王之怒 WotLK 浩劫與重生 潘達利亞之謎 MoP 德拉諾之霸 WoD Bronze Dragon World of Warcraft Wrath of the Lich King Cataclysm Mists of Pandaria Warlords of Draenor",
     "description": "遠程爆發型的法師，對時機掌握和陷阱設置的技巧有一定要求。",
     "descriptors": [
       "EnergyImportant",
@@ -7338,6 +7378,7 @@
     "difficulty": "普通",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "赫拉迪姆的最後一員",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2018-04-24",
@@ -7347,6 +7388,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "凱恩 Cain D1 D2 D3 Diablo 1 2 3 I II III Diablo1 Diablo2 Diablo3 暗黑 破壞神",
     "description": "治療爆發力強的英雄，擅長在戰場上為隊伍做好開戰前的準備，並且擁有癱瘓敵人的控場技能。",
     "descriptors": [
       "AllyHealer",
@@ -7688,7 +7730,10 @@
           "fullTooltip": "啟動「結伴同行」會強化附近友方英雄的基本攻擊，持續8秒，使其基本攻擊可造成擴散傷害，並且傷害提高62 (每級 +4%)點，同時每擊中一名敵方英雄可恢復90 (每級 +4%)點生命值。此效果每秒只能觸發一次。",
           "abilityType": "Active",
           "isActive": true,
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DeckardFortitudeOfTheFaithful"
+          ]
         }
       ],
       "level16": [
@@ -7715,7 +7760,10 @@
           "shortTooltip": "額外的盟友可強化結伴同行的效果",
           "fullTooltip": "若附近至少有3名友方英雄，結伴同行可額外賦予15點護甲，並且使凱恩的基本技能冷卻速度額外提高50%。",
           "abilityType": "Trait",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DeckardFortitudeOfTheFaithful"
+          ]
         },
         {
           "nameId": "DeckardHoradricStaff",
@@ -7797,6 +7845,7 @@
     "difficulty": "普通",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "原生族群領袖",
     "innerRadius": 0.875,
     "radius": 1.0,
     "releaseDate": "2016-03-29",
@@ -7806,6 +7855,7 @@
     "rarity": "Legendary",
     "mountLinkId": "DehakaBrushstalker",
     "hearthLinkId": "Hearthstone",
+    "searchText": "德哈卡 Dahaka Deaka 原生 蟲族 SC 2 SC2 星海2 星海爭霸2 星海爭霸 II 蟲族之心 HotS Primal Zerg Star2 Starcraft2 StarCraft Heart of the Swarm",
     "description": "力量強大，擁有全場機動能力，並且能有效解決成群小兵的鬥士。",
     "descriptors": [
       "BodyBlocker",
@@ -8277,6 +8327,7 @@
     "difficulty": "普通",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "恐懼之王",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2014-03-13",
@@ -8286,6 +8337,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "迪亞布羅 Diablo 惡魔 恐懼之王 D1 D2 D3 暗黑破壞神 1 2 3 I II III 暗黑破壞神1 暗黑破壞神2 暗黑破壞神3 紅 Demon Lord Terror Diablo Diablo1 Diablo2 Diablo3 red",
     "description": "強攻的肉盾型戰士，可以用一連串毀滅性技能壓制敵方隊伍。",
     "descriptors": [
       "BodyBlocker",
@@ -8741,6 +8793,7 @@
     "difficulty": "普通",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "機甲駕駛員",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2017-05-16",
@@ -8750,6 +8803,7 @@
     "rarity": "Legendary",
     "mountLinkId": "DVaMechanizedWalker",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Dva Diva D.Va Hana Song Overwatch OW Human 宋 荷娜 鬥陣 特攻 人類",
     "description": "難以擊殺的鬥士型英雄，擅長擊退隊友身邊的敵人，還善於干擾敵方攻勢。",
     "descriptors": [
       "BodyBlocker",
@@ -9162,7 +9216,10 @@
           "shortTooltip": "駕駛員的傷害提高，並且參與擊殺敵方英雄可重置空投機甲",
           "fullTooltip": "駕駛員模式的基本攻擊傷害提高50%，並且參與擊殺敵方英雄後，會立即重置空投機甲的冷卻時間。",
           "abilityType": "Trait",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DVaPilotPilotMode"
+          ]
         },
         {
           "nameId": "DVaPilotNanoweaveSuit",
@@ -9173,7 +9230,10 @@
           "shortTooltip": "彈射脫離可獲得護甲，並且能更快使用空投機甲",
           "fullTooltip": "彈射脫離機甲後的4秒內，D.Va可獲得50點護甲，並且基本攻擊降低空投機甲冷卻時間的效果額外提高50%。",
           "abilityType": "Trait",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DVaPilotPilotMode"
+          ]
         },
         {
           "nameId": "DVaPilotSuppressingFire",
@@ -9184,7 +9244,10 @@
           "shortTooltip": "駕駛員的基本攻擊距離提高，並且會使敵人緩速",
           "fullTooltip": "駕駛員模式的基本攻擊距離提高20%，並且會使敵人的移動速度降低20%，持續2.5秒。",
           "abilityType": "Trait",
-          "sort": 4
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "DVaPilotPilotMode"
+          ]
         }
       ],
       "level20": [
@@ -9257,6 +9320,9 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "遠程",
+          "descriptors": [
+            "RoleAutoAttacker"
+          ],
           "life": {
             "amount": 1109.0,
             "scale": 0.04,
@@ -9289,6 +9355,17 @@
                 "fullTooltip": "呼叫一台新機甲，並且進入機甲模式。  每次基本攻擊可使此技能的冷卻時間降低0.5。",
                 "abilityType": "E"
               }
+            ],
+            "trait": [
+              {
+                "nameId": "DVaPilotPilotMode",
+                "name": "駕駛員模式",
+                "shortTooltipId": "DVaPilotPilotMode",
+                "fullTooltipId": "DVaPilotPilotMode",
+                "icon": "storm_ui_icon_dva_pilotmode.png",
+                "fullTooltip": "基本攻擊可使空投機甲的冷卻時間降低0.5秒。駕駛員模式的D.Va死亡時給予的經驗值只有一般英雄的50%。",
+                "abilityType": "Trait"
+              }
             ]
           }
         }
@@ -9303,6 +9380,7 @@
     "difficulty": "簡單",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "搖滾之神",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2014-03-13",
@@ -9312,6 +9390,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "精英牛頭大佬 精英 牛頭 大佬 酋長 E.T.C. Elite Tauren Chieftain ETC etc 等級 90 90等 部落 暴雪英霸 魔獸世界 Level 90 Horde Heroes of the Storm WoW",
     "description": "用途廣泛的肉盾型戰士，擅長支援其他盟友。",
     "descriptors": [
       "BodyBlocker",
@@ -9773,6 +9852,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "蠻鎚領主",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -9782,6 +9862,7 @@
     "rarity": "Epic",
     "mountLinkId": "FalstadFlight",
     "hearthLinkId": "Hearthstone",
+    "searchText": "弗斯塔德 Falstad 獅鷲騎士 蠻錘 矮人 聯盟 WoW 魔獸世界 浩劫與重生 Gryphonrider Wildhammer Dwarf Alliance World of Warcraft Cataclysm BFA 決戰艾澤拉斯 Battle for Azeroth",
     "description": "能遠距離飛行的刺客，在大型戰場的表現相當出色。",
     "descriptors": [
       "EnergyImportant",
@@ -10238,6 +10319,7 @@
     "difficulty": "普通",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "聖堂武士的表率",
     "innerRadius": 0.9375,
     "radius": 1.0625,
     "releaseDate": "2018-03-27",
@@ -10247,6 +10329,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "菲尼克斯 Dragoon Protoss SC SC1 StarCraft II 2 SC2 Brood War BW 龍騎士 神族 星海 星海1 星海2 2 怒火燎原",
     "description": "擅長持續造成傷害的刺客型英雄，並且擁有會自行恢復的護盾，讓他能有效對抗敵人。",
     "descriptors": [
       "Escaper",
@@ -10703,11 +10786,13 @@
     "difficulty": "簡單",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "暮光之鎚的酋長",
     "releaseDate": "2015-11-17",
     "sight": 12.0,
     "speed": 4.3984,
     "type": "遠程",
     "rarity": "Legendary",
+    "searchText": "丘 加利 丘加利 Cho'gall Chogall 巨魔 雙頭 兩顆 頭 魔獸2 魔獸爭霸2 黑暗之潮 魔獸世界 浩劫與重生 德拉諾之霸 部落 Ogre Twoheaded Two Headed Two-headed War2 Warcraft2 WC2 Warcraft II 2 Tides of Darkness ToD WoW World of Warcraft Cataclysm Warlords of Draenor WoD Horde",
     "description": "雙頭巨魔的其中一顆腦袋。加利和丘身體相連，是強大的法師。",
     "descriptors": [
       "GoalsDisabled",
@@ -11157,6 +11242,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "地獄吼之子",
     "innerRadius": 0.875,
     "radius": 0.875,
     "releaseDate": "2017-08-08",
@@ -11166,6 +11252,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Garosh 卡爾洛斯 WoW Orc Warchief Mists of Pandaria MoP Warlords of Draenor WoD Burning Crusade BC Hearthstone HS Wrath of the Lich King WotLK Cataclysm Horde 魔獸 獸人 大酋長 潘達利亞之謎 潘達 德拉諾之霸 德拉 燃燒的遠征 爐石 巫妖王之怒 浩劫與重生 部落",
     "description": "適合在前線作戰的肉盾，擅長孤立敵人，逐一消滅他們。",
     "descriptors": [
       "BodyBlocker",
@@ -11643,6 +11730,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "棘齒城的老大",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -11652,6 +11740,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "加茲魯維 Gazlowe 工匠 技工 哥布林 部落 WoW 魔獸世界 魔獸3 WC3 魔獸爭霸3 III 3 寒冰霸權 FT 浩劫與重生 德拉諾之霸 BFA 決戰 艾澤拉斯 WoD Tinker Goblin Horde World of Warcraft War3 Warcraft3 Frozen Throne Cataclysm Warlords Draenor BFA Battle for Azeroth",
     "description": "召喚型的英雄，擅長控制戰場上的關鍵區域。",
     "descriptors": [
       "EnergyImportant",
@@ -12148,6 +12237,7 @@
     "difficulty": "困難",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "生化機械忍者",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-04-25",
@@ -12157,6 +12247,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "人類 生化機械 鬥陣特攻 島田 Human Cyborg Overwatch OW Shimada",
     "description": "伺機而動、機動性強的刺客，擅長解決後排脆弱角色，破壞敵方陣型。",
     "descriptors": [
       "EnergyImportant",
@@ -12632,6 +12723,7 @@
     "difficulty": "困難",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "狼人之王",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2016-01-12",
@@ -12641,6 +12733,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "葛雷邁恩 吉恩 Greymane Genn GM Graymane 狼人 吉爾尼斯 聯盟 WoW 魔獸世界 魔獸2 WC2 魔獸爭霸2 黑暗之潮 ToD II 浩劫與重生 軍臨天下 BFA 決戰艾澤拉斯 Worgen Gilneas Alliance WoW World of Warcraft War2 WC2 Warcraft2 Tides of Darkness ToD II Cataclysm Legion BFA Battle for Azeroth",
     "description": "傷害極高的刺客，能從遠距離削弱敵人，再撲向敵人一舉擊殺。  10點護甲（狼人形態）",
     "descriptors": [
       "EnergyImportant",
@@ -13140,6 +13233,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "黑暗的化身",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2016-07-12",
@@ -13149,6 +13243,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "古爾丹 Guldan 獸人 術士 魔獸2 魔獸爭霸2 部落 魔獸1 魔獸3 魔獸爭霸1 魔獸爭霸2 魔獸爭霸3 魔獸爭霸 黑暗之潮 混亂之治 魔獸世界 燃燒的遠征 德拉諾之霸 軍臨天下 爐石戰記 爐石 Orc Warlock War1 1 I War2 War3 WC1 WC2 WC3 Warcraft1 Warcraft2 Warcraft3 Warcraft 2 Tides of Darkness ToD II 2 III 3 Reign of Chaos RoC WoW World of Warcraft Burning Crusade BC Warlords of Draenor WoD Legion Horde Hearthstone HS",
     "description": "持續傷害型的法師。他會消耗生命值來施放法術，並且能竊取敵人的生命力。",
     "descriptors": [
       "RoleCaster",
@@ -13601,6 +13696,7 @@
     "difficulty": "普通",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "刺客大師",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-12-12",
@@ -13610,6 +13706,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Human Overwatch OW Shimada 人類 鬥陣 特攻 島田",
     "description": "遠程刺客，擅長探查敵情，從遠處消滅敵人。",
     "descriptors": [
       "EnergyImportant",
@@ -14068,6 +14165,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "背叛者",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -14077,6 +14175,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "伊利丹 Illidan Ilidan 怒風 惡魔獵人 夜精靈 WoW 魔獸世界 魔獸3 WC3 魔獸爭霸3 III 3 混亂之治 RoC 寒冰霸權 FT 燃燒的遠征 BC 軍臨天下 Stormrage Demon Hunter DH Night Elf World of Warcraft War3 Warcraft3 Reign of Chaos Frozen Throne Burning Crusade Legion",
     "description": "機動性高，擅長纏鬥的刺客。適合搭配能讓他發揮全力的英雄。",
     "descriptors": [
       "BodyBlocker",
@@ -14515,6 +14614,7 @@
     "difficulty": "普通",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "勇天使",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2019-01-08",
@@ -14524,6 +14624,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "英普瑞斯 Imperious Impirius 天使 大天使 暗黑破壞神III 暗黑III 暗黑3 Angel Archangel Diablo 3 III D3 Diablo3",
     "description": "全方位鬥士，強大的開戰能力，適合領導衝鋒，對單一目標造成傷害的能力也很強悍。",
     "descriptors": [
       "BodyBlocker",
@@ -14970,6 +15071,7 @@
     "difficulty": "簡單",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "大法師",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-12-02",
@@ -14979,6 +15081,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "珍娜 Jaina 普勞德摩爾 人類 塞拉摩 聯盟 WoW 魔獸世界 魔獸3 WC3 魔獸爭霸3 III 混亂之治 RoC 寒冰霸權 FT 燃燒的遠征 BC 巫妖王之怒 WotLK 浩劫與重生 潘達利亞之謎 MoP 德拉諾之霸 WoD 軍臨天下 爐石戰記 驚懼領主 BFA 決戰艾澤拉斯 HS Proudmoore Human Theramore Alliance World of Warcraft War3 Warcraft3 Reign of Chaos Frozen Throne Burning Crusade Wrath Lich King Cataclysm Mists of Pandaria Warlords Draenor Legion Hearthstone dreadlord? dread lord? BFA Battle for Azeroth",
     "description": "擅長冰凍整個敵方隊伍，造成緩速效果的寒冰法師。",
     "descriptors": [
       "EnergyImportant",
@@ -15440,6 +15543,7 @@
     "difficulty": "普通",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "撒卡蘭姆的聖教軍",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-06-02",
@@ -15449,6 +15553,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "喬安娜 Johanna Johana Joana Joanna 聖教軍 涅法雷姆 D3 暗黑破壞神3 暗黑破壞神 3 III 奪魂之鐮 RoS Crusader Nephalem Diablo Diablo3 Reaper of Souls",
     "description": "擅長對付近戰物理攻擊者，並且可以迅速清光一群小兵的肉盾型戰士。",
     "descriptors": [
       "BodyBlocker",
@@ -15884,6 +15989,7 @@
     "difficulty": "普通",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "瘋狂炸彈客",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-10-17",
@@ -15893,6 +15999,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Junker Junkdude Grenademans 炸彈 鼠 榴彈 垃圾 爆 炸 Human Overwatch OW Jamison Fawkes 人類 捍衛者 鬥陣特攻 詹米森 福克斯",
     "description": "機動性優異的刺客，可以從遠方轟炸敵人，利用陷阱和地雷擾亂戰局。",
     "descriptors": [
       "RoleSpecialist",
@@ -16340,6 +16447,7 @@
     "difficulty": "困難",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "太陽之王",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2015-05-12",
@@ -16349,6 +16457,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "凱爾薩斯 Kael'thas Kaelthas KT 王子 逐日者 法師 血精靈 WoW 魔獸世界 魔獸3 WC3 魔獸爭霸3 III 3 寒冰霸權 FT 燃燒的遠征 BC Prince Sunstrider Mage Blood Elf World of Warcraft War3 Warcraft3 Frozen Throne Burning Crusade",
     "description": "擅長對一群敵人造成大量傷害的火焰法師。",
     "descriptors": [
       "EnergyImportant",
@@ -16802,6 +16911,7 @@
     "difficulty": "困難",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "納克薩瑪斯的大巫妖",
     "innerRadius": 0.875,
     "radius": 0.875,
     "releaseDate": "2017-09-05",
@@ -16811,6 +16921,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "科科 小科 KT Kelthuzad 納克薩瑪斯的大巫妖 瘟疫之地尊貴的巫妖領主 恐懼亡域指揮官 詛咒神教的創建者兼領袖 六法議會的前成員 『污染者』阿克蒙德的召喚者 泯滅人性的主宰 《爐石戰記》的死忠玩家 巫妖王的御用管家 不死族 魔獸爭霸3 混亂之治 寒冰霸權 魔獸 巫妖王之怒 Archlich of Naxxramas esteemed Lich Lord of the Plaguelands Commander of the Dread Necropolis Master and Founder of the The Damned Return formerly of the Council of Six Creator of the Abomination Summoner of Archimonde the Defiler Betrayer of Humanity Hearthstone Enthusiast and Majordomo to the Lich King undead WC3 Reign of Chaos Frozen Throne FT WoW Wrath WotLK",
     "description": "爆發傷害型的法師，可以困住敵人並且以強大的連續技能消滅目標。",
     "descriptors": [
       "DeadUpdater",
@@ -17274,6 +17385,7 @@
     "difficulty": "困難",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "刀鋒女皇",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2014-03-13",
@@ -17283,6 +17395,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "凱莉根 Kerrigan Karrigan Kerigan 莎拉 蟲群 女王 刀鋒 蟲族 HotS 蟲族之心 星海爭霸 II 2 SC2 怒火燎原 BW LotV 虛空之遺 自由之翼 WoL SC 1 SC1 星海2 星海爭霸2 Sarah Swarm Queen Blades Zerg Heart of the Swarm StarCraft Brood War Legacy Void Wings Liberty Star2 Starcraft2",
     "description": "連招型的刺客，擅長躍入敵陣，使用所有技能殲滅敵人。",
     "descriptors": [
       "EnergyImportant",
@@ -17726,6 +17839,7 @@
     "difficulty": "普通",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "梵羅達尼的武僧",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2015-08-18",
@@ -17735,6 +17849,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "克拉辛 Karazim 武僧 涅法雷姆 D3 暗黑破壞神 3 III 奪魂之鐮 RoS 暗黑破壞神3 Monk Nephalem Diablo Reaper of Souls Diablo3",
     "description": "用途廣泛的治療者，適合搭配喜歡深入敵陣的近戰隊友。",
     "descriptors": [
       "AllyHealer",
@@ -18207,6 +18322,7 @@
     "difficulty": "簡單",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "骷髏王",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2015-07-21",
@@ -18216,6 +18332,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "李奧瑞克 骷髏王 Leoric Skeleton King 崔斯特姆 不死生物 暗黑破壞神 暗黑破壞神1 暗黑破壞神3 D1 I 1 D3 III 3",
     "description": "擅長對高生命值的英雄造成大量傷害的鬥士。",
     "descriptors": [
       "EnergyImportant",
@@ -18701,6 +18818,7 @@
     "difficulty": "簡單",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "漂泊遊子",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-04-15",
@@ -18710,6 +18828,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "莉 莉莉 Li Li LiLi 熊貓人 WoW 魔獸世界 潘達利亞之謎 MoP",
     "description": "能持續恢復隊友的治療者，擅長讓物理攻擊型的敵人陷入目盲狀態。",
     "descriptors": [
       "AllyHealer",
@@ -19157,6 +19276,7 @@
     "difficulty": "普通",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "叛逆的秘術師",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-02-02",
@@ -19166,6 +19286,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "李敏 Li-Ming Li Ming LiMing liming Liming LM Leeming 秘術師 涅法雷姆 D3 暗黑破壞神3 暗黑破壞神 3 III 奪魂之鐮 RoS Wizard Nephalem Diablo Diablo3 Reaper of Souls",
     "description": "擁有高爆發性傷害的法師型英雄，擊殺英雄能重置技能冷卻時間。",
     "descriptors": [
       "EnergyImportant",
@@ -19639,6 +19760,7 @@
     "difficulty": "極難",
     "franchise": "Classic",
     "gender": "Male",
+    "title": "麻煩三人組",
     "innerRadius": 0.75,
     "releaseDate": "2015-02-10",
     "speed": 20.0,
@@ -19646,6 +19768,7 @@
     "rarity": "Legendary",
     "mountLinkId": "LostVikingsGoGoGo",
     "hearthLinkId": "Hearthstone",
+    "searchText": "失落的維京人 維京人 奧拉夫 艾瑞克 貝洛格 The Lost Vikings TLV LV TheLostVikings Olaf Eric Baleog 2 LV2 經典",
     "description": "英雄三合一！可以分頭從不同地點取得經驗值。",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_lostvikings.png",
@@ -19750,13 +19873,13 @@
       ],
       "trait": [
         {
-          "nameId": "LostVikingsVikingHoardHeroSelect",
+          "nameId": "LostVikingsVikingHoardTalent",
           "name": "屯寶維京人",
-          "shortTooltipId": "LostVikingsVikingHoardHeroSelect",
-          "fullTooltipId": "LostVikingsVikingHoardHeroSelect",
+          "shortTooltipId": "LostVikingsVikingHoardTalent",
+          "fullTooltipId": "LostVikingsVikingHoardTalent",
           "icon": "storm_ui_icon_LostVikings_VikingHoard.png",
           "shortTooltip": "拾取恢復之球可提高生命恢復率",
-          "fullTooltip": "維京人每拾取一顆恢復之球，全體維京人的每秒生命恢復率永久提高0.5點。",
+          "fullTooltip": "維京人每拾取一顆恢復之球，全體維京人的每秒生命恢復率永久提高0.5點。  目前加成：每秒0點",
           "abilityType": "Trait"
         }
       ],
@@ -20148,7 +20271,10 @@
           "shortTooltip": "降低所有維京人的復活時間",
           "fullTooltip": "維京人的復活時間降低50%。",
           "abilityType": "Trait",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "LostVikingsVikingHoardTalent"
+          ]
         },
         {
           "nameId": "LostVikingsTalentFuryoftheStorm",
@@ -20173,6 +20299,11 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "遠程",
+          "descriptors": [
+            "Helper",
+            "RoleAutoAttacker",
+            "WaveClearer"
+          ],
           "life": {
             "amount": 1095.0,
             "scale": 0.04,
@@ -20206,6 +20337,11 @@
           "sight": 13.0,
           "speed": 5.0,
           "type": "遠程",
+          "descriptors": [
+            "Escaper",
+            "Helper",
+            "RoleAutoAttacker"
+          ],
           "life": {
             "amount": 767.0,
             "scale": 0.04,
@@ -20232,6 +20368,11 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "遠程",
+          "descriptors": [
+            "Helper",
+            "Overconfident",
+            "RoleTank"
+          ],
           "life": {
             "amount": 1424.0,
             "scale": 0.04,
@@ -20259,6 +20400,7 @@
     "difficulty": "普通",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "戰地醫護官",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-10-06",
@@ -20268,6 +20410,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "莫拉萊斯 中尉 醫護 莫拉萊斯中尉 Lt. Morales Medic Lieutenant LtMorales Terran Heroes of the Storm SC Brood War BW UED 人類 暴雪英霸 星海 怒火燎原 地球聯合理事會",
     "description": "可持續為隊友恢復大量生命值的治療者，若敵隊未對她施壓，就能立於不敗之地。",
     "descriptors": [
       "AllyHealer",
@@ -20710,6 +20853,7 @@
     "difficulty": "普通",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "自由鬥士、DJ",
     "innerRadius": 0.4375,
     "radius": 0.6875,
     "releaseDate": "2017-02-14",
@@ -20719,6 +20863,7 @@
     "rarity": "Legendary",
     "mountLinkId": "LucioSkateMode",
     "hearthLinkId": "Hearthstone",
+    "searchText": "路西歐 Lucio 人類 鬥陣特攻 OW",
     "description": "能持續治療隊友的治療者。他能賦予隊友高機動性，並且能將敵人從盟友身旁震開。",
     "descriptors": [
       "AllyHealer",
@@ -21217,6 +21362,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "塞納留斯的長女",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-12-15",
@@ -21226,6 +21372,7 @@
     "rarity": "Epic",
     "mountLinkId": "DryadGallopingGait",
     "hearthLinkId": "Hearthstone",
+    "searchText": "露娜拉 Lunara 林精 夜精靈 賽納留斯 WoW 魔獸世界 軍臨天下 暴雪英霸 爐石 Dryad Night Elf Cenarius World of Warcraft Legion Heroes of the Storm Hearthstone",
     "description": "擅長纏鬥的刺客，能從遠方使用毒素攻擊不斷削弱敵人。",
     "descriptors": [
       "EnergyImportant",
@@ -21762,6 +21909,7 @@
     "difficulty": "困難",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "典獄官",
     "radius": 0.75,
     "releaseDate": "2018-02-06",
     "sight": 12.0,
@@ -21770,6 +21918,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Shadowsong Warden Watcher Night Elf Alliance WoW World of Warcraft War3 WC3 Warcraft3 III 3 Frozen Throne FT Warlords Draenor WoD Legion Hearthstone HS 影歌 典獄官 典獄長 看守者 夜精靈 聯盟 魔獸 寒冰霸權 德拉諾 軍臨天下 爐石",
     "description": "擅長對付成群的敵人，並且阻止敵人脫逃的靈活刺客。",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_maiev.png",
@@ -22215,6 +22364,7 @@
     "difficulty": "簡單",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "大德魯伊",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -22224,6 +22374,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "瑪法里恩 Malfurion 怒風 夜精靈 德魯伊 聯盟 WoW 魔獸世界 魔獸3 WC3 魔獸爭霸3 III 3 混亂之治 RoC 寒冰霸權 FT 浩劫與重生 德拉諾之霸 WoD 軍臨天下 爐石戰記 HS Stormrage Night Elf Druid Alliance World of Warcraft War3 Warcraft3 War Reign of Chaos Frozen Throne Cataclysm Warlords Draenor Legion Hearthstone",
     "description": "可持續為隊友恢復大量生命值的治療者，能封鎖目標的行動能力，協助隊友擊殺敵人。",
     "descriptors": [
       "AllyHealer",
@@ -22678,6 +22829,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "納斯雷茲姆領主",
     "innerRadius": 0.6875,
     "radius": 0.875,
     "releaseDate": "2018-10-16",
@@ -22687,6 +22839,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "瑪爾加尼斯 Mal Ganis 驚懼 領主 驚懼領主 不死 惡魔 WC3 混亂之治 巫妖王之怒 軍臨天下 Dread Lord dreadlord undead demon WC3 Reign of Chaos WoW Wrath WotLK Legion",
     "description": "續戰力強的肉盾型戰士，擅長保護隊友和干擾敵人。",
     "descriptors": [
       "BodyBlocker",
@@ -23149,6 +23302,7 @@
     "difficulty": "普通",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "死亡化身",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-06-13",
@@ -23158,6 +23312,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "瑪瑟爾 Malthel Malthiel 天使 大天使 暗黑破壞神 3 D3 奪魂之鐮 RoS Angel Archangel Diablo Reaper of Souls",
     "description": "能對敵人施加印記的刺客，擅於對付高生命值的敵人。",
     "descriptors": [
       "BodyBlocker",
@@ -23619,6 +23774,7 @@
     "difficulty": "極難",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "最後的守護者",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2016-06-14",
@@ -23628,6 +23784,7 @@
     "rarity": "Legendary",
     "mountLinkId": "MedivhTransformRaven",
     "hearthLinkId": "Hearthstone",
+    "searchText": "麥迪文 Midivh Medivh 守護者 先知 預言者 魔獸1 魔獸爭霸1 魔獸爭霸3 魔獸爭霸 魔獸3 混亂之治 魔獸世界 燃燒的遠征 BC 爐石戰記 爐石 Prophet War1 I WC1 Warcraft1 Warcraft3 Warcraft III WC3 War3 3 Reign of Chaos RoC WoW World of Warcraft Burning Crusade BC Hearthstone HS",
     "description": "能抵擋爆發型傷害的輔助英雄，並且可傳送盟友。",
     "descriptors": [
       "EnergyImportant",
@@ -24108,6 +24265,7 @@
     "difficulty": "普通",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "憎恨之王",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2018-09-04",
@@ -24117,6 +24275,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Demon D2 Diablo 2 II Diablo2 惡魔 暗黑 二",
     "description": "穩定造成傷害的刺客，擅長對付成群的敵人。",
     "descriptors": [
       "EnergyImportant",
@@ -24352,7 +24511,10 @@
           "shortTooltip": "墨菲斯托魔影可賦予護甲",
           "fullTooltip": "墨菲斯托魔影在作用期間和結束後2.5秒內賦予20點護甲。",
           "abilityType": "E",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "MephistoShadeOfMephisto"
+          ]
         },
         {
           "nameId": "MephistoShadeOfMephistoFrostStorm",
@@ -24363,7 +24525,10 @@
           "shortTooltip": "墨菲斯托魔影可使敵人緩速",
           "fullTooltip": "墨菲斯托魔影會使附近的敵人緩速50%，持續2秒。在墨菲斯托魔影持續期間內，以骷髏魔彈擊中敵人會使其緩速效果提高至50%。",
           "abilityType": "E",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "MephistoShadeOfMephisto"
+          ]
         },
         {
           "nameId": "MephistoShadeOfMephistoTrickery",
@@ -24374,7 +24539,10 @@
           "shortTooltip": "墨菲斯托魔影可提高移動速度",
           "fullTooltip": "墨菲斯托魔影會在持續期間，以及效果結束後的2.5秒內賦予20%移動速度。墨菲斯托魔影效果結束後會移除墨菲斯托身上的所有緩速和定身效果。",
           "abilityType": "E",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "MephistoShadeOfMephisto"
+          ]
         }
       ],
       "level10": [
@@ -24567,6 +24735,7 @@
     "difficulty": "簡單",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "山脈之王",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -24576,6 +24745,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "穆拉丁 Muradin 銅鬚 矮人 聯盟 魔獸爭霸 III 魔獸3 WC3 魔獸爭霸3 3 混亂之治 RoC WoW 巫妖王之怒 WotLK 浩劫與重生 Bronzebeard Dwarf Alliance Warcraft War3 Warcraft3 Reign of Chaos Wrath of the Lich King Cataclysm",
     "description": "頑強的肉盾型戰士，在不同場合都能有不錯的表現。",
     "descriptors": [
       "BodyBlocker",
@@ -25032,6 +25202,7 @@
     "difficulty": "困難",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "魚人寶寶",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-05-22",
@@ -25041,6 +25212,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "莫奇 Murky 魚人 WoW 魔獸 軍臨天下 暴雪英霸 Murloc Legion Heroes of the Storm",
     "description": "魚小志氣高的莫奇能放置魚卵，在陣亡後快速復活加入戰局。",
     "descriptors": [
       "BodyBlocker",
@@ -25482,6 +25654,7 @@
     "difficulty": "普通",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "異端巫醫",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2014-03-13",
@@ -25491,6 +25664,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "納奇班 Nazeebo 巫醫 涅法雷姆 D3 暗黑破壞神3 暗黑破壞神 3 III 奪魂之鐮 RoS Witch Doctor Witchdoctor Nephalem Diablo Diablo3 Reaper of Souls WD",
     "description": "續戰力強的法師型英雄，殺死敵方小兵可強化自己。",
     "descriptors": [
       "EnergyImportant",
@@ -25955,6 +26129,7 @@
     "difficulty": "普通",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "自治聯盟幽靈特務",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -25964,6 +26139,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "諾娃 Nova 泰拉 幽靈特務 諾汎碧 泰倫 人類 SC2 星海爭霸 2 II 自由之翼 WoL 蟲族之心 HotS SC 特務密令 CO 星海2 星海爭霸2 Terra Ghost November Terran StarCraft Wings of Liberty Heart of the Swarm Covert Ops Star2 Starcraft2",
     "description": "爆發力強大的法師型刺客，擅長在匿蹤狀態下伏擊敵人。",
     "descriptors": [
       "EnergyImportant",
@@ -26446,6 +26622,7 @@
     "difficulty": "普通",
     "franchise": "Nexus",
     "gender": "Female",
+    "title": "掠鴉之庭的繼承人",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2018-11-13",
@@ -26455,6 +26632,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Orphia 歐菲亞 ",
     "description": "遠程刺客，在敵人身邊翩翩起舞，施展魔法強化攻擊。",
     "descriptors": [
       "Escaper",
@@ -26790,7 +26968,10 @@
           "fullTooltip": "啟動2秒後，對附近所有敵人造成150 (每級 +4%)點傷害。每擊中一名英雄，可恢復182 (每級 +4%)點生命值，並且堆疊1層混沌。",
           "abilityType": "Trait",
           "isActive": true,
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "OrpheaOverflowingChaos"
+          ]
         }
       ],
       "level16": [
@@ -26910,6 +27091,7 @@
     "difficulty": "困難",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "奇特的探測機",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-03-14",
@@ -26919,6 +27101,7 @@
     "rarity": "Legendary",
     "mountLinkId": "ProbiusWorkerRush",
     "hearthLinkId": "Hearthstone",
+    "searchText": "探測機 Probe 神族 星海爭霸 星海爭霸1 星海2 星海爭霸2 Protoss SC SC1 StarCraft II 2 SC2 Star2 Starcraft2",
     "description": "傷害極高的召喚型英雄，必須待在水晶塔附近才能發揮威力。",
     "descriptors": [
       "RoleSpecialist",
@@ -27399,6 +27582,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "炎魔",
     "innerRadius": 0.875,
     "radius": 1.0,
     "releaseDate": "2016-12-14",
@@ -27408,6 +27592,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "拉格納羅斯 Ragnaros 炎魔 熔火之心 元素 魔獸 大災變 浩劫 火源 爐石 Firelord Molten Core MC Elemental WoW World of Warcraft Cataclysm Hearthstone HS",
     "description": "擅長阻擋敵人進攻堡壘和要塞的鬥士型英雄。",
     "descriptors": [
       "EnergyImportant",
@@ -27926,6 +28111,7 @@
     "difficulty": "簡單",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "反抗組織指揮官",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -27935,6 +28121,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "雷諾 Raynor 將軍 詹姆士 吉姆 指揮官 陸戰隊 泰倫 人類 HotS 蟲族之心 SC SC1 星海爭霸 II 2 SC2 怒火燎原 BW LotV 虛空之遺 虛空 自由之翼 WoL 星海2 星海爭霸2 General James Jimmy Commander Marine Terran Heart of the Swarm StarCraft Brood War Legacy Void Wings Liberty Star2 Starcraft2",
     "description": "擅長擊退敵人的物理攻擊型刺客。",
     "descriptors": [
       "EnergyImportant",
@@ -28394,6 +28581,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "陶土議會的薩滿",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-07-22",
@@ -28403,6 +28591,7 @@
     "rarity": "Epic",
     "mountLinkId": "RehgarGhostWolfActivate",
     "hearthLinkId": "Hearthstone",
+    "searchText": "雷加 Rehgar Regar 地怒 獸人 薩滿 部落 WoW 魔獸世界 軍臨天下 Earthfury Orc Shaman Horde World of Warcraft Legion",
     "description": "能力相當全面性的治療者，適合搭配近戰型的隊友。",
     "descriptors": [
       "AllyHealer",
@@ -28888,6 +29077,7 @@
     "difficulty": "困難",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "部落的勇士",
     "innerRadius": 0.875,
     "radius": 0.875,
     "releaseDate": "2015-09-08",
@@ -28897,6 +29087,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "雷克薩 Rexxar Rexar 米莎 酋長 馴獸 野獸大師 獸王 獵人 半獸人 巨魔 部落 WoW 魔獸世界 魔獸3 WC3 魔獸爭霸3 III 寒冰霸權 FT 燃燒的遠征 BC 德拉諾之霸 WoD 軍臨天下 爐石 戰記 BFA 決戰 艾澤拉斯HS Misha Chieftan Beastmaster Hunter Half Orc Ogre Horde World of Warcraft War3 Warcraft3 Frozen Throne Burning Crusade Warlords Draenor Legion Hearthstone BFA Battle for Azeroth",
     "description": "這名鬥士會和戰熊米莎並肩作戰，擅長控制戰場區域。",
     "descriptors": [
       "EnergyImportant",
@@ -29368,6 +29559,7 @@
     "difficulty": "困難",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "大劍師",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2016-10-18",
@@ -29377,6 +29569,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "薩姆羅 Samuro 獸人 大劍師 部落 魔獸爭霸 III 3 魔獸3 魔獸爭霸3 War3 Warcraft3 WC3 寒冰霸權 魔獸 FT Orc Blademaster Horde Warcraft Frozen Throne WoW",
     "description": "匿蹤型的刺客，擅長佔領傭兵營地，並且難以被擊殺。",
     "descriptors": [
       "Ganker",
@@ -29821,6 +30014,7 @@
     "difficulty": "困難",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "攻城坦克駕駛員",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2014-03-13",
@@ -29830,6 +30024,7 @@
     "rarity": "Epic",
     "mountLinkId": "SgtHammerThrusters",
     "hearthLinkId": "Hearthstone",
+    "searchText": "中士 榔頭 榔頭中士 Sgt. Hammer Sergeant SgtHammer Sgt 攻城 坦克 泰倫 人類 暴雪英霸 星海爭霸 II SC 2 SC2 虛空之遺 LotV 星海2 星海爭霸2 Siege Tank Terran Heroes of the Storm StarCraft Legacy of the Void Star2 Starcraft2",
     "description": "射程極遠的物理攻擊型英雄，需要隊友的掩護。",
     "descriptors": [
       "EnergyImportant",
@@ -30292,6 +30487,7 @@
     "difficulty": "普通",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "流浪野蠻人",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -30301,6 +30497,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "桑雅 Sonya Sonia 野蠻人 涅法雷姆 D3 暗黑破壞神3 暗黑破壞神 3 III 奪魂之鐮 RoS Barbarian Nephalem Diablo Diablo3 Reaper of Souls",
     "description": "擅長佔領傭兵營地，並且喜歡深入敵陣的鬥士。",
     "descriptors": [
       "Ganker",
@@ -30743,6 +30940,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "夜色鎮的夢魘",
     "innerRadius": 0.9375,
     "radius": 1.0625,
     "releaseDate": "2014-03-13",
@@ -30752,6 +30950,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "縫合怪 Stitches 憎惡體 不死族 WoW 魔獸世界 鉤 Abomination Undead World of Warcraft hook",
     "description": "肉盾型戰士，喜歡將遠方的敵人拉離其隊友。",
     "descriptors": [
       "BodyBlocker",
@@ -31217,6 +31416,7 @@
     "difficulty": "普通",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "受感染的上將",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-07-11",
@@ -31226,6 +31426,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "斯度科夫 Stewkov 星海爭霸 怒火燎原 怒火 星海2 星海 蟲族之心 虛空之遺 蟲族 感染 人類 地球聯合理事會 Starcraft Brood War BW SC2 SC Heart of the Swarm HotS Legacy of the Void LotV Zerg Infested Terran UED",
     "description": "能從遠距離不斷擾亂敵人的治療者。",
     "descriptors": [
       "AllyHealer",
@@ -31714,6 +31915,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "女妖之王",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2015-03-24",
@@ -31723,6 +31925,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "希瓦娜斯 Sylvanas 風行者 女王 被遺忘者 不死族 精靈 部落 WoW 魔獸世界 魔獸3 WC3 3 魔獸爭霸3 III 混亂之治 RoC 寒冰霸權 FT 浩劫與重生 德拉諾之霸 WoD 軍臨天下 大酋長 BFA 決戰 艾澤拉斯 Windrunner Queen Forsaken Undead Elf Horde World of Warcraft War3 Warcraft3 Reign of Chaos Frozen Throne Cataclysm Warlords Draenor Legion warchief BFA Battle for Azeroth",
     "description": "擅長癱瘓敵方堡壘和要塞的刺客。",
     "descriptors": [
       "EnergyImportant",
@@ -32173,6 +32376,7 @@
     "difficulty": "普通",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "聖堂救世主",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -32182,6 +32386,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "塔薩達 Tassadar 高階 聖堂武士 高階聖堂武士 神族 艾爾 SC 星海爭霸 1 SC1 星海1 星海爭霸1 High Templar hightemplar HT Protoss Aiur StarCraft Star1 Starcraft1",
     "description": "輔助型英雄，擅長協助專門深入敵陣的攻擊型隊友。",
     "descriptors": [
       "ChanneledAutoAttacker",
@@ -32629,6 +32834,7 @@
     "difficulty": "普通",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "血肉剁切者",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2015-06-30",
@@ -32638,6 +32844,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "屠夫 The Butcher TheButcher 惡魔 D1 D3 暗黑破壞神 1 3 I III 暗黑破壞神1 暗黑破壞神3",
     "description": "起始傷害較低，但收集足夠的鮮肉後，能造成極高傷害的刺客。",
     "descriptors": [
       "EnergyImportant",
@@ -33070,6 +33277,7 @@
     "difficulty": "簡單",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "部落的大酋長",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-01-13",
@@ -33079,6 +33287,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "索爾 Thrall Trall 高爾 大酋長 薩滿 獸人 部落 WoW 魔獸世界 魔獸3 WC3 魔獸爭霸3 III 混亂之治 RoC 寒冰霸權 FT 燃燒的遠征 BC 巫妖王之怒 WotLK 浩劫與重生 潘達利亞之謎 MoP 軍臨天下 爐石戰記 HS Go'el Goel Warchief Shaman Orc Horde World of Warcraft War3 Warcraft3 3 Reign of Chaos Frozen Throne Burning Crusade Wrath Lich King Cataclysm Mists of Pandaria Legion Hearthstone",
     "description": "有能力獨自顧好一條戰線的鬥士。",
     "descriptors": [
       "EnergyImportant",
@@ -33536,6 +33745,7 @@
     "difficulty": "困難",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "捍衛者成員",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-04-19",
@@ -33545,6 +33755,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "閃光 Tracer 莉娜 奧斯頓 人類 鬥陣特攻 OW 鬥陣 Lena Oxton Human Overwatch",
     "description": "高機動性的刺客，擅長追擊落單的敵人，逐一解決他們。",
     "descriptors": [
       "Escaper",
@@ -33751,7 +33962,10 @@
           "shortTooltip": "提高閃現的使用次數",
           "fullTooltip": "閃現的使用次數提高1次，但冷卻時間提高2秒。",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "TracerBlink"
+          ]
         },
         {
           "nameId": "TracerBulletTime",
@@ -33762,7 +33976,10 @@
           "shortTooltip": "基本攻擊可降低閃現的冷卻時間",
           "fullTooltip": "基本攻擊可使閃現的冷卻時間降低0.15秒。",
           "abilityType": "Q",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "TracerBlink"
+          ]
         },
         {
           "nameId": "TracerSpatialEcho",
@@ -33773,7 +33990,10 @@
           "shortTooltip": "參與擊殺英雄可獲得閃現的使用次數",
           "fullTooltip": "參與擊殺英雄可獲得2次閃現的使用次數。",
           "abilityType": "Q",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "TracerBlink"
+          ]
         }
       ],
       "level10": [
@@ -33956,6 +34176,7 @@
     "difficulty": "普通",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "惡名昭彰的罪犯",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-18",
@@ -33965,6 +34186,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "泰科斯 Tychus 芬利 陸戰隊 罪犯 人類 泰倫 SC2 SC 2 II 星海爭霸 自由之翼 WoL 星海2 星海爭霸2 Findlay Marine Outlaw Terran StarCraft Wings of Liberty Star2 Starcraft2",
     "description": "擅長對付高生命值敵人的刺客。",
     "descriptors": [
       "EnergyImportant",
@@ -34464,6 +34686,7 @@
     "difficulty": "普通",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "義天使",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -34473,6 +34696,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "泰瑞爾 Tyrael 天使 義天使 D2 D3 暗黑破壞神2 暗黑破壞神3 暗黑破壞神 2 3 III 毀滅之王 LoD 奪魂之鐮 RoS Angel Justice Diablo2 Diablo3 Diablo Lord of Destruction Reaper of Souls",
     "description": "肉盾型戰士，適合搭配喜歡深入敵陣的隊友。",
     "descriptors": [
       "BodyBlocker",
@@ -34916,6 +35140,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "伊露恩的高階女祭司",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -34925,6 +35150,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "泰蘭妲 Tyrande 語風 祭司 伊露恩 夜精靈 高階 女獵 聯盟 WoW 魔獸世界 魔獸3 WC3 魔獸爭霸3 III 混亂之治 RoC 寒冰霸權 FT 浩劫與重生 潘達利亞之謎 MoP 德拉諾之霸 WoD 軍臨天下 爐石 Whisperwind Priestess Elune Night Elf High Huntress Alliance WoW World of Warcraft War3 Warcraft3 3 Reign of Chaos Frozen Throne Cataclysm Mists of Pandaria Warlords Draenor Legion Hearthstone HS",
     "description": "擅長封鎖目標行動，協助隊友擊殺敵人的輔助型英雄。",
     "descriptors": [
       "AllyHealer",
@@ -35388,6 +35614,7 @@
     "difficulty": "簡單",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "光明使者",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -35397,6 +35624,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "烏瑟 Uther 聖騎士 光明使者 人類 聯盟 WoW 魔獸2 WC2 魔獸爭霸2 2 II 黑暗之潮 ToD 魔獸世界 魔獸3 WC3 魔獸爭霸3 III 混亂之治 RoC 爐石戰記 HS Paladin Lightbringer Human Alliance War2 Warcraft2 Tides of Darkness World of Warcraft War3 Warcraft3 III 3 Reign of Chaos Hearthstone",
     "description": "能恢復高爆發性傷害的治療者。",
     "descriptors": [
       "AllyHealer",
@@ -35509,13 +35737,14 @@
       ],
       "trait": [
         {
-          "nameId": "UtherDevotionEternalVanguardShop",
-          "name": "虔誠，不滅先驅",
-          "shortTooltipId": "UtherDevotionEternalVanguardShop",
-          "fullTooltipId": "UtherDevotionEternalVanguardShop",
+          "nameId": "UtherEternalDevotion",
+          "name": "虔誠",
+          "shortTooltipId": "UtherEternalDevotion",
+          "fullTooltipId": "UtherEternalDevotion",
           "icon": "storm_ui_icon_uther_eternaldevotion.png",
+          "cooldownTooltip": "冷卻時間：180秒",
           "shortTooltip": "烏瑟的治療會賦予護甲，烏瑟死亡時，靈魂會暫時留在戰場上",
-          "fullTooltip": "受到烏瑟基本技能影響的友方英雄會獲得25點護甲，持續2秒。此效果無法重複堆疊。  烏瑟死亡後，會暫時化為無敵的靈魂，持續8秒。在靈魂狀態下，烏瑟可以用聖光閃現治療盟友。",
+          "fullTooltip": "受到烏瑟基本技能影響的友方英雄會獲得25點護甲，持續2秒。此效果無法重複堆疊。  不滅先驅  烏瑟死亡後，會暫時化為無敵的靈魂，持續8秒。在靈魂狀態下，烏瑟可以用聖光閃現治療盟友。",
           "abilityType": "Trait"
         }
       ]
@@ -35625,7 +35854,10 @@
           "shortTooltip": "對周圍的敵人造成傷害",
           "fullTooltip": "每秒對附近敵人造成13 (每級 +4%)點傷害。對敵方英雄的基本攻擊可使這個傷害提高20%，持續3秒。此效果最高可堆疊3層。",
           "abilityType": "Passive",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         }
       ],
       "level7": [
@@ -35652,7 +35884,10 @@
           "shortTooltip": "虔誠會賦予受控場效果影響的目標額外護甲",
           "fullTooltip": "治療受昏迷、定身或沉默效果影響的英雄時，可使他們從虔誠獲得的護甲從25點提高至50點。",
           "abilityType": "Trait",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         },
         {
           "nameId": "UtherHandOfProtection",
@@ -35829,7 +36064,10 @@
           "shortTooltip": "不滅先驅效果結束時復活",
           "fullTooltip": "不滅先驅效果結束時，烏瑟會於靈魂所在位置以最大生命值的50%復活。  此效果的冷卻時間為180秒。",
           "abilityType": "Trait",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         },
         {
           "nameId": "UtherEternalDevotionDivineProtection",
@@ -35840,7 +36078,10 @@
           "shortTooltip": "提高虔誠賦予的護甲",
           "fullTooltip": "對已經獲得虔誠的英雄再度施展虔誠，可使其護甲提高為50點。",
           "abilityType": "Trait",
-          "sort": 4
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         }
       ]
     }
@@ -35853,6 +36094,7 @@
     "difficulty": "困難",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "無冕者之影",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2017-01-24",
@@ -35862,6 +36104,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "瓦麗拉 Valeera Sanguinar Rogue Blood Elf WoW World of Warcraft Legion Hearthstone HS 桑古納爾 盜賊 血精 血精靈 魔獸 魔獸世界 軍臨天下 爐石",
     "description": "能匿蹤潛行的刺客，擅長封鎖對手的行動。",
     "descriptors": [
       "Ganker",
@@ -36373,6 +36616,7 @@
     "difficulty": "簡單",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "狩魔獵人",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -36382,6 +36626,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "維拉 Valla 狩魔獵人 涅法雷姆 D3 暗黑破壞神3 暗黑破壞神 3 III 奪魂之鐮 RoS Demon Hunter demonhunter DH Nephalem Nephalem Diablo Diablo3 Reaper of Souls",
     "description": "能力相當全面性的刺客，擁有高機動性並且能夠持續造成極高的傷害。",
     "descriptors": [
       "EnergyImportant",
@@ -36847,6 +37092,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "聯盟的大君主",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2016-11-15",
@@ -36856,6 +37102,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "瓦里安 Varian 烏瑞恩 洛戈許 暴風城 人類 聯盟 魔獸世界 巫妖王之怒 浩劫與重生 潘達利亞之謎 德拉諾之霸 軍臨天下 Wrynn Logosh Lo'Gosh Stormwind Human Alliance WoW World of Warcraft Wrath of the Lich King WotLK Cataclysm Mists of Pandaria MoP Warlords of Draenor WoD Legion",
     "description": "多重專精型的英雄，可擔任隊伍的肉盾，也能成為傷害力極高的刺客。",
     "descriptors": [
       "EnergyImportant",
@@ -37327,6 +37574,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "高階審判官",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2018-08-07",
@@ -37336,6 +37584,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "莎莉 sally 牧師 人類 魔獸世界 潘達利亞之謎 軍臨天下 priest human WoW World of Warcraft Mists Pandaria MoP Legion",
     "description": "善於應變的治療者，可以透過對敵人造成傷害來治療盟友。",
     "descriptors": [
       "AllyHealer",
@@ -37789,6 +38038,7 @@
     "difficulty": "普通",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "神秘的死靈法師",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2016-03-01",
@@ -37798,6 +38048,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "蘇爾 Xul Xuul Zuul Zul Zool 死靈法師 D2 人類 暗黑破壞神2 Necromancer Human Diablo 2 II Diablo2",
     "description": "能輕鬆在多條路線推進的召喚者。",
     "descriptors": [
       "EnergyImportant",
@@ -38258,6 +38509,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "希望之光",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2018-06-12",
@@ -38267,6 +38519,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Yrel 伊芮爾 WoW Draenei Warlords of Draenor WoD Alliance Paladin BFA Battle for Azeroth 魔獸 德萊尼 德拉諾之霸 聯盟 聖騎士 BFA 決戰艾澤拉斯",
     "description": "需要審慎操控的近戰型肉盾。透過蓄力以及掌握施放時機，可讓她的技能展現強大的威力。",
     "descriptors": [
       "BodyBlocker",
@@ -38713,6 +38966,7 @@
     "difficulty": "普通",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "蟲群蟲后",
     "innerRadius": 0.9375,
     "radius": 1.125,
     "releaseDate": "2014-06-25",
@@ -38722,6 +38976,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "札迦拉 Zagara 蟲后 后蟲 蟲族 蟲群 HotS 蟲族之心 星海爭霸 II 2 SC2 SC 星海2 星海爭霸2 Broodmother Queen Zerg Swarm Heart of the Swarm StarCraft Star2 Starcraft2",
     "description": "召喚型的英雄，能提供廣大的戰場視野。",
     "descriptors": [
       "EnergyImportant",
@@ -39171,6 +39426,7 @@
     "difficulty": "簡單",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "俄羅斯的守護者",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2016-09-27",
@@ -39180,6 +39436,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "札莉雅 Zarya 亞歷珊卓 人類 鬥陣特攻 鬥陣 OW Aleksandra Human Overwatch",
     "description": "可保護攻擊力強大的盟友，並且能抵抗敵方爆發性傷害的鬥士。",
     "descriptors": [
       "ChanneledAutoAttacker",
@@ -39697,6 +39954,7 @@
     "difficulty": "困難",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "黑暗教長",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -39706,6 +39964,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "澤拉圖 Zeratul ZT 黑暗聖堂武士 教長 神族 HotS 蟲族之心 星海爭霸 II 2 SC2 怒火燎原 BW LotV 虛空之遺 自由之翼 WoL SC 1 SC1 星海2 星海爭霸2 星海1 星海爭霸1 Dark Templar DT Prelate Protoss Heart of the Swarm StarCraft Brood War Legacy Void Wings Liberty Star2 Starcraft2 Star1 Starcraft1",
     "description": "能快速在敵人之間穿梭自如的匿蹤型英雄。",
     "descriptors": [
       "EnergyImportant",
@@ -40162,6 +40421,7 @@
     "difficulty": "普通",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "阿曼尼督軍",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2017-01-04",
@@ -40171,6 +40431,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "祖爾金 Zuljin 斧頭 擲斧 食人妖 部落 魔獸爭霸 2 II 黑暗之潮 魔獸世界 魔獸 燃燒的遠征 Troll Horde War2 WC2 Warcraft2 Warcraft II 2 Tides of Darkness ToD World of Warcraft WoW Burning Crusade BC",
     "description": "物理傷害型的刺客，生命值越低，威力就越強。",
     "descriptors": [
       "EnergyImportant",

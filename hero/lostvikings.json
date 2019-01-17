@@ -10,6 +10,14 @@
   "type": "Melee",
   "releaseDate": "2015-02-10",
   "releasePatch": "0.9.0.34053",
+  "tags": [
+    "Escaper",
+    "Helper",
+    "Overconfident",
+    "RoleAutoAttacker",
+    "RoleTank",
+    "WaveClearer"
+  ],
   "abilities": {
     "The Lost Vikings": [
       {
@@ -55,14 +63,6 @@
         "cooldown": 90,
         "icon": "storm_ui_icon_lostvikings_longboatraid.png",
         "type": "heroic"
-      },
-      {
-        "name": "Viking Hoard",
-        "description": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.",
-        "trait": true,
-        "abilityId": "The Lost Vikings|D1",
-        "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
-        "type": "trait"
       },
       {
         "name": "Go Go Go!",
@@ -114,6 +114,14 @@
         "cooldown": 30,
         "icon": "storm_ui_icon_lostvikings_norseforce.png",
         "type": "basic"
+      },
+      {
+        "name": "Viking Hoard",
+        "description": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.  Current Bonus: 0 Regen per second",
+        "trait": true,
+        "abilityId": "The Lost Vikings|D1",
+        "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
+        "type": "trait"
       }
     ],
     "LostVikingsLongboat": [
@@ -418,7 +426,10 @@
         "icon": "storm_ui_icon_lostvikings_fastrestart.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "The Lost Vikings|Trait"
+        "abilityId": "The Lost Vikings|D1",
+        "abilityLinks": [
+          "The Lost Vikings|D1"
+        ]
       },
       {
         "tooltipId": "LostVikingsFuryoftheStormTalent",

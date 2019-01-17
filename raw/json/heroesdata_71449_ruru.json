@@ -51,6 +51,7 @@
     "difficulty": "очень высокая",
     "franchise": "Starcraft",
     "gender": "Neutral",
+    "title": "Мастер эволюции",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -60,6 +61,7 @@
     "rarity": "Legendary",
     "mountLinkId": "AbathurDeepTunnel",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Абатур Зерг рой HotS Heart of the Swarm StarCraft II 2 SC2 Star2 Starcraft2 SC слизняк",
     "description": "Уникальный герой, способный влиять на ход матча из любого уголка поля боя.",
     "descriptors": [
       "Ganker",
@@ -640,6 +642,7 @@
     "difficulty": "высокая",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Владыка талдаримов",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2016-09-13",
@@ -649,6 +652,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Аларак протосс SC SC2 StarCraft Star2 Starcraft2 II 2 Legacy of the Void LotV Covert Ops CO стар старкрафт талдарим владыка",
     "description": "Убийца, полагающийся на комбинированные атаки. Может перемещать противников и жестоко наказывает их за ошибки.",
     "descriptors": [
       "EnergyImportant",
@@ -1102,6 +1106,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Хранительница Жизни",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2017-11-14",
@@ -1111,6 +1116,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Alexstraza Alekstrasza Alekstraza Алекстраза Алестраза Алистраза Аликстраза Warcraft 2 WC2 WoW Cataclysm Wrath of the Lich King WotLK dragon варкрафт 2 вов вк2 ката катаклизм лич король-лич вотлк дракон королева",
     "description": "Лекарь, который делится здоровьем с союзниками и усиливает свои способности, превращаясь в дракона.",
     "descriptors": [
       "AllyHealer",
@@ -1553,6 +1559,12 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "Дальний бой",
+          "descriptors": [
+            "AllyHealer",
+            "Helper",
+            "Overconfident",
+            "RoleSupport"
+          ],
           "life": {
             "amount": 1787.0,
             "scale": 0.04,
@@ -1636,6 +1648,7 @@
     "difficulty": "высокая",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "Снайпер-ветеран",
     "innerRadius": 0.5625,
     "radius": 0.5625,
     "releaseDate": "2017-09-26",
@@ -1645,6 +1658,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Анна Аня человек аня гор глаз гора бабка ОВ OW Амари",
     "description": "Лекарь, восполняющий большой объем здоровья за короткое время. Специализируется на снайперском исцелении союзников и блокировании исцеления противников.",
     "descriptors": [
       "AllyHealer",
@@ -2114,6 +2128,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Король-предатель",
     "innerRadius": 0.875,
     "radius": 1.0625,
     "releaseDate": "2014-10-07",
@@ -2123,6 +2138,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Ануб'арак Анубарак Нуб Ануб андед нежить владыка склепа WoW Warcraft III 3 War3 WC3 Warcraft3 Frozen Throne FT WotLK Wrath of the Lich King",
     "description": "Танк, особенно эффективно действующий против магов.",
     "descriptors": [
       "BodyBlocker",
@@ -2575,6 +2591,7 @@
     "difficulty": "средняя",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Иерарх дэлаамов",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2015-10-27",
@@ -2584,6 +2601,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Артанис протосс Айур HotS Heart of the Swarm StarCraft II 2 SC2 Star2 Starcraft2 SC",
     "description": "Мощный рубака, наносящий огромный урон командам, неспособным его нейтрализовать.",
     "descriptors": [
       "BodyBlocker",
@@ -3070,6 +3088,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Король-лич",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -3079,6 +3098,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Артас Менетил Король-лич ЛК личкинг лич фростморн андед ДК рыцарь смерти нежить WoW World of Warcraft III 3 War3 WC3 Warcraft3 Reign of Chaos RoC Frozen Throne FT WotLK Wrath of the Lich King Hearthstone HS",
     "description": "Танк, особенно эффективный против героев ближнего боя, полагающихся на автоатаки. Способен замедлять противников.",
     "descriptors": [
       "BodyBlocker",
@@ -3521,6 +3541,7 @@
     "difficulty": "средняя",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "Архангел надежды",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-08-09",
@@ -3530,6 +3551,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Ариэль Ангел архангел надежда Diablo 3 III D3 Diablo3",
     "description": "Лекарь, который прекрасно показывает себя в команде с героями, наносящими большой урон.",
     "descriptors": [
       "AllyHealer",
@@ -3984,6 +4006,7 @@
     "difficulty": "средняя",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Владыка Греха",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2014-10-14",
@@ -3993,6 +4016,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Азмодан демон владыка греха D3 Diablo3 Diablo 3 III данк",
     "description": "Призывает на помощь прислужников и наносит большой урон в дальнем бою.",
     "descriptors": [
       "EnergyImportant",
@@ -4445,6 +4469,7 @@
     "difficulty": "средняя",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Бывалый огнеметчик",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2018-01-09",
@@ -4454,6 +4479,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Огнеметчик Терран Heroes of the Storm",
     "description": "Танк дальнего боя, который первым вступает в битву и наносит урон по области с помощью огнеметов.",
     "descriptors": [
       "BodyBlocker",
@@ -4915,6 +4941,7 @@
     "difficulty": "высокая",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Чудесный дракончик",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2014-04-15",
@@ -4924,6 +4951,7 @@
     "rarity": "Epic",
     "mountLinkId": "BrightwingPhaseShift",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Светик дракончик стрекоза WoW World of Warcraft Legion Heroes of the Storm",
     "description": "Лекарь, который может телепортироваться к союзникам и лучше всего раскрывается на больших полях боя.",
     "descriptors": [
       "AllyHealer",
@@ -5394,6 +5422,7 @@
     "difficulty": "средняя",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "Дева битвы",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-04-04",
@@ -5403,6 +5432,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Кассия амазонка Амазонка джавазонка джава D2 Diablo 2 II Diablo2 человек",
     "description": "Убийца, особенно эффективная против героев, полагающихся на автоатаки.",
     "descriptors": [
       "EnergyImportant",
@@ -5663,7 +5693,11 @@
           "shortTooltip": "«Ускользание» наносит урон при использовании.",
           "fullTooltip": "Получив во время действия «Ускользания» 500 (+4% за уровень) ед. урона, Кассия может использовать умение, чтобы нанести 210 (+4% за уровень) ед. урона находящимся рядом противникам.",
           "abilityType": "Trait",
-          "sort": 3
+          "isActive": true,
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "AmazonAvoidance"
+          ]
         }
       ],
       "level10": [
@@ -5838,6 +5872,7 @@
     "difficulty": "высокая",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Легендарный хмелевар",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2014-09-09",
@@ -5847,6 +5882,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneBrew",
+    "searchText": "Чэнь Чень Буйный Портер панда пандарен WoW World of Warcraft WC3 Warcraft3 Warcraft III 3 War3 Frozen Throne FT Mists of Pandaria MoP",
     "description": "Мощный рубака, который лучше всего раскрывается против команд с невысокой мобильностью.",
     "descriptors": [
       "BodyBlocker",
@@ -6438,6 +6474,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Вождь клана Сумеречного Молота",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2015-11-17",
@@ -6447,6 +6484,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Чо Галл Чо'Галл Чогалл огр двуглавый двухголовый War2 Warcraft2 WC2 Warcraft II 2 Tides of Darkness ToD WoW World of Warcraft Cataclysm Warlords of Draenor WoD катаклизм Орда",
     "description": "Первая голова двухголового огра. Чо контролирует тело Чо'Галла.",
     "descriptors": [
       "BodyBlocker",
@@ -6876,6 +6914,7 @@
     "difficulty": "высокая",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Хранительница Времени",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-05-17",
@@ -6885,6 +6924,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Хронорму бронзовый дракон Хроми WoW World of Warcraft Wrath of the Lich King WotLK Cataclysm Mists of Pandaria MoP Warlords of Draenor WoD катаклизм лич дренор",
     "description": "Маг, который наносит большой урон в дальнем бою, но требует грамотного расчета времени и состава команды.",
     "descriptors": [
       "EnergyImportant",
@@ -7338,6 +7378,7 @@
     "difficulty": "средняя",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Последний из хорадримов",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2018-04-24",
@@ -7347,6 +7388,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Каин D1 D2 D3 Diablo 1 2 3 I II III Diablo1 Diablo2 Diablo3 Д1 Д2 Д3 Диабло Дьябло 1 2 3 Диабло1 Диабло2 Диабло3",
     "description": "Лекарь, восполняющий большой объем здоровья за короткое время. Может готовить поле боя к будущей схватке, а также использовать против вражеской команды эффекты контроля.",
     "descriptors": [
       "AllyHealer",
@@ -7688,7 +7730,10 @@
           "fullTooltip": "При использовании «Стойкости духа» Декард усиливает находящихся рядом союзных героев. Их автоатаки начинают дополнительно наносить 62 (+4% за уровень) ед. урона по области и восполняют 90 (+4% за уровень) ед. здоровья за каждого пораженного героя. Время действия – 8 сек. Этот эффект срабатывает не чаще раза в секунду.",
           "abilityType": "Active",
           "isActive": true,
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DeckardFortitudeOfTheFaithful"
+          ]
         }
       ],
       "level16": [
@@ -7715,7 +7760,10 @@
           "shortTooltip": "Союзники усиливают «Стойкость духа».",
           "fullTooltip": "Когда рядом с Декардом находится 3 союзных героя или более, «Стойкость духа» дополнительно дает 15 ед. брони и ускоряет восстановление базовых способностей еще на 50%.",
           "abilityType": "Trait",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DeckardFortitudeOfTheFaithful"
+          ]
         },
         {
           "nameId": "DeckardHoradricStaff",
@@ -7797,6 +7845,7 @@
     "difficulty": "средняя",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Вожак изначальных зергов",
     "innerRadius": 0.875,
     "radius": 1.0,
     "releaseDate": "2016-03-29",
@@ -7806,6 +7855,7 @@
     "rarity": "Legendary",
     "mountLinkId": "DehakaBrushstalker",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Дехака Деака Изначальный зерг эссенция SC 2 SC2 Star2 Starcraft2 StarCraft II Heart of the Swarm HotS",
     "description": "Рубака, который может оказаться где угодно на поле боя и легко расправляется с большими скоплениями воинов.",
     "descriptors": [
       "BodyBlocker",
@@ -8277,6 +8327,7 @@
     "difficulty": "средняя",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Владыка Ужаса",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2014-03-13",
@@ -8286,6 +8337,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Диабло демон владыка ужаса D1 D2 D3 Diablo 1 2 3 I II III Diablo1 Diablo2 Diablo3 красный",
     "description": "Агрессивный танк, способный нанести вражеской команде непоправимый ущерб комбинированными атаками.",
     "descriptors": [
       "BodyBlocker",
@@ -8741,6 +8793,7 @@
     "difficulty": "средняя",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "Пилот МЕКА",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2017-05-16",
@@ -8750,6 +8803,7 @@
     "rarity": "Legendary",
     "mountLinkId": "DVaMechanizedWalker",
     "hearthLinkId": "Hearthstone",
+    "searchText": "дива два dva diva Ханна Сон овервоч овервотч overwatch ОВ OW человек дива",
     "description": "Хорошо защищенная рубака, наносящая внушительный урон и способная оттеснить врагов от союзников.",
     "descriptors": [
       "BodyBlocker",
@@ -9162,7 +9216,10 @@
           "shortTooltip": "Повышает урон в режиме пилота. Убийства восстанавливают «Вызов мехи».",
           "fullTooltip": "Увеличивает урон от автоатак в режиме пилота на 50%. При участии в убийстве героя в режиме пилота мгновенно восстанавливает «Вызов мехи».",
           "abilityType": "Trait",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "DVaPilotPilotMode"
+          ]
         },
         {
           "nameId": "DVaPilotNanoweaveSuit",
@@ -9173,7 +9230,10 @@
           "shortTooltip": "Ускоряет восстановление «Вызова мехи» и дает броню после катапультирования.",
           "fullTooltip": "D.Va получает 50 ед. брони на 4 сек. после того, как покидает меху. Автоатаки в режиме пилота сокращают время восстановления «Вызова мехи» на 50% эффективнее.",
           "abilityType": "Trait",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "DVaPilotPilotMode"
+          ]
         },
         {
           "nameId": "DVaPilotSuppressingFire",
@@ -9184,7 +9244,10 @@
           "shortTooltip": "Автоатаки в режиме пилота бьют дальше и замедляют противников.",
           "fullTooltip": "Увеличивает дальность автоатак в режиме пилота на 20%. Скорость передвижения пораженных автоатаками противников снижается на 20% на 2.5 сек.",
           "abilityType": "Trait",
-          "sort": 4
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "DVaPilotPilotMode"
+          ]
         }
       ],
       "level20": [
@@ -9257,6 +9320,9 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "Дальний бой",
+          "descriptors": [
+            "RoleAutoAttacker"
+          ],
           "life": {
             "amount": 1109.0,
             "scale": 0.04,
@@ -9289,6 +9355,17 @@
                 "fullTooltip": "D.Va вызывает новую меху и переходит в режим мехи.  Автоатаки сокращают время восстановления этой способности на 0.5 сек.",
                 "abilityType": "E"
               }
+            ],
+            "trait": [
+              {
+                "nameId": "DVaPilotPilotMode",
+                "name": "Режим пилота",
+                "shortTooltipId": "DVaPilotPilotMode",
+                "fullTooltipId": "DVaPilotPilotMode",
+                "icon": "storm_ui_icon_dva_pilotmode.png",
+                "fullTooltip": "Автоатаки сокращают время восстановления «Вызова мехи» на 0.5 сек. Если D.Va погибает в режиме пилота, противники получают 50% от базового объема опыта, получаемого за убийство героя.",
+                "abilityType": "Trait"
+              }
             ]
           }
         }
@@ -9303,6 +9380,7 @@
     "difficulty": "низкая",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Икона рока",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2014-03-13",
@@ -9312,6 +9390,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "E.T.C. ЕТС Элитный вождь тауренов корова гитара 90 уровень Орда Heroes of the Storm WoW вождь тауренов",
     "description": "Танк, располагающий множеством способов поддержать союзников в бою.",
     "descriptors": [
       "BodyBlocker",
@@ -9773,6 +9852,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Тан клана Громового Молота",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -9782,6 +9862,7 @@
     "rarity": "Epic",
     "mountLinkId": "FalstadFlight",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Фалстад всадник на грифоне Громовой Молот дворф Альянс WoW World of Warcraft Cataclysm BFA Battle for Azeroth",
     "description": "Убийца, способный пролетать большие расстояния. Особенно силен на больших полях боя.",
     "descriptors": [
       "EnergyImportant",
@@ -10238,6 +10319,7 @@
     "difficulty": "средняя",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Герой тамплиеров",
     "innerRadius": 0.9375,
     "radius": 1.0625,
     "releaseDate": "2018-03-27",
@@ -10247,6 +10329,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Феникс Драгун Протосс SC SC1 StarCraft II 2 SC2 Brood War BW СК СК2",
     "description": "Убийца со стабильно высоким уроном и восстанавливающимся щитом, который дает преимущество в дуэлях.",
     "descriptors": [
       "Escaper",
@@ -10703,11 +10786,13 @@
     "difficulty": "низкая",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Вождь клана Сумеречного Молота",
     "releaseDate": "2015-11-17",
     "sight": 12.0,
     "speed": 4.3984,
     "type": "Дальний бой",
     "rarity": "Legendary",
+    "searchText": "Чо Галл Чо'Галл Чогалл огр двуглавый двухголовый War2 Warcraft2 WC2 Warcraft II 2 Tides of Darkness ToD WoW World of Warcraft Cataclysm Warlords of Draenor WoD катаклизм Орда",
     "description": "Вторая голова двухголового огра. Могучий маг, приросший к Чо.",
     "descriptors": [
       "GoalsDisabled",
@@ -11157,6 +11242,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Сын Адского Крика",
     "innerRadius": 0.875,
     "radius": 0.875,
     "releaseDate": "2017-08-08",
@@ -11166,6 +11252,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Гарош WoW Orc Warchief Mists of Pandaria MoP Warlords of Draenor WoD Burning Crusade BC Wrath of the Lich King WotLK Cataclysm Гаррош Гарош горошек Горрош вождь орда орк Адский Крик Гавроша Гаврик Hearthstone HS",
     "description": "Мощный танк, который врывается в битву и изолирует противников от группы, чтобы их было легче убить.",
     "descriptors": [
       "BodyBlocker",
@@ -11643,6 +11730,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Шеф Кабестана",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -11652,6 +11740,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Газлоу гоблин Орда механик WoW World of Warcraft War3 WC3 Warcraft3 III 3 Frozen Throne FT Cataclysm Warlords Draenor WoD газлов казлов козлов BFA Battle for Azeroth газул",
     "description": "Призыватель, специализирующийся на удержании ключевых областей на поле боя.",
     "descriptors": [
       "EnergyImportant",
@@ -12148,6 +12237,7 @@
     "difficulty": "высокая",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "Киберниндзя",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-04-25",
@@ -12157,6 +12247,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "ОВ Овервоч человек киборг OW Гензи Генжи Генджи Human Cyborg Overwatch OW Shimada Шимада",
     "description": "Коварный мобильный убийца, способный серьезно потрепать слабые тылы.",
     "descriptors": [
       "EnergyImportant",
@@ -12632,6 +12723,7 @@
     "difficulty": "высокая",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Владыка воргенов",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2016-01-12",
@@ -12641,6 +12733,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Седогрив ворген Генн ворген Гилнеас Альянс WoW World of Warcraft War2 WC2 Warcraft2 Tides of Darkness ToD II Cataclysm Legion Греймейн BFA Battle for Azeroth",
     "description": "Убийца, который изматывает противников огнем с дальней дистанции, а затем добивает их в ближнем бою.  10 ед. брони в облике воргена",
     "descriptors": [
       "EnergyImportant",
@@ -13140,6 +13233,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Воплощение мрака",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2016-07-12",
@@ -13149,6 +13243,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Гул'дан Гулдан орк черн чернок чернокнижник варлок лок варкрафт 2 Орда орк War1 1 I War2 War3 WC1 WC2 WC3 Warcraft1 Warcraft2 Warcraft3 Warcraft 2 Tides of Darkness ToD II 2 III 3 Reign of Chaos RoC WoW World of Warcraft Burning Crusade BC Warlords of Draenor WoD Legion Hearthstone HS",
     "description": "Маг с высоким уроном, который расходует здоровье для пополнения запаса маны, но может также похищать его у врагов.",
     "descriptors": [
       "RoleCaster",
@@ -13601,6 +13696,7 @@
     "difficulty": "средняя",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "Искусный убийца",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-12-12",
@@ -13610,6 +13706,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "человек Овервоч овервотч ОВ OW Overwatch Shimada Шимада шымада",
     "description": "Убийца дальнего боя и превосходный разведчик, который расправляется с противниками издалека.",
     "descriptors": [
       "EnergyImportant",
@@ -14068,6 +14165,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Предатель",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -14077,6 +14175,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Иллидан Илидан Ярость Бури охотник на демонов вы не готовы ночной эльф ночные эльфы WoW World of Warcraft War3 WC3 Warcraft3 III 3 Reign of Chaos RoC Frozen Throne FT Burning Crusade BC Legion",
     "description": "Убийца с отличной мобильностью и стабильно высоким уроном. Особенно опасен, если его усиливают союзники.",
     "descriptors": [
       "BodyBlocker",
@@ -14515,6 +14614,7 @@
     "difficulty": "средняя",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Архангел Доблести",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2019-01-08",
@@ -14524,6 +14624,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Империй Империус Ангел архангел Diablo 3 III D3 Diablo3 доблесть",
     "description": "Рубака, который легко завязывает бой и наносит значительный урон одиночным целям. Хорошо подходит для рискованных атак в авангарде сражения.",
     "descriptors": [
       "BodyBlocker",
@@ -14970,6 +15071,7 @@
     "difficulty": "низкая",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Верховный маг",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-12-02",
@@ -14979,6 +15081,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Джайна Праудмур маг магичка человек Терамор Альянс WoW World of Warcraft War3 WC3 Warcraft3 III Reign of Chaos RoC Frozen Throne FT Burning Crusade BC Wrath Lich King WotLK Cataclysm Mists of Pandaria MoP Warlords Draenor WoD Legion Hearthstone HS BFA Battle for Azeroth повелитель ужаса",
     "description": "Может заморозить всю команду противника с помощью магии льда.",
     "descriptors": [
       "EnergyImportant",
@@ -15440,6 +15543,7 @@
     "difficulty": "средняя",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "Крестоносец Закарума",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-06-02",
@@ -15449,6 +15553,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Джоанна Жанна крестоносец крест крузадер нефалем D3 Diablo 3 Diablo3 III Reaper of Souls RoS красейдер крусейдер",
     "description": "Танк, особенно сильный против любителей автоатак. Быстро расправляется с группами воинов.",
     "descriptors": [
       "BodyBlocker",
@@ -15884,6 +15989,7 @@
     "difficulty": "средняя",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "Стервятник-подрывник",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-10-17",
@@ -15893,6 +15999,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Джанкер Крыс Крысюн гранаты псих стервятник человек овервоч Overwatch OW ОВ Джемисон Фокс Джеймисон",
     "description": "Убийца с высокой мобильностью, забрасывающий противников гранатами издалека. Сеет хаос с помощью мин и капканов.",
     "descriptors": [
       "RoleSpecialist",
@@ -16340,6 +16447,7 @@
     "difficulty": "высокая",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Солнечный король",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2015-05-12",
@@ -16349,6 +16457,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Кель'тас Кельтас Кель КТ принц Солнечный Скиталец эльф крови WoW World of Warcraft War3 WC3 Warcraft3 III 3 Frozen Throne FT Burning Crusade BC",
     "description": "Легко уничтожает плотные группы противников с помощью магии огня.",
     "descriptors": [
       "EnergyImportant",
@@ -16802,6 +16911,7 @@
     "difficulty": "высокая",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Верховный лич Наксрамаса",
     "innerRadius": 0.875,
     "radius": 0.875,
     "releaseDate": "2017-09-05",
@@ -16811,6 +16921,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "КТ Келтузад Кельтузад Кель'Тузед Верховный Лич Наксрамаса архелич архилич повелитель чумных земель господин некрополя глава и основатель совета шестерых создатель поганища призыватель архимонда осквернитель предатель человечества любитель харстон hearthstone правая рука короля-лича WC3 frozen throne FT WoW Wrath WotLK ярость короля-лича варкрафт вов Reign of Chaos",
     "description": "Маг, способный нанести большой урон, обездвижить противника и сокрушить его комбинированными атаками.",
     "descriptors": [
       "DeadUpdater",
@@ -17274,6 +17385,7 @@
     "difficulty": "высокая",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "Королева Клинков",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2014-03-13",
@@ -17283,6 +17395,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Керриган Кериган Сара Королева клинков Рой зерг HotS Heart of the Swarm StarCraft II 2 SC2 Brood War BW LotV Legacy Void Wings Liberty WoL SC 1 SC1 Star2 Starcraft2",
     "description": "Универсальная убийца, которая обожает врываться в гущу боя.",
     "descriptors": [
       "EnergyImportant",
@@ -17726,6 +17839,7 @@
     "difficulty": "средняя",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Монах верадани",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2015-08-18",
@@ -17735,6 +17849,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Каразим монах нефалем Карамзин D3 Diablo 3 III Reaper of Souls RoS Diablo3",
     "description": "Универсальный лекарь, отлично действующий в команде с героями ближнего боя в гуще сражения.",
     "descriptors": [
       "AllyHealer",
@@ -18207,6 +18322,7 @@
     "difficulty": "низкая",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Король-скелет",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2015-07-21",
@@ -18216,6 +18332,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Леорик король-скелет Тристрам андед нежить Diablo Diablo1 Diablo3 D1 I 1 D3 III 3",
     "description": "Рубака, особенно сильный против команд, герои которых обладают большим запасом здоровья.",
     "descriptors": [
       "EnergyImportant",
@@ -18701,6 +18818,7 @@
     "difficulty": "низкая",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Путешественница",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-04-15",
@@ -18710,6 +18828,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Ли Ли лили панда хил панда хил пандарен WoW World of Warcraft Mists of Pandaria MoP",
     "description": "Лекарь, успешно противостоящий любителям автоатак благодаря способности ослеплять их.",
     "descriptors": [
       "AllyHealer",
@@ -19157,6 +19276,7 @@
     "difficulty": "средняя",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "Мятежная чародейка",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-02-02",
@@ -19166,6 +19286,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Лиминг Ли Минг Лимин ЛМ чародей нефалем D3 Diablo 3 Diablo3 III Reaper of Souls RoS",
     "description": "Маг, который наносит высокий урон и восстанавливает способности, убивая героев.",
     "descriptors": [
       "EnergyImportant",
@@ -19639,6 +19760,7 @@
     "difficulty": "очень высокая",
     "franchise": "Classic",
     "gender": "Male",
+    "title": "Три в одном",
     "innerRadius": 0.75,
     "releaseDate": "2015-02-10",
     "speed": 20.0,
@@ -19646,6 +19768,7 @@
     "rarity": "Legendary",
     "mountLinkId": "LostVikingsGoGoGo",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Потерявшиеся викинги TLV LV Олаф Эрик Балеог три 2 LV2 классика",
     "description": "Три героя в одном! Могут собирать опыт для команды сразу в нескольких местах.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_lostvikings.png",
@@ -19750,13 +19873,13 @@
       ],
       "trait": [
         {
-          "nameId": "LostVikingsVikingHoardHeroSelect",
+          "nameId": "LostVikingsVikingHoardTalent",
           "name": "Тайник викингов",
-          "shortTooltipId": "LostVikingsVikingHoardHeroSelect",
-          "fullTooltipId": "LostVikingsVikingHoardHeroSelect",
+          "shortTooltipId": "LostVikingsVikingHoardTalent",
+          "fullTooltipId": "LostVikingsVikingHoardTalent",
           "icon": "storm_ui_icon_LostVikings_VikingHoard.png",
           "shortTooltip": "Сферы регенерации ускоряют восстановление здоровья.",
-          "fullTooltip": "Каждая собранная сфера регенерации ускоряет восстановление здоровья викингов на 0.5 ед. в секунду до конца матча.",
+          "fullTooltip": "Каждая собранная сфера регенерации повышает скорость восстановления здоровья всех викингов на 0.5 ед. в секунду до конца матча.  Текущий бонус: 0 ед. в секунду",
           "abilityType": "Trait"
         }
       ],
@@ -20148,7 +20271,10 @@
           "shortTooltip": "Ускоряет возрождение.",
           "fullTooltip": "Уменьшает время возрождения викингов на 50%.",
           "abilityType": "Trait",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "LostVikingsVikingHoardTalent"
+          ]
         },
         {
           "nameId": "LostVikingsTalentFuryoftheStorm",
@@ -20173,6 +20299,11 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "Дальний бой",
+          "descriptors": [
+            "Helper",
+            "RoleAutoAttacker",
+            "WaveClearer"
+          ],
           "life": {
             "amount": 1095.0,
             "scale": 0.04,
@@ -20206,6 +20337,11 @@
           "sight": 13.0,
           "speed": 5.0,
           "type": "Дальний бой",
+          "descriptors": [
+            "Escaper",
+            "Helper",
+            "RoleAutoAttacker"
+          ],
           "life": {
             "amount": 767.0,
             "scale": 0.04,
@@ -20232,6 +20368,11 @@
           "sight": 12.0,
           "speed": 4.3984,
           "type": "Дальний бой",
+          "descriptors": [
+            "Helper",
+            "Overconfident",
+            "RoleTank"
+          ],
           "life": {
             "amount": 1424.0,
             "scale": 0.04,
@@ -20259,6 +20400,7 @@
     "difficulty": "средняя",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "Боевой медик",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-10-06",
@@ -20268,6 +20410,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Моралес медик лейтенант терран терраны Heroes of the Storm SC Brood War BW UED ОЗД брудвор",
     "description": "Универсальный лекарь. Если ей не помешать, не допустит гибели подопечного союзника практически в любой ситуации.",
     "descriptors": [
       "AllyHealer",
@@ -20710,6 +20853,7 @@
     "difficulty": "средняя",
     "franchise": "Overwatch",
     "gender": "Male",
+    "title": "Диджей и борец за свободу",
     "innerRadius": 0.4375,
     "radius": 0.6875,
     "releaseDate": "2017-02-14",
@@ -20719,6 +20863,7 @@
     "rarity": "Legendary",
     "mountLinkId": "LucioSkateMode",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Лусио ОВ Овервоч человек OW раста Люся бразилец Лусиу Лусио диджей музыкант",
     "description": "Универсальный лекарь, который повышает мобильность своей команды и держит противника на расстоянии.",
     "descriptors": [
       "AllyHealer",
@@ -21217,6 +21362,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Первая дочь Кенария",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-12-15",
@@ -21226,6 +21372,7 @@
     "rarity": "Epic",
     "mountLinkId": "DryadGallopingGait",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Лунара дриада Кенарий ночной эльф ночные эльфы WoW World of Warcraft Legion Heroes of the Storm Hearthstone",
     "description": "Убийца, изматывающая врагов отравляющими атаками в дальнем бою.",
     "descriptors": [
       "EnergyImportant",
@@ -21762,6 +21909,7 @@
     "difficulty": "высокая",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Стражница",
     "radius": 0.75,
     "releaseDate": "2018-02-06",
     "sight": 12.0,
@@ -21770,6 +21918,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Песнь Теней Страж страж ночная эльфийка ночной эльф Альянс WoW World of Warcraft War3 WC3 Warcraft3 III 3 Frozen Throne FT Warlords Draenor WoD Legion Hearthstone HS Дренор Мэв",
     "description": "Стремительная убийца, которая легко расправляется с группами врагов, не позволяя им уйти.",
     "portraits": {
       "heroSelect": "storm_ui_ingame_heroselect_btn_maiev.png",
@@ -22215,6 +22364,7 @@
     "difficulty": "низкая",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Верховный друид",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -22224,6 +22374,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Малфурион Ярость Бури хил ночной эльф ночные эльфы друид Альянс WoW World of Warcraft War3 WC3 Warcraft3 War III 3 Reign of Chaos RoC Frozen Throne FT Cataclysm Warlords Draenor WoD Legion Hearthstone HS",
     "description": "Универсальный лекарь, который обезвреживает противников и помогает союзникам их убивать.",
     "descriptors": [
       "AllyHealer",
@@ -22678,6 +22829,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Натрезимский владыка",
     "innerRadius": 0.6875,
     "radius": 0.875,
     "releaseDate": "2018-10-16",
@@ -22687,6 +22839,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Малганис повелитель ужаса нежить демон WC3 Reign of Chaos WoW Wrath WotLK Legion варкрафт вов Легион ВотЛК Малганус",
     "description": "Танк, восполняющий себе здоровье и способный как прикрыть союзников, так и дезорганизовать противников.",
     "descriptors": [
       "BodyBlocker",
@@ -23149,6 +23302,7 @@
     "difficulty": "средняя",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Ангел Смерти",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-06-13",
@@ -23158,6 +23312,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Малтель Малтаель ангел архангел диабло жнец смерти Angel Archangel Diablo 3 D3 Reaper of Souls RoS",
     "description": "Убийца, отмечающий врагов смертоносной меткой и с легкостью убивающий противников с высоким запасом здоровья.",
     "descriptors": [
       "BodyBlocker",
@@ -23619,6 +23774,7 @@
     "difficulty": "очень высокая",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Последний Хранитель",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2016-06-14",
@@ -23628,6 +23784,7 @@
     "rarity": "Legendary",
     "mountLinkId": "MedivhTransformRaven",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Медив Мидив пророк профет War1 I WC1 Warcraft1 Warcraft3 Warcraft III WC3 War3 3 Reign of Chaos RoC WoW World of Warcraft Burning Crusade BC Hearthstone HS",
     "description": "Герой поддержки, который нейтрализует попытки быстрого убийства союзников и позволяет им телепортироваться.",
     "descriptors": [
       "EnergyImportant",
@@ -24108,6 +24265,7 @@
     "difficulty": "средняя",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Владыка Ненависти",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2018-09-04",
@@ -24117,6 +24275,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Демон D2 Diablo 2 II Diablo2 Диабло Д2 Диабло II дьябла",
     "description": "Убийца, способный постоянно наносить высокий урон и эффективно расправляться с группами противников.",
     "descriptors": [
       "EnergyImportant",
@@ -24352,7 +24511,10 @@
           "shortTooltip": "«Тень Мефисто» дает броню.",
           "fullTooltip": "Дает 20 ед. брони, пока существует тень Мефисто и в течение 2.5 сек. после ее исчезновения.",
           "abilityType": "E",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "MephistoShadeOfMephisto"
+          ]
         },
         {
           "nameId": "MephistoShadeOfMephistoFrostStorm",
@@ -24363,7 +24525,10 @@
           "shortTooltip": "«Тень Мефисто» замедляет противников.",
           "fullTooltip": "Замедляет противников рядом с тенью Мефисто на 50% на 2 сек. Пока действует «Тень Мефисто», «Призрачный череп» замедляет противников на 50%.",
           "abilityType": "E",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "MephistoShadeOfMephisto"
+          ]
         },
         {
           "nameId": "MephistoShadeOfMephistoTrickery",
@@ -24374,7 +24539,10 @@
           "shortTooltip": "«Тень Мефисто» ускоряет передвижение.",
           "fullTooltip": "«Тень Мефисто» повышает скорость передвижения Мефисто на 20% во время своего действия и в течение 2.5 сек. после исчезновения. Кроме того, по окончании действия «Тень Мефисто» снимает с Мефисто эффекты замедления и обездвиживания.",
           "abilityType": "E",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "MephistoShadeOfMephisto"
+          ]
         }
       ],
       "level10": [
@@ -24567,6 +24735,7 @@
     "difficulty": "низкая",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Горный король",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -24576,6 +24745,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Мурадин Бронзобород дворф гном Альянс Warcraft III War3 WC3 Warcraft3 3 Reign of Chaos RoC  WoW Wrath of the Lich King WotLK Cataclysm",
     "description": "Стойкий танк, который прекрасно показывает себя почти в любой ситуации.",
     "descriptors": [
       "BodyBlocker",
@@ -25032,6 +25202,7 @@
     "difficulty": "высокая",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Маленький мурлок",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-05-22",
@@ -25041,6 +25212,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Мурчаль мурлок WoW Legion Heroes of the Storm",
     "description": "Слабый герой только на первый взгляд. Может отложить яйцо и очень быстро возродиться из него после гибели.",
     "descriptors": [
       "BodyBlocker",
@@ -25482,6 +25654,7 @@
     "difficulty": "средняя",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Колдун-ренегат",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2014-03-13",
@@ -25491,6 +25664,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Назибо колдун ВД вичдоктор нефалем D3 Diablo 3 Diablo3 III Reaper of Souls RoS WD",
     "description": "Маг, который наносит стабильно высокий урон и становится сильнее, убивая вражеских воинов.",
     "descriptors": [
       "EnergyImportant",
@@ -25955,6 +26129,7 @@
     "difficulty": "средняя",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "Призрак Доминиона",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -25964,6 +26139,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Нова Терра терран снайпер инвиз маскировка призрак стелс SC2 StarCraft 2 II Wings of Liberty WoL Heart of the Swarm HotS SC Covert Ops CO Star2 Starcraft2",
     "description": "Замаскированный маг, способный быстро расправляться с героями из засады.",
     "descriptors": [
       "EnergyImportant",
@@ -26446,6 +26622,7 @@
     "difficulty": "средняя",
     "franchise": "Nexus",
     "gender": "Female",
+    "title": "Наследница Вороньего двора",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2018-11-13",
@@ -26455,6 +26632,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Орфеа ",
     "description": "Убийца дальнего боя, которая танцует вокруг противников и использует способности, усиливающие ее атаки.",
     "descriptors": [
       "Escaper",
@@ -26790,7 +26968,10 @@
           "fullTooltip": "При использовании после паузы в 2 сек. наносит находящимся рядом противникам 150 (+4% за уровень) ед. урона. За каждого пораженного героя Орфея восполняет 182 (+4% за уровень) ед. здоровья и получает 1 эффект «Хаоса».",
           "abilityType": "Trait",
           "isActive": true,
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "OrpheaOverflowingChaos"
+          ]
         }
       ],
       "level16": [
@@ -26910,6 +27091,7 @@
     "difficulty": "высокая",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Любопытный зонд",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-03-14",
@@ -26919,6 +27101,7 @@
     "rarity": "Legendary",
     "mountLinkId": "ProbiusWorkerRush",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Зонд Протосс СК СК2 старкрафт SC SC1 SC2 StarCraft пробка зонд",
     "description": "Вызывает пушки и наносит большой урон, но для эффективных действий должен находиться рядом с пилонами.",
     "descriptors": [
       "RoleSpecialist",
@@ -27399,6 +27582,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Повелитель Огня",
     "innerRadius": 0.875,
     "radius": 1.0,
     "releaseDate": "2016-12-14",
@@ -27408,6 +27592,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Рагнарос Повелитель Огня Огненные недра Molten Core MC элементаль WoW World of Warcraft Cataclysm Hearthstone HS",
     "description": "Рубака, способный свести на нет попытки штурма союзных фортов или крепостей.",
     "descriptors": [
       "EnergyImportant",
@@ -27926,6 +28111,7 @@
     "difficulty": "низкая",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Лидер мятежников",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -27935,6 +28121,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Рейнор генерал Джеймс Джимми командир морпех терран терраны HotS Heart of the Swarm SC SC1 StarCraft II 2 SC2 Brood War BW LotV Legacy Void Wings Liberty WoL Star2 Starcraft2",
     "description": "Убийца с сильными автоатаками, способный держать врага на расстоянии.",
     "descriptors": [
       "EnergyImportant",
@@ -28394,6 +28581,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Шаман Служителей Земли",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-07-22",
@@ -28403,6 +28591,7 @@
     "rarity": "Epic",
     "mountLinkId": "RehgarGhostWolfActivate",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Регар Ярость Земли орк шам шаман гера бл Орда WoW World of Warcraft Legion",
     "description": "Лекарь, лучше всего работающий в команде с героями ближнего боя.",
     "descriptors": [
       "AllyHealer",
@@ -28888,6 +29077,7 @@
     "difficulty": "высокая",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Герой Орды",
     "innerRadius": 0.875,
     "radius": 0.875,
     "releaseDate": "2015-09-08",
@@ -28897,6 +29087,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Рексар Рэксар вождь охотник повелитель зверей бистмастер Миша полуорк полуогр Орда WoW World of Warcraft War3 WC3 Warcraft3 III Frozen Throne FT Burning Crusade BC Warlords Draenor WoD Legion Hearthstone HS BFA Battle for Azeroth",
     "description": "Рубака, сражающийся вместе с медведицей Мишей. Силен в удержании контроля над областями на поле боя.",
     "descriptors": [
       "EnergyImportant",
@@ -29368,6 +29559,7 @@
     "difficulty": "высокая",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Мастер клинка",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2016-10-18",
@@ -29377,6 +29569,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Самуро орк мастер клинка Орда Warcraft III 3 War3 Warcraft3 WC3 Frozen Throne FT WoW",
     "description": "Замаскированный убийца, который быстро захватывает лагеря наемников и искусно уходит от смерти.",
     "descriptors": [
       "Ganker",
@@ -29821,6 +30014,7 @@
     "difficulty": "высокая",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "Оператор осадного танка",
     "innerRadius": 0.9375,
     "radius": 1.1875,
     "releaseDate": "2014-03-13",
@@ -29830,6 +30024,7 @@
     "rarity": "Epic",
     "mountLinkId": "SgtHammerThrusters",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Сержант Кувалда Хаммер осадный танк терран терраны StarCraft II SC 2 SC2 Legacy of the Void LotV Star2 Starcraft2 Бама баба-молот",
     "description": "Наносит повышенный урон автоатаками с большого расстояния, но всегда требует поддержки союзников.",
     "descriptors": [
       "EnergyImportant",
@@ -30292,6 +30487,7 @@
     "difficulty": "средняя",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "Странствующий варвар",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -30301,6 +30497,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Варвар Соня варвар нефалем D3 Diablo 3 Diablo3 III Reaper of Souls RoS",
     "description": "Рубака, способная быстро захватывать лагеря наемников и обожающая врываться в самую гущу боя.",
     "descriptors": [
       "Ganker",
@@ -30743,6 +30940,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Ужас Темнолесья",
     "innerRadius": 0.9375,
     "radius": 1.0625,
     "releaseDate": "2014-03-13",
@@ -30752,6 +30950,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Стежок поганище андед нежить WoW World of Warcraft",
     "description": "Танк, предпочитающий атаковать одиноких противников и изолировать их от команды.",
     "descriptors": [
       "BodyBlocker",
@@ -31217,6 +31416,7 @@
     "difficulty": "средняя",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Зараженный адмирал",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2017-07-11",
@@ -31226,6 +31426,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Стаков Starcraft Brood War BW SC2 SC Heart of the Swarm HotS Legacy of the Void LotV Zerg Infested Terran UED Старкрафт зерг Стуков стукач зараженный терран",
     "description": "Лекарь, способный сильно навредить врагам на большом расстоянии.",
     "descriptors": [
       "AllyHealer",
@@ -31714,6 +31915,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Королева-банши",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2015-03-24",
@@ -31723,6 +31925,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Сильвана Ветрокрылая банши королева андед нежить Орда вождь эльф эльфы WoW World of Warcraft War3 WC3 Warcraft3 III Reign of Chaos RoC Frozen Throne FT Cataclysm Warlords Draenor WoD Legion BFA Battle for Azeroth Бфа",
     "description": "Убийца, способная выводить из строя вражеские форты и крепости.",
     "descriptors": [
       "EnergyImportant",
@@ -32173,6 +32376,7 @@
     "difficulty": "средняя",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Спаситель тамплиеров",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
@@ -32182,6 +32386,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Тассадар Тасадар тамплиер темплар протосс Айур SC StarCraft 1 SC1 Star1 Starcraft1",
     "description": "Герой поддержки, усиливающий любителей врываться в гущу боя.",
     "descriptors": [
       "ChanneledAutoAttacker",
@@ -32629,6 +32834,7 @@
     "difficulty": "средняя",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Терзатель плоти",
     "innerRadius": 0.9375,
     "radius": 0.9375,
     "releaseDate": "2015-06-30",
@@ -32638,6 +32844,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Мясник свежее мясо демон D1 D3 Diablo 1 3 I III Diablo1 Diablo3",
     "description": "Убийца, который наносит чудовищный урон, стоит ему собрать достаточно свежего мяса.",
     "descriptors": [
       "EnergyImportant",
@@ -33070,6 +33277,7 @@
     "difficulty": "низкая",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Вождь Орды",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2015-01-13",
@@ -33079,6 +33287,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Тралл Тралл Го'эл Гоэл шам орк Молот Рока вождь Орда WoW World of Warcraft War3 WC3 Warcraft3 III 3 Reign of Chaos RoC Frozen Throne FT Burning Crusade BC Wrath Lich King WotLK Cataclysm Mists of Pandaria MoP Legion Hearthstone HS",
     "description": "Рубака, способный удерживать целую линию в одиночку.",
     "descriptors": [
       "EnergyImportant",
@@ -33536,6 +33745,7 @@
     "difficulty": "высокая",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "Агент Overwatch",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2016-04-19",
@@ -33545,6 +33755,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Трейсер Трейсер Лена Окстон овервоч человек OW ОВ",
     "description": "Мобильная убийца, способная быстро догонять и добивать отрезанных от команды противников.",
     "descriptors": [
       "Escaper",
@@ -33751,7 +33962,10 @@
           "shortTooltip": "«Скачок» получает больше зарядов.",
           "fullTooltip": "Увеличивает максимальное число зарядов «Скачка» на 1, но также увеличивает время его восстановления на 2 сек.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "TracerBlink"
+          ]
         },
         {
           "nameId": "TracerBulletTime",
@@ -33762,7 +33976,10 @@
           "shortTooltip": "Автоатаки ускоряют восстановление «Скачка».",
           "fullTooltip": "Автоатаки Трейсер сокращают время восстановления «Скачка» на 0.15 сек.",
           "abilityType": "Q",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "TracerBlink"
+          ]
         },
         {
           "nameId": "TracerSpatialEcho",
@@ -33773,7 +33990,10 @@
           "shortTooltip": "Убийства героев дают заряды «Скачка».",
           "fullTooltip": "При убийстве героя Трейсер получает 2 заряда «Скачка».",
           "abilityType": "Q",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "TracerBlink"
+          ]
         }
       ],
       "level10": [
@@ -33956,6 +34176,7 @@
     "difficulty": "средняя",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Отъявленный преступник",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2014-03-18",
@@ -33965,6 +34186,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Тайкус Финдли морпех терран миниган пулемет SC2 SC 2 II StarCraft Wings of Liberty WoL Star2 Starcraft2",
     "description": "Убийца, специализирующийся на ликвидации противников с высоким запасом здоровья.",
     "descriptors": [
       "EnergyImportant",
@@ -34464,6 +34686,7 @@
     "difficulty": "средняя",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Архангел Справедливости",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -34473,6 +34696,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Тираэль ангел справедливость архангел D2 D3 Diablo2 Diablo3 Diablo 2 3 III Lord of Destruction LoD Reaper of Souls RoS",
     "description": "Танк, который лучше всего раскрывается в паре с союзниками, врывающимися в гущу боя.",
     "descriptors": [
       "BodyBlocker",
@@ -34916,6 +35140,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Верховная жрица Элуны",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -34925,6 +35150,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Тиранда Шелест Ветра сова лучница ночной эльф ночные эльфы Элуна жрица Альянс WoW World of Warcraft War3 WC3 Warcraft3 III 3 Reign of Chaos RoC Frozen Throne FT Cataclysm Mists of Pandaria MoP Warlords Draenor WoD Legion Hearthstone HS",
     "description": "Герой поддержки, помогающий команде обезвреживать и убивать вражеских героев.",
     "descriptors": [
       "AllyHealer",
@@ -35388,6 +35614,7 @@
     "difficulty": "низкая",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Светоносный",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -35397,6 +35624,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Утер паладин Светоносный человек Альянс WoW War2 WC2 Warcraft2 2 II Tides of Darkness ToD World of Warcraft War3 WC3 Warcraft3 III 3 Reign of Chaos RoC Hearthstone HS",
     "description": "Лекарь, способный свести на нет попытки быстрого убийства союзников.",
     "descriptors": [
       "AllyHealer",
@@ -35509,13 +35737,14 @@
       ],
       "trait": [
         {
-          "nameId": "UtherDevotionEternalVanguardShop",
-          "name": "Вечное служение",
-          "shortTooltipId": "UtherDevotionEternalVanguardShop",
-          "fullTooltipId": "UtherDevotionEternalVanguardShop",
+          "nameId": "UtherEternalDevotion",
+          "name": "Служение",
+          "shortTooltipId": "UtherEternalDevotion",
+          "fullTooltipId": "UtherEternalDevotion",
           "icon": "storm_ui_icon_uther_eternaldevotion.png",
+          "cooldownTooltip": "Время восстановления: 180 сек.",
           "shortTooltip": "Исцеление дает союзникам броню. После смерти дух Утера остается на поле боя.",
-          "fullTooltip": "Исцеленные базовыми способностями Утера союзные герои получают 25 ед. брони на 2 сек. Эффект не суммируется.  В момент гибели Утер превращается в неуязвимого духа и находится в таком состоянии до 8 сек. В этом облике он может исцелять союзников способностью «Вспышка Света».",
+          "fullTooltip": "Исцеленные базовыми способностями Утера союзные герои получают 25 ед. брони на 2 сек. Эффект не суммируется.  Вечное служение  В момент гибели Утер превращается в неуязвимого духа и находится в таком состоянии до 8 сек. В этом облике он может исцелять союзников способностью «Вспышка Света».",
           "abilityType": "Trait"
         }
       ]
@@ -35625,7 +35854,10 @@
           "shortTooltip": "Наносит урон противникам поблизости.",
           "fullTooltip": "Наносит находящимся поблизости противникам 13 (+4% за уровень) ед. урона в секунду. Автоатаки по героям увеличивают этот урон на  20% на 3 сек. Эффект суммируется до 3 раз.",
           "abilityType": "Passive",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         }
       ],
       "level7": [
@@ -35652,7 +35884,10 @@
           "shortTooltip": "Обезвреженные цели получают усиленную броню.",
           "fullTooltip": "При исцелении оглушенного, обездвиженного или пораженного эффектом немоты героя прочность получаемой от «Служения» брони увеличивается с 25 до 50 ед.",
           "abilityType": "Trait",
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         },
         {
           "nameId": "UtherHandOfProtection",
@@ -35829,7 +36064,10 @@
           "shortTooltip": "Возрождает Утера после окончания действия «Вечного служения».",
           "fullTooltip": "По окончании действия «Вечного служения» Утер возрождается с запасом здоровья в 50% от максимального в точке, где находится его дух.  Время восстановления – 180 сек.",
           "abilityType": "Trait",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         },
         {
           "nameId": "UtherEternalDevotionDivineProtection",
@@ -35840,7 +36078,10 @@
           "shortTooltip": "Усиливает броню от «Служения».",
           "fullTooltip": "После применения «Служения» к герою с уже действующим эффектом его броня увеличивается до 50 ед.",
           "abilityType": "Trait",
-          "sort": 4
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "UtherEternalDevotion"
+          ]
         }
       ]
     }
@@ -35853,6 +36094,7 @@
     "difficulty": "высокая",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Тень Некоронованных",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2017-01-24",
@@ -35862,6 +36104,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Валера Сангвинар рога эльф крови WoW World of Warcraft Legion Hearthstone HS Валира Валера",
     "description": "Замаскированная убийца, которая обезвреживает героев противника и быстро с ними расправляется.",
     "descriptors": [
       "Ganker",
@@ -36373,6 +36616,7 @@
     "difficulty": "низкая",
     "franchise": "Diablo",
     "gender": "Female",
+    "title": "Охотница на демонов",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2014-03-13",
@@ -36382,6 +36626,7 @@
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Валла охотник на демонов демонхантер демонхант ДХ нефалем D3 Diablo 3 III  Diablo3 Reaper of Souls RoS",
     "description": "Убийца, которая обладает отличной мобильностью и может непрерывно наносить высокий урон.",
     "descriptors": [
       "EnergyImportant",
@@ -36847,6 +37092,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Король Альянса",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2016-11-15",
@@ -36856,6 +37102,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Вариан Ринн логош Вариан ло'гош WoW World of Warcraft Wrath of the Lich King WotLK Cataclysm Mists of Pandaria MoP Warlords of Draenor WoD катаклизм лич дренор Legion легион",
     "description": "Может стать как танком, так и эффективным убийцей.",
     "descriptors": [
       "EnergyImportant",
@@ -37327,6 +37574,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Верховный инквизитор",
     "innerRadius": 0.625,
     "radius": 0.625,
     "releaseDate": "2018-08-07",
@@ -37336,6 +37584,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "салли жрец человек WoW World of Warcraft Mists of Pandaria MoP ВоВ МоП Legion Легион",
     "description": "Разноплановый лекарь, способный исцелять союзников, нанося урон врагам.",
     "descriptors": [
       "AllyHealer",
@@ -37789,6 +38038,7 @@
     "difficulty": "средняя",
     "franchise": "Diablo",
     "gender": "Male",
+    "title": "Таинственный некромант",
     "innerRadius": 0.6875,
     "radius": 0.6875,
     "releaseDate": "2016-03-01",
@@ -37798,6 +38048,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Зул Зуул некромант Зуль Xul Xuul Zuul Zul Zool Некромант некр человек Diablo 2 Зул D2 d2 Diablo2",
     "description": "Призыватель, который может с легкостью вести наступление по нескольким линиям.",
     "descriptors": [
       "EnergyImportant",
@@ -38258,6 +38509,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Female",
+    "title": "Свет надежды",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2018-06-12",
@@ -38267,6 +38519,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Ирэль WoW дреней Warlords of Drenor Дренор ВоВ Варкрафт WoD ВоД Альянс паладин BFA Battle for Azeroth",
     "description": "Осмотрительный танк ближнего боя. Может усилить свои способности, потратив время на обстоятельную подготовку.",
     "descriptors": [
       "BodyBlocker",
@@ -38713,6 +38966,7 @@
     "difficulty": "средняя",
     "franchise": "Starcraft",
     "gender": "Female",
+    "title": "Мать стаи",
     "innerRadius": 0.9375,
     "radius": 1.125,
     "releaseDate": "2014-06-25",
@@ -38722,6 +38976,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Загара мать стаи зерг Рой HotS Heart of the Swarm StarCraft II 2 SC2 SC Star2 Starcraft2",
     "description": "Призыватель, обеспечивающий союзникам обзор на поле боя.",
     "descriptors": [
       "EnergyImportant",
@@ -39171,6 +39426,7 @@
     "difficulty": "низкая",
     "franchise": "Overwatch",
     "gender": "Female",
+    "title": "Защитница России",
     "innerRadius": 0.8125,
     "radius": 0.8125,
     "releaseDate": "2016-09-27",
@@ -39180,6 +39436,7 @@
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
+    "searchText": "Заря Александра ОВ Овервоч человек Overwatch OW",
     "description": "Рубака, способная превращать союзников-убийц в машины смерти и предотвращать получение большого количества урона за короткое время.",
     "descriptors": [
       "ChanneledAutoAttacker",
@@ -39697,6 +39954,7 @@
     "difficulty": "высокая",
     "franchise": "Starcraft",
     "gender": "Male",
+    "title": "Темный прелат",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2014-03-13",
@@ -39706,6 +39964,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Зератул ЗТ темный тамплиер ТТ темплар протосс прелат HotS Heart of the Swarm StarCraft II 2 SC2 Brood War BW LotV Legacy Void Wings Liberty WoL SC 1 SC1 Star2 Starcraft2 Star1 Starcraft1",
     "description": "Замаскированный убийца, способный незамеченным пробираться в тыл врага.",
     "descriptors": [
       "EnergyImportant",
@@ -40162,6 +40421,7 @@
     "difficulty": "средняя",
     "franchise": "Warcraft",
     "gender": "Male",
+    "title": "Вождь племени Амани",
     "innerRadius": 0.75,
     "radius": 0.75,
     "releaseDate": "2017-01-04",
@@ -40171,6 +40431,7 @@
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
+    "searchText": "Зулджин тролль варкрафт вов бк орда Warcraft2 Warcraft II 2 Tides of Darkness ToD World of Warcraft WoW Burning Crusade BC",
     "description": "Убийца, который становится тем сильнее, чем меньше у него остается здоровья.",
     "descriptors": [
       "EnergyImportant",
