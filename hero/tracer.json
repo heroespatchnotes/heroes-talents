@@ -10,6 +10,11 @@
   "type": "Ranged",
   "releaseDate": "2016-04-19",
   "releasePatch": "1.17.2.42273",
+  "tags": [
+    "Escaper",
+    "Ganker",
+    "RoleAutoAttacker"
+  ],
   "abilities": {
     "Tracer": [
       {
@@ -143,7 +148,10 @@
         "icon": "storm_ui_icon_tracer_blink_b.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Tracer|Q"
+        "abilityId": "Tracer|Q1",
+        "abilityLinks": [
+          "Tracer|Q1"
+        ]
       },
       {
         "tooltipId": "TracerBulletTime",
@@ -153,7 +161,10 @@
         "icon": "storm_ui_icon_tracer_blink_c.png",
         "type": "Q",
         "sort": 2,
-        "abilityId": "Tracer|Q"
+        "abilityId": "Tracer|Q1",
+        "abilityLinks": [
+          "Tracer|Q1"
+        ]
       },
       {
         "tooltipId": "TracerSpatialEcho",
@@ -163,7 +174,10 @@
         "icon": "storm_ui_icon_tracer_blink_d.png",
         "type": "Q",
         "sort": 3,
-        "abilityId": "Tracer|Q"
+        "abilityId": "Tracer|Q1",
+        "abilityLinks": [
+          "Tracer|Q1"
+        ]
       }
     ],
     "10": [

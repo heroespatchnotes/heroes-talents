@@ -10,6 +10,12 @@
   "type": "Ranged",
   "releaseDate": "2017-05-16",
   "releasePatch": "2.25.4.53548",
+  "tags": [
+    "BodyBlocker",
+    "Escaper",
+    "Overconfident",
+    "RoleTank"
+  ],
   "abilities": {
     "D.Va": [
       {
@@ -81,6 +87,13 @@
         "abilityId": "D.Va|E2",
         "cooldown": 45,
         "icon": "storm_ui_icon_dva_callmech.png",
+        "type": "subunit"
+      },
+      {
+        "name": "Pilot Mode",
+        "description": "Basic Attacks reduce the cooldown of Call Mech by 0.5 seconds. As a Pilot, D.Va only awards 50% of a normal Hero's experience upon dying.",
+        "abilityId": "D.Va|D2",
+        "icon": "storm_ui_icon_dva_pilotmode.png",
         "type": "subunit"
       }
     ]
@@ -341,7 +354,10 @@
         "icon": "storm_ui_icon_dva_pilotmode.png",
         "type": "Trait",
         "sort": 2,
-        "abilityId": "D.Va|Trait"
+        "abilityId": "D.Va|D2",
+        "abilityLinks": [
+          "D.Va|D2"
+        ]
       },
       {
         "tooltipId": "DVaPilotNanoweaveSuit",
@@ -351,7 +367,10 @@
         "icon": "storm_ui_icon_dva_pilotmode_a.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "D.Va|Trait"
+        "abilityId": "D.Va|D2",
+        "abilityLinks": [
+          "D.Va|D2"
+        ]
       },
       {
         "tooltipId": "DVaPilotSuppressingFire",
@@ -361,7 +380,10 @@
         "icon": "storm_ui_icon_dva_pilotmode_b.png",
         "type": "Trait",
         "sort": 4,
-        "abilityId": "D.Va|Trait"
+        "abilityId": "D.Va|D2",
+        "abilityLinks": [
+          "D.Va|D2"
+        ]
       }
     ],
     "20": [
