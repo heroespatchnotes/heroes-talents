@@ -54,8 +54,8 @@
         "description": "Summon a ring of blazing swords that grants 1000 (+4% per level) Shield for 3 seconds.  If the Shield lasts the full duration, this ability can be reactivated within 5 seconds to launch 6 swords toward an area, each dealing 140 (+4% per level) damage to the first enemy hit.",
         "hotkey": "R",
         "abilityId": "Imperius|R1",
-        "cooldown": 60,
-        "manaCost": 60,
+        "cooldown": 70,
+        "manaCost": 70,
         "icon": "storm_ui_icon_imperius_r1.png",
         "type": "heroic"
       },
@@ -110,12 +110,12 @@
         ]
       },
       {
-        "tooltipId": "ImperiusSolarionsFireBurnTheImpure",
-        "talentTreeId": "ImperiusSolarionsFireBurnTheImpure",
-        "name": "Burn The Impure",
-        "description": "Consuming a Solarion's Fire mark deals bonus damage equal to 3% of the Hero's maximum Health.",
-        "icon": "storm_ui_icon_imperius_w_alt_01.png",
-        "type": "W",
+        "tooltipId": "ImperiusValorousBrandBurnTheImpure",
+        "talentTreeId": "ImperiusValorousBrandBurnTheImpure",
+        "name": "Burn the Impure",
+        "description": "Consuming a Valorous Brand mark deals bonus damage equal to 2.5% of the Hero's maximum Health.",
+        "icon": "storm_ui_icon_imperius_trait.png",
+        "type": "Trait",
         "sort": 3,
         "abilityId": "Imperius|W1",
         "abilityLinks": [
@@ -128,7 +128,7 @@
         "tooltipId": "ImperiusSolarionsFireBulwarkOfFlame",
         "talentTreeId": "ImperiusSolarionsFireBulwarkOfFlame",
         "name": "Bulwark of Flame",
-        "description": "Hitting a Hero with Solarion's Fire grants 60 Physical Armor against the next 2 enemy Hero Basic Attacks. Stores up to 4 Charges.",
+        "description": "Hitting a Hero with Solarion's Fire grants 70 Physical Armor against the next 2 enemy Hero Basic Attacks. Stores up to 4 Charges.",
         "icon": "storm_ui_icon_imperius_w.png",
         "type": "W",
         "sort": 1,
@@ -169,7 +169,7 @@
         "tooltipId": "ImperiusCelestialChargeFlashOfAnger",
         "talentTreeId": "ImperiusCelestialChargeFlashOfAnger",
         "name": "Flash of Anger",
-        "description": "Hitting a Hero marked by Solarion's Fire with Celestial Charge deals 160 (+4% per level) damage around the target.",
+        "description": "Hitting a Hero marked by Solarion's Fire with Celestial Charge deals 180 (+4% per level) damage around the target.",
         "icon": "storm_ui_icon_imperius_q.png",
         "type": "Q",
         "sort": 1,
@@ -212,7 +212,7 @@
         "icon": "storm_ui_icon_imperius_r1.png",
         "type": "Heroic",
         "sort": 1,
-        "cooldown": 60,
+        "cooldown": 70,
         "abilityId": "Imperius|R1",
         "abilityLinks": [
           "Imperius|R1"
@@ -264,7 +264,7 @@
         "tooltipId": "ImperiusMoltenArmorHeatOfBattle",
         "talentTreeId": "ImperiusMoltenArmorHeatOfBattle",
         "name": "Heat of Battle",
-        "description": "Molten Armor heals 25% more while Imperius is below 50% Health.",
+        "description": "Molten Armor heals 35% more while Imperius is below 50% Health.",
         "icon": "storm_ui_icon_imperius_e_alt_01.png",
         "type": "E",
         "sort": 3,
@@ -357,11 +357,11 @@
         "tooltipId": "ImperiusValorousPursuit",
         "talentTreeId": "ImperiusValorousPursuit",
         "name": "Valorous Pursuit",
-        "description": "Activate to teleport to an enemy that has been marked by Valorous Brand.",
+        "description": "Activate to teleport to an enemy that has been marked by Valorous Brand and gain 25 Armor for 3 seconds.",
         "icon": "storm_ui_icon_imperius_item_03.png",
         "type": "Active",
         "sort": 4,
-        "cooldown": 15,
+        "cooldown": 12,
         "abilityId": "Imperius|Active"
       }
     ]
