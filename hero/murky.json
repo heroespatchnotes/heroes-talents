@@ -9,7 +9,18 @@
   "role": "Specialist",
   "type": "Melee",
   "releaseDate": "2014-05-22",
-  "releasePatch": "0.1.1.11111",
+  "releasePatch": "0.1.1.00000",
+  "tags": [
+    "BodyBlocker",
+    "Escaper",
+    "Ganker",
+    "MercKiller",
+    "Overconfident",
+    "RoleSpecialist",
+    "SoloLaner",
+    "TowerPusher",
+    "WaveClearer"
+  ],
   "abilities": {
     "Murky": [
       {
@@ -138,12 +149,12 @@
         "tooltipId": "MurkyLivingTheDreamTalent",
         "talentTreeId": "MurkyLivingtheDream",
         "name": "Living the Dream",
-        "description": "Quest: Every 15 seconds Murky is alive, he gains 5% Spell Power, up to 15%. This bonus is reset upon his death.",
+        "description": "Quest: Every 15 seconds Murky is alive, he gains 5% Spell Power, up to 20%. This bonus is reset upon his death.",
         "icon": "storm_ui_icon_murky_trait_spawnegg_var1.png",
         "type": "Passive",
         "sort": 3,
         "isQuest": true,
-        "abilityId": "Murky|D1",
+        "abilityId": "Murky|Passive",
         "abilityLinks": [
           "Murky|D1"
         ]
@@ -252,7 +263,7 @@
         "icon": "storm_ui_icon_murky_fishtank.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Murky|D1",
+        "abilityId": "Murky|Passive",
         "abilityLinks": [
           "Murky|D1"
         ]

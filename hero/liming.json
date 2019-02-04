@@ -10,6 +10,12 @@
   "type": "Ranged",
   "releaseDate": "2016-02-02",
   "releasePatch": "1.16.0.40431",
+  "tags": [
+    "EnergyImportant",
+    "Ganker",
+    "RoleCaster",
+    "TowerPusher"
+  ],
   "abilities": {
     "Li-Ming": [
       {
@@ -82,7 +88,7 @@
         "icon": "storm_btn_d3_traits_wizard_astralpresence.png",
         "type": "Passive",
         "sort": 1,
-        "abilityId": "Li-Ming|D1",
+        "abilityId": "Li-Ming|Passive",
         "abilityLinks": [
           "Li-Ming|D1"
         ]
@@ -95,7 +101,7 @@
         "icon": "storm_ui_icon_talent_powerhungry.png",
         "type": "Passive",
         "sort": 2,
-        "abilityId": "Li-Ming|D1",
+        "abilityId": "Li-Ming|Passive",
         "abilityLinks": [
           "Li-Ming|D1"
         ]
@@ -117,7 +123,7 @@
         "tooltipId": "WizardAetherWalkerTalent",
         "talentTreeId": "WizardAetherWalker",
         "name": "Aether Walker",
-        "description": "If Li-Ming hasn't taken damage in the last 4 seconds, Teleport costs no mana and its cooldown is decreased by 2 seconds.",
+        "description": "If Li-Ming hasn't taken damage in the last 3 seconds, Teleport costs no mana and its cooldown is decreased by 2 seconds.",
         "icon": "storm_ui_icon_wizard_teleport.png",
         "type": "E",
         "sort": 4,
@@ -248,7 +254,7 @@
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
         "sort": 1,
-        "abilityId": "Li-Ming|D1",
+        "abilityId": "Li-Ming|Passive",
         "abilityLinks": [
           "Li-Ming|D1"
         ]
@@ -261,7 +267,7 @@
         "icon": "storm_btn_d3_traits_wizard_glasscannon.png",
         "type": "Passive",
         "sort": 2,
-        "abilityId": "Li-Ming|D1",
+        "abilityId": "Li-Ming|Passive",
         "abilityLinks": [
           "Li-Ming|D1"
         ]
@@ -324,7 +330,7 @@
         "tooltipId": "WizardTeleportDiamondSkinTalent",
         "talentTreeId": "WizardTeleportDiamondSkin",
         "name": "Diamond Skin",
-        "description": "Teleport grants a Shield equal to 20% of Li-Ming's maximum Health for 4 seconds.",
+        "description": "Teleport grants a Shield equal to 25% of Li-Ming's maximum Health for 4 seconds.",
         "icon": "storm_ui_icon_wizard_teleport.png",
         "type": "E",
         "sort": 4,
@@ -369,7 +375,7 @@
         "icon": "storm_btn_d3_traits_wizard_elementalexposure.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Li-Ming|D1",
+        "abilityId": "Li-Ming|Passive",
         "abilityLinks": [
           "Li-Ming|D1"
         ]

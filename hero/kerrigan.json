@@ -9,7 +9,13 @@
   "role": "Assassin",
   "type": "Melee",
   "releaseDate": "2014-03-13",
-  "releasePatch": "0.1.1.11111",
+  "releasePatch": "0.1.1.00000",
+  "tags": [
+    "EnergyImportant",
+    "Ganker",
+    "Overconfident",
+    "RoleCaster"
+  ],
   "abilities": {
     "Kerrigan": [
       {
@@ -24,7 +30,7 @@
       },
       {
         "name": "Impaling Blades",
-        "description": "After 1.25 seconds, deal 165 (+4% per level) damage to enemies within the target area, stunning them for 1 second.",
+        "description": "After 1.25 seconds, deal 165 (+4% per level) damage to enemies within the target area, Stunning them for 1 second.",
         "hotkey": "W",
         "abilityId": "Kerrigan|W1",
         "cooldown": 12,
@@ -91,7 +97,7 @@
         "tooltipId": "KerriganAssimilationMasteryTalent",
         "talentTreeId": "KerriganAssimilationMastery",
         "name": "Assimilation Mastery",
-        "description": "Regeneration Globe healing grants 40 (+4% per level) points of Assimilation Shields per second while active. While Assimilation is active, Kerrigan's Health and Mana regeneration is increased by 150%.",
+        "description": "Regeneration Globe healing grants 45 (+4% per level) points of Assimilation Shields per second while active. While Assimilation is active, Kerrigan's Health and Mana regeneration is increased by 150%.",
         "icon": "storm_ui_icon_kerrigan_assimilation.png",
         "type": "Trait",
         "sort": 2,
@@ -226,7 +232,7 @@
         "tooltipId": "KerriganPrimalGraspPsionicBarrier",
         "talentTreeId": "KerriganPrimalGraspPsionicBarrier",
         "name": "Psionic Barrier",
-        "description": "Each enemy Hero hit by Primal Grasp grants 15 Spell Armor for 4 seconds.",
+        "description": "Each enemy Hero hit by Primal Grasp grants 20 Spell Armor for 4 seconds.",
         "icon": "storm_ui_icon_kerrigan_primalgrasp.png",
         "type": "E",
         "sort": 1,

@@ -10,6 +10,12 @@
   "type": "Melee",
   "releaseDate": "2015-06-02",
   "releasePatch": "1.11.1.35702",
+  "tags": [
+    "BodyBlocker",
+    "Overconfident",
+    "RoleTank",
+    "WaveClearer"
+  ],
   "abilities": {
     "Johanna": [
       {
@@ -44,11 +50,11 @@
       },
       {
         "name": "Falling Sword",
-        "description": "Johanna leaps towards an area.  While in the air, she can steer the landing location by moving.  After 2 seconds Johanna lands, dealing 183 (+4% per level) damage to nearby enemies, Stunning them for 0.2 seconds, and Slowing them by 50% for 3 seconds.",
+        "description": "Johanna leaps towards an area.  While in the air, she can steer the landing location by moving.  After 2 seconds Johanna lands, dealing 210 (+4% per level) damage to nearby enemies, Stunning them for 0.2 seconds, and Slowing them by 50% for 3 seconds.",
         "hotkey": "R",
         "abilityId": "Johanna|R1",
-        "cooldown": 60,
-        "manaCost": 90,
+        "cooldown": 50,
+        "manaCost": 60,
         "icon": "storm_ui_icon_johanna_falling_sword.png",
         "type": "heroic"
       },
@@ -80,11 +86,11 @@
         "tooltipId": "CrusaderIronSkinReinforceTalent",
         "talentTreeId": "CrusaderMasteryIronSkinReinforce",
         "name": "Reinforce",
-        "description": "Using a Basic Ability grants 75 Physical Armor against the next enemy Hero Basic Attack, reducing damage taken by 75%.  Stores up to 2 charges.",
+        "description": "Using a Basic Ability grants 75 Physical Armor against the next enemy Hero Basic Attack, reducing damage taken by 75%.  Stores up to 3 charges.",
         "icon": "storm_ui_icon_talent_block.png",
         "type": "Passive",
         "sort": 1,
-        "abilityId": "Johanna|D1",
+        "abilityId": "Johanna|Passive",
         "abilityLinks": [
           "Johanna|D1"
         ]
@@ -93,7 +99,7 @@
         "tooltipId": "CrusaderIronSkinHoldYourGroundTalent",
         "talentTreeId": "CrusaderMasteryIronSkinHoldYourGround",
         "name": "Hold Your Ground",
-        "description": "Increases Iron Skin's Shield by 30% and its cooldown is reduced by 4 seconds.",
+        "description": "Increases Iron Skin's Shield by 50% and its cooldown is reduced by 4 seconds.",
         "icon": "storm_ui_icon_johanna_iron_skin.png",
         "type": "Trait",
         "sort": 2,
@@ -119,7 +125,7 @@
         "tooltipId": "CrusaderEternalRetaliationTalent",
         "talentTreeId": "CrusaderMasteryCondemnEternalRetaliation",
         "name": "Eternal Retaliation",
-        "description": "Lower the cooldown of Condemn by 0.5 seconds and refund 2.5 Mana for every enemy hit. Maximum of 10 targets.",
+        "description": "Lower the cooldown of Condemn by 0.5 seconds and refund 3 Mana for every enemy hit. Maximum of 10 targets.",
         "icon": "storm_ui_icon_johanna_condemn.png",
         "type": "W",
         "sort": 1,
@@ -174,7 +180,7 @@
         "tooltipId": "CrusaderZealousGlare",
         "talentTreeId": "CrusaderZealousGlare",
         "name": "Zealous Glare",
-        "description": "Increase the Blind duration of Shield Glare by 0.5 seconds. Johanna's Basic Attacks against Heroes with Shield Glare extend its duration by 1 second, up to a maximum of 3 seconds.",
+        "description": "Increase the Blind duration of Shield Glare by 0.75 seconds. Johanna's Basic Attacks against Heroes with Shield Glare extend its duration by 1 second, up to a maximum of 3 seconds.",
         "icon": "storm_ui_icon_johanna_shield_glare.png",
         "type": "E",
         "sort": 2,
@@ -199,11 +205,11 @@
         "tooltipId": "CrusaderFallingSword",
         "talentTreeId": "CrusaderHeroicAbilityFallingSword",
         "name": "Falling Sword",
-        "description": "Johanna leaps towards an area.  While in the air, she can steer the landing location by moving.  After 2 seconds Johanna lands, dealing 183 (+4% per level) damage to nearby enemies, Stunning them for 0.2 seconds, and Slowing them by 50% for 3 seconds.",
+        "description": "Johanna leaps towards an area.  While in the air, she can steer the landing location by moving.  After 2 seconds Johanna lands, dealing 210 (+4% per level) damage to nearby enemies, Stunning them for 0.2 seconds, and Slowing them by 50% for 3 seconds.",
         "icon": "storm_ui_icon_johanna_falling_sword.png",
         "type": "Heroic",
         "sort": 1,
-        "cooldown": 60,
+        "cooldown": 50,
         "abilityId": "Johanna|R1",
         "abilityLinks": [
           "Johanna|R1"

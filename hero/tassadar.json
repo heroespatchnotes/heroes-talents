@@ -9,7 +9,14 @@
   "role": "Support",
   "type": "Ranged",
   "releaseDate": "2014-03-13",
-  "releasePatch": "0.1.1.11111",
+  "releasePatch": "0.1.1.00000",
+  "tags": [
+    "ChanneledAutoAttacker",
+    "EnergyImportant",
+    "Escaper",
+    "Helper",
+    "RoleSupport"
+  ],
   "abilities": {
     "Tassadar": [
       {
@@ -99,7 +106,7 @@
         "type": "Passive",
         "sort": 2,
         "isQuest": true,
-        "abilityId": "Tassadar|D1",
+        "abilityId": "Tassadar|Passive",
         "abilityLinks": [
           "Tassadar|D1"
         ]
@@ -113,7 +120,7 @@
         "type": "Passive",
         "sort": 3,
         "isQuest": true,
-        "abilityId": "Tassadar|Q1",
+        "abilityId": "Tassadar|Passive",
         "abilityLinks": [
           "Tassadar|Q1"
         ]
@@ -169,7 +176,7 @@
         "icon": "storm_ui_icon_talent_elunesgrace.png",
         "type": "Passive",
         "sort": 1,
-        "abilityId": "Tassadar|Q1",
+        "abilityId": "Tassadar|Passive",
         "abilityLinks": [
           "Tassadar|Q1"
         ]
