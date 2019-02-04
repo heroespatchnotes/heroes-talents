@@ -10,6 +10,12 @@
   "type": "Ranged",
   "releaseDate": "2017-11-14",
   "releasePatch": "2.29.0.59657",
+  "tags": [
+    "AllyHealer",
+    "EnergyImportant",
+    "Helper",
+    "RoleSupport"
+  ],
   "abilities": {
     "Alexstrasza": [
       {
@@ -26,7 +32,7 @@
         "description": "Plant a seed of healing that blooms after 3 seconds, healing nearby allied Heroes for 20% of their maximum Health.  Dragonqueen: Preservation Heal area and amount greatly increased.",
         "hotkey": "W",
         "abilityId": "Alexstrasza|W1",
-        "cooldown": 16,
+        "cooldown": 14,
         "manaCost": 75,
         "icon": "storm_ui_icon_alexstrasza_abundance.png",
         "type": "basic"
@@ -47,7 +53,7 @@
         "hotkey": "R",
         "abilityId": "Alexstrasza|R1",
         "cooldown": 60,
-        "manaCost": 80,
+        "manaCost": 60,
         "icon": "storm_ui_icon_alexstrasza_life_binder.png",
         "type": "heroic"
       },
@@ -270,7 +276,7 @@
         "tooltipId": "AlexstraszaDragonScales",
         "talentTreeId": "AlexstraszaDragonScales",
         "name": "Dragon Scales",
-        "description": "Gain 30 Armor while Stunned, Rooted, or Silenced, and for 2 seconds after. Can only trigger once every 10 seconds.",
+        "description": "Gain 40 Armor while Stunned, Rooted, or Silenced, and for 2 seconds after. Can only trigger once every 10 seconds.",
         "icon": "storm_ui_icon_alexstrasza_dragon_scales.png",
         "type": "Passive",
         "sort": 1,

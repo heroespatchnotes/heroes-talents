@@ -9,7 +9,13 @@
   "role": "Assassin",
   "type": "Ranged",
   "releaseDate": "2014-03-13",
-  "releasePatch": "0.1.1.11111",
+  "releasePatch": "0.1.1.00000",
+  "tags": [
+    "EnergyImportant",
+    "Ganker",
+    "Helper",
+    "RoleCaster"
+  ],
   "abilities": {
     "Nova": [
       {
@@ -100,7 +106,7 @@
         "tooltipId": "NovaCovertOpsTalent",
         "talentTreeId": "NovaCovertOps",
         "name": "Covert Ops",
-        "description": "After being Stealthed for 5 seconds, Pinning Shot's Slow is increased to 55% and costs no Mana. Bonus is lost after losing Stealth for 1 second.",
+        "description": "After being Stealthed for 4 seconds, Pinning Shot's Slow is increased to 55% and costs no Mana. Bonus is lost after losing Stealth for 1 second.",
         "icon": "storm_ui_icon_nova_pinningshot_var1.png",
         "type": "W",
         "sort": 2,
@@ -128,7 +134,7 @@
         "tooltipId": "NovaHoloDecoyRapidProjectionTalent",
         "talentTreeId": "NovaRapidProjection",
         "name": "Rapid Projection",
-        "description": "Reduces Holo Decoy's cooldown and Mana cost by 40%.",
+        "description": "Reduces Holo Decoy's cooldown and Mana cost by 50%.",
         "icon": "storm_ui_icon_nova_holodecoy_var1.png",
         "type": "E",
         "sort": 1,
@@ -141,7 +147,7 @@
         "tooltipId": "NovaHoloDecoyHoloStabilityTalent",
         "talentTreeId": "NovaHoloStability",
         "name": "Holo Stability",
-        "description": "Increase the cast range and duration of Holo Decoy by 100%.",
+        "description": "Increase the cast range of Holo Decoy by 100% and its duration by 120%.",
         "icon": "storm_ui_icon_nova_holodecoy_var2.png",
         "type": "E",
         "sort": 2,
@@ -183,7 +189,7 @@
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
         "sort": 2,
-        "abilityId": "Nova|D1",
+        "abilityId": "Nova|Passive",
         "abilityLinks": [
           "Nova|D1"
         ]
@@ -196,7 +202,7 @@
         "icon": "storm_ui_icon_talent_antiarmorshells.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Nova|D1",
+        "abilityId": "Nova|Passive",
         "abilityLinks": [
           "Nova|D1"
         ]
@@ -278,7 +284,7 @@
         "tooltipId": "NovaSnipeExplosiveRoundTalent",
         "talentTreeId": "NovaMasteryExplosiveShot",
         "name": "Explosive Round",
-        "description": "Snipe also deals 80% damage to enemies near the impact.",
+        "description": "Snipe also deals 90% damage to enemies near the impact.",
         "icon": "storm_ui_icon_nova_snipe.png",
         "type": "Q",
         "sort": 1,

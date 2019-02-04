@@ -9,7 +9,12 @@
   "role": "Assassin",
   "type": "Ranged",
   "releaseDate": "2014-03-13",
-  "releasePatch": "0.1.1.11111",
+  "releasePatch": "0.1.1.00000",
+  "tags": [
+    "EnergyImportant",
+    "RoleAutoAttacker",
+    "TowerPusher"
+  ],
   "abilities": {
     "Raynor": [
       {
@@ -95,7 +100,7 @@
         "icon": "storm_ui_icon_raynor_acardtoplay.png",
         "type": "Passive",
         "sort": 2,
-        "abilityId": "Raynor|D1",
+        "abilityId": "Raynor|Passive",
         "abilityLinks": [
           "Raynor|D1"
         ]
@@ -108,7 +113,7 @@
         "icon": "storm_ui_icon_talent_autoattack_building.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Raynor|D1",
+        "abilityId": "Raynor|Passive",
         "abilityLinks": [
           "Raynor|D1"
         ]
@@ -150,7 +155,7 @@
         "type": "Passive",
         "sort": 3,
         "isQuest": true,
-        "abilityId": "Raynor|D1",
+        "abilityId": "Raynor|Passive",
         "abilityLinks": [
           "Raynor|D1"
         ]
@@ -165,7 +170,7 @@
         "icon": "storm_ui_icon_raynor_split_debilitatingrounds.png",
         "type": "Passive",
         "sort": 1,
-        "abilityId": "Raynor|W1",
+        "abilityId": "Raynor|Passive",
         "abilityLinks": [
           "Raynor|W1",
           "Raynor|E1"
@@ -238,7 +243,7 @@
         "icon": "storm_ui_icon_raynor_split_fuelrush.png",
         "type": "Passive",
         "sort": 1,
-        "abilityId": "Raynor|Q1",
+        "abilityId": "Raynor|Passive",
         "abilityLinks": [
           "Raynor|Q1",
           "Raynor|W1"
@@ -362,7 +367,7 @@
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
         "sort": 4,
-        "abilityId": "Raynor|D1",
+        "abilityId": "Raynor|Passive",
         "abilityLinks": [
           "Raynor|D1"
         ]
