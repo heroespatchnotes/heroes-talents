@@ -10,6 +10,12 @@
   "type": "Ranged",
   "releaseDate": "2018-03-27",
   "releasePatch": "2.31.0.63507",
+  "tags": [
+    "Escaper",
+    "Ganker",
+    "RoleAutoAttacker",
+    "WaveClearer"
+  ],
   "abilities": {
     "Fenix": [
       {
@@ -58,7 +64,7 @@
       },
       {
         "name": "Shield Capacitor",
-        "description": "Fenix has a permanent 760 (+4% per level) Shield which regenerates at 76 (+4% per level) per second after not taking damage for 5 seconds.",
+        "description": "Fenix has a permanent 760 (+4% per level) Shield which regenerates at 10% per second after not taking damage for 5 seconds.",
         "trait": true,
         "abilityId": "Fenix|D1",
         "icon": "storm_ui_icon_fenix_shield_1.png",
@@ -362,7 +368,7 @@
         "icon": "storm_ui_icon_fenix_shield_1.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Fenix|D1",
+        "abilityId": "Fenix|Passive",
         "abilityLinks": [
           "Fenix|D1"
         ]

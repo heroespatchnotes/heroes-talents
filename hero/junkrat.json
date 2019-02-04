@@ -10,6 +10,11 @@
   "type": "Ranged",
   "releaseDate": "2017-10-17",
   "releasePatch": "2.28.3.58623",
+  "tags": [
+    "RoleSpecialist",
+    "TowerPusher",
+    "WaveClearer"
+  ],
   "abilities": {
     "Junkrat": [
       {
@@ -50,10 +55,10 @@
       },
       {
         "name": "Rocket Ride",
-        "description": "After 1.25 seconds, Junkrat launches into the air. While in the air, he can steer the landing location by moving.  After 3.75 seconds, Junkrat lands, dealing 750 (+4% per level) damage to nearby enemies and activating Total Mayhem. 5 seconds after landing, Junkrat reappears at the Altar and gains 150% additional Movement Speed until dismounted.",
+        "description": "After 1.25 seconds, Junkrat launches into the air. While in the air, he can steer the landing location by moving.  After 3.75 seconds, Junkrat lands, dealing 750 (+4% per level) damage to nearby enemies and activating Total Mayhem. 5 seconds after landing, Junkrat reappears at the Hall of Storms and gains 150% additional Movement Speed until dismounted.",
         "hotkey": "R",
         "abilityId": "Junkrat|R2",
-        "cooldown": 100,
+        "cooldown": 75,
         "icon": "storm_ui_icon_junkrat_rocket_ride.png",
         "type": "heroic"
       },
@@ -213,11 +218,11 @@
         "tooltipId": "JunkratRocketRide",
         "talentTreeId": "JunkratRocketRide",
         "name": "Rocket Ride",
-        "description": "After 1.25 seconds, Junkrat launches into the air. While in the air, he can steer the landing location by moving.  After 3.75 seconds, Junkrat lands, dealing 750 (+4% per level) damage to nearby enemies and activating Total Mayhem. 5 seconds after landing, Junkrat reappears at the Altar and gains 150% additional Movement Speed until dismounted.",
+        "description": "After 1.25 seconds, Junkrat launches into the air. While in the air, he can steer the landing location by moving.  After 3.75 seconds, Junkrat lands, dealing 750 (+4% per level) damage to nearby enemies and activating Total Mayhem. 5 seconds after landing, Junkrat reappears at the Hall of Storms and gains 150% additional Movement Speed until dismounted.",
         "icon": "storm_ui_icon_junkrat_rocket_ride.png",
         "type": "Heroic",
         "sort": 2,
-        "cooldown": 100,
+        "cooldown": 75,
         "abilityId": "Junkrat|R2",
         "abilityLinks": [
           "Junkrat|R2"
@@ -322,7 +327,7 @@
         "tooltipId": "JunkratPuckishScampRocketRideTalent",
         "talentTreeId": "JunkratRocketRidePuckishScamp",
         "name": "Puckish Scamp",
-        "description": "Reduce Rocket Ride's cooldown by 70 seconds.",
+        "description": "Reduce Rocket Ride's cooldown by 45 seconds and increase its damage by 15%.",
         "icon": "storm_ui_icon_junkrat_rocket_ride.png",
         "type": "Heroic",
         "sort": 2,
@@ -348,7 +353,7 @@
         "tooltipId": "JunkratBOOMPOWConcussionMineTalent",
         "talentTreeId": "JunkratConcussionMineBOOMPOW",
         "name": "BOOM POW",
-        "description": "Hitting an enemy Hero with Concussion Mine reduces its cooldown by 10 seconds.",
+        "description": "Hitting an enemy Hero with Concussion Mine reduces its cooldown by 12 seconds.",
         "icon": "storm_ui_icon_junkrat_concussion_mine.png",
         "type": "W",
         "sort": 4,

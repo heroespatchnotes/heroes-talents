@@ -10,6 +10,15 @@
   "type": "Melee",
   "releaseDate": "2017-06-13",
   "releasePatch": "2.26.0.54339",
+  "tags": [
+    "BodyBlocker",
+    "DeadUpdater",
+    "EnergyImportant",
+    "Ganker",
+    "RoleAutoAttacker",
+    "SoloLaner",
+    "WaveClearer"
+  ],
   "abilities": {
     "Malthael": [
       {
@@ -95,7 +104,7 @@
         "icon": "storm_ui_icon_malthael_onpalehorse.png",
         "type": "Passive",
         "sort": 2,
-        "abilityId": "_stormhero|Z1",
+        "abilityId": "Malthael|Passive",
         "abilityLinks": [
           "_stormhero|Z1"
         ]
@@ -360,7 +369,7 @@
         "tooltipId": "MalthaelNoOneCanStopDeath",
         "talentTreeId": "MalthaelNoOneCanStopDeath",
         "name": "No One Can Stop Death",
-        "description": "Activate while dead to immediately respawn at the Altar but increase Malthael's next respawn time by 25%.",
+        "description": "Activate while dead to immediately respawn at the Hall of Storms but increase Malthael's next respawn time by 25%.",
         "icon": "storm_ui_icon_malthael_noonecanstopdeath.png",
         "type": "Active",
         "sort": 4,

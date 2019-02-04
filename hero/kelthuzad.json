@@ -10,6 +10,12 @@
   "type": "Ranged",
   "releaseDate": "2017-09-05",
   "releasePatch": "2.27.3.57062",
+  "tags": [
+    "DeadUpdater",
+    "EnergyImportant",
+    "Ganker",
+    "RoleCaster"
+  ],
   "abilities": {
     "Kel'Thuzad": [
       {
@@ -71,7 +77,7 @@
         "type": "trait"
       }
     ],
-    "0": [
+    "KelThuzadMasterOfTheColdDark": [
       {
         "name": "Glacial Spike",
         "description": "Activate to create a spike that detonates after 4 seconds, dealing 60 (+2.5% per level) damage to nearby enemies. The spike can be affected by Chains of Kel'Thuzad.",
@@ -148,7 +154,7 @@
         "type": "Passive",
         "sort": 2,
         "isQuest": true,
-        "abilityId": "Kel'Thuzad|D1",
+        "abilityId": "Kel'Thuzad|Passive",
         "abilityLinks": [
           "Kel'Thuzad|D1"
         ]
@@ -187,7 +193,7 @@
         "icon": "storm_ui_icon_kelthuzad_chillingtouch.png",
         "type": "Passive",
         "sort": 2,
-        "abilityId": "Kel'Thuzad|D1",
+        "abilityId": "Kel'Thuzad|Passive",
         "abilityLinks": [
           "Kel'Thuzad|D1"
         ]
@@ -200,7 +206,7 @@
         "icon": "storm_ui_icon_kelthuzad_glacialspike.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Kel'Thuzad|11",
+        "abilityId": "Kel'Thuzad|Passive",
         "abilityLinks": [
           "Kel'Thuzad|11"
         ]
@@ -299,7 +305,7 @@
         "icon": "storm_ui_icon_talent_abilitytalent_damage.png",
         "type": "Passive",
         "sort": 2,
-        "abilityId": "Kel'Thuzad|D1",
+        "abilityId": "Kel'Thuzad|Passive",
         "abilityLinks": [
           "Kel'Thuzad|D1"
         ]
@@ -312,7 +318,7 @@
         "icon": "storm_ui_icon_kelthuzad_poweroficecrown.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Kel'Thuzad|D1",
+        "abilityId": "Kel'Thuzad|Passive",
         "abilityLinks": [
           "Kel'Thuzad|D1"
         ]

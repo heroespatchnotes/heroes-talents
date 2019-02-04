@@ -10,11 +10,17 @@
   "type": "Ranged",
   "releaseDate": "2014-12-02",
   "releasePatch": "0.7.1.33182",
+  "tags": [
+    "EnergyImportant",
+    "RoleCaster",
+    "TowerPusher",
+    "WaveClearer"
+  ],
   "abilities": {
     "Jaina": [
       {
         "name": "Frostbolt",
-        "description": "Deal 190 (+4% per level) damage and Chill the target.",
+        "description": "Deal 184 (+4% per level) damage and Chill the target.",
         "hotkey": "Q",
         "abilityId": "Jaina|Q1",
         "cooldown": 4,
@@ -34,7 +40,7 @@
       },
       {
         "name": "Cone of Cold",
-        "description": "Deal 230 (+4% per level) damage and Chill targets.",
+        "description": "Deal 220 (+4% per level) damage and Chill targets.",
         "hotkey": "E",
         "abilityId": "Jaina|E1",
         "cooldown": 10,
@@ -71,7 +77,7 @@
         "type": "trait"
       }
     ],
-    "0": [
+    "JainaTraitFrostbite": [
       {
         "name": "Improved Ice Block",
         "description": "Activate to place Jaina in Stasis and gain Invulnerability for 2.5 seconds. When this effect expires, nearby enemies are Chilled.",
@@ -120,7 +126,7 @@
         "type": "Passive",
         "sort": 3,
         "isQuest": true,
-        "abilityId": "Jaina|D1",
+        "abilityId": "Jaina|Passive",
         "abilityLinks": [
           "Jaina|D1"
         ]
@@ -182,7 +188,7 @@
         "tooltipId": "JainaConeOfColdIceFloesTalent",
         "talentTreeId": "JainaConeOfColdIceFloes",
         "name": "Ice Floes",
-        "description": "Increase the width of Cone of Cold by 100% and cause each chilled Hero hit to reduce its cooldown by 2.5 seconds, up to a maximum of 5 seconds per use.",
+        "description": "Increase the width of Cone of Cold by 100% and cause each chilled Hero hit to reduce its cooldown by 3 seconds, up to a maximum of 6 seconds per use.",
         "icon": "storm_ui_icon_jaina_coneofcold.png",
         "type": "E",
         "sort": 2,
@@ -195,11 +201,11 @@
         "tooltipId": "JainaIcefuryWand",
         "talentTreeId": "JainaIcefuryWand",
         "name": "Icefury Wand",
-        "description": "Basic Attacks against Chilled Heroes deal 75% more damage and lower the cooldown of Blizzard by 1 second.",
+        "description": "Basic Attacks against Chilled Heroes deal 100% more damage and lower the cooldown of Blizzard by 1.5 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Jaina|W1",
+        "abilityId": "Jaina|Passive",
         "abilityLinks": [
           "Jaina|W1"
         ]
@@ -292,7 +298,7 @@
         "tooltipId": "JainaConeOfColdNorthernExposureTalent",
         "talentTreeId": "JainaConeOfColdNorthernExposure",
         "name": "Northern Exposure",
-        "description": "Enemies damaged by Cone of Cold have their Armor lowered by 25 for 2 seconds, increasing their damage taken by 25%.",
+        "description": "Enemies damaged by Cone of Cold have their Armor lowered by 20 for 2 seconds, increasing their damage taken by 20%.",
         "icon": "storm_ui_icon_jaina_coneofcold.png",
         "type": "E",
         "sort": 2,
