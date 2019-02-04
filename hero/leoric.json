@@ -10,6 +10,12 @@
   "type": "Melee",
   "releaseDate": "2015-07-21",
   "releasePatch": "1.12.3.36536",
+  "tags": [
+    "EnergyImportant",
+    "Overconfident",
+    "RoleTank",
+    "WaveClearer"
+  ],
   "abilities": {
     "Leoric": [
       {
@@ -111,7 +117,7 @@
         "tooltipId": "LeoricFealtyUntoDeathTalent",
         "talentTreeId": "LeoricMasteryFealtyUntoDeathUndying",
         "name": "Fealty Unto Death",
-        "description": "When a nearby friendly or enemy Minion dies, Leoric restores 1% of his maximum Health and 5 Mana.",
+        "description": "When a nearby friendly or enemy Minion dies, Leoric restores 1.25% of his maximum Health and 6 Mana.",
         "icon": "storm_ui_icon_leoric_trait.png",
         "type": "Trait",
         "sort": 2,
@@ -263,7 +269,7 @@
         "tooltipId": "LeoricHardenedBonesTalent",
         "talentTreeId": "LeoricDrainHopeHardenedBonesTalent",
         "name": "Hardened Bones",
-        "description": "Gain 20 Armor while Drain Hope is active. If Drain Hope lasts its full duration, retain the Armor bonus for 3 seconds.",
+        "description": "Gain 40 Armor while Drain Hope is active. If Drain Hope lasts its full duration, retain the Armor bonus for 2 seconds.",
         "icon": "storm_ui_icon_leoric_drainhope_var1.png",
         "type": "W",
         "sort": 2,
@@ -322,7 +328,7 @@
         "type": "Passive",
         "sort": 3,
         "isQuest": true,
-        "abilityId": "Leoric|D1",
+        "abilityId": "Leoric|Passive",
         "abilityLinks": [
           "Leoric|D1"
         ]
@@ -363,7 +369,7 @@
         "icon": "storm_ui_icon_talent_autoattack_heal.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Leoric|D1",
+        "abilityId": "Leoric|Passive",
         "abilityLinks": [
           "Leoric|D1"
         ]
@@ -386,7 +392,7 @@
         "icon": "storm_ui_icon_talent_hardenedshield.png",
         "type": "Active",
         "sort": 5,
-        "cooldown": 75,
+        "cooldown": 60,
         "abilityId": "Leoric|Active"
       }
     ]

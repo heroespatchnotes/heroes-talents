@@ -10,6 +10,12 @@
   "type": "Ranged",
   "releaseDate": "2018-09-04",
   "releasePatch": "2.37.0.67985",
+  "tags": [
+    "EnergyImportant",
+    "Overconfident",
+    "Roamer",
+    "RoleCaster"
+  ],
   "abilities": {
     "Mephisto": [
       {
@@ -28,7 +34,7 @@
         "hotkey": "W",
         "abilityId": "Mephisto|W1",
         "cooldown": 14,
-        "manaCost": 55,
+        "manaCost": 50,
         "icon": "storm_ui_icon_mephisto_lightning.png",
         "type": "basic"
       },
@@ -38,7 +44,7 @@
         "hotkey": "E",
         "abilityId": "Mephisto|E1",
         "cooldown": 18,
-        "manaCost": 40,
+        "manaCost": 35,
         "icon": "storm_ui_icon_mephisto_shade.png",
         "type": "basic"
       },
@@ -57,8 +63,8 @@
         "description": "After 1 second, unleash a wave of evil spirits that Root the first enemy Hero hit for 2.5 seconds and deal 250 (+4% per level) damage to them over the same duration.  Durance of Hate spreads outwards from its initial target, Rooting and damaging additional nearby enemy Heroes.",
         "hotkey": "R",
         "abilityId": "Mephisto|R2",
-        "cooldown": 60,
-        "manaCost": 60,
+        "cooldown": 50,
+        "manaCost": 50,
         "icon": "storm_ui_icon_mephisto_durance.png",
         "type": "heroic"
       },
@@ -122,7 +128,7 @@
         "icon": "storm_ui_icon_mephisto_hatred.png",
         "type": "Passive",
         "sort": 4,
-        "abilityId": "Mephisto|D1",
+        "abilityId": "Mephisto|Passive",
         "abilityLinks": [
           "Mephisto|D1"
         ]
@@ -163,7 +169,7 @@
         "icon": "storm_ui_icon_mephisto_hatred.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Mephisto|D1",
+        "abilityId": "Mephisto|Passive",
         "abilityLinks": [
           "Mephisto|D1"
         ]
@@ -178,7 +184,10 @@
         "icon": "storm_ui_icon_mephisto_shade.png",
         "type": "E",
         "sort": 1,
-        "abilityId": "Mephisto|E"
+        "abilityId": "Mephisto|E1",
+        "abilityLinks": [
+          "Mephisto|E1"
+        ]
       },
       {
         "tooltipId": "MephistoShadeOfMephistoFrostStorm",
@@ -188,7 +197,10 @@
         "icon": "storm_ui_icon_mephisto_shade_b.png",
         "type": "E",
         "sort": 2,
-        "abilityId": "Mephisto|E"
+        "abilityId": "Mephisto|E1",
+        "abilityLinks": [
+          "Mephisto|E1"
+        ]
       },
       {
         "tooltipId": "MephistoShadeOfMephistoTrickery",
@@ -198,7 +210,10 @@
         "icon": "storm_ui_icon_mephisto_shade_c.png",
         "type": "E",
         "sort": 3,
-        "abilityId": "Mephisto|E"
+        "abilityId": "Mephisto|E1",
+        "abilityLinks": [
+          "Mephisto|E1"
+        ]
       }
     ],
     "10": [
@@ -224,7 +239,7 @@
         "icon": "storm_ui_icon_mephisto_durance.png",
         "type": "Heroic",
         "sort": 2,
-        "cooldown": 60,
+        "cooldown": 50,
         "abilityId": "Mephisto|R2",
         "abilityLinks": [
           "Mephisto|R2"

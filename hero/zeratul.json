@@ -9,7 +9,16 @@
   "role": "Assassin",
   "type": "Melee",
   "releaseDate": "2014-03-13",
-  "releasePatch": "0.1.1.11111",
+  "releasePatch": "0.1.1.00000",
+  "tags": [
+    "EnergyImportant",
+    "Escaper",
+    "Ganker",
+    "Helper",
+    "Overconfident",
+    "RoleAutoAttacker",
+    "RoleCaster"
+  ],
   "abilities": {
     "Zeratul": [
       {
@@ -195,7 +204,7 @@
         "icon": "storm_ui_icon_zeratul_vorpalblade.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Zeratul|11",
+        "abilityId": "Zeratul|Passive",
         "abilityLinks": [
           "Zeratul|11"
         ]
@@ -275,7 +284,7 @@
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
         "sort": 1,
-        "abilityId": "Zeratul|D1",
+        "abilityId": "Zeratul|Passive",
         "abilityLinks": [
           "Zeratul|D1"
         ]
@@ -284,7 +293,7 @@
         "tooltipId": "ZeratulVoidSlashTalent",
         "talentTreeId": "ZeratulVoidSlash",
         "name": "Void Slash",
-        "description": "If Cleave hits more than one enemy Hero, it deals 50% increased damage and its cooldown is reduced by 3 seconds.",
+        "description": "If Cleave hits more than one enemy Hero, it deals 40% increased damage and its cooldown is reduced by 3 seconds.",
         "icon": "storm_ui_icon_zeratul_cleave.png",
         "type": "Q",
         "sort": 2,
@@ -348,7 +357,7 @@
         "tooltipId": "ZeratulShadowMending",
         "talentTreeId": "ZeratulShadowMending",
         "name": "Shadow Mending",
-        "description": "Heal for 75% of Spell Damage dealt to Heroes.",
+        "description": "Heal for 60% of Spell Damage dealt to Heroes.",
         "icon": "storm_ui_icon_talent_abilitytalent_heal.png",
         "type": "Passive",
         "sort": 4,

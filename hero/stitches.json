@@ -9,7 +9,14 @@
   "role": "Warrior",
   "type": "Melee",
   "releaseDate": "2014-03-13",
-  "releasePatch": "0.1.1.11111",
+  "releasePatch": "0.1.1.00000",
+  "tags": [
+    "BodyBlocker",
+    "EnergyImportant",
+    "Ganker",
+    "Overconfident",
+    "RoleTank"
+  ],
   "abilities": {
     "Stitches": [
       {
@@ -57,7 +64,7 @@
         "description": "Consume an enemy Hero, trapping them for 4 seconds. When Gorge ends, the enemy Hero takes 274 (+4% per level) damage. The trapped Hero cannot move or act and doesn't take damage from other sources.",
         "hotkey": "R",
         "abilityId": "Stitches|R2",
-        "cooldown": 70,
+        "cooldown": 65,
         "manaCost": 70,
         "icon": "storm_ui_icon_stitches_cannibalize.png",
         "type": "heroic"
@@ -88,7 +95,7 @@
         "tooltipId": "StitchesDevourSavorTheFlavorTalent",
         "talentTreeId": "StitchesSavortheFlavorDevour",
         "name": "Savor the Flavor",
-        "description": "When Devour hits a Hero, Stitches heals for an additional 8% of his maximum Health and Mana over 4 seconds.  Quest: Hitting enemy Heroes with Devour increases Stitches's Health Regeneration by 1.",
+        "description": "When Devour hits a Hero, Stitches heals for an additional 8% of his maximum Health and Mana over 4 seconds.  Quest: Hitting enemy Heroes with Devour increases Stitches's Health Regeneration by 1.5.",
         "icon": "storm_ui_icon_stitches_devour.png",
         "type": "E",
         "sort": 1,
@@ -180,11 +187,11 @@
         "tooltipId": "StitchesCannibalize",
         "talentTreeId": "StitchesCannibalize",
         "name": "Cannibalize",
-        "description": "Hitting Heroes with Basic Attacks or the inner impact area of Slam heals Stitches for 1.75% of his maximum Health.",
+        "description": "Hitting Heroes with Basic Attacks or the inner impact area of Slam heals Stitches for 2% of his maximum Health.",
         "icon": "storm_ui_icon_talent_autoattack_heal.png",
         "type": "Passive",
         "sort": 2,
-        "abilityId": "Stitches|W1",
+        "abilityId": "Stitches|Passive",
         "abilityLinks": [
           "Stitches|W1",
           "Stitches|D1"
@@ -198,7 +205,7 @@
         "icon": "storm_ui_icon_talent_autoattack_slow.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Stitches|W1",
+        "abilityId": "Stitches|Passive",
         "abilityLinks": [
           "Stitches|W1",
           "Stitches|D1"
@@ -228,7 +235,7 @@
         "icon": "storm_ui_icon_stitches_cannibalize.png",
         "type": "Heroic",
         "sort": 2,
-        "cooldown": 70,
+        "cooldown": 65,
         "abilityId": "Stitches|R2",
         "abilityLinks": [
           "Stitches|R2"
@@ -253,7 +260,7 @@
         "tooltipId": "StitchesDigestiveJuices",
         "talentTreeId": "StitchesDigestiveJuices",
         "name": "Digestive Juices",
-        "description": "Enemy Heroes hit by Devour deal 50% reduced damage for 5 seconds.",
+        "description": "Increases Devour's damage to Heroes by 40%. Enemy Heroes hit by Devour deal 50% reduced damage for 5 seconds.",
         "icon": "storm_ui_icon_stitches_devour.png",
         "type": "E",
         "sort": 2,

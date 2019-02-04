@@ -10,6 +10,15 @@
   "type": "Melee",
   "releaseDate": "2015-08-18",
   "releasePatch": "1.13.0.37117",
+  "tags": [
+    "AllyHealer",
+    "EnergyImportant",
+    "Escaper",
+    "Ganker",
+    "Overconfident",
+    "RoleSupport",
+    "SelfHealer"
+  ],
   "abilities": {
     "Kharazim": [
       {
@@ -54,7 +63,7 @@
       },
       {
         "name": "Divine Palm",
-        "description": "Protect an allied Hero from death, causing them to be healed for 1084 (+4% per level) if they take fatal damage in the next 3 seconds.",
+        "description": "Protect an allied Hero from death, causing them to be healed for 1200 (+4% per level) if they take fatal damage in the next 3 seconds.",
         "hotkey": "R",
         "abilityId": "Kharazim|R2",
         "cooldown": 60,
@@ -187,7 +196,7 @@
         "tooltipId": "MonkDivinePalm",
         "talentTreeId": "MonkHeroicAbilityDivinePalm",
         "name": "Divine Palm",
-        "description": "Protect an allied Hero from death, causing them to be healed for 1084 (+4% per level) if they take fatal damage in the next 3 seconds.",
+        "description": "Protect an allied Hero from death, causing them to be healed for 1200 (+4% per level) if they take fatal damage in the next 3 seconds.",
         "icon": "storm_ui_icon_monk_divinepalm.png",
         "type": "Heroic",
         "sort": 1,

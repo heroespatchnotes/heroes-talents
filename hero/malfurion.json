@@ -9,7 +9,14 @@
   "role": "Support",
   "type": "Ranged",
   "releaseDate": "2014-03-13",
-  "releasePatch": "0.1.1.11111",
+  "releasePatch": "0.1.1.00000",
+  "tags": [
+    "AllyHealer",
+    "EnergyImportant",
+    "Helper",
+    "RoleSupport",
+    "SelfHealer"
+  ],
   "abilities": {
     "Malfurion": [
       {
@@ -121,7 +128,7 @@
         "tooltipId": "MalfurionEntanglingRootsStranglingVinesTalent",
         "talentTreeId": "MalfurionMasteryStranglingVinesEntanglingRoots",
         "name": "Strangling Vines",
-        "description": "Enemy Heroes Rooted by Entangling Roots receive 30% less healing from all sources for 3 seconds.",
+        "description": "Enemy Heroes Rooted by Entangling Roots receive 40% less healing from all sources for 3 seconds.",
         "icon": "storm_ui_icon_malfurion_entanglingroots.png",
         "type": "E",
         "sort": 1,
@@ -134,7 +141,7 @@
         "tooltipId": "MalfurionEntanglingRootsDeepRootsTalent",
         "talentTreeId": "MalfurionEntanglingRootsDeepRootsTalent",
         "name": "Deep Roots",
-        "description": "Entangling Roots grows 25% larger, and persist on the ground 25% longer.",
+        "description": "Entangling Roots grows 25% larger, and persist on the ground 40% longer.",
         "icon": "storm_ui_icon_malfurion_entanglingroots_a.png",
         "type": "E",
         "sort": 2,
@@ -147,7 +154,7 @@
         "tooltipId": "MalfurionEntanglingRootsVengefulRootsTalent",
         "talentTreeId": "MalfurionMasteryVengefulRoots",
         "name": "Vengeful Roots",
-        "description": "Entangling Roots spawns a Treant that deals 65 damage per second and lasts 10 seconds.  Repeatable Quest: Hitting enemy Heroes with Entangling Roots permanently increases the Treant's Basic Attack damage by 7.",
+        "description": "Entangling Roots spawns a Treant that deals 58 damage per second and lasts 10 seconds.  Repeatable Quest: Hitting enemy Heroes with Entangling Roots permanently increases the Treant's Basic Attack damage by 7.",
         "icon": "storm_ui_icon_malfurion_entanglingroots_b.png",
         "type": "E",
         "sort": 3,
@@ -167,7 +174,7 @@
         "icon": "storm_ui_icon_malfurion_wildgrowth.png",
         "type": "Passive",
         "sort": 1,
-        "abilityId": "Malfurion|Q1",
+        "abilityId": "Malfurion|Passive",
         "abilityLinks": [
           "Malfurion|Q1",
           "Malfurion|W1"
@@ -294,7 +301,7 @@
         "icon": "storm_ui_icon_malfurion_wildgrowth.png",
         "type": "Passive",
         "sort": 2,
-        "abilityId": "Malfurion|Q1",
+        "abilityId": "Malfurion|Passive",
         "abilityLinks": [
           "Malfurion|Q1",
           "Malfurion|W1"
@@ -308,7 +315,7 @@
         "icon": "storm_ui_icon_malfurion_wildgrowth_a.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Malfurion|Q1",
+        "abilityId": "Malfurion|Passive",
         "abilityLinks": [
           "Malfurion|Q1",
           "Malfurion|W1"

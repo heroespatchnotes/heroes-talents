@@ -10,11 +10,19 @@
   "type": "Melee",
   "releaseDate": "2014-10-07",
   "releasePatch": "0.6.5.32455",
+  "tags": [
+    "BodyBlocker",
+    "EnergyImportant",
+    "Escaper",
+    "Ganker",
+    "Overconfident",
+    "RoleTank"
+  ],
   "abilities": {
     "Anub'arak": [
       {
         "name": "Impale",
-        "description": "Deals 100 (+4% per level) damage. Stuns for 1 second.",
+        "description": "Deals 95 (+4% per level) damage. Stuns for 1 second.",
         "hotkey": "Q",
         "abilityId": "Anub'arak|Q1",
         "cooldown": 12,
@@ -76,29 +84,29 @@
   "talents": {
     "1": [
       {
-        "tooltipId": "AnubarakResilientScarabs",
-        "talentTreeId": "AnubarakResilientScarabs",
-        "name": "Resilient Scarabs",
-        "description": "Beetles have 50 Spell Armor.",
-        "icon": "storm_ui_icon_anubarak_scarabhost.png",
-        "type": "Trait",
-        "sort": 1,
-        "abilityId": "Anub'arak|D1",
-        "abilityLinks": [
-          "Anub'arak|D1"
-        ]
-      },
-      {
         "tooltipId": "AnubarakNerubianArmor",
         "talentTreeId": "AnubarakNerubianArmor",
         "name": "Nerubian Armor",
         "description": "Increase Hardened Carapace's Spell Armor by 20.",
         "icon": "storm_ui_icon_anubarak_hardencarapace_var1.png",
         "type": "W",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Anub'arak|W1",
         "abilityLinks": [
           "Anub'arak|W1"
+        ]
+      },
+      {
+        "tooltipId": "AnubarakLegionOfBeetlesTalent",
+        "talentTreeId": "AnubarakCombatStyleLegionOfBeetles",
+        "name": "Legion of Beetles",
+        "description": "Beetles have 40 Spell Armor. Automatically spawn a Beetle every 8 seconds. Can be toggled on and off.",
+        "icon": "storm_ui_icon_anubarak_scarabhost.png",
+        "type": "Trait",
+        "sort": 2,
+        "abilityId": "Anub'arak|D1",
+        "abilityLinks": [
+          "Anub'arak|D1"
         ]
       },
       {
@@ -151,19 +159,6 @@
         "abilityId": "Anub'arak|E1",
         "abilityLinks": [
           "Anub'arak|E1"
-        ]
-      },
-      {
-        "tooltipId": "AnubarakLegionOfBeetlesTalent",
-        "talentTreeId": "AnubarakCombatStyleLegionOfBeetles",
-        "name": "Legion of Beetles",
-        "description": "Automatically spawn a Beetle every 8 seconds.  Can be toggled on and off.",
-        "icon": "storm_ui_icon_anubarak_scarabhost.png",
-        "type": "Trait",
-        "sort": 4,
-        "abilityId": "Anub'arak|D1",
-        "abilityLinks": [
-          "Anub'arak|D1"
         ]
       }
     ],
@@ -308,7 +303,7 @@
         "icon": "storm_ui_icon_anubarak_scarabhost.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Anub'arak|D1",
+        "abilityId": "Anub'arak|Passive",
         "abilityLinks": [
           "Anub'arak|D1"
         ]

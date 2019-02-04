@@ -9,7 +9,16 @@
   "role": "Support",
   "type": "Ranged",
   "releaseDate": "2014-03-13",
-  "releasePatch": "0.1.1.11111",
+  "releasePatch": "0.1.1.00000",
+  "tags": [
+    "AllyHealer",
+    "EnergyImportant",
+    "Ganker",
+    "Helper",
+    "RoleAutoAttacker",
+    "RoleSupport",
+    "SelfHealer"
+  ],
   "abilities": {
     "Tyrande": [
       {
@@ -308,7 +317,7 @@
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Tyrande|D1",
+        "abilityId": "Tyrande|Passive",
         "abilityLinks": [
           "Tyrande|D1"
         ]
@@ -349,7 +358,7 @@
         "icon": "storm_ui_icon_talent_autoattack_speed.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Tyrande|D1",
+        "abilityId": "Tyrande|Passive",
         "abilityLinks": [
           "Tyrande|D1"
         ]
@@ -362,7 +371,7 @@
         "icon": "storm_ui_icon_talent_autoattack_slow.png",
         "type": "Passive",
         "sort": 4,
-        "abilityId": "Tyrande|D1",
+        "abilityId": "Tyrande|Passive",
         "abilityLinks": [
           "Tyrande|D1"
         ]
