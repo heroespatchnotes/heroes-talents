@@ -153,7 +153,7 @@
           "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
           "cooldownTooltip": "Время восстановления: 90 сек.",
           "shortTooltip": "Превращает воина или саранчида в мощного монстра.",
-          "fullTooltip": "Превращает союзного воина или саранчида в монстра. Когда рядом с монстром погибает воин противника, он получает бонус в размере 2% к запасу здоровья и 2% к урону от автоатак. Бонус суммируется до 40 раз. Монстр получает на 50% меньше урона от всех, кроме героев.  Используя на монстре «Симбионта», Абатур может им управлять. При повторном использовании автоматически помещает на монстра симбионта.",
+          "fullTooltip": "Превращает союзного воина или саранчида в монстра. Когда рядом с монстром погибает воин противника, он получает бонус в 2% к запасу здоровья и 2% к урону от автоатак. Бонус суммируется до 40 раз. Монстр может получать исцеление от «Панциря» симбионта и перемещаться под землей в видимую точку раз в 80 сек.  Используя на монстре «Симбионта», Абатур может им управлять, а также использовать способности симбионта. При повторном использовании автоматически помещает на монстра симбионта.",
           "abilityType": "Heroic"
         }
       ],
@@ -166,7 +166,7 @@
           "icon": "storm_ui_icon_abathur_spawnlocust.png",
           "cooldownTooltip": "Время восстановления: 15 сек.",
           "shortTooltip": "Порождает саранчидов, атакующих ближайшую линию.",
-          "fullTooltip": "Раз в 15 сек. порождает саранчида с запасом здоровья в 316 (+4% за уровень) ед., атакующего ближайшую линию. Саранчид существует 25 сек. и наносит 34 (+4% за уровень) ед. урона с каждой автоатакой.",
+          "fullTooltip": "Раз в 15 сек. порождает саранчида с запасом здоровья в 316 (+4% за уровень) ед., атакующего ближайшую линию. Саранчид существует 16 сек. и наносит 40 (+4% за уровень) ед. урона с каждой автоатакой.",
           "abilityType": "Trait"
         }
       ],
@@ -202,35 +202,6 @@
           ]
         },
         {
-          "nameId": "AbathurCombatStyleSurvivalInstincts",
-          "name": "Инстинкты выживания",
-          "shortTooltipId": "AbathurLocustStrainSurvivalInstinctsTalent",
-          "fullTooltipId": "AbathurLocustStrainSurvivalInstinctsTalent",
-          "icon": "storm_ui_icon_abathur_spawnlocust.png",
-          "shortTooltip": "Увеличивает запас здоровья и время жизни саранчидов.",
-          "fullTooltip": "Увеличивает запас здоровья саранчидов на 40%, а время их жизни – на 40%.",
-          "abilityType": "Trait",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "AbathurSpawnLocusts"
-          ]
-        },
-        {
-          "nameId": "AbathurMasteryRegenerativeMicrobes",
-          "name": "Регенеративные микробы",
-          "shortTooltipId": "AbathurSymbioteRegenerativeMicrobesTalent",
-          "fullTooltipId": "AbathurSymbioteRegenerativeMicrobesTalent",
-          "icon": "storm_ui_icon_abathur_carapace.png",
-          "shortTooltip": "«Панцирь» лечит цель.",
-          "fullTooltip": "«Панцирь» симбионта лечит цель, восполняя ей 62 (+4% за уровень) ед. здоровья в секунду в течение 4 сек.",
-          "abilityType": "E",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "AbathurSymbiote",
-            "AbathurSymbioteCarapace"
-          ]
-        },
-        {
           "nameId": "AbathurMasteryEnvenomedNestsToxicNest",
           "name": "Отравленное гнездо",
           "shortTooltipId": "AbathurToxicNestEnvenomedNestTalent",
@@ -239,56 +210,41 @@
           "shortTooltip": "Токсичные гнезда наносят больше урона.",
           "fullTooltip": "Токсичные гнезда дополнительно наносят 75% урона в течение 3 сек.",
           "abilityType": "W",
-          "sort": 4,
-          "abilityTalentLinkIds": [
-            "AbathurToxicNest"
-          ]
-        }
-      ],
-      "level4": [
-        {
-          "nameId": "AbathurMasteryProlificDispersal",
-          "name": "Продуктивное распространение",
-          "shortTooltipId": "AbathurToxicNestProlificDispersalTalent",
-          "fullTooltipId": "AbathurToxicNestProlificDispersalTalent",
-          "icon": "storm_ui_icon_abathur_toxicnest.png",
-          "shortTooltip": "Увеличивает количество зарядов «Токсичного гнезда».",
-          "fullTooltip": "Уменьшает время восстановления «Токсичного гнезда» на 2 сек. и дает 2 дополнительных заряда.",
-          "abilityType": "W",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "AbathurToxicNest"
-          ]
-        },
-        {
-          "nameId": "AbathurMasteryBallistospores",
-          "name": "Баллистоспоры",
-          "shortTooltipId": "AbathurToxicNestBallistosporesTalent",
-          "fullTooltipId": "AbathurToxicNestBallistosporesTalent",
-          "icon": "storm_ui_icon_abathur_toxicnest_var1.png",
-          "shortTooltip": "Токсичные гнезда существуют дольше, их можно создавать на любом расстоянии.",
-          "fullTooltip": "Токсичные гнезда можно создавать на любом расстоянии, а время их существования увеличивается на 25%.",
-          "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
             "AbathurToxicNest"
           ]
         },
         {
-          "nameId": "AbathurSymbioteCarapaceSustainedCarapace",
-          "name": "Прочный панцирь",
-          "shortTooltipId": "AbathurSymbioteCarapaceSustainedCarapaceTalent",
-          "fullTooltipId": "AbathurSymbioteCarapaceSustainedCarapaceTalent",
+          "nameId": "AbathurReinforcedCarapace",
+          "name": "Усиленный панцирь",
+          "shortTooltipId": "AbathurReinforcedCarapaceTalent",
+          "fullTooltipId": "AbathurReinforcedCarapaceTalent",
           "icon": "storm_ui_icon_abathur_carapace.png",
-          "shortTooltip": "Панцирь становится прочнее и не исчезает после отмены симбионта.",
-          "fullTooltip": "Увеличивает прочность щита от «Панциря» симбионта на 40%. Панцирь не исчезает после отмены «Симбионта».",
+          "shortTooltip": "Усиливает щит от «Панциря».",
+          "fullTooltip": "Увеличивает прочность щита от «Панциря» на 40%.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "AbathurSymbiote",
             "AbathurSymbioteCarapace"
           ]
         },
+        {
+          "nameId": "AbathurCombatStyleSurvivalInstincts",
+          "name": "Инстинкты выживания",
+          "shortTooltipId": "AbathurLocustStrainSurvivalInstinctsTalent",
+          "fullTooltipId": "AbathurLocustStrainSurvivalInstinctsTalent",
+          "icon": "storm_ui_icon_abathur_spawnlocust.png",
+          "shortTooltip": "Увеличивает запас здоровья и урон саранчидов.",
+          "fullTooltip": "Увеличивает запас здоровья саранчидов на 40%, а их урон – на 40%.",
+          "abilityType": "Trait",
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "AbathurSpawnLocusts"
+          ]
+        }
+      ],
+      "level4": [
         {
           "nameId": "AbathurSymbioteAdrenalOverload",
           "name": "Избыток адреналина",
@@ -298,13 +254,11 @@
           "shortTooltip": "Повышает скорость атаки хозяина симбионта.",
           "fullTooltip": "Повышает скорость атаки хозяина симбионта на 25%, если это герой.",
           "abilityType": "Q",
-          "sort": 4,
+          "sort": 1,
           "abilityTalentLinkIds": [
             "AbathurSymbiote"
           ]
-        }
-      ],
-      "level7": [
+        },
         {
           "nameId": "AbathurMasteryNeedlespine",
           "name": "Длинный шип",
@@ -314,12 +268,28 @@
           "shortTooltip": "Увеличивает урон и дальность действия «Укола».",
           "fullTooltip": "Увеличивает урон и дальность действия «Укола» симбионта на 20%.",
           "abilityType": "Q",
-          "sort": 1,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "AbathurSymbiote",
             "AbathurSymbioteStab"
           ]
         },
+        {
+          "nameId": "AbathurMasteryProlificDispersal",
+          "name": "Продуктивное распространение",
+          "shortTooltipId": "AbathurToxicNestProlificDispersalTalent",
+          "fullTooltipId": "AbathurToxicNestProlificDispersalTalent",
+          "icon": "storm_ui_icon_abathur_toxicnest.png",
+          "shortTooltip": "Увеличивает количество зарядов «Токсичного гнезда».",
+          "fullTooltip": "Уменьшает время восстановления «Токсичного гнезда» на 2 сек. и дает 2 дополнительных заряда.",
+          "abilityType": "W",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "AbathurToxicNest"
+          ]
+        }
+      ],
+      "level7": [
         {
           "nameId": "AbathurMasteryVileNestsToxicNest",
           "name": "Гиблое гнездо",
@@ -329,7 +299,7 @@
           "shortTooltip": "Токсичные гнезда замедляют врагов.",
           "fullTooltip": "Токсичные гнезда снижают скорость передвижения противников на 40% на 2.5 сек.",
           "abilityType": "W",
-          "sort": 2,
+          "sort": 1,
           "abilityTalentLinkIds": [
             "AbathurToxicNest"
           ]
@@ -343,7 +313,7 @@
           "shortTooltip": "«Панцирь» защищает всех находящихся рядом союзников.",
           "fullTooltip": "При использовании «Панциря» симбионта его базовый вариант также защищает героев, воинов и наемников поблизости.",
           "abilityType": "E",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "AbathurSymbiote",
             "AbathurSymbioteCarapace"
@@ -357,10 +327,10 @@
           "icon": "storm_ui_icon_talent_mule.png",
           "cooldownTooltip": "Время восстановления: 60 сек.",
           "shortTooltip": "Ремонтирует строения.",
-          "fullTooltip": "При использовании вызывает МУЛ, который в течение 40 сек. по очереди ремонтирует строения, находящиеся ближе всего к указанной точке. Восполняет 100 ед. прочности раз в 1 сек.",
+          "fullTooltip": "При использовании вызывает МУЛ, который в течение 40 сек. по очереди ремонтирует строения, находящиеся ближе всего к указанной точке. Восполняет 90 ед. прочности раз в 1 сек.",
           "abilityType": "Active",
           "isActive": true,
-          "sort": 4
+          "sort": 3
         }
       ],
       "level10": [
@@ -388,7 +358,7 @@
           "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
           "cooldownTooltip": "Время восстановления: 90 сек.",
           "shortTooltip": "Превращает воина или саранчида в мощного монстра.",
-          "fullTooltip": "Превращает союзного воина или саранчида в монстра. Когда рядом с монстром погибает воин противника, он получает бонус в размере 2% к запасу здоровья и 2% к урону от автоатак. Бонус суммируется до 40 раз. Монстр получает на 50% меньше урона от всех, кроме героев.  Используя на монстре «Симбионта», Абатур может им управлять. При повторном использовании автоматически помещает на монстра симбионта.",
+          "fullTooltip": "Превращает союзного воина или саранчида в монстра. Когда рядом с монстром погибает воин противника, он получает бонус в 2% к запасу здоровья и 2% к урону от автоатак. Бонус суммируется до 40 раз. Монстр может получать исцеление от «Панциря» симбионта и перемещаться под землей в видимую точку раз в 80 сек.  Используя на монстре «Симбионта», Абатур может им управлять, а также использовать способности симбионта. При повторном использовании автоматически помещает на монстра симбионта.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -399,34 +369,6 @@
       ],
       "level13": [
         {
-          "nameId": "AbathurCombatStyleAssaultStrain",
-          "name": "Штурмовой подвид",
-          "shortTooltipId": "AbathurLocustStrainAssaultStrainTalent",
-          "fullTooltipId": "AbathurLocustStrainAssaultStrainTalent",
-          "icon": "storm_ui_icon_abathur_spawnlocust.png",
-          "shortTooltip": "Саранчиды наносят урон по области и взрываются.",
-          "fullTooltip": "Атаки саранчидов наносят 50% урона всем противникам рядом с основной целью. Кроме того, саранчиды взрываются в момент гибели, нанося 102 (+4% за уровень) ед. урона.",
-          "abilityType": "Trait",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "AbathurSpawnLocusts"
-          ]
-        },
-        {
-          "nameId": "AbathurCombatStyleBombardStrain",
-          "name": "Дальнобойный подвид",
-          "shortTooltipId": "AbathurLocustStrainBombardStrainTalent",
-          "fullTooltipId": "AbathurLocustStrainBombardStrainTalent",
-          "icon": "storm_ui_icon_abathur_spawnlocust_var1.png",
-          "shortTooltip": "Саранчиды получают атаку дальнего боя.",
-          "fullTooltip": "Саранчиды могут атаковать с большого расстояния, нанося на 70% больше урона.",
-          "abilityType": "Trait",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "AbathurSpawnLocusts"
-          ]
-        },
-        {
           "nameId": "AbathurMasterySpatialEfficiency",
           "name": "Эргономика",
           "shortTooltipId": "AbathurSymbioteSpatialEfficiencyTalent",
@@ -435,7 +377,7 @@
           "shortTooltip": "«Укол» получает дополнительный заряд.",
           "fullTooltip": "Дает «Уколу» симбионта 1 дополнительный заряд и уменьшает время его восстановления на 0,5 сек.",
           "abilityType": "Q",
-          "sort": 3,
+          "sort": 1,
           "abilityTalentLinkIds": [
             "AbathurSymbiote",
             "AbathurSymbioteStab"
@@ -450,10 +392,24 @@
           "shortTooltip": "«Выброс шипов» восполняет здоровье за каждого пораженного героя.",
           "fullTooltip": "«Выброс шипов» симбионта восполняет хозяину 64 (+4% за уровень) ед. здоровья за каждого пораженного героя противника.",
           "abilityType": "W",
-          "sort": 4,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "AbathurSymbiote",
             "AbathurSymbioteSpikeBurst"
+          ]
+        },
+        {
+          "nameId": "AbathurCombatStyleBombardStrain",
+          "name": "Дальнобойный подвид",
+          "shortTooltipId": "AbathurLocustStrainBombardStrainTalent",
+          "fullTooltipId": "AbathurLocustStrainBombardStrainTalent",
+          "icon": "storm_ui_icon_abathur_spawnlocust_var1.png",
+          "shortTooltip": "Саранчиды получают атаку дальнего боя и существуют дольше.",
+          "fullTooltip": "Саранчиды атакуют с большого расстояния и существуют на 50% дольше.",
+          "abilityType": "Trait",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "AbathurSpawnLocusts"
           ]
         }
       ],
@@ -489,6 +445,21 @@
           ]
         },
         {
+          "nameId": "AbathurVolatileMutation",
+          "name": "Неустойчивая мутация",
+          "shortTooltipId": "AbathurVolatileMutationTalent",
+          "fullTooltipId": "AbathurVolatileMutationTalent",
+          "icon": "storm_ui_icon_abathur_volatilemutation.png",
+          "shortTooltip": "Созданные с помощью героической способности существа наносят периодический урон.",
+          "fullTooltip": "Существа, созданные с помощью «Венца эволюции» и «Чудовищной мутации», наносят 137 (+4% за уровень) ед. урона находящимся рядом противникам раз в 3 сек. и в момент гибели. Клон или монстр восполняет здоровье в объеме 50% от урона, наносимого этим талантом героям.",
+          "abilityType": "Heroic",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "AbathurUltimateEvolution",
+            "AbathurEvolveMonstrosity"
+          ]
+        },
+        {
           "nameId": "AbathurCombatStyleLocustBrood",
           "name": "Стая саранчидов",
           "shortTooltipId": "AbathurLocustSwarm",
@@ -499,22 +470,7 @@
           "fullTooltip": "При использовании призывает неподалеку 3 саранчидов.",
           "abilityType": "Active",
           "isActive": true,
-          "sort": 3
-        },
-        {
-          "nameId": "AbathurVolatileMutation",
-          "name": "Неустойчивая мутация",
-          "shortTooltipId": "AbathurVolatileMutationTalent",
-          "fullTooltipId": "AbathurVolatileMutationTalent",
-          "icon": "storm_ui_icon_abathur_volatilemutation.png",
-          "shortTooltip": "Созданные с помощью героической способности существа наносят периодический урон.",
-          "fullTooltip": "Существа, созданные с помощью «Венца эволюции» и «Чудовищной мутации», наносят 137 (+4% за уровень) ед. урона всем противникам поблизости раз в 3 сек. и в момент гибели.",
-          "abilityType": "Heroic",
-          "sort": 4,
-          "abilityTalentLinkIds": [
-            "AbathurUltimateEvolution",
-            "AbathurEvolveMonstrosity"
-          ]
+          "sort": 4
         }
       ],
       "level20": [
@@ -525,7 +481,7 @@
           "fullTooltipId": "AbathurUltimateEvolutionEvolutionaryLinkTalent",
           "icon": "storm_ui_icon_abathur_ultimateevolution.png",
           "shortTooltip": "Цель «Венца эволюции» получает щит.",
-          "fullTooltip": "Пока жива копия, созданная с помощью «Венца эволюции», клонированная цель получает щит прочностью 25% от своего максимального запаса здоровья. Щит обновляется раз в 5 сек.",
+          "fullTooltip": "Увеличивает время действия «Венца эволюции» на 50%. Пока жива копия, созданная с помощью «Венца эволюции», клонированная цель получает щит прочностью 25% от своего максимального запаса здоровья. Щит обновляется раз в 5 сек.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -538,8 +494,8 @@
           "shortTooltipId": "AbathurMonstrosityEvolutionCompleteTalent",
           "fullTooltipId": "AbathurMonstrosityEvolutionCompleteTalent",
           "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
-          "shortTooltip": "Позволяет монстру использовать «Глубинный тоннель».",
-          "fullTooltip": "Позволяет монстру использовать «Глубинный тоннель», чтобы перемещаться в любую видимую точку раз в 25 сек.",
+          "shortTooltip": "Увеличивает урон от автоатак монстра.",
+          "fullTooltip": "Увеличивает урон от автоатак монстра на 100%.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -624,8 +580,8 @@
                 "shortTooltipId": "AbathurSymbioteCarapace",
                 "fullTooltipId": "AbathurSymbioteCarapace",
                 "icon": "storm_ui_icon_abathur_carapace.png",
-                "cooldownTooltip": "Время восстановления: 12 сек.",
-                "fullTooltip": "Дает союзнику щит прочностью 157 (+4% за уровень) ед. Время действия – 8 сек.",
+                "cooldownTooltip": "Время восстановления: 6 сек.",
+                "fullTooltip": "Дает союзнику щит прочностью 157 (+4% за уровень) ед. Под действием щита союзные герои восполняют 22 (+4% за уровень) ед. здоровья в секунду. Время действия – 6 сек.",
                 "abilityType": "E"
               }
             ]
@@ -1715,7 +1671,7 @@
           "energyTooltip": "Мана: 10",
           "cooldownTooltip": "Время восстановления: 2 сек.",
           "shortTooltip": "Выпускает дротик, исцеляющий союзника.",
-          "fullTooltip": "Выпускает дротик, восполняющий первому союзному герою на своем пути 205 (+4% за уровень) ед. здоровья. Не действует на героев с полным запасом здоровья.",
+          "fullTooltip": "Выпускает дротик, восполняющий первому союзному герою на своем пути 195 (+4% за уровень) ед. здоровья. Не действует на героев с полным запасом здоровья.",
           "abilityType": "Q"
         },
         {
@@ -1765,7 +1721,7 @@
           "energyTooltip": "Мана: 45",
           "cooldownTooltip": "Время восстановления: 45 сек.",
           "shortTooltip": "Восполняет здоровье и наносит урон выстрелами неограниченной дальности.",
-          "fullTooltip": "Ана занимает снайперскую позицию и получает возможность совершить до 6 выстрелов неограниченной дальности. Выстрелы попадают в первого дружественного или вражеского героя либо вражеское строение на своем пути, восполняя союзникам 285 (+4% за уровень) ед. здоровья и нанося противникам 166 (+4% за уровень) ед. урона. Строения получают на 50% меньше урона.  Пока действует «Глаз Гора», Ана не может передвигаться.",
+          "fullTooltip": "Ана занимает снайперскую позицию и может совершить до 6 выстрелов неограниченной дальности. Пули пробивают союзных и вражеских героев, но останавливаются при попадании во вражеское строение. Каждый выстрел восполняет союзникам 225 (+4% за уровень) ед. здоровья и наносит противникам 135 (+4% за уровень) ед. урона. Строения получают на 50% меньше урона.  Пока действует «Глаз Гора», Ана не может передвигаться.",
           "abilityType": "Heroic"
         }
       ],
@@ -1776,8 +1732,8 @@
           "shortTooltipId": "AnaTraitShrikeSniper",
           "fullTooltipId": "AnaTraitShrikeSniper",
           "icon": "storm_ui_icon_ana_shrike.png",
-          "shortTooltip": "Автоатаки наносят дополнительный периодический урон и восполняют здоровье.",
-          "fullTooltip": "Автоатаки отравляют противников дозами яда, дополнительно нанося 40 (+4% за уровень) ед. урона в течение 5 сек. Эффект суммируется до 5 раз.  Раз в 0.5 сек. Ана восполняет в виде здоровья 50% урона, нанесенного «Ифритой».",
+          "shortTooltip": "Усиливает автоатаки, «Исцеляющий дротик» и «Транквилизатор».",
+          "fullTooltip": "Автоатаки отравляют противников дозами яда, дополнительно нанося 40 (+4% за уровень) ед. урона в течение 5 сек. Эффект суммируется до 5 раз. Раз в 0.5 сек. Ана восполняет в виде здоровья 50% урона, нанесенного «Ифритой».  Режим снайпера  При использовании «Ифриты» дальность действия «Исцеляющего дротика» увеличивается на 25%, а дротик пронзает одного героя, но скорость передвижения Аны снижается на 25%. Действует до отмены.",
           "abilityType": "Trait"
         }
       ]
@@ -1785,44 +1741,42 @@
     "talents": {
       "level1": [
         {
-          "nameId": "AnaBioticGrenadeGrenadeCalibration",
-          "name": "Калибровка гранаты",
-          "shortTooltipId": "AnaBioticGrenadeGrenadeCalibration",
-          "fullTooltipId": "AnaBioticGrenadeGrenadeCalibration",
+          "nameId": "AnaBioticGrenadeContactHealing",
+          "name": "Контактное исцеление",
+          "shortTooltipId": "AnaBioticGrenadeContactHealing",
+          "fullTooltipId": "AnaBioticGrenadeContactHealing",
           "icon": "storm_ui_icon_ana_biotic_grenade.png",
-          "shortTooltip": "Задача: усильте «Биотическую гранату».",
-          "fullTooltip": "Задача: поражайте героев противника «Биотической гранатой».  Награда: после 10 попаданий по героям «Биотическая граната» будет наносить на 75% больше урона за каждого союзного или вражеского героя, попавшего в область ее действия.  Награда: после 20 попаданий по героям время действия эффекта «Биотической гранаты» на союзников увеличится с 4 до 12 сек., радиус исцеления – на 100%, а эффект усиленного исцеления будет действовать на все виды получаемого союзниками исцеления.",
+          "shortTooltip": "Усиливает исцеление от «Биотической гранаты» при попадании по нескольким героям.",
+          "fullTooltip": "«Биотическая граната» восполняет на 30% больше здоровья за каждого дружественного или вражеского героя, попавшего в область ее действия.",
           "abilityType": "W",
-          "isQuest": true,
           "sort": 1,
           "abilityTalentLinkIds": [
             "AnaBioticGrenade"
           ]
         },
         {
-          "nameId": "AnaPiercingDarts",
-          "name": "Пробивающие дротики",
-          "shortTooltipId": "AnaPiercingDarts",
-          "fullTooltipId": "AnaPiercingDarts",
+          "nameId": "AnaSleepingDartSlumberShells",
+          "name": "Усыпляющие патроны",
+          "shortTooltipId": "AnaSleepingDartSlumberShells",
+          "fullTooltipId": "AnaSleepingDartSlumberShells",
           "icon": "storm_ui_icon_ana_sleep_dart.png",
-          "shortTooltip": "Задача: усильте «Транквилизатор» и «Исцеляющий дротик».",
-          "fullTooltip": "Задача: поражайте героев «Транквилизатором».  Награда: после 10 попаданий по героям «Транквилизатор» начнет поражать до 2 целей, а дальность его действия увеличится на 25%.  Награда: после 20 попаданий по героям «Исцеляющий дротик» начнет поражать до 2 целей, а дальность его действия увеличится на 25%.",
+          "shortTooltip": "«Транквилизатор» ускоряет передвижение.",
+          "fullTooltip": "Повышает скорость передвижения Аны на 25%, пока противник находится под действием «Транквилизатора».",
           "abilityType": "E",
-          "isQuest": true,
           "sort": 2,
           "abilityTalentLinkIds": [
             "AnaSleepDart"
           ]
         },
         {
-          "nameId": "AnaDetachableBoxMagazine",
-          "name": "Съемный магазин",
-          "shortTooltipId": "AnaDetachableBoxMagazine",
-          "fullTooltipId": "AnaDetachableBoxMagazine",
-          "icon": "storm_ui_icon_ana_detachableboxmagazine.png",
-          "shortTooltip": "Задача: усильте дозы яда.",
-          "fullTooltip": "Задача: поразите одного героя 5 дозами яда.  Награда: после того как Ана накопит максимальную дозу яда на героях 12 раз, она получит способность «Активная перезарядка», которая при использовании мгновенно дает 3 заряд,заряда,зарядов «Исцеляющего дротика».",
-          "abilityType": "Passive",
+          "nameId": "AnaShrikeVampiricRounds",
+          "name": "Вампирические пули",
+          "shortTooltipId": "AnaShrikeVampiricRounds",
+          "fullTooltipId": "AnaShrikeVampiricRounds",
+          "icon": "storm_ui_icon_ana_shrike.png",
+          "shortTooltip": "Задача: увеличьте объем исцеления от «Ифриты».",
+          "fullTooltip": "Задача: сделайте так, чтобы на вражеского героя одновременно действовало 5 доз яда.  Награда: исцеление от «Ифриты» усилится на 1.5%.",
+          "abilityType": "Trait",
           "isQuest": true,
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -1832,6 +1786,20 @@
       ],
       "level4": [
         {
+          "nameId": "AnaBioticGrenadeBioticEnhancements",
+          "name": "Биотические улучшения",
+          "shortTooltipId": "AnaBioticGrenadeBioticEnhancements",
+          "fullTooltipId": "AnaBioticGrenadeBioticEnhancements",
+          "icon": "storm_ui_icon_ana_biotic_grenade.png",
+          "shortTooltip": "Усиливает «Биотическую гранату».",
+          "fullTooltip": "Увеличивает время действия эффекта, усиливающего исцеление, на 50% и уменьшает время восстановления «Биотической гранаты» на 4 сек.",
+          "abilityType": "W",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "AnaBioticGrenade"
+          ]
+        },
+        {
           "nameId": "AnaOverdose",
           "name": "Передозировка",
           "shortTooltipId": "AnaOverdose",
@@ -1840,72 +1808,9 @@
           "shortTooltip": "«Транквилизатор» отравляет противников.",
           "fullTooltip": "Попадая в героев, «Транквилизатор» поражает их 3 дозами яда.",
           "abilityType": "E",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "AnaSleepDart"
-          ]
-        },
-        {
-          "nameId": "AnaAimDownSights",
-          "name": "Режим снайпера",
-          "shortTooltipId": "AnaAimDownSights",
-          "fullTooltipId": "AnaAimDownSights",
-          "icon": "storm_ui_icon_ana_aim_down_sights.png",
-          "cooldownTooltip": "Время восстановления: 3 сек.",
-          "shortTooltip": "«Ифриту» можно использовать, чтобы увеличить радиус обзора и дальность атаки.",
-          "fullTooltip": "Ана может активировать «Ифриту», чтобы увеличить радиус обзора на 100%, а дальность автоатаки – на 2 м. При этом скорость передвижения снижается на 20%. Действует до отмены.",
-          "abilityType": "Trait",
-          "isActive": true,
           "sort": 2,
           "abilityTalentLinkIds": [
-            "AnaTraitShrikeSniper"
-          ]
-        },
-        {
-          "nameId": "AnaBioticGrenadeAirStrike",
-          "name": "Воздух!",
-          "shortTooltipId": "AnaBioticGrenadeAirStrike",
-          "fullTooltipId": "AnaBioticGrenadeAirStrike",
-          "icon": "storm_ui_icon_ana_biotic_grenade.png",
-          "energyTooltip": "Мана: 50",
-          "cooldownTooltip": "Время восстановления: 12 сек.",
-          "shortTooltip": "Запускает «Биотическую гранату» с увеличенной дальностью действия.",
-          "fullTooltip": "При использовании запускает «Биотическую гранату» с повышенной на 275% дальностью действия, но при этом время полета гранаты увеличивается до 3 сек.  Пассивный эффект: уменьшает время восстановления «Биотической гранаты» на 4 сек.",
-          "abilityType": "Active",
-          "isActive": true,
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "AnaBioticGrenade"
-          ]
-        }
-      ],
-      "level7": [
-        {
-          "nameId": "AnaSleepingDartTemporaryBlindness",
-          "name": "Временная слепота",
-          "shortTooltipId": "AnaSleepingDartTemporaryBlindness",
-          "fullTooltipId": "AnaSleepingDartTemporaryBlindness",
-          "icon": "storm_ui_icon_ana_sleep_dart.png",
-          "shortTooltip": "«Транквилизатор» ослепляет противников.",
-          "fullTooltip": "По окончании действия основного эффекта «Транквилизатор» ослепляет цель на 2 сек.",
-          "abilityType": "E",
-          "sort": 1,
-          "abilityTalentLinkIds": [
             "AnaSleepDart"
-          ]
-        },
-        {
-          "nameId": "AnaMindNumbingAgent",
-          "name": "Дурман",
-          "shortTooltipId": "AnaMindNumbingAgent",
-          "fullTooltipId": "AnaMindNumbingAgent",
-          "icon": "storm_ui_icon_ana_shrike.png",
-          "shortTooltip": "Дозы яда ослабляют способности.",
-          "fullTooltip": "Каждая доза яда уменьшает силу способностей пораженного героя на 10%.",
-          "abilityType": "Trait",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "AnaTraitShrikeSniper"
           ]
         },
         {
@@ -1920,6 +1825,50 @@
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
+        }
+      ],
+      "level7": [
+        {
+          "nameId": "AnaBioticGrenadeAntiHealer",
+          "name": "Антимедик",
+          "shortTooltipId": "AnaBioticGrenadeAntiHealer",
+          "fullTooltipId": "AnaBioticGrenadeAntiHealer",
+          "icon": "storm_ui_icon_ana_biotic_grenade.png",
+          "shortTooltip": "Усиливает «Биотическую гранату».",
+          "fullTooltip": "Увеличивает область действия «Биотической гранаты» на 100%, а время действия эффекта, ослабляющего исцеление, на 50%.",
+          "abilityType": "W",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "AnaBioticGrenade"
+          ]
+        },
+        {
+          "nameId": "AnaSleepDartNightTerrors",
+          "name": "Ночные кошмары",
+          "shortTooltipId": "AnaSleepDartNightTerrors",
+          "fullTooltipId": "AnaSleepDartNightTerrors",
+          "icon": "storm_ui_icon_ana_sleep_dart.png",
+          "shortTooltip": "Усиливает «Транквилизатор».",
+          "fullTooltip": "Проснувшиеся герои получают урон в объеме 8% от своего максимального запаса здоровья. Если герой не был разбужен преждевременно, время восстановления «Транквилизатора» сокращается до 6 сек.",
+          "abilityType": "E",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "AnaSleepDart"
+          ]
+        },
+        {
+          "nameId": "AnaMindNumbingAgent",
+          "name": "Дурман",
+          "shortTooltipId": "AnaMindNumbingAgent",
+          "fullTooltipId": "AnaMindNumbingAgent",
+          "icon": "storm_ui_icon_ana_shrike.png",
+          "shortTooltip": "Дозы яда ослабляют способности.",
+          "fullTooltip": "Каждая доза яда уменьшает силу способностей пораженного героя на 10%.",
+          "abilityType": "Trait",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "AnaTraitShrikeSniper"
+          ]
         }
       ],
       "level10": [
@@ -1949,7 +1898,7 @@
           "energyTooltip": "Мана: 45",
           "cooldownTooltip": "Время восстановления: 45 сек.",
           "shortTooltip": "Восполняет здоровье и наносит урон выстрелами неограниченной дальности.",
-          "fullTooltip": "Ана занимает снайперскую позицию и получает возможность совершить до 6 выстрелов неограниченной дальности. Выстрелы попадают в первого дружественного или вражеского героя либо вражеское строение на своем пути, восполняя союзникам 285 (+4% за уровень) ед. здоровья и нанося противникам 166 (+4% за уровень) ед. урона. Строения получают на 50% меньше урона.  Пока действует «Глаз Гора», Ана не может передвигаться.",
+          "fullTooltip": "Ана занимает снайперскую позицию и может совершить до 6 выстрелов неограниченной дальности. Пули пробивают союзных и вражеских героев, но останавливаются при попадании во вражеское строение. Каждый выстрел восполняет союзникам 225 (+4% за уровень) ед. здоровья и наносит противникам 135 (+4% за уровень) ед. урона. Строения получают на 50% меньше урона.  Пока действует «Глаз Гора», Ана не может передвигаться.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -2032,17 +1981,20 @@
           ]
         },
         {
-          "nameId": "AnaBioticGrenadeContactHealing",
-          "name": "Контактное исцеление",
-          "shortTooltipId": "AnaBioticGrenadeContactHealing",
-          "fullTooltipId": "AnaBioticGrenadeContactHealing",
-          "icon": "storm_ui_icon_ana_biotic_grenade.png",
-          "shortTooltip": "Усиливает исцеление от «Биотической гранаты» при попадании по нескольким героям.",
-          "fullTooltip": "«Биотическая граната» восполняет на 30% больше здоровья за каждого дружественного или вражеского героя, попавшего в область ее действия.",
-          "abilityType": "W",
+          "nameId": "AnaDetachableBoxMagazine",
+          "name": "Активная перезарядка",
+          "shortTooltipId": "AnaDetachableBoxMagazineActive",
+          "fullTooltipId": "AnaDetachableBoxMagazineActive",
+          "icon": "storm_ui_icon_ana_healing_dart_b.png",
+          "toggleCooldown": 0.0625,
+          "cooldownTooltip": "Время восстановления: 60 сек.",
+          "shortTooltip": "«Исцеляющий дротик» получает дополнительные заряды.",
+          "fullTooltip": "При использовании мгновенно дает 3 заряд,заряда,зарядов «Исцеляющего дротика».",
+          "abilityType": "Active",
+          "isActive": true,
           "sort": 3,
           "abilityTalentLinkIds": [
-            "AnaBioticGrenade"
+            "AnaHealingDart"
           ]
         }
       ],
@@ -2062,13 +2014,13 @@
           ]
         },
         {
-          "nameId": "AnaEyeOfHorusBallisticAdvantage",
-          "name": "Баллистическое преимущество",
-          "shortTooltipId": "AnaEyeOfHorusBallisticAdvantage",
-          "fullTooltipId": "AnaEyeOfHorusBallisticAdvantage",
+          "nameId": "AnaEyeOfHorusDeadeye",
+          "name": "В яблочко!",
+          "shortTooltipId": "AnaEyeOfHorusDeadeye",
+          "fullTooltipId": "AnaEyeOfHorusDeadeye",
           "icon": "storm_ui_icon_ana_overwatch.png",
-          "shortTooltip": "Используя «Глаз Гора», Ана стреляет разрывными пулями.",
-          "fullTooltip": "Пули, выпущенные при использовании «Глаза Гора», взрываются при попадании в героя, восполняя союзникам поблизости 300 (+4% за уровень) ед. здоровья и нанося героям противника в области поражения 150 (+4% за уровень) ед. урона.",
+          "shortTooltip": "Увеличивает объем исцеления и урон при попадании по героям.",
+          "fullTooltip": "Увеличивает объем исцеления и урон от «Глаза Гора» на 4% за каждого пораженного героя. Бонус обнуляется после произведения всех выстрелов.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -2076,46 +2028,26 @@
           ]
         },
         {
-          "nameId": "AnaSomnolentDoses",
-          "name": "Снотворное",
-          "shortTooltipId": "AnaSomnolentDoses",
-          "fullTooltipId": "AnaSomnolentDoses",
-          "icon": "storm_ui_icon_ana_shrike.png",
-          "shortTooltip": "Максимальная доза яда усыпляет противника.",
-          "fullTooltip": "После получения 5 доз яда герой погружается в сон на 2 сек.",
-          "abilityType": "Trait",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "AnaTraitShrikeSniper"
-          ]
-        },
-        {
-          "nameId": "AnaDynamicShooting",
-          "name": "Скоростная стрельба",
-          "shortTooltipId": "AnaDynamicShooting",
-          "fullTooltipId": "AnaDynamicShooting",
-          "icon": "storm_ui_icon_talent_autoattack_speed.png",
-          "shortTooltip": "Автоатаки повышают скорость атаки.",
-          "fullTooltip": "Автоатаки повышают скорость атаки на 10% на 4 сек., вплоть до 100%.",
-          "abilityType": "Passive",
-          "sort": 4,
-          "abilityTalentLinkIds": [
-            "AnaTraitShrikeSniper"
-          ]
-        },
-        {
-          "nameId": "AnaAimDownSightsCustomOptics",
-          "name": "Улучшенная оптика",
-          "shortTooltipId": "AnaAimDownSightsCustomOptics",
-          "fullTooltipId": "AnaAimDownSightsCustomOptics",
+          "nameId": "AnaShrikeArmoredStance",
+          "name": "Защитная стойка",
+          "shortTooltipId": "AnaShrikeArmoredStance",
+          "fullTooltipId": "AnaShrikeArmoredStance",
           "icon": "storm_ui_icon_ana_aim_down_sights.png",
-          "shortTooltip": "Увеличивает бонус к дальности автоатаки от «Режима снайпера».",
-          "fullTooltip": "Увеличивает бонус к дальности автоатаки от «Режима снайпера» с 2 до 4 м.",
-          "abilityType": "Trait",
-          "sort": 5,
-          "abilityTalentLinkIds": [
-            "AnaTraitShrikeSniper"
-          ]
+          "shortTooltip": "Усиливает «Ифриту».",
+          "fullTooltip": "Увеличивает урон от «Ифриты» на 50%. Во время действия «Режима снайпера» Ана получает 25 ед. брони.",
+          "abilityType": "Active",
+          "sort": 3
+        },
+        {
+          "nameId": "AnaDynamicOptics",
+          "name": "Динамическая оптика",
+          "shortTooltipId": "AnaDynamicOptics",
+          "fullTooltipId": "AnaDynamicOptics",
+          "icon": "storm_ui_icon_ana_aim_down_sights_a.png",
+          "shortTooltip": "Усиливает автоатаки.",
+          "fullTooltip": "Каждая автоатака повышает скорость атаки на 10% на 3 сек., вплоть до 100%. Во время действия «Режима снайпера» дальность автоатаки увеличивается на 4 м.",
+          "abilityType": "Active",
+          "sort": 4
         }
       ]
     }
@@ -3469,7 +3401,7 @@
           "fullTooltipId": "ArthasLegionOfNorthrendArmyOfTheDeadTalent",
           "icon": "storm_ui_icon_Arthas_ArmyOfTheDead.png",
           "shortTooltip": "Увеличивает время существования и количество призываемых вурдалаков.",
-          "fullTooltip": "Дополнительно призывает 3 вурдалака,вурдалаков,вурдалаков. Вурдалаки восполняют на 50% больше здоровья, а время их существования увеличивается на 5 сек.",
+          "fullTooltip": "Дополнительно призывает 3 вурдалака,вурдалаков,вурдалаков. Вурдалаки восполняют на 50% больше здоровья и живут на 5 сек. дольше.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -6773,7 +6705,7 @@
           "fullTooltipId": "ChoRunicFeedbackTalent",
           "icon": "storm_ui_icon_Cho_RuneBomb.png",
           "shortTooltip": "«Рунный взрыв» ускоряет восстановление «Рунной бомбы».",
-          "fullTooltip": "«Рунный взрыв» Галла сокращает время восстановления «Рунной бомбы» на 1 сек. за каждого пораженного им противника, не являющегося героем, и на 2 сек. за каждого пораженного героя.",
+          "fullTooltip": "«Рунный взрыв» Галла сокращает время восстановления «Рунной бомбы» на 1 сек. за каждого пораженного противника (кроме героев) и на 2 сек. за каждого пораженного героя.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -7009,7 +6941,7 @@
           "energyTooltip": "Мана: 4 ед. в секунду",
           "cooldownTooltip": "Время восстановления: 5 сек.",
           "shortTooltip": "Создает замедляющую противников аномалию.",
-          "fullTooltip": "Создает в выбранной области песчаную бурю. Чем дольше она существует, тем сильнее замедляет попавших в нее противников, вплоть до 60% спустя 3 сек. после появления.",
+          "fullTooltip": "Создает в указанной области песчаную бурю. Чем дольше она существует, тем сильнее замедляет попавших в нее противников, вплоть до 60% спустя 3 сек. после появления.",
           "abilityType": "Heroic"
         },
         {
@@ -7033,7 +6965,7 @@
           "fullTooltipId": "ChromieTimewalkerTrait",
           "icon": "storm_ui_icon_Chromie_TimeTraveler.png",
           "shortTooltip": "Хроми получает таланты раньше остальных героев.",
-          "fullTooltip": "Хроми может перемещаться во времени и потому получает новые таланты на 2 уровня раньше, чем остальные герои!   Бронзовые когти  Когда базовая способность Хроми поражает героя, ее следующая автоатака наносит на 140% больше урона.",
+          "fullTooltip": "Хроми может перемещаться во времени и потому получает новые таланты на 2 уровня раньше, чем остальные герои!   Бронзовые когти  Когда базовая способность поражает героя, следующая автоатака наносит на 140% больше урона.",
           "abilityType": "Trait"
         }
       ]
@@ -7187,7 +7119,7 @@
           "energyTooltip": "Мана: 4 ед. в секунду",
           "cooldownTooltip": "Время восстановления: 5 сек.",
           "shortTooltip": "Создает замедляющую противников аномалию.",
-          "fullTooltip": "Создает в выбранной области песчаную бурю. Чем дольше она существует, тем сильнее замедляет попавших в нее противников, вплоть до 60% спустя 3 сек. после появления.",
+          "fullTooltip": "Создает в указанной области песчаную бурю. Чем дольше она существует, тем сильнее замедляет попавших в нее противников, вплоть до 60% спустя 3 сек. после появления.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -7967,7 +7899,7 @@
           },
           "cooldownTooltip": "Время восстановления: 5 сек.",
           "shortTooltip": "Восполняет здоровье, собирая и поглощая эссенцию врагов.",
-          "fullTooltip": "При убийстве героя Дехака получает 10 ед. эссенции. При убийстве воина – 2 ед. При использовании умения каждая поглощенная единица эссенции восполняет Дехаке 29 (+4% за уровень) ед. здоровья в течение 5 сек. Можно накопить до 50 ед. эссенции. Умение можно применять во время действия «Притягивания» и «Закапывания».",
+          "fullTooltip": "При убийстве героя Дехака получает 10 ед. эссенции. При убийстве воина – 2 ед. При использовании умения каждая поглощенная единица эссенции восполняет Дехаке 29 (+4% за уровень) ед. здоровья в течение 5 сек. Максимум эссенции – 50 ед. Можно использовать во время действия «Притягивания» и «Закапывания».",
           "abilityType": "Trait"
         }
       ],
@@ -9243,7 +9175,7 @@
           "shortTooltipId": "DVaBunnyHopStopAndPop",
           "fullTooltipId": "DVaBunnyHopStopAndPop",
           "icon": "storm_ui_icon_dva_bunnyhop.png",
-          "shortTooltip": "Повышает урон от «Попрыгушек», если D.Va прыгает на месте.",
+          "shortTooltip": "Увеличивает урон от «Попрыгушек», если D.Va прыгает на месте.",
           "fullTooltip": "«Попрыгушки» наносят на 200% больше урона, если меха прыгает на месте.",
           "abilityType": "Heroic",
           "sort": 1,
@@ -9273,7 +9205,7 @@
           "icon": "storm_ui_icon_dva_concussivecharge.png",
           "cooldownTooltip": "Время восстановления: 7 сек.",
           "shortTooltip": "Отбрасывает противников в режиме пилота.",
-          "fullTooltip": "D.Va получает способность «Ударный импульс», которая наносит 141 (+4% за уровень) ед. урона противникам в секторе и отбрасывает их.  Способность доступна только в режиме пилота.",
+          "fullTooltip": "Дает способность «Ударный импульс», которая наносит 141 (+4% за уровень) ед. урона противникам в секторе и отбрасывает их.  Требуется режим пилота.",
           "abilityType": "W",
           "isActive": true,
           "sort": 3
@@ -10422,7 +10354,7 @@
           "fullTooltipId": "FenixShieldCapacitor",
           "icon": "storm_ui_icon_fenix_shield_1.png",
           "shortTooltip": "Постоянный щит, который восстанавливается вне боя.",
-          "fullTooltip": "Феникса укрывает постоянный щит прочностью 760 (+4% за уровень) ед., который восстанавливается со скоростью 76 (+4% за уровень) ед. в секунду, если Феникс не получает урона в течение 5 сек.",
+          "fullTooltip": "Дает постоянный щит прочностью 760 (+4% за уровень) ед., который восстанавливается со скоростью 10% в секунду, если Феникс не получает урона в течение 5 сек.",
           "abilityType": "Trait"
         }
       ]
@@ -11580,7 +11512,7 @@
           "fullTooltipId": "GarroshBloodthirstBloodcraze",
           "icon": "storm_ui_icon_garrosh_bloodthirst.png",
           "shortTooltip": "«Кровожадность» также восполняет здоровье со временем.",
-          "fullTooltip": "Дополнительно восполняет Гаррошу здоровье в объеме 15% от максимального запаса в течение 3 сек. после попадания «Кровожадностью» по герою.",
+          "fullTooltip": "Восполняет Гаррошу еще 15% от максимального запаса здоровья в течение 3 сек. при попадании «Кровожадностью» по герою.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -11698,7 +11630,7 @@
           "fullTooltipId": "GarroshArmorUpInnerRage",
           "icon": "storm_ui_icon_garrosh_slam.png",
           "shortTooltip": "«Силовой прием» получает дополнительный заряд.",
-          "fullTooltip": "«Силовой прием» получает второй заряд. Пока бонус к броне от умения «Поднять щит!» превышает 25 ед., «Силовой прием» восстанавливается на 200% быстрее.",
+          "fullTooltip": "«Силовой прием» получает второй заряд. Пока бонус к броне от умения составляет не менее 25 ед., «Силовой прием» восстанавливается на 100% быстрее.",
           "abilityType": "Active",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -14788,7 +14720,7 @@
           "fullTooltipId": "ImperiusSolarionsFireBulwarkOfFlame",
           "icon": "storm_ui_icon_imperius_w.png",
           "shortTooltip": "«Пламя Солариона» дает кинетическую броню.",
-          "fullTooltip": "Поражая героя, «Пламя Солариона» дает 70 ед. кинетической брони, защищающей от 2 следующей автоатаки,следующих автоатак,следующих автоатак героев. Максимум зарядов – 4 .",
+          "fullTooltip": "Поражая героя, «Пламя Солариона» дает 70 ед. кинетической брони, защищающей от 2 следующей автоатаки,следующих автоатак,следующих автоатак героев. Максимум зарядов – 4.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -15773,7 +15705,7 @@
           "fullTooltipId": "CrusaderZealousGlare",
           "icon": "storm_ui_icon_johanna_shield_glare.png",
           "shortTooltip": "Продлевает действие «Сияющего щита».",
-          "fullTooltip": "«Сияющий щит» ослепляет противников на 0.75 сек. дольше. Автоатаки Джоанны по ослепленным «Сияющим щитом» героям продлевают его действие на 1 сек., вплоть до 3 сек.",
+          "fullTooltip": "«Сияющий щит» ослепляет противников на 0.75 сек. дольше. Каждая автоатака Джоанны по ослепленным «Сияющим щитом» героям продлевает его действие на 1 сек., вплоть до 3 сек.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -16090,7 +16022,7 @@
           "icon": "storm_ui_icon_junkrat_rocket_ride.png",
           "cooldownTooltip": "Время восстановления: 75 сек.",
           "shortTooltip": "Взлетает в воздух и наносит урон в области приземления.",
-          "fullTooltip": "После паузы в 1.25 сек. Крысавчик взлетает в воздух верхом на ракете. Пока ракета находится в воздухе, можно передвигать точку приземления.  Крысавчик приземляется через 3.75 сек., нанося 750 (+4% за уровень) ед. урона находящимся рядом противникам и активируя «Полный хаос». Спустя 5 сек. Крысавчик появляется у алтаря и получает бонус к скорости передвижения в 150%, пока не покинет транспорт.",
+          "fullTooltip": "После паузы в 1.25 сек. Крысавчик взлетает в воздух верхом на ракете. Пока ракета находится в воздухе, можно передвигать точку приземления.  Крысавчик приземляется через 3.75 сек., нанося 750 (+4% за уровень) ед. урона находящимся рядом противникам и активируя «Полный хаос». Спустя 5 сек. Крысавчик появляется в Зале Штормов и получает бонус к скорости передвижения в 150%, пока не покинет транспорт.",
           "abilityType": "Heroic"
         }
       ],
@@ -16268,7 +16200,7 @@
           "icon": "storm_ui_icon_junkrat_rocket_ride.png",
           "cooldownTooltip": "Время восстановления: 75 сек.",
           "shortTooltip": "Взлетает в воздух и наносит урон в области приземления.",
-          "fullTooltip": "После паузы в 1.25 сек. Крысавчик взлетает в воздух верхом на ракете. Пока ракета находится в воздухе, можно передвигать точку приземления.  Крысавчик приземляется через 3.75 сек., нанося 750 (+4% за уровень) ед. урона находящимся рядом противникам и активируя «Полный хаос». Спустя 5 сек. Крысавчик появляется у алтаря и получает бонус к скорости передвижения в 150%, пока не покинет транспорт.",
+          "fullTooltip": "После паузы в 1.25 сек. Крысавчик взлетает в воздух верхом на ракете. Пока ракета находится в воздухе, можно передвигать точку приземления.  Крысавчик приземляется через 3.75 сек., нанося 750 (+4% за уровень) ед. урона находящимся рядом противникам и активируя «Полный хаос». Спустя 5 сек. Крысавчик появляется в Зале Штормов и получает бонус к скорости передвижения в 150%, пока не покинет транспорт.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -20611,7 +20543,7 @@
           "fullTooltipId": "MedicPhysicalTherapy",
           "icon": "storm_ui_icon_medic_deployshield.png",
           "shortTooltip": "«Страховка» снимает эффекты замедления.",
-          "fullTooltip": "«Страховка» снимает с цели все эффекты замедления, а время восстановления способности уменьшается на 2 сек.",
+          "fullTooltip": "«Страховка» снимает с цели все эффекты замедления, а время ее восстановления уменьшается на 2 сек.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -20968,7 +20900,7 @@
           "fullTooltipId": "LucioWallRide",
           "icon": "storm_ui_icon_Lucio_WallRide.png",
           "shortTooltip": "Возле препятствий Лусио движется быстрее и проходит через других персонажей.",
-          "fullTooltip": "Когда Лусио двигается вдоль естественных препятствий и строений, он проходит сквозь боевые единицы, а его скорость передвижения повышается на 20%.  Эффект суммируется с другими бонусами к скорости передвижения.",
+          "fullTooltip": "Когда Лусио двигается вдоль естественных препятствий и строений, он проходит сквозь других персонажей, а его скорость передвижения повышается на 20%.  Суммируется с другими бонусами к скорости передвижения.",
           "abilityType": "Trait"
         }
       ],
@@ -20980,7 +20912,7 @@
           "fullTooltipId": "LucioSkateMode",
           "icon": "storm_ui_icon_lucio_mount.png",
           "shortTooltip": "Лусио может стрелять на ходу. Боевой конькобежец!",
-          "fullTooltip": "Лусио может стрелять на ходу. Боевой конькобежец!",
+          "fullTooltip": "Лусио может стрелять на ходу. Боевые коньки – это сила!",
           "abilityType": "Z"
         }
       ]
@@ -21214,7 +21146,7 @@
           "fullTooltipId": "LucioWallRideHardStyle",
           "icon": "storm_ui_icon_Lucio_WallRide_A.png",
           "shortTooltip": "«Езда по стенам» дает броню.",
-          "fullTooltip": "Пока действует бонус к скорости передвижения от «Езды по стенам», Лусио получает 25 ед. брони, уменьшающей получаемый урон на 25%.",
+          "fullTooltip": "Пока действует бонус к скорости передвижения от «Езды по стенам», дает 25 ед. брони, уменьшающей получаемый урон на 25%.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -23744,7 +23676,7 @@
           "icon": "storm_ui_icon_Malthael_NoOneCanStopDeath.png",
           "cooldownTooltip": "Время восстановления: 180 сек.",
           "shortTooltip": "Возрождает Малтаэля.",
-          "fullTooltip": "При использовании Малтаэль мгновенно возрождается у алтаря, но время его следующего возрождения увеличивается на 25%.",
+          "fullTooltip": "При использовании Малтаэль мгновенно возрождается в Зале Штормов, но время его следующего возрождения увеличивается на 25%.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4
@@ -27222,7 +27154,7 @@
           "icon": "storm_ui_icon_probius_mount.png",
           "cooldownTooltip": "Время восстановления: 30 сек.",
           "shortTooltip": "Пассивно повышает скорость. Дает бонус к скорости при использовании.",
-          "fullTooltip": "При использовании дополнительно повышает скорость передвижения на 60% на 5 сек. Эффект рассеивается при получении урона. «Ускорение» активно все время, пока Пробиус находится у алтаря.  Пассивный эффект: Пробиус перемещается на 10% быстрее.",
+          "fullTooltip": "При использовании повышает скорость передвижения еще на 60% на 5 сек. Рассеивается при получении урона. «Ускорение» активно все время, пока Пробиус находится в Зале Штормов.  Пассивный эффект: Пробиус передвигается на 10% быстрее.",
           "abilityType": "Z"
         }
       ]
@@ -27296,7 +27228,7 @@
           "fullTooltipId": "ProbiusTurboChargedWorkerRushTalent",
           "icon": "storm_ui_icon_probius_workerrush.png",
           "shortTooltip": "Ускоряет передвижение и восстановление «Ускорения».",
-          "fullTooltip": "Пассивный эффект «Ускорения» дополнительно повышает скорость передвижения Пробиуса в энергетическом поле на 10%, а время восстановления этой способности сокращается на 10 сек.",
+          "fullTooltip": "Уменьшает время восстановления «Ускорения» на 10 сек. В энергетическом поле пассивный эффект «Ускорения» повышает скорость передвижения Пробиуса еще на 10%.",
           "abilityType": "Z",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -27419,7 +27351,7 @@
           "shortTooltipId": "ProbiusPowerOverflowingWarpInPylonTalent",
           "fullTooltipId": "ProbiusPowerOverflowingWarpInPylonTalent",
           "icon": "storm_ui_icon_probius_warpinpylon_a.png",
-          "shortTooltip": "Энергетическое поле усиливает способности и ускоряет восстановление маны.",
+          "shortTooltip": "Энергетическое поле усиливает способности и восполняет ману.",
           "fullTooltip": "Энергетическое поле пилона увеличивает силу способностей союзных героев на 10% и восполняет им 2 ед. маны в секунду.",
           "abilityType": "Trait",
           "sort": 2,
@@ -27521,7 +27453,7 @@
           "shortTooltipId": "ProbiusGateKeeperNullGateTalent",
           "fullTooltipId": "ProbiusGateKeeperNullGateTalent",
           "icon": "storm_ui_icon_probius_voidgate.png",
-          "shortTooltip": "Нуль-барьер не пропадает, пока находится в энергетическом поле.",
+          "shortTooltip": "Нуль-барьер не пропадает, пока находится в энергетическом поле пилона.",
           "fullTooltip": "Нуль-барьер действует неограниченное время, если хотя бы одна из его границ находится в энергетическом поле.  Одновременно может использоваться только один нуль-барьер.",
           "abilityType": "Heroic",
           "sort": 2,
@@ -27536,7 +27468,7 @@
           "fullTooltipId": "ProbiusShootEmUpDisruptionPulseTalent",
           "icon": "storm_ui_icon_probius_disruptionpulse.png",
           "shortTooltip": "Попадая в разлом, разрушительный импульс разделяется.",
-          "fullTooltip": "Попадая в пространственный разлом, разрушительный импульс разделяется на 4 дополнительный импульс,дополнительных импульса,дополнительных импульсов, которые разлетаются из точки взрыва в разные стороны и наносят 50% базового урона.   Дополнительные импульсы не получают бонусов от «Обратного импульса» и «Ускорителя частиц».",
+          "fullTooltip": "Попадая в пространственный разлом, разрушительный импульс разделяется на 4 дополнительный импульс,дополнительных импульса,дополнительных импульсов, которые разлетаются из точки взрыва в разные стороны и наносят 50% от базового урона.   Дополнительные импульсы не получают бонусов от «Обратного импульса» и «Ускорителя частиц».",
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -28673,7 +28605,7 @@
           "energyTooltip": "Мана: 80",
           "cooldownTooltip": "Время восстановления: 100 сек.",
           "shortTooltip": "Восполняет союзному герою значительный объем здоровья.",
-          "fullTooltip": "После паузы в 1 сек. восполняет союзному герою 1180 (+4% за уровень) ед. здоровья.  Не действует на Регара.",
+          "fullTooltip": "После паузы в 1 сек. восполняет союзному герою 1180 (+4% за уровень) ед. здоровья.",
           "abilityType": "Heroic"
         },
         {
@@ -28883,7 +28815,7 @@
           "energyTooltip": "Мана: 80",
           "cooldownTooltip": "Время восстановления: 100 сек.",
           "shortTooltip": "Восполняет союзному герою значительный объем здоровья.",
-          "fullTooltip": "После паузы в 1 сек. восполняет союзному герою 1180 (+4% за уровень) ед. здоровья.  Не действует на Регара.",
+          "fullTooltip": "После паузы в 1 сек. восполняет союзному герою 1180 (+4% за уровень) ед. здоровья.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -31089,7 +31021,7 @@
           "fullTooltipId": "StitchesDevourSavorTheFlavorTalent",
           "icon": "storm_ui_icon_stitches_devour.png",
           "shortTooltip": "Задача: «Пожирание» восполняет больше здоровья и ускоряет его восстановление.",
-          "fullTooltip": "Когда «Пожирание» поражает героя, Стежок дополнительно восполняет себе 8% от максимального запаса здоровья и маны в течение 4 сек.   Задача: каждое использование «Пожирания» против героев повышает скорость восстановления здоровья до конца матча на 1.5 ед. в секунду.",
+          "fullTooltip": "Когда «Пожирание» поражает героя, Стежок восполняет еще 8% от максимального запаса здоровья и маны в течение 4 сек.   Задача: каждое использование «Пожирания» против героя повышает скорость восстановления здоровья на 1.5 ед. в секунду.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 1,
@@ -32452,7 +32384,7 @@
           "energyTooltip": "Мана: 75",
           "cooldownTooltip": "Время восстановления: 30 сек.",
           "shortTooltip": "Дает временную неуязвимость и невидимость.",
-          "fullTooltip": "Тассадар становится неуязвимым и необнаружимым на 2 сек., при этом передвигаясь на 25% быстрее.",
+          "fullTooltip": "Дает неуязвимость и необнаружимость, а также бонус к скорости передвижения в 25% на 2 сек.",
           "abilityType": "E"
         }
       ],
@@ -32466,7 +32398,7 @@
           "energyTooltip": "Мана: 80",
           "cooldownTooltip": "Время восстановления: 100 сек.",
           "shortTooltip": "Тассадар превращается в архонта.",
-          "fullTooltip": "Тассадар превращается в архонта и получает плазменный щит. Автоатаки наносят 158 (+4% за уровень) ед. урона, замедляют цель на 30% на 1 сек. и дополнительно наносят 79 (+4% за уровень) ед. урона всем противникам в радиусе 2.5 м от цели. Время действия – 10 сек.  Пассивный эффект: использование «Архонта» восстанавливает «Пространственный сдвиг».",
+          "fullTooltip": "Тассадар превращается в архонта и получает плазменный щит. Автоатаки наносят 158 (+4% за уровень) ед. урона, замедляют цель на 30% на 1 сек. и дополнительно наносят 79 (+4% за уровень) ед. урона противникам в радиусе 2.5 м от цели. Время действия – 10 сек.  Пассивный эффект: использование «Архонта» восстанавливает «Пространственный сдвиг».",
           "abilityType": "Heroic"
         },
         {
@@ -32478,7 +32410,7 @@
           "energyTooltip": "Мана: 25",
           "cooldownTooltip": "Время восстановления: 8 сек.",
           "shortTooltip": "Создает непреодолимую стену.",
-          "fullTooltip": "Создает непреодолимую стену на 2 сек.   Пассивный эффект: усиливает эффект замедления «Искажающего луча» до 30%.",
+          "fullTooltip": "Создает непреодолимую стену на 2 сек.   Пассивный эффект: усиливает замедление от «Искажающего луча» до 30%.",
           "abilityType": "Heroic"
         }
       ],
@@ -32535,7 +32467,7 @@
           "fullTooltipId": "TassadarKhaydarinResonance",
           "icon": "storm_ui_icon_talent_conjurerspursuit.png",
           "shortTooltip": "Задача: подбирайте сферы регенерации, чтобы усилить «Плазменный щит».",
-          "fullTooltip": "Задача: сферы регенерации дополнительно восполняют 100% маны.   Награда: после подбора 15 сферы,сфер,сфер запас прочности плазменного щита увеличится на 20%.  Награда: после подбора 30 сферы,сфер,сфер запас прочности плазменного щита увеличится на 40%.",
+          "fullTooltip": "Задача: сферы регенерации дополнительно восполняют 100% маны.   Награда: после подбора 15 сфер запас прочности плазменного щита увеличится на 20%.  Награда: после подбора 30 сфер запас прочности плазменного щита увеличится на 40%.",
           "abilityType": "Passive",
           "isQuest": true,
           "sort": 3,
@@ -32643,7 +32575,7 @@
           "energyTooltip": "Мана: 80",
           "cooldownTooltip": "Время восстановления: 100 сек.",
           "shortTooltip": "Тассадар превращается в архонта.",
-          "fullTooltip": "Тассадар превращается в архонта и получает плазменный щит. Автоатаки наносят 158 (+4% за уровень) ед. урона, замедляют цель на 30% на 1 сек. и дополнительно наносят 79 (+4% за уровень) ед. урона всем противникам в радиусе 2.5 м от цели. Время действия – 10 сек.  Пассивный эффект: использование «Архонта» восстанавливает «Пространственный сдвиг».",
+          "fullTooltip": "Тассадар превращается в архонта и получает плазменный щит. Автоатаки наносят 158 (+4% за уровень) ед. урона, замедляют цель на 30% на 1 сек. и дополнительно наносят 79 (+4% за уровень) ед. урона противникам в радиусе 2.5 м от цели. Время действия – 10 сек.  Пассивный эффект: использование «Архонта» восстанавливает «Пространственный сдвиг».",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -32660,7 +32592,7 @@
           "energyTooltip": "Мана: 25",
           "cooldownTooltip": "Время восстановления: 8 сек.",
           "shortTooltip": "Создает непреодолимую стену.",
-          "fullTooltip": "Создает непреодолимую стену на 2 сек.   Пассивный эффект: усиливает эффект замедления «Искажающего луча» до 30%.",
+          "fullTooltip": "Создает непреодолимую стену на 2 сек.   Пассивный эффект: усиливает замедление от «Искажающего луча» до 30%.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -32720,7 +32652,7 @@
           "fullTooltipId": "TassadarPhaseDisruption",
           "icon": "storm_ui_icon_tassadar_psionicstorm.png",
           "shortTooltip": "«Псионный шторм» ослабляет кинетическую броню.",
-          "fullTooltip": "«Псионный шторм» уменьшает кинетическую броню противников в области действия на 25 ед., увеличивая получаемый ими урон от автоатак на 25%.",
+          "fullTooltip": "«Псионный шторм» ослабляет кинетическую броню пораженных героев на 25 ед., увеличивая получаемый ими урон от автоатак на 25%.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -32734,7 +32666,7 @@
           "fullTooltipId": "TassadarPsionicEcho",
           "icon": "storm_ui_icon_tassadar_psionicstorm_var1.png",
           "shortTooltip": "«Псионный шторм» можно применить 2 раза.",
-          "fullTooltip": "«Псионный шторм» можно использовать повторно в течение 2 сек. после первого применения. Единовременно противники могут находиться под воздействием только одного «Псионного шторма».",
+          "fullTooltip": "«Псионный шторм» можно использовать повторно в течение 2 сек. после первого применения. Единовременно на противника может действовать только один «Псионный шторм».",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -32988,7 +32920,7 @@
           "fullTooltipId": "ButcherHamstringChopMeatTalent",
           "icon": "storm_ui_icon_butcher_hamstring_var1.png",
           "shortTooltip": "«Подрезать сухожилия» наносит больше урона всем, кроме героев.",
-          "fullTooltip": "«Подрезать сухожилия» наносит на 100% больше урона воинам и наемникам.",
+          "fullTooltip": "«Подрезать сухожилия» наносит на 100% больше урона воинам, наемникам и монстрам.",
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -37770,7 +37702,7 @@
           "fullTooltipId": "WhitemaneInquisitionHighInquisitor",
           "icon": "storm_ui_icon_whitemane_inquisition.png",
           "shortTooltip": "«Дознание» снимает «Отчаяние» и восполняет ману.",
-          "fullTooltip": "«Дознание» мгновенно снимает все эффекты «Отчаяния» и восполняет 75 ед. маны за каждый снятый эффект.",
+          "fullTooltip": "«Дознание» мгновенно снимает все эффекты «Отчаяния» и восполняет 50 ед. маны за каждый снятый эффект.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -38505,7 +38437,7 @@
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
     "searchText": "Ирэль WoW дреней Warlords of Drenor Дренор ВоВ Варкрафт WoD ВоД Альянс паладин BFA Battle for Azeroth",
-    "description": "Осмотрительный танк ближнего боя. Может усилить свои способности, потратив время на обстоятельную подготовку.",
+    "description": "Рассудительная рубака, сражающаяся в ближнем бою. Может усиливать свои способности, затрачивая время на обстоятельную подготовку.",
     "descriptors": [
       "BodyBlocker",
       "Escaper",
