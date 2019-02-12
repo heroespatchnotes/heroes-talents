@@ -22,7 +22,7 @@
     "Ana": [
       {
         "name": "Healing Dart",
-        "description": "Fire a dart which heals the first allied Hero hit for 205 (+4% per level) Health. Does not affect full Health Heroes.",
+        "description": "Fire a dart which heals the first allied Hero hit for 195 (+4% per level) Health. Does not affect full Health Heroes.",
         "hotkey": "Q",
         "abilityId": "Ana|Q1",
         "cooldown": 2,
@@ -52,7 +52,7 @@
       },
       {
         "name": "Eye of Horus",
-        "description": "Assume a sniping position, gaining the ability to fire up to 6 specialized rounds with unlimited range. Rounds hit the first allied or enemy Hero or enemy Structure in their path. Allies are healed for 285 (+4% per level) and enemies are damaged for 166 (+4% per level). Deals 50% less damage to Structures.  Ana is unable to move while Eye of Horus is active.",
+        "description": "Assume a sniping position, gaining the ability to fire up to 6 specialized rounds with unlimited range. Rounds pierce allied and enemy Heroes but collide with enemy Structures in their path. Allies are healed for 225 (+4% per level) and enemies are damaged for 135 (+4% per level). Deals 50% less damage to Structures.  Ana is unable to move while Eye of Horus is active.",
         "hotkey": "R",
         "abilityId": "Ana|R2",
         "cooldown": 45,
@@ -72,7 +72,7 @@
       },
       {
         "name": "Shrike",
-        "description": "Basic Attacks apply a Dose to enemies, dealing an additional 40 (+4% per level) damage over 5 seconds, and stacking up to 5 times.  Every 0.5 seconds, Ana is healed for 50% of the damage dealt by Shrike.",
+        "description": "Basic Attacks apply a Dose to enemies, dealing an additional 40 (+4% per level) damage over 5 seconds, and stacking up to 5 times. Every 0.5 seconds, Ana is healed for 50% of the damage dealt by Shrike.  Aim Down Sights  Shrike can be activated to increase the Range of Healing Dart and Sleep Dart by 25%, allowing them to pierce one Hero but also reduce Movement Speed by 25%. Lasts until canceled.",
         "trait": true,
         "abilityId": "Ana|D1",
         "icon": "storm_ui_icon_ana_shrike.png",
@@ -83,43 +83,41 @@
   "talents": {
     "1": [
       {
-        "tooltipId": "AnaBioticGrenadeGrenadeCalibration",
-        "talentTreeId": "AnaBioticGrenadeGrenadeCalibration",
-        "name": "Grenade Calibration",
-        "description": "Quest: Hit enemy Heroes with Biotic Grenade.  Reward: After hitting 10 Heroes, Biotic Grenade does 75% more damage per allied and enemy Hero hit.  Reward: After hitting 20 Heroes, Biotic Grenade's duration on allies is increased from 4 seconds to 12 seconds, its healing radius is increased by 100%, and its healing amplification applies to all sources.",
+        "tooltipId": "AnaBioticGrenadeContactHealing",
+        "talentTreeId": "AnaBioticGrenadeContactHealing",
+        "name": "Contact Healing",
+        "description": "Biotic Grenade heals for 30% more per allied and enemy Hero hit.",
         "icon": "storm_ui_icon_ana_biotic_grenade.png",
         "type": "W",
         "sort": 1,
-        "isQuest": true,
         "abilityId": "Ana|W1",
         "abilityLinks": [
           "Ana|W1"
         ]
       },
       {
-        "tooltipId": "AnaPiercingDarts",
-        "talentTreeId": "AnaPiercingDarts",
-        "name": "Piercing Darts",
-        "description": "Quest: Hit Heroes with Sleep Dart.  Reward: After hitting 10 Heroes, Sleep Dart now hits 2 Heroes and its range is increased by 25%.  Reward: After hitting 20 Heroes, Healing Dart now hits 2 Heroes and its range is increased by 25%.",
+        "tooltipId": "AnaSleepingDartSlumberShells",
+        "talentTreeId": "AnaSleepingDartSlumberShells",
+        "name": "Slumber Shells",
+        "description": "Gain 25% Movement Speed while an enemy is affected by Sleep Dart.",
         "icon": "storm_ui_icon_ana_sleep_dart.png",
         "type": "E",
         "sort": 2,
-        "isQuest": true,
         "abilityId": "Ana|E1",
         "abilityLinks": [
           "Ana|E1"
         ]
       },
       {
-        "tooltipId": "AnaDetachableBoxMagazine",
-        "talentTreeId": "AnaDetachableBoxMagazine",
-        "name": "Detachable Box Magazine",
-        "description": "Quest: Stack 5 Doses on an enemy Hero.  Reward: After reaching maximum Dosage 12 times, unlock the Active Reload Ability, which can be activated to instantly gain 3 charges of Healing Dart.",
-        "icon": "storm_ui_icon_ana_detachableboxmagazine.png",
-        "type": "Passive",
+        "tooltipId": "AnaShrikeVampiricRounds",
+        "talentTreeId": "AnaShrikeVampiricRounds",
+        "name": "Vampiric Rounds",
+        "description": "Quest: Stack 5 Doses on an enemy Hero.  Reward: Increase Shrike's healing by an additional 1.5%.",
+        "icon": "storm_ui_icon_ana_shrike.png",
+        "type": "Trait",
         "sort": 3,
         "isQuest": true,
-        "abilityId": "Ana|Passive",
+        "abilityId": "Ana|D1",
         "abilityLinks": [
           "Ana|D1"
         ]
@@ -127,72 +125,29 @@
     ],
     "4": [
       {
+        "tooltipId": "AnaBioticGrenadeBioticEnhancements",
+        "talentTreeId": "AnaBioticGrenadeBioticEnhancements",
+        "name": "Biotic Enhancements",
+        "description": "Increase the bonus healing duration of Biotic Grenade by 50% and reduce its cooldown by 4 seconds.",
+        "icon": "storm_ui_icon_ana_biotic_grenade.png",
+        "type": "W",
+        "sort": 1,
+        "abilityId": "Ana|W1",
+        "abilityLinks": [
+          "Ana|W1"
+        ]
+      },
+      {
         "tooltipId": "AnaOverdose",
         "talentTreeId": "AnaOverdose",
         "name": "Overdose",
         "description": "Hitting enemy Heroes with Sleep Dart applies 3 Doses.",
         "icon": "storm_ui_icon_ana_sleep_dart.png",
         "type": "E",
-        "sort": 1,
+        "sort": 2,
         "abilityId": "Ana|E1",
         "abilityLinks": [
           "Ana|E1"
-        ]
-      },
-      {
-        "tooltipId": "AnaAimDownSights",
-        "talentTreeId": "AnaAimDownSights",
-        "name": "Aim Down Sights",
-        "description": "Shrike can be activated to increase vision radius by 100% and Basic Attack range by 2 but reduce Movement Speed by 20%. Lasts until canceled.",
-        "icon": "storm_ui_icon_ana_aim_down_sights.png",
-        "type": "Trait",
-        "sort": 2,
-        "cooldown": 3,
-        "abilityId": "Ana|D1",
-        "abilityLinks": [
-          "Ana|D1"
-        ]
-      },
-      {
-        "tooltipId": "AnaBioticGrenadeAirStrike",
-        "talentTreeId": "AnaBioticGrenadeAirStrike",
-        "name": "Air Strike",
-        "description": "Activate to use Biotic Grenade with a 275% increased range, but Grenades thrown this way take 3 seconds to land.  Passive: Reduce Biotic Grenade cooldown by 4 seconds.",
-        "icon": "storm_ui_icon_ana_biotic_grenade.png",
-        "type": "Active",
-        "sort": 3,
-        "cooldown": 12,
-        "abilityId": "Ana|W1",
-        "abilityLinks": [
-          "Ana|W1"
-        ]
-      }
-    ],
-    "7": [
-      {
-        "tooltipId": "AnaSleepingDartTemporaryBlindness",
-        "talentTreeId": "AnaSleepingDartTemporaryBlindness",
-        "name": "Temporary Blindness",
-        "description": "After Sleep Dart's effects wear off, targets are Blinded for 2 seconds.",
-        "icon": "storm_ui_icon_ana_sleep_dart.png",
-        "type": "E",
-        "sort": 1,
-        "abilityId": "Ana|E1",
-        "abilityLinks": [
-          "Ana|E1"
-        ]
-      },
-      {
-        "tooltipId": "AnaMindNumbingAgent",
-        "talentTreeId": "AnaMindNumbingAgent",
-        "name": "Mind-Numbing Agent",
-        "description": "Every Dose a Hero has reduces their Spell Power by 10%.",
-        "icon": "storm_ui_icon_ana_shrike.png",
-        "type": "Trait",
-        "sort": 2,
-        "abilityId": "Ana|D1",
-        "abilityLinks": [
-          "Ana|D1"
         ]
       },
       {
@@ -205,6 +160,47 @@
         "sort": 3,
         "cooldown": 20,
         "abilityId": "Ana|Active"
+      }
+    ],
+    "7": [
+      {
+        "tooltipId": "AnaBioticGrenadeAntiHealer",
+        "talentTreeId": "AnaBioticGrenadeAntiHealer",
+        "name": "Anti-Healer",
+        "description": "Increase the area of Biotic Grenade by 100% and the duration of the healing reduction by 50%.",
+        "icon": "storm_ui_icon_ana_biotic_grenade.png",
+        "type": "W",
+        "sort": 1,
+        "abilityId": "Ana|W1",
+        "abilityLinks": [
+          "Ana|W1"
+        ]
+      },
+      {
+        "tooltipId": "AnaSleepDartNightTerrors",
+        "talentTreeId": "AnaSleepDartNightTerrors",
+        "name": "Night Terrors",
+        "description": "Upon waking, enemy Heroes take 8% of their Maximum Health in damage. If a Hero is not woken up early, set the cooldown of Sleep Dart to 6 seconds.",
+        "icon": "storm_ui_icon_ana_sleep_dart.png",
+        "type": "E",
+        "sort": 2,
+        "abilityId": "Ana|E1",
+        "abilityLinks": [
+          "Ana|E1"
+        ]
+      },
+      {
+        "tooltipId": "AnaMindNumbingAgent",
+        "talentTreeId": "AnaMindNumbingAgent",
+        "name": "Mind-Numbing Agent",
+        "description": "Every Dose a Hero has reduces their Spell Power by 10%.",
+        "icon": "storm_ui_icon_ana_shrike.png",
+        "type": "Trait",
+        "sort": 3,
+        "abilityId": "Ana|D1",
+        "abilityLinks": [
+          "Ana|D1"
+        ]
       }
     ],
     "10": [
@@ -226,7 +222,7 @@
         "tooltipId": "AnaEyeOfHorusActivate",
         "talentTreeId": "AnaHeroicAbilityEyeOfHorus",
         "name": "Eye of Horus",
-        "description": "Assume a sniping position, gaining the ability to fire up to 6 specialized rounds with unlimited range. Rounds hit the first allied or enemy Hero or enemy Structure in their path. Allies are healed for 285 (+4% per level) and enemies are damaged for 166 (+4% per level). Deals 50% less damage to Structures.  Ana is unable to move while Eye of Horus is active.",
+        "description": "Assume a sniping position, gaining the ability to fire up to 6 specialized rounds with unlimited range. Rounds pierce allied and enemy Heroes but collide with enemy Structures in their path. Allies are healed for 225 (+4% per level) and enemies are damaged for 135 (+4% per level). Deals 50% less damage to Structures.  Ana is unable to move while Eye of Horus is active.",
         "icon": "storm_ui_icon_ana_overwatch.png",
         "type": "Heroic",
         "sort": 2,
@@ -306,16 +302,18 @@
         ]
       },
       {
-        "tooltipId": "AnaBioticGrenadeContactHealing",
-        "talentTreeId": "AnaBioticGrenadeContactHealing",
-        "name": "Contact Healing",
-        "description": "Biotic Grenade heals for 30% more per allied and enemy Hero hit.",
-        "icon": "storm_ui_icon_ana_biotic_grenade.png",
-        "type": "W",
+        "tooltipId": "AnaDetachableBoxMagazineActive",
+        "talentTreeId": "AnaDetachableBoxMagazine",
+        "name": "Active Reload",
+        "description": "Activate to instantly gain 3 charges of Healing Dart.",
+        "icon": "storm_ui_icon_ana_healing_dart_b.png",
+        "type": "Active",
         "sort": 3,
-        "abilityId": "Ana|W1",
+        "cooldown": 60,
+        "isQuest": true,
+        "abilityId": "Ana|Q1",
         "abilityLinks": [
-          "Ana|W1"
+          "Ana|Q1"
         ]
       }
     ],
@@ -334,10 +332,10 @@
         ]
       },
       {
-        "tooltipId": "AnaEyeOfHorusBallisticAdvantage",
-        "talentTreeId": "AnaEyeOfHorusBallisticAdvantage",
-        "name": "Ballistic Advantage",
-        "description": "Eye of Horus rounds explode upon impacting a Hero, healing nearby allies for 300 (+4% per level) and dealing 150 (+4% per level) damage to nearby enemy Heroes.",
+        "tooltipId": "AnaEyeOfHorusDeadeye",
+        "talentTreeId": "AnaEyeOfHorusDeadeye",
+        "name": "Deadeye",
+        "description": "Increase Eye Of Horus' healing and damage by 4% for every Hero hit. This bonus resets after all shots have been fired.",
         "icon": "storm_ui_icon_ana_overwatch.png",
         "type": "Heroic",
         "sort": 2,
@@ -347,43 +345,24 @@
         ]
       },
       {
-        "tooltipId": "AnaSomnolentDoses",
-        "talentTreeId": "AnaSomnolentDoses",
-        "name": "Somnolent Doses",
-        "description": "Upon stacking 5 Doses, Heroes are put to Sleep for 2 seconds.",
-        "icon": "storm_ui_icon_ana_shrike.png",
-        "type": "Trait",
-        "sort": 3,
-        "abilityId": "Ana|D1",
-        "abilityLinks": [
-          "Ana|D1"
-        ]
-      },
-      {
-        "tooltipId": "AnaDynamicShooting",
-        "talentTreeId": "AnaDynamicShooting",
-        "name": "Dynamic Shooting",
-        "description": "Basic Attacks increase Attack Speed by 10% for 4 seconds, up to 100%.",
-        "icon": "storm_ui_icon_talent_autoattack_speed.png",
-        "type": "Passive",
-        "sort": 4,
-        "abilityId": "Ana|Passive",
-        "abilityLinks": [
-          "Ana|D1"
-        ]
-      },
-      {
-        "tooltipId": "AnaAimDownSightsCustomOptics",
-        "talentTreeId": "AnaAimDownSightsCustomOptics",
-        "name": "Custom Optics",
-        "description": "Increase the Aim Down Sights Basic Attack range bonus from 2 to 4.",
+        "tooltipId": "AnaShrikeArmoredStance",
+        "talentTreeId": "AnaShrikeArmoredStance",
+        "name": "Armored Stance",
+        "description": "Increase Shrike's damage by 50%. While Aim Down Sights is active, gain 25 Armor.",
         "icon": "storm_ui_icon_ana_aim_down_sights.png",
-        "type": "Trait",
-        "sort": 5,
-        "abilityId": "Ana|D1",
-        "abilityLinks": [
-          "Ana|D1"
-        ]
+        "type": "Active",
+        "sort": 3,
+        "abilityId": "Ana|Active"
+      },
+      {
+        "tooltipId": "AnaDynamicOptics",
+        "talentTreeId": "AnaDynamicOptics",
+        "name": "Dynamic Optics",
+        "description": "Basic Attacks increase Attack Speed by 10% for 3 seconds, up to 100%. While Aim Down Sights is active, increase your Basic Attack Range by 4.",
+        "icon": "storm_ui_icon_ana_aim_down_sights_a.png",
+        "type": "Active",
+        "sort": 4,
+        "abilityId": "Ana|Active"
       }
     ]
   }
