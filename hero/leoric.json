@@ -266,29 +266,29 @@
         ]
       },
       {
-        "tooltipId": "LeoricHardenedBonesTalent",
-        "talentTreeId": "LeoricDrainHopeHardenedBonesTalent",
-        "name": "Hardened Bones",
-        "description": "Gain 40 Armor while Drain Hope is active. If Drain Hope lasts its full duration, retain the Armor bonus for 2 seconds.",
-        "icon": "storm_ui_icon_leoric_drainhope_var1.png",
-        "type": "W",
-        "sort": 2,
-        "abilityId": "Leoric|W1",
-        "abilityLinks": [
-          "Leoric|W1"
-        ]
-      },
-      {
         "tooltipId": "LeoricOminousWraithTalent",
         "talentTreeId": "LeoricWraithWalkOminousWraithTalent",
         "name": "Ominous Wraith",
         "description": "Increase Wraith Walk's duration by 100%. Enemy Heroes that come in contact with the wraith deal 50% less damage for 4 seconds.",
         "icon": "storm_ui_icon_leoric_wraithwalk.png",
         "type": "E",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Leoric|E1",
         "abilityLinks": [
           "Leoric|E1"
+        ]
+      },
+      {
+        "tooltipId": "LeoricSpectralLeechTalent",
+        "talentTreeId": "LeoricMasterySpectralLeech",
+        "name": "Spectral Leech",
+        "description": "Basic Attacks against enemy Heroes deal bonus damage equal to 2.5% of the Hero's maximum Health and heal Leoric for twice that amount.",
+        "icon": "storm_ui_icon_talent_autoattack_heal.png",
+        "type": "Passive",
+        "sort": 3,
+        "abilityId": "Leoric|Passive",
+        "abilityLinks": [
+          "Leoric|D1"
         ]
       }
     ],
@@ -362,16 +362,16 @@
         ]
       },
       {
-        "tooltipId": "LeoricSpectralLeechTalent",
-        "talentTreeId": "LeoricMasterySpectralLeech",
-        "name": "Spectral Leech",
-        "description": "Basic Attacks against enemy Heroes deal bonus damage equal to 2.5% of the Hero's maximum Health and heal Leoric for twice that amount.",
-        "icon": "storm_ui_icon_talent_autoattack_heal.png",
-        "type": "Passive",
+        "tooltipId": "LeoricHardenedBonesTalent",
+        "talentTreeId": "LeoricDrainHopeHardenedBonesTalent",
+        "name": "Hardened Bones",
+        "description": "Gain 40 Armor while Drain Hope is active. If Drain Hope lasts its full duration, retain the Armor bonus for 2 seconds.",
+        "icon": "storm_ui_icon_leoric_drainhope_var1.png",
+        "type": "W",
         "sort": 3,
-        "abilityId": "Leoric|Passive",
+        "abilityId": "Leoric|W1",
         "abilityLinks": [
-          "Leoric|D1"
+          "Leoric|W1"
         ]
       },
       {

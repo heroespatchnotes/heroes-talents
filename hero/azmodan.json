@@ -21,7 +21,7 @@
     "Azmodan": [
       {
         "name": "Globe of Annihilation",
-        "description": "Shoot a globe of destruction, dealing 184 (+3% per level) damage on impact.  Quest: Hitting a Hero or killing a Minion within 1.5 seconds of being hit by Globe of Annihilation grants 2 Annihilation.  Reward: Each stack of Annihilation increases the damage of Globe of Annihilation by 1, up to 400.",
+        "description": "Shoot a globe of destruction, dealing 184 (+2.5% per level) damage on impact.  Quest: Hitting a Hero or killing a Minion within 1.5 seconds of being hit by Globe of Annihilation grants 2 Annihilation.  Reward: Each stack of Annihilation increases the damage of Globe of Annihilation by 1, up to 400.",
         "hotkey": "Q",
         "abilityId": "Azmodan|Q1",
         "cooldown": 10,
@@ -87,7 +87,7 @@
         "tooltipId": "AzmodanGreed",
         "talentTreeId": "AzmodanGreed",
         "name": "Greed",
-        "description": "Increase the time Minions will grant Annihilation from 1.5 to 3 seconds.  Quest: After gaining 200 Annihilation, Globe of Annihilation's range is increased by 33% and it deals 20% more damage to non-Heroic targets.",
+        "description": "Globe of Annihilation deals % more damage to non-Heroic targets.  Quest: After gaining  Annihilation, increase the range of All Shall Burn by % and Demon Warriors gain % Attack Speed and Movement Speed.",
         "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
         "type": "Q",
         "sort": 1,
@@ -312,7 +312,7 @@
         "tooltipId": "AzmodanSinsGraspHotbar",
         "talentTreeId": "AzmodanSinsGrasp",
         "name": "Sin's Grasp",
-        "description": "Increases the range of All Shall Burn by 20%. If All Shall Burn Channels for its full duration, its cooldown is reduced by 50%.",
+        "description": "All Shall Burn Slows the enemy target by 15% during its Channel. If All Shall Burn Channels for its full duration, its cooldown is reduced by 50%, and the enemy is Slowed by 45% for 2 seconds.",
         "icon": "storm_ui_icon_azmodan_allshallburn_a.png",
         "type": "E",
         "sort": 3,
@@ -370,7 +370,7 @@
         "icon": "storm_ui_icon_azmodan_trample.png",
         "type": "Active",
         "sort": 4,
-        "cooldown": 60,
+        "cooldown": 20,
         "abilityId": "Azmodan|Active"
       }
     ]
