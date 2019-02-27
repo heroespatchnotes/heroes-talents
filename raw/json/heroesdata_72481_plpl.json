@@ -236,7 +236,7 @@
           "fullTooltipId": "AbathurLocustStrainSurvivalInstinctsTalent",
           "icon": "storm_ui_icon_abathur_spawnlocust.png",
           "shortTooltip": "Szarańcza ma więcej zdrowia i zadaje zwiększone obrażenia",
-          "fullTooltip": "Zwiększa zdrowie Szarańczy o 40% oraz zadawane przez nią obrażenia o 40%.",
+          "fullTooltip": "Zwiększa zdrowie Szarańczy o 60% oraz zadawane przez nią obrażenia o 60%.",
           "abilityType": "Trait",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -913,7 +913,7 @@
           "fullTooltipId": "AlarakBladeoftheHighlord",
           "icon": "storm_ui_icon_alarak_sadism.png",
           "shortTooltip": "Ataki podstawowe zwiększają Sadyzm",
-          "fullTooltip": "Ataki podstawowe wymierzone w bohaterów zwiększają Sadyzm o 7% na 4 sek. Efekt ten kumuluje się maksymalnie do 35%. Wykonywanie ataków podstawowych wymierzonych w bohaterów odświeża czas działania efektu.",
+          "fullTooltip": "Ataki podstawowe wymierzone w bohaterów zwiększają Sadyzm o 2%, maksymalnie do 30%.  W chwili śmierci Alarak traci cały Sadyzm zyskany dzięki Ostrzu Wielkiego Wodza.",
           "abilityType": "Trait",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -1719,7 +1719,7 @@
           "fullTooltipId": "AnaEyeOfHorusActivate",
           "icon": "storm_ui_icon_ana_overwatch.png",
           "energyTooltip": "Mana: 45",
-          "cooldownTooltip": "Czas odnowienia: 45 sek.",
+          "cooldownTooltip": "Czas odnowienia: 60 sek.",
           "shortTooltip": "Wystrzeliwuje pociski bez limitu zasięgu, które leczą sojuszników i ranią wrogów",
           "fullTooltip": "Ana przyjmuje pozycję snajperską, dzięki czemu może wystrzeliwać wyspecjalizowane pociski (maksymalnie 6) o nieograniczonym zasięgu. Pociski przebijają wrogich i sojuszniczych bohaterów, ale zderzają się z wrogimi budowlami na swojej drodze. Sojusznicy odzyskują 225 (+4% na poziom) pkt. zdrowia, a wrogowie otrzymują 135 (+4% na poziom) pkt. obrażeń. Obrażenia zadawane budowlom są zmniejszone o 50%.  Kiedy Oko Horusa jest aktywne, Ana nie może się przemieszczać.",
           "abilityType": "Heroic"
@@ -1761,7 +1761,7 @@
           "fullTooltipId": "AnaSleepingDartSlumberShells",
           "icon": "storm_ui_icon_ana_sleep_dart.png",
           "shortTooltip": "Strzałka Usypiająca zwiększa szybkość ruchu",
-          "fullTooltip": "Kiedy wróg jest objęty działaniem efektów Strzałki Usypiającej, Ana zyskuje premię 25% do szybkości ruchu.",
+          "fullTooltip": "Ana zyskuje premię 25% do szybkości ruchu na 3 sek. po objęciu przeciwnika działaniem Strzałki Usypiającej.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -1821,7 +1821,7 @@
           "icon": "storm_ui_icon_ana_debilitatingdart.png",
           "cooldownTooltip": "Czas odnowienia: 20 sek.",
           "shortTooltip": "Wystrzeliwuje strzałkę, która spowalnia wrogów i zmniejsza zadawane przez nich obrażenia",
-          "fullTooltip": "Aktywuj, aby Ana wystrzeliła strzałkę, która zmniejsza szybkość ruchu oraz obrażenia zadawane przez pierwszego trafionego wrogiego bohatera o 50% na 3 sek.",
+          "fullTooltip": "Aktywuj, aby Ana wystrzeliła strzałkę, która zmniejsza szybkość ruchu oraz obrażenia zadawane przez pierwszego trafionego wrogiego bohatera o 50% na 4 sek.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -1835,7 +1835,7 @@
           "fullTooltipId": "AnaBioticGrenadeAntiHealer",
           "icon": "storm_ui_icon_ana_biotic_grenade.png",
           "shortTooltip": "Wzmacnia Granat Biotyczny",
-          "fullTooltip": "Zwiększa pole rażenia Granatu Biotycznego o 100% oraz wydłuża czas działania efektu zmniejszającego skuteczność leczenia o 50%.",
+          "fullTooltip": "Zwiększa pole rażenia Granatu Biotycznego o 100% oraz wydłuża czas działania efektu zmniejszającego skuteczność leczenia o 25%.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -1849,7 +1849,7 @@
           "fullTooltipId": "AnaSleepDartNightTerrors",
           "icon": "storm_ui_icon_ana_sleep_dart.png",
           "shortTooltip": "Wzmacnia Strzałkę Usypiającą",
-          "fullTooltip": "Po przebudzeniu wrodzy bohaterowie otrzymują obrażenia równe 8% ich maksymalnego zdrowia. Jeżeli bohater nie zostanie obudzony przedwcześnie, czas odnowienia Strzałki Usypiającej zostanie ustawiony na 6 sek.",
+          "fullTooltip": "Po przebudzeniu wrodzy bohaterowie otrzymują obrażenia równe 8% ich maksymalnego zdrowia. Jeżeli bohater nie zostanie obudzony przedwcześnie, czas odnowienia Strzałki Usypiającej zostanie ustawiony na 5 sek.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -1896,7 +1896,7 @@
           "fullTooltipId": "AnaEyeOfHorusActivate",
           "icon": "storm_ui_icon_ana_overwatch.png",
           "energyTooltip": "Mana: 45",
-          "cooldownTooltip": "Czas odnowienia: 45 sek.",
+          "cooldownTooltip": "Czas odnowienia: 60 sek.",
           "shortTooltip": "Wystrzeliwuje pociski bez limitu zasięgu, które leczą sojuszników i ranią wrogów",
           "fullTooltip": "Ana przyjmuje pozycję snajperską, dzięki czemu może wystrzeliwać wyspecjalizowane pociski (maksymalnie 6) o nieograniczonym zasięgu. Pociski przebijają wrogich i sojuszniczych bohaterów, ale zderzają się z wrogimi budowlami na swojej drodze. Sojusznicy odzyskują 225 (+4% na poziom) pkt. zdrowia, a wrogowie otrzymują 135 (+4% na poziom) pkt. obrażeń. Obrażenia zadawane budowlom są zmniejszone o 50%.  Kiedy Oko Horusa jest aktywne, Ana nie może się przemieszczać.",
           "abilityType": "Heroic",
@@ -3990,7 +3990,7 @@
           "energyTooltip": "Mana: 60",
           "cooldownTooltip": "Czas odnowienia: 10 sek.",
           "shortTooltip": "Wystrzeliwuje na dużą odległość niszczącą kulę, która zadaje obrażenia obszarowe",
-          "fullTooltip": "Azmodan wystrzeliwuje niszczycielską kulę, która zadaje przy trafieniu 184 (+3% na poziom) pkt. obrażeń.  Zadanie: Trafienie bohatera lub zabicie stronnika w ciągu 1.5 sek. od trafienia go Kulą Anihilacji zapewnia poziomy kumulacji Anihilacji (2).  Nagroda: Obrażenia Kuli Anihilacji wzrastają o 1 pkt. za każdy poziom kumulacji Anihilacji, maksymalnie do 400 pkt.",
+          "fullTooltip": "Azmodan wystrzeliwuje niszczycielską kulę, która zadaje przy trafieniu 184 (+2.5% na poziom) pkt. obrażeń.  Zadanie: Trafienie bohatera lub zabicie stronnika w ciągu 1.5 sek. od trafienia go Kulą Anihilacji zapewnia poziomy kumulacji Anihilacji (2).  Nagroda: Obrażenia Kuli Anihilacji wzrastają o 1 pkt. za każdy poziom kumulacji Anihilacji, maksymalnie do 400 pkt.",
           "abilityType": "Q"
         },
         {
@@ -4066,8 +4066,8 @@
           "shortTooltipId": "AzmodanGreed",
           "fullTooltipId": "AzmodanGreed",
           "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
-          "shortTooltip": "Zadanie: Zwiększ zasięg i obrażenia zadawane stronnikom i najemnikom",
-          "fullTooltip": "Zwiększa przedział czasowy, kiedy zabici stronnicy zapewniają poziomy kumulacji Anihilacji z 1.5 do 3 sek.  Zadanie: Po zgromadzeniu 200 poziomów kumulacji Anihilacji zasięg Kuli Anihilacji wzrasta o 33% i zadaje ona zwiększone o 20% obrażenia celom niebędącym bohaterami.",
+          "shortTooltip": "Większe obrażenia Kuli dla celów niebohaterskich Zadanie: Zwiększ zasięg zdolności Wszyscy Spłoną",
+          "fullTooltip": "Kula Anihilacji zadaje celom niebędącym bohaterami obrażenia zwiększone o %.  Zadanie: Po zgromadzeniu  poziomów kumulacji Anihilacji zasięg zdolności Wszyscy Spłoną wzrasta o %, a Demoniczni Wojownicy zyskują premię % do szybkości ruchu i ataku.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -4311,8 +4311,8 @@
           "shortTooltipId": "AzmodanSinsGraspHotbar",
           "fullTooltipId": "AzmodanSinsGraspHotbar",
           "icon": "storm_ui_icon_azmodan_allshallburn_a.png",
-          "shortTooltip": "Wszyscy Spłoną ma większy zasięg i krótszy czas odnowienia",
-          "fullTooltip": "Zwiększa zasięg zdolności Wszyscy Spłoną o 20%. Jeżeli podtrzymywanie zdolności nie zostanie przerwane, jej czas odnowienia zostaje skrócony o 50%.",
+          "shortTooltip": "Wszyscy Spłoną spowalnia i skraca czas odnowienia",
+          "fullTooltip": "Zdolność Wszyscy Spłoną spowalnia przeciwników o 15% podczas jej podtrzymywania. Jeśli jej podtrzymywanie nie zostanie przerwane, czas odnowienia zdolności zostanie skrócony o 50%, a przeciwnicy będą spowolnieni o 45% przez 2 sek.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -4369,7 +4369,7 @@
           "shortTooltipId": "AzmodanTrample",
           "fullTooltipId": "AzmodanTrample",
           "icon": "storm_ui_icon_azmodan_trample.png",
-          "cooldownTooltip": "Czas odnowienia: 60 sek.",
+          "cooldownTooltip": "Czas odnowienia: 20 sek.",
           "shortTooltip": "Azmodan szarżuje na niewielką odległość",
           "fullTooltip": "Aktywuj, aby Azmodan wykonał krótką szarżę i zadał przy tym 240 (+4% na poziom) pkt. obrażeń oraz spowolnił przeciwników na swojej drodze o 60% na 1 sek.",
           "abilityType": "Active",
@@ -6421,9 +6421,9 @@
       "target": "ui_targetportrait_hero_cho.png"
     },
     "life": {
-      "amount": 2750.0,
+      "amount": 2850.0,
       "scale": 0.045,
-      "regenRate": 5.7304,
+      "regenRate": 5.9414,
       "regenScale": 0.045
     },
     "roles": [
@@ -6613,7 +6613,7 @@
           "fullTooltipId": "ChoPowerSurgeTalent",
           "icon": "storm_ui_icon_cho_moltensurge_a.png",
           "shortTooltip": "Trafienie wrogiego bohatera skraca czas odnowienia Pięści Mocy",
-          "fullTooltip": "Każde trafienie bohatera Pięścią Mocy skraca jej czas odnowienia o 4 sek.",
+          "fullTooltip": "Każde trafienie bohatera Pięścią Mocy skraca jej czas odnowienia o 5 sek.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -6685,6 +6685,49 @@
       ],
       "level13": [
         {
+          "nameId": "ChoSurgingDash",
+          "name": "Pęd Mocy",
+          "shortTooltipId": "ChoSurgingDashTalent",
+          "fullTooltipId": "ChoSurgingDashTalent",
+          "icon": "storm_ui_icon_Cho_MoltenSurge_A.png",
+          "shortTooltip": "Podczas podtrzymywania Pięści Mocy Czo odzyskuje zdrowie",
+          "fullTooltip": "W czasie podtrzymywania Pięści Mocy Czo odzyskuje 150 (+4% na poziom) pkt. zdrowia na sekundę.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "ChoSurgingFistCast"
+          ]
+        },
+        {
+          "nameId": "ChoTwilightVeil",
+          "name": "Całun Zmierzchu",
+          "shortTooltipId": "ChoTwilightVeilTalent",
+          "fullTooltipId": "ChoTwilightVeilTalent",
+          "icon": "storm_ui_icon_talent_hardenedshield.png",
+          "cooldownTooltip": "Czas odnowienia: 30 sek.",
+          "shortTooltip": "Aktywuj, aby zwiększyć premię pancerza od Ogrzej Gruboskórności",
+          "fullTooltip": "Aktywuj, aby zwiększyć premię do pancerza zapewnianą przez Ogrzą Gruboskórność o 100% na 4 sek. Jeśli użycie nastąpi podczas działania Ogrzego Szału, nastąpi natychmiastowa zmiana na Ogrzą Gruboskórność.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 2
+        },
+        {
+          "nameId": "ChoTalentMoltenBlock",
+          "name": "Ognisty Blok",
+          "shortTooltipId": "ChoTalentMoltenBlock",
+          "fullTooltipId": "ChoTalentMoltenBlock",
+          "icon": "storm_ui_icon_cho_moltenblock.png",
+          "toggleCooldown": 0.5,
+          "cooldownTooltip": "Czas odnowienia: 60 sek.",
+          "shortTooltip": "Aktywuj, aby zyskać niewrażliwość",
+          "fullTooltip": "Aktywuj, aby Czo'gal przeszedł w stan Stazy, zyskał Niewrażliwość na 3 sek. i zadawał pobliskim przeciwnikom 92 (+4% na poziom) pkt. obrażeń na sekundę.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 3
+        }
+      ],
+      "level16": [
+        {
           "nameId": "ChoFrenziedFists",
           "name": "Oszalałe Pięści",
           "shortTooltipId": "ChoFrenziedFistsTalent",
@@ -6719,51 +6762,8 @@
           "fullTooltipId": "ChoRunedGauntletTalent",
           "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
           "shortTooltip": "Ataki podstawowe skracają czasy odnowienia zdolności bohaterskich",
-          "fullTooltip": "Ataki podstawowe skracają czas odnowienia zdolności bohaterskich Czo i Gala o 0.75 sek.",
+          "fullTooltip": "Ataki podstawowe skracają czas odnowienia zdolności bohaterskich Czo i Gala o 5%.",
           "abilityType": "Passive",
-          "sort": 3
-        }
-      ],
-      "level16": [
-        {
-          "nameId": "ChoSurgingDash",
-          "name": "Pęd Mocy",
-          "shortTooltipId": "ChoSurgingDashTalent",
-          "fullTooltipId": "ChoSurgingDashTalent",
-          "icon": "storm_ui_icon_Cho_MoltenSurge_A.png",
-          "shortTooltip": "Podczas podtrzymywania Pięści Mocy Czo odzyskuje zdrowie",
-          "fullTooltip": "W czasie podtrzymywania Pięści Mocy Czo odzyskuje 150 (+4% na poziom) pkt. zdrowia na sekundę.",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "ChoSurgingFistCast"
-          ]
-        },
-        {
-          "nameId": "ChoTwilightVeil",
-          "name": "Całun Zmierzchu",
-          "shortTooltipId": "ChoTwilightVeilTalent",
-          "fullTooltipId": "ChoTwilightVeilTalent",
-          "icon": "storm_ui_icon_talent_hardenedshield.png",
-          "cooldownTooltip": "Czas odnowienia: 30 sek.",
-          "shortTooltip": "Aktywuj, aby zwiększyć premię pancerza od Ogrzej Gruboskórności",
-          "fullTooltip": "Aktywuj, aby zwiększyć premię do pancerza zapewnianą przez Ogrzą Gruboskórność o 100% na 2 sek. Jeśli użycie nastąpi podczas działania Ogrzego Szału, nastąpi natychmiastowa zmiana na Ogrzą Gruboskórność.",
-          "abilityType": "Active",
-          "isActive": true,
-          "sort": 2
-        },
-        {
-          "nameId": "ChoTalentMoltenBlock",
-          "name": "Ognisty Blok",
-          "shortTooltipId": "ChoTalentMoltenBlock",
-          "fullTooltipId": "ChoTalentMoltenBlock",
-          "icon": "storm_ui_icon_cho_moltenblock.png",
-          "toggleCooldown": 0.5,
-          "cooldownTooltip": "Czas odnowienia: 60 sek.",
-          "shortTooltip": "Aktywuj, aby zyskać niewrażliwość",
-          "fullTooltip": "Aktywuj, aby Czo'gal przeszedł w stan Stazy, zyskał Niewrażliwość na 3 sek. i zadawał pobliskim przeciwnikom 92 (+4% na poziom) pkt. obrażeń na sekundę.",
-          "abilityType": "Active",
-          "isActive": true,
           "sort": 3
         }
       ],
@@ -8309,7 +8309,7 @@
           "fullTooltipId": "DiabloShadowCharge",
           "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
           "energyTooltip": "Mana: 70",
-          "cooldownTooltip": "Czas odnowienia: 12 sek.",
+          "cooldownTooltip": "Czas odnowienia: 13 sek.",
           "shortTooltip": "Wykonuje szarżę do wybranego przeciwnika i odpycha go w tył",
           "fullTooltip": "Szarżuje na wroga i odrzuca go w tył, zadając mu 40 (+4% na poziom) pkt. obrażeń. Diablo zyskuje wówczas premię 15% do szybkości ruchu na 2 sek. Jeśli przeciwnik zderzy się z przeszkodą na mapie, zostanie ogłuszony na 1 sek. i otrzyma dodatkowo 120 (+4% na poziom) pkt. obrażeń.",
           "abilityType": "Q"
@@ -8340,7 +8340,7 @@
             "hideCount": true,
             "recastCooldown": 2.0
           },
-          "cooldownTooltip": "Czas odnowienia: 12 sek.",
+          "cooldownTooltip": "Czas odnowienia: 13 sek.",
           "shortTooltip": "Chwyta przeciwnika i ciska nim za siebie, ogłuszając go i zadając mu obrażenia",
           "fullTooltip": "Diablo chwyta cel i ciska nim za siebie, zadając 73 (+4% na poziom) pkt. obrażeń i ogłuszając go na 0.25 sek.",
           "abilityType": "E"
@@ -10847,7 +10847,7 @@
           "fullTooltipId": "GallKeepMoving",
           "icon": "storm_ui_icon_gall_shove.png",
           "shortTooltip": "Wydłuża czas działania premii do szybkości ruchu od Pchnięcia",
-          "fullTooltip": "Wydłuża czas działania premii do szybkości ruchu zapewnianej przez Pchnięcie o 1 sek. Ataki podstawowe Czo wymierzone w bohaterów wydłużają czas działania aktywnego Pchnięcia o 1 sek.",
+          "fullTooltip": "Wydłuża czas działania premii do szybkości ruchu zapewnianej przez Pchnięcie o 2 sek.",
           "abilityType": "Z",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -10875,7 +10875,7 @@
           "fullTooltipId": "GallWeSeeYou",
           "icon": "storm_ui_icon_gall_eyeofkilrogg.png",
           "shortTooltip": "Skraca czas odnowienia Oka Kilrogga",
-          "fullTooltip": "Czas odnowienia Oka Kilrogga zostaje skrócony o 15 sek., a jego zasięg wzrasta o 33%.",
+          "fullTooltip": "Czas odnowienia Oka Kilrogga zostaje skrócony o 25 sek., a jego zasięg wzrasta o 33%.",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -10891,7 +10891,7 @@
           "fullTooltipId": "GallDoubleBackTalent",
           "icon": "storm_ui_icon_gall_chaoscollision.png",
           "shortTooltip": "Ponowne użycie Straszliwej Kuli odwraca kierunek trzeciego odbicia",
-          "fullTooltip": "Aktywuj Straszliwą Kulę przed zakończeniem drugiego odbicia, aby zmienić kierunek trzeciego odbicia na przeciwny.  Działanie pasywne: Trzecie odbicie Straszliwej Kuli zadaje celom niebędącym bohaterami obrażenia zwiększone o 200%.",
+          "fullTooltip": "Aktywuj Straszliwą Kulę przed zakończeniem drugiego odbicia, aby zmienić kierunek trzeciego odbicia na przeciwny.  Działanie pasywne: Trzecie odbicie Straszliwej Kuli zadaje bohaterom obrażenia zwiększone o 50%, a celom niebędącym bohaterami o 200%.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -10936,7 +10936,7 @@
           "fullTooltipId": "GallEdgeOfMadnessTalent",
           "icon": "storm_ui_icon_Gall_Shadowflame.png",
           "shortTooltip": "Zwiększa obrażenia Cienistego Płomienia",
-          "fullTooltip": "Każde kolejne trafienie Cienistym Płomieniem w tego samego wrogiego bohatera zadaje mu dodatkowo 8% obrażeń, maksymalnie do 40%. Premia ta zanika, jeśli dany bohater nie zostanie trafiony przez 4 sek.",
+          "fullTooltip": "Każde kolejne trafienie Cienistym Płomieniem w tego samego wrogiego bohatera zadaje mu dodatkowo 8% obrażeń, maksymalnie do 40%. Premia ta zanika, jeśli dany bohater nie zostanie trafiony przez 7 sek.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -10965,7 +10965,7 @@
           "fullTooltipId": "GallOgreRampage",
           "icon": "storm_ui_icon_gall_ogrerage.png",
           "shortTooltip": "Ogrza Gruboskórność Czo skraca czasy odnowienia",
-          "fullTooltip": "Czas odnowienia zdolności podstawowych Gala upływa o 75% szybciej przez 5 sek. po aktywacji Ogrzej Gruboskórności przez Czo.",
+          "fullTooltip": "Zwiększa premię do obrażeń zapewnianą przez Ogrzy Szał o 5%. Czas odnowienia zdolności podstawowych Gala upływa o 75% szybciej przez 5 sek. po aktywacji Ogrzej Gruboskórności przez Czo.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -11059,7 +11059,7 @@
           "fullTooltipId": "GallShadowsnare",
           "icon": "storm_ui_icon_gall_shadowflame.png",
           "shortTooltip": "Cienisty Płomień spowalnia bohaterów",
-          "fullTooltip": "Cienisty Płomień spowalnia wrogich bohaterów o 10% na 4 sek. Efekt ten kumuluje się maksymalnie 3 razy.",
+          "fullTooltip": "Cienisty Płomień spowalnia wrogich bohaterów o 15% na 4 sek. Efekt ten kumuluje się maksymalnie 2 razy.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -11073,7 +11073,7 @@
           "fullTooltipId": "GallLeadenOrb",
           "icon": "storm_ui_icon_gall_chaoscollision.png",
           "shortTooltip": "Straszliwa Kula ogłusza",
-          "fullTooltip": "Straszliwa Kula ogłusza wrogich bohaterów na 0.5 sek.",
+          "fullTooltip": "Straszliwa Kula ogłusza wrogich bohaterów na 0.75 sek.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -18585,20 +18585,6 @@
           ]
         },
         {
-          "nameId": "LeoricDrainHopeHardenedBonesTalent",
-          "name": "Wzmocnione Kości",
-          "shortTooltipId": "LeoricHardenedBonesTalent",
-          "fullTooltipId": "LeoricHardenedBonesTalent",
-          "icon": "storm_ui_icon_leoric_drainhope_var1.png",
-          "shortTooltip": "Wyssanie Nadziei zapewnia pancerz",
-          "fullTooltip": "Kiedy Wyssanie Nadziei jest aktywne, Leoryk zyskuje 40 pkt. pancerza. Jeśli działanie Wyssania Nadziei nie zostanie przerwane, Leoryk zachowa wzmocnienie pancerza na 2 sek.",
-          "abilityType": "W",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "LeoricDrainHope"
-          ]
-        },
-        {
           "nameId": "LeoricWraithWalkOminousWraithTalent",
           "name": "Mroczne Widmo",
           "shortTooltipId": "LeoricOminousWraithTalent",
@@ -18607,9 +18593,23 @@
           "shortTooltip": "Wzmacnia Upiorną Wędrówkę",
           "fullTooltip": "Wydłuża czas trwania Upiornej Wędrówki o 100%. Wrodzy bohaterowie, którzy natrafią na upiora będą zadawać obrażenia zmniejszone o 50% przez 4 sek.",
           "abilityType": "E",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "LeoricWraithWalk"
+          ]
+        },
+        {
+          "nameId": "LeoricMasterySpectralLeech",
+          "name": "Widmowa Pijawka",
+          "shortTooltipId": "LeoricSpectralLeechTalent",
+          "fullTooltipId": "LeoricSpectralLeechTalent",
+          "icon": "storm_ui_icon_talent_autoattack_heal.png",
+          "shortTooltip": "Ataki podstawowe zadają dodatkowe obrażenia i leczą Leoryka",
+          "fullTooltip": "Ataki podstawowe zadają wrogim bohaterom dodatkowe obrażenia równe 2.5% ich maksymalnego zdrowia i przywracają Leorykowi dwukrotność zadanych obrażeń.",
+          "abilityType": "Passive",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "LeoricUndyingTrait"
           ]
         }
       ],
@@ -18688,17 +18688,17 @@
           ]
         },
         {
-          "nameId": "LeoricMasterySpectralLeech",
-          "name": "Widmowa Pijawka",
-          "shortTooltipId": "LeoricSpectralLeechTalent",
-          "fullTooltipId": "LeoricSpectralLeechTalent",
-          "icon": "storm_ui_icon_talent_autoattack_heal.png",
-          "shortTooltip": "Ataki podstawowe zadają dodatkowe obrażenia i leczą Leoryka",
-          "fullTooltip": "Ataki podstawowe zadają wrogim bohaterom dodatkowe obrażenia równe 2.5% ich maksymalnego zdrowia i przywracają Leorykowi dwukrotność zadanych obrażeń.",
-          "abilityType": "Passive",
+          "nameId": "LeoricDrainHopeHardenedBonesTalent",
+          "name": "Wzmocnione Kości",
+          "shortTooltipId": "LeoricHardenedBonesTalent",
+          "fullTooltipId": "LeoricHardenedBonesTalent",
+          "icon": "storm_ui_icon_leoric_drainhope_var1.png",
+          "shortTooltip": "Wyssanie Nadziei zapewnia pancerz",
+          "fullTooltip": "Kiedy Wyssanie Nadziei jest aktywne, Leoryk zyskuje 40 pkt. pancerza. Jeśli działanie Wyssania Nadziei nie zostanie przerwane, Leoryk zachowa wzmocnienie pancerza na 2 sek.",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "LeoricUndyingTrait"
+            "LeoricDrainHope"
           ]
         },
         {
@@ -18763,9 +18763,9 @@
       "target": "ui_targetportrait_hero_lili.png"
     },
     "life": {
-      "amount": 1534.0,
+      "amount": 1500.0,
       "scale": 0.04,
-      "regenRate": 3.1953,
+      "regenRate": 3.125,
       "regenScale": 0.04
     },
     "energy": {
@@ -18802,7 +18802,7 @@
           "energyTooltip": "Mana: 25",
           "cooldownTooltip": "Czas odnowienia: 4 sek.",
           "shortTooltip": "Leczy pobliskiego sojusznika",
-          "fullTooltip": "Li Li leczy sojusznika o najniższym poziomie zdrowia znajdującego się w zasięgu 6 (najpierw bohaterów), przywracając mu 181 (+4% na poziom) pkt. zdrowia.",
+          "fullTooltip": "Li Li leczy sojusznika o najniższym poziomie zdrowia znajdującego się w zasięgu 6 (najpierw bohaterów), przywracając mu 175 (+4% na poziom) pkt. zdrowia.",
           "abilityType": "Q"
         },
         {
@@ -18906,7 +18906,7 @@
           "fullTooltipId": "LiLiEagerAdventurer",
           "icon": "storm_ui_icon_lili_fastfeet.png",
           "shortTooltip": "Wydłuża czas działania Szybkich Stóp",
-          "fullTooltip": "Wydłuża czas działania Szybkich Stóp o 125% i zwiększa regenerację many o 100%, kiedy cecha jest aktywna.",
+          "fullTooltip": "Wydłuża czas działania Szybkich Stóp o 125% i zwiększa regenerację many o 125%, kiedy cecha jest aktywna.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -19119,7 +19119,7 @@
           "fullTooltipId": "LiLiBlessingsOfYulon",
           "icon": "storm_ui_icon_Lili_CloudSerpent.png",
           "shortTooltip": "Zwiększa skuteczność leczenia przez Podniebnego Węża",
-          "fullTooltip": "Za każdym razem, kiedy Podniebny Wąż atakuje, przywraca towarzyszącemu bohaterowi 1.25% maksymalnego zdrowia.",
+          "fullTooltip": "Za każdym razem, kiedy Podniebny Wąż atakuje, przywraca towarzyszącemu bohaterowi 1% maksymalnego zdrowia.",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -19377,7 +19377,7 @@
           "fullTooltipId": "WizardAetherWalkerTalent",
           "icon": "storm_ui_icon_wizard_teleport.png",
           "shortTooltip": "Poza walką Teleportacja nie zużywa many",
-          "fullTooltip": "Jeśli Li-Ming nie odniesie obrażeń przez 3 sek., Teleportacja odbywa się za darmo, a jej czas odnowienia zostaje skrócony o 2 sek.",
+          "fullTooltip": "Użycie Teleportacji sprawia, że kolejne Magiczne Pociski Li-Ming zadzą obrażenia zwiększone o 10%. Jeśli Li-Ming nie odniesie obrażeń przez 3 sek., Teleportacja odbywa się za darmo, a jej czas odnowienia zostaje skrócony o 2 sek.",
           "abilityType": "E",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -19407,7 +19407,7 @@
           "fullTooltipId": "WizardArcaneOrbTriumvirateTalent",
           "icon": "storm_ui_icon_wizard_arcaneorb.png",
           "shortTooltip": "Skraca czas odnowienia Tajemnej Kuli przy maksymalnym zasięgu",
-          "fullTooltip": "Trafienie wrogiego bohatera Tajemną Kulą, która przebyła co najmniej 50% swojego zasięgu podstawowego, skraca czas odnowienia tej zdolności o 50%.",
+          "fullTooltip": "Trafienie wrogiego bohatera Tajemną Kulą, która przebyła co najmniej 50% swojego zasięgu podstawowego, skraca czas odnowienia tej zdolności o 5 sek..",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -19451,7 +19451,7 @@
           "fullTooltipId": "WizardArcaneOrbZeisVengeanceTalent",
           "icon": "storm_ui_icon_wizard_arcaneorb.png",
           "shortTooltip": "Tajemna Kula zadaje większe obrażenia z dużej odległości",
-          "fullTooltip": "Zwiększa wzrost obrażeń Tajemnej Kuli za przebytą odległość o 25% i skraca jej czas odnowienia o 2 sek.",
+          "fullTooltip": "Zwiększa wzrost obrażeń Tajemnej Kuli za przebytą odległość o 25% i skraca jej czas odnowienia o 1 sek.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -21516,7 +21516,7 @@
           "fullTooltipId": "DryadBlossomSwellTalent",
           "icon": "storm_ui_icon_Lunara_PollenCloud.png",
           "shortTooltip": "Zwiększa zasięg i obszar działania Trującego Kwiatu",
-          "fullTooltip": "Zwiększa zasięg Trującego Kwiatu o 25%, a jego obszar działania o 20%.",
+          "fullTooltip": "Zwiększa zasięg Trującego Kwiatu o 25%, a jego obszar działania o 20%. Trafienie wrogiego bohatera Trującym Kwiatem zwiększa szybkość ruchu Lunary o 15% na 3 sek.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -22774,9 +22774,9 @@
       "target": "ui_targetportrait_hero_malganis.png"
     },
     "life": {
-      "amount": 2700.0,
+      "amount": 2600.0,
       "scale": 0.04,
-      "regenRate": 5.625,
+      "regenRate": 5.414,
       "regenScale": 0.04
     },
     "energy": {
@@ -22822,7 +22822,7 @@
           "shortTooltipId": "MalGanisNecroticEmbrace",
           "fullTooltipId": "MalGanisNecroticEmbrace",
           "icon": "storm_ui_icon_malganis_necrotic.png",
-          "energyTooltip": "Mana: 30",
+          "energyTooltip": "Mana: 35",
           "cooldownTooltip": "Czas odnowienia: 8 sek.",
           "shortTooltip": "Mal'Ganis zadaje obrażenia wokół siebie i zyskuje pancerz",
           "fullTooltip": "Mal'Ganis bezcześci powietrze wokół siebie i zadaje pobliskim przeciwnikom 110 (+4% na poziom) pkt. obrażeń, a także zyskuje 25 pkt. pancerza na 3 sek.",
@@ -24076,7 +24076,7 @@
           "fullTooltipId": "MedivhTemporalFlux",
           "icon": "storm_ui_icon_medivh_arcanemissile_a.png",
           "shortTooltip": "Tajemna Szczelina skraca czas odnowienia zdolności bohaterskiej",
-          "fullTooltip": "Ataki podstawowe skracają czas odnowienia zdolności bohaterskiej Medivha o 1 sek. Czas odnowienia zdolności bohaterskiej Medivha zostaje skrócony o 3 sek. za każdego wrogiego bohatera trafionego Tajemną Szczeliną.",
+          "fullTooltip": "Ataki podstawowe skracają czas odnowienia zdolności bohaterskiej Medivha o 3%. Czas odnowienia zdolności bohaterskiej Medivha zostaje skrócony o -9% za każdego wrogiego bohatera trafionego Tajemną Szczeliną.",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -26801,7 +26801,7 @@
           "fullTooltipId": "OrpheaMindDevourer",
           "icon": "storm_ui_icon_orphea_e.png",
           "shortTooltip": "Zadanie: Zwiększ obrażenia od Zgrozy i skróć jej czas odnowienia",
-          "fullTooltip": "Zadanie: Trafianie bohaterów Zgrozą zwiększa obrażenia tej zdolności o 5 pkt., maksymalnie do 200 pkt.  Nagroda: Po trafieniu 40 bohaterów trafienie wrogiego bohatera erupcją Zgrozy sprawia, że jej czas odnowienia zostaje ustawiony na 6 sek., a Orfea odzyskuje 50 pkt. many.",
+          "fullTooltip": "Zadanie: Trafianie bohaterów Zgrozą zwiększa obrażenia tej zdolności o 4 pkt., maksymalnie do 160 pkt.  Nagroda: Po trafieniu 40 bohaterów trafienie wrogiego bohatera erupcją Zgrozy sprawia, że jej czas odnowienia zostaje ustawiony na 6 sek., a Orfea odzyskuje 50 pkt. many.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 3,
@@ -29022,9 +29022,9 @@
       "target": "ui_targetportrait_hero_rexxar.png"
     },
     "life": {
-      "amount": 1725.0,
+      "amount": 1810.0,
       "scale": 0.04,
-      "regenRate": 3.5898,
+      "regenRate": 3.7695,
       "regenScale": 0.04
     },
     "energy": {
@@ -29046,14 +29046,14 @@
         "nameId": "RexxarMeleeWeapon",
         "range": 1.5,
         "period": 1.15,
-        "damage": 99.0,
+        "damage": 125.0,
         "damageScale": 0.04
       },
       {
         "nameId": "RexxarRangedWeapon",
         "range": 5.5,
         "period": 1.15,
-        "damage": 99.0,
+        "damage": 125.0,
         "damageScale": 0.04
       }
     ],
@@ -29080,7 +29080,7 @@
           "energyTooltip": "Mana: 45",
           "cooldownTooltip": "Czas odnowienia: 10 sek.",
           "shortTooltip": "Wydajesz Miszy rozkaz, po którym szarżuje, zadając wrogom obrażenia i ogłuszając ich",
-          "fullTooltip": "Misza szarżuje do wybranego miejsca, zadając wszystkim wrogom po drodze 59 (+4% na poziom) pkt. obrażeń i ogłuszając ich na 1.25 sek.",
+          "fullTooltip": "Misza szarżuje do wybranego miejsca, zadając wszystkim wrogom po drodze 150 (+4% na poziom) pkt. obrażeń i ogłuszając ich na 1.25 sek.",
           "abilityType": "W"
         },
         {
@@ -29118,7 +29118,7 @@
           "energyTooltip": "Mana: 75",
           "cooldownTooltip": "Czas odnowienia: 50 sek.",
           "shortTooltip": "Zwiększasz obrażenia od ataku podstawowego Miszy",
-          "fullTooltip": "Zwiększa obrażenia od ataku podstawowego Miszy o 150% na 12 sek.",
+          "fullTooltip": "Zwiększa obrażenia od ataku podstawowego Miszy o 200% na 12 sek.",
           "abilityType": "Heroic"
         }
       ],
@@ -29232,7 +29232,7 @@
           "fullTooltipId": "RexxarAspectoftheBeastTalent",
           "icon": "storm_ui_icon_rexxar_mishacharge.png",
           "shortTooltip": "Ataki podstawowe Miszy skracają czas odnowienia zdolności Misza, Szarżuj!",
-          "fullTooltip": "Ataki podstawowe Miszy skracają czas odnowienia zdolności Misza, Szarżuj! o 1.25 sek.",
+          "fullTooltip": "Ataki podstawowe Miszy skracają czas odnowienia zdolności Misza, Szarżuj! o 1 sek.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -29278,7 +29278,7 @@
           "energyTooltip": "Mana: 75",
           "cooldownTooltip": "Czas odnowienia: 50 sek.",
           "shortTooltip": "Zwiększasz obrażenia od ataku podstawowego Miszy",
-          "fullTooltip": "Zwiększa obrażenia od ataku podstawowego Miszy o 150% na 12 sek.",
+          "fullTooltip": "Zwiększa obrażenia od ataku podstawowego Miszy o 200% na 12 sek.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -29337,7 +29337,7 @@
           "fullTooltipId": "RexxarDireBeast",
           "icon": "storm_ui_icon_rexxar_mishacharge.png",
           "shortTooltip": "Ataki podstawowe zwiększają obrażenia zdolności Misza, Szarżuj!",
-          "fullTooltip": "Ataki podstawowe Rexxara i Miszy zwiększają obrażenia zdolności Misza, Szarżuj! przy jej kolejnym użyciu o 40%, maksymalnie do 400%.",
+          "fullTooltip": "Ataki podstawowe Rexxara i Miszy zwiększają obrażenia zdolności Misza, Szarżuj! przy jej kolejnym użyciu o 15%, maksymalnie do 150%.",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -29461,7 +29461,7 @@
               "nameId": "MishaWeapon",
               "range": 1.5,
               "period": 1.2,
-              "damage": 62.0,
+              "damage": 50.0,
               "damageScale": 0.04
             }
           ]
@@ -29632,7 +29632,7 @@
           "fullTooltipId": "SamuroWayoftheBlade",
           "icon": "storm_ui_icon_samuro_criticalstrike.png",
           "shortTooltip": "Krytyczne Uderzenie występuje częściej",
-          "fullTooltip": "Krytyczne Uderzenie występuje teraz u Samuro i jego Lustrzanych Odbić co 3 atak podstawowy.",
+          "fullTooltip": "Krytyczne Uderzenie występuje teraz u Samuro i jego Lustrzanych Odbić co 3 atak podstawowy. Krytyczne Uderzenia Samuro wymierzone we wrogich bohaterów zmniejszają ich pancerz fizyczny o 10 pkt. na 2 sek.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -29646,7 +29646,7 @@
           "fullTooltipId": "SamuroWayOfTheWind",
           "icon": "storm_ui_icon_samuro_windwalk.png",
           "shortTooltip": "Lekkość Wiatru zapewnia dodatkową premię do szybkości ruchu",
-          "fullTooltip": "Samuro zyskuje premię 40% do szybkości ruchu na 3 sek. po użyciu oraz po wyjściu z Lekkości Wiatru.",
+          "fullTooltip": "Samuro zyskuje premię 40% do szybkości ruchu na 3 sek. po użyciu oraz po wyjściu z Lekkości Wiatru. Krytyczne Uderzenia Samuro skracają czas odnowienia Lekkości Wiatru o 1.5 sek.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -30759,7 +30759,7 @@
           "fullTooltipId": "BarbarianGiantSlammer",
           "icon": "storm_ui_icon_sonya_seismicslam.png",
           "shortTooltip": "Ataki podstawowe i Fala Sejsmiczna zadają dodatkowe obrażenia",
-          "fullTooltip": "Ataki podstawowe oraz Fala Sejsmiczna zadają bohaterom dodatkowe obrażenia równe 1.25% ich maksymalnego zdrowia.",
+          "fullTooltip": "Ataki podstawowe oraz Fala Sejsmiczna zadają bohaterom dodatkowe obrażenia równe 1.25% ich maksymalnego zdrowia i leczą Sonię w oparciu o zadane obrażenia.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -34585,7 +34585,7 @@
           "fullTooltipId": "TychusRunAndGunBobAndWeaveTalent",
           "icon": "storm_ui_icon_tychus_runandgun.png",
           "shortTooltip": "Dodaje ładunki Szybkiego i Wściekłego oraz zmniejsza jego koszt many",
-          "fullTooltip": "Szybki i Wściekły oraz Pędniki Odyna zyskują po 2 dodatkowe ładunki. Koszt many Szybkiego i Wściekłego zostaje zmniejszony z 50 pkt. do 25 pkt.",
+          "fullTooltip": "Zasięg ataków podstawowych Tychusa wzrasta o 1.5. Szybki i Wściekły oraz Pędniki Odyna zyskują po 2 dodatkowe ładunki. Koszt many Szybkiego i Wściekłego zostaje zmniejszony z 50 pkt. do 25 pkt.",
           "abilityType": "E",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -34776,7 +34776,7 @@
           "fullTooltipId": "TyraelArdentRestoration",
           "icon": "storm_ui_icon_talent_regenerationmaster.png",
           "shortTooltip": "Ranienie bohaterów powoduje leczenie Tyraela z upływem czasu",
-          "fullTooltip": "Zadawanie obrażeń bohaterowi przywraca Tyraelowi 15 (+4% na poziom) pkt. zdrowia w ciągu 5 sek. Ponowna zadanie obrażeń powoduje wyzerowanie odliczania tego czasu. Wartość przywracanego zdrowia kumuluje się maksymalnie 10 razy.",
+          "fullTooltip": "Zadawanie obrażeń bohaterowi przywraca Tyraelowi 18 (+4% na poziom) pkt. zdrowia w ciągu 5 sek. Ponowna zadanie obrażeń powoduje wyzerowanie odliczania tego czasu. Wartość przywracanego zdrowia kumuluje się maksymalnie 10 razy.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -34817,7 +34817,7 @@
           "fullTooltipId": "TyraelDivineVigor",
           "icon": "storm_ui_icon_tyrael_smite.png",
           "shortTooltip": "Święty Cios sprawia, że ataki podstawowe leczą",
-          "fullTooltip": "Jeśli Święty Cios trafi przeciwnika, ataki podstawowe Tyraela wykonane w ciągu kolejnych 4 sek. przywrócą mu w postaci zdrowia równowartość 50% zadanych obrażeń.",
+          "fullTooltip": "Jeśli Święty Cios trafi przeciwnika, ataki podstawowe Tyraela wykonane w ciągu kolejnych 4 sek. przywrócą mu w postaci zdrowia równowartość 60% zadanych obrażeń.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -34847,7 +34847,7 @@
           "fullTooltipId": "TyraelSmitePurgeEvilTalent",
           "icon": "storm_ui_icon_tyrael_smite.png",
           "shortTooltip": "Święty Cios zwiększa obrażenia ataku podstawowego",
-          "fullTooltip": "Obrażenia ataku podstawowego Tyraela wzrastają o 45% na 4 sek. za każdego wrogiego bohatera trafionego Świętym Ciosem.",
+          "fullTooltip": "Obrażenia ataku podstawowego Tyraela wzrastają o 55% na 4 sek. za każdego wrogiego bohatera trafionego Świętym Ciosem.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -37540,8 +37540,8 @@
       {
         "nameId": "WhitemaneHeroWeapon",
         "range": 5.5,
-        "period": 0.75,
-        "damage": 45.0,
+        "period": 0.85,
+        "damage": 60.0,
         "damageScale": 0.04
       }
     ],
@@ -37578,7 +37578,7 @@
           "icon": "storm_ui_icon_whitemane_lash.png",
           "cooldownTooltip": "Czas odnowienia: 6 sek.",
           "shortTooltip": "Zadaje obrażenia wrogom ustawionym w linii prostej",
-          "fullTooltip": "Po upływie 0.5 sek. Białowłosa razi przeciwników ustawionych w linii prostej i zadaje im 78 (+4% na poziom) pkt. obrażeń.  Jeśli pierwszy cios trafi wrogiego bohatera, po upływie krótkiego czasu oczekiwania nastąpi drugi.",
+          "fullTooltip": "Po upływie 0.5 sek. Białowłosa razi przeciwników ustawionych w linii prostej i zadaje im 82 (+4% na poziom) pkt. obrażeń.  Jeśli pierwszy cios trafi wrogiego bohatera, po upływie krótkiego czasu oczekiwania nastąpi drugi.",
           "abilityType": "E"
         }
       ],
@@ -37808,7 +37808,7 @@
           "fullTooltipId": "WhitemaneDesperatePleaSelfRighteous",
           "icon": "storm_ui_icon_whitemane_desperation.png",
           "shortTooltip": "Wołanie o Pomoc leczy Białowłosą oraz jej cel",
-          "fullTooltip": "Użycie Wołania o Pomoc na sojuszniku leczy Białowłosą, przywracając jej 125 (+4% na poziom) pkt. zdrowia. Nie zapewnia Zapału.",
+          "fullTooltip": "Użycie Wołania o Pomoc na sojuszniku leczy Białowłosą, przywracając jej 135 (+4% na poziom) pkt. zdrowia. Nie zapewnia Zapału.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -39125,8 +39125,8 @@
           "shortTooltipId": "ZagaraBanelingBarrageBanelingMassacreTalent",
           "fullTooltipId": "ZagaraBanelingBarrageBanelingMassacreTalent",
           "icon": "storm_ui_icon_zagara_banelingbarrage.png",
-          "shortTooltip": "Zwiększa liczbę Tępicieli",
-          "fullTooltip": "Zagara zyskuje 2 dodatkowe ładunki tępicieli.",
+          "shortTooltip": "Zwiększa liczbę Tępicieli i zadawane przez nie obrażenia",
+          "fullTooltip": "Zagara zyskuje 2 dodatkowe ładunki Tępicieli, które zadają obrażenia zwiększone o 20%.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -39140,7 +39140,7 @@
           "fullTooltipId": "ZagaraViscousAcid",
           "icon": "storm_ui_icon_zagara_banelingbarrage_a.png",
           "shortTooltip": "Tępiciele spowalniają przeciwników",
-          "fullTooltip": "Tępiciele spowalniają wrogów o 20% na 1.5 sek.",
+          "fullTooltip": "Tępiciele spowalniają wrogów o 25% na 2.5 sek.",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -39154,7 +39154,7 @@
           "fullTooltipId": "ZagaraInfestedDropBileDropTalent",
           "icon": "storm_ui_icon_zagara_infesteddrop.png",
           "shortTooltip": "Zadanie: Zwiększ maksymalną liczbę Karakańców",
-          "fullTooltip": "Zadanie: Pasywnie zwiększa pole rażenia Zainfekowanego Zrzutu o 20%.  Nagroda: Po trafieniu 15 bohaterów Zainfekowanym Zrzutem pojawia się dodatkowy Karakaniec.",
+          "fullTooltip": "Zadanie: Pasywnie zwiększa pole rażenia Zainfekowanego Zrzutu o 20%.  Nagroda: Po trafieniu 12 bohaterów Zainfekowanym Zrzutem pojawia się dodatkowy Karakaniec.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 3,
