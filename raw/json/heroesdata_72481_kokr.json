@@ -236,7 +236,7 @@
           "fullTooltipId": "AbathurLocustStrainSurvivalInstinctsTalent",
           "icon": "storm_ui_icon_abathur_spawnlocust.png",
           "shortTooltip": "식충 생명력 및 공격력 증가",
-          "fullTooltip": "식충의 생명력이 40% 증가하고 공격력이 40% 증가합니다.",
+          "fullTooltip": "식충의 생명력이 60% 증가하고 공격력이 60% 증가합니다.",
           "abilityType": "Trait",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -913,7 +913,7 @@
           "fullTooltipId": "AlarakBladeoftheHighlord",
           "icon": "storm_ui_icon_alarak_sadism.png",
           "shortTooltip": "일반 공격 시 가학성 증가",
-          "fullTooltip": "영웅에게 일반 공격을 하면 가학성이 4초 동안 7% 증가하여 최대 35% 증가합니다. 적 영웅에게 일반 공격을 하면 지속 시간이 갱신됩니다.",
+          "fullTooltip": "영웅에게 일반 공격을 하면 가학성이 2% 증가하여 최대 30% 증가합니다.  이 증가량은 죽으면 사라집니다.",
           "abilityType": "Trait",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -1719,7 +1719,7 @@
           "fullTooltipId": "AnaEyeOfHorusActivate",
           "icon": "storm_ui_icon_ana_overwatch.png",
           "energyTooltip": "마나: 45",
-          "cooldownTooltip": "재사용 대기시간: 45초",
+          "cooldownTooltip": "재사용 대기시간: 60초",
           "shortTooltip": "사거리가 무한인 탄환을 발사하여 치유 또는 피해를 줌",
           "fullTooltip": "저격용 조준경을 활성화하여 사거리가 무한인 6발의 특수 탄환을 발사할 수 있습니다. 탄환은 영웅을 관통하지만 적 구조물은 관통할 수 없고 아군 영웅의 생명력은 225 (레벨 당 +4%) 회복시키며 적 영웅에게는 135 (레벨 당 +4%)의 피해를 줍니다. 구조물에는 50% 감소한 피해를 줍니다.  호루스의 눈이 활성화된 동안에는 이동할 수 없습니다.",
           "abilityType": "Heroic"
@@ -1761,7 +1761,7 @@
           "fullTooltipId": "AnaSleepingDartSlumberShells",
           "icon": "storm_ui_icon_ana_sleep_dart.png",
           "shortTooltip": "수면총이 이동 속도를 증가시킴",
-          "fullTooltip": "적 영웅이 수면총의 영향을 받고 있는 동안 이동 속도가 25% 증가합니다.",
+          "fullTooltip": "수면총이 적 영웅에게 적중하면 이동 속도가 3초 동안 25% 증가합니다.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -1821,7 +1821,7 @@
           "icon": "storm_ui_icon_ana_debilitatingdart.png",
           "cooldownTooltip": "재사용 대기시간: 20초",
           "shortTooltip": "공격력 및 이동 속도를 감소시키는 다트 발사",
-          "fullTooltip": "사용하면 다트를 발사하여 처음 적중한 적 영웅의 공격력과 이동 속도를 3초 동안 50% 감소시킵니다.",
+          "fullTooltip": "사용하면 다트를 발사하여 처음 적중한 적 영웅의 공격력과 이동 속도를 4초 동안 50% 감소시킵니다.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -1835,7 +1835,7 @@
           "fullTooltipId": "AnaBioticGrenadeAntiHealer",
           "icon": "storm_ui_icon_ana_biotic_grenade.png",
           "shortTooltip": "생체 수류탄 강화",
-          "fullTooltip": "생체 수류탄의 범위가 100% 증가하고 치유량 감소 효과의 지속 시간이 50% 증가합니다.",
+          "fullTooltip": "생체 수류탄의 범위가 100% 증가하고 치유량 감소 효과의 지속 시간이 25% 증가합니다.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -1849,7 +1849,7 @@
           "fullTooltipId": "AnaSleepDartNightTerrors",
           "icon": "storm_ui_icon_ana_sleep_dart.png",
           "shortTooltip": "수면총 강화",
-          "fullTooltip": "수면총의 수면 효과가 만료되면 대상의 최대 생명력의 8%만큼 피해를 줍니다. 수면 효과가 조기에 종료되지 않았다면 수면총의 재사용 대기시간이 6초로 감소합니다.",
+          "fullTooltip": "수면총의 수면 효과가 만료되면 대상의 최대 생명력의 8%만큼 피해를 줍니다. 수면 효과가 조기에 종료되지 않았다면 수면총의 재사용 대기시간이 5초로 감소합니다.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -1896,7 +1896,7 @@
           "fullTooltipId": "AnaEyeOfHorusActivate",
           "icon": "storm_ui_icon_ana_overwatch.png",
           "energyTooltip": "마나: 45",
-          "cooldownTooltip": "재사용 대기시간: 45초",
+          "cooldownTooltip": "재사용 대기시간: 60초",
           "shortTooltip": "사거리가 무한인 탄환을 발사하여 치유 또는 피해를 줌",
           "fullTooltip": "저격용 조준경을 활성화하여 사거리가 무한인 6발의 특수 탄환을 발사할 수 있습니다. 탄환은 영웅을 관통하지만 적 구조물은 관통할 수 없고 아군 영웅의 생명력은 225 (레벨 당 +4%) 회복시키며 적 영웅에게는 135 (레벨 당 +4%)의 피해를 줍니다. 구조물에는 50% 감소한 피해를 줍니다.  호루스의 눈이 활성화된 동안에는 이동할 수 없습니다.",
           "abilityType": "Heroic",
@@ -2015,7 +2015,7 @@
         },
         {
           "nameId": "AnaEyeOfHorusDeadeye",
-          "name": "명사수",
+          "name": "우제트의 심판",
           "shortTooltipId": "AnaEyeOfHorusDeadeye",
           "fullTooltipId": "AnaEyeOfHorusDeadeye",
           "icon": "storm_ui_icon_ana_overwatch.png",
@@ -3990,7 +3990,7 @@
           "energyTooltip": "마나: 60",
           "cooldownTooltip": "재사용 대기시간: 10초",
           "shortTooltip": "긴 사거리를 가진 파괴의 구슬을 던져 광역 피해를 줌",
-          "fullTooltip": "파괴의 구슬을 날려 184 (레벨 당 +3%)의 피해를 줍니다.  퀘스트: 파멸의 구슬이 적 영웅에게 적중하거나 파멸의 구슬이 적중한 적 돌격병을 1.5초 안에 처치하면 파멸이 2회 중첩됩니다.  보상: 파멸 중첩 하나당 파멸의 구슬의 공격력이 1 증가하여 최대 400 증가합니다.",
+          "fullTooltip": "파괴의 구슬을 날려 184 (레벨 당 +2.5%)의 피해를 줍니다.  퀘스트: 파멸의 구슬이 적 영웅에게 적중하거나 파멸의 구슬이 적중한 적 돌격병을 1.5초 안에 처치하면 파멸이 2회 중첩됩니다.  보상: 파멸 중첩 하나당 파멸의 구슬의 공격력이 1 증가하여 최대 400 증가합니다.",
           "abilityType": "Q"
         },
         {
@@ -4066,8 +4066,8 @@
           "shortTooltipId": "AzmodanGreed",
           "fullTooltipId": "AzmodanGreed",
           "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
-          "shortTooltip": "퀘스트: 사거리 증가, 돌격병 및 용병에게 추가 피해",
-          "fullTooltip": "파멸의 구슬이 적 돌격병에게 적중한 후에 파멸이 중첩될 수 있는 시간이 1.5초에서 3초로 증가합니다.  퀘스트: 파멸이 200회 중첩되면 파멸의 구슬의 사거리가 33% 증가하고 영웅이 아닌 적에게 주는 피해가 20% 증가합니다.",
+          "shortTooltip": "영웅이 아닌 적에게 파멸의 구슬 추가 피해 퀘스트: 모두 다 불타리라 사거리 증가",
+          "fullTooltip": "파멸의 구슬이 영웅이 아닌 적에게 % 의 추가 피해를 줍니다.  퀘스트: 파멸이 회 중첩되면 모두 다 불타리라의 사거리가 % 증가하고 악마 전사의 공격 속도와 이동 속도가 % 증가합니다.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -4311,8 +4311,8 @@
           "shortTooltipId": "AzmodanSinsGraspHotbar",
           "fullTooltipId": "AzmodanSinsGraspHotbar",
           "icon": "storm_ui_icon_azmodan_allshallburn_a.png",
-          "shortTooltip": "모두 다 불타리라 사거리 증가 및 재사용 대기시간 감소",
-          "fullTooltip": "모두 다 불타리라의 사거리가 20% 증가합니다. 모두 다 불타리라가 끝까지 지속되면 재사용 대기시간이 50% 감소합니다.",
+          "shortTooltip": "모두 다 불타리라 재사용 대기시간 감소 및 적 영웅을 느려지게 함",
+          "fullTooltip": "모두 다 불타리라가 대상을 지속 시간 동안 15% 느려지게 합니다. 모두 다 불타리라가 끝까지 지속되면 재사용 대기시간이 50% 감소하고 대상을 2초 동안 45% 느려지게 합니다.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -4369,7 +4369,7 @@
           "shortTooltipId": "AzmodanTrample",
           "fullTooltipId": "AzmodanTrample",
           "icon": "storm_ui_icon_azmodan_trample.png",
-          "cooldownTooltip": "재사용 대기시간: 60초",
+          "cooldownTooltip": "재사용 대기시간: 20초",
           "shortTooltip": "짧은 거리 돌진",
           "fullTooltip": "사용하면 짧은 거리를 돌진하여 240 (레벨 당 +4%)의 피해를 주고 적중한 적들을 1초 동안 60% 느려지게 합니다.",
           "abilityType": "Active",
@@ -6421,9 +6421,9 @@
       "target": "ui_targetportrait_hero_cho.png"
     },
     "life": {
-      "amount": 2750.0,
+      "amount": 2850.0,
       "scale": 0.045,
-      "regenRate": 5.7304,
+      "regenRate": 5.9414,
       "regenScale": 0.045
     },
     "roles": [
@@ -6613,7 +6613,7 @@
           "fullTooltipId": "ChoPowerSurgeTalent",
           "icon": "storm_ui_icon_cho_moltensurge_a.png",
           "shortTooltip": "영웅 적중 시 쇄도의 주먹 재사용 대기시간 감소",
-          "fullTooltip": "쇄도의 주먹이 적중한 적 영웅 하나당 쇄도의 주먹의 재사용 대기시간이 4초 감소합니다.",
+          "fullTooltip": "쇄도의 주먹이 적중한 적 영웅 하나당 쇄도의 주먹의 재사용 대기시간이 5초 감소합니다.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -6685,6 +6685,49 @@
       ],
       "level13": [
         {
+          "nameId": "ChoSurgingDash",
+          "name": "쇄도의 질주",
+          "shortTooltipId": "ChoSurgingDashTalent",
+          "fullTooltipId": "ChoSurgingDashTalent",
+          "icon": "storm_ui_icon_Cho_MoltenSurge_A.png",
+          "shortTooltip": "쇄도의 주먹 준비 중 생명력 회복",
+          "fullTooltip": "쇄도의 주먹을 준비하는 동안 초당 150 (레벨 당 +4%)의 생명력을 회복합니다.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "ChoSurgingFistCast"
+          ]
+        },
+        {
+          "nameId": "ChoTwilightVeil",
+          "name": "황혼의 장막",
+          "shortTooltipId": "ChoTwilightVeilTalent",
+          "fullTooltipId": "ChoTwilightVeilTalent",
+          "icon": "storm_ui_icon_talent_hardenedshield.png",
+          "cooldownTooltip": "재사용 대기시간: 30초",
+          "shortTooltip": "사용 시 오우거의 가죽 방어력 증가",
+          "fullTooltip": "사용하면 오우거의 가죽의 추가 방어력이 4초 동안 100% 증가합니다. 오우거의 분노가 활성화된 동안 사용하면 즉시 오우거의 가죽으로 전환됩니다.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 2
+        },
+        {
+          "nameId": "ChoTalentMoltenBlock",
+          "name": "용암 방패",
+          "shortTooltipId": "ChoTalentMoltenBlock",
+          "fullTooltipId": "ChoTalentMoltenBlock",
+          "icon": "storm_ui_icon_cho_moltenblock.png",
+          "toggleCooldown": 0.5,
+          "cooldownTooltip": "재사용 대기시간: 60초",
+          "shortTooltip": "사용 시 무적",
+          "fullTooltip": "사용하면 3초 동안 정지 및 무적 상태가 되고, 주위 적들에게 초당 92 (레벨 당 +4%)의 피해를 줍니다.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 3
+        }
+      ],
+      "level16": [
+        {
           "nameId": "ChoFrenziedFists",
           "name": "광란의 주먹",
           "shortTooltipId": "ChoFrenziedFistsTalent",
@@ -6719,51 +6762,8 @@
           "fullTooltipId": "ChoRunedGauntletTalent",
           "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
           "shortTooltip": "일반 공격 시 궁극기 재사용 대기시간 감소",
-          "fullTooltip": "일반 공격을 할 때마다 초와 갈의 궁극기의 재사용 대기시간이 0.75초 감소합니다.",
+          "fullTooltip": "일반 공격을 할 때마다 초와 갈의 궁극기의 재사용 대기시간이 5% 감소합니다.",
           "abilityType": "Passive",
-          "sort": 3
-        }
-      ],
-      "level16": [
-        {
-          "nameId": "ChoSurgingDash",
-          "name": "쇄도의 질주",
-          "shortTooltipId": "ChoSurgingDashTalent",
-          "fullTooltipId": "ChoSurgingDashTalent",
-          "icon": "storm_ui_icon_Cho_MoltenSurge_A.png",
-          "shortTooltip": "쇄도의 주먹 준비 중 생명력 회복",
-          "fullTooltip": "쇄도의 주먹을 준비하는 동안 초당 150 (레벨 당 +4%)의 생명력을 회복합니다.",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "ChoSurgingFistCast"
-          ]
-        },
-        {
-          "nameId": "ChoTwilightVeil",
-          "name": "황혼의 장막",
-          "shortTooltipId": "ChoTwilightVeilTalent",
-          "fullTooltipId": "ChoTwilightVeilTalent",
-          "icon": "storm_ui_icon_talent_hardenedshield.png",
-          "cooldownTooltip": "재사용 대기시간: 30초",
-          "shortTooltip": "사용 시 오우거의 가죽 방어력 증가",
-          "fullTooltip": "사용하면 오우거의 가죽의 추가 방어력이 2초 동안 100% 증가합니다. 오우거의 분노가 활성화된 동안 사용하면 즉시 오우거의 가죽으로 전환됩니다.",
-          "abilityType": "Active",
-          "isActive": true,
-          "sort": 2
-        },
-        {
-          "nameId": "ChoTalentMoltenBlock",
-          "name": "용암 방패",
-          "shortTooltipId": "ChoTalentMoltenBlock",
-          "fullTooltipId": "ChoTalentMoltenBlock",
-          "icon": "storm_ui_icon_cho_moltenblock.png",
-          "toggleCooldown": 0.5,
-          "cooldownTooltip": "재사용 대기시간: 60초",
-          "shortTooltip": "사용 시 무적",
-          "fullTooltip": "사용하면 3초 동안 정지 및 무적 상태가 되고, 주위 적들에게 초당 92 (레벨 당 +4%)의 피해를 줍니다.",
-          "abilityType": "Active",
-          "isActive": true,
           "sort": 3
         }
       ],
@@ -8309,7 +8309,7 @@
           "fullTooltipId": "DiabloShadowCharge",
           "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
           "energyTooltip": "마나: 70",
-          "cooldownTooltip": "재사용 대기시간: 12초",
+          "cooldownTooltip": "재사용 대기시간: 13초",
           "shortTooltip": "대상에게 돌진하여 밀쳐냄",
           "fullTooltip": "적에게 돌진해 밀쳐내며 40 (레벨 당 +4%)의 피해를 주고 이동 속도가 2초 동안 15% 증가합니다. 대상이 지형에 부딪히면 1초 동안 기절하고 120 (레벨 당 +4%)의 피해를 추가로 받습니다.",
           "abilityType": "Q"
@@ -8340,7 +8340,7 @@
             "hideCount": true,
             "recastCooldown": 2.0
           },
-          "cooldownTooltip": "재사용 대기시간: 12초",
+          "cooldownTooltip": "재사용 대기시간: 13초",
           "shortTooltip": "적을 집어 들고 뒤로 메쳐서 피해를 주고 기절시킴",
           "fullTooltip": "대상을 집어 들고 디아블로 뒤로 메쳐서, 73 (레벨 당 +4%)의 피해를 주고 0.25초 동안 기절시킵니다.",
           "abilityType": "E"
@@ -10847,7 +10847,7 @@
           "fullTooltipId": "GallKeepMoving",
           "icon": "storm_ui_icon_gall_shove.png",
           "shortTooltip": "밀치기 이동 속도 증가 효과 지속 시간 증가",
-          "fullTooltip": "밀치기의 이동 속도 증가 효과의 지속 시간이 1초 증가합니다. 초의 일반 공격이 적 영웅에게 적중하면 활성화된 밀치기 효과의 지속 시간이 1초 증가합니다.",
+          "fullTooltip": "밀치기의 이동 속도 증가 효과의 지속 시간이 2초 증가합니다.",
           "abilityType": "Z",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -10875,7 +10875,7 @@
           "fullTooltipId": "GallWeSeeYou",
           "icon": "storm_ui_icon_gall_eyeofkilrogg.png",
           "shortTooltip": "킬로그의 눈 재사용 대기시간 감소",
-          "fullTooltip": "킬로그의 눈의 재사용 대기시간이 15초 감소하고 사거리가 33% 증가합니다.",
+          "fullTooltip": "킬로그의 눈의 재사용 대기시간이 25초 감소하고 사거리가 33% 증가합니다.",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -10891,7 +10891,7 @@
           "fullTooltipId": "GallDoubleBackTalent",
           "icon": "storm_ui_icon_gall_chaoscollision.png",
           "shortTooltip": "다시 사용 시 공포의 보주가 세 번째로 튈 때 뒤로 튐",
-          "fullTooltip": "공포의 보주가 두 번째로 튀기 전에 사용하면 보주가 세 번째로 튈 때 뒤로 튑니다.  지속 효과: 세 번째로 튀는 공포의 보주가 영웅이 아닌 대상에게 200%의 추가 피해를 줍니다.",
+          "fullTooltip": "공포의 보주가 두 번째로 튀기 전에 사용하면 보주가 세 번째로 튈 때 뒤로 튑니다.  지속 효과: 세 번째로 튀는 공포의 보주가 영웅에게 50%의 추가 피해를 주고 영웅이 아닌 대상에게 200%의 추가 피해를 줍니다.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -10936,7 +10936,7 @@
           "fullTooltipId": "GallEdgeOfMadnessTalent",
           "icon": "storm_ui_icon_Gall_Shadowflame.png",
           "shortTooltip": "암흑불길 공격력 증가",
-          "fullTooltip": "같은 적 영웅에게 암흑불길이 연속해서 적중할 때마다 8%의 추가 피해를 줘 최대 40%의 추가 피해를 줍니다. 이 효과는 대상을 4초 이상 공격하지 않으면 사라집니다.",
+          "fullTooltip": "같은 적 영웅에게 암흑불길이 연속해서 적중할 때마다 8%의 추가 피해를 줘 최대 40%의 추가 피해를 줍니다. 이 효과는 대상을 7초 이상 공격하지 않으면 사라집니다.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -10965,7 +10965,7 @@
           "fullTooltipId": "GallOgreRampage",
           "icon": "storm_ui_icon_gall_ogrerage.png",
           "shortTooltip": "초의 오우거의 가죽이 재사용 대기시간을 감소시킴",
-          "fullTooltip": "초가 오우거의 가죽을 활성화한 후, 갈의 일반 기술의 재사용 대기시간이 5초 동안 75% 더 빨리 감소합니다.",
+          "fullTooltip": "오우거의 분노의 공격력 증가 효과가 5% 증가합니다. 초가 오우거의 가죽을 활성화한 후, 갈의 일반 기술의 재사용 대기시간이 5초 동안 75% 더 빨리 감소합니다.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -11059,7 +11059,7 @@
           "fullTooltipId": "GallShadowsnare",
           "icon": "storm_ui_icon_gall_shadowflame.png",
           "shortTooltip": "암흑불길이 적 영웅을 느려지게 함",
-          "fullTooltip": "암흑불길이 적 영웅을 4초 동안 10% 느려지게 만듭니다. 이 효과는 최대 3회 중첩됩니다.",
+          "fullTooltip": "암흑불길이 적 영웅을 4초 동안 15% 느려지게 만듭니다. 이 효과는 최대 2회 중첩됩니다.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -11073,7 +11073,7 @@
           "fullTooltipId": "GallLeadenOrb",
           "icon": "storm_ui_icon_gall_chaoscollision.png",
           "shortTooltip": "공포의 보주가 적을 기절시킴",
-          "fullTooltip": "공포의 보주가 적 영웅을 0.5초 동안 기절시킵니다.",
+          "fullTooltip": "공포의 보주가 적 영웅을 0.75초 동안 기절시킵니다.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -18585,20 +18585,6 @@
           ]
         },
         {
-          "nameId": "LeoricDrainHopeHardenedBonesTalent",
-          "name": "단단한 골격",
-          "shortTooltipId": "LeoricHardenedBonesTalent",
-          "fullTooltipId": "LeoricHardenedBonesTalent",
-          "icon": "storm_ui_icon_leoric_drainhope_var1.png",
-          "shortTooltip": "절망의 손아귀 중 방어력 증가",
-          "fullTooltip": "절망의 손아귀 중에 방어력이 40 증가합니다. 절망의 손아귀가 끝까지 지속되면 방어력 증가 효과가 2초 동안 유지됩니다.",
-          "abilityType": "W",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "LeoricDrainHope"
-          ]
-        },
-        {
           "nameId": "LeoricWraithWalkOminousWraithTalent",
           "name": "불길한 망령",
           "shortTooltipId": "LeoricOminousWraithTalent",
@@ -18607,9 +18593,23 @@
           "shortTooltip": "망령 걸음 강화",
           "fullTooltip": "망령 걸음의 지속 시간이 100% 증가하고 그동안 뚫고 지나간 적 영웅의 공격력이 4초 동안 50% 감소합니다.",
           "abilityType": "E",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "LeoricWraithWalk"
+          ]
+        },
+        {
+          "nameId": "LeoricMasterySpectralLeech",
+          "name": "저승의 착취",
+          "shortTooltipId": "LeoricSpectralLeechTalent",
+          "fullTooltipId": "LeoricSpectralLeechTalent",
+          "icon": "storm_ui_icon_talent_autoattack_heal.png",
+          "shortTooltip": "영웅 일반 공격 시 추가 피해 및 생명력 회복",
+          "fullTooltip": "일반 공격으로 적 영웅을 공격할 때마다 대상의 최대 생명력의 2.5%만큼 추가 피해를 주고, 추가 피해량의 2배만큼 생명력을 회복합니다.",
+          "abilityType": "Passive",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "LeoricUndyingTrait"
           ]
         }
       ],
@@ -18688,17 +18688,17 @@
           ]
         },
         {
-          "nameId": "LeoricMasterySpectralLeech",
-          "name": "저승의 착취",
-          "shortTooltipId": "LeoricSpectralLeechTalent",
-          "fullTooltipId": "LeoricSpectralLeechTalent",
-          "icon": "storm_ui_icon_talent_autoattack_heal.png",
-          "shortTooltip": "영웅 일반 공격 시 추가 피해 및 생명력 회복",
-          "fullTooltip": "일반 공격으로 적 영웅을 공격할 때마다 대상의 최대 생명력의 2.5%만큼 추가 피해를 주고, 추가 피해량의 2배만큼 생명력을 회복합니다.",
-          "abilityType": "Passive",
+          "nameId": "LeoricDrainHopeHardenedBonesTalent",
+          "name": "단단한 골격",
+          "shortTooltipId": "LeoricHardenedBonesTalent",
+          "fullTooltipId": "LeoricHardenedBonesTalent",
+          "icon": "storm_ui_icon_leoric_drainhope_var1.png",
+          "shortTooltip": "절망의 손아귀 중 방어력 증가",
+          "fullTooltip": "절망의 손아귀 중에 방어력이 40 증가합니다. 절망의 손아귀가 끝까지 지속되면 방어력 증가 효과가 2초 동안 유지됩니다.",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "LeoricUndyingTrait"
+            "LeoricDrainHope"
           ]
         },
         {
@@ -18763,9 +18763,9 @@
       "target": "ui_targetportrait_hero_lili.png"
     },
     "life": {
-      "amount": 1534.0,
+      "amount": 1500.0,
       "scale": 0.04,
-      "regenRate": 3.1953,
+      "regenRate": 3.125,
       "regenScale": 0.04
     },
     "energy": {
@@ -18802,7 +18802,7 @@
           "energyTooltip": "마나: 25",
           "cooldownTooltip": "재사용 대기시간: 4초",
           "shortTooltip": "주위 아군의 생명력 회복",
-          "fullTooltip": "사거리 6 내의 생명력이 가장 낮은 아군의 생명력을 181 (레벨 당 +4%) 회복시킵니다. 영웅을 우선으로 합니다.",
+          "fullTooltip": "사거리 6 내의 생명력이 가장 낮은 아군의 생명력을 175 (레벨 당 +4%) 회복시킵니다. 영웅을 우선으로 합니다.",
           "abilityType": "Q"
         },
         {
@@ -18906,7 +18906,7 @@
           "fullTooltipId": "LiLiEagerAdventurer",
           "icon": "storm_ui_icon_lili_fastfeet.png",
           "shortTooltip": "빠른 발 지속 시간 증가",
-          "fullTooltip": "빠른 발의 지속 시간이 125% 증가하고 빠른 발이 활성화된 동안 마나 재생량이 100% 증가합니다.",
+          "fullTooltip": "빠른 발의 지속 시간이 125% 증가하고 빠른 발이 활성화된 동안 마나 재생량이 125% 증가합니다.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -19119,7 +19119,7 @@
           "fullTooltipId": "LiLiBlessingsOfYulon",
           "icon": "storm_ui_icon_Lili_CloudSerpent.png",
           "shortTooltip": "운룡 치유량 증가",
-          "fullTooltip": "운룡이 공격할 때마다 대상 아군의 최대 생명력의 1.25%를 회복시킵니다.",
+          "fullTooltip": "운룡이 공격할 때마다 대상 아군의 최대 생명력의 1%를 회복시킵니다.",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -19377,7 +19377,7 @@
           "fullTooltipId": "WizardAetherWalkerTalent",
           "icon": "storm_ui_icon_wizard_teleport.png",
           "shortTooltip": "비전투 시 순간이동에 마나가 소모되지 않음",
-          "fullTooltip": "3초 동안 피해를 받지 않으면, 순간이동이 마나를 소모하지 않고 재사용 대기시간이 2초 감소합니다.",
+          "fullTooltip": "순간이동을 사용하면 다음 마력탄이 10%의 추가 피해를 줍니다.  3초 동안 피해를 받지 않으면, 순간이동이 마나를 소모하지 않고 재사용 대기시간이 2초 감소합니다.",
           "abilityType": "E",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -19407,7 +19407,7 @@
           "fullTooltipId": "WizardArcaneOrbTriumvirateTalent",
           "icon": "storm_ui_icon_wizard_arcaneorb.png",
           "shortTooltip": "최대 거리에서 폭발 시 재사용 대기시간 감소",
-          "fullTooltip": "비전 보주가 기본 사거리의 50% 이상을 이동한 후 적 영웅에게 적중하면 재사용 대기시간이 50% 감소합니다.",
+          "fullTooltip": "비전 보주가 기본 사거리의 50% 이상을 이동한 후 적 영웅에게 적중하면 재사용 대기시간이 5초 감소합니다.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -19451,7 +19451,7 @@
           "fullTooltipId": "WizardArcaneOrbZeisVengeanceTalent",
           "icon": "storm_ui_icon_wizard_arcaneorb.png",
           "shortTooltip": "비전 보주가 멀리 있는 적에게 적중 시 추가 피해",
-          "fullTooltip": "비전 보주가 이동 거리에 따라 공격력이 최대 25% 증가합니다. 비전 보주의 재사용 대기시간이 2초 감소합니다.",
+          "fullTooltip": "비전 보주가 이동 거리에 따라 공격력이 최대 25% 증가합니다. 비전 보주의 재사용 대기시간이 1초 감소합니다.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -21516,7 +21516,7 @@
           "fullTooltipId": "DryadBlossomSwellTalent",
           "icon": "storm_ui_icon_Lunara_PollenCloud.png",
           "shortTooltip": "치명적인 꽃 사거리 및 폭발 반경 증가",
-          "fullTooltip": "치명적인 꽃의 사거리가 25% 증가하고 폭발 반경이 20% 증가합니다.",
+          "fullTooltip": "치명적인 꽃의 사거리가 25% 증가하고 폭발 반경이 20% 증가합니다. 치명적인 꽃이 적 영웅에게 적중하면 이동 속도가 3초 동안 15% 증가합니다.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -22774,9 +22774,9 @@
       "target": "ui_targetportrait_hero_malganis.png"
     },
     "life": {
-      "amount": 2700.0,
+      "amount": 2600.0,
       "scale": 0.04,
-      "regenRate": 5.625,
+      "regenRate": 5.414,
       "regenScale": 0.04
     },
     "energy": {
@@ -22822,7 +22822,7 @@
           "shortTooltipId": "MalGanisNecroticEmbrace",
           "fullTooltipId": "MalGanisNecroticEmbrace",
           "icon": "storm_ui_icon_malganis_necrotic.png",
-          "energyTooltip": "마나: 30",
+          "energyTooltip": "마나: 35",
           "cooldownTooltip": "재사용 대기시간: 8초",
           "shortTooltip": "주위에 피해를 주며 방어력 증가",
           "fullTooltip": "대기를 더렵혀 주위 적들에게 110 (레벨 당 +4%)의 피해를 주고, 방어력이 3초 동안 25 증가합니다.",
@@ -24076,7 +24076,7 @@
           "fullTooltipId": "MedivhTemporalFlux",
           "icon": "storm_ui_icon_medivh_arcanemissile_a.png",
           "shortTooltip": "일반 공격 및 비전 균열 적중 시 궁극기 재사용 대기시간 감소",
-          "fullTooltip": "일반 공격을 할 때마다 궁극기의 재사용 대기시간이 1초 감소합니다. 비전 균열이 적 영웅에게 적중할 때마다 궁극기의 재사용 대기시간이 3초 감소합니다.",
+          "fullTooltip": "일반 공격을 할 때마다 궁극기의 재사용 대기시간이 3% 감소합니다. 비전 균열이 적 영웅에게 적중할 때마다 궁극기의 재사용 대기시간이 -9% 감소합니다.",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -26801,7 +26801,7 @@
           "fullTooltipId": "OrpheaMindDevourer",
           "icon": "storm_ui_icon_orphea_e.png",
           "shortTooltip": "퀘스트: 두려움 공격력 증가 및 재사용 대기시간 감소",
-          "fullTooltip": "퀘스트: 두려움이 적 영웅에게 적중하면 두려움의 공격력이 5 증가하여 최대 200 증가합니다.  보상: 두려움이 적 영웅에게 40회 적중하면 두려움의 폭발이 적 영웅에게 적중할 때마다 재사용 대기시간이 6초로 감소하고 50의 마나를 돌려받습니다.",
+          "fullTooltip": "퀘스트: 두려움이 적 영웅에게 적중하면 두려움의 공격력이 4 증가하여 최대 160 증가합니다.  보상: 두려움이 적 영웅에게 40회 적중하면 두려움의 폭발이 적 영웅에게 적중할 때마다 재사용 대기시간이 6초로 감소하고 50의 마나를 돌려받습니다.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 3,
@@ -29022,9 +29022,9 @@
       "target": "ui_targetportrait_hero_rexxar.png"
     },
     "life": {
-      "amount": 1725.0,
+      "amount": 1810.0,
       "scale": 0.04,
-      "regenRate": 3.5898,
+      "regenRate": 3.7695,
       "regenScale": 0.04
     },
     "energy": {
@@ -29046,14 +29046,14 @@
         "nameId": "RexxarMeleeWeapon",
         "range": 1.5,
         "period": 1.15,
-        "damage": 99.0,
+        "damage": 125.0,
         "damageScale": 0.04
       },
       {
         "nameId": "RexxarRangedWeapon",
         "range": 5.5,
         "period": 1.15,
-        "damage": 99.0,
+        "damage": 125.0,
         "damageScale": 0.04
       }
     ],
@@ -29080,7 +29080,7 @@
           "energyTooltip": "마나: 45",
           "cooldownTooltip": "재사용 대기시간: 10초",
           "shortTooltip": "미샤에게 돌진 명령을 내려 적들에게 피해를 주고 기절시킴",
-          "fullTooltip": "미샤가 일직선상으로 돌진해서 적들에게 59 (레벨 당 +4%)의 피해를 주고 1.25초 동안 기절시킵니다.",
+          "fullTooltip": "미샤가 일직선상으로 돌진해서 적들에게 150 (레벨 당 +4%)의 피해를 주고 1.25초 동안 기절시킵니다.",
           "abilityType": "W"
         },
         {
@@ -29118,7 +29118,7 @@
           "energyTooltip": "마나: 75",
           "cooldownTooltip": "재사용 대기시간: 50초",
           "shortTooltip": "미샤 일반 공격력 증가",
-          "fullTooltip": "미샤의 일반 공격력이 12초 동안 150% 증가합니다.",
+          "fullTooltip": "미샤의 일반 공격력이 12초 동안 200% 증가합니다.",
           "abilityType": "Heroic"
         }
       ],
@@ -29232,7 +29232,7 @@
           "fullTooltipId": "RexxarAspectoftheBeastTalent",
           "icon": "storm_ui_icon_rexxar_mishacharge.png",
           "shortTooltip": "미샤 일반 공격 시 미샤, 돌진! 재사용 대기시간 감소",
-          "fullTooltip": "미샤의 일반 공격이 미샤, 돌진!의 재사용 대기시간을 1.25초 감소시킵니다.",
+          "fullTooltip": "미샤의 일반 공격이 미샤, 돌진!의 재사용 대기시간을 1초 감소시킵니다.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -29278,7 +29278,7 @@
           "energyTooltip": "마나: 75",
           "cooldownTooltip": "재사용 대기시간: 50초",
           "shortTooltip": "미샤 일반 공격력 증가",
-          "fullTooltip": "미샤의 일반 공격력이 12초 동안 150% 증가합니다.",
+          "fullTooltip": "미샤의 일반 공격력이 12초 동안 200% 증가합니다.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -29337,7 +29337,7 @@
           "fullTooltipId": "RexxarDireBeast",
           "icon": "storm_ui_icon_rexxar_mishacharge.png",
           "shortTooltip": "일반 공격 시 미샤, 돌진! 공격력 증가",
-          "fullTooltip": "렉사르와 미샤가 일반 공격을 할 때마다 다음 미샤, 돌진!의 공격력이 40% 증가하여 최대 400% 증가합니다.",
+          "fullTooltip": "렉사르와 미샤가 일반 공격을 할 때마다 다음 미샤, 돌진!의 공격력이 15% 증가하여 최대 150% 증가합니다.",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -29461,7 +29461,7 @@
               "nameId": "MishaWeapon",
               "range": 1.5,
               "period": 1.2,
-              "damage": 62.0,
+              "damage": 50.0,
               "damageScale": 0.04
             }
           ]
@@ -29632,7 +29632,7 @@
           "fullTooltipId": "SamuroWayoftheBlade",
           "icon": "storm_ui_icon_samuro_criticalstrike.png",
           "shortTooltip": "치명타가 더 자주 발동",
-          "fullTooltip": "치명타가 3번째 일반 공격마다 발동합니다.",
+          "fullTooltip": "치명타가 3번째 일반 공격마다 발동합니다. 사무로 자신의 치명타가 적 영웅의 물리 방어력을 2초 동안 10 감소시킵니다.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -29646,7 +29646,7 @@
           "fullTooltipId": "SamuroWayOfTheWind",
           "icon": "storm_ui_icon_samuro_windwalk.png",
           "shortTooltip": "바람 걸음 동안 이동 속도 증가",
-          "fullTooltip": "바람 걸음을 사용하거나 바람 걸음의 은신이 풀리면 이동 속도가 3초 동안 40% 증가합니다.",
+          "fullTooltip": "바람 걸음을 사용하거나 바람 걸음의 은신이 풀리면 이동 속도가 3초 동안 40% 증가합니다. 치명타가 바람걸음의 재사용 대기시간을 1.5초 감소시킵니다.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -30759,7 +30759,7 @@
           "fullTooltipId": "BarbarianGiantSlammer",
           "icon": "storm_ui_icon_sonya_seismicslam.png",
           "shortTooltip": "일반 공격 및 대지 강타가 추가 피해",
-          "fullTooltip": "일반 공격과 대지 강타가 대상 적 영웅의 최대 생명력의 1.25%만큼 추가 피해를 줍니다.",
+          "fullTooltip": "일반 공격과 대지 강타가 대상 적 영웅의 최대 생명력의 1.25%만큼 추가 피해를 주고 그만큼 생명력을 회복합니다.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -34585,7 +34585,7 @@
           "fullTooltipId": "TychusRunAndGunBobAndWeaveTalent",
           "icon": "storm_ui_icon_tychus_runandgun.png",
           "shortTooltip": "달려 쏴 충전 가능 및 마나 소모량 감소",
-          "fullTooltip": "달려 쏴와 오딘의 추진기의 충전 횟수가 2회 증가하고, 달려 쏴의 마나 소모량이 50에서 25으로,로 감소합니다.",
+          "fullTooltip": "일반 공격 사거리가 1.5 증가합니다. 달려 쏴와 오딘의 추진기의 충전 횟수가 2회 증가하고, 달려 쏴의 마나 소모량이 50에서 25으로,로 감소합니다.",
           "abilityType": "E",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -34776,7 +34776,7 @@
           "fullTooltipId": "TyraelArdentRestoration",
           "icon": "storm_ui_icon_talent_regenerationmaster.png",
           "shortTooltip": "영웅 공격 시 생명력 지속 회복",
-          "fullTooltip": "적 영웅에게 피해를 줄 때마다 5초에 걸쳐 15 (레벨 당 +4%)의 생명력을 회복합니다. 이 효과는 적 영웅에게 피해를 줄 때마다 갱신되며 최대 10회 중첩됩니다.",
+          "fullTooltip": "적 영웅에게 피해를 줄 때마다 5초에 걸쳐 18 (레벨 당 +4%)의 생명력을 회복합니다. 이 효과는 적 영웅에게 피해를 줄 때마다 갱신되며 최대 10회 중첩됩니다.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -34817,7 +34817,7 @@
           "fullTooltipId": "TyraelDivineVigor",
           "icon": "storm_ui_icon_tyrael_smite.png",
           "shortTooltip": "강타 적중 시 일반 공격으로 생명력 회복",
-          "fullTooltip": "강타가 적에게 적중하면 다음 4초 동안 일반 공격으로 준 피해의 50%만큼 생명력을 회복합니다.",
+          "fullTooltip": "강타가 적에게 적중하면 다음 4초 동안 일반 공격으로 준 피해의 60%만큼 생명력을 회복합니다.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -34847,7 +34847,7 @@
           "fullTooltipId": "TyraelSmitePurgeEvilTalent",
           "icon": "storm_ui_icon_tyrael_smite.png",
           "shortTooltip": "적 영웅에게 강타 적중 시 일반 공격력 증가",
-          "fullTooltip": "강타가 적중한 적 영웅 하나당 일반 공격력이 4초 동안 45% 증가합니다.",
+          "fullTooltip": "강타가 적중한 적 영웅 하나당 일반 공격력이 4초 동안 55% 증가합니다.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -37540,8 +37540,8 @@
       {
         "nameId": "WhitemaneHeroWeapon",
         "range": 5.5,
-        "period": 0.75,
-        "damage": 45.0,
+        "period": 0.85,
+        "damage": 60.0,
         "damageScale": 0.04
       }
     ],
@@ -37578,7 +37578,7 @@
           "icon": "storm_ui_icon_whitemane_lash.png",
           "cooldownTooltip": "재사용 대기시간: 6초",
           "shortTooltip": "일직선상의 적들에게 피해",
-          "fullTooltip": "0.5초 후, 일직선상의 적들을 강타하여 78 (레벨 당 +4%)의 피해를 줍니다.  첫 번째 타격이 적 영웅에게 적중하면 일정 시간 후 두 번째 타격이 발동합니다.",
+          "fullTooltip": "0.5초 후, 일직선상의 적들을 강타하여 82 (레벨 당 +4%)의 피해를 줍니다.  첫 번째 타격이 적 영웅에게 적중하면 일정 시간 후 두 번째 타격이 발동합니다.",
           "abilityType": "E"
         }
       ],
@@ -37808,7 +37808,7 @@
           "fullTooltipId": "WhitemaneDesperatePleaSelfRighteous",
           "icon": "storm_ui_icon_whitemane_desperation.png",
           "shortTooltip": "절박한 기도가 자신도 치유",
-          "fullTooltip": "아군에게 절박한 기도를 사용하면 자신 또한 125 (레벨 당 +4%)의 생명력을 회복합니다. 열의는 부여하지 않습니다.",
+          "fullTooltip": "아군에게 절박한 기도를 사용하면 자신 또한 135 (레벨 당 +4%)의 생명력을 회복합니다. 열의는 부여하지 않습니다.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -39125,8 +39125,8 @@
           "shortTooltipId": "ZagaraBanelingBarrageBanelingMassacreTalent",
           "fullTooltipId": "ZagaraBanelingBarrageBanelingMassacreTalent",
           "icon": "storm_ui_icon_zagara_banelingbarrage.png",
-          "shortTooltip": "맹독충 수 증가",
-          "fullTooltip": "맹독충의 충전 횟수가 2회 증가합니다.",
+          "shortTooltip": "맹독충 수 및 공격력 증가",
+          "fullTooltip": "맹독충 굴리기의 공격력이 20% 증가하고 충전 횟수가 2회 증가합니다.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -39140,7 +39140,7 @@
           "fullTooltipId": "ZagaraViscousAcid",
           "icon": "storm_ui_icon_zagara_banelingbarrage_a.png",
           "shortTooltip": "맹독충이 적을 느려지게 함",
-          "fullTooltip": "맹독충이 적을 1.5초 동안 20% 느려지게 합니다.",
+          "fullTooltip": "맹독충이 적을 2.5초 동안 25% 느려지게 합니다.",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -39154,7 +39154,7 @@
           "fullTooltipId": "ZagaraInfestedDropBileDropTalent",
           "icon": "storm_ui_icon_zagara_infesteddrop.png",
           "shortTooltip": "퀘스트: 생성되는 최대 애바퀴 수 증가",
-          "fullTooltip": "퀘스트: 감염체 투하의 반경이 20% 증가합니다.  보상: 감염체 투하가 적 영웅에게 15회 이상 적중하면 애바퀴가 추가로 생성됩니다.",
+          "fullTooltip": "퀘스트: 감염체 투하의 반경이 20% 증가합니다.  보상: 감염체 투하가 적 영웅에게 12회 이상 적중하면 애바퀴가 추가로 생성됩니다.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 3,
