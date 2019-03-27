@@ -87,6 +87,7 @@
     "roles": [
       "专业型"
     ],
+    "expandedRole": "支援者",
     "ratings": {
       "complexity": 9.0,
       "damage": 3.0,
@@ -153,7 +154,7 @@
           "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
           "cooldownTooltip": "冷却时间：90秒",
           "shortTooltip": "小兵或蝗虫变为一只强大的畸兽",
-          "fullTooltip": "将友方小兵或蝗虫变成一只畸兽。畸兽附近的敌方小兵或雇佣兵死亡时，它的生命值提高2%，普通攻击伤害提高2%，最多提高40次。畸兽可享受甲壳硬化的治疗效果，并且每80秒可以使用一次潜地，移动到一个可见位置。  阿巴瑟可以对畸兽使用共生体来控制它，并获得共生激素通常的好处。重新使用该技能会自动对畸兽使用共生体。",
+          "fullTooltip": "将友方小兵或蝗虫变成一只畸兽。畸兽附近的敌方小兵或雇佣兵死亡时，它的生命值提高2%，普通攻击伤害提高2%，最多提高40次。畸兽可享受甲壳硬化的治疗效果，并且每80秒可以使用一次潜地，移动到一个可见位置。  阿巴瑟可以对畸兽使用共生体来控制它，并获得共生体通常的好处。重新使用该技能会自动对畸兽使用共生体。",
           "abilityType": "Heroic"
         }
       ],
@@ -358,7 +359,7 @@
           "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
           "cooldownTooltip": "冷却时间：90秒",
           "shortTooltip": "小兵或蝗虫变为一只强大的畸兽",
-          "fullTooltip": "将友方小兵或蝗虫变成一只畸兽。畸兽附近的敌方小兵或雇佣兵死亡时，它的生命值提高2%，普通攻击伤害提高2%，最多提高40次。畸兽可享受甲壳硬化的治疗效果，并且每80秒可以使用一次潜地，移动到一个可见位置。  阿巴瑟可以对畸兽使用共生体来控制它，并获得共生激素通常的好处。重新使用该技能会自动对畸兽使用共生体。",
+          "fullTooltip": "将友方小兵或蝗虫变成一只畸兽。畸兽附近的敌方小兵或雇佣兵死亡时，它的生命值提高2%，普通攻击伤害提高2%，最多提高40次。畸兽可享受甲壳硬化的治疗效果，并且每80秒可以使用一次潜地，移动到一个可见位置。  阿巴瑟可以对畸兽使用共生体来控制它，并获得共生体通常的好处。重新使用该技能会自动对畸兽使用共生体。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -638,6 +639,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "近战刺客",
     "ratings": {
       "complexity": 8.0,
       "damage": 7.0,
@@ -1099,8 +1101,9 @@
       "regenRate": 3.0
     },
     "roles": [
-      "辅助型"
+      "支援者"
     ],
+    "expandedRole": "治疗者",
     "ratings": {
       "complexity": 6.0,
       "damage": 3.0,
@@ -1190,7 +1193,7 @@
           "icon": "storm_ui_icon_alexstrasza_dragon_queen.png",
           "cooldownTooltip": "冷却时间：150秒",
           "shortTooltip": "变身成守护巨龙，拥有强化技能",
-          "fullTooltip": "1.25秒后变身成巨龙，生命值提高500 (每级 +4%)点。  红龙女王激活时，阿莱克丝塔萨的基本技能获得强化，普通攻击的范围变为前方弧形，造成143 (每级 +4%)点伤害，并为友方英雄治疗43 (每级 +4%)点生命值，受到的昏迷、定身、减速和致盲效果持续时间缩短50%。  持续15秒。",
+          "fullTooltip": "1.25秒后变身成巨龙，生命值提高500 (每级 +4%)点。  红龙女王激活时，阿莱克丝塔萨的基本技能获得强化，普通攻击的范围变为前方弧形，造成143 (每级 +4%)点伤害，并为友方英雄治疗43 (每级 +4%)点生命值，受到的昏迷、定身和减速效果持续时间缩短50%。  持续15秒。",
           "abilityType": "Trait"
         }
       ]
@@ -1643,8 +1646,9 @@
       "regenRate": 3.0
     },
     "roles": [
-      "辅助型"
+      "支援者"
     ],
+    "expandedRole": "治疗者",
     "ratings": {
       "complexity": 6.0,
       "damage": 3.0,
@@ -1733,7 +1737,7 @@
           "fullTooltipId": "AnaTraitShrikeSniper",
           "icon": "storm_ui_icon_ana_shrike.png",
           "shortTooltip": "强化普通攻击、治疗镖和麻醉镖",
-          "fullTooltip": "普通攻击对敌人施加一层药剂，在5秒内持续造成40 (每级 +4%)点伤害，最多叠加5层。安娜每0.5秒受到一次治疗，数值相当于伯劳鸟造成伤害的50%。  观瞄视界  可激活伯劳鸟来使治疗镖和麻醉镖的射程提高25%，并允许它们穿透一名敌方英雄，代价是移动速度降低25%。持续直到取消。",
+          "fullTooltip": "普通攻击对敌人施加一层药剂，在5秒内持续造成40 (每级 +4%)点伤害，最多叠加5层。安娜每0.5秒受到一次治疗，数值相当于伯劳鸟造成伤害的50%。  观瞄视界  激活伯劳鸟会使你的移动速度降低25%，但治疗镖和麻醉镖的射程提高25%，并且允许它们穿透一名英雄。持续直到取消为止。",
           "abilityType": "Trait"
         }
       ]
@@ -1942,7 +1946,7 @@
           "shortTooltipId": "AnaHealingDartSmellingSalts",
           "fullTooltipId": "AnaHealingDartSmellingSalts",
           "icon": "storm_ui_icon_ana_healing_dart_b.png",
-          "shortTooltip": "嗅盐可移除昏迷效果",
+          "shortTooltip": "治疗镖可移除昏迷效果",
           "fullTooltip": "治疗镖可解除目标的昏迷效果，并且成功解除时使其获得50点护甲，持续2秒。",
           "abilityType": "Q",
           "sort": 3,
@@ -2101,6 +2105,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "坦克",
     "ratings": {
       "complexity": 5.0,
       "damage": 4.0,
@@ -2550,6 +2555,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "斗士",
     "ratings": {
       "complexity": 5.0,
       "damage": 6.0,
@@ -3046,6 +3052,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "坦克",
     "ratings": {
       "complexity": 4.0,
       "damage": 6.0,
@@ -3496,8 +3503,9 @@
       "regenRate": 0.0
     },
     "roles": [
-      "辅助型"
+      "支援者"
     ],
+    "expandedRole": "治疗者",
     "ratings": {
       "complexity": 8.0,
       "damage": 3.0,
@@ -3964,6 +3972,7 @@
     "roles": [
       "专业型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 5.0,
       "damage": 3.0,
@@ -4067,7 +4076,7 @@
           "fullTooltipId": "AzmodanGreed",
           "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
           "shortTooltip": "提高湮灭之球对非英雄目标的伤害 任务：提高燃尽万物的射程",
-          "fullTooltip": "湮灭之球对非英雄目标造成的伤害提高%。  任务：在获得层湮灭后，燃尽万物的射程提高%，并且恶魔战士获得%的攻击速度和移动速度加成。",
+          "fullTooltip": "湮灭之球对非英雄目标造成的伤害提高20%。  任务：在获得200层湮灭后，燃尽万物的射程提高25%，并且恶魔战士获得20%的攻击速度和移动速度加成。",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -4428,6 +4437,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "坦克",
     "ratings": {
       "complexity": 7.0,
       "damage": 6.0,
@@ -4899,8 +4909,9 @@
       "regenRate": 3.0
     },
     "roles": [
-      "辅助型"
+      "支援者"
     ],
+    "expandedRole": "治疗者",
     "ratings": {
       "complexity": 7.0,
       "damage": 4.0,
@@ -5141,7 +5152,10 @@
           "shortTooltip": "激活抚慰之雾的治疗",
           "fullTooltip": "如果抚慰之雾从盟友身上移除了一个限制效果，则为其治疗250 (每级 +4%)点生命值。",
           "abilityType": "Trait",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "BrightwingCalmingMist"
+          ]
         }
       ],
       "level10": [
@@ -5379,6 +5393,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 4.0,
       "damage": 7.0,
@@ -5831,6 +5846,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "斗士",
     "ratings": {
       "complexity": 6.0,
       "damage": 3.0,
@@ -6429,6 +6445,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "坦克",
     "ratings": {
       "complexity": 7.0,
       "damage": 6.0,
@@ -6869,6 +6886,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 5.0,
       "damage": 9.0,
@@ -6892,10 +6910,10 @@
           "shortTooltipId": "ChromieSandBlast",
           "fullTooltipId": "ChromieSandBlast",
           "icon": "storm_ui_icon_Chromie_AetherCannon.png",
-          "energyTooltip": "法力值：15",
-          "cooldownTooltip": "冷却时间：2.5秒",
+          "energyTooltip": "法力值：20",
+          "cooldownTooltip": "冷却时间：3秒",
           "shortTooltip": "射出远距离冲击对一名敌人造成伤害",
-          "fullTooltip": "0.8秒后，发射一道飞弹对击中的第一个敌方英雄造成315 (每级 +4%)点伤害。  任务：使用沙尘爆裂击中50名英雄。连续的沙尘爆裂命中算作击中2名英雄。  奖励：击中50个英雄后，施放沙尘爆裂会留下一个回响。下一次施放沙尘爆裂时，回响也会施放一个未受天赋强化的沙尘爆裂，造成40%伤害。",
+          "fullTooltip": "0.5秒后发射一个飞弹，对击中的第一个敌方英雄造成280 (每级 +4%)点伤害。对建筑造成50%的伤害。  施放沙尘爆裂会留下一个回响，它会模仿克罗米使用沙尘爆裂和普通攻击，造成50% 的伤害。同时最多可以拥有1个回响。",
           "abilityType": "Q"
         },
         {
@@ -6904,10 +6922,10 @@
           "shortTooltipId": "ChromieDragonsBreath",
           "fullTooltipId": "ChromieDragonsBreath",
           "icon": "storm_ui_icon_Chromie_SandStrike.png",
-          "energyTooltip": "法力值：50",
-          "cooldownTooltip": "冷却时间：8秒",
-          "shortTooltip": "对范围内的敌人造成伤害",
-          "fullTooltip": "向空中射出冲击法术并在1.5秒后着陆，对范围内的敌人造成390 (每级 +4%)点伤害。",
+          "energyTooltip": "法力值：75",
+          "cooldownTooltip": "冷却时间：15秒",
+          "shortTooltip": "连续轰击一个区域",
+          "fullTooltip": "选择方向 向空中发射3道冲击波，每隔0.75秒轰击一次目标区域，每次造成195 (每级 +4%)点伤害。",
           "abilityType": "W"
         },
         {
@@ -6916,17 +6934,17 @@
           "shortTooltipId": "ChromieTimeTrap",
           "fullTooltipId": "ChromieTimeTrap",
           "icon": "storm_ui_icon_Chromie_TimeTrap.png",
-          "energyTooltip": "法力值：25",
+          "energyTooltip": "法力值：30",
           "charges": {
             "countMax": 1,
             "countUse": 1,
             "countStart": 1,
             "hideCount": true,
-            "recastCooldown": 0.0625
+            "recastCooldown": 1.0
           },
-          "cooldownTooltip": "冷却时间：18秒",
-          "shortTooltip": "放置一个陷阱使敌人时间停止",
-          "fullTooltip": "放置一个时间陷阱，在2秒后激活并潜行。 第一个接触到陷阱的敌方英雄会进入时间停止状态，持续2秒。同一时间只能激活1个陷阱。",
+          "cooldownTooltip": "冷却时间：15秒",
+          "shortTooltip": "放置一个陷阱使敌方英雄时间停止",
+          "fullTooltip": "放置一个时间陷阱，它会在2秒后设置完成并进入隐形。克罗米可以激活特质来引爆陷阱，让其周围的所有友方和敌方英雄陷入时停，持续2秒。同一时间最多拥有1个激活的陷阱。",
           "abilityType": "E"
         }
       ],
@@ -6941,7 +6959,7 @@
           "energyTooltip": "法力值：每秒4",
           "cooldownTooltip": "冷却时间：5秒",
           "shortTooltip": "制造一个减速区域",
-          "fullTooltip": "放置一个沙尘漩涡使范围内敌人的移动速度被大幅降低。激活时间越久，减速效果越强，3秒后达到最大值60%。",
+          "fullTooltip": "召唤一个沙尘漩涡，使敌人的移动速度每0.25秒降低5%，最多达到70%。",
           "abilityType": "Heroic"
         },
         {
@@ -6951,9 +6969,9 @@
           "fullTooltipId": "ChromieTemporalLoop",
           "icon": "storm_ui_icon_Chromie_Looper.png",
           "energyTooltip": "法力值：60",
-          "cooldownTooltip": "冷却时间：70秒",
+          "cooldownTooltip": "冷却时间：50秒",
           "shortTooltip": "将一名敌方英雄传送回先前位置",
-          "fullTooltip": "选择一名敌方英雄，3秒后，他们将会传送回克罗米对其施放时光循环的位置。",
+          "fullTooltip": "选择一名敌方英雄。在3秒后，将其传送回时光循环对其施放时的位置。  在时光循环施放后的3秒内，克罗米的基本技能冷却速度提高500%。",
           "abilityType": "Heroic"
         }
       ],
@@ -6965,7 +6983,7 @@
           "fullTooltipId": "ChromieTimewalkerTrait",
           "icon": "storm_ui_icon_Chromie_TimeTraveler.png",
           "shortTooltip": "比其他人更早获得天赋",
-          "fullTooltip": "克罗米可以穿越到未来，因此她将比队友提前2级学到天赋！  青铜龙爪  基本技能命中敌方英雄可以使克罗米的下一次普通攻击伤害提高140%。",
+          "fullTooltip": "克罗米可以穿越到未来，因此她将比队友提前2级学到天赋！  引爆时间陷阱  引爆所有激活的时间陷阱。",
           "abilityType": "Trait"
         }
       ]
@@ -6973,14 +6991,15 @@
     "talents": {
       "level1": [
         {
-          "nameId": "ChromieSandBlastMountingSand",
-          "name": "聚沙成山",
-          "shortTooltipId": "ChromieSandBlastMountingSand",
-          "fullTooltipId": "ChromieSandBlastMountingSand",
+          "nameId": "ChromieSandBlastOnceAgainTheFirstTime",
+          "name": "又一次的第一次",
+          "shortTooltipId": "ChromieSandBlastOnceAgaintheFirstTime",
+          "fullTooltipId": "ChromieSandBlastOnceAgaintheFirstTime",
           "icon": "storm_ui_icon_Chromie_AetherCannon.png",
-          "shortTooltip": "提高沙尘爆裂连续命中的加成效果",
-          "fullTooltip": "回响施放的沙尘爆裂伤害提高50%。若沙尘爆裂连续命中3次以上且不落空，则每次视为击中3名英雄。",
+          "shortTooltip": "任务：沙尘爆裂额外获得一个回响",
+          "fullTooltip": "任务：用沙尘爆裂击中英雄40次。  奖励：回响的最大激活数提高至2个。",
           "abilityType": "Q",
+          "isQuest": true,
           "sort": 1,
           "abilityTalentLinkIds": [
             "ChromieSandBlast"
@@ -6993,7 +7012,7 @@
           "fullTooltipId": "ChromieDragonsBreathDeepBreathing",
           "icon": "storm_ui_icon_Chromie_SandStrike.png",
           "shortTooltip": "任务：击中英雄可以强化青铜龙息",
-          "fullTooltip": "任务：青铜龙息每次击中英雄使其伤害提高5点，最多提高60点。  奖励：击中12名英雄：伤害额外提高140点，并且克罗米的视野半径扩大100%。",
+          "fullTooltip": "任务：青铜龙息每次击中英雄使其伤害提高2点，最多提高50点。  奖励：击中25名英雄：伤害额外提高50点，并且克罗米的视野半径扩大100%。",
           "abilityType": "W",
           "isQuest": true,
           "sort": 2,
@@ -7021,42 +7040,41 @@
       ],
       "level4": [
         {
-          "nameId": "ChromieDraconicBarrage",
-          "name": "龙爪狂怒",
-          "shortTooltipId": "ChromieDraconicBarrage",
-          "fullTooltipId": "ChromieDraconicBarrage",
-          "icon": "storm_ui_icon_chromie_aethercannon.png",
-          "shortTooltip": "强化额外的普通攻击次数",
-          "fullTooltip": "使青铜龙爪的伤害额外提高100%。使用沙尘爆裂击中敌方英雄使克罗米的下2次普通攻击获得青铜龙爪的效果。",
-          "abilityType": "Q",
+          "nameId": "ChromieTimeTrapChronicConditions",
+          "name": "时停症状",
+          "shortTooltipId": "ChromieTimeTrapChronicConditions",
+          "fullTooltipId": "ChromieTimeTrapChronicConditions",
+          "icon": "storm_ui_icon_Chromie_TimeTrap.png",
+          "shortTooltip": "时间陷阱影响敌人和盟友的移动速度",
+          "fullTooltip": "在时停结束后，受到时间陷阱影响的敌人移动速度降低25%，持续3秒，受影响的盟友则移动速度提高25%，持续3秒。",
+          "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "ChromieSandBlast",
-            "ChromieTimewalkerTrait"
+            "ChromieTimeTrap"
           ]
         },
         {
-          "nameId": "ChromieDragonsBreathEnvelopingAssault",
-          "name": "包围突袭",
-          "shortTooltipId": "ChromieDragonsBreathEnvelopingAssault",
-          "fullTooltipId": "ChromieDragonsBreathEnvelopingAssault",
-          "icon": "storm_ui_icon_Chromie_SandStrike.png",
-          "shortTooltip": "扩大青铜龙息的伤害范围",
-          "fullTooltip": "青铜龙息的伤害范围扩大25%。",
-          "abilityType": "W",
+          "nameId": "ChromieTimeTrapTimeTroubles",
+          "name": "时间问题",
+          "shortTooltipId": "ChromieTimeTrapTimeTroubles",
+          "fullTooltipId": "ChromieTimeTrapTimeTroubles",
+          "icon": "storm_ui_icon_Chromie_TimeTrap_A.png",
+          "shortTooltip": "时间陷阱影响敌人和盟友的护甲",
+          "fullTooltip": "在时停结束后，受到时间陷阱影响的敌人护甲降低20点，持续3秒，受影响的盟友护甲提高20点，持续3秒。",
+          "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChromieDragonsBreath"
+            "ChromieTimeTrap"
           ]
         },
         {
-          "nameId": "ChromieTimeTrapTimelySurprise",
-          "name": "及时惊喜",
-          "shortTooltipId": "ChromieTimeTrapTimelySurprise",
-          "fullTooltipId": "ChromieTimeTrapTimelySurprise",
-          "icon": "storm_ui_icon_Chromie_TimeTrap.png",
-          "shortTooltip": "时间陷阱重置基本技能",
-          "fullTooltip": "时间陷阱的施法范围扩大33%。当时间陷阱被触发后重置沙尘爆裂和青铜龙息的冷却时间。",
+          "nameId": "ChromieTimeTrapAndorhalAnomaly",
+          "name": "安多哈尔异动",
+          "shortTooltipId": "ChromieTimeTrapAndorhalAnomaly",
+          "fullTooltipId": "ChromieTimeTrapAndorhalAnomaly",
+          "icon": "storm_ui_icon_Chromie_TimeTrap_B.png",
+          "shortTooltip": "增加时间陷阱的使用次数，缩短冷却时间",
+          "fullTooltip": "时间陷阱的使用次数和最大激活数提高至3个，并且冷却时间缩短5秒。",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -7066,27 +7084,27 @@
       ],
       "level7": [
         {
+          "nameId": "ChromieSandBlastBronzeTalons",
+          "name": "青铜龙爪",
+          "shortTooltipId": "ChromieSandBlastBronzeTalons",
+          "fullTooltipId": "ChromieSandBlastBronzeTalons",
+          "icon": "storm_ui_icon_Chromie_AetherCannon.png",
+          "shortTooltip": "沙尘爆裂强化普通攻击",
+          "fullTooltip": "使用沙尘爆裂击中英雄可以使普通攻击的伤害提高30%，持续5秒。",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "ChromieSandBlast"
+          ]
+        },
+        {
           "nameId": "ChromieDragonsBreathMobiusLoop",
           "name": "莫比乌斯回路",
           "shortTooltipId": "ChromieDragonsBreathMobiusLoop",
           "fullTooltipId": "ChromieDragonsBreathMobiusLoop",
           "icon": "storm_ui_icon_Chromie_SandStrike.png",
           "shortTooltip": "击中英雄降低青铜龙息的冷却时间",
-          "fullTooltip": "如果青铜龙息击中一名英雄，其冷却时间缩短3秒，并恢复100点法力值。",
-          "abilityType": "W",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "ChromieDragonsBreath"
-          ]
-        },
-        {
-          "nameId": "ChromieDragonsBreathDragonsEye",
-          "name": "巨龙之眼",
-          "shortTooltipId": "ChromieDragonsBreathDragonsEye",
-          "fullTooltipId": "ChromieDragonsBreathDragonsEye",
-          "icon": "storm_ui_icon_chromie_SandStrike_a.png",
-          "shortTooltip": "提高青铜龙息的中心伤害",
-          "fullTooltip": "青铜龙息对中心的敌人造成25%的额外伤害。",
+          "fullTooltip": "使用青铜龙息击中英雄可以使该技能的冷却时间减少1.5秒，并恢复40点法力值。",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -7094,17 +7112,17 @@
           ]
         },
         {
-          "nameId": "ChromieTimeTrapChronoSickness",
-          "name": "时光疾病",
-          "shortTooltipId": "ChromieTimeTrapChronoSickness",
-          "fullTooltipId": "ChromieTimeTrapChronoSickness",
-          "icon": "storm_ui_icon_Chromie_TimeTrap.png",
-          "shortTooltip": "降低时间陷阱的冷却时间和法力消耗，并增加减速效果",
-          "fullTooltip": "时间陷阱的冷却时间和法力消耗降低50%。时间停止效果结束后，敌人将被减速35%，持续4秒。",
-          "abilityType": "E",
+          "nameId": "ChromieAProperGreeting",
+          "name": "亲切问候",
+          "shortTooltipId": "ChromieAProperGreeting",
+          "fullTooltipId": "ChromieAProperGreeting",
+          "icon": "storm_ui_icon_talent_abilitytalent_damage.png",
+          "shortTooltip": "对被控制的英雄造成伤害以提高伤害",
+          "fullTooltip": "对陷入昏迷、定身和减速的敌方英雄造成伤害后，获得25%的伤害加成，持续5秒。",
+          "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChromieTimeTrap"
+            "ChromieTimewalkerTrait"
           ]
         }
       ],
@@ -7119,7 +7137,7 @@
           "energyTooltip": "法力值：每秒4",
           "cooldownTooltip": "冷却时间：5秒",
           "shortTooltip": "制造一个减速区域",
-          "fullTooltip": "放置一个沙尘漩涡使范围内敌人的移动速度被大幅降低。激活时间越久，减速效果越强，3秒后达到最大值60%。",
+          "fullTooltip": "召唤一个沙尘漩涡，使敌人的移动速度每0.25秒降低5%，最多达到70%。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -7134,9 +7152,9 @@
           "fullTooltipId": "ChromieTemporalLoop",
           "icon": "storm_ui_icon_Chromie_Looper.png",
           "energyTooltip": "法力值：60",
-          "cooldownTooltip": "冷却时间：70秒",
+          "cooldownTooltip": "冷却时间：50秒",
           "shortTooltip": "将一名敌方英雄传送回先前位置",
-          "fullTooltip": "选择一名敌方英雄，3秒后，他们将会传送回克罗米对其施放时光循环的位置。",
+          "fullTooltip": "选择一名敌方英雄。在3秒后，将其传送回时光循环对其施放时的位置。  在时光循环施放后的3秒内，克罗米的基本技能冷却速度提高500%。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -7147,15 +7165,18 @@
       ],
       "level13": [
         {
-          "nameId": "ChromieHearthstoneByeBye",
-          "name": "后会有期！",
-          "shortTooltipId": "ChromieHearthstoneByeBye",
-          "fullTooltipId": "ChromieHearthstoneByeBye",
-          "icon": "storm_ui_icon_Chromie_Poof.png",
-          "shortTooltip": "缩短炉石的施法时间",
-          "fullTooltip": "炉石的施法时间缩短75%，并且不会因为受到伤害而被打断。",
-          "abilityType": "Active",
-          "sort": 1
+          "nameId": "ChromieSandBlastGnomeSpeedAhead",
+          "name": "进击的侏儒",
+          "shortTooltipId": "ChromieSandBlastGnomeSpeedAhead",
+          "fullTooltipId": "ChromieSandBlastGnomeSpeedAhead",
+          "icon": "storm_ui_icon_Chromie_AetherCannon.png",
+          "shortTooltip": "沙尘爆裂提高移动速度和恢复速度",
+          "fullTooltip": "施放沙尘爆裂后，克罗米的移动速度提高20%，生命与法力恢复速度提高200%，持续3秒。",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "ChromieSandBlast"
+          ]
         },
         {
           "nameId": "ChromieHereAndThere",
@@ -7164,8 +7185,8 @@
           "fullTooltipId": "ChromieHereAndThere",
           "icon": "storm_ui_icon_chromie_herethere.png",
           "cooldownTooltip": "冷却时间：30秒",
-          "shortTooltip": "激活后与沙尘爆裂回响交换位置",
-          "fullTooltip": "激活后使克罗米和她的沙尘爆裂回响交换位置。",
+          "shortTooltip": "激活后与一个回响交换位置",
+          "fullTooltip": "激活后使克罗米传送到一个回响附近的位置，并使回响与克罗米交换位置。",
           "abilityType": "Active",
           "isActive": true,
           "sort": 2
@@ -7193,7 +7214,7 @@
           "fullTooltipId": "ChromieSandBlastShiftingSands",
           "icon": "storm_ui_icon_Chromie_AetherCannon.png",
           "shortTooltip": "沙尘爆裂给予法术强度",
-          "fullTooltip": "用沙尘爆裂击中敌方英雄给予8%的法术强度，持续10秒，最多提高40%。使用沙尘爆裂对敌方英雄造成伤害时会刷新持续时间。",
+          "fullTooltip": "用沙尘爆裂击中敌方英雄给予8%的法术强度，持续10秒，最多提高40%。本体使用沙尘爆裂对敌方英雄造成伤害时，会刷新该效果的持续时间。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -7230,13 +7251,13 @@
       ],
       "level20": [
         {
-          "nameId": "ChromieSlowingSandsPocketOfTime",
-          "name": "掌控时间",
-          "shortTooltipId": "ChromieSlowingSandsPocketOfTime",
-          "fullTooltipId": "ChromieSlowingSandsPocketOfTime",
+          "nameId": "ChromieSlowingSandsUnravelling",
+          "name": "时光瓦解",
+          "shortTooltipId": "ChromieSlowingSandsUnravelling",
+          "fullTooltipId": "ChromieSlowingSandsUnravelling",
           "icon": "storm_ui_icon_Chromie_TimeWarp.png",
-          "shortTooltip": "移除减速沙尘的法力消耗并提高减速效果",
-          "fullTooltip": "移除减速沙尘的法力消耗，并使减速效果从60%提高至80%。",
+          "shortTooltip": "减速沙尘可降低法术护甲",
+          "fullTooltip": "受到减速沙尘影响的敌方英雄每0.25秒降低2点法术护甲，最多降低30点。",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -7250,7 +7271,7 @@
           "fullTooltipId": "ChromieTemporalLoopStuckInALoop",
           "icon": "storm_ui_icon_Chromie_Looper.png",
           "shortTooltip": "时光循环传送两次",
-          "fullTooltip": "时光循环让目标第一次被传送后再被传送一次。",
+          "fullTooltip": "时光循环会使目标在首次传送后再传送一次，并且基本技能还需要再额外冷却3秒。",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -7264,7 +7285,7 @@
           "fullTooltipId": "ChromieSandBlastPiercingSands",
           "icon": "storm_ui_icon_Chromie_AetherCannon.png",
           "shortTooltip": "沙尘爆裂可穿透目标",
-          "fullTooltip": "沙尘爆裂现在会击中路径上的所有英雄。额外的命中不提供任务进度。",
+          "fullTooltip": "沙尘爆裂现在会穿透击中的所有敌人。",
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -7272,17 +7293,17 @@
           ]
         },
         {
-          "nameId": "ChromieTimeTrapAndorhalAnomaly",
-          "name": "安多哈尔异动",
-          "shortTooltipId": "ChromieTimeTrapAndorhalAnomaly",
-          "fullTooltipId": "ChromieTimeTrapAndorhalAnomaly",
-          "icon": "storm_ui_icon_Chromie_TimeTrap.png",
-          "shortTooltip": "增加时间陷阱的使用次数",
-          "fullTooltip": "时间陷阱获得2次使用次数，并且冷却时间结束时，克罗米立刻获得全部使用次数。最多激活3个陷阱。",
-          "abilityType": "E",
+          "nameId": "ChromieBlessingOfTheBronze",
+          "name": "青铜龙的祝福",
+          "shortTooltipId": "ChromieBlessingOfTheBronze",
+          "fullTooltipId": "ChromieBlessingOfTheBronze",
+          "icon": "storm_ui_icon_chromie_blessing_of_the_bronze.png",
+          "shortTooltip": "提高盟友的移动速度，缩短冷却时间",
+          "fullTooltip": "只要克罗米存活，她和所有友方英雄就能提高10%的移动速度，并且基本技能的冷却速度加快30%。",
+          "abilityType": "Passive",
           "sort": 4,
           "abilityTalentLinkIds": [
-            "ChromieTimeTrap"
+            "ChromieTimewalkerTrait"
           ]
         }
       ]
@@ -7334,8 +7355,9 @@
       "regenRate": 3.0
     },
     "roles": [
-      "辅助型"
+      "支援者"
     ],
+    "expandedRole": "治疗者",
     "ratings": {
       "complexity": 5.0,
       "damage": 3.0,
@@ -7805,6 +7827,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "斗士",
     "ratings": {
       "complexity": 7.0,
       "damage": 6.0,
@@ -7899,7 +7922,7 @@
           },
           "cooldownTooltip": "冷却时间：5秒",
           "shortTooltip": "收集并消耗敌人的精华用来治疗自己",
-          "fullTooltip": "击杀英雄获得10个精华，附近有敌方小兵被消灭时获得2个精华。激活后消耗所有精华，每个精华在5秒内为德哈卡恢复29 (每级 +4%)点生命值。最多50个精华。可以在拖拽和潜地时使用。",
+          "fullTooltip": "储存的每个精华可以在5秒内为德哈卡恢复29 (每级 +4%)点生命值。可以在拖拽和潜地时使用。  被动：击杀英雄获得10个精华，附近有敌方小兵被消灭时获得2个精华。最多储存50个精华。",
           "abilityType": "Trait"
         }
       ],
@@ -8285,6 +8308,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "坦克",
     "ratings": {
       "complexity": 5.0,
       "damage": 5.0,
@@ -8750,6 +8774,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "斗士",
     "ratings": {
       "complexity": 6.0,
       "damage": 4.0,
@@ -8803,7 +8828,7 @@
             "hideCount": true
           },
           "shortTooltip": "从机甲中弹射脱离，并将其设为自毁，造成巨大伤害",
-          "fullTooltip": "从机甲中弹射脱离，并将其设定为4秒后自毁。对一片大区域造成400 (每级 +4%)到1200 (每级 +4%)点伤害，数值受距离中心点的距离影响。只对建筑造成50%的伤害。  每花2秒时间在普通攻击上，获得1%充能；每损失100%机甲生命值，获得30%充能。",
+          "fullTooltip": "从机甲中弹射脱离，并将其设定为4秒后自毁。对一片大区域造成1200 (每级 +4%)到400 (每级 +4%)点伤害，数值受距离中心点的距离影响。只对建筑造成50%的伤害。  每花2秒时间在普通攻击上，获得1%充能；每损失100%机甲生命值，获得30%充能。",
           "abilityType": "E"
         }
       ],
@@ -9340,6 +9365,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "坦克",
     "ratings": {
       "complexity": 3.0,
       "damage": 4.0,
@@ -9810,6 +9836,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 5.0,
       "damage": 8.0,
@@ -10271,6 +10298,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 5.0,
       "damage": 9.0,
@@ -10726,6 +10754,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 3.0,
       "damage": 9.0,
@@ -11200,6 +11229,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "坦克",
     "ratings": {
       "complexity": 6.0,
       "damage": 3.0,
@@ -11689,6 +11719,7 @@
     "roles": [
       "专业型"
     ],
+    "expandedRole": "近战刺客",
     "ratings": {
       "complexity": 6.0,
       "damage": 5.0,
@@ -12195,6 +12226,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 6.0,
       "damage": 8.0,
@@ -12682,6 +12714,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 7.0,
       "damage": 9.0,
@@ -13190,6 +13223,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 6.0,
       "damage": 8.0,
@@ -13653,6 +13687,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 6.0,
       "damage": 8.0,
@@ -14119,6 +14154,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "近战刺客",
     "ratings": {
       "complexity": 8.0,
       "damage": 8.0,
@@ -14572,6 +14608,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "斗士",
     "ratings": {
       "complexity": 6.0,
       "damage": 6.0,
@@ -15028,6 +15065,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 4.0,
       "damage": 10.0,
@@ -15500,6 +15538,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "坦克",
     "ratings": {
       "complexity": 4.0,
       "damage": 3.0,
@@ -15945,6 +15984,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 6.0,
       "damage": 7.0,
@@ -16011,7 +16051,7 @@
           "icon": "storm_ui_icon_junkrat_rip_tire.png",
           "cooldownTooltip": "冷却时间：80秒",
           "shortTooltip": "制造一个装有摩托引擎的炸弹",
-          "fullTooltip": "制造一个装有摩托引擎的炸弹，炸弹具有530 (每级 +4%)点生命值，可持续15秒。激活时，狂鼠无法移动，但可以操纵炸弹轮胎的移动。  再次激活炸弹轮胎可立刻引爆，击退附近的敌人，并对距离爆炸中心点不同范围的敌人造成475 (每级 +4%), 625 (每级 +4%), 或775 (每级 +4%)点伤害（距离中心点越近，伤害越高）。",
+          "fullTooltip": "制造一个装有摩托引擎的炸弹，炸弹具有530 (每级 +4%)点生命值，可持续15秒。激活时，狂鼠无法移动，但可以操纵炸弹轮胎的移动。  再次激活炸弹轮胎可立刻引爆，击退附近的敌人，并对靠近爆炸中心点的敌人造成775 (每级 +4%)点伤害，对靠近边缘的敌人造成的伤害会逐渐降低至475 (每级 +4%)点。",
           "abilityType": "Heroic"
         },
         {
@@ -16184,7 +16224,7 @@
           "icon": "storm_ui_icon_junkrat_rip_tire.png",
           "cooldownTooltip": "冷却时间：80秒",
           "shortTooltip": "制造一个装有摩托引擎的炸弹",
-          "fullTooltip": "制造一个装有摩托引擎的炸弹，炸弹具有530 (每级 +4%)点生命值，可持续15秒。激活时，狂鼠无法移动，但可以操纵炸弹轮胎的移动。  再次激活炸弹轮胎可立刻引爆，击退附近的敌人，并对距离爆炸中心点不同范围的敌人造成475 (每级 +4%), 625 (每级 +4%), 或775 (每级 +4%)点伤害（距离中心点越近，伤害越高）。",
+          "fullTooltip": "制造一个装有摩托引擎的炸弹，炸弹具有530 (每级 +4%)点生命值，可持续15秒。激活时，狂鼠无法移动，但可以操纵炸弹轮胎的移动。  再次激活炸弹轮胎可立刻引爆，击退附近的敌人，并对靠近爆炸中心点的敌人造成775 (每级 +4%)点伤害，对靠近边缘的敌人造成的伤害会逐渐降低至475 (每级 +4%)点。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -16405,6 +16445,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 7.0,
       "damage": 9.0,
@@ -16868,6 +16909,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 7.0,
       "damage": 8.0,
@@ -17342,6 +17384,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "近战刺客",
     "ratings": {
       "complexity": 6.0,
       "damage": 8.0,
@@ -17797,8 +17840,9 @@
       "regenRate": 3.0
     },
     "roles": [
-      "辅助型"
+      "支援者"
     ],
+    "expandedRole": "治疗者",
     "ratings": {
       "complexity": 4.0,
       "damage": 4.0,
@@ -18279,6 +18323,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "斗士",
     "ratings": {
       "complexity": 6.0,
       "damage": 4.0,
@@ -18774,8 +18819,9 @@
       "regenRate": 3.0
     },
     "roles": [
-      "辅助型"
+      "支援者"
     ],
+    "expandedRole": "治疗者",
     "ratings": {
       "complexity": 3.0,
       "damage": 3.0,
@@ -19119,7 +19165,7 @@
           "fullTooltipId": "LiLiBlessingsOfYulon",
           "icon": "storm_ui_icon_Lili_CloudSerpent.png",
           "shortTooltip": "提高云端翔龙的治疗",
-          "fullTooltip": "云端翔龙每次进攻时将为携带者恢复其1%的最大生命值。",
+          "fullTooltip": "云端翔龙每次进攻时将为携带者额外恢复其1%的最大生命值。",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -19233,6 +19279,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 7.0,
       "damage": 10.0,
@@ -19698,6 +19745,7 @@
     "roles": [
       "专业型"
     ],
+    "expandedRole": "支援者",
     "ratings": {
       "complexity": 10.0,
       "damage": 7.0,
@@ -20354,8 +20402,9 @@
       "regenRate": 0.0
     },
     "roles": [
-      "辅助型"
+      "支援者"
     ],
+    "expandedRole": "治疗者",
     "ratings": {
       "complexity": 5.0,
       "damage": 3.0,
@@ -20779,7 +20828,7 @@
     "speed": 4.3984,
     "type": "远程",
     "rarity": "Legendary",
-    "mountLinkId": "LucioSkateMode",
+    "mountLinkId": "LucioWallRide",
     "hearthLinkId": "Hearthstone",
     "searchText": "卢西奥 人类，守望先锋",
     "description": "一位能为全队提供机动能力，并让敌人难以靠近队友的持续治疗者。",
@@ -20810,8 +20859,9 @@
       "regenRate": 3.0
     },
     "roles": [
-      "辅助型"
+      "支援者"
     ],
+    "expandedRole": "治疗者",
     "ratings": {
       "complexity": 5.0,
       "damage": 3.0,
@@ -20849,7 +20899,7 @@
           "icon": "storm_ui_icon_Lucio_CrossfadeHealing.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "播放治愈音效或加速音效",
-          "fullTooltip": "目前正在播放加速音效，使卢西奥和附近友方英雄的移动速度提高20%。  切换后播放治愈音效。",
+          "fullTooltip": "目前正在播放加速音效，使卢西奥和附近友方英雄的移动速度提高10%。  切换后播放治愈音效。",
           "abilityType": "W"
         },
         {
@@ -20861,7 +20911,7 @@
           "energyTooltip": "法力值：90",
           "cooldownTooltip": "冷却时间：13秒",
           "shortTooltip": "强化卢西奥切歌的效果",
-          "fullTooltip": "提高卢西奥的切歌音量，持续3秒，治愈音效的治疗效果提高至每秒114 (每级 +4%)点生命值，加速音效的移动速度加成提高至45%。",
+          "fullTooltip": "提高卢西奥的切歌音量，持续3秒，治愈音效的治疗效果提高至每秒112 (每级 +4%)点生命值，加速音效的移动速度加成提高至30%。",
           "abilityType": "E"
         }
       ],
@@ -20880,39 +20930,40 @@
           "abilityType": "Heroic"
         },
         {
-          "nameId": "LucioReverseAmp",
-          "name": "刺耳强音",
-          "shortTooltipId": "LucioReverseAmp",
-          "fullTooltipId": "LucioReverseAmp",
-          "icon": "storm_ui_icon_Lucio_ReverseAmp.png",
-          "energyTooltip": "法力值：55",
-          "cooldownTooltip": "冷却时间：45秒",
-          "shortTooltip": "使切歌造成伤害和减速",
-          "fullTooltip": "用卢西奥的切歌冲击敌方英雄，持续4秒，使治愈音效每秒对其造成104 (每级 +4%)点伤害，加速音效使其移动速度降低45%。  该技能不受切歌天赋影响。  被动：强音的持续时间延长至4秒。",
+          "nameId": "LucioHighFive",
+          "name": "击掌",
+          "shortTooltipId": "LucioHighFive",
+          "fullTooltipId": "LucioHighFive",
+          "icon": "storm_ui_icon_lucio_highfive.png",
+          "energyTooltip": "法力值：50",
+          "cooldownTooltip": "冷却时间：每名盟友15秒",
+          "shortTooltip": "滑向盟友，给予治疗和不可阻挡",
+          "fullTooltip": "快速滑向一名友方英雄，到达时使其获得不可阻挡，持续1秒，并为其恢复250 (每级 +4%)点生命值。",
           "abilityType": "Heroic"
         }
       ],
       "trait": [
         {
-          "nameId": "LucioWallRide",
-          "name": "滑墙",
-          "shortTooltipId": "LucioWallRide",
-          "fullTooltipId": "LucioWallRide",
-          "icon": "storm_ui_icon_Lucio_WallRide.png",
-          "shortTooltip": "卢西奥在不可逾越地形附近时获得移动速度加成，并可以穿越单位",
-          "fullTooltip": "沿着不可逾越的战场地形和建筑移动时，卢西奥可以穿越其他单位，并且移动速度提高20%。  该效果与其他移动速度加成效果叠加。",
+          "nameId": "LucioPushOff",
+          "name": "反冲",
+          "shortTooltipId": "LucioPushOff",
+          "fullTooltipId": "LucioPushOff",
+          "icon": "storm_ui_icon_lucio_accelerando.png",
+          "cooldownTooltip": "冷却时间：20秒",
+          "shortTooltip": "从墙上反冲下来以减速敌人",
+          "fullTooltip": "在地形表面移动时，激活此技能以滑向目标位置。被击中的敌人受到100 (每级 +4%)点伤害并减速75%，持续1秒。",
           "abilityType": "Trait"
         }
       ],
       "mount": [
         {
-          "nameId": "LucioSkateMode",
-          "name": "滑行模式",
-          "shortTooltipId": "LucioSkateMode",
-          "fullTooltipId": "LucioSkateMode",
+          "nameId": "LucioWallRide",
+          "name": "滑墙",
+          "shortTooltipId": "LucioWallRide",
+          "fullTooltipId": "LucioWallRide",
           "icon": "storm_ui_icon_lucio_mount.png",
-          "shortTooltip": "卢西奥可以在移动时攻击。不滑行毋宁死！",
-          "fullTooltip": "卢西奥可以在移动时攻击。不滑行毋宁死！",
+          "shortTooltip": "卢西奥在靠近地形时移动速度提升，并能穿越单位",
+          "fullTooltip": "沿着地形移动时，卢西奥会开始滑墙，持续2秒。当滑墙激活时，卢西奥可以穿越其他单位，并获得20%的移动速度，可以与其他移动速度加成效果叠加。",
           "abilityType": "Z"
         }
       ]
@@ -20929,7 +20980,7 @@
               "icon": "storm_ui_icon_Lucio_CrossfadeSpeed.png",
               "toggleCooldown": 0.5,
               "shortTooltip": "播放治愈音效或加速音效",
-              "fullTooltip": "目前正在播放治愈音效，使卢西奥和附近友方英雄每秒被动恢复16 (每级 +4%)点生命值。  切换后播放加速音效。",
+              "fullTooltip": "目前正在播放治愈音效，使卢西奥和附近友方英雄每秒被动恢复15 (每级 +4%)点生命值。  切换后播放加速音效。",
               "abilityType": "W"
             }
           ]
@@ -20938,96 +20989,6 @@
     ],
     "talents": {
       "level1": [
-        {
-          "nameId": "LucioAmpItUpMaximumTempoQuest",
-          "name": "最快节拍",
-          "shortTooltipId": "LucioAmpItUpMaximumTempo",
-          "fullTooltipId": "LucioAmpItUpMaximumTempo",
-          "icon": "storm_ui_icon_Lucio_AmpItUp.png",
-          "shortTooltip": "任务：消灭英雄提高强音的速度",
-          "fullTooltip": "任务：加速音效激活时消灭5个敌方英雄。  奖励：使强音对加速音效的加成永久提高至60%。",
-          "abilityType": "E",
-          "isQuest": true,
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "LucioAmpItUp"
-          ]
-        },
-        {
-          "nameId": "LucioWallRideAccelerando",
-          "name": "墙面快步",
-          "shortTooltipId": "LucioWallRideAccelerando",
-          "fullTooltipId": "LucioWallRideAccelerando",
-          "icon": "storm_ui_icon_Lucio_WallRide.png",
-          "shortTooltip": "滑墙渐渐提高移动速度",
-          "fullTooltip": "卢西奥保持滑墙效果时，其移动速度加成在4秒内逐渐提高至40%。",
-          "abilityType": "Trait",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "LucioWallRide"
-          ]
-        },
-        {
-          "nameId": "LucioWallRideSlip",
-          "name": "滑行",
-          "shortTooltipId": "LucioWallRideSlip",
-          "fullTooltipId": "LucioWallRideSlip",
-          "icon": "storm_ui_icon_Lucio_WallRide_A.png",
-          "shortTooltip": "附近敌方英雄提高滑墙速度",
-          "fullTooltip": "在滑墙效果期间穿越或在敌方英雄附近时，其移动速度加成提高至70%，持续1秒。",
-          "abilityType": "Trait",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "LucioWallRide"
-          ]
-        }
-      ],
-      "level4": [
-        {
-          "nameId": "LucioSoundwaveSubwoofer",
-          "name": "重低音",
-          "shortTooltipId": "LucioSoundwaveSubwoofer",
-          "fullTooltipId": "LucioSoundwaveSubwoofer",
-          "icon": "storm_ui_icon_Lucio_Soundwave.png",
-          "shortTooltip": "音波将近距离敌人击退得更远",
-          "fullTooltip": "在音波前半范围内的敌人被击退的距离提高50%。",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "LucioSoundwave"
-          ]
-        },
-        {
-          "nameId": "LucioSoundwaveOffTheWall",
-          "name": "即兴表演",
-          "shortTooltipId": "LucioSoundwaveOffTheWall",
-          "fullTooltipId": "LucioSoundwaveOffTheWall",
-          "icon": "storm_ui_icon_Lucio_Soundwave_A.png",
-          "shortTooltip": "滑墙期间缩短音波的冷却时间",
-          "fullTooltip": "拥有滑墙的速度加成时施放音波，其冷却时间缩短3秒。",
-          "abilityType": "Q",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "LucioSoundwave"
-          ]
-        },
-        {
-          "nameId": "LucioSoundwaveChaseTheBassQuest",
-          "name": "跟上低音",
-          "shortTooltipId": "LucioSoundwaveChaseTheBass",
-          "fullTooltipId": "LucioSoundwaveChaseTheBass",
-          "icon": "storm_ui_icon_Lucio_Soundwave_B.png",
-          "shortTooltip": "任务：强化音波的弧度和范围",
-          "fullTooltip": "任务：用音波击中20个敌方英雄。  奖励：音波的弧度扩大50%，并且范围扩大20%。",
-          "abilityType": "Q",
-          "isQuest": true,
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "LucioSoundwave"
-          ]
-        }
-      ],
-      "level7": [
         {
           "nameId": "LucioCrossfadePartyMixQuest",
           "name": "混音派对",
@@ -21045,17 +21006,107 @@
           ]
         },
         {
-          "nameId": "LucioAmpItUpSonicAmplifier",
-          "name": "音波扩音器",
-          "shortTooltipId": "LucioAmpItUpSonicAmplifier",
-          "fullTooltipId": "LucioAmpItUpSonicAmplifier",
-          "icon": "storm_ui_icon_Lucio_AmpItUp.png",
-          "shortTooltip": "强音扩大切歌的范围",
-          "fullTooltip": "施放强音时，如果附近有至少2名友方英雄，切歌的范围则在持续时间内扩大50%。",
-          "abilityType": "E",
+          "nameId": "LucioWallRideAccelerando",
+          "name": "墙面快步",
+          "shortTooltipId": "LucioWallRideAccelerando",
+          "fullTooltipId": "LucioWallRideAccelerando",
+          "icon": "storm_ui_icon_lucio_wallride.png",
+          "shortTooltip": "滑墙渐渐提高移动速度",
+          "fullTooltip": "卢西奥保持滑墙效果时，其移动速度加成在4秒内逐渐提高至40%。",
+          "abilityType": "Z",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "LucioAmpItUp"
+            "LucioWallRide"
+          ]
+        },
+        {
+          "nameId": "LucioPassiveSmoothMoves",
+          "name": "行云流水",
+          "shortTooltipId": "LucioPassiveSmoothMoves",
+          "fullTooltipId": "LucioPassiveSmoothMoves",
+          "icon": "storm_ui_icon_lucio_wallride_a.png",
+          "shortTooltip": "滑墙时的普通攻击可治疗",
+          "fullTooltip": "滑墙激活时，普攻攻击可恢复相当于所造成伤害30%的生命值，并恢复0.5点法力值。  被动：滑墙的持续时间提高1秒。",
+          "abilityType": "Z",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "LucioWallRide"
+          ]
+        }
+      ],
+      "level4": [
+        {
+          "nameId": "LucioSoundwaveSubwoofer",
+          "name": "重低音",
+          "shortTooltipId": "LucioSoundwaveSubwoofer",
+          "fullTooltipId": "LucioSoundwaveSubwoofer",
+          "icon": "storm_ui_icon_Lucio_Soundwave.png",
+          "shortTooltip": "任务：强化音波",
+          "fullTooltip": "在音波前半范围内的敌人被击退的距离提高75%。  任务：使用音波一次击中3名敌方英雄。  奖励：音波的弧度提高50%，半径提高20%。",
+          "abilityType": "Q",
+          "isQuest": true,
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "LucioSoundwave"
+          ]
+        },
+        {
+          "nameId": "LucioSoundwaveOffTheWall",
+          "name": "即兴表演",
+          "shortTooltipId": "LucioSoundwaveOffTheWall",
+          "fullTooltipId": "LucioSoundwaveOffTheWall",
+          "icon": "storm_ui_icon_Lucio_Soundwave_A.png",
+          "shortTooltip": "滑墙时音波命中敌人可以缩短冷却时间",
+          "fullTooltip": "滑墙激活时使用音波击中敌人，其冷却时间缩短3秒。",
+          "abilityType": "Q",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "LucioSoundwave"
+          ]
+        },
+        {
+          "nameId": "LucioPushOffSupersonic",
+          "name": "超强音障",
+          "shortTooltipId": "LucioPushOffSupersonic",
+          "fullTooltipId": "LucioPushOffSupersonic",
+          "icon": "storm_ui_icon_lucio_accelerando.png",
+          "shortTooltip": "滑墙加快反冲的冷却速度",
+          "fullTooltip": "滑墙激活时，反冲的冷却速度加快100%。",
+          "abilityType": "Trait",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "LucioPushOff"
+          ]
+        }
+      ],
+      "level7": [
+        {
+          "nameId": "LucioSoundwaveGoodVibrations",
+          "name": "良性振动",
+          "shortTooltipId": "LucioSoundwaveGoodVibrations",
+          "fullTooltipId": "LucioSoundwaveGoodVibrations",
+          "icon": "storm_ui_icon_lucio_soundwave_a.png",
+          "shortTooltip": "音波给予护盾",
+          "fullTooltip": "音波击中敌人可使卢西奥获得35 (每级 +4%)点护盾，持续7秒。击中敌方英雄可给予3倍的护盾量。",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "LucioSoundwave"
+          ]
+        },
+        {
+          "nameId": "LucioReverseAmp",
+          "name": "刺耳强音",
+          "shortTooltipId": "LucioReverseAmp",
+          "fullTooltipId": "LucioReverseAmp",
+          "icon": "storm_ui_icon_lucio_crossfade_all.png",
+          "shortTooltip": "强音可以用切歌冲击敌方英雄",
+          "fullTooltip": "用卢西奥当前切歌播放的音轨冲击敌方英雄。强音激活时，治愈音效每秒造成50 (每级 +4%)点伤害，加速音效使其移动速度降低20%。  该技能不受切歌天赋影响。",
+          "abilityType": "W",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "LucioCrossfade",
+            "LucioCrossfadeActivateHealingBoost"
           ]
         },
         {
@@ -21092,32 +21143,32 @@
           ]
         },
         {
-          "nameId": "LucioReverseAmp",
-          "name": "刺耳强音",
-          "shortTooltipId": "LucioReverseAmp",
-          "fullTooltipId": "LucioReverseAmp",
-          "icon": "storm_ui_icon_Lucio_ReverseAmp.png",
-          "energyTooltip": "法力值：55",
-          "cooldownTooltip": "冷却时间：45秒",
-          "shortTooltip": "使切歌造成伤害和减速",
-          "fullTooltip": "用卢西奥的切歌冲击敌方英雄，持续4秒，使治愈音效每秒对其造成104 (每级 +4%)点伤害，加速音效使其移动速度降低45%。  该技能不受切歌天赋影响。  被动：强音的持续时间延长至4秒。",
+          "nameId": "LucioHighFive",
+          "name": "击掌",
+          "shortTooltipId": "LucioHighFive",
+          "fullTooltipId": "LucioHighFive",
+          "icon": "storm_ui_icon_lucio_highfive.png",
+          "energyTooltip": "法力值：50",
+          "cooldownTooltip": "冷却时间：每名盟友15秒",
+          "shortTooltip": "滑向盟友，给予治疗和不可阻挡",
+          "fullTooltip": "快速滑向一名友方英雄，到达时使其获得不可阻挡，持续1秒，并为其恢复250 (每级 +4%)点生命值。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
           "abilityTalentLinkIds": [
-            "LucioReverseAmp"
+            "LucioHighFive"
           ]
         }
       ],
       "level13": [
         {
-          "nameId": "LucioCrossfadeBeatMixing",
-          "name": "混音节奏",
-          "shortTooltipId": "LucioCrossfadeBeatMixing",
-          "fullTooltipId": "LucioCrossfadeBeatMixing",
-          "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
-          "shortTooltip": "切换切歌后获得护盾",
-          "fullTooltip": "切换切歌后，如果下一首歌播放了至少1.5秒，那么卢西奥获得100 (每级 +4%)点的永久护盾。  再次切歌移除护盾。",
+          "nameId": "LucioCrossfadeAllTogetherTalent",
+          "name": "一起嗨",
+          "shortTooltipId": "LucioCrossfadeAllTogether",
+          "fullTooltipId": "LucioCrossfadeAllTogether",
+          "icon": "storm_ui_icon_lucio_crossfade_all.png",
+          "shortTooltip": "周围有盟友可提高移动速度",
+          "fullTooltip": "每有一个盟友受到切歌的影响，卢西奥就可以获得5%的移动速度。此加成可以与其他移动速度加成叠加。",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -21126,43 +21177,29 @@
           ]
         },
         {
-          "nameId": "LucioWallRideCantStopWontStop",
-          "name": "停不下来",
-          "shortTooltipId": "LucioWallRideCantStopWontStop",
-          "fullTooltipId": "LucioWallRideCantStopWontStop",
-          "icon": "storm_ui_icon_Lucio_WallRide.png",
-          "shortTooltip": "滑墙期间免疫减速和定身效果",
-          "fullTooltip": "滑墙的移动速度加成激活时，卢西奥免疫所有敌人的减速和定身效果。",
+          "nameId": "LucioPushOffHeavyCasters",
+          "name": "重型脚轮",
+          "shortTooltipId": "LucioPushOffHeavyCasters",
+          "fullTooltipId": "LucioPushOffHeavyCasters",
+          "icon": "storm_ui_icon_lucio_accelerando.png",
+          "shortTooltip": "反冲时敌人昏迷，不再减速",
+          "fullTooltip": "反冲不再减速，但会使击中的敌人昏迷0.5秒。",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "LucioWallRide"
+            "LucioPushOff"
           ]
         },
         {
-          "nameId": "LucioWallRideHardStyle",
-          "name": "硬派舞曲",
-          "shortTooltipId": "LucioWallRideHardStyle",
-          "fullTooltipId": "LucioWallRideHardStyle",
-          "icon": "storm_ui_icon_Lucio_WallRide_A.png",
-          "shortTooltip": "滑墙期间获得护甲",
-          "fullTooltip": "滑墙的移动速度加成激活时获得25点护甲，使受到的伤害降低25%。",
-          "abilityType": "Trait",
+          "nameId": "LucioWallRideSlip",
+          "name": "滑行",
+          "shortTooltipId": "LucioWallRideSlip",
+          "fullTooltipId": "LucioWallRideSlip",
+          "icon": "storm_ui_icon_lucio_wallride.png",
+          "shortTooltip": "滑墙期间获得护甲和移动速度",
+          "fullTooltip": "在滑墙效果期间从敌方英雄附近穿过可以使该技能的移动速度加成提高至40%，持续1秒。  被动：滑墙时获得20点护甲。",
+          "abilityType": "Z",
           "sort": 3,
-          "abilityTalentLinkIds": [
-            "LucioWallRide"
-          ]
-        },
-        {
-          "nameId": "LucioBackInTheMix",
-          "name": "回到节奏",
-          "shortTooltipId": "LucioBackInTheMix",
-          "fullTooltipId": "LucioBackInTheMix",
-          "icon": "storm_ui_icon_Lucio_MrBrightside.png",
-          "shortTooltip": "昏迷、沉默或时间停止时治疗自己",
-          "fullTooltip": "进入昏迷、沉默或时间停止效果时恢复245 (每级 +4%)点生命值。该效果每10秒只能触发一次。",
-          "abilityType": "Trait",
-          "sort": 4,
           "abilityTalentLinkIds": [
             "LucioWallRide"
           ]
@@ -21175,24 +21212,10 @@
           "shortTooltipId": "LucioAmpItUpRejuvenescencia",
           "fullTooltipId": "LucioAmpItUpRejuvenescencia",
           "icon": "storm_ui_icon_Lucio_AmpItUp.png",
-          "shortTooltip": "治愈音效还可以按百分比恢复生命值",
+          "shortTooltip": "治愈音效按百分比恢复生命值",
           "fullTooltip": "强音激活时，切歌的治愈音效每秒额外恢复目标2.5%的最大生命值。",
           "abilityType": "E",
           "sort": 1,
-          "abilityTalentLinkIds": [
-            "LucioAmpItUp"
-          ]
-        },
-        {
-          "nameId": "LucioAmpItUpBringItTogether",
-          "name": "一起唱",
-          "shortTooltipId": "LucioAmpItUpBringItTogether",
-          "fullTooltipId": "LucioAmpItUpBringItTogether",
-          "icon": "storm_ui_icon_Lucio_AmpItUp_A.png",
-          "shortTooltip": "治愈音效对附近盟友效果更强",
-          "fullTooltip": "施放强音时，如果附近有至少2名友方英雄，那么切歌的治愈音效的效果在持续时间内提高45%。",
-          "abilityType": "E",
-          "sort": 2,
           "abilityTalentLinkIds": [
             "LucioAmpItUp"
           ]
@@ -21203,13 +21226,26 @@
           "shortTooltipId": "LucioAmpItUpUpTheFrequency",
           "fullTooltipId": "LucioAmpItUpUpTheFrequency",
           "icon": "storm_ui_icon_Lucio_AmpItUp_B.png",
-          "shortTooltip": "普通攻击缩短强音的冷却时间",
-          "fullTooltip": "强音的法力消耗从90点降低至70点，并且对敌方英雄的普通攻击使强音的冷却时间缩短0.45秒。",
+          "shortTooltip": "普通攻击减少强音的冷却时间",
+          "fullTooltip": "对敌方英雄造成普通攻击伤害可使强音的冷却时间减少0.45秒。  被动：滑墙时普通攻击的射程提高2.2码。",
           "abilityType": "E",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "LucioAmpItUp"
           ]
+        },
+        {
+          "nameId": "LucioAmpItUpUpToEleven",
+          "name": "音量爆表",
+          "shortTooltipId": "LucioAmpItUpUpToEleven",
+          "fullTooltipId": "LucioAmpItUpUpToEleven",
+          "icon": "storm_ui_icon_lucio_ampitup_a.png",
+          "cooldownTooltip": "冷却时间：60秒",
+          "shortTooltip": "激活后延长强音的持续时间",
+          "fullTooltip": "激活后使强音的持续时间延长2秒。",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 3
         }
       ],
       "level20": [
@@ -21228,45 +21264,49 @@
           ]
         },
         {
-          "nameId": "LucioReverseAmpNonstopRemix",
-          "name": "混音不停",
-          "shortTooltipId": "LucioReverseAmpNonstopRemix",
-          "fullTooltipId": "LucioReverseAmpNonstopRemix",
-          "icon": "storm_ui_icon_Lucio_ReverseAmp.png",
-          "shortTooltip": "附近有多个敌人时刺耳强音永久持续",
-          "fullTooltip": "刺耳强音影响至少2个敌方英雄时，持续时间永久持续。",
+          "nameId": "LucioCrossfadeMixingFire",
+          "name": "混音火力",
+          "shortTooltipId": "LucioHighFiveMixingFire",
+          "fullTooltipId": "LucioHighFiveMixingFire",
+          "icon": "storm_ui_icon_lucio_highfive.png",
+          "shortTooltip": "击掌对敌造成伤害，并降低其受到的治疗",
+          "fullTooltip": "你现在可以对敌方英雄使用击掌，造成225 (每级 +4%)点伤害并使其受到的治疗降低50%，持续3秒。  被动：强音的持续时间延长1秒。",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "LucioReverseAmp"
+            "LucioHighFive"
           ]
         },
         {
-          "nameId": "LucioAmptItUpBonusTrack",
-          "name": "附赠曲目",
-          "shortTooltipId": "LucioAmptItUpBonusTrack",
-          "fullTooltipId": "LucioAmptItUpBonusTrack",
-          "icon": "storm_ui_icon_Lucio_AmpItUp.png",
-          "shortTooltip": "使用切歌刷新强音",
-          "fullTooltip": "强音激活时切换切歌会刷新强音的持续时间。  每次使用只能触发一次。",
-          "abilityType": "E",
+          "nameId": "LucioPassiveHouseParty",
+          "name": "家庭派对",
+          "shortTooltipId": "LucioPassiveHouseParty",
+          "fullTooltipId": "LucioPassiveHouseParty",
+          "icon": "storm_ui_icon_lucio_crossfade_all.png",
+          "shortTooltip": "周围有盟友可提高治疗",
+          "fullTooltip": "切歌每影响到一名盟友，卢西奥的治疗效果就能提高10%。",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "LucioAmpItUp"
+            "LucioCrossfade",
+            "LucioCrossfadeActivateHealingBoost"
           ]
         },
         {
-          "nameId": "LucioAmpItUpSynaesthesiaAuditiva",
-          "name": "律动世界",
-          "shortTooltipId": "LucioAmpItUpSynaesthesiaAuditiva",
-          "fullTooltipId": "LucioAmpItUpSynaesthesiaAuditiva",
-          "icon": "storm_ui_icon_Lucio_AmpItUp_A.png",
-          "shortTooltip": "使用强音移除昏迷、减速和定身效果",
-          "fullTooltip": "强音的初始施放移除盟友身上的所有昏迷、减速和定身效果，并移除卢西奥身上的减速和定身效果。",
-          "abilityType": "E",
+          "nameId": "LucioItemSummerAnthem",
+          "name": "夏日圣歌",
+          "shortTooltipId": "LucioItemSummerAnthem",
+          "fullTooltipId": "LucioItemSummerAnthem",
+          "icon": "storm_ui_icon_lucio_crossfade_a.png",
+          "cooldownTooltip": "冷却时间：75秒",
+          "shortTooltip": "激活后周围的盟友变得无法击杀",
+          "fullTooltip": "激活后，受到切歌影响的其他友方英雄变得无法击杀，持续1.5秒。",
+          "abilityType": "Active",
+          "isActive": true,
           "sort": 4,
           "abilityTalentLinkIds": [
-            "LucioAmpItUp"
+            "LucioCrossfade",
+            "LucioCrossfadeActivateHealingBoost"
           ]
         }
       ]
@@ -21320,6 +21360,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 5.0,
       "damage": 8.0,
@@ -21516,7 +21557,7 @@
           "fullTooltipId": "DryadBlossomSwellTalent",
           "icon": "storm_ui_icon_Lunara_PollenCloud.png",
           "shortTooltip": "提高剧毒之花的使用范围和效果半径",
-          "fullTooltip": "剧毒之花的使用范围扩大25%，效果半径扩大20%。剧毒之花击中敌人可以使露娜拉的移动速度提高15%，持续3秒。",
+          "fullTooltip": "剧毒之花的使用范围扩大25%，效果半径扩大20%。剧毒之花击中敌人可以使露娜拉的移动速度提高12%，持续3秒。可以与其他移动速度加成叠加。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -21859,6 +21900,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "近战刺客",
     "ratings": {
       "complexity": 7.0,
       "damage": 6.0,
@@ -22320,8 +22362,9 @@
       "regenRate": 3.0
     },
     "roles": [
-      "辅助型"
+      "支援者"
     ],
+    "expandedRole": "治疗者",
     "ratings": {
       "complexity": 5.0,
       "damage": 4.0,
@@ -22787,6 +22830,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "坦克",
     "ratings": {
       "complexity": 3.0,
       "damage": 5.0,
@@ -23231,7 +23275,7 @@
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
     "searchText": "马瑟伊尔，马瑟尔，马萨尔 天使，大天使，暗黑破坏神Ⅲ，夺魂之镰",
-    "description": "一名刺杀型英雄，他可以标记目标，削弱高生命值的敌人。",
+    "description": "斗士型英雄，可以标记目标，削弱高生命值的敌人。",
     "descriptors": [
       "BodyBlocker",
       "DeadUpdater",
@@ -23262,6 +23306,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "斗士",
     "ratings": {
       "complexity": 6.0,
       "damage": 7.0,
@@ -23732,6 +23777,7 @@
     "roles": [
       "专业型"
     ],
+    "expandedRole": "支援者",
     "ratings": {
       "complexity": 8.0,
       "damage": 2.0,
@@ -24076,7 +24122,7 @@
           "fullTooltipId": "MedivhTemporalFlux",
           "icon": "storm_ui_icon_medivh_arcanemissile_a.png",
           "shortTooltip": "奥术裂隙可减少终极技能冷却时间",
-          "fullTooltip": "普通攻击可以使麦迪文的终极技能的冷却时间减少3%。奥术裂隙每击中一名英雄，麦迪文的终极技能的冷却时间便减少-9%。",
+          "fullTooltip": "普通攻击可以使麦迪文的终极技能的冷却时间减少3%。奥术裂隙每击中一名英雄，麦迪文的终极技能的冷却时间便减少9%。",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -24222,6 +24268,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 7.0,
       "damage": 8.0,
@@ -24694,6 +24741,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "坦克",
     "ratings": {
       "complexity": 4.0,
       "damage": 5.0,
@@ -25159,6 +25207,7 @@
     "roles": [
       "专业型"
     ],
+    "expandedRole": "近战刺客",
     "ratings": {
       "complexity": 8.0,
       "damage": 5.0,
@@ -25612,6 +25661,7 @@
     "roles": [
       "专业型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 6.0,
       "damage": 8.0,
@@ -26086,6 +26136,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 5.0,
       "damage": 10.0,
@@ -26582,6 +26633,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 4.0,
       "damage": 9.0,
@@ -27048,6 +27100,7 @@
     "roles": [
       "专业型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 7.0,
       "damage": 8.0,
@@ -27540,6 +27593,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "斗士",
     "ratings": {
       "complexity": 7.0,
       "damage": 8.0,
@@ -28067,6 +28121,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 3.0,
       "damage": 9.0,
@@ -28539,8 +28594,9 @@
       "regenRate": 3.0
     },
     "roles": [
-      "辅助型"
+      "支援者"
     ],
+    "expandedRole": "治疗者",
     "ratings": {
       "complexity": 6.0,
       "damage": 5.0,
@@ -29035,6 +29091,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "斗士",
     "ratings": {
       "complexity": 6.0,
       "damage": 5.0,
@@ -29512,6 +29569,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "近战刺客",
     "ratings": {
       "complexity": 7.0,
       "damage": 6.0,
@@ -29971,6 +30029,7 @@
     "roles": [
       "专业型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 6.0,
       "damage": 9.0,
@@ -30373,7 +30432,7 @@
           "fullTooltipId": "SgtHammerSpiderMinesShrapnelMines",
           "icon": "storm_ui_icon_sgthammer_spidermines.png",
           "shortTooltip": "蜘蛛雷会降低护甲",
-          "fullTooltip": "蜘蛛雷引爆时，会使敌方英雄的护甲降低10点，持续4秒。",
+          "fullTooltip": "蜘蛛雷引爆时，会使敌方英雄的护甲降低10点，最多30点，持续4秒。",
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -30447,6 +30506,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "斗士",
     "ratings": {
       "complexity": 5.0,
       "damage": 7.0,
@@ -30898,6 +30958,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "坦克",
     "ratings": {
       "complexity": 4.0,
       "damage": 6.0,
@@ -31372,8 +31433,9 @@
       "regenRate": 3.0
     },
     "roles": [
-      "辅助型"
+      "支援者"
     ],
+    "expandedRole": "治疗者",
     "ratings": {
       "complexity": 7.0,
       "damage": 3.0,
@@ -31875,6 +31937,7 @@
     "roles": [
       "专业型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 6.0,
       "damage": 9.0,
@@ -32332,8 +32395,9 @@
       "regenRate": 3.0
     },
     "roles": [
-      "辅助型"
+      "支援者"
     ],
+    "expandedRole": "支援者",
     "ratings": {
       "complexity": 4.0,
       "damage": 6.0,
@@ -32793,6 +32857,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "近战刺客",
     "ratings": {
       "complexity": 3.0,
       "damage": 9.0,
@@ -33235,6 +33300,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "斗士",
     "ratings": {
       "complexity": 6.0,
       "damage": 8.0,
@@ -33701,6 +33767,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 8.0,
       "damage": 8.0,
@@ -34133,6 +34200,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 6.0,
       "damage": 8.0,
@@ -34646,6 +34714,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "坦克",
     "ratings": {
       "complexity": 5.0,
       "damage": 6.0,
@@ -35069,7 +35138,7 @@
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
     "searchText": "泰兰德 语风，暗夜精灵，高阶女祭司，艾露恩，女猎手，联盟，高阶祭司，魔兽争霸，魔兽世界，混乱之治，冰封王座，大地的裂变，熊猫人之谜，德拉诺之王，军团再临，炉石传说",
-    "description": "一位能够帮助队友限制并消灭敌人的辅助。",
+    "description": "一位能够帮助队友限制并消灭敌人的治疗者。",
     "descriptors": [
       "AllyHealer",
       "EnergyImportant",
@@ -35098,8 +35167,9 @@
       "regenRate": 3.0
     },
     "roles": [
-      "辅助型"
+      "支援者"
     ],
+    "expandedRole": "治疗者",
     "ratings": {
       "complexity": 7.0,
       "damage": 5.0,
@@ -35571,8 +35641,9 @@
       "regenRate": 3.0
     },
     "roles": [
-      "辅助型"
+      "支援者"
     ],
+    "expandedRole": "治疗者",
     "ratings": {
       "complexity": 2.0,
       "damage": 3.0,
@@ -36051,6 +36122,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "近战刺客",
     "ratings": {
       "complexity": 8.0,
       "damage": 5.0,
@@ -36573,6 +36645,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 3.0,
       "damage": 9.0,
@@ -37020,7 +37093,7 @@
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
     "searchText": "瓦里安 乌瑞恩，洛戈什，暴风城，人类，联盟，魔兽世界，巫妖王之怒，大地的裂变，熊猫人之谜，德拉诺之王，军团再临",
-    "description": "一位能够为队友承担伤害，或对敌人制造大量伤害的混合型英雄。",
+    "description": "斗士型英雄，可以在输出伤害或保护队伍之间灵活决定。",
     "descriptors": [
       "EnergyImportant",
       "Ganker",
@@ -37051,6 +37124,7 @@
       "战斗型",
       "刺杀型"
     ],
+    "expandedRole": "斗士",
     "ratings": {
       "complexity": 6.0,
       "damage": 6.0,
@@ -37528,8 +37602,9 @@
       "regenRate": 3.0
     },
     "roles": [
-      "辅助型"
+      "支援者"
     ],
+    "expandedRole": "治疗者",
     "ratings": {
       "complexity": 8.0,
       "damage": 5.0,
@@ -37997,6 +38072,7 @@
     "roles": [
       "专业型"
     ],
+    "expandedRole": "斗士",
     "ratings": {
       "complexity": 4.0,
       "damage": 5.0,
@@ -38468,6 +38544,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "斗士",
     "ratings": {
       "complexity": 5.0,
       "damage": 5.0,
@@ -38491,7 +38568,7 @@
           "shortTooltipId": "YrelVindication",
           "fullTooltipId": "YrelVindication",
           "icon": "storm_ui_icon_yrel_vindication.png",
-          "energyTooltip": "法力值：65",
+          "energyTooltip": "法力值：",
           "cooldownTooltip": "冷却时间：6秒",
           "shortTooltip": "恢复生命值，伤害敌人",
           "fullTooltip": "在伊瑞尔周围施放神圣的能量，对附近的敌人造成42 (每级 +4%)点伤害并为她恢复96 (每级 +4%)点生命值。  充能该技能可以使其伤害最高提高至140 (每级 +4%)点，治疗效果最高提高至320 (每级 +4%)点。",
@@ -38503,10 +38580,10 @@
           "shortTooltipId": "YrelRighteousHammer",
           "fullTooltipId": "YrelRighteousHammer",
           "icon": "storm_ui_icon_yrel_righteous_hammer.png",
-          "energyTooltip": "法力值：65",
+          "energyTooltip": "法力值：",
           "cooldownTooltip": "冷却时间：6秒",
           "shortTooltip": "击退并击晕敌人",
-          "fullTooltip": "挥舞伊瑞尔的锤子，对前方的敌人造成38 (每级 +4%)点伤害并将其击退。  充能该技能可以增加击退的距离和伤害，伤害最高可达125 (每级 +4%)点。敌人若是被充满能量的该技能击中，将昏迷0.75秒。",
+          "fullTooltip": "挥舞伊瑞尔的锤子，对前方的敌人造成38 (每级 +4%)点伤害并将其击退。  充能该技能可以增加击退的距离和伤害，伤害最高可达125 (每级 +4%)点。敌人若是被充满能量的该技能击中，将昏迷秒。",
           "abilityType": "W"
         },
         {
@@ -38515,10 +38592,10 @@
           "shortTooltipId": "YrelAvengingWrath",
           "fullTooltipId": "YrelAvengingWrath",
           "icon": "storm_ui_icon_yrel_avenging_wrath.png",
-          "energyTooltip": "法力值：65",
+          "energyTooltip": "法力值：",
           "cooldownTooltip": "冷却时间：6秒",
           "shortTooltip": "跃向一个区域，造成伤害并减速敌人",
-          "fullTooltip": "跃向一个区域，对范围内的敌人造成225 (每级 +4%)点伤害，使其减速50%，持续1秒。  充能该技能可以提高其射程。",
+          "fullTooltip": "跃向一个区域，对范围内的敌人造成225 (每级 +4%)点伤害，使其减速50%，持续秒。  充能该技能可以提高其射程。",
           "abilityType": "E"
         }
       ],
@@ -38532,7 +38609,7 @@
           "energyTooltip": "法力值：80",
           "cooldownTooltip": "冷却时间：120秒",
           "shortTooltip": "将受到的伤害转换成生命值",
-          "fullTooltip": "伊瑞尔被一个屏障环绕，持续3秒，吸收受到的所有伤害并将50%受到的伤害转化为治疗。",
+          "fullTooltip": "伊瑞尔被一个屏障环绕，持续秒，吸收受到的所有伤害并将50%受到的伤害转化为治疗。",
           "abilityType": "Heroic"
         },
         {
@@ -38544,7 +38621,7 @@
           "energyTooltip": "法力值：40",
           "cooldownTooltip": "冷却时间：40秒",
           "shortTooltip": "伊瑞尔在一个区域内获得护甲",
-          "fullTooltip": "伊瑞尔将她周围的地面圣化，获得40点护甲，直至其离开该区域。",
+          "fullTooltip": "伊瑞尔将她周围的地面圣化，获得点护甲，直至其离开该区域。",
           "abilityType": "Heroic"
         }
       ],
@@ -38609,7 +38686,7 @@
           "fullTooltipId": "YrelAvengingWrathAegisOfLight",
           "icon": "storm_ui_icon_yrel_avenging_wrath.png",
           "shortTooltip": "复仇之怒给予盟友护甲",
-          "fullTooltip": "落地时，复仇之怒给予附近的友方英雄25点护甲，持续4秒。",
+          "fullTooltip": "落地时，复仇之怒给予附近的友方英雄25点护甲，持续秒。",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38638,7 +38715,7 @@
           "icon": "storm_ui_icon_yrel_hand_of_freedom.png",
           "cooldownTooltip": "冷却时间：22秒",
           "shortTooltip": "给予移动速度加成，移除减速、定身效果",
-          "fullTooltip": "给予一名友方英雄50%移动速度加成，持续3秒，并且移除其减速和定身效果。  无法对伊瑞尔自己使用。",
+          "fullTooltip": "给予一名友方英雄50%移动速度加成，持续秒，并且移除其减速和定身效果。  无法对伊瑞尔自己使用。",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -38680,7 +38757,7 @@
           "fullTooltipId": "YrelDivineSteed",
           "icon": "storm_ui_icon_yrel_divine_steed.png",
           "shortTooltip": "召唤坐骑瞬发",
-          "fullTooltip": "召唤坐骑瞬发并且给予60%移动速度加成，该效果会在3秒内逐步递减。",
+          "fullTooltip": "召唤坐骑瞬发并且给予60%移动速度加成，该效果会在秒内逐步递减。",
           "abilityType": "Z",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -38709,7 +38786,7 @@
           "energyTooltip": "法力值：80",
           "cooldownTooltip": "冷却时间：120秒",
           "shortTooltip": "将受到的伤害转换成生命值",
-          "fullTooltip": "伊瑞尔被一个屏障环绕，持续3秒，吸收受到的所有伤害并将50%受到的伤害转化为治疗。",
+          "fullTooltip": "伊瑞尔被一个屏障环绕，持续秒，吸收受到的所有伤害并将50%受到的伤害转化为治疗。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -38726,7 +38803,7 @@
           "energyTooltip": "法力值：40",
           "cooldownTooltip": "冷却时间：40秒",
           "shortTooltip": "伊瑞尔在一个区域内获得护甲",
-          "fullTooltip": "伊瑞尔将她周围的地面圣化，获得40点护甲，直至其离开该区域。",
+          "fullTooltip": "伊瑞尔将她周围的地面圣化，获得点护甲，直至其离开该区域。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -38743,7 +38820,7 @@
           "fullTooltipId": "YrelVindicationAldorPeacekeeper",
           "icon": "storm_ui_icon_yrel_vindication.png",
           "shortTooltip": "辩护之光可以减少敌人的伤害",
-          "fullTooltip": "被充满能量的辩护之光击中的敌方英雄，其伤害能力降低30%，持续3秒。",
+          "fullTooltip": "被充满能量的辩护之光击中的敌方英雄，其伤害能力降低30%，持续秒。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38771,7 +38848,7 @@
           "fullTooltipId": "YrelVelensChosen",
           "icon": "storm_ui_icon_yrel_velens_chosen.png",
           "shortTooltip": "基本技能可以给予法术强度",
-          "fullTooltip": "使用充满能量的基本技能击中敌方英雄给予10%法术强度，持续10秒，最高可达30%。",
+          "fullTooltip": "使用充满能量的基本技能击中敌方英雄给予10%法术强度，持续秒，最高可达30%。",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -38854,7 +38931,7 @@
           "icon": "storm_ui_icon_yrel_bubble_hearth.png",
           "cooldownTooltip": "冷却时间：80秒",
           "shortTooltip": "激活后施放无敌炉石",
-          "fullTooltip": "1秒后，伊瑞尔进入无敌状态并使用炉石。无法被取消。",
+          "fullTooltip": "秒后，伊瑞尔进入无敌状态并使用炉石。无法被取消。",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -38867,7 +38944,7 @@
           "icon": "storm_ui_icon_yrel_seraphim.png",
           "cooldownTooltip": "冷却时间：10秒",
           "shortTooltip": "激活后变得不可阻挡",
-          "fullTooltip": "激活后不可阻挡，持续2秒。",
+          "fullTooltip": "激活后不可阻挡，持续秒。",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4
@@ -38923,6 +39000,7 @@
     "roles": [
       "专业型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 6.0,
       "damage": 6.0,
@@ -39354,7 +39432,7 @@
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
     "searchText": "查莉娅 亚历山德拉，人类，守望先锋",
-    "description": "一位能够保护高输出盟友，并擅长吸收爆发伤害的斗士。",
+    "description": "一位能够保护高输出盟友，并擅长吸收爆发伤害的支援者。",
     "descriptors": [
       "ChanneledAutoAttacker",
       "Helper",
@@ -39382,6 +39460,7 @@
     "roles": [
       "战斗型"
     ],
+    "expandedRole": "支援者",
     "ratings": {
       "complexity": 7.0,
       "damage": 5.0,
@@ -39913,6 +39992,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "近战刺客",
     "ratings": {
       "complexity": 5.0,
       "damage": 8.0,
@@ -40377,6 +40457,7 @@
     "roles": [
       "刺杀型"
     ],
+    "expandedRole": "远程刺客",
     "ratings": {
       "complexity": 4.0,
       "damage": 8.0,
@@ -40440,7 +40521,7 @@
           "icon": "storm_ui_icon_zuljin_tazdingo.png",
           "energyTooltip": "法力值：75",
           "cooldownTooltip": "冷却时间：90秒",
-          "shortTooltip": "不会被杀死",
+          "shortTooltip": "无法击杀",
           "fullTooltip": "在接下来的4秒内，祖尔金不会被杀死，并且生命值不会降低至1点以下。塔兹丁苟！",
           "abilityType": "Heroic"
         },
@@ -40627,7 +40708,7 @@
           "icon": "storm_ui_icon_zuljin_tazdingo.png",
           "energyTooltip": "法力值：75",
           "cooldownTooltip": "冷却时间：90秒",
-          "shortTooltip": "不会被杀死",
+          "shortTooltip": "无法击杀",
           "fullTooltip": "在接下来的4秒内，祖尔金不会被杀死，并且生命值不会降低至1点以下。塔兹丁苟！",
           "abilityType": "Heroic",
           "isActive": true,

@@ -7,6 +7,7 @@
   "name": "Brightwing",
   "icon": "brightwing.png",
   "role": "Support",
+  "expandedRole": "Healer",
   "type": "Ranged",
   "releaseDate": "2014-04-15",
   "releasePatch": "0.2.5.29775",
@@ -204,7 +205,10 @@
         "icon": "storm_ui_icon_brightwing_soothingmist.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Brightwing|Trait"
+        "abilityId": "Brightwing|D1",
+        "abilityLinks": [
+          "Brightwing|D1"
+        ]
       }
     ],
     "10": [
