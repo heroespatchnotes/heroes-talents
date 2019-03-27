@@ -87,6 +87,7 @@
     "roles": [
       "Специалист"
     ],
+    "expandedRole": "Поддержка",
     "ratings": {
       "complexity": 9.0,
       "damage": 3.0,
@@ -638,6 +639,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца ближнего боя",
     "ratings": {
       "complexity": 8.0,
       "damage": 7.0,
@@ -1101,6 +1103,7 @@
     "roles": [
       "Поддержка"
     ],
+    "expandedRole": "Лекарь",
     "ratings": {
       "complexity": 6.0,
       "damage": 3.0,
@@ -1190,7 +1193,7 @@
           "icon": "storm_ui_icon_alexstrasza_dragon_queen.png",
           "cooldownTooltip": "Время восстановления: 150 сек.",
           "shortTooltip": "Превращается в дракона и приобретает усиленные способности.",
-          "fullTooltip": "После паузы в 1.25 сек. Алекстраза превращается в дракона и получает бонус к максимальному запасу здоровья в 500 (+4% за уровень) ед.  В форме дракона Алекстраза приобретает усиленные способности, а ее автоатаки действуют в секторе перед ней, наносят 143 (+4% за уровень) ед. урона и восполняют союзным героям 43 (+4% за уровень) ед. здоровья. Время действия эффектов оглушения, обездвиживания, замедления и слепоты, действующих на Алекстразу, уменьшается на 50%.  Время действия – 15 сек.",
+          "fullTooltip": "После паузы в 1.25 сек. Алекстраза превращается в дракона и получает бонус к запасу здоровья в 500 (+4% за уровень) ед.  В облике дракона способности Алекстразы усиливаются, а ее автоатаки действуют в секторе перед ней, наносят 143 (+4% за уровень) ед. урона и восполняют союзным героям 43 (+4% за уровень) ед. здоровья. При этом эффекты оглушения, обездвиживания и замедления действуют на Алекстразу на 50% меньше времени.  Время действия – 15 сек.",
           "abilityType": "Trait"
         }
       ]
@@ -1645,6 +1648,7 @@
     "roles": [
       "Поддержка"
     ],
+    "expandedRole": "Лекарь",
     "ratings": {
       "complexity": 6.0,
       "damage": 3.0,
@@ -1761,7 +1765,7 @@
           "fullTooltipId": "AnaSleepingDartSlumberShells",
           "icon": "storm_ui_icon_ana_sleep_dart.png",
           "shortTooltip": "«Транквилизатор» ускоряет передвижение.",
-          "fullTooltip": "После поражения противника «Транквилизатором» повышает скорость передвижения Аны на 25% на 3 сек.",
+          "fullTooltip": "При попадании «Транквилизатор» повышает скорость передвижения Аны на 25% на 3 сек.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -2101,6 +2105,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Танк",
     "ratings": {
       "complexity": 5.0,
       "damage": 4.0,
@@ -2550,6 +2555,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Рубака",
     "ratings": {
       "complexity": 5.0,
       "damage": 6.0,
@@ -3046,6 +3052,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Танк",
     "ratings": {
       "complexity": 4.0,
       "damage": 6.0,
@@ -3498,6 +3505,7 @@
     "roles": [
       "Поддержка"
     ],
+    "expandedRole": "Лекарь",
     "ratings": {
       "complexity": 8.0,
       "damage": 3.0,
@@ -3964,6 +3972,7 @@
     "roles": [
       "Специалист"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 5.0,
       "damage": 3.0,
@@ -4066,8 +4075,8 @@
           "shortTooltipId": "AzmodanGreed",
           "fullTooltipId": "AzmodanGreed",
           "icon": "storm_ui_icon_azmodan_globeofannihilation.png",
-          "shortTooltip": "Увеличьте урон от «Сферы разрушения» по целям, не являющимся героями. Задача: увеличьте дальность действия «Всепоглощающего пламени».",
-          "fullTooltip": "«Сфера разрушения» наносит на % больше урона целям, не являющимся героями.  Задача: после накопления  эффектов «Разрушения» дальность действия «Сферы разрушения» увеличивается на %, а демоны-воины получают бонус к скорости атаки и к скорости передвижения в %.",
+          "shortTooltip": "Увеличивает урон сферы по всем, кроме героев. Задача: усильте «Всепоглощающее пламя».",
+          "fullTooltip": "«Сфера разрушения» наносит на 20% больше урона всем, кроме героев.  Задача: после накопления 200 эффектов «Разрушения» дальность действия «Всепоглощающего пламени» увеличится на 25%, а демоны-воины получат бонус к скорости атаки и передвижения в 20%.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -4312,7 +4321,7 @@
           "fullTooltipId": "AzmodanSinsGraspHotbar",
           "icon": "storm_ui_icon_azmodan_allshallburn_a.png",
           "shortTooltip": "«Всепоглощающее пламя» замедляет цели и восстанавливается быстрее.",
-          "fullTooltip": "Во время поддержания «Всепоглощающего пламени» замедляет цель на 15%. При максимальном времени поддержания сокращает время восстановления способности на 50% и замедляет противника на 45% на 2 сек.",
+          "fullTooltip": "При поддержании «Всепоглощающего пламени» замедляет цель на 15%, а при максимальном времени поддержания сокращает время его восстановления на 50% и замедляет цель на 45% на 2 сек.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -4428,6 +4437,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Танк",
     "ratings": {
       "complexity": 7.0,
       "damage": 6.0,
@@ -4901,6 +4911,7 @@
     "roles": [
       "Поддержка"
     ],
+    "expandedRole": "Лекарь",
     "ratings": {
       "complexity": 7.0,
       "damage": 4.0,
@@ -5141,7 +5152,10 @@
           "shortTooltip": "«Освежающий туман» исцеляет при использовании.",
           "fullTooltip": "Если «Освежающий туман» снимает с союзника эффект контроля, восполняет ему 250 (+4% за уровень) ед. здоровья.",
           "abilityType": "Trait",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "BrightwingCalmingMist"
+          ]
         }
       ],
       "level10": [
@@ -5294,7 +5308,7 @@
           "shortTooltipId": "BrightwingEmeraldWindIntensiveWinds",
           "fullTooltipId": "BrightwingEmeraldWindIntensiveWinds",
           "icon": "storm_ui_icon_brightwing_emeraldwind.png",
-          "shortTooltip": "Ускоряет восстановление и снижает стоимость «Изумрудного ветра».",
+          "shortTooltip": "Ускоряет восстановление, но повышает стоимость «Изумрудного ветра».",
           "fullTooltip": "Уменьшает время восстановления «Изумрудного ветра» до 5 сек., но повышает его стоимость до 200 ед. маны.",
           "abilityType": "Heroic",
           "sort": 2,
@@ -5379,6 +5393,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 4.0,
       "damage": 7.0,
@@ -5831,6 +5846,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Рубака",
     "ratings": {
       "complexity": 6.0,
       "damage": 3.0,
@@ -6429,6 +6445,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Танк",
     "ratings": {
       "complexity": 7.0,
       "damage": 6.0,
@@ -6869,6 +6886,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 5.0,
       "damage": 9.0,
@@ -6892,10 +6910,10 @@
           "shortTooltipId": "ChromieSandBlast",
           "fullTooltipId": "ChromieSandBlast",
           "icon": "storm_ui_icon_Chromie_AetherCannon.png",
-          "energyTooltip": "Мана: 15",
-          "cooldownTooltip": "Время восстановления: 2.5 сек.",
+          "energyTooltip": "Мана: 20",
+          "cooldownTooltip": "Время восстановления: 3 сек.",
           "shortTooltip": "Выпускает далеко летящий снаряд, который наносит урон противникам.",
-          "fullTooltip": "После паузы в 0.8 сек. запускает снаряд, наносящий первому герою на своем пути 315 (+4% за уровень) ед. урона.  Задача: попадите «Песчаным вихрем» по героям 50 раз. Последовательные попадания без промаха засчитываются как 2 попадания.  Награда: после 50 попаданий по героям при использовании «Песчаного вихря» будет появляться копия Хроми, которая при следующем использовании «Песчаного вихря» применит его базовую версию, наносящую урон в объеме 40% от основного.",
+          "fullTooltip": "После паузы в 0.5 сек. запускает снаряд, наносящий первому противнику на своем пути 280 (+4% за уровень) ед. урона. Строения получают 50% урона.  При использовании «Песчаный вихрь» создает песчаную копию, которая повторяет «Песчаные вихри» и автоатаки Хроми, нанося 50% урона. Одновременно может существовать не более 1 копии,копий,копий.",
           "abilityType": "Q"
         },
         {
@@ -6904,10 +6922,10 @@
           "shortTooltipId": "ChromieDragonsBreath",
           "fullTooltipId": "ChromieDragonsBreath",
           "icon": "storm_ui_icon_Chromie_SandStrike.png",
-          "energyTooltip": "Мана: 50",
-          "cooldownTooltip": "Время восстановления: 8 сек.",
-          "shortTooltip": "Наносит урон по области.",
-          "fullTooltip": "Запускает вверх песчаный поток, который после паузы в 1.5 сек. обрушивается на указанную область и наносит 390 (+4% за уровень) ед. урона находящимся в ней противникам.",
+          "energyTooltip": "Мана: 75",
+          "cooldownTooltip": "Время восстановления: 15 сек.",
+          "shortTooltip": "Обрушивает потоки песка на указанную область.",
+          "fullTooltip": "Векторное действие Запускает вверх 3 песчаный поток,песчаных потока,песчаных потоков, которые приземляются раз в 0.75 сек. Каждый поток наносит противникам в указанной области 195 (+4% за уровень) ед. урона.",
           "abilityType": "W"
         },
         {
@@ -6916,17 +6934,17 @@
           "shortTooltipId": "ChromieTimeTrap",
           "fullTooltipId": "ChromieTimeTrap",
           "icon": "storm_ui_icon_Chromie_TimeTrap.png",
-          "energyTooltip": "Мана: 25",
+          "energyTooltip": "Мана: 30",
           "charges": {
             "countMax": 1,
             "countUse": 1,
             "countStart": 1,
             "hideCount": true,
-            "recastCooldown": 0.0625
+            "recastCooldown": 1.0
           },
-          "cooldownTooltip": "Время восстановления: 18 сек.",
-          "shortTooltip": "Размещает ловушку, которая останавливает время для врагов.",
-          "fullTooltip": "Хроми создает в выбранном месте ловушку, которая после паузы в 2 сек. взводится, получает маскировку и останавливает время для первого попавшего в нее вражеского героя на 2 сек. Одновременно может существовать не более 1 ловушки.",
+          "cooldownTooltip": "Время восстановления: 15 сек.",
+          "shortTooltip": "Размещает ловушку, которая останавливает время для героев.",
+          "fullTooltip": "Создает ловушку, которая после паузы в 2 сек. взводится и получает маскировку. При использовании умения ловушки взрываются, останавливая время для находящихся рядом с ними союзных и вражеских героев на 2 сек. Одновременно может существовать не более 1 ловушки,ловушек,ловушек.",
           "abilityType": "E"
         }
       ],
@@ -6941,7 +6959,7 @@
           "energyTooltip": "Мана: 4 ед. в секунду",
           "cooldownTooltip": "Время восстановления: 5 сек.",
           "shortTooltip": "Создает замедляющую противников аномалию.",
-          "fullTooltip": "Создает в указанной области песчаную бурю. Чем дольше она существует, тем сильнее замедляет попавших в нее противников, вплоть до 60% спустя 3 сек. после появления.",
+          "fullTooltip": "Создает в указанной области песчаную бурю, которая замедляет противников на 5% раз в 0.25 сек., вплоть до 70%.",
           "abilityType": "Heroic"
         },
         {
@@ -6951,9 +6969,9 @@
           "fullTooltipId": "ChromieTemporalLoop",
           "icon": "storm_ui_icon_Chromie_Looper.png",
           "energyTooltip": "Мана: 60",
-          "cooldownTooltip": "Время восстановления: 70 сек.",
+          "cooldownTooltip": "Время восстановления: 50 сек.",
           "shortTooltip": "Телепортирует вражеского героя туда, где он был недавно.",
-          "fullTooltip": "После паузы в 3 сек. телепортирует выбранного вражеского героя в место, где он находился в момент применения этой способности.",
+          "fullTooltip": "После паузы в 3 сек. телепортирует указанного вражеского героя в место, где он находился в момент применения.  Базовые способности восстанавливаются на 500% быстрее в течение 3 сек. после применения «Петли времени».",
           "abilityType": "Heroic"
         }
       ],
@@ -6965,7 +6983,7 @@
           "fullTooltipId": "ChromieTimewalkerTrait",
           "icon": "storm_ui_icon_Chromie_TimeTraveler.png",
           "shortTooltip": "Хроми получает таланты раньше остальных героев.",
-          "fullTooltip": "Хроми может перемещаться во времени и потому получает новые таланты на 2 уровня раньше, чем остальные герои!   Бронзовые когти  Когда базовая способность поражает героя, следующая автоатака наносит на 140% больше урона.",
+          "fullTooltip": "Хроми побывала в будущем, и поэтому получает таланты на 2 уровня раньше всех!  Взрыв «Темпоральной ловушки»  Взрывает взведенные «Темпоральные ловушки».",
           "abilityType": "Trait"
         }
       ]
@@ -6973,14 +6991,15 @@
     "talents": {
       "level1": [
         {
-          "nameId": "ChromieSandBlastMountingSand",
-          "name": "Тяжелый песок",
-          "shortTooltipId": "ChromieSandBlastMountingSand",
-          "fullTooltipId": "ChromieSandBlastMountingSand",
+          "nameId": "ChromieSandBlastOnceAgainTheFirstTime",
+          "name": "Неповторимый повтор",
+          "shortTooltipId": "ChromieSandBlastOnceAgaintheFirstTime",
+          "fullTooltipId": "ChromieSandBlastOnceAgaintheFirstTime",
           "icon": "storm_ui_icon_Chromie_AetherCannon.png",
-          "shortTooltip": "Дополнительно усиливает «Песчаный вихрь» при каждом последовательном попадании.",
-          "fullTooltip": "Увеличивает урон от копии «Песчаного вихря» на 50%. Если «Песчаный вихрь» попадает в цель не менее 3 раз подряд, это засчитывается как 3 попадание,попадания,попаданий по героям.",
+          "shortTooltip": "Задача: увеличьте максимальное количество песчаных копий.",
+          "fullTooltip": "Задача: поразите героев «Песчаным вихрем» 40 раз.  Награда: максимальное количество активных песчаных копий увеличится до 2.",
           "abilityType": "Q",
+          "isQuest": true,
           "sort": 1,
           "abilityTalentLinkIds": [
             "ChromieSandBlast"
@@ -6993,7 +7012,7 @@
           "fullTooltipId": "ChromieDragonsBreathDeepBreathing",
           "icon": "storm_ui_icon_Chromie_SandStrike.png",
           "shortTooltip": "Задача: поражайте героев «Дыханием дракона», чтобы увеличить его урон.",
-          "fullTooltip": "Задача: каждое попадание «Дыханием дракона» по герою увеличивает урон от него на 5 ед., вплоть до 60 ед.  Награда: поразив героев 12 раз, «Дыхание дракона» станет наносить на 140 ед. урона больше. Кроме того, радиус обзора Хроми увеличится на 100%.",
+          "fullTooltip": "Задача: каждое попадание «Дыханием дракона» по герою увеличивает урон от него на 2 ед., вплоть до 50 ед.  Награда: поразив героев 25 раз, «Дыхание дракона» станет наносить еще на 50 ед. урона больше, а радиус обзора Хроми увеличится на 100%.",
           "abilityType": "W",
           "isQuest": true,
           "sort": 2,
@@ -7021,42 +7040,41 @@
       ],
       "level4": [
         {
-          "nameId": "ChromieDraconicBarrage",
-          "name": "Драконий залп",
-          "shortTooltipId": "ChromieDraconicBarrage",
-          "fullTooltipId": "ChromieDraconicBarrage",
-          "icon": "storm_ui_icon_chromie_aethercannon.png",
-          "shortTooltip": "Усиливает дополнительные автоатаки.",
-          "fullTooltip": "Увеличивает урон от «Бронзовых когтей» еще на 100%. Если «Песчаный вихрь» поражает героя, применяет эффект «Бронзовых когтей» к 2 следующей автоатаке,следующим автоатакам,следующим автоатакам.",
-          "abilityType": "Q",
+          "nameId": "ChromieTimeTrapChronicConditions",
+          "name": "Темпоральная аномалия",
+          "shortTooltipId": "ChromieTimeTrapChronicConditions",
+          "fullTooltipId": "ChromieTimeTrapChronicConditions",
+          "icon": "storm_ui_icon_Chromie_TimeTrap.png",
+          "shortTooltip": "«Темпоральная ловушка» изменяет скорость передвижения врагов и союзников.",
+          "fullTooltip": "По истечении остановки времени замедляет пораженных «Темпоральной ловушкой» противников на 25% на 3 сек. и повышает скорость передвижения попавших под ее воздействие союзников на 25% на 3 сек.",
+          "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "ChromieSandBlast",
-            "ChromieTimewalkerTrait"
+            "ChromieTimeTrap"
           ]
         },
         {
-          "nameId": "ChromieDragonsBreathEnvelopingAssault",
-          "name": "Ударная волна",
-          "shortTooltipId": "ChromieDragonsBreathEnvelopingAssault",
-          "fullTooltipId": "ChromieDragonsBreathEnvelopingAssault",
-          "icon": "storm_ui_icon_Chromie_SandStrike.png",
-          "shortTooltip": "Увеличивает область поражения «Дыхания дракона».",
-          "fullTooltip": "Увеличивает область поражения «Дыхания дракона» на 25%.",
-          "abilityType": "W",
+          "nameId": "ChromieTimeTrapTimeTroubles",
+          "name": "Беда со временем",
+          "shortTooltipId": "ChromieTimeTrapTimeTroubles",
+          "fullTooltipId": "ChromieTimeTrapTimeTroubles",
+          "icon": "storm_ui_icon_Chromie_TimeTrap_A.png",
+          "shortTooltip": "«Темпоральная ловушка» влияет на броню врагов и союзников.",
+          "fullTooltip": "По истечении остановки времени ослабляет броню пораженных «Темпоральной ловушкой» противников на 20 ед. на 3 сек. и усиливает броню попавших под ее воздействие союзников на 20 ед. на 3 сек.",
+          "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChromieDragonsBreath"
+            "ChromieTimeTrap"
           ]
         },
         {
-          "nameId": "ChromieTimeTrapTimelySurprise",
-          "name": "Своевременный сюрприз",
-          "shortTooltipId": "ChromieTimeTrapTimelySurprise",
-          "fullTooltipId": "ChromieTimeTrapTimelySurprise",
-          "icon": "storm_ui_icon_Chromie_TimeTrap.png",
-          "shortTooltip": "«Темпоральная ловушка» восстанавливает базовые способности.",
-          "fullTooltip": "Увеличивает дальность действия «Темпоральной ловушки» на 33%. Срабатывание «Темпоральной ловушки» обнуляет время восстановления «Песчаного вихря» и «Дыхания дракона».",
+          "nameId": "ChromieTimeTrapAndorhalAnomaly",
+          "name": "Андоральская аномалия",
+          "shortTooltipId": "ChromieTimeTrapAndorhalAnomaly",
+          "fullTooltipId": "ChromieTimeTrapAndorhalAnomaly",
+          "icon": "storm_ui_icon_Chromie_TimeTrap_B.png",
+          "shortTooltip": "Дает дополнительные заряды и ускоряет восстановление «Темпоральной ловушки».",
+          "fullTooltip": "Увеличивает максимальное количество зарядов «Темпоральной ловушки» и активных ловушек до 3, а также уменьшает время ее восстановления на 5 сек.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -7066,27 +7084,27 @@
       ],
       "level7": [
         {
+          "nameId": "ChromieSandBlastBronzeTalons",
+          "name": "Бронзовые когти",
+          "shortTooltipId": "ChromieSandBlastBronzeTalons",
+          "fullTooltipId": "ChromieSandBlastBronzeTalons",
+          "icon": "storm_ui_icon_Chromie_AetherCannon.png",
+          "shortTooltip": "«Песчаный вихрь» усиливает автоатаки.",
+          "fullTooltip": "Когда Хроми поражает героя «Песчаным вихрем», ее автоатаки в течение 5 сек. наносят на 30% больше урона.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "ChromieSandBlast"
+          ]
+        },
+        {
           "nameId": "ChromieDragonsBreathMobiusLoop",
           "name": "Петля Мебиуса",
           "shortTooltipId": "ChromieDragonsBreathMobiusLoop",
           "fullTooltipId": "ChromieDragonsBreathMobiusLoop",
           "icon": "storm_ui_icon_Chromie_SandStrike.png",
           "shortTooltip": "Попадания по героям ускоряют восстановление «Дыхания дракона».",
-          "fullTooltip": "Если «Дыхание дракона» поражает героя, сокращает время его восстановления на 3 сек. и восполняет 100 ед. маны.",
-          "abilityType": "W",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "ChromieDragonsBreath"
-          ]
-        },
-        {
-          "nameId": "ChromieDragonsBreathDragonsEye",
-          "name": "Око дракона",
-          "shortTooltipId": "ChromieDragonsBreathDragonsEye",
-          "fullTooltipId": "ChromieDragonsBreathDragonsEye",
-          "icon": "storm_ui_icon_chromie_SandStrike_a.png",
-          "shortTooltip": "«Дыхание дракона» наносит больше урона в центре области поражения.",
-          "fullTooltip": "«Дыхание дракона» наносит на 25% больше урона в центре области поражения.",
+          "fullTooltip": "Если «Дыхание дракона» поражает героя, сокращает время его восстановления на 1.5 сек. и восполняет 40 ед. маны.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -7094,17 +7112,17 @@
           ]
         },
         {
-          "nameId": "ChromieTimeTrapChronoSickness",
-          "name": "Хроно-синдром",
-          "shortTooltipId": "ChromieTimeTrapChronoSickness",
-          "fullTooltipId": "ChromieTimeTrapChronoSickness",
-          "icon": "storm_ui_icon_Chromie_TimeTrap.png",
-          "shortTooltip": "Замедляет врагов, расходует меньше маны и восстанавливается быстрее.",
-          "fullTooltip": "Уменьшает время восстановления и затраты маны на применение «Темпоральной ловушки» на 50%. По истечении времени действия основного эффекта способности ловушка замедляет пораженную цель на 35% на 4 сек.",
-          "abilityType": "E",
+          "nameId": "ChromieAProperGreeting",
+          "name": "«Теплый» прием",
+          "shortTooltipId": "ChromieAProperGreeting",
+          "fullTooltipId": "ChromieAProperGreeting",
+          "icon": "storm_ui_icon_talent_abilitytalent_damage.png",
+          "shortTooltip": "Урон по обезвреженным героям увеличивает урон.",
+          "fullTooltip": "Когда Хроми наносит урон оглушенным, обездвиженным или замедленным героям, наносимый ею урон увеличивается на 25% на 5 сек.",
+          "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChromieTimeTrap"
+            "ChromieTimewalkerTrait"
           ]
         }
       ],
@@ -7119,7 +7137,7 @@
           "energyTooltip": "Мана: 4 ед. в секунду",
           "cooldownTooltip": "Время восстановления: 5 сек.",
           "shortTooltip": "Создает замедляющую противников аномалию.",
-          "fullTooltip": "Создает в указанной области песчаную бурю. Чем дольше она существует, тем сильнее замедляет попавших в нее противников, вплоть до 60% спустя 3 сек. после появления.",
+          "fullTooltip": "Создает в указанной области песчаную бурю, которая замедляет противников на 5% раз в 0.25 сек., вплоть до 70%.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -7134,9 +7152,9 @@
           "fullTooltipId": "ChromieTemporalLoop",
           "icon": "storm_ui_icon_Chromie_Looper.png",
           "energyTooltip": "Мана: 60",
-          "cooldownTooltip": "Время восстановления: 70 сек.",
+          "cooldownTooltip": "Время восстановления: 50 сек.",
           "shortTooltip": "Телепортирует вражеского героя туда, где он был недавно.",
-          "fullTooltip": "После паузы в 3 сек. телепортирует выбранного вражеского героя в место, где он находился в момент применения этой способности.",
+          "fullTooltip": "После паузы в 3 сек. телепортирует указанного вражеского героя в место, где он находился в момент применения.  Базовые способности восстанавливаются на 500% быстрее в течение 3 сек. после применения «Петли времени».",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -7147,15 +7165,18 @@
       ],
       "level13": [
         {
-          "nameId": "ChromieHearthstoneByeBye",
-          "name": "Пока-пока!",
-          "shortTooltipId": "ChromieHearthstoneByeBye",
-          "fullTooltipId": "ChromieHearthstoneByeBye",
-          "icon": "storm_ui_icon_Chromie_Poof.png",
-          "shortTooltip": "Ускоряет «Возвращение».",
-          "fullTooltip": "Применение «Возвращения» занимает на 75% меньше времени и не прерывается при получении урона.",
-          "abilityType": "Active",
-          "sort": 1
+          "nameId": "ChromieSandBlastGnomeSpeedAhead",
+          "name": "Гномий вперед!",
+          "shortTooltipId": "ChromieSandBlastGnomeSpeedAhead",
+          "fullTooltipId": "ChromieSandBlastGnomeSpeedAhead",
+          "icon": "storm_ui_icon_Chromie_AetherCannon.png",
+          "shortTooltip": "«Песчаный вихрь» ускоряет передвижение и восстановление здоровья и маны.",
+          "fullTooltip": "Использовав «Песчаный вихрь», Хроми получает бонус к скорости передвижения в 20% и бонус к скорости восстановления здоровья и маны в 200% на 3 сек.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "ChromieSandBlast"
+          ]
         },
         {
           "nameId": "ChromieHereAndThere",
@@ -7164,8 +7185,8 @@
           "fullTooltipId": "ChromieHereAndThere",
           "icon": "storm_ui_icon_chromie_herethere.png",
           "cooldownTooltip": "Время восстановления: 30 сек.",
-          "shortTooltip": "Меняет Хроми местами с ее копией.",
-          "fullTooltip": "При использовании меняет Хроми местами с копией, призванной после выполнения задачи для «Песчаного вихря».",
+          "shortTooltip": "Меняет Хроми местами с песчаной копией.",
+          "fullTooltip": "При использовании переносит Хроми в область, где находится песчаная копия, а копию – в область, где находилась Хроми.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 2
@@ -7193,7 +7214,7 @@
           "fullTooltipId": "ChromieSandBlastShiftingSands",
           "icon": "storm_ui_icon_Chromie_AetherCannon.png",
           "shortTooltip": "«Песчаный вихрь» усиливает способности.",
-          "fullTooltip": "Каждое попадание по герою «Песчаным вихрем» увеличивает силу способностей на 8% на 10 сек., вплоть до 40%. Эффект обновляется при каждом попадании.",
+          "fullTooltip": "Каждое попадание по герою «Песчаным вихрем» увеличивает силу способностей на 8% на 10 сек., вплоть до 40%. Эффект обновляется при каждом попадании основным «Песчаным вихрем».",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -7230,13 +7251,13 @@
       ],
       "level20": [
         {
-          "nameId": "ChromieSlowingSandsPocketOfTime",
-          "name": "Временной карман",
-          "shortTooltipId": "ChromieSlowingSandsPocketOfTime",
-          "fullTooltipId": "ChromieSlowingSandsPocketOfTime",
+          "nameId": "ChromieSlowingSandsUnravelling",
+          "name": "Распутывание",
+          "shortTooltipId": "ChromieSlowingSandsUnravelling",
+          "fullTooltipId": "ChromieSlowingSandsUnravelling",
           "icon": "storm_ui_icon_Chromie_TimeWarp.png",
-          "shortTooltip": "«Пески времени» замедляют сильнее и не требуют затрат маны.",
-          "fullTooltip": "Убирает затраты маны на поддержание «Песков времени» и увеличивает максимальную силу замедления с 60% до 80%.",
+          "shortTooltip": "«Пески времени» ослабляют энергетическую броню.",
+          "fullTooltip": "Раз в 0.25 сек. ослабляет энергетическую броню замедленных «Песками времени» героев на 2 ед., вплоть до 30 ед.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -7250,7 +7271,7 @@
           "fullTooltipId": "ChromieTemporalLoopStuckInALoop",
           "icon": "storm_ui_icon_Chromie_Looper.png",
           "shortTooltip": "«Петля времени» телепортирует дважды.",
-          "fullTooltip": "«Петля времени» дважды телепортирует цель.",
+          "fullTooltip": "«Петля времени» телепортирует цель дважды, а базовые способности восстанавливаются быстрее еще 3 сек.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -7264,7 +7285,7 @@
           "fullTooltipId": "ChromieSandBlastPiercingSands",
           "icon": "storm_ui_icon_Chromie_AetherCannon.png",
           "shortTooltip": "«Песчаный вихрь» проходит сквозь противников.",
-          "fullTooltip": "Снаряд «Песчаного вихря» поражает всех героев на своем пути, но дополнительные цели не засчитываются при выполнении задачи.",
+          "fullTooltip": "«Песчаный вихрь» пронзает противников на своем пути.",
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -7272,17 +7293,17 @@
           ]
         },
         {
-          "nameId": "ChromieTimeTrapAndorhalAnomaly",
-          "name": "Андоральская аномалия",
-          "shortTooltipId": "ChromieTimeTrapAndorhalAnomaly",
-          "fullTooltipId": "ChromieTimeTrapAndorhalAnomaly",
-          "icon": "storm_ui_icon_Chromie_TimeTrap.png",
-          "shortTooltip": "Дает дополнительные заряды «Темпоральной ловушки».",
-          "fullTooltip": "Хроми может накопить до 2 зарядов «Темпоральной ловушки» и одновременно поддерживать существование до 3 ловушек. По истечении времени восстановления способности Хроми получает сразу все ее заряды.",
-          "abilityType": "E",
+          "nameId": "ChromieBlessingOfTheBronze",
+          "name": "Дар бронзовых драконов",
+          "shortTooltipId": "ChromieBlessingOfTheBronze",
+          "fullTooltipId": "ChromieBlessingOfTheBronze",
+          "icon": "storm_ui_icon_chromie_blessing_of_the_bronze.png",
+          "shortTooltip": "Ускоряет передвижение и восстановление способностей союзников.",
+          "fullTooltip": "Пока Хроми жива, она и ее союзники-герои передвигаются на 10% быстрее, а их базовые способности восстанавливаются на 30% быстрее.",
+          "abilityType": "Passive",
           "sort": 4,
           "abilityTalentLinkIds": [
-            "ChromieTimeTrap"
+            "ChromieTimewalkerTrait"
           ]
         }
       ]
@@ -7336,6 +7357,7 @@
     "roles": [
       "Поддержка"
     ],
+    "expandedRole": "Лекарь",
     "ratings": {
       "complexity": 5.0,
       "damage": 3.0,
@@ -7805,6 +7827,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Рубака",
     "ratings": {
       "complexity": 7.0,
       "damage": 6.0,
@@ -7899,7 +7922,7 @@
           },
           "cooldownTooltip": "Время восстановления: 5 сек.",
           "shortTooltip": "Восполняет здоровье, собирая и поглощая эссенцию врагов.",
-          "fullTooltip": "При убийстве героя Дехака получает 10 ед. эссенции. При убийстве воина – 2 ед. При использовании умения каждая поглощенная единица эссенции восполняет Дехаке 29 (+4% за уровень) ед. здоровья в течение 5 сек. Максимум эссенции – 50 ед. Можно использовать во время действия «Притягивания» и «Закапывания».",
+          "fullTooltip": "Восполняет Дехаке 29 (+4% за уровень) ед. здоровья за каждую единицу эссенции в течение 5 сек. Можно использовать во время действия «Притягивания» и «Закапывания».  Пассивный эффект: при убийстве героя Дехака получает 10 ед. эссенции, а при убийстве воина – 2 ед. Максимум эссенции – 50 ед.",
           "abilityType": "Trait"
         }
       ],
@@ -8285,6 +8308,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Танк",
     "ratings": {
       "complexity": 5.0,
       "damage": 5.0,
@@ -8750,6 +8774,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Рубака",
     "ratings": {
       "complexity": 6.0,
       "damage": 4.0,
@@ -8803,7 +8828,7 @@
             "hideCount": true
           },
           "shortTooltip": "D.Va покидает меху, которая взрывается и наносит огромный урон по области.",
-          "fullTooltip": "D.Va покидает меху. После паузы в 4 сек. меха взрывается, нанося от 400 (+4% за уровень) до 1200 (+4% за уровень) ед. урона в большой области. Объем урона зависит от близости противника к центру взрыва. Строения получают 50% от базового урона.  «Самоуничтожение» заряжается на 1% за каждые 2 сек. автоатаки и на 30%, когда меха получает суммарный урон в объеме 100% от запаса прочности.",
+          "fullTooltip": "D.Va покидает меху. После паузы в 4 сек. меха взрывается, нанося от 1200 (+4% за уровень) до 400 (+4% за уровень) ед. урона в большой области. Объем урона зависит от близости противника к центру взрыва. Строения получают 50% от базового урона.  «Самоуничтожение» заряжается на 1% за каждые 2 сек. автоатаки и на 30%, когда меха получает суммарный урон в объеме 100% от запаса прочности.",
           "abilityType": "E"
         }
       ],
@@ -9340,6 +9365,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Танк",
     "ratings": {
       "complexity": 3.0,
       "damage": 4.0,
@@ -9810,6 +9836,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 5.0,
       "damage": 8.0,
@@ -10271,6 +10298,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 5.0,
       "damage": 9.0,
@@ -10726,6 +10754,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 3.0,
       "damage": 9.0,
@@ -11200,6 +11229,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Танк",
     "ratings": {
       "complexity": 6.0,
       "damage": 3.0,
@@ -11689,6 +11719,7 @@
     "roles": [
       "Специалист"
     ],
+    "expandedRole": "Убийца ближнего боя",
     "ratings": {
       "complexity": 6.0,
       "damage": 5.0,
@@ -12195,6 +12226,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 6.0,
       "damage": 8.0,
@@ -12682,6 +12714,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 7.0,
       "damage": 9.0,
@@ -13190,6 +13223,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 6.0,
       "damage": 8.0,
@@ -13653,6 +13687,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 6.0,
       "damage": 8.0,
@@ -14119,6 +14154,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца ближнего боя",
     "ratings": {
       "complexity": 8.0,
       "damage": 8.0,
@@ -14572,6 +14608,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Рубака",
     "ratings": {
       "complexity": 6.0,
       "damage": 6.0,
@@ -15028,6 +15065,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 4.0,
       "damage": 10.0,
@@ -15500,6 +15538,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Танк",
     "ratings": {
       "complexity": 4.0,
       "damage": 3.0,
@@ -15945,6 +15984,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 6.0,
       "damage": 7.0,
@@ -16011,7 +16051,7 @@
           "icon": "storm_ui_icon_junkrat_rip_tire.png",
           "cooldownTooltip": "Время восстановления: 80 сек.",
           "shortTooltip": "Запускает начиненное взрывчаткой колесо.",
-          "fullTooltip": "Запускает начиненное взрывчаткой управляемое колесо прочностью 530 (+4% за уровень) ед., которое перемещается по полю боя в течение 15 сек. Пока Крысавчик управляет колесом, он не может двигаться.   При повторном использовании «Адская шина» мгновенно взрывается, отбрасывая противников поблизости, а также наносит 475 (+4% за уровень), 625 (+4% за уровень) или 775 (+4% за уровень) ед. урона противникам в зависимости от их удаленности от центра взрыва (чем ближе к центру, тем больше урона).",
+          "fullTooltip": "Запускает начиненное взрывчаткой управляемое колесо прочностью 530 (+4% за уровень) ед., которое перемещается по полю боя в течение 15 сек. Пока Крысавчик управляет колесом, он не может двигаться.   При повторном использовании «Адская шина» мгновенно взрывается, отбрасывая находящихся рядом противников и нанося 775 (+4% за уровень) ед. урона противникам в центре взрыва. Урон постепенно уменьшается до 475 (+4% за уровень) ед. во внешней области поражения.",
           "abilityType": "Heroic"
         },
         {
@@ -16184,7 +16224,7 @@
           "icon": "storm_ui_icon_junkrat_rip_tire.png",
           "cooldownTooltip": "Время восстановления: 80 сек.",
           "shortTooltip": "Запускает начиненное взрывчаткой колесо.",
-          "fullTooltip": "Запускает начиненное взрывчаткой управляемое колесо прочностью 530 (+4% за уровень) ед., которое перемещается по полю боя в течение 15 сек. Пока Крысавчик управляет колесом, он не может двигаться.   При повторном использовании «Адская шина» мгновенно взрывается, отбрасывая противников поблизости, а также наносит 475 (+4% за уровень), 625 (+4% за уровень) или 775 (+4% за уровень) ед. урона противникам в зависимости от их удаленности от центра взрыва (чем ближе к центру, тем больше урона).",
+          "fullTooltip": "Запускает начиненное взрывчаткой управляемое колесо прочностью 530 (+4% за уровень) ед., которое перемещается по полю боя в течение 15 сек. Пока Крысавчик управляет колесом, он не может двигаться.   При повторном использовании «Адская шина» мгновенно взрывается, отбрасывая находящихся рядом противников и нанося 775 (+4% за уровень) ед. урона противникам в центре взрыва. Урон постепенно уменьшается до 475 (+4% за уровень) ед. во внешней области поражения.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -16405,6 +16445,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 7.0,
       "damage": 9.0,
@@ -16868,6 +16909,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 7.0,
       "damage": 8.0,
@@ -17342,6 +17384,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца ближнего боя",
     "ratings": {
       "complexity": 6.0,
       "damage": 8.0,
@@ -17799,6 +17842,7 @@
     "roles": [
       "Поддержка"
     ],
+    "expandedRole": "Лекарь",
     "ratings": {
       "complexity": 4.0,
       "damage": 4.0,
@@ -18279,6 +18323,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Рубака",
     "ratings": {
       "complexity": 6.0,
       "damage": 4.0,
@@ -18776,6 +18821,7 @@
     "roles": [
       "Поддержка"
     ],
+    "expandedRole": "Лекарь",
     "ratings": {
       "complexity": 3.0,
       "damage": 3.0,
@@ -19119,7 +19165,7 @@
           "fullTooltipId": "LiLiBlessingsOfYulon",
           "icon": "storm_ui_icon_Lili_CloudSerpent.png",
           "shortTooltip": "Усиливает исцеление от «Облачного змея».",
-          "fullTooltip": "С каждой атакой облачный змей восполняет своему герою 1% от его максимального запаса здоровья.",
+          "fullTooltip": "С каждой атакой облачный змей восполняет своему герою еще 1% от его максимального запаса здоровья.",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -19233,6 +19279,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 7.0,
       "damage": 10.0,
@@ -19377,7 +19424,7 @@
           "fullTooltipId": "WizardAetherWalkerTalent",
           "icon": "storm_ui_icon_wizard_teleport.png",
           "shortTooltip": "Вне боя «Телепортация» не требует затрат маны.",
-          "fullTooltip": "После использования «Телепорта» следующая способность «Магические стрелы» наносит на 10% больше урона. Если Ли-Мин не получает урона в течение 3 сек., «Телепортация» перестает требовать затрат маны, а время ее восстановления сокращается на 2 сек.",
+          "fullTooltip": "После использования «Телепорта» следующие «Магические стрелы» наносят на 10% больше урона. Если Ли-Мин не получает урона в течение 3 сек., «Телепортация» перестает расходовать ману, а время ее восстановления сокращается на 2 сек.",
           "abilityType": "E",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -19407,7 +19454,7 @@
           "fullTooltipId": "WizardArcaneOrbTriumvirateTalent",
           "icon": "storm_ui_icon_wizard_arcaneorb.png",
           "shortTooltip": "«Магическая сфера» восстанавливается быстрее при максимальном уроне.",
-          "fullTooltip": "Если «Магическая сфера» поражает вражеского героя, преодолев как минимум 50% от своей базовой дальности пути, время ее восстановления сокращается на 5 сек.",
+          "fullTooltip": "Если «Магическая сфера» поражает героя, преодолев как минимум 50% от базовой дальности пути, время ее восстановления сокращается на 5 сек.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -19451,7 +19498,7 @@
           "fullTooltipId": "WizardArcaneOrbZeisVengeanceTalent",
           "icon": "storm_ui_icon_wizard_arcaneorb.png",
           "shortTooltip": "«Магическая сфера» наносит больше урона издалека.",
-          "fullTooltip": "В зависимости от преодоленного пути «Магическая сфера» наносит дополнительный урон в объеме до 25% от базового, а время ее восстановления уменьшается на 1 сек.",
+          "fullTooltip": "В зависимости от преодоленного пути «Магическая сфера» может нанести еще на 25% больше урона. Уменьшает время восстановления «Магической сферы» на 1 сек.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -19698,6 +19745,7 @@
     "roles": [
       "Специалист"
     ],
+    "expandedRole": "Поддержка",
     "ratings": {
       "complexity": 10.0,
       "damage": 7.0,
@@ -20356,6 +20404,7 @@
     "roles": [
       "Поддержка"
     ],
+    "expandedRole": "Лекарь",
     "ratings": {
       "complexity": 5.0,
       "damage": 3.0,
@@ -20709,7 +20758,7 @@
           "fullTooltipId": "MedicHyperactivity",
           "icon": "storm_ui_icon_medic_stim.png",
           "shortTooltip": "Ускоряет восстановление и увеличивает бонус к скорости передвижения.",
-          "fullTooltip": "Сокращает время восстановления «Стим-дрона» с 90 до 45 сек. и увеличивает бонус к скорости передвижения с 25% до 50%.",
+          "fullTooltip": "Уменьшает время восстановления «Стим-дрона» с 90 до 45 сек. и увеличивает бонус к скорости передвижения с 25% до 50%.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -20779,7 +20828,7 @@
     "speed": 4.3984,
     "type": "Дальний бой",
     "rarity": "Legendary",
-    "mountLinkId": "LucioSkateMode",
+    "mountLinkId": "LucioWallRide",
     "hearthLinkId": "Hearthstone",
     "searchText": "Лусио ОВ Овервоч человек OW раста Люся бразилец Лусиу Лусио диджей музыкант",
     "description": "Универсальный лекарь, который повышает мобильность своей команды и держит противника на расстоянии.",
@@ -20812,6 +20861,7 @@
     "roles": [
       "Поддержка"
     ],
+    "expandedRole": "Лекарь",
     "ratings": {
       "complexity": 5.0,
       "damage": 3.0,
@@ -20849,7 +20899,7 @@
           "icon": "storm_ui_icon_Lucio_CrossfadeHealing.png",
           "toggleCooldown": 0.5,
           "shortTooltip": "Проигрывает исцеляющий или ускоряющий трек.",
-          "fullTooltip": "Проигрывает ускоряющий трек, повышающий скорость передвижения Лусио и союзных героев рядом с ним на 20%.  При использовании меняет трек на исцеляющий.",
+          "fullTooltip": "Проигрывает ускоряющий трек, повышающий скорость передвижения Лусио и союзных героев рядом с ним на 10%.  При использовании меняет трек на исцеляющий.",
           "abilityType": "W"
         },
         {
@@ -20861,7 +20911,7 @@
           "energyTooltip": "Мана: 90",
           "cooldownTooltip": "Время восстановления: 13 сек.",
           "shortTooltip": "Усиливает эффект текущего трека.",
-          "fullTooltip": "Повышает громкость текущего трека на 3 сек., усиливая эффект восстановления здоровья от исцеляющего трека до 114 (+4% за уровень) ед. в секунду, а прибавку к скорости от ускоряющего трека – до 45%.",
+          "fullTooltip": "Повышает громкость текущего трека на 3 сек., усиливая эффект восстановления здоровья от исцеляющего трека до 112 (+4% за уровень) ед. в секунду, а прибавку к скорости от ускоряющего трека – до 30%.",
           "abilityType": "E"
         }
       ],
@@ -20876,43 +20926,44 @@
           "energyTooltip": "Мана: 100",
           "cooldownTooltip": "Время восстановления: 80 сек.",
           "shortTooltip": "Укрывает находящихся рядом союзников щитом.",
-          "fullTooltip": "После паузы в 1 сек. Лусио и союзные герои поблизости получают щит прочностью 1296 (+4% за уровень) ед., который быстро ослабевает в течение 6 сек.",
+          "fullTooltip": "После паузы в 1 сек. Лусио и находящиеся рядом союзные герои получают щит прочностью 1296 (+4% за уровень) ед., который быстро ослабевает в течение 6 сек.",
           "abilityType": "Heroic"
         },
         {
-          "nameId": "LucioReverseAmp",
-          "name": "Обратный усилитель",
-          "shortTooltipId": "LucioReverseAmp",
-          "fullTooltipId": "LucioReverseAmp",
-          "icon": "storm_ui_icon_Lucio_ReverseAmp.png",
-          "energyTooltip": "Мана: 55",
-          "cooldownTooltip": "Время восстановления: 45 сек.",
-          "shortTooltip": "«Кроссфейд» наносит противникам урон и замедляет их.",
-          "fullTooltip": "Обращает треки Лусио против вражеских героев на 4 сек. Исцеляющий трек при этом наносит 104 (+4% за уровень) ед. урона в секунду, а ускоряющий трек замедляет на 45%.  На эту способность не действуют таланты «Кроссфейда».  Пассивный эффект: увеличивает время действия «Громкости на полную!» до 4 сек.",
+          "nameId": "LucioHighFive",
+          "name": "Дай пять!",
+          "shortTooltipId": "LucioHighFive",
+          "fullTooltipId": "LucioHighFive",
+          "icon": "storm_ui_icon_lucio_highfive.png",
+          "energyTooltip": "Мана: 50",
+          "cooldownTooltip": "Время восстановления: 15 сек. на союзника",
+          "shortTooltip": "Подъезжает к союзнику, лечит и делает его неудержимым.",
+          "fullTooltip": "Лусио быстро подъезжает к союзному герою, делая его неудержимым на 1 сек. и восполняя ему 250 (+4% за уровень) ед. здоровья.",
           "abilityType": "Heroic"
         }
       ],
       "trait": [
         {
-          "nameId": "LucioWallRide",
-          "name": "Езда по стенам",
-          "shortTooltipId": "LucioWallRide",
-          "fullTooltipId": "LucioWallRide",
-          "icon": "storm_ui_icon_Lucio_WallRide.png",
-          "shortTooltip": "Возле препятствий Лусио движется быстрее и проходит через других персонажей.",
-          "fullTooltip": "Когда Лусио двигается вдоль естественных препятствий и строений, он проходит сквозь других персонажей, а его скорость передвижения повышается на 20%.  Суммируется с другими бонусами к скорости передвижения.",
+          "nameId": "LucioPushOff",
+          "name": "Отвали!",
+          "shortTooltipId": "LucioPushOff",
+          "fullTooltipId": "LucioPushOff",
+          "icon": "storm_ui_icon_lucio_accelerando.png",
+          "cooldownTooltip": "Время восстановления: 20 сек.",
+          "shortTooltip": "Спрыгивает со стены и замедляет противников.",
+          "fullTooltip": "При использовании во время движения вдоль естественных препятствий и строений Лусио спрыгивает в указанном направлении, наносит противникам в области действия 100 (+4% за уровень) ед. урона и замедляет их на 75% на 1 сек.",
           "abilityType": "Trait"
         }
       ],
       "mount": [
         {
-          "nameId": "LucioSkateMode",
-          "name": "Модные коньки",
-          "shortTooltipId": "LucioSkateMode",
-          "fullTooltipId": "LucioSkateMode",
+          "nameId": "LucioWallRide",
+          "name": "Езда по стенам",
+          "shortTooltipId": "LucioWallRide",
+          "fullTooltipId": "LucioWallRide",
           "icon": "storm_ui_icon_lucio_mount.png",
-          "shortTooltip": "Лусио может стрелять на ходу. Боевой конькобежец!",
-          "fullTooltip": "Лусио может стрелять на ходу. Боевые коньки – это сила!",
+          "shortTooltip": "Ускоряет Лусио рядом с препятствиями, позволяет проходить сквозь других персонажей.",
+          "fullTooltip": "Когда Лусио двигается вдоль естественных препятствий и строений, активируется «Езда по стенам», которая длится 2 сек. Во время ее действия Лусио проходит сквозь других персонажей и перемещается на 20% быстрее. Суммируется с другими бонусами к скорости передвижения.",
           "abilityType": "Z"
         }
       ]
@@ -20929,7 +20980,7 @@
               "icon": "storm_ui_icon_Lucio_CrossfadeSpeed.png",
               "toggleCooldown": 0.5,
               "shortTooltip": "Проигрывает исцеляющий или ускоряющий трек.",
-              "fullTooltip": "Проигрывает исцеляющий трек, пассивно восполняющий Лусио и союзным героям рядом с ним 16 (+4% за уровень) ед. здоровья в секунду.  При использовании меняет трек на ускоряющий.",
+              "fullTooltip": "Проигрывает исцеляющий трек, пассивно восполняющий Лусио и союзным героям рядом с ним 15 (+4% за уровень) ед. здоровья в секунду.  При использовании меняет трек на ускоряющий.",
               "abilityType": "W"
             }
           ]
@@ -20938,96 +20989,6 @@
     ],
     "talents": {
       "level1": [
-        {
-          "nameId": "LucioAmpItUpMaximumTempoQuest",
-          "name": "Maximum Tempo",
-          "shortTooltipId": "LucioAmpItUpMaximumTempo",
-          "fullTooltipId": "LucioAmpItUpMaximumTempo",
-          "icon": "storm_ui_icon_Lucio_AmpItUp.png",
-          "shortTooltip": "Задача: убивайте героев, чтобы усилить ускорение от «Громкости на полную!».",
-          "fullTooltip": "Задача: убейте героев под ускоряющий трек 5 раз.  Награда: бонус к скорости передвижения от ускоряющего трека при использовании «Громкости на полную!» увеличится до 60%.",
-          "abilityType": "E",
-          "isQuest": true,
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "LucioAmpItUp"
-          ]
-        },
-        {
-          "nameId": "LucioWallRideAccelerando",
-          "name": "Аччелерандо",
-          "shortTooltipId": "LucioWallRideAccelerando",
-          "fullTooltipId": "LucioWallRideAccelerando",
-          "icon": "storm_ui_icon_Lucio_WallRide.png",
-          "shortTooltip": "«Езда по стенам» постепенно ускоряет передвижение.",
-          "fullTooltip": "Постепенно увеличивает бонус к скорости передвижения от «Езды по стенам» в течение 4 сек. до 40%, пока Лусио поддерживает этот эффект.",
-          "abilityType": "Trait",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "LucioWallRide"
-          ]
-        },
-        {
-          "nameId": "LucioWallRideSlip",
-          "name": "Вжух",
-          "shortTooltipId": "LucioWallRideSlip",
-          "fullTooltipId": "LucioWallRideSlip",
-          "icon": "storm_ui_icon_Lucio_WallRide_A.png",
-          "shortTooltip": "Увеличивает бонус к скорости передвижения рядом с вражескими героями.",
-          "fullTooltip": "Увеличивает бонус к скорости передвижения от «Езды по стенам» до 70% на 1 сек., если Лусио проезжает по стене мимо вражеского героя или сквозь него.",
-          "abilityType": "Trait",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "LucioWallRide"
-          ]
-        }
-      ],
-      "level4": [
-        {
-          "nameId": "LucioSoundwaveSubwoofer",
-          "name": "Сабвуфер",
-          "shortTooltipId": "LucioSoundwaveSubwoofer",
-          "fullTooltipId": "LucioSoundwaveSubwoofer",
-          "icon": "storm_ui_icon_Lucio_Soundwave.png",
-          "shortTooltip": "«Звуковая волна» дальше отталкивает ближайших противников.",
-          "fullTooltip": "Отталкивает противников в начале области действия «Звуковой волны» на 50% дальше.",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "LucioSoundwave"
-          ]
-        },
-        {
-          "nameId": "LucioSoundwaveOffTheWall",
-          "name": "Off the Wall",
-          "shortTooltipId": "LucioSoundwaveOffTheWall",
-          "fullTooltipId": "LucioSoundwaveOffTheWall",
-          "icon": "storm_ui_icon_Lucio_Soundwave_A.png",
-          "shortTooltip": "Ускоряет восстановление «Звуковой волны» во время «Езды по стенам».",
-          "fullTooltip": "Если Лусио использует «Звуковую волну» под действием бонуса к скорости передвижения от «Езды по стенам», ее время восстановления уменьшается на 3 сек.",
-          "abilityType": "Q",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "LucioSoundwave"
-          ]
-        },
-        {
-          "nameId": "LucioSoundwaveChaseTheBassQuest",
-          "name": "Вдарить по басам",
-          "shortTooltipId": "LucioSoundwaveChaseTheBass",
-          "fullTooltipId": "LucioSoundwaveChaseTheBass",
-          "icon": "storm_ui_icon_Lucio_Soundwave_B.png",
-          "shortTooltip": "Задача: используйте «Звуковую волну», чтобы увеличить область и дальность ее действия.",
-          "fullTooltip": "Задача: поразите «Звуковой волной» вражеских героев 20 раз.  Награда: область действия «Звуковой волны» увеличится на 50%, а дальность – на 20%.",
-          "abilityType": "Q",
-          "isQuest": true,
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "LucioSoundwave"
-          ]
-        }
-      ],
-      "level7": [
         {
           "nameId": "LucioCrossfadePartyMixQuest",
           "name": "Пати-микс",
@@ -21045,17 +21006,107 @@
           ]
         },
         {
-          "nameId": "LucioAmpItUpSonicAmplifier",
-          "name": "Усилитель звука",
-          "shortTooltipId": "LucioAmpItUpSonicAmplifier",
-          "fullTooltipId": "LucioAmpItUpSonicAmplifier",
-          "icon": "storm_ui_icon_Lucio_AmpItUp.png",
-          "shortTooltip": "«Громкость на полную!» увеличивает радиус «Кроссфейда».",
-          "fullTooltip": "Если при использовании «Громкости на полную!» треки Лусио воздействуют хотя бы на 2 союзного героя,союзных героев,союзных героев, радиус действия «Кроссфейда» увеличивается на 50%, пока действует эта способность.",
-          "abilityType": "E",
+          "nameId": "LucioWallRideAccelerando",
+          "name": "Аччелерандо",
+          "shortTooltipId": "LucioWallRideAccelerando",
+          "fullTooltipId": "LucioWallRideAccelerando",
+          "icon": "storm_ui_icon_lucio_wallride.png",
+          "shortTooltip": "«Езда по стенам» постепенно ускоряет передвижение.",
+          "fullTooltip": "Постепенно увеличивает бонус к скорости передвижения от «Езды по стенам» в течение 4 сек. до 40%, пока Лусио поддерживает этот эффект.",
+          "abilityType": "Z",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "LucioAmpItUp"
+            "LucioWallRide"
+          ]
+        },
+        {
+          "nameId": "LucioPassiveSmoothMoves",
+          "name": "Четкие движения",
+          "shortTooltipId": "LucioPassiveSmoothMoves",
+          "fullTooltipId": "LucioPassiveSmoothMoves",
+          "icon": "storm_ui_icon_lucio_wallride_a.png",
+          "shortTooltip": "Автоатаки во время «Езды по стенам» лечат Лусио.",
+          "fullTooltip": "Во время «Езды по стенам» каждая автоатака восполняет Лусио здоровье в объеме 30% от нанесенного урона и 0.5 ед. маны.  Пассивный эффект: увеличивает время действия «Езды по стенам» на 1 сек.",
+          "abilityType": "Z",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "LucioWallRide"
+          ]
+        }
+      ],
+      "level4": [
+        {
+          "nameId": "LucioSoundwaveSubwoofer",
+          "name": "Сабвуфер",
+          "shortTooltipId": "LucioSoundwaveSubwoofer",
+          "fullTooltipId": "LucioSoundwaveSubwoofer",
+          "icon": "storm_ui_icon_Lucio_Soundwave.png",
+          "shortTooltip": "Задача: усильте «Звуковую волну».",
+          "fullTooltip": "Отбрасывает противников, находящихся в ближайшей к Лусио половине области действия «Звуковой волны», на 75% дальше.  Задача: поразите одной «Звуковой волной» 3 героев.  Награда: ширина области действия «Звуковой волны» увеличится на 50%, а дальность действия – на 20%.",
+          "abilityType": "Q",
+          "isQuest": true,
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "LucioSoundwave"
+          ]
+        },
+        {
+          "nameId": "LucioSoundwaveOffTheWall",
+          "name": "Off the Wall",
+          "shortTooltipId": "LucioSoundwaveOffTheWall",
+          "fullTooltipId": "LucioSoundwaveOffTheWall",
+          "icon": "storm_ui_icon_Lucio_Soundwave_A.png",
+          "shortTooltip": "«Звуковая волна» может восстановиться быстрее во время «Езды по стенам».",
+          "fullTooltip": "Если «Звуковая волна» поражает противника во время «Езды по стенам», время восстановления «Звуковой волны» сокращается на 3 сек.",
+          "abilityType": "Q",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "LucioSoundwave"
+          ]
+        },
+        {
+          "nameId": "LucioPushOffSupersonic",
+          "name": "Сверхзвук",
+          "shortTooltipId": "LucioPushOffSupersonic",
+          "fullTooltipId": "LucioPushOffSupersonic",
+          "icon": "storm_ui_icon_lucio_accelerando.png",
+          "shortTooltip": "«Езда по стенам» восстанавливает «Отвали!».",
+          "fullTooltip": "Во время «Езды по стенам» «Отвали!» восстанавливается на 100% быстрее.",
+          "abilityType": "Trait",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "LucioPushOff"
+          ]
+        }
+      ],
+      "level7": [
+        {
+          "nameId": "LucioSoundwaveGoodVibrations",
+          "name": "Приятные вибрации",
+          "shortTooltipId": "LucioSoundwaveGoodVibrations",
+          "fullTooltipId": "LucioSoundwaveGoodVibrations",
+          "icon": "storm_ui_icon_lucio_soundwave_a.png",
+          "shortTooltip": "«Звуковая волна» дает щит.",
+          "fullTooltip": "Поражая противников «Звуковой волной», Лусио получает щит прочностью 35 (+4% за уровень) ед. на 7 сек. При поражении героев прочность щита увеличивается в 3 раз,раза,раз.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "LucioSoundwave"
+          ]
+        },
+        {
+          "nameId": "LucioReverseAmp",
+          "name": "Обратный усилитель",
+          "shortTooltipId": "LucioReverseAmp",
+          "fullTooltipId": "LucioReverseAmp",
+          "icon": "storm_ui_icon_lucio_crossfade_all.png",
+          "shortTooltip": "«Громкость на полную!» взрывает трек «Кроссфейда», поражая героев.",
+          "fullTooltip": "Взрывает текущий трек «Кроссфейда», поражая вражеских героев. Во время действия «Громкости на полную!» исцеляющий трек наносит 50 (+4% за уровень) ед. урона в секунду, а ускоряющий трек замедляет противников на 20%.  На эту способность не действуют таланты «Кроссфейда».",
+          "abilityType": "W",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "LucioCrossfade",
+            "LucioCrossfadeActivateHealingBoost"
           ]
         },
         {
@@ -21083,7 +21134,7 @@
           "energyTooltip": "Мана: 100",
           "cooldownTooltip": "Время восстановления: 80 сек.",
           "shortTooltip": "Укрывает находящихся рядом союзников щитом.",
-          "fullTooltip": "После паузы в 1 сек. Лусио и союзные герои поблизости получают щит прочностью 1296 (+4% за уровень) ед., который быстро ослабевает в течение 6 сек.",
+          "fullTooltip": "После паузы в 1 сек. Лусио и находящиеся рядом союзные герои получают щит прочностью 1296 (+4% за уровень) ед., который быстро ослабевает в течение 6 сек.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -21092,32 +21143,32 @@
           ]
         },
         {
-          "nameId": "LucioReverseAmp",
-          "name": "Обратный усилитель",
-          "shortTooltipId": "LucioReverseAmp",
-          "fullTooltipId": "LucioReverseAmp",
-          "icon": "storm_ui_icon_Lucio_ReverseAmp.png",
-          "energyTooltip": "Мана: 55",
-          "cooldownTooltip": "Время восстановления: 45 сек.",
-          "shortTooltip": "«Кроссфейд» наносит противникам урон и замедляет их.",
-          "fullTooltip": "Обращает треки Лусио против вражеских героев на 4 сек. Исцеляющий трек при этом наносит 104 (+4% за уровень) ед. урона в секунду, а ускоряющий трек замедляет на 45%.  На эту способность не действуют таланты «Кроссфейда».  Пассивный эффект: увеличивает время действия «Громкости на полную!» до 4 сек.",
+          "nameId": "LucioHighFive",
+          "name": "Дай пять!",
+          "shortTooltipId": "LucioHighFive",
+          "fullTooltipId": "LucioHighFive",
+          "icon": "storm_ui_icon_lucio_highfive.png",
+          "energyTooltip": "Мана: 50",
+          "cooldownTooltip": "Время восстановления: 15 сек. на союзника",
+          "shortTooltip": "Подъезжает к союзнику, лечит и делает его неудержимым.",
+          "fullTooltip": "Лусио быстро подъезжает к союзному герою, делая его неудержимым на 1 сек. и восполняя ему 250 (+4% за уровень) ед. здоровья.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
           "abilityTalentLinkIds": [
-            "LucioReverseAmp"
+            "LucioHighFive"
           ]
         }
       ],
       "level13": [
         {
-          "nameId": "LucioCrossfadeBeatMixing",
-          "name": "Бит-миксинг",
-          "shortTooltipId": "LucioCrossfadeBeatMixing",
-          "fullTooltipId": "LucioCrossfadeBeatMixing",
-          "icon": "storm_ui_icon_Lucio_Crossfade_All.png",
-          "shortTooltip": "Смена трека дает щит.",
-          "fullTooltip": "Если следующий после смены трек проигрывается хотя бы 1.5 сек., Лусио получает постоянный щит прочностью 100 (+4% за уровень) ед.  При очередной смене трека щит пропадает.",
+          "nameId": "LucioCrossfadeAllTogetherTalent",
+          "name": "Все вместе",
+          "shortTooltipId": "LucioCrossfadeAllTogether",
+          "fullTooltipId": "LucioCrossfadeAllTogether",
+          "icon": "storm_ui_icon_lucio_crossfade_all.png",
+          "shortTooltip": "Ускоряет передвижение при нахождении рядом с союзниками.",
+          "fullTooltip": "Повышает скорость передвижения Лусио на 5% за каждого союзника в радиусе действия «Кроссфейда». Суммируется с другими бонусами к скорости передвижения.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -21126,43 +21177,29 @@
           ]
         },
         {
-          "nameId": "LucioWallRideCantStopWontStop",
-          "name": "Can't Stop, Won't Stop",
-          "shortTooltipId": "LucioWallRideCantStopWontStop",
-          "fullTooltipId": "LucioWallRideCantStopWontStop",
-          "icon": "storm_ui_icon_Lucio_WallRide.png",
-          "shortTooltip": "Во время «Езды по стенам» Лусио нельзя замедлить или обездвижить.",
-          "fullTooltip": "Пока действует бонус к скорости передвижения от «Езды по стенам», Лусио невосприимчив к эффектам замедления и обездвиживания.",
+          "nameId": "LucioPushOffHeavyCasters",
+          "name": "Звукоусилитель",
+          "shortTooltipId": "LucioPushOffHeavyCasters",
+          "fullTooltipId": "LucioPushOffHeavyCasters",
+          "icon": "storm_ui_icon_lucio_accelerando.png",
+          "shortTooltip": "Вместо замедления «Отвали!» оглушает противников.",
+          "fullTooltip": "«Отвали!» не замедляет, а оглушает пораженных противников на 0.5 сек.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "LucioWallRide"
+            "LucioPushOff"
           ]
         },
         {
-          "nameId": "LucioWallRideHardStyle",
-          "name": "Хардстайл",
-          "shortTooltipId": "LucioWallRideHardStyle",
-          "fullTooltipId": "LucioWallRideHardStyle",
-          "icon": "storm_ui_icon_Lucio_WallRide_A.png",
-          "shortTooltip": "«Езда по стенам» дает броню.",
-          "fullTooltip": "Пока действует бонус к скорости передвижения от «Езды по стенам», дает 25 ед. брони, уменьшающей получаемый урон на 25%.",
-          "abilityType": "Trait",
+          "nameId": "LucioWallRideSlip",
+          "name": "Вжух",
+          "shortTooltipId": "LucioWallRideSlip",
+          "fullTooltipId": "LucioWallRideSlip",
+          "icon": "storm_ui_icon_lucio_wallride.png",
+          "shortTooltip": "Дает броню и ускоряет передвижение во время «Езды по стенам».",
+          "fullTooltip": "Если Лусио проезжает по стене мимо вражеского героя или сквозь него, бонус к скорости передвижения от «Езды по стенам» увеличивается до 40% на 1 сек.  Пассивный эффект: во время «Езды по стенам» Лусио получает 20 ед. брони.",
+          "abilityType": "Z",
           "sort": 3,
-          "abilityTalentLinkIds": [
-            "LucioWallRide"
-          ]
-        },
-        {
-          "nameId": "LucioBackInTheMix",
-          "name": "Снова в строю",
-          "shortTooltipId": "LucioBackInTheMix",
-          "fullTooltipId": "LucioBackInTheMix",
-          "icon": "storm_ui_icon_Lucio_MrBrightside.png",
-          "shortTooltip": "Исцеляет Лусио при оглушении, немоте или остановке времени.",
-          "fullTooltip": "Восполняет Лусио 245 (+4% за уровень) ед. здоровья, когда к нему применяется эффект оглушения, немоты или остановки времени. Время восстановления – 10 сек.",
-          "abilityType": "Trait",
-          "sort": 4,
           "abilityTalentLinkIds": [
             "LucioWallRide"
           ]
@@ -21175,24 +21212,10 @@
           "shortTooltipId": "LucioAmpItUpRejuvenescencia",
           "fullTooltipId": "LucioAmpItUpRejuvenescencia",
           "icon": "storm_ui_icon_Lucio_AmpItUp.png",
-          "shortTooltip": "Исцеляющий трек восполняет больше здоровья.",
+          "shortTooltip": "Дает исцеляющему треку процентный бонус.",
           "fullTooltip": "Пока действует «Громкость на полную!», исцеляющий трек каждую секунду дополнительно восполняет союзникам 2.5% от их максимального запаса здоровья.",
           "abilityType": "E",
           "sort": 1,
-          "abilityTalentLinkIds": [
-            "LucioAmpItUp"
-          ]
-        },
-        {
-          "nameId": "LucioAmpItUpBringItTogether",
-          "name": "Камон, вливайся!",
-          "shortTooltipId": "LucioAmpItUpBringItTogether",
-          "fullTooltipId": "LucioAmpItUpBringItTogether",
-          "icon": "storm_ui_icon_Lucio_AmpItUp_A.png",
-          "shortTooltip": "Усиливает исцеляющий трек рядом с союзниками.",
-          "fullTooltip": "Если при использовании «Громкости на полную!» под ее воздействие попадает хотя бы 2 союзный герой,союзных героя,союзных героев, исцеляющий трек во время ее действия восполняет на 45% больше здоровья.",
-          "abilityType": "E",
-          "sort": 2,
           "abilityTalentLinkIds": [
             "LucioAmpItUp"
           ]
@@ -21204,12 +21227,25 @@
           "fullTooltipId": "LucioAmpItUpUpTheFrequency",
           "icon": "storm_ui_icon_Lucio_AmpItUp_B.png",
           "shortTooltip": "Автоатаки ускоряют восстановление «Громкости на полную!».",
-          "fullTooltip": "Снижает стоимость «Громкости на полную!» со 90 до 70 ед. маны. Сокращает время ее восстановления на 0.45 сек. при каждом попадании автоатакой по герою.",
+          "fullTooltip": "Когда автоатака поражает героя, время восстановления «Громкости на полную!» сокращается на 0.45 сек.  Пассивный эффект: во время «Езды по стенам» дальность автоатаки увеличивается на 2,2 м.",
           "abilityType": "E",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "LucioAmpItUp"
           ]
+        },
+        {
+          "nameId": "LucioAmpItUpUpToEleven",
+          "name": "На максимум",
+          "shortTooltipId": "LucioAmpItUpUpToEleven",
+          "fullTooltipId": "LucioAmpItUpUpToEleven",
+          "icon": "storm_ui_icon_lucio_ampitup_a.png",
+          "cooldownTooltip": "Время восстановления: 60 сек.",
+          "shortTooltip": "Продлевает действие «Громкости на полную!».",
+          "fullTooltip": "При использовании увеличивает время действия «Громкости на полную!» на 2 сек.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 3
         }
       ],
       "level20": [
@@ -21219,8 +21255,8 @@
           "shortTooltipId": "LucioSoundBarrierBossaNova",
           "fullTooltipId": "LucioSoundBarrierBossaNova",
           "icon": "storm_ui_icon_Lucio_SoundBarrier.png",
-          "shortTooltip": "Сокращает время действия и восстановления «Звукового барьера».",
-          "fullTooltip": "Сокращает время восстановления «Звукового барьера» до 30 сек., но щит от него полностью теряет прочность за 4 сек.",
+          "shortTooltip": "Уменьшает время действия и восстановления «Звукового барьера».",
+          "fullTooltip": "Уменьшает время восстановления «Звукового барьера» до 30 сек., но щит от него полностью теряет прочность за 4 сек.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -21228,45 +21264,49 @@
           ]
         },
         {
-          "nameId": "LucioReverseAmpNonstopRemix",
-          "name": "Играем нон-стоп",
-          "shortTooltipId": "LucioReverseAmpNonstopRemix",
-          "fullTooltipId": "LucioReverseAmpNonstopRemix",
-          "icon": "storm_ui_icon_Lucio_ReverseAmp.png",
-          "shortTooltip": "Продлевает действие «Обратного усилителя» вблизи нескольких врагов.",
-          "fullTooltip": "Пока «Обратный усилитель» действует как минимум на 2 вражеских героев, время его действия не ограничено.",
+          "nameId": "LucioCrossfadeMixingFire",
+          "name": "Микширование",
+          "shortTooltipId": "LucioHighFiveMixingFire",
+          "fullTooltipId": "LucioHighFiveMixingFire",
+          "icon": "storm_ui_icon_lucio_highfive.png",
+          "shortTooltip": "«Дай пять!» наносит урон противникам и снижает эффективность их исцеления.",
+          "fullTooltip": "Позволяет применять «Дай пять!» к вражеским героям, нанося им 225 (+4% за уровень) ед. урона и снижая эффективность получаемого ими исцеления на 50% на 3 сек.  Пассивный эффект: увеличивает время действия «Громкости на полную!» на 1 сек.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "LucioReverseAmp"
+            "LucioHighFive"
           ]
         },
         {
-          "nameId": "LucioAmptItUpBonusTrack",
-          "name": "Бонус-трек",
-          "shortTooltipId": "LucioAmptItUpBonusTrack",
-          "fullTooltipId": "LucioAmptItUpBonusTrack",
-          "icon": "storm_ui_icon_Lucio_AmpItUp.png",
-          "shortTooltip": "«Кроссфейд» обновляет эффект «Громкости на полную!».",
-          "fullTooltip": "При смене треков под воздействием «Громкости на полную!» время действия ее эффекта обновляется.  Срабатывает только один раз за применение «Громкости на полную».",
-          "abilityType": "E",
+          "nameId": "LucioPassiveHouseParty",
+          "name": "Вписка",
+          "shortTooltipId": "LucioPassiveHouseParty",
+          "fullTooltipId": "LucioPassiveHouseParty",
+          "icon": "storm_ui_icon_lucio_crossfade_all.png",
+          "shortTooltip": "Усиливает исцеление при нахождении рядом с союзниками.",
+          "fullTooltip": "Повышает эффективность исходящего от Лусио исцеления на 10% за каждого союзника в области действия «Кроссфейда».",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "LucioAmpItUp"
+            "LucioCrossfade",
+            "LucioCrossfadeActivateHealingBoost"
           ]
         },
         {
-          "nameId": "LucioAmpItUpSynaesthesiaAuditiva",
-          "name": "Synaesthesia Auditiva",
-          "shortTooltipId": "LucioAmpItUpSynaesthesiaAuditiva",
-          "fullTooltipId": "LucioAmpItUpSynaesthesiaAuditiva",
-          "icon": "storm_ui_icon_Lucio_AmpItUp_A.png",
-          "shortTooltip": "«Громкость на полную!» снимает эффекты оглушения, замедления и обездвиживания.",
-          "fullTooltip": "Применение «Громкости на полную!» снимает с союзников эффекты оглушения, замедления и обездвиживания, а с самого Лусио – эффекты замедления и обездвиживания.",
-          "abilityType": "E",
+          "nameId": "LucioItemSummerAnthem",
+          "name": "Летний гимн",
+          "shortTooltipId": "LucioItemSummerAnthem",
+          "fullTooltipId": "LucioItemSummerAnthem",
+          "icon": "storm_ui_icon_lucio_crossfade_a.png",
+          "cooldownTooltip": "Время восстановления: 75 сек.",
+          "shortTooltip": "Делает находящихся рядом союзников бессмертными.",
+          "fullTooltip": "При использовании делает других союзников в области действия «Кроссфейда» бессмертными на 1.5 сек.",
+          "abilityType": "Active",
+          "isActive": true,
           "sort": 4,
           "abilityTalentLinkIds": [
-            "LucioAmpItUp"
+            "LucioCrossfade",
+            "LucioCrossfadeActivateHealingBoost"
           ]
         }
       ]
@@ -21320,6 +21360,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 5.0,
       "damage": 8.0,
@@ -21516,7 +21557,7 @@
           "fullTooltipId": "DryadBlossomSwellTalent",
           "icon": "storm_ui_icon_Lunara_PollenCloud.png",
           "shortTooltip": "Увеличивает дальность и область действия «Ядовитого цветка».",
-          "fullTooltip": "Увеличивает дальность действия «Ядовитого цветка» на 25%, а область действия – на 20%. Когда способность поражает героя, скорость передвижения Лунары повышается на 15% на 3 сек.",
+          "fullTooltip": "Увеличивает дальность действия «Ядовитого цветка» на 25%, а радиус действия – на 20%. Когда он поражает героя, скорость передвижения Лунары повышается на 12% на 3 сек. Суммируется с другими бонусами к скорости передвижения.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -21859,6 +21900,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца ближнего боя",
     "ratings": {
       "complexity": 7.0,
       "damage": 6.0,
@@ -22322,6 +22364,7 @@
     "roles": [
       "Поддержка"
     ],
+    "expandedRole": "Лекарь",
     "ratings": {
       "complexity": 5.0,
       "damage": 4.0,
@@ -22787,6 +22830,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Танк",
     "ratings": {
       "complexity": 3.0,
       "damage": 5.0,
@@ -23231,7 +23275,7 @@
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
     "searchText": "Малтель Малтаель ангел архангел диабло жнец смерти Angel Archangel Diablo 3 D3 Reaper of Souls RoS",
-    "description": "Убийца, отмечающий врагов смертоносной меткой и с легкостью убивающий противников с высоким запасом здоровья.",
+    "description": "Рубака, который отмечает врагов смертоносной меткой и с легкостью убивает противников с высоким уровнем здоровья.",
     "descriptors": [
       "BodyBlocker",
       "DeadUpdater",
@@ -23262,6 +23306,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Рубака",
     "ratings": {
       "complexity": 6.0,
       "damage": 7.0,
@@ -23732,6 +23777,7 @@
     "roles": [
       "Специалист"
     ],
+    "expandedRole": "Поддержка",
     "ratings": {
       "complexity": 8.0,
       "damage": 2.0,
@@ -24076,7 +24122,7 @@
           "fullTooltipId": "MedivhTemporalFlux",
           "icon": "storm_ui_icon_medivh_arcanemissile_a.png",
           "shortTooltip": "«Магический раскол» ускоряет восстановление героической способности.",
-          "fullTooltip": "Каждая автоатака сокращает время восстановления героической способности на 3%. Когда «Магический раскол» поражает героя, время восстановления героической способности сокращается на -9%.",
+          "fullTooltip": "Каждая автоатака сокращает время восстановления героической способности на 3%. Когда «Магический раскол» поражает героя, время восстановления героической способности сокращается на 9%.",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -24222,6 +24268,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 7.0,
       "damage": 8.0,
@@ -24694,6 +24741,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Танк",
     "ratings": {
       "complexity": 4.0,
       "damage": 5.0,
@@ -24744,7 +24792,7 @@
           "energyTooltip": "Мана: 55",
           "cooldownTooltip": "Время восстановления: 10 сек.",
           "shortTooltip": "Прыгает в указанную область, нанося урон находящимся там противникам.",
-          "fullTooltip": "Совершает прыжок в указанное место, нанося 59 (+4% за уровень) ед. урона противникам в области поражения. После приземления Мурадин получает 25 ед. брони на 2 сек. Эта броня уменьшает получаемый урон на 25%.",
+          "fullTooltip": "Совершает прыжок в указанное место, нанося 59 (+4% за уровень) ед. урона противникам в области поражения. При этом Мурадин получает 25 ед. брони на 2 сек. Эта броня уменьшает получаемый урон на 25%.",
           "abilityType": "E"
         }
       ],
@@ -24990,7 +25038,7 @@
           "fullTooltipId": "MuradinThunderclapThunderstrikeTalent",
           "icon": "storm_ui_icon_muradin_thunderclap.png",
           "shortTooltip": "«Раскат грома» наносит больше урона по одиночной цели.",
-          "fullTooltip": "«Раскат грома» наносит 300% урона, если способность поражает только одну цель.",
+          "fullTooltip": "«Раскат грома» наносит 300% урона, если поражает только одну цель.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -25159,6 +25207,7 @@
     "roles": [
       "Специалист"
     ],
+    "expandedRole": "Убийца ближнего боя",
     "ratings": {
       "complexity": 8.0,
       "damage": 5.0,
@@ -25612,6 +25661,7 @@
     "roles": [
       "Специалист"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 6.0,
       "damage": 8.0,
@@ -26086,6 +26136,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 5.0,
       "damage": 10.0,
@@ -26582,6 +26633,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 4.0,
       "damage": 9.0,
@@ -27048,6 +27100,7 @@
     "roles": [
       "Специалист"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 7.0,
       "damage": 8.0,
@@ -27540,6 +27593,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Рубака",
     "ratings": {
       "complexity": 7.0,
       "damage": 8.0,
@@ -28067,6 +28121,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 3.0,
       "damage": 9.0,
@@ -28541,6 +28596,7 @@
     "roles": [
       "Поддержка"
     ],
+    "expandedRole": "Лекарь",
     "ratings": {
       "complexity": 6.0,
       "damage": 5.0,
@@ -28617,7 +28673,7 @@
           "energyTooltip": "Мана: 70",
           "cooldownTooltip": "Время восстановления: 90 сек.",
           "shortTooltip": "Союзные герои атакуют и передвигаются быстрее, а также похищают здоровье.",
-          "fullTooltip": "Повышает скорость атаки находящихся рядом союзных героев на 40%, а скорость передвижения – на 25%. Кроме того эти герои восполняют здоровье в объеме 30% от нанесенного автоатаками урона основной цели. Время действия – 8 сек.",
+          "fullTooltip": "Повышает скорость атаки находящихся рядом союзных героев на 40%, а скорость передвижения – на 25%. Кроме того, эти герои восполняют здоровье в объеме 30% от нанесенного автоатаками урона основной цели. Время действия – 8 сек.",
           "abilityType": "Heroic"
         }
       ],
@@ -28832,7 +28888,7 @@
           "energyTooltip": "Мана: 70",
           "cooldownTooltip": "Время восстановления: 90 сек.",
           "shortTooltip": "Союзные герои атакуют и передвигаются быстрее, а также похищают здоровье.",
-          "fullTooltip": "Повышает скорость атаки находящихся рядом союзных героев на 40%, а скорость передвижения – на 25%. Кроме того эти герои восполняют здоровье в объеме 30% от нанесенного автоатаками урона основной цели. Время действия – 8 сек.",
+          "fullTooltip": "Повышает скорость атаки находящихся рядом союзных героев на 40%, а скорость передвижения – на 25%. Кроме того, эти герои восполняют здоровье в объеме 30% от нанесенного автоатаками урона основной цели. Время действия – 8 сек.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -29035,6 +29091,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Рубака",
     "ratings": {
       "complexity": 6.0,
       "damage": 5.0,
@@ -29232,7 +29289,7 @@
           "fullTooltipId": "RexxarAspectoftheBeastTalent",
           "icon": "storm_ui_icon_rexxar_mishacharge.png",
           "shortTooltip": "Автоатаки Миши ускоряют восстановление способности «Миша, взять!».",
-          "fullTooltip": "Каждая автоатака Миши сокращает время восстановления способности «Миша, взять!» на 1 сек.",
+          "fullTooltip": "Каждая автоатака Миши сокращает время восстановления «Миша, взять!» на 1 сек.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -29512,6 +29569,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца ближнего боя",
     "ratings": {
       "complexity": 7.0,
       "damage": 6.0,
@@ -29646,7 +29704,7 @@
           "fullTooltipId": "SamuroWayOfTheWind",
           "icon": "storm_ui_icon_samuro_windwalk.png",
           "shortTooltip": "«Танец ветра» дополнительно ускоряет передвижение.",
-          "fullTooltip": "В течение 3 сек. после использования или окончания действия «Танца ветра» скорость передвижения Самуро повышается на 40%. Критические удары Самуро сокращают время восстановления «Ветроступа» на 1.5 сек.",
+          "fullTooltip": "В течение 3 сек. после использования или окончания действия «Танца ветра» скорость передвижения Самуро повышается на 40%. Критические удары Самуро сокращают время восстановления «Танца ветра» на 1.5 сек.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -29971,6 +30029,7 @@
     "roles": [
       "Специалист"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 6.0,
       "damage": 9.0,
@@ -30373,7 +30432,7 @@
           "fullTooltipId": "SgtHammerSpiderMinesShrapnelMines",
           "icon": "storm_ui_icon_sgthammer_spidermines.png",
           "shortTooltip": "«Паучьи мины» ослабляют броню.",
-          "fullTooltip": "При детонации «Паучьи мины» снижают показатель брони пораженных героев на 10 ед. на 4 сек.",
+          "fullTooltip": "При детонации «Паучьи мины» ослабляют броню пораженных героев на 10 ед., вплоть до 30 ед., на 4 сек.",
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -30447,6 +30506,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Рубака",
     "ratings": {
       "complexity": 5.0,
       "damage": 7.0,
@@ -30759,7 +30819,7 @@
           "fullTooltipId": "BarbarianGiantSlammer",
           "icon": "storm_ui_icon_sonya_seismicslam.png",
           "shortTooltip": "Автоатаки и «Сейсмический удар» наносят дополнительный урон.",
-          "fullTooltip": "Автоатаки и «Сейсмический удар» наносят героям дополнительный урон в объеме 1.25% от их максимального запаса здоровья и восполняют Соне здоровье в размере нанесенного урона.",
+          "fullTooltip": "Автоатаки и «Сейсмический удар» наносят героям дополнительный урон в объеме 1.25% от их максимального запаса здоровья и восполняют Соне здоровье в объеме, равном нанесенному урону.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -30898,6 +30958,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Танк",
     "ratings": {
       "complexity": 4.0,
       "damage": 6.0,
@@ -31374,6 +31435,7 @@
     "roles": [
       "Поддержка"
     ],
+    "expandedRole": "Лекарь",
     "ratings": {
       "complexity": 7.0,
       "damage": 3.0,
@@ -31875,6 +31937,7 @@
     "roles": [
       "Специалист"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 6.0,
       "damage": 9.0,
@@ -32334,6 +32397,7 @@
     "roles": [
       "Поддержка"
     ],
+    "expandedRole": "Поддержка",
     "ratings": {
       "complexity": 4.0,
       "damage": 6.0,
@@ -32793,6 +32857,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца ближнего боя",
     "ratings": {
       "complexity": 3.0,
       "damage": 9.0,
@@ -33235,6 +33300,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Рубака",
     "ratings": {
       "complexity": 6.0,
       "damage": 8.0,
@@ -33701,6 +33767,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 8.0,
       "damage": 8.0,
@@ -34133,6 +34200,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 6.0,
       "damage": 8.0,
@@ -34585,7 +34653,7 @@
           "fullTooltipId": "TychusRunAndGunBobAndWeaveTalent",
           "icon": "storm_ui_icon_tychus_runandgun.png",
           "shortTooltip": "Добавляет заряды «Стрельбы на бегу» и уменьшает затраты маны.",
-          "fullTooltip": "Увеличивает дальность автоатаки Тайкуса на 1.5 м. Уменьшает затраты маны на «Стрельбу на бегу» с 50 до 25 ед. «Стрельба на бегу» и «Ускорители» «Одина» получают 2 дополнительных заряда.",
+          "fullTooltip": "Увеличивает дальность автоатаки на 1.5 м. Снижает стоимость «Стрельбы на бегу» с 50 до 25 ед. маны. «Стрельба на бегу» и «Ускорители» «Одина» получают еще 2 заряда.",
           "abilityType": "E",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -34646,6 +34714,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Танк",
     "ratings": {
       "complexity": 5.0,
       "damage": 6.0,
@@ -35069,7 +35138,7 @@
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
     "searchText": "Тиранда Шелест Ветра сова лучница ночной эльф ночные эльфы Элуна жрица Альянс WoW World of Warcraft War3 WC3 Warcraft3 III 3 Reign of Chaos RoC Frozen Throne FT Cataclysm Mists of Pandaria MoP Warlords Draenor WoD Legion Hearthstone HS",
-    "description": "Герой поддержки, помогающий команде обезвреживать и убивать вражеских героев.",
+    "description": "Лекарь, который помогает команде обезвреживать и добивать противников.",
     "descriptors": [
       "AllyHealer",
       "EnergyImportant",
@@ -35100,6 +35169,7 @@
     "roles": [
       "Поддержка"
     ],
+    "expandedRole": "Лекарь",
     "ratings": {
       "complexity": 7.0,
       "damage": 5.0,
@@ -35573,6 +35643,7 @@
     "roles": [
       "Поддержка"
     ],
+    "expandedRole": "Лекарь",
     "ratings": {
       "complexity": 2.0,
       "damage": 3.0,
@@ -35637,7 +35708,7 @@
           "energyTooltip": "Мана: 80",
           "cooldownTooltip": "Время восстановления: 90 сек.",
           "shortTooltip": "Дает союзнику неуязвимость и повышает скорость его передвижения.",
-          "fullTooltip": "Делает выбранного союзника неуязвимым и повышает его скорость передвижения на 20% на 3 сек.",
+          "fullTooltip": "Дает союзному герою неуязвимость и повышает его скорость передвижения на 20% на 3 сек.",
           "abilityType": "Heroic"
         },
         {
@@ -35830,7 +35901,7 @@
           "energyTooltip": "Мана: 80",
           "cooldownTooltip": "Время восстановления: 90 сек.",
           "shortTooltip": "Дает союзнику неуязвимость и повышает скорость его передвижения.",
-          "fullTooltip": "Делает выбранного союзника неуязвимым и повышает его скорость передвижения на 20% на 3 сек.",
+          "fullTooltip": "Дает союзному герою неуязвимость и повышает его скорость передвижения на 20% на 3 сек.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -36051,6 +36122,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца ближнего боя",
     "ratings": {
       "complexity": 8.0,
       "damage": 5.0,
@@ -36573,6 +36645,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 3.0,
       "damage": 9.0,
@@ -37020,7 +37093,7 @@
     "mountLinkId": "SummonMount",
     "hearthLinkId": "Hearthstone",
     "searchText": "Вариан Ринн логош Вариан ло'гош WoW World of Warcraft Wrath of the Lich King WotLK Cataclysm Mists of Pandaria MoP Warlords of Draenor WoD катаклизм лич дренор Legion легион",
-    "description": "Может стать как танком, так и эффективным убийцей.",
+    "description": "Рубака, который может стать как танком, так и эффективным убийцей.",
     "descriptors": [
       "EnergyImportant",
       "Ganker",
@@ -37051,6 +37124,7 @@
       "Боец",
       "Убийца"
     ],
+    "expandedRole": "Рубака",
     "ratings": {
       "complexity": 6.0,
       "damage": 6.0,
@@ -37530,6 +37604,7 @@
     "roles": [
       "Поддержка"
     ],
+    "expandedRole": "Лекарь",
     "ratings": {
       "complexity": 8.0,
       "damage": 5.0,
@@ -37997,6 +38072,7 @@
     "roles": [
       "Специалист"
     ],
+    "expandedRole": "Рубака",
     "ratings": {
       "complexity": 4.0,
       "damage": 5.0,
@@ -38468,6 +38544,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Рубака",
     "ratings": {
       "complexity": 5.0,
       "damage": 5.0,
@@ -38491,7 +38568,7 @@
           "shortTooltipId": "YrelVindication",
           "fullTooltipId": "YrelVindication",
           "icon": "storm_ui_icon_yrel_vindication.png",
-          "energyTooltip": "Мана: 65",
+          "energyTooltip": "Мана:  ед.",
           "cooldownTooltip": "Время восстановления: 6 сек.",
           "shortTooltip": "Восполняет здоровье и наносит противникам урон.",
           "fullTooltip": "Создает вокруг Ирель кольцо энергии Света, которое наносит находящимся рядом противникам 42 (+4% за уровень) ед. урона и восполняет Ирель 96 (+4% за уровень) ед. здоровья.  По мере подготовки наносимый урон увеличивается вплоть до 140 (+4% за уровень) ед., а объем исцеления – вплоть до 320 (+4% за уровень) ед.",
@@ -38503,10 +38580,10 @@
           "shortTooltipId": "YrelRighteousHammer",
           "fullTooltipId": "YrelRighteousHammer",
           "icon": "storm_ui_icon_yrel_righteous_hammer.png",
-          "energyTooltip": "Мана: 65",
+          "energyTooltip": "Мана:  ед.",
           "cooldownTooltip": "Время восстановления: 6 сек.",
           "shortTooltip": "Отбрасывает и оглушает противников.",
-          "fullTooltip": "Взмахивает молотом, нанося противникам перед собой 38 (+4% за уровень) ед. урона и отбрасывая их.  По мере подготовки увеличивает дальность отбрасывания, а также урон (вплоть до 125 (+4% за уровень) ед.). При максимальной подготовке оглушает пораженных противников на 0.75 сек.",
+          "fullTooltip": "Взмахивает молотом, нанося противникам перед собой 38 (+4% за уровень) ед. урона и отбрасывая их.  По мере подготовки увеличивает дальность отбрасывания, а также урон (вплоть до 125 (+4% за уровень) ед.). При максимальной подготовке оглушает пораженных противников на  сек.",
           "abilityType": "W"
         },
         {
@@ -38515,10 +38592,10 @@
           "shortTooltipId": "YrelAvengingWrath",
           "fullTooltipId": "YrelAvengingWrath",
           "icon": "storm_ui_icon_yrel_avenging_wrath.png",
-          "energyTooltip": "Мана: 65",
+          "energyTooltip": "Мана:",
           "cooldownTooltip": "Время восстановления: 6 сек.",
           "shortTooltip": "Прыгает в указанную область, наносит урон и замедляет противников.",
-          "fullTooltip": "Прыгает в указанную точку, нанося противникам в области приземления 225 (+4% за уровень) ед. урона и замедляя их на 50% на 1 сек.  Дальность действия увеличивается по мере подготовки.",
+          "fullTooltip": "Прыгает в указанную точку, нанося противникам в области приземления 225 (+4% за уровень) ед. урона и замедляя их на 50% на  сек.  Дальность действия увеличивается по мере подготовки.",
           "abilityType": "E"
         }
       ],
@@ -38532,7 +38609,7 @@
           "energyTooltip": "Мана: 80",
           "cooldownTooltip": "Время восстановления: 120 сек.",
           "shortTooltip": "Преобразует получаемый урон в здоровье.",
-          "fullTooltip": "Окружает Ирель барьером на 3 сек. Барьер поглощает получаемый урон и восполняет здоровье в объеме 50% от этого урона.",
+          "fullTooltip": "Окружает Ирель барьером на  сек. Барьер поглощает получаемый урон и восполняет здоровье в объеме 50% от этого урона.",
           "abilityType": "Heroic"
         },
         {
@@ -38544,7 +38621,7 @@
           "energyTooltip": "Мана: 40",
           "cooldownTooltip": "Время восстановления: 40 сек.",
           "shortTooltip": "Ирель получает броню, находясь в определенной области.",
-          "fullTooltip": "Ирель освящает область вокруг себя и получает 40 ед. брони. Броня исчезает, когда Ирель покидает освященную область.",
+          "fullTooltip": "Ирель освящает область вокруг себя и получает  ед. брони. Броня исчезает, когда Ирель покидает освященную область.",
           "abilityType": "Heroic"
         }
       ],
@@ -38609,7 +38686,7 @@
           "fullTooltipId": "YrelAvengingWrathAegisOfLight",
           "icon": "storm_ui_icon_yrel_avenging_wrath.png",
           "shortTooltip": "«Гнев карательницы» дает союзникам броню.",
-          "fullTooltip": "После приземления при использовании «Гнева карательницы» дает находящимся рядом союзным героям 25 ед. брони на 4 сек.",
+          "fullTooltip": "После приземления при использовании «Гнева карательницы» дает находящимся рядом союзным героям 25 ед. брони на  сек. Не действует на Ирель.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38638,7 +38715,7 @@
           "icon": "storm_ui_icon_yrel_hand_of_freedom.png",
           "cooldownTooltip": "Время восстановления: 22 сек.",
           "shortTooltip": "Ускоряет передвижение, а также снимает эффекты замедления и обездвиживания.",
-          "fullTooltip": "Повышает скорость передвижения союзного героя на 50% на 3 сек. и снимает с него эффекты замедления и обездвиживания.  Не действует на Ирель.",
+          "fullTooltip": "Повышает скорость передвижения союзного героя на 50% на  сек. и снимает с него эффекты замедления и обездвиживания.  Не действует на Ирель.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -38680,7 +38757,7 @@
           "fullTooltipId": "YrelDivineSteed",
           "icon": "storm_ui_icon_yrel_divine_steed.png",
           "shortTooltip": "Позволяет призывать транспорт мгновенно.",
-          "fullTooltip": "Ирель может использовать транспорт мгновенно, получая при этом бонус к скорости передвижения в 60%, который постепенно ослабевает в течение 3 сек.",
+          "fullTooltip": "Ирель использует транспорт мгновенно, получая при этом бонус к скорости передвижения в 60%, который постепенно ослабевает в течение  сек.",
           "abilityType": "Z",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -38709,7 +38786,7 @@
           "energyTooltip": "Мана: 80",
           "cooldownTooltip": "Время восстановления: 120 сек.",
           "shortTooltip": "Преобразует получаемый урон в здоровье.",
-          "fullTooltip": "Окружает Ирель барьером на 3 сек. Барьер поглощает получаемый урон и восполняет здоровье в объеме 50% от этого урона.",
+          "fullTooltip": "Окружает Ирель барьером на  сек. Барьер поглощает получаемый урон и восполняет здоровье в объеме 50% от этого урона.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -38726,7 +38803,7 @@
           "energyTooltip": "Мана: 40",
           "cooldownTooltip": "Время восстановления: 40 сек.",
           "shortTooltip": "Ирель получает броню, находясь в определенной области.",
-          "fullTooltip": "Ирель освящает область вокруг себя и получает 40 ед. брони. Броня исчезает, когда Ирель покидает освященную область.",
+          "fullTooltip": "Ирель освящает область вокруг себя и получает  ед. брони. Броня исчезает, когда Ирель покидает освященную область.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -38743,7 +38820,7 @@
           "fullTooltipId": "YrelVindicationAldorPeacekeeper",
           "icon": "storm_ui_icon_yrel_vindication.png",
           "shortTooltip": "«Оправдание» может уменьшить наносимый противниками урон.",
-          "fullTooltip": "Герои, пораженные «Оправданием» после максимальной подготовки, в течение 3 сек. наносят на 30% меньше урона.",
+          "fullTooltip": "Герои, пораженные «Оправданием» после максимальной подготовки, в течение  сек. наносят на 30% меньше урона.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38771,7 +38848,7 @@
           "fullTooltipId": "YrelVelensChosen",
           "icon": "storm_ui_icon_yrel_velens_chosen.png",
           "shortTooltip": "Базовые способности могут дать бонус к силе способностей.",
-          "fullTooltip": "Когда базовая способность поражает героя после максимальной подготовки, Ирель получает бонус к силе способностей в 10% на 10 сек., вплоть до 30%.",
+          "fullTooltip": "Когда базовая способность поражает героя после максимальной подготовки, Ирель получает бонус к силе способностей в 10% на  сек., вплоть до 30%.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -38854,7 +38931,7 @@
           "icon": "storm_ui_icon_yrel_bubble_hearth.png",
           "cooldownTooltip": "Время восстановления: 80 сек.",
           "shortTooltip": "Дает неуязвимость и переносит на базу.",
-          "fullTooltip": "После паузы в 1 сек. Ирель становится неуязвимой и использует камень возвращения. Эту способность нельзя прервать.",
+          "fullTooltip": "После паузы в  сек. Ирель становится неуязвимой и использует камень возвращения. Эту способность нельзя прервать.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -38867,7 +38944,7 @@
           "icon": "storm_ui_icon_yrel_seraphim.png",
           "cooldownTooltip": "Время восстановления: 10 сек.",
           "shortTooltip": "Дает неудержимость.",
-          "fullTooltip": "При использовании дает неудержимость на 2 сек.",
+          "fullTooltip": "При использовании дает неудержимость на  сек.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4
@@ -38923,6 +39000,7 @@
     "roles": [
       "Специалист"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 6.0,
       "damage": 6.0,
@@ -39126,7 +39204,7 @@
           "fullTooltipId": "ZagaraBanelingBarrageBanelingMassacreTalent",
           "icon": "storm_ui_icon_zagara_banelingbarrage.png",
           "shortTooltip": "Увеличивает урон и число зарядов «Вала гиблингов».",
-          "fullTooltip": "«Вал гиблингов» получает 2 дополнительных заряда, а гиблинги наносят на 20% больше урона.",
+          "fullTooltip": "«Вал гиблингов» получает еще 2 заряда, а гиблинги наносят на 20% больше урона.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -39354,7 +39432,7 @@
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneNoMana",
     "searchText": "Заря Александра ОВ Овервоч человек Overwatch OW",
-    "description": "Рубака, способная превращать союзников-убийц в машины смерти и предотвращать получение большого количества урона за короткое время.",
+    "description": "Герой поддержки, способный превращать союзников-убийц в машины смерти и предотвращать получение большого объема урона за короткое время.",
     "descriptors": [
       "ChanneledAutoAttacker",
       "Helper",
@@ -39382,6 +39460,7 @@
     "roles": [
       "Боец"
     ],
+    "expandedRole": "Поддержка",
     "ratings": {
       "complexity": 7.0,
       "damage": 5.0,
@@ -39913,6 +39992,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца ближнего боя",
     "ratings": {
       "complexity": 5.0,
       "damage": 8.0,
@@ -40377,6 +40457,7 @@
     "roles": [
       "Убийца"
     ],
+    "expandedRole": "Убийца дальнего боя",
     "ratings": {
       "complexity": 4.0,
       "damage": 8.0,
