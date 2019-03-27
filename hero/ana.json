@@ -7,6 +7,7 @@
   "name": "Ana",
   "icon": "ana.png",
   "role": "Support",
+  "expandedRole": "Healer",
   "type": "Ranged",
   "releaseDate": "2017-09-26",
   "releasePatch": "2.28.0.57797",
@@ -32,7 +33,7 @@
       },
       {
         "name": "Biotic Grenade",
-        "description": "Toss a Grenade at the target area. Allied Heroes hit are healed for 166 (+4% per level) Health and receive 25% increased healing from Ana for 4 seconds. Enemies hit take 60 (+4% per level) damage and receive 100% less healing for 2 seconds.",
+        "description": "Toss a grenade at the target area. Allied Heroes hit are healed for 166 (+4% per level) Health and receive 25% increased healing from Ana for 4 seconds. Enemies hit take 60 (+4% per level) damage and receive 100% less healing for 2 seconds.",
         "hotkey": "W",
         "abilityId": "Ana|W1",
         "cooldown": 16,
@@ -72,7 +73,7 @@
       },
       {
         "name": "Shrike",
-        "description": "Basic Attacks apply a Dose to enemies, dealing an additional 40 (+4% per level) damage over 5 seconds, and stacking up to 5 times. Every 0.5 seconds, Ana is healed for 50% of the damage dealt by Shrike.  Aim Down Sights  Shrike can be activated to increase the Range of Healing Dart and Sleep Dart by 25%, allowing them to pierce one Hero but also reduce Movement Speed by 25%. Lasts until canceled.",
+        "description": "Basic Attacks apply a Dose to enemies, dealing an additional 40 (+4% per level) damage over 5 seconds, and stacking up to 5 times. Every 0.5 seconds, Ana is healed for 50% of the damage dealt by Shrike.  Aim Down Sights  Activating Shrike reduces your Movement Speed by 25%, but increases the Range of Healing Dart and Sleep Dart by 25% while also allowing them to pierce one Hero. Lasts until canceled.",
         "trait": true,
         "abilityId": "Ana|D1",
         "icon": "storm_ui_icon_ana_shrike.png",
