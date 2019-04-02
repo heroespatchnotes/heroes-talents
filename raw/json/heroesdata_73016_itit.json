@@ -38568,7 +38568,7 @@
           "shortTooltipId": "YrelVindication",
           "fullTooltipId": "YrelVindication",
           "icon": "storm_ui_icon_yrel_vindication.png",
-          "energyTooltip": "Mana:",
+          "energyTooltip": "Mana: 65",
           "cooldownTooltip": "Recupero: 6 s",
           "shortTooltip": "Rigenera Salute e infligge danni ai nemici.",
           "fullTooltip": "Libera energia sacra attorno a Yrel, infliggendo 42 (+4% per livello) danni ai nemici vicini e curandola di 96 (+4% per livello) Salute.  Caricare l'abilità aumenta i danni fino a un massimo di 140 (+4% per livello), e le cure fino a un massimo di 320 (+4% per livello).",
@@ -38580,10 +38580,10 @@
           "shortTooltipId": "YrelRighteousHammer",
           "fullTooltipId": "YrelRighteousHammer",
           "icon": "storm_ui_icon_yrel_righteous_hammer.png",
-          "energyTooltip": "Mana:",
+          "energyTooltip": "Mana: 65",
           "cooldownTooltip": "Recupero: 6 s",
           "shortTooltip": "Respinge e stordisce i nemici.",
-          "fullTooltip": "Yrel rotea il suo martello, infliggendo 38 (+4% per livello) danni ai nemici di fronte a sé e respingendoli.  Caricare l'abilità estende la distanza di respinta e aumenta i danni fino a un massimo di 125 (+4% per livello). I nemici colpiti al massimo della carica sono storditi per  s.",
+          "fullTooltip": "Yrel rotea il suo martello, infliggendo 38 (+4% per livello) danni ai nemici di fronte a sé e respingendoli.  Caricare l'abilità estende la distanza di respinta e aumenta i danni fino a un massimo di 125 (+4% per livello). I nemici colpiti al massimo della carica sono storditi per 0.75 s.",
           "abilityType": "W"
         },
         {
@@ -38592,10 +38592,10 @@
           "shortTooltipId": "YrelAvengingWrath",
           "fullTooltipId": "YrelAvengingWrath",
           "icon": "storm_ui_icon_yrel_avenging_wrath.png",
-          "energyTooltip": "Mana:",
+          "energyTooltip": "Mana: 65",
           "cooldownTooltip": "Recupero: 6 s",
           "shortTooltip": "Balza su un'area, infliggendo danni e rallentando i nemici.",
-          "fullTooltip": "Yrel balza nel punto selezionato, infliggendo 225 (+4% per livello) danni ai nemici nell'area e rallentandoli del 50% per  s.  Caricare l'abilità ne estende la portata.",
+          "fullTooltip": "Yrel balza nel punto selezionato, infliggendo 225 (+4% per livello) danni ai nemici nell'area e rallentandoli del 50% per 1 s.  Caricare l'abilità ne estende la portata.",
           "abilityType": "E"
         }
       ],
@@ -38609,7 +38609,7 @@
           "energyTooltip": "Mana: 80",
           "cooldownTooltip": "Recupero: 120 s",
           "shortTooltip": "Converte in Salute i danni subiti.",
-          "fullTooltip": "Avvolge Yrel in una barriera per  s, assorbendo i danni subiti e rigenerando Salute pari al 50% dei danni ricevuti.",
+          "fullTooltip": "Avvolge Yrel in una barriera per 3 s, assorbendo i danni subiti e rigenerando Salute pari al 50% dei danni ricevuti.",
           "abilityType": "Heroic"
         },
         {
@@ -38621,7 +38621,7 @@
           "energyTooltip": "Mana: 40",
           "cooldownTooltip": "Recupero: 40 s",
           "shortTooltip": "Yrel ottiene Resistenza in un'area.",
-          "fullTooltip": "Yrel santifica il terreno attorno a sé, ottenendo  Resistenza fino a quando non abbandona l'area.",
+          "fullTooltip": "Yrel santifica il terreno attorno a sé, ottenendo 40 Resistenza fino a quando non abbandona l'area.",
           "abilityType": "Heroic"
         }
       ],
@@ -38686,7 +38686,7 @@
           "fullTooltipId": "YrelAvengingWrathAegisOfLight",
           "icon": "storm_ui_icon_yrel_avenging_wrath.png",
           "shortTooltip": "Ira Vendicatrice fornisce Resistenza agli alleati.",
-          "fullTooltip": "All'atterraggio, Ira Vendicatrice fornisce 25 Resistenza per  s agli eroi alleati vicini.",
+          "fullTooltip": "All'atterraggio, Ira Vendicatrice fornisce 25 Resistenza per 4 s agli eroi alleati vicini.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38715,7 +38715,7 @@
           "icon": "storm_ui_icon_yrel_hand_of_freedom.png",
           "cooldownTooltip": "Recupero: 22 s",
           "shortTooltip": "Aumenta la velocità di movimento, rimuove effetti di rallentamento e immobilizzazione.",
-          "fullTooltip": "Aumenta del 50% la velocità di movimento di un eroe alleato per  s e rimuove tutti gli effetti di rallentamento e immobilizzazione.  Non può essere usata su Yrel.",
+          "fullTooltip": "Aumenta del 50% la velocità di movimento di un eroe alleato per 3 s e rimuove tutti gli effetti di rallentamento e immobilizzazione.  Non può essere usata su Yrel.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -38757,7 +38757,7 @@
           "fullTooltipId": "YrelDivineSteed",
           "icon": "storm_ui_icon_yrel_divine_steed.png",
           "shortTooltip": "Evoca immediatamente la cavalcatura.",
-          "fullTooltip": "Evoca immediatamente la cavalcatura, e fornisce un bonus del 60% alla velocità di movimento che si esaurisce progressivamente nel corso di  s.",
+          "fullTooltip": "Evoca immediatamente la cavalcatura, e fornisce un bonus del 60% alla velocità di movimento che si esaurisce progressivamente nel corso di 3 s.",
           "abilityType": "Z",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -38786,7 +38786,7 @@
           "energyTooltip": "Mana: 80",
           "cooldownTooltip": "Recupero: 120 s",
           "shortTooltip": "Converte in Salute i danni subiti.",
-          "fullTooltip": "Avvolge Yrel in una barriera per  s, assorbendo i danni subiti e rigenerando Salute pari al 50% dei danni ricevuti.",
+          "fullTooltip": "Avvolge Yrel in una barriera per 3 s, assorbendo i danni subiti e rigenerando Salute pari al 50% dei danni ricevuti.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -38803,7 +38803,7 @@
           "energyTooltip": "Mana: 40",
           "cooldownTooltip": "Recupero: 40 s",
           "shortTooltip": "Yrel ottiene Resistenza in un'area.",
-          "fullTooltip": "Yrel santifica il terreno attorno a sé, ottenendo  Resistenza fino a quando non abbandona l'area.",
+          "fullTooltip": "Yrel santifica il terreno attorno a sé, ottenendo 40 Resistenza fino a quando non abbandona l'area.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -38820,7 +38820,7 @@
           "fullTooltipId": "YrelVindicationAldorPeacekeeper",
           "icon": "storm_ui_icon_yrel_vindication.png",
           "shortTooltip": "Rivendicazione può ridurre i danni inflitti dai nemici.",
-          "fullTooltip": "Gli eroi nemici colpiti da Rivendicazione al massimo della carica infliggono il 30% di danni in meno per  s.",
+          "fullTooltip": "Gli eroi nemici colpiti da Rivendicazione al massimo della carica infliggono il 30% di danni in meno per 3 s.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38848,7 +38848,7 @@
           "fullTooltipId": "YrelVelensChosen",
           "icon": "storm_ui_icon_yrel_velens_chosen.png",
           "shortTooltip": "Le abilità base possono aumentare la Potenza magica.",
-          "fullTooltip": "Ogni eroe nemico colpito con un'abilità base al massimo della carica aumenta del 10% la Potenza magica per  s, fino a un massimo del 30%.",
+          "fullTooltip": "Ogni eroe nemico colpito con un'abilità base al massimo della carica aumenta del 10% la Potenza magica per 10 s, fino a un massimo del 30%.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -38931,7 +38931,7 @@
           "icon": "storm_ui_icon_yrel_bubble_hearth.png",
           "cooldownTooltip": "Recupero: 80 s",
           "shortTooltip": "Rende invulnerabili e teletrasporta alla base.",
-          "fullTooltip": "Dopo  s, Yrel diventa invulnerabile e attiva Pietra del Ritorno. Non può essere annullata.",
+          "fullTooltip": "Dopo 1 s, Yrel diventa invulnerabile e attiva Pietra del Ritorno. Non può essere annullata.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -38944,7 +38944,7 @@
           "icon": "storm_ui_icon_yrel_seraphim.png",
           "cooldownTooltip": "Recupero: 10 s",
           "shortTooltip": "All'attivazione rende inarrestabili.",
-          "fullTooltip": "All'attivazione Yrel diventa inarrestabile per  s.",
+          "fullTooltip": "All'attivazione Yrel diventa inarrestabile per 2 s.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4

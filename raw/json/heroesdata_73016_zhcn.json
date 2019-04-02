@@ -38568,7 +38568,7 @@
           "shortTooltipId": "YrelVindication",
           "fullTooltipId": "YrelVindication",
           "icon": "storm_ui_icon_yrel_vindication.png",
-          "energyTooltip": "法力值：",
+          "energyTooltip": "法力值：65",
           "cooldownTooltip": "冷却时间：6秒",
           "shortTooltip": "恢复生命值，伤害敌人",
           "fullTooltip": "在伊瑞尔周围施放神圣的能量，对附近的敌人造成42 (每级 +4%)点伤害并为她恢复96 (每级 +4%)点生命值。  充能该技能可以使其伤害最高提高至140 (每级 +4%)点，治疗效果最高提高至320 (每级 +4%)点。",
@@ -38580,10 +38580,10 @@
           "shortTooltipId": "YrelRighteousHammer",
           "fullTooltipId": "YrelRighteousHammer",
           "icon": "storm_ui_icon_yrel_righteous_hammer.png",
-          "energyTooltip": "法力值：",
+          "energyTooltip": "法力值：65",
           "cooldownTooltip": "冷却时间：6秒",
           "shortTooltip": "击退并击晕敌人",
-          "fullTooltip": "挥舞伊瑞尔的锤子，对前方的敌人造成38 (每级 +4%)点伤害并将其击退。  充能该技能可以增加击退的距离和伤害，伤害最高可达125 (每级 +4%)点。敌人若是被充满能量的该技能击中，将昏迷秒。",
+          "fullTooltip": "挥舞伊瑞尔的锤子，对前方的敌人造成38 (每级 +4%)点伤害并将其击退。  充能该技能可以增加击退的距离和伤害，伤害最高可达125 (每级 +4%)点。敌人若是被充满能量的该技能击中，将昏迷0.75秒。",
           "abilityType": "W"
         },
         {
@@ -38592,10 +38592,10 @@
           "shortTooltipId": "YrelAvengingWrath",
           "fullTooltipId": "YrelAvengingWrath",
           "icon": "storm_ui_icon_yrel_avenging_wrath.png",
-          "energyTooltip": "法力值：",
+          "energyTooltip": "法力值：65",
           "cooldownTooltip": "冷却时间：6秒",
           "shortTooltip": "跃向一个区域，造成伤害并减速敌人",
-          "fullTooltip": "跃向一个区域，对范围内的敌人造成225 (每级 +4%)点伤害，使其减速50%，持续秒。  充能该技能可以提高其射程。",
+          "fullTooltip": "跃向一个区域，对范围内的敌人造成225 (每级 +4%)点伤害，使其减速50%，持续1秒。  充能该技能可以提高其射程。",
           "abilityType": "E"
         }
       ],
@@ -38609,7 +38609,7 @@
           "energyTooltip": "法力值：80",
           "cooldownTooltip": "冷却时间：120秒",
           "shortTooltip": "将受到的伤害转换成生命值",
-          "fullTooltip": "伊瑞尔被一个屏障环绕，持续秒，吸收受到的所有伤害并将50%受到的伤害转化为治疗。",
+          "fullTooltip": "伊瑞尔被一个屏障环绕，持续3秒，吸收受到的所有伤害并将50%受到的伤害转化为治疗。",
           "abilityType": "Heroic"
         },
         {
@@ -38621,7 +38621,7 @@
           "energyTooltip": "法力值：40",
           "cooldownTooltip": "冷却时间：40秒",
           "shortTooltip": "伊瑞尔在一个区域内获得护甲",
-          "fullTooltip": "伊瑞尔将她周围的地面圣化，获得点护甲，直至其离开该区域。",
+          "fullTooltip": "伊瑞尔将她周围的地面圣化，获得40点护甲，直至其离开该区域。",
           "abilityType": "Heroic"
         }
       ],
@@ -38686,7 +38686,7 @@
           "fullTooltipId": "YrelAvengingWrathAegisOfLight",
           "icon": "storm_ui_icon_yrel_avenging_wrath.png",
           "shortTooltip": "复仇之怒给予盟友护甲",
-          "fullTooltip": "落地时，复仇之怒给予附近的友方英雄25点护甲，持续秒。",
+          "fullTooltip": "落地时，复仇之怒给予附近的友方英雄25点护甲，持续4秒。",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38715,7 +38715,7 @@
           "icon": "storm_ui_icon_yrel_hand_of_freedom.png",
           "cooldownTooltip": "冷却时间：22秒",
           "shortTooltip": "给予移动速度加成，移除减速、定身效果",
-          "fullTooltip": "给予一名友方英雄50%移动速度加成，持续秒，并且移除其减速和定身效果。  无法对伊瑞尔自己使用。",
+          "fullTooltip": "给予一名友方英雄50%移动速度加成，持续3秒，并且移除其减速和定身效果。  无法对伊瑞尔自己使用。",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -38757,7 +38757,7 @@
           "fullTooltipId": "YrelDivineSteed",
           "icon": "storm_ui_icon_yrel_divine_steed.png",
           "shortTooltip": "召唤坐骑瞬发",
-          "fullTooltip": "召唤坐骑瞬发并且给予60%移动速度加成，该效果会在秒内逐步递减。",
+          "fullTooltip": "召唤坐骑瞬发并且给予60%移动速度加成，该效果会在3秒内逐步递减。",
           "abilityType": "Z",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -38786,7 +38786,7 @@
           "energyTooltip": "法力值：80",
           "cooldownTooltip": "冷却时间：120秒",
           "shortTooltip": "将受到的伤害转换成生命值",
-          "fullTooltip": "伊瑞尔被一个屏障环绕，持续秒，吸收受到的所有伤害并将50%受到的伤害转化为治疗。",
+          "fullTooltip": "伊瑞尔被一个屏障环绕，持续3秒，吸收受到的所有伤害并将50%受到的伤害转化为治疗。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -38803,7 +38803,7 @@
           "energyTooltip": "法力值：40",
           "cooldownTooltip": "冷却时间：40秒",
           "shortTooltip": "伊瑞尔在一个区域内获得护甲",
-          "fullTooltip": "伊瑞尔将她周围的地面圣化，获得点护甲，直至其离开该区域。",
+          "fullTooltip": "伊瑞尔将她周围的地面圣化，获得40点护甲，直至其离开该区域。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -38820,7 +38820,7 @@
           "fullTooltipId": "YrelVindicationAldorPeacekeeper",
           "icon": "storm_ui_icon_yrel_vindication.png",
           "shortTooltip": "辩护之光可以减少敌人的伤害",
-          "fullTooltip": "被充满能量的辩护之光击中的敌方英雄，其伤害能力降低30%，持续秒。",
+          "fullTooltip": "被充满能量的辩护之光击中的敌方英雄，其伤害能力降低30%，持续3秒。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38848,7 +38848,7 @@
           "fullTooltipId": "YrelVelensChosen",
           "icon": "storm_ui_icon_yrel_velens_chosen.png",
           "shortTooltip": "基本技能可以给予法术强度",
-          "fullTooltip": "使用充满能量的基本技能击中敌方英雄给予10%法术强度，持续秒，最高可达30%。",
+          "fullTooltip": "使用充满能量的基本技能击中敌方英雄给予10%法术强度，持续10秒，最高可达30%。",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -38931,7 +38931,7 @@
           "icon": "storm_ui_icon_yrel_bubble_hearth.png",
           "cooldownTooltip": "冷却时间：80秒",
           "shortTooltip": "激活后施放无敌炉石",
-          "fullTooltip": "秒后，伊瑞尔进入无敌状态并使用炉石。无法被取消。",
+          "fullTooltip": "1秒后，伊瑞尔进入无敌状态并使用炉石。无法被取消。",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -38944,7 +38944,7 @@
           "icon": "storm_ui_icon_yrel_seraphim.png",
           "cooldownTooltip": "冷却时间：10秒",
           "shortTooltip": "激活后变得不可阻挡",
-          "fullTooltip": "激活后不可阻挡，持续秒。",
+          "fullTooltip": "激活后不可阻挡，持续2秒。",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4
