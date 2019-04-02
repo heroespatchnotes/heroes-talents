@@ -38568,7 +38568,7 @@
           "shortTooltipId": "YrelVindication",
           "fullTooltipId": "YrelVindication",
           "icon": "storm_ui_icon_yrel_vindication.png",
-          "energyTooltip": "Maná:",
+          "energyTooltip": "Maná: 65",
           "cooldownTooltip": "Tiempo de reutilización: 6 segundos",
           "shortTooltip": "Restaura salud, daña a los enemigos",
           "fullTooltip": "Libera una descarga de energía sagrada alrededor de Yrel, lo que le restituye 96 (+4% por nivel) de salud e inflige 42 (+4% por nivel) de daño a los enemigos cercanos.  Cargar esta habilidad aumenta hasta en 140 (+4% por nivel) el daño y hasta en 320 (+4% por nivel) la sanación.",
@@ -38580,10 +38580,10 @@
           "shortTooltipId": "YrelRighteousHammer",
           "fullTooltipId": "YrelRighteousHammer",
           "icon": "storm_ui_icon_yrel_righteous_hammer.png",
-          "energyTooltip": "Maná:",
+          "energyTooltip": "Maná: 65",
           "cooldownTooltip": "Tiempo de reutilización: 6 segundos",
           "shortTooltip": "Repele y aturde a los enemigos",
-          "fullTooltip": "Blande el martillo de Yrel, lo que inflige 38 (+4% por nivel) de daño a todos los enemigos frente a ella y los repele.  Cargar esta habilidad aumenta la distancia de repulsión y el daño en 125 (+4% por nivel). Los enemigos golpeados con el máximo de carga son aturdidos durante  segundos.",
+          "fullTooltip": "Blande el martillo de Yrel, lo que inflige 38 (+4% por nivel) de daño a todos los enemigos frente a ella y los repele.  Cargar esta habilidad aumenta la distancia de repulsión y el daño en 125 (+4% por nivel). Los enemigos golpeados con el máximo de carga son aturdidos durante 0.75 segundos.",
           "abilityType": "W"
         },
         {
@@ -38592,10 +38592,10 @@
           "shortTooltipId": "YrelAvengingWrath",
           "fullTooltipId": "YrelAvengingWrath",
           "icon": "storm_ui_icon_yrel_avenging_wrath.png",
-          "energyTooltip": "Maná:",
+          "energyTooltip": "Maná: 65",
           "cooldownTooltip": "Tiempo de reutilización: 6 segundos",
           "shortTooltip": "Salta hacia un área para infligir daño y ralentizar a los enemigos",
-          "fullTooltip": "Salta hacia una ubicación, lo que inflige 225 (+4% por nivel) de daño a los enemigos en un área y los ralentiza un 50% durante  segundo.  A mayor tiempo de carga, mayor será la distancia.",
+          "fullTooltip": "Salta hacia una ubicación, lo que inflige 225 (+4% por nivel) de daño a los enemigos en un área y los ralentiza un 50% durante 1 segundo.  A mayor tiempo de carga, mayor será la distancia.",
           "abilityType": "E"
         }
       ],
@@ -38609,7 +38609,7 @@
           "energyTooltip": "Maná: 80",
           "cooldownTooltip": "Tiempo de reutilización: 120 segundos",
           "shortTooltip": "Convierte el daño recibido en salud",
-          "fullTooltip": "Yrel queda rodeada por una barrera durante  segundos, que absorbe los ataques y la sana por un 50% del daño recibido.",
+          "fullTooltip": "Yrel queda rodeada por una barrera durante 3 segundos, que absorbe los ataques y la sana por un 50% del daño recibido.",
           "abilityType": "Heroic"
         },
         {
@@ -38621,7 +38621,7 @@
           "energyTooltip": "Maná: 40",
           "cooldownTooltip": "Tiempo de reutilización: 40 segundos",
           "shortTooltip": "Yrel recibe Armadura en un área",
-          "fullTooltip": "Yrel santifica el área alrededor suyo y recibe  de Armadura hasta que abandona el área.",
+          "fullTooltip": "Yrel santifica el área alrededor suyo y recibe 40 de Armadura hasta que abandona el área.",
           "abilityType": "Heroic"
         }
       ],
@@ -38686,7 +38686,7 @@
           "fullTooltipId": "YrelAvengingWrathAegisOfLight",
           "icon": "storm_ui_icon_yrel_avenging_wrath.png",
           "shortTooltip": "Ira vengativa otorga Armadura a los aliados",
-          "fullTooltip": "Al aterrizar, Ira vengativa otorga 25 de Armadura a los héroes aliados cercanos durante  segundos.",
+          "fullTooltip": "Al aterrizar, Ira vengativa otorga 25 de Armadura a los héroes aliados cercanos durante 4 segundos.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38715,7 +38715,7 @@
           "icon": "storm_ui_icon_yrel_hand_of_freedom.png",
           "cooldownTooltip": "Tiempo de reutilización: 22 segundos",
           "shortTooltip": "Otorga velocidad de movimiento y elimina efectos de arraigo y ralentización",
-          "fullTooltip": "Le otorga a un héroe aliado un 50% de velocidad de movimiento durante  segundos y le elimina todos los efectos de arraigo y ralentización.  No puede usarse sobre Yrel.",
+          "fullTooltip": "Le otorga a un héroe aliado un 50% de velocidad de movimiento durante 3 segundos y le elimina todos los efectos de arraigo y ralentización.  No puede usarse sobre Yrel.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -38757,7 +38757,7 @@
           "fullTooltipId": "YrelDivineSteed",
           "icon": "storm_ui_icon_yrel_divine_steed.png",
           "shortTooltip": "Puedes montar al instante",
-          "fullTooltip": "Permite montar al instante y otorga un 60% de velocidad de movimiento que se disipa en un lapso de  segundos.",
+          "fullTooltip": "Permite montar al instante y otorga un 60% de velocidad de movimiento que se disipa en un lapso de 3 segundos.",
           "abilityType": "Z",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -38786,7 +38786,7 @@
           "energyTooltip": "Maná: 80",
           "cooldownTooltip": "Tiempo de reutilización: 120 segundos",
           "shortTooltip": "Convierte el daño recibido en salud",
-          "fullTooltip": "Yrel queda rodeada por una barrera durante  segundos, que absorbe los ataques y la sana por un 50% del daño recibido.",
+          "fullTooltip": "Yrel queda rodeada por una barrera durante 3 segundos, que absorbe los ataques y la sana por un 50% del daño recibido.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -38803,7 +38803,7 @@
           "energyTooltip": "Maná: 40",
           "cooldownTooltip": "Tiempo de reutilización: 40 segundos",
           "shortTooltip": "Yrel recibe Armadura en un área",
-          "fullTooltip": "Yrel santifica el área alrededor suyo y recibe  de Armadura hasta que abandona el área.",
+          "fullTooltip": "Yrel santifica el área alrededor suyo y recibe 40 de Armadura hasta que abandona el área.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -38820,7 +38820,7 @@
           "fullTooltipId": "YrelVindicationAldorPeacekeeper",
           "icon": "storm_ui_icon_yrel_vindication.png",
           "shortTooltip": "Vindicación reduce el daño enemigo",
-          "fullTooltip": "Los héroes enemigos golpeados por Vindicación al máximo de carga infligen un 30% menos de daño durante  segundos.",
+          "fullTooltip": "Los héroes enemigos golpeados por Vindicación al máximo de carga infligen un 30% menos de daño durante 3 segundos.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38848,7 +38848,7 @@
           "fullTooltipId": "YrelVelensChosen",
           "icon": "storm_ui_icon_yrel_velens_chosen.png",
           "shortTooltip": "Las habilidades básicas otorgan poder de habilidad especial",
-          "fullTooltip": "Golpear a un héroe enemigo con una habilidad básica al máximo de carga otorga un 10% de poder de habilidad especial durante  segundos, hasta un máximo del 30%.",
+          "fullTooltip": "Golpear a un héroe enemigo con una habilidad básica al máximo de carga otorga un 10% de poder de habilidad especial durante 10 segundos, hasta un máximo del 30%.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -38931,7 +38931,7 @@
           "icon": "storm_ui_icon_yrel_bubble_hearth.png",
           "cooldownTooltip": "Tiempo de reutilización: 80 segundos",
           "shortTooltip": "Activar para volverte invulnerable y volver a la base",
-          "fullTooltip": "Después de  segundo, Yrel se vuelve invulnerable y lanza Piedra de hogar. No se puede cancelar.",
+          "fullTooltip": "Después de 1 segundo, Yrel se vuelve invulnerable y lanza Piedra de hogar. No se puede cancelar.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -38944,7 +38944,7 @@
           "icon": "storm_ui_icon_yrel_seraphim.png",
           "cooldownTooltip": "Tiempo de reutilización: 10 segundos",
           "shortTooltip": "Activar para volverte imparable",
-          "fullTooltip": "Activar para volverte imparable durante  segundos.",
+          "fullTooltip": "Activar para volverte imparable durante 2 segundos.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4

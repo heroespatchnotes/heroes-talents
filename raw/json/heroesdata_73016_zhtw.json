@@ -38568,7 +38568,7 @@
           "shortTooltipId": "YrelVindication",
           "fullTooltipId": "YrelVindication",
           "icon": "storm_ui_icon_yrel_vindication.png",
-          "energyTooltip": "法力：點",
+          "energyTooltip": "法力：65點",
           "cooldownTooltip": "冷卻時間：6秒",
           "shortTooltip": "恢復生命值並且傷害敵人",
           "fullTooltip": "伊芮爾朝周圍釋放神聖能量，對附近敵人造成42 (每級 +4%)點傷害，並且治療自己96 (每級 +4%)點生命值。  此技能可蓄力，使其傷害最多提高至140 (每級 +4%)點，治療量最多提高至320 (每級 +4%)點。",
@@ -38580,10 +38580,10 @@
           "shortTooltipId": "YrelRighteousHammer",
           "fullTooltipId": "YrelRighteousHammer",
           "icon": "storm_ui_icon_yrel_righteous_hammer.png",
-          "energyTooltip": "法力：點",
+          "energyTooltip": "法力：65點",
           "cooldownTooltip": "冷卻時間：6秒",
           "shortTooltip": "擊退並且擊昏敵人",
-          "fullTooltip": "揮舞伊芮爾的戰錘，對前方敵人造成38 (每級 +4%)點傷害，並且將其擊退。  此技能可蓄力，使其擊退距離提高，並且造成最多125 (每級 +4%)點傷害。公正之錘達到最大蓄力狀態後，可擊昏敵人秒。",
+          "fullTooltip": "揮舞伊芮爾的戰錘，對前方敵人造成38 (每級 +4%)點傷害，並且將其擊退。  此技能可蓄力，使其擊退距離提高，並且造成最多125 (每級 +4%)點傷害。公正之錘達到最大蓄力狀態後，可擊昏敵人0.75秒。",
           "abilityType": "W"
         },
         {
@@ -38592,10 +38592,10 @@
           "shortTooltipId": "YrelAvengingWrath",
           "fullTooltipId": "YrelAvengingWrath",
           "icon": "storm_ui_icon_yrel_avenging_wrath.png",
-          "energyTooltip": "法力：點",
+          "energyTooltip": "法力：65點",
           "cooldownTooltip": "冷卻時間：6秒",
           "shortTooltip": "跳躍後對範圍內敵人造成傷害和緩速",
-          "fullTooltip": "躍向指定位置，對範圍內的敵人造成225 (每級 +4%)點傷害，並且使其緩速50%，持續秒。  此技能可蓄力，使其提高跳躍距離。",
+          "fullTooltip": "躍向指定位置，對範圍內的敵人造成225 (每級 +4%)點傷害，並且使其緩速50%，持續1秒。  此技能可蓄力，使其提高跳躍距離。",
           "abilityType": "E"
         }
       ],
@@ -38609,7 +38609,7 @@
           "energyTooltip": "法力：80點",
           "cooldownTooltip": "冷卻時間：120秒",
           "shortTooltip": "將受到的傷害轉化為生命值",
-          "fullTooltip": "伊芮爾獲得防護屏障，持續秒，屏障可吸收所有受到的傷害，並且治療伊芮爾等同傷害值的50%。",
+          "fullTooltip": "伊芮爾獲得防護屏障，持續3秒，屏障可吸收所有受到的傷害，並且治療伊芮爾等同傷害值的50%。",
           "abilityType": "Heroic"
         },
         {
@@ -38621,7 +38621,7 @@
           "energyTooltip": "法力：40點",
           "cooldownTooltip": "冷卻時間：40秒",
           "shortTooltip": "伊芮爾會在效果範圍內獲得護甲",
-          "fullTooltip": "伊芮爾將神聖能量灌注在周圍地面，獲得點護甲，此效果會持續直到她離開這塊區域。",
+          "fullTooltip": "伊芮爾將神聖能量灌注在周圍地面，獲得40點護甲，此效果會持續直到她離開這塊區域。",
           "abilityType": "Heroic"
         }
       ],
@@ -38686,7 +38686,7 @@
           "fullTooltipId": "YrelAvengingWrathAegisOfLight",
           "icon": "storm_ui_icon_yrel_avenging_wrath.png",
           "shortTooltip": "復仇之怒會賦予友方英雄護甲",
-          "fullTooltip": "落地後，復仇之怒會賦予附近友方英雄25點護甲，持續秒。",
+          "fullTooltip": "落地後，復仇之怒會賦予附近友方英雄25點護甲，持續4秒。",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38715,7 +38715,7 @@
           "icon": "storm_ui_icon_yrel_hand_of_freedom.png",
           "cooldownTooltip": "冷卻時間：22秒",
           "shortTooltip": "賦予移動速度，並且移除緩速與定身",
-          "fullTooltip": "賦予一名友方英雄50%移動速度，持續秒，並且移除目標身上所有緩速與定身效果。  無法使用於伊芮爾。",
+          "fullTooltip": "賦予一名友方英雄50%移動速度，持續3秒，並且移除目標身上所有緩速與定身效果。  無法使用於伊芮爾。",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -38757,7 +38757,7 @@
           "fullTooltipId": "YrelDivineSteed",
           "icon": "storm_ui_icon_yrel_divine_steed.png",
           "shortTooltip": "可立即騎上坐騎",
-          "fullTooltip": "伊芮爾可立即騎上坐騎，並且獲得60%移動速度，此效果會在秒內逐漸消退。",
+          "fullTooltip": "伊芮爾可立即騎上坐騎，並且獲得60%移動速度，此效果會在3秒內逐漸消退。",
           "abilityType": "Z",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -38786,7 +38786,7 @@
           "energyTooltip": "法力：80點",
           "cooldownTooltip": "冷卻時間：120秒",
           "shortTooltip": "將受到的傷害轉化為生命值",
-          "fullTooltip": "伊芮爾獲得防護屏障，持續秒，屏障可吸收所有受到的傷害，並且治療伊芮爾等同傷害值的50%。",
+          "fullTooltip": "伊芮爾獲得防護屏障，持續3秒，屏障可吸收所有受到的傷害，並且治療伊芮爾等同傷害值的50%。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -38803,7 +38803,7 @@
           "energyTooltip": "法力：40點",
           "cooldownTooltip": "冷卻時間：40秒",
           "shortTooltip": "伊芮爾會在效果範圍內獲得護甲",
-          "fullTooltip": "伊芮爾將神聖能量灌注在周圍地面，獲得點護甲，此效果會持續直到她離開這塊區域。",
+          "fullTooltip": "伊芮爾將神聖能量灌注在周圍地面，獲得40點護甲，此效果會持續直到她離開這塊區域。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -38820,7 +38820,7 @@
           "fullTooltipId": "YrelVindicationAldorPeacekeeper",
           "icon": "storm_ui_icon_yrel_vindication.png",
           "shortTooltip": "神聖辯護可降低敵方英雄傷害",
-          "fullTooltip": "神聖辯護達到最大蓄力狀態後，可使擊中的敵方英雄造成的傷害降低30%，持續秒。",
+          "fullTooltip": "神聖辯護達到最大蓄力狀態後，可使擊中的敵方英雄造成的傷害降低30%，持續3秒。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38848,7 +38848,7 @@
           "fullTooltipId": "YrelVelensChosen",
           "icon": "storm_ui_icon_yrel_velens_chosen.png",
           "shortTooltip": "基本技能可賦予法術強度",
-          "fullTooltip": "基本技能達到最大蓄力狀態後，擊中敵方英雄可獲得10%法術強度，持續秒，最多可獲得30%法術強度。",
+          "fullTooltip": "基本技能達到最大蓄力狀態後，擊中敵方英雄可獲得10%法術強度，持續10秒，最多可獲得30%法術強度。",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -38931,7 +38931,7 @@
           "icon": "storm_ui_icon_yrel_bubble_hearth.png",
           "cooldownTooltip": "冷卻時間：80秒",
           "shortTooltip": "啟動後獲得無敵狀態並且使用爐石",
-          "fullTooltip": "在 秒後，伊芮爾獲得無敵狀態並且使用爐石。此技能無法取消。",
+          "fullTooltip": "在 1秒後，伊芮爾獲得無敵狀態並且使用爐石。此技能無法取消。",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -38944,7 +38944,7 @@
           "icon": "storm_ui_icon_yrel_seraphim.png",
           "cooldownTooltip": "冷卻時間：10秒",
           "shortTooltip": "啟用後獲得控場免疫",
-          "fullTooltip": "啟用後獲得控場免疫，持續秒。",
+          "fullTooltip": "啟用後獲得控場免疫，持續2秒。",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4

@@ -38568,7 +38568,7 @@
           "shortTooltipId": "YrelVindication",
           "fullTooltipId": "YrelVindication",
           "icon": "storm_ui_icon_yrel_vindication.png",
-          "energyTooltip": "마나:",
+          "energyTooltip": "마나: 65",
           "cooldownTooltip": "재사용 대기시간: 6초",
           "shortTooltip": "생명력 회복 및 적에게 피해",
           "fullTooltip": "주위에 신성한 힘을 내보내 적에게는 42 (레벨 당 +4%)의 피해를 주고 자신은 96 (레벨 당 +4%)의 생명력을 회복합니다.  강화할수록 피해량이 최대 140 (레벨 당 +4%)까지 증가하고 치유량이 최대 320 (레벨 당 +4%)까지 증가합니다.",
@@ -38580,10 +38580,10 @@
           "shortTooltipId": "YrelRighteousHammer",
           "fullTooltipId": "YrelRighteousHammer",
           "icon": "storm_ui_icon_yrel_righteous_hammer.png",
-          "energyTooltip": "마나:",
+          "energyTooltip": "마나: 65",
           "cooldownTooltip": "재사용 대기시간: 6초",
           "shortTooltip": "주위 적들을 밀쳐내고 기절시킴",
-          "fullTooltip": "망치를 휘둘러 전방의 적들에게 38 (레벨 당 +4%)의 피해를 주고 밀쳐냅니다.  강화할수록 밀쳐내는 거리가 증가하고 피해량이 최대 125 (레벨 당 +4%)까지 증가합니다. 최대로 강화하면 적을 초 동안 기절시킵니다.",
+          "fullTooltip": "망치를 휘둘러 전방의 적들에게 38 (레벨 당 +4%)의 피해를 주고 밀쳐냅니다.  강화할수록 밀쳐내는 거리가 증가하고 피해량이 최대 125 (레벨 당 +4%)까지 증가합니다. 최대로 강화하면 적을 0.75초 동안 기절시킵니다.",
           "abilityType": "W"
         },
         {
@@ -38592,10 +38592,10 @@
           "shortTooltipId": "YrelAvengingWrath",
           "fullTooltipId": "YrelAvengingWrath",
           "icon": "storm_ui_icon_yrel_avenging_wrath.png",
-          "energyTooltip": "마나:",
+          "energyTooltip": "마나: 65",
           "cooldownTooltip": "재사용 대기시간: 6초",
           "shortTooltip": "대상 위치로 도약하여 적들에게 피해를 주고 느려지게 함",
-          "fullTooltip": "대상 위치로 도약하여 적들에게 225 (레벨 당 +4%)의 피해를 주고 초 동안 50% 느려지게 합니다.  강화할수록 사거리가 증가합니다.",
+          "fullTooltip": "대상 위치로 도약하여 적들에게 225 (레벨 당 +4%)의 피해를 주고 1초 동안 50% 느려지게 합니다.  강화할수록 사거리가 증가합니다.",
           "abilityType": "E"
         }
       ],
@@ -38609,7 +38609,7 @@
           "energyTooltip": "마나: 80",
           "cooldownTooltip": "재사용 대기시간: 120초",
           "shortTooltip": "피해를 생명력으로 전환",
-          "fullTooltip": "초 동안 보호막으로 자신을 감싸 모든 피해를 흡수하고 흡수한 피해의 50%만큼 생명력을 회복합니다.",
+          "fullTooltip": "3초 동안 보호막으로 자신을 감싸 모든 피해를 흡수하고 흡수한 피해의 50%만큼 생명력을 회복합니다.",
           "abilityType": "Heroic"
         },
         {
@@ -38621,7 +38621,7 @@
           "energyTooltip": "마나: 40",
           "cooldownTooltip": "재사용 대기시간: 40초",
           "shortTooltip": "일정 범위 내에서 방어력 증가",
-          "fullTooltip": "지면을 신성화하여 대상 지역 내에 있는 동안 방어력이  증가합니다. 대상 지역 밖으로 이동하면 신성한 대지가 사라집니다.",
+          "fullTooltip": "지면을 신성화하여 대상 지역 내에 있는 동안 방어력이 40 증가합니다. 대상 지역 밖으로 이동하면 신성한 대지가 사라집니다.",
           "abilityType": "Heroic"
         }
       ],
@@ -38686,7 +38686,7 @@
           "fullTooltipId": "YrelAvengingWrathAegisOfLight",
           "icon": "storm_ui_icon_yrel_avenging_wrath.png",
           "shortTooltip": "응징의 격노가 아군의 방어력을 증가시킴",
-          "fullTooltip": "착지 후에 주위 아군 영웅들의 방어력을 초 동안 25 증가시킵니다.",
+          "fullTooltip": "착지 후에 주위 아군 영웅들의 방어력을 4초 동안 25 증가시킵니다.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38715,7 +38715,7 @@
           "icon": "storm_ui_icon_yrel_hand_of_freedom.png",
           "cooldownTooltip": "재사용 대기시간: 22초",
           "shortTooltip": "아군 영웅의 감속 및 이동 불가 효과 제거 및 이동 속도를 증가시킴",
-          "fullTooltip": "아군 영웅의 이동 속도를 초 동안 50% 증가시키고 대상의 모든 감속 및 이동 불가 효과를 제거합니다.  자신에게는 사용할 수 없습니다.",
+          "fullTooltip": "아군 영웅의 이동 속도를 3초 동안 50% 증가시키고 대상의 모든 감속 및 이동 불가 효과를 제거합니다.  자신에게는 사용할 수 없습니다.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -38757,7 +38757,7 @@
           "fullTooltipId": "YrelDivineSteed",
           "icon": "storm_ui_icon_yrel_divine_steed.png",
           "shortTooltip": "탈것 즉시 탑승",
-          "fullTooltip": "탈것에 즉시 탑승할 수 있습니다. 탈것에 탑승하면 이동 속도가 60% 증가하고 초에 걸쳐 서서히 감소합니다.",
+          "fullTooltip": "탈것에 즉시 탑승할 수 있습니다. 탈것에 탑승하면 이동 속도가 60% 증가하고 3초에 걸쳐 서서히 감소합니다.",
           "abilityType": "Z",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -38786,7 +38786,7 @@
           "energyTooltip": "마나: 80",
           "cooldownTooltip": "재사용 대기시간: 120초",
           "shortTooltip": "피해를 생명력으로 전환",
-          "fullTooltip": "초 동안 보호막으로 자신을 감싸 모든 피해를 흡수하고 흡수한 피해의 50%만큼 생명력을 회복합니다.",
+          "fullTooltip": "3초 동안 보호막으로 자신을 감싸 모든 피해를 흡수하고 흡수한 피해의 50%만큼 생명력을 회복합니다.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -38803,7 +38803,7 @@
           "energyTooltip": "마나: 40",
           "cooldownTooltip": "재사용 대기시간: 40초",
           "shortTooltip": "일정 범위 내에서 방어력 증가",
-          "fullTooltip": "지면을 신성화하여 대상 지역 내에 있는 동안 방어력이  증가합니다. 대상 지역 밖으로 이동하면 신성한 대지가 사라집니다.",
+          "fullTooltip": "지면을 신성화하여 대상 지역 내에 있는 동안 방어력이 40 증가합니다. 대상 지역 밖으로 이동하면 신성한 대지가 사라집니다.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -38820,7 +38820,7 @@
           "fullTooltipId": "YrelVindicationAldorPeacekeeper",
           "icon": "storm_ui_icon_yrel_vindication.png",
           "shortTooltip": "비호가 적 공격력을 감소시킴",
-          "fullTooltip": "최대로 강화된 비호가 적 영웅의 공격력을 초 동안 30% 감소시킵니다.",
+          "fullTooltip": "최대로 강화된 비호가 적 영웅의 공격력을 3초 동안 30% 감소시킵니다.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38848,7 +38848,7 @@
           "fullTooltipId": "YrelVelensChosen",
           "icon": "storm_ui_icon_yrel_velens_chosen.png",
           "shortTooltip": "일반 기술로 기술 위력 증가",
-          "fullTooltip": "최대로 강화한 일반 기술이 적 영웅에게 적중하면 기술 위력이 초 동안 10% 증가하여 최대 30% 증가합니다.",
+          "fullTooltip": "최대로 강화한 일반 기술이 적 영웅에게 적중하면 기술 위력이 10초 동안 10% 증가하여 최대 30% 증가합니다.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -38931,7 +38931,7 @@
           "icon": "storm_ui_icon_yrel_bubble_hearth.png",
           "cooldownTooltip": "재사용 대기시간: 80초",
           "shortTooltip": "사용 시 무적 상태가 되고 귀환",
-          "fullTooltip": "초 후, 무적 상태가 되고 귀환석을 사용합니다. 취소할 수 없습니다.",
+          "fullTooltip": "1초 후, 무적 상태가 되고 귀환석을 사용합니다. 취소할 수 없습니다.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -38944,7 +38944,7 @@
           "icon": "storm_ui_icon_yrel_seraphim.png",
           "cooldownTooltip": "재사용 대기시간: 10초",
           "shortTooltip": "사용 시 저지 불가 상태가 됨",
-          "fullTooltip": "사용하면 초 동안 저지 불가 상태가 됩니다.",
+          "fullTooltip": "사용하면 2초 동안 저지 불가 상태가 됩니다.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4

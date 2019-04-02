@@ -38568,7 +38568,7 @@
           "shortTooltipId": "YrelVindication",
           "fullTooltipId": "YrelVindication",
           "icon": "storm_ui_icon_yrel_vindication.png",
-          "energyTooltip": "Mana :",
+          "energyTooltip": "Mana : 65",
           "cooldownTooltip": "Temps de recharge : 6 secondes",
           "shortTooltip": "Rend des points de vie et inflige des dégâts aux ennemis.",
           "fullTooltip": "Déchaîne autour d’Yrel de l’énergie sacrée qui inflige 42 (+4% par niveau) points de dégâts aux ennemis proches et qui lui rend 96 (+4% par niveau) points de vie.  Charger cette capacité augmente ses dégâts jusqu’à 140 (+4% par niveau) points et les points de vie qu’elle rend jusqu’à 320 (+4% par niveau) points.",
@@ -38580,10 +38580,10 @@
           "shortTooltipId": "YrelRighteousHammer",
           "fullTooltipId": "YrelRighteousHammer",
           "icon": "storm_ui_icon_yrel_righteous_hammer.png",
-          "energyTooltip": "Mana :",
+          "energyTooltip": "Mana : 65",
           "cooldownTooltip": "Temps de recharge : 6 secondes",
           "shortTooltip": "Repousse et étourdit les ennemis.",
-          "fullTooltip": "Donne un puissant coup de marteau qui inflige 38 (+4% par niveau) points de dégâts aux ennemis devant Yrel en plus de les repousser.  Charger cette capacité augmente la distance de repoussement, ainsi que les dégâts qu’elle inflige jusqu’à un maximum de 125 (+4% par niveau) points. Les ennemis touchés à pleine charge sont étourdis pendant  seconde.",
+          "fullTooltip": "Donne un puissant coup de marteau qui inflige 38 (+4% par niveau) points de dégâts aux ennemis devant Yrel en plus de les repousser.  Charger cette capacité augmente la distance de repoussement, ainsi que les dégâts qu’elle inflige jusqu’à un maximum de 125 (+4% par niveau) points. Les ennemis touchés à pleine charge sont étourdis pendant 0.75 seconde.",
           "abilityType": "W"
         },
         {
@@ -38592,10 +38592,10 @@
           "shortTooltipId": "YrelAvengingWrath",
           "fullTooltipId": "YrelAvengingWrath",
           "icon": "storm_ui_icon_yrel_avenging_wrath.png",
-          "energyTooltip": "Mana :",
+          "energyTooltip": "Mana : 65",
           "cooldownTooltip": "Temps de recharge : 6 secondes",
           "shortTooltip": "Bondit vers un endroit et inflige des dégâts aux ennemis proches en plus de les ralentir.",
-          "fullTooltip": "Bondit à l’emplacement ciblé et inflige 225 (+4% par niveau) points de dégâts aux ennemis dans la zone en plus de les ralentir de 50% pendant  seconde.  Charger cette capacité en augmente la portée.",
+          "fullTooltip": "Bondit à l’emplacement ciblé et inflige 225 (+4% par niveau) points de dégâts aux ennemis dans la zone en plus de les ralentir de 50% pendant 1 seconde.  Charger cette capacité en augmente la portée.",
           "abilityType": "E"
         }
       ],
@@ -38609,7 +38609,7 @@
           "energyTooltip": "Mana : 80",
           "cooldownTooltip": "Temps de recharge : 120 secondes",
           "shortTooltip": "Convertit les dégâts subis en points de vie pour Yrel.",
-          "fullTooltip": "Entoure Yrel d’une barrière pendant  secondes. Elle absorbe tous les dégâts subis et rend à Yrel un montant de points de vie équivalent à 50% de ces dégâts.",
+          "fullTooltip": "Entoure Yrel d’une barrière pendant 3 secondes. Elle absorbe tous les dégâts subis et rend à Yrel un montant de points de vie équivalent à 50% de ces dégâts.",
           "abilityType": "Heroic"
         },
         {
@@ -38621,7 +38621,7 @@
           "energyTooltip": "Mana : 40",
           "cooldownTooltip": "Temps de recharge : 40 secondes",
           "shortTooltip": "Yrel obtient de l’armure dans une zone.",
-          "fullTooltip": "Yrel consacre le sol autour d’elle, ce qui lui confère  points d’armure tant qu’elle reste dans la zone.",
+          "fullTooltip": "Yrel consacre le sol autour d’elle, ce qui lui confère 40 points d’armure tant qu’elle reste dans la zone.",
           "abilityType": "Heroic"
         }
       ],
@@ -38686,7 +38686,7 @@
           "fullTooltipId": "YrelAvengingWrathAegisOfLight",
           "icon": "storm_ui_icon_yrel_avenging_wrath.png",
           "shortTooltip": "Courroux vengeur confère de l’armure aux alliés.",
-          "fullTooltip": "À l’atterrissage, Courroux vengeur confère 25 points d’armure pendant  secondes aux autres héros alliés proches.",
+          "fullTooltip": "À l’atterrissage, Courroux vengeur confère 25 points d’armure pendant 4 secondes aux autres héros alliés proches.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38715,7 +38715,7 @@
           "icon": "storm_ui_icon_yrel_hand_of_freedom.png",
           "cooldownTooltip": "Temps de recharge : 22 secondes",
           "shortTooltip": "Augmente la vitesse de déplacement et dissipe les ralentissements et immobilisations.",
-          "fullTooltip": "Augmente la vitesse de déplacement d’un héros allié de 50% pendant  secondes et dissipe les ralentissements et immobilisations qui l’affectent.  Inutilisable sur Yrel.",
+          "fullTooltip": "Augmente la vitesse de déplacement d’un héros allié de 50% pendant 3 secondes et dissipe les ralentissements et immobilisations qui l’affectent.  Inutilisable sur Yrel.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -38757,7 +38757,7 @@
           "fullTooltipId": "YrelDivineSteed",
           "icon": "storm_ui_icon_yrel_divine_steed.png",
           "shortTooltip": "L’invocation de la monture est instantanée.",
-          "fullTooltip": "Rend l’invocation de la monture instantanée et augmente la vitesse de déplacement de 60%, qui se dissipent progressivement en  secondes.",
+          "fullTooltip": "Rend l’invocation de la monture instantanée et augmente la vitesse de déplacement de 60%, qui se dissipent progressivement en 3 secondes.",
           "abilityType": "Z",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -38786,7 +38786,7 @@
           "energyTooltip": "Mana : 80",
           "cooldownTooltip": "Temps de recharge : 120 secondes",
           "shortTooltip": "Convertit les dégâts subis en points de vie pour Yrel.",
-          "fullTooltip": "Entoure Yrel d’une barrière pendant  secondes. Elle absorbe tous les dégâts subis et rend à Yrel un montant de points de vie équivalent à 50% de ces dégâts.",
+          "fullTooltip": "Entoure Yrel d’une barrière pendant 3 secondes. Elle absorbe tous les dégâts subis et rend à Yrel un montant de points de vie équivalent à 50% de ces dégâts.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -38803,7 +38803,7 @@
           "energyTooltip": "Mana : 40",
           "cooldownTooltip": "Temps de recharge : 40 secondes",
           "shortTooltip": "Yrel obtient de l’armure dans une zone.",
-          "fullTooltip": "Yrel consacre le sol autour d’elle, ce qui lui confère  points d’armure tant qu’elle reste dans la zone.",
+          "fullTooltip": "Yrel consacre le sol autour d’elle, ce qui lui confère 40 points d’armure tant qu’elle reste dans la zone.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -38820,7 +38820,7 @@
           "fullTooltipId": "YrelVindicationAldorPeacekeeper",
           "icon": "storm_ui_icon_yrel_vindication.png",
           "shortTooltip": "Rémission peut réduire les dégâts ennemis.",
-          "fullTooltip": "Les héros adverses touchés par Rémission à pleine charge inflige 30% de dégâts en moins pendant  secondes.",
+          "fullTooltip": "Les héros adverses touchés par Rémission à pleine charge inflige 30% de dégâts en moins pendant 3 secondes.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -38848,7 +38848,7 @@
           "fullTooltipId": "YrelVelensChosen",
           "icon": "storm_ui_icon_yrel_velens_chosen.png",
           "shortTooltip": "Les capacités de base peuvent conférer de la puissance de capacité.",
-          "fullTooltip": "Toucher un héros adverse avec une capacité de base à pleine charge augmente la puissance de capacité de 10% pendant  secondes, cumulable jusqu’à un maximum de 30%.",
+          "fullTooltip": "Toucher un héros adverse avec une capacité de base à pleine charge augmente la puissance de capacité de 10% pendant 10 secondes, cumulable jusqu’à un maximum de 30%.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -38931,7 +38931,7 @@
           "icon": "storm_ui_icon_yrel_bubble_hearth.png",
           "cooldownTooltip": "Temps de recharge : 80 secondes",
           "shortTooltip": "Rend invulnérable Yrel qui se téléporte au hall des Tempêtes.",
-          "fullTooltip": "Après  seconde, Yrel devient invulnérable et utilise sa pierre de foyer. Ne peut pas être annulé.",
+          "fullTooltip": "Après 1 seconde, Yrel devient invulnérable et utilise sa pierre de foyer. Ne peut pas être annulé.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -38944,7 +38944,7 @@
           "icon": "storm_ui_icon_yrel_seraphim.png",
           "cooldownTooltip": "Temps de recharge : 10 secondes",
           "shortTooltip": "Rend insensible aux effets de contrôle.",
-          "fullTooltip": "Rend insensible aux effets de contrôle pendant  secondes.",
+          "fullTooltip": "Rend insensible aux effets de contrôle pendant 2 secondes.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4
