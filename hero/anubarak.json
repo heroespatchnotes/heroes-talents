@@ -23,7 +23,7 @@
     "Anub'arak": [
       {
         "name": "Impale",
-        "description": "Deals 95 (+4% per level) damage. Stuns for 1 second.",
+        "description": "Deals 90 (+4% per level) damage. Stuns for 1 second.",
         "hotkey": "Q",
         "abilityId": "Anub'arak|Q1",
         "cooldown": 12,
@@ -43,7 +43,7 @@
       },
       {
         "name": "Burrow Charge",
-        "description": "Burrow to the target location, dealing 96 (+4% per level) damage and briefly stunning enemies in a small area upon surfacing, slowing them by 25% for 2.5 seconds.  Burrow Charge can be reactivated to surface early.",
+        "description": "Burrow to the target location, dealing 91 (+4% per level) damage and briefly stunning enemies in a small area upon surfacing, slowing them by 25% for 2.5 seconds.  Burrow Charge can be reactivated to surface early.",
         "hotkey": "E",
         "abilityId": "Anub'arak|E1",
         "cooldown": 14,
@@ -66,7 +66,7 @@
         "description": "Wraps target enemy Hero in a cocoon, rendering them unable to act or be targeted for 8 seconds. Allies of the Hero can attack the cocoon to break it and free them early.",
         "hotkey": "R",
         "abilityId": "Anub'arak|R2",
-        "cooldown": 60,
+        "cooldown": 70,
         "manaCost": 70,
         "icon": "storm_ui_icon_anubarak_webblast.png",
         "type": "heroic"
@@ -101,7 +101,7 @@
         "tooltipId": "AnubarakLegionOfBeetlesTalent",
         "talentTreeId": "AnubarakCombatStyleLegionOfBeetles",
         "name": "Legion of Beetles",
-        "description": "Beetles have 40 Spell Armor. Automatically spawn a Beetle every 8 seconds. Can be toggled on and off.",
+        "description": "Beetles have 30 Spell Armor. Automatically spawn a Beetle every 8 seconds. Can be toggled on and off.",
         "icon": "storm_ui_icon_anubarak_scarabhost.png",
         "type": "Trait",
         "sort": 2,
@@ -227,7 +227,7 @@
         "icon": "storm_ui_icon_anubarak_webblast.png",
         "type": "Heroic",
         "sort": 2,
-        "cooldown": 60,
+        "cooldown": 70,
         "abilityId": "Anub'arak|R2",
         "abilityLinks": [
           "Anub'arak|R2"
