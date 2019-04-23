@@ -7,6 +7,7 @@
   "name": "Varian",
   "icon": "varian.png",
   "role": "Multiclass",
+  "expandedRole": "Bruiser",
   "type": "Melee",
   "releaseDate": "2016-11-15",
   "releasePatch": "1.22.0.48027",
@@ -35,7 +36,7 @@
         "hotkey": "W",
         "abilityId": "Varian|W1",
         "cooldown": 10,
-        "manaCost": 20,
+        "manaCost": 30,
         "icon": "storm_ui_icon_varian_parry.png",
         "type": "basic"
       },
@@ -94,7 +95,7 @@
         "tooltipId": "VarianLionsFangLionsMawQuest",
         "talentTreeId": "VarianLionsFangLionsMawQuest",
         "name": "Lion's Maw",
-        "description": "Quest: Every time Lion's Fang hits a Hero, increase its damage by 4, up to 120.  Reward: After hitting 30 Heroes, the Slow is increased to 50% and its duration is increased to 2 seconds.",
+        "description": "Quest: Every time Lion's Fang hits a Hero, increase its damage by 5, up to 125.  Reward: After hitting 25 Heroes, the Slow is increased to 50% and its duration is increased to 2 seconds.",
         "icon": "storm_ui_icon_varian_lionsfang.png",
         "type": "Q",
         "sort": 1,
@@ -121,7 +122,7 @@
         "tooltipId": "VarianHighKingsQuestQuest",
         "talentTreeId": "VarianHighKingsQuestQuest",
         "name": "High King's Quest",
-        "description": "Quest: Hit 50 Heroes with Basic Attacks. Quest: Participate in 5 Hero Takedowns. Quest: Gather 20 Regeneration Globes.  Reward: Completing a Quest grants 10 Base Attack Damage. Completing all 3 Quests grants an additional 45 Base Attack Damage.",
+        "description": "Quest: Hit 50 Heroes with Basic Attacks. Quest: Participate in 5 Hero Takedowns. Quest: Gather 20 Regeneration Globes.  Reward: Completing a Quest grants 10 Base Attack Damage. Completing all 3 Quests grants an additional 30 Base Attack Damage.",
         "icon": "storm_ui_icon_varian_highkingsquest.png",
         "type": "Passive",
         "sort": 3,
@@ -167,9 +168,12 @@
         "name": "Twin Blades of Fury",
         "description": "Basic Attacks reduce Heroic Strike's cooldown by 9 seconds, and increase Varian's Movement Speed by 30% for 2 seconds.  Passive: Attack Speed increased by 100%. Passive: Base Attack Damage reduced by 20%.",
         "icon": "storm_ui_icon_varian_twinbladesoffury.png",
-        "type": "Passive",
+        "type": "Heroic",
         "sort": 3,
-        "abilityId": "Varian|Passive"
+        "abilityId": "Varian|R3",
+        "abilityLinks": [
+          "Varian|R3"
+        ]
       }
     ],
     "7": [
