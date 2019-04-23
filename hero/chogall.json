@@ -7,6 +7,7 @@
   "name": "Cho",
   "icon": "chogall.png",
   "role": "Warrior",
+  "expandedRole": "Tank",
   "type": "Melee",
   "releaseDate": "2015-11-17",
   "releasePatch": "1.15.0.39153",
@@ -164,7 +165,7 @@
         "tooltipId": "ChoPowerSurgeTalent",
         "talentTreeId": "ChoPowerSurge",
         "name": "Power Surge",
-        "description": "Each Hero hit by Surging Fist reduces its cooldown by 4 seconds.",
+        "description": "Each Hero hit by Surging Fist reduces its cooldown by 5 seconds.",
         "icon": "storm_ui_icon_cho_moltensurge_a.png",
         "type": "Q",
         "sort": 1,
@@ -232,6 +233,43 @@
     ],
     "13": [
       {
+        "tooltipId": "ChoSurgingDashTalent",
+        "talentTreeId": "ChoSurgingDash",
+        "name": "Surging Dash",
+        "description": "While Channeling Surging Fist, Cho heals for 150 (+4% per level) Health per second.",
+        "icon": "storm_ui_icon_cho_moltensurge_a.png",
+        "type": "Q",
+        "sort": 1,
+        "abilityId": "Cho|Q1",
+        "abilityLinks": [
+          "Cho|Q1"
+        ]
+      },
+      {
+        "tooltipId": "ChoTwilightVeilTalent",
+        "talentTreeId": "ChoTwilightVeil",
+        "name": "Twilight Veil",
+        "description": "Activate to increase the Armor bonus of Ogre Hide by 100% for 4 seconds. If cast while Ogre Rage is active, it instantly swaps to Ogre Hide.",
+        "icon": "storm_ui_icon_talent_hardenedshield.png",
+        "type": "Active",
+        "sort": 2,
+        "cooldown": 30,
+        "abilityId": "Cho|Active"
+      },
+      {
+        "tooltipId": "ChoTalentMoltenBlock",
+        "talentTreeId": "ChoTalentMoltenBlock",
+        "name": "Molten Block",
+        "description": "Activate to enter Stasis and gain Invulnerability for 3 seconds, damaging nearby enemies for 92 (+4% per level) damage per second.",
+        "icon": "storm_ui_icon_cho_moltenblock.png",
+        "type": "Active",
+        "sort": 3,
+        "cooldown": 60,
+        "abilityId": "Cho|Active"
+      }
+    ],
+    "16": [
+      {
         "tooltipId": "ChoFrenziedFistsTalent",
         "talentTreeId": "ChoFrenziedFists",
         "name": "Frenzied Fists",
@@ -261,48 +299,11 @@
         "tooltipId": "ChoRunedGauntletTalent",
         "talentTreeId": "ChoRunedGauntlet",
         "name": "Runed Gauntlet",
-        "description": "Basic Attacks reduce the cooldown of Cho and Gall's Heroic Abilities by 0.75 seconds.",
+        "description": "Basic Attacks reduce the cooldown of Cho and Gall's Heroic Abilities by 5%.",
         "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
         "type": "Passive",
         "sort": 3,
         "abilityId": "Cho|Passive"
-      }
-    ],
-    "16": [
-      {
-        "tooltipId": "ChoSurgingDashTalent",
-        "talentTreeId": "ChoSurgingDash",
-        "name": "Surging Dash",
-        "description": "While channeling Surging Fist, Cho heals for 150 (+4% per level) Health per second.",
-        "icon": "storm_ui_icon_cho_moltensurge_a.png",
-        "type": "Q",
-        "sort": 1,
-        "abilityId": "Cho|Q1",
-        "abilityLinks": [
-          "Cho|Q1"
-        ]
-      },
-      {
-        "tooltipId": "ChoTwilightVeilTalent",
-        "talentTreeId": "ChoTwilightVeil",
-        "name": "Twilight Veil",
-        "description": "Activate to increase the Armor bonus of Ogre Hide by 100% for 2 seconds. If cast while Ogre Rage is active, it instantly swaps to Ogre Hide.",
-        "icon": "storm_ui_icon_talent_hardenedshield.png",
-        "type": "Active",
-        "sort": 2,
-        "cooldown": 30,
-        "abilityId": "Cho|Active"
-      },
-      {
-        "tooltipId": "ChoTalentMoltenBlock",
-        "talentTreeId": "ChoTalentMoltenBlock",
-        "name": "Molten Block",
-        "description": "Activate to enter Stasis and gain Invulnerability for 3 seconds, damaging nearby enemies for 92 (+4% per level) damage per second.",
-        "icon": "storm_ui_icon_cho_moltenblock.png",
-        "type": "Active",
-        "sort": 3,
-        "cooldown": 60,
-        "abilityId": "Cho|Active"
       }
     ],
     "20": [
@@ -310,7 +311,7 @@
         "tooltipId": "ChoCthunsGiftTalent",
         "talentTreeId": "ChoCthunsGift",
         "name": "C'Thun's Gift",
-        "description": "Cho's Basic Attack becomes ranged and slows targets by 20% for 2 seconds.",
+        "description": "Cho's Basic Attack becomes ranged and Slows targets by 20% for 2 seconds.",
         "icon": "storm_ui_icon_cho_hammeroftwilight.png",
         "type": "Heroic",
         "sort": 1,
@@ -323,7 +324,7 @@
         "tooltipId": "ChoFavorOfTheOldGodsTalent",
         "talentTreeId": "ChoFavorOfTheOldGods",
         "name": "Favor of the Old Gods",
-        "description": "Upheaval roots enemy Heroes for 1.5 seconds.",
+        "description": "Upheaval Roots enemy Heroes for 1.5 seconds.",
         "icon": "storm_ui_icon_cho_upheaval.png",
         "type": "Heroic",
         "sort": 2,

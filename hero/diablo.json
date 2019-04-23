@@ -7,6 +7,7 @@
   "name": "Diablo",
   "icon": "diablo.png",
   "role": "Warrior",
+  "expandedRole": "Tank",
   "type": "Melee",
   "releaseDate": "2014-03-13",
   "releasePatch": "0.1.1.00000",
@@ -24,7 +25,7 @@
         "description": "Charge an enemy, knocking them back, dealing 40 (+4% per level) damage and gaining 15% Movement Speed for 2 seconds. If the enemy hits terrain, they are Stunned for 1 second and take an additional 120 (+4% per level) damage.",
         "hotkey": "Q",
         "abilityId": "Diablo|Q1",
-        "cooldown": 12,
+        "cooldown": 13,
         "manaCost": 70,
         "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
         "type": "basic"
@@ -35,7 +36,7 @@
         "hotkey": "W",
         "abilityId": "Diablo|W1",
         "cooldown": 8,
-        "manaCost": 30,
+        "manaCost": 35,
         "icon": "storm_ui_icon_diablo_firestomp.png",
         "type": "basic"
       },
@@ -44,7 +45,7 @@
         "description": "Grabs the target and slams it behind Diablo, dealing 73 (+4% per level) damage and Stunning for 0.25 seconds.",
         "hotkey": "E",
         "abilityId": "Diablo|E1",
-        "cooldown": 12,
+        "cooldown": 13,
         "manaCost": 40,
         "icon": "storm_ui_icon_diablo_overpower_var1.png",
         "type": "basic"
