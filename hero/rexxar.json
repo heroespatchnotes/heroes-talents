@@ -7,6 +7,7 @@
   "name": "Rexxar",
   "icon": "rexxar.png",
   "role": "Warrior",
+  "expandedRole": "Bruiser",
   "type": "Ranged",
   "releaseDate": "2015-09-08",
   "releasePatch": "1.13.3.37569",
@@ -31,7 +32,7 @@
       },
       {
         "name": "Misha, Charge!",
-        "description": "Misha charges in a line, dealing 59 (+4% per level) damage and stunning enemies for 1.25 seconds.",
+        "description": "Misha charges in a line, dealing 150 (+4% per level) damage and stunning enemies for 1.25 seconds.",
         "hotkey": "W",
         "abilityId": "Rexxar|W1",
         "cooldown": 10,
@@ -61,7 +62,7 @@
       },
       {
         "name": "Bestial Wrath",
-        "description": "Increases Misha's Basic Attack damage by 150% for 12 seconds.",
+        "description": "Increases Misha's Basic Attack damage by 200% for 12 seconds.",
         "hotkey": "R",
         "abilityId": "Rexxar|R2",
         "cooldown": 50,
@@ -83,27 +84,27 @@
   "talents": {
     "1": [
       {
-        "tooltipId": "RexxarSpiritBondEasyPreyTalent",
-        "talentTreeId": "RexxarSpiritBondEasyPrey",
-        "name": "Easy Prey",
-        "description": "Increases Misha's damage to Minions and Mercenaries by 150%, and Misha gains 50 Armor against Minions and Mercenaries, reducing damage taken by 50%.",
-        "icon": "storm_ui_icon_rexxar_heremishaactive.png",
-        "type": "Passive",
-        "sort": 1,
-        "abilityId": "Rexxar|Passive"
-      },
-      {
         "tooltipId": "RexxarSpiritSwoopBirdOfPreyTalent",
         "talentTreeId": "RexxarSpiritSwoopBirdOfPrey",
         "name": "Bird of Prey",
         "description": "Increases Spirit Swoop's damage by 150% to Minions.",
         "icon": "storm_ui_icon_rexxar_spiritswoop.png",
         "type": "Q",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Rexxar|Q1",
         "abilityLinks": [
           "Rexxar|Q1"
         ]
+      },
+      {
+        "tooltipId": "RexxarSpiritBondEasyPreyTalent",
+        "talentTreeId": "RexxarSpiritBondEasyPrey",
+        "name": "Easy Prey",
+        "description": "Increases Misha's basic attack damage to Minions and Mercenaries by 200%, and Misha gains 50 Armor against Minions and Mercenaries, reducing damage taken by 50%.",
+        "icon": "storm_ui_icon_rexxar_heremishaactive.png",
+        "type": "Passive",
+        "sort": 2,
+        "abilityId": "Rexxar|Passive"
       },
       {
         "tooltipId": "RexxarFlare",
@@ -162,26 +163,13 @@
     ],
     "7": [
       {
-        "tooltipId": "RexxarAspectoftheBeastTalent",
-        "talentTreeId": "RexxarAspectoftheBeastCharge",
-        "name": "Aspect of the Beast",
-        "description": "Misha's Basic Attacks lower the cooldown of Misha, Charge! by 1.25 seconds.",
-        "icon": "storm_ui_icon_rexxar_mishacharge.png",
-        "type": "W",
-        "sort": 1,
-        "abilityId": "Rexxar|W1",
-        "abilityLinks": [
-          "Rexxar|W1"
-        ]
-      },
-      {
         "tooltipId": "RexxarCripplingTalonsTalent",
         "talentTreeId": "RexxarSpiritSwoopCripplingTalons",
         "name": "Crippling Talons",
         "description": "Increases Spirit Swoop's slow amount to 50% and its duration to 3.5 seconds.",
         "icon": "storm_ui_icon_rexxar_spiritswoop.png",
         "type": "Q",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Rexxar|Q1",
         "abilityLinks": [
           "Rexxar|Q1"
@@ -194,10 +182,23 @@
         "description": "Increases Spirit Swoop's range by 20%. If Spirit Swoop hits an enemy Hero, the Mana cost is refunded and its cooldown is reduced by 2 seconds.",
         "icon": "storm_ui_icon_rexxar_spiritswoop_var1.png",
         "type": "Q",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Rexxar|Q1",
         "abilityLinks": [
           "Rexxar|Q1"
+        ]
+      },
+      {
+        "tooltipId": "RexxarAspectoftheBeastTalent",
+        "talentTreeId": "RexxarAspectoftheBeastCharge",
+        "name": "Aspect of the Beast",
+        "description": "Misha's Basic Attacks lower the cooldown of Misha, Charge! by 1 second.",
+        "icon": "storm_ui_icon_rexxar_mishacharge.png",
+        "type": "W",
+        "sort": 3,
+        "abilityId": "Rexxar|W1",
+        "abilityLinks": [
+          "Rexxar|W1"
         ]
       }
     ],
@@ -206,7 +207,7 @@
         "tooltipId": "RexxarBestialWrath",
         "talentTreeId": "RexxarHeroicAbilityBestialWrath",
         "name": "Bestial Wrath",
-        "description": "Increases Misha's Basic Attack damage by 150% for 12 seconds.",
+        "description": "Increases Misha's Basic Attack damage by 200% for 12 seconds.",
         "icon": "storm_ui_icon_rexxar_bestialwrath.png",
         "type": "Heroic",
         "sort": 1,
@@ -233,23 +234,13 @@
     ],
     "13": [
       {
-        "tooltipId": "RexxarSpiritBondWildfireBearTalent",
-        "talentTreeId": "RexxarSpiritBondWildfireBear",
-        "name": "Wildfire Bear",
-        "description": "Misha deals 28 (+4% per level) damage per second to nearby enemies.",
-        "icon": "storm_ui_icon_talent_burningrage.png",
-        "type": "Passive",
-        "sort": 1,
-        "abilityId": "Rexxar|Passive"
-      },
-      {
         "tooltipId": "RexxarAspectOfTheHawkTalent",
         "talentTreeId": "RexxarAspectOfTheHawkSpiritSwoop",
         "name": "Aspect of the Hawk",
         "description": "When Spirit Swoop hits an enemy Hero, Rexxar gains 125% Attack Speed for 4 seconds. Misha's Basic Attacks increase the duration of this buff by 0.75 seconds.",
         "icon": "storm_ui_icon_rexxar_spiritswoop.png",
         "type": "Q",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Rexxar|Q1",
         "abilityLinks": [
           "Rexxar|Q1"
@@ -259,14 +250,24 @@
         "tooltipId": "RexxarDireBeast",
         "talentTreeId": "RexxarDireBeast",
         "name": "Dire Beast",
-        "description": "Rexxar and Misha's Basic Attacks increase the damage of the next Misha, Charge! by 40%, stacking up to a 400% bonus.",
+        "description": "Rexxar and Misha's Basic Attacks increase the damage of the next Misha, Charge! by 15%, stacking up to a 150% bonus.",
         "icon": "storm_ui_icon_rexxar_mishacharge.png",
         "type": "W",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Rexxar|W1",
         "abilityLinks": [
           "Rexxar|W1"
         ]
+      },
+      {
+        "tooltipId": "RexxarSpiritBondWildfireBearTalent",
+        "talentTreeId": "RexxarSpiritBondWildfireBear",
+        "name": "Wildfire Bear",
+        "description": "Misha deals 28 (+4% per level) damage per second to nearby enemies.",
+        "icon": "storm_ui_icon_talent_burningrage.png",
+        "type": "Passive",
+        "sort": 3,
+        "abilityId": "Rexxar|Passive"
       }
     ],
     "16": [
