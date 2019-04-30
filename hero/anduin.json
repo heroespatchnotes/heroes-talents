@@ -1,0 +1,379 @@
+{
+  "id": "86",
+  "shortName": "anduin",
+  "attributeId": "Andu",
+  "cHeroId": "Anduin",
+  "cUnitId": "HeroAnduin",
+  "name": "Anduin",
+  "icon": "anduin.png",
+  "role": "Support",
+  "expandedRole": "Healer",
+  "type": "Ranged",
+  "releaseDate": "2019-04-30",
+  "releasePatch": "2.45.0.73662",
+  "tags": [
+    "AllyHealer",
+    "EnergyImportant",
+    "Helper",
+    "RoleSupport",
+    "SelfHealer"
+  ],
+  "abilities": {
+    "Anduin": [
+      {
+        "name": "Flash Heal",
+        "description": "Cast for 0.75 seconds to heal an allied Hero for 260 (+4% per level).",
+        "hotkey": "Q",
+        "abilityId": "Anduin|Q1",
+        "cooldown": 4,
+        "manaCost": 30,
+        "icon": "storm_ui_icon_anduin_flash_heal.png",
+        "type": "basic"
+      },
+      {
+        "name": "Divine Star",
+        "description": "Send light that deals 140 (+4% per level) damage to enemies and then returns to Anduin, healing allied Heroes for 130 (+4% per level) in a wider path. Healing increases by 25% per enemy Hero hit.",
+        "hotkey": "W",
+        "abilityId": "Anduin|W1",
+        "cooldown": 9,
+        "manaCost": 45,
+        "icon": "storm_ui_icon_anduin_divine_star.png",
+        "type": "basic"
+      },
+      {
+        "name": "Chastise",
+        "description": "Shove a swell of light forward, dealing 145 (+4% per level) damage to the first enemy Hero hit and Rooting them for 1.25 seconds.",
+        "hotkey": "E",
+        "abilityId": "Anduin|E1",
+        "cooldown": 10,
+        "manaCost": 40,
+        "icon": "storm_ui_icon_anduin_chastise.png",
+        "type": "basic"
+      },
+      {
+        "name": "Holy Word: Salvation",
+        "description": "After 0.5 seconds, Channel to invoke the Light for 3 seconds. While nearby, allied Heroes heal for up to 25% of their max Health and are Protected.",
+        "hotkey": "R",
+        "abilityId": "Anduin|R1",
+        "cooldown": 80,
+        "manaCost": 70,
+        "icon": "storm_ui_icon_anduin_holy_word_salvation.png",
+        "type": "heroic"
+      },
+      {
+        "name": "Lightbomb",
+        "description": "Imbue an allied Hero with the Light. After 1.5 seconds, it explodes, dealing 150 (+4% per level) damage to enemies and Stunning them for 1.25 seconds.  The target gains a Shield that absorbs 140 (+4% per level) damage per enemy Hero hit. Lasts for 5 seconds.",
+        "hotkey": "R",
+        "abilityId": "Anduin|R2",
+        "cooldown": 60,
+        "manaCost": 70,
+        "icon": "storm_ui_icon_anduin_light_bomb.png",
+        "type": "heroic"
+      },
+      {
+        "name": "Leap of Faith",
+        "description": "Faith instantly pulls an allied Hero to Anduin's location, granting them Unstoppable while they travel.",
+        "trait": true,
+        "abilityId": "Anduin|D1",
+        "cooldown": 80,
+        "icon": "storm_ui_icon_anduin_leap_of_faith.png",
+        "type": "trait"
+      }
+    ]
+  },
+  "talents": {
+    "1": [
+      {
+        "tooltipId": "AnduinFlashHealRenew",
+        "talentTreeId": "AnduinFlashHealRenew",
+        "name": "Renew",
+        "description": "Basic Attacks against Heroes empower the next Flash Heal to also heal for 115 (+4% per level) over 5 seconds.",
+        "icon": "storm_ui_icon_anduin_flash_heal_a.png",
+        "type": "Q",
+        "sort": 1,
+        "abilityId": "Anduin|Q1",
+        "abilityLinks": [
+          "Anduin|Q1"
+        ]
+      },
+      {
+        "tooltipId": "AnduinPursuedByGrace",
+        "talentTreeId": "AnduinPursuedByGrace",
+        "name": "Pursued by Grace",
+        "description": "Damaging an enemy Hero heals the lowest Health allied Hero near Anduin for 28 (+4% per level).",
+        "icon": "storm_ui_icon_anduin_varians_legacy.png",
+        "type": "Passive",
+        "sort": 2,
+        "abilityId": "Anduin|Passive",
+        "abilityLinks": [
+          "Anduin|D1"
+        ]
+      },
+      {
+        "tooltipId": "AnduinBoldStrategy",
+        "talentTreeId": "AnduinBoldStrategy",
+        "name": "Bold Strategy",
+        "description": "Anduin gains his other level 1 Talents, but Flash Heal's cooldown is increased by 1 second.",
+        "icon": "storm_ui_icon_anduin_bold_strategy.png",
+        "type": "Passive",
+        "sort": 3,
+        "abilityId": "Anduin|Passive",
+        "abilityLinks": [
+          "Anduin|Q1"
+        ]
+      }
+    ],
+    "4": [
+      {
+        "tooltipId": "AnduinDivineStarMoralCompass",
+        "talentTreeId": "AnduinDivineStarMoralCompass",
+        "name": "Moral Compass",
+        "description": "Divine Star fires Basic Attacks at 2 Heroes close to its apex for 70% damage.",
+        "icon": "storm_ui_icon_anduin_divine_star.png",
+        "type": "W",
+        "sort": 1,
+        "abilityId": "Anduin|W1",
+        "abilityLinks": [
+          "Anduin|W1"
+        ]
+      },
+      {
+        "tooltipId": "AnduinChastiseHolyReach",
+        "talentTreeId": "AnduinChastiseHolyReach",
+        "name": "Holy Reach",
+        "description": "After hitting an enemy with Chastise, Anduin's next Basic Attack has 50% more range, 50% more damage, and heals allied Heroes near Anduin for 90 (+4% per level).",
+        "icon": "storm_ui_icon_anduin_chastise.png",
+        "type": "E",
+        "sort": 2,
+        "abilityId": "Anduin|E1",
+        "abilityLinks": [
+          "Anduin|E1"
+        ]
+      },
+      {
+        "tooltipId": "AnduinInnerFire",
+        "talentTreeId": "AnduinInnerFire",
+        "name": "Inner Fire",
+        "description": "Increases Attack Speed by 20% and Basic Attack range by 15%.",
+        "icon": "storm_ui_icon_anduin_varians_legacy.png",
+        "type": "Passive",
+        "sort": 3,
+        "abilityId": "Anduin|Passive",
+        "abilityLinks": [
+          "Anduin|D1"
+        ]
+      }
+    ],
+    "7": [
+      {
+        "tooltipId": "AnduinFlashHealBindingHeal",
+        "talentTreeId": "AnduinFlashHealBindingHeal",
+        "name": "Binding Heal",
+        "description": "Casting Flash Heal on an ally heals Anduin for 80 (+4% per level).",
+        "icon": "storm_ui_icon_anduin_flash_heal.png",
+        "type": "Q",
+        "sort": 1,
+        "abilityId": "Anduin|Q1",
+        "abilityLinks": [
+          "Anduin|Q1"
+        ]
+      },
+      {
+        "tooltipId": "AnduinDivineStarPowerWordShield",
+        "talentTreeId": "AnduinDivineStarPowerWordShield",
+        "name": "Power Word: Shield",
+        "description": "If Divine Star hits an enemy Hero, gain a Shield that absorbs 165 (+4% per level) damage for 4 seconds.",
+        "icon": "storm_ui_icon_anduin_divine_star.png",
+        "type": "W",
+        "sort": 2,
+        "abilityId": "Anduin|W1",
+        "abilityLinks": [
+          "Anduin|W1"
+        ]
+      },
+      {
+        "tooltipId": "AnduinBlessedRecovery",
+        "talentTreeId": "AnduinBlessedRecovery",
+        "name": "Blessed Recovery",
+        "description": "If Anduin loses more than 8% of his maximum Health at once, recover 15% Health over 3 seconds.  This effect has a 10 second cooldown.",
+        "icon": "storm_ui_icon_anduin_blessed_recovery.png",
+        "type": "Passive",
+        "sort": 3,
+        "abilityId": "Anduin|Passive"
+      }
+    ],
+    "10": [
+      {
+        "tooltipId": "AnduinHolyWordSalvation",
+        "talentTreeId": "AnduinHolyWordSalvation",
+        "name": "Holy Word: Salvation",
+        "description": "After 0.5 seconds, Channel to invoke the Light for 3 seconds. While nearby, allied Heroes heal for up to 25% of their max Health and are Protected.",
+        "icon": "storm_ui_icon_anduin_holy_word_salvation.png",
+        "type": "Heroic",
+        "sort": 1,
+        "cooldown": 80,
+        "abilityId": "Anduin|R1",
+        "abilityLinks": [
+          "Anduin|R1"
+        ]
+      },
+      {
+        "tooltipId": "AnduinLightBomb",
+        "talentTreeId": "AnduinLightBomb",
+        "name": "Lightbomb",
+        "description": "Imbue an allied Hero with the Light. After 1.5 seconds, it explodes, dealing 150 (+4% per level) damage to enemies and Stunning them for 1.25 seconds.  The target gains a Shield that absorbs 140 (+4% per level) damage per enemy Hero hit. Lasts for 5 seconds.",
+        "icon": "storm_ui_icon_anduin_light_bomb.png",
+        "type": "Heroic",
+        "sort": 2,
+        "cooldown": 60,
+        "abilityId": "Anduin|R2",
+        "abilityLinks": [
+          "Anduin|R2"
+        ]
+      }
+    ],
+    "13": [
+      {
+        "tooltipId": "AnduinDivineStarSpeedOfThePious",
+        "talentTreeId": "AnduinDivineStarSpeedOfThePious",
+        "name": "Speed of the Pious",
+        "description": "While Divine Star is traveling, gain 30% Movement Speed.",
+        "icon": "storm_ui_icon_anduin_divine_star.png",
+        "type": "W",
+        "sort": 1,
+        "abilityId": "Anduin|W1",
+        "abilityLinks": [
+          "Anduin|W1"
+        ]
+      },
+      {
+        "tooltipId": "AnduinLeapOfFaithEnchantBootsLionsSpeed",
+        "talentTreeId": "AnduinLeapOfFaithEnchantBootsLionsSpeed",
+        "name": "Enchant Boots - Lion's Speed",
+        "description": "Gain 5% Movement Speed. This bonus is tripled while Leap of Faith's cooldown is available.",
+        "icon": "storm_ui_icon_anduin_leap_of_faith.png",
+        "type": "Trait",
+        "sort": 2,
+        "abilityId": "Anduin|D1",
+        "abilityLinks": [
+          "Anduin|D1"
+        ]
+      },
+      {
+        "tooltipId": "AnduinPushForward",
+        "talentTreeId": "AnduinPushForward",
+        "name": "Push Forward!",
+        "description": "Damaging an enemy Hero grants 3% Movement Speed for 6 seconds, up to 15%.",
+        "icon": "storm_ui_icon_anduin_varians_legacy.png",
+        "type": "Passive",
+        "sort": 3,
+        "abilityId": "Anduin|Passive",
+        "abilityLinks": [
+          "Anduin|D1"
+        ]
+      }
+    ],
+    "16": [
+      {
+        "tooltipId": "AnduinFlashHealEvenhandedBlessings",
+        "talentTreeId": "AnduinFlashHealEvenhandedBlessings",
+        "name": "Evenhanded Blessings",
+        "description": "If Flash Heal is cast on a different target from its last, refund 40% of its cooldown.",
+        "icon": "storm_ui_icon_anduin_flash_heal.png",
+        "type": "Q",
+        "sort": 1,
+        "abilityId": "Anduin|Q1",
+        "abilityLinks": [
+          "Anduin|Q1"
+        ]
+      },
+      {
+        "tooltipId": "AnduinDivineStarHolyNova",
+        "talentTreeId": "AnduinDivineStarHolyNova",
+        "name": "Holy Nova",
+        "description": "After Anduin catches Divine Star, it explodes, healing nearby allied Heroes for 100 (+4% per level) and damaging enemies for 100 (+4% per level).",
+        "icon": "storm_ui_icon_anduin_divine_star.png",
+        "type": "W",
+        "sort": 2,
+        "abilityId": "Anduin|W1",
+        "abilityLinks": [
+          "Anduin|W1"
+        ]
+      },
+      {
+        "tooltipId": "AnduinFlashHealInnerFocus",
+        "talentTreeId": "AnduinFlashHealInnerFocus",
+        "name": "Inner Focus",
+        "description": "Activate to reset the cooldown of Flash Heal and its next cast heals for 40% more.  Damaging enemy Heroes with Divine Star reduces this cooldown by 10 seconds.",
+        "icon": "storm_ui_icon_anduin_inner_focus.png",
+        "type": "Active",
+        "sort": 3,
+        "cooldown": 20,
+        "abilityId": "Anduin|Active"
+      },
+      {
+        "tooltipId": "AnduinLightwell",
+        "talentTreeId": "AnduinLightwell",
+        "name": "Lightwell",
+        "description": "Summon a Lightwell that periodically heals a nearby allied Hero for 75 (+4% per level). The well only fades after healing 10 times or when recast.  This cooldown is reduced by 1 second each time Anduin heals an allied Hero.",
+        "icon": "storm_ui_icon_anduin_lightwell.png",
+        "type": "Active",
+        "sort": 4,
+        "cooldown": 70,
+        "abilityId": "Anduin|Active"
+      }
+    ],
+    "20": [
+      {
+        "tooltipId": "AnduinHolyWordSalvationLightOfStormwind",
+        "talentTreeId": "AnduinHolyWordSalvationLightOfStormwind",
+        "name": "Light of Stormwind",
+        "description": "Holy Word: Salvation healing is increased to up to 30% of maximum Health and upon ending, allied Heroes gain 40% Movement Speed for 3 seconds.",
+        "icon": "storm_ui_icon_anduin_holy_word_salvation.png",
+        "type": "Heroic",
+        "sort": 1,
+        "abilityId": "Anduin|R1",
+        "abilityLinks": [
+          "Anduin|R1"
+        ]
+      },
+      {
+        "tooltipId": "AnduinLeapOfFaithGlyphOfFaith",
+        "talentTreeId": "AnduinLeapOfFaithGlyphOfFaith",
+        "name": "Glyph of Faith",
+        "description": "Leap of Faith gains a 2nd charge.",
+        "icon": "storm_ui_icon_anduin_leap_of_faith.png",
+        "type": "Trait",
+        "sort": 2,
+        "abilityId": "Anduin|D1",
+        "abilityLinks": [
+          "Anduin|D1"
+        ]
+      },
+      {
+        "tooltipId": "AnduinVariansLegacy",
+        "talentTreeId": "AnduinVariansLegacy",
+        "name": "Varian's Legacy",
+        "description": "Basic Attacks burn enemies for 87 (+4% per level) damage over 3 seconds and Anduin heals for 50% of the damage dealt.",
+        "icon": "storm_ui_icon_anduin_varians_legacy.png",
+        "type": "Passive",
+        "sort": 3,
+        "abilityId": "Anduin|Passive",
+        "abilityLinks": [
+          "Anduin|D1"
+        ]
+      },
+      {
+        "tooltipId": "AnduinFlashHealDesperatePrayer",
+        "talentTreeId": "AnduinFlashHealDesperatePrayer",
+        "name": "Desperate Prayer",
+        "description": "Activate to desperately heal an allied Hero for 540 (+4% per level), but kneel for 2 seconds, unable to act.  Using Desperate Prayer places Flash Heal on a 10 second cooldown.",
+        "icon": "storm_ui_icon_anduin_desperate_prayer.png",
+        "type": "Active",
+        "sort": 4,
+        "cooldown": 40,
+        "abilityId": "Anduin|Active"
+      }
+    ]
+  }
+}
