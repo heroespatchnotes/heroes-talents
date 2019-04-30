@@ -2057,6 +2057,481 @@
       ]
     }
   },
+  "Anduin": {
+    "name": "Андуин",
+    "cHeroId": "Anduin",
+    "cUnitId": "HeroAnduin",
+    "attributeId": "Andu",
+    "difficulty": "средняя",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "title": "Король Штормграда",
+    "innerRadius": 0.625,
+    "radius": 0.625,
+    "releaseDate": "2019-04-30",
+    "sight": 12.0,
+    "speed": 4.3984,
+    "type": "Дальний бой",
+    "rarity": "Legendary",
+    "mountLinkId": "SummonMount",
+    "hearthLinkId": "Hearthstone",
+    "searchText": "Человек Ринн Жрец Штормград Альянс WoW World of Warcraft  Burning Crusade BC Wrath Lich King WotLK Cataclysm Mists of Pandaria MoP Warlords Draenor WoD Legion Hearthstone HS BFA Battle for Azeroth ВоВ Варкрафт БК Король-лич ВотЛК Катаклизм Пандария МоП Дренор ВоД Легион Харстоун Хартстоун ХС БФА Азерот",
+    "description": "Лекарь дальнего боя, который может вытаскивать союзников из беды.",
+    "descriptors": [
+      "AllyHealer",
+      "EnergyImportant",
+      "Helper",
+      "RoleSupport",
+      "SelfHealer"
+    ],
+    "portraits": {
+      "heroSelect": "storm_ui_ingame_heroselect_btn_anduin.png",
+      "leaderboard": "storm_ui_ingame_hero_leaderboard_anduin.png",
+      "loading": "storm_ui_ingame_hero_loadingscreen_anduin.png",
+      "partyPanel": "storm_ui_ingame_partypanel_btn_anduin.png",
+      "target": "ui_targetportrait_hero_anduin.png"
+    },
+    "life": {
+      "amount": 1665.0,
+      "scale": 0.04,
+      "regenRate": 3.4687,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500.0,
+      "type": "Мана",
+      "regenRate": 3.0
+    },
+    "roles": [
+      "Поддержка"
+    ],
+    "expandedRole": "Лекарь",
+    "ratings": {
+      "complexity": 4.0,
+      "damage": 2.0,
+      "survivability": 4.0,
+      "utility": 7.0
+    },
+    "weapons": [
+      {
+        "nameId": "AnduinHeroWeapon",
+        "range": 5.5,
+        "period": 1.2,
+        "damage": 85.0,
+        "damageScale": 0.04
+      }
+    ],
+    "abilities": {
+      "basic": [
+        {
+          "nameId": "AnduinFlashHeal",
+          "name": "Быстрое исцеление",
+          "shortTooltipId": "AnduinFlashHeal",
+          "fullTooltipId": "AnduinFlashHeal",
+          "icon": "storm_ui_icon_anduin_flash_heal.png",
+          "energyTooltip": "Мана: 30",
+          "cooldownTooltip": "Время восстановления: 4 сек.",
+          "shortTooltip": "Лечит союзника.",
+          "fullTooltip": "После применения в течение 0.75 сек. восполняет союзному герою 260 (+4% за уровень) ед. здоровья.",
+          "abilityType": "Q"
+        },
+        {
+          "nameId": "AnduinDivineStar",
+          "name": "Божественная звезда",
+          "shortTooltipId": "AnduinDivineStar",
+          "fullTooltipId": "AnduinDivineStar",
+          "icon": "storm_ui_icon_anduin_divine_star.png",
+          "energyTooltip": "Мана: 45",
+          "cooldownTooltip": "Время восстановления: 9 сек.",
+          "shortTooltip": "Выпускает волну, которая наносит урон противникам и лечит союзников.",
+          "fullTooltip": "Выпускает волну света, которая наносит противникам 140 (+4% за уровень) ед. урона, а затем возвращается к Андуину более широкой волной, восполняя союзным героям 130 (+4% за уровень) ед. здоровья. Объем исцеления увеличивается на 25% за каждого пораженного вражеского героя.",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "AnduinChastise",
+          "name": "Воздаяние",
+          "shortTooltipId": "AnduinChastise",
+          "fullTooltipId": "AnduinChastise",
+          "icon": "storm_ui_icon_anduin_chastise.png",
+          "energyTooltip": "Мана: 40",
+          "cooldownTooltip": "Время восстановления: 10 сек.",
+          "shortTooltip": "Выпускает перед собой сноп света, который обездвиживает противника.",
+          "fullTooltip": "Выпускает перед собой сноп света, который наносит первому герою противника на своем пути 145 (+4% за уровень) ед. урона и обездвиживает его на 1.25 сек.",
+          "abilityType": "E"
+        }
+      ],
+      "heroic": [
+        {
+          "nameId": "AnduinHolyWordSalvation",
+          "name": "Слово Света: Спасение",
+          "shortTooltipId": "AnduinHolyWordSalvation",
+          "fullTooltipId": "AnduinHolyWordSalvation",
+          "icon": "storm_ui_icon_anduin_holy_word_salvation.png",
+          "energyTooltip": "Мана: 70",
+          "cooldownTooltip": "Время восстановления: 80 сек.",
+          "shortTooltip": "Лечит союзников рядом с Андуином и защищает их от урона.",
+          "fullTooltip": "После паузы в 0.5 сек. Андуин в течение 3 сек. поддерживает барьер из чистого Света. В это время находящиеся рядом союзные герои восполняют до 25% от максимального запаса здоровья и получают защиту от урона.",
+          "abilityType": "Heroic"
+        },
+        {
+          "nameId": "AnduinLightBomb",
+          "name": "Световая бомба",
+          "shortTooltipId": "AnduinLightBomb",
+          "fullTooltipId": "AnduinLightBomb",
+          "icon": "storm_ui_icon_anduin_light_bomb.png",
+          "energyTooltip": "Мана: 70",
+          "cooldownTooltip": "Время восстановления: 60 сек.",
+          "shortTooltip": "Оглушает противников рядом с союзником.",
+          "fullTooltip": "Наполняет союзного героя силой Света. Спустя 1.5 сек. происходит взрыв, наносящий противникам 150 (+4% за уровень) ед. урона и оглушающий их на 1.25 сек.  Цель получает щит прочностью 140 (+4% за уровень) ед. за каждого пораженного героя противника. Время действия – 5 сек.",
+          "abilityType": "Heroic"
+        }
+      ],
+      "trait": [
+        {
+          "nameId": "AnduinLeapOfFaithInstant",
+          "name": "Духовное рвение",
+          "shortTooltipId": "AnduinLeapOfFaithInstant",
+          "fullTooltipId": "AnduinLeapOfFaithInstant",
+          "icon": "storm_ui_icon_anduin_leap_of_faith.png",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 0.5
+          },
+          "cooldownTooltip": "Время восстановления: 80 сек.",
+          "shortTooltip": "Притягивает союзного героя к Андуину.",
+          "fullTooltip": "Мгновенно притягивает союзного героя к Андуину. Во время перемещения этот герой становится неудержимым.",
+          "abilityType": "Trait"
+        }
+      ]
+    },
+    "talents": {
+      "level1": [
+        {
+          "nameId": "AnduinFlashHealRenew",
+          "name": "Обновление",
+          "shortTooltipId": "AnduinFlashHealRenew",
+          "fullTooltipId": "AnduinFlashHealRenew",
+          "icon": "storm_ui_icon_anduin_flash_heal_a.png",
+          "shortTooltip": "Автоатаки усиливают «Быстрое исцеление».",
+          "fullTooltip": "Автоатаки по героям усиливают следующее «Быстрое исцеление», из-за чего оно восполняет еще 115 (+4% за уровень) ед. здоровья в течение 5 сек.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "AnduinFlashHeal"
+          ]
+        },
+        {
+          "nameId": "AnduinPursuedByGrace",
+          "name": "Добродетельность",
+          "shortTooltipId": "AnduinPursuedByGrace",
+          "fullTooltipId": "AnduinPursuedByGrace",
+          "icon": "storm_ui_icon_anduin_varians_legacy.png",
+          "shortTooltip": "Лечит находящихся рядом союзников, когда Андуин наносит урон героям.",
+          "fullTooltip": "Когда Андуин наносит урон героям, он восполняет находящемуся рядом союзному герою с самым низким уровнем здоровья 28 (+4% за уровень) ед. здоровья.",
+          "abilityType": "Passive",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "AnduinLeapOfFaithInstant"
+          ]
+        },
+        {
+          "nameId": "AnduinBoldStrategy",
+          "name": "Дерзкий план",
+          "shortTooltipId": "AnduinBoldStrategy",
+          "fullTooltipId": "AnduinBoldStrategy",
+          "icon": "storm_ui_icon_anduin_bold_strategy.png",
+          "shortTooltip": "Дает другие таланты 1-го уровня, но ослабляет «Быстрое исцеление».",
+          "fullTooltip": "Андуин получает все таланты 1-го уровня, но время восстановления «Быстрого исцеления» увеличивается на 1 сек.",
+          "abilityType": "Passive",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "AnduinFlashHeal"
+          ]
+        }
+      ],
+      "level4": [
+        {
+          "nameId": "AnduinDivineStarMoralCompass",
+          "name": "Моральные принципы",
+          "shortTooltipId": "AnduinDivineStarMoralCompass",
+          "fullTooltipId": "AnduinDivineStarMoralCompass",
+          "icon": "storm_ui_icon_anduin_divine_star.png",
+          "shortTooltip": "В крайней точке «Божественная звезда» наносит урон от автоатаки.",
+          "fullTooltip": "По достижении крайней точки «Божественная звезда» поражает 2 находящихся рядом героев, нанося им 70% урона от автоатаки.",
+          "abilityType": "W",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "AnduinDivineStar"
+          ]
+        },
+        {
+          "nameId": "AnduinChastiseHolyReach",
+          "name": "Божественное усиление",
+          "shortTooltipId": "AnduinChastiseHolyReach",
+          "fullTooltipId": "AnduinChastiseHolyReach",
+          "icon": "storm_ui_icon_anduin_chastise.png",
+          "shortTooltip": "«Воздаяние» усиливает следующую автоатаку.",
+          "fullTooltip": "Когда «Воздаяние» поражает противника, следующая автоатака Андуина восполняет находящимся рядом союзным героям 90 (+4% за уровень) ед. здоровья., ее дальность увеличивается на 50%, а урон – на 50%.",
+          "abilityType": "E",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "AnduinChastise"
+          ]
+        },
+        {
+          "nameId": "AnduinInnerFire",
+          "name": "Внутренний огонь",
+          "shortTooltipId": "AnduinInnerFire",
+          "fullTooltipId": "AnduinInnerFire",
+          "icon": "storm_ui_icon_anduin_varians_legacy.png",
+          "shortTooltip": "Повышает скорость и дальность атаки.",
+          "fullTooltip": "Повышает скорость атаки на 20%, а дальность автоатаки – на 15%.",
+          "abilityType": "Passive",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "AnduinLeapOfFaithInstant"
+          ]
+        }
+      ],
+      "level7": [
+        {
+          "nameId": "AnduinFlashHealBindingHeal",
+          "name": "Связующее исцеление",
+          "shortTooltipId": "AnduinFlashHealBindingHeal",
+          "fullTooltipId": "AnduinFlashHealBindingHeal",
+          "icon": "storm_ui_icon_anduin_flash_heal.png",
+          "shortTooltip": "«Быстрое исцеление» также лечит Андуина.",
+          "fullTooltip": "При применении «Быстрого исцеления» к союзнику Андуин восполняет себе 80 (+4% за уровень) ед. здоровья.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "AnduinFlashHeal"
+          ]
+        },
+        {
+          "nameId": "AnduinDivineStarPowerWordShield",
+          "name": "Слово силы: Щит",
+          "shortTooltipId": "AnduinDivineStarPowerWordShield",
+          "fullTooltipId": "AnduinDivineStarPowerWordShield",
+          "icon": "storm_ui_icon_anduin_divine_star.png",
+          "shortTooltip": "«Божественная звезда» может дать Андуину щит.",
+          "fullTooltip": "Когда «Божественная звезда» поражает вражеского героя, Андуин получает щит прочностью 165 (+4% за уровень) ед. на 4 сек.",
+          "abilityType": "W",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "AnduinDivineStar"
+          ]
+        },
+        {
+          "nameId": "AnduinBlessedRecovery",
+          "name": "Благодатное исцеление",
+          "shortTooltipId": "AnduinBlessedRecovery",
+          "fullTooltipId": "AnduinBlessedRecovery",
+          "icon": "storm_ui_icon_anduin_blessed_recovery.png",
+          "shortTooltip": "Восполняет здоровье при получении существенного урона.",
+          "fullTooltip": "Когда Андуин единовременно теряет более 8% от максимального запаса здоровья, он восполняет себе 15% здоровья в течение 3 сек.   Время восстановления – 10 сек.",
+          "abilityType": "Passive",
+          "sort": 3
+        }
+      ],
+      "level10": [
+        {
+          "nameId": "AnduinHolyWordSalvation",
+          "name": "Слово Света: Спасение",
+          "shortTooltipId": "AnduinHolyWordSalvation",
+          "fullTooltipId": "AnduinHolyWordSalvation",
+          "icon": "storm_ui_icon_anduin_holy_word_salvation.png",
+          "energyTooltip": "Мана: 70",
+          "cooldownTooltip": "Время восстановления: 80 сек.",
+          "shortTooltip": "Лечит союзников рядом с Андуином и защищает их от урона.",
+          "fullTooltip": "После паузы в 0.5 сек. Андуин в течение 3 сек. поддерживает барьер из чистого Света. В это время находящиеся рядом союзные герои восполняют до 25% от максимального запаса здоровья и получают защиту от урона.",
+          "abilityType": "Heroic",
+          "isActive": true,
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "AnduinHolyWordSalvation"
+          ]
+        },
+        {
+          "nameId": "AnduinLightBomb",
+          "name": "Световая бомба",
+          "shortTooltipId": "AnduinLightBomb",
+          "fullTooltipId": "AnduinLightBomb",
+          "icon": "storm_ui_icon_anduin_light_bomb.png",
+          "energyTooltip": "Мана: 70",
+          "cooldownTooltip": "Время восстановления: 60 сек.",
+          "shortTooltip": "Оглушает противников рядом с союзником.",
+          "fullTooltip": "Наполняет союзного героя силой Света. Спустя 1.5 сек. происходит взрыв, наносящий противникам 150 (+4% за уровень) ед. урона и оглушающий их на 1.25 сек.  Цель получает щит прочностью 140 (+4% за уровень) ед. за каждого пораженного героя противника. Время действия – 5 сек.",
+          "abilityType": "Heroic",
+          "isActive": true,
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "AnduinLightBomb"
+          ]
+        }
+      ],
+      "level13": [
+        {
+          "nameId": "AnduinDivineStarSpeedOfThePious",
+          "name": "Быстрота праведности",
+          "shortTooltipId": "AnduinDivineStarSpeedOfThePious",
+          "fullTooltipId": "AnduinDivineStarSpeedOfThePious",
+          "icon": "storm_ui_icon_anduin_divine_star.png",
+          "shortTooltip": "«Божественная звезда» ускоряет передвижение Андуина.",
+          "fullTooltip": "Пока «Божественная звезда» находится в движении, скорость передвижения Андуина повышается на 30%.",
+          "abilityType": "W",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "AnduinDivineStar"
+          ]
+        },
+        {
+          "nameId": "AnduinLeapOfFaithEnchantBootsLionsSpeed",
+          "name": "Чары для обуви: прыть льва",
+          "shortTooltipId": "AnduinLeapOfFaithEnchantBootsLionsSpeed",
+          "fullTooltipId": "AnduinLeapOfFaithEnchantBootsLionsSpeed",
+          "icon": "storm_ui_icon_anduin_leap_of_faith.png",
+          "shortTooltip": "Ускоряет передвижение, когда «Духовное рвение» не восстанавливается.",
+          "fullTooltip": "Повышает скорость передвижения на 5%. Бонус утраивается, если «Духовное рвение» не находится в процессе восстановления.",
+          "abilityType": "Trait",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "AnduinLeapOfFaithInstant"
+          ]
+        },
+        {
+          "nameId": "AnduinPushForward",
+          "name": "Наступаем!",
+          "shortTooltipId": "AnduinPushForward",
+          "fullTooltipId": "AnduinPushForward",
+          "icon": "storm_ui_icon_anduin_varians_legacy.png",
+          "shortTooltip": "Ускоряет передвижение при нанесении урона героям.",
+          "fullTooltip": "Каждый раз, когда Андуин наносит урон герою, его скорость передвижения повышается на 3% на 6 сек., вплоть до 15%.",
+          "abilityType": "Passive",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "AnduinLeapOfFaithInstant"
+          ]
+        }
+      ],
+      "level16": [
+        {
+          "nameId": "AnduinFlashHealEvenhandedBlessings",
+          "name": "Сердобольный лекарь",
+          "shortTooltipId": "AnduinFlashHealEvenhandedBlessings",
+          "fullTooltipId": "AnduinFlashHealEvenhandedBlessings",
+          "icon": "storm_ui_icon_anduin_flash_heal.png",
+          "shortTooltip": "«Быстрое исцеление» восстанавливается быстрее при применении к новой цели.",
+          "fullTooltip": "Когда Андуин применяет «Быстрое исцеление» к новой цели, время его восстановления сокращается на 40%.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "AnduinFlashHeal"
+          ]
+        },
+        {
+          "nameId": "AnduinDivineStarHolyNova",
+          "name": "Кольцо света",
+          "shortTooltipId": "AnduinDivineStarHolyNova",
+          "fullTooltipId": "AnduinDivineStarHolyNova",
+          "icon": "storm_ui_icon_anduin_divine_star.png",
+          "shortTooltip": "«Божественная звезда» взрывается при возвращении.",
+          "fullTooltip": "Когда «Божественная звезда» возвращается к Андуину, она взрывается, восполняя находящимся рядом союзным героям 100 (+4% за уровень) ед. здоровья и нанося противникам 100 (+4% за уровень) ед. урона.",
+          "abilityType": "W",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "AnduinDivineStar"
+          ]
+        },
+        {
+          "nameId": "AnduinFlashHealInnerFocus",
+          "name": "Внутреннее сосредоточение",
+          "shortTooltipId": "AnduinFlashHealInnerFocus",
+          "fullTooltipId": "AnduinFlashHealInnerFocus",
+          "icon": "storm_ui_icon_anduin_inner_focus.png",
+          "cooldownTooltip": "Время восстановления: 20 сек.",
+          "shortTooltip": "Восстанавливает «Быстрое исцеление».",
+          "fullTooltip": "Мгновенно восстанавливает «Быстрое исцеление» и увеличивает объем исцеления при его следующем применении на 40%.  Когда «Божественная звезда» наносит урон героям, время ее восстановления сокращается на 10 сек.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 3
+        },
+        {
+          "nameId": "AnduinLightwell",
+          "name": "Колодец Света",
+          "shortTooltipId": "AnduinLightwell",
+          "fullTooltipId": "AnduinLightwell",
+          "icon": "storm_ui_icon_anduin_lightwell.png",
+          "cooldownTooltip": "Время восстановления: 70 сек.",
+          "shortTooltip": "Призывает исцеляющий колодец Света.",
+          "fullTooltip": "При использовании призывает колодец Света, который периодически восполняет находящемуся рядом союзному герою 75 (+4% за уровень) ед. здоровья. Колодец исчезает после 10 срабатываний либо при повторном применении способности.  Каждый раз, когда Андуин лечит союзного героя, время восстановления «Колодца Света» сокращается на 1 сек.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 4
+        }
+      ],
+      "level20": [
+        {
+          "nameId": "AnduinHolyWordSalvationLightOfStormwind",
+          "name": "Свет Штормграда",
+          "shortTooltipId": "AnduinHolyWordSalvationLightOfStormwind",
+          "fullTooltipId": "AnduinHolyWordSalvationLightOfStormwind",
+          "icon": "storm_ui_icon_anduin_holy_word_salvation.png",
+          "shortTooltip": "«Слово Света: Спасение» ускоряет передвижение союзников.",
+          "fullTooltip": "«Слово Света: Спасение» восполняет до 30% от максимального запаса здоровья, а также по окончании времени действия повышает скорость передвижения союзных героев на 40% на 3 сек.",
+          "abilityType": "Heroic",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "AnduinHolyWordSalvation"
+          ]
+        },
+        {
+          "nameId": "AnduinLeapOfFaithGlyphOfFaith",
+          "name": "Символ набожности",
+          "shortTooltipId": "AnduinLeapOfFaithGlyphOfFaith",
+          "fullTooltipId": "AnduinLeapOfFaithGlyphOfFaith",
+          "icon": "storm_ui_icon_anduin_leap_of_faith.png",
+          "shortTooltip": "«Духовное рвение» получает еще один заряд.",
+          "fullTooltip": "«Духовное рвение» получает 2-й заряд.",
+          "abilityType": "Trait",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "AnduinLeapOfFaithInstant"
+          ]
+        },
+        {
+          "nameId": "AnduinVariansLegacy",
+          "name": "Наследие Вариана",
+          "shortTooltipId": "AnduinVariansLegacy",
+          "fullTooltipId": "AnduinVariansLegacy",
+          "icon": "storm_ui_icon_anduin_varians_legacy.png",
+          "shortTooltip": "Автоатаки опаляют противников.",
+          "fullTooltip": "Автоатаки опаляют противников, нанося им 87 (+4% за уровень) ед. урона в течение 3 сек., а Андуин при этом восполняет себе здоровье в объеме 50% от наносимого урона.",
+          "abilityType": "Passive",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "AnduinLeapOfFaithInstant"
+          ]
+        },
+        {
+          "nameId": "AnduinFlashHealDesperatePrayer",
+          "name": "Молитва отчаяния",
+          "shortTooltipId": "AnduinFlashHealDesperatePrayer",
+          "fullTooltipId": "AnduinFlashHealDesperatePrayer",
+          "icon": "storm_ui_icon_anduin_desperate_prayer.png",
+          "cooldownTooltip": "Время восстановления: 40 сек.",
+          "shortTooltip": "Лечит союзного героя.",
+          "fullTooltip": "Восполняет союзному герою 540 (+4% за уровень) ед. здоровья. При этом Андуин преклоняет колени на 2 сек. и не может совершать иных действий.  «Быстрое исцеление» нельзя использовать в течение 10 сек. после «Молитвы отчаяния».",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 4
+        }
+      ]
+    }
+  },
   "Anubarak": {
     "name": "Ануб'арак",
     "cHeroId": "Anubarak",
@@ -3143,7 +3618,7 @@
           "icon": "storm_ui_icon_Arthas_FrostmourneHungers_Off.png",
           "cooldownTooltip": "Время восстановления: 10 сек.",
           "shortTooltip": "Усиливает следующую автоатаку и восполняет ману при попадании.",
-          "fullTooltip": "При использовании Артас мгновенно проводит следующую автоатаку, которая наносит на 99% больше урона и восполняет 30 ед. маны.",
+          "fullTooltip": "При использовании следующая автоатака становится мгновенной и наносит еще 99 (+4% за уровень) ед. урона. Нанося урон, Артас восполняет 30 ед. маны.",
           "abilityType": "Trait"
         }
       ]
@@ -7171,7 +7646,7 @@
           "shortTooltipId": "ChromieSandBlastGnomeSpeedAhead",
           "fullTooltipId": "ChromieSandBlastGnomeSpeedAhead",
           "icon": "storm_ui_icon_Chromie_AetherCannon.png",
-          "shortTooltip": "«Песчаный вихрь» ускоряет передвижение и восстановление здоровья и маны.",
+          "shortTooltip": "«Песчаный вихрь» ускоряет передвижение и восстановление здоровья.",
           "fullTooltip": "Использовав «Песчаный вихрь», Хроми получает бонус к скорости передвижения в 20% и бонус к скорости восстановления здоровья в 200% на 3 сек.",
           "abilityType": "Q",
           "sort": 1,
@@ -7229,7 +7704,7 @@
           "fullTooltipId": "ChromieSandBlastFastForward",
           "icon": "storm_ui_icon_Chromie_AetherCannon_A.png",
           "shortTooltip": "«Песчаный вихрь» восстанавливается быстрее, если попадает в цель издалека.",
-          "fullTooltip": "Если перед попаданием в героя снаряд «Песчаного вихря» преодолевает как минимум 1500% от базовой максимальной дистанции, время его восстановления сокращается до 0.5 сек.",
+          "fullTooltip": "Если перед попаданием в героя снаряд «Песчаного вихря» преодолевает как минимум 50% от базовой максимальной дистанции, время его восстановления сокращается до 0.5 сек.",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -7896,7 +8371,7 @@
           "energyTooltip": "Мана: 70",
           "cooldownTooltip": "Время восстановления: 60 сек.",
           "shortTooltip": "Поражает противника эффектами немоты и замедления, уменьшает радиус обзора.",
-          "fullTooltip": "Выпускает сгусток биомассы, который наносит 200 (+4% за уровень) ед. урона, поражает эффектом немоты и замедляет на 30% на 3 сек. первого вражеского героя на своем пути. Также значительно уменьшает дальность обзора цели на 6 сек.",
+          "fullTooltip": "Выпускает сгусток биомассы, который наносит 200 (+4% за уровень) ед. урона, раскрывает местоположение, поражает эффектом немоты и замедляет на 30% на 3 сек. первого вражеского героя на своем пути. Также значительно уменьшает дальность обзора цели на 6 сек.",
           "abilityType": "Heroic"
         },
         {
@@ -8089,7 +8564,7 @@
           "energyTooltip": "Мана: 70",
           "cooldownTooltip": "Время восстановления: 60 сек.",
           "shortTooltip": "Поражает противника эффектами немоты и замедления, уменьшает радиус обзора.",
-          "fullTooltip": "Выпускает сгусток биомассы, который наносит 200 (+4% за уровень) ед. урона, поражает эффектом немоты и замедляет на 30% на 3 сек. первого вражеского героя на своем пути. Также значительно уменьшает дальность обзора цели на 6 сек.",
+          "fullTooltip": "Выпускает сгусток биомассы, который наносит 200 (+4% за уровень) ед. урона, раскрывает местоположение, поражает эффектом немоты и замедляет на 30% на 3 сек. первого вражеского героя на своем пути. Также значительно уменьшает дальность обзора цели на 6 сек.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -11091,7 +11566,7 @@
           "fullTooltipId": "GallShadowsnare",
           "icon": "storm_ui_icon_gall_shadowflame.png",
           "shortTooltip": "«Пламя Тьмы» замедляет героев.",
-          "fullTooltip": "«Пламя Тьмы» замедляет героев на 15% на 4 сек. Эффект суммируется до 2 раз.",
+          "fullTooltip": "«Пламя Тьмы» замедляет героев на 15% на 4 сек. Суммируется до 2 раз.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -11118,7 +11593,7 @@
           "shortTooltipId": "GallDeafeningBlast",
           "fullTooltipId": "GallDeafeningBlast",
           "icon": "storm_ui_icon_gall_detonaterunes.png",
-          "shortTooltip": "«Рунный взрыв» применяет эффект немоты.",
+          "shortTooltip": "«Рунный взрыв» поражает немотой.",
           "fullTooltip": "«Рунный взрыв» применяет к пораженным героям эффект немоты на 1.25 сек.",
           "abilityType": "E",
           "sort": 3,
@@ -11149,7 +11624,7 @@
           "fullTooltipId": "GallShiftingNether",
           "icon": "storm_ui_icon_Gall_TwistingNether_A.png",
           "shortTooltip": "Чо'Галл телепортируется и применяет «Круговерть Пустоты».",
-          "fullTooltip": "При использовании «Круговерти Пустоты» Чо мгновенно телепортируется в выбранное место и начинает поддержание этой способности.",
+          "fullTooltip": "При использовании «Круговерти Пустоты» Чо мгновенно телепортируется в указанное место, после чего начинает поддержание.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -14747,7 +15222,7 @@
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ImperiusSolarionsFire"
+            "ImperiusValorousBrand"
           ]
         }
       ],
@@ -19421,7 +19896,7 @@
         },
         {
           "nameId": "WizardAetherWalker",
-          "name": "Эфирный странник",
+          "name": "Эфирная странница",
           "shortTooltipId": "WizardAetherWalkerTalent",
           "fullTooltipId": "WizardAetherWalkerTalent",
           "icon": "storm_ui_icon_wizard_teleport.png",
@@ -20913,7 +21388,7 @@
           "energyTooltip": "Мана: 90",
           "cooldownTooltip": "Время восстановления: 13 сек.",
           "shortTooltip": "Усиливает эффект текущего трека.",
-          "fullTooltip": "Повышает громкость текущего трека на 3 сек., усиливая эффект восстановления здоровья от исцеляющего трека до 112 (+4% за уровень) ед. в секунду, а прибавку к скорости от ускоряющего трека – до 30%.",
+          "fullTooltip": "Повышает громкость текущего трека на 3 сек., усиливая эффект исцеляющего трека до 112 (+4% за уровень) ед. в секунду, а бонус от ускоряющего трека – до 30%.",
           "abilityType": "E"
         }
       ],
@@ -26700,7 +27175,7 @@
           "energyTooltip": "Мана: 75",
           "cooldownTooltip": "Время восстановления: 50 сек.",
           "shortTooltip": "Наносит периодический урон противникам в указанной области.",
-          "fullTooltip": "После паузы в 1.5 сек. наносит 210 (+4% за уровень) ед. урона противникам в указанной области. «Вечный пир» повторяется раз в 0 сек., пока поражает героя.",
+          "fullTooltip": "После паузы в 1.5 сек. наносит 210 (+4% за уровень) ед. урона противникам в указанной области. «Вечный пир» повторяется раз в 1 сек., пока поражает героя.",
           "abilityType": "Heroic"
         },
         {
@@ -26874,7 +27349,7 @@
           "energyTooltip": "Мана: 75",
           "cooldownTooltip": "Время восстановления: 50 сек.",
           "shortTooltip": "Наносит периодический урон противникам в указанной области.",
-          "fullTooltip": "После паузы в 1.5 сек. наносит 210 (+4% за уровень) ед. урона противникам в указанной области. «Вечный пир» повторяется раз в 0 сек., пока поражает героя.",
+          "fullTooltip": "После паузы в 1.5 сек. наносит 210 (+4% за уровень) ед. урона противникам в указанной области. «Вечный пир» повторяется раз в 1 сек., пока поражает героя.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -37328,8 +37803,11 @@
           "icon": "storm_ui_icon_varian_twinbladesoffury.png",
           "shortTooltip": "Повышенная скорость атаки, пониженный урон.Автоатаки помогают восстановить «Удар героя».",
           "fullTooltip": "Автоатаки сокращают время восстановления «Удара героя» на 9 сек. и повышают скорость передвижения на 30% на 2 сек.  Пассивный эффект: повышает cкорость атаки на 100%. Пассивный эффект: уменьшает урон от автоатак на 20%.",
-          "abilityType": "Passive",
-          "sort": 3
+          "abilityType": "Heroic",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "VarianTwinBladesofFury"
+          ]
         }
       ],
       "level7": [
