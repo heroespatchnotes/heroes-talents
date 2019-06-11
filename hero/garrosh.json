@@ -45,7 +45,7 @@
         "description": "Throw a nearby enemy Hero, Minion, or Mercenary to the target location, dealing 91 (+4% per level) damage to enemies near the impact and Slowing them by 30% for 2.5 seconds.",
         "hotkey": "E",
         "abilityId": "Garrosh|E1",
-        "cooldown": 14,
+        "cooldown": 16,
         "manaCost": 60,
         "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
         "type": "basic"
@@ -62,7 +62,7 @@
       },
       {
         "name": "Decimate",
-        "description": "Deal 50 (+4% per level) damage to nearby enemies and Slow them by 30% for 1.5 seconds. Deals 100% more damage to Heroes, and each Hero hit reduces the cooldown by 1 second.  Stores up to 3 charges.",
+        "description": "Deal 50 (+4% per level) damage to nearby enemies and Slow them by 40% for 1.5 seconds. Deals 100% more damage to Heroes, and each Hero hit reduces the cooldown by 1 second.  Stores up to 3 charges.",
         "hotkey": "R",
         "abilityId": "Garrosh|R2",
         "cooldown": 8,
@@ -100,7 +100,7 @@
         "tooltipId": "GarroshWreckingBallUnrivaledStrength",
         "talentTreeId": "GarroshWreckingBallUnrivaledStrength",
         "name": "Unrivaled Strength",
-        "description": "Increase Wrecking Ball's throw range by 25% and its damage by 75%.",
+        "description": "Increase Wrecking Ball's throw range by 25% and its damage by 125%.",
         "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
         "type": "E",
         "sort": 2,
@@ -113,7 +113,7 @@
         "tooltipId": "GarroshArmorUpBodyCheck",
         "talentTreeId": "GarroshArmorUpBodyCheck",
         "name": "Body Check",
-        "description": "Activate to deal 111 (+4% per level) damage to a target enemy and Slow them by 40% for 2 seconds.  Damage is increased by 200% of Armor Up's current bonus, and the Slow amount is increased by 20% if Armor Up's bonus is above 25.",
+        "description": "Activate to deal 111 (+4% per level) damage to a target enemy and Slow them by 35% for 2 seconds. Enemy Heroes hit receive 30% reduced healing for 3 seconds.",
         "icon": "storm_ui_icon_garrosh_slam.png",
         "type": "Active",
         "sort": 3,
@@ -185,26 +185,13 @@
         "abilityId": "Garrosh|Passive"
       },
       {
-        "tooltipId": "GarroshBodyCheckBruteForce",
-        "talentTreeId": "GarroshBodyCheckBruteForce",
-        "name": "Brute Force",
-        "description": "Enemy Heroes hit by Body Check receive 50% reduced healing for 4 seconds.",
-        "icon": "storm_ui_icon_garrosh_slam.png",
-        "type": "Active",
-        "sort": 3,
-        "abilityId": "Garrosh|11",
-        "abilityLinks": [
-          "Garrosh|11"
-        ]
-      },
-      {
         "tooltipId": "GarroshWreckingBallIntotheFray",
         "talentTreeId": "GarroshWreckingBallIntotheFray",
         "name": "Into the Fray",
         "description": "Activate to throw a nearby ally and grant them 25 Armor for 3 seconds. Deals 91 (+4% per level) damage to nearby enemies upon impact and Slows them by 30% for 2.5 seconds.  While in flight, allied Heroes are Unstoppable.",
         "icon": "storm_ui_icon_garrosh_intothefray.png",
         "type": "Active",
-        "sort": 4,
+        "sort": 3,
         "cooldown": 45,
         "abilityId": "Garrosh|Active"
       }
@@ -228,7 +215,7 @@
         "tooltipId": "GarroshDecimate",
         "talentTreeId": "GarroshHeroicAbilityDecimate",
         "name": "Decimate",
-        "description": "Deal 50 (+4% per level) damage to nearby enemies and Slow them by 30% for 1.5 seconds. Deals 100% more damage to Heroes, and each Hero hit reduces the cooldown by 1 second.  Stores up to 3 charges.",
+        "description": "Deal 50 (+4% per level) damage to nearby enemies and Slow them by 40% for 1.5 seconds. Deals 100% more damage to Heroes, and each Hero hit reduces the cooldown by 1 second.  Stores up to 3 charges.",
         "icon": "storm_ui_icon_garrosh_decimate.png",
         "type": "Heroic",
         "sort": 2,
@@ -299,7 +286,7 @@
         "tooltipId": "GarroshGroundbreakerMortalCombo",
         "talentTreeId": "GarroshGroundbreakerMortalCombo",
         "name": "Mortal Combo",
-        "description": "If Wrecking Ball is used on a Hero within 3 seconds of Stunning them with Groundbreaker, Wrecking Ball's cooldown is reduced by 9 seconds.",
+        "description": "Hitting a Hero with Groundbreaker's Stun and throwing them with Wrecking Ball within 3 seconds reduces Wrecking Ball's cooldown by 10 seconds, regardless of order.",
         "icon": "storm_ui_icon_garrosh_groundbreaker_var1.png",
         "type": "Q",
         "sort": 2,
@@ -340,7 +327,7 @@
         "tooltipId": "GarroshDecimateDeadlyCalm",
         "talentTreeId": "GarroshDecimateDeadlyCalm",
         "name": "Deadly Calm",
-        "description": "Heroes hit by Decimate deal 20% less damage for 3 seconds.",
+        "description": "Heroes hit by Decimate deal 25% less damage for 3 seconds.",
         "icon": "storm_ui_icon_garrosh_decimate.png",
         "type": "Heroic",
         "sort": 2,

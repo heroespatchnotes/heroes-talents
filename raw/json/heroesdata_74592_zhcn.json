@@ -789,7 +789,7 @@
           "fullTooltipId": "AlarakChaosReigns",
           "icon": "storm_ui_icon_alarak_discordstrike.png",
           "shortTooltip": "任务：击中英雄可提高混乱打击的伤害",
-          "fullTooltip": "任务：使用混乱打击命中英雄。  奖励：击中15个英雄后，混乱打击的伤害提高50点。  奖励：单次混乱打击命中2名英雄，可使其伤害提高50点。  奖励：单次混乱打击命中3名英雄，可使其伤害提高80点，并立即获得其它所有奖励效果。",
+          "fullTooltip": "任务：使用混乱打击命中英雄。  奖励：击中15个英雄后，混乱打击的伤害提高60点。  奖励：单次混乱打击命中2名英雄，可使其伤害提高60点。  奖励：单次混乱打击命中3名英雄，可使其伤害提高100点，并立即获得其它所有奖励效果。",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -804,7 +804,7 @@
           "fullTooltipId": "AlarakNegativelyCharged",
           "icon": "storm_ui_icon_alarak_lightningsurge.png",
           "shortTooltip": "任务：提高闪电奔涌的中段伤害",
-          "fullTooltip": "使闪电奔涌对阿拉纳克和目标之间的敌人造成的伤害提高至150%。  可重复任务：每用闪电奔涌的中段击中一名英雄，该技能的伤害加成永久提高5%。",
+          "fullTooltip": "使闪电奔涌对阿拉纳克和目标之间的敌人造成的伤害提高至150%。  可重复任务：每用闪电奔涌的中段击中一名英雄，该技能的伤害加成永久提高4%。",
           "abilityType": "E",
           "isQuest": true,
           "sort": 2,
@@ -818,8 +818,8 @@
           "shortTooltipId": "AlarakShowofForce",
           "fullTooltipId": "AlarakShowofForce",
           "icon": "storm_ui_icon_alarak_sadism.png",
-          "shortTooltip": "技能连招造成额外伤害",
-          "fullTooltip": "英雄若在2秒内被阿拉纳克的技能击中3次，则会承受额外80 (每级 +4%)点伤害。",
+          "shortTooltip": "技能连招造成额外伤害，并给予施虐加成",
+          "fullTooltip": "英雄若在2秒内被阿拉纳克的技能击中3次，则会承受额外68 (每级 +4%)点伤害，并使施虐提高2%，最多可叠加至20%。  从力量的展示中获得的施虐加成效果会在死亡后消失。",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -1688,7 +1688,7 @@
           "energyTooltip": "法力值：50",
           "cooldownTooltip": "冷却时间：16秒",
           "shortTooltip": "投掷手雷，治疗盟友并阻止敌人接受治疗",
-          "fullTooltip": "向目标地区投掷一枚手雷。被击中的友方英雄恢复166 (每级 +4%)点生命值，并且获得来自安娜的治疗提高25%，持续4秒。被击中的敌人受到60 (每级 +4%)点伤害，并且获得的治疗降低100%，持续2秒。",
+          "fullTooltip": "向目标地区投掷一枚手雷。被击中的友方英雄恢复152 (每级 +4%)点生命值，并且获得来自安娜的治疗提高25%，持续4秒。被击中的敌人受到60 (每级 +4%)点伤害，并且获得的治疗降低100%，持续2秒。",
           "abilityType": "W"
         },
         {
@@ -2129,7 +2129,7 @@
           "shortTooltipId": "AnduinFlashHeal",
           "fullTooltipId": "AnduinFlashHeal",
           "icon": "storm_ui_icon_anduin_flash_heal.png",
-          "energyTooltip": "法力值：30",
+          "energyTooltip": "法力值：25",
           "cooldownTooltip": "冷却时间：4秒",
           "shortTooltip": "治疗一名盟友",
           "fullTooltip": "施法0.75秒后，治疗一名友方英雄260 (每级 +4%)点生命值。",
@@ -2141,7 +2141,7 @@
           "shortTooltipId": "AnduinDivineStar",
           "fullTooltipId": "AnduinDivineStar",
           "icon": "storm_ui_icon_anduin_divine_star.png",
-          "energyTooltip": "法力值：45",
+          "energyTooltip": "法力值：50",
           "cooldownTooltip": "冷却时间：9秒",
           "shortTooltip": "发射一道圣光，造成伤害和治疗",
           "fullTooltip": "发射一道圣光，对敌人造成140 (每级 +4%)点伤害，然后轨迹变宽并回到安度因身边，为途径的友方英雄恢复130 (每级 +4%)点生命值。 每击中一名敌方英雄，该治疗效果就提高25%。",
@@ -2182,7 +2182,7 @@
           "energyTooltip": "法力值：70",
           "cooldownTooltip": "冷却时间：60秒",
           "shortTooltip": "击晕一名盟友周围的敌人",
-          "fullTooltip": "把圣光注入一名友方英雄，在1.5秒后爆发，对敌人造成150 (每级 +4%)点伤害并使其昏迷1.25秒。  每击中一名敌方英雄，目标就获得一个可吸收140 (每级 +4%)点伤害的护盾，持续5秒。",
+          "fullTooltip": "把圣光注入一名友方英雄，在1.5秒后爆发，对敌人造成150 (每级 +4%)点伤害并使其昏迷1.25秒。  每击中一名敌方英雄，目标就获得一个可吸收165 (每级 +4%)点伤害的护盾，持续5秒。",
           "abilityType": "Heroic"
         }
       ],
@@ -2216,7 +2216,7 @@
           "fullTooltipId": "AnduinFlashHealRenew",
           "icon": "storm_ui_icon_anduin_flash_heal_a.png",
           "shortTooltip": "普通攻击强化快速治疗",
-          "fullTooltip": "对英雄进行普通攻击可强化下一次快速治疗，在5 秒内额外恢复115 (每级 +4%)点生命值。",
+          "fullTooltip": "对英雄进行普通攻击可强化下一次快速治疗，在5 秒内额外恢复130 (每级 +4%)点生命值。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -2230,7 +2230,7 @@
           "fullTooltipId": "AnduinPursuedByGrace",
           "icon": "storm_ui_icon_anduin_varians_legacy.png",
           "shortTooltip": "对英雄造成伤害可治疗周围的盟友",
-          "fullTooltip": "对敌方英雄造成伤害可给予安度因附近生命值最低的友方英雄28 (每级 +4%)点治疗。",
+          "fullTooltip": "对敌方英雄造成伤害可给予安度因附近生命值最低的友方英雄33 (每级 +4%)点治疗。",
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -2244,7 +2244,7 @@
           "fullTooltipId": "AnduinBoldStrategy",
           "icon": "storm_ui_icon_anduin_bold_strategy.png",
           "shortTooltip": "削弱快速治疗来获得额外天赋",
-          "fullTooltip": "安度因获得其他1级天赋，但快速治疗的冷却时间提高1秒。",
+          "fullTooltip": "安度因获得其他1级天赋，但快速治疗的冷却时间提高2秒。",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -2274,7 +2274,7 @@
           "fullTooltipId": "AnduinChastiseHolyReach",
           "icon": "storm_ui_icon_anduin_chastise.png",
           "shortTooltip": "惩戒之光强化下一次普通攻击",
-          "fullTooltip": "在惩戒之光命中敌人后，安度因的下一次普通攻击的射程提高50%，伤害提高50%，并能为安度因周围的友方英雄恢复90 (每级 +4%)点生命值。",
+          "fullTooltip": "在惩戒之光命中敌人后，安度因的下一次普通攻击的射程提高50%，伤害提高75%，并能为安度因周围的友方英雄恢复100 (每级 +4%)点生命值。",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -2304,7 +2304,7 @@
           "fullTooltipId": "AnduinFlashHealBindingHeal",
           "icon": "storm_ui_icon_anduin_flash_heal.png",
           "shortTooltip": "快速治疗同时治疗安度因",
-          "fullTooltip": "对盟友使用快速治疗同时会恢复安度因80 (每级 +4%)点生命值。",
+          "fullTooltip": "对盟友使用快速治疗同时会恢复安度因95 (每级 +4%)点生命值。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -2318,7 +2318,7 @@
           "fullTooltipId": "AnduinDivineStarPowerWordShield",
           "icon": "storm_ui_icon_anduin_divine_star.png",
           "shortTooltip": "神圣之星给予安度因一层护盾",
-          "fullTooltip": "如果神圣之星击中敌方英雄，给予一个可吸收165 (每级 +4%)点伤害的护盾，持续4秒。",
+          "fullTooltip": "如果神圣之星击中敌方英雄，给予一个可吸收172 (每级 +4%)点伤害的护盾，持续4秒。",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -2364,7 +2364,7 @@
           "energyTooltip": "法力值：70",
           "cooldownTooltip": "冷却时间：60秒",
           "shortTooltip": "击晕一名盟友周围的敌人",
-          "fullTooltip": "把圣光注入一名友方英雄，在1.5秒后爆发，对敌人造成150 (每级 +4%)点伤害并使其昏迷1.25秒。  每击中一名敌方英雄，目标就获得一个可吸收140 (每级 +4%)点伤害的护盾，持续5秒。",
+          "fullTooltip": "把圣光注入一名友方英雄，在1.5秒后爆发，对敌人造成150 (每级 +4%)点伤害并使其昏迷1.25秒。  每击中一名敌方英雄，目标就获得一个可吸收165 (每级 +4%)点伤害的护盾，持续5秒。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -2395,7 +2395,7 @@
           "fullTooltipId": "AnduinLeapOfFaithEnchantBootsLionsSpeed",
           "icon": "storm_ui_icon_anduin_leap_of_faith.png",
           "shortTooltip": "可以使用信仰飞跃时移动速度提高",
-          "fullTooltip": "移动速度提高5%。在信仰飞跃可用时，获得三倍效果。",
+          "fullTooltip": "移动速度提高5%。在信仰飞跃可用时，获得四倍效果。",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -2409,7 +2409,7 @@
           "fullTooltipId": "AnduinPushForward",
           "icon": "storm_ui_icon_anduin_varians_legacy.png",
           "shortTooltip": "对英雄造成伤害可获得移动速度",
-          "fullTooltip": "对敌方英雄造成伤害使移动速度提高3%，持续6秒，最高可达15%。",
+          "fullTooltip": "对敌方英雄造成伤害使移动速度提高2.5%，持续6秒，最高可达20%。",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -2425,7 +2425,7 @@
           "fullTooltipId": "AnduinFlashHealEvenhandedBlessings",
           "icon": "storm_ui_icon_anduin_flash_heal.png",
           "shortTooltip": "对新目标使用快速治疗可返还冷却时间",
-          "fullTooltip": "如果快速治疗的目标与上一次不同，则返还40%的冷却时间。",
+          "fullTooltip": "如果快速治疗的目标与上一次不同，则返还50%的冷却时间。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -2439,7 +2439,7 @@
           "fullTooltipId": "AnduinDivineStarHolyNova",
           "icon": "storm_ui_icon_anduin_divine_star.png",
           "shortTooltip": "神圣之星回归时发生爆炸",
-          "fullTooltip": "神圣之星在回到安度因身边时发生爆炸，为周围的友方英雄恢复100 (每级 +4%)点生命值和对敌人造成100 (每级 +4%)点伤害。",
+          "fullTooltip": "神圣之星在回到安度因身边时发生爆炸，为周围的友方英雄恢复105 (每级 +4%)点生命值和对敌人造成105 (每级 +4%)点伤害。",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -2454,7 +2454,7 @@
           "icon": "storm_ui_icon_anduin_inner_focus.png",
           "cooldownTooltip": "冷却时间：20秒",
           "shortTooltip": "激活后重置快速治疗的冷却时间",
-          "fullTooltip": "激活后重置快速治疗的冷却时间，并使下一次施放该技能时的治疗效果提高40%。  使用神圣之星对敌方英雄造成伤害可以使该技能的冷却时间减少10秒。",
+          "fullTooltip": "激活后重置快速治疗的冷却时间，并使下一次施放该技能时的治疗效果提高40%。  使用神圣之星对敌方英雄造成伤害可以使该技能的冷却时间减少8秒。",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -2465,7 +2465,7 @@
           "shortTooltipId": "AnduinLightwell",
           "fullTooltipId": "AnduinLightwell",
           "icon": "storm_ui_icon_anduin_lightwell.png",
-          "cooldownTooltip": "冷却时间：70秒",
+          "cooldownTooltip": "冷却时间：80秒",
           "shortTooltip": "激活后召唤一个治疗性的光明之泉",
           "fullTooltip": "召唤一座光明之泉，周期性为附近一名友方英雄恢复75 (每级 +4%)点生命值。泉水在进行了10次治疗、或重新施放该技能后才会消失。  安度因每治疗一次友方英雄，其冷却时间就会减少1秒。",
           "abilityType": "Active",
@@ -2658,7 +2658,7 @@
           "energyTooltip": "法力值：70",
           "cooldownTooltip": "冷却时间：70秒",
           "shortTooltip": "将敌人束缚在虫茧内",
-          "fullTooltip": "将目标敌方英雄包裹在虫茧内，使其无法行动或被选中为目标，持续8秒。被困英雄的盟友可以攻击虫茧让受害者提前脱离。",
+          "fullTooltip": "将目标敌方英雄包裹在虫茧内，使其无法行动或被选中为目标，持续7秒。被困英雄的盟友可以攻击虫茧让受害者提前脱离。",
           "abilityType": "Heroic"
         }
       ],
@@ -2698,7 +2698,7 @@
           "fullTooltipId": "AnubarakLegionOfBeetlesTalent",
           "icon": "storm_ui_icon_Anubarak_ScarabHost.png",
           "shortTooltip": "周期性孵化甲虫",
-          "fullTooltip": "甲虫拥有30点法术护甲。每8秒自动孵化一只甲虫。可以手动关闭或开启。",
+          "fullTooltip": "甲虫拥有30点法术护甲。每12秒自动孵化一只甲虫。可以手动关闭或开启。",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -2833,7 +2833,7 @@
           "energyTooltip": "法力值：70",
           "cooldownTooltip": "冷却时间：70秒",
           "shortTooltip": "将敌人束缚在虫茧内",
-          "fullTooltip": "将目标敌方英雄包裹在虫茧内，使其无法行动或被选中为目标，持续8秒。被困英雄的盟友可以攻击虫茧让受害者提前脱离。",
+          "fullTooltip": "将目标敌方英雄包裹在虫茧内，使其无法行动或被选中为目标，持续7秒。被困英雄的盟友可以攻击虫茧让受害者提前脱离。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -4967,8 +4967,8 @@
           "shortTooltipId": "FirebatJetPropulsion",
           "fullTooltipId": "FirebatJetPropulsion",
           "icon": "storm_ui_icon_blaze_jet.png",
-          "energyTooltip": "法力值：45",
-          "cooldownTooltip": "冷却时间：9秒",
+          "energyTooltip": "法力值：40",
+          "cooldownTooltip": "冷却时间：8秒",
           "shortTooltip": "向前冲锋，撞晕并伤害敌方英雄",
           "fullTooltip": "0.5秒后向前发起冲锋。撞击一名敌方英雄，可对目标以及附近的敌方英雄造成52 (每级 +4%)点伤害，并将其撞晕1.25秒。",
           "abilityType": "E"
@@ -4981,8 +4981,8 @@
           "shortTooltipId": "FirebatBunkerDrop",
           "fullTooltipId": "FirebatBunkerDrop",
           "icon": "storm_ui_icon_blaze_bunker.png",
-          "energyTooltip": "法力值：80",
-          "cooldownTooltip": "冷却时间：80秒",
+          "energyTooltip": "法力值：70",
+          "cooldownTooltip": "冷却时间：70秒",
           "shortTooltip": "空投一座地堡",
           "fullTooltip": "0.5秒延迟后，空投一座拥有1435 (每级 +4%)点生命值的地堡。布雷泽和他的盟友可以自由出入地堡。地堡中的所有人可以使用火焰喷射技能，对直线上的敌人造成170 (每级 +4%)点伤害。  离开地堡时获得25点护甲，持续2秒。地堡持续存在10秒或直到被摧毁为止。",
           "abilityType": "Heroic"
@@ -5009,7 +5009,7 @@
           "icon": "storm_ui_icon_blaze_pyromania.png",
           "cooldownTooltip": "冷却时间：90秒",
           "shortTooltip": "获得护甲并伤害附近的敌人",
-          "fullTooltip": "激活后获得35点护甲，并且每0.5秒对周围的敌人造成40 (每级 +4%)点伤害，持续4秒。  火焰喷流每击中一名英雄，纵火狂的冷却时间缩短5秒。",
+          "fullTooltip": "激活后获得40点护甲，并且每0.5秒对周围的敌人造成40 (每级 +4%)点伤害，持续4秒。  火焰喷流每击中一名英雄，纵火狂的冷却时间缩短5秒。",
           "abilityType": "Trait"
         }
       ]
@@ -5073,20 +5073,6 @@
       ],
       "level4": [
         {
-          "nameId": "FirebatFlameStreamFeedingtheFlame",
-          "name": "火上浇油",
-          "shortTooltipId": "FirebatFlameStreamFeedingtheFlame",
-          "fullTooltipId": "FirebatFlameStreamFeedingtheFlame",
-          "icon": "storm_ui_icon_blaze_flame.png",
-          "shortTooltip": "用火焰喷流击中敌方英雄可降低浮油的冷却时间",
-          "fullTooltip": "火焰喷流每击中一名敌方英雄即可使浮油的冷却时间减少2秒，并且返还5点法力。",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "FirebatFlameStream"
-          ]
-        },
-        {
           "nameId": "FirebatOilSpillAdhesivePetroleum",
           "name": "黏性燃油",
           "shortTooltipId": "FirebatOilSpillAdhesivePetroleum",
@@ -5095,7 +5081,7 @@
           "shortTooltip": "浮油点燃后可减速",
           "fullTooltip": "当浮油首次被点燃时，站在浮油里的敌人被减速30%，持续2.5秒。",
           "abilityType": "W",
-          "sort": 2,
+          "sort": 1,
           "abilityTalentLinkIds": [
             "FirebatOilSpill"
           ]
@@ -5107,9 +5093,9 @@
           "fullTooltipId": "FirebatOilSpillOilDispersal",
           "icon": "storm_ui_icon_blaze_oil_b.png",
           "shortTooltip": "扩大浮油范围",
-          "fullTooltip": "使浮油的区域扩大20%。",
+          "fullTooltip": "使浮油的区域扩大20%。火焰喷流每击中一个英雄，浮油的冷却时间就减少1秒，并返还5点法力值。",
           "abilityType": "W",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "FirebatOilSpill"
           ]
@@ -5123,7 +5109,7 @@
           "shortTooltip": "纵火狂减少敌人造成的伤害",
           "fullTooltip": "使用纵火狂击中敌方英雄会使他们的伤害降低7%，持续2.5秒，最高可降低35%。",
           "abilityType": "Trait",
-          "sort": 4,
+          "sort": 3,
           "abilityTalentLinkIds": [
             "FirebatIgnite"
           ]
@@ -5178,8 +5164,8 @@
           "shortTooltipId": "FirebatBunkerDrop",
           "fullTooltipId": "FirebatBunkerDrop",
           "icon": "storm_ui_icon_blaze_bunker.png",
-          "energyTooltip": "法力值：80",
-          "cooldownTooltip": "冷却时间：80秒",
+          "energyTooltip": "法力值：70",
+          "cooldownTooltip": "冷却时间：70秒",
           "shortTooltip": "空投一座地堡",
           "fullTooltip": "0.5秒延迟后，空投一座拥有1435 (每级 +4%)点生命值的地堡。布雷泽和他的盟友可以自由出入地堡。地堡中的所有人可以使用火焰喷射技能，对直线上的敌人造成170 (每级 +4%)点伤害。  离开地堡时获得25点护甲，持续2秒。地堡持续存在10秒或直到被摧毁为止。",
           "abilityType": "Heroic",
@@ -5215,7 +5201,7 @@
           "fullTooltipId": "FirebatFlameStreamSuppressiveFire",
           "icon": "storm_ui_icon_blaze_flame.png",
           "shortTooltip": "火焰喷流可降低敌人法术强度",
-          "fullTooltip": "火焰喷流的每一股都会使被击中的敌方英雄的法术强度降低20%，持续4秒，最多可降低40%。",
+          "fullTooltip": "火焰喷流的每一股都会使被击中的敌方英雄的法术强度降低25%，持续4秒，最多可降低50%。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -5259,7 +5245,7 @@
           "fullTooltipId": "FirebatJetPropulsionThermalProtection",
           "icon": "storm_ui_icon_blaze_jet.png",
           "shortTooltip": "喷射推进击中敌人可给予护甲，减少冷却时间",
-          "fullTooltip": "喷射推进每击中一名敌人提供10点护甲，持续3秒，并使该技能的冷却时间减少1.5秒。",
+          "fullTooltip": "喷射推进每击中一名敌人提供10点护甲，持续3秒，并使该技能的冷却时间减少1.25秒。",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -6292,7 +6278,7 @@
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneBrew",
     "searchText": "陈 风暴烈酒，熊猫人，魔兽世界，魔兽争霸，冰封王座，熊猫人之谜",
-    "description": "一位能够在敌方队伍缺乏移动性时支配战局的强大斗士。",
+    "description": "一位擅长消耗敌人和抵抗爆发伤害的强大斗士。",
     "descriptors": [
       "BodyBlocker",
       "Escaper",
@@ -6324,10 +6310,10 @@
     ],
     "expandedRole": "斗士",
     "ratings": {
-      "complexity": 6.0,
-      "damage": 3.0,
-      "survivability": 10.0,
-      "utility": 4.0
+      "complexity": 8.0,
+      "damage": 5.0,
+      "survivability": 8.0,
+      "utility": 5.0
     },
     "weapons": [
       {
@@ -6358,17 +6344,10 @@
           "shortTooltipId": "ChenKegSmash",
           "fullTooltipId": "ChenKegSmash",
           "icon": "storm_ui_icon_chen_kegsmash.png",
-          "energyTooltip": "酒量：20",
-          "charges": {
-            "countMax": 1,
-            "countUse": 1,
-            "countStart": 1,
-            "hideCount": true,
-            "recastCooldown": 1.0
-          },
+          "energyTooltip": "酒量：30",
           "cooldownTooltip": "冷却时间：5秒",
           "shortTooltip": "向附近一个区域内的敌人泼酒，使他们减速",
-          "fullTooltip": "砸碎陈的酒桶，造成50 (每级 +4%)点伤害，并使受影响的敌人的身上沾上酒，使他们的移动速度降低25%，持续3秒。",
+          "fullTooltip": "造成50 (每级 +4%)点伤害并用酒精浸透敌人，持续3秒，使其减速10%。在1.5秒后，该减速效果提高至40%。  在使用后，该技能会变成火焰之息。  火焰之息 造成伤害并点燃浸酒的敌人。",
           "abilityType": "W"
         },
         {
@@ -6377,10 +6356,21 @@
           "shortTooltipId": "ChenBreathOfFire",
           "fullTooltipId": "ChenBreathOfFire",
           "icon": "storm_ui_icon_chen_breathoffire.png",
-          "energyTooltip": "酒量：30",
-          "cooldownTooltip": "冷却时间：5秒",
+          "toggleCooldown": 0.25,
+          "energyTooltip": "酒量：10",
           "shortTooltip": "向目标方向喷吐火焰，造成伤害并使受到浸酒效果的敌人点燃",
-          "fullTooltip": "吐出一股锥形火焰，造成96 (每级 +4%)点伤害。受到浸酒效果影响的敌人会被点燃，在3秒内造成96 (每级 +4%)点伤害。",
+          "fullTooltip": "吐出一股锥形火焰，造成85 (每级 +4%)点伤害。受到浸酒效果影响的敌人会被点燃，在3秒内造成165 (每级 +4%)点额外伤害，并使醉酿投的减速持续时间延长1.5秒。  在使用后或6秒过后，此技能会变成醉酿投。  醉酿投 对敌人造成伤害和减速。",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "ChenStagger",
+          "name": "醉拳",
+          "shortTooltipId": "ChenStagger",
+          "fullTooltipId": "ChenStagger",
+          "icon": "storm_ui_icon_Chen_Stagger.png",
+          "cooldownTooltip": "冷却时间：18秒",
+          "shortTooltip": "免疫伤害，随后将其转为持续伤害",
+          "fullTooltip": "在接下来的3秒内阻止一切伤害。当此效果结束时，陈会在5秒内受到相当于所承受伤害75%的伤害。",
           "abilityType": "E"
         }
       ],
@@ -6393,7 +6383,7 @@
           "icon": "storm_ui_icon_chen_wanderingkeg.png",
           "cooldownTooltip": "冷却时间：70秒",
           "shortTooltip": "四处翻滚并击退敌人",
-          "fullTooltip": "在一个不可阻挡的酒桶里四处乱滚，移动速度提高60%，对沿途敌人造成59 (每级 +4%)点伤害并击退他们，持续5秒。",
+          "fullTooltip": "在一个不可阻挡的酒桶里四处乱滚，移动速度提高70%，对沿途敌人造成59 (每级 +4%)点伤害并击退他们，持续5秒。",
           "abilityType": "Heroic"
         },
         {
@@ -6404,7 +6394,7 @@
           "icon": "storm_ui_icon_chen_stormearthfire.png",
           "cooldownTooltip": "冷却时间：100秒",
           "shortTooltip": "化身成为三个元素之灵",
-          "fullTooltip": "1秒后，陈分身为三个元素之灵，持续12秒。每个元素之灵拥有陈最大生命值的75%和一个独特技能。如果所有三个元素之灵死亡，陈也会死亡。  风暴之灵可以提高元素之灵的移动速度。 大地之灵可以使范围内的敌人减速。 火焰之灵可以提高元素之灵的攻击速度。",
+          "fullTooltip": "1秒后，陈分身为三个元素之灵，持续12秒。每个元素之灵拥有陈70%的最大生命值和一个独特技能。最后一个施放的元素之灵技能将得到强化。如果所有三个元素之灵死亡，陈也会死亡。  风暴之灵可以给予元素之灵护盾。 大地之灵可以跳向一个位置，使范围内的敌人减速。 火焰之灵可以提高元素之灵的攻击速度和伤害。",
           "abilityType": "Heroic"
         }
       ],
@@ -6415,9 +6405,9 @@
           "shortTooltipId": "ChenFortifyingBrew",
           "fullTooltipId": "ChenFortifyingBrew",
           "icon": "storm_ui_icon_chen_fortifyingbrew.png",
-          "cooldownTooltip": "冷却时间：5秒",
-          "shortTooltip": "饮用美酒，饮酒期间获得护盾。陈的技能消耗酒量，而不是法力值。",
-          "fullTooltip": "陈饮用酒桶里的美酒，立即获得25点酒量。饮酒时，陈继续每秒获得30点酒量和196 (每级 +4%)点临时护盾，最多获得588 (每级 +4%)点。停止饮酒后，护盾保留2秒。",
+          "cooldownTooltip": "冷却时间：7秒",
+          "shortTooltip": "喝酒时获得酒量和护盾",
+          "fullTooltip": "陈饮用酒桶里的美酒，每秒获得50点酒量和180 (每级 +4%)点临时护盾，最多获得540 (每级 +4%)点。停止饮酒后，护盾保留4秒。",
           "abilityType": "Trait"
         }
       ]
@@ -6425,17 +6415,17 @@
     "talents": {
       "level1": [
         {
-          "nameId": "ChenAccumulatingFlame",
-          "name": "火势汹涌",
-          "shortTooltipId": "ChenAccumulatingFlame",
-          "fullTooltipId": "ChenAccumulatingFlame",
-          "icon": "storm_ui_icon_chen_breathoffire.png",
-          "shortTooltip": "任务：点燃英雄来强化火焰之息",
-          "fullTooltip": "任务：火焰之息每次点燃英雄，其持续伤害就会提高2%，最多提高60%。  奖励：点燃30名英雄后，每点燃一名英雄给予20点护甲，该效果持续3秒。",
-          "abilityType": "E",
-          "isQuest": true,
+          "nameId": "ChenEyeOfTheTiger",
+          "name": "猛虎之眼",
+          "shortTooltipId": "ChenEyeOfTheTiger",
+          "fullTooltipId": "ChenEyeOfTheTiger",
+          "icon": "storm_ui_icon_chen_kegsmash.png",
+          "shortTooltip": "普通攻击造成额外伤害和治疗",
+          "fullTooltip": "对浸酒的敌方英雄造成50%的额外伤害，并恢复陈相当于所造成伤害 50%的生命值。",
+          "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
+            "ChenKegSmash",
             "ChenBreathOfFire"
           ]
         },
@@ -6445,8 +6435,8 @@
           "shortTooltipId": "ChenFreshestIngredients",
           "fullTooltipId": "ChenFreshestIngredients",
           "icon": "storm_ui_icon_chen_fortifyingbrew.png",
-          "shortTooltip": "任务：恢复之球提高生命恢复",
-          "fullTooltip": "任务：收集恢复之球使陈的每秒生命恢复提高1。  奖励：收集30 个恢复之球后，喝酒后永久保留50%的壮胆酒护盾。",
+          "shortTooltip": "任务：恢复之球治疗效果提高",
+          "fullTooltip": "恢复之球的治疗持续时间提高100%。  任务： 收集15个恢复之球。  奖励：喝下壮胆酒后，50%的护盾值可以永久保留。",
           "abilityType": "Trait",
           "isQuest": true,
           "sort": 2,
@@ -6455,17 +6445,18 @@
           ]
         },
         {
-          "nameId": "ChenElusiveBrawler",
-          "name": "醉拳大师",
-          "shortTooltipId": "ChenElusiveBrawler",
-          "fullTooltipId": "ChenElusiveBrawler",
-          "icon": "storm_ui_icon_Chen_ElusiveBrew.png",
-          "cooldownTooltip": "冷却时间：25秒",
-          "shortTooltip": "激活后闪避普通攻击",
-          "fullTooltip": "激活后闪避敌人的普通攻击，持续2秒。陈的普通攻击使该技能的冷却时间缩短2秒。",
-          "abilityType": "Active",
-          "isActive": true,
-          "sort": 3
+          "nameId": "ChenStormstoutSecretRecipe",
+          "name": "风暴烈酒秘方",
+          "shortTooltipId": "ChenStormstoutSecretRecipe",
+          "fullTooltipId": "ChenStormstoutSecretRecipe",
+          "icon": "storm_ui_icon_Chen_StormstoutSecretRecipe.png",
+          "shortTooltip": "普通技能可以治疗陈",
+          "fullTooltip": "陈的基本技能击中敌方英雄可使其恢复2%的最大生命值。",
+          "abilityType": "Passive",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "ChenFortifyingBrew"
+          ]
         }
       ],
       "level4": [
@@ -6484,36 +6475,51 @@
           ]
         },
         {
-          "nameId": "ChenKegToss",
-          "name": "醉酿掷",
-          "shortTooltipId": "ChenKegSmashKegTossTalent",
-          "fullTooltipId": "ChenKegSmashKegTossTalent",
-          "icon": "storm_ui_icon_chen_kegsmash.png",
-          "shortTooltip": "任务：击中英雄强化醉酿投",
-          "fullTooltip": "任务：醉酿投每次击中英雄都会使其伤害永久提高4点，最多提高80点。  奖励：击中20个英雄后，醉酿投的射程提高125%，并获得额外一次使用次数。",
+          "nameId": "ChenAccumulatingFlame",
+          "name": "火势汹涌",
+          "shortTooltipId": "ChenAccumulatingFlame",
+          "fullTooltipId": "ChenAccumulatingFlame",
+          "icon": "storm_ui_icon_chen_breathoffire.png",
+          "shortTooltip": "提高点燃伤害和持续时间",
+          "fullTooltip": "点燃的伤害提高25%。对被点燃的敌方英雄进行普通攻击可使点燃的持续时间延长0.75秒。",
           "abilityType": "W",
-          "isQuest": true,
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
-          "nameId": "ChenRingofFire",
-          "name": "火焰之环",
-          "shortTooltipId": "ChenBreathOfFireRingOfFireTalent",
-          "fullTooltipId": "ChenBreathOfFireRingOfFireTalent",
-          "icon": "storm_ui_icon_chen_breathoffire.png",
-          "shortTooltip": "使用火焰之息后对附近敌人造成伤害",
-          "fullTooltip": "使用火焰之息后，产生一个火焰光环，每秒对附近的敌人造成52 (每级 +4%)点伤害，持续3秒。",
-          "abilityType": "E",
+          "nameId": "ChenWitheringFlames",
+          "name": "凋零烈焰",
+          "shortTooltipId": "ChenWitheringFlames",
+          "fullTooltipId": "ChenWitheringFlames",
+          "icon": "storm_ui_icon_Chen_BreathofFire_A.png",
+          "shortTooltip": "点燃英雄降低他们的法术强度",
+          "fullTooltip": "点燃敌方英雄可使其法术强度降低30%，持续4秒。",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
+            "ChenKegSmash",
             "ChenBreathOfFire"
           ]
         }
       ],
       "level7": [
+        {
+          "nameId": "ChenGiftOfTheOxStagger",
+          "name": "玄牛之赐",
+          "shortTooltipId": "ChenGiftOfTheOxStagger",
+          "fullTooltipId": "ChenGiftOfTheOxStagger",
+          "icon": "storm_ui_icon_chen_stagger.png",
+          "shortTooltip": "提高醉拳的持续时间，降低受到的伤害",
+          "fullTooltip": "使醉拳阻止伤害的持续时间延长0.5秒，并使随后受到的持续伤害降低至所受伤害的60%。",
+          "abilityType": "E",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "ChenStagger"
+          ]
+        },
         {
           "nameId": "ChenBrewmastersBalance",
           "name": "酒仙之道",
@@ -6523,38 +6529,23 @@
           "shortTooltip": "基于当前酒量提供增益效果",
           "fullTooltip": "当酒量低于或等于50点时，移动速度提高20%，当酒量高于或等于50点时，每秒额外恢复18 (每级 +4%)点生命值。",
           "abilityType": "Trait",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "ChenFortifyingBrew"
-          ]
-        },
-        {
-          "nameId": "ChenBolderFlavor",
-          "name": "加量不加价",
-          "shortTooltipId": "ChenFortifyingBrewBolderFlavorTalent",
-          "fullTooltipId": "ChenFortifyingBrewBolderFlavorTalent",
-          "icon": "storm_ui_icon_chen_fortifyingbrew_a.png",
-          "shortTooltip": "壮胆酒立刻使你获得大量护盾",
-          "fullTooltip": "施放壮胆酒立即使陈获得294 (每级 +4%)点护盾。此外，停止喝酒后，护盾额外保留1秒。",
-          "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
             "ChenFortifyingBrew"
           ]
         },
         {
-          "nameId": "ChenPurifyingBrew",
-          "name": "活血酒",
-          "shortTooltipId": "ChenPurifyingBrew",
-          "fullTooltipId": "ChenPurifyingBrew",
-          "icon": "storm_ui_icon_chen_fortifyingbrew_b.png",
-          "shortTooltip": "壮胆酒可缩短群体控制效果",
-          "fullTooltip": "陈受到的下一个昏迷或沉默效果的持续时间缩短75%，并重置壮胆酒的冷却时间。该效果每12秒只能触发一次。当陈拥有壮胆酒的护盾时，获得40点法术护甲，并使受到的技能伤害降低40%。",
-          "abilityType": "Trait",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "ChenFortifyingBrew"
-          ]
+          "nameId": "ChenElusiveBrawler",
+          "name": "醉拳大师",
+          "shortTooltipId": "ChenElusiveBrawler",
+          "fullTooltipId": "ChenElusiveBrawler",
+          "icon": "storm_ui_icon_Chen_ElusiveBrew.png",
+          "cooldownTooltip": "冷却时间：25秒",
+          "shortTooltip": "激活后闪避普通攻击",
+          "fullTooltip": "激活后获得30%的移动速度，并能闪避敌人的普通攻击，持续2秒。陈的普通攻击使该技能的冷却时间缩短2秒。",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 3
         }
       ],
       "level10": [
@@ -6566,7 +6557,7 @@
           "icon": "storm_ui_icon_chen_wanderingkeg.png",
           "cooldownTooltip": "冷却时间：70秒",
           "shortTooltip": "四处翻滚并击退敌人",
-          "fullTooltip": "在一个不可阻挡的酒桶里四处乱滚，移动速度提高60%，对沿途敌人造成59 (每级 +4%)点伤害并击退他们，持续5秒。",
+          "fullTooltip": "在一个不可阻挡的酒桶里四处乱滚，移动速度提高70%，对沿途敌人造成59 (每级 +4%)点伤害并击退他们，持续5秒。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -6582,7 +6573,7 @@
           "icon": "storm_ui_icon_chen_stormearthfire.png",
           "cooldownTooltip": "冷却时间：100秒",
           "shortTooltip": "化身成为三个元素之灵",
-          "fullTooltip": "1秒后，陈分身为三个元素之灵，持续12秒。每个元素之灵拥有陈最大生命值的75%和一个独特技能。如果所有三个元素之灵死亡，陈也会死亡。  风暴之灵可以提高元素之灵的移动速度。 大地之灵可以使范围内的敌人减速。 火焰之灵可以提高元素之灵的攻击速度。",
+          "fullTooltip": "1秒后，陈分身为三个元素之灵，持续12秒。每个元素之灵拥有陈70%的最大生命值和一个独特技能。最后一个施放的元素之灵技能将得到强化。如果所有三个元素之灵死亡，陈也会死亡。  风暴之灵可以给予元素之灵护盾。 大地之灵可以跳向一个位置，使范围内的敌人减速。 火焰之灵可以提高元素之灵的攻击速度和伤害。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -6599,7 +6590,7 @@
           "fullTooltipId": "ChenFlyingKickPressurePointTalent",
           "icon": "storm_ui_icon_chen_flyingkick.png",
           "shortTooltip": "飞天脚使敌人减速",
-          "fullTooltip": "飞天脚使目标敌人减速35%，持续1秒，如果目标受到浸酒影响，则减速70%。",
+          "fullTooltip": "飞天脚使目标敌人减速35%，持续1秒，如果陈拥有壮胆酒的护盾，则减速70%。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -6612,26 +6603,42 @@
           "shortTooltipId": "ChenKegSmashATouchOfHoneyTalent",
           "fullTooltipId": "ChenKegSmashATouchOfHoneyTalent",
           "icon": "storm_ui_icon_chen_kegsmash.png",
-          "shortTooltip": "醉酿投的减速效果提高",
-          "fullTooltip": "醉酿投的减速效果提高至40%。",
+          "shortTooltip": "提高醉酿投的减速效果和持续时间",
+          "fullTooltip": "醉酿投的减速效果提高10%，持续时间延长0.5秒。",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
-          "nameId": "ChenWitheringFlames",
-          "name": "凋零烈焰",
-          "shortTooltipId": "ChenWitheringFlames",
-          "fullTooltipId": "ChenWitheringFlames",
+          "nameId": "ChenRingofFire",
+          "name": "火焰之环",
+          "shortTooltipId": "ChenBreathOfFireRingOfFireTalent",
+          "fullTooltipId": "ChenBreathOfFireRingOfFireTalent",
           "icon": "storm_ui_icon_chen_breathoffire.png",
-          "shortTooltip": "点燃英雄降低他们的法术强度",
-          "fullTooltip": "点燃敌方英雄使他们的法术强度降低30%，持续3秒。",
-          "abilityType": "E",
+          "shortTooltip": "点燃后对附近敌人造成伤害",
+          "fullTooltip": "点燃一名敌人后，产生一个火焰光环，每秒对附近的敌人造成60 (每级 +4%)点伤害，持续5秒。",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
+            "ChenKegSmash",
             "ChenBreathOfFire"
+          ]
+        },
+        {
+          "nameId": "ChenMasteryFortifyingBrewEnoughToShare",
+          "name": "这次我请",
+          "shortTooltipId": "ChenFortifyingBrewEnoughToShareTalent",
+          "fullTooltipId": "ChenFortifyingBrewEnoughToShareTalent",
+          "icon": "storm_ui_icon_chen_fortifyingbrew.png",
+          "shortTooltip": "壮胆酒为友方英雄提供护盾",
+          "fullTooltip": "壮胆酒立刻使陈获得180 (每级 +4%)点护盾，周围的友方英雄也会每秒获得140 (每级 +4%)点护盾，最多420 (每级 +4%)点。",
+          "abilityType": "Trait",
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "ChenFortifyingBrew"
           ]
         }
       ],
@@ -6642,8 +6649,8 @@
           "shortTooltipId": "ChenFlyingLeap",
           "fullTooltipId": "ChenFlyingLeap",
           "icon": "storm_ui_icon_chen_flyingkick.png",
-          "shortTooltip": "扩大范围",
-          "fullTooltip": "飞天脚的范围扩大15%。",
+          "shortTooltip": "扩大范围，缩短冷却",
+          "fullTooltip": "飞天脚的范围扩大15%，并且每有英雄受到点燃伤害时，该技能的冷却时间降低0.5秒。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -6651,27 +6658,27 @@
           ]
         },
         {
-          "nameId": "ChenAnotherRound",
-          "name": "再来一杯",
-          "shortTooltipId": "ChenAnotherRound",
-          "fullTooltipId": "ChenAnotherRound",
-          "icon": "storm_ui_icon_chen_kegsmash.png",
-          "shortTooltip": "醉酿投缩短冷却时间，并有更大范围",
-          "fullTooltip": "醉酿投的范围扩大50%。醉酿投击中敌方英雄后，下一个基本技能的冷却时间缩短3秒。",
-          "abilityType": "W",
+          "nameId": "ChenCelerity",
+          "name": "动如脱兔",
+          "shortTooltipId": "ChenCelerityStagger",
+          "fullTooltipId": "ChenCelerityStagger",
+          "icon": "storm_ui_icon_chen_stagger.png",
+          "shortTooltip": "普通攻击缩短醉拳冷却时间，并给予护甲",
+          "fullTooltip": "对陷入减速、定身和昏迷的敌方英雄进行普通攻击，可以使醉拳的冷却时间减少1.5秒，并给予陈15点护甲，持续3秒。",
+          "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenStagger"
           ]
         },
         {
-          "nameId": "ChenMasteryFortifyingBrewEnoughToShare",
-          "name": "这次我请",
-          "shortTooltipId": "ChenFortifyingBrewEnoughToShareTalent",
-          "fullTooltipId": "ChenFortifyingBrewEnoughToShareTalent",
+          "nameId": "ChenComboStrikes",
+          "name": "快速连击",
+          "shortTooltipId": "ChenFortifyingBrewComboStrikesTalent",
+          "fullTooltipId": "ChenFortifyingBrewComboStrikesTalent",
           "icon": "storm_ui_icon_chen_fortifyingbrew.png",
-          "shortTooltip": "壮胆酒为友方英雄提供护盾",
-          "fullTooltip": "壮胆酒还会每秒为附近友方英雄附加54 (每级 +4%)点护盾。",
+          "shortTooltip": "提高攻击速度和伤害",
+          "fullTooltip": "对同一个目标的每3次普通攻击造成75%的额外伤害。在陈拥有壮胆酒的护盾期间和护盾消失后的2秒内，他的攻击速度提高50%。",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -6687,7 +6694,7 @@
           "fullTooltipId": "ChenWanderingKegUntappedPotentialTalent",
           "icon": "storm_ui_icon_chen_wanderingkeg.png",
           "shortTooltip": "提高迷踪酒桶的速度和护甲",
-          "fullTooltip": "迷踪酒桶的移动速度提高100%，并提供60点护甲，使受到的伤害降低60%。",
+          "fullTooltip": "迷踪酒桶的移动速度加成从 70%提高至125%，并在持续期间和之后3秒内给予75点护甲，使受到的伤害降低75%。",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -6700,26 +6707,44 @@
           "shortTooltipId": "ChenStormEarthFireElementalConduitTalent",
           "fullTooltipId": "ChenStormEarthFireElementalConduitTalent",
           "icon": "storm_ui_icon_chen_stormearthfire.png",
-          "shortTooltip": "提高元素之灵的生命值，并强化它们的技能",
-          "fullTooltip": "元素之灵的生命值提高至陈最大生命值的100%，并强化元素之灵的技能。  风暴之灵提供不可阻挡效果。 大地之灵的飞跃冷却时间缩短3秒。 火焰之灵只要存在，就可以保持攻击速度加成。",
+          "shortTooltip": "强化所有元素之灵的技能",
+          "fullTooltip": "元素之灵的生命值提高至陈最大生命值的100%，并强化所有元素之灵的技能。",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
             "ChenStormEarthFire",
+            "ChenFire",
             "ChenEarth",
             "ChenStorm"
           ]
         },
         {
-          "nameId": "ChenStormstoutSecretRecipe",
-          "name": "风暴烈酒秘方",
-          "shortTooltipId": "ChenStormstoutSecretRecipe",
-          "fullTooltipId": "ChenStormstoutSecretRecipe",
-          "icon": "storm_ui_icon_Chen_StormstoutSecretRecipe.png",
-          "shortTooltip": "普通技能可以治疗陈",
-          "fullTooltip": "陈的基本技能每次击中敌方英雄就会为其恢复1.5%的最大生命值。",
-          "abilityType": "Passive",
-          "sort": 3
+          "nameId": "ChenPurifyingBrew",
+          "name": "活血酒",
+          "shortTooltipId": "ChenPurifyingBrew",
+          "fullTooltipId": "ChenPurifyingBrew",
+          "icon": "storm_ui_icon_chen_fortifyingbrew.png",
+          "shortTooltip": "壮胆酒给予不可阻挡",
+          "fullTooltip": "施放壮胆酒使陈获得不可阻挡，持续1.5秒。",
+          "abilityType": "Trait",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "ChenFortifyingBrew"
+          ]
+        },
+        {
+          "nameId": "ChenEnergizingBrew",
+          "name": "豪能酒",
+          "shortTooltipId": "ChenFortifyingBrewEnergizingBrewTalent",
+          "fullTooltipId": "ChenFortifyingBrewEnergizingBrewTalent",
+          "icon": "storm_ui_icon_chen_fortifyingbrew_b.png",
+          "shortTooltip": "壮胆酒提高最大生命值和伤害",
+          "fullTooltip": "如果陈在壮胆酒的持续时间内完整将其引导，就能获得20%的额外生命值和20%的额外伤害，持续25秒。",
+          "abilityType": "Trait",
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "ChenFortifyingBrew"
+          ]
         }
       ]
     },
@@ -6734,7 +6759,7 @@
           "speed": 4.3984,
           "type": "远程",
           "life": {
-            "amount": 1854.75,
+            "amount": 1731.0,
             "scale": 0.04,
             "regenRate": 0.0,
             "regenScale": 0.0
@@ -6768,9 +6793,14 @@
                 "shortTooltipId": "ChenFire",
                 "fullTooltipId": "ChenFire",
                 "icon": "storm_temp_war3_btnmarkoffire.png",
-                "cooldownTooltip": "冷却时间：12秒",
-                "shortTooltip": "提高攻击速度",
-                "fullTooltip": "元素之灵的攻击速度提高100%，持续5秒。",
+                "charges": {
+                  "countMax": 1,
+                  "countUse": 1,
+                  "countStart": 1,
+                  "hideCount": true
+                },
+                "shortTooltip": "提高攻击速度和伤害",
+                "fullTooltip": "元素之灵的攻击速度和普通攻击伤害提高50%，持续5秒。  如果该技能最后施放，则攻速和伤害加成提高至75%，并且元素之灵在该技能持续期间获得50%的移动速度。",
                 "abilityType": "E"
               },
               {
@@ -6779,8 +6809,14 @@
                 "shortTooltipId": "ChenEarth",
                 "fullTooltipId": "ChenEarth",
                 "icon": "storm_temp_war3_btnearthquake.png",
-                "cooldownTooltip": "冷却时间：6秒",
-                "fullTooltip": "火焰之灵和大地之灵跳向目标位置，使大范围内的敌人的移动速度降低70%，持续1.5秒。",
+                "charges": {
+                  "countMax": 1,
+                  "countUse": 1,
+                  "countStart": 1,
+                  "hideCount": true
+                },
+                "shortTooltip": "跳向一个位置，对敌人造成伤害和定身",
+                "fullTooltip": "火焰之灵和大地之灵跳向目标位置，对大范围内的敌人造成32 (每级 +4%)点伤害和70%的减速，持续1.5秒。  如果该技能最后施放，则其造成的伤害提高300%，并使被击中的敌方英雄定身1.75秒，而不是减速。",
                 "abilityType": "W"
               },
               {
@@ -6789,9 +6825,14 @@
                 "shortTooltipId": "ChenStorm",
                 "fullTooltipId": "ChenStorm",
                 "icon": "storm_temp_war3_btntornado.png",
-                "cooldownTooltip": "冷却时间：12秒",
-                "shortTooltip": "提高移动速度",
-                "fullTooltip": "元素之灵的移动速度提高50%，持续5秒。",
+                "charges": {
+                  "countMax": 1,
+                  "countUse": 1,
+                  "countStart": 1,
+                  "hideCount": true
+                },
+                "shortTooltip": "获得护盾",
+                "fullTooltip": "元素之灵获得400 (每级 +4%)点生命值的护盾，持续3秒。  如果该技能最后施放，则护盾值提高至750 (每级 +4%)点，没有持续时间限制，并且风火雷电的持续时间提高5秒。",
                 "abilityType": "Q"
               }
             ]
@@ -6808,7 +6849,7 @@
           "speed": 4.3984,
           "type": "远程",
           "life": {
-            "amount": 1854.75,
+            "amount": 1731.0,
             "scale": 0.04,
             "regenRate": 0.0,
             "regenScale": 0.0
@@ -6822,14 +6863,14 @@
             {
               "nameId": "ChenEarthHeroWeapon",
               "range": 1.0,
-              "period": 2.0,
+              "period": 1.5,
               "damage": 37.0,
               "damageScale": 0.04
             },
             {
               "nameId": "ChenEarthHeroWeaponAggro",
               "range": 1.0,
-              "period": 2.0,
+              "period": 1.5,
               "damage": 37.0,
               "damageScale": 0.04
             }
@@ -6846,7 +6887,7 @@
           "speed": 4.3984,
           "type": "远程",
           "life": {
-            "amount": 1854.75,
+            "amount": 1731.0,
             "scale": 0.04,
             "regenRate": 0.0,
             "regenScale": 0.0
@@ -8203,7 +8244,7 @@
           "fullTooltipId": "DeckardRespectTheElderly",
           "icon": "storm_ui_icon_deckard_stay_awhile_and_listen.png",
           "shortTooltip": "英雄请留步沉默并致盲敌人",
-          "fullTooltip": "英雄请留步沉默并致盲从睡眠中醒来的敌人，持续2秒。",
+          "fullTooltip": "英雄请留步沉默并致盲从睡眠中醒来的敌人，持续3秒。",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -8217,7 +8258,7 @@
           "fullTooltipId": "DeckardMorenados",
           "icon": "storm_ui_icon_deckard_lorenado.png",
           "shortTooltip": "击中英雄减少书籍旋风的冷却时间",
-          "fullTooltip": "每击退一次敌方英雄，书籍旋风的冷却时间便缩短6秒。该效果每0.5秒只会生效一次。",
+          "fullTooltip": "每击退一次敌方英雄，书籍旋风的冷却时间便缩短10秒。该效果每0.5秒只会生效一次。",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -8245,7 +8286,7 @@
           "fullTooltipId": "DeckardPerfectGems",
           "icon": "storm_ui_icon_deckard_perfect_gems.png",
           "shortTooltip": "缩短宝石和赫拉迪姆方块的冷却时间",
-          "fullTooltip": "使所有宝石的冷却时间缩短25秒，并且赫拉迪姆方块的冷却时间缩短5秒。",
+          "fullTooltip": "使所有宝石的冷却时间缩短25秒，并且赫拉迪姆方块的冷却时间缩短6秒。",
           "abilityType": "W",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -9945,8 +9986,8 @@
           "shortTooltipId": "L90ETCGuitarSoloGuitarHeroTalent",
           "fullTooltipId": "L90ETCGuitarSoloGuitarHeroTalent",
           "icon": "storm_ui_icon_ETC_GuitarSolo.png",
-          "shortTooltip": "吉他独奏期间普通攻击恢复生命值",
-          "fullTooltip": "吉他独奏激活时，普通攻击伤害的50%转化为精英牛头人酋长的生命值。",
+          "shortTooltip": "吉他独奏期间，普通攻击可恢复生命值和延长该技能时间",
+          "fullTooltip": "吉他独奏激活时，普通攻击伤害的40%转化为精英牛头人酋长的生命值。普通攻击还可使吉他独奏的持续时间延长0.25秒。",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -9975,7 +10016,7 @@
           "fullTooltipId": "ETCBlockParty",
           "icon": "storm_ui_icon_etc_rockstar.png",
           "shortTooltip": "摇滚明星为盟友提供物理护甲",
-          "fullTooltip": "使用普通技能或终极技能还会为附近盟友提供一层格挡，提供50点物理护甲，抵御下一次敌方英雄的普通攻击，使受到的伤害降低50%，持续8秒。最多2层格挡。",
+          "fullTooltip": "使用普通技能或终极技能还会为附近盟友提供一层格挡，提供75点物理护甲，抵御下一次敌方英雄的普通攻击，使受到的伤害降低75%，持续8秒。最多2层格挡。",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -10019,7 +10060,7 @@
           "fullTooltipId": "ETCSpeedMetalTalent",
           "icon": "storm_ui_icon_etc_speedmetal.png",
           "shortTooltip": "摇滚明星还会提高移动速度",
-          "fullTooltip": "使用基本技能或终极技能还会使附近友方英雄的移动速度提高15%，持续2秒。",
+          "fullTooltip": "使用基本技能或终极技能还会使附近友方英雄的移动速度提高20%，持续2秒。",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -10063,7 +10104,7 @@
           "fullTooltipId": "ETCHammeronTalent",
           "icon": "storm_ui_icon_talent_autoattack_damage.png",
           "shortTooltip": "技能提高普通攻击伤害",
-          "fullTooltip": "使用技能后，精英牛头人酋长的下2次普通攻击造成35%的额外伤害。",
+          "fullTooltip": "使用技能后，精英牛头人酋长的下2次普通攻击造成40%的额外伤害。",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -11756,7 +11797,7 @@
           "fullTooltipId": "GarroshWreckingBall",
           "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
           "energyTooltip": "法力值：60",
-          "cooldownTooltip": "冷却时间：14秒",
+          "cooldownTooltip": "冷却时间：16秒",
           "shortTooltip": "投掷一名敌人，造成伤害并使其减速",
           "fullTooltip": "将附近的一名敌方英雄、小兵或雇佣兵投掷到目标地点，对撞击点附近的敌人造成91 (每级 +4%)点伤害，并使其减速30%，持续2.5秒。",
           "abilityType": "E"
@@ -11790,7 +11831,7 @@
           },
           "cooldownTooltip": "充能时间：8秒",
           "shortTooltip": "对附近的敌人造成伤害并使其减速",
-          "fullTooltip": "对附近的敌人造成50 (每级 +4%)点伤害，并使其减速30%，持续1.5秒。对英雄额外造成100%的伤害；每击中一名英雄，冷却时间缩短1秒。  最多储存3层充能。",
+          "fullTooltip": "对附近的敌人造成50 (每级 +4%)点伤害，并使其减速40%，持续1.5秒。对英雄额外造成100%的伤害；每击中一名英雄，冷却时间缩短1秒。  最多储存3层充能。",
           "abilityType": "Heroic"
         }
       ],
@@ -11831,7 +11872,7 @@
           "fullTooltipId": "GarroshWreckingBallUnrivaledStrength",
           "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
           "shortTooltip": "提高肉弹抛投的投掷范围和伤害",
-          "fullTooltip": "肉弹抛投的投掷范围扩大25%，伤害提高75%。",
+          "fullTooltip": "肉弹抛投的投掷范围扩大25%，伤害提高125%。",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -11853,7 +11894,7 @@
           },
           "cooldownTooltip": "冷却时间：16秒",
           "shortTooltip": "对一名敌人造成伤害并使其减速",
-          "fullTooltip": "激活后，对一名目标敌人造成111 (每级 +4%)点伤害，并使其减速40%，持续2秒。  伤害提高相当于铁甲加身当前加成效果的200%；如果铁甲加身的加成效果高于25，则减速效果提高20%。",
+          "fullTooltip": "激活后，对一名目标敌人造成111 (每级 +4%)点伤害，并使其减速35%，持续2秒。被击中的敌方英雄受到的治疗效果降低30%，持续3秒。",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -11929,20 +11970,6 @@
           "sort": 2
         },
         {
-          "nameId": "GarroshBodyCheckBruteForce",
-          "name": "野蛮之力",
-          "shortTooltipId": "GarroshBodyCheckBruteForce",
-          "fullTooltipId": "GarroshBodyCheckBruteForce",
-          "icon": "storm_ui_icon_garrosh_slam.png",
-          "shortTooltip": "身体阻截降低受到的治疗",
-          "fullTooltip": "被身体阻截击中的敌方英雄受到的治疗效果降低50%，持续4秒。",
-          "abilityType": "Active",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "GarroshArmorUpBodyCheck"
-          ]
-        },
-        {
           "nameId": "GarroshWreckingBallIntotheFray",
           "name": "盟友抛投",
           "shortTooltipId": "GarroshWreckingBallIntotheFray",
@@ -11953,7 +11980,7 @@
           "fullTooltip": "激活后投掷一名盟友，使其获得25点护甲，持续3秒。着陆后对附近的敌人造成91 (每级 +4%)点伤害，并使其减速30%，持续2.5秒。  盟友英雄在空中飞行时不可阻挡。",
           "abilityType": "Active",
           "isActive": true,
-          "sort": 4
+          "sort": 3
         }
       ],
       "level10": [
@@ -11989,7 +12016,7 @@
           },
           "cooldownTooltip": "充能时间：8秒",
           "shortTooltip": "对附近的敌人造成伤害并使其减速",
-          "fullTooltip": "对附近的敌人造成50 (每级 +4%)点伤害，并使其减速30%，持续1.5秒。对英雄额外造成100%的伤害；每击中一名英雄，冷却时间缩短1秒。  最多储存3层充能。",
+          "fullTooltip": "对附近的敌人造成50 (每级 +4%)点伤害，并使其减速40%，持续1.5秒。对英雄额外造成100%的伤害；每击中一名英雄，冷却时间缩短1秒。  最多储存3层充能。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -12066,7 +12093,7 @@
           "fullTooltipId": "GarroshGroundbreakerMortalCombo",
           "icon": "storm_ui_icon_garrosh_groundbreaker_var1.png",
           "shortTooltip": "对被击晕的目标使用肉弹抛投可缩短冷却时间",
-          "fullTooltip": "如果在一名英雄被裂地重斧击晕后的3秒内对其使用肉弹抛投，则肉弹抛投的冷却时间缩短9秒。",
+          "fullTooltip": "如果在3秒内对同一名英雄使用裂地重斧的击晕和肉弹抛投技能，则肉弹抛投的冷却时间缩短10秒，不论技能先后。",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -12110,7 +12137,7 @@
           "fullTooltipId": "GarroshDecimateDeadlyCalm",
           "icon": "storm_ui_icon_garrosh_decimate.png",
           "shortTooltip": "致残挥砍可降低造成的伤害",
-          "fullTooltip": "被致残挥砍击中的英雄造成的伤害降低20%，持续3秒。",
+          "fullTooltip": "被致残挥砍击中的英雄造成的伤害降低25%，持续3秒。",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -13777,7 +13804,7 @@
           "energyTooltip": "法力值：90",
           "cooldownTooltip": "冷却时间：100秒",
           "shortTooltip": "在目标范围内召唤陨石雨",
-          "fullTooltip": "在目标位置引导陨石雨，持续7秒。每一颗陨石在小范围内造成165 (每级 +4%)点伤害。",
+          "fullTooltip": "1.5秒后，在目标范围内召唤一波陨石雨，持续7秒。每一颗陨石在小范围内造成165 (每级 +4%)点伤害。",
           "abilityType": "Heroic"
         }
       ],
@@ -13804,8 +13831,8 @@
           "shortTooltipId": "GuldanFelFlameTalentPursuitOfFlame",
           "fullTooltipId": "GuldanFelFlameTalentPursuitOfFlame",
           "icon": "storm_ui_icon_guldan_felflame.png",
-          "shortTooltip": "任务：击中40个英雄后扩大范围",
-          "fullTooltip": "任务：用邪焰击中40个敌方英雄。  奖励：邪焰的范围扩大10%。",
+          "shortTooltip": "任务：击中30个英雄后扩大范围",
+          "fullTooltip": "任务：用邪焰击中30个敌方英雄。  奖励：邪焰的范围扩大10%。",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
@@ -13820,7 +13847,7 @@
           "fullTooltipId": "GuldanChaoticEnergy",
           "icon": "storm_ui_icon_guldan_healthfunnel.png",
           "shortTooltip": "任务：收集恢复之球可以降低法力消耗",
-          "fullTooltip": "吸取生命的施法范围扩大25%，并且恢复之球提供的治疗效果提高50%。  任务：收集20个恢复之球。  奖励：基本技能的法力消耗永久降低20点。",
+          "fullTooltip": "吸取生命的施法范围扩大25%，并且恢复之球提供的治疗效果提高50%。  任务：收集15个恢复之球。  奖励：基本技能的法力消耗永久降低20点。",
           "abilityType": "W",
           "isQuest": true,
           "sort": 2,
@@ -13900,7 +13927,7 @@
           "fullTooltipId": "GuldanFelFlameBoundByShadow",
           "icon": "storm_ui_icon_guldan_felflame.png",
           "shortTooltip": "邪焰击中敌人可以缩短腐蚀术的冷却时间",
-          "fullTooltip": "邪焰每击中一个敌方英雄可以使腐蚀术的冷却时间缩短1秒。",
+          "fullTooltip": "邪焰每击中一个敌方英雄可以使腐蚀术的冷却时间缩短1.5秒。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -13914,7 +13941,7 @@
           "fullTooltipId": "GuldanCorruptionCurseOfExhaustion",
           "icon": "storm_ui_icon_guldan_healthfunnel.png",
           "shortTooltip": "腐蚀术可强化吸取生命",
-          "fullTooltip": "如果敌人受到腐蚀术的影响，吸取生命对其额外造成50%伤害并使目标的移动速度降低35%。",
+          "fullTooltip": "如果敌人受到腐蚀术的影响，吸取生命对其额外造成50%伤害并使目标的移动速度降低50%。",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -13963,7 +13990,7 @@
           "energyTooltip": "法力值：90",
           "cooldownTooltip": "冷却时间：100秒",
           "shortTooltip": "在目标范围内召唤陨石雨",
-          "fullTooltip": "在目标位置引导陨石雨，持续7秒。每一颗陨石在小范围内造成165 (每级 +4%)点伤害。",
+          "fullTooltip": "1.5秒后，在目标范围内召唤一波陨石雨，持续7秒。每一颗陨石在小范围内造成165 (每级 +4%)点伤害。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -14065,7 +14092,7 @@
           "fullTooltipId": "GuldanLifeTapDarknessWithin",
           "icon": "storm_ui_icon_guldan_lifetap.png",
           "shortTooltip": "生命分流可提高伤害",
-          "fullTooltip": "使用生命分流后，古尔丹施放的下一个技能的伤害和治疗量提高25%。",
+          "fullTooltip": "使用生命分流后，古尔丹施放的下一个技能的伤害和治疗量提高30%。",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -15125,7 +15152,7 @@
           "energyTooltip": "法力值：50",
           "cooldownTooltip": "冷却时间：8秒",
           "shortTooltip": "对一条直线上的敌人造成伤害，并使其减速",
-          "fullTooltip": "释放一道火焰波，造成100 (每级 +4%)点伤害。火焰波中心击中的敌人受到50 (每级 +4%)点额外伤害并且减速40%，持续3秒。",
+          "fullTooltip": "释放一道火焰波，造成100 (每级 +4%)点伤害。火焰波中心击中的敌人受到50点额外伤害并且减速40%，持续3秒。",
           "abilityType": "W"
         },
         {
@@ -15204,7 +15231,7 @@
           "fullTooltipId": "ImperiusSolarionsFireConsumingFlame",
           "icon": "storm_ui_icon_imperius_w.png",
           "shortTooltip": "提高索拉里昂之焰的减速效果和中心伤害",
-          "fullTooltip": "索拉里昂之焰的中心伤害提高125点，并且减速效果提高15%。",
+          "fullTooltip": "索拉里昂之焰的中心伤害额外提高100%，并且减速效果提高15%。",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -15278,7 +15305,7 @@
           "fullTooltipId": "ImperiusCelestialChargeFlashOfAnger",
           "icon": "storm_ui_icon_imperius_q.png",
           "shortTooltip": "索拉里昂之焰可造成范围伤害",
-          "fullTooltip": "天界冲锋击中被索拉里昂之焰标记的英雄时，可对目标周围造成198 (每级 +4%)点伤害。",
+          "fullTooltip": "消耗一层天界冲锋的标记可对目标周围造成180 (每级 +4%)点伤害，并给予英普瑞斯300 (每级 +4%)点护盾，持续4秒。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -15750,7 +15777,7 @@
           "fullTooltipId": "JainaFrostboltIceLanceTalent",
           "icon": "storm_ui_icon_jaina_frostbolt.png",
           "shortTooltip": "击中被冰冻的目标后缩短寒冰箭的冷却时间",
-          "fullTooltip": "寒冰箭击中冰冻目标后，其冷却时间缩短2秒，并恢复10点法力值。",
+          "fullTooltip": "寒冰箭击中冰冻目标后，其冷却时间缩短1.5秒，并恢复10点法力值。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -15778,7 +15805,7 @@
           "fullTooltipId": "JainaIcefuryWand",
           "icon": "storm_ui_icon_talent_autoattack_damage.png",
           "shortTooltip": "提高普通攻击的伤害",
-          "fullTooltip": "对被冰冻的英雄使用普通攻击可额外造成100%伤害，并使暴风雪的冷却时间缩短1.5秒。",
+          "fullTooltip": "对被冰冻的英雄使用普通攻击可额外造成100%伤害，并使暴风雪的冷却时间缩短2秒。",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -15829,8 +15856,8 @@
           "shortTooltipId": "JainaBlizzardStormFrontTalent",
           "fullTooltipId": "JainaBlizzardStormFrontTalent",
           "icon": "storm_ui_icon_jaina_blizzard.png",
-          "shortTooltip": "增加暴风雪的施法距离",
-          "fullTooltip": "暴风雪的施法距离增加100%。",
+          "shortTooltip": "增加暴风雪的施法距离和范围",
+          "fullTooltip": "暴风雪的施法距离提高75%，技能半径提高30%。",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -15872,8 +15899,8 @@
           "shortTooltipId": "JainaBlizzardSnowstormTalent",
           "fullTooltipId": "JainaBlizzardSnowstormTalent",
           "icon": "storm_ui_icon_jaina_blizzard.png",
-          "shortTooltip": "扩大暴风雪的范围",
-          "fullTooltip": "使暴风雪的范围扩大30%。",
+          "shortTooltip": "提高暴风雪的伤害",
+          "fullTooltip": "第二波暴风雪的伤害提高20%，第三波的伤害提高60%。",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -16054,7 +16081,7 @@
           "energyTooltip": "法力值：50",
           "cooldownTooltip": "冷却时间：10秒",
           "shortTooltip": "牵拉并对附近的敌人造成伤害",
-          "fullTooltip": "1秒后，乔汉娜把附近的敌人拉向自己，使其昏迷0.25秒，并造成55 (每级 +4%)点伤害。对小兵和雇佣兵额外造成200%伤害。",
+          "fullTooltip": "1秒后，乔汉娜把附近的敌人拉向自己，使其昏迷0.25秒，并造成58 (每级 +4%)点伤害。对小兵和雇佣兵额外造成200%伤害。",
           "abilityType": "W"
         },
         {
@@ -16133,7 +16160,7 @@
           "fullTooltipId": "CrusaderIronSkinHoldYourGroundTalent",
           "icon": "storm_ui_icon_johanna_iron_skin.png",
           "shortTooltip": "提高钢铁之肤的护盾值，缩短冷却时间",
-          "fullTooltip": "钢铁之肤的护盾值提高50%，其冷却时间缩短4秒。",
+          "fullTooltip": "钢铁之肤的护盾值提高60%，其冷却时间缩短5秒。",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -16162,7 +16189,7 @@
           "fullTooltipId": "CrusaderEternalRetaliationTalent",
           "icon": "storm_ui_icon_johanna_condemn.png",
           "shortTooltip": "强化天谴",
-          "fullTooltip": "每击中一个敌人，天谴的冷却时间就会缩短0.5秒并返还3点法力。最多10个目标。",
+          "fullTooltip": "每击中一个敌人，天谴的冷却时间就会缩短0.75秒并返还3点法力。最多8个目标。",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -16221,7 +16248,7 @@
           "fullTooltipId": "CrusaderZealousGlare",
           "icon": "storm_ui_icon_johanna_shield_glare.png",
           "shortTooltip": "延长盾闪的持续时间",
-          "fullTooltip": "盾闪的致盲持续时间延长0.75秒。对受盾闪影响的英雄使用普通攻击可使持续时间延长1秒，最多3秒。",
+          "fullTooltip": "盾闪的致盲持续时间延长1秒。对受盾闪影响的英雄使用普通攻击可使持续时间延长1秒，最多3秒。",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -16381,7 +16408,7 @@
           "fullTooltipId": "CrusaderBlessedShieldRadiatingFaithTalent",
           "icon": "storm_ui_icon_johanna_blessed_shield.png",
           "shortTooltip": "延长祝福之盾的昏迷持续时间并增加目标上限。",
-          "fullTooltip": "祝福之盾的昏迷持续时间延长33%并且最大可击中敌人数量增加2个。",
+          "fullTooltip": "祝福之盾可击中的敌人数量增加2个，昏迷时间提高至2秒，并且被击中的所有目标昏迷时间不会衰减。",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -18343,7 +18370,7 @@
           "shortTooltipId": "MonkRadiantDash",
           "fullTooltipId": "MonkRadiantDash",
           "icon": "storm_ui_icon_monk_dash.png",
-          "energyTooltip": "法力值：30",
+          "energyTooltip": "法力值：25",
           "charges": {
             "countMax": 2,
             "countUse": 1,
@@ -18373,7 +18400,7 @@
           "shortTooltipId": "MonkDeadlyReach",
           "fullTooltipId": "MonkDeadlyReach",
           "icon": "storm_ui_icon_monk_deadlyreach.png",
-          "energyTooltip": "法力值：50",
+          "energyTooltip": "法力值：45",
           "cooldownTooltip": "冷却时间：10秒",
           "shortTooltip": "提高攻击速度和攻击范围",
           "fullTooltip": "卡拉辛姆的下一次普通攻击使他的攻击速度和攻击范围提高100%，持续2秒。",
@@ -18400,7 +18427,7 @@
           "fullTooltipId": "MonkDivinePalm",
           "icon": "storm_ui_icon_monk_divinepalm.png",
           "energyTooltip": "法力值：50",
-          "cooldownTooltip": "冷却时间：60秒",
+          "cooldownTooltip": "冷却时间：50秒",
           "shortTooltip": "让一名盟友免于死亡",
           "fullTooltip": "保护一名友方英雄避免被击杀，如果目标在接下来的3秒内受到致命伤害，则恢复1200 (每级 +4%)点生命值。",
           "abilityType": "Heroic"
@@ -18525,7 +18552,7 @@
           "fullTooltipId": "MonkHeavenlyZealBreathofHeaven",
           "icon": "storm_ui_icon_monk_breath0fheaven.png",
           "shortTooltip": "回天息提高盟友的移动速度",
-          "fullTooltip": "回天息的移动速度加成提高至30%。",
+          "fullTooltip": "回天息的移动速度加成提高至30%。对盟友使用凌风击可以使其从回天息中受到的治疗提高50%，持续3秒。",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -18539,7 +18566,7 @@
           "fullTooltipId": "MonkBlazingFistsTalent",
           "icon": "storm_ui_icon_monk_deadlyreach.png",
           "shortTooltip": "普通攻击缩短冲心拳冷却时间",
-          "fullTooltip": "每第3次普通攻击使冲心拳的冷却时间缩短0.75秒。",
+          "fullTooltip": "冲心拳的持续时间提高100%。每第3次普通攻击使冲心拳的冷却时间缩短0.75秒。",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -18555,7 +18582,7 @@
           "fullTooltipId": "MonkDivinePalm",
           "icon": "storm_ui_icon_monk_divinepalm.png",
           "energyTooltip": "法力值：50",
-          "cooldownTooltip": "冷却时间：60秒",
+          "cooldownTooltip": "冷却时间：50秒",
           "shortTooltip": "让一名盟友免于死亡",
           "fullTooltip": "保护一名友方英雄避免被击杀，如果目标在接下来的3秒内受到致命伤害，则恢复1200 (每级 +4%)点生命值。",
           "abilityType": "Heroic",
@@ -18599,20 +18626,6 @@
           ]
         },
         {
-          "nameId": "MonkFistsofFuryDeadlyReach",
-          "name": "怒意贯拳",
-          "shortTooltipId": "MonkFistsofFuryTalent",
-          "fullTooltipId": "MonkFistsofFuryTalent",
-          "icon": "storm_ui_icon_monk_deadlyreach.png",
-          "shortTooltip": "延长冲心拳持续时间",
-          "fullTooltip": "冲心拳的持续时间延长100%。",
-          "abilityType": "E",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "MonkDeadlyReach"
-          ]
-        },
-        {
           "nameId": "GenericTalentSpellShield",
           "name": "法术护盾",
           "shortTooltipId": "GenericSpellShieldTalent",
@@ -18623,7 +18636,7 @@
           "fullTooltip": "每隔30秒，获得50点法术护甲，抵御下一次敌人的技能和后续技能，使受到的伤害降低50%，持续3秒。  可以开启或关闭该天赋是否自动触发。",
           "abilityType": "Active",
           "isActive": true,
-          "sort": 3
+          "sort": 2
         },
         {
           "nameId": "MonkSixthSense",
@@ -18634,7 +18647,7 @@
           "shortTooltip": "被击晕或定身时获得物理护甲",
           "fullTooltip": "被击晕或定身时获得75点物理护甲，抵御英雄的普通攻击，持续4秒，使受到的伤害降低75%。",
           "abilityType": "Passive",
-          "sort": 4
+          "sort": 3
         }
       ],
       "level16": [
@@ -18676,20 +18689,6 @@
           "fullTooltip": "回天息的治疗量为正常治疗量的75%，但会在3秒后再治疗一次。",
           "abilityType": "W",
           "sort": 3,
-          "abilityTalentLinkIds": [
-            "MonkBreathOfHeaven"
-          ]
-        },
-        {
-          "nameId": "MonkDashofLight",
-          "name": "光耀击",
-          "shortTooltipId": "MonkDashofLight",
-          "fullTooltipId": "MonkDashofLight",
-          "icon": "storm_ui_icon_monk_breath0fheaven_var1.png",
-          "shortTooltip": "凌风击提高回天息的治疗量",
-          "fullTooltip": "对盟友使用凌风击使其受到回天息的治疗量提高75%，持续3秒。",
-          "abilityType": "W",
-          "sort": 4,
           "abilityTalentLinkIds": [
             "MonkBreathOfHeaven"
           ]
@@ -21914,7 +21913,7 @@
           },
           "cooldownTooltip": "充能时间：15秒",
           "shortTooltip": "直线伤害",
-          "fullTooltip": "放出一株藤条，对直线上的所有敌人造成164 (每级 +4%)点伤害。  最多储存3次使用次数。",
+          "fullTooltip": "放出一株藤条，对直线上的所有敌人造成176 (每级 +4%)点伤害。  最多储存3次使用次数。",
           "abilityType": "Heroic"
         },
         {
@@ -22018,7 +22017,7 @@
           "fullTooltipId": "DryadHippityHop",
           "icon": "storm_ui_icon_lunara_boundlessstride_a.png",
           "shortTooltip": "提高树妖迅捷的加成效果",
-          "fullTooltip": "如果露娜拉在5秒内未受到伤害或对敌人进行普通攻击，树妖迅捷的移动速度加成效果提高10%。",
+          "fullTooltip": "如果露娜拉在4秒内未受到伤害或对敌人进行普通攻击，树妖迅捷的移动速度加成效果提高10%。",
           "abilityType": "Z",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -22034,7 +22033,7 @@
           "fullTooltipId": "DryadBlossomSwellTalent",
           "icon": "storm_ui_icon_Lunara_PollenCloud.png",
           "shortTooltip": "提高剧毒之花的使用范围和效果半径",
-          "fullTooltip": "剧毒之花的使用范围扩大25%，效果半径扩大20%。剧毒之花击中敌人可以使露娜拉的移动速度提高12%，持续3秒。可以与其他移动速度加成叠加。",
+          "fullTooltip": "剧毒之花的使用范围扩大25%，效果半径扩大20%。剧毒之花击中敌人可以使露娜拉的移动速度提高15%，持续3秒。可以与其他移动速度加成叠加。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -22092,7 +22091,7 @@
           "fullTooltipId": "DryadChokingPollenTalent",
           "icon": "storm_ui_icon_lunara_pollencloud_b.png",
           "shortTooltip": "自然毒素提高剧毒之花的伤害",
-          "fullTooltip": "剧毒之花对受到自然毒素影响的敌人造成的伤害提高85%，对身上有3层自然毒素的敌人造成的伤害提高135%。",
+          "fullTooltip": "剧毒之花对受到自然毒素影响的敌人造成的伤害提高100%，对身上有3层自然毒素的敌人造成的伤害提高150%。",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -22130,7 +22129,7 @@
           },
           "cooldownTooltip": "充能时间：15秒",
           "shortTooltip": "直线伤害",
-          "fullTooltip": "放出一株藤条，对直线上的所有敌人造成164 (每级 +4%)点伤害。  最多储存3次使用次数。",
+          "fullTooltip": "放出一株藤条，对直线上的所有敌人造成176 (每级 +4%)点伤害。  最多储存3次使用次数。",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -22170,7 +22169,7 @@
           "fullTooltipId": "DryadEndlessSpores",
           "icon": "storm_ui_icon_lunara_fullbloom.png",
           "shortTooltip": "自然毒素可以缩短致残孢子的冷却时间",
-          "fullTooltip": "施放致残孢子时，如果有至少2名英雄受到自然毒素影响，致残孢子的冷却时间减少3秒。",
+          "fullTooltip": "施放致残孢子时，如果有至少2名英雄受到自然毒素影响，致残孢子的冷却时间减少4秒。",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -22208,7 +22207,7 @@
           "shortTooltipId": "DryadAbolishMagicHotbar",
           "fullTooltipId": "DryadAbolishMagicHotbar",
           "icon": "storm_ui_icon_lunara_abolishmagic.png",
-          "cooldownTooltip": "冷却时间：35秒",
+          "cooldownTooltip": "冷却时间：30秒",
           "shortTooltip": "为露娜拉和目标移除群体控制效果",
           "fullTooltip": "使用后移除露娜拉和一名盟友身上所有的控制效果和持续伤害效果。在随后的2秒内，控制效果的持续时间缩短50%。",
           "abilityType": "Active",
@@ -22224,7 +22223,7 @@
           "fullTooltipId": "DryadAcceleratedContamination",
           "icon": "storm_ui_icon_Lunara_PollenCloud.png",
           "shortTooltip": "剧毒之花冷却速度加快",
-          "fullTooltip": "当有至少2名敌方英雄受到自然毒素影响时，剧毒之花的冷却速度加快100%。",
+          "fullTooltip": "剧毒之花的法力消耗从60点降低至40点。当有至少2名敌方英雄受到自然毒素影响时，剧毒之花的冷却速度加快100%。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -22428,7 +22427,7 @@
           "energyTooltip": "法力值：50",
           "cooldownTooltip": "冷却时间：13秒",
           "shortTooltip": "投射出一个玛维的阴影，她可以稍后闪现至阴影所在位置",
-          "fullTooltip": "朝外界投射出一个玛维的阴影，稍后会返回至施法位置，对沿途的敌人造成180 (每级 +4%)点伤害。如果击中一名敌方英雄，冷却时间缩短4秒。",
+          "fullTooltip": "朝外界投射出一个玛维的阴影，稍后会返回至施法位置，对沿途的敌人造成150 (每级 +4%)点伤害。如果击中一名敌方英雄，冷却时间缩短4秒。",
           "abilityType": "E"
         }
       ],
@@ -22561,8 +22560,8 @@
           "shortTooltipId": "MaievSpiritOfVengeanceSuddenVengeance",
           "fullTooltipId": "MaievSpiritOfVengeanceSuddenVengeance",
           "icon": "storm_ui_icon_maiev_rush_2.png",
-          "shortTooltip": "闪现能制造范围伤害",
-          "fullTooltip": "在复仇之魂击中一名敌方英雄后的0.35秒内使用闪现可使阴影爆炸，对附近的敌方英雄造成相当于其最大生命值5%的伤害。",
+          "shortTooltip": "闪现造成范围伤害",
+          "fullTooltip": "在使用复仇之魂的闪现后，影子会发生爆炸，对周围的敌方英雄造成相当于其最大生命值5%的伤害。",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -22605,8 +22604,8 @@
           "shortTooltipId": "MaievSpiritOfVengeanceRuthlessSpirit",
           "fullTooltipId": "MaievSpiritOfVengeanceRuthlessSpirit",
           "icon": "storm_ui_icon_maiev_rush_1.png",
-          "shortTooltip": "复仇之魂每击中一名敌人造成更多伤害",
-          "fullTooltip": "复仇之魂每击中一个敌方小兵、雇佣兵或敌方召唤生物，其伤害提高3%，每击中一名敌方英雄，其伤害提高24%。",
+          "shortTooltip": "复仇之魂击中敌方英雄可提高玛维伤害",
+          "fullTooltip": "复仇之魂每击中一个敌方英雄，就能使玛维造成的所有伤害提高15%，持续4秒，最多叠加至30%。",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -23411,7 +23410,7 @@
           "fullTooltipId": "MalGanisNecroticEmbraceWingedGuard",
           "icon": "storm_ui_icon_malganis_necrotic.png",
           "shortTooltip": "冥魂之拥给予额外的物理护甲",
-          "fullTooltip": "冥魂之拥每次击中一名敌方英雄，获得50点物理护甲，抵御下一次敌方英雄的普通攻击。  如果飞翼卫士没有叠加层数，玛尔加尼斯会在6秒后获得1层效果。",
+          "fullTooltip": "冥魂之拥每次击中一名敌方英雄，获得75点物理护甲，抵御下一次敌方英雄的普通攻击。  如果飞翼卫士没有叠加层数，玛尔加尼斯会在6秒后获得1层效果。",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -23425,7 +23424,7 @@
           "fullTooltipId": "MalGanisVampiricTouchVampiricAura",
           "icon": "storm_ui_icon_malganis_trait.png",
           "shortTooltip": "提高吸血之触的效果，并与盟友共享",
-          "fullTooltip": "玛尔加尼斯和附近的友方英雄获得治疗，数值相当于造成的物理伤害的10%。",
+          "fullTooltip": "玛尔加尼斯和附近的友方英雄获得治疗，数值相当于造成的物理伤害的15%。",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -23439,7 +23438,7 @@
           "fullTooltipId": "MalGanisVampiricTouchTimeToFeed",
           "icon": "storm_ui_icon_malganis_trait_b.png",
           "shortTooltip": "对敌方英雄造成初始伤害时获得治疗",
-          "fullTooltip": "玛尔加尼斯对附近一名敌方英雄造成伤害时，获得48 (每级 +4%)点治疗。该效果每6秒只能对每个敌方英雄生效一次。",
+          "fullTooltip": "玛尔加尼斯对附近一名敌方英雄造成伤害时，获得52 (每级 +4%)点治疗。该效果每6秒只能对每个敌方英雄生效一次。",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -23469,7 +23468,7 @@
           "fullTooltipId": "MalGanisNecroticEmbraceMightOfSargeras",
           "icon": "storm_ui_icon_malganis_necrotic_b.png",
           "shortTooltip": "提高冥魂之拥的护甲，但会减少持续时间",
-          "fullTooltip": "冥魂之拥的护甲提高至50点，但持续时间缩短至2秒。",
+          "fullTooltip": "冥魂之拥的护甲提高至50点，但持续时间缩短至2.5秒。",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -23499,7 +23498,7 @@
           "fullTooltipId": "MalGanisFelClawsBlackClaws",
           "icon": "storm_ui_icon_malganis_fel_1.png",
           "shortTooltip": "邪能之爪提高普通攻击伤害",
-          "fullTooltip": "玛尔加尼斯使用邪能之爪击中敌方英雄后，他的下一次普通攻击造成45%额外伤害。",
+          "fullTooltip": "玛尔加尼斯使用邪能之爪击中敌方英雄后，他的下一次普通攻击造成60%额外伤害。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -23527,7 +23526,7 @@
           "fullTooltipId": "MalGanisNightRushSpreadingPlague",
           "icon": "storm_ui_icon_malganis_nightrush.png",
           "shortTooltip": "夜幕骤临效果结束后周期性造成伤害",
-          "fullTooltip": "夜幕骤临结束后，每秒对附近的敌人造成30 (每级 +4%)点伤害，持续4秒。对英雄进行普通攻击会刷新该效果。  不会唤醒沉睡目标。",
+          "fullTooltip": "夜幕骤临结束后，每秒对附近的敌人造成30 (每级 +4%)点伤害，持续5秒。对英雄进行普通攻击会刷新该效果。  不会唤醒沉睡目标。",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -23539,12 +23538,13 @@
           "name": "梦魇灌注",
           "shortTooltipId": "MalGanisNightmareFuel",
           "fullTooltipId": "MalGanisNightmareFuel",
-          "icon": "storm_ui_icon_malganis_nightmarefuel.png",
-          "shortTooltip": "普通攻击可以造成更高的伤害",
-          "fullTooltip": "在草丛期间以及离开草丛的4秒内，普通攻击造成30%额外伤害。他们还会对沉睡的目标造成150%额外伤害。",
-          "abilityType": "Passive",
+          "icon": "storm_ui_icon_malganis_nightrush_b.png",
+          "shortTooltip": "强化夜幕骤临和普通攻击",
+          "fullTooltip": "在草丛内施放夜幕骤临可以使其持续时间延长至2.75秒。普通攻击对沉睡的目标造成200%的额外伤害。",
+          "abilityType": "E",
           "sort": 4,
           "abilityTalentLinkIds": [
+            "MalGanisNightRush",
             "MalGanisVampiricTouch"
           ]
         }
@@ -23652,7 +23652,7 @@
           "fullTooltipId": "MalGanisVampiricTouchFrenziedAssault",
           "icon": "storm_ui_icon_malganis_trait.png",
           "shortTooltip": "面对生命值更高的英雄时，获得攻击速度加成",
-          "fullTooltip": "对拥有更高生命值百分比的英雄进行普通攻击，可给予40%攻击速度和15%物理伤害加成，持续3秒。",
+          "fullTooltip": "对拥有更高生命值百分比的英雄进行普通攻击，可给予50%攻击速度和20%物理伤害加成，持续3秒。",
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -23845,7 +23845,7 @@
           "shortTooltipId": "MalthaelTormentedSouls",
           "fullTooltipId": "MalthaelTormentedSouls",
           "icon": "storm_ui_icon_Malthael_TormentedSoul.png",
-          "energyTooltip": "法力值：100",
+          "energyTooltip": "法力值：20",
           "cooldownTooltip": "冷却时间：80秒",
           "shortTooltip": "对附近的敌人施加死神印记",
           "fullTooltip": "释放一波灵魂，持续对附近的敌人施加死神印记，持续4秒。 在折磨之魂施放时和效果结束时，重置怨鬼扑杀的冷却时间。",
@@ -23943,7 +23943,7 @@
           "fullTooltipId": "MalthaelThrowingShade",
           "icon": "storm_ui_icon_Malthael_DeathShroud.png",
           "shortTooltip": "任务：提高死亡笼罩的距离",
-          "fullTooltip": "任务：用死亡笼罩击中15名英雄。  奖励：死亡笼罩的距离永久提高33%，冷却时间永久缩短4秒。法力消耗从50点减少至25点。",
+          "fullTooltip": "任务：用死亡笼罩击中12名英雄。  奖励：死亡笼罩的距离永久提高33%，冷却时间永久缩短4秒。法力消耗从50点减少至25点。",
           "abilityType": "E",
           "isQuest": true,
           "sort": 2,
@@ -24017,7 +24017,7 @@
           "shortTooltipId": "MalthaelTormentedSouls",
           "fullTooltipId": "MalthaelTormentedSouls",
           "icon": "storm_ui_icon_Malthael_TormentedSoul.png",
-          "energyTooltip": "法力值：100",
+          "energyTooltip": "法力值：20",
           "cooldownTooltip": "冷却时间：80秒",
           "shortTooltip": "对附近的敌人施加死神印记",
           "fullTooltip": "释放一波灵魂，持续对附近的敌人施加死神印记，持续4秒。 在折磨之魂施放时和效果结束时，重置怨鬼扑杀的冷却时间。",
@@ -24125,7 +24125,7 @@
           "fullTooltipId": "MalthaelMortality",
           "icon": "storm_ui_icon_Malthael_WraithStrike.png",
           "shortTooltip": "怨鬼扑杀对英雄造成额外伤害",
-          "fullTooltip": "怨鬼扑杀对英雄造成伤害时，造成相当于该英雄最大生命值6%的额外伤害。",
+          "fullTooltip": "怨鬼扑杀对英雄造成伤害时，造成相当于该英雄最大生命值8%的额外伤害。",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -25322,17 +25322,6 @@
     "talents": {
       "level1": [
         {
-          "nameId": "GenericTalentBlock",
-          "name": "格挡",
-          "shortTooltipId": "GenericBlockTalent",
-          "fullTooltipId": "GenericBlockTalent",
-          "icon": "storm_ui_icon_talent_block.png",
-          "shortTooltip": "周期性提供物理护甲",
-          "fullTooltip": "每隔5秒，获得75点物理护甲，抵御下一次敌方英雄的普通攻击，使受到的伤害降低75%。  最多储存2次使用次数。",
-          "abilityType": "Passive",
-          "sort": 1
-        },
-        {
           "nameId": "MuradinStormboltPerfectStorm",
           "name": "完美风暴",
           "shortTooltipId": "MuradinStormboltPerfectStormTalent",
@@ -25342,7 +25331,7 @@
           "fullTooltip": "任务：风暴之锤每次击中敌方英雄都能使其伤害提高5点。",
           "abilityType": "Q",
           "isQuest": true,
-          "sort": 2,
+          "sort": 1,
           "abilityTalentLinkIds": [
             "MuradinStormBolt"
           ]
@@ -25354,12 +25343,23 @@
           "fullTooltipId": "MuradinSecondWindThirdWindTalent",
           "icon": "storm_ui_icon_Muradin_SecondWind.png",
           "shortTooltip": "提高复苏之风的治疗效果",
-          "fullTooltip": "生命恢复速度提高至每秒83 (每级 +4%)，生命值不足60%时恢复速度提高每秒166 (每级 +4%)。",
+          "fullTooltip": "生命恢复速度提高至每秒90 (每级 +4%)，生命值不足60%时恢复速度提高每秒180 (每级 +4%)。",
           "abilityType": "Trait",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "MuradinSecondWind"
           ]
+        },
+        {
+          "nameId": "GenericTalentBlock",
+          "name": "格挡",
+          "shortTooltipId": "GenericBlockTalent",
+          "fullTooltipId": "GenericBlockTalent",
+          "icon": "storm_ui_icon_talent_block.png",
+          "shortTooltip": "周期性提供物理护甲",
+          "fullTooltip": "每隔5秒，获得75点物理护甲，抵御下一次敌方英雄的普通攻击，使受到的伤害降低75%。  最多储存2次使用次数。",
+          "abilityType": "Passive",
+          "sort": 3
         }
       ],
       "level4": [
@@ -25369,8 +25369,8 @@
           "shortTooltipId": "MuradinStormboltSledgehammerTalent",
           "fullTooltipId": "MuradinStormboltSledgehammerTalent",
           "icon": "storm_ui_icon_Muradin_Stormbolt.png",
-          "shortTooltip": "提高风暴之锤对非英雄单位的伤害",
-          "fullTooltip": "风暴之锤对非英雄单位造成350%的伤害。",
+          "shortTooltip": "强化风暴之锤",
+          "fullTooltip": "风暴之锤对非英雄单位造成350%的伤害。击中英雄额外给予一层基础任务进度。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -25383,8 +25383,8 @@
           "shortTooltipId": "MuradinThunderclapReverberationTalent",
           "fullTooltipId": "MuradinThunderclapReverberationTalent",
           "icon": "storm_ui_icon_Muradin_Thunderclap.png",
-          "shortTooltip": "延长持续时间并提高攻击速度降低效果",
-          "fullTooltip": "使攻击速度从降低25%提高到降低50%，并使持续时间从2.5秒提高到3.5秒。",
+          "shortTooltip": "强化雷霆一击和终极技能",
+          "fullTooltip": "使雷霆一击的攻速降低效果从25%提高到50%，并使持续时间从2.5秒提高到3.5秒。每击中一名敌方英雄可以使你的终极技能冷却时间减少5%。",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -25414,7 +25414,7 @@
           "fullTooltipId": "MuradinDwarfTossHeavyImpactTalent",
           "icon": "storm_ui_icon_muradin_dwarftoss.png",
           "shortTooltip": "矮人投掷使敌人减速",
-          "fullTooltip": "被矮人投掷击中的敌人被减速80%，持续0.75秒。",
+          "fullTooltip": "被矮人投掷击中的敌人被减速80%，持续1.25秒。",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -25442,7 +25442,7 @@
           "fullTooltipId": "MuradinSecondWindSkullcrackerTalent",
           "icon": "storm_ui_icon_talent_autoattack_stun.png",
           "shortTooltip": "对同一目标进行连续普通攻击会使其昏迷，并造成更多伤害",
-          "fullTooltip": "对同一个敌人的每第3次普通攻击造成70% 的额外伤害，并使其昏迷0.25秒。",
+          "fullTooltip": "对同一个敌人的每第3次普通攻击造成90% 的额外伤害，并使其昏迷0.25秒。",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -25515,7 +25515,7 @@
           "fullTooltipId": "MuradinThunderclapThunderstrikeTalent",
           "icon": "storm_ui_icon_muradin_thunderclap.png",
           "shortTooltip": "提高雷霆一击对单个敌人的伤害",
-          "fullTooltip": "雷霆一击如果只命中一个目标，则造成300%的伤害。",
+          "fullTooltip": "雷霆一击如果只命中一个目标，则造成300%的伤害。  被动：矮人投掷的护甲持续时间延长2秒。",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -25529,7 +25529,7 @@
           "fullTooltipId": "MuradinBronzebeardRage",
           "icon": "storm_ui_icon_Talent_BurningRage.png",
           "shortTooltip": "对附近敌人造成伤害",
-          "fullTooltip": "对附近的敌人每秒造成19 (每级 +4%)点伤害。对被定身、昏迷或减速的英雄进行的普通攻击会使该技能的伤害提高100%，持续3秒。",
+          "fullTooltip": "对附近的敌人每秒造成20 (每级 +4%)点伤害，并恢复相当于该伤害75%的生命值。对被定身、昏迷或减速的英雄进行的普通攻击会使该技能的伤害提高100%，持续3秒。",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -27429,7 +27429,7 @@
           "fullTooltipId": "OrpheaBondOfAnguish",
           "icon": "storm_ui_icon_orphea_q.png",
           "shortTooltip": "暗影华尔兹偷窃百分比生命值",
-          "fullTooltip": "暗影华尔兹对英雄造成相当于其最大生命值3%的额外伤害，并使奥菲娅恢复相当于该技能所造成伤害50%的生命值。",
+          "fullTooltip": "暗影华尔兹对英雄造成相当于其最大生命值3%的额外伤害，并使奥菲娅恢复相当于该额外伤害50%的生命值。",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -28057,9 +28057,9 @@
       "target": "ui_targetportrait_hero_ragnaros.png"
     },
     "life": {
-      "amount": 2000.0,
+      "amount": 2075.0,
       "scale": 0.04,
-      "regenRate": 4.168,
+      "regenRate": 4.3242,
       "regenScale": 0.04
     },
     "energy": {
@@ -28082,7 +28082,7 @@
         "nameId": "RagnarosAttackWeapon",
         "range": 2.0,
         "period": 1.2,
-        "damage": 171.0,
+        "damage": 180.0,
         "damageScale": 0.04
       }
     ],
@@ -28440,7 +28440,7 @@
           "fullTooltipId": "RagnarosSulfurasSmashFlamesOfSulfuron",
           "icon": "storm_ui_icon_ragnaros_sulfurassmash.png",
           "shortTooltip": "萨弗拉斯重击使敌人减速，并延长昏迷时间",
-          "fullTooltip": "萨弗拉斯重击使敌人减速50%，持续2秒，中心的敌人额外昏迷0.5秒。",
+          "fullTooltip": "萨弗拉斯重击使敌人减速50%，持续2.5秒，对中心的敌人造成的昏迷时间延长1秒。",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -28482,7 +28482,7 @@
           "fullTooltipId": "RagnarosSubmerge",
           "icon": "storm_ui_icon_ragnaros_submerge.png",
           "toggleCooldown": 0.5,
-          "cooldownTooltip": "冷却时间：90秒",
+          "cooldownTooltip": "冷却时间：60秒",
           "shortTooltip": "激活后治疗，并进入静止状态",
           "fullTooltip": "拉格纳罗斯潜入地下，进入静止状态并在3秒内恢复600 (每级 +4%)点生命值。",
           "abilityType": "Active",
@@ -28797,7 +28797,7 @@
           "fullTooltipId": "RaynorInspireFuelTheRush",
           "icon": "storm_ui_icon_raynor_split_debilitatingrounds.png",
           "shortTooltip": "提高强心激素的冷却时间缩减",
-          "fullTooltip": "当激励激活时，从普通攻击中获得的强心激素冷却时间缩减效果提高200%。",
+          "fullTooltip": "使强心激素的法力消耗从75点降低至50点。当激励激活时，从普通攻击中获得的强心激素冷却时间缩减效果提高200%。",
           "abilityType": "Passive",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -28879,7 +28879,7 @@
           "fullTooltipId": "RaynorPenetratingRoundDebilitatingRounds",
           "icon": "storm_ui_icon_raynor_split_fuelrush.png",
           "shortTooltip": "激励强化穿透弹",
-          "fullTooltip": "穿透弹的冷却时间降低3秒。当激励激活时，穿透弹的减速效果提高20%。",
+          "fullTooltip": "穿透弹的法力消耗从65点降低至45点，并且冷却时间减少3秒。当激励激活时，穿透弹的减速效果提高20%。",
           "abilityType": "Passive",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -29985,10 +29985,10 @@
           "speed": 4.3984,
           "type": "远程",
           "life": {
-            "amount": 1762.0,
-            "scale": 0.04,
-            "regenRate": 3.6718,
-            "regenScale": 0.04
+            "amount": 1620.0,
+            "scale": 0.0475,
+            "regenRate": 3.375,
+            "regenScale": 0.0475
           },
           "weapons": [
             {
@@ -31627,7 +31627,7 @@
           "fullTooltipId": "StitchesChopChop",
           "icon": "storm_ui_icon_stitches_slam_b.png",
           "shortTooltip": "猛击提高普通攻击速度",
-          "fullTooltip": "猛击的内侧击中敌方英雄使缝合怪的攻击速度提高50%，持续5秒。",
+          "fullTooltip": "猛击的内侧击中敌方英雄使缝合怪的攻击速度提高50%，持续6秒。",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -31741,7 +31741,7 @@
           "fullTooltipId": "StitchesDigestiveJuices",
           "icon": "storm_ui_icon_stitches_devour.png",
           "shortTooltip": "吞噬降低敌人造成的伤害",
-          "fullTooltip": "吞噬对英雄造成的伤害提高40%。被吞噬击中的英雄造成的伤害降低50%，持续5秒。",
+          "fullTooltip": "用吞噬击中一名英雄可以使该技能的冷却时间减少5秒，并使其造成的伤害降低50%，持续5秒。",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -31755,7 +31755,7 @@
           "fullTooltipId": "StitchesGasFlare",
           "icon": "storm_ui_icon_talent_burningrage.png",
           "shortTooltip": "对周围敌人造成伤害",
-          "fullTooltip": "每秒对周围的敌人造成15 (每级 +4%)点伤害。用屠钩击中敌方英雄可以使这个伤害提高150%，持续4秒。",
+          "fullTooltip": "每秒对周围的敌人造成15 (每级 +4%)点伤害。用屠钩击中敌方英雄可以使这个伤害提高150%，持续8秒。",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -31783,7 +31783,7 @@
           "fullTooltipId": "StitchesMeatHook",
           "icon": "storm_ui_icon_stitches_hook_b.png",
           "shortTooltip": "钩中敌方英雄获得持续治疗",
-          "fullTooltip": "钩中敌方英雄可以使缝合怪在4秒内获得相当于最大生命值16%的治疗。在4秒内，对被钩的敌方英雄使用普通攻击可刷新该治疗效果的持续时间。",
+          "fullTooltip": "钩中敌方英雄可以使缝合怪在4秒内获得相当于最大生命值20%的治疗。在4秒内，对被钩的敌方英雄使用普通攻击可刷新该治疗效果的持续时间。",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -32023,7 +32023,7 @@
           "fullTooltipId": "StukovFetidTouchTalent",
           "icon": "storm_ui_icon_stukov_weightedpustule.png",
           "shortTooltip": "任务：缩短负重脓疱的冷却时间并减少消耗",
-          "fullTooltip": "任务：用负重脓疱击中英雄。  奖励：击中15名英雄后，负重脓疱的冷却时间缩短2.5秒。  奖励：击中30名英雄后，负重脓疱的冷却时间额外缩短2.5秒，并且不再消耗法力。",
+          "fullTooltip": "任务：用负重脓疱击中英雄。  奖励：击中15名英雄后，负重脓疱的冷却时间缩短2.5秒，法力消耗降低25点。  奖励：击中30名英雄后，负重脓疱的冷却时间额外缩短2.5秒，并且不再消耗法力。",
           "abilityType": "W",
           "isQuest": true,
           "sort": 1,
@@ -32151,7 +32151,7 @@
           "fullTooltipId": "StukovTargetedExcisionTalent",
           "icon": "storm_ui_icon_stukov_bio-killswitch.png",
           "shortTooltip": "引爆单个负重脓疱可以缩短冷却时间",
-          "fullTooltip": "使用生化杀伤精确引爆1个负重脓疱（医疗病原体数量不限），则生化杀伤的冷却时间缩短至5秒。",
+          "fullTooltip": "使用生化杀伤精确引爆1个负重脓疱（医疗病原体数量不限），则生化杀伤的冷却时间缩短至5秒，其他基本技能的冷却时间缩短1.5秒。",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -32210,7 +32210,7 @@
           "fullTooltipId": "StukovLurkingArmItHungersTalent",
           "icon": "storm_ui_icon_stukov_lurkingarm.png",
           "shortTooltip": "潜伏手臂可以返还法力消耗",
-          "fullTooltip": "使潜伏手臂的射程提高20%。如果潜伏手臂对英雄造成12次伤害，则重置其冷却时间，并返还法力消耗。",
+          "fullTooltip": "使潜伏手臂的射程提高20%。如果潜伏手臂对英雄造成10次伤害，则重置其冷却时间，并返还法力消耗。",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -32252,7 +32252,7 @@
           "fullTooltipId": "StukovPoppinPustulesTalent",
           "icon": "storm_ui_icon_stukov_bio-killswitch.png",
           "shortTooltip": "负重脓疱可以在一个范围内引爆",
-          "fullTooltip": "在负重脓疱的效果结束前1.5秒内使用生化杀伤将其引爆，可以使其伤害提高150%并造成范围性的伤害和减速效果。",
+          "fullTooltip": "在负重脓疱的效果结束前1.5秒内使用生化杀伤将其引爆，可以使其伤害提高150%并造成范围性的伤害和减速效果。被击中的敌方英雄也会被施以负重脓庖。",
           "abilityType": "Trait",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -32282,7 +32282,7 @@
           "fullTooltipId": "StukovUniversalCarrierTalent",
           "icon": "storm_ui_icon_stukov_healingpathogen_a.png",
           "shortTooltip": "医疗病原体可以持续传播",
-          "fullTooltip": "医疗病原体可以通过斯托科夫持续传播，但治疗效果降低50%。",
+          "fullTooltip": "医疗病原体可以通过斯托科夫持续传播，但治疗效果降低40%。",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -32453,7 +32453,7 @@
           "energyTooltip": "法力值：50",
           "cooldownTooltip": "冷却时间：11秒",
           "shortTooltip": "对敌人造成持续伤害，击中后扩散",
-          "fullTooltip": "朝目标敌人投掷匕首，造成32 (每级 +4%)点伤害并在接下来的2.5秒内造成160 (每级 +4%)点额外伤害。当希尔瓦娜斯对暗影匕首的初始目标造成伤害时，该效果会传染到附近所有未受影响的敌人身上。",
+          "fullTooltip": "朝目标敌人投掷匕首，造成30 (每级 +4%)点伤害并在接下来的2.5秒内造成150 (每级 +4%)点额外伤害。当希尔瓦娜斯对暗影匕首的初始目标造成伤害时，该效果会传染到附近所有未受影响的敌人身上。",
           "abilityType": "W"
         },
         {
@@ -32872,6 +32872,7 @@
       "regenRate": 3.0
     },
     "roles": [
+      "专业型",
       "支援者"
     ],
     "expandedRole": "支援者",
@@ -40059,7 +40060,7 @@
           "fullTooltipId": "ZaryaShieldAllyTogetherWeAreStrongTalent",
           "icon": "storm_ui_icon_Zarya_ShieldAlly.png",
           "shortTooltip": "受到投射屏障影响的盟友造成伤害会提供能量",
-          "fullTooltip": "盟友在投射屏障保护下每造成6 (每级 +4%)点伤害，就会使你获得1点能量，每个护盾最多使你获得30点能量。",
+          "fullTooltip": "盟友在投射屏障保护下每造成5.35 (每级 +4%)点伤害，就会使你获得1点能量，每个护盾最多使你获得40点能量。",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -40370,8 +40371,8 @@
           "shortTooltipId": "ZaryaGravitonSurgeGravityKillsTalent",
           "fullTooltipId": "ZaryaGravitonSurgeGravityKillsTalent",
           "icon": "storm_ui_icon_Zarya_GravitonSurge.png",
-          "shortTooltip": "延长重力喷涌的持续时间，并造成伤害",
-          "fullTooltip": "重力喷涌的持续时间延长1秒，并在持续时间内造成175 (每级 +4%)点伤害。",
+          "shortTooltip": "延长重力喷涌的持续时间，并造成沉默",
+          "fullTooltip": "重力喷涌的持续时间延长1秒，并使被困住的英雄沉默。",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -40384,8 +40385,8 @@
           "shortTooltipId": "ZaryaExpulsionZoneClearOutTalent",
           "fullTooltipId": "ZaryaExpulsionZoneClearOutTalent",
           "icon": "storm_ui_icon_Zarya_ExpulsionZone.png",
-          "shortTooltip": "扩大喷涌区域范围，并提供能量",
-          "fullTooltip": "喷涌区域的范围扩大15%，并且每击中一个敌方英雄，查莉娅的最大能量就会暂时提高15点，持续10秒。",
+          "shortTooltip": "提高喷涌区域的持续时间和范围",
+          "fullTooltip": "使喷涌区域的持续时间提高1.5秒，半径扩大15%。",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -40499,7 +40500,7 @@
           "energyTooltip": "法力值：40",
           "cooldownTooltip": "冷却时间：6秒",
           "shortTooltip": "对附近敌人造成伤害",
-          "fullTooltip": "对附近敌人造成212 (每级 +4%)点伤害。",
+          "fullTooltip": "对附近敌人造成200 (每级 +4%)点伤害。",
           "abilityType": "Q"
         },
         {
