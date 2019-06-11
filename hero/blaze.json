@@ -46,8 +46,8 @@
         "description": "After 0.5 seconds, charge forward. Colliding with an enemy Hero deals 52 (+4% per level) damage to all nearby enemy Heroes and Stuns them for 1.25 seconds.",
         "hotkey": "E",
         "abilityId": "Blaze|E1",
-        "cooldown": 9,
-        "manaCost": 45,
+        "cooldown": 8,
+        "manaCost": 40,
         "icon": "storm_ui_icon_blaze_jet.png",
         "type": "basic"
       },
@@ -56,8 +56,8 @@
         "description": "After 0.5 seconds, deploy and enter a Bunker with 1435 (+4% per level) Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 170 (+4% per level) damage to enemies in a line.  Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.",
         "hotkey": "R",
         "abilityId": "Blaze|R1",
-        "cooldown": 80,
-        "manaCost": 80,
+        "cooldown": 70,
+        "manaCost": 70,
         "icon": "storm_ui_icon_blaze_bunker.png",
         "type": "heroic"
       },
@@ -73,7 +73,7 @@
       },
       {
         "name": "Pyromania",
-        "description": "Gain 35 Armor and deal 40 (+4% per level) damage to nearby enemies every 0.5 seconds for 4 seconds.  Each Hero hit by Flame Stream reduces Pyromania's cooldown by 5 seconds.",
+        "description": "Gain 40 Armor and deal 40 (+4% per level) damage to nearby enemies every 0.5 seconds for 4 seconds.  Each Hero hit by Flame Stream reduces Pyromania's cooldown by 5 seconds.",
         "hotkey": "D",
         "trait": true,
         "abilityId": "Blaze|D1",
@@ -135,26 +135,13 @@
     ],
     "4": [
       {
-        "tooltipId": "FirebatFlameStreamFeedingtheFlame",
-        "talentTreeId": "FirebatFlameStreamFeedingtheFlame",
-        "name": "Feeding the Flame",
-        "description": "Each enemy Hero hit by Flame Stream reduces the cooldown of Oil Spill by 2 seconds and refunds 5 Mana.",
-        "icon": "storm_ui_icon_blaze_flame.png",
-        "type": "Q",
-        "sort": 1,
-        "abilityId": "Blaze|Q1",
-        "abilityLinks": [
-          "Blaze|Q1"
-        ]
-      },
-      {
         "tooltipId": "FirebatOilSpillAdhesivePetroleum",
         "talentTreeId": "FirebatOilSpillAdhesivePetroleum",
         "name": "Adhesive Petroleum",
         "description": "Enemies standing in Oil Spill when it is Ignited are Slowed by 30% for 2.5 seconds.",
         "icon": "storm_ui_icon_blaze_oil.png",
         "type": "W",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Blaze|W1",
         "abilityLinks": [
           "Blaze|W1"
@@ -164,10 +151,10 @@
         "tooltipId": "FirebatOilSpillOilDispersal",
         "talentTreeId": "FirebatOilSpillOilDispersal",
         "name": "Oil Dispersal",
-        "description": "Increase Oil Spill's area by 20%.",
+        "description": "Increase Oil Spill's area by 20%.  Each enemy Hero hit by Flame Stream reduces the cooldown of Oil Spill by 1 second and refunds 5 Mana.",
         "icon": "storm_ui_icon_blaze_oil_b.png",
         "type": "W",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Blaze|W1",
         "abilityLinks": [
           "Blaze|W1"
@@ -180,7 +167,7 @@
         "description": "Hitting an enemy Hero with Pyromania reduces their damage dealt by 7% for 2.5 seconds, up to 35%.",
         "icon": "storm_ui_icon_blaze_pyromania.png",
         "type": "Trait",
-        "sort": 4,
+        "sort": 3,
         "abilityId": "Blaze|D1",
         "abilityLinks": [
           "Blaze|D1"
@@ -235,7 +222,7 @@
         "icon": "storm_ui_icon_blaze_bunker.png",
         "type": "Heroic",
         "sort": 1,
-        "cooldown": 80,
+        "cooldown": 70,
         "abilityId": "Blaze|R1",
         "abilityLinks": [
           "Blaze|R1"
@@ -261,7 +248,7 @@
         "tooltipId": "FirebatFlameStreamSuppressiveFire",
         "talentTreeId": "FirebatFlameStreamSuppressiveFire",
         "name": "Suppressive Fire",
-        "description": "Each stream of Flame Stream reduces the Spell Power of Heroes hit by 20% for 4 seconds, up to 40%.",
+        "description": "Each stream of Flame Stream reduces the Spell Power of Heroes hit by 25% for 4 seconds, up to 50%.",
         "icon": "storm_ui_icon_blaze_flame.png",
         "type": "Q",
         "sort": 1,
@@ -302,7 +289,7 @@
         "tooltipId": "FirebatJetPropulsionThermalProtection",
         "talentTreeId": "FirebatJetPropulsionThermalProtection",
         "name": "Thermal Protection",
-        "description": "Each enemy hit by Jet Propulsion grants 10 Armor for 3 seconds and reduces its cooldown by 1.5 seconds.",
+        "description": "Each enemy hit by Jet Propulsion grants 10 Armor for 3 seconds and reduces its cooldown by 1.25 seconds.",
         "icon": "storm_ui_icon_blaze_jet.png",
         "type": "E",
         "sort": 1,
