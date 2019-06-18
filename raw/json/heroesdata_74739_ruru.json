@@ -818,7 +818,7 @@
           "shortTooltipId": "AlarakShowofForce",
           "fullTooltipId": "AlarakShowofForce",
           "icon": "storm_ui_icon_alarak_sadism.png",
-          "shortTooltip": "Комбинации способностей наносят дополнительный урон и повышают уровень «Садизма».",
+          "shortTooltip": "Комбинации способностей наносят дополнительный урон и повышают «Садизм».",
           "fullTooltip": "Герои, пораженные 3 способностями Аларака в течение 2 сек., получают 68 (+4% за уровень) ед. дополнительного урона и повышают уровень «Садизма» Аларака на 2%, вплоть до 20%.    «Садизм», накопленный от «Демонстрации силы», теряется после смерти.",
           "abilityType": "Trait",
           "sort": 3,
@@ -6278,7 +6278,7 @@
     "mountLinkId": "SummonMount",
     "hearthLinkId": "HearthstoneBrew",
     "searchText": "Чэнь Чень Буйный Портер панда пандарен WoW World of Warcraft WC3 Warcraft3 Warcraft III 3 War3 Frozen Throne FT Mists of Pandaria MoP",
-    "description": "Мощный рубака, который лучше всего раскрывается против команд с невысокой мобильностью.",
+    "description": "Мощный рубака, способный изматывать противников и устойчивый к высокому урону.",
     "descriptors": [
       "BodyBlocker",
       "Escaper",
@@ -6310,10 +6310,10 @@
     ],
     "expandedRole": "Рубака",
     "ratings": {
-      "complexity": 6.0,
-      "damage": 3.0,
-      "survivability": 10.0,
-      "utility": 4.0
+      "complexity": 8.0,
+      "damage": 5.0,
+      "survivability": 8.0,
+      "utility": 5.0
     },
     "weapons": [
       {
@@ -6344,29 +6344,21 @@
           "shortTooltipId": "ChenKegSmash",
           "fullTooltipId": "ChenKegSmash",
           "icon": "storm_ui_icon_chen_kegsmash.png",
-          "energyTooltip": "Отвар: 20",
-          "charges": {
-            "countMax": 1,
-            "countUse": 1,
-            "countStart": 1,
-            "hideCount": true,
-            "recastCooldown": 1.0
-          },
+          "energyTooltip": "Отвар: 30",
           "cooldownTooltip": "Время восстановления: 5 сек.",
-          "shortTooltip": "Окатывает противников поблизости отваром и замедляет их.",
-          "fullTooltip": "Чэнь разбивает бочонок и наносит противникам 50 (+4% за уровень) ед. урона, при этом окатывая их отваром, который замедляет их на 25% на 3 сек.",
+          "shortTooltip": "Окатывает противников отваром и замедляет их.",
+          "fullTooltip": "Наносит противникам 50 (+4% за уровень) ед. урона, окатывая их отваром на 3 сек. и замедляя на 10%. Спустя 1.5 сек. эффект замедления усиливается до 40%.  После использования «Удар бочонком» превращается в «Пламенное дыхание».  Пламенное дыхание Поджигает облитых отваром противников и наносит им урон.",
           "abilityType": "W"
         },
         {
-          "nameId": "ChenBreathOfFire",
-          "name": "Пламенное дыхание",
-          "shortTooltipId": "ChenBreathOfFire",
-          "fullTooltipId": "ChenBreathOfFire",
-          "icon": "storm_ui_icon_chen_breathoffire.png",
-          "energyTooltip": "Отвар: 30",
-          "cooldownTooltip": "Время восстановления: 5 сек.",
-          "shortTooltip": "Выдыхает струю пламени, нанося урон и поджигая облитых отваром врагов.",
-          "fullTooltip": "Выдыхает струю пламени, наносящую 96 (+4% за уровень) ед. урона. Противники, облитые отваром, загораются и дополнительно получают 96 (+4% за уровень) ед. урона в течение 3 сек.",
+          "nameId": "ChenStagger",
+          "name": "Пошатывание",
+          "shortTooltipId": "ChenStagger",
+          "fullTooltipId": "ChenStagger",
+          "icon": "storm_ui_icon_Chen_Stagger.png",
+          "cooldownTooltip": "Время восстановления: 18 сек.",
+          "shortTooltip": "Дает неуязвимость к урону. Этот урон преобразуется в периодический.",
+          "fullTooltip": "Предотвращает получение урона в течение 3 сек., после чего Чэнь в течение 5 сек. получает 75% от предотвращенного урона. Этот урон нельзя изменить.",
           "abilityType": "E"
         }
       ],
@@ -6379,7 +6371,7 @@
           "icon": "storm_ui_icon_chen_wanderingkeg.png",
           "cooldownTooltip": "Время восстановления: 70 сек.",
           "shortTooltip": "Катается по земле в бочке, отбрасывая противников.",
-          "fullTooltip": "Чэнь запрыгивает в неудержимую бочку и катится в ней на 60% быстрее, нанося 59 (+4% за уровень) ед. урона всем противникам на своем пути и отбрасывая их назад. Время действия – 5 сек.",
+          "fullTooltip": "Чэнь запрыгивает в неудержимую бочку и катится в ней на 70% быстрее, нанося 59 (+4% за уровень) ед. урона противникам на своем пути и отбрасывая их. Время действия – 5 сек.",
           "abilityType": "Heroic"
         },
         {
@@ -6389,8 +6381,8 @@
           "fullTooltipId": "ChenStormEarthFire",
           "icon": "storm_ui_icon_chen_stormearthfire.png",
           "cooldownTooltip": "Время восстановления: 100 сек.",
-          "shortTooltip": "Разделяется на три духа стихий.",
-          "fullTooltip": "После паузы в 1 сек. Чэнь разделяется на три духа стихий на 12 сек. Запас здоровья каждого духа составляет 75% от максимального запаса здоровья Чэня, и каждый из них имеет уникальную способность. Если все три духа погибнут, погибнет и сам Чэнь.  Буря может повысить скорость передвижения духов стихий.  Земля может совершать прыжки, замедляя противников вокруг точки приземления. Огонь может повысить скорость атаки духов стихий.",
+          "shortTooltip": "Чэнь разделяется на три духа стихий.",
+          "fullTooltip": "После паузы в 1 сек. Чэнь разделяется на три духа стихий на 12 сек. Запас здоровья каждого духа составляет 70% от максимального запаса здоровья Чэня, и каждый из них имеет уникальную способность. Последняя использованная способность духа стихий усиливается. Если все три духа погибнут, погибнет и сам Чэнь.  Буря может дать духам щит.  Земля может совершать прыжки, замедляя противников. Огонь может повышать скорость атаки духов и увеличивать их урон.",
           "abilityType": "Heroic"
         }
       ],
@@ -6401,9 +6393,9 @@
           "shortTooltipId": "ChenFortifyingBrew",
           "fullTooltipId": "ChenFortifyingBrew",
           "icon": "storm_ui_icon_chen_fortifyingbrew.png",
-          "cooldownTooltip": "Время восстановления: 5 сек.",
-          "shortTooltip": "Чэнь использует отвар вместо маны и получает щит, пока его пьет.",
-          "fullTooltip": "Чэнь отпивает из бочонка и мгновенно получает 25 ед. отвара. Продолжая пить, он каждую секунду дополнительно накапливает 30 ед. отвара и получает щит прочностью 196 (+4% за уровень) ед. Максимальная прочность щита – 588 (+4% за уровень) ед. Щит действует еще 2 сек. после того, как Чэнь прекращает пить.",
+          "cooldownTooltip": "Время восстановления: 7 сек.",
+          "shortTooltip": "Чэнь накапливает отвар и получает щит, пока пьет.",
+          "fullTooltip": "Чэнь пьет из бочонка, ежесекундно накапливая 50 ед. отвара и получая временный щит прочностью 180 (+4% за уровень) ед. Максимальная прочность щита – 540 (+4% за уровень) ед. Щит действует еще 4 сек. после того, как Чэнь прекращает пить.",
           "abilityType": "Trait"
         }
       ]
@@ -6411,18 +6403,17 @@
     "talents": {
       "level1": [
         {
-          "nameId": "ChenAccumulatingFlame",
-          "name": "Накопление жара",
-          "shortTooltipId": "ChenAccumulatingFlame",
-          "fullTooltipId": "ChenAccumulatingFlame",
-          "icon": "storm_ui_icon_chen_breathoffire.png",
-          "shortTooltip": "Задача: поджигайте героев, чтобы усилить «Пламенное дыхание».",
-          "fullTooltip": "Задача: каждый раз, когда Чэнь поджигает героя «Пламенным дыханием», периодический урон от него увеличивается на 2%, вплоть до 60%.  Награда: после того как Чэнь подожжет 30 героев, «Пламенное дыхание» будет давать ему 20 ед. брони за каждого подожженного героя. Время действия эффекта – 3 сек.",
-          "abilityType": "E",
-          "isQuest": true,
+          "nameId": "ChenEyeOfTheTiger",
+          "name": "Глаз тигра",
+          "shortTooltipId": "ChenEyeOfTheTiger",
+          "fullTooltipId": "ChenEyeOfTheTiger",
+          "icon": "storm_ui_icon_chen_kegsmash.png",
+          "shortTooltip": "Автоатаки наносят больше урона и исцеляют Чэня.",
+          "fullTooltip": "Автоатаки по облитым отваром героям наносят на 50% больше урона и восполняют Чэню здоровье в объеме  50% от наносимого урона.",
+          "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "ChenBreathOfFire"
+            "ChenKegSmash"
           ]
         },
         {
@@ -6431,10 +6422,98 @@
           "shortTooltipId": "ChenFreshestIngredients",
           "fullTooltipId": "ChenFreshestIngredients",
           "icon": "storm_ui_icon_chen_fortifyingbrew.png",
-          "shortTooltip": "Задача: подбирайте сферы регенерации, чтобы ускорить восстановление здоровья.",
-          "fullTooltip": "Задача: каждая подобранная сфера регенерации ускоряет восполнение здоровья на 1 ед. в секунду.  Награда: после подбора 30 сфер 50% запаса прочности щита от «Укрепляющего отвара» будут сохраняться без ограничений по времени.",
+          "shortTooltip": "Задача: сферы регенерации восполняют больше здоровья.",
+          "fullTooltip": "Увеличивает время действия сфер регенерации на 100%.  Задача: подберите 15 сфер регенерации.  Награда: 50% запаса прочности щита от «Укрепляющего отвара» будут сохраняться без ограничений по времени.",
           "abilityType": "Trait",
           "isQuest": true,
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "ChenFortifyingBrew"
+          ]
+        },
+        {
+          "nameId": "ChenStormstoutSecretRecipe",
+          "name": "Секрет Буйных Портеров",
+          "shortTooltipId": "ChenStormstoutSecretRecipe",
+          "fullTooltipId": "ChenStormstoutSecretRecipe",
+          "icon": "storm_ui_icon_Chen_StormstoutSecretRecipe.png",
+          "shortTooltip": "Базовые способности исцеляют Чэня.",
+          "fullTooltip": "Каждый раз, когда Чэнь поражает героя базовой способностью, он восполняет 2% максимального запаса здоровья.",
+          "abilityType": "Passive",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "ChenFortifyingBrew"
+          ]
+        }
+      ],
+      "level4": [
+        {
+          "nameId": "ChenDeadlyStrike",
+          "name": "Смертельный удар",
+          "shortTooltipId": "ChenFlyingKickDeadlyStrikeTalent",
+          "fullTooltipId": "ChenFlyingKickDeadlyStrikeTalent",
+          "icon": "storm_ui_icon_chen_flyingkick.png",
+          "shortTooltip": "«Парящий удар» наносит больше урона и не расходует отвар.",
+          "fullTooltip": "«Парящий удар» не расходует отвар. Кроме того, он наносит на 100 больше урона, пока у Чэня есть щит от «Укрепляющего отвара».",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "ChenFlyingKick"
+          ]
+        },
+        {
+          "nameId": "ChenAccumulatingFlame",
+          "name": "Накопление жара",
+          "shortTooltipId": "ChenAccumulatingFlame",
+          "fullTooltipId": "ChenAccumulatingFlame",
+          "icon": "storm_ui_icon_chen_breathoffire.png",
+          "shortTooltip": "Увеличивает урон при поджоге и его длительность.",
+          "fullTooltip": "Увеличивает урон при поджоге на 25%. Каждая автоатака по подожженному герою увеличивает время действия поджога на 0.75 сек.",
+          "abilityType": "Active",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "ChenKegSmash"
+          ]
+        },
+        {
+          "nameId": "ChenWitheringFlames",
+          "name": "Иссушающее пламя",
+          "shortTooltipId": "ChenWitheringFlames",
+          "fullTooltipId": "ChenWitheringFlames",
+          "icon": "storm_ui_icon_Chen_BreathofFire_A.png",
+          "shortTooltip": "При поджоге героя уменьшает его силу способностей.",
+          "fullTooltip": "Поджог героя также уменьшает силу его способностей на 30% на 4 сек.",
+          "abilityType": "Active",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "ChenKegSmash"
+          ]
+        }
+      ],
+      "level7": [
+        {
+          "nameId": "ChenGiftOfTheOxStagger",
+          "name": "Дар быка",
+          "shortTooltipId": "ChenGiftOfTheOxStagger",
+          "fullTooltipId": "ChenGiftOfTheOxStagger",
+          "icon": "storm_ui_icon_chen_stagger.png",
+          "shortTooltip": "Увеличивает длительность «Пошатывания» и уменьшает получаемый урон.",
+          "fullTooltip": "Увеличивает время, в течение которого «Пошатывание» предотвращает урон, на 0.5 сек. и уменьшает объем получаемого периодического урона до 60% от нанесенного Чэню урона.",
+          "abilityType": "E",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "ChenStagger"
+          ]
+        },
+        {
+          "nameId": "ChenBrewmastersBalance",
+          "name": "Гармония хмелевара",
+          "shortTooltipId": "ChenFortifyingBrewBrewmastersBalanceTalent",
+          "fullTooltipId": "ChenFortifyingBrewBrewmastersBalanceTalent",
+          "icon": "storm_ui_icon_chen_fortifyingbrew.png",
+          "shortTooltip": "Чэнь получает бонусы в зависимости от запаса отвара.",
+          "fullTooltip": "Когда у Чэня остается 50 или менее ед. отвара, его скорость передвижения повышается на 20%. Когда у него остается 50 или более ед. отвара, он дополнительно восполняет 18 (+4% за уровень) ед. здоровья в секунду.",
+          "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
             "ChenFortifyingBrew"
@@ -6448,99 +6527,10 @@
           "icon": "storm_ui_icon_Chen_ElusiveBrew.png",
           "cooldownTooltip": "Время восстановления: 25 сек.",
           "shortTooltip": "Позволяет Чэню уклоняться от автоатак.",
-          "fullTooltip": "При использовании Чэнь уклоняется от автоатак противников в течение 2 сек. Каждый раз, когда Чэнь проводит автоатаку, время восстановления этого таланта сокращается на 2 сек.",
+          "fullTooltip": "При использовании повышает скорость передвижения Чэня на 30% и позволяет ему уклоняться от автоатак противников в течение 2 сек. Каждая автоатака Чэня сокращает время восстановления этого таланта на 2 сек.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
-        }
-      ],
-      "level4": [
-        {
-          "nameId": "ChenDeadlyStrike",
-          "name": "Смертельный удар",
-          "shortTooltipId": "ChenFlyingKickDeadlyStrikeTalent",
-          "fullTooltipId": "ChenFlyingKickDeadlyStrikeTalent",
-          "icon": "storm_ui_icon_chen_flyingkick.png",
-          "shortTooltip": "«Парящий удар» наносит больше урона и не расходует отвар.",
-          "fullTooltip": "«Парящий удар» не расходует отвар. Кроме того, он наносит на 100% больше урона, пока на Чэня действует щит от «Укрепляющего отвара».",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "ChenFlyingKick"
-          ]
-        },
-        {
-          "nameId": "ChenKegToss",
-          "name": "Подбрасывание бочонка",
-          "shortTooltipId": "ChenKegSmashKegTossTalent",
-          "fullTooltipId": "ChenKegSmashKegTossTalent",
-          "icon": "storm_ui_icon_chen_kegsmash.png",
-          "shortTooltip": "Задача: поражайте героев «Ударом бочонка», чтобы усилить его.",
-          "fullTooltip": "Задача: при каждом попадании «Удара бочонком» по герою урон этой способности увеличивается на 4 ед., вплоть до 80 ед.   Награда: когда количество попаданий «Удара бочонком» по героям достигнет 20, дальность его действия увеличится на 125%, и способность получит дополнительный заряд.",
-          "abilityType": "W",
-          "isQuest": true,
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "ChenKegSmash"
-          ]
-        },
-        {
-          "nameId": "ChenRingofFire",
-          "name": "Кольцо огня",
-          "shortTooltipId": "ChenBreathOfFireRingOfFireTalent",
-          "fullTooltipId": "ChenBreathOfFireRingOfFireTalent",
-          "icon": "storm_ui_icon_chen_breathoffire.png",
-          "shortTooltip": "После применения «Пламенного дыхания» наносит урон противникам поблизости.",
-          "fullTooltip": "После применения «Пламенного дыхания» Чэня окружает огненная аура, ежесекундно наносящая противникам поблизости 52 (+4% за уровень) ед. урона в течение 3 сек.",
-          "abilityType": "E",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "ChenBreathOfFire"
-          ]
-        }
-      ],
-      "level7": [
-        {
-          "nameId": "ChenBrewmastersBalance",
-          "name": "Гармония хмелевара",
-          "shortTooltipId": "ChenFortifyingBrewBrewmastersBalanceTalent",
-          "fullTooltipId": "ChenFortifyingBrewBrewmastersBalanceTalent",
-          "icon": "storm_ui_icon_chen_fortifyingbrew.png",
-          "shortTooltip": "Чэнь получает бонусы в зависимости от запаса отвара.",
-          "fullTooltip": "Когда у Чэня остается 50 или менее ед. отвара, его скорость передвижения повышается на 20%. Когда у него остается 50 или более ед. отвара, он дополнительно восполняет 18 (+4% за уровень) ед. здоровья в секунду.",
-          "abilityType": "Trait",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "ChenFortifyingBrew"
-          ]
-        },
-        {
-          "nameId": "ChenBolderFlavor",
-          "name": "Насыщенный вкус",
-          "shortTooltipId": "ChenFortifyingBrewBolderFlavorTalent",
-          "fullTooltipId": "ChenFortifyingBrewBolderFlavorTalent",
-          "icon": "storm_ui_icon_chen_fortifyingbrew_a.png",
-          "shortTooltip": "«Укрепляющий отвар» сразу предоставляет мощный щит.",
-          "fullTooltip": "Используя «Укрепляющий отвар», Чэнь мгновенно получает щит прочностью 294 (+4% за уровень) ед. Кроме того, время действия щита от «Укрепляющего отвара» продлевается на 1 сек. после того, как Чэнь прекращает пить.",
-          "abilityType": "Trait",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "ChenFortifyingBrew"
-          ]
-        },
-        {
-          "nameId": "ChenPurifyingBrew",
-          "name": "Очищающий отвар",
-          "shortTooltipId": "ChenPurifyingBrew",
-          "fullTooltipId": "ChenPurifyingBrew",
-          "icon": "storm_ui_icon_chen_fortifyingbrew_b.png",
-          "shortTooltip": "«Укрепляющий отвар» ослабляет эффекты контроля.",
-          "fullTooltip": "Следующий примененный к Чэню эффект оглушения или немоты длится на 75% короче, а также восстанавливает «Укрепляющий отвар». Срабатывает не чаще одного раза в 12 сек. Пока на Чэня действует щит от «Укрепляющего отвара», он получает 40 ед. энергетической брони, уменьшающей получаемый урон от способностей на 40%.",
-          "abilityType": "Trait",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "ChenFortifyingBrew"
-          ]
         }
       ],
       "level10": [
@@ -6552,7 +6542,7 @@
           "icon": "storm_ui_icon_chen_wanderingkeg.png",
           "cooldownTooltip": "Время восстановления: 70 сек.",
           "shortTooltip": "Катается по земле в бочке, отбрасывая противников.",
-          "fullTooltip": "Чэнь запрыгивает в неудержимую бочку и катится в ней на 60% быстрее, нанося 59 (+4% за уровень) ед. урона всем противникам на своем пути и отбрасывая их назад. Время действия – 5 сек.",
+          "fullTooltip": "Чэнь запрыгивает в неудержимую бочку и катится в ней на 70% быстрее, нанося 59 (+4% за уровень) ед. урона противникам на своем пути и отбрасывая их. Время действия – 5 сек.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -6567,8 +6557,8 @@
           "fullTooltipId": "ChenStormEarthFire",
           "icon": "storm_ui_icon_chen_stormearthfire.png",
           "cooldownTooltip": "Время восстановления: 100 сек.",
-          "shortTooltip": "Разделяется на три духа стихий.",
-          "fullTooltip": "После паузы в 1 сек. Чэнь разделяется на три духа стихий на 12 сек. Запас здоровья каждого духа составляет 75% от максимального запаса здоровья Чэня, и каждый из них имеет уникальную способность. Если все три духа погибнут, погибнет и сам Чэнь.  Буря может повысить скорость передвижения духов стихий.  Земля может совершать прыжки, замедляя противников вокруг точки приземления. Огонь может повысить скорость атаки духов стихий.",
+          "shortTooltip": "Чэнь разделяется на три духа стихий.",
+          "fullTooltip": "После паузы в 1 сек. Чэнь разделяется на три духа стихий на 12 сек. Запас здоровья каждого духа составляет 70% от максимального запаса здоровья Чэня, и каждый из них имеет уникальную способность. Последняя использованная способность духа стихий усиливается. Если все три духа погибнут, погибнет и сам Чэнь.  Буря может дать духам щит.  Земля может совершать прыжки, замедляя противников. Огонь может повышать скорость атаки духов и увеличивать их урон.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -6585,7 +6575,7 @@
           "fullTooltipId": "ChenFlyingKickPressurePointTalent",
           "icon": "storm_ui_icon_chen_flyingkick.png",
           "shortTooltip": "«Парящий удар» замедляет цели.",
-          "fullTooltip": "«Парящий удар» замедляет противника на 35% на 1 сек. Если цель облита отваром, она замедляется на 70%.",
+          "fullTooltip": "«Парящий удар» замедляет противника на 35% на 1 сек. Если у Чэня есть щит от «Укрепляющего отвара», цель замедляется на 70%.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -6598,8 +6588,8 @@
           "shortTooltipId": "ChenKegSmashATouchOfHoneyTalent",
           "fullTooltipId": "ChenKegSmashATouchOfHoneyTalent",
           "icon": "storm_ui_icon_chen_kegsmash.png",
-          "shortTooltip": "Увеличивает эффективность замедления от «Удара бочонком».",
-          "fullTooltip": "Усиливает замедление при «Ударе бочонком» до 40%.",
+          "shortTooltip": "Усиливает замедление от «Удара бочонком» и время его действия.",
+          "fullTooltip": "Усиливает эффект замедления от «Удара бочонком» на 10% и увеличивает время его действия на 0.5 сек.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -6607,45 +6597,15 @@
           ]
         },
         {
-          "nameId": "ChenWitheringFlames",
-          "name": "Иссушающее пламя",
-          "shortTooltipId": "ChenWitheringFlames",
-          "fullTooltipId": "ChenWitheringFlames",
+          "nameId": "ChenRingofFire",
+          "name": "Кольцо огня",
+          "shortTooltipId": "ChenBreathOfFireRingOfFireTalent",
+          "fullTooltipId": "ChenBreathOfFireRingOfFireTalent",
           "icon": "storm_ui_icon_chen_breathoffire.png",
-          "shortTooltip": "При поджигании героя уменьшает его силу способностей.",
-          "fullTooltip": "Поджигание героя также уменьшает силу его способностей на 30% на 3 сек.",
-          "abilityType": "E",
+          "shortTooltip": "Поджигает ближайших противников и наносит им урон.",
+          "fullTooltip": "После поджога противника Чэня окружает огненная аура, которая ежесекундно наносит находящимся рядом противникам 60 (+4% за уровень) ед. урона в течение 5 сек.",
+          "abilityType": "Active",
           "sort": 3,
-          "abilityTalentLinkIds": [
-            "ChenBreathOfFire"
-          ]
-        }
-      ],
-      "level16": [
-        {
-          "nameId": "ChenFlyingLeap",
-          "name": "Парящий прыжок",
-          "shortTooltipId": "ChenFlyingLeap",
-          "fullTooltipId": "ChenFlyingLeap",
-          "icon": "storm_ui_icon_chen_flyingkick.png",
-          "shortTooltip": "Увеличивает дальность действия «Парящего удара».",
-          "fullTooltip": "Увеличивает дальность действия «Парящего удара» на 15%.",
-          "abilityType": "Q",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "ChenFlyingKick"
-          ]
-        },
-        {
-          "nameId": "ChenAnotherRound",
-          "name": "Еще по одной",
-          "shortTooltipId": "ChenAnotherRound",
-          "fullTooltipId": "ChenAnotherRound",
-          "icon": "storm_ui_icon_chen_kegsmash.png",
-          "shortTooltip": "«Удар бочонком» поражает большую область и ускоряет восстановление способностей.",
-          "fullTooltip": "Увеличивает радиус действия «Удара бочонком» на 50%. Когда «Удар бочонком» поражает героя, время восстановления следующей базовой способности сокращается на 3 сек.",
-          "abilityType": "W",
-          "sort": 2,
           "abilityTalentLinkIds": [
             "ChenKegSmash"
           ]
@@ -6656,8 +6616,52 @@
           "shortTooltipId": "ChenFortifyingBrewEnoughToShareTalent",
           "fullTooltipId": "ChenFortifyingBrewEnoughToShareTalent",
           "icon": "storm_ui_icon_chen_fortifyingbrew.png",
-          "shortTooltip": "«Укрепляющий отвар» также дает щит союзным героям.",
-          "fullTooltip": "«Укрепляющий отвар» также защищает находящихся рядом дружественных героев, накладывая на них 54 (+4% за уровень) ед. временных щитов в секунду.",
+          "shortTooltip": "«Укрепляющий отвар» дает щит союзным героям.",
+          "fullTooltip": "«Укрепляющий отвар» мгновенно дает Чэню щит прочностью 180 (+4% за уровень) ед. и ежесекундно укрывает находящихся рядом союзных героев щитом прочностью 140 (+4% за уровень) ед., вплоть до 420 (+4% за уровень) ед.",
+          "abilityType": "Trait",
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "ChenFortifyingBrew"
+          ]
+        }
+      ],
+      "level16": [
+        {
+          "nameId": "ChenFlyingLeap",
+          "name": "Парящий прыжок",
+          "shortTooltipId": "ChenFlyingLeap",
+          "fullTooltipId": "ChenFlyingLeap",
+          "icon": "storm_ui_icon_chen_flyingkick.png",
+          "shortTooltip": "Увеличивает дальность действия и ускоряет восстановление «Парящего удара».",
+          "fullTooltip": "Увеличивает дальность действия «Парящего удара» на 15% и сокращает его время восстановления на 0.5 сек. каждый раз, когда герой получает урон от поджога.",
+          "abilityType": "Q",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "ChenFlyingKick"
+          ]
+        },
+        {
+          "nameId": "ChenCelerity",
+          "name": "Подвижность",
+          "shortTooltipId": "ChenCelerityStagger",
+          "fullTooltipId": "ChenCelerityStagger",
+          "icon": "storm_ui_icon_chen_stagger.png",
+          "shortTooltip": "Автоатаки ускоряют восстановление «Пошатывания» и дают броню.",
+          "fullTooltip": "Каждая автоатака по оглушенному, обездвиженному или замедленному герою сокращает время восстановления «Пошатывания» на 1.5 сек. и дает Чэню 15 ед. брони на 3 сек.",
+          "abilityType": "E",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "ChenStagger"
+          ]
+        },
+        {
+          "nameId": "ChenComboStrikes",
+          "name": "Серия ударов",
+          "shortTooltipId": "ChenFortifyingBrewComboStrikesTalent",
+          "fullTooltipId": "ChenFortifyingBrewComboStrikesTalent",
+          "icon": "storm_ui_icon_chen_fortifyingbrew.png",
+          "shortTooltip": "Ускоряет атаку и увеличивает урон.",
+          "fullTooltip": "Каждая 3-я атака по той же цели наносит на 75% больше урона. Пока у Чэня есть щит от «Укрепляющего отвара» и спустя 2 сек. по окончании его действия, скорость его атаки повышается на 50%.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -6673,7 +6677,7 @@
           "fullTooltipId": "ChenWanderingKegUntappedPotentialTalent",
           "icon": "storm_ui_icon_chen_wanderingkeg.png",
           "shortTooltip": "Увеличивает бонус к скорости передвижения от «Бродячей бочки» и дает броню.",
-          "fullTooltip": "«Бродячая бочка» повышает скорость передвижения на 100% и дает 60 ед. брони, уменьшающей получаемый урон на 60%.",
+          "fullTooltip": "Увеличивает бонус к скорости передвижения от «Бродячей бочки» с 70% до 125% и дает 75 ед. брони на время ее действия, а также в течение 3 сек. по окончании ее действия, уменьшая получаемый урон на 75%.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -6686,26 +6690,44 @@
           "shortTooltipId": "ChenStormEarthFireElementalConduitTalent",
           "fullTooltipId": "ChenStormEarthFireElementalConduitTalent",
           "icon": "storm_ui_icon_chen_stormearthfire.png",
-          "shortTooltip": "Увеличивает запас здоровья духов и усиливает их способности.",
-          "fullTooltip": "Увеличивает запас здоровья духов стихий до 100% от максимального запаса здоровья Чэня и усиливает их способности.  Буря также делает всех духов стихий неудержимыми. Земля может совершать прыжки чаще. Время восстановления этой способности уменьшается на 3 сек.  Огонь повышает скорость атаки духов стихий, пока существует сам.",
+          "shortTooltip": "Усиливает способности духов стихий.",
+          "fullTooltip": "Увеличивает запас здоровья духов стихий до 100% от максимального запаса здоровья Чэня и усиливает все их способности.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
             "ChenStormEarthFire",
+            "ChenFire",
             "ChenEarth",
             "ChenStorm"
           ]
         },
         {
-          "nameId": "ChenStormstoutSecretRecipe",
-          "name": "Секрет Буйных Портеров",
-          "shortTooltipId": "ChenStormstoutSecretRecipe",
-          "fullTooltipId": "ChenStormstoutSecretRecipe",
-          "icon": "storm_ui_icon_Chen_StormstoutSecretRecipe.png",
-          "shortTooltip": "Базовые способности исцеляют Чэня.",
-          "fullTooltip": "Каждый раз когда Чэнь поражает героя базовой способностью, он восполняет 1,5% от максимального запаса здоровья.",
-          "abilityType": "Passive",
-          "sort": 3
+          "nameId": "ChenPurifyingBrew",
+          "name": "Очищающий отвар",
+          "shortTooltipId": "ChenPurifyingBrew",
+          "fullTooltipId": "ChenPurifyingBrew",
+          "icon": "storm_ui_icon_chen_fortifyingbrew.png",
+          "shortTooltip": "«Укрепляющий отвар» дает неудержимость.",
+          "fullTooltip": "При использовании «Укрепляющий отвар» дает Чэню неудержимость на 1.5 сек.",
+          "abilityType": "Trait",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "ChenFortifyingBrew"
+          ]
+        },
+        {
+          "nameId": "ChenEnergizingBrew",
+          "name": "Будоражащий отвар",
+          "shortTooltipId": "ChenFortifyingBrewEnergizingBrewTalent",
+          "fullTooltipId": "ChenFortifyingBrewEnergizingBrewTalent",
+          "icon": "storm_ui_icon_chen_fortifyingbrew_b.png",
+          "shortTooltip": "«Укрепляющий отвар» увеличивает максимальный запас здоровья и урон.",
+          "fullTooltip": "При максимальном времени поддержания «Укрепляющего отвара» Чэнь на 25 сек. получает бонус в 20% к максимальному запасу здоровья и 20% к урону.",
+          "abilityType": "Trait",
+          "sort": 4,
+          "abilityTalentLinkIds": [
+            "ChenFortifyingBrew"
+          ]
         }
       ]
     },
@@ -6720,7 +6742,7 @@
           "speed": 4.3984,
           "type": "Дальний бой",
           "life": {
-            "amount": 1854.75,
+            "amount": 1731.0,
             "scale": 0.04,
             "regenRate": 0.0,
             "regenScale": 0.0
@@ -6754,9 +6776,14 @@
                 "shortTooltipId": "ChenFire",
                 "fullTooltipId": "ChenFire",
                 "icon": "storm_temp_war3_btnmarkoffire.png",
-                "cooldownTooltip": "Время восстановления: 12 сек.",
-                "shortTooltip": "Повышает скорость атаки.",
-                "fullTooltip": "Повышает скорость атаки духов стихий на 100% на 5 сек.",
+                "charges": {
+                  "countMax": 1,
+                  "countUse": 1,
+                  "countStart": 1,
+                  "hideCount": true
+                },
+                "shortTooltip": "Ускоряет атаку и увеличивает урон.",
+                "fullTooltip": "Повышает скорость атаки и увеличивает урон от автоатак духов на 50% на 5 сек.  Если это финальная способность, этот бонус увеличивается до 75%, а духи начинают перемещаться на 50% быстрее на время ее действия.",
                 "abilityType": "E"
               },
               {
@@ -6765,8 +6792,14 @@
                 "shortTooltipId": "ChenEarth",
                 "fullTooltipId": "ChenEarth",
                 "icon": "storm_temp_war3_btnearthquake.png",
-                "cooldownTooltip": "Время восстановления: 6 сек.",
-                "fullTooltip": "Духи огня и земли перемещаются в указанную точку, снижая скорость передвижения противников в обширной области на 70% на 1.5 сек.",
+                "charges": {
+                  "countMax": 1,
+                  "countUse": 1,
+                  "countStart": 1,
+                  "hideCount": true
+                },
+                "shortTooltip": "Перемещается в указанную точку, наносит урон и обездвиживает противников.",
+                "fullTooltip": "Духи огня и земли перемещаются в указанную точку, нанося 32 (+4% за уровень) ед. урона и замедляя противников в обширной области на 70% на 1.5 сек.  Если это финальная способность, она наносит на 300% больше урона и вместо замедления обездвиживает пораженных героев на 1.75 сек.",
                 "abilityType": "W"
               },
               {
@@ -6775,9 +6808,14 @@
                 "shortTooltipId": "ChenStorm",
                 "fullTooltipId": "ChenStorm",
                 "icon": "storm_temp_war3_btntornado.png",
-                "cooldownTooltip": "Время восстановления: 12 сек.",
-                "shortTooltip": "Повышает скорость передвижения.",
-                "fullTooltip": "В течение 5 сек. духи стихий передвигаются на 50% быстрее.",
+                "charges": {
+                  "countMax": 1,
+                  "countUse": 1,
+                  "countStart": 1,
+                  "hideCount": true
+                },
+                "shortTooltip": "Дает щит.",
+                "fullTooltip": "Духи получают щит прочностью 400 (+4% за уровень) ед. на 3 сек.  Если это финальная способность, запас прочности щита увеличивается до 750 (+4% за уровень) ед., при этом щит не рассеивается со временем, а время действия «Бури, Земли, Огня» увеличивается на 5 сек.",
                 "abilityType": "Q"
               }
             ]
@@ -6794,7 +6832,7 @@
           "speed": 4.3984,
           "type": "Дальний бой",
           "life": {
-            "amount": 1854.75,
+            "amount": 1731.0,
             "scale": 0.04,
             "regenRate": 0.0,
             "regenScale": 0.0
@@ -6808,14 +6846,14 @@
             {
               "nameId": "ChenEarthHeroWeapon",
               "range": 1.0,
-              "period": 2.0,
+              "period": 1.5,
               "damage": 37.0,
               "damageScale": 0.04
             },
             {
               "nameId": "ChenEarthHeroWeaponAggro",
               "range": 1.0,
-              "period": 2.0,
+              "period": 1.5,
               "damage": 37.0,
               "damageScale": 0.04
             }
@@ -6832,7 +6870,7 @@
           "speed": 4.3984,
           "type": "Дальний бой",
           "life": {
-            "amount": 1854.75,
+            "amount": 1731.0,
             "scale": 0.04,
             "regenRate": 0.0,
             "regenScale": 0.0
@@ -15250,7 +15288,7 @@
           "fullTooltipId": "ImperiusCelestialChargeFlashOfAnger",
           "icon": "storm_ui_icon_imperius_q.png",
           "shortTooltip": "«Пламя Солариона» может нанести урон по области.",
-          "fullTooltip": "Поражая героя, отмеченного «Пламенем Солариона», «Небесный рывок» наносит 180 (+4% за уровень) ед. урона по области вокруг цели и дает Империю щит прочностью 300 (+4% за уровень) ед. на 4 сек.",
+          "fullTooltip": "При снятии метки от «Небесного рывка» Империй наносит 180 (+4% за уровень) ед. урона по области вокруг цели и получает щит прочностью 300 (+4% за уровень) ед. на 4 сек.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -15845,7 +15883,7 @@
           "fullTooltipId": "JainaBlizzardSnowstormTalent",
           "icon": "storm_ui_icon_jaina_blizzard.png",
           "shortTooltip": "Увеличивает урон от «Снежной бури».",
-          "fullTooltip": "Увеличивает урон от второй волны «Снежной бури» на 20%, а третьей волны – на 60%.",
+          "fullTooltip": "Увеличивает урон от второй волны «Снежной бури» на 20%, а от третьей – на 60%.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -22505,7 +22543,7 @@
           "shortTooltipId": "MaievSpiritOfVengeanceSuddenVengeance",
           "fullTooltipId": "MaievSpiritOfVengeanceSuddenVengeance",
           "icon": "storm_ui_icon_maiev_rush_2.png",
-          "shortTooltip": "Телепортация может нанести урон по области.",
+          "shortTooltip": "«Скачок» наносит урон по области.",
           "fullTooltip": "После телепортации с помощью «Духа отмщения» тень взрывается, нанося находящимся рядом героям урон в объеме 5% от их максимального запаса здоровья.",
           "abilityType": "E",
           "sort": 3,
@@ -22549,8 +22587,8 @@
           "shortTooltipId": "MaievSpiritOfVengeanceRuthlessSpirit",
           "fullTooltipId": "MaievSpiritOfVengeanceRuthlessSpirit",
           "icon": "storm_ui_icon_maiev_rush_1.png",
-          "shortTooltip": "«Дух отмщения» наносит дополнительный урон за каждую пораженную цель.",
-          "fullTooltip": "За каждого пораженного «Духом отмщения» героя наносимый Майев урон увеличивается на 15% на 4 сек., вплоть до30%.",
+          "shortTooltip": "Увеличивает урон Майев при поражении героев.",
+          "fullTooltip": "За каждого пораженного «Духом отмщения» героя наносимый Майев урон увеличивается на 15% на 4 сек., вплоть до 30%.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -32817,6 +32855,7 @@
       "regenRate": 3.0
     },
     "roles": [
+      "Специалист",
       "Поддержка"
     ],
     "expandedRole": "Поддержка",
@@ -40004,7 +40043,7 @@
           "fullTooltipId": "ZaryaShieldAllyTogetherWeAreStrongTalent",
           "icon": "storm_ui_icon_Zarya_ShieldAlly.png",
           "shortTooltip": "Урон, наносимый союзниками с «Дистанционным барьером», дает Заре энергию.",
-          "fullTooltip": "Заря получает 1 ед. энергии за каждые 5 (+4% за уровень) ед. урона, нанесенного союзником, укрытым «Дистанционным барьером», вплоть до 40 ед. за каждый барьер.",
+          "fullTooltip": "Заря получает 1 ед. энергии за каждые 5.35 (+4% за уровень) ед. урона, нанесенного союзником, укрытым «Дистанционным барьером», вплоть до 40 ед. за каждый барьер.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
