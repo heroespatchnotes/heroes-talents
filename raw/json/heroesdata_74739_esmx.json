@@ -6400,6 +6400,26 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "ChenKegSmash": {
+          "basic": [
+            {
+              "nameId": "ChenBreathOfFire",
+              "name": "Aliento de fuego",
+              "shortTooltipId": "ChenBreathOfFire",
+              "fullTooltipId": "ChenBreathOfFire",
+              "icon": "storm_ui_icon_chen_breathoffire.png",
+              "toggleCooldown": 0.25,
+              "energyTooltip": "Brebaje: 10",
+              "shortTooltip": "Escupe fuego en una dirección, inflige daño e incinera a los enemigos empapados",
+              "fullTooltip": "Escupe un cono de llamas que inflige 85 (+4% por nivel) de daño. Incinera a los enemigos empapados en Brebaje, lo que les inflige 165 (+4% por nivel) más de daño durante 3 segundos y agrega 1.5 segundos a la duración de la ralentización de Embate con barril.    Tras ser utilizada o después de 6 segundos, esta habilidad se convierte en Embate con barril.  Embate con barril Inflige daño y ralentiza a los enemigos.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -6413,7 +6433,8 @@
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6469,10 +6490,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "Aumenta la duración y el daño de incineración",
           "fullTooltip": "Aumenta el daño de incineración un 25%.  Los ataques básicos contra héroes enemigos incinerados aumentan su duración 0.75 segundos.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6483,10 +6505,11 @@
           "icon": "storm_ui_icon_Chen_BreathofFire_A.png",
           "shortTooltip": "Incinerar héroes reduce su poder de habilidad especial",
           "fullTooltip": "Incinerar a un héroe enemigo reduce un 30% su poder de habilidad especial durante 4 segundos.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         }
       ],
@@ -6593,7 +6616,8 @@
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6604,10 +6628,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "Inflige daño a los enemigos cercanos después de incinerarlos",
           "fullTooltip": "Después de incinerar a un enemigo, te envuelve un aura ígnea que inflige 60 (+4% por nivel) de daño por segundo a los enemigos cercanos durante 5 segundos.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {

@@ -6400,6 +6400,26 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "ChenKegSmash": {
+          "basic": [
+            {
+              "nameId": "ChenBreathOfFire",
+              "name": "烈火吐息",
+              "shortTooltipId": "ChenBreathOfFire",
+              "fullTooltipId": "ChenBreathOfFire",
+              "icon": "storm_ui_icon_chen_breathoffire.png",
+              "toggleCooldown": 0.25,
+              "energyTooltip": "酒力值：10",
+              "shortTooltip": "朝指定方向噴火，對敵人造成傷害，並且點燃身上浸滿了酒的敵人",
+              "fullTooltip": "噴吐扇形火焰，造成85 (每級 +4%)點傷害。身上浸滿了酒的敵人會起火燃燒，在3秒內額外受到165 (每級 +4%)點傷害，並且使酒桶破的緩速效果提高1.5秒。  使用後，或者過了6秒後，此技能會變成酒桶破。  酒桶破 對敵人造成傷害和緩速效果。",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -6413,7 +6433,8 @@
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6469,10 +6490,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "提高點燃的傷害和持續時間",
           "fullTooltip": "點燃的傷害提高25%。基本攻擊命中點燃的敵方英雄會使其持續時間提高0.75秒。",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6483,10 +6505,11 @@
           "icon": "storm_ui_icon_Chen_BreathofFire_A.png",
           "shortTooltip": "點燃英雄可降低他們的法術強度",
           "fullTooltip": "點燃敵方英雄可使其法術強度降低30%，持續4秒。",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         }
       ],
@@ -6593,7 +6616,8 @@
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6604,10 +6628,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "點燃敵人後，對附近敵人造成傷害",
           "fullTooltip": "點燃敵人後，老陳會在周圍燃起一道火焰靈氣，每秒對附近的敵人造成60 (每級 +4%)點傷害，持續5秒。",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {

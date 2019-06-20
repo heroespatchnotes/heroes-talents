@@ -6400,6 +6400,26 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "ChenKegSmash": {
+          "basic": [
+            {
+              "nameId": "ChenBreathOfFire",
+              "name": "Пламенное дыхание",
+              "shortTooltipId": "ChenBreathOfFire",
+              "fullTooltipId": "ChenBreathOfFire",
+              "icon": "storm_ui_icon_chen_breathoffire.png",
+              "toggleCooldown": 0.25,
+              "energyTooltip": "Отвар: 10",
+              "shortTooltip": "Выдыхает пламя, нанося урон и поджигая облитых отваром врагов.",
+              "fullTooltip": "Выдыхает струю пламени, наносящую 85 (+4% за уровень) ед. урона. Противники, облитые отваром, загораются и дополнительно получают 165 (+4% за уровень) ед. урона в течение 3 сек., при этом время действия эффекта замедления от «Удара бочонком» увеличивается на 1.5 сек.   После использования «Пламенного дыхания» или спустя 6 сек. «Пламенное дыхание» превращается в «Удар бочонком».  Удар бочонком Замедляет противников и наносит им урон.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -6413,7 +6433,8 @@
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6469,10 +6490,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "Увеличивает урон при поджоге и его длительность.",
           "fullTooltip": "Увеличивает урон при поджоге на 25%. Каждая автоатака по подожженному герою увеличивает время действия поджога на 0.75 сек.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6483,10 +6505,11 @@
           "icon": "storm_ui_icon_Chen_BreathofFire_A.png",
           "shortTooltip": "При поджоге героя уменьшает его силу способностей.",
           "fullTooltip": "Поджог героя также уменьшает силу его способностей на 30% на 4 сек.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         }
       ],
@@ -6593,7 +6616,8 @@
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6604,10 +6628,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "Поджигает ближайших противников и наносит им урон.",
           "fullTooltip": "После поджога противника Чэня окружает огненная аура, которая ежесекундно наносит находящимся рядом противникам 60 (+4% за уровень) ед. урона в течение 5 сек.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
