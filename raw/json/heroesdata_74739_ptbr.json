@@ -6400,6 +6400,26 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "ChenKegSmash": {
+          "basic": [
+            {
+              "nameId": "ChenBreathOfFire",
+              "name": "Bafo de Fogo",
+              "shortTooltipId": "ChenBreathOfFire",
+              "fullTooltipId": "ChenBreathOfFire",
+              "icon": "storm_ui_icon_chen_breathoffire.png",
+              "toggleCooldown": 0.25,
+              "energyTooltip": "Cerveja: 10",
+              "shortTooltip": "Cospe fogo na direção-alvo, causando dano e Incendiando inimigos encharcados",
+              "fullTooltip": "Cospe chamas em uma área cônica, causando 85 (+4% por nível) de dano. Inimigos encharcados de Cerveja são Incendiados, o que causa 165 (+4% por nível) de dano adicional ao longo de 3 s e adiciona 1.5 s à duração da desaceleração da Pancada de Barril.  Depois de ser usada ou após 6 s, esta habilidade se torna Pancada de Barril.  Pancada de Barril Causa dano e desacelera os inimigos.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -6413,7 +6433,8 @@
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6469,10 +6490,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "Aumenta a duração e o dano de Incendiar",
           "fullTooltip": "Aumenta em 25% o dano ao Incendiar. Ataques Básicos contra Heróis inimigos Incendiados aumentam a duração em 0.75 s.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6483,10 +6505,11 @@
           "icon": "storm_ui_icon_Chen_BreathofFire_A.png",
           "shortTooltip": "Incendiar Heróis reduz o Poder Mágico deles",
           "fullTooltip": "Incendiar Heróis inimigos reduz em 30% o Poder Mágico deles por 4 s.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         }
       ],
@@ -6593,7 +6616,8 @@
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6604,10 +6628,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "Causa dano a inimigos próximos depois de Incendiá-los",
           "fullTooltip": "Depois de Incendiar um inimigo, você é envolto por uma aura flamejante, causando 60 (+4% por nível) de dano por segundo aos inimigos próximos por 5 s.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {

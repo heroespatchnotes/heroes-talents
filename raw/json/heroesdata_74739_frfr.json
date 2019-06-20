@@ -6400,6 +6400,26 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "ChenKegSmash": {
+          "basic": [
+            {
+              "nameId": "ChenBreathOfFire",
+              "name": "Souffle de feu",
+              "shortTooltipId": "ChenBreathOfFire",
+              "fullTooltipId": "ChenBreathOfFire",
+              "icon": "storm_ui_icon_chen_breathoffire.png",
+              "toggleCooldown": 0.25,
+              "energyTooltip": "Breuvage : 10",
+              "shortTooltip": "Chen souffle des flammes dans la direction ciblée, ce qui inflige des dégâts et embrase les ennemis arrosés de breuvage.",
+              "fullTooltip": "Exhale un cône de flammes qui inflige 85 (+4% par niveau) points de dégâts. Les ennemis arrosés de breuvage s’embrasent et subissent 165 (+4% par niveau) points de dégâts supplémentaires en 3 secondes, la durée de ralentissement de Fracasse-tonneau est en outre augmentée de 1.5 secondes.   Après utilisation ou au bout de 6 secondes, cette capacité devient Fracasse-tonneau.  Fracasse-tonneau Ralentit les ennemis et leur inflige des dégâts.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -6413,7 +6433,8 @@
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6469,10 +6490,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "Augmente les dégâts de l’embrasement et sa durée.",
           "fullTooltip": "Augmente de 25% les dégâts infligés par l’embrasement. Les attaques de base portées à des héros adverses embrasés augmentent la durée de l’embrasement de 0.75 seconde.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6483,10 +6505,11 @@
           "icon": "storm_ui_icon_Chen_BreathofFire_A.png",
           "shortTooltip": "Embraser les héros réduit leur puissance de capacité.",
           "fullTooltip": "Embraser un héros adverse réduit aussi sa puissance de capacité de 30% pendant 4 secondes.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         }
       ],
@@ -6593,7 +6616,8 @@
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6604,10 +6628,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "Inflige des dégâts aux ennemis proches après les avoir embrasés.",
           "fullTooltip": "Après avoir embrasé un ennemi, bénéficie pendant 5 secondes d’une aura de flammes qui inflige 60 (+4% par niveau) points de dégâts par seconde aux ennemis proches.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {

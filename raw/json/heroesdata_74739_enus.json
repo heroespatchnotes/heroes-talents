@@ -6400,6 +6400,26 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "ChenKegSmash": {
+          "basic": [
+            {
+              "nameId": "ChenBreathOfFire",
+              "name": "Breath of Fire",
+              "shortTooltipId": "ChenBreathOfFire",
+              "fullTooltipId": "ChenBreathOfFire",
+              "icon": "storm_ui_icon_chen_breathoffire.png",
+              "toggleCooldown": 0.25,
+              "energyTooltip": "Brew: 10",
+              "shortTooltip": "Breathe fire in target direction, dealing damage and Igniting drenched enemies",
+              "fullTooltip": "Breathe a cone of flames, dealing 85 (+4% per level) damage. Enemies that are soaked in Brew are Ignited, dealing 165 (+4% per level) additional damage over 3 seconds and adding 1.5 seconds to the duration of the Slow from Keg Smash.    After being used or after 6 seconds, this ability becomes Keg Smash.  Keg Smash Damage and Slow enemies.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -6413,7 +6433,8 @@
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6469,10 +6490,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "Increase Ignite damage and duration",
           "fullTooltip": "Increase Ignited damage by 25%.  Basic Attacks against enemy Heroes who are Ignited increase its duration by 0.75 seconds.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6483,10 +6505,11 @@
           "icon": "storm_ui_icon_Chen_BreathofFire_A.png",
           "shortTooltip": "Igniting Heroes reduces their Spell Power",
           "fullTooltip": "Igniting an enemy Hero reduces their Spell Power by 30% for 4 seconds.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         }
       ],
@@ -6593,7 +6616,8 @@
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6604,10 +6628,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "Damage nearby enemies after Igniting them",
           "fullTooltip": "After Igniting an enemy, become bathed in a fiery aura, dealing 60 (+4% per level) damage every second to nearby enemies for 5 seconds.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {

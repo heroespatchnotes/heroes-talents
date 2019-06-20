@@ -6400,6 +6400,26 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "ChenKegSmash": {
+          "basic": [
+            {
+              "nameId": "ChenBreathOfFire",
+              "name": "Soffio di Fuoco",
+              "shortTooltipId": "ChenBreathOfFire",
+              "fullTooltipId": "ChenBreathOfFire",
+              "icon": "storm_ui_icon_chen_breathoffire.png",
+              "toggleCooldown": 0.25,
+              "energyTooltip": "Birra: 10",
+              "shortTooltip": "Soffia del fuoco nella direzione del bersaglio, infliggendo danni e incendiando i nemici cosparsi di Birra.",
+              "fullTooltip": "Soffia un cono di fiamme, infliggendo 85 (+4% per livello) danni. I nemici cosparsi di Birra prendono fuoco, subendo 165 (+4% per livello) danni aggiuntivi in 3 s e aumentando di 1.5 s la durata del rallentamento di Colpo di Botte.   Dopo l'utilizzo o dopo 6 s, questa abilità diventa Colpo di Botte.  Colpo di Botte Danneggia e rallenta i nemici.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -6413,7 +6433,8 @@
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6469,10 +6490,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "Aumenta i danni contro i nemici bruciati e la durata.",
           "fullTooltip": "Aumenta del 25% i danni inflitti bruciando i nemici. Gli attacchi base contro gli eroi nemici bruciati aumentano la durata dell'effetto di 0.75 s.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6483,10 +6505,11 @@
           "icon": "storm_ui_icon_Chen_BreathofFire_A.png",
           "shortTooltip": "Bruciare gli eroi riduce la loro Potenza magica.",
           "fullTooltip": "Bruciare un eroe nemico riduce la sua Potenza magica del 30% per 4 s.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         }
       ],
@@ -6593,7 +6616,8 @@
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6604,10 +6628,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "Danneggia i nemici vicini dopo averli bruciati.",
           "fullTooltip": "Dopo aver bruciato un nemico, Chen emana un'aura infuocata, infliggendo 60 (+4% per livello) danni al secondo ai nemici vicini per 5 s.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {

@@ -6400,6 +6400,26 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "ChenKegSmash": {
+          "basic": [
+            {
+              "nameId": "ChenBreathOfFire",
+              "name": "火焰之息",
+              "shortTooltipId": "ChenBreathOfFire",
+              "fullTooltipId": "ChenBreathOfFire",
+              "icon": "storm_ui_icon_chen_breathoffire.png",
+              "toggleCooldown": 0.25,
+              "energyTooltip": "酒量：10",
+              "shortTooltip": "向目标方向喷吐火焰，造成伤害并使受到浸酒效果的敌人点燃",
+              "fullTooltip": "吐出一股锥形火焰，造成85 (每级 +4%)点伤害。受到浸酒效果影响的敌人会被点燃，在3秒内造成165 (每级 +4%)点额外伤害，并使醉酿投的减速持续时间延长1.5秒。  在使用后或6秒过后，此技能会变成醉酿投。  醉酿投 对敌人造成伤害和减速。",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -6413,7 +6433,8 @@
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6469,10 +6490,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "提高点燃伤害和持续时间",
           "fullTooltip": "点燃的伤害提高25%。对被点燃的敌方英雄进行普通攻击可使点燃的持续时间延长0.75秒。",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6483,10 +6505,11 @@
           "icon": "storm_ui_icon_Chen_BreathofFire_A.png",
           "shortTooltip": "点燃英雄降低他们的法术强度",
           "fullTooltip": "点燃敌方英雄可使其法术强度降低30%，持续4秒。",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         }
       ],
@@ -6593,7 +6616,8 @@
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6604,10 +6628,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "点燃后对附近敌人造成伤害",
           "fullTooltip": "点燃一名敌人后，产生一个火焰光环，每秒对附近的敌人造成60 (每级 +4%)点伤害，持续5秒。",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {

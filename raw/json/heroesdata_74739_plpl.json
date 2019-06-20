@@ -6400,6 +6400,26 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "ChenKegSmash": {
+          "basic": [
+            {
+              "nameId": "ChenBreathOfFire",
+              "name": "Ogniste Tchnienie",
+              "shortTooltipId": "ChenBreathOfFire",
+              "fullTooltipId": "ChenBreathOfFire",
+              "icon": "storm_ui_icon_chen_breathoffire.png",
+              "toggleCooldown": 0.25,
+              "energyTooltip": "Napitek: 10",
+              "shortTooltip": "Zionie ogniem w wybranym kierunku, rani i podpala wrogów oblanych napitkiem",
+              "fullTooltip": "Czen zionie płomieniami na obszarze o kształcie stożka i zadaje 85 (+4% na poziom) pkt. obrażeń. Wrogowie skąpani w napitku zostają podpaleni i odnoszą dodatkowo 165 (+4% na poziom) pkt. obrażeń przez 3 sek. Podpaleni wrogowie dodają 1.5 sek. do czasu działania efektu spowolnienia zapewnianego przez Roztrzaskanie Antałka.   Po użyciu lub po upływie 6 sek. zdolność ta staje się Roztrzaskaniem Antałka.  Roztrzaskanie Antałka Rani wrogów i spowalnia ich.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -6413,7 +6433,8 @@
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6469,10 +6490,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "Zwiększa obrażenia i wydłuża czas trwania podpalenia",
           "fullTooltip": "Zwiększa obrażenia od podpalenia o 25%. Ataki podstawowe wymierzone w podpalonych wrogich bohaterów wydłużają czas działania podpalenia o 0.75 sek.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6483,10 +6505,11 @@
           "icon": "storm_ui_icon_Chen_BreathofFire_A.png",
           "shortTooltip": "Podpalanie bohaterów zmniejsza ich moc zaklęć",
           "fullTooltip": "Podpalenie wrogiego bohatera zmniejsza dodatkowo jego moc zaklęć o 30% na 4 sek.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         }
       ],
@@ -6593,7 +6616,8 @@
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6604,10 +6628,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "Zadaje obrażenia pobliskim wrogom po podpaleniu",
           "fullTooltip": "Po podpaleniu przeciwnika Czen zostaje otoczony ognistą aurą, która zadaje pobliskim wrogom 60 (+4% na poziom) pkt. obrażeń na sekundę przez 5 sek.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {

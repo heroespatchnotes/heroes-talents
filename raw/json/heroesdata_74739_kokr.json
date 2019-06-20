@@ -6400,6 +6400,26 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "ChenKegSmash": {
+          "basic": [
+            {
+              "nameId": "ChenBreathOfFire",
+              "name": "불의 숨결",
+              "shortTooltipId": "ChenBreathOfFire",
+              "fullTooltipId": "ChenBreathOfFire",
+              "icon": "storm_ui_icon_chen_breathoffire.png",
+              "toggleCooldown": 0.25,
+              "energyTooltip": "취기: 10",
+              "shortTooltip": "대상 방향으로 불을 내뿜어 피해를 주고 술에 젖은 대상들에 불을 붙임",
+              "fullTooltip": "부채꼴 모양으로 불의 숨결을 내뱉어 85 (레벨 당 +4%)의 피해를 줍니다. 술에 젖은 적에게는 불을 붙여 3초에 걸쳐 165 (레벨 당 +4%)의 추가 피해를 주고, 술통 부수기의 감속 효과 지속 시간을 1.5초 증가시킵니다.  불의 숨결을 사용하거나 6초가 지나면, 이 기술이 술통 부수기로 바뀝니다.  술통 부수기 적들에게 피해를 주고 느려지게 합니다.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -6413,7 +6433,8 @@
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6469,10 +6490,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "불길 공격력 및 지속 시간 증가",
           "fullTooltip": "적에게 붙은 불의 공격력이 25% 증가합니다. 불이 붙은 적 영웅에게 일반 공격을 하면 불길의 지속 시간이 0.75초 증가합니다.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6483,10 +6505,11 @@
           "icon": "storm_ui_icon_Chen_BreathofFire_A.png",
           "shortTooltip": "불이 붙은 적 영웅 기술 위력 감소",
           "fullTooltip": "불이 붙은 적 영웅의 기술 위력이 4초 동안 30% 감소합니다.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         }
       ],
@@ -6593,7 +6616,8 @@
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6604,10 +6628,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "적에게 불을 붙이면 주위 적들에게 피해",
           "fullTooltip": "적에게 불을 붙이면, 자신이 불타는 오라에 휩싸여 5초 동안 주위 적들에게 매초 60 (레벨 당 +4%)의 피해를 줍니다.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {

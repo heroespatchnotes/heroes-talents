@@ -6400,6 +6400,26 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "ChenKegSmash": {
+          "basic": [
+            {
+              "nameId": "ChenBreathOfFire",
+              "name": "Aliento de fuego",
+              "shortTooltipId": "ChenBreathOfFire",
+              "fullTooltipId": "ChenBreathOfFire",
+              "icon": "storm_ui_icon_chen_breathoffire.png",
+              "toggleCooldown": 0.25,
+              "energyTooltip": "Brebaje: 10",
+              "shortTooltip": "Exhalas fuego, lo que inflige daño a los enemigos empapados y les provoca quemaduras.",
+              "fullTooltip": "Exhalas un cono de llamas, lo que inflige 85 (+4% por nivel) de daño. Los enemigos empapados de brebaje sufren quemaduras, lo que les inflige 165 (+4% por nivel) de daño adicional durante 3 s y aumenta 1.5 s la duración de la ralentización de Estampar barril.   Esta habilidad se convierte en Estampar barril después de usarla o al cabo de 6 s.  Estampar barril Dañas y ralentizas a los enemigos.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -6413,7 +6433,8 @@
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6469,10 +6490,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "Aumenta el daño y la duración de las quemaduras.",
           "fullTooltip": "Aumenta un 25% el daño que infligen las quemaduras. Los ataques básicos contra héroes enemigos con quemaduras aumentan su duración en 0.75 s.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6483,10 +6505,11 @@
           "icon": "storm_ui_icon_Chen_BreathofFire_A.png",
           "shortTooltip": "Quemar a héroes reduce su poder de habilidad.",
           "fullTooltip": "Quemar a un héroe enemigo reduce su poder de habilidad un 30% durante 4 s.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         }
       ],
@@ -6593,7 +6616,8 @@
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6604,10 +6628,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "Infliges daño a los enemigos cercanos después de provocarles quemaduras.",
           "fullTooltip": "Después de provocarle quemaduras a un enemigo, te envuelves en un aura ígnea que inflige 60 (+4% por nivel) de daño por segundo a los enemigos cercanos durante 5 s.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {

@@ -6400,6 +6400,26 @@
         }
       ]
     },
+    "subAbilities": [
+      {
+        "ChenKegSmash": {
+          "basic": [
+            {
+              "nameId": "ChenBreathOfFire",
+              "name": "Feuerodem",
+              "shortTooltipId": "ChenBreathOfFire",
+              "fullTooltipId": "ChenBreathOfFire",
+              "icon": "storm_ui_icon_chen_breathoffire.png",
+              "toggleCooldown": 0.25,
+              "energyTooltip": "Gebräu: 10",
+              "shortTooltip": "Speit Feuer in die Zielrichtung und setzt durchtränkte Gegner in Brand.",
+              "fullTooltip": "Speit einen Flammenkegel, der 85 (+4% pro Stufe) Schaden verursacht. Mit Gebräu durchtränkte Gegner werden in Brand gesetzt und erleiden im Verlauf von 3 Sek. zusätzlich 165 (+4% pro Stufe) Schaden. Erhöht dabei außerdem die Dauer der Verlangsamung von Fasshieb um 1.5 Sek.  Nach dem Einsatz oder nach 6 Sek. wird diese Fähigkeit in Fasshieb umgewandelt.  Fasshieb Fügt Gegnern Schaden zu und verlangsamt sie.",
+              "abilityType": "W"
+            }
+          ]
+        }
+      }
+    ],
     "talents": {
       "level1": [
         {
@@ -6413,7 +6433,8 @@
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6469,10 +6490,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "Erhöht den Schaden und die Dauer des Brandeffekts.",
           "fullTooltip": "Erhöht den Schaden des Brandeffekts um 25%. Automatische Angriffe gegen in Brand gesetzte gegnerische Helden erhöhen die Dauer um 0.75 Sek.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6483,10 +6505,11 @@
           "icon": "storm_ui_icon_Chen_BreathofFire_A.png",
           "shortTooltip": "Verringert die Fähigkeitsstärke brennender Helden.",
           "fullTooltip": "Verringert die Fähigkeitsstärke in Brand gesetzter gegnerischer Helden 4 Sek. lang um 30%.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         }
       ],
@@ -6593,7 +6616,8 @@
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
@@ -6604,10 +6628,11 @@
           "icon": "storm_ui_icon_chen_breathoffire.png",
           "shortTooltip": "In Brand gesetzte Gegner verleihen eine Schadensaura.",
           "fullTooltip": "In Brand gesetzte Gegner verleihen eine feurige Aura, die Gegnern in der Nähe 5 Sek. lang 60 (+4% pro Stufe) Schaden pro Sekunde zufügt.",
-          "abilityType": "Active",
+          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ChenKegSmash"
+            "ChenKegSmash",
+            "ChenBreathOfFire"
           ]
         },
         {
