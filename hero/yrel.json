@@ -151,11 +151,11 @@
         "tooltipId": "YrelHandOfFreedom",
         "talentTreeId": "YrelHandOfFreedom",
         "name": "Hand of Freedom",
-        "description": "Grant an allied Hero 50% Movement Speed for 3 seconds and remove all Slows and Roots from them.  Cannot be used on Yrel.",
+        "description": "Grant an allied Hero 35% Movement Speed for 3 seconds and remove all Slows and Roots from them.",
         "icon": "storm_ui_icon_yrel_hand_of_freedom.png",
         "type": "Active",
         "sort": 3,
-        "cooldown": 22,
+        "cooldown": 20,
         "abilityId": "Yrel|Active"
       }
     ],
@@ -164,7 +164,7 @@
         "tooltipId": "YrelRighteousHammerRighteousMomentum",
         "talentTreeId": "YrelRighteousHammerRighteousMomentum",
         "name": "Righteous Momentum",
-        "description": "Yrel is no longer slowed while Channeling Righteous Hammer, and at maximum charge she gains 25% Movement Speed.",
+        "description": "Gain 5% Movement Speed. Yrel is no longer Slowed while Channeling Righteous Hammer, and instead this bonus is quadrupled.",
         "icon": "storm_ui_icon_yrel_righteous_hammer.png",
         "type": "W",
         "sort": 1,
@@ -198,16 +198,6 @@
         "abilityLinks": [
           "_stormhero|Z1"
         ]
-      },
-      {
-        "tooltipId": "YrelSamaarasLight",
-        "talentTreeId": "YrelSamaarasLight",
-        "name": "Samaara's Light",
-        "description": "While above 50% Health, gain 15% Movement Speed.",
-        "icon": "storm_ui_icon_yrel_samaaras_light.png",
-        "type": "Passive",
-        "sort": 4,
-        "abilityId": "Yrel|Passive"
       }
     ],
     "10": [
@@ -245,7 +235,7 @@
         "tooltipId": "YrelVindicationAldorPeacekeeper",
         "talentTreeId": "YrelVindicationAldorPeacekeeper",
         "name": "Aldor Peacekeeper",
-        "description": "Enemy Heroes hit by Vindication at maximum charge deal 30% less damage for 3 seconds.",
+        "description": "Enemy Heroes hit by Vindication at maximum charge deal 40% less damage for 3 seconds.",
         "icon": "storm_ui_icon_yrel_vindication.png",
         "type": "Q",
         "sort": 1,
@@ -258,7 +248,7 @@
         "tooltipId": "YrelAvengingWrathRepentance",
         "talentTreeId": "YrelAvengingWrathRepentance",
         "name": "Repentance",
-        "description": "Increase Avenging Wrath's Slow by 25% and duration by 0.5 seconds.",
+        "description": "Increase Avenging Wrath's Slow by 25% and duration by 0.75 seconds.",
         "icon": "storm_ui_icon_yrel_avenging_wrath.png",
         "type": "E",
         "sort": 2,
@@ -283,7 +273,7 @@
         "tooltipId": "YrelRighteousHammerTemplarsVerdict",
         "talentTreeId": "YrelRighteousHammerTemplarsVerdict",
         "name": "Templar's Verdict",
-        "description": "Righteous Hammer reduces the Armor of enemy Heroes hit by 20 for 4 seconds and deals bonus damage equal to 4% of their maximum Health.",
+        "description": "Righteous Hammer reduces the Armor of enemy Heroes hit by 20 for 4 seconds and deals bonus damage equal to 6% of their maximum Health.",
         "icon": "storm_ui_icon_yrel_righteous_hammer.png",
         "type": "W",
         "sort": 1,
