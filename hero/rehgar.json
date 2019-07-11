@@ -94,29 +94,29 @@
   "talents": {
     "1": [
       {
-        "tooltipId": "RehgarEarthbindTotemColossalTotem",
-        "talentTreeId": "RehgarEarthbindTotemColossalTotem",
-        "name": "Colossal Totem",
-        "description": "Increases the area and range of Earthbind Totem by 50%.",
-        "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
-        "type": "E",
-        "sort": 1,
-        "abilityId": "Rehgar|E1",
-        "abilityLinks": [
-          "Rehgar|E1"
-        ]
-      },
-      {
         "tooltipId": "RehgarLightningShieldElectricCharge",
         "talentTreeId": "RehgarLightningShieldElectricCharge",
         "name": "Electric Charge",
         "description": "Increases the radius of Lightning Shield by 25%.",
         "icon": "storm_ui_icon_rehgar_lightningshield.png",
         "type": "W",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Rehgar|W1",
         "abilityLinks": [
           "Rehgar|W1"
+        ]
+      },
+      {
+        "tooltipId": "RehgarEarthbindTotemColossalTotem",
+        "talentTreeId": "RehgarEarthbindTotemColossalTotem",
+        "name": "Colossal Totem",
+        "description": "Increases the area and range of Earthbind Totem by 50%.",
+        "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
+        "type": "E",
+        "sort": 2,
+        "abilityId": "Rehgar|E1",
+        "abilityLinks": [
+          "Rehgar|E1"
         ]
       },
       {
@@ -135,16 +135,29 @@
     ],
     "4": [
       {
-        "tooltipId": "RehgarChainHealSpiritwalkersGraceTalent",
-        "talentTreeId": "RehgarMasterySpiritwalkersGrace",
-        "name": "Spiritwalker's Grace",
-        "description": "Reduces Chain Heal's Mana cost from 55 to 40.",
-        "icon": "storm_ui_icon_rehgar_chainheal.png",
-        "type": "Q",
+        "tooltipId": "RehgarLightningShieldStormcaller",
+        "talentTreeId": "RehgarLightningShieldStormcaller",
+        "name": "Stormcaller",
+        "description": "When Lightning Shield damages an enemy it restores 4 Mana, up to 100.",
+        "icon": "storm_ui_icon_rehgar_lightningshield.png",
+        "type": "W",
         "sort": 1,
-        "abilityId": "Rehgar|Q1",
+        "abilityId": "Rehgar|W1",
         "abilityLinks": [
-          "Rehgar|Q1"
+          "Rehgar|W1"
+        ]
+      },
+      {
+        "tooltipId": "RehgarTotemicProjectionTalent",
+        "talentTreeId": "RehgarTotemicProjection",
+        "name": "Totemic Projection",
+        "description": "Increases Earthbind Totem's duration from 8 to 12 seconds, and it can be reactivated to move an existing totem to a new location once.",
+        "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
+        "type": "E",
+        "sort": 2,
+        "abilityId": "Rehgar|E1",
+        "abilityLinks": [
+          "Rehgar|E1"
         ]
       },
       {
@@ -154,23 +167,10 @@
         "description": "Increases Health and Mana Regeneration by 75% while in Ghost Wolf form.",
         "icon": "storm_ui_icon_rehgar_ghostwolf.png",
         "type": "Z",
-        "sort": 2,
+        "sort": 3,
         "abilityId": "Rehgar|D1",
         "abilityLinks": [
           "Rehgar|D1"
-        ]
-      },
-      {
-        "tooltipId": "RehgarLightningShieldStormcaller",
-        "talentTreeId": "RehgarLightningShieldStormcaller",
-        "name": "Stormcaller",
-        "description": "When Lightning Shield damages an enemy it restores 4 Mana, up to 100.",
-        "icon": "storm_ui_icon_rehgar_lightningshield.png",
-        "type": "W",
-        "sort": 3,
-        "abilityId": "Rehgar|W1",
-        "abilityLinks": [
-          "Rehgar|W1"
         ]
       },
       {
@@ -220,19 +220,6 @@
         "sort": 3,
         "cooldown": 60,
         "abilityId": "Rehgar|Active"
-      },
-      {
-        "tooltipId": "RehgarTotemicProjectionTalent",
-        "talentTreeId": "RehgarTotemicProjection",
-        "name": "Totemic Projection",
-        "description": "Increases Earthbind Totem's duration from 8 to 12 seconds, and it can be reactivated to move an existing totem to a new location once.",
-        "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
-        "type": "E",
-        "sort": 4,
-        "abilityId": "Rehgar|E1",
-        "abilityLinks": [
-          "Rehgar|E1"
-        ]
       }
     ],
     "10": [
@@ -267,26 +254,13 @@
     ],
     "13": [
       {
-        "tooltipId": "RehgarLightningShieldEarthShield",
-        "talentTreeId": "RehgarLightningShieldEarthShield",
-        "name": "Earth Shield",
-        "description": "Lightning Shield gives Heroes a Shield that absorbs damage equal to 12% of their maximum Health for 3 seconds.",
-        "icon": "storm_ui_icon_rehgar_lightningshield.png",
-        "type": "W",
-        "sort": 1,
-        "abilityId": "Rehgar|W1",
-        "abilityLinks": [
-          "Rehgar|W1"
-        ]
-      },
-      {
         "tooltipId": "RehgarChainHealTidalWavesTalent",
         "talentTreeId": "RehgarMasteryTidalWaves",
         "name": "Tidal Waves",
-        "description": "Reduces Chain Heal's cooldown by 0.75 seconds for each Hero healed.",
+        "description": "Reduces Chain Heal's cooldown by 0.75 seconds for each Hero healed, and reduces its Mana cost from 55 to 40.",
         "icon": "storm_ui_icon_rehgar_chainheal.png",
         "type": "Q",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Rehgar|Q1",
         "abilityLinks": [
           "Rehgar|Q1"
@@ -299,14 +273,40 @@
         "description": "When Chain Heal heals a Hero below 50% Health, they are healed an additional 225 (+4% per level) Health over 5 seconds.",
         "icon": "storm_ui_icon_rehgar_chainheal_a.png",
         "type": "Q",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Rehgar|Q1",
         "abilityLinks": [
           "Rehgar|Q1"
         ]
+      },
+      {
+        "tooltipId": "RehgarLightningShieldEarthShield",
+        "talentTreeId": "RehgarLightningShieldEarthShield",
+        "name": "Earth Shield",
+        "description": "Lightning Shield gives Heroes a Shield that absorbs damage equal to 12% of their maximum Health for 3 seconds.",
+        "icon": "storm_ui_icon_rehgar_lightningshield.png",
+        "type": "W",
+        "sort": 3,
+        "abilityId": "Rehgar|W1",
+        "abilityLinks": [
+          "Rehgar|W1"
+        ]
       }
     ],
     "16": [
+      {
+        "tooltipId": "RehgarLightningShieldRisingStorm",
+        "talentTreeId": "RehgarLightningShieldRisingStorm",
+        "name": "Rising Storm",
+        "description": "Casting Lightning Shield on an ally also casts an untalented version on Rehgar.  Every time either Lighting Shield damages an enemy Hero, increase the damage of both Lightning Shields by 10%. Stacks up to 15 times.",
+        "icon": "storm_ui_icon_rehgar_lightningshield.png",
+        "type": "W",
+        "sort": 1,
+        "abilityId": "Rehgar|W1",
+        "abilityLinks": [
+          "Rehgar|W1"
+        ]
+      },
       {
         "tooltipId": "RehgarEarthbindTotemEarthgraspTotem",
         "talentTreeId": "RehgarEarthbindTotemEarthgraspTotem",
@@ -314,7 +314,7 @@
         "description": "When Earthbind Totem is first cast, it slows nearby enemies by 90% for 1 second.",
         "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
         "type": "E",
-        "sort": 1,
+        "sort": 2,
         "abilityId": "Rehgar|E1",
         "abilityLinks": [
           "Rehgar|E1"
@@ -327,23 +327,10 @@
         "description": "Ghost Wolf attacks against Heroes deal an additional 5% of the target's maximum Health and heal Rehgar for 5% of his maximum Health.",
         "icon": "storm_ui_icon_rehgar_ghostwolf.png",
         "type": "Z",
-        "sort": 2,
+        "sort": 3,
         "abilityId": "Rehgar|D1",
         "abilityLinks": [
           "Rehgar|D1"
-        ]
-      },
-      {
-        "tooltipId": "RehgarLightningShieldRisingStorm",
-        "talentTreeId": "RehgarLightningShieldRisingStorm",
-        "name": "Rising Storm",
-        "description": "Casting Lightning Shield on an ally also casts an untalented version on Rehgar.  Every time either Lighting Shield damages an enemy Hero, increase the damage of both Lightning Shields by 10%. Stacks up to 15 times.",
-        "icon": "storm_ui_icon_rehgar_lightningshield.png",
-        "type": "W",
-        "sort": 3,
-        "abilityId": "Rehgar|W1",
-        "abilityLinks": [
-          "Rehgar|W1"
         ]
       }
     ],
