@@ -56,7 +56,7 @@
     "radius": 0.75,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "AbathurDeepTunnel",
@@ -604,7 +604,7 @@
     "radius": 0.8125,
     "releaseDate": "2016-09-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -1070,7 +1070,7 @@
     "radius": 0.625,
     "releaseDate": "2017-11-14",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -1517,7 +1517,7 @@
           "innerRadius": 1.0,
           "radius": 1.25,
           "sight": 12.0,
-          "speed": 4.3984,
+          "speed": 4.8398,
           "type": "Дальний бой",
           "descriptors": [
             "AllyHealer",
@@ -1613,7 +1613,7 @@
     "radius": 0.5625,
     "releaseDate": "2017-09-26",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -1765,8 +1765,8 @@
           "shortTooltipId": "AnaSleepingDartSlumberShells",
           "fullTooltipId": "AnaSleepingDartSlumberShells",
           "icon": "storm_ui_icon_ana_sleep_dart.png",
-          "shortTooltip": "«Транквилизатор» ускоряет передвижение.",
-          "fullTooltip": "При попадании «Транквилизатор» повышает скорость передвижения Аны на 25% на 3 сек.",
+          "shortTooltip": "«Транквилизатор» замедляет цель.",
+          "fullTooltip": "Замедляет проснувшихся героев на 25% на 3 сек.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -1811,7 +1811,7 @@
           "fullTooltipId": "AnaOverdose",
           "icon": "storm_ui_icon_ana_sleep_dart.png",
           "shortTooltip": "«Транквилизатор» отравляет и проходит сквозь противников.",
-          "fullTooltip": "«Транквилизатор» поражает цели 3 дозами яда. Во время действия «Режима снайпера» «Транквилизатор» проходит сквозь вражеских героев.",
+          "fullTooltip": "«Транквилизатор» поражает цели 4 дозами яда. Во время действия «Режима снайпера» «Транквилизатор» проходит сквозь вражеских героев.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -1840,7 +1840,7 @@
           "fullTooltipId": "AnaBioticGrenadeAntiHealer",
           "icon": "storm_ui_icon_ana_biotic_grenade.png",
           "shortTooltip": "Усиливает «Биотическую гранату».",
-          "fullTooltip": "Увеличивает область действия «Биотической гранаты» на 100%, а время действия эффекта, ослабляющего исцеление, на 25%.",
+          "fullTooltip": "Увеличивает область действия «Биотической гранаты» на 25%, а время действия эффекта, ослабляющего исцеление, на 25%.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -2070,7 +2070,7 @@
     "radius": 0.625,
     "releaseDate": "2019-04-30",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -2304,7 +2304,7 @@
           "fullTooltipId": "AnduinFlashHealBindingHeal",
           "icon": "storm_ui_icon_anduin_flash_heal.png",
           "shortTooltip": "«Быстрое исцеление» также лечит Андуина.",
-          "fullTooltip": "При применении «Быстрого исцеления» к союзнику Андуин восполняет себе 95 (+4% за уровень) ед. здоровья.",
+          "fullTooltip": "При применении «Быстрого исцеления» к союзнику Андуин восполняет себе 104 (+4% за уровень) ед. здоровья.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -2332,7 +2332,7 @@
           "fullTooltipId": "AnduinBlessedRecovery",
           "icon": "storm_ui_icon_anduin_blessed_recovery.png",
           "shortTooltip": "Восполняет здоровье при получении существенного урона.",
-          "fullTooltip": "Когда Андуин единовременно теряет более 8% от максимального запаса здоровья, он восполняет себе 15% здоровья в течение 3 сек.   Время восстановления – 10 сек.",
+          "fullTooltip": "Когда Андуин единовременно теряет более 8% максимального запаса здоровья, он восполняет 15% здоровья в течение 3 сек.  Время восстановления – 10 сек.  Требуемый запас здоровья: 133 (+4% за уровень) ед.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -2545,7 +2545,7 @@
     "radius": 1.0625,
     "releaseDate": "2014-10-07",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -2618,7 +2618,7 @@
           "fullTooltipId": "AnubarakHardenCarapace",
           "icon": "storm_ui_icon_Anubarak_HardenCarapace_Var1.png",
           "energyTooltip": "Мана: 25",
-          "cooldownTooltip": "Время восстановления: 6 сек.",
+          "cooldownTooltip": "Время восстановления: 7 сек.",
           "shortTooltip": "Дает Ануб'араку щит.",
           "fullTooltip": "Дает щит с 40 ед. энергетической брони, поглощающий 315 (+4% за уровень) ед. урона в течение 3 сек.",
           "abilityType": "W"
@@ -2888,7 +2888,7 @@
           "fullTooltipId": "AnubarakBurrowChargeEpicenterTalent",
           "icon": "storm_ui_icon_Anubarak_BurrowCharge.png",
           "shortTooltip": "Увеличивает область действия и ускоряет восстановление «Подземного рывка».",
-          "fullTooltip": "Увеличивает область поражения «Подземного рывка» на 60% и сокращает время его восстановления на 1.25 сек. за каждого пораженного им героя.",
+          "fullTooltip": "Увеличивает область поражения «Подземного рывка» на 60% и сокращает время его восстановления на 1 сек. за каждого пораженного им героя.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -2995,7 +2995,7 @@
     "radius": 0.8125,
     "releaseDate": "2015-10-27",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -3184,7 +3184,7 @@
           "fullTooltipId": "ArtanisPhasePrismPsionicSynergyTalent",
           "icon": "storm_ui_icon_artanis_repositionmatrix.png",
           "shortTooltip": "«Фазовая призма» дает броню.",
-          "fullTooltip": "Когда «Фазовая призма» поражает героя, Артанис получает 20 ед. брони на 3 сек.",
+          "fullTooltip": "Когда «Фазовая призма» поражает героя, Артанис получает 30 ед. брони на 3 сек.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -3198,7 +3198,7 @@
           "fullTooltipId": "ArtanisShieldOverloadShieldBatteryTalent",
           "icon": "storm_ui_icon_artanis_shieldoverload.png",
           "shortTooltip": "«Перегрузка щита» восстанавливается быстрее, пока активна.",
-          "fullTooltip": "«Перегрузка щита» восстанавливается на 100% быстрее, пока действует созданный ею щит, а время действия щита продлевается на 1 сек.",
+          "fullTooltip": "«Перегрузка щита» восстанавливается на 125% быстрее, пока действует созданный ею щит, а время действия щита продлевается на 1 сек.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -3326,7 +3326,7 @@
           "fullTooltipId": "ArtanisBladeDashTemplarsZealTalent",
           "icon": "storm_ui_icon_artanis_powerstrikes.png",
           "shortTooltip": "Ускоряет восстановление «Молниеносных клинков».",
-          "fullTooltip": "Снижает стоимость «Молниеносных клинков» с 50 до 25 ед. маны. При каждом срабатывании «Перегрузки щита» время восстановления «Молниеносных клинков» сокращается на 5 сек.",
+          "fullTooltip": "Снижает стоимость «Молниеносных клинков» с 50 до 25 ед. маны. При каждом срабатывании «Перегрузки щита» время восстановления «Молниеносных клинков» сокращается на 6 сек.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -3354,7 +3354,7 @@
           "fullTooltipId": "ArtanisPhasePrismGravitonVortexTalent",
           "icon": "storm_ui_icon_artanis_repositionmatrix.png",
           "shortTooltip": "Атаки ускоряют восстановление «Фазовой призмы».",
-          "fullTooltip": "Снижает стоимость «Фазовой призмы» с 50 до 25 ед. маны. Когда автоатаки или «Молниеносные клинки» поражают героев, время восстановления «Фазовой призмы» сокращается на 1.25 сек.",
+          "fullTooltip": "Снижает стоимость «Фазовой призмы» с 50 до 25 ед. маны. Когда автоатаки или «Молниеносные клинки» поражают героев, время восстановления «Фазовой призмы» сокращается на 1.75 сек.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -3493,7 +3493,7 @@
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -3947,7 +3947,7 @@
     "radius": 0.625,
     "releaseDate": "2016-08-09",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -4413,7 +4413,7 @@
     "radius": 1.1875,
     "releaseDate": "2014-10-14",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
@@ -4877,7 +4877,7 @@
     "radius": 0.9375,
     "releaseDate": "2018-01-09",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -5336,7 +5336,7 @@
     "radius": 0.6875,
     "releaseDate": "2014-04-15",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "BrightwingPhaseShift",
@@ -5821,7 +5821,7 @@
     "radius": 0.6875,
     "releaseDate": "2017-04-04",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -6272,7 +6272,7 @@
     "radius": 0.9375,
     "releaseDate": "2014-09-09",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -6347,7 +6347,7 @@
           "energyTooltip": "Отвар: 30",
           "cooldownTooltip": "Время восстановления: 5 сек.",
           "shortTooltip": "Окатывает противников отваром и замедляет их.",
-          "fullTooltip": "Наносит противникам 50 (+4% за уровень) ед. урона, окатывая их отваром на 3 сек. и замедляя на 10%. Спустя 1.5 сек. эффект замедления усиливается до 40%.  После использования «Удар бочонком» превращается в «Пламенное дыхание».  Пламенное дыхание Поджигает облитых отваром противников и наносит им урон.",
+          "fullTooltip": "Наносит противникам 50 (+4% за уровень) ед. урона, окатывая их отваром на 3 сек. и замедляя на 10%. Спустя 1.25 сек. эффект замедления усиливается до 40%.  После использования «Удар бочонком» превращается в «Пламенное дыхание».  Пламенное дыхание Поджигает облитых отваром противников и наносит им урон.",
           "abilityType": "W"
         },
         {
@@ -6369,9 +6369,9 @@
           "shortTooltipId": "ChenWanderingKeg",
           "fullTooltipId": "ChenWanderingKeg",
           "icon": "storm_ui_icon_chen_wanderingkeg.png",
-          "cooldownTooltip": "Время восстановления: 70 сек.",
+          "cooldownTooltip": "Время восстановления: 60 сек.",
           "shortTooltip": "Катается по земле в бочке, отбрасывая противников.",
-          "fullTooltip": "Чэнь запрыгивает в неудержимую бочку и катится в ней на 70% быстрее, нанося 59 (+4% за уровень) ед. урона противникам на своем пути и отбрасывая их. Время действия – 5 сек.",
+          "fullTooltip": "Чэнь запрыгивает в неудержимую бочку и катится в ней на 70% быстрее, получая 25 ед. брони, нанося 59 (+4% за уровень) ед. урона противникам на своем пути и отбрасывая их. Время действия – 5 сек.",
           "abilityType": "Heroic"
         },
         {
@@ -6444,7 +6444,7 @@
           "fullTooltipId": "ChenFreshestIngredients",
           "icon": "storm_ui_icon_chen_fortifyingbrew.png",
           "shortTooltip": "Задача: сферы регенерации восполняют больше здоровья.",
-          "fullTooltip": "Увеличивает время действия сфер регенерации на 100%.  Задача: подберите 15 сфер регенерации.  Награда: 50% запаса прочности щита от «Укрепляющего отвара» будут сохраняться без ограничений по времени.",
+          "fullTooltip": "Увеличивает время действия сфер регенерации на 100%.  Задача: подберите 15 сфер регенерации.  Награда: время восстановления «Укрепляющего отвара» уменьшится на 1 сек., а 50% запаса прочности щита от «Укрепляющего отвара» будут сохраняться без ограничений по времени.",
           "abilityType": "Trait",
           "isQuest": true,
           "sort": 2,
@@ -6459,7 +6459,7 @@
           "fullTooltipId": "ChenStormstoutSecretRecipe",
           "icon": "storm_ui_icon_Chen_StormstoutSecretRecipe.png",
           "shortTooltip": "Базовые способности исцеляют Чэня.",
-          "fullTooltip": "Каждый раз, когда Чэнь поражает героя базовой способностью, он восполняет 2% максимального запаса здоровья.",
+          "fullTooltip": "Каждый раз, когда Чэнь поражает героя базовой способностью, он восполняет 2.5% максимального запаса здоровья.",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -6504,7 +6504,7 @@
           "fullTooltipId": "ChenWitheringFlames",
           "icon": "storm_ui_icon_Chen_BreathofFire_A.png",
           "shortTooltip": "При поджоге героя уменьшает его силу способностей.",
-          "fullTooltip": "Поджог героя также уменьшает силу его способностей на 30% на 4 сек.",
+          "fullTooltip": "Поджог героя также уменьшает силу его способностей на 40% на 4 сек.",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -6563,9 +6563,9 @@
           "shortTooltipId": "ChenWanderingKeg",
           "fullTooltipId": "ChenWanderingKeg",
           "icon": "storm_ui_icon_chen_wanderingkeg.png",
-          "cooldownTooltip": "Время восстановления: 70 сек.",
+          "cooldownTooltip": "Время восстановления: 60 сек.",
           "shortTooltip": "Катается по земле в бочке, отбрасывая противников.",
-          "fullTooltip": "Чэнь запрыгивает в неудержимую бочку и катится в ней на 70% быстрее, нанося 59 (+4% за уровень) ед. урона противникам на своем пути и отбрасывая их. Время действия – 5 сек.",
+          "fullTooltip": "Чэнь запрыгивает в неудержимую бочку и катится в ней на 70% быстрее, получая 25 ед. брони, нанося 59 (+4% за уровень) ед. урона противникам на своем пути и отбрасывая их. Время действия – 5 сек.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -6612,7 +6612,7 @@
           "fullTooltipId": "ChenKegSmashATouchOfHoneyTalent",
           "icon": "storm_ui_icon_chen_kegsmash.png",
           "shortTooltip": "Усиливает замедление от «Удара бочонком» и время его действия.",
-          "fullTooltip": "Усиливает эффект замедления от «Удара бочонком» на 10% и увеличивает время его действия на 0.5 сек.",
+          "fullTooltip": "Усиливает эффект замедления от «Удара бочонком» на 15% и увеличивает время его действия на 0.5 сек.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -6672,7 +6672,7 @@
           "fullTooltipId": "ChenCelerityStagger",
           "icon": "storm_ui_icon_chen_stagger.png",
           "shortTooltip": "Автоатаки ускоряют восстановление «Пошатывания» и дают броню.",
-          "fullTooltip": "Каждая автоатака по оглушенному, обездвиженному или замедленному герою сокращает время восстановления «Пошатывания» на 1.5 сек. и дает Чэню 15 ед. брони на 3 сек.",
+          "fullTooltip": "Каждая автоатака по оглушенному, обездвиженному или замедленному герою сокращает время восстановления «Пошатывания» на 1.5 сек. и дает Чэню 20 ед. брони на 3 сек.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -6702,7 +6702,7 @@
           "fullTooltipId": "ChenWanderingKegUntappedPotentialTalent",
           "icon": "storm_ui_icon_chen_wanderingkeg.png",
           "shortTooltip": "Увеличивает бонус к скорости передвижения от «Бродячей бочки» и дает броню.",
-          "fullTooltip": "Увеличивает бонус к скорости передвижения от «Бродячей бочки» с 70% до 125% и дает 75 ед. брони на время ее действия, а также в течение 3 сек. по окончании ее действия, уменьшая получаемый урон на 75%.",
+          "fullTooltip": "Увеличивает бонус к скорости передвижения от «Бродячей бочки» с 70% до 125%. «Бродячая бочка» дает 75 ед. брони во время действия и в течение3 сек. после его окончания.",
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -6747,7 +6747,7 @@
           "fullTooltipId": "ChenFortifyingBrewEnergizingBrewTalent",
           "icon": "storm_ui_icon_chen_fortifyingbrew_b.png",
           "shortTooltip": "«Укрепляющий отвар» увеличивает максимальный запас здоровья и урон.",
-          "fullTooltip": "При максимальном времени поддержания «Укрепляющего отвара» Чэнь на 25 сек. получает бонус в 20% к максимальному запасу здоровья и 20% к урону.",
+          "fullTooltip": "При максимальном времени поддержания «Укрепляющего отвара» Чэнь на 25 сек. получает бонус в 20% к запасу здоровья и 20% к урону.",
           "abilityType": "Trait",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -6764,7 +6764,7 @@
           "innerRadius": 0.625,
           "radius": 0.625,
           "sight": 12.0,
-          "speed": 4.3984,
+          "speed": 4.8398,
           "type": "Дальний бой",
           "life": {
             "amount": 1731.0,
@@ -6854,7 +6854,7 @@
           "innerRadius": 0.8125,
           "radius": 0.8125,
           "sight": 12.0,
-          "speed": 4.3984,
+          "speed": 4.8398,
           "type": "Дальний бой",
           "life": {
             "amount": 1731.0,
@@ -6892,7 +6892,7 @@
           "innerRadius": 0.625,
           "radius": 0.625,
           "sight": 12.0,
-          "speed": 4.3984,
+          "speed": 4.8398,
           "type": "Дальний бой",
           "life": {
             "amount": 1731.0,
@@ -6938,7 +6938,7 @@
     "radius": 1.1875,
     "releaseDate": "2015-11-17",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -7379,7 +7379,7 @@
     "radius": 0.625,
     "releaseDate": "2016-05-17",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -7849,7 +7849,7 @@
     "radius": 0.625,
     "releaseDate": "2018-04-24",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -8317,7 +8317,7 @@
     "radius": 1.0,
     "releaseDate": "2016-03-29",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "DehakaBrushstalker",
@@ -8800,7 +8800,7 @@
     "radius": 1.1875,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
@@ -9267,7 +9267,7 @@
     "radius": 1.1875,
     "releaseDate": "2017-05-16",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "DVaMechanizedWalker",
@@ -9328,7 +9328,7 @@
           "toggleCooldown": 0.0625,
           "cooldownTooltip": "Время восстановления: 9 сек.",
           "shortTooltip": "Меха совершает рывок и отбрасывает врагов.",
-          "fullTooltip": "Повышает скорость передвижения на 125% на 2 сек. При этом меха отбрасывает противников на своем пути, нанося им 135 (+4% за уровень) ед. урона.  Во время действия ускорителей D.Va нельзя замедлить. Каждого противника можно поразить только один раз.",
+          "fullTooltip": "Повышает скорость передвижения на 104% на 2 сек. При этом меха отбрасывает противников на своем пути, нанося им 135 (+4% за уровень) ед. урона.  Во время действия ускорителей D.Va нельзя замедлить. Каждого противника можно поразить только один раз.",
           "abilityType": "Q"
         },
         {
@@ -9431,7 +9431,7 @@
           "fullTooltipId": "DVaBoostersHitTheNitrous",
           "icon": "storm_ui_icon_dva_boosters_a.png",
           "shortTooltip": "Повышает эффективность «Ускорителей» на старте.",
-          "fullTooltip": "Увеличивает начальный бонус к скорости от «Ускорителей» на 325%, а затем в течение 0.5 сек. этот бонус возвращается к базовому значению. Пока действует эффект, «Ускорители» наносят на 50% больше урона.",
+          "fullTooltip": "Увеличивает начальный бонус к скорости от «Ускорителей» на 286%, а затем в течение 0.5 сек. этот бонус возвращается к базовому значению. Пока действует эффект, «Ускорители» наносят на 50% больше урона.",
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -9788,7 +9788,7 @@
           "innerRadius": 0.625,
           "radius": 0.625,
           "sight": 12.0,
-          "speed": 4.3984,
+          "speed": 4.8398,
           "type": "Дальний бой",
           "descriptors": [
             "RoleAutoAttacker"
@@ -9855,7 +9855,7 @@
     "radius": 0.9375,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
@@ -9941,7 +9941,7 @@
           "fullTooltipId": "L90ETCGuitarSolo",
           "icon": "storm_ui_icon_ETC_GuitarSolo.png",
           "energyTooltip": "Мана: 40",
-          "cooldownTooltip": "Время восстановления: 8 сек.",
+          "cooldownTooltip": "Время восстановления: 9 сек.",
           "shortTooltip": "Восполняет здоровье.",
           "fullTooltip": "Восполняет 66 (+4% за уровень) ед. здоровья в секунду в течение 4 сек.",
           "abilityType": "E"
@@ -9995,7 +9995,7 @@
           "fullTooltipId": "L90ETCGuitarSoloGuitarHeroTalent",
           "icon": "storm_ui_icon_ETC_GuitarSolo.png",
           "shortTooltip": "Автоатаки под «Соло на гитаре» исцеляют и продлевают его действие.",
-          "fullTooltip": "Пока действует «Соло на гитаре», автоатаки ETC восполняют ему здоровье в объеме 40% от нанесенного урона и продлевают действие «Соло на гитаре» на 0.25 сек.",
+          "fullTooltip": "Пока действует «Соло на гитаре», автоатаки ETC восполняют ему здоровье в объеме 60% от нанесенного урона и продлевают действие «Соло на гитаре» на 0.25 сек.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -10328,7 +10328,7 @@
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "FalstadFlight",
@@ -10542,7 +10542,7 @@
           "fullTooltipId": "FalstadBarrelRollUpdraftTalent",
           "icon": "storm_ui_icon_falstad_barrelroll.png",
           "shortTooltip": "Увеличивает дальность действия «Бочки» и прочность щита.",
-          "fullTooltip": "Увеличивает дальность действия «Бочки» и прочность щита от нее на 40%. Щит не рассеивается со временем.",
+          "fullTooltip": "Увеличивает дальность действия «Бочки» на 40%, а запас прочности щита – на 60%. Щит не рассеивается со временем.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -10569,7 +10569,7 @@
           "fullTooltipId": "FalstadSecretWeaponTalent",
           "icon": "storm_ui_icon_falstad_hammerang.png",
           "shortTooltip": "Молот-бумеранг летит дальше и усиливает автоатаки, пока находится в воздухе.",
-          "fullTooltip": "Увеличивает дальность действия «Молота-бумеранга» на 30%. Автоатаки наносят на 60% больше урона, пока молот-бумеранг находится в полете.",
+          "fullTooltip": "Увеличивает дальность действия «Молота-бумеранга» на 30%. Автоатаки наносят на 80% больше урона, пока молот-бумеранг находится в полете.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -10690,7 +10690,7 @@
           "fullTooltipId": "FalstadHammerangCripplingHammerTalent",
           "icon": "storm_ui_icon_falstad_hammerang.png",
           "shortTooltip": "«Молот-бумеранг» сильнее замедляет цель.",
-          "fullTooltip": "Увеличивает силу замедления от «Молота-бумеранга» с 25% до 50%.",
+          "fullTooltip": "Увеличивает силу замедления от «Молота-бумеранга» с 25% до 60%.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -10796,7 +10796,7 @@
     "radius": 1.0625,
     "releaseDate": "2018-03-27",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -11262,7 +11262,7 @@
     "title": "Вождь клана Сумеречного Молота",
     "releaseDate": "2015-11-17",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "searchText": "Чо Галл Чо'Галл Чогалл огр двуглавый двухголовый War2 Warcraft2 WC2 Warcraft II 2 Tides of Darkness ToD WoW World of Warcraft Cataclysm Warlords of Draenor WoD катаклизм Орда",
@@ -11721,7 +11721,7 @@
     "radius": 0.875,
     "releaseDate": "2017-08-08",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -12196,7 +12196,7 @@
     "radius": 0.75,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
@@ -12704,7 +12704,7 @@
     "radius": 0.6875,
     "releaseDate": "2017-04-25",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -13191,7 +13191,7 @@
     "radius": 0.6875,
     "releaseDate": "2016-01-12",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -13239,14 +13239,14 @@
         "nameId": "HeroGreymaneMeleeWeapon",
         "range": 1.5,
         "period": 1.0,
-        "damage": 140.0,
+        "damage": 148.0,
         "damageScale": 0.04
       },
       {
         "nameId": "HeroGreymaneRangedWeapon",
         "range": 5.5,
         "period": 1.0,
-        "damage": 140.0,
+        "damage": 148.0,
         "damageScale": 0.04
       }
     ],
@@ -13311,7 +13311,7 @@
           "energyTooltip": "Мана: 50",
           "cooldownTooltip": "Время восстановления: 30 сек.",
           "shortTooltip": "Наносит урон в зависимости от уровня здоровья цели.",
-          "fullTooltip": "Седогрив превращается в человека и стреляет. Пуля поражает первого вражеского героя на своем пути, нанося ему урон в объеме 35% от текущего запаса здоровья.  Не действует против управляемых боссов.",
+          "fullTooltip": "Седогрив превращается в человека и стреляет. Пуля поражает первого вражеского героя на своем пути, нанося ему урон в объеме 40% от текущего запаса здоровья.  Не действует против управляемых боссов.",
           "abilityType": "Heroic"
         }
       ],
@@ -13439,7 +13439,7 @@
           "fullTooltipId": "GreymaneGilneanCocktailIncendiaryElixirTalent",
           "icon": "storm_ui_icon_Greymane_QAttack.png",
           "shortTooltip": "Задача: увеличьте урон «Гилнеасского коктейля».",
-          "fullTooltip": "Задача: каждый раз, когда взрыв «Гилнеасского коктейля» поражает героя, урон от взрыва увеличивается на 15 ед., вплоть до 225 ед.  Награда: после 15 попаданий по героям время восстановления этой способности уменьшится на 4 сек.",
+          "fullTooltip": "Задача: каждый раз, когда взрыв «Гилнеасского коктейля» поражает героя, урон от взрыва увеличивается на 20 ед., вплоть до 300 ед.  Награда: после 15 попаданий по героям время восстановления этой способности уменьшится на 4 сек.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 2,
@@ -13490,7 +13490,7 @@
           "energyTooltip": "Мана: 50",
           "cooldownTooltip": "Время восстановления: 30 сек.",
           "shortTooltip": "Наносит урон в зависимости от уровня здоровья цели.",
-          "fullTooltip": "Седогрив превращается в человека и стреляет. Пуля поражает первого вражеского героя на своем пути, нанося ему урон в объеме 35% от текущего запаса здоровья.  Не действует против управляемых боссов.",
+          "fullTooltip": "Седогрив превращается в человека и стреляет. Пуля поражает первого вражеского героя на своем пути, нанося ему урон в объеме 40% от текущего запаса здоровья.  Не действует против управляемых боссов.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 2,
@@ -13654,7 +13654,7 @@
               "nameId": "HeroGreymaneWorgenWeapon",
               "range": 1.25,
               "period": 1.0,
-              "damage": 196.0,
+              "damage": 207.2,
               "damageScale": 0.04
             }
           ],
@@ -13702,7 +13702,7 @@
     "radius": 0.8125,
     "releaseDate": "2016-07-12",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -14166,7 +14166,7 @@
     "radius": 0.6875,
     "releaseDate": "2017-12-12",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -14636,7 +14636,7 @@
     "radius": 0.625,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -14814,7 +14814,7 @@
           "fullTooltipId": "IllidanDiveRapidChaseTalent",
           "icon": "storm_ui_icon_illidan_dive.png",
           "shortTooltip": "«Кувырок» ускоряет передвижение.",
-          "fullTooltip": "Использование «Кувырка» повышает скорость передвижения Иллидана на 15% на 2 сек.",
+          "fullTooltip": "Использование «Кувырка» повышает скорость передвижения Иллидана на 20% на 3 сек.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -14859,7 +14859,7 @@
           "fullTooltipId": "IllidanEvasionReflexiveBlockTalent",
           "icon": "storm_ui_icon_illidan_dive.png",
           "shortTooltip": "«Кувырок» дает кинетическую броню.",
-          "fullTooltip": "Используя «Кувырок», Иллидан получает 75 ед. кинетической брони. Эта броня уменьшает на 75% урон от 2 следующих автоатак вражеских героев. Время действия – 3 сек.",
+          "fullTooltip": "Используя «Кувырок», Иллидан получает 75 ед. кинетической брони. Эта броня уменьшает на 75% урон от 3 следующих автоатак вражеских героев. Время действия – 4 сек.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -14995,7 +14995,7 @@
           "fullTooltipId": "IllidanFieryBrand",
           "icon": "storm_ui_icon_talent_autoattack_damage.png",
           "shortTooltip": "Последовательные автоатаки по одному и тому же герою наносят больше урона.",
-          "fullTooltip": "Каждая 4-я автоатака по одному и тому же герою наносит дополнительный урон в объеме 7% от максимального запаса здоровья цели.",
+          "fullTooltip": "Каждая 4-я автоатака по одному и тому же герою наносит дополнительный урон в объеме 8% от максимального запаса здоровья цели.",
           "abilityType": "Passive",
           "sort": 2
         },
@@ -15008,6 +15008,7 @@
           "charges": {
             "countMax": 5,
             "countUse": 5,
+            "countStart": 5,
             "recastCooldown": 8.0
           },
           "shortTooltip": "Увеличивает урон от автоатак.",
@@ -15086,7 +15087,7 @@
     "radius": 0.8125,
     "releaseDate": "2019-01-08",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -15171,8 +15172,8 @@
           "icon": "storm_ui_icon_imperius_e.png",
           "energyTooltip": "Мана: 75",
           "cooldownTooltip": "Время восстановления: 12 сек.",
-          "shortTooltip": "Опаляет противников рядом с собой, восполняет здоровье.",
-          "fullTooltip": "Окружает Империя пламенем, которое наносит находящимся рядом противникам 19 (+4% за уровень) ед. урона раз в 0.25 сек. Время действия – 3 сек. Восполняет здоровье в объеме 100% от этого урона и вдвое больше от урона по героям.",
+          "shortTooltip": "Поджигает находящихся рядом противников.",
+          "fullTooltip": "Окружает Империя пламенем, которое наносит находящимся рядом противникам 19 (+4% за уровень) ед. урона раз в 0.25 сек. Время действия – 3 сек. Восполняет здоровье в объеме 50% от этого урона и 100% от урона по героям.",
           "abilityType": "E"
         }
       ],
@@ -15209,8 +15210,8 @@
           "shortTooltipId": "ImperiusValorousBrand",
           "fullTooltipId": "ImperiusValorousBrand",
           "icon": "storm_ui_icon_imperius_trait.png",
-          "shortTooltip": "Базовые способности отмечают героев, увеличивая последующий урон от автоатак.",
-          "fullTooltip": "Базовые способности отмечают героев на 10 сек. Автоатаки снимают метки с целей, нанося 30% дополнительного урона за каждую метку.",
+          "shortTooltip": "Базовые способности отмечают героев, увеличивая урон и объем исцеления от автоатак.",
+          "fullTooltip": "Базовые способности отмечают героев на 10 сек. Автоатаки снимают метки с целей, нанося 20% дополнительного урона и восполняя Империю 70 (+4% за уровень) ед. здоровья за каждую метку.",
           "abilityType": "Trait"
         }
       ]
@@ -15223,10 +15224,9 @@
           "shortTooltipId": "ImperiusCelestialChargeImpalingLight",
           "fullTooltipId": "ImperiusCelestialChargeImpalingLight",
           "icon": "storm_ui_icon_imperius_q.png",
-          "shortTooltip": "Задача: ускорьте восстановление «Небесного рывка».",
-          "fullTooltip": "«Небесный рывок» наносит на 125% больше урона.  Задача: оглушайте нескольких героев одним «Небесным рывком».  Награда: при одновременном оглушении 2 героев время восстановления «Небесного рывка» уменьшится на 2 сек. до конца матча.  Награда: при одновременном оглушении 3 героев время восстановления «Небесного рывка» уменьшится еще на 2 сек. до конца матча.",
+          "shortTooltip": "Усиливает «Небесный рывок» «Клеймом доблести».",
+          "fullTooltip": "Увеличивает финальный урон от «Небесного рывка» на 50% и сокращает время его восстановления на 1 сек. за каждое «Клеймо доблести» на цели после оглушения.",
           "abilityType": "Q",
-          "isQuest": true,
           "sort": 1,
           "abilityTalentLinkIds": [
             "ImperiusCelestialCharge"
@@ -15239,7 +15239,7 @@
           "fullTooltipId": "ImperiusSolarionsFireConsumingFlame",
           "icon": "storm_ui_icon_imperius_w.png",
           "shortTooltip": "Усиливает замедление от «Пламени Солариона» и увеличивает урон в его центре.",
-          "fullTooltip": "Увеличивает урон в центре области действия «Пламени Солариона» еще на 100% и усиливает эффект замедления на 15%.",
+          "fullTooltip": "Увеличивает урон в центре области действия «Пламени Солариона» еще на 100% и усиливает эффект замедления на 15%. При первом попадании «Пламенем Солариона» по герою Империй восполняет 30 ед. маны.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -15263,29 +15263,15 @@
       ],
       "level4": [
         {
-          "nameId": "ImperiusSolarionsFireBulwarkOfFlame",
-          "name": "Укрывающее пламя",
-          "shortTooltipId": "ImperiusSolarionsFireBulwarkOfFlame",
-          "fullTooltipId": "ImperiusSolarionsFireBulwarkOfFlame",
-          "icon": "storm_ui_icon_imperius_w.png",
-          "shortTooltip": "«Пламя Солариона» дает кинетическую броню.",
-          "fullTooltip": "Поражая героя, «Пламя Солариона» дает 75 ед. кинетической брони, защищающей от 2 следующей автоатаки,следующих автоатак,следующих автоатак героев. Максимум зарядов – 6.",
-          "abilityType": "W",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "ImperiusSolarionsFire"
-          ]
-        },
-        {
-          "nameId": "ImperiusMoltenArmorUnshakableFaith",
-          "name": "Непоколебимая вера",
-          "shortTooltipId": "ImperiusMoltenArmorUnshakableFaith",
-          "fullTooltipId": "ImperiusMoltenArmorUnshakableFaith",
+          "nameId": "ImperiusMoltenArmorSovereignArmor",
+          "name": "Броня властителя",
+          "shortTooltipId": "ImperiusMoltenArmorSovereignArmor",
+          "fullTooltipId": "ImperiusMoltenArmorSovereignArmor",
           "icon": "storm_ui_icon_imperius_e.png",
-          "shortTooltip": "«Раскаленный доспех» снимает эффекты замедления и обездвиживания.",
-          "fullTooltip": "При использовании «Раскаленный доспех» снимает эффекты замедления и обездвиживания и восполняет Империю 200 (+4% за уровень) ед. здоровья.",
+          "shortTooltip": "«Раскаленный доспех» дает броню.",
+          "fullTooltip": "«Раскаленный доспех» дает 25 ед. брони на 1.5 сек. Когда «Раскаленный доспех» наносит урон героям, время его действия продлевается на 0.5 сек.",
           "abilityType": "E",
-          "sort": 2,
+          "sort": 1,
           "abilityTalentLinkIds": [
             "ImperiusMoltenArmor"
           ]
@@ -15296,9 +15282,23 @@
           "shortTooltipId": "ImperiusValorousBrandBattleHunger",
           "fullTooltipId": "ImperiusValorousBrandBattleHunger",
           "icon": "storm_ui_icon_imperius_trait.png",
-          "shortTooltip": "«Клеймо доблести» восполняет здоровье.",
-          "fullTooltip": "Восполняет 82 (+4% за уровень) ед. здоровья за каждую поглощенную метку «Клейма доблести».",
+          "shortTooltip": "«Клеймо доблести» восполняет больше здоровья.",
+          "fullTooltip": "Усиливает исцеление «Клеймом доблести» на 50%.",
           "abilityType": "Trait",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "ImperiusValorousBrand"
+          ]
+        },
+        {
+          "nameId": "ImperiusPressForward",
+          "name": "Только вперед",
+          "shortTooltipId": "ImperiusPressForward",
+          "fullTooltipId": "ImperiusPressForward",
+          "icon": "storm_ui_icon_imperius_globe.png",
+          "shortTooltip": "Наносите урон героям, чтобы продлить действие сфер регенерации.",
+          "fullTooltip": "Когда Империй наносит урон герою, время действия используемой им сферы регенерации продлевается до 8 сек. (если уже не превышает его).",
+          "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
             "ImperiusValorousBrand"
@@ -15327,7 +15327,7 @@
           "fullTooltipId": "ImperiusSolarionsFireBlazeOfGlory",
           "icon": "storm_ui_icon_imperius_w.png",
           "shortTooltip": "«Пламя Солариона» с некоторой задержкой вызывает взрыв.",
-          "fullTooltip": "«Пламя Солариона» оставляет вдоль центра области действия пылающую полосу, которая взрывается спустя 2 сек. и наносит 125 (+4% за уровень) ед. урона.",
+          "fullTooltip": "«Пламя Солариона» оставляет вдоль центра области действия пылающую полосу, которая взрывается спустя 2 сек. и наносит 125 (+4% за уровень) ед. урона. Взрыв усиливается «Клеймом доблести» и снимает его.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -15340,9 +15340,9 @@
           "shortTooltipId": "ImperiusHolyFervor",
           "fullTooltipId": "ImperiusHolyFervor",
           "icon": "storm_ui_icon_imperius_item_01.png",
-          "cooldownTooltip": "Время восстановления: 25 сек.",
+          "cooldownTooltip": "Время восстановления: 30 сек.",
           "shortTooltip": "Автоатаки наносят урон по области.",
-          "fullTooltip": "При использовании 4 следующая автоатака,следующих автоатаки,следующих автоатак наносят 157 (+4% за уровень) ед. урона по области.",
+          "fullTooltip": "При использовании 4 следующая автоатака,следующих автоатаки,следующих автоатак в течение 10 сек. наносят 30% дополнительного урона по области вокруг цели.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -15405,8 +15405,8 @@
           "shortTooltipId": "ImperiusMoltenArmorDivineRage",
           "fullTooltipId": "ImperiusMoltenArmorDivineRage",
           "icon": "storm_ui_icon_imperius_e.png",
-          "shortTooltip": "«Раскаленный доспех» восстанавливается быстрее при поражении героев.",
-          "fullTooltip": "Когда «Раскаленный доспех» поражает героя, время его восстановления сокращается на 0.25 сек.",
+          "shortTooltip": "«Клеймо доблести» ускоряет восстановление «Раскаленного доспеха».",
+          "fullTooltip": "При снятии «Клейма доблести» время восстановления «Раскаленного доспеха» сокращается на 1 сек.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -15419,8 +15419,8 @@
           "shortTooltipId": "ImperiusMoltenArmorHeatOfBattle",
           "fullTooltipId": "ImperiusMoltenArmorHeatOfBattle",
           "icon": "storm_ui_icon_imperius_e_alt_01.png",
-          "shortTooltip": "Усиливает исцеление от «Раскаленного доспеха» при низком уровне здоровья.",
-          "fullTooltip": "«Раскаленный доспех» исцеляет на 35% эффективнее, когда у Империя остается менее 50% здоровья.",
+          "shortTooltip": "Усиливает исцеление от «Раскаленного доспеха» при попаданиях по героям.",
+          "fullTooltip": "«Раскаленный доспех» исцеляет Империя при попаданиях по героям на 2% эффективнее за каждый 1% недостающего здоровья.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -15436,7 +15436,7 @@
           "fullTooltipId": "ImperiusCelestialSwiftness",
           "icon": "storm_ui_icon_imperius_q.png",
           "shortTooltip": "«Небесный рывок» ускоряет атаки и передвижение.",
-          "fullTooltip": "Когда «Небесный рывок» оглушает героя, скорость атаки Империя повышается на 50%, а скорость передвижения – на 20% на 5 сек.",
+          "fullTooltip": "При использовании «Небесного рывка» повышает скорость передвижения на 20% на 5 сек., а скорость атаки – на 40% на 5 сек. за каждого оглушенного им героя.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -15458,18 +15458,17 @@
           ]
         },
         {
-          "nameId": "ImperiusMoltenArmorSovereignArmor",
-          "name": "Броня властителя",
-          "shortTooltipId": "ImperiusMoltenArmorSovereignArmor",
-          "fullTooltipId": "ImperiusMoltenArmorSovereignArmor",
-          "icon": "storm_ui_icon_imperius_e_alt_01.png",
-          "shortTooltip": "«Раскаленный доспех» дает броню.",
-          "fullTooltip": "«Раскаленный доспех» дает 50 ед. брони на 2.5 сек.",
-          "abilityType": "E",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "ImperiusMoltenArmor"
-          ]
+          "nameId": "ImperiusValorousPursuit",
+          "name": "Доблестное преследование",
+          "shortTooltipId": "ImperiusValorousPursuit",
+          "fullTooltipId": "ImperiusValorousPursuit",
+          "icon": "storm_ui_icon_imperius_item_03.png",
+          "cooldownTooltip": "Время восстановления: 20 сек.",
+          "shortTooltip": "Телепортирует Империя к противникам, отмеченным «Клеймом доблести».",
+          "fullTooltip": "При использовании телепортирует Империя к противнику, отмеченному «Клеймом доблести», и дает ему 25 ед. брони на 3 сек.",
+          "abilityType": "Active",
+          "isActive": true,
+          "sort": 3
         }
       ],
       "level20": [
@@ -15502,6 +15501,20 @@
           ]
         },
         {
+          "nameId": "ImperiusValorousBrandBrandOfSolarion",
+          "name": "Клеймо Солариона",
+          "shortTooltipId": "ImperiusValorousBrandBrandOfSolarion",
+          "fullTooltipId": "ImperiusValorousBrandBrandOfSolarion",
+          "icon": "storm_ui_icon_imperius_trait.png",
+          "shortTooltip": "«Клеймо доблести» не снимается при автоатаках.",
+          "fullTooltip": "Уменьшает время действия «Клейма доблести» до 3 сек., но его эффекты не снимаются при срабатывании.",
+          "abilityType": "Trait",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "ImperiusValorousBrand"
+          ]
+        },
+        {
           "nameId": "ImperiusImpervious",
           "name": "Несокрушимость",
           "shortTooltipId": "ImperiusImpervious",
@@ -15509,20 +15522,7 @@
           "icon": "storm_ui_icon_imperius_item_02.png",
           "cooldownTooltip": "Время восстановления: 75 сек.",
           "shortTooltip": "Дает неудержимость и энергетическую броню.",
-          "fullTooltip": "При использовании дает неудержимость и 75 ед. энергетической брони на 2 сек. Когда вражеский герой попадает в центр области действия «Пламени Солариона», время восстановления «Несокрушимости» сокращается на 5 сек.",
-          "abilityType": "Active",
-          "isActive": true,
-          "sort": 3
-        },
-        {
-          "nameId": "ImperiusValorousPursuit",
-          "name": "Доблестное преследование",
-          "shortTooltipId": "ImperiusValorousPursuit",
-          "fullTooltipId": "ImperiusValorousPursuit",
-          "icon": "storm_ui_icon_imperius_item_03.png",
-          "cooldownTooltip": "Время восстановления: 12 сек.",
-          "shortTooltip": "Телепортирует Империя к противникам, отмеченным «Клеймом доблести».",
-          "fullTooltip": "При использовании телепортирует Империя к противнику, отмеченному «Клеймом доблести», и дает ему 25 ед. брони на 3 сек.",
+          "fullTooltip": "При использовании дает неудержимость и 75 ед. энергетической брони на 3 сек. Когда вражеский герой попадает в центр области действия «Пламени Солариона», время восстановления «Несокрушимости» сокращается на 5 сек.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4
@@ -15543,7 +15543,7 @@
     "radius": 0.625,
     "releaseDate": "2014-12-02",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -16016,7 +16016,7 @@
     "radius": 0.75,
     "releaseDate": "2015-06-02",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -16463,7 +16463,7 @@
     "radius": 0.6875,
     "releaseDate": "2017-10-17",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -16922,7 +16922,7 @@
     "radius": 0.8125,
     "releaseDate": "2015-05-12",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -17387,7 +17387,7 @@
     "radius": 0.875,
     "releaseDate": "2017-09-05",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -17862,7 +17862,7 @@
     "radius": 0.6875,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -18317,7 +18317,7 @@
     "radius": 0.625,
     "releaseDate": "2015-08-18",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -18773,7 +18773,7 @@
     "radius": 0.8125,
     "releaseDate": "2015-07-21",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -19270,7 +19270,7 @@
     "radius": 0.625,
     "releaseDate": "2014-04-15",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
@@ -19729,7 +19729,7 @@
     "radius": 0.625,
     "releaseDate": "2016-02-02",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -20747,7 +20747,7 @@
           "innerRadius": 0.5625,
           "radius": 0.5625,
           "sight": 12.0,
-          "speed": 4.3984,
+          "speed": 4.8398,
           "type": "Дальний бой",
           "descriptors": [
             "Helper",
@@ -20816,7 +20816,7 @@
           "innerRadius": 0.875,
           "radius": 0.875,
           "sight": 12.0,
-          "speed": 4.3984,
+          "speed": 4.8398,
           "type": "Дальний бой",
           "descriptors": [
             "Helper",
@@ -20855,7 +20855,7 @@
     "radius": 0.75,
     "releaseDate": "2015-10-06",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -21309,7 +21309,7 @@
     "radius": 0.6875,
     "releaseDate": "2017-02-14",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "LucioWallRide",
@@ -21447,7 +21447,7 @@
           "fullTooltipId": "LucioWallRide",
           "icon": "storm_ui_icon_lucio_mount.png",
           "shortTooltip": "Ускоряет Лусио рядом с препятствиями, позволяет проходить сквозь других персонажей.",
-          "fullTooltip": "Когда Лусио двигается вдоль естественных препятствий и строений, активируется «Езда по стенам», которая длится 2 сек. Во время ее действия Лусио проходит сквозь других персонажей и перемещается на 20% быстрее. Суммируется с другими бонусами к скорости передвижения.",
+          "fullTooltip": "Когда Лусио двигается вдоль естественных препятствий и строений, активируется «Езда по стенам», которая длится 2 сек. Во время ее действия Лусио проходит сквозь других персонажей и перемещается на 18% быстрее. Суммируется с другими бонусами к скорости передвижения.",
           "abilityType": "Z"
         }
       ]
@@ -21496,7 +21496,7 @@
           "fullTooltipId": "LucioWallRideAccelerando",
           "icon": "storm_ui_icon_lucio_wallride.png",
           "shortTooltip": "«Езда по стенам» постепенно ускоряет передвижение.",
-          "fullTooltip": "Постепенно увеличивает бонус к скорости передвижения от «Езды по стенам» в течение 4 сек. до 40%, пока Лусио поддерживает этот эффект.",
+          "fullTooltip": "Постепенно увеличивает бонус к скорости передвижения от «Езды по стенам» в течение 4 сек. до 36%, пока Лусио поддерживает этот эффект.",
           "abilityType": "Z",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -21681,7 +21681,7 @@
           "fullTooltipId": "LucioWallRideSlip",
           "icon": "storm_ui_icon_lucio_wallride.png",
           "shortTooltip": "Дает броню и ускоряет передвижение во время «Езды по стенам».",
-          "fullTooltip": "Если Лусио проезжает по стене мимо вражеского героя или сквозь него, бонус к скорости передвижения от «Езды по стенам» увеличивается до 40% на 1 сек.  Пассивный эффект: во время «Езды по стенам» Лусио получает 20 ед. брони.",
+          "fullTooltip": "Если Лусио проезжает по стене мимо вражеского героя или сквозь него, бонус к скорости передвижения от «Езды по стенам» увеличивается до 36% на 1 сек.  Пассивный эффект: во время «Езды по стенам» Лусио получает 20 ед. брони.",
           "abilityType": "Z",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -21809,7 +21809,7 @@
     "radius": 0.75,
     "releaseDate": "2015-12-15",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "DryadGallopingGait",
@@ -22356,7 +22356,7 @@
     "radius": 0.75,
     "releaseDate": "2018-02-06",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -22569,7 +22569,7 @@
           "fullTooltipId": "MaievSpiritOfVengeanceSuddenVengeance",
           "icon": "storm_ui_icon_maiev_rush_2.png",
           "shortTooltip": "«Скачок» наносит урон по области.",
-          "fullTooltip": "После телепортации с помощью «Духа отмщения» тень взрывается, нанося находящимся рядом героям урон в объеме 5% от их максимального запаса здоровья.",
+          "fullTooltip": "После телепортации с помощью «Духа отмщения» тень взрывается, нанося находящимся рядом героям урон в объеме 6% от их максимального запаса здоровья.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -22598,8 +22598,8 @@
           "shortTooltipId": "MaievUmbralBindBondsOfCorruption",
           "fullTooltipId": "MaievUmbralBindBondsOfCorruption",
           "icon": "storm_ui_icon_maiev_orb_corruption.png",
-          "shortTooltip": "«Темные узы» ослабляют кинетическую броню притянутых героев.",
-          "fullTooltip": "Притягивание героя «Темными узами» ослабляет его кинетическую броню на 25 ед. на 4 сек.",
+          "shortTooltip": "«Темные узы» ослабляют броню притянутых героев.",
+          "fullTooltip": "Притягивание героя «Темными узами» ослабляет его броню на 10 ед. на 4 сек.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -22813,7 +22813,7 @@
     "radius": 0.75,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
@@ -23279,7 +23279,7 @@
     "radius": 0.875,
     "releaseDate": "2018-10-16",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -23338,8 +23338,8 @@
           "shortTooltipId": "MalGanisFelClawsFirst",
           "fullTooltipId": "MalGanisFelClawsFirst",
           "icon": "storm_ui_icon_malganis_fel_1.png",
-          "energyTooltip": "Мана: 50",
-          "cooldownTooltip": "Время восстановления: 9 сек.",
+          "energyTooltip": "Мана: 45",
+          "cooldownTooltip": "Время восстановления: 8 сек.",
           "shortTooltip": "Совершает несколько рывков вперед и наносит урон.",
           "fullTooltip": "Совершает рывок в указанном направлении, нанося противникам 69 (+4% за уровень) ед. урона.  «Когти Скверны» можно повторно использовать до 2 раз. Третий удар также оглушает противников на 0.75 сек.",
           "abilityType": "Q"
@@ -23754,7 +23754,7 @@
     "radius": 0.6875,
     "releaseDate": "2017-06-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -24227,7 +24227,7 @@
     "radius": 0.75,
     "releaseDate": "2016-06-14",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "MedivhTransformRaven",
@@ -24469,7 +24469,7 @@
           "fullTooltipId": "MedivhMysticAssault",
           "icon": "storm_ui_icon_medivh_arcanemissile.png",
           "shortTooltip": "«Магический раскол» усиливает автоатаки.",
-          "fullTooltip": "Когда «Магический раскол» поражает героя, следующая автоатака Медива в течение 6 сек. наносит на 40% больше урона и восполняет ему здоровье в объеме 40% от нанесенного урона.",
+          "fullTooltip": "Когда «Магический раскол» поражает героя, следующая автоатака Медива в течение 6 сек. наносит на 50% больше урона и восполняет ему здоровье в объеме 50% от нанесенного урона.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -24680,7 +24680,7 @@
           "icon": "storm_ui_icon_jaina_arcaneintellect.png",
           "cooldownTooltip": "Время восстановления: 60 сек.",
           "shortTooltip": "Усиливает способности союзников и дает им ману.",
-          "fullTooltip": "При использовании мгновенно восполняет союзным героям поблизости 200 ед. маны и увеличивает силу их способностей на 10% на 10 сек.",
+          "fullTooltip": "При использовании мгновенно восполняет союзным героям поблизости 200 ед. маны и увеличивает силу их способностей на 15% на 10 сек.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 4
@@ -24698,7 +24698,7 @@
           },
           "cooldownTooltip": "Время восстановления заряда: 10 сек.",
           "shortTooltip": "Дает союзному герою маскировку.",
-          "fullTooltip": "Дает союзному герою маскировку на 20 сек. Если этот герой остается неподвижным в состоянии маскировки в течение 1.5 сек., он становится невидимым.  Максимум – 2 заряда.",
+          "fullTooltip": "Дает союзному герою маскировку на 40 сек. Если этот герой остается неподвижным в состоянии маскировки в течение 1.5 сек., он становится невидимым.  Максимум – 2 заряда.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 5
@@ -24719,7 +24719,7 @@
     "radius": 0.75,
     "releaseDate": "2018-09-04",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -24871,7 +24871,7 @@
           "fullTooltipId": "MephistoLightningNovaFuriousSpark",
           "icon": "storm_ui_icon_mephisto_lightning.png",
           "shortTooltip": "«Кольцо молний» наносит дополнительный урон.",
-          "fullTooltip": "Каждый 5-й разряд «Кольца молний» по той же цели наносит на 90 (+4% за уровень) ед. больше урона.",
+          "fullTooltip": "Каждый 5-й разряд «Кольца молний» по той же цели наносит на 95 (+4% за уровень) ед. больше урона.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -24885,25 +24885,11 @@
           "fullTooltipId": "MephistoShadeOfMephistoMaliciousIntent",
           "icon": "storm_ui_icon_mephisto_shade.png",
           "shortTooltip": "«Тень Мефисто» усиливает способности.",
-          "fullTooltip": "Увеличивает силу способностей на 15%, пока существует тень Мефисто и в течение 2.5 сек. после ее исчезновения.",
+          "fullTooltip": "Увеличивает силу способностей на 20%, пока существует тень Мефисто и в течение 2.5 сек. после ее исчезновения.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
             "MephistoShadeOfMephisto"
-          ]
-        },
-        {
-          "nameId": "MephistoLordOfHatredAnger",
-          "name": "Гнев",
-          "shortTooltipId": "MephistoLordOfHatredAnger",
-          "fullTooltipId": "MephistoLordOfHatredAnger",
-          "icon": "storm_ui_icon_mephisto_hatred.png",
-          "shortTooltip": "Автоатаки активируют эффект «Владыки Ненависти».",
-          "fullTooltip": "Каждая автоатака по герою активирует эффект «Владыки Ненависти», сокращая время восстановления базовых способностей на 1 сек.",
-          "abilityType": "Passive",
-          "sort": 4,
-          "abilityTalentLinkIds": [
-            "MephistoLordOfHatred"
           ]
         }
       ],
@@ -24943,7 +24929,7 @@
           "fullTooltipId": "MephistoSpite",
           "icon": "storm_ui_icon_mephisto_hatred.png",
           "shortTooltip": "Сферы регенерации активируют эффект «Владыки Ненависти».",
-          "fullTooltip": "Сферы регенерации действуют на 100% дольше. Каждый такт регенерации активирует эффект «Владыки Ненависти», сокращая время восстановления базовых способностей на 0.5 сек.",
+          "fullTooltip": "Эффект исцеления от сфер регенерации действует на 125% дольше. Каждый такт исцеления от сфер регенерации активирует «Владыку Ненависти», сокращая время восстановления базовых способностей на 0.75 сек.",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -25066,8 +25052,8 @@
           "shortTooltipId": "MephistoShardOfHate",
           "fullTooltipId": "MephistoShardOfHate",
           "icon": "storm_ui_icon_mephisto_splash.png",
-          "shortTooltip": "Автоатаки наносят урон по области.",
-          "fullTooltip": "Автоатаки наносят урон противникам рядом с основной целью.",
+          "shortTooltip": "Автоатаки наносят урон по области и активируют «Владыку ненависти».",
+          "fullTooltip": "Автоатаки наносят урон противникам рядом с основной целью и при поражении героев активируют «Владыку ненависти», сокращая время восстановления базовых способностей на 1 сек. за каждого пораженного героя.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -25190,7 +25176,7 @@
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -25658,7 +25644,7 @@
     "radius": 0.625,
     "releaseDate": "2014-05-22",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -26111,7 +26097,7 @@
     "radius": 0.6875,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -26587,7 +26573,7 @@
     "radius": 0.625,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -27081,7 +27067,7 @@
     "radius": 0.625,
     "releaseDate": "2018-11-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -27221,7 +27207,7 @@
           "fullTooltipId": "OrpheaEnPointe",
           "icon": "storm_ui_icon_orphea_q.png",
           "shortTooltip": "«Вальс теней» наносит дополнительный урон острием когтя.",
-          "fullTooltip": "«Вальс теней» наносит на 75% больше урона противникам, пораженным острием когтя.",
+          "fullTooltip": "«Вальс теней» наносит на 90% больше урона противникам, пораженным острием когтя.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -27234,8 +27220,8 @@
           "shortTooltipId": "OrpheaGrowingNightmare",
           "fullTooltipId": "OrpheaGrowingNightmare",
           "icon": "storm_ui_icon_orphea_e.png",
-          "shortTooltip": "Увеличивает урон от взрыва «Ужаса» при попаданиях по героям.",
-          "fullTooltip": "Увеличивает урон от взрыва «Ужаса» на 20% за каждого пораженного его волной героя.",
+          "shortTooltip": "Увеличивает урон от взрыва «Ужаса» при попадании по нескольким героям.",
+          "fullTooltip": "Когда волна «Ужаса» поражает 2 и более героев, урон от ее взрыва увеличивается на 60%.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -27265,7 +27251,7 @@
           "fullTooltipId": "OrpheaAllegrissimo",
           "icon": "storm_ui_icon_orphea_q.png",
           "shortTooltip": "Дополнительно ускоряет восстановление «Вальса теней» при попадании острием когтя.",
-          "fullTooltip": "При попадании по героям острием когтя «Вальса теней» время его восстановления сокращается до 1 сек.",
+          "fullTooltip": "При попадании по героям острием когтя «Вальса теней» время его восстановления сокращается до 0.75 сек.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -27279,7 +27265,7 @@
           "fullTooltipId": "OrpheaBackbiter",
           "icon": "storm_ui_icon_orphea_w.png",
           "shortTooltip": "Когда «Хрум» поражает героя, Орфея отскакивает назад. Увеличивает запас здоровья.",
-          "fullTooltip": "Когда «Хрум» поражает героя, Орфея мгновенно совершает короткий рывок назад.  Пассивный эффект: увеличивает максимальный запас здоровья на 10%.",
+          "fullTooltip": "Когда «Хрум» поражает героя, Орфея мгновенно совершает короткий рывок назад.  Пассивный эффект: увеличивает максимальный запас здоровья на 15%.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -27309,7 +27295,7 @@
           "fullTooltipId": "OrpheaInsatiable",
           "icon": "storm_ui_icon_orphea_w.png",
           "shortTooltip": "Попадания по героям ускоряют восстановление «Хрума».",
-          "fullTooltip": "Попадания по героям «Хрумом» сокращают время его восстановления до 2 сек.",
+          "fullTooltip": "Попадания по героям «Хрумом» сокращают время его восстановления до 1.5 сек.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -27551,7 +27537,7 @@
     "radius": 0.6875,
     "releaseDate": "2017-03-14",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "ProbiusWorkerRush",
@@ -27692,7 +27678,7 @@
           "icon": "storm_ui_icon_probius_mount.png",
           "cooldownTooltip": "Время восстановления: 30 сек.",
           "shortTooltip": "Пассивно повышает скорость. Дает бонус к скорости при использовании.",
-          "fullTooltip": "При использовании повышает скорость передвижения еще на 60% на 5 сек. Рассеивается при получении урона. «Ускорение» активно все время, пока Пробиус находится в Зале Штормов.  Пассивный эффект: Пробиус передвигается на 10% быстрее.",
+          "fullTooltip": "При использовании повышает скорость передвижения еще на 60% на 5 сек. Рассеивается при получении урона. «Ускорение» активно все время, пока Пробиус находится в Зале Штормов.  Пассивный эффект: Пробиус передвигается на 9% быстрее.",
           "abilityType": "Z"
         }
       ]
@@ -27766,7 +27752,7 @@
           "fullTooltipId": "ProbiusTurboChargedWorkerRushTalent",
           "icon": "storm_ui_icon_probius_workerrush.png",
           "shortTooltip": "Ускоряет передвижение и восстановление «Ускорения».",
-          "fullTooltip": "Уменьшает время восстановления «Ускорения» на 10 сек. В энергетическом поле пассивный эффект «Ускорения» повышает скорость передвижения Пробиуса еще на 10%.",
+          "fullTooltip": "Уменьшает время восстановления «Ускорения» на 10 сек. В энергетическом поле пассивный эффект «Ускорения» повышает скорость передвижения Пробиуса еще на 9%.",
           "abilityType": "Z",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -28043,7 +28029,7 @@
     "radius": 1.0,
     "releaseDate": "2016-12-14",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -28506,7 +28492,7 @@
           "cUnitId": "RagnarosBigRag",
           "radius": 3.0,
           "sight": 12.0,
-          "speed": 4.3984,
+          "speed": 4.8398,
           "type": "Дальний бой",
           "life": {
             "amount": 3996.0,
@@ -28573,7 +28559,7 @@
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
@@ -29044,7 +29030,7 @@
     "radius": 0.75,
     "releaseDate": "2014-07-22",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "RehgarGhostWolfActivate",
@@ -29191,20 +29177,6 @@
     "talents": {
       "level1": [
         {
-          "nameId": "RehgarEarthbindTotemColossalTotem",
-          "name": "Мощный тотем",
-          "shortTooltipId": "RehgarEarthbindTotemColossalTotem",
-          "fullTooltipId": "RehgarEarthbindTotemColossalTotem",
-          "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
-          "shortTooltip": "Увеличивает область действия и дальность применения тотема.",
-          "fullTooltip": "Увеличивает область действия и дальность применения «Тотема оков земли» на 50%.",
-          "abilityType": "E",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "RehgarEarthbindTotem"
-          ]
-        },
-        {
           "nameId": "RehgarLightningShieldElectricCharge",
           "name": "Электрический заряд",
           "shortTooltipId": "RehgarLightningShieldElectricCharge",
@@ -29213,9 +29185,23 @@
           "shortTooltip": "Увеличивает радиус действия «Щита молний».",
           "fullTooltip": "Увеличивает радиус действия «Щита молний» на 25%.",
           "abilityType": "W",
-          "sort": 2,
+          "sort": 1,
           "abilityTalentLinkIds": [
             "RehgarLightningShield"
+          ]
+        },
+        {
+          "nameId": "RehgarEarthbindTotemColossalTotem",
+          "name": "Мощный тотем",
+          "shortTooltipId": "RehgarEarthbindTotemColossalTotem",
+          "fullTooltipId": "RehgarEarthbindTotemColossalTotem",
+          "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
+          "shortTooltip": "Увеличивает область действия и дальность применения тотема.",
+          "fullTooltip": "Увеличивает область действия и дальность применения «Тотема оков земли» на 50%.",
+          "abilityType": "E",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "RehgarEarthbindTotem"
           ]
         },
         {
@@ -29235,17 +29221,31 @@
       ],
       "level4": [
         {
-          "nameId": "RehgarMasterySpiritwalkersGrace",
-          "name": "Благосклонность предков",
-          "shortTooltipId": "RehgarChainHealSpiritwalkersGraceTalent",
-          "fullTooltipId": "RehgarChainHealSpiritwalkersGraceTalent",
-          "icon": "storm_ui_icon_rehgar_chainheal.png",
-          "shortTooltip": "Снижает стоимость «Цепного исцеления».",
-          "fullTooltip": "Снижает стоимость «Цепного исцеления» с 55 до 40 ед. маны.",
-          "abilityType": "Q",
+          "nameId": "RehgarLightningShieldStormcaller",
+          "name": "Призыватель бурь",
+          "shortTooltipId": "RehgarLightningShieldStormcaller",
+          "fullTooltipId": "RehgarLightningShieldStormcaller",
+          "icon": "storm_ui_icon_rehgar_lightningshield.png",
+          "shortTooltip": "«Щит молний» восполняет ману.",
+          "fullTooltip": "Каждый раз, когда «Щит молний» наносит урон противнику, Регар восполняет 4 ед. маны. Максимум – 100 ед.",
+          "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "RehgarChainHeal"
+            "RehgarLightningShield"
+          ]
+        },
+        {
+          "nameId": "RehgarTotemicProjection",
+          "name": "Проецирование тотемов",
+          "shortTooltipId": "RehgarTotemicProjectionTalent",
+          "fullTooltipId": "RehgarTotemicProjectionTalent",
+          "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
+          "shortTooltip": "Тотем оков земли можно переместить.",
+          "fullTooltip": "Увеличивает время существования тотема оков земли с 8 до 12 сек. и позволяет при повторном использовании один раз перенести его на новое место.",
+          "abilityType": "E",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "RehgarEarthbindTotem"
           ]
         },
         {
@@ -29257,23 +29257,9 @@
           "shortTooltip": "В облике призрачного волка здоровье и мана восстанавливаются быстрее.",
           "fullTooltip": "Пока Регар находится в облике призрачного волка, скорость восстановления его здоровья и маны повышается на 75%.",
           "abilityType": "Z",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "RehgarGhostWolf"
-          ]
-        },
-        {
-          "nameId": "RehgarLightningShieldStormcaller",
-          "name": "Призыватель бурь",
-          "shortTooltipId": "RehgarLightningShieldStormcaller",
-          "fullTooltipId": "RehgarLightningShieldStormcaller",
-          "icon": "storm_ui_icon_rehgar_lightningshield.png",
-          "shortTooltip": "«Щит молний» восполняет ману.",
-          "fullTooltip": "Каждый раз, когда «Щит молний» наносит урон противнику, Регар восполняет 4 ед. маны. Максимум – 100 ед.",
-          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "RehgarLightningShield"
+            "RehgarGhostWolf"
           ]
         },
         {
@@ -29330,20 +29316,6 @@
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
-        },
-        {
-          "nameId": "RehgarTotemicProjection",
-          "name": "Проецирование тотемов",
-          "shortTooltipId": "RehgarTotemicProjectionTalent",
-          "fullTooltipId": "RehgarTotemicProjectionTalent",
-          "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
-          "shortTooltip": "Тотем оков земли можно переместить.",
-          "fullTooltip": "Увеличивает время существования тотема оков земли с 8 до 12 сек. и позволяет при повторном использовании один раз перенести его на новое место.",
-          "abilityType": "E",
-          "sort": 4,
-          "abilityTalentLinkIds": [
-            "RehgarEarthbindTotem"
-          ]
         }
       ],
       "level10": [
@@ -29384,29 +29356,15 @@
       ],
       "level13": [
         {
-          "nameId": "RehgarLightningShieldEarthShield",
-          "name": "Щит земли",
-          "shortTooltipId": "RehgarLightningShieldEarthShield",
-          "fullTooltipId": "RehgarLightningShieldEarthShield",
-          "icon": "storm_ui_icon_rehgar_lightningshield.png",
-          "shortTooltip": "Укрывает цель щитом.",
-          "fullTooltip": "«Щит молний» также дает героям щит, поглощающий урон в объеме 12% от максимального запаса здоровья цели в течение 3 сек.",
-          "abilityType": "W",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "RehgarLightningShield"
-          ]
-        },
-        {
           "nameId": "RehgarMasteryTidalWaves",
           "name": "Приливные волны",
           "shortTooltipId": "RehgarChainHealTidalWavesTalent",
           "fullTooltipId": "RehgarChainHealTidalWavesTalent",
           "icon": "storm_ui_icon_rehgar_chainheal.png",
-          "shortTooltip": "Ускоряет восстановление «Цепного исцеления».",
-          "fullTooltip": "Сокращает время восстановления «Цепного исцеления» на 0,75 сек. за каждого героя, попавшего под его воздействие.",
+          "shortTooltip": "Ускоряет восстановление «Цепного исцеления» и снижает его стоимость.",
+          "fullTooltip": "Сокращает время восстановления «Цепного исцеления» на 0,75 сек. за каждого исцеленного героя и снижает его стоимость с 55 до 40 ед. маны.",
           "abilityType": "Q",
-          "sort": 2,
+          "sort": 1,
           "abilityTalentLinkIds": [
             "RehgarChainHeal"
           ]
@@ -29420,13 +29378,41 @@
           "shortTooltip": "«Цепное исцеление» эффективнее лечит героев с низким уровнем здоровья.",
           "fullTooltip": "Если «Цепное исцеление» действует на героя, у которого осталось менее 50% здоровья, оно дополнительно восполняет 225 (+4% за уровень) ед. здоровья в течение 5 сек.",
           "abilityType": "Q",
-          "sort": 3,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "RehgarChainHeal"
+          ]
+        },
+        {
+          "nameId": "RehgarLightningShieldEarthShield",
+          "name": "Щит земли",
+          "shortTooltipId": "RehgarLightningShieldEarthShield",
+          "fullTooltipId": "RehgarLightningShieldEarthShield",
+          "icon": "storm_ui_icon_rehgar_lightningshield.png",
+          "shortTooltip": "Укрывает цель щитом.",
+          "fullTooltip": "«Щит молний» также дает героям щит, поглощающий урон в объеме 12% от максимального запаса здоровья цели в течение 3 сек.",
+          "abilityType": "W",
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "RehgarLightningShield"
           ]
         }
       ],
       "level16": [
+        {
+          "nameId": "RehgarLightningShieldRisingStorm",
+          "name": "Нарастающая буря",
+          "shortTooltipId": "RehgarLightningShieldRisingStorm",
+          "fullTooltipId": "RehgarLightningShieldRisingStorm",
+          "icon": "storm_ui_icon_rehgar_lightningshield.png",
+          "shortTooltip": "Увеличивает урон «Щита молний» при каждом попадании.",
+          "fullTooltip": "Укрывая союзника «Щитом молний», Регар получает тот же эффект, но без учета бонусов от талантов. Каждый раз, когда «Щит молний» Регара или союзника наносит урон герою, урон от обоих «Щитов молний» увеличивается на 10%. Суммируется до 15 раз.",
+          "abilityType": "W",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "RehgarLightningShield"
+          ]
+        },
         {
           "nameId": "RehgarEarthbindTotemEarthgraspTotem",
           "name": "Тотем хватки земли",
@@ -29436,7 +29422,7 @@
           "shortTooltip": "Усиливает начальное замедление от «Тотема оков земли».",
           "fullTooltip": "В момент размещения «Тотем оков земли» замедляет находящихся рядом противников на 90% на 1 сек.",
           "abilityType": "E",
-          "sort": 1,
+          "sort": 2,
           "abilityTalentLinkIds": [
             "RehgarEarthbindTotem"
           ]
@@ -29450,23 +29436,9 @@
           "shortTooltip": "Атаки в облике волка наносят больше урона и исцеляют Регара.",
           "fullTooltip": "Автоатаки в облике призрачного волка наносят героям дополнительный урон в объеме 5% от их максимального запаса здоровья и восполняют Регару 5% от его максимального запаса здоровья.",
           "abilityType": "Z",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "RehgarGhostWolf"
-          ]
-        },
-        {
-          "nameId": "RehgarLightningShieldRisingStorm",
-          "name": "Нарастающая буря",
-          "shortTooltipId": "RehgarLightningShieldRisingStorm",
-          "fullTooltipId": "RehgarLightningShieldRisingStorm",
-          "icon": "storm_ui_icon_rehgar_lightningshield.png",
-          "shortTooltip": "Увеличивает урон «Щита молний» при каждом попадании.",
-          "fullTooltip": "Укрывая союзника «Щитом молний», Регар получает тот же эффект, но без учета бонусов от талантов. Каждый раз, когда «Щит молний» Регара или союзника наносит урон герою, урон от обоих «Щитов молний» увеличивается на 10%. Суммируется до 15 раз.",
-          "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "RehgarLightningShield"
+            "RehgarGhostWolf"
           ]
         }
       ],
@@ -29541,7 +29513,7 @@
     "radius": 0.875,
     "releaseDate": "2015-09-08",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -30024,7 +29996,7 @@
     "radius": 0.6875,
     "releaseDate": "2016-10-18",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -30480,7 +30452,7 @@
     "radius": 1.1875,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SgtHammerThrusters",
@@ -30954,7 +30926,7 @@
     "radius": 0.75,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -30978,9 +30950,9 @@
       "target": "ui_targetportrait_hero_barbarian.png"
     },
     "life": {
-      "amount": 2341.0,
+      "amount": 2450.0,
       "scale": 0.04,
-      "regenRate": 4.879,
+      "regenRate": 5.1054,
       "regenScale": 0.04
     },
     "energy": {
@@ -31408,7 +31380,7 @@
     "radius": 1.0625,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -31885,7 +31857,7 @@
     "radius": 0.6875,
     "releaseDate": "2017-07-11",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -32385,7 +32357,7 @@
     "radius": 0.625,
     "releaseDate": "2015-03-24",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -32847,7 +32819,7 @@
     "radius": 0.8125,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -33307,7 +33279,7 @@
     "radius": 0.9375,
     "releaseDate": "2015-06-30",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -33751,7 +33723,7 @@
     "radius": 0.75,
     "releaseDate": "2015-01-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -34220,7 +34192,7 @@
     "radius": 0.625,
     "releaseDate": "2016-04-19",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -34652,7 +34624,7 @@
     "radius": 0.8125,
     "releaseDate": "2014-03-18",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -35163,7 +35135,7 @@
     "radius": 0.75,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -35618,7 +35590,7 @@
     "radius": 0.625,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -36093,7 +36065,7 @@
     "radius": 0.75,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -36573,7 +36545,7 @@
     "radius": 0.625,
     "releaseDate": "2017-01-24",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -36754,7 +36726,7 @@
           "fullTooltipId": "ValeeraVigor",
           "icon": "storm_ui_icon_talent_conjurerspursuit.png",
           "shortTooltip": "Задача: сферы регенерации увеличивают максимальный запас энергии.",
-          "fullTooltip": "Валира дополнительно восстанавливает 2.5 ед. энергии в секунду.  Награда: после подбора 20 сфер регенерации максимальный запас энергии увеличится до 120 ед.",
+          "fullTooltip": "Валира дополнительно восстанавливает 3 ед. энергии в секунду.  Награда: после подбора 20 сфер регенерации максимальный запас энергии увеличится до 120 ед.",
           "abilityType": "Passive",
           "isQuest": true,
           "sort": 1
@@ -36766,7 +36738,7 @@
           "fullTooltipId": "ValeeraSubtlety",
           "icon": "storm_ui_icon_valeera_vanish.png",
           "shortTooltip": "Способности, применяемые в состоянии маскировки, ускоряют восстановление энергии.",
-          "fullTooltip": "Когда Валира переносится к цели с помощью «Внезапного удара», «Подлого трюка» или «Гарроты», она дополнительно восстанавливает 8 ед. энергии в секунду в течение 5 сек.",
+          "fullTooltip": "Когда Валира переносится к цели с помощью «Внезапного удара», «Подлого трюка» или «Гарроты», она дополнительно восстанавливает 10 ед. энергии в секунду в течение 5 сек.",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -36821,7 +36793,7 @@
           "fullTooltipId": "ValeeraHemorrhage",
           "icon": "storm_ui_icon_valeera_garrote.png",
           "shortTooltip": "«Гаррота» увеличивает урон от автоатак.",
-          "fullTooltip": "Автоатаки Валиры наносят на 30% больше урона противникам, находящимся под воздействием «Гарроты».",
+          "fullTooltip": "Автоатаки Валиры наносят на 40% больше урона противникам, находящимся под воздействием «Гарроты».",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -36834,8 +36806,8 @@
           "shortTooltipId": "ValeeraInitiative",
           "fullTooltipId": "ValeeraInitiative",
           "icon": "storm_ui_icon_valeera_vanish.png",
-          "shortTooltip": "Способности, используемые в состоянии маскировки, добавляют к серии больше приемов.",
-          "fullTooltip": "«Внезапный удар», «Подлый трюк» и «Гаррота» увеличивают длину серии приемов на 2.",
+          "shortTooltip": "Под маскировкой способности ускоряют передвижение и дают больше приемов.",
+          "fullTooltip": "«Внезапный удар», «Подлый трюк» и «Гаррота» повышают скорость передвижения на 15% на 3 сек. и увеличивают длину серии приемов на 2.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -36879,7 +36851,7 @@
           "fullTooltipId": "ValeeraFatalFinesse",
           "icon": "storm_ui_icon_valeera_bladeflurry.png",
           "shortTooltip": "Задача: поражайте героев «Шквалом клинков».",
-          "fullTooltip": "Задача: поражайте вражеских героев «Шквалом клинков», чтобы увеличить наносимый им урон на 4 ед., вплоть до 80 ед.  Награда: после 20 попаданий по героям затраты энергии на применение «Шквала клинков» уменьшатся на 20 ед. до конца матча.",
+          "fullTooltip": "Задача: поражайте вражеских героев «Шквалом клинков», чтобы увеличить наносимый им урон на 6 ед., вплоть до 90 ед.  Награда: после 15 попаданий по героям затраты энергии на применение «Шквала клинков» уменьшатся на 20 ед. до конца матча.",
           "abilityType": "W",
           "isQuest": true,
           "sort": 2,
@@ -37015,7 +36987,7 @@
           "shortTooltipId": "ValeeraThistleTea",
           "fullTooltipId": "ValeeraThistleTea",
           "icon": "storm_ui_icon_valeera_thistletea.png",
-          "cooldownTooltip": "Время восстановления: 60 сек.",
+          "cooldownTooltip": "Время восстановления: 40 сек.",
           "shortTooltip": "Мгновенно восстанавливает энергию.",
           "fullTooltip": "При использовании мгновенно восстанавливает 100 ед. энергии.  Активация «Скорополохового чая» не выводит из маскировки.",
           "abilityType": "Active",
@@ -37096,7 +37068,7 @@
     "radius": 0.625,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Rare",
     "mountLinkId": "SummonMount",
@@ -37118,9 +37090,9 @@
       "target": "ui_targetportrait_hero_demonhunter.png"
     },
     "life": {
-      "amount": 1273.0,
+      "amount": 1340.0,
       "scale": 0.04,
-      "regenRate": 2.6523,
+      "regenRate": 2.793,
       "regenScale": 0.04
     },
     "energy": {
@@ -37261,7 +37233,7 @@
           "fullTooltipId": "DemonHunterVaultCaltropsTalent",
           "icon": "storm_ui_icon_valla_vault.png",
           "shortTooltip": "Разбрасывает шипы при «Кульбите». Задача: усильте «Кульбит» ненавистью.",
-          "fullTooltip": "Разбрасывает 3 шипа при выполнении «Кульбита». Шипы наносят противникам 60 (+4% за уровень) ед. урона и замедляют их на 25% на 1 сек.  Задача: на протяжении 160 сек. поддерживайте 10 эффектов «Ненависти».  Награда: время восстановления «Кульбита» сократится на 5 сек.",
+          "fullTooltip": "Разбрасывает 3 шипа при выполнении «Кульбита». Шипы наносят противникам 60 (+4% за уровень) ед. урона и замедляют их на 40% на 1 сек.  Задача: на протяжении 160 сек. поддерживайте 10 эффектов «Ненависти».  Награда: время восстановления «Кульбита» сократится на 5 сек.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 2,
@@ -37483,8 +37455,8 @@
           "shortTooltipId": "DemonHunterSeethingHatred",
           "fullTooltipId": "DemonHunterSeethingHatred",
           "icon": "storm_ui_icon_valla_hatred.png",
-          "shortTooltip": "Эффекты «Ненависти» накапливаются быстрее и действуют дольше.",
-          "fullTooltip": "При автоатаке Валла накапливает 2 эффекта «Ненависти», а временной интервал, после которого эффекты «Ненависти» начинают убывать, увеличивается на 2 сек.",
+          "shortTooltip": "Максимум «Ненависти» усиливает способности. «Ненависть» накапливается быстрее.",
+          "fullTooltip": "При 10 эффектах «Ненависти» усиливает способности на 15%. Автоатаки дают 2 эффект,эффекта,эффектов «Ненависти».",
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -37573,7 +37545,7 @@
     "radius": 0.75,
     "releaseDate": "2016-11-15",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -38059,7 +38031,7 @@
     "radius": 0.625,
     "releaseDate": "2018-08-07",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -38524,7 +38496,7 @@
     "radius": 0.6875,
     "releaseDate": "2016-03-01",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -38996,7 +38968,7 @@
     "radius": 0.75,
     "releaseDate": "2018-06-12",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -39202,9 +39174,9 @@
           "shortTooltipId": "YrelHandOfFreedom",
           "fullTooltipId": "YrelHandOfFreedom",
           "icon": "storm_ui_icon_yrel_hand_of_freedom.png",
-          "cooldownTooltip": "Время восстановления: 22 сек.",
+          "cooldownTooltip": "Время восстановления: 20 сек.",
           "shortTooltip": "Ускоряет передвижение, а также снимает эффекты замедления и обездвиживания.",
-          "fullTooltip": "Повышает скорость передвижения союзного героя на 50% на 3 сек. и снимает с него эффекты замедления и обездвиживания.  Не действует на Ирель.",
+          "fullTooltip": "Повышает скорость передвижения союзного героя на 35% на 3 сек. и снимает с него эффекты замедления и обездвиживания.",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -39217,8 +39189,8 @@
           "shortTooltipId": "YrelRighteousHammerRighteousMomentum",
           "fullTooltipId": "YrelRighteousHammerRighteousMomentum",
           "icon": "storm_ui_icon_yrel_righteous_hammer.png",
-          "shortTooltip": "«Молот праведницы» может ускорить передвижение.",
-          "fullTooltip": "Подготовка «Молота праведницы» не замедляет Ирель. При максимальной подготовке она получает бонус к скорости передвижения в 25%.",
+          "shortTooltip": "«Молот праведницы» ускоряет передвижение.",
+          "fullTooltip": "Повышает скорость передвижения на 5%. Подготовка «Молота праведницы» не замедляет Ирель, вместо этого бонус к скорости передвижения увеличивается в четыре раза.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -39252,17 +39224,6 @@
           "abilityTalentLinkIds": [
             "SummonMount"
           ]
-        },
-        {
-          "nameId": "YrelSamaarasLight",
-          "name": "Свет Самаары",
-          "shortTooltipId": "YrelSamaarasLight",
-          "fullTooltipId": "YrelSamaarasLight",
-          "icon": "storm_ui_icon_yrel_samaaras_light.png",
-          "shortTooltip": "Ускоряет передвижение при высоком уровне здоровья.",
-          "fullTooltip": "Пока у Ирель больше 50% здоровья, ее скорость передвижения повышается на 15%.",
-          "abilityType": "Passive",
-          "sort": 4
         }
       ],
       "level10": [
@@ -39309,7 +39270,7 @@
           "fullTooltipId": "YrelVindicationAldorPeacekeeper",
           "icon": "storm_ui_icon_yrel_vindication.png",
           "shortTooltip": "«Оправдание» может уменьшить наносимый противниками урон.",
-          "fullTooltip": "Герои, пораженные «Оправданием» после максимальной подготовки, в течение 3 сек. наносят на 30% меньше урона.",
+          "fullTooltip": "Герои, пораженные «Оправданием» после максимальной подготовки, в течение 3 сек. наносят на 40% меньше урона.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -39323,7 +39284,7 @@
           "fullTooltipId": "YrelAvengingWrathRepentance",
           "icon": "storm_ui_icon_yrel_avenging_wrath.png",
           "shortTooltip": "Усиливает и продлевает эффект замедления от «Гнева карательницы».",
-          "fullTooltip": "Повышает эффективность замедления от «Гнева карательницы» на 25% и увеличивает время его действия на 0.5 сек.",
+          "fullTooltip": "Повышает эффективность замедления от «Гнева карательницы» на 25% и увеличивает время его действия на 0.75 сек.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -39350,7 +39311,7 @@
           "fullTooltipId": "YrelRighteousHammerTemplarsVerdict",
           "icon": "storm_ui_icon_yrel_righteous_hammer.png",
           "shortTooltip": "«Молот праведницы» ослабляет броню и наносит процентный урон.",
-          "fullTooltip": "«Молот праведницы» ослабляет броню пораженных героев на 20 ед. на 4 сек. и наносит дополнительный урон в объеме 4% от максимального запаса здоровья цели.",
+          "fullTooltip": "«Молот праведницы» ослабляет броню пораженных героев на 20 ед. на 4 сек. и наносит дополнительный урон в объеме 6% от максимального запаса здоровья цели.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -39454,7 +39415,7 @@
     "radius": 1.125,
     "releaseDate": "2014-06-25",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -39915,7 +39876,7 @@
     "radius": 0.8125,
     "releaseDate": "2016-09-27",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Epic",
     "mountLinkId": "SummonMount",
@@ -40444,7 +40405,7 @@
     "radius": 0.75,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "ближний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
@@ -40618,7 +40579,7 @@
           "fullTooltipId": "ZeratulShadowHunter",
           "icon": "storm_ui_icon_zeratul_blink.png",
           "shortTooltip": "Задача: подбирайте сферы регенерации, чтобы усилить «Скачок».",
-          "fullTooltip": "Задача: каждая подобранная сфера регенерации снижает стоимость «Скачка» на 3 ед. маны, вплоть до 45 ед.  Награда: после подбора 15 сфер каждая автоатака будет сокращать время восстановления «Скачка» на 1 сек.",
+          "fullTooltip": "Задача: каждая подобранная сфера регенерации снижает стоимость «Скачка» на 3 ед. маны, вплоть до 45 ед.  Награда: после подбора 15 сфер каждая автоатака будет сокращать время восстановления «Скачка» на 1.5 сек.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 2,
@@ -40632,8 +40593,8 @@
           "shortTooltipId": "ZeratulMoveUnseen",
           "fullTooltipId": "ZeratulMoveUnseen",
           "icon": "storm_ui_icon_zeratul_cloak.png",
-          "shortTooltip": "Ускоряет передвижение во время маскировки.",
-          "fullTooltip": "Под маскировкой Зератул передвигается на 30% быстрее.",
+          "shortTooltip": "Ускоряет восстановление маскировки и передвижение под маскировкой.",
+          "fullTooltip": "Уменьшает время восстановления «Постоянной маскировки» на 1 сек. Под маскировкой Зератул передвигается на 30% быстрее.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -40689,7 +40650,7 @@
           "fullTooltipId": "ZeratulWormholeTalent",
           "icon": "storm_ui_icon_zeratul_blink.png",
           "shortTooltip": "Позволяет вернуться на исходную позицию.",
-          "fullTooltip": "В течение 3 сек. «Скачок» можно использовать повторно, чтобы вернуться в первоначальную точку.",
+          "fullTooltip": "Спустя 1.25 сек. «Скачок» в течение 4 сек. можно использовать повторно, чтобы вернуться в точку, где он использовался.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -40717,7 +40678,7 @@
           "fullTooltipId": "ZeratulWarpSkirmisher",
           "icon": "storm_ui_icon_zeratul_vorpalblade.png",
           "shortTooltip": "«Карающий клинок» получает дополнительный заряд.",
-          "fullTooltip": "«Карающий клинок» получает дополнительный заряд. Первая автоатака Зератула, проведенная в течение 6 сек. после телепортации к противнику с помощью «Карающего клинка», наносит на 40% больше урона.",
+          "fullTooltip": "«Карающий клинок» получает еще один заряд. Первая автоатака Зератула после телепортации к противнику с помощью «Карающего клинка» или после перехода в «Постоянную маскировку» наносит на 50% больше урона.",
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -40837,7 +40798,7 @@
           "fullTooltipId": "ZeratulSentencedtoDeath",
           "icon": "storm_ui_icon_zeratul_singularityspike.png",
           "shortTooltip": "Наносит дополнительный урон отмеченным целям.",
-          "fullTooltip": "Зератул наносит на 30% больше урона противникам, пораженным «Сингулярным шипом».",
+          "fullTooltip": "Зератул наносит на 25% больше урона противникам, отмеченным или замедленным «Сингулярным шипом».",
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -40912,7 +40873,7 @@
     "radius": 0.75,
     "releaseDate": "2017-01-04",
     "sight": 12.0,
-    "speed": 4.3984,
+    "speed": 4.8398,
     "type": "Дальний бой",
     "rarity": "Legendary",
     "mountLinkId": "SummonMount",
