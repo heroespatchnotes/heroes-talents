@@ -509,6 +509,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AbathurUltimateEvolution"
+          ],
+          "prerequisiteTalentIds": [
+            "AbathurHeroicAbilityUltimateEvolution"
           ]
         },
         {
@@ -522,6 +525,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "AbathurEvolveMonstrosity"
+          ],
+          "prerequisiteTalentIds": [
+            "AbathurHeroicAbilityEvolveMonstrosity"
           ]
         },
         {
@@ -1181,7 +1187,10 @@
           "fullTooltip": "亞拉瑞克指定一塊目標區域並且引導1秒，在引導時間內受到保護並且對控場免疫。若在這段期間內受到敵方英雄攻擊，亞拉瑞克會施放一道震波，造成275 (+4% per level)點傷害。  此技能會取代原本的特性按鍵。",
           "abilityType": "Heroic",
           "isActive": true,
-          "sort": 1
+          "sort": 1,
+          "prerequisiteTalentIds": [
+            "AlarakDeadlyChargeFirstHeroic"
+          ]
         },
         {
           "nameId": "AlarakDeadlyChargeSecondHeroic",
@@ -1198,6 +1207,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate"
+          ],
+          "prerequisiteTalentIds": [
+            "AlarakHeroicAbilityCounterStrike"
           ]
         },
         {
@@ -1679,6 +1691,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AlexstraszaLifebinder"
+          ],
+          "prerequisiteTalentIds": [
+            "AlexstraszaLifebinder"
           ]
         },
         {
@@ -1693,6 +1708,9 @@
           "abilityTalentLinkIds": [
             "AlexstraszaCleansingFlame",
             "AlexstraszaCleansingFlameDragonqueen"
+          ],
+          "prerequisiteTalentIds": [
+            "AlexstraszaCleansingFlame"
           ]
         },
         {
@@ -2244,9 +2262,7 @@
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "AmazonFend",
-            "AmazonFendApproach",
-            "AmazonFendChannel"
+            "AmazonFend"
           ]
         },
         {
@@ -2363,9 +2379,7 @@
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "AmazonFend",
-            "AmazonFendApproach",
-            "AmazonFendChannel"
+            "AmazonFend"
           ]
         }
       ],
@@ -2400,9 +2414,7 @@
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "AmazonFend",
-            "AmazonFendApproach",
-            "AmazonFendChannel"
+            "AmazonFend"
           ]
         },
         {
@@ -2428,6 +2440,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AmazonBallLightning"
+          ],
+          "prerequisiteTalentIds": [
+            "AmazonBallLightning"
           ]
         },
         {
@@ -2440,6 +2455,9 @@
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "AmazonValkyrie"
+          ],
+          "prerequisiteTalentIds": [
             "AmazonValkyrie"
           ]
         },
@@ -2775,8 +2793,7 @@
           "sort": 3,
           "abilityTalentLinkIds": [
             "AnaAimDownSightsDeactivate",
-            "AnaAimDownSightsActivate",
-            "AnaTraitShrikeSniper"
+            "AnaAimDownSightsActivate"
           ]
         }
       ],
@@ -2858,8 +2875,7 @@
           "sort": 3,
           "abilityTalentLinkIds": [
             "AnaAimDownSightsDeactivate",
-            "AnaAimDownSightsActivate",
-            "AnaTraitShrikeSniper"
+            "AnaAimDownSightsActivate"
           ]
         }
       ],
@@ -2908,7 +2924,6 @@
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "AnaHealingDartDetachableBoxMagazine",
             "AnaHealingDart"
           ]
         },
@@ -2922,7 +2937,6 @@
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "AnaHealingDartDetachableBoxMagazine",
             "AnaHealingDart"
           ]
         },
@@ -2936,7 +2950,6 @@
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "AnaHealingDartDetachableBoxMagazine",
             "AnaHealingDart"
           ]
         }
@@ -2952,7 +2965,6 @@
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "AnaHealingDartDetachableBoxMagazine",
             "AnaHealingDart"
           ]
         },
@@ -2966,7 +2978,6 @@
           "abilityType": "Q",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "AnaHealingDartDetachableBoxMagazine",
             "AnaHealingDart"
           ]
         },
@@ -2983,7 +2994,6 @@
           "isActive": true,
           "sort": 3,
           "abilityTalentLinkIds": [
-            "AnaHealingDartDetachableBoxMagazine",
             "AnaHealingDart"
           ]
         }
@@ -3000,6 +3010,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AnaNanoBoost"
+          ],
+          "prerequisiteTalentIds": [
+            "AnaHeroicAbilityNanaBoost"
           ]
         },
         {
@@ -3013,6 +3026,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "AnaEyeOfHorusActivate"
+          ],
+          "prerequisiteTalentIds": [
+            "AnaHeroicAbilityEyeOfHorus"
           ]
         },
         {
@@ -3530,6 +3546,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AnduinHolyWordSalvation"
+          ],
+          "prerequisiteTalentIds": [
+            "AnduinHolyWordSalvation"
           ]
         },
         {
@@ -3707,6 +3726,18 @@
           "abilityType": "Heroic"
         }
       ],
+      "trait": [
+        {
+          "nameId": "AnubarakLegionOfBeetlesVisual",
+          "buttonId": "AnubarakScarabHostTrait",
+          "name": "甲蟲宿主",
+          "icon": "storm_ui_icon_anubarak_scarabhost.png",
+          "cooldownTooltip": "冷卻時間：8秒",
+          "shortTooltip": "每次施放技能時會孵化一隻甲蟲",
+          "fullTooltip": "每次施放技能時，都會在當下位置孵化出一隻甲蟲。甲蟲的存在時間為8秒，會攻擊附近的敵人，造成20 (+4% per level)點傷害。",
+          "abilityType": "Trait"
+        }
+      ],
       "mount": [
         {
           "nameId": "Mount",
@@ -3807,8 +3838,7 @@
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "AnubarakLegionOfBeetlesVisual",
-            "AnubarakLegionOfBeetles"
+            "AnubarakLegionOfBeetlesVisual"
           ]
         },
         {
@@ -3901,8 +3931,7 @@
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "AnubarakLegionOfBeetlesVisual",
-            "AnubarakLegionOfBeetles"
+            "AnubarakLegionOfBeetlesVisual"
           ]
         }
       ],
@@ -4012,8 +4041,7 @@
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "AnubarakLegionOfBeetlesVisual",
-            "AnubarakLegionOfBeetles"
+            "AnubarakLegionOfBeetlesVisual"
           ]
         }
       ],
@@ -4029,6 +4057,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AnubarakLocustSwarm"
+          ],
+          "prerequisiteTalentIds": [
+            "AnubarakLocustSwarm"
           ]
         },
         {
@@ -4042,6 +4073,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "AnubarakCocoon"
+          ],
+          "prerequisiteTalentIds": [
+            "AnubarakHeroicAbilityCocoon"
           ]
         },
         {
@@ -4316,8 +4350,7 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "ArtanisTwinBladesPrimed",
-            "ArtanisTwinBlades",
-            "ArtanisTwinBladesCharge"
+            "ArtanisTwinBlades"
           ]
         },
         {
@@ -4331,8 +4364,7 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "ArtanisTwinBladesPrimed",
-            "ArtanisTwinBlades",
-            "ArtanisTwinBladesCharge"
+            "ArtanisTwinBlades"
           ]
         },
         {
@@ -4505,8 +4537,7 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "ArtanisTwinBladesPrimed",
-            "ArtanisTwinBlades",
-            "ArtanisTwinBladesCharge"
+            "ArtanisTwinBlades"
           ]
         },
         {
@@ -4548,8 +4579,7 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "ArtanisTwinBladesPrimed",
-            "ArtanisTwinBlades",
-            "ArtanisTwinBladesCharge"
+            "ArtanisTwinBlades"
           ]
         },
         {
@@ -4598,6 +4628,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "ArtanisSpearofAdunSuppressionPulse"
+          ],
+          "prerequisiteTalentIds": [
+            "ArtanisHeroicAbilitySpearofAdunSuppressionPulse"
           ]
         },
         {
@@ -4611,6 +4644,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "ArtanisSpearofAdunPurifierBeam"
+          ],
+          "prerequisiteTalentIds": [
+            "ArtanisHeroicAbilitySpearofAdunPurifierBeam"
           ]
         },
         {
@@ -4624,8 +4660,7 @@
           "sort": 3,
           "abilityTalentLinkIds": [
             "ArtanisTwinBladesPrimed",
-            "ArtanisTwinBlades",
-            "ArtanisTwinBladesCharge"
+            "ArtanisTwinBlades"
           ]
         },
         {
@@ -5145,6 +5180,9 @@
           "abilityTalentLinkIds": [
             "ArthasArmyOfTheDeadSacrifice",
             "ArthasArmyOfTheDead"
+          ],
+          "prerequisiteTalentIds": [
+            "ArthasHeroicAbilityArmyoftheDead"
           ]
         },
         {
@@ -5158,6 +5196,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "ArthasSummonSindragosa"
+          ],
+          "prerequisiteTalentIds": [
+            "ArthasHeroicAbilitySummonSindragosa"
           ]
         },
         {
@@ -5649,6 +5690,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AurielResurrect"
+          ],
+          "prerequisiteTalentIds": [
+            "AurielHeroicResurrect"
           ]
         },
         {
@@ -5662,6 +5706,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "AurielCrystalAegis"
+          ],
+          "prerequisiteTalentIds": [
+            "AurielHeroicCrystalAegis"
           ]
         },
         {
@@ -6183,6 +6230,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AzmodanDemonicInvasion"
+          ],
+          "prerequisiteTalentIds": [
+            "AzmodanHeroicAbilityDemonicInvasion"
           ]
         },
         {
@@ -6196,6 +6246,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "AzmodanTideOfSinPassive",
+            "AzmodanTideOfSin"
+          ],
+          "prerequisiteTalentIds": [
             "AzmodanTideOfSin"
           ]
         },
@@ -6719,6 +6772,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "BarbarianLeap"
+          ],
+          "prerequisiteTalentIds": [
+            "BarbarianHeroicAbilityLeap"
           ]
         },
         {
@@ -6732,6 +6788,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "BarbarianWrathoftheBerserker"
+          ],
+          "prerequisiteTalentIds": [
+            "BarbarianHeroicAbilityWrathoftheBerserker"
           ]
         },
         {
@@ -7224,6 +7283,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "ButcherFurnaceBlast"
+          ],
+          "prerequisiteTalentIds": [
+            "ButcherHeroicAbilityButcherFurnaceBlast"
           ]
         },
         {
@@ -7237,6 +7299,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "ButcherLambToTheSlaughter"
+          ],
+          "prerequisiteTalentIds": [
+            "ButcherHeroicAbilityLambToTheSlaughter"
           ]
         },
         {
@@ -7800,6 +7865,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "ChenWanderingKeg"
+          ],
+          "prerequisiteTalentIds": [
+            "ChenHeroicAbilityWanderingKeg"
           ]
         },
         {
@@ -7816,6 +7884,9 @@
             "ChenStorm",
             "ChenEarth",
             "ChenFire"
+          ],
+          "prerequisiteTalentIds": [
+            "ChenHeroicAbilityStormEarthFire"
           ]
         },
         {
@@ -8621,6 +8692,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "ChoHammerOfTwilight"
+          ],
+          "prerequisiteTalentIds": [
+            "ChoHeroicAbilityHammerOfTwilight"
           ]
         },
         {
@@ -8634,6 +8708,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "ChoUpheaval"
+          ],
+          "prerequisiteTalentIds": [
+            "ChoHeroicAbilityUpheaval"
           ]
         },
         {
@@ -9182,6 +9259,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "ChromieSlowingSands"
+          ],
+          "prerequisiteTalentIds": [
+            "ChromieHeroicAbilitySlowingSands"
           ]
         },
         {
@@ -9195,6 +9275,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "ChromieTemporalLoop"
+          ],
+          "prerequisiteTalentIds": [
+            "ChromieHeroicAbilityTemporalLoop"
           ]
         },
         {
@@ -9674,6 +9757,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "CrusaderFallingSword"
+          ],
+          "prerequisiteTalentIds": [
+            "CrusaderHeroicAbilityFallingSword"
           ]
         },
         {
@@ -9687,6 +9773,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "CrusaderBlessedShield"
+          ],
+          "prerequisiteTalentIds": [
+            "CrusaderHeroicAbilityBlessedShield"
           ]
         },
         {
@@ -10208,6 +10297,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "DeckardStayAWhileAndListen"
+          ],
+          "prerequisiteTalentIds": [
+            "DeckardStayAWhileAndListen"
           ]
         },
         {
@@ -10220,6 +10312,9 @@
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "DeckardLorenado"
+          ],
+          "prerequisiteTalentIds": [
             "DeckardLorenado"
           ]
         },
@@ -10734,6 +10829,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "DehakaIsolation"
+          ],
+          "prerequisiteTalentIds": [
+            "DehakaHeroicAbilityIsolation"
           ]
         },
         {
@@ -10747,6 +10845,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "DehakaAdaptation"
+          ],
+          "prerequisiteTalentIds": [
+            "DehakaHeroicAbilityAdaptation"
           ]
         },
         {
@@ -11276,6 +11377,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "DemonHunterStrafe"
+          ],
+          "prerequisiteTalentIds": [
+            "DemonHunterHeroicAbilityStrafe"
           ]
         },
         {
@@ -11295,6 +11399,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "DemonHunterRainOfVengeance"
+          ],
+          "prerequisiteTalentIds": [
+            "DemonHunterHeroicAbilityRainofVengeance"
           ]
         },
         {
@@ -11808,6 +11915,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "DiabloApocalypse"
+          ],
+          "prerequisiteTalentIds": [
+            "DiabloHeroicAbilityApocalypse"
           ]
         },
         {
@@ -11821,6 +11931,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "DiabloLightningBreath"
+          ],
+          "prerequisiteTalentIds": [
+            "DiabloHeroicAbilityLightningBreath"
           ]
         },
         {
@@ -12384,6 +12497,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "DryadThornwoodVine"
+          ],
+          "prerequisiteTalentIds": [
+            "DryadHeroicAbilityThornwoodVine"
           ]
         },
         {
@@ -12403,6 +12519,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "DryadLeapingStrike"
+          ],
+          "prerequisiteTalentIds": [
+            "DryadHeroicAbilityLeapingStrike"
           ]
         },
         {
@@ -12725,9 +12844,7 @@
           "abilityType": "Trait",
           "sort": 4,
           "abilityTalentLinkIds": [
-            "DVaMechMechMode",
-            "DVaMechTraitAbilityDoesNothing",
-            "DVaMechTraitEmergencyShieldingCooldownAbility"
+            "DVaMechMechMode"
           ]
         }
       ],
@@ -12861,7 +12978,7 @@
           "buttonId": "DVaBunnyHopOn",
           "name": "兔子跳",
           "icon": "storm_ui_icon_dva_bunnyhop.png",
-          "cooldownTooltip": "冷卻時間：1秒",
+          "cooldownTooltip": "冷卻時間：100秒",
           "shortTooltip": "獲得控場免疫並且緩速附近英雄",
           "fullTooltip": "D.Va的機甲獲得控場免疫，並且每0.5秒震踏地面一次，對敵人造成60 (+4% per level)點傷害，並且使敵人緩速40%。此技能可持續4秒。  需要機甲模式。",
           "abilityType": "Heroic",
@@ -12899,8 +13016,6 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "DVaMechMechMode",
-            "DVaMechTraitAbilityDoesNothing",
-            "DVaMechTraitEmergencyShieldingCooldownAbility",
             "DVaPilotCallMechMEKAfall",
             "DVaPilotCallMech"
           ]
@@ -12915,9 +13030,7 @@
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "DVaMechMechMode",
-            "DVaMechTraitAbilityDoesNothing",
-            "DVaMechTraitEmergencyShieldingCooldownAbility"
+            "DVaMechMechMode"
           ]
         },
         {
@@ -12930,9 +13043,7 @@
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "DVaMechMechMode",
-            "DVaMechTraitAbilityDoesNothing",
-            "DVaMechTraitEmergencyShieldingCooldownAbility"
+            "DVaMechMechMode"
           ]
         }
       ],
@@ -13001,6 +13112,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "DVaMechBunnyHopHeroic"
+          ],
+          "prerequisiteTalentIds": [
+            "DVaBunnyHop"
           ]
         },
         {
@@ -13014,6 +13128,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "DVaPilotBigShot"
+          ],
+          "prerequisiteTalentIds": [
+            "DVaBigShot"
           ]
         },
         {
@@ -13548,8 +13665,7 @@
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "BrightwingCalmingMist",
-            "BrightwingSoothingMistDummyCooldown"
+            "BrightwingCalmingMist"
           ]
         }
       ],
@@ -13692,6 +13808,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "FaerieDragonBlinkHealDash"
+          ],
+          "prerequisiteTalentIds": [
+            "FaerieDragonHeroicAbilityBlinkHeal"
           ]
         },
         {
@@ -13705,6 +13824,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "FaerieDragonEmeraldWind"
+          ],
+          "prerequisiteTalentIds": [
+            "FaerieDragonHeroicAbilityEmeraldWind"
           ]
         },
         {
@@ -14191,6 +14313,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "FalstadHinterlandBlast"
+          ],
+          "prerequisiteTalentIds": [
+            "FalstadHeroicAbilityHinterlandBlast"
           ]
         },
         {
@@ -14204,6 +14329,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "FalstadMightyGust"
+          ],
+          "prerequisiteTalentIds": [
+            "FalstadHeroicAbilityMightyGust"
           ]
         },
         {
@@ -14545,8 +14673,7 @@
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "FenixShieldCapacitor",
-            "FenixShieldCapacitorVisual"
+            "FenixShieldCapacitor"
           ]
         }
       ],
@@ -14589,8 +14716,7 @@
           "isActive": true,
           "sort": 3,
           "abilityTalentLinkIds": [
-            "FenixShieldCapacitor",
-            "FenixShieldCapacitorVisual"
+            "FenixShieldCapacitor"
           ]
         }
       ],
@@ -14650,8 +14776,7 @@
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "FenixShieldCapacitor",
-            "FenixShieldCapacitorVisual"
+            "FenixShieldCapacitor"
           ]
         },
         {
@@ -14664,8 +14789,7 @@
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "FenixShieldCapacitor",
-            "FenixShieldCapacitorVisual"
+            "FenixShieldCapacitor"
           ]
         },
         {
@@ -14678,8 +14802,7 @@
           "abilityType": "Trait",
           "sort": 4,
           "abilityTalentLinkIds": [
-            "FenixShieldCapacitor",
-            "FenixShieldCapacitorVisual"
+            "FenixShieldCapacitor"
           ]
         }
       ],
@@ -14708,8 +14831,7 @@
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "FenixShieldCapacitor",
-            "FenixShieldCapacitorVisual"
+            "FenixShieldCapacitor"
           ]
         },
         {
@@ -14762,8 +14884,7 @@
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "FenixShieldCapacitor",
-            "FenixShieldCapacitorVisual"
+            "FenixShieldCapacitor"
           ]
         }
       ]
@@ -15276,6 +15397,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "FirebatBunkerDrop"
+          ],
+          "prerequisiteTalentIds": [
+            "FirebatHeroicAbilityBunkerDrop"
           ]
         },
         {
@@ -15289,6 +15413,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "FirebatCombustion"
+          ],
+          "prerequisiteTalentIds": [
+            "FirebatHeroicAbilityCombustion"
           ]
         },
         {
@@ -15788,6 +15915,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "GallShadowboltVolley"
+          ],
+          "prerequisiteTalentIds": [
+            "GallHeroicAbilityShadowboltVolley"
           ]
         },
         {
@@ -15802,6 +15932,9 @@
           "abilityTalentLinkIds": [
             "GallTwistingNetherActivated",
             "GallTwistingNether"
+          ],
+          "prerequisiteTalentIds": [
+            "GallHeroicAbilityTwistingNether"
           ]
         },
         {
@@ -16316,6 +16449,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "GarroshWarlordsChallenge"
+          ],
+          "prerequisiteTalentIds": [
+            "GarroshHeroicAbilityWarlordsChallenge"
           ]
         },
         {
@@ -16335,6 +16471,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "GarroshDecimate"
+          ],
+          "prerequisiteTalentIds": [
+            "GarroshHeroicAbilityDecimate"
           ]
         },
         {
@@ -16367,6 +16506,9 @@
           "abilityType": "Active",
           "sort": 4,
           "abilityTalentLinkIds": [
+            "GarroshArmorUpBodyCheck"
+          ],
+          "prerequisiteTalentIds": [
             "GarroshArmorUpBodyCheck"
           ]
         }
@@ -16923,6 +17065,9 @@
           "abilityTalentLinkIds": [
             "GenjiDragonbladeAttack",
             "GenjiDragonblade"
+          ],
+          "prerequisiteTalentIds": [
+            "GenjiHeroicDragonblade"
           ]
         },
         {
@@ -16936,6 +17081,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "GenjiXStrike"
+          ],
+          "prerequisiteTalentIds": [
+            "GenjiHeroicXStrike"
           ]
         },
         {
@@ -17480,6 +17628,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "GreymaneGoForTheThroat"
+          ],
+          "prerequisiteTalentIds": [
+            "GreymaneHeroicAbilityGoForTheThroat"
           ]
         },
         {
@@ -17493,6 +17644,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "GreymaneCursedBullet"
+          ],
+          "prerequisiteTalentIds": [
+            "GreymaneHeroicAbilityCursedBullet"
           ]
         },
         {
@@ -18012,6 +18166,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "GuldanHorrify"
+          ],
+          "prerequisiteTalentIds": [
+            "GuldanHorrify"
           ]
         },
         {
@@ -18024,6 +18181,9 @@
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "GuldanRainOfDestruction"
+          ],
+          "prerequisiteTalentIds": [
             "GuldanRainOfDestruction"
           ]
         },
@@ -18306,8 +18466,7 @@
           "isQuest": true,
           "sort": 3,
           "abilityTalentLinkIds": [
-            "HanzoNaturalAgilityButton",
-            "HanzoNaturalAgility"
+            "HanzoNaturalAgilityButton"
           ]
         }
       ],
@@ -18345,8 +18504,7 @@
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "HanzoNaturalAgilityButton",
-            "HanzoNaturalAgility"
+            "HanzoNaturalAgilityButton"
           ]
         }
       ],
@@ -18447,8 +18605,7 @@
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "HanzoNaturalAgilityButton",
-            "HanzoNaturalAgility"
+            "HanzoNaturalAgilityButton"
           ]
         },
         {
@@ -18461,8 +18618,7 @@
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "HanzoNaturalAgilityButton",
-            "HanzoNaturalAgility"
+            "HanzoNaturalAgilityButton"
           ]
         }
       ],
@@ -18516,6 +18672,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "HanzoDragonstrike"
+          ],
+          "prerequisiteTalentIds": [
+            "HanzoDragonstrike"
           ]
         },
         {
@@ -18528,6 +18687,9 @@
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "HanzoDragonsArrow"
+          ],
+          "prerequisiteTalentIds": [
             "HanzoDragonsArrow"
           ]
         },
@@ -18561,8 +18723,7 @@
           "abilityType": "Trait",
           "sort": 4,
           "abilityTalentLinkIds": [
-            "HanzoNaturalAgilityButton",
-            "HanzoNaturalAgility"
+            "HanzoNaturalAgilityButton"
           ]
         }
       ]
@@ -18896,7 +19057,6 @@
           "abilityType": "Trait",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "IllidanThrillOfBattle",
             "IllidanBetrayersThirst"
           ]
         },
@@ -18910,7 +19070,6 @@
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "IllidanThrillOfBattle",
             "IllidanBetrayersThirst"
           ]
         }
@@ -19049,6 +19208,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "IllidanMetamorphosisTargeted"
+          ],
+          "prerequisiteTalentIds": [
+            "IllidanHeroicAbilityMetamorphosis"
           ]
         },
         {
@@ -19062,6 +19224,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "IllidanTheHunt"
+          ],
+          "prerequisiteTalentIds": [
+            "IllidanHeroicAbilityTheHunt"
           ]
         },
         {
@@ -19542,6 +19707,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "ImperiusAngelicArmaments"
+          ],
+          "prerequisiteTalentIds": [
+            "ImperiusAngelicArmaments"
           ]
         },
         {
@@ -19554,6 +19722,9 @@
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "ImperiusWrathOfTheAngiris"
+          ],
+          "prerequisiteTalentIds": [
             "ImperiusWrathOfTheAngiris"
           ]
         },
@@ -19602,7 +19773,7 @@
     "type": "遠程",
     "rarity": "Epic",
     "scalingLinkId": "ExcellentMana",
-    "searchText": "珍娜 Jaina 普勞德摩爾 人類 塞拉摩 聯盟 WoW 魔獸世界 魔獸3 WC3 魔獸爭霸3 III 混亂之治 RoC 寒冰霸權 FT 燃燒的遠征 BC 巫妖王之怒 WotLK 浩劫與重生 潘達利亞之謎 MoP 德拉諾之霸 WoD 軍臨天下 爐石戰記 驚懼領主 BFA 決戰艾澤拉斯 HS Proudmoore Human Theramore Alliance World of Warcraft War3 Warcraft3 Reign of Chaos Frozen Throne Burning Crusade Wrath Lich King Cataclysm Mists of Pandaria Warlords Draenor Legion Hearthstone dreadlord? dread lord? BFA Battle for Azeroth",
+    "searchText": "珍娜 Jaina 普勞德摩爾 人類 塞拉摩 聯盟 WoW 魔獸世界 魔獸3 魔獸爭霸3 III 3 混亂之治 RoC 寒冰霸權 FT 燃燒的遠征 BC 巫妖王之怒 WotLK 浩劫與重生 潘達利亞之謎 MoP 德拉諾之霸 WoD 軍臨天下 爐石戰記 HS 驚懼領主 BFA 決戰艾澤拉斯 Proudmoore Human Theramore Alliance WoW World of Warcraft War3 WC3 Warcraft3 III 3 Reign of Chaos RoC Frozen Throne FT Burning Crusade BC Wrath Lich King WotLK Cataclysm Mists of Pandaria MoP Warlords Draenor WoD Legion Hearthstone HS dreadlord? dread lord? BFA Battle for Azeroth",
     "description": "擅長冰凍整個敵方隊伍，造成緩速效果的寒冰法師。",
     "descriptors": [
       "EnergyImportant",
@@ -20066,6 +20237,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "JainaRingOfFrost"
+          ],
+          "prerequisiteTalentIds": [
+            "JainaHeroicRingOfFrost"
           ]
         },
         {
@@ -20079,6 +20253,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "JainaSummonWaterElemental"
+          ],
+          "prerequisiteTalentIds": [
+            "JainaHeroicSummonWaterElemental"
           ]
         },
         {
@@ -20654,6 +20831,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "JunkratRIPTire"
+          ],
+          "prerequisiteTalentIds": [
+            "JunkratRIPTire"
           ]
         },
         {
@@ -20666,6 +20846,9 @@
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "JunkratRocketRide"
+          ],
+          "prerequisiteTalentIds": [
             "JunkratRocketRide"
           ]
         },
@@ -21221,6 +21404,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "KaelthasPhoenix"
+          ],
+          "prerequisiteTalentIds": [
+            "KaelthasHeroicAbilityPhoenix"
           ]
         },
         {
@@ -21234,6 +21420,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "KaelthasPyroblast"
+          ],
+          "prerequisiteTalentIds": [
+            "KaelthasHeroicAbilityPyroblast"
           ]
         },
         {
@@ -21282,7 +21471,7 @@
     "type": "遠程",
     "rarity": "Legendary",
     "scalingLinkId": "ExcellentMana",
-    "searchText": "科科 小科 KT Kelthuzad 納克薩瑪斯的大巫妖 瘟疫之地尊貴的巫妖領主 恐懼亡域指揮官 詛咒神教的創建者兼領袖 六法議會的前成員 『污染者』阿克蒙德的召喚者 泯滅人性的主宰 《爐石戰記》的死忠玩家 巫妖王的御用管家 不死族 魔獸爭霸3 混亂之治 寒冰霸權 魔獸 巫妖王之怒 Archlich of Naxxramas esteemed Lich Lord of the Plaguelands Commander of the Dread Necropolis Master and Founder of the The Damned Return formerly of the Council of Six Creator of the Abomination Summoner of Archimonde the Defiler Betrayer of Humanity Hearthstone Enthusiast and Majordomo to the Lich King undead WC3 Reign of Chaos Frozen Throne FT WoW Wrath WotLK",
+    "searchText": "科科 小科 KT Kelthuzad 納克薩瑪斯的大巫妖 瘟疫之地尊貴的巫妖領主 恐懼亡域指揮官 詛咒神教的創建者兼領袖 六法議會的前成員 『污染者』阿克蒙德的召喚者 泯滅人性的主宰 《爐石戰記》的死忠玩家 巫妖王的御用管家 不死族 魔獸爭霸3 混亂之治 寒冰霸權 FT WoW 魔獸世界 巫妖王之怒 WotLK 魔獸爭霸3 III 魔獸3 Archlich of Naxxramas esteemed Lich Lord of the Plaguelands Commander of the Dread Necropolis Master and Founder of the The Damned Return formerly of the Council of Six Creator of the Abomination Summoner of Archimonde the Defiler Betrayer of Humanity Hearthstone Enthusiast and Majordomo to the Lich King undead WC3 Reign of Chaos Frozen Throne FT WoW Wrath WotLK Wrath of the Lich King Warcraft III 3 War3",
     "description": "爆發傷害型的法師，可以困住敵人並且以強大的連續技能消滅目標。",
     "descriptors": [
       "DeadUpdater",
@@ -21745,6 +21934,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "KelThuzadFrozenTomb"
+          ],
+          "prerequisiteTalentIds": [
+            "KelThuzadFrozenTomb"
           ]
         },
         {
@@ -21757,6 +21949,9 @@
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "KelThuzadShadowFissure"
+          ],
+          "prerequisiteTalentIds": [
             "KelThuzadShadowFissure"
           ]
         },
@@ -22288,6 +22483,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "KerriganMaelstrom"
+          ],
+          "prerequisiteTalentIds": [
+            "KerriganHeroicAbilityMaelstrom"
           ]
         },
         {
@@ -22301,6 +22499,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "KerriganSummonUltralisk"
+          ],
+          "prerequisiteTalentIds": [
+            "KerriganHeroicAbilitySummonUltralisk"
           ]
         },
         {
@@ -22797,6 +22998,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "L90ETCMoshPit"
+          ],
+          "prerequisiteTalentIds": [
+            "ETCHeroicAbilityMoshPit"
           ]
         },
         {
@@ -22810,6 +23014,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "L90ETCStageDive"
+          ],
+          "prerequisiteTalentIds": [
+            "ETCHeroicAbilityStageDive"
           ]
         },
         {
@@ -23068,7 +23275,7 @@
             }
           ]
         },
-        "LeoricSkeletalSwingTargetedReady": {
+        "LeoricUndyingTrait": {
           "basic": [
             {
               "nameId": "LeoricGhastlySwing",
@@ -23078,11 +23285,7 @@
               "cooldownTooltip": "冷卻時間：8秒",
               "fullTooltip": "使敵人緩速40%，持續2.5秒。",
               "abilityType": "Q"
-            }
-          ]
-        },
-        "LeoricDrainHope": {
-          "basic": [
+            },
             {
               "nameId": "LeoricDrainEssence",
               "buttonId": "LeoricDrainEssence",
@@ -23362,6 +23565,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "LeoricEntomb"
+          ],
+          "prerequisiteTalentIds": [
+            "LeoricHeroicAbilityEntomb"
           ]
         },
         {
@@ -23375,6 +23581,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "LeoricMarchoftheBlackKing"
+          ],
+          "prerequisiteTalentIds": [
+            "LeoricHeroicAbilityMarchoftheBlackKing"
           ]
         },
         {
@@ -23903,6 +24112,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "LiLiJugof1000Cups"
+          ],
+          "prerequisiteTalentIds": [
+            "LiLiHeroicAbilityJugof1000Cups"
           ]
         },
         {
@@ -23916,6 +24128,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "LiLiWaterDragon"
+          ],
+          "prerequisiteTalentIds": [
+            "LiLiHeroicAbilityWaterDragon"
           ]
         },
         {
@@ -23999,6 +24214,61 @@
       "utility": 5.0
     },
     "abilities": {
+      "basic": [
+        {
+          "nameId": "LostVikingsSpinToWin",
+          "buttonId": "LostVikingsSpinToWin",
+          "name": "必勝轉轉樂",
+          "icon": "storm_ui_icon_lostvikings_spintowin.png",
+          "cooldownTooltip": "冷卻時間：10秒",
+          "shortTooltip": "所有維京人都對周圍的敵人造成傷害",
+          "fullTooltip": "啟動後，每名維京人會對附近敵人造成101 (+4% per level)點傷害。",
+          "abilityType": "Q"
+        },
+        {
+          "nameId": "LostVikingsNorseForce",
+          "buttonId": "LostVikingsNorseForce",
+          "name": "北海大英雄",
+          "icon": "storm_ui_icon_lostvikings_norseforce.png",
+          "cooldownTooltip": "冷卻時間：30秒",
+          "shortTooltip": "所有維京人獲得護盾",
+          "fullTooltip": "依照現存的維京人人數，使所有維京人獲得130 (+4% per level)至260 (+4% per level)點護盾，人數越多則護盾值越高，持續4秒。",
+          "abilityType": "Q"
+        },
+        {
+          "nameId": "LostVikingsPressA",
+          "buttonId": "LostVikingsJump",
+          "name": "維京跳躍",
+          "icon": "storm_ui_icon_lostvikings_jump.png",
+          "cooldownTooltip": "冷卻時間：30秒",
+          "shortTooltip": "暫時無敵",
+          "fullTooltip": "所有維京人無敵，而且可以躍過敵人，持續1.5秒。",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "LostVikingsNordicAttackSquad",
+          "buttonId": "LostVikingsNordicAttackSquad",
+          "name": "北歐特戰隊",
+          "icon": "storm_ui_icon_talent_autoattack_damage.png",
+          "cooldownTooltip": "冷卻時間：20秒",
+          "shortTooltip": "提高維京人的基本攻擊對英雄的傷害",
+          "fullTooltip": "啟動後，所有維京人的基本攻擊可對敵方英雄額外造成相當於其最大生命值1.25%的傷害，持續5秒。",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "LostVikingsVikingBribery",
+          "buttonId": "LostVikingsVikingBribery",
+          "name": "維京收買",
+          "icon": "storm_ui_icon_talent_bribe.png",
+          "charges": {
+            "countMax": 5,
+            "countUse": 1
+          },
+          "shortTooltip": "殺死小兵以買通傭兵",
+          "fullTooltip": "附近有敵方小兵或敵方傭兵陣亡時，失落的維京人可獲得收買點數。消耗40點收買點數可買通傭兵，使他們立即投誠我方。無法用於精英傭兵。點數上限為200點。若收買了一個營地的所有傭兵，該營地的重生時間會加快50%。  目前收買點數：0點",
+          "abilityType": "E"
+        }
+      ],
       "heroic": [
         {
           "nameId": "LostVikingsLongboatRaidNewer",
@@ -24021,6 +24291,17 @@
           "abilityType": "Heroic"
         }
       ],
+      "trait": [
+        {
+          "nameId": "LostVikingsVikingHoardTalent",
+          "buttonId": "LostVikingsVikingHoardTalent",
+          "name": "屯寶維京人",
+          "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
+          "shortTooltip": "拾取恢復之球可提高生命恢復率",
+          "fullTooltip": "維京人每拾取一顆恢復之球，全體維京人的每秒生命恢復率永久提高0.5點。  目前加成：每秒0點",
+          "abilityType": "Trait"
+        }
+      ],
       "mount": [
         {
           "nameId": "LostVikingsGoGoGo",
@@ -24031,6 +24312,43 @@
           "shortTooltip": "移動速度提高30%",
           "fullTooltip": "維京人的移動速度提高30%，持續4秒。",
           "abilityType": "Z"
+        }
+      ],
+      "activable": [
+        {
+          "nameId": "LostVikingSelectOlaf",
+          "buttonId": "LostVikingSelectOlaf",
+          "name": "選擇奧拉夫",
+          "icon": "storm_ui_icon_lostvikings_selectolaf.png",
+          "shortTooltip": "奧拉夫的生命值很高，並且可快速恢復傷勢。他的衝鋒可以使敵人緩速",
+          "fullTooltip": "奧拉夫能夠朝滑鼠右鍵點擊的敵人衝鋒，使對方緩速30%，持續3秒。冷卻時間為8秒。  奧拉夫脫離戰鬥4秒後，可提高生命恢復率。",
+          "abilityType": "Active"
+        },
+        {
+          "nameId": "LostVikingSelectBaleog",
+          "buttonId": "LostVikingSelectBaleog",
+          "name": "選擇貝洛格",
+          "icon": "storm_ui_icon_lostvikings_selectbaleog.png",
+          "shortTooltip": "貝洛格可對攻擊目標後方的敵人造成擴散傷害",
+          "fullTooltip": "貝洛格的基本攻擊可對攻擊目標後方的敵人造成50%擴散傷害。",
+          "abilityType": "Active"
+        },
+        {
+          "nameId": "LostVikingSelectErik",
+          "buttonId": "LostVikingSelectErik",
+          "name": "選擇艾瑞克",
+          "icon": "storm_ui_icon_lostvikings_selecterik.png",
+          "shortTooltip": "艾瑞克的移動速度比其他維京人快，攻擊距離也較遠",
+          "fullTooltip": "艾瑞克的移動速度比其他維京人快，基本攻擊的距離也較遠。",
+          "abilityType": "Active"
+        },
+        {
+          "nameId": "LostVikingSelectAll",
+          "buttonId": "LostVikingSelectAll",
+          "name": "選擇所有維京人",
+          "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
+          "fullTooltip": "失落的維京人可以集體行動，也能分別操控。每個維京人都有自己的特長。",
+          "abilityType": "Active"
         }
       ],
       "hearth": [
@@ -24344,6 +24662,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "LostVikingsLongboatRaidNewer"
+          ],
+          "prerequisiteTalentIds": [
+            "LostVikingsHeroicAbilityLongboatRaid"
           ]
         },
         {
@@ -24357,6 +24678,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "LostVikingsPlayAgain"
+          ],
+          "prerequisiteTalentIds": [
+            "LostVikingsHeroicAbilityPlayAgain"
           ]
         },
         {
@@ -25487,6 +25811,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "LucioSoundBarrier"
+          ],
+          "prerequisiteTalentIds": [
+            "LucioSoundBarrier"
           ]
         },
         {
@@ -25499,8 +25826,10 @@
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "LucioHighFive",
-            "LucioHighFiveApproach"
+            "LucioHighFive"
+          ],
+          "prerequisiteTalentIds": [
+            "LucioHighFive"
           ]
         },
         {
@@ -26544,6 +26873,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "MalfurionTranquility"
+          ],
+          "prerequisiteTalentIds": [
+            "MalfurionHeroicAbilityTranquility"
           ]
         },
         {
@@ -26557,6 +26889,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "MalfurionTwilightDream"
+          ],
+          "prerequisiteTalentIds": [
+            "MalfurionHeroicAbilityTwilightDream"
           ]
         },
         {
@@ -26605,7 +26940,7 @@
     "type": "近戰",
     "rarity": "Legendary",
     "scalingLinkId": "ExcellentMana",
-    "searchText": "瑪爾加尼斯 Mal Ganis 驚懼 領主 驚懼領主 不死 惡魔 WC3 混亂之治 巫妖王之怒 軍臨天下 Dread Lord dreadlord undead demon WC3 Reign of Chaos WoW Wrath WotLK Legion",
+    "searchText": "瑪爾加尼斯 Mal Ganis 驚懼 領主 驚懼領主 不死 惡魔 魔獸爭霸 III 魔獸3 WC3 魔獸爭霸3 3 混亂之治 WoW 魔獸世界 WotLK 巫妖王之怒 軍臨天下 Dread Lord dreadlord undead demon Warcraft III War3 WC3 Warcraft3 3 Reign of Chaos WoW WotLK Wrath of the Lich King Legion",
     "description": "續戰力強的肉盾型戰士，擅長保護隊友和干擾敵人。",
     "descriptors": [
       "BodyBlocker",
@@ -27104,6 +27439,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "MalGanisCarrionSwarm"
+          ],
+          "prerequisiteTalentIds": [
+            "MalGanisCarrionSwarm"
           ]
         },
         {
@@ -27116,6 +27454,9 @@
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "MalGanisDarkConversion"
+          ],
+          "prerequisiteTalentIds": [
             "MalGanisDarkConversion"
           ]
         },
@@ -27620,6 +27961,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "MalthaelTormentedSouls"
+          ],
+          "prerequisiteTalentIds": [
+            "MalthaelTormentedSouls"
           ]
         },
         {
@@ -27632,6 +27976,9 @@
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "MalthaelLastRites"
+          ],
+          "prerequisiteTalentIds": [
             "MalthaelLastRites"
           ]
         },
@@ -28196,6 +28543,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "MedicStimDrone"
+          ],
+          "prerequisiteTalentIds": [
+            "MedicHeroicAbilityStimDrone"
           ]
         },
         {
@@ -28209,6 +28559,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "MedicMedivacDropship"
+          ],
+          "prerequisiteTalentIds": [
+            "MedicHeroicAbilityMedivacDropship"
           ]
         },
         {
@@ -28531,8 +28884,7 @@
           "sort": 3,
           "abilityTalentLinkIds": [
             "MedivhPortal2",
-            "MedivhPortalInstant",
-            "MedivhPortal1"
+            "MedivhPortalInstant"
           ]
         }
       ],
@@ -28548,8 +28900,7 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "MedivhPortal2",
-            "MedivhPortalInstant",
-            "MedivhPortal1"
+            "MedivhPortalInstant"
           ]
         },
         {
@@ -28563,8 +28914,7 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "MedivhPortal2",
-            "MedivhPortalInstant",
-            "MedivhPortal1"
+            "MedivhPortalInstant"
           ]
         },
         {
@@ -28734,8 +29084,7 @@
           "sort": 3,
           "abilityTalentLinkIds": [
             "MedivhPortal2",
-            "MedivhPortalInstant",
-            "MedivhPortal1"
+            "MedivhPortalInstant"
           ]
         }
       ],
@@ -28751,6 +29100,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "MedivhPolyBomb"
+          ],
+          "prerequisiteTalentIds": [
+            "MedivhPolyBomb"
           ]
         },
         {
@@ -28763,6 +29115,9 @@
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "MedivhLeyLineSeal"
+          ],
+          "prerequisiteTalentIds": [
             "MedivhLeyLineSeal"
           ]
         },
@@ -29265,6 +29620,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "MephistoConsumeSouls"
+          ],
+          "prerequisiteTalentIds": [
+            "MephistoConsumeSouls"
           ]
         },
         {
@@ -29277,6 +29635,9 @@
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "MephistoDuranceOfHate"
+          ],
+          "prerequisiteTalentIds": [
             "MephistoDuranceOfHate"
           ]
         },
@@ -29842,6 +30203,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "MonkDivinePalm"
+          ],
+          "prerequisiteTalentIds": [
+            "MonkHeroicAbilityDivinePalm"
           ]
         },
         {
@@ -29855,6 +30219,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "MonkSevenSidedStrike"
+          ],
+          "prerequisiteTalentIds": [
+            "MonkHeroicAbilitySevenSidedStrike"
           ]
         },
         {
@@ -30365,6 +30732,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "MuradinAvatar"
+          ],
+          "prerequisiteTalentIds": [
+            "MuradinHeroicAbilityAvatar"
           ]
         },
         {
@@ -30385,6 +30755,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "MuradinHaymaker"
+          ],
+          "prerequisiteTalentIds": [
+            "MuradinHeroicAbilityHaymaker"
           ]
         },
         {
@@ -30878,8 +31251,10 @@
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "MurkyMarchoftheMurlocs",
-            "MurkyMarchoftheMurlocsNeverEndingMurlocsTalent"
+            "MurkyMarchoftheMurlocs"
+          ],
+          "prerequisiteTalentIds": [
+            "MurkyHeroicAbilityMarchoftheMurlocs"
           ]
         },
         {
@@ -30893,6 +31268,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "MurkyOctoGrab"
+          ],
+          "prerequisiteTalentIds": [
+            "MurkyHeroicAbilityOctoGrab"
           ]
         },
         {
@@ -31086,6 +31464,18 @@
           "abilityType": "Z"
         }
       ],
+      "activable": [
+        {
+          "nameId": "NecromancerBoneArmor",
+          "buttonId": "NecromancerBoneArmor",
+          "name": "骸骨護甲",
+          "icon": "storm_ui_icon_necromancer_bonearmor.png",
+          "cooldownTooltip": "冷卻時間：30秒",
+          "shortTooltip": "啟動後獲得護盾",
+          "fullTooltip": "啟動後，獲得相當於蘇爾最大生命值25%的護盾，持續3秒。",
+          "abilityType": "Active"
+        }
+      ],
       "hearth": [
         {
           "nameId": "Hearthstone",
@@ -31145,48 +31535,6 @@
               "fullTooltip": "蘇爾的基本攻擊會造成大範圍傷害，並且使敵方英雄與召喚單位的攻擊速度降低40%，持續2秒。啟動後，效果可持續4秒。",
               "abilityType": "W",
               "isPassive": true
-            }
-          ]
-        },
-        "NecromancerTalentBoneArmorShade": {
-          "activable": [
-            {
-              "nameId": "NecromancerBoneArmor",
-              "buttonId": "NecromancerBoneArmor",
-              "name": "骸骨護甲",
-              "icon": "storm_ui_icon_necromancer_bonearmor.png",
-              "cooldownTooltip": "冷卻時間：30秒",
-              "shortTooltip": "啟動後獲得護盾",
-              "fullTooltip": "啟動後，獲得相當於蘇爾最大生命值25%的護盾，持續3秒。",
-              "abilityType": "Active"
-            }
-          ]
-        },
-        "NecromancerTalentBoneArmorBacklash": {
-          "activable": [
-            {
-              "nameId": "NecromancerBoneArmor",
-              "buttonId": "NecromancerBoneArmorAbilBacklash",
-              "name": "骸骨護甲",
-              "icon": "storm_ui_icon_necromancer_bonearmor_b.png",
-              "cooldownTooltip": "冷卻時間：30秒",
-              "shortTooltip": "啟動後獲得護盾",
-              "fullTooltip": "啟動後，獲得相當於蘇爾最大生命值25%的護盾，持續3秒。",
-              "abilityType": "Active"
-            }
-          ]
-        },
-        "NecromancerTalentBoneArmorShackler": {
-          "activable": [
-            {
-              "nameId": "NecromancerBoneArmor",
-              "buttonId": "NecromancerBoneArmorAbilShackler",
-              "name": "骸骨護甲",
-              "icon": "storm_ui_icon_necromancer_bonearmor_c.png",
-              "cooldownTooltip": "冷卻時間：30秒",
-              "shortTooltip": "啟動後獲得護盾",
-              "fullTooltip": "啟動後，獲得相當於蘇爾最大生命值25%的護盾，持續3秒。",
-              "abilityType": "Active"
             }
           ]
         }
@@ -31260,8 +31608,7 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "NecromancerCursedStrikesPassive",
-            "NecromancerCursedStrikes",
-            "NecromancerCursedStrikesDisplayAbility"
+            "NecromancerCursedStrikes"
           ]
         },
         {
@@ -31294,8 +31641,7 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "NecromancerCursedStrikesPassive",
-            "NecromancerCursedStrikes",
-            "NecromancerCursedStrikesDisplayAbility"
+            "NecromancerCursedStrikes"
           ]
         },
         {
@@ -31309,8 +31655,7 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "NecromancerCursedStrikesPassive",
-            "NecromancerCursedStrikes",
-            "NecromancerCursedStrikesDisplayAbility"
+            "NecromancerCursedStrikes"
           ]
         },
         {
@@ -31386,8 +31731,7 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "NecromancerCursedStrikesPassive",
-            "NecromancerCursedStrikes",
-            "NecromancerCursedStrikesDisplayAbility"
+            "NecromancerCursedStrikes"
           ]
         },
         {
@@ -31453,6 +31797,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "NecromancerPoisonNovaInstant"
+          ],
+          "prerequisiteTalentIds": [
+            "NecromancerHeroicAbilityPoisonNova"
           ]
         },
         {
@@ -31466,6 +31813,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "NecromancerSkeletalMages"
+          ],
+          "prerequisiteTalentIds": [
+            "NecromancerHeroicAbilitySkeletalMages"
           ]
         },
         {
@@ -31514,7 +31864,7 @@
     "type": "遠程",
     "rarity": "Legendary",
     "scalingLinkId": "ExcellentMana",
-    "searchText": "人類 萬象界域 獵人 傭兵 捲毛 黑 劍 鋸刀 Human Nexus Hunter Mercenary Curly Black Sword Chainsword",
+    "searchText": "人類 萬象界域 獵人 傭兵 劍 鋸刀 鋸刃 Human Nexus Hunter Mercenary Sword Chainblade",
     "description": "殘忍的近戰刺客，擅長挑起與結束戰鬥。",
     "descriptors": [
       "ChanneledAutoAttacker",
@@ -31533,7 +31883,6 @@
       "target": "ui_targetportrait_hero_nexus2.png",
       "draftScreen": "storm_ui_glues_draft_portrait_nexushunter.png",
       "partyFrames": [
-        "storm_ui_ingame_partyframe_nexushunter.png",
         "storm_ui_ingame_partyframe_nexus2.png"
       ],
       "minimap": "storm_ui_minimapicon_nexus2.png",
@@ -31593,16 +31942,6 @@
           "shortTooltip": "你的基本攻擊和技能會使敵人受到持續傷害",
           "fullTooltip": "被動：基本攻擊和技能傷害會使敵人流血，在4秒內受到44 (+4% per level)點傷害。可堆疊5次。  主動：對每個受到流血效果的敵方英雄造成32 (+4% per level)點傷害，並且每個受影響的敵方英雄會使奇菈恢復85 (+4% per level)點生命值。敵方英雄每擁有一層額外的流血效果，造成的傷害和恢復的生命值就會提高50%。",
           "abilityType": "W"
-        },
-        {
-          "nameId": "NexusHunterRevolvingSweepSecondary",
-          "buttonId": "NexusHunterRevolvingSweepSecondary",
-          "name": "迴旋攻擊",
-          "icon": "storm_ui_icon_nexushunter_e.png",
-          "toggleCooldown": 0.25,
-          "shortTooltip": "衝向目標，將其擊退並且造成傷害",
-          "fullTooltip": "衝向你的目標，造成108 (+4% per level)點傷害，將其擊退並且擊暈0.75秒。",
-          "abilityType": "E"
         },
         {
           "nameId": "NexusHunterRevolvingSweep",
@@ -31708,6 +32047,20 @@
               "toggleCooldown": 0.1,
               "fullTooltip": "離開坐騎。",
               "abilityType": "Z"
+            }
+          ]
+        },
+        "NexusHunterRevolvingSweep": {
+          "basic": [
+            {
+              "nameId": "NexusHunterRevolvingSweepSecondary",
+              "buttonId": "NexusHunterRevolvingSweepSecondary",
+              "name": "迴旋攻擊",
+              "icon": "storm_ui_icon_nexushunter_e.png",
+              "toggleCooldown": 0.25,
+              "shortTooltip": "衝向目標，將其擊退並且造成傷害",
+              "fullTooltip": "衝向你的目標，造成108 (+4% per level)點傷害，將其擊退並且擊暈0.75秒。",
+              "abilityType": "E"
             }
           ]
         }
@@ -31966,6 +32319,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "NexusHunterUnrelentingStrikes"
+          ],
+          "prerequisiteTalentIds": [
+            "NexusHunterUnrelentingStrikes"
           ]
         },
         {
@@ -31978,9 +32334,10 @@
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "NexusHunterFinalStrikeActivate",
-            "NexusHunterFinalStrikeAIChannel",
-            "NexusHunterFinalStrikeAICancel"
+            "NexusHunterFinalStrikeActivate"
+          ],
+          "prerequisiteTalentIds": [
+            "NexusHunterFinalStrike"
           ]
         },
         {
@@ -32295,9 +32652,7 @@
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "NovaPermanentCloak",
-            "NovaCloakCooldownDisplay",
-            "NovaAttackDummy"
+            "NovaPermanentCloak"
           ]
         }
       ],
@@ -32369,9 +32724,7 @@
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "NovaPermanentCloak",
-            "NovaCloakCooldownDisplay",
-            "NovaAttackDummy"
+            "NovaPermanentCloak"
           ]
         },
         {
@@ -32384,9 +32737,7 @@
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "NovaPermanentCloak",
-            "NovaCloakCooldownDisplay",
-            "NovaAttackDummy"
+            "NovaPermanentCloak"
           ]
         }
       ],
@@ -32475,9 +32826,7 @@
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "NovaPermanentCloak",
-            "NovaCloakCooldownDisplay",
-            "NovaAttackDummy"
+            "NovaPermanentCloak"
           ]
         }
       ],
@@ -32541,6 +32890,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "NovaTripleTap"
+          ],
+          "prerequisiteTalentIds": [
+            "NovaHeroicAbilityTripleTap"
           ]
         },
         {
@@ -32561,6 +32913,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "NovaPrecisionStrike"
+          ],
+          "prerequisiteTalentIds": [
+            "NovaHeroicAbilityPrecisionStrike"
           ]
         },
         {
@@ -32573,9 +32928,7 @@
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "NovaPermanentCloak",
-            "NovaCloakCooldownDisplay",
-            "NovaAttackDummy"
+            "NovaPermanentCloak"
           ]
         },
         {
@@ -33080,6 +33433,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "OrpheaEternalFeast"
+          ],
+          "prerequisiteTalentIds": [
+            "OrpheaEternalFeast"
           ]
         },
         {
@@ -33092,6 +33448,9 @@
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "OrpheaCrushingJaws"
+          ],
+          "prerequisiteTalentIds": [
             "OrpheaCrushingJaws"
           ]
         },
@@ -33618,6 +33977,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "ProbiusPylonOvercharge"
+          ],
+          "prerequisiteTalentIds": [
+            "ProbiusPylonOverchargeHeroic"
           ]
         },
         {
@@ -33631,6 +33993,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "ProbiusNullGate"
+          ],
+          "prerequisiteTalentIds": [
+            "ProbiusNullGateHeroic"
           ]
         },
         {
@@ -34164,6 +34529,9 @@
           "abilityTalentLinkIds": [
             "RagnarosSulfurasSmash",
             "RagnarosBigRagSulfurasSmash"
+          ],
+          "prerequisiteTalentIds": [
+            "RagnarosSulfurasSmash"
           ]
         },
         {
@@ -34184,6 +34552,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "RagnarosLavaWaveTargetPoint"
+          ],
+          "prerequisiteTalentIds": [
+            "RagnarosLavaWave"
           ]
         },
         {
@@ -34830,6 +35201,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "RaynorHyperion"
+          ],
+          "prerequisiteTalentIds": [
+            "RaynorHeroicAbilityHyperion"
           ]
         },
         {
@@ -34844,6 +35218,9 @@
           "abilityTalentLinkIds": [
             "RaynorRaynorsRaidersDummy",
             "RaynorRaynorsRaidersRedirect"
+          ],
+          "prerequisiteTalentIds": [
+            "RaynorHeroicAbilityRaynorsRaiders"
           ]
         },
         {
@@ -35374,6 +35751,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "RehgarAncestralHealing"
+          ],
+          "prerequisiteTalentIds": [
+            "RehgarAncestralHealing"
           ]
         },
         {
@@ -35386,6 +35766,9 @@
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "RehgarBloodlust"
+          ],
+          "prerequisiteTalentIds": [
             "RehgarBloodlust"
           ]
         },
@@ -35433,7 +35816,7 @@
     "type": "遠程",
     "rarity": "Epic",
     "scalingLinkId": "ExcellentMana",
-    "searchText": "雷克薩 Rexxar Rexar 米莎 酋長 馴獸 野獸大師 獸王 獵人 半獸人 巨魔 部落 WoW 魔獸世界 魔獸3 WC3 魔獸爭霸3 III 寒冰霸權 FT 燃燒的遠征 BC 德拉諾之霸 WoD 軍臨天下 爐石 戰記 BFA 決戰 艾澤拉斯HS Misha Chieftan Beastmaster Hunter Half Orc Ogre Horde World of Warcraft War3 Warcraft3 Frozen Throne Burning Crusade Warlords Draenor Legion Hearthstone BFA Battle for Azeroth",
+    "searchText": "雷克薩 Rexxar Rexar 米莎 酋長 馴獸 野獸大師 獸王 獵人 半獸人 巨魔 部落 WoW 魔獸世界 3 魔獸3 WC3 魔獸爭霸3 III 寒冰霸權 FT 燃燒的遠征 BC 德拉諾之霸 WoD 軍臨天下 爐石 戰記 HS BFA 艾澤拉斯 Misha Chieftan Beastmaster Hunter Half Orc Ogre Horde WoW World of Warcraft 3 War3 WC3 Warcraft3 III Frozen Throne FT Burning Crusade BC Warlords Draenor WoD Legion Hearthstone HS BFA Battle for Azeroth",
     "description": "這名鬥士會和戰熊米莎並肩作戰，擅長控制戰場區域。",
     "descriptors": [
       "EnergyImportant",
@@ -35653,11 +36036,7 @@
           "shortTooltip": "提高米莎對抗小兵和傭兵時的戰鬥力",
           "fullTooltip": "米莎對小兵和傭兵的基本攻擊傷害提高200%，同時米莎獲得50點對抗小兵和傭兵的護甲，使其對米莎造成的傷害降低50%。",
           "abilityType": "Passive",
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "RexxarMishaFollow",
-            "RexxarMishaFollowCancel"
-          ]
+          "sort": 2
         },
         {
           "nameId": "RexxarFlare",
@@ -35681,11 +36060,7 @@
           "shortTooltip": "米莎的基本攻擊可恢復其生命值",
           "fullTooltip": "米莎的基本攻擊可恢復其最大生命值的4.5%。",
           "abilityType": "Passive",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "RexxarMishaFollow",
-            "RexxarMishaFollowCancel"
-          ]
+          "sort": 1
         },
         {
           "nameId": "RexxarHunterGatherer",
@@ -35696,11 +36071,7 @@
           "fullTooltip": "任務：拾取恢復之球可使雷克薩的每秒生命恢復率提高1.25點，最多可提高25點。  獎勵：拾取20顆恢復之球後，雷克薩和米莎獲得15點護甲。",
           "abilityType": "Passive",
           "isQuest": true,
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "RexxarMishaFollow",
-            "RexxarMishaFollowCancel"
-          ]
+          "sort": 2
         },
         {
           "nameId": "RexxarSpiritBondGrizzledFortitude",
@@ -35710,11 +36081,7 @@
           "shortTooltip": "定期獲得物理護甲",
           "fullTooltip": "每隔6秒，雷克薩和米莎獲得75點物理護甲，使下一次受到的敵方英雄基本攻擊傷害降低75%。  觸發次數可累積至2次。雷克薩和米莎的觸發次數分開計算。",
           "abilityType": "Passive",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "RexxarMishaFollow",
-            "RexxarMishaFollowCancel"
-          ]
+          "sort": 3
         },
         {
           "nameId": "RexxarAnimalHusbandry",
@@ -35839,11 +36206,7 @@
           "shortTooltip": "米莎會對周圍的敵人造成傷害",
           "fullTooltip": "米莎每秒對周圍的敵人造成28 (+4% per level)點傷害。",
           "abilityType": "Passive",
-          "sort": 3,
-          "abilityTalentLinkIds": [
-            "RexxarMishaFollow",
-            "RexxarMishaFollowCancel"
-          ]
+          "sort": 3
         }
       ],
       "level16": [
@@ -35855,11 +36218,7 @@
           "shortTooltip": "基本攻擊可提高移動速度",
           "fullTooltip": "雷克薩的基本攻擊可使他和米莎的移動速度提高25%，持續2秒。",
           "abilityType": "Passive",
-          "sort": 1,
-          "abilityTalentLinkIds": [
-            "RexxarMishaFollow",
-            "RexxarMishaFollowCancel"
-          ]
+          "sort": 1
         },
         {
           "nameId": "RexxarSpiritBondPrimalIntimidation",
@@ -35871,11 +36230,7 @@
           "fullTooltip": "啟動後，使雷克薩和米莎附近的英雄與召喚單位的攻擊速度降低50%，移動速度降低20%，持續2.5秒。  被動：英雄和召喚單位攻擊雷克薩或米莎時，其攻擊速度會降低20%，持續2.5秒。",
           "abilityType": "Active",
           "isActive": true,
-          "sort": 2,
-          "abilityTalentLinkIds": [
-            "RexxarMishaFollow",
-            "RexxarMishaFollowCancel"
-          ]
+          "sort": 2
         },
         {
           "nameId": "RexxarFeignDeath",
@@ -35903,6 +36258,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "RexxarBestialWrath"
+          ],
+          "prerequisiteTalentIds": [
+            "RexxarHeroicAbilityBestialWrath"
           ]
         },
         {
@@ -35916,6 +36274,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "RexxarUnleashTheBoars"
+          ],
+          "prerequisiteTalentIds": [
+            "RexxarHeroicAbilityUnleashTheBoars"
           ]
         },
         {
@@ -36254,7 +36615,6 @@
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "SamuroCriticalStrikeDummy",
             "SamuroCriticalStrike"
           ]
         },
@@ -36309,8 +36669,7 @@
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "SamuroIllusionMaster",
-            "SamuroIllusionMasterDummyShopAbility"
+            "SamuroIllusionMaster"
           ]
         }
       ],
@@ -36332,7 +36691,6 @@
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "SamuroCriticalStrikeDummy",
             "SamuroCriticalStrike"
           ]
         },
@@ -36353,7 +36711,6 @@
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "SamuroCriticalStrikeDummy",
             "SamuroCriticalStrike"
           ]
         },
@@ -36374,7 +36731,6 @@
           "abilityType": "W",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "SamuroCriticalStrikeDummy",
             "SamuroCriticalStrike"
           ]
         }
@@ -36403,9 +36759,12 @@
           "cooldownTooltip": "冷卻時間：10秒",
           "shortTooltip": "可操控鏡像",
           "fullTooltip": "鏡像可以集體行動，也能分別操控，並且傷害提高100%。  被動：鏡像傳送的冷卻時間降低至10秒。",
-          "abilityType": "Trait",
+          "abilityType": "Heroic",
           "isActive": true,
-          "sort": 2
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "SamuroIllusionMaster"
+          ]
         }
       ],
       "level13": [
@@ -36467,7 +36826,6 @@
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "SamuroCriticalStrikeDummy",
             "SamuroCriticalStrike"
           ]
         },
@@ -36494,8 +36852,7 @@
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "SamuroIllusionMaster",
-            "SamuroIllusionMasterDummyShopAbility"
+            "SamuroIllusionMaster"
           ]
         }
       ],
@@ -36507,11 +36864,13 @@
           "icon": "storm_ui_icon_samuro_bladestorm.png",
           "shortTooltip": "鏡像也能使用劍刃風暴",
           "fullTooltip": "薩姆羅的鏡像也能同步使用劍刃風暴，但是只會造成25%的傷害。",
-          "abilityType": "Trait",
+          "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "SamuroBladeStormDummy",
-            "SamuroBladestorm"
+            "SamuroBladeStormDummy"
+          ],
+          "prerequisiteTalentIds": [
+            "SamuroHeroicAbilityBladestorm"
           ]
         },
         {
@@ -36521,10 +36880,9 @@
           "icon": "storm_ui_icon_samuro_illusiondancer.png",
           "shortTooltip": "提高鏡像的生命值與存在時間",
           "fullTooltip": "薩姆羅的鏡像不再受到額外傷害，使其生命值有效提高50%，並且存在時間提高為36秒。",
-          "abilityType": "Trait",
+          "abilityType": "Heroic",
           "sort": 2,
-          "abilityTalentLinkIds": [
-            "SamuroIllusionMasterDummy",
+          "prerequisiteTalentIds": [
             "SamuroHeroicAbilityIllusionMaster"
           ]
         },
@@ -36551,8 +36909,7 @@
           "abilityType": "Passive",
           "sort": 4,
           "abilityTalentLinkIds": [
-            "SamuroIllusionMaster",
-            "SamuroIllusionMasterDummyShopAbility"
+            "SamuroIllusionMaster"
           ]
         }
       ]
@@ -37061,6 +37418,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "SgtHammerBluntForceGun"
+          ],
+          "prerequisiteTalentIds": [
+            "SgtHammerHeroicAbilityBluntForceGun"
           ]
         },
         {
@@ -37075,6 +37435,9 @@
           "abilityTalentLinkIds": [
             "SgtHammerNapalmStrikeSiege",
             "SgtHammerNapalmStrike"
+          ],
+          "prerequisiteTalentIds": [
+            "SgtHammerHeroicAbilityNapalmStrike"
           ]
         },
         {
@@ -37607,6 +37970,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "StitchesPutridBile"
+          ],
+          "prerequisiteTalentIds": [
+            "StitchesHeroicAbilityPutridBile"
           ]
         },
         {
@@ -37620,6 +37986,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "StitchesGorge"
+          ],
+          "prerequisiteTalentIds": [
+            "StitchesHeroicAbilityGorge"
           ]
         },
         {
@@ -38173,6 +38542,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "StukovFlailingSwipe"
+          ],
+          "prerequisiteTalentIds": [
+            "StukovHeroicAbilityFlailingSwipe"
           ]
         },
         {
@@ -38186,6 +38558,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "StukovMassiveShove"
+          ],
+          "prerequisiteTalentIds": [
+            "StukovHeroicAbilityMassiveShove"
           ]
         },
         {
@@ -38234,7 +38609,7 @@
     "type": "遠程",
     "rarity": "Epic",
     "scalingLinkId": "ExcellentMana",
-    "searchText": "希瓦娜斯 Sylvanas 風行者 女王 被遺忘者 不死族 精靈 部落 WoW 魔獸世界 魔獸3 WC3 3 魔獸爭霸3 III 混亂之治 RoC 寒冰霸權 FT 浩劫與重生 德拉諾之霸 WoD 軍臨天下 大酋長 BFA 決戰 艾澤拉斯 Windrunner Queen Forsaken Undead Elf Horde World of Warcraft War3 Warcraft3 Reign of Chaos Frozen Throne Cataclysm Warlords Draenor Legion warchief BFA Battle for Azeroth",
+    "searchText": "希瓦娜斯 Sylvanas 風行者 女王 被遺忘者 不死族 精靈 部落 WoW 魔獸世界 魔獸3 WC3 魔獸爭霸3 3 III 混亂之治 RoC 寒冰霸權 FT 浩劫與重生 德拉諾之霸 WoD 軍臨天下 大酋長 BFA 決戰 艾澤拉斯 Windrunner Queen Forsaken Undead Elf Horde WoW World of Warcraft War3 WC3 Warcraft3 3 III Reign of Chaos RoC Frozen Throne FT Cataclysm Warlords Draenor WoD Legion warchief BFA Battle for Azeroth",
     "description": "擅長癱瘓敵方堡壘和要塞的刺客。",
     "descriptors": [
       "EnergyImportant",
@@ -38743,6 +39118,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "SylvanasWailingArrow"
+          ],
+          "prerequisiteTalentIds": [
+            "SylvanasHeroicAbilityWailingArrow"
           ]
         },
         {
@@ -38756,6 +39134,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "SylvanasMindControlMissile"
+          ],
+          "prerequisiteTalentIds": [
+            "SylvanasMindControl"
           ]
         },
         {
@@ -39028,8 +39409,7 @@
           "isQuest": true,
           "sort": 1,
           "abilityTalentLinkIds": [
-            "TassadarPsionicStorm",
-            "TassadarPsionicStormSecondStrike"
+            "TassadarPsionicStorm"
           ]
         },
         {
@@ -39126,8 +39506,7 @@
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "TassadarPsionicStorm",
-            "TassadarPsionicStormSecondStrike"
+            "TassadarPsionicStorm"
           ]
         },
         {
@@ -39230,8 +39609,7 @@
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "TassadarPsionicStorm",
-            "TassadarPsionicStormSecondStrike"
+            "TassadarPsionicStorm"
           ]
         },
         {
@@ -39244,8 +39622,7 @@
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "TassadarPsionicStorm",
-            "TassadarPsionicStormSecondStrike"
+            "TassadarPsionicStorm"
           ]
         },
         {
@@ -39274,6 +39651,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "TassadarArchon"
+          ],
+          "prerequisiteTalentIds": [
+            "TassadarHeroicAbilityArchon"
           ]
         },
         {
@@ -39287,6 +39667,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "TassadarForceWall"
+          ],
+          "prerequisiteTalentIds": [
+            "TassadarHeroicAbilityForceWall"
           ]
         },
         {
@@ -39840,6 +40223,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "ThrallSundering"
+          ],
+          "prerequisiteTalentIds": [
+            "ThrallHeroicAbilitySundering"
           ]
         },
         {
@@ -39853,6 +40239,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "ThrallEarthquake"
+          ],
+          "prerequisiteTalentIds": [
+            "ThrallHeroicAbilityEarthquake"
           ]
         },
         {
@@ -40458,6 +40847,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "TinkerRoboGoblin"
+          ],
+          "prerequisiteTalentIds": [
+            "TinkerHeroicAbilityRoboGoblin"
           ]
         },
         {
@@ -40471,6 +40863,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "TinkerGravOBomb3000"
+          ],
+          "prerequisiteTalentIds": [
+            "TinkerHeroicAbilityGravOBomb3000"
           ]
         },
         {
@@ -41626,6 +42021,9 @@
           "abilityTalentLinkIds": [
             "TychusOdinNoHealth",
             "TychusOdinRagnarokMissilesTargeted"
+          ],
+          "prerequisiteTalentIds": [
+            "TychusHeroicAbilityCommandeerOdin"
           ]
         },
         {
@@ -41639,6 +42037,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "TychusDrakkenLaserDrill"
+          ],
+          "prerequisiteTalentIds": [
+            "TychusHeroicAbilityDrakkenLaserDrill"
           ]
         },
         {
@@ -42166,6 +42567,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "TyraelJudgement"
+          ],
+          "prerequisiteTalentIds": [
+            "TyraelHeroicAbilityJudgement"
           ]
         },
         {
@@ -42179,6 +42583,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "TyraelSanctificationStationary"
+          ],
+          "prerequisiteTalentIds": [
+            "TyraelHeroicAbilitySanctification"
           ]
         },
         {
@@ -42706,6 +43113,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "TyrandeShadowstalk"
+          ],
+          "prerequisiteTalentIds": [
+            "TyrandeHeroicAbilityShadowstalk"
           ]
         },
         {
@@ -42719,6 +43129,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "TyrandeStarfall"
+          ],
+          "prerequisiteTalentIds": [
+            "TyrandeHeroicAbilityStarfall"
           ]
         },
         {
@@ -43241,6 +43654,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "UtherDivineIntervention"
+          ],
+          "prerequisiteTalentIds": [
+            "UtherHeroicAbilityDivineShield"
           ]
         },
         {
@@ -43254,6 +43670,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "UtherDivineStorm"
+          ],
+          "prerequisiteTalentIds": [
+            "UtherHeroicAbilityDivineStorm"
           ]
         },
         {
@@ -43807,6 +44226,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "ValeeraSmokeBomb"
+          ],
+          "prerequisiteTalentIds": [
+            "ValeeraSmokeBomb"
           ]
         },
         {
@@ -43819,6 +44241,9 @@
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "ValeeraCloakOfShadows"
+          ],
+          "prerequisiteTalentIds": [
             "ValeeraCloakOfShadows"
           ]
         },
@@ -44250,8 +44675,7 @@
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
-            "VarianCharge",
-            "VarianChargeApproach"
+            "VarianCharge"
           ]
         }
       ],
@@ -44266,8 +44690,7 @@
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "VarianCharge",
-            "VarianChargeApproach"
+            "VarianCharge"
           ]
         },
         {
@@ -44347,6 +44770,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "VarianTaunt"
+          ],
+          "prerequisiteTalentIds": [
+            "VarianTaunt"
           ]
         },
         {
@@ -44361,6 +44787,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "VarianColossusSmash"
+          ],
+          "prerequisiteTalentIds": [
+            "VarianColossusSmash"
           ]
         },
         {
@@ -44373,6 +44802,9 @@
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
+            "VarianTwinBladesOfFury"
+          ],
+          "prerequisiteTalentIds": [
             "VarianTwinBladesOfFury"
           ]
         },
@@ -44886,6 +45318,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "WhitemaneScarletAegis"
+          ],
+          "prerequisiteTalentIds": [
+            "WhitemaneScarletAegis"
           ]
         },
         {
@@ -44898,6 +45333,9 @@
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "WhitemaneDivineReckoning"
+          ],
+          "prerequisiteTalentIds": [
             "WhitemaneDivineReckoning"
           ]
         },
@@ -45456,6 +45894,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "WitchDoctorGargantuan"
+          ],
+          "prerequisiteTalentIds": [
+            "WitchDoctorHeroicAbilityGargantuan"
           ]
         },
         {
@@ -45469,6 +45910,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "WitchDoctorRavenousSpirit"
+          ],
+          "prerequisiteTalentIds": [
+            "WitchDoctorHeroicAbilityRavenousSpirits"
           ]
         },
         {
@@ -46018,6 +46462,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "WizardDisintegrate"
+          ],
+          "prerequisiteTalentIds": [
+            "WizardHeroicAbilityDisintegrate"
           ]
         },
         {
@@ -46031,6 +46478,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "WizardWaveOfForce"
+          ],
+          "prerequisiteTalentIds": [
+            "WizardHeroicAbilityWaveOfForce"
           ]
         },
         {
@@ -46617,6 +47067,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "YrelArdentDefender"
+          ],
+          "prerequisiteTalentIds": [
+            "YrelArdentDefender"
           ]
         },
         {
@@ -46629,6 +47082,9 @@
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "YrelSacredGround"
+          ],
+          "prerequisiteTalentIds": [
             "YrelSacredGround"
           ]
         },
@@ -47164,6 +47620,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "ZagaraDevouringMaw"
+          ],
+          "prerequisiteTalentIds": [
+            "ZagaraHeroicAbilityDevouringMaw"
           ]
         },
         {
@@ -47183,6 +47642,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "ZagaraSummonNydusWorm"
+          ],
+          "prerequisiteTalentIds": [
+            "ZagaraHeroicAbilityNydusAssault"
           ]
         },
         {
@@ -47737,6 +48199,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "ZaryaGravitonSurge"
+          ],
+          "prerequisiteTalentIds": [
+            "ZaryaHeroicAbilityGravitonSurge"
           ]
         },
         {
@@ -47750,6 +48215,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "ZaryaExpulsionZone"
+          ],
+          "prerequisiteTalentIds": [
+            "ZaryaHeroicAbilityExpulsionZone"
           ]
         },
         {
@@ -48137,8 +48605,7 @@
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ZeratulPermanentCloak",
-            "ZeratulCloakCooldownDisplay"
+            "ZeratulPermanentCloak"
           ]
         }
       ],
@@ -48262,8 +48729,7 @@
           "abilityType": "Trait",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "ZeratulPermanentCloak",
-            "ZeratulCloakCooldownDisplay"
+            "ZeratulPermanentCloak"
           ]
         },
         {
@@ -48300,8 +48766,7 @@
           "abilityType": "Passive",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "ZeratulPermanentCloak",
-            "ZeratulCloakCooldownDisplay"
+            "ZeratulPermanentCloak"
           ]
         },
         {
@@ -48342,9 +48807,10 @@
           "abilityType": "Heroic",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "ZeratulMightOfTheNerazimDummy",
-            "ZeratulShadowAssault",
-            "ZeratulShadowAssaultCharge"
+            "ZeratulMightOfTheNerazimDummy"
+          ],
+          "prerequisiteTalentIds": [
+            "ZeratulMightOfTheNerazim"
           ]
         },
         {
@@ -48358,6 +48824,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "ZeratulVoidPrison"
+          ],
+          "prerequisiteTalentIds": [
+            "ZeratulHeroicAbilityVoidPrison"
           ]
         },
         {
@@ -48676,7 +49145,6 @@
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
-            "ZuljinRegenerationForestMedicine",
             "ZuljinRegeneration"
           ]
         },
@@ -48692,7 +49160,6 @@
           "isActive": true,
           "sort": 2,
           "abilityTalentLinkIds": [
-            "ZuljinRegenerationForestMedicine",
             "ZuljinRegeneration"
           ]
         },
@@ -48875,6 +49342,9 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "ZuljinTazdingo"
+          ],
+          "prerequisiteTalentIds": [
+            "ZuljinTazdingo"
           ]
         },
         {
@@ -48888,6 +49358,9 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "ZuljinGuillotine"
+          ],
+          "prerequisiteTalentIds": [
+            "ZuljinGuillotine"
           ]
         },
         {
@@ -48900,7 +49373,6 @@
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
-            "ZuljinRegenerationForestMedicine",
             "ZuljinRegeneration"
           ]
         }
