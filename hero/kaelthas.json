@@ -54,7 +54,7 @@
         "name": "Pyroblast",
         "description": "After 1.5 seconds, cast a slow-moving fireball that deals 810 (+5% per level) damage to an enemy Hero and 405 (+5% per level) damage to enemies nearby.",
         "hotkey": "R",
-        "abilityId": "Kael'thas|R2",
+        "abilityId": "Kael'thas|R1",
         "cooldown": 100,
         "manaCost": 80,
         "icon": "storm_ui_icon_kaelthas_pyroblast.png",
@@ -64,7 +64,7 @@
         "name": "Phoenix",
         "description": "Launch a Phoenix to an area, dealing 78 (+4% per level) damage to enemies along the way. The Phoenix persists for 7 seconds, attacking enemies for 78 (+4% per level) damage and splashing for 39 (+4% per level) damage.",
         "hotkey": "R",
-        "abilityId": "Kael'thas|R1",
+        "abilityId": "Kael'thas|R2",
         "cooldown": 60,
         "manaCost": 80,
         "icon": "storm_ui_icon_kaelthas_phoenix.png",
@@ -215,9 +215,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 60,
-        "abilityId": "Kael'thas|R1",
+        "abilityId": "Kael'thas|R2",
         "abilityLinks": [
-          "Kael'thas|R1"
+          "Kael'thas|R2"
         ]
       },
       {
@@ -229,9 +229,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 100,
-        "abilityId": "Kael'thas|R2",
+        "abilityId": "Kael'thas|R1",
         "abilityLinks": [
-          "Kael'thas|R2"
+          "Kael'thas|R1"
         ]
       }
     ],
@@ -326,9 +326,9 @@
         "icon": "storm_ui_icon_kaelthas_phoenix.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Kael'thas|R1",
+        "abilityId": "Kael'thas|R2",
         "abilityLinks": [
-          "Kael'thas|R1"
+          "Kael'thas|R2"
         ]
       },
       {
@@ -339,13 +339,13 @@
         "icon": "storm_ui_icon_kaelthas_pyroblast.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Kael'thas|R2",
+        "abilityId": "Kael'thas|R1",
         "abilityLinks": [
-          "Kael'thas|R2"
+          "Kael'thas|R1"
         ]
       },
       {
-        "tooltipId": "KaelthasVerdantSpheresMasterOfFlameTalent",
+        "tooltipId": "KaelthasMasterOfFlamesLivingBomb",
         "talentTreeId": "KaelthasMasterOfFlames",
         "name": "Master of Flames",
         "description": "Living Bomb's spread from explosions can now also spread Living Bomb.",

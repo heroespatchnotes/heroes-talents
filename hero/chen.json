@@ -42,10 +42,20 @@
         "type": "basic"
       },
       {
+        "name": "Breath of Fire",
+        "description": "Breathe a cone of flames, dealing 85 (+4% per level) damage. Enemies that are soaked in Brew are Ignited, dealing 165 (+4% per level) additional damage over 3 seconds and adding 1.5 seconds to the duration of the Slow from Keg Smash.   After being used or after 6 seconds, this ability becomes Keg Smash.  Keg Smash Damage and Slow enemies.",
+        "hotkey": "W",
+        "abilityId": "Chen|W3",
+        "cooldown": 5,
+        "manaCost": 10,
+        "icon": "storm_ui_icon_chen_breathoffire.png",
+        "type": "basic"
+      },
+      {
         "name": "Wandering Keg",
         "description": "Roll around inside an Unstoppable barrel with 70% increased Movement Speed and 25 Armor, dealing 59 (+4% per level) damage to enemies in the way and knocking them back. Lasts for 5 seconds.",
         "hotkey": "R",
-        "abilityId": "Chen|R1",
+        "abilityId": "Chen|R2",
         "cooldown": 60,
         "icon": "storm_ui_icon_chen_wanderingkeg.png",
         "type": "heroic"
@@ -54,7 +64,7 @@
         "name": "Storm, Earth, Fire",
         "description": "After 1 second, Chen splits into three elemental spirits for 12 seconds, each with 70% of Chen's maximum Health and a unique Ability.  The last spirit Ability that is cast is empowered. If all three spirits are killed, Chen will die as well.  Storm can grant the spirits a Shield.  Earth can leap to an area and Slow enemies.  Fire can grant the spirits Attack Speed, damage.",
         "hotkey": "R",
-        "abilityId": "Chen|R2",
+        "abilityId": "Chen|R1",
         "cooldown": 100,
         "icon": "storm_ui_icon_chen_stormearthfire.png",
         "type": "heroic"
@@ -79,17 +89,7 @@
         "type": "basic"
       }
     ],
-    "ChenElementals": [
-      {
-        "name": "Breath of Fire",
-        "description": "Breathe a cone of flames, dealing 85 (+4% per level) damage. Enemies that are soaked in Brew are Ignited, dealing 165 (+4% per level) additional damage over 3 seconds and adding 1.5 seconds to the duration of the Slow from Keg Smash.   After being used or after 6 seconds, this ability becomes Keg Smash.  Keg Smash Damage and Slow enemies.",
-        "hotkey": "W",
-        "abilityId": "Chen|W2",
-        "cooldown": 5,
-        "manaCost": 10,
-        "icon": "storm_ui_icon_chen_breathoffire.png",
-        "type": "subunit"
-      },
+    "ChenStormEarthFire": [
       {
         "name": "Fire",
         "description": "Increase the Attack Speed and Basic Attack damage of the spirits by 50% for 5 seconds.  If this is the final Ability cast, the Attack Speed and damage bonus is increased to 75% and the spirits gain 50% Movement Speed for its duration.",
@@ -103,7 +103,7 @@
         "name": "Earth",
         "description": "Fire and Earth leap to the target location, dealing 32 (+4% per level) damage and Slowing enemies in a large area by 70% for 1.5 seconds.  If this is the final Ability cast, increase the damage dealt by 300% and instead of Slowing, the leap Roots enemy Heroes hit for 1.75 seconds.",
         "hotkey": "W",
-        "abilityId": "Chen|W3",
+        "abilityId": "Chen|W2",
         "cooldown": 6,
         "icon": "storm_temp_war3_btnearthquake.png",
         "type": "subunit"
@@ -132,7 +132,7 @@
         "abilityId": "Chen|W1",
         "abilityLinks": [
           "Chen|W1",
-          "Chen|W2"
+          "Chen|W3"
         ]
       },
       {
@@ -189,7 +189,7 @@
         "abilityId": "Chen|W1",
         "abilityLinks": [
           "Chen|W1",
-          "Chen|W2"
+          "Chen|W3"
         ]
       },
       {
@@ -203,7 +203,7 @@
         "abilityId": "Chen|W1",
         "abilityLinks": [
           "Chen|W1",
-          "Chen|W2"
+          "Chen|W3"
         ]
       }
     ],
@@ -256,9 +256,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 60,
-        "abilityId": "Chen|R1",
+        "abilityId": "Chen|R2",
         "abilityLinks": [
-          "Chen|R1"
+          "Chen|R2"
         ]
       },
       {
@@ -270,9 +270,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 100,
-        "abilityId": "Chen|R2",
+        "abilityId": "Chen|R1",
         "abilityLinks": [
-          "Chen|R2"
+          "Chen|R1"
         ]
       }
     ],
@@ -301,7 +301,7 @@
         "abilityId": "Chen|W1",
         "abilityLinks": [
           "Chen|W1",
-          "Chen|W2"
+          "Chen|W3"
         ]
       },
       {
@@ -315,7 +315,7 @@
         "abilityId": "Chen|W1",
         "abilityLinks": [
           "Chen|W1",
-          "Chen|W2"
+          "Chen|W3"
         ]
       },
       {
@@ -382,9 +382,9 @@
         "icon": "storm_ui_icon_chen_wanderingkeg.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Chen|R1",
+        "abilityId": "Chen|R2",
         "abilityLinks": [
-          "Chen|R1"
+          "Chen|R2"
         ]
       },
       {
@@ -395,11 +395,11 @@
         "icon": "storm_ui_icon_chen_stormearthfire.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Chen|R2",
+        "abilityId": "Chen|R1",
         "abilityLinks": [
-          "Chen|R2",
+          "Chen|R1",
           "Chen|E2",
-          "Chen|W3",
+          "Chen|W2",
           "Chen|Q2"
         ]
       },

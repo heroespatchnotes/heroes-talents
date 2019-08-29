@@ -79,12 +79,22 @@
         "type": "trait"
       }
     ],
-    "NazeeboGargantuan": [
+    "WitchDoctorGargantuan": [
       {
         "name": "Gargantuan Stomp",
         "description": "Order the Gargantuan to stomp, dealing 240 (+4% per level) damage to nearby enemies and slowing them by 30% for 2 seconds.",
-        "hotkey": "Q",
-        "abilityId": "Nazeebo|Q2",
+        "hotkey": "R",
+        "abilityId": "Nazeebo|R3",
+        "cooldown": 5,
+        "icon": "storm_ui_icon_nazeebo_gargantuanstomp.png",
+        "type": "subunit"
+      },
+      {
+        "name": "Gargantuan Stomp",
+        "description": "Order the Gargantuan to stomp, dealing 240 (+4% per level) damage to nearby enemies and slowing them by 30% for 2 seconds.",
+        "hotkey": "R",
+        "abilityId": "Nazeebo|R4",
+        "cooldown": 5,
         "icon": "storm_ui_icon_nazeebo_gargantuanstomp.png",
         "type": "subunit"
       }

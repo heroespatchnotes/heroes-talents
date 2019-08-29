@@ -55,7 +55,7 @@
         "name": "Lamb to the Slaughter",
         "description": "Throw a hitching post that attaches to the nearest enemy Hero after a 1 second delay. This deals 171 (+4% per level) damage and causes the enemy to be chained to the post and Silenced for 3 seconds.",
         "hotkey": "R",
-        "abilityId": "The Butcher|R1",
+        "abilityId": "The Butcher|R2",
         "cooldown": 90,
         "manaCost": 75,
         "icon": "storm_ui_icon_butcher_lambtotheslaughter.png",
@@ -65,7 +65,7 @@
         "name": "Furnace Blast",
         "description": "After a 3 second delay, fire explodes around The Butcher dealing 500 (+4% per level) damage to enemies.  Can be cast while using Ruthless Onslaught.",
         "hotkey": "R",
-        "abilityId": "The Butcher|R2",
+        "abilityId": "The Butcher|R1",
         "cooldown": 60,
         "manaCost": 75,
         "icon": "storm_ui_icon_butcher_furnaceblast.png",
@@ -212,9 +212,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 60,
-        "abilityId": "The Butcher|R2",
+        "abilityId": "The Butcher|R1",
         "abilityLinks": [
-          "The Butcher|R2"
+          "The Butcher|R1"
         ]
       },
       {
@@ -226,9 +226,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 90,
-        "abilityId": "The Butcher|R1",
+        "abilityId": "The Butcher|R2",
         "abilityLinks": [
-          "The Butcher|R1"
+          "The Butcher|R2"
         ]
       }
     ],
@@ -314,9 +314,9 @@
         "icon": "storm_ui_icon_butcher_furnaceblast.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "The Butcher|R2",
+        "abilityId": "The Butcher|R1",
         "abilityLinks": [
-          "The Butcher|R2"
+          "The Butcher|R1"
         ]
       },
       {
@@ -327,9 +327,9 @@
         "icon": "storm_ui_icon_butcher_lambtotheslaughter.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "The Butcher|R1",
+        "abilityId": "The Butcher|R2",
         "abilityLinks": [
-          "The Butcher|R1"
+          "The Butcher|R2"
         ]
       },
       {

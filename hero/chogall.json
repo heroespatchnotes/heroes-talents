@@ -53,7 +53,7 @@
         "name": "Hammer of Twilight",
         "description": "Activate to swing the Hammer of Twilight, dealing 150 (+4.5% per level) damage, pushing enemies away, and Stunning them for 0.75 seconds.  Passive: Cho's Basic Attacks deal 25% increased damage.",
         "hotkey": "R",
-        "abilityId": "Cho|R1",
+        "abilityId": "Cho|R2",
         "cooldown": 15,
         "icon": "storm_ui_icon_cho_hammeroftwilight.png",
         "type": "heroic"
@@ -62,7 +62,7 @@
         "name": "Upheaval",
         "description": "After 1 second, pull enemies towards Cho'gall, slowing them by 25% for 3 seconds and dealing 175 (+4% per level) damage.",
         "hotkey": "R",
-        "abilityId": "Cho|R2",
+        "abilityId": "Cho|R1",
         "cooldown": 60,
         "icon": "storm_ui_icon_cho_upheaval.png",
         "type": "heroic"
@@ -211,9 +211,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 15,
-        "abilityId": "Cho|R1",
+        "abilityId": "Cho|R2",
         "abilityLinks": [
-          "Cho|R1"
+          "Cho|R2"
         ]
       },
       {
@@ -225,9 +225,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 60,
-        "abilityId": "Cho|R2",
+        "abilityId": "Cho|R1",
         "abilityLinks": [
-          "Cho|R2"
+          "Cho|R1"
         ]
       }
     ],
@@ -315,9 +315,9 @@
         "icon": "storm_ui_icon_cho_hammeroftwilight.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Cho|R1",
+        "abilityId": "Cho|R2",
         "abilityLinks": [
-          "Cho|R1"
+          "Cho|R2"
         ]
       },
       {
@@ -328,9 +328,9 @@
         "icon": "storm_ui_icon_cho_upheaval.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Cho|R2",
+        "abilityId": "Cho|R1",
         "abilityLinks": [
-          "Cho|R2"
+          "Cho|R1"
         ]
       },
       {
