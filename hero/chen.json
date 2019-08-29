@@ -22,6 +22,7 @@
   "abilities": {
     "Chen": [
       {
+        "uid": "202372d",
         "name": "Flying Kick",
         "description": "Kick through target enemy, dealing 120 (+4% per level) damage.",
         "hotkey": "Q",
@@ -32,6 +33,7 @@
         "type": "basic"
       },
       {
+        "uid": "8661e12",
         "name": "Keg Smash",
         "description": "Deal 50 (+4% per level) damage and soak enemies in Brew for 3 seconds, Slowing them by 10%. After 1.25 seconds, the Slow is increased to 40%.  After being used, this ability becomes Breath of Fire.  Breath of Fire Deal damage and Ignite Brew-soaked enemies.",
         "hotkey": "W",
@@ -42,6 +44,7 @@
         "type": "basic"
       },
       {
+        "uid": "168e272",
         "name": "Breath of Fire",
         "description": "Breathe a cone of flames, dealing 85 (+4% per level) damage. Enemies that are soaked in Brew are Ignited, dealing 165 (+4% per level) additional damage over 3 seconds and adding 1.5 seconds to the duration of the Slow from Keg Smash.   After being used or after 6 seconds, this ability becomes Keg Smash.  Keg Smash Damage and Slow enemies.",
         "hotkey": "W",
@@ -52,6 +55,7 @@
         "type": "basic"
       },
       {
+        "uid": "db53a29",
         "name": "Wandering Keg",
         "description": "Roll around inside an Unstoppable barrel with 70% increased Movement Speed and 25 Armor, dealing 59 (+4% per level) damage to enemies in the way and knocking them back. Lasts for 5 seconds.",
         "hotkey": "R",
@@ -61,6 +65,7 @@
         "type": "heroic"
       },
       {
+        "uid": "4d90b68",
         "name": "Storm, Earth, Fire",
         "description": "After 1 second, Chen splits into three elemental spirits for 12 seconds, each with 70% of Chen's maximum Health and a unique Ability.  The last spirit Ability that is cast is empowered. If all three spirits are killed, Chen will die as well.  Storm can grant the spirits a Shield.  Earth can leap to an area and Slow enemies.  Fire can grant the spirits Attack Speed, damage.",
         "hotkey": "R",
@@ -70,6 +75,7 @@
         "type": "heroic"
       },
       {
+        "uid": "ca6467f",
         "name": "Fortifying Brew",
         "description": "Chen drinks from his keg, gaining 50 Brew and 180 (+4% per level) temporary Shields per second, up to a maximum of 540 (+4% per level) while drinking. Shields persist for 4 seconds after he stops drinking.",
         "hotkey": "D",
@@ -80,6 +86,7 @@
         "type": "trait"
       },
       {
+        "uid": "8340c2e",
         "name": "Stagger",
         "description": "Damage taken over the next 3 seconds is prevented.  Once this effect ends, Chen receives 75% of the damage taken over 5 seconds.  This damage cannot be modified.",
         "hotkey": "E",
@@ -91,6 +98,7 @@
     ],
     "ChenStormEarthFire": [
       {
+        "uid": "c56f29d",
         "name": "Fire",
         "description": "Increase the Attack Speed and Basic Attack damage of the spirits by 50% for 5 seconds.  If this is the final Ability cast, the Attack Speed and damage bonus is increased to 75% and the spirits gain 50% Movement Speed for its duration.",
         "hotkey": "E",
@@ -100,6 +108,7 @@
         "type": "subunit"
       },
       {
+        "uid": "2abec17",
         "name": "Earth",
         "description": "Fire and Earth leap to the target location, dealing 32 (+4% per level) damage and Slowing enemies in a large area by 70% for 1.5 seconds.  If this is the final Ability cast, increase the damage dealt by 300% and instead of Slowing, the leap Roots enemy Heroes hit for 1.75 seconds.",
         "hotkey": "W",
@@ -109,6 +118,7 @@
         "type": "subunit"
       },
       {
+        "uid": "02dd017",
         "name": "Storm",
         "description": "The spirits gain a Shield for 400 (+4% per level) over 3 seconds.  If this is the final Ability cast, the shield amount is increased to 750 (+4% per level) with no limited duration, and the duration of Storm, Earth, Fire is increased by 5 seconds.",
         "hotkey": "Q",
