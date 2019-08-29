@@ -45,20 +45,11 @@
         "type": "basic"
       },
       {
-        "uid": "2072b82",
-        "name": "Revolving Sweep",
-        "description": "Fly into your target dealing 108 (+4% per level) damage, knocking them away and Stunning them for 0.75 seconds.",
-        "hotkey": "E",
-        "abilityId": "Qhira|E1",
-        "icon": "storm_ui_icon_nexushunter_e.png",
-        "type": "basic"
-      },
-      {
         "uid": "8a2e369",
         "name": "Revolving Sweep",
         "description": "Attach your sword on the first enemy Hero hit, dealing 96 (+4% per level) damage and Stunning them for 0.25 seconds. Once attached, Qhira becomes immune to all effects, swinging around the target for 2.75 seconds and dealing 105 (+4% per level) damage to enemies between you and the target.  Re-activate to send you to the target's location knocking them away, dealing 108 (+4% per level) damage and Stunning them for 0.75 seconds.",
         "hotkey": "E",
-        "abilityId": "Qhira|E2",
+        "abilityId": "Qhira|E1",
         "cooldown": 16,
         "manaCost": 70,
         "icon": "storm_ui_icon_nexushunter_e.png",
@@ -67,7 +58,7 @@
       {
         "uid": "cb30177",
         "name": "Unrelenting Strikes",
-        "description": "Deal 44 (+4% per level) damage to nearby enemies every 0.5 seconds for 2.5 seconds as your sword grows outward. Upon expiring, deal 83 (+4% per level) damage to nearby enemy Heroes and Stun them for 0.75 seconds.",
+        "description": "Deal 44 (+4% per level) damage to nearby enemies every 0.5 seconds for 2.5 seconds as your sword grows outward. Upon expiring, deal 160 (+4% per level) damage to nearby enemy Heroes and Stun them for 1 second.",
         "hotkey": "R",
         "abilityId": "Qhira|R1",
         "cooldown": 75,
@@ -78,7 +69,7 @@
       {
         "uid": "6609292",
         "name": "Final Strike",
-        "description": "After 1 second, deal 415 (+4% per level) damage to enemies in a line. This damage is increased by 25% against enemy Heroes who are below 50% Health.",
+        "description": "After 1 second, deal 395 (+4% per level) damage to enemies in a line. This damage is increased by 25% against enemy Heroes who are below 50% Health.",
         "hotkey": "R",
         "abilityId": "Qhira|R2",
         "cooldown": 40,
@@ -104,7 +95,7 @@
         "tooltipId": "NexusHunterCarnageMaximumEffort",
         "talentTreeId": "NexusHunterCarnageMaximumEffort",
         "name": "Maximum Effort",
-        "description": "If Carnage damages the same enemy Hero 3 times it deals an additional 108 (+4% per level) damage and Slows by 20% for 2 seconds.",
+        "description": "If Carnage damages the same enemy Hero 3 times it deals an additional 108 (+4% per level) damage and Slows by 25% for 2.5 seconds.",
         "icon": "storm_ui_icon_nexushunter_q.png",
         "type": "Q",
         "sort": 1,
@@ -117,7 +108,7 @@
         "tooltipId": "NexusHunterFatalWounds",
         "talentTreeId": "NexusHunterFatalWounds",
         "name": "Fatal Wounds",
-        "description": "While at maximum stacks, Blood Rage's bleed deals 50% additional damage to enemy Heroes under 50% Health.  Quest: Damage enemy Heroes with Blood Rage's bleed damage.  Reward: After damaging Heroes with Blood Rage's bleed damage 125 times, Blood Rage's duration is increased by 2 seconds.",
+        "description": "While at maximum stacks, Blood Rage's bleed deals 40% additional damage to enemy Heroes under 50% Health.  Quest: Damage enemy Heroes with Blood Rage's bleed damage.  Reward: After damaging Heroes with Blood Rage's bleed damage 200 times, Blood Rage's duration is increased by 2 seconds.",
         "icon": "storm_ui_icon_nexushunter_w.png",
         "type": "W",
         "sort": 2,
@@ -131,7 +122,7 @@
         "tooltipId": "NexusHunterFinishingTouch",
         "talentTreeId": "NexusHunterFinishingTouch",
         "name": "Finishing Touch",
-        "description": "When Qhira Basic Attacks an enemy Hero below 50% Health it deals 25% additional damage, and she gains 35% Attack Speed for 2.5 seconds.",
+        "description": "When Qhira Basic Attacks an enemy Hero below 50% Health it deals 30% additional damage, and she gains 35% Attack Speed for 3 seconds.",
         "icon": "storm_ui_icon_nexushunter_passive.png",
         "type": "Passive",
         "sort": 3,
@@ -159,13 +150,13 @@
         "tooltipId": "NexusHunterEnsnaringSwing",
         "talentTreeId": "NexusHunterEnsnaringSwing",
         "name": "Ensnaring Swing",
-        "description": "The primary target of Revolving Sweep is Slowed by 25% while Qhira is attached to them. Secondary targets hit by Revolving Sweep's swing are Slowed by 35% for 3 seconds.",
+        "description": "The primary target of Revolving Sweep is Slowed by 30% while Qhira is attached to them. Secondary targets hit by Revolving Sweep's swing are Slowed by 40% for 3 seconds.",
         "icon": "storm_ui_icon_nexushunter_e.png",
         "type": "E",
         "sort": 2,
-        "abilityId": "Qhira|E2",
+        "abilityId": "Qhira|E1",
         "abilityLinks": [
-          "Qhira|E2"
+          "Qhira|E1"
         ]
       },
       {
@@ -200,7 +191,7 @@
         "tooltipId": "NexusHunterBloodRageHealmonger",
         "talentTreeId": "NexusHunterBloodRageHealmonger",
         "name": "Healmonger",
-        "description": "If Blood Rage damages an enemy Hero below 50% Health, it heals for an additional 205 (+4% per level) Health.",
+        "description": "If Blood Rage damages an enemy Hero below 50% Health, it heals for an additional 190 (+4% per level) Health.",
         "icon": "storm_ui_icon_nexushunter_w.png",
         "type": "W",
         "sort": 2,
@@ -217,9 +208,9 @@
         "icon": "storm_ui_icon_nexushunter_e.png",
         "type": "E",
         "sort": 3,
-        "abilityId": "Qhira|E2",
+        "abilityId": "Qhira|E1",
         "abilityLinks": [
-          "Qhira|E2"
+          "Qhira|E1"
         ]
       }
     ],
@@ -228,7 +219,7 @@
         "tooltipId": "NexusHunterUnrelentingStrikes",
         "talentTreeId": "NexusHunterUnrelentingStrikes",
         "name": "Unrelenting Strikes",
-        "description": "Deal 44 (+4% per level) damage to nearby enemies every 0.5 seconds for 2.5 seconds as your sword grows outward. Upon expiring, deal 83 (+4% per level) damage to nearby enemy Heroes and Stun them for 0.75 seconds.",
+        "description": "Deal 44 (+4% per level) damage to nearby enemies every 0.5 seconds for 2.5 seconds as your sword grows outward. Upon expiring, deal 160 (+4% per level) damage to nearby enemy Heroes and Stun them for 1 second.",
         "icon": "storm_ui_icon_nexushunter_r1.png",
         "type": "Heroic",
         "sort": 1,
@@ -242,7 +233,7 @@
         "tooltipId": "NexusHunterFinalStrike",
         "talentTreeId": "NexusHunterFinalStrike",
         "name": "Final Strike",
-        "description": "After 1 second, deal 415 (+4% per level) damage to enemies in a line. This damage is increased by 25% against enemy Heroes who are below 50% Health.",
+        "description": "After 1 second, deal 395 (+4% per level) damage to enemies in a line. This damage is increased by 25% against enemy Heroes who are below 50% Health.",
         "icon": "storm_ui_icon_nexushunter_r2.png",
         "type": "Heroic",
         "sort": 2,
@@ -275,9 +266,9 @@
         "icon": "storm_ui_icon_nexushunter_e.png",
         "type": "E",
         "sort": 2,
-        "abilityId": "Qhira|E2",
+        "abilityId": "Qhira|E1",
         "abilityLinks": [
-          "Qhira|E2"
+          "Qhira|E1"
         ]
       },
       {
@@ -303,9 +294,9 @@
         "icon": "storm_ui_icon_nexushunter_e.png",
         "type": "E",
         "sort": 1,
-        "abilityId": "Qhira|E2",
+        "abilityId": "Qhira|E1",
         "abilityLinks": [
-          "Qhira|E2"
+          "Qhira|E1"
         ]
       },
       {
@@ -316,9 +307,9 @@
         "icon": "storm_ui_icon_nexushunter_e_alt_1.png",
         "type": "E",
         "sort": 2,
-        "abilityId": "Qhira|E2",
+        "abilityId": "Qhira|E1",
         "abilityLinks": [
-          "Qhira|E2"
+          "Qhira|E1"
         ]
       },
       {
@@ -329,9 +320,9 @@
         "icon": "storm_ui_icon_nexushunter_e_alt_2.png",
         "type": "E",
         "sort": 3,
-        "abilityId": "Qhira|E2",
+        "abilityId": "Qhira|E1",
         "abilityLinks": [
-          "Qhira|E2"
+          "Qhira|E1"
         ]
       }
     ],

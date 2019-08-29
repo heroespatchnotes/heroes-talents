@@ -58,7 +58,7 @@
       {
         "uid": "9216183",
         "name": "Bloodlust",
-        "description": "Grant nearby allied Heroes 40% Attack Speed and 25% Movement Speed and causes them to heal for 30% of the Basic Attack damage to their primary target. Lasts for 8 seconds.",
+        "description": "Grant nearby allied Heroes 40% Attack Speed and 35% Movement Speed and causes them to heal for 30% of the Basic Attack damage to their primary target. Lasts for 8 seconds.",
         "hotkey": "R",
         "abilityId": "Rehgar|R1",
         "cooldown": 90,
@@ -104,7 +104,7 @@
         "tooltipId": "RehgarLightningShieldElectricCharge",
         "talentTreeId": "RehgarLightningShieldElectricCharge",
         "name": "Electric Charge",
-        "description": "Increases the radius of Lightning Shield by 25%.",
+        "description": "Increases the radius of Lightning Shield by 25%. Heal for 30% of the damage it deals to enemy Heroes.",
         "icon": "storm_ui_icon_rehgar_lightningshield.png",
         "type": "W",
         "sort": 1,
@@ -117,7 +117,7 @@
         "tooltipId": "RehgarEarthbindTotemColossalTotem",
         "talentTreeId": "RehgarEarthbindTotemColossalTotem",
         "name": "Colossal Totem",
-        "description": "Increases the area and range of Earthbind Totem by 50%.",
+        "description": "Increases the area and range of Earthbind Totem by 50% and it can be reactivated to move an existing totem to a new location once.",
         "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
         "type": "E",
         "sort": 2,
@@ -130,7 +130,7 @@
         "tooltipId": "RehgarGhostWolfWolfRunTalent",
         "talentTreeId": "RehgarWolfRun",
         "name": "Wolf Run",
-        "description": "Increases the Movement Speed of Ghost Wolf from 20% to 30%.",
+        "description": "Increases the Movement Speed of Ghost Wolf from 20% to 30%. If an enemy Hero is hit by Ghost Wolf's Basic Attack, reduce its cooldown by 1 second.",
         "icon": "storm_ui_icon_rehgar_ghostwolf.png",
         "type": "Z",
         "sort": 3,
@@ -155,26 +155,13 @@
         ]
       },
       {
-        "tooltipId": "RehgarTotemicProjectionTalent",
-        "talentTreeId": "RehgarTotemicProjection",
-        "name": "Totemic Projection",
-        "description": "Increases Earthbind Totem's duration from 8 to 12 seconds, and it can be reactivated to move an existing totem to a new location once.",
-        "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
-        "type": "E",
-        "sort": 2,
-        "abilityId": "Rehgar|E1",
-        "abilityLinks": [
-          "Rehgar|E1"
-        ]
-      },
-      {
         "tooltipId": "RehgarGhostWolfFeralHeartTalent",
         "talentTreeId": "RehgarFeralHeart",
         "name": "Feral Heart",
         "description": "Increases Health and Mana Regeneration by 75% while in Ghost Wolf form.",
         "icon": "storm_ui_icon_rehgar_ghostwolf.png",
         "type": "Z",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Rehgar|D1",
         "abilityLinks": [
           "Rehgar|D1"
@@ -187,12 +174,22 @@
         "description": "Activate to place a Totem that heals allied Heroes in an area for 2% of their maximum Health every second for 10 seconds.",
         "icon": "storm_ui_icon_talent_healingward.png",
         "type": "Active",
-        "sort": 4,
+        "sort": 3,
         "cooldown": 30,
         "abilityId": "Rehgar|Active"
       }
     ],
     "7": [
+      {
+        "tooltipId": "RehgarEarthbindTotemGroundedTotem",
+        "talentTreeId": "RehgarEarthbindTotemGroundedTotem",
+        "name": "Grounded Totem",
+        "description": "Increase the Health of Earthbind Totem by 100%.  Enemy Heroes who are Slowed by Earthbind Totem also have their Attack Speed Slowed by 40%.",
+        "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
+        "type": "E",
+        "sort": 1,
+        "abilityId": "Rehgar|E"
+      },
       {
         "tooltipId": "RehgarBloodAndThunder",
         "talentTreeId": "RehgarBloodAndThunder",
@@ -200,22 +197,11 @@
         "description": "Ghost Wolf attacks reduce Basic Ability cooldowns by 2 seconds.",
         "icon": "storm_ui_icon_rehgar_ghostwolf.png",
         "type": "Z",
-        "sort": 1,
+        "sort": 2,
         "abilityId": "Rehgar|D1",
         "abilityLinks": [
           "Rehgar|D1"
         ]
-      },
-      {
-        "tooltipId": "RehgarFarsight",
-        "talentTreeId": "RehgarFarsight",
-        "name": "Farsight",
-        "description": "Activate to reveal an area for 5 seconds. Enemies in the area are revealed for 3 seconds.",
-        "icon": "storm_ui_icon_rehgar_farsight.png",
-        "type": "Active",
-        "sort": 2,
-        "cooldown": 16,
-        "abilityId": "Rehgar|Active"
       },
       {
         "tooltipId": "GenericCleanse",
@@ -248,7 +234,7 @@
         "tooltipId": "RehgarBloodlust",
         "talentTreeId": "RehgarBloodlust",
         "name": "Bloodlust",
-        "description": "Grant nearby allied Heroes 40% Attack Speed and 25% Movement Speed and causes them to heal for 30% of the Basic Attack damage to their primary target. Lasts for 8 seconds.",
+        "description": "Grant nearby allied Heroes 40% Attack Speed and 35% Movement Speed and causes them to heal for 30% of the Basic Attack damage to their primary target. Lasts for 8 seconds.",
         "icon": "storm_ui_icon_rehgar_bloodlust.png",
         "type": "Heroic",
         "sort": 2,

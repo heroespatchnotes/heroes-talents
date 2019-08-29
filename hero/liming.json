@@ -22,7 +22,7 @@
       {
         "uid": "7efb099",
         "name": "Magic Missiles",
-        "description": "Fire three missiles toward an area, each dealing 147 (+3% per level) damage to the first enemy hit. These missiles do 50% damage to Structures.",
+        "description": "Fire three missiles toward an area, each dealing 147 (+3.5% per level) damage to the first enemy hit. These missiles do 50% damage to Structures.",
         "hotkey": "Q",
         "abilityId": "Li-Ming|Q1",
         "cooldown": 3,
@@ -55,7 +55,7 @@
       {
         "uid": "5769b45",
         "name": "Disintegrate",
-        "description": "Channel a powerful beam, dealing 440 (+5% per level) damage over 2.6 seconds to enemies while they are in it. The direction of the beam changes with your mouse cursor position.",
+        "description": "Channel a powerful beam, dealing 480 (+5% per level) damage over 2.6 seconds to enemies while they are in it. The direction of the beam changes with your mouse cursor position.",
         "hotkey": "R",
         "abilityId": "Li-Ming|R1",
         "cooldown": 30,
@@ -88,39 +88,13 @@
   "talents": {
     "1": [
       {
-        "tooltipId": "WizardAstralPresence",
-        "talentTreeId": "WizardAstralPresence",
-        "name": "Astral Presence",
-        "description": "Li-Ming's Mana regeneration is increased by 100% while below 25% Mana.",
-        "icon": "storm_btn_d3_traits_wizard_astralpresence.png",
-        "type": "Passive",
-        "sort": 1,
-        "abilityId": "Li-Ming|Passive",
-        "abilityLinks": [
-          "Li-Ming|D1"
-        ]
-      },
-      {
-        "tooltipId": "WizardPowerHungryTalent",
-        "talentTreeId": "WizardPowerHungry",
-        "name": "Power Hungry",
-        "description": "Regeneration Globes restore 100% more Mana and grant 10% Spell Power for 20 seconds.",
-        "icon": "storm_ui_icon_talent_powerhungry.png",
-        "type": "Passive",
-        "sort": 2,
-        "abilityId": "Li-Ming|Passive",
-        "abilityLinks": [
-          "Li-Ming|D1"
-        ]
-      },
-      {
         "tooltipId": "WizardForceArmorTalent",
         "talentTreeId": "WizardForceArmor",
         "name": "Force Armor",
         "description": "When Magic Missiles damages an enemy Hero, gain 50 Spell Armor against the next enemy Ability, reducing the damage taken by 50%. Gain 1 charge per cast.  Stores up to 4 charges.",
         "icon": "storm_ui_icon_wizard_magicmissiles.png",
         "type": "Q",
-        "sort": 3,
+        "sort": 1,
         "abilityId": "Li-Ming|Q1",
         "abilityLinks": [
           "Li-Ming|Q1"
@@ -133,10 +107,36 @@
         "description": "Teleport costs no Mana.  If Li-Ming hasn't taken damage in the last 3 seconds, Teleport's cooldown is decreased by 2 seconds.  Casting Teleport causes Li-Ming's next cast of Magic Missiles to deal 10% bonus damage.",
         "icon": "storm_ui_icon_wizard_teleport.png",
         "type": "E",
-        "sort": 4,
+        "sort": 2,
         "abilityId": "Li-Ming|E1",
         "abilityLinks": [
           "Li-Ming|E1"
+        ]
+      },
+      {
+        "tooltipId": "WizardAstralPresence",
+        "talentTreeId": "WizardAstralPresence",
+        "name": "Astral Presence",
+        "description": "Li-Ming's Mana regeneration is increased by 100% while below 35% Mana.",
+        "icon": "storm_btn_d3_traits_wizard_astralpresence.png",
+        "type": "Passive",
+        "sort": 3,
+        "abilityId": "Li-Ming|Passive",
+        "abilityLinks": [
+          "Li-Ming|D1"
+        ]
+      },
+      {
+        "tooltipId": "WizardPowerHungryTalent",
+        "talentTreeId": "WizardPowerHungry",
+        "name": "Power Hungry",
+        "description": "Regeneration Globes restore 100% more Mana and grant 10% Spell Power for 20 seconds.",
+        "icon": "storm_ui_icon_talent_powerhungry.png",
+        "type": "Passive",
+        "sort": 4,
+        "abilityId": "Li-Ming|Passive",
+        "abilityLinks": [
+          "Li-Ming|D1"
         ]
       }
     ],
@@ -186,7 +186,7 @@
         "tooltipId": "WizardMagicMissilesSeekerTalent",
         "talentTreeId": "WizardMagicMissilesSeeker",
         "name": "Seeker",
-        "description": "If three Magic Missiles hit the same target, the third one deals an additional 125 (+4% per level) damage.",
+        "description": "If three Magic Missiles hit the same target, the third one deals an additional 140 (+4% per level) damage.",
         "icon": "storm_ui_icon_wizard_magicmissiles.png",
         "type": "Q",
         "sort": 1,
@@ -199,7 +199,7 @@
         "tooltipId": "WizardArcaneOrbZeisVengeanceTalent",
         "talentTreeId": "WizardArcaneOrbZeisVengeance",
         "name": "Zei's Vengeance",
-        "description": "Increase Arcane Orb's damage increase for distance traveled by 25%. Additionally, reduce its cooldown by 1 second.",
+        "description": "Increase Arcane Orb's damage increase for distance traveled by 30%. Additionally, reduce its cooldown by 1 second.",
         "icon": "storm_ui_icon_wizard_arcaneorb.png",
         "type": "W",
         "sort": 2,
@@ -227,7 +227,7 @@
         "tooltipId": "WizardDisintegrate",
         "talentTreeId": "WizardHeroicAbilityDisintegrate",
         "name": "Disintegrate",
-        "description": "Channel a powerful beam, dealing 440 (+5% per level) damage over 2.6 seconds to enemies while they are in it. The direction of the beam changes with your mouse cursor position.",
+        "description": "Channel a powerful beam, dealing 480 (+5% per level) damage over 2.6 seconds to enemies while they are in it. The direction of the beam changes with your mouse cursor position.",
         "icon": "storm_ui_icon_wizard_disintegrate.png",
         "type": "Heroic",
         "sort": 1,
@@ -254,13 +254,26 @@
     ],
     "13": [
       {
+        "tooltipId": "WizardTeleportIllusionistTalent",
+        "talentTreeId": "WizardTeleportIllusionist",
+        "name": "Illusionist",
+        "description": "If Li-Ming loses more than 20% of her Health at once, its cooldown is instantly refreshed.  This effect has a 4 second cooldown.  Passive: Increases Teleport range by 50%",
+        "icon": "storm_ui_icon_wizard_teleport.png",
+        "type": "E",
+        "sort": 1,
+        "abilityId": "Li-Ming|E1",
+        "abilityLinks": [
+          "Li-Ming|E1"
+        ]
+      },
+      {
         "tooltipId": "WizardCannoneerTalent",
         "talentTreeId": "WizardCannoneer",
         "name": "Cannoneer",
         "description": "When Li-Ming uses an Ability, her next Basic Attack's damage is increased by 75% and deals Spell damage instead of Physical.  Stacks up to 3 times.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
-        "sort": 1,
+        "sort": 2,
         "abilityId": "Li-Ming|Passive",
         "abilityLinks": [
           "Li-Ming|D1"
@@ -270,26 +283,13 @@
         "tooltipId": "WizardGlassCannonTalent",
         "talentTreeId": "WizardGlassCannon",
         "name": "Glass Cannon",
-        "description": "Increase Li-Ming's Spell Power by 15%, but decrease her maximum Health by 15%.",
+        "description": "Increase Li-Ming's Spell Power by 20%, but decrease her maximum Health by 15%.",
         "icon": "storm_btn_d3_traits_wizard_glasscannon.png",
         "type": "Passive",
-        "sort": 2,
+        "sort": 3,
         "abilityId": "Li-Ming|Passive",
         "abilityLinks": [
           "Li-Ming|D1"
-        ]
-      },
-      {
-        "tooltipId": "WizardTeleportIllusionistTalent",
-        "talentTreeId": "WizardTeleportIllusionist",
-        "name": "Illusionist",
-        "description": "If Li-Ming loses more than 20% of her Health at once, its cooldown is instantly refreshed.  This effect has a 4 second cooldown.  Passive: Increases Teleport range by 50%",
-        "icon": "storm_ui_icon_wizard_teleport.png",
-        "type": "E",
-        "sort": 3,
-        "abilityId": "Li-Ming|E1",
-        "abilityLinks": [
-          "Li-Ming|E1"
         ]
       }
     ],

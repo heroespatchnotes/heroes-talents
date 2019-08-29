@@ -68,8 +68,8 @@
         "description": "After 1.5 seconds, summon a rain of meteors in an area for 7 seconds. Each meteor deals 165 (+4% per level) damage in a small area.",
         "hotkey": "R",
         "abilityId": "Gul'dan|R2",
-        "cooldown": 100,
-        "manaCost": 90,
+        "cooldown": 70,
+        "manaCost": 80,
         "icon": "storm_ui_icon_guldan_rainoffire.png",
         "type": "heroic"
       },
@@ -78,6 +78,15 @@
         "name": "Life Tap",
         "description": "Gul'dan does not regenerate Mana.  Activate to restore 25% of Gul'dan's Mana.",
         "hotkey": "D",
+        "trait": true,
+        "abilityId": "Gul'dan|D2",
+        "icon": "storm_ui_icon_guldan_lifetap.png",
+        "type": "trait"
+      },
+      {
+        "uid": "7be92bb",
+        "name": "Life Tap",
+        "description": "Gul'dan does not regenerate Mana.  Activate to restore 25% of Gul'dan's Mana.",
         "trait": true,
         "abilityId": "Gul'dan|D1",
         "icon": "storm_ui_icon_guldan_lifetap.png",
@@ -152,8 +161,9 @@
         "icon": "storm_ui_icon_guldan_lifetap.png",
         "type": "Trait",
         "sort": 2,
-        "abilityId": "Gul'dan|D1",
+        "abilityId": "Gul'dan|D2",
         "abilityLinks": [
+          "Gul'dan|D2",
           "Gul'dan|D1"
         ]
       },
@@ -206,6 +216,7 @@
         "sort": 3,
         "abilityId": "Gul'dan|Passive",
         "abilityLinks": [
+          "Gul'dan|D2",
           "Gul'dan|D1"
         ]
       }
@@ -233,7 +244,7 @@
         "icon": "storm_ui_icon_guldan_rainoffire.png",
         "type": "Heroic",
         "sort": 2,
-        "cooldown": 100,
+        "cooldown": 70,
         "abilityId": "Gul'dan|R2",
         "abilityLinks": [
           "Gul'dan|R2"
@@ -277,6 +288,7 @@
         "sort": 3,
         "abilityId": "Gul'dan|Passive",
         "abilityLinks": [
+          "Gul'dan|D2",
           "Gul'dan|D1"
         ]
       },
@@ -323,12 +335,13 @@
         "tooltipId": "GuldanLifeTapDarknessWithin",
         "talentTreeId": "GuldanLifeTapDarknessWithin",
         "name": "Darkness Within",
-        "description": "After using Life Tap, the damage and healing of Gul'dan's next Ability is increased by 30%.",
+        "description": "Dealing 600 (+4% per level) damage to enemy Heroes causes the next cast of Life Tap to cost no Health and grant Gul'dan 25% Spell Power for 5 seconds.",
         "icon": "storm_ui_icon_guldan_lifetap.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Gul'dan|D1",
+        "abilityId": "Gul'dan|D2",
         "abilityLinks": [
+          "Gul'dan|D2",
           "Gul'dan|D1"
         ]
       }
