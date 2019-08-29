@@ -53,7 +53,7 @@
         "name": "Napalm Strike",
         "description": "Deals 164 (+4% per level) damage on impact, and leaves a napalm area that deals 50 (+4% per level) damage per second. Lasts for 4 seconds.",
         "hotkey": "R",
-        "abilityId": "Sgt. Hammer|R2",
+        "abilityId": "Sgt. Hammer|R1",
         "cooldown": 6,
         "manaCost": 35,
         "icon": "storm_ui_icon_sgthammer_napalmstrike.png",
@@ -63,7 +63,7 @@
         "name": "Blunt Force Gun",
         "description": "Fire a missile across the battlefield, dealing 500 (+3% per level) damage to non-Structure enemies in its path.",
         "hotkey": "R",
-        "abilityId": "Sgt. Hammer|R1",
+        "abilityId": "Sgt. Hammer|R2",
         "cooldown": 70,
         "manaCost": 100,
         "icon": "storm_ui_icon_sgthammer_bluntforcegun.png",
@@ -119,7 +119,7 @@
         ]
       },
       {
-        "tooltipId": "SgtHammerSiegeModeMaelstromRoundsTalent",
+        "tooltipId": "SgtHammerSiegeModeMaelstromRounds",
         "talentTreeId": "SgtHammerSiegeModeMaelstromRounds",
         "name": "Maelstrom Rounds",
         "description": "Activate to increase Basic Attack damage dealt by 35% for 5 seconds. Hitting Structures with Basic Attacks while in Siege Mode reduces the cooldown of Maelstrom Rounds by 5 seconds.  Stores up to 3 charges.",
@@ -225,9 +225,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 70,
-        "abilityId": "Sgt. Hammer|R1",
+        "abilityId": "Sgt. Hammer|R2",
         "abilityLinks": [
-          "Sgt. Hammer|R1"
+          "Sgt. Hammer|R2"
         ]
       },
       {
@@ -239,9 +239,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 6,
-        "abilityId": "Sgt. Hammer|R2",
+        "abilityId": "Sgt. Hammer|R1",
         "abilityLinks": [
-          "Sgt. Hammer|R2"
+          "Sgt. Hammer|R1"
         ]
       }
     ],
@@ -330,9 +330,9 @@
         "icon": "storm_ui_icon_sgthammer_bluntforcegun.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Sgt. Hammer|R1",
+        "abilityId": "Sgt. Hammer|R2",
         "abilityLinks": [
-          "Sgt. Hammer|R1"
+          "Sgt. Hammer|R2"
         ]
       },
       {
@@ -343,9 +343,9 @@
         "icon": "storm_ui_icon_sgthammer_napalmstrike.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Sgt. Hammer|R2",
+        "abilityId": "Sgt. Hammer|R1",
         "abilityLinks": [
-          "Sgt. Hammer|R2"
+          "Sgt. Hammer|R1"
         ]
       },
       {

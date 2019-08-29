@@ -49,7 +49,7 @@
         "name": "Purification Salvo",
         "description": "Channel for 1.5 seconds, sweeping a laser in front of Fenix that locks onto enemy Heroes. Once Channeling finishes, fire 5 missiles at each locked Hero, dealing 79 (+4% per level) damage each. Deals 50% increased damage to Slowed targets.",
         "hotkey": "R",
-        "abilityId": "Fenix|R1",
+        "abilityId": "Fenix|R2",
         "cooldown": 90,
         "icon": "storm_ui_icon_fenix_r_scan.png",
         "type": "heroic"
@@ -58,7 +58,7 @@
         "name": "Planet Cracker",
         "description": "After 0.5 seconds, Channel a powerful beam that spans across the battleground for 4 seconds, dealing 112 (+4% per level) damage every 0.25 seconds to non-Structure enemies hit.",
         "hotkey": "R",
-        "abilityId": "Fenix|R2",
+        "abilityId": "Fenix|R1",
         "cooldown": 100,
         "icon": "storm_ui_icon_fenix_r_planet_cracker.png",
         "type": "heroic"
@@ -221,9 +221,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 90,
-        "abilityId": "Fenix|R1",
+        "abilityId": "Fenix|R2",
         "abilityLinks": [
-          "Fenix|R1"
+          "Fenix|R2"
         ]
       },
       {
@@ -235,9 +235,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 100,
-        "abilityId": "Fenix|R2",
+        "abilityId": "Fenix|R1",
         "abilityLinks": [
-          "Fenix|R2"
+          "Fenix|R1"
         ]
       }
     ],

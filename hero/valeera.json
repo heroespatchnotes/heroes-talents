@@ -54,7 +54,7 @@
         "name": "Smoke Bomb",
         "description": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 30 Armor, reducing damage taken by 30%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds.  Using this Ability does not break Stealth.",
         "hotkey": "R",
-        "abilityId": "Valeera|R1",
+        "abilityId": "Valeera|R2",
         "cooldown": 60,
         "icon": "storm_ui_icon_valeera_smokebomb.png",
         "type": "heroic"
@@ -63,7 +63,7 @@
         "name": "Cloak of Shadows",
         "description": "Valeera is enveloped in a Cloak of Shadows, which immediately removes all damage over time effects from her. For 1.5 seconds, she becomes Unstoppable and gains 75 Spell Armor, reducing Ability Damage taken by 75%.  Using this Ability does not break Stealth.",
         "hotkey": "R",
-        "abilityId": "Valeera|R2",
+        "abilityId": "Valeera|R1",
         "cooldown": 15,
         "icon": "storm_ui_icon_valeera_cloakofshadows.png",
         "type": "heroic"
@@ -79,7 +79,7 @@
         "type": "trait"
       }
     ],
-    "ValeeraVanish": [
+    "ValeeraStealth": [
       {
         "name": "Ambush",
         "description": "Ambush an enemy, dealing 130 (+4% per level) damage and reducing their Armor by 10 for 5 seconds.  Awards 1 Combo Point.  Unstealth: Sinister Strike Dash forward, damaging enemies.",
@@ -135,7 +135,8 @@
         "sort": 2,
         "abilityId": "Valeera|D1",
         "abilityLinks": [
-          "Valeera|D1"
+          "Valeera|D1",
+          "Valeera|D2"
         ]
       },
       {
@@ -197,7 +198,8 @@
         "sort": 3,
         "abilityId": "Valeera|D1",
         "abilityLinks": [
-          "Valeera|D1"
+          "Valeera|D1",
+          "Valeera|D2"
         ]
       },
       {
@@ -264,9 +266,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 60,
-        "abilityId": "Valeera|R1",
+        "abilityId": "Valeera|R2",
         "abilityLinks": [
-          "Valeera|R1"
+          "Valeera|R2"
         ]
       },
       {
@@ -278,9 +280,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 15,
-        "abilityId": "Valeera|R2",
+        "abilityId": "Valeera|R1",
         "abilityLinks": [
-          "Valeera|R2"
+          "Valeera|R1"
         ]
       }
     ],
@@ -373,9 +375,9 @@
         "icon": "storm_ui_icon_valeera_smokebomb.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Valeera|R1",
+        "abilityId": "Valeera|R2",
         "abilityLinks": [
-          "Valeera|R1"
+          "Valeera|R2"
         ]
       },
       {
@@ -386,9 +388,9 @@
         "icon": "storm_ui_icon_valeera_cloakofshadows.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Valeera|R2",
+        "abilityId": "Valeera|R1",
         "abilityLinks": [
-          "Valeera|R2"
+          "Valeera|R1"
         ]
       },
       {
@@ -414,7 +416,8 @@
         "sort": 4,
         "abilityId": "Valeera|D1",
         "abilityLinks": [
-          "Valeera|D1"
+          "Valeera|D1",
+          "Valeera|D2"
         ]
       }
     ]

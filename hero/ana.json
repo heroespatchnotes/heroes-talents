@@ -76,7 +76,8 @@
         "description": "Basic Attacks apply a Dose to enemies, dealing an additional 40 (+4% per level) damage over 5 seconds, and stacking up to 5 times. Every 0.5 seconds, Ana is healed for 50% of the damage dealt by Shrike.  Aim Down Sights  Activating Shrike reduces your Movement Speed by 25%, but increases the Range of Healing Dart and Sleep Dart by 25% while also allowing them to pierce one Hero. Lasts until canceled.",
         "trait": true,
         "abilityId": "Ana|D1",
-        "icon": "storm_ui_icon_ana_shrike.png",
+        "cooldown": 4,
+        "icon": "storm_ui_icon_ana_aim_down_sights.png",
         "type": "trait"
       }
     ]
@@ -120,6 +121,7 @@
         "isQuest": true,
         "abilityId": "Ana|D1",
         "abilityLinks": [
+          "Ana|D1",
           "Ana|D1"
         ]
       }
@@ -200,6 +202,7 @@
         "sort": 3,
         "abilityId": "Ana|D1",
         "abilityLinks": [
+          "Ana|D1",
           "Ana|D1"
         ]
       }
@@ -351,9 +354,12 @@
         "name": "Armored Stance",
         "description": "Increase Shrike's damage by 50%. While Aim Down Sights is active, gain 25 Armor.",
         "icon": "storm_ui_icon_ana_aim_down_sights.png",
-        "type": "Active",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Ana|Active"
+        "abilityId": "Ana|D1",
+        "abilityLinks": [
+          "Ana|D1"
+        ]
       },
       {
         "tooltipId": "AnaDynamicOptics",
@@ -361,9 +367,12 @@
         "name": "Dynamic Optics",
         "description": "Basic Attacks increase Attack Speed by 10% for 3 seconds, up to 100%. While Aim Down Sights is active, increase your Basic Attack Range by 4.",
         "icon": "storm_ui_icon_ana_aim_down_sights_a.png",
-        "type": "Active",
+        "type": "Trait",
         "sort": 4,
-        "abilityId": "Ana|Active"
+        "abilityId": "Ana|D1",
+        "abilityLinks": [
+          "Ana|D1"
+        ]
       }
     ]
   }
