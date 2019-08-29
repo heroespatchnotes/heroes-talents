@@ -53,7 +53,7 @@
         "name": "Summon Water Elemental",
         "description": "Summon a Water Elemental at target location. The Water Elemental's Basic Attacks deal 62 (+4% per level) damage, splash for 25% damage and Chill. The Ability can be reactivated to retarget the Water Elemental.  Lasts 20 seconds.",
         "hotkey": "R",
-        "abilityId": "Jaina|R2",
+        "abilityId": "Jaina|R1",
         "cooldown": 60,
         "manaCost": 60,
         "icon": "storm_ui_icon_jaina_summonwaterelemental.png",
@@ -63,7 +63,7 @@
         "name": "Ring of Frost",
         "description": "After a 1.5 second delay, create a Ring of Frost in an area that deals 310 (+4% per level) damage and Roots enemies for 3 seconds. The ring persists for 3 seconds afterward, Chilling any enemies who touch it.",
         "hotkey": "R",
-        "abilityId": "Jaina|R1",
+        "abilityId": "Jaina|R2",
         "cooldown": 80,
         "manaCost": 70,
         "icon": "storm_ui_icon_jaina_ringoffrost.png",
@@ -76,9 +76,7 @@
         "abilityId": "Jaina|D1",
         "icon": "storm_ui_icon_jaina_frostbite.png",
         "type": "trait"
-      }
-    ],
-    "JainaTraitFrostbite": [
+      },
       {
         "name": "Improved Ice Block",
         "description": "Activate to place Jaina in Stasis and gain Invulnerability for 2.5 seconds. When this effect expires, nearby enemies are Chilled.",
@@ -86,7 +84,7 @@
         "abilityId": "Jaina|11",
         "cooldown": 40,
         "icon": "storm_ui_icon_jaina_improvediceblock_new_active.png",
-        "type": "subunit"
+        "type": "activable"
       }
     ]
   },
@@ -222,9 +220,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 80,
-        "abilityId": "Jaina|R1",
+        "abilityId": "Jaina|R2",
         "abilityLinks": [
-          "Jaina|R1"
+          "Jaina|R2"
         ]
       },
       {
@@ -236,9 +234,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 60,
-        "abilityId": "Jaina|R2",
+        "abilityId": "Jaina|R1",
         "abilityLinks": [
-          "Jaina|R2"
+          "Jaina|R1"
         ]
       }
     ],
@@ -331,9 +329,9 @@
         "icon": "storm_ui_icon_jaina_ringoffrost.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Jaina|R1",
+        "abilityId": "Jaina|R2",
         "abilityLinks": [
-          "Jaina|R1"
+          "Jaina|R2"
         ]
       },
       {
@@ -344,9 +342,9 @@
         "icon": "storm_ui_icon_jaina_summonwaterelemental.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Jaina|R2",
+        "abilityId": "Jaina|R1",
         "abilityLinks": [
-          "Jaina|R2"
+          "Jaina|R1"
         ]
       },
       {

@@ -54,7 +54,7 @@
         "name": "Flailing Swipe",
         "description": "Swipe 3 times in front of Stukov over 1.75 seconds, dealing 48 (+4% per level) damage to enemies hit and knocking them away. Each swipe is larger than the previous.",
         "hotkey": "R",
-        "abilityId": "Stukov|R1",
+        "abilityId": "Stukov|R2",
         "cooldown": 80,
         "manaCost": 80,
         "icon": "storm_ui_icon_stukov_flailingswipe.png",
@@ -64,7 +64,7 @@
         "name": "Massive Shove",
         "description": "Extend Stukov's arm. If it hits an enemy Hero, they are rapidly shoved until they collide with terrain, dealing 190 (+4% per level) damage and Stunning them for 0.5 seconds. Stukov gains 50 Armor while shoving an enemy.",
         "hotkey": "R",
-        "abilityId": "Stukov|R2",
+        "abilityId": "Stukov|R1",
         "cooldown": 20,
         "manaCost": 50,
         "icon": "storm_ui_icon_stukov_massiveshove.png",
@@ -227,9 +227,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 80,
-        "abilityId": "Stukov|R1",
+        "abilityId": "Stukov|R2",
         "abilityLinks": [
-          "Stukov|R1"
+          "Stukov|R2"
         ]
       },
       {
@@ -241,9 +241,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 20,
-        "abilityId": "Stukov|R2",
+        "abilityId": "Stukov|R1",
         "abilityLinks": [
-          "Stukov|R2"
+          "Stukov|R1"
         ]
       }
     ],
@@ -351,9 +351,9 @@
         "icon": "storm_ui_icon_stukov_flailingswipe.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Stukov|R1",
+        "abilityId": "Stukov|R2",
         "abilityLinks": [
-          "Stukov|R1"
+          "Stukov|R2"
         ]
       },
       {
@@ -364,9 +364,9 @@
         "icon": "storm_ui_icon_stukov_massiveshove.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Stukov|R2",
+        "abilityId": "Stukov|R1",
         "abilityLinks": [
-          "Stukov|R2"
+          "Stukov|R1"
         ]
       },
       {

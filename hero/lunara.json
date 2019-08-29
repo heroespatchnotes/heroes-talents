@@ -80,21 +80,9 @@
       {
         "name": "Dryad's Swiftness",
         "description": "Lunara moves 20% faster by leaping short distances.",
-        "hotkey": "Z",
         "abilityId": "Lunara|Z1",
         "icon": "storm_ui_icon_lunara_mount.png",
         "type": "mount"
-      }
-    ],
-    "LunaraWisp": [
-      {
-        "name": "Relocate Wisp",
-        "description": "Moves the Wisp to a new location.",
-        "hotkey": "E",
-        "abilityId": "Lunara|E2",
-        "cooldown": 1,
-        "icon": "storm_ui_icon_lunara_wispredirect.png",
-        "type": "subunit"
       }
     ]
   },
@@ -135,8 +123,9 @@
         "icon": "storm_ui_icon_lunara_boundlessstride_a.png",
         "type": "Z",
         "sort": 3,
-        "abilityId": "Lunara|Z1",
+        "abilityId": "Lunara|Z2",
         "abilityLinks": [
+          "Lunara|Z2",
           "Lunara|Z1"
         ]
       }

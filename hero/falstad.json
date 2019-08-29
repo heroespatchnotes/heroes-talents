@@ -54,7 +54,7 @@
         "name": "Hinterland Blast",
         "description": "After 1 second, deal 475 (+4.75% per level) damage to enemies within a long line. The cooldown is reduced by 25 seconds for every enemy Hero hit.",
         "hotkey": "R",
-        "abilityId": "Falstad|R1",
+        "abilityId": "Falstad|R2",
         "cooldown": 120,
         "manaCost": 100,
         "icon": "storm_ui_icon_falstad_hinterlandblast.png",
@@ -64,19 +64,11 @@
         "name": "Mighty Gust",
         "description": "Push enemies away, and slow their Movement Speed by 40% decaying over 4 seconds.",
         "hotkey": "R",
-        "abilityId": "Falstad|R2",
+        "abilityId": "Falstad|R1",
         "cooldown": 60,
         "manaCost": 70,
         "icon": "storm_ui_icon_falstad_mightygust.png",
         "type": "heroic"
-      },
-      {
-        "name": "Tailwind",
-        "description": "Gain 15% increased Movement Speed after not taking damage for 6 seconds.",
-        "trait": true,
-        "abilityId": "Falstad|D1",
-        "icon": "storm_ui_icon_falstad_tailwind.png",
-        "type": "trait"
       },
       {
         "name": "Flight",
@@ -86,6 +78,15 @@
         "cooldown": 75,
         "icon": "storm_ui_icon_falstad_mount.png",
         "type": "mount"
+      },
+      {
+        "name": "Tailwind",
+        "description": "Gain 15% increased Movement Speed after not taking damage for 6 seconds.",
+        "trait": true,
+        "abilityId": "Falstad|D1",
+        "cooldown": 6,
+        "icon": "storm_ui_icon_falstad_tailwind.png",
+        "type": "trait"
       }
     ]
   },
@@ -219,9 +220,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 120,
-        "abilityId": "Falstad|R1",
+        "abilityId": "Falstad|R2",
         "abilityLinks": [
-          "Falstad|R1"
+          "Falstad|R2"
         ]
       },
       {
@@ -233,9 +234,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 60,
-        "abilityId": "Falstad|R2",
+        "abilityId": "Falstad|R1",
         "abilityLinks": [
-          "Falstad|R2"
+          "Falstad|R1"
         ]
       }
     ],
@@ -327,9 +328,9 @@
         "icon": "storm_ui_icon_falstad_hinterlandblast.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Falstad|R1",
+        "abilityId": "Falstad|R2",
         "abilityLinks": [
-          "Falstad|R1"
+          "Falstad|R2"
         ]
       },
       {
@@ -340,9 +341,9 @@
         "icon": "storm_ui_icon_falstad_mightygust.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Falstad|R2",
+        "abilityId": "Falstad|R1",
         "abilityLinks": [
-          "Falstad|R2"
+          "Falstad|R1"
         ]
       },
       {

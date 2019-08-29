@@ -43,7 +43,7 @@
         "name": "Evolve Monstrosity",
         "description": "Turn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it gains 2% Health and 2% Basic Attack damage, stacking up to 40 times.  The Monstrosity can be healed by Carapace and has the ability to Burrow to a visible location every 80 seconds.  Using Symbiote on the Monstrosity allows Abathur to control it, in addition to Symbiote's normal benefits.  This Ability can be reactivated to automatically cast Symbiote on his Monstrosity.",
         "hotkey": "R",
-        "abilityId": "Abathur|R2",
+        "abilityId": "Abathur|R1",
         "cooldown": 90,
         "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
         "type": "heroic"
@@ -52,7 +52,7 @@
         "name": "Ultimate Evolution",
         "description": "Clone target allied Hero and control it for 20 seconds. Abathur has perfected the clone, granting it 20% Spell Power, 20% bonus Attack Damage, and 10% bonus Movement Speed. Cannot use their Heroic Ability.",
         "hotkey": "R",
-        "abilityId": "Abathur|R1",
+        "abilityId": "Abathur|R2",
         "cooldown": 70,
         "icon": "storm_ui_icon_abathur_ultimateevolution.png",
         "type": "heroic"
@@ -76,7 +76,7 @@
         "type": "mount"
       }
     ],
-    "AbathurSymbiote": [
+    "0": [
       {
         "name": "Stab",
         "description": "Shoots a spike towards target area that deals 119 (+4% per level) damage to the first enemy it contacts.",
@@ -102,6 +102,15 @@
         "abilityId": "Abathur|E1",
         "cooldown": 6,
         "icon": "storm_ui_icon_abathur_carapace.png",
+        "type": "subunit"
+      },
+      {
+        "name": "Deep Tunnel",
+        "description": "Order your Evolved Monstrosity to quickly tunnel to a visible location",
+        "hotkey": "Z",
+        "abilityId": "Abathur|Z2",
+        "cooldown": 80,
+        "icon": "storm_ui_icon_abathur_mount.png",
         "type": "subunit"
       }
     ]
@@ -254,9 +263,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 70,
-        "abilityId": "Abathur|R1",
+        "abilityId": "Abathur|R2",
         "abilityLinks": [
-          "Abathur|R1"
+          "Abathur|R2"
         ]
       },
       {
@@ -268,9 +277,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 90,
-        "abilityId": "Abathur|R2",
+        "abilityId": "Abathur|R1",
         "abilityLinks": [
-          "Abathur|R2"
+          "Abathur|R1"
         ]
       }
     ],
@@ -354,10 +363,10 @@
         "icon": "storm_ui_icon_abathur_volatilemutation.png",
         "type": "Heroic",
         "sort": 3,
-        "abilityId": "Abathur|R2",
+        "abilityId": "Abathur|R1",
         "abilityLinks": [
-          "Abathur|R2",
-          "Abathur|R1"
+          "Abathur|R1",
+          "Abathur|R2"
         ]
       },
       {
@@ -381,9 +390,9 @@
         "icon": "storm_ui_icon_abathur_ultimateevolution.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Abathur|R1",
+        "abilityId": "Abathur|R2",
         "abilityLinks": [
-          "Abathur|R1"
+          "Abathur|R2"
         ]
       },
       {
@@ -394,9 +403,9 @@
         "icon": "storm_ui_icon_abathur_evolvemonstrosity.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Abathur|R2",
+        "abilityId": "Abathur|R1",
         "abilityLinks": [
-          "Abathur|R2"
+          "Abathur|R1"
         ]
       },
       {

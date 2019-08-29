@@ -108,6 +108,15 @@
         "cooldown": 4,
         "icon": "storm_ui_icon_ragnaros_explosiverune.png",
         "type": "subunit"
+      },
+      {
+        "name": "Sulfuras Smash",
+        "description": "Hurl Sulfuras at the target area, landing after 0.75 seconds, dealing 198 (+4% per level) damage. Enemies in the center take 594 (+4% per level) damage instead and are Stunned for 0.5 seconds.",
+        "hotkey": "R",
+        "abilityId": "Ragnaros|R3",
+        "cooldown": 80,
+        "icon": "storm_ui_icon_ragnaros_sulfurassmash.png",
+        "type": "subunit"
       }
     ]
   },
@@ -124,7 +133,8 @@
         "isQuest": true,
         "abilityId": "Ragnaros|Q1",
         "abilityLinks": [
-          "Ragnaros|Q1"
+          "Ragnaros|Q1",
+          "Ragnaros|Q2"
         ]
       },
       {
@@ -206,7 +216,8 @@
         "sort": 1,
         "abilityId": "Ragnaros|Q1",
         "abilityLinks": [
-          "Ragnaros|Q1"
+          "Ragnaros|Q1",
+          "Ragnaros|Q2"
         ]
       },
       {
@@ -274,7 +285,8 @@
         "sort": 1,
         "abilityId": "Ragnaros|Q1",
         "abilityLinks": [
-          "Ragnaros|Q1"
+          "Ragnaros|Q1",
+          "Ragnaros|Q2"
         ]
       },
       {
@@ -312,7 +324,8 @@
         "sort": 1,
         "abilityId": "Ragnaros|Q1",
         "abilityLinks": [
-          "Ragnaros|Q1"
+          "Ragnaros|Q1",
+          "Ragnaros|Q2"
         ]
       },
       {
@@ -353,7 +366,8 @@
         "sort": 1,
         "abilityId": "Ragnaros|R1",
         "abilityLinks": [
-          "Ragnaros|R1"
+          "Ragnaros|R1",
+          "Ragnaros|R3"
         ]
       },
       {

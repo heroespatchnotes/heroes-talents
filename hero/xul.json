@@ -56,7 +56,7 @@
         "name": "Skeletal Mages",
         "description": "Vector Targeting Summon 4 Frost Mages in a line that attack nearby enemies for 47 (+4% per level) damage a second and Slow them by 30% for 2 seconds. Last up to 15 seconds.",
         "hotkey": "R",
-        "abilityId": "Xul|R2",
+        "abilityId": "Xul|R1",
         "cooldown": 90,
         "manaCost": 80,
         "icon": "storm_ui_icon_necromancer_skeletalmages.png",
@@ -66,19 +66,11 @@
         "name": "Poison Nova",
         "description": "After 0.5 seconds, release poisonous missiles that deal 570 (+4% per level) damage to all enemies hit over 10 seconds.",
         "hotkey": "R",
-        "abilityId": "Xul|R1",
+        "abilityId": "Xul|R2",
         "cooldown": 90,
         "manaCost": 100,
         "icon": "storm_ui_icon_necromancer_poisonnova.png",
         "type": "heroic"
-      },
-      {
-        "name": "Raise Skeleton",
-        "description": "When a nearby enemy Minion dies, it becomes a Skeletal Warrior with 225 (+4% per level) Health that attacks for 21 (+4% per level) damage and last up to 15 seconds. Up to 4 Skeletal Warriors can be active at once.",
-        "trait": true,
-        "abilityId": "Xul|D1",
-        "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
-        "type": "trait"
       },
       {
         "name": "Bone Armor",
@@ -88,6 +80,14 @@
         "cooldown": 30,
         "icon": "storm_ui_icon_necromancer_bonearmor.png",
         "type": "activable"
+      },
+      {
+        "name": "Raise Skeleton",
+        "description": "When a nearby enemy Minion dies, it becomes a Skeletal Warrior with 225 (+4% per level) Health that attacks for 21 (+4% per level) damage and last up to 15 seconds. Up to 4 Skeletal Warriors can be active at once.",
+        "trait": true,
+        "abilityId": "Xul|D1",
+        "icon": "storm_ui_icon_necromancer_raiseskeleton.png",
+        "type": "trait"
       }
     ]
   },
@@ -227,9 +227,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 90,
-        "abilityId": "Xul|R1",
+        "abilityId": "Xul|R2",
         "abilityLinks": [
-          "Xul|R1"
+          "Xul|R2"
         ]
       },
       {
@@ -241,9 +241,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 90,
-        "abilityId": "Xul|R2",
+        "abilityId": "Xul|R1",
         "abilityLinks": [
-          "Xul|R2"
+          "Xul|R1"
         ]
       }
     ],
@@ -333,9 +333,9 @@
         "icon": "storm_ui_icon_necromancer_poisonnova.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Xul|R1",
+        "abilityId": "Xul|R2",
         "abilityLinks": [
-          "Xul|R1"
+          "Xul|R2"
         ]
       },
       {
@@ -346,9 +346,9 @@
         "icon": "storm_ui_icon_necromancer_skeletalmages.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Xul|R2",
+        "abilityId": "Xul|R1",
         "abilityLinks": [
-          "Xul|R2"
+          "Xul|R1"
         ]
       },
       {
@@ -357,7 +357,7 @@
         "name": "Mortal Wound",
         "description": "Enemy Heroes hit by Spectral Scythe receive 75% less healing for 4 seconds.",
         "icon": "storm_ui_icon_necromancer_reap.png",
-        "type": "Trait",
+        "type": "Q",
         "sort": 3,
         "abilityId": "Xul|Q1",
         "abilityLinks": [

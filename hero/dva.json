@@ -21,7 +21,7 @@
     "D.Va": [
       {
         "name": "Boosters",
-        "description": "Increase D.Va's Movement Speed by 104% for 2 seconds. Enemies that are hit take 135 (+4% per level) damage and are knocked away.  D.Va cannot be Slowed while Boosters are active, and each enemy can only be hit once per use.",
+        "description": "Increase D.Va's Movement Speed by 125% for 2 seconds. Enemies that are hit take 135 (+4% per level) damage and are knocked away.  D.Va cannot be Slowed while Boosters are active, and each enemy can only be hit once per use.",
         "hotkey": "Q",
         "abilityId": "D.Va|Q1",
         "cooldown": 9,
@@ -46,19 +46,10 @@
         "type": "basic"
       },
       {
-        "name": "Bunny Hop",
-        "description": "D.Va's Mech becomes Unstoppable and stomps every 0.5 seconds, dealing 60 (+4% per level) damage and Slowing enemies by 40%. Lasts 4 seconds.  Requires Mech Mode.",
-        "hotkey": "R",
-        "abilityId": "D.Va|R1",
-        "cooldown": 100,
-        "icon": "storm_ui_icon_dva_bunnyhop.png",
-        "type": "heroic"
-      },
-      {
         "name": "Big Shot",
         "description": "Deal 250 (+4% per level) damage to all enemies in a line. The cooldown of Call Mech is reduced by 8 seconds for each enemy Hero hit.  Requires Pilot Mode.",
         "hotkey": "R",
-        "abilityId": "D.Va|R2",
+        "abilityId": "D.Va|R1",
         "cooldown": 4,
         "icon": "storm_ui_icon_dva_bigshot.png",
         "type": "heroic"
@@ -78,9 +69,26 @@
         "abilityId": "D.Va|Z1",
         "icon": "storm_ui_icon_dva_mount.png",
         "type": "mount"
+      },
+      {
+        "name": "Pilot Mode",
+        "description": "Basic Attacks reduce the cooldown of Call Mech by 0.5 seconds. As a Pilot, D.Va only awards 50% of a normal Hero's experience upon dying.",
+        "trait": true,
+        "abilityId": "D.Va|D2",
+        "icon": "storm_ui_icon_dva_pilotmode.png",
+        "type": "trait"
+      },
+      {
+        "name": "Bunny Hop",
+        "description": "D.Va's Mech becomes Unstoppable and stomps every 0.5 seconds, dealing 60 (+4% per level) damage and Slowing enemies by 40%. Lasts 4 seconds.  Requires Mech Mode.",
+        "hotkey": "R",
+        "abilityId": "D.Va|R2",
+        "cooldown": 100,
+        "icon": "storm_ui_icon_dva_bunnyhop.png",
+        "type": "heroic"
       }
     ],
-    "D.VaPilot": [
+    "0": [
       {
         "name": "Call Mech",
         "description": "Call a new Mech and enter Mech Mode.  Basic Attacks lower this cooldown by 0.5 seconds each.",
@@ -91,10 +99,21 @@
         "type": "subunit"
       },
       {
-        "name": "Pilot Mode",
-        "description": "Basic Attacks reduce the cooldown of Call Mech by 0.5 seconds. As a Pilot, D.Va only awards 50% of a normal Hero's experience upon dying.",
-        "abilityId": "D.Va|D2",
-        "icon": "storm_ui_icon_dva_pilotmode.png",
+        "name": "Torpedo Dash",
+        "description": "Dash towards the target location, passing through enemies along the way.",
+        "hotkey": "Q",
+        "abilityId": "D.Va|Q2",
+        "cooldown": 12,
+        "icon": "storm_ui_icon_dva_jetpackattack.png",
+        "type": "subunit"
+      },
+      {
+        "name": "Concussive Pulse",
+        "description": "Deal 141 (+4% per level) damage to enemies in a cone and knock them back.",
+        "hotkey": "W",
+        "abilityId": "D.Va|W2",
+        "cooldown": 7,
+        "icon": "storm_ui_icon_dva_concussivecharge.png",
         "type": "subunit"
       }
     ]
@@ -118,7 +137,7 @@
         "tooltipId": "DVaBoostersHitTheNitrous",
         "talentTreeId": "DVaBoostersHitTheNitrous",
         "name": "Hit the Nitrous",
-        "description": "Initial speed bonus of Boosters is increased to 286%, then decays to normal boost speed over 0.5 seconds. During this time, Boosters deals 50% extra damage.",
+        "description": "Initial speed bonus of Boosters is increased to 325%, then decays to normal boost speed over 0.5 seconds. During this time, Boosters deals 50% extra damage.",
         "icon": "storm_ui_icon_dva_boosters_a.png",
         "type": "Q",
         "sort": 2,
@@ -272,10 +291,10 @@
         "icon": "storm_ui_icon_dva_bunnyhop.png",
         "type": "Heroic",
         "sort": 1,
-        "cooldown": 100,
-        "abilityId": "D.Va|R1",
+        "cooldown": 1,
+        "abilityId": "D.Va|R2",
         "abilityLinks": [
-          "D.Va|R1"
+          "D.Va|R2"
         ]
       },
       {
@@ -287,9 +306,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 4,
-        "abilityId": "D.Va|R2",
+        "abilityId": "D.Va|R1",
         "abilityLinks": [
-          "D.Va|R2"
+          "D.Va|R1"
         ]
       }
     ],
@@ -305,7 +324,8 @@
         "abilityId": "D.Va|D1",
         "abilityLinks": [
           "D.Va|D1",
-          "D.Va|E2"
+          "D.Va|E2",
+          "D.Va|E3"
         ]
       },
       {
@@ -342,10 +362,10 @@
         "name": "Torpedo Dash",
         "description": "D.Va gains the Torpedo Dash ability, allowing her to dash forward and pass through enemies.  Requires Pilot Mode.",
         "icon": "storm_ui_icon_dva_jetpackattack.png",
-        "type": "Active",
+        "type": "Q",
         "sort": 1,
         "cooldown": 12,
-        "abilityId": "D.Va|Active"
+        "abilityId": "D.Va|Q"
       },
       {
         "tooltipId": "DVaPilotGGWP",
@@ -396,9 +416,9 @@
         "icon": "storm_ui_icon_dva_bunnyhop.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "D.Va|R1",
+        "abilityId": "D.Va|R2",
         "abilityLinks": [
-          "D.Va|R1"
+          "D.Va|R2"
         ]
       },
       {
@@ -409,9 +429,9 @@
         "icon": "storm_ui_icon_dva_bigshot.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "D.Va|R2",
+        "abilityId": "D.Va|R1",
         "abilityLinks": [
-          "D.Va|R2"
+          "D.Va|R1"
         ]
       },
       {
