@@ -84,8 +84,8 @@
         "uid": "a07cc19",
         "name": "Select Olaf",
         "description": "Olaf can charge enemies and slow their Movement Speed by 30% for 3 seconds by right-clicking on them. 8 second cooldown.  Olaf gains increased Health Regeneration when out of combat for 4 seconds.",
-        "hotkey": "3",
-        "abilityId": "The Lost Vikings|31",
+        "hotkey": "1",
+        "abilityId": "The Lost Vikings|11",
         "icon": "storm_ui_icon_lostvikings_selectolaf.png",
         "type": "activable"
       },
@@ -93,8 +93,8 @@
         "uid": "9005cd5",
         "name": "Select Baleog",
         "description": "Baleog's Basic Attacks deal 50% splash damage to enemies behind his attack target.",
-        "hotkey": "1",
-        "abilityId": "The Lost Vikings|11",
+        "hotkey": "2",
+        "abilityId": "The Lost Vikings|21",
         "icon": "storm_ui_icon_lostvikings_selectbaleog.png",
         "type": "activable"
       },
@@ -102,8 +102,8 @@
         "uid": "cf27aa9",
         "name": "Select Erik",
         "description": "Erik moves faster than the other Vikings and has increased Basic Attack range.",
-        "hotkey": "2",
-        "abilityId": "The Lost Vikings|21",
+        "hotkey": "3",
+        "abilityId": "The Lost Vikings|31",
         "icon": "storm_ui_icon_lostvikings_selecterik.png",
         "type": "activable"
       },
@@ -142,6 +142,15 @@
         "name": "Viking Hoard",
         "description": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.  Current Bonus: 0 Regen per second",
         "trait": true,
+        "abilityId": "The Lost Vikings|D2",
+        "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
+        "type": "trait"
+      },
+      {
+        "uid": "f513e42",
+        "name": "Viking Hoard",
+        "description": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.  Current Bonus: 0 Regen per second",
+        "trait": true,
         "abilityId": "The Lost Vikings|D1",
         "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
         "type": "trait"
@@ -171,7 +180,7 @@
         "sort": 1,
         "abilityId": "The Lost Vikings|Passive",
         "abilityLinks": [
-          "The Lost Vikings|31"
+          "The Lost Vikings|11"
         ]
       },
       {
@@ -184,7 +193,7 @@
         "sort": 2,
         "abilityId": "The Lost Vikings|Passive",
         "abilityLinks": [
-          "The Lost Vikings|21"
+          "The Lost Vikings|31"
         ]
       },
       {
@@ -197,7 +206,7 @@
         "sort": 3,
         "abilityId": "The Lost Vikings|Passive",
         "abilityLinks": [
-          "The Lost Vikings|11"
+          "The Lost Vikings|21"
         ]
       },
       {
@@ -222,7 +231,7 @@
         "sort": 1,
         "abilityId": "The Lost Vikings|Passive",
         "abilityLinks": [
-          "The Lost Vikings|11"
+          "The Lost Vikings|21"
         ]
       },
       {
@@ -235,7 +244,7 @@
         "sort": 2,
         "abilityId": "The Lost Vikings|Passive",
         "abilityLinks": [
-          "The Lost Vikings|21"
+          "The Lost Vikings|31"
         ]
       },
       {
@@ -248,7 +257,7 @@
         "sort": 3,
         "abilityId": "The Lost Vikings|Passive",
         "abilityLinks": [
-          "The Lost Vikings|21"
+          "The Lost Vikings|31"
         ]
       },
       {
@@ -273,7 +282,7 @@
         "sort": 1,
         "abilityId": "The Lost Vikings|Passive",
         "abilityLinks": [
-          "The Lost Vikings|11"
+          "The Lost Vikings|21"
         ]
       },
       {
@@ -340,7 +349,7 @@
         "sort": 1,
         "abilityId": "The Lost Vikings|Passive",
         "abilityLinks": [
-          "The Lost Vikings|31"
+          "The Lost Vikings|11"
         ]
       },
       {
@@ -377,7 +386,7 @@
         "sort": 1,
         "abilityId": "The Lost Vikings|Passive",
         "abilityLinks": [
-          "The Lost Vikings|31"
+          "The Lost Vikings|11"
         ]
       },
       {
@@ -449,9 +458,9 @@
         "icon": "storm_ui_icon_lostvikings_fastrestart.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "The Lost Vikings|D1",
+        "abilityId": "The Lost Vikings|D2",
         "abilityLinks": [
-          "The Lost Vikings|D1"
+          "The Lost Vikings|D2"
         ]
       },
       {
