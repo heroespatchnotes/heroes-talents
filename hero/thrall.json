@@ -75,6 +75,7 @@
         "description": "Dealing damage with Abilities grants 1 stack of Frostwolf Resilience. At 5 stacks, Thrall is instantly healed for 223 (+4% per level) Health.",
         "trait": true,
         "abilityId": "Thrall|D1",
+        "cooldown": 15,
         "icon": "storm_ui_icon_thrall_frostwolfresilience.png",
         "type": "trait"
       }
@@ -239,7 +240,7 @@
         "name": "Grace Of Air",
         "description": "Windfury attacks grant twice as many stacks of Frostwolf Resilience.",
         "icon": "storm_ui_icon_thrall_windfury.png",
-        "type": "Trait",
+        "type": "E",
         "sort": 1,
         "abilityId": "Thrall|E1",
         "abilityLinks": [

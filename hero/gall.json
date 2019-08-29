@@ -48,7 +48,7 @@
         "name": "Shadow Bolt Volley",
         "description": "After 1 second, unleash 20 Shadow Bolts over 4 seconds, each dealing 87 (+4% per level) damage to the first target hit. The bolts fire towards your mouse.",
         "hotkey": "R",
-        "abilityId": "Gall|R1",
+        "abilityId": "Gall|R2",
         "cooldown": 60,
         "icon": "storm_ui_icon_gall_shadowboltvolley.png",
         "type": "heroic"
@@ -57,7 +57,7 @@
         "name": "Twisting Nether",
         "description": "After 1 second, nearby enemies are slowed by 50% while Gall channels, up to 5 seconds. Activate to deal 353 (+5% per level) damage.",
         "hotkey": "R",
-        "abilityId": "Gall|R2",
+        "abilityId": "Gall|R1",
         "cooldown": 80,
         "icon": "storm_ui_icon_gall_twistingnether_a.png",
         "type": "heroic"
@@ -228,9 +228,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 60,
-        "abilityId": "Gall|R1",
+        "abilityId": "Gall|R2",
         "abilityLinks": [
-          "Gall|R1"
+          "Gall|R2"
         ]
       },
       {
@@ -242,9 +242,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 80,
-        "abilityId": "Gall|R2",
+        "abilityId": "Gall|R1",
         "abilityLinks": [
-          "Gall|R2"
+          "Gall|R1"
         ]
       }
     ],
@@ -339,9 +339,9 @@
         "icon": "storm_ui_icon_gall_shadowboltvolley.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Gall|R1",
+        "abilityId": "Gall|R2",
         "abilityLinks": [
-          "Gall|R1"
+          "Gall|R2"
         ]
       },
       {
@@ -352,9 +352,9 @@
         "icon": "storm_ui_icon_gall_twistingnether_a.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Gall|R2",
+        "abilityId": "Gall|R1",
         "abilityLinks": [
-          "Gall|R2"
+          "Gall|R1"
         ]
       },
       {

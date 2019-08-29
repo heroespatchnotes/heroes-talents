@@ -56,7 +56,7 @@
         "name": "Bloodlust",
         "description": "Grant nearby allied Heroes 40% Attack Speed and 25% Movement Speed and causes them to heal for 30% of the Basic Attack damage to their primary target. Lasts for 8 seconds.",
         "hotkey": "R",
-        "abilityId": "Rehgar|R2",
+        "abilityId": "Rehgar|R1",
         "cooldown": 90,
         "manaCost": 70,
         "icon": "storm_ui_icon_rehgar_bloodlust.png",
@@ -66,7 +66,7 @@
         "name": "Ancestral Healing",
         "description": "After 1 second, heal an allied Hero for 1180 (+4% per level) Health.",
         "hotkey": "R",
-        "abilityId": "Rehgar|R1",
+        "abilityId": "Rehgar|R2",
         "cooldown": 100,
         "manaCost": 80,
         "icon": "storm_ui_icon_rehgar_ancestralhealing.png",
@@ -232,9 +232,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 100,
-        "abilityId": "Rehgar|R1",
+        "abilityId": "Rehgar|R2",
         "abilityLinks": [
-          "Rehgar|R1"
+          "Rehgar|R2"
         ]
       },
       {
@@ -246,9 +246,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 90,
-        "abilityId": "Rehgar|R2",
+        "abilityId": "Rehgar|R1",
         "abilityLinks": [
-          "Rehgar|R2"
+          "Rehgar|R1"
         ]
       }
     ],
@@ -321,7 +321,7 @@
         ]
       },
       {
-        "tooltipId": "RehgarHungeroftheWolfTalent",
+        "tooltipId": "RehgarHungeroftheWolf",
         "talentTreeId": "RehgarHungerOfTheWolf",
         "name": "Hunger of the Wolf",
         "description": "Ghost Wolf attacks against Heroes deal an additional 5% of the target's maximum Health and heal Rehgar for 5% of his maximum Health.",
@@ -343,9 +343,9 @@
         "icon": "storm_ui_icon_rehgar_ancestralhealing.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Rehgar|R1",
+        "abilityId": "Rehgar|R2",
         "abilityLinks": [
-          "Rehgar|R1"
+          "Rehgar|R2"
         ]
       },
       {
@@ -356,9 +356,9 @@
         "icon": "storm_ui_icon_rehgar_bloodlust.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Rehgar|R2",
+        "abilityId": "Rehgar|R1",
         "abilityLinks": [
-          "Rehgar|R2"
+          "Rehgar|R1"
         ]
       },
       {

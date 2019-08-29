@@ -53,18 +53,10 @@
       },
       {
         "name": "Wall Ride",
-        "description": "When moving alongside terrain, Lúcio begins to Wall Ride for 2 seconds. While Wall Ride is active, Lúcio can walk through units and gains 18% Movement Speed that stacks with other bonuses.",
+        "description": "When moving alongside terrain, Lúcio begins to Wall Ride for 2 seconds. While Wall Ride is active, Lúcio can walk through units and gains 20% Movement Speed that stacks with other bonuses.",
         "abilityId": "Lúcio|Z1",
         "icon": "storm_ui_icon_lucio_mount.png",
         "type": "mount"
-      },
-      {
-        "name": "Crossfade",
-        "description": "Currently playing Speed Boost, increasing the Movement Speed of Lúcio and nearby allied Heroes by 10%.  Toggle to play Healing Boost instead.",
-        "hotkey": "W",
-        "abilityId": "Lúcio|W1",
-        "icon": "storm_ui_icon_lucio_crossfadehealing.png",
-        "type": "basic"
       },
       {
         "name": "High Five",
@@ -84,9 +76,17 @@
         "cooldown": 20,
         "icon": "storm_ui_icon_lucio_accelerando.png",
         "type": "trait"
+      },
+      {
+        "name": "Crossfade",
+        "description": "Currently playing Speed Boost, increasing the Movement Speed of Lúcio and nearby allied Heroes by 10%.  Toggle to play Healing Boost instead.",
+        "hotkey": "W",
+        "abilityId": "Lúcio|W1",
+        "icon": "storm_ui_icon_lucio_crossfadehealing.png",
+        "type": "basic"
       }
     ],
-    "LucioCrossfadeActivateHealingBoost": [
+    "LucioCrossfade": [
       {
         "name": "Crossfade",
         "description": "Currently playing Healing Boost, passively healing Lúcio and nearby allied Heroes for 15 (+4% per level) Health per second.  Toggle to play Speed Boost instead.",
@@ -110,15 +110,14 @@
         "isQuest": true,
         "abilityId": "Lúcio|W2",
         "abilityLinks": [
-          "Lúcio|W2",
-          "Lúcio|W1"
+          "Lúcio|W2"
         ]
       },
       {
         "tooltipId": "LucioWallRideAccelerando",
         "talentTreeId": "LucioWallRideAccelerando",
         "name": "Accelerando",
-        "description": "Wall Ride's Movement Speed bonus gradually increases to 36% over 4 seconds while Lúcio maintains its effect.",
+        "description": "Wall Ride's Movement Speed bonus gradually increases to 40% over 4 seconds while Lúcio maintains its effect.",
         "icon": "storm_ui_icon_lucio_wallride.png",
         "type": "Z",
         "sort": 2,
@@ -208,8 +207,7 @@
         "cooldown": 45,
         "abilityId": "Lúcio|W2",
         "abilityLinks": [
-          "Lúcio|W2",
-          "Lúcio|W1"
+          "Lúcio|W2"
         ]
       },
       {
@@ -265,8 +263,7 @@
         "sort": 1,
         "abilityId": "Lúcio|W2",
         "abilityLinks": [
-          "Lúcio|W2",
-          "Lúcio|W1"
+          "Lúcio|W2"
         ]
       },
       {
@@ -286,7 +283,7 @@
         "tooltipId": "LucioWallRideSlip",
         "talentTreeId": "LucioWallRideSlip",
         "name": "Slip",
-        "description": "While Wall Ride is active, passing near an enemy Hero increases its Movement Speed bonus to 36% for 1 second.  Passive: Wall Ride grants 20 Armor.",
+        "description": "While Wall Ride is active, passing near an enemy Hero increases its Movement Speed bonus to 40% for 1 second.  Passive: Wall Ride grants 20 Armor.",
         "icon": "storm_ui_icon_lucio_wallride.png",
         "type": "Z",
         "sort": 3,
@@ -372,8 +369,7 @@
         "sort": 3,
         "abilityId": "Lúcio|W2",
         "abilityLinks": [
-          "Lúcio|W2",
-          "Lúcio|W1"
+          "Lúcio|W2"
         ]
       },
       {
@@ -387,8 +383,7 @@
         "cooldown": 75,
         "abilityId": "Lúcio|W2",
         "abilityLinks": [
-          "Lúcio|W2",
-          "Lúcio|W1"
+          "Lúcio|W2"
         ]
       }
     ]

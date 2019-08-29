@@ -56,7 +56,7 @@
         "name": "Eternal Feast",
         "description": "After 1.5 seconds, deal 210 (+4% per level) damage in an area. Eternal Feast repeats every 1 second as long as it hits an enemy Hero.",
         "hotkey": "R",
-        "abilityId": "Orphea|R1",
+        "abilityId": "Orphea|R2",
         "cooldown": 50,
         "manaCost": 75,
         "icon": "storm_ui_icon_orphea_ult_darkfall.png",
@@ -66,7 +66,7 @@
         "name": "Crushing Jaws",
         "description": "After 1.25 seconds, pull enemies in an area towards the center, dealing 250 (+4% per level) damage and Stunning them for 0.5 seconds.",
         "hotkey": "R",
-        "abilityId": "Orphea|R2",
+        "abilityId": "Orphea|R1",
         "cooldown": 70,
         "manaCost": 75,
         "icon": "storm_ui_icon_orphea_ult_thrasher.png",
@@ -218,9 +218,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 50,
-        "abilityId": "Orphea|R1",
+        "abilityId": "Orphea|R2",
         "abilityLinks": [
-          "Orphea|R1"
+          "Orphea|R2"
         ]
       },
       {
@@ -232,9 +232,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 70,
-        "abilityId": "Orphea|R2",
+        "abilityId": "Orphea|R1",
         "abilityLinks": [
-          "Orphea|R2"
+          "Orphea|R1"
         ]
       }
     ],
@@ -274,10 +274,7 @@
         "type": "Trait",
         "sort": 3,
         "cooldown": 10,
-        "abilityId": "Orphea|D1",
-        "abilityLinks": [
-          "Orphea|D1"
-        ]
+        "abilityId": "Orphea|Trait"
       }
     ],
     "16": [
@@ -331,9 +328,9 @@
         "icon": "storm_ui_icon_orphea_ult_darkfall.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Orphea|R1",
+        "abilityId": "Orphea|R2",
         "abilityLinks": [
-          "Orphea|R1"
+          "Orphea|R2"
         ]
       },
       {
@@ -344,9 +341,9 @@
         "icon": "storm_ui_icon_orphea_ult_thrasher.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Orphea|R2",
+        "abilityId": "Orphea|R1",
         "abilityLinks": [
-          "Orphea|R2"
+          "Orphea|R1"
         ]
       },
       {

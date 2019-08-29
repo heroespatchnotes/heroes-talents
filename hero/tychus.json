@@ -53,7 +53,7 @@
         "name": "Drakken Laser Drill",
         "description": "Call down a Laser Drill to attack nearby enemies, dealing 142 (+4% per level) damage every second. Reactivate to assign a new target. Lasts 22 seconds.",
         "hotkey": "R",
-        "abilityId": "Tychus|R2",
+        "abilityId": "Tychus|R1",
         "cooldown": 100,
         "manaCost": 100,
         "icon": "storm_ui_icon_tychus_drakkinlaserdrill.png",
@@ -63,7 +63,7 @@
         "name": "Commandeer Odin",
         "description": "Call down an Odin to pilot. The Odin deals increased Damage, has 100% increased Basic Attack range, and uses different Abilities. The Odin has 25 Armor and lasts 23 seconds.",
         "hotkey": "R",
-        "abilityId": "Tychus|R1",
+        "abilityId": "Tychus|R2",
         "cooldown": 100,
         "manaCost": 100,
         "icon": "storm_ui_icon_tychus_commandeerodin.png",
@@ -72,7 +72,6 @@
       {
         "name": "Minigun",
         "description": "Activate to have Basic Attacks against Heroes deal bonus damage equal to 2.5% of their maximum Health. Lasts 3 seconds.",
-        "hotkey": "D",
         "trait": true,
         "abilityId": "Tychus|D1",
         "cooldown": 12,
@@ -80,7 +79,7 @@
         "type": "trait"
       }
     ],
-    "TychusOdin": [
+    "TychusOdinNoHealth": [
       {
         "name": "Annihilate",
         "description": "Fire the Odin's cannons in a straight line, dealing 196 (+4% per level) damage to everything in the path.",
@@ -122,7 +121,8 @@
         "sort": 1,
         "abilityId": "Tychus|E1",
         "abilityLinks": [
-          "Tychus|E1"
+          "Tychus|E1",
+          "Tychus|E3"
         ]
       },
       {
@@ -136,7 +136,8 @@
         "isQuest": true,
         "abilityId": "Tychus|E1",
         "abilityLinks": [
-          "Tychus|E1"
+          "Tychus|E1",
+          "Tychus|E3"
         ]
       },
       {
@@ -149,7 +150,8 @@
         "sort": 3,
         "abilityId": "Tychus|E1",
         "abilityLinks": [
-          "Tychus|E1"
+          "Tychus|E1",
+          "Tychus|E3"
         ]
       }
     ],
@@ -163,8 +165,9 @@
         "type": "Trait",
         "sort": 1,
         "isQuest": true,
-        "abilityId": "Tychus|D1",
+        "abilityId": "Tychus|D2",
         "abilityLinks": [
+          "Tychus|D2",
           "Tychus|D1"
         ]
       },
@@ -176,8 +179,9 @@
         "icon": "storm_ui_icon_tychus_minigun_a.png",
         "type": "Trait",
         "sort": 2,
-        "abilityId": "Tychus|D1",
+        "abilityId": "Tychus|D2",
         "abilityLinks": [
+          "Tychus|D2",
           "Tychus|D1"
         ]
       },
@@ -241,9 +245,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 100,
-        "abilityId": "Tychus|R1",
+        "abilityId": "Tychus|R2",
         "abilityLinks": [
-          "Tychus|R1"
+          "Tychus|R2"
         ]
       },
       {
@@ -255,9 +259,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 100,
-        "abilityId": "Tychus|R2",
+        "abilityId": "Tychus|R1",
         "abilityLinks": [
-          "Tychus|R2"
+          "Tychus|R1"
         ]
       }
     ],
@@ -270,8 +274,9 @@
         "icon": "storm_ui_icon_tychus_minigun.png",
         "type": "Trait",
         "sort": 1,
-        "abilityId": "Tychus|D1",
+        "abilityId": "Tychus|D2",
         "abilityLinks": [
+          "Tychus|D2",
           "Tychus|D1"
         ]
       },
@@ -350,9 +355,9 @@
         "icon": "storm_ui_icon_tychus_commandeerodin.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Tychus|R1",
+        "abilityId": "Tychus|R2",
         "abilityLinks": [
-          "Tychus|R1",
+          "Tychus|R2",
           "Tychus|W2"
         ]
       },
@@ -364,9 +369,9 @@
         "icon": "storm_ui_icon_tychus_drakkinlaserdrill.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Tychus|R2",
+        "abilityId": "Tychus|R1",
         "abilityLinks": [
-          "Tychus|R2"
+          "Tychus|R1"
         ]
       },
       {
@@ -377,8 +382,9 @@
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Tychus|D1",
+        "abilityId": "Tychus|D2",
         "abilityLinks": [
+          "Tychus|D2",
           "Tychus|D1"
         ]
       },
@@ -393,7 +399,8 @@
         "abilityId": "Tychus|E1",
         "abilityLinks": [
           "Tychus|E1",
-          "Tychus|E2"
+          "Tychus|E2",
+          "Tychus|E3"
         ]
       }
     ]

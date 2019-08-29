@@ -51,7 +51,7 @@
         "name": "Temporal Loop",
         "description": "Choose an enemy Hero. After 3 seconds, they are teleported back to the location where Temporal Loop was cast on them.  Basic Abilities recharge 500% faster for 3 seconds after casting Temporal Loop.",
         "hotkey": "R",
-        "abilityId": "Chromie|R2",
+        "abilityId": "Chromie|R1",
         "cooldown": 50,
         "manaCost": 60,
         "icon": "storm_ui_icon_chromie_looper.png",
@@ -61,7 +61,7 @@
         "name": "Slowing Sands",
         "description": "Summon a sand vortex that Slows enemies by 5% every 0.25 seconds, up to 70%.",
         "hotkey": "R",
-        "abilityId": "Chromie|R1",
+        "abilityId": "Chromie|R2",
         "cooldown": 5,
         "manaCost": 3,
         "manaPerSecond": true,
@@ -216,9 +216,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 5,
-        "abilityId": "Chromie|R1",
+        "abilityId": "Chromie|R2",
         "abilityLinks": [
-          "Chromie|R1"
+          "Chromie|R2"
         ]
       },
       {
@@ -230,9 +230,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 50,
-        "abilityId": "Chromie|R2",
+        "abilityId": "Chromie|R1",
         "abilityLinks": [
-          "Chromie|R2"
+          "Chromie|R1"
         ]
       }
     ],
@@ -321,9 +321,9 @@
         "icon": "storm_ui_icon_chromie_timewarp.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Chromie|R1",
+        "abilityId": "Chromie|R2",
         "abilityLinks": [
-          "Chromie|R1"
+          "Chromie|R2"
         ]
       },
       {
@@ -334,9 +334,9 @@
         "icon": "storm_ui_icon_chromie_looper.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Chromie|R2",
+        "abilityId": "Chromie|R1",
         "abilityLinks": [
-          "Chromie|R2"
+          "Chromie|R1"
         ]
       },
       {

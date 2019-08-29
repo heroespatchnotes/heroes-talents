@@ -53,7 +53,7 @@
         "name": "Summon Ultralisk",
         "description": "After 0.5 seconds, summon an Ultralisk that rushes forward upon spawning, dealing 250 (+4% per level) damage to the first enemy Hero hit and Stunning them for 0.5 seconds.  The Ultralisk's Basic Attacks deal 50% of their damage in an area around their target. Reactivate to retarget the Ultralisk.",
         "hotkey": "R",
-        "abilityId": "Kerrigan|R2",
+        "abilityId": "Kerrigan|R1",
         "cooldown": 80,
         "manaCost": 100,
         "icon": "storm_ui_icon_kerrigan_ultralisk.png",
@@ -63,7 +63,7 @@
         "name": "Maelstrom",
         "description": "Deals 74 (+4% per level) damage per second to nearby enemies. Lasts for 7 seconds.",
         "hotkey": "R",
-        "abilityId": "Kerrigan|R1",
+        "abilityId": "Kerrigan|R2",
         "cooldown": 90,
         "manaCost": 100,
         "icon": "storm_ui_icon_kerrigan_maelstrom.png",
@@ -208,9 +208,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 90,
-        "abilityId": "Kerrigan|R1",
+        "abilityId": "Kerrigan|R2",
         "abilityLinks": [
-          "Kerrigan|R1"
+          "Kerrigan|R2"
         ]
       },
       {
@@ -222,9 +222,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 80,
-        "abilityId": "Kerrigan|R2",
+        "abilityId": "Kerrigan|R1",
         "abilityLinks": [
-          "Kerrigan|R2"
+          "Kerrigan|R1"
         ]
       }
     ],
@@ -302,10 +302,10 @@
         "icon": "storm_ui_icon_talent_abilitytalent_damage.png",
         "type": "Heroic",
         "sort": 3,
-        "abilityId": "Kerrigan|R2",
+        "abilityId": "Kerrigan|R1",
         "abilityLinks": [
-          "Kerrigan|R2",
-          "Kerrigan|R1"
+          "Kerrigan|R1",
+          "Kerrigan|R2"
         ]
       }
     ],
@@ -318,9 +318,9 @@
         "icon": "storm_ui_icon_kerrigan_maelstrom.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Kerrigan|R1",
+        "abilityId": "Kerrigan|R2",
         "abilityLinks": [
-          "Kerrigan|R1"
+          "Kerrigan|R2"
         ]
       },
       {
@@ -331,9 +331,9 @@
         "icon": "storm_ui_icon_kerrigan_ultralisk.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Kerrigan|R2",
+        "abilityId": "Kerrigan|R1",
         "abilityLinks": [
-          "Kerrigan|R2"
+          "Kerrigan|R1"
         ]
       },
       {
