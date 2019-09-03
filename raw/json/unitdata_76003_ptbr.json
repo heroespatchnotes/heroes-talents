@@ -24070,6 +24070,168 @@
       "regenScale": 0.0
     }
   },
+  "volskayadata-VolskayaVehicle": {
+    "name": "Protetor Triglav",
+    "hyperlinkId": "VolskayaVehicle",
+    "radius": 1.5,
+    "sight": 12.0,
+    "speed": 4.0,
+    "scalingLinkId": "VolskayaVehicleScaling",
+    "descriptors": [
+      "PowerfulLaner",
+      "Suicidal"
+    ],
+    "attributes": [
+      "Heroic",
+      "ImmuneToFriendlyAbilities"
+    ],
+    "portraits": {
+      "targetInfo": "storm_ui_ingame_targetinfopanel_unit_volskaya_boss.png",
+      "minimap": "storm_ui_hud_volskaya_minimap_mech.png"
+    },
+    "life": {
+      "amount": 11500.0,
+      "scale": 0.0,
+      "type": "Vida",
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    },
+    "energy": {
+      "amount": 32.0,
+      "type": "Energia",
+      "regenRate": 0.0
+    },
+    "abilities": {
+      "basic": [
+        {
+          "nameId": "VolskayaVehicleCharge",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Carga",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "cooldownTooltip": "Recarga: 8 segundos",
+          "shortTooltip": "Investe contra um alvo e causa dano em área",
+          "fullTooltip": "Investe contra um alvo e causa 160 de dano em área.   Unidades não Heroicas recebem 500% a mais de dano.",
+          "abilityType": "Q"
+        },
+        {
+          "nameId": "VolskayaVehicleRocketFist",
+          "buttonId": "VolskayaVehicleRocketFist",
+          "name": "Punho-Foguete",
+          "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
+          "cooldownTooltip": "Recarga: 14 segundos",
+          "shortTooltip": "Lança um punho que causa dano, enraíza Heróis e desativa torres.",
+          "fullTooltip": "Dispara um Punho-Foguete que causa 150 de dano ao primeiro Herói ou Estrutura que encontrar. O punho empurra os Heróis por até 2 s e desativa as Estruturas por 4 s.  Mata instantaneamente as Tropas no caminho.",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "VolskayaVehicleTShield",
+          "buttonId": "VolskayaVehicleTShield",
+          "name": "Emissor de Escudo",
+          "icon": "storm_ui_icon_volskayarobot_tshield.png",
+          "cooldownTooltip": "Recarga: 16 segundos",
+          "shortTooltip": "Aumenta a Armadura do Protetor e concede Escudo aos aliados próximos",
+          "fullTooltip": "Ganha 25 de Armadura e concede 500 de Escudo aos Heróis aliados próximos. Dura 3 s.",
+          "abilityType": "E"
+        }
+      ],
+      "trait": [
+        {
+          "nameId": "LeaveVehicle",
+          "buttonId": "VolskayaVehicleLeaveVehicle",
+          "name": "Sair do Veículo",
+          "icon": "storm_ui_icon_volskayarobot_leavevehicle.png",
+          "cooldownTooltip": "Recarga: 10 segundos",
+          "fullTooltip": "Sai do veículo.",
+          "abilityType": "Trait"
+        }
+      ],
+      "mount": [
+        {
+          "nameId": "VolskayaVehicleFighterFlight",
+          "buttonId": "VolskayaVehicleFighterFlight",
+          "abilityType": "Z"
+        }
+      ],
+      "spray": [
+        {
+          "nameId": "LootSpray",
+          "buttonId": "LootSpray",
+          "name": "Expressão Rápida: Spray",
+          "icon": "storm_temp_war3_btnhealingspray.png",
+          "cooldownTooltip": "Recarga: 3 segundos",
+          "fullTooltip": "Marque o chão com o Spray selecionado para expressar ideias aos outros jogadores.",
+          "abilityType": "Spray"
+        }
+      ],
+      "voice": [
+        {
+          "nameId": "LootYellVoiceLine",
+          "buttonId": "LootYellVoiceLine",
+          "name": "Expressão Rápida: Fala",
+          "icon": "storm_btn_d3_barbarian_threateningshout.png",
+          "cooldownTooltip": "Recarga: 7 segundos",
+          "fullTooltip": "Reproduza a Fala selecionada para expressar ideias aos outros jogadores.",
+          "abilityType": "Voice"
+        }
+      ],
+      "action": [
+        {
+          "nameId": "HoldFire",
+          "buttonId": "Stop",
+          "name": "Parar",
+          "icon": "btn-command-stop.png",
+          "abilityType": "Stop"
+        },
+        {
+          "nameId": "HoldFire",
+          "buttonId": "MoveHoldPosition",
+          "name": "Cessar fogo",
+          "abilityType": "Hold"
+        }
+      ],
+      "hidden": [
+        {
+          "nameId": "VolskayaVehicleSeismicCannon",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleFistSlam",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleHover",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Carga",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Investe contra um alvo e causa dano em área",
+          "fullTooltip": "Investe contra um alvo e causa 160 de dano em área.   Unidades não Heroicas recebem 500% a mais de dano.",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleStructureChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Carga",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Investe contra um alvo e causa dano em área",
+          "fullTooltip": "Investe contra um alvo e causa 160 de dano em área.   Unidades não Heroicas recebem 500% a mais de dano.",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleCoreChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Carga",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Investe contra um alvo e causa dano em área",
+          "fullTooltip": "Investe contra um alvo e causa 160 de dano em área.   Unidades não Heroicas recebem 500% a mais de dano.",
+          "abilityType": "Hidden"
+        }
+      ]
+    }
+  },
   "volskayadata-VolskayaVehicleGunner": {
     "name": "Atirador Triglav",
     "hyperlinkId": "VolskayaVehicleGunner",

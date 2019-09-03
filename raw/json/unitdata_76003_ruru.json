@@ -24070,6 +24070,168 @@
       "regenScale": 0.0
     }
   },
+  "volskayadata-VolskayaVehicle": {
+    "name": "Робот-защитник «Триглав»",
+    "hyperlinkId": "VolskayaVehicle",
+    "radius": 1.5,
+    "sight": 12.0,
+    "speed": 4.0,
+    "scalingLinkId": "VolskayaVehicleScaling",
+    "descriptors": [
+      "PowerfulLaner",
+      "Suicidal"
+    ],
+    "attributes": [
+      "Heroic",
+      "ImmuneToFriendlyAbilities"
+    ],
+    "portraits": {
+      "targetInfo": "storm_ui_ingame_targetinfopanel_unit_volskaya_boss.png",
+      "minimap": "storm_ui_hud_volskaya_minimap_mech.png"
+    },
+    "life": {
+      "amount": 11500.0,
+      "scale": 0.0,
+      "type": "Здоровье",
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    },
+    "energy": {
+      "amount": 32.0,
+      "type": "Энергия",
+      "regenRate": 0.0
+    },
+    "abilities": {
+      "basic": [
+        {
+          "nameId": "VolskayaVehicleCharge",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Рывок",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "cooldownTooltip": "Время восстановления: 8 сек.",
+          "shortTooltip": "Совершает рывок к цели и наносит урон по области.",
+          "fullTooltip": "Совершает рывок к цели и наносит 160 ед. урона по области.   Все цели, кроме героев, получают 500% дополнительного урона.",
+          "abilityType": "Q"
+        },
+        {
+          "nameId": "VolskayaVehicleRocketFist",
+          "buttonId": "VolskayaVehicleRocketFist",
+          "name": "Реактивный кулак",
+          "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
+          "cooldownTooltip": "Время восстановления: 14 сек.",
+          "shortTooltip": "Запускает кулак, который наносит урон, обездвиживает героев и обезвреживает башни.",
+          "fullTooltip": "Запускает реактивный кулак, наносящий 150 ед. урона первому герою или строению на своем пути. При попадании кулак отбрасывает героев в течение до 2 сек. и обезвреживает строения на 4 сек.  Мгновенно убивает всех воинов на своем пути.",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "VolskayaVehicleTShield",
+          "buttonId": "VolskayaVehicleTShield",
+          "name": "Излучатель щита",
+          "icon": "storm_ui_icon_volskayarobot_tshield.png",
+          "cooldownTooltip": "Время восстановления: 16 сек.",
+          "shortTooltip": "«Триглав» на время получает броню и дает союзникам поблизости щиты.",
+          "fullTooltip": "Дает 25 ед. брони и укрывает находящихся рядом дружественных героем щитом прочностью 500 ед. Время действия – 3 сек.",
+          "abilityType": "E"
+        }
+      ],
+      "trait": [
+        {
+          "nameId": "LeaveVehicle",
+          "buttonId": "VolskayaVehicleLeaveVehicle",
+          "name": "Покинуть робота",
+          "icon": "storm_ui_icon_volskayarobot_leavevehicle.png",
+          "cooldownTooltip": "Время восстановления: 10 сек.",
+          "fullTooltip": "Ваш герой покидает место пилота или наводчика и возвращается на поле боя.",
+          "abilityType": "Trait"
+        }
+      ],
+      "mount": [
+        {
+          "nameId": "VolskayaVehicleFighterFlight",
+          "buttonId": "VolskayaVehicleFighterFlight",
+          "abilityType": "Z"
+        }
+      ],
+      "spray": [
+        {
+          "nameId": "LootSpray",
+          "buttonId": "LootSpray",
+          "name": "Граффити",
+          "icon": "storm_temp_war3_btnhealingspray.png",
+          "cooldownTooltip": "Время восстановления: 3 сек.",
+          "fullTooltip": "Выразите свое настроение красочным граффити на поверхности поля боя.",
+          "abilityType": "Spray"
+        }
+      ],
+      "voice": [
+        {
+          "nameId": "LootYellVoiceLine",
+          "buttonId": "LootYellVoiceLine",
+          "name": "Реплика",
+          "icon": "storm_btn_d3_barbarian_threateningshout.png",
+          "cooldownTooltip": "Время восстановления: 7 сек.",
+          "fullTooltip": "Выразите свое настроение меткой и остроумной репликой.",
+          "abilityType": "Voice"
+        }
+      ],
+      "action": [
+        {
+          "nameId": "HoldFire",
+          "buttonId": "Stop",
+          "name": "Остановиться",
+          "icon": "btn-command-stop.png",
+          "abilityType": "Stop"
+        },
+        {
+          "nameId": "HoldFire",
+          "buttonId": "MoveHoldPosition",
+          "name": "Hold Fire",
+          "abilityType": "Hold"
+        }
+      ],
+      "hidden": [
+        {
+          "nameId": "VolskayaVehicleSeismicCannon",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleFistSlam",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleHover",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Рывок",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Совершает рывок к цели и наносит урон по области.",
+          "fullTooltip": "Совершает рывок к цели и наносит 160 ед. урона по области.   Все цели, кроме героев, получают 500% дополнительного урона.",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleStructureChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Рывок",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Совершает рывок к цели и наносит урон по области.",
+          "fullTooltip": "Совершает рывок к цели и наносит 160 ед. урона по области.   Все цели, кроме героев, получают 500% дополнительного урона.",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleCoreChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Рывок",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Совершает рывок к цели и наносит урон по области.",
+          "fullTooltip": "Совершает рывок к цели и наносит 160 ед. урона по области.   Все цели, кроме героев, получают 500% дополнительного урона.",
+          "abilityType": "Hidden"
+        }
+      ]
+    }
+  },
   "volskayadata-VolskayaVehicleGunner": {
     "name": "Наводчик «Триглава»",
     "hyperlinkId": "VolskayaVehicleGunner",

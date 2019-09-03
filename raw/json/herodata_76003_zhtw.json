@@ -936,7 +936,8 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AlarakTelekinesis",
-            "AlarakDeadlyChargeActivate2ndHeroic"
+            "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic"
           ]
         },
         {
@@ -1010,6 +1011,7 @@
           "sort": 3,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         }
@@ -1102,6 +1104,7 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         },
@@ -1116,6 +1119,7 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         },
@@ -1171,6 +1175,7 @@
           "sort": 3,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         }
@@ -17808,15 +17813,6 @@
       ],
       "trait": [
         {
-          "nameId": "GuldanLifeTapFree",
-          "buttonId": "GuldanLifeTapFree",
-          "name": "生命分流",
-          "icon": "storm_ui_icon_guldan_lifetap.png",
-          "toggleCooldown": 0.5,
-          "fullTooltip": "古爾丹不會自動恢復法力值。  啟動以恢復古爾丹法力值的25%。",
-          "abilityType": "Trait"
-        },
-        {
           "nameId": "GuldanLifeTap",
           "buttonId": "GuldanLifeTap",
           "name": "生命分流",
@@ -17897,6 +17893,19 @@
               "toggleCooldown": 0.5,
               "fullTooltip": "停止引導吸取生命。",
               "abilityType": "W"
+            }
+          ]
+        },
+        "GuldanLifeTapDarknessWithin": {
+          "trait": [
+            {
+              "nameId": "GuldanLifeTapFree",
+              "buttonId": "GuldanLifeTapFree",
+              "name": "生命分流",
+              "icon": "storm_ui_icon_guldan_lifetap.png",
+              "toggleCooldown": 0.5,
+              "fullTooltip": "古爾丹不會自動恢復法力值。  啟動以恢復古爾丹法力值的25%。",
+              "abilityType": "Trait"
             }
           ]
         }
@@ -18452,7 +18461,10 @@
           "fullTooltip": "任務：以暴風弓擊中每一個敵方英雄。  獎勵：以暴風弓擊中每一個敵方英雄一次以後，暴風弓的距離提高30%。  獎勵：以暴風弓擊中每一個敵方英雄3次以後，暴風弓造成的傷害提高100點。",
           "abilityType": "Q",
           "isQuest": true,
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoSimpleGeometry",
@@ -18492,7 +18504,10 @@
           "shortTooltip": "暴風弓的箭會在擊中小兵或中立怪後爆炸",
           "fullTooltip": "暴風弓擊中小兵或中立怪後，會對目標周圍的敵人造成60%傷害。",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoSerratedArrows",
@@ -18530,7 +18545,10 @@
           "shortTooltip": "暴風弓可賦予法術強度",
           "fullTooltip": "暴風弓擊中英雄會獲得5%法術強度，持續10秒，最多可堆疊至20%。",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoNeverOutmatched",
@@ -18553,7 +18571,10 @@
           "shortTooltip": "暴風弓和基本攻擊可降低護甲",
           "fullTooltip": "暴風弓或基本攻擊命中英雄後，會使其護甲降低2點，持續3秒，最多可降低20點護甲。",
           "abilityType": "Passive",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         }
       ],
       "level10": [
@@ -18599,7 +18620,10 @@
           "shortTooltip": "暴風弓提高移動速度",
           "fullTooltip": "以暴風弓擊中英雄會使半藏的移動速度提高10%，持續6秒，最多可提高30%。",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoNinjaAssassin",
@@ -18644,7 +18668,10 @@
           "shortTooltip": "暴風弓和基本攻擊會互相強化",
           "fullTooltip": "暴風弓擊中英雄會使半藏在5秒內下一次基本攻擊造成的傷害提高30%。對英雄施展基本攻擊會使半藏在5秒內下一次暴風弓造成的傷害提高30%。",
           "abilityType": "Passive",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoPiercingArrows",
@@ -18656,6 +18683,7 @@
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint",
             "HanzoScatterArrow"
           ]
         },
@@ -35458,7 +35486,7 @@
     },
     "subAbilities": [
       {
-        "RehgarEarthbindTotem": {
+        "RehgarEarthbindTotemColossalTotem": {
           "basic": [
             {
               "nameId": "RehgarTotemicProjection",
@@ -37264,6 +37292,7 @@
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37339,6 +37368,7 @@
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37448,6 +37478,7 @@
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37816,6 +37847,7 @@
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "StitchesBlight",
             "StitchesVileGasVileCleaver",
             "StitchesSlam"
           ]
@@ -37830,6 +37862,7 @@
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
+            "StitchesBlight",
             "StitchesVileGasVileCleaver",
             "StitchesSlam"
           ]
@@ -39278,10 +39311,11 @@
           "buttonId": "TassadarArchon",
           "name": "執政官",
           "icon": "storm_ui_icon_tassadar_archon.png",
+          "energyTooltip": "法力：80點",
+          "cooldownTooltip": "冷卻時間：100秒",
           "shortTooltip": "轉化為執政官",
           "fullTooltip": "塔薩達化身為執政官，獲得電漿護盾。執政官的基本攻擊可造成158 (+4% per level)點傷害，並且使目標緩速30%，持續1秒，同時對2.5格距離內的敵人造成79 (+4% per level)點擴散傷害。執政官可維持10秒。  被動：使用執政官可重置次元轉移的冷卻時間。",
-          "abilityType": "Heroic",
-          "isPassive": true
+          "abilityType": "Heroic"
         },
         {
           "nameId": "TassadarForceWall",
@@ -39376,6 +39410,20 @@
               "cooldownTooltip": "冷卻時間：1秒",
               "fullTooltip": "消滅現存的力場障壁。",
               "abilityType": "Heroic"
+            }
+          ]
+        },
+        "TassadarArchon": {
+          "heroic": [
+            {
+              "nameId": "TassadarArchon",
+              "buttonId": "TassadarArchon",
+              "name": "執政官",
+              "icon": "storm_ui_icon_tassadar_archon.png",
+              "shortTooltip": "轉化為執政官",
+              "fullTooltip": "塔薩達化身為執政官，獲得電漿護盾。執政官的基本攻擊可造成158 (+4% per level)點傷害，並且使目標緩速30%，持續1秒，同時對2.5格距離內的敵人造成79 (+4% per level)點擴散傷害。執政官可維持10秒。  被動：使用執政官可重置次元轉移的冷卻時間。",
+              "abilityType": "Heroic",
+              "isPassive": true
             }
           ]
         },
@@ -48675,7 +48723,10 @@
           "shortTooltip": "奪命追獵使用次數提高一次",
           "fullTooltip": "奪命追獵獲得第2次使用次數。使用奪命追獵傳送至敵人身邊後，或者進入永久匿蹤後，澤拉圖的下一次基本攻擊傷害提高50%。",
           "abilityType": "Passive",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "VorpalBladeBlink"
+          ]
         }
       ],
       "level10": [

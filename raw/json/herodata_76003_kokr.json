@@ -936,7 +936,8 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AlarakTelekinesis",
-            "AlarakDeadlyChargeActivate2ndHeroic"
+            "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic"
           ]
         },
         {
@@ -1010,6 +1011,7 @@
           "sort": 3,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         }
@@ -1102,6 +1104,7 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         },
@@ -1116,6 +1119,7 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         },
@@ -1171,6 +1175,7 @@
           "sort": 3,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         }
@@ -17808,15 +17813,6 @@
       ],
       "trait": [
         {
-          "nameId": "GuldanLifeTapFree",
-          "buttonId": "GuldanLifeTapFree",
-          "name": "생명력 전환",
-          "icon": "storm_ui_icon_guldan_lifetap.png",
-          "toggleCooldown": 0.5,
-          "fullTooltip": "굴단은 마나를 재생할 수 없습니다.  사용하면 최대 마나의 25%를 회복합니다.",
-          "abilityType": "Trait"
-        },
-        {
           "nameId": "GuldanLifeTap",
           "buttonId": "GuldanLifeTap",
           "name": "생명력 전환",
@@ -17897,6 +17893,19 @@
               "toggleCooldown": 0.5,
               "fullTooltip": "생명력 흡수의 정신 집중을 중단합니다.",
               "abilityType": "W"
+            }
+          ]
+        },
+        "GuldanLifeTapDarknessWithin": {
+          "trait": [
+            {
+              "nameId": "GuldanLifeTapFree",
+              "buttonId": "GuldanLifeTapFree",
+              "name": "생명력 전환",
+              "icon": "storm_ui_icon_guldan_lifetap.png",
+              "toggleCooldown": 0.5,
+              "fullTooltip": "굴단은 마나를 재생할 수 없습니다.  사용하면 최대 마나의 25%를 회복합니다.",
+              "abilityType": "Trait"
             }
           ]
         }
@@ -18452,7 +18461,10 @@
           "fullTooltip": "퀘스트: 각각의 적 영웅에게 폭풍활이 적중해야 합니다.  보상: 각각의 적 영웅에게 폭풍활이 1회씩 적중하면 폭풍활의 사거리가 30% 증가합니다.  보상: 각각의 적 영웅에게 폭풍활이 3회씩 적중하면 폭풍활의 공격력이 100 증가합니다.",
           "abilityType": "Q",
           "isQuest": true,
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoSimpleGeometry",
@@ -18492,7 +18504,10 @@
           "shortTooltip": "폭풍활이 돌격병 및 괴물에게 적중 시 폭발",
           "fullTooltip": "폭풍활이 돌격병이나 괴물에게 적중하면 대상 주위에 60의 광역 피해를 줍니다.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoSerratedArrows",
@@ -18530,7 +18545,10 @@
           "shortTooltip": "폭풍활 적중 시 기술 위력 증가",
           "fullTooltip": "폭풍활이 적 영웅에게 적중하면 기술 위력이 10초 동안 5% 증가하여 최대 20% 증가합니다.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoNeverOutmatched",
@@ -18553,7 +18571,10 @@
           "shortTooltip": "일반 공격 및 폭풍활이 방어력을 감소시킴",
           "fullTooltip": "일반 공격과 폭풍활이 적 영웅의 방어력을 3초 동안 2 감소시켜 최대 20 감소시킵니다.",
           "abilityType": "Passive",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         }
       ],
       "level10": [
@@ -18599,7 +18620,10 @@
           "shortTooltip": "폭풍활 적중 시 이동 속도 증가",
           "fullTooltip": "폭풍활이 적 영웅에게 적중하면 이동 속도가 6초 동안 10% 증가하여 최대 30% 증가합니다.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoNinjaAssassin",
@@ -18644,7 +18668,10 @@
           "shortTooltip": "폭풍활 및 일반 공격 강화",
           "fullTooltip": "폭풍활이 적 영웅에게 적중하면 5초 내의 다음 일반 공격이 30%의 추가 피해를 줍니다. 적 영웅에게 일반 공격이 적중하면 5초 내의 다음 폭풍활의 공격력이 30% 증가합니다.",
           "abilityType": "Passive",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoPiercingArrows",
@@ -18656,6 +18683,7 @@
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint",
             "HanzoScatterArrow"
           ]
         },
@@ -35458,7 +35486,7 @@
     },
     "subAbilities": [
       {
-        "RehgarEarthbindTotem": {
+        "RehgarEarthbindTotemColossalTotem": {
           "basic": [
             {
               "nameId": "RehgarTotemicProjection",
@@ -37264,6 +37292,7 @@
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37339,6 +37368,7 @@
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37448,6 +37478,7 @@
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37816,6 +37847,7 @@
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "StitchesBlight",
             "StitchesVileGasVileCleaver",
             "StitchesSlam"
           ]
@@ -37830,6 +37862,7 @@
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
+            "StitchesBlight",
             "StitchesVileGasVileCleaver",
             "StitchesSlam"
           ]
@@ -39278,10 +39311,11 @@
           "buttonId": "TassadarArchon",
           "name": "집정관",
           "icon": "storm_ui_icon_tassadar_archon.png",
+          "energyTooltip": "마나: 80",
+          "cooldownTooltip": "재사용 대기시간: 100초",
           "shortTooltip": "집정관으로 변신",
           "fullTooltip": "집정관으로 변신하여 플라스마 보호막을 얻습니다. 변신한 동안 일반 공격이 158 (+4% per level)의 피해를 주고 대상을 1초 동안 30% 느리게 하며 대상으로부터 사거리 2.5 내의 적들에게 79 (+4% per level)의 추가 방사 피해를 줍니다. 10초 동안 지속됩니다.  지속 효과: 집정관 사용 시 차원 이동의 재사용 대기시간이 초기화됩니다.",
-          "abilityType": "Heroic",
-          "isPassive": true
+          "abilityType": "Heroic"
         },
         {
           "nameId": "TassadarForceWall",
@@ -39376,6 +39410,20 @@
               "cooldownTooltip": "재사용 대기시간: 1초",
               "fullTooltip": "활성화된 역장을 파괴합니다.",
               "abilityType": "Heroic"
+            }
+          ]
+        },
+        "TassadarArchon": {
+          "heroic": [
+            {
+              "nameId": "TassadarArchon",
+              "buttonId": "TassadarArchon",
+              "name": "집정관",
+              "icon": "storm_ui_icon_tassadar_archon.png",
+              "shortTooltip": "집정관으로 변신",
+              "fullTooltip": "집정관으로 변신하여 플라스마 보호막을 얻습니다. 변신한 동안 일반 공격이 158 (+4% per level)의 피해를 주고 대상을 1초 동안 30% 느리게 하며 대상으로부터 사거리 2.5 내의 적들에게 79 (+4% per level)의 추가 방사 피해를 줍니다. 10초 동안 지속됩니다.  지속 효과: 집정관 사용 시 차원 이동의 재사용 대기시간이 초기화됩니다.",
+              "abilityType": "Heroic",
+              "isPassive": true
             }
           ]
         },
@@ -48675,7 +48723,10 @@
           "shortTooltip": "날카로운 칼날 2회 충전 가능",
           "fullTooltip": "날카로운 칼날을 최대 2회 충전해서 사용할 수 있습니다. 날카로운 칼날을 사용하여 적에게 순간이동하거나 은신 상태가 되면 다음 일반 공격이 50%의 추가 피해를 줍니다.",
           "abilityType": "Passive",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "VorpalBladeBlink"
+          ]
         }
       ],
       "level10": [

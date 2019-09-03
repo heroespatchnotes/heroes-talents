@@ -936,7 +936,8 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AlarakTelekinesis",
-            "AlarakDeadlyChargeActivate2ndHeroic"
+            "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic"
           ]
         },
         {
@@ -1010,6 +1011,7 @@
           "sort": 3,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         }
@@ -1102,6 +1104,7 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         },
@@ -1116,6 +1119,7 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         },
@@ -1171,6 +1175,7 @@
           "sort": 3,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         }
@@ -17808,15 +17813,6 @@
       ],
       "trait": [
         {
-          "nameId": "GuldanLifeTapFree",
-          "buttonId": "GuldanLifeTapFree",
-          "name": "Moc Krwi",
-          "icon": "storm_ui_icon_guldan_lifetap.png",
-          "toggleCooldown": 0.5,
-          "fullTooltip": "Gul'dan nie regeneruje many.  Aktywuj, aby Gul'dan odzyskał 25% many.",
-          "abilityType": "Trait"
-        },
-        {
           "nameId": "GuldanLifeTap",
           "buttonId": "GuldanLifeTap",
           "name": "Moc Krwi",
@@ -17897,6 +17893,19 @@
               "toggleCooldown": 0.5,
               "fullTooltip": "Przestań podtrzymywać zdolność Wyssanie Życia.",
               "abilityType": "W"
+            }
+          ]
+        },
+        "GuldanLifeTapDarknessWithin": {
+          "trait": [
+            {
+              "nameId": "GuldanLifeTapFree",
+              "buttonId": "GuldanLifeTapFree",
+              "name": "Moc Krwi",
+              "icon": "storm_ui_icon_guldan_lifetap.png",
+              "toggleCooldown": 0.5,
+              "fullTooltip": "Gul'dan nie regeneruje many.  Aktywuj, aby Gul'dan odzyskał 25% many.",
+              "abilityType": "Trait"
             }
           ]
         }
@@ -18452,7 +18461,10 @@
           "fullTooltip": "Zadanie: Traf każdego wrogiego bohatera strzałą z Łuku Burzy.  Nagroda: Po trafieniu każdego wrogiego bohatera strzałą z Łuku Burzy jego zasięg wzrasta o 30%.  Nagroda: Po trafieniu każdego wrogiego bohatera strzałą z Łuku Burzy 3 razy, jego obrażenia wzrastają o 100 pkt.",
           "abilityType": "Q",
           "isQuest": true,
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoSimpleGeometry",
@@ -18492,7 +18504,10 @@
           "shortTooltip": "Gdy strzała Łuku Burzy trafi stronnika lub potwora, wybucha",
           "fullTooltip": "Po trafieniu stronnika lub potwora strzała z Łuku Burzy zadaje 60% swoich obrażeń przeciwnikom znajdującym się wokół jej celu.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoSerratedArrows",
@@ -18530,7 +18545,10 @@
           "shortTooltip": "Łuk Burzy zwiększa moc zaklęć",
           "fullTooltip": "Trafienie bohatera strzałą z Łuku Burzy zapewnia premię 5% do mocy zaklęć na 10 sek., maksymalnie do 20%.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoNeverOutmatched",
@@ -18553,7 +18571,10 @@
           "shortTooltip": "Ataki podstawowe i Łuk Burzy zmniejszają pancerz",
           "fullTooltip": "Trafienie bohatera strzałą z Łuku Burzy lub atakiem podstawowym zmniejsza jego pancerz o 2 pkt. na 3 sek., a maksymalna redukcja pancerza to 20 pkt.",
           "abilityType": "Passive",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         }
       ],
       "level10": [
@@ -18599,7 +18620,10 @@
           "shortTooltip": "Łuk Burzy zwiększa szybkość ruchu",
           "fullTooltip": "Trafienie bohatera strzałą z Łuku Burzy zapewnia premię 10% do szybkości ruchu na 6 sek., maksymalnie do 30%.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoNinjaAssassin",
@@ -18644,7 +18668,10 @@
           "shortTooltip": "Łuk Burzy i ataki podstawowe wzajemnie się wzmacniają",
           "fullTooltip": "Trafianie bohaterów strzałą z Łuku Burzy zwiększa obrażenia od kolejnego ataku podstawowego Hanzo na 5 sek. o 30%. Ataki podstawowe wymierzone przeciwko bohaterom zwiększają obrażenia od następnego użycia Łuku Burzy na 5 sek. o 30%.",
           "abilityType": "Passive",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoPiercingArrows",
@@ -18656,6 +18683,7 @@
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint",
             "HanzoScatterArrow"
           ]
         },
@@ -35458,7 +35486,7 @@
     },
     "subAbilities": [
       {
-        "RehgarEarthbindTotem": {
+        "RehgarEarthbindTotemColossalTotem": {
           "basic": [
             {
               "nameId": "RehgarTotemicProjection",
@@ -37264,6 +37292,7 @@
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37339,6 +37368,7 @@
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37448,6 +37478,7 @@
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37816,6 +37847,7 @@
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "StitchesBlight",
             "StitchesVileGasVileCleaver",
             "StitchesSlam"
           ]
@@ -37830,6 +37862,7 @@
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
+            "StitchesBlight",
             "StitchesVileGasVileCleaver",
             "StitchesSlam"
           ]
@@ -39278,10 +39311,11 @@
           "buttonId": "TassadarArchon",
           "name": "Archont",
           "icon": "storm_ui_icon_tassadar_archon.png",
+          "energyTooltip": "Mana: 80",
+          "cooldownTooltip": "Czas odnowienia: 100 sek.",
           "shortTooltip": "Tassadar staje się Archontem",
           "fullTooltip": "Tassadar przemienia się w Archonta i zyskuje Tarczę Plazmową. Jego ataki podstawowe zadają 158 (+4% per level) pkt. obrażeń, spowalniają cel o 30% na 1 sek. oraz dodatkowo zadają 79 (+4% per level) pkt. obrażeń obszarowych wrogom znajdującym się w zasięgu 2.5. Czas działania: 10 sek.  Działanie pasywne: Przemiana w Archonta odświeża czas odnowienia Przesunięcia Międzywymiarowego.",
-          "abilityType": "Heroic",
-          "isPassive": true
+          "abilityType": "Heroic"
         },
         {
           "nameId": "TassadarForceWall",
@@ -39376,6 +39410,20 @@
               "cooldownTooltip": "Czas odnowienia: 1 sek.",
               "fullTooltip": "Niszczy aktywne Pole Siłowe.",
               "abilityType": "Heroic"
+            }
+          ]
+        },
+        "TassadarArchon": {
+          "heroic": [
+            {
+              "nameId": "TassadarArchon",
+              "buttonId": "TassadarArchon",
+              "name": "Archont",
+              "icon": "storm_ui_icon_tassadar_archon.png",
+              "shortTooltip": "Tassadar staje się Archontem",
+              "fullTooltip": "Tassadar przemienia się w Archonta i zyskuje Tarczę Plazmową. Jego ataki podstawowe zadają 158 (+4% per level) pkt. obrażeń, spowalniają cel o 30% na 1 sek. oraz dodatkowo zadają 79 (+4% per level) pkt. obrażeń obszarowych wrogom znajdującym się w zasięgu 2.5. Czas działania: 10 sek.  Działanie pasywne: Przemiana w Archonta odświeża czas odnowienia Przesunięcia Międzywymiarowego.",
+              "abilityType": "Heroic",
+              "isPassive": true
             }
           ]
         },
@@ -48675,7 +48723,10 @@
           "shortTooltip": "Żarłacny Miecz zyskuje kolejny ładunek",
           "fullTooltip": "Żarłacny Miecz zyskuje 2 ładunek. Teleportowanie się do przeciwnika przy pomocy Żarłacnego Miecza lub aktywowanie Stałego Maskowania sprawia, że kolejny atak podstawowy Zeratula zadaje obrażenia zwiększone o 50%.",
           "abilityType": "Passive",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "VorpalBladeBlink"
+          ]
         }
       ],
       "level10": [

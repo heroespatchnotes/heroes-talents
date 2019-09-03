@@ -936,7 +936,8 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AlarakTelekinesis",
-            "AlarakDeadlyChargeActivate2ndHeroic"
+            "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic"
           ]
         },
         {
@@ -1010,6 +1011,7 @@
           "sort": 3,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         }
@@ -1102,6 +1104,7 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         },
@@ -1116,6 +1119,7 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         },
@@ -1171,6 +1175,7 @@
           "sort": 3,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         }
@@ -17808,15 +17813,6 @@
       ],
       "trait": [
         {
-          "nameId": "GuldanLifeTapFree",
-          "buttonId": "GuldanLifeTapFree",
-          "name": "Aderlass",
-          "icon": "storm_ui_icon_guldan_lifetap.png",
-          "toggleCooldown": 0.5,
-          "fullTooltip": "Gul'dan regeneriert kein Mana.  Aktivieren, um 25% von Gul'dans Mana wiederherzustellen.",
-          "abilityType": "Trait"
-        },
-        {
           "nameId": "GuldanLifeTap",
           "buttonId": "GuldanLifeTap",
           "name": "Aderlass",
@@ -17897,6 +17893,19 @@
               "toggleCooldown": 0.5,
               "fullTooltip": "Bricht das Kanalisieren von Blutsauger ab.",
               "abilityType": "W"
+            }
+          ]
+        },
+        "GuldanLifeTapDarknessWithin": {
+          "trait": [
+            {
+              "nameId": "GuldanLifeTapFree",
+              "buttonId": "GuldanLifeTapFree",
+              "name": "Aderlass",
+              "icon": "storm_ui_icon_guldan_lifetap.png",
+              "toggleCooldown": 0.5,
+              "fullTooltip": "Gul'dan regeneriert kein Mana.  Aktivieren, um 25% von Gul'dans Mana wiederherzustellen.",
+              "abilityType": "Trait"
             }
           ]
         }
@@ -18452,7 +18461,10 @@
           "fullTooltip": "Quest: Triff jeden gegnerischen Helden mit Sturmbogen.  Belohnung: Sobald jeder gegnerische Held einmal mit Sturmbogen getroffen wurde, wird die Reichweite um 30% erhöht.  Belohnung: Sobald jeder gegnerische Held 3-mal mit Sturmbogen getroffen wurde, wird der Schaden um 100 erhöht.",
           "abilityType": "Q",
           "isQuest": true,
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoSimpleGeometry",
@@ -18492,7 +18504,10 @@
           "shortTooltip": "Pfeile mit Sturmbogen explodieren bei Dienern und Monstern.",
           "fullTooltip": "Wenn Sturmbogen einen Diener oder ein Monster trifft, erleiden Ziele in der Nähe 60% Flächenschaden.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoSerratedArrows",
@@ -18530,7 +18545,10 @@
           "shortTooltip": "Sturmbogen erhöht die Fähigkeitsstärke.",
           "fullTooltip": "Heldentreffer mit Sturmbogen erhöhen die Fähigkeitsstärke jeweils 10 Sek. lang um 5%, bis maximal 20%.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoNeverOutmatched",
@@ -18553,7 +18571,10 @@
           "shortTooltip": "Automatische Angriffe und Sturmbogen verringern die Panzerung.",
           "fullTooltip": "Heldentreffer mit Sturmbogen oder automatischen Angriffen verringern die Panzerung 3 Sek. lang um 2, bis maximal um 20.",
           "abilityType": "Passive",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         }
       ],
       "level10": [
@@ -18599,7 +18620,10 @@
           "shortTooltip": "Sturmbogen erhöht die Bewegungsgeschwindigkeit.",
           "fullTooltip": "Heldentreffer mit Sturmbogen erhöhen die Bewegungsgeschwindigkeit 6 Sek. lang um 10%, bis maximal 30%.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoNinjaAssassin",
@@ -18644,7 +18668,10 @@
           "shortTooltip": "Sturmbogen und automatische Angriffe verstärken sich gegenseitig.",
           "fullTooltip": "Heldentreffer mit Sturmbogen erhöhen den Schaden von Hanzos nächstem automatischen Angriff innerhalb von 5 Sek. um 30%. Automatische Angriffe gegen Helden erhöhen den Schaden von Hanzos nächstem Sturmbogen innerhalb von 5 Sek. um 30%.",
           "abilityType": "Passive",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoPiercingArrows",
@@ -18656,6 +18683,7 @@
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint",
             "HanzoScatterArrow"
           ]
         },
@@ -35458,7 +35486,7 @@
     },
     "subAbilities": [
       {
-        "RehgarEarthbindTotem": {
+        "RehgarEarthbindTotemColossalTotem": {
           "basic": [
             {
               "nameId": "RehgarTotemicProjection",
@@ -37264,6 +37292,7 @@
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37339,6 +37368,7 @@
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37448,6 +37478,7 @@
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37816,6 +37847,7 @@
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "StitchesBlight",
             "StitchesVileGasVileCleaver",
             "StitchesSlam"
           ]
@@ -37830,6 +37862,7 @@
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
+            "StitchesBlight",
             "StitchesVileGasVileCleaver",
             "StitchesSlam"
           ]
@@ -39278,10 +39311,11 @@
           "buttonId": "TassadarArchon",
           "name": "Archon",
           "icon": "storm_ui_icon_tassadar_archon.png",
+          "energyTooltip": "Mana: 80",
+          "cooldownTooltip": "Abklingzeit: 100 Sek.",
           "shortTooltip": "Verwandelt Tassadar in einen Archon.",
           "fullTooltip": "Verwandelt Tassadar in einen Archon und verleiht ihm einen Plasmaschild. Als Archon verursachen automatische Angriffe 158 (+4% per level) Schaden, verlangsamen das Ziel 1 Sek. lang um 30% und fügen Gegnern in einer Reichweite von 2.5 zusätzlich 79 (+4% per level) Flächenschaden zu. Hält 10 Sek. lang an.  Passiv: Archon schließt die Abklingzeit der Dimensionsverschiebung ab.",
-          "abilityType": "Heroic",
-          "isPassive": true
+          "abilityType": "Heroic"
         },
         {
           "nameId": "TassadarForceWall",
@@ -39376,6 +39410,20 @@
               "cooldownTooltip": "Abklingzeit: 1 Sek.",
               "fullTooltip": "Zerstört die aktive Kraftfeldwand.",
               "abilityType": "Heroic"
+            }
+          ]
+        },
+        "TassadarArchon": {
+          "heroic": [
+            {
+              "nameId": "TassadarArchon",
+              "buttonId": "TassadarArchon",
+              "name": "Archon",
+              "icon": "storm_ui_icon_tassadar_archon.png",
+              "shortTooltip": "Verwandelt Tassadar in einen Archon.",
+              "fullTooltip": "Verwandelt Tassadar in einen Archon und verleiht ihm einen Plasmaschild. Als Archon verursachen automatische Angriffe 158 (+4% per level) Schaden, verlangsamen das Ziel 1 Sek. lang um 30% und fügen Gegnern in einer Reichweite von 2.5 zusätzlich 79 (+4% per level) Flächenschaden zu. Hält 10 Sek. lang an.  Passiv: Archon schließt die Abklingzeit der Dimensionsverschiebung ab.",
+              "abilityType": "Heroic",
+              "isPassive": true
             }
           ]
         },
@@ -48675,7 +48723,10 @@
           "shortTooltip": "Tödliche Klinge erhält eine zweite Aufladung.",
           "fullTooltip": "Tödliche Klinge erhält eine 2. Aufladung. Wenn sich Zeratul mittels Tödliche Klinge zu einem Gegner teleportiert oder in den getarnten Zustand übergeht, verursacht sein nächster automatischer Angriff 50% mehr Schaden.",
           "abilityType": "Passive",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "VorpalBladeBlink"
+          ]
         }
       ],
       "level10": [

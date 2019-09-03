@@ -24070,6 +24070,168 @@
       "regenScale": 0.0
     }
   },
+  "volskayadata-VolskayaVehicle": {
+    "name": "트리글라브 수호자",
+    "hyperlinkId": "VolskayaVehicle",
+    "radius": 1.5,
+    "sight": 12.0,
+    "speed": 4.0,
+    "scalingLinkId": "VolskayaVehicleScaling",
+    "descriptors": [
+      "PowerfulLaner",
+      "Suicidal"
+    ],
+    "attributes": [
+      "Heroic",
+      "ImmuneToFriendlyAbilities"
+    ],
+    "portraits": {
+      "targetInfo": "storm_ui_ingame_targetinfopanel_unit_volskaya_boss.png",
+      "minimap": "storm_ui_hud_volskaya_minimap_mech.png"
+    },
+    "life": {
+      "amount": 11500.0,
+      "scale": 0.0,
+      "type": "생명력",
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    },
+    "energy": {
+      "amount": 32.0,
+      "type": "기력",
+      "regenRate": 0.0
+    },
+    "abilities": {
+      "basic": [
+        {
+          "nameId": "VolskayaVehicleCharge",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "돌진",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "cooldownTooltip": "재사용 대기시간: 8초",
+          "shortTooltip": "대상에게 돌진하여 범위 피해",
+          "fullTooltip": "대상에게 돌진하여 주위에 160의 피해를 줍니다.  영웅이 아닌 대상에게는 500%의 추가 피해를 줍니다.",
+          "abilityType": "Q"
+        },
+        {
+          "nameId": "VolskayaVehicleRocketFist",
+          "buttonId": "VolskayaVehicleRocketFist",
+          "name": "로켓 주먹",
+          "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
+          "cooldownTooltip": "재사용 대기시간: 14초",
+          "shortTooltip": "적에게 피해를 주고 적 영웅을 이동 불가 상태로 만들며 포탑 비활성화",
+          "fullTooltip": "로켓 주먹을 날려 경로 상의 처음 적중하는 영웅 또는 구조물에게 150의 피해를 줍니다. 영웅은 2초 동안 밀쳐지고, 구조물은 4초 동안 비활성화됩니다.  경로 상의 돌격병을 즉시 처치합니다.",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "VolskayaVehicleTShield",
+          "buttonId": "VolskayaVehicleTShield",
+          "name": "보호막 방출기",
+          "icon": "storm_ui_icon_volskayarobot_tshield.png",
+          "cooldownTooltip": "재사용 대기시간: 16초",
+          "shortTooltip": "수호자 방어력 일시 증가 및 주위 아군에게 보호막 부여",
+          "fullTooltip": "방어력이 25 증가하고 주위 아군들에게 500의 피해를 흡수하는 보호막을 부여합니다. 3초 동안 지속됩니다.",
+          "abilityType": "E"
+        }
+      ],
+      "trait": [
+        {
+          "nameId": "LeaveVehicle",
+          "buttonId": "VolskayaVehicleLeaveVehicle",
+          "name": "탑승물 내리기",
+          "icon": "storm_ui_icon_volskayarobot_leavevehicle.png",
+          "cooldownTooltip": "재사용 대기시간: 10초",
+          "fullTooltip": "탑승물에서 내립니다.",
+          "abilityType": "Trait"
+        }
+      ],
+      "mount": [
+        {
+          "nameId": "VolskayaVehicleFighterFlight",
+          "buttonId": "VolskayaVehicleFighterFlight",
+          "abilityType": "Z"
+        }
+      ],
+      "spray": [
+        {
+          "nameId": "LootSpray",
+          "buttonId": "LootSpray",
+          "name": "스프레이 감정표현",
+          "icon": "storm_temp_war3_btnhealingspray.png",
+          "cooldownTooltip": "재사용 대기시간: 3초",
+          "fullTooltip": "선택한 스프레이를 바닥에 뿌려서 다른 플레이어들에게 감정을 표현할 수 있습니다.",
+          "abilityType": "Spray"
+        }
+      ],
+      "voice": [
+        {
+          "nameId": "LootYellVoiceLine",
+          "buttonId": "LootYellVoiceLine",
+          "name": "음성 대사 감정표현",
+          "icon": "storm_btn_d3_barbarian_threateningshout.png",
+          "cooldownTooltip": "재사용 대기시간: 7초",
+          "fullTooltip": "선택한 음성 대사를 재생해서 다른 플레이어들에게 감정을 표현할 수 있습니다.",
+          "abilityType": "Voice"
+        }
+      ],
+      "action": [
+        {
+          "nameId": "HoldFire",
+          "buttonId": "Stop",
+          "name": "정지",
+          "icon": "btn-command-stop.png",
+          "abilityType": "Stop"
+        },
+        {
+          "nameId": "HoldFire",
+          "buttonId": "MoveHoldPosition",
+          "name": "공격 중지",
+          "abilityType": "Hold"
+        }
+      ],
+      "hidden": [
+        {
+          "nameId": "VolskayaVehicleSeismicCannon",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleFistSlam",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleHover",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "돌진",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "대상에게 돌진하여 범위 피해",
+          "fullTooltip": "대상에게 돌진하여 주위에 160의 피해를 줍니다.  영웅이 아닌 대상에게는 500%의 추가 피해를 줍니다.",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleStructureChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "돌진",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "대상에게 돌진하여 범위 피해",
+          "fullTooltip": "대상에게 돌진하여 주위에 160의 피해를 줍니다.  영웅이 아닌 대상에게는 500%의 추가 피해를 줍니다.",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleCoreChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "돌진",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "대상에게 돌진하여 범위 피해",
+          "fullTooltip": "대상에게 돌진하여 주위에 160의 피해를 줍니다.  영웅이 아닌 대상에게는 500%의 추가 피해를 줍니다.",
+          "abilityType": "Hidden"
+        }
+      ]
+    }
+  },
   "volskayadata-VolskayaVehicleGunner": {
     "name": "트리글라브 사수",
     "hyperlinkId": "VolskayaVehicleGunner",

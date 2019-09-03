@@ -24070,6 +24070,168 @@
       "regenScale": 0.0
     }
   },
+  "volskayadata-VolskayaVehicle": {
+    "name": "崔格拉芙保护者",
+    "hyperlinkId": "VolskayaVehicle",
+    "radius": 1.5,
+    "sight": 12.0,
+    "speed": 4.0,
+    "scalingLinkId": "VolskayaVehicleScaling",
+    "descriptors": [
+      "PowerfulLaner",
+      "Suicidal"
+    ],
+    "attributes": [
+      "Heroic",
+      "ImmuneToFriendlyAbilities"
+    ],
+    "portraits": {
+      "targetInfo": "storm_ui_ingame_targetinfopanel_unit_volskaya_boss.png",
+      "minimap": "storm_ui_hud_volskaya_minimap_mech.png"
+    },
+    "life": {
+      "amount": 11500.0,
+      "scale": 0.0,
+      "type": "生命值",
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    },
+    "energy": {
+      "amount": 32.0,
+      "type": "能量",
+      "regenRate": 0.0
+    },
+    "abilities": {
+      "basic": [
+        {
+          "nameId": "VolskayaVehicleCharge",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "冲锋",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "cooldownTooltip": "冷却时间：8秒",
+          "shortTooltip": "向一个目标冲锋并对一个区域造成伤害",
+          "fullTooltip": "向一个目标冲锋并对一个区域造成160点伤害。  对非英雄目标额外造成500%伤害。",
+          "abilityType": "Q"
+        },
+        {
+          "nameId": "VolskayaVehicleRocketFist",
+          "buttonId": "VolskayaVehicleRocketFist",
+          "name": "火箭拳",
+          "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
+          "cooldownTooltip": "冷却时间：14秒",
+          "shortTooltip": "发射火箭拳造成伤害，定身英雄，使塔楼瘫痪",
+          "fullTooltip": "发射火箭拳，对路径上第一个英雄或建筑造成150点伤害。拳头会击退和使英雄定身2秒，并使建筑瘫痪4秒。  立即杀死路径上的小兵。",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "VolskayaVehicleTShield",
+          "buttonId": "VolskayaVehicleTShield",
+          "name": "护盾发生器",
+          "icon": "storm_ui_icon_volskayarobot_tshield.png",
+          "cooldownTooltip": "冷却时间：16秒",
+          "shortTooltip": "为保护者提供临时护甲，并为附近的盟友提供护盾",
+          "fullTooltip": "获得25点护甲，使附近的友方英雄获得500点护盾。持续3秒。",
+          "abilityType": "E"
+        }
+      ],
+      "trait": [
+        {
+          "nameId": "LeaveVehicle",
+          "buttonId": "VolskayaVehicleLeaveVehicle",
+          "name": "离开载具",
+          "icon": "storm_ui_icon_volskayarobot_leavevehicle.png",
+          "cooldownTooltip": "冷却时间：10秒",
+          "fullTooltip": "离开载具。",
+          "abilityType": "Trait"
+        }
+      ],
+      "mount": [
+        {
+          "nameId": "VolskayaVehicleFighterFlight",
+          "buttonId": "VolskayaVehicleFighterFlight",
+          "abilityType": "Z"
+        }
+      ],
+      "spray": [
+        {
+          "nameId": "LootSpray",
+          "buttonId": "LootSpray",
+          "name": "快捷喷漆表情",
+          "icon": "storm_temp_war3_btnhealingspray.png",
+          "cooldownTooltip": "冷却时间：3秒",
+          "fullTooltip": "用所选喷漆标记地面来向其他玩家展现自己。",
+          "abilityType": "Spray"
+        }
+      ],
+      "voice": [
+        {
+          "nameId": "LootYellVoiceLine",
+          "buttonId": "LootYellVoiceLine",
+          "name": "快捷语音表情",
+          "icon": "storm_btn_d3_barbarian_threateningshout.png",
+          "cooldownTooltip": "冷却时间：7秒",
+          "fullTooltip": "播放所选语音来向其他玩家展现自己。",
+          "abilityType": "Voice"
+        }
+      ],
+      "action": [
+        {
+          "nameId": "HoldFire",
+          "buttonId": "Stop",
+          "name": "停止",
+          "icon": "btn-command-stop.png",
+          "abilityType": "Stop"
+        },
+        {
+          "nameId": "HoldFire",
+          "buttonId": "MoveHoldPosition",
+          "name": "停火",
+          "abilityType": "Hold"
+        }
+      ],
+      "hidden": [
+        {
+          "nameId": "VolskayaVehicleSeismicCannon",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleFistSlam",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleHover",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "冲锋",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "向一个目标冲锋并对一个区域造成伤害",
+          "fullTooltip": "向一个目标冲锋并对一个区域造成160点伤害。  对非英雄目标额外造成500%伤害。",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleStructureChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "冲锋",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "向一个目标冲锋并对一个区域造成伤害",
+          "fullTooltip": "向一个目标冲锋并对一个区域造成160点伤害。  对非英雄目标额外造成500%伤害。",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleCoreChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "冲锋",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "向一个目标冲锋并对一个区域造成伤害",
+          "fullTooltip": "向一个目标冲锋并对一个区域造成160点伤害。  对非英雄目标额外造成500%伤害。",
+          "abilityType": "Hidden"
+        }
+      ]
+    }
+  },
   "volskayadata-VolskayaVehicleGunner": {
     "name": "崔格拉芙炮手",
     "hyperlinkId": "VolskayaVehicleGunner",

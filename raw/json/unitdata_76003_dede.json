@@ -24070,6 +24070,168 @@
       "regenScale": 0.0
     }
   },
+  "volskayadata-VolskayaVehicle": {
+    "name": "Triglav-Protektor",
+    "hyperlinkId": "VolskayaVehicle",
+    "radius": 1.5,
+    "sight": 12.0,
+    "speed": 4.0,
+    "scalingLinkId": "VolskayaVehicleScaling",
+    "descriptors": [
+      "PowerfulLaner",
+      "Suicidal"
+    ],
+    "attributes": [
+      "Heroic",
+      "ImmuneToFriendlyAbilities"
+    ],
+    "portraits": {
+      "targetInfo": "storm_ui_ingame_targetinfopanel_unit_volskaya_boss.png",
+      "minimap": "storm_ui_hud_volskaya_minimap_mech.png"
+    },
+    "life": {
+      "amount": 11500.0,
+      "scale": 0.0,
+      "type": "Lebenspunkte",
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    },
+    "energy": {
+      "amount": 32.0,
+      "type": "Energie",
+      "regenRate": 0.0
+    },
+    "abilities": {
+      "basic": [
+        {
+          "nameId": "VolskayaVehicleCharge",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Ansturm",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "cooldownTooltip": "Abklingzeit: 8 Sek.",
+          "shortTooltip": "Stürmt auf ein Ziel zu und verursacht Schaden in einem Bereich.",
+          "fullTooltip": "Stürmt auf ein Ziel zu und verursacht im Wirkungsbereich 160 Schaden.   Fügt nicht heroischen Einheiten 500% Bonusschaden zu.",
+          "abilityType": "Q"
+        },
+        {
+          "nameId": "VolskayaVehicleRocketFist",
+          "buttonId": "VolskayaVehicleRocketFist",
+          "name": "Raketenfaust",
+          "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
+          "cooldownTooltip": "Abklingzeit: 14 Sek.",
+          "shortTooltip": "Feuert eine Faust ab, die Schaden verursacht, Helden bewegungsunfähig macht und Türme deaktiviert.",
+          "fullTooltip": "Feuert eine Raketenfaust ab, die dem ersten getroffenen Helden oder Gebäude auf ihrem Weg 150 Schaden zufügt. Die Faust schiebt Helden bis zu 2 Sek. lang weg und setzt Gebäude 4 Sek. lang außer Gefecht.  Tötet getroffene Diener in der Schusslinie sofort.",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "VolskayaVehicleTShield",
+          "buttonId": "VolskayaVehicleTShield",
+          "name": "Schildgenerator",
+          "icon": "storm_ui_icon_volskayarobot_tshield.png",
+          "cooldownTooltip": "Abklingzeit: 16 Sek.",
+          "shortTooltip": "Gewährt dem Protektor vorübergehend Rüstung und nahen Verbündeten Schilde.",
+          "fullTooltip": "Gewährt dem Roboter 25 Panzerung und verbündeten Helden in der Nähe einen Schild mit 500 Punkten. Hält 3 Sek. lang an.",
+          "abilityType": "E"
+        }
+      ],
+      "trait": [
+        {
+          "nameId": "LeaveVehicle",
+          "buttonId": "VolskayaVehicleLeaveVehicle",
+          "name": "Roboter verlassen",
+          "icon": "storm_ui_icon_volskayarobot_leavevehicle.png",
+          "cooldownTooltip": "Abklingzeit: 10 Sek.",
+          "fullTooltip": "Verlässt den Roboter.",
+          "abilityType": "Trait"
+        }
+      ],
+      "mount": [
+        {
+          "nameId": "VolskayaVehicleFighterFlight",
+          "buttonId": "VolskayaVehicleFighterFlight",
+          "abilityType": "Z"
+        }
+      ],
+      "spray": [
+        {
+          "nameId": "LootSpray",
+          "buttonId": "LootSpray",
+          "name": "Spray",
+          "icon": "storm_temp_war3_btnhealingspray.png",
+          "cooldownTooltip": "Abklingzeit: 3 Sek.",
+          "fullTooltip": "Drückt dem Schlachtfeld deinen Stempel auf, indem dein ausgerüstetes Spray auf den Boden gesprüht wird.",
+          "abilityType": "Spray"
+        }
+      ],
+      "voice": [
+        {
+          "nameId": "LootYellVoiceLine",
+          "buttonId": "LootYellVoiceLine",
+          "name": "Spruch",
+          "icon": "storm_btn_d3_barbarian_threateningshout.png",
+          "cooldownTooltip": "Abklingzeit: 7 Sek.",
+          "fullTooltip": "Lässt deinen Helden zu Wort kommen, indem dein ausgerüsteter Spruch abgespielt wird.",
+          "abilityType": "Voice"
+        }
+      ],
+      "action": [
+        {
+          "nameId": "HoldFire",
+          "buttonId": "Stop",
+          "name": "Stopp",
+          "icon": "btn-command-stop.png",
+          "abilityType": "Stop"
+        },
+        {
+          "nameId": "HoldFire",
+          "buttonId": "MoveHoldPosition",
+          "name": "Hold Fire",
+          "abilityType": "Hold"
+        }
+      ],
+      "hidden": [
+        {
+          "nameId": "VolskayaVehicleSeismicCannon",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleFistSlam",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleHover",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Ansturm",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Stürmt auf ein Ziel zu und verursacht Schaden in einem Bereich.",
+          "fullTooltip": "Stürmt auf ein Ziel zu und verursacht im Wirkungsbereich 160 Schaden.   Fügt nicht heroischen Einheiten 500% Bonusschaden zu.",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleStructureChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Ansturm",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Stürmt auf ein Ziel zu und verursacht Schaden in einem Bereich.",
+          "fullTooltip": "Stürmt auf ein Ziel zu und verursacht im Wirkungsbereich 160 Schaden.   Fügt nicht heroischen Einheiten 500% Bonusschaden zu.",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleCoreChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Ansturm",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Stürmt auf ein Ziel zu und verursacht Schaden in einem Bereich.",
+          "fullTooltip": "Stürmt auf ein Ziel zu und verursacht im Wirkungsbereich 160 Schaden.   Fügt nicht heroischen Einheiten 500% Bonusschaden zu.",
+          "abilityType": "Hidden"
+        }
+      ]
+    }
+  },
   "volskayadata-VolskayaVehicleGunner": {
     "name": "Triglav-Richtschütze",
     "hyperlinkId": "VolskayaVehicleGunner",

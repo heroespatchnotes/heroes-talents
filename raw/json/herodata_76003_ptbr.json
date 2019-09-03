@@ -936,7 +936,8 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AlarakTelekinesis",
-            "AlarakDeadlyChargeActivate2ndHeroic"
+            "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic"
           ]
         },
         {
@@ -1010,6 +1011,7 @@
           "sort": 3,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         }
@@ -1102,6 +1104,7 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         },
@@ -1116,6 +1119,7 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         },
@@ -1171,6 +1175,7 @@
           "sort": 3,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         }
@@ -17808,15 +17813,6 @@
       ],
       "trait": [
         {
-          "nameId": "GuldanLifeTapFree",
-          "buttonId": "GuldanLifeTapFree",
-          "name": "Conversão de Vida",
-          "icon": "storm_ui_icon_guldan_lifetap.png",
-          "toggleCooldown": 0.5,
-          "fullTooltip": "Gul'dan não regenera Mana.  Ative para restaurar 25% do mana de Gul'dan.",
-          "abilityType": "Trait"
-        },
-        {
           "nameId": "GuldanLifeTap",
           "buttonId": "GuldanLifeTap",
           "name": "Conversão de Vida",
@@ -17897,6 +17893,19 @@
               "toggleCooldown": 0.5,
               "fullTooltip": "Para de canalizar Drenar Vida.",
               "abilityType": "W"
+            }
+          ]
+        },
+        "GuldanLifeTapDarknessWithin": {
+          "trait": [
+            {
+              "nameId": "GuldanLifeTapFree",
+              "buttonId": "GuldanLifeTapFree",
+              "name": "Conversão de Vida",
+              "icon": "storm_ui_icon_guldan_lifetap.png",
+              "toggleCooldown": 0.5,
+              "fullTooltip": "Gul'dan não regenera Mana.  Ative para restaurar 25% do mana de Gul'dan.",
+              "abilityType": "Trait"
             }
           ]
         }
@@ -18452,7 +18461,10 @@
           "fullTooltip": "Missão: Atingir todos os Heróis inimigos com o Arco da Tempestade.  Recompensa: Após atingir todos os Heróis inimigos com o Arco da Tempestade, seu alcance aumenta em 30%.  Recompensa: Após atingir todos os Heróis inimigos 3 vezes com o Arco da Tempestade, seu dano aumenta em 100.",
           "abilityType": "Q",
           "isQuest": true,
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoSimpleGeometry",
@@ -18492,7 +18504,10 @@
           "shortTooltip": "Flechas do Arco da Tempestade explodem em Tropas e Monstros",
           "fullTooltip": "Ao atingir uma Tropa ou um Monstro, o Arco da Tempestade causa 60% do dano aos inimigos ao redor do alvo.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoSerratedArrows",
@@ -18530,7 +18545,10 @@
           "shortTooltip": "Arco da Tempestade concede Poder Mágico",
           "fullTooltip": "Atingir um Herói com Arco da Tempestade concede 5% de Poder Mágico por 10 s, acumulando até o máximo de 20%.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoNeverOutmatched",
@@ -18553,7 +18571,10 @@
           "shortTooltip": "Ataques Básicos e Arco da Tempestade reduzem Armadura",
           "fullTooltip": "Atingir Heróis com Arco da Tempestade ou Ataques Básicos reduz a armadura do alvo em 2 por 3 s, até uma redução máxima de 20 de Armadura.",
           "abilityType": "Passive",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         }
       ],
       "level10": [
@@ -18599,7 +18620,10 @@
           "shortTooltip": "Arco da Tempestade concede Velocidade de Movimento",
           "fullTooltip": "Atingir um Herói com Arco da Tempestade concede 10% de Velocidade de Movimento por 6 s até o máximo de 30%.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoNinjaAssassin",
@@ -18644,7 +18668,10 @@
           "shortTooltip": "Arco da Tempestade e Ataques Básicos se potencializam mutuamente",
           "fullTooltip": "Atingir Heróis com Arco da Tempestade aumenta em 30% o dano do próximo Ataque Básico de Hanzo que ocorrer dentro de 5 s. Ataques Básicos contra Heróis aumentam em 30% o dano do próximo Arco da Tempestade que ocorrer dentro 5 s.",
           "abilityType": "Passive",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoPiercingArrows",
@@ -18656,6 +18683,7 @@
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint",
             "HanzoScatterArrow"
           ]
         },
@@ -35458,7 +35486,7 @@
     },
     "subAbilities": [
       {
-        "RehgarEarthbindTotem": {
+        "RehgarEarthbindTotemColossalTotem": {
           "basic": [
             {
               "nameId": "RehgarTotemicProjection",
@@ -37264,6 +37292,7 @@
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37339,6 +37368,7 @@
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37448,6 +37478,7 @@
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37816,6 +37847,7 @@
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "StitchesBlight",
             "StitchesVileGasVileCleaver",
             "StitchesSlam"
           ]
@@ -37830,6 +37862,7 @@
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
+            "StitchesBlight",
             "StitchesVileGasVileCleaver",
             "StitchesSlam"
           ]
@@ -39278,10 +39311,11 @@
           "buttonId": "TassadarArchon",
           "name": "Arconte",
           "icon": "storm_ui_icon_tassadar_archon.png",
+          "energyTooltip": "Mana: 80",
+          "cooldownTooltip": "Recarga: 100 segundos",
           "shortTooltip": "Torne-se um Arconte",
           "fullTooltip": "Tassadar transforma-se em Arconte e ganha um Escudo de Plasma. Ataques Básicos causam 158 (+4% per level) de dano, desaceleram o alvo em 30% por 1 s e causam 79 (+4% per level) de dano colateral a inimigos em um raio de 2.5. Dura 10 s.  Passivo: Arconte conclui a recarga de Deslocamento Dimensional.",
-          "abilityType": "Heroic",
-          "isPassive": true
+          "abilityType": "Heroic"
         },
         {
           "nameId": "TassadarForceWall",
@@ -39376,6 +39410,20 @@
               "cooldownTooltip": "Recarga: 1 segundo",
               "fullTooltip": "Destrói a Barreira de Energia ativa.",
               "abilityType": "Heroic"
+            }
+          ]
+        },
+        "TassadarArchon": {
+          "heroic": [
+            {
+              "nameId": "TassadarArchon",
+              "buttonId": "TassadarArchon",
+              "name": "Arconte",
+              "icon": "storm_ui_icon_tassadar_archon.png",
+              "shortTooltip": "Torne-se um Arconte",
+              "fullTooltip": "Tassadar transforma-se em Arconte e ganha um Escudo de Plasma. Ataques Básicos causam 158 (+4% per level) de dano, desaceleram o alvo em 30% por 1 s e causam 79 (+4% per level) de dano colateral a inimigos em um raio de 2.5. Dura 10 s.  Passivo: Arconte conclui a recarga de Deslocamento Dimensional.",
+              "abilityType": "Heroic",
+              "isPassive": true
             }
           ]
         },
@@ -48675,7 +48723,10 @@
           "shortTooltip": "Lâmina Vorpal ganha uma carga",
           "fullTooltip": "Lâmina Vorpal ganha uma 2ª carga. Teleportar-se para um inimigo com Lâmina Vorpal ou entrar em Camuflagem Permanente faz com que o próximo Ataque Básico de Zeratul cause 50% a mais de dano.",
           "abilityType": "Passive",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "VorpalBladeBlink"
+          ]
         }
       ],
       "level10": [

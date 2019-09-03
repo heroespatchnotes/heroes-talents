@@ -24070,6 +24070,168 @@
       "regenScale": 0.0
     }
   },
+  "volskayadata-VolskayaVehicle": {
+    "name": "Protector Triglav",
+    "hyperlinkId": "VolskayaVehicle",
+    "radius": 1.5,
+    "sight": 12.0,
+    "speed": 4.0,
+    "scalingLinkId": "VolskayaVehicleScaling",
+    "descriptors": [
+      "PowerfulLaner",
+      "Suicidal"
+    ],
+    "attributes": [
+      "Heroic",
+      "ImmuneToFriendlyAbilities"
+    ],
+    "portraits": {
+      "targetInfo": "storm_ui_ingame_targetinfopanel_unit_volskaya_boss.png",
+      "minimap": "storm_ui_hud_volskaya_minimap_mech.png"
+    },
+    "life": {
+      "amount": 11500.0,
+      "scale": 0.0,
+      "type": "Salud",
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    },
+    "energy": {
+      "amount": 32.0,
+      "type": "Energía",
+      "regenRate": 0.0
+    },
+    "abilities": {
+      "basic": [
+        {
+          "nameId": "VolskayaVehicleCharge",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Carga",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "cooldownTooltip": "Tiempo de reutilización: 8 s",
+          "shortTooltip": "Cargas contra el objetivo e infliges daño en un área.",
+          "fullTooltip": "Cargas contra el objetivo e infliges 160 de daño en un área.   Los objetivos que no son héroes sufren un 500% más de daño.",
+          "abilityType": "Q"
+        },
+        {
+          "nameId": "VolskayaVehicleRocketFist",
+          "buttonId": "VolskayaVehicleRocketFist",
+          "name": "Puño cohete",
+          "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
+          "cooldownTooltip": "Tiempo de reutilización: 14 s",
+          "shortTooltip": "Lanzas un puño que inflige daño, inmoviliza a los héroes y deshabilita las torres.",
+          "fullTooltip": "Disparas un puño cohete que inflige 150 de daño al primer héroe o estructura en su camino. El puño empuja a los héroes durante un máximo de 2 s y deshabilita las estructuras durante 4 s.  El puño mata al instante a los esbirros a su paso.",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "VolskayaVehicleTShield",
+          "buttonId": "VolskayaVehicleTShield",
+          "name": "Emisor de escudo",
+          "icon": "storm_ui_icon_volskayarobot_tshield.png",
+          "cooldownTooltip": "Tiempo de reutilización: 16 s",
+          "shortTooltip": "Otorga armadura temporal al protector y escuda a los aliados cercanos.",
+          "fullTooltip": "Obtienes 25 de armadura y otorgas a los héroes aliados cercanos 500 de escudo. Dura 3 s.",
+          "abilityType": "E"
+        }
+      ],
+      "trait": [
+        {
+          "nameId": "LeaveVehicle",
+          "buttonId": "VolskayaVehicleLeaveVehicle",
+          "name": "Abandonar vehículo",
+          "icon": "storm_ui_icon_volskayarobot_leavevehicle.png",
+          "cooldownTooltip": "Tiempo de reutilización: 10 s",
+          "fullTooltip": "Sales del vehículo.",
+          "abilityType": "Trait"
+        }
+      ],
+      "mount": [
+        {
+          "nameId": "VolskayaVehicleFighterFlight",
+          "buttonId": "VolskayaVehicleFighterFlight",
+          "abilityType": "Z"
+        }
+      ],
+      "spray": [
+        {
+          "nameId": "LootSpray",
+          "buttonId": "LootSpray",
+          "name": "Gesto rápido: Grafiti",
+          "icon": "storm_temp_war3_btnhealingspray.png",
+          "cooldownTooltip": "Tiempo de reutilización: 3 s",
+          "fullTooltip": "Exprésate marcando el suelo con tu grafiti favorito.",
+          "abilityType": "Spray"
+        }
+      ],
+      "voice": [
+        {
+          "nameId": "LootYellVoiceLine",
+          "buttonId": "LootYellVoiceLine",
+          "name": "Gesto rápido: Frase",
+          "icon": "storm_btn_d3_barbarian_threateningshout.png",
+          "cooldownTooltip": "Tiempo de reutilización: 7 s",
+          "fullTooltip": "Exprésate reproduciendo tu frase favorita.",
+          "abilityType": "Voice"
+        }
+      ],
+      "action": [
+        {
+          "nameId": "HoldFire",
+          "buttonId": "Stop",
+          "name": "Detener",
+          "icon": "btn-command-stop.png",
+          "abilityType": "Stop"
+        },
+        {
+          "nameId": "HoldFire",
+          "buttonId": "MoveHoldPosition",
+          "name": "Hold Fire",
+          "abilityType": "Hold"
+        }
+      ],
+      "hidden": [
+        {
+          "nameId": "VolskayaVehicleSeismicCannon",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleFistSlam",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleHover",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Carga",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Cargas contra el objetivo e infliges daño en un área.",
+          "fullTooltip": "Cargas contra el objetivo e infliges 160 de daño en un área.   Los objetivos que no son héroes sufren un 500% más de daño.",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleStructureChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Carga",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Cargas contra el objetivo e infliges daño en un área.",
+          "fullTooltip": "Cargas contra el objetivo e infliges 160 de daño en un área.   Los objetivos que no son héroes sufren un 500% más de daño.",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleCoreChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Carga",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Cargas contra el objetivo e infliges daño en un área.",
+          "fullTooltip": "Cargas contra el objetivo e infliges 160 de daño en un área.   Los objetivos que no son héroes sufren un 500% más de daño.",
+          "abilityType": "Hidden"
+        }
+      ]
+    }
+  },
   "volskayadata-VolskayaVehicleGunner": {
     "name": "Artillero Triglav",
     "hyperlinkId": "VolskayaVehicleGunner",

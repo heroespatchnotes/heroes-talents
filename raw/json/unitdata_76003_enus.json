@@ -24071,6 +24071,168 @@
       "regenScale": 0.0
     }
   },
+  "volskayadata-VolskayaVehicle": {
+    "name": "Triglav Protector",
+    "hyperlinkId": "VolskayaVehicle",
+    "radius": 1.5,
+    "sight": 12.0,
+    "speed": 4.0,
+    "scalingLinkId": "VolskayaVehicleScaling",
+    "descriptors": [
+      "PowerfulLaner",
+      "Suicidal"
+    ],
+    "attributes": [
+      "Heroic",
+      "ImmuneToFriendlyAbilities"
+    ],
+    "portraits": {
+      "targetInfo": "storm_ui_ingame_targetinfopanel_unit_volskaya_boss.png",
+      "minimap": "storm_ui_hud_volskaya_minimap_mech.png"
+    },
+    "life": {
+      "amount": 11500.0,
+      "scale": 0.0,
+      "type": "Health",
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    },
+    "energy": {
+      "amount": 32.0,
+      "type": "Energy",
+      "regenRate": 0.0
+    },
+    "abilities": {
+      "basic": [
+        {
+          "nameId": "VolskayaVehicleCharge",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Charge",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "cooldownTooltip": "Cooldown: 8 seconds",
+          "shortTooltip": "Charge a target and deal damage in an area",
+          "fullTooltip": "Charge a target and deal 160 damage in an area.   Non-Heroes take 500% increased damage.",
+          "abilityType": "Q"
+        },
+        {
+          "nameId": "VolskayaVehicleRocketFist",
+          "buttonId": "VolskayaVehicleRocketFist",
+          "name": "Rocket Fist",
+          "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
+          "cooldownTooltip": "Cooldown: 14 seconds",
+          "shortTooltip": "Launch a fist that deals damage, roots Heroes, and disables towers",
+          "fullTooltip": "Launch a Rocket Fist that deals 150 damage to the first Hero or Structure in its path. The fist pushes Heroes for up to 2 seconds and disables Structures for 4 seconds.  Instantly kills Minions in its path.",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "VolskayaVehicleTShield",
+          "buttonId": "VolskayaVehicleTShield",
+          "name": "Shield Emitter",
+          "icon": "storm_ui_icon_volskayarobot_tshield.png",
+          "cooldownTooltip": "Cooldown: 16 seconds",
+          "shortTooltip": "Give temporary armor to the Protector and shields to nearby allies",
+          "fullTooltip": "Gain 25 Armor and Shield nearby allied Heroes for 500. Lasts 3 seconds.",
+          "abilityType": "E"
+        }
+      ],
+      "trait": [
+        {
+          "nameId": "LeaveVehicle",
+          "buttonId": "VolskayaVehicleLeaveVehicle",
+          "name": "Leave Vehicle",
+          "icon": "storm_ui_icon_volskayarobot_leavevehicle.png",
+          "cooldownTooltip": "Cooldown: 10 seconds",
+          "fullTooltip": "Exit the Vehicle.",
+          "abilityType": "Trait"
+        }
+      ],
+      "mount": [
+        {
+          "nameId": "VolskayaVehicleFighterFlight",
+          "buttonId": "VolskayaVehicleFighterFlight",
+          "abilityType": "Z"
+        }
+      ],
+      "spray": [
+        {
+          "nameId": "LootSpray",
+          "buttonId": "LootSpray",
+          "name": "Quick Spray Expression",
+          "icon": "storm_temp_war3_btnhealingspray.png",
+          "cooldownTooltip": "Cooldown: 3 seconds",
+          "fullTooltip": "Express yourself to other players by marking the ground with your selected spray.",
+          "abilityType": "Spray"
+        }
+      ],
+      "voice": [
+        {
+          "nameId": "LootYellVoiceLine",
+          "buttonId": "LootYellVoiceLine",
+          "name": "Quick Voice Line Expression",
+          "icon": "storm_btn_d3_barbarian_threateningshout.png",
+          "cooldownTooltip": "Cooldown: 7 seconds",
+          "fullTooltip": "Express yourself to other players by playing your selected Voice Line.",
+          "abilityType": "Voice"
+        }
+      ],
+      "action": [
+        {
+          "nameId": "HoldFire",
+          "buttonId": "Stop",
+          "name": "Stop",
+          "icon": "btn-command-stop.png",
+          "abilityType": "Stop"
+        },
+        {
+          "nameId": "HoldFire",
+          "buttonId": "MoveHoldPosition",
+          "name": "Hold Fire",
+          "abilityType": "Hold"
+        }
+      ],
+      "hidden": [
+        {
+          "nameId": "VolskayaVehicleSeismicCannon",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleFistSlam",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleHover",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Charge",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Charge a target and deal damage in an area",
+          "fullTooltip": "Charge a target and deal 160 damage in an area.   Non-Heroes take 500% increased damage.",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleStructureChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Charge",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Charge a target and deal damage in an area",
+          "fullTooltip": "Charge a target and deal 160 damage in an area.   Non-Heroes take 500% increased damage.",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleCoreChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Charge",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Charge a target and deal damage in an area",
+          "fullTooltip": "Charge a target and deal 160 damage in an area.   Non-Heroes take 500% increased damage.",
+          "abilityType": "Hidden"
+        }
+      ]
+    }
+  },
   "volskayadata-VolskayaVehicleGunner": {
     "name": "Triglav Gunner",
     "hyperlinkId": "VolskayaVehicleGunner",

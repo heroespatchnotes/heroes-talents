@@ -24070,6 +24070,168 @@
       "regenScale": 0.0
     }
   },
+  "volskayadata-VolskayaVehicle": {
+    "name": "Protettore Triglav",
+    "hyperlinkId": "VolskayaVehicle",
+    "radius": 1.5,
+    "sight": 12.0,
+    "speed": 4.0,
+    "scalingLinkId": "VolskayaVehicleScaling",
+    "descriptors": [
+      "PowerfulLaner",
+      "Suicidal"
+    ],
+    "attributes": [
+      "Heroic",
+      "ImmuneToFriendlyAbilities"
+    ],
+    "portraits": {
+      "targetInfo": "storm_ui_ingame_targetinfopanel_unit_volskaya_boss.png",
+      "minimap": "storm_ui_hud_volskaya_minimap_mech.png"
+    },
+    "life": {
+      "amount": 11500.0,
+      "scale": 0.0,
+      "type": "Salute",
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    },
+    "energy": {
+      "amount": 32.0,
+      "type": "Energia",
+      "regenRate": 0.0
+    },
+    "abilities": {
+      "basic": [
+        {
+          "nameId": "VolskayaVehicleCharge",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Carica",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "cooldownTooltip": "Recupero: 8 s",
+          "shortTooltip": "Carica un bersaglio e infligge danni ad area.",
+          "fullTooltip": "Carica il bersaglio, infliggendo 160 danni ad area.  Le unità non eroiche subiscono il 500% di danni aggiuntivi.",
+          "abilityType": "Q"
+        },
+        {
+          "nameId": "VolskayaVehicleRocketFist",
+          "buttonId": "VolskayaVehicleRocketFist",
+          "name": "Pugno Meccanico",
+          "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
+          "cooldownTooltip": "Recupero: 14 s",
+          "shortTooltip": "Scaglia un pugno che infligge danni, immobilizza gli eroi e disattiva le torri.",
+          "fullTooltip": "Scaglia un Pugno Meccanico che infligge 150 danni al primo eroe o struttura sulla sua traiettoria. Il pugno immobilizza gli eroi per 2 s e disattiva le strutture per 4 s.  Uccide all'istante i servitori sulla traiettoria.",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "VolskayaVehicleTShield",
+          "buttonId": "VolskayaVehicleTShield",
+          "name": "Generatore di Scudo",
+          "icon": "storm_ui_icon_volskayarobot_tshield.png",
+          "cooldownTooltip": "Recupero: 16 s",
+          "shortTooltip": "Fornisce temporaneamente Resistenza al Protettore e scudi agli alleati vicini.",
+          "fullTooltip": "Fornisce 25 Resistenza e protegge gli eroi alleati vicini di 500 danni. Dura 3 s.",
+          "abilityType": "E"
+        }
+      ],
+      "trait": [
+        {
+          "nameId": "LeaveVehicle",
+          "buttonId": "VolskayaVehicleLeaveVehicle",
+          "name": "Abbandona veicolo",
+          "icon": "storm_ui_icon_volskayarobot_leavevehicle.png",
+          "cooldownTooltip": "Recupero: 10 s",
+          "fullTooltip": "Esce dal veicolo.",
+          "abilityType": "Trait"
+        }
+      ],
+      "mount": [
+        {
+          "nameId": "VolskayaVehicleFighterFlight",
+          "buttonId": "VolskayaVehicleFighterFlight",
+          "abilityType": "Z"
+        }
+      ],
+      "spray": [
+        {
+          "nameId": "LootSpray",
+          "buttonId": "LootSpray",
+          "name": "Spray rapido",
+          "icon": "storm_temp_war3_btnhealingspray.png",
+          "cooldownTooltip": "Recupero: 3 s",
+          "fullTooltip": "Comunica con gli altri giocatori segnando il terreno con lo spray selezionato.",
+          "abilityType": "Spray"
+        }
+      ],
+      "voice": [
+        {
+          "nameId": "LootYellVoiceLine",
+          "buttonId": "LootYellVoiceLine",
+          "name": "Audio rapido",
+          "icon": "storm_btn_d3_barbarian_threateningshout.png",
+          "cooldownTooltip": "Recupero: 7 s",
+          "fullTooltip": "Comunica con gli altri giocatori riproducendo l'audio selezionato.",
+          "abilityType": "Voice"
+        }
+      ],
+      "action": [
+        {
+          "nameId": "HoldFire",
+          "buttonId": "Stop",
+          "name": "Ferma",
+          "icon": "btn-command-stop.png",
+          "abilityType": "Stop"
+        },
+        {
+          "nameId": "HoldFire",
+          "buttonId": "MoveHoldPosition",
+          "name": "Hold Fire",
+          "abilityType": "Hold"
+        }
+      ],
+      "hidden": [
+        {
+          "nameId": "VolskayaVehicleSeismicCannon",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleFistSlam",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleHover",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Carica",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Carica un bersaglio e infligge danni ad area.",
+          "fullTooltip": "Carica il bersaglio, infliggendo 160 danni ad area.  Le unità non eroiche subiscono il 500% di danni aggiuntivi.",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleStructureChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Carica",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Carica un bersaglio e infligge danni ad area.",
+          "fullTooltip": "Carica il bersaglio, infliggendo 160 danni ad area.  Le unità non eroiche subiscono il 500% di danni aggiuntivi.",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleCoreChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Carica",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Carica un bersaglio e infligge danni ad area.",
+          "fullTooltip": "Carica il bersaglio, infliggendo 160 danni ad area.  Le unità non eroiche subiscono il 500% di danni aggiuntivi.",
+          "abilityType": "Hidden"
+        }
+      ]
+    }
+  },
   "volskayadata-VolskayaVehicleGunner": {
     "name": "Mitragliere Triglav",
     "hyperlinkId": "VolskayaVehicleGunner",

@@ -24070,6 +24070,168 @@
       "regenScale": 0.0
     }
   },
+  "volskayadata-VolskayaVehicle": {
+    "name": "Protector Triglav",
+    "hyperlinkId": "VolskayaVehicle",
+    "radius": 1.5,
+    "sight": 12.0,
+    "speed": 4.0,
+    "scalingLinkId": "VolskayaVehicleScaling",
+    "descriptors": [
+      "PowerfulLaner",
+      "Suicidal"
+    ],
+    "attributes": [
+      "Heroic",
+      "ImmuneToFriendlyAbilities"
+    ],
+    "portraits": {
+      "targetInfo": "storm_ui_ingame_targetinfopanel_unit_volskaya_boss.png",
+      "minimap": "storm_ui_hud_volskaya_minimap_mech.png"
+    },
+    "life": {
+      "amount": 11500.0,
+      "scale": 0.0,
+      "type": "Salud",
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    },
+    "energy": {
+      "amount": 32.0,
+      "type": "Energía",
+      "regenRate": 0.0
+    },
+    "abilities": {
+      "basic": [
+        {
+          "nameId": "VolskayaVehicleCharge",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Cargar",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "cooldownTooltip": "Tiempo de reutilización: 8 segundos",
+          "shortTooltip": "Arremete hacia un objetivo e inflige daño en un área",
+          "fullTooltip": "Arremete hacia un objetivo e inflige 160 de daño en un área.   Las unidades que no son héroes reciben un 500% más de daño.",
+          "abilityType": "Q"
+        },
+        {
+          "nameId": "VolskayaVehicleRocketFist",
+          "buttonId": "VolskayaVehicleRocketFist",
+          "name": "Puño cohete",
+          "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
+          "cooldownTooltip": "Tiempo de reutilización: 14 segundos",
+          "shortTooltip": "Lanza un puño que inflige daño, arraiga a los héroes y deshabilita las torres",
+          "fullTooltip": "Lanza un Puño cohete que inflige 150 de daño al primer héroe o estructura en su camino. El puño empuja a los héroes durante un máximo de 2 segundos y desactiva estructuras durante 4 segundos.  Mata instantáneamente a los esbirros que encuentra en su camino.",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "VolskayaVehicleTShield",
+          "buttonId": "VolskayaVehicleTShield",
+          "name": "Emisor de escudo",
+          "icon": "storm_ui_icon_volskayarobot_tshield.png",
+          "cooldownTooltip": "Tiempo de reutilización: 16 segundos",
+          "shortTooltip": "Otorga Armadura temporal al Protector y escudos a los aliados cercanos",
+          "fullTooltip": "Obtienes 25 de Armadura y los héroes aliados cercanos reciben un escudo de 500. Dura 3 segundos.",
+          "abilityType": "E"
+        }
+      ],
+      "trait": [
+        {
+          "nameId": "LeaveVehicle",
+          "buttonId": "VolskayaVehicleLeaveVehicle",
+          "name": "Abandonar vehículo",
+          "icon": "storm_ui_icon_volskayarobot_leavevehicle.png",
+          "cooldownTooltip": "Tiempo de reutilización: 10 segundos",
+          "fullTooltip": "Sal del vehículo.",
+          "abilityType": "Trait"
+        }
+      ],
+      "mount": [
+        {
+          "nameId": "VolskayaVehicleFighterFlight",
+          "buttonId": "VolskayaVehicleFighterFlight",
+          "abilityType": "Z"
+        }
+      ],
+      "spray": [
+        {
+          "nameId": "LootSpray",
+          "buttonId": "LootSpray",
+          "name": "Expresión de spray rápida",
+          "icon": "storm_temp_war3_btnhealingspray.png",
+          "cooldownTooltip": "Tiempo de reutilización: 3 segundos",
+          "fullTooltip": "Marca el terreno con el spray que escogiste para compartir lo que quieras con otros jugadores.",
+          "abilityType": "Spray"
+        }
+      ],
+      "voice": [
+        {
+          "nameId": "LootYellVoiceLine",
+          "buttonId": "LootYellVoiceLine",
+          "name": "Expresión de línea de voz rápida",
+          "icon": "storm_btn_d3_barbarian_threateningshout.png",
+          "cooldownTooltip": "Tiempo de reutilización: 7 segundos",
+          "fullTooltip": "Reproduce la línea de voz  que escogiste para compartir lo que quieras con otros jugadores.",
+          "abilityType": "Voice"
+        }
+      ],
+      "action": [
+        {
+          "nameId": "HoldFire",
+          "buttonId": "Stop",
+          "name": "Detener",
+          "icon": "btn-command-stop.png",
+          "abilityType": "Stop"
+        },
+        {
+          "nameId": "HoldFire",
+          "buttonId": "MoveHoldPosition",
+          "name": "Alto el fuego",
+          "abilityType": "Hold"
+        }
+      ],
+      "hidden": [
+        {
+          "nameId": "VolskayaVehicleSeismicCannon",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleFistSlam",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleHover",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Cargar",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Arremete hacia un objetivo e inflige daño en un área",
+          "fullTooltip": "Arremete hacia un objetivo e inflige 160 de daño en un área.   Las unidades que no son héroes reciben un 500% más de daño.",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleStructureChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Cargar",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Arremete hacia un objetivo e inflige daño en un área",
+          "fullTooltip": "Arremete hacia un objetivo e inflige 160 de daño en un área.   Las unidades que no son héroes reciben un 500% más de daño.",
+          "abilityType": "Hidden"
+        },
+        {
+          "nameId": "VolskayaVehicleCoreChargeApproach",
+          "buttonId": "VolskayaVehicleCharge",
+          "name": "Cargar",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "shortTooltip": "Arremete hacia un objetivo e inflige daño en un área",
+          "fullTooltip": "Arremete hacia un objetivo e inflige 160 de daño en un área.   Las unidades que no son héroes reciben un 500% más de daño.",
+          "abilityType": "Hidden"
+        }
+      ]
+    }
+  },
   "volskayadata-VolskayaVehicleGunner": {
     "name": "Artillero Triglav",
     "hyperlinkId": "VolskayaVehicleGunner",

@@ -936,7 +936,8 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AlarakTelekinesis",
-            "AlarakDeadlyChargeActivate2ndHeroic"
+            "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic"
           ]
         },
         {
@@ -1010,6 +1011,7 @@
           "sort": 3,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         }
@@ -1102,6 +1104,7 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         },
@@ -1116,6 +1119,7 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         },
@@ -1171,6 +1175,7 @@
           "sort": 3,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         }
@@ -17808,15 +17813,6 @@
       ],
       "trait": [
         {
-          "nameId": "GuldanLifeTapFree",
-          "buttonId": "GuldanLifeTapFree",
-          "name": "Transfusión de vida",
-          "icon": "storm_ui_icon_guldan_lifetap.png",
-          "toggleCooldown": 0.5,
-          "fullTooltip": "No regeneras maná.  Actívalo para restaurar un 25% de tu maná.",
-          "abilityType": "Trait"
-        },
-        {
           "nameId": "GuldanLifeTap",
           "buttonId": "GuldanLifeTap",
           "name": "Transfusión de vida",
@@ -17897,6 +17893,19 @@
               "toggleCooldown": 0.5,
               "fullTooltip": "Dejas de canalizar Drenar vida.",
               "abilityType": "W"
+            }
+          ]
+        },
+        "GuldanLifeTapDarknessWithin": {
+          "trait": [
+            {
+              "nameId": "GuldanLifeTapFree",
+              "buttonId": "GuldanLifeTapFree",
+              "name": "Transfusión de vida",
+              "icon": "storm_ui_icon_guldan_lifetap.png",
+              "toggleCooldown": 0.5,
+              "fullTooltip": "No regeneras maná.  Actívalo para restaurar un 25% de tu maná.",
+              "abilityType": "Trait"
             }
           ]
         }
@@ -18452,7 +18461,10 @@
           "fullTooltip": "Misión: Golpea a cada héroe enemigo con Arco de tormenta.  Recompensa: Tras golpear una vez a cada héroe enemigo con Arco de tormenta, su alcance aumenta un 30%.  Recompensa: Tras golpear 3 veces a cada héroe enemigo con Arco de tormenta, su daño aumenta en 100.",
           "abilityType": "Q",
           "isQuest": true,
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoSimpleGeometry",
@@ -18492,7 +18504,10 @@
           "shortTooltip": "Las flechas de Arco de tormenta explotan al golpear a esbirros y monstruos.",
           "fullTooltip": "Al golpear a un esbirro o a un monstruo, Arco de tormenta inflige un 60% de su daño a los enemigos alrededor del objetivo.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoSerratedArrows",
@@ -18530,7 +18545,10 @@
           "shortTooltip": "Arco de tormenta otorga poder de habilidad.",
           "fullTooltip": "Golpear a un héroe con Arco de tormenta otorga un 5% de poder de habilidad durante 10 s, hasta un máximo de un 20%.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoNeverOutmatched",
@@ -18553,7 +18571,10 @@
           "shortTooltip": "Los ataques básicos y Arco de tormenta reducen la armadura.",
           "fullTooltip": "Golpear a un héroe con Arco de tormenta o ataques básicos reduce su armadura 2 durante 3 s, hasta un máximo de 20 menos de armadura.",
           "abilityType": "Passive",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         }
       ],
       "level10": [
@@ -18599,7 +18620,10 @@
           "shortTooltip": "Arco de tormenta otorga velocidad de movimiento.",
           "fullTooltip": "Golpear a un héroe con Arco de tormenta te otorga un 10% de velocidad de movimiento durante 6 s, hasta un máximo de un 30%.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoNinjaAssassin",
@@ -18644,7 +18668,10 @@
           "shortTooltip": "Arco de tormenta potencia los ataques básicos y viceversa.",
           "fullTooltip": "Golpear a héroes con Arco de tormenta aumenta un 30% el daño del siguiente ataque básico que lances en los próximos 5 s. Los ataques básicos contra héroes aumentan un 30% el daño del siguiente Arco de tormenta que lances en los próximos 5 s.",
           "abilityType": "Passive",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoPiercingArrows",
@@ -18656,6 +18683,7 @@
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint",
             "HanzoScatterArrow"
           ]
         },
@@ -35458,7 +35486,7 @@
     },
     "subAbilities": [
       {
-        "RehgarEarthbindTotem": {
+        "RehgarEarthbindTotemColossalTotem": {
           "basic": [
             {
               "nameId": "RehgarTotemicProjection",
@@ -37264,6 +37292,7 @@
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37339,6 +37368,7 @@
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37448,6 +37478,7 @@
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37816,6 +37847,7 @@
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "StitchesBlight",
             "StitchesVileGasVileCleaver",
             "StitchesSlam"
           ]
@@ -37830,6 +37862,7 @@
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
+            "StitchesBlight",
             "StitchesVileGasVileCleaver",
             "StitchesSlam"
           ]
@@ -39278,10 +39311,11 @@
           "buttonId": "TassadarArchon",
           "name": "Arconte",
           "icon": "storm_ui_icon_tassadar_archon.png",
+          "energyTooltip": "Maná: 80",
+          "cooldownTooltip": "Tiempo de reutilización: 100 s",
           "shortTooltip": "Te conviertes en un arconte.",
           "fullTooltip": "Te transformas en arconte y obtienes Escudo de plasma. Los ataques básicos infligen 158 (+4% per level) de daño, ralentizan al objetivo un 30% durante 1 s e infligen 79 (+4% per level) de daño esparcido a los enemigos en un radio de 2.5. Dura 10 s.  Pasiva: Arconte reinicia el tiempo de reutilización de Cambio dimensional.",
-          "abilityType": "Heroic",
-          "isPassive": true
+          "abilityType": "Heroic"
         },
         {
           "nameId": "TassadarForceWall",
@@ -39376,6 +39410,20 @@
               "cooldownTooltip": "Tiempo de reutilización: 1 s",
               "fullTooltip": "Destruye la Barrera de fuerza activa.",
               "abilityType": "Heroic"
+            }
+          ]
+        },
+        "TassadarArchon": {
+          "heroic": [
+            {
+              "nameId": "TassadarArchon",
+              "buttonId": "TassadarArchon",
+              "name": "Arconte",
+              "icon": "storm_ui_icon_tassadar_archon.png",
+              "shortTooltip": "Te conviertes en un arconte.",
+              "fullTooltip": "Te transformas en arconte y obtienes Escudo de plasma. Los ataques básicos infligen 158 (+4% per level) de daño, ralentizan al objetivo un 30% durante 1 s e infligen 79 (+4% per level) de daño esparcido a los enemigos en un radio de 2.5. Dura 10 s.  Pasiva: Arconte reinicia el tiempo de reutilización de Cambio dimensional.",
+              "abilityType": "Heroic",
+              "isPassive": true
             }
           ]
         },
@@ -48675,7 +48723,10 @@
           "shortTooltip": "Hoja vorpal obtiene una carga.",
           "fullTooltip": "Hoja vorpal obtiene una segunda carga. Si te teletransportas hasta un enemigo usando Hoja vorpal o entras en Invisibilidad permanente, tu próximo ataque básico infligirá un 50% más de daño.",
           "abilityType": "Passive",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "VorpalBladeBlink"
+          ]
         }
       ],
       "level10": [

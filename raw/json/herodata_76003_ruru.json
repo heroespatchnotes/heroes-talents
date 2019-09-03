@@ -936,7 +936,8 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AlarakTelekinesis",
-            "AlarakDeadlyChargeActivate2ndHeroic"
+            "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic"
           ]
         },
         {
@@ -1010,6 +1011,7 @@
           "sort": 3,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         }
@@ -1102,6 +1104,7 @@
           "sort": 1,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         },
@@ -1116,6 +1119,7 @@
           "sort": 2,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         },
@@ -1171,6 +1175,7 @@
           "sort": 3,
           "abilityTalentLinkIds": [
             "AlarakDeadlyChargeActivate2ndHeroic",
+            "AlarakCounterStrikeTargeted2ndHeroic",
             "AlarakSadism"
           ]
         }
@@ -17808,15 +17813,6 @@
       ],
       "trait": [
         {
-          "nameId": "GuldanLifeTapFree",
-          "buttonId": "GuldanLifeTapFree",
-          "name": "Жизнеотвод",
-          "icon": "storm_ui_icon_guldan_lifetap.png",
-          "toggleCooldown": 0.5,
-          "fullTooltip": "Мана Гул'дана не восстанавливается сама.  При использовании восполняет 25% максимального запаса маны.",
-          "abilityType": "Trait"
-        },
-        {
           "nameId": "GuldanLifeTap",
           "buttonId": "GuldanLifeTap",
           "name": "Жизнеотвод",
@@ -17897,6 +17893,19 @@
               "toggleCooldown": 0.5,
               "fullTooltip": "Прекращает поддержание «Похищения жизни».",
               "abilityType": "W"
+            }
+          ]
+        },
+        "GuldanLifeTapDarknessWithin": {
+          "trait": [
+            {
+              "nameId": "GuldanLifeTapFree",
+              "buttonId": "GuldanLifeTapFree",
+              "name": "Жизнеотвод",
+              "icon": "storm_ui_icon_guldan_lifetap.png",
+              "toggleCooldown": 0.5,
+              "fullTooltip": "Мана Гул'дана не восстанавливается сама.  При использовании восполняет 25% максимального запаса маны.",
+              "abilityType": "Trait"
             }
           ]
         }
@@ -18452,7 +18461,10 @@
           "fullTooltip": "Задача: поразите всех героев противника «Луком бури».  Награда: после однократного поражения всех героев дальность действия «Лука бури» увеличится на 30%.  Награда: после троекратного поражения всех героев урон от «Лука бури» увеличится на 100 ед.",
           "abilityType": "Q",
           "isQuest": true,
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoSimpleGeometry",
@@ -18492,7 +18504,10 @@
           "shortTooltip": "Стрелы «Лука бури» взрываются при попадании в воинов и монстров.",
           "fullTooltip": "При попадании в воина или монстра «Лук бури» также наносит 60% базового урона противникам рядом с целью.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoSerratedArrows",
@@ -18530,7 +18545,10 @@
           "shortTooltip": "«Лук бури» усиливает способности.",
           "fullTooltip": "Каждый раз, когда «Лук бури» поражает героя, сила способностей Хандзо увеличивается на 5% на 10 сек., вплоть до 20%.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoNeverOutmatched",
@@ -18553,7 +18571,10 @@
           "shortTooltip": "Автоатаки и «Лук бури» ослабляют броню цели.",
           "fullTooltip": "Каждое попадание автоатакой или «Луком бури» по героям ослабляет их броню на 2 ед. на 3 сек., вплоть до 20 ед.",
           "abilityType": "Passive",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         }
       ],
       "level10": [
@@ -18599,7 +18620,10 @@
           "shortTooltip": "«Лук бури» ускоряет передвижение.",
           "fullTooltip": "Каждый раз, когда «Лук бури» поражает героя, скорость передвижения Хандзо повышается на 10% на 6 сек., вплоть до 30%.",
           "abilityType": "Q",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoNinjaAssassin",
@@ -18644,7 +18668,10 @@
           "shortTooltip": "«Лук бури» и автоатаки усиливают друг друга.",
           "fullTooltip": "Если «Лук бури» поражает героя, следующая автоатака Хандзо, совершенная в течение 5 сек., наносит на 30% больше урона. Если автоатака поражает героя, следующий «Лук бури», использованный в течение 5 сек., наносит на 30% больше урона.",
           "abilityType": "Passive",
-          "sort": 1
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint"
+          ]
         },
         {
           "nameId": "HanzoPiercingArrows",
@@ -18656,6 +18683,7 @@
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "HanzoStormBowFireTargetPoint",
             "HanzoScatterArrow"
           ]
         },
@@ -35458,7 +35486,7 @@
     },
     "subAbilities": [
       {
-        "RehgarEarthbindTotem": {
+        "RehgarEarthbindTotemColossalTotem": {
           "basic": [
             {
               "nameId": "RehgarTotemicProjection",
@@ -37264,6 +37292,7 @@
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37339,6 +37368,7 @@
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37448,6 +37478,7 @@
           "abilityType": "Q",
           "sort": 3,
           "abilityTalentLinkIds": [
+            "SgtHammerSpiderMinesSiegeMode",
             "SgtHammerSpiderMines"
           ]
         },
@@ -37816,6 +37847,7 @@
           "abilityType": "Passive",
           "sort": 2,
           "abilityTalentLinkIds": [
+            "StitchesBlight",
             "StitchesVileGasVileCleaver",
             "StitchesSlam"
           ]
@@ -37830,6 +37862,7 @@
           "abilityType": "Passive",
           "sort": 3,
           "abilityTalentLinkIds": [
+            "StitchesBlight",
             "StitchesVileGasVileCleaver",
             "StitchesSlam"
           ]
@@ -39278,10 +39311,11 @@
           "buttonId": "TassadarArchon",
           "name": "Архонт",
           "icon": "storm_ui_icon_tassadar_archon.png",
+          "energyTooltip": "Мана: 80",
+          "cooldownTooltip": "Время восстановления: 100 сек.",
           "shortTooltip": "Тассадар превращается в архонта.",
           "fullTooltip": "Тассадар превращается в архонта и получает плазменный щит. Автоатаки наносят 158 (+4% per level) ед. урона, замедляют цель на 30% на 1 сек. и дополнительно наносят 79 (+4% per level) ед. урона противникам в радиусе 2.5 м от цели. Время действия – 10 сек.  Пассивный эффект: использование «Архонта» восстанавливает «Пространственный сдвиг».",
-          "abilityType": "Heroic",
-          "isPassive": true
+          "abilityType": "Heroic"
         },
         {
           "nameId": "TassadarForceWall",
@@ -39376,6 +39410,20 @@
               "cooldownTooltip": "Время восстановления: 1 сек.",
               "fullTooltip": "Уничтожить активный силовой заслон.",
               "abilityType": "Heroic"
+            }
+          ]
+        },
+        "TassadarArchon": {
+          "heroic": [
+            {
+              "nameId": "TassadarArchon",
+              "buttonId": "TassadarArchon",
+              "name": "Архонт",
+              "icon": "storm_ui_icon_tassadar_archon.png",
+              "shortTooltip": "Тассадар превращается в архонта.",
+              "fullTooltip": "Тассадар превращается в архонта и получает плазменный щит. Автоатаки наносят 158 (+4% per level) ед. урона, замедляют цель на 30% на 1 сек. и дополнительно наносят 79 (+4% per level) ед. урона противникам в радиусе 2.5 м от цели. Время действия – 10 сек.  Пассивный эффект: использование «Архонта» восстанавливает «Пространственный сдвиг».",
+              "abilityType": "Heroic",
+              "isPassive": true
             }
           ]
         },
@@ -48675,7 +48723,10 @@
           "shortTooltip": "«Карающий клинок» получает дополнительный заряд.",
           "fullTooltip": "«Карающий клинок» получает еще один заряд. Первая автоатака Зератула после телепортации к противнику с помощью «Карающего клинка» или после перехода в «Постоянную маскировку» наносит на 50% больше урона.",
           "abilityType": "Passive",
-          "sort": 3
+          "sort": 3,
+          "abilityTalentLinkIds": [
+            "VorpalBladeBlink"
+          ]
         }
       ],
       "level10": [
