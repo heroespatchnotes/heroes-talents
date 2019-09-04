@@ -174,7 +174,7 @@
         "tooltipId": "DiabloShadowChargeOverpowerEternalFlames",
         "talentTreeId": "DiabloShadowChargeOverpowerEternalFlames",
         "name": "Eternal Flames",
-        "description": "When Diablo Stuns an enemy Hero with Shadow Charge or Overpower, reset the cooldown of Fire Stomp.",
+        "description": "When Diablo Stuns an enemy Hero with Shadow Charge or Overpower, reset the cooldown of Fire Stomp and Diablo gains 35 Mana.",
         "icon": "storm_ui_icon_diablo_firestomp.png",
         "type": "W",
         "sort": 1,
@@ -200,7 +200,7 @@
         "tooltipId": "DiabloDiabolicalMomentum",
         "talentTreeId": "DiabloDiabolicalMomentum",
         "name": "Diabolical Momentum",
-        "description": "When Diablo's Basic Attacks damage enemies, reduce the cooldown of his Basic Abilities by 1 second.",
+        "description": "When Diablo's Basic Attacks damage enemies, reduce the cooldown of his Basic Abilities by 1.25 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
         "type": "Passive",
         "sort": 3,
@@ -245,7 +245,7 @@
         "tooltipId": "DiabloDevastatingCharge",
         "talentTreeId": "DiabloDevastatingCharge",
         "name": "Devastating Charge",
-        "description": "Increase Shadow Charge's terrain collision damage by 80%.  Quest: Each time an enemy Hero takes terrain collision damage, increase this bonus by 20%, to a maximum of 120%.",
+        "description": "Increase Shadow Charge's terrain collision damage by 50%.  Quest: Hit an enemy Hero against terrain 5 times.  Reward: Hitting enemy Heroes against terrain reduces their Armor by 15 for 4 seconds.",
         "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
         "type": "Q",
         "sort": 1,
@@ -256,30 +256,30 @@
         ]
       },
       {
+        "tooltipId": "DiabloHellfire",
+        "talentTreeId": "DiabloHellfire",
+        "name": "Hellfire",
+        "description": "Each enemy Hero hit by Fire Stomp grants 2% Spell Power for 10 seconds, up to 30%.  While at maximum stacks, Diablo deals 15 (+4% per level) damage per second to nearby enemies.",
+        "icon": "storm_ui_icon_diablo_firestomp.png",
+        "type": "W",
+        "sort": 2,
+        "abilityId": "Diablo|W1",
+        "abilityLinks": [
+          "Diablo|W1"
+        ]
+      },
+      {
         "tooltipId": "DiabloShadowChargeOverpowerCruelty",
         "talentTreeId": "DiabloShadowChargeOverpowerCruelty",
         "name": "Cruelty",
         "description": "Stunning an enemy Hero with Shadow Charge or Overpower increases Diablo's Attack Speed by 50% for 7 seconds, up to 100%.",
         "icon": "storm_ui_icon_diablo_combo_1.png",
         "type": "Passive",
-        "sort": 2,
+        "sort": 3,
         "abilityId": "Diablo|Passive",
         "abilityLinks": [
           "Diablo|Q1",
           "Diablo|E1"
-        ]
-      },
-      {
-        "tooltipId": "DiabloHellfire",
-        "talentTreeId": "DiabloHellfire",
-        "name": "Hellfire",
-        "description": "Each enemy Hero hit by Fire Stomp grants 2% Spell Power for 10 seconds, up to 30%.",
-        "icon": "storm_ui_icon_diablo_firestomp.png",
-        "type": "W",
-        "sort": 3,
-        "abilityId": "Diablo|W1",
-        "abilityLinks": [
-          "Diablo|W1"
         ]
       }
     ],
