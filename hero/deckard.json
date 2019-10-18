@@ -1,5 +1,5 @@
 {
-  "id": "79",
+  "id": 79,
   "shortName": "deckard",
   "attributeId": "DECK",
   "cHeroId": "Deckard",
@@ -21,7 +21,7 @@
   "abilities": {
     "Deckard": [
       {
-        "uid": "23299d2",
+        "uid": "a63024",
         "name": "Healing Potion",
         "description": "Throw a Healing Potion on the ground that heals the first allied Hero that comes in contact with it for 270 (+4% per level).  Limit 5 active Potions.",
         "hotkey": "Q",
@@ -32,7 +32,7 @@
         "type": "basic"
       },
       {
-        "uid": "1500465",
+        "uid": "012875",
         "name": "Horadric Cube",
         "description": "Release the Horadric Cube. After 0.5 seconds it explodes, dealing 80 (+4% per level) damage to all enemies in the area and Slowing them by 35% for 1.75 seconds.",
         "hotkey": "W",
@@ -43,7 +43,7 @@
         "type": "basic"
       },
       {
-        "uid": "079c0f4",
+        "uid": "d06fdf",
         "name": "Scroll Of Sealing",
         "description": "Unfurl an enchanted scroll over 2.25 seconds, forming a triangle that deals 150 (+4% per level) damage to enemies inside and Roots them for 1.5 seconds.",
         "hotkey": "E",
@@ -54,7 +54,7 @@
         "type": "basic"
       },
       {
-        "uid": "ddc1c81",
+        "uid": "1fb023",
         "name": "Stay Awhile and Listen",
         "description": "After 1 second, Channel for 3 seconds, putting enemy Heroes in front of Deckard to Sleep while Channeling, and for 2 seconds after.  Enemies can only be put to Sleep once per cast, and Sleep's effects end instantly if they take damage.",
         "hotkey": "R",
@@ -65,7 +65,7 @@
         "type": "heroic"
       },
       {
-        "uid": "865504f",
+        "uid": "35271a",
         "name": "Lorenado",
         "description": "Vector Targeting After 1 second, create a twirling tome tornado that travels towards the targeted direction, continually knocking away enemies that come into contact with it.",
         "hotkey": "R",
@@ -76,7 +76,7 @@
         "type": "heroic"
       },
       {
-        "uid": "b87d628",
+        "uid": "f135ca",
         "name": "Fortitude of the Faithful",
         "description": "When at least 1 other allied Hero is nearby, Deckard gains 10 Armor and his Basic Abilities recharge 50% faster.",
         "trait": true,
@@ -119,12 +119,12 @@
         "tooltipId": "DeckardGemSapphire",
         "talentTreeId": "DeckardGemSapphire",
         "name": "Sapphire",
-        "description": "Activate to increase the Slow of the next Horadric Cube by 30%.  Only 1 Gem may be active at a time.",
+        "description": "Activate to increase the damage of the next Horadric Cube by 100% and its slow by 30%.  Only 1 Gem may be active at a time.",
         "icon": "storm_ui_icon_deckard_sapphire.png",
         "type": "Active",
         "sort": 3,
         "cooldown": 30,
-        "abilityId": "Deckard|W1",
+        "abilityId": "Deckard|Active",
         "abilityLinks": [
           "Deckard|W1"
         ]
@@ -161,12 +161,12 @@
         "tooltipId": "DeckardGemRuby",
         "talentTreeId": "DeckardGemRuby",
         "name": "Ruby",
-        "description": "Activate to make the next Horadric Cube spawn 3 Lesser Healing Potions from each enemy Hero hit, healing allied Heroes for 250 (+4% per level) when picked up. Lesser Healing Potions last for 10 seconds.  Only 1 Gem may be active at a time.",
+        "description": "Activate to increase the damage of the next Horadric Cube by 100%  and it spawns 3 Lesser Healing Potions from each enemy Hero hit, healing allied Heroes for 250 (+4% per level) when picked up. Lesser Healing Potions last for 10 seconds.  Only 1 Gem may be active at a time.",
         "icon": "storm_ui_icon_deckard_ruby.png",
         "type": "Active",
         "sort": 3,
-        "cooldown": 30,
-        "abilityId": "Deckard|W1",
+        "cooldown": 20,
+        "abilityId": "Deckard|Active",
         "abilityLinks": [
           "Deckard|W1"
         ]
@@ -203,12 +203,12 @@
         "tooltipId": "DeckardGemEmerald",
         "talentTreeId": "DeckardGemEmerald",
         "name": "Emerald",
-        "description": "Activate to make the next Horadric Cube reduce the healing received of enemy Heroes by 75% for 4 seconds.  Only 1 Gem may be active at a time.",
+        "description": "Activate to increase the damage of the next Horadric Cube by 100% and have it reduce the healing received of enemy Heroes by 75% for 4 seconds.  Only 1 Gem may be active at a time.",
         "icon": "storm_ui_icon_deckard_emerald.png",
         "type": "Active",
         "sort": 3,
         "cooldown": 30,
-        "abilityId": "Deckard|W1",
+        "abilityId": "Deckard|Active",
         "abilityLinks": [
           "Deckard|W1"
         ]
@@ -308,8 +308,9 @@
         "icon": "storm_ui_icon_deckard_study_time.png",
         "type": "Trait",
         "sort": 2,
-        "abilityId": "Deckard|D1",
+        "abilityId": "Deckard|D2",
         "abilityLinks": [
+          "Deckard|D2",
           "Deckard|D1"
         ]
       },
@@ -368,7 +369,7 @@
         "tooltipId": "DeckardPerfectGems",
         "talentTreeId": "DeckardPerfectGems",
         "name": "Perfect Gems",
-        "description": "Reduce the cooldown of all Gems by 25 seconds and the cooldown of Horadric Cube by 6 seconds.",
+        "description": "Reduce the cooldown of all Gems to 5 seconds and the cooldown of Horadric Cube by 6 seconds.",
         "icon": "storm_ui_icon_deckard_perfect_gems.png",
         "type": "W",
         "sort": 4,

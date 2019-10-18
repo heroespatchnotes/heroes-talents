@@ -1,5 +1,5 @@
 {
-  "id": "84",
+  "id": 84,
   "shortName": "orphea",
   "attributeId": "ORPH",
   "cHeroId": "Orphea",
@@ -23,7 +23,7 @@
   "abilities": {
     "Orphea": [
       {
-        "uid": "67b9e5d",
+        "uid": "88e5d4",
         "name": "Shadow Waltz",
         "description": "After 0.5 seconds, deal 165 (+4% per level) damage to enemies in a line.  Hitting a Hero with Shadow Waltz sets its cooldown to 2 seconds, refunds 40 Mana, and causes Orphea to dash a short distance upon moving.",
         "hotkey": "Q",
@@ -34,7 +34,7 @@
         "type": "basic"
       },
       {
-        "uid": "b534c77",
+        "uid": "e09b54",
         "name": "Chomp",
         "description": "After 0.625 seconds, deal 285 (+4% per level) damage to nearby enemies in front of Orphea.",
         "hotkey": "W",
@@ -45,7 +45,7 @@
         "type": "basic"
       },
       {
-        "uid": "c2e0ba6",
+        "uid": "63f43d",
         "name": "Dread",
         "description": "Release a wave of dread that deals 85 (+4% per level) damage to enemies hit. Dread erupts 0.75 seconds after reaching the end of its path, dealing 175 (+4% per level) damage and Slowing enemies in the area by 25% for 2 seconds.",
         "hotkey": "E",
@@ -56,18 +56,7 @@
         "type": "basic"
       },
       {
-        "uid": "a2a6a43",
-        "name": "Eternal Feast",
-        "description": "After 1.5 seconds, deal 210 (+4% per level) damage in an area. Eternal Feast repeats every 1 second as long as it hits an enemy Hero.",
-        "hotkey": "R",
-        "abilityId": "Orphea|R2",
-        "cooldown": 50,
-        "manaCost": 75,
-        "icon": "storm_ui_icon_orphea_ult_darkfall.png",
-        "type": "heroic"
-      },
-      {
-        "uid": "13f8182",
+        "uid": "db0324",
         "name": "Crushing Jaws",
         "description": "After 1.25 seconds, pull enemies in an area towards the center, dealing 250 (+4% per level) damage and Stunning them for 0.5 seconds.",
         "hotkey": "R",
@@ -78,7 +67,18 @@
         "type": "heroic"
       },
       {
-        "uid": "0acb8cb",
+        "uid": "6001f6",
+        "name": "Eternal Feast",
+        "description": "After 1.5 seconds, deal 210 (+4% per level) damage in an area. Eternal Feast repeats every 1 second as long as it hits an enemy Hero.",
+        "hotkey": "R",
+        "abilityId": "Orphea|R2",
+        "cooldown": 50,
+        "manaCost": 75,
+        "icon": "storm_ui_icon_orphea_ult_darkfall.png",
+        "type": "heroic"
+      },
+      {
+        "uid": "37e632",
         "name": "Overflowing Chaos",
         "description": "Hitting an enemy Hero with a Basic Ability grants 1 Chaos. Chaos can stack up to 3 times.  While Orphea has Chaos, her Basic Attacks against Heroes consume all Chaos, dealing 50% increased damage per stack, and healing for 100% of the damage dealt.",
         "trait": true,
@@ -124,8 +124,9 @@
         "icon": "storm_ui_icon_orphea_trait.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Orphea|D1",
+        "abilityId": "Orphea|D2",
         "abilityLinks": [
+          "Orphea|D2",
           "Orphea|D1"
         ]
       }
@@ -280,7 +281,10 @@
         "type": "Trait",
         "sort": 3,
         "cooldown": 10,
-        "abilityId": "Orphea|Trait"
+        "abilityId": "Orphea|D2",
+        "abilityLinks": [
+          "Orphea|D2"
+        ]
       }
     ],
     "16": [
@@ -305,8 +309,9 @@
         "icon": "storm_ui_icon_orphea_trait.png",
         "type": "Trait",
         "sort": 2,
-        "abilityId": "Orphea|D1",
+        "abilityId": "Orphea|D2",
         "abilityLinks": [
+          "Orphea|D2",
           "Orphea|D1"
         ]
       },
@@ -319,7 +324,7 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 10,
-        "abilityId": "Orphea|E1",
+        "abilityId": "Orphea|Active",
         "abilityLinks": [
           "Orphea|E1"
         ]
@@ -360,8 +365,9 @@
         "icon": "storm_ui_icon_orphea_trait.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Orphea|D1",
+        "abilityId": "Orphea|D2",
         "abilityLinks": [
+          "Orphea|D2",
           "Orphea|D1"
         ]
       },
@@ -374,7 +380,7 @@
         "type": "Active",
         "sort": 4,
         "cooldown": 30,
-        "abilityId": "Orphea|Q1",
+        "abilityId": "Orphea|Active",
         "abilityLinks": [
           "Orphea|Q1"
         ]

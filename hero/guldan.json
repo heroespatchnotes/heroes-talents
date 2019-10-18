@@ -1,5 +1,5 @@
 {
-  "id": "54",
+  "id": 54,
   "shortName": "guldan",
   "attributeId": "Guld",
   "cHeroId": "Guldan",
@@ -18,68 +18,67 @@
     "WaveClearer"
   ],
   "abilities": {
-    "Gul'dan": [
+    "Guldan": [
       {
-        "uid": "c450c34",
+        "uid": "4484ac",
         "name": "Fel Flame",
         "description": "Release a wave of flame, dealing 200 (+4.5% per level) damage to enemies.",
         "hotkey": "Q",
-        "abilityId": "Gul'dan|Q1",
-        "cooldown": 1.5,
+        "abilityId": "Guldan|Q1",
+        "cooldown": 15,
         "manaCost": 75,
         "icon": "storm_ui_icon_guldan_felflame.png",
         "type": "basic"
       },
       {
-        "uid": "8737073",
+        "uid": "3d947d",
         "name": "Drain Life",
         "description": "Drain the life from an enemy over 3 seconds, dealing 132 (+4% per level) damage per second and healing Gul'dan for 188 (+4% per level) Health per second.",
         "hotkey": "W",
-        "abilityId": "Gul'dan|W1",
+        "abilityId": "Guldan|W1",
         "cooldown": 10,
         "icon": "storm_ui_icon_guldan_healthfunnel.png",
         "type": "basic"
       },
       {
-        "uid": "6bdcadc",
+        "uid": "cb334a",
         "name": "Corruption",
         "description": "Call forth three bursts of shadow energy, dealing 204 (+4.5% per level) damage over 6 seconds. Corruption can stack up to 3 times on an enemy.",
         "hotkey": "E",
-        "abilityId": "Gul'dan|E1",
+        "abilityId": "Guldan|E1",
         "cooldown": 14,
         "manaCost": 80,
         "icon": "storm_ui_icon_guldan_handofguldan.png",
         "type": "basic"
       },
       {
-        "uid": "1654a2c",
+        "uid": "7493b6",
         "name": "Horrify",
         "description": "After 0.5 seconds, deal 120 (+4% per level) damage to enemy Heroes in an area and Fear them for 2 seconds. While Feared, Heroes are Silenced and are forced to run away from Horrify's center.",
         "hotkey": "R",
-        "abilityId": "Gul'dan|R1",
+        "abilityId": "Guldan|R1",
         "cooldown": 80,
         "manaCost": 90,
         "icon": "storm_ui_icon_guldan_horrify.png",
         "type": "heroic"
       },
       {
-        "uid": "ee5e369",
+        "uid": "cbd573",
         "name": "Rain of Destruction",
         "description": "After 1.5 seconds, summon a rain of meteors in an area for 7 seconds. Each meteor deals 165 (+4% per level) damage in a small area.",
         "hotkey": "R",
-        "abilityId": "Gul'dan|R2",
+        "abilityId": "Guldan|R2",
         "cooldown": 70,
         "manaCost": 80,
         "icon": "storm_ui_icon_guldan_rainoffire.png",
         "type": "heroic"
       },
       {
-        "uid": "947bc86",
+        "uid": "945e06",
         "name": "Life Tap",
         "description": "Gul'dan does not regenerate Mana.  Activate to restore 25% of Gul'dan's Mana.",
-        "hotkey": "D",
         "trait": true,
-        "abilityId": "Gul'dan|D1",
+        "abilityId": "Guldan|D1",
         "icon": "storm_ui_icon_guldan_lifetap.png",
         "type": "trait"
       }
@@ -96,9 +95,9 @@
         "type": "Q",
         "sort": 1,
         "isQuest": true,
-        "abilityId": "Gul'dan|Q1",
+        "abilityId": "Guldan|Q1",
         "abilityLinks": [
-          "Gul'dan|Q1"
+          "Guldan|Q1"
         ]
       },
       {
@@ -110,9 +109,9 @@
         "type": "W",
         "sort": 2,
         "isQuest": true,
-        "abilityId": "Gul'dan|W1",
+        "abilityId": "Guldan|W1",
         "abilityLinks": [
-          "Gul'dan|W1"
+          "Guldan|W1"
         ]
       },
       {
@@ -124,9 +123,9 @@
         "type": "E",
         "sort": 3,
         "isQuest": true,
-        "abilityId": "Gul'dan|E1",
+        "abilityId": "Guldan|E1",
         "abilityLinks": [
-          "Gul'dan|E1"
+          "Guldan|E1"
         ]
       }
     ],
@@ -139,9 +138,9 @@
         "icon": "storm_ui_icon_guldan_healthfunnel.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "Gul'dan|W1",
+        "abilityId": "Guldan|W1",
         "abilityLinks": [
-          "Gul'dan|W1"
+          "Guldan|W1"
         ]
       },
       {
@@ -152,9 +151,10 @@
         "icon": "storm_ui_icon_guldan_lifetap.png",
         "type": "Trait",
         "sort": 2,
-        "abilityId": "Gul'dan|D1",
+        "abilityId": "Guldan|D2",
         "abilityLinks": [
-          "Gul'dan|D1"
+          "Guldan|D2",
+          "Guldan|D1"
         ]
       },
       {
@@ -166,7 +166,7 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 30,
-        "abilityId": "Gul'dan|Active"
+        "abilityId": "Guldan|Active"
       }
     ],
     "7": [
@@ -178,9 +178,9 @@
         "icon": "storm_ui_icon_guldan_felflame.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Gul'dan|Q1",
+        "abilityId": "Guldan|Q1",
         "abilityLinks": [
-          "Gul'dan|Q1"
+          "Guldan|Q1"
         ]
       },
       {
@@ -191,9 +191,9 @@
         "icon": "storm_ui_icon_guldan_healthfunnel.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "Gul'dan|W1",
+        "abilityId": "Guldan|W1",
         "abilityLinks": [
-          "Gul'dan|W1"
+          "Guldan|W1"
         ]
       },
       {
@@ -204,9 +204,10 @@
         "icon": "storm_ui_icon_guldan_hungerforpower.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Gul'dan|Passive",
+        "abilityId": "Guldan|Passive",
         "abilityLinks": [
-          "Gul'dan|D1"
+          "Guldan|D2",
+          "Guldan|D1"
         ]
       }
     ],
@@ -220,9 +221,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 80,
-        "abilityId": "Gul'dan|R1",
+        "abilityId": "Guldan|R1",
         "abilityLinks": [
-          "Gul'dan|R1"
+          "Guldan|R1"
         ]
       },
       {
@@ -234,9 +235,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 70,
-        "abilityId": "Gul'dan|R2",
+        "abilityId": "Guldan|R2",
         "abilityLinks": [
-          "Gul'dan|R2"
+          "Guldan|R2"
         ]
       }
     ],
@@ -249,9 +250,9 @@
         "icon": "storm_ui_icon_guldan_felflame.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Gul'dan|Q1",
+        "abilityId": "Guldan|Q1",
         "abilityLinks": [
-          "Gul'dan|Q1"
+          "Guldan|Q1"
         ]
       },
       {
@@ -262,9 +263,9 @@
         "icon": "storm_ui_icon_guldan_healthfunnel.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "Gul'dan|W1",
+        "abilityId": "Guldan|W1",
         "abilityLinks": [
-          "Gul'dan|W1"
+          "Guldan|W1"
         ]
       },
       {
@@ -275,9 +276,10 @@
         "icon": "storm_ui_icon_guldan_darkbargain.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Gul'dan|Passive",
+        "abilityId": "Guldan|Passive",
         "abilityLinks": [
-          "Gul'dan|D1"
+          "Guldan|D2",
+          "Guldan|D1"
         ]
       },
       {
@@ -289,7 +291,7 @@
         "type": "Active",
         "sort": 4,
         "cooldown": 60,
-        "abilityId": "Gul'dan|Active"
+        "abilityId": "Guldan|Active"
       }
     ],
     "16": [
@@ -301,9 +303,9 @@
         "icon": "storm_ui_icon_guldan_felflame.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Gul'dan|Q1",
+        "abilityId": "Guldan|Q1",
         "abilityLinks": [
-          "Gul'dan|Q1"
+          "Guldan|Q1"
         ]
       },
       {
@@ -314,9 +316,9 @@
         "icon": "storm_ui_icon_guldan_handofguldan.png",
         "type": "E",
         "sort": 2,
-        "abilityId": "Gul'dan|E1",
+        "abilityId": "Guldan|E1",
         "abilityLinks": [
-          "Gul'dan|E1"
+          "Guldan|E1"
         ]
       },
       {
@@ -327,9 +329,10 @@
         "icon": "storm_ui_icon_guldan_lifetap.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Gul'dan|D1",
+        "abilityId": "Guldan|D2",
         "abilityLinks": [
-          "Gul'dan|D1"
+          "Guldan|D2",
+          "Guldan|D1"
         ]
       }
     ],
@@ -342,9 +345,9 @@
         "icon": "storm_ui_icon_guldan_horrify.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Gul'dan|R1",
+        "abilityId": "Guldan|R1",
         "abilityLinks": [
-          "Gul'dan|R1"
+          "Guldan|R1"
         ]
       },
       {
@@ -355,9 +358,9 @@
         "icon": "storm_ui_icon_guldan_rainoffire.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Gul'dan|R2",
+        "abilityId": "Guldan|R2",
         "abilityLinks": [
-          "Gul'dan|R2"
+          "Guldan|R2"
         ]
       },
       {
@@ -369,7 +372,7 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 60,
-        "abilityId": "Gul'dan|Active"
+        "abilityId": "Guldan|Active"
       }
     ]
   }

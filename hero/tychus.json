@@ -1,5 +1,5 @@
 {
-  "id": "23",
+  "id": 23,
   "shortName": "tychus",
   "attributeId": "Tych",
   "cHeroId": "Tychus",
@@ -20,7 +20,7 @@
   "abilities": {
     "Tychus": [
       {
-        "uid": "90ddab5",
+        "uid": "96407f",
         "name": "Overkill",
         "description": "Deal 552 (+4% per level) damage to the target and 276 (+4% per level) damage to nearby targets over 4 seconds. Reactivate to select a new target.  Can move and use Abilities while Channeling.",
         "hotkey": "Q",
@@ -31,7 +31,7 @@
         "type": "basic"
       },
       {
-        "uid": "db2eb48",
+        "uid": "4c628c",
         "name": "Frag Grenade",
         "description": "Lob a grenade that deals 256 (+4% per level) damage, knocking enemies away.",
         "hotkey": "W",
@@ -42,7 +42,7 @@
         "type": "basic"
       },
       {
-        "uid": "5013769",
+        "uid": "2c51d2",
         "name": "Run and Gun",
         "description": "Dash a short distance.",
         "hotkey": "E",
@@ -53,7 +53,7 @@
         "type": "basic"
       },
       {
-        "uid": "5043afa",
+        "uid": "b9ac21",
         "name": "Drakken Laser Drill",
         "description": "Call down a Laser Drill to attack nearby enemies, dealing 142 (+4% per level) damage every second. Reactivate to assign a new target. Lasts 22 seconds.",
         "hotkey": "R",
@@ -64,7 +64,7 @@
         "type": "heroic"
       },
       {
-        "uid": "dfe33bf",
+        "uid": "5ceb13",
         "name": "Commandeer Odin",
         "description": "Call down an Odin to pilot. The Odin deals increased Damage, has 100% increased Basic Attack range, and uses different Abilities. The Odin has 25 Armor and lasts 23 seconds.",
         "hotkey": "R",
@@ -75,7 +75,7 @@
         "type": "heroic"
       },
       {
-        "uid": "a378d63",
+        "uid": "084071",
         "name": "Minigun",
         "description": "Activate to have Basic Attacks against Heroes deal bonus damage equal to 2.5% of their maximum Health. Lasts 3 seconds.",
         "trait": true,
@@ -87,34 +87,73 @@
     ],
     "TychusOdinNoHealth": [
       {
-        "uid": "dbf0732",
+        "uid": "66ee35",
+        "name": "Laser Drill Issue Order",
+        "description": "Order the Laser Drill to attack a new target.",
+        "hotkey": "R",
+        "abilityId": "Tychus|R3",
+        "icon": "storm_ui_icon_tychus_laserdrillissueorder.png",
+        "type": "heroic"
+      },
+      {
+        "uid": "0e7619",
         "name": "Annihilate",
         "description": "Fire the Odin's cannons in a straight line, dealing 196 (+4% per level) damage to everything in the path.",
         "hotkey": "Q",
         "abilityId": "Tychus|Q2",
         "cooldown": 7,
         "icon": "storm_ui_icon_tychus_annihilate.png",
-        "type": "subunit"
+        "type": "basic"
       },
       {
-        "uid": "31f2f21",
+        "uid": "bdd102",
         "name": "Ragnarok Missiles",
         "description": "Launches a volley of missiles at target area, dealing 132 (+4% per level) damage and slowing enemy Movement Speed by 30% for 2 seconds.",
         "hotkey": "W",
         "abilityId": "Tychus|W2",
         "cooldown": 7,
         "icon": "storm_ui_icon_tychus_ragnarokmissiles.png",
-        "type": "subunit"
+        "type": "basic"
       },
       {
-        "uid": "944d7b3",
+        "uid": "78f782",
         "name": "Thrusters",
         "description": "Dash in target direction.",
         "hotkey": "E",
         "abilityId": "Tychus|E2",
         "cooldown": 8,
         "icon": "storm_ui_icon_tychus_thrusters.png",
-        "type": "subunit"
+        "type": "basic"
+      },
+      {
+        "uid": "f57681",
+        "name": "Minigun",
+        "description": "Activate to have Basic Attacks against Heroes deal bonus damage equal to 2.5% of their maximum Health. Lasts 3 seconds.",
+        "trait": true,
+        "abilityId": "Tychus|D2",
+        "cooldown": 12,
+        "icon": "storm_ui_icon_tychus_minigun.png",
+        "type": "trait"
+      },
+      {
+        "uid": "3e561e",
+        "name": "Overkill Retarget",
+        "description": "Focuses Overkill on a different target.",
+        "hotkey": "Q",
+        "abilityId": "Tychus|Q3",
+        "icon": "storm_ui_icon_tychus_overkill_target.png",
+        "type": "basic"
+      },
+      {
+        "uid": "33434d",
+        "name": "Run and Gun",
+        "description": "Dash a short distance.",
+        "hotkey": "E",
+        "abilityId": "Tychus|E3",
+        "cooldown": 10,
+        "manaCost": 50,
+        "icon": "storm_ui_icon_tychus_runandgun.png",
+        "type": "basic"
       }
     ]
   },
@@ -128,10 +167,10 @@
         "icon": "storm_ui_icon_tychus_runandgun.png",
         "type": "E",
         "sort": 1,
-        "abilityId": "Tychus|E1",
+        "abilityId": "Tychus|E3",
         "abilityLinks": [
-          "Tychus|E1",
-          "Tychus|E3"
+          "Tychus|E3",
+          "Tychus|E1"
         ]
       },
       {
@@ -142,11 +181,10 @@
         "icon": "storm_ui_icon_tychus_runandgun_a.png",
         "type": "E",
         "sort": 2,
-        "isQuest": true,
-        "abilityId": "Tychus|E1",
+        "abilityId": "Tychus|E3",
         "abilityLinks": [
-          "Tychus|E1",
-          "Tychus|E3"
+          "Tychus|E3",
+          "Tychus|E1"
         ]
       },
       {
@@ -157,10 +195,10 @@
         "icon": "storm_ui_icon_tychus_runandgun_b.png",
         "type": "E",
         "sort": 3,
-        "abilityId": "Tychus|E1",
+        "abilityId": "Tychus|E3",
         "abilityLinks": [
-          "Tychus|E1",
-          "Tychus|E3"
+          "Tychus|E3",
+          "Tychus|E1"
         ]
       }
     ],
@@ -174,10 +212,10 @@
         "type": "Trait",
         "sort": 1,
         "isQuest": true,
-        "abilityId": "Tychus|D2",
+        "abilityId": "Tychus|D1",
         "abilityLinks": [
-          "Tychus|D2",
-          "Tychus|D1"
+          "Tychus|D1",
+          "Tychus|D2"
         ]
       },
       {
@@ -188,10 +226,10 @@
         "icon": "storm_ui_icon_tychus_minigun_a.png",
         "type": "Trait",
         "sort": 2,
-        "abilityId": "Tychus|D2",
+        "abilityId": "Tychus|D1",
         "abilityLinks": [
-          "Tychus|D2",
-          "Tychus|D1"
+          "Tychus|D1",
+          "Tychus|D2"
         ]
       },
       {
@@ -283,10 +321,10 @@
         "icon": "storm_ui_icon_tychus_minigun.png",
         "type": "Trait",
         "sort": 1,
-        "abilityId": "Tychus|D2",
+        "abilityId": "Tychus|D1",
         "abilityLinks": [
-          "Tychus|D2",
-          "Tychus|D1"
+          "Tychus|D1",
+          "Tychus|D2"
         ]
       },
       {
@@ -391,10 +429,10 @@
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Tychus|D2",
+        "abilityId": "Tychus|D1",
         "abilityLinks": [
-          "Tychus|D2",
-          "Tychus|D1"
+          "Tychus|D1",
+          "Tychus|D2"
         ]
       },
       {
@@ -405,11 +443,11 @@
         "icon": "storm_ui_icon_tychus_runandgun.png",
         "type": "E",
         "sort": 4,
-        "abilityId": "Tychus|E1",
+        "abilityId": "Tychus|E3",
         "abilityLinks": [
+          "Tychus|E3",
           "Tychus|E1",
-          "Tychus|E2",
-          "Tychus|E3"
+          "Tychus|E2"
         ]
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "id": "52",
+  "id": 52,
   "shortName": "chromie",
   "attributeId": "Chro",
   "cHeroId": "Chromie",
@@ -18,7 +18,7 @@
   "abilities": {
     "Chromie": [
       {
-        "uid": "185d1c3",
+        "uid": "2cf39e",
         "name": "Sand Blast",
         "description": "After 0.5 seconds, fire a missile that deals 305 (+4% per level) damage to the first enemy hit. Deals 50% damage to Structures.  Casting Sand Blast leaves an Echo behind that mimics Chromie's Sand Blast and Basic Attack, dealing 40% damage. Maximum of 1 Echo active at a time.",
         "hotkey": "Q",
@@ -29,8 +29,8 @@
         "type": "basic"
       },
       {
-        "uid": "17c6861",
-        "name": "Dragon's Breath",
+        "uid": "282aa0",
+        "name": "Dragon’s Breath",
         "description": "Vector Targeting Launch 3 blasts into the air that land every 0.75 seconds towards the targeted direction, dealing 204 (+4% per level) damage each.",
         "hotkey": "W",
         "abilityId": "Chromie|W1",
@@ -40,7 +40,7 @@
         "type": "basic"
       },
       {
-        "uid": "9d35e5f",
+        "uid": "90eb5b",
         "name": "Time Trap",
         "description": "Place a Time Trap that arms and Stealths after 2 seconds. Chromie's Trait can be activated to detonate the trap, placing all nearby allied or enemy Heroes in Time Stop for 2 seconds. Maximum of 1 trap active at a time.",
         "hotkey": "E",
@@ -51,7 +51,7 @@
         "type": "basic"
       },
       {
-        "uid": "aee5d5d",
+        "uid": "bd8ed1",
         "name": "Temporal Loop",
         "description": "Choose an enemy Hero. After 3 seconds, they are teleported back to the location where Temporal Loop was cast on them.  Basic Abilities recharge 500% faster for 3 seconds after casting Temporal Loop.",
         "hotkey": "R",
@@ -62,19 +62,18 @@
         "type": "heroic"
       },
       {
-        "uid": "918f88d",
+        "uid": "e6b892",
         "name": "Slowing Sands",
         "description": "Summon a sand vortex that Slows enemies by 5% every 0.25 seconds, up to 70%.",
         "hotkey": "R",
         "abilityId": "Chromie|R2",
         "cooldown": 5,
-        "manaCost": 3,
-        "manaPerSecond": true,
+        "manaCost": "second",
         "icon": "storm_ui_icon_chromie_timewarp.png",
         "type": "heroic"
       },
       {
-        "uid": "6519614",
+        "uid": "185342",
         "name": "Timewalker",
         "description": "Chromie has traveled to the future, and as such, will learn her Talents 2 levels earlier than her teammates!  Detonate Time Trap  Detonates active Time Traps.",
         "trait": true,
@@ -124,7 +123,7 @@
         "sort": 3,
         "cooldown": 25,
         "isQuest": true,
-        "abilityId": "Chromie|D1",
+        "abilityId": "Chromie|Active",
         "abilityLinks": [
           "Chromie|D1"
         ]
@@ -141,7 +140,8 @@
         "sort": 1,
         "abilityId": "Chromie|E1",
         "abilityLinks": [
-          "Chromie|E1"
+          "Chromie|E1",
+          "Chromie|D2"
         ]
       },
       {
@@ -167,7 +167,8 @@
         "sort": 3,
         "abilityId": "Chromie|E1",
         "abilityLinks": [
-          "Chromie|E1"
+          "Chromie|E1",
+          "Chromie|D2"
         ]
       }
     ],
@@ -367,7 +368,7 @@
         "type": "Active",
         "sort": 4,
         "cooldown": 90,
-        "abilityId": "Chromie|D1",
+        "abilityId": "Chromie|Active",
         "abilityLinks": [
           "Chromie|D1"
         ]

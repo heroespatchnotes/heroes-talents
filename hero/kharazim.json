@@ -1,5 +1,5 @@
 {
-  "id": "40",
+  "id": 40,
   "shortName": "kharazim",
   "attributeId": "Monk",
   "cHeroId": "Monk",
@@ -23,7 +23,7 @@
   "abilities": {
     "Kharazim": [
       {
-        "uid": "fdd06c9",
+        "uid": "6d4c81",
         "name": "Radiant Dash",
         "description": "Jump to an allied or enemy unit. Enemies are immediately hit with a Basic Attack.  Stores up to 2 charges.",
         "hotkey": "Q",
@@ -34,7 +34,7 @@
         "type": "basic"
       },
       {
-        "uid": "07eb472",
+        "uid": "8c1b7e",
         "name": "Breath of Heaven",
         "description": "Heal nearby Heroes for 276 (+4% per level) and give them 15% Movement Speed for 3 seconds.",
         "hotkey": "W",
@@ -45,7 +45,7 @@
         "type": "basic"
       },
       {
-        "uid": "4a00da2",
+        "uid": "fd0ae1",
         "name": "Deadly Reach",
         "description": "Kharazim's next Basic Attack increases his Attack Speed and Attack Range by 100% for 2 seconds.",
         "hotkey": "E",
@@ -56,7 +56,7 @@
         "type": "basic"
       },
       {
-        "uid": "40efe4f",
+        "uid": "7e3a11",
         "name": "Seven-Sided Strike",
         "description": "Become Invulnerable and strike 7 times over 2 seconds. Each strike hits the highest Health nearby Hero for 7% of their maximum Health.",
         "hotkey": "R",
@@ -67,7 +67,7 @@
         "type": "heroic"
       },
       {
-        "uid": "d2b3a8f",
+        "uid": "e790cd",
         "name": "Divine Palm",
         "description": "Protect an allied Hero from death, causing them to be healed for 1200 (+4% per level) if they take fatal damage in the next 3 seconds.",
         "hotkey": "R",
@@ -78,7 +78,7 @@
         "type": "heroic"
       },
       {
-        "uid": "9ac34a4",
+        "uid": "49a3fa",
         "name": "Pick Your Trait",
         "description": "Choose between Transcendence, Iron Fists, and Insight from the Talents panel.",
         "trait": true,
@@ -97,8 +97,7 @@
         "description": "Every 3rd Basic Attack heals the lowest nearby allied Hero for 104 (+4% per level) and gives 25% increased Move Speed for 2 seconds.",
         "icon": "storm_ui_icon_monk_trait_transcendence.png",
         "type": "Trait",
-        "sort": 1,
-        "abilityId": "Kharazim|Trait"
+        "sort": 1
       },
       {
         "tooltipId": "MonkIronFistsTalent",
@@ -107,8 +106,7 @@
         "description": "Every 3rd Basic Attack deals 110% bonus damage and gives 25% increased Move Speed for 2 seconds.",
         "icon": "storm_ui_icon_monk_trait_ironfist.png",
         "type": "Trait",
-        "sort": 2,
-        "abilityId": "Kharazim|Trait"
+        "sort": 2
       },
       {
         "tooltipId": "MonkInsightTalent",
@@ -118,8 +116,7 @@
         "icon": "storm_ui_icon_monk_trait_insight.png",
         "type": "Trait",
         "sort": 3,
-        "isQuest": true,
-        "abilityId": "Kharazim|Trait"
+        "isQuest": true
       }
     ],
     "4": [
@@ -192,8 +189,9 @@
         "icon": "storm_ui_icon_monk_deadlyreach.png",
         "type": "E",
         "sort": 3,
-        "abilityId": "Kharazim|E1",
+        "abilityId": "Kharazim|E2",
         "abilityLinks": [
+          "Kharazim|E2",
           "Kharazim|E1"
         ]
       }

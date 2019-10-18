@@ -1,5 +1,5 @@
 {
-  "id": "64",
+  "id": 64,
   "shortName": "probius",
   "attributeId": "Prob",
   "cHeroId": "Probius",
@@ -20,7 +20,7 @@
   "abilities": {
     "Probius": [
       {
-        "uid": "0d2670d",
+        "uid": "9a1d2a",
         "name": "Disruption Pulse",
         "description": "Fire a burst of energy forward, dealing 142 (+5% per level) damage to all enemies it passes through.  Hitting the center of a Warp Rift will cause it to explode, dealing additional damage.",
         "hotkey": "Q",
@@ -31,7 +31,7 @@
         "type": "basic"
       },
       {
-        "uid": "543ed1c",
+        "uid": "a02798",
         "name": "Warp Rift",
         "description": "Open an unstable Warp Rift at a location that takes 1.25 seconds to arm, which then slows nearby enemies by 25% lasting 9 seconds.  Armed Warp Rifts explode when hit by Disruption Pulse, dealing 261 (+5% per level) damage to nearby enemies.  Stores up to 2 charges.",
         "hotkey": "W",
@@ -42,7 +42,7 @@
         "type": "basic"
       },
       {
-        "uid": "3119fc6",
+        "uid": "f93316",
         "name": "Photon Cannon",
         "description": "Warp in a Photon Cannon that deals 105 (+4% per level) damage per second. Lasts for 13 seconds.  Must be placed within a Pylon's Power Field.  Deactivates if it doesn't have a Pylon powering it.",
         "hotkey": "E",
@@ -52,7 +52,7 @@
         "type": "basic"
       },
       {
-        "uid": "c8b8812",
+        "uid": "cc6c2f",
         "name": "Pylon Overcharge",
         "description": "Increase the size of Pylon power fields and allow them to attack enemies within it for 96 (+4% per level) damage per second. Lasts 10 seconds.",
         "hotkey": "R",
@@ -63,7 +63,7 @@
         "type": "heroic"
       },
       {
-        "uid": "b43b831",
+        "uid": "53b44e",
         "name": "Null Gate",
         "description": "Vector Targeting Project a barrier of negative energy in the target direction that lasts 4 seconds. Enemies who touch the barrier take 68 (+4% per level) damage per second and are Slowed by 80% for as long as they remain in contact with it.",
         "hotkey": "R",
@@ -74,10 +74,9 @@
         "type": "heroic"
       },
       {
-        "uid": "ac0b052",
+        "uid": "57d91f",
         "name": "Warp In Pylon",
         "description": "Warp in a Pylon that generates a Power Field and grants vision of the surrounding area. Probius only regenerates mana while inside a Power Field.  Up to 2 Pylons can be active at a time.",
-        "hotkey": "D",
         "trait": true,
         "abilityId": "Probius|D1",
         "cooldown": 12,
@@ -85,7 +84,7 @@
         "type": "trait"
       },
       {
-        "uid": "e6b08e2",
+        "uid": "3e8f42",
         "name": "Worker Rush",
         "description": "Activate to gain an additional 60% Movement Speed for 5 seconds. Taking damage ends this effect early.  Worker Rush is always active while at the Hall of Storms.  Passive: Probius moves 10% faster by hovering over the ground.",
         "hotkey": "Z",

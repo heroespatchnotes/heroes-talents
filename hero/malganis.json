@@ -1,5 +1,5 @@
 {
-  "id": "83",
+  "id": 83,
   "shortName": "malganis",
   "attributeId": "MalG",
   "cHeroId": "MalGanis",
@@ -19,68 +19,68 @@
     "SelfHealer"
   ],
   "abilities": {
-    "Mal'Ganis": [
+    "MalGanis": [
       {
-        "uid": "7599439",
+        "uid": "22d1ec",
         "name": "Fel Claws",
         "description": "Violently slash in the chosen direction, dealing 69 (+4% per level) damage to enemies.  Reactivate to slash up to 2 more times. The third slash Stuns enemies for 0.75 seconds.",
         "hotkey": "Q",
-        "abilityId": "Mal'Ganis|Q1",
+        "abilityId": "MalGanis|Q1",
         "cooldown": 8,
         "manaCost": 45,
         "icon": "storm_ui_icon_malganis_fel_1.png",
         "type": "basic"
       },
       {
-        "uid": "de3ae62",
+        "uid": "ed88e2",
         "name": "Necrotic Embrace",
         "description": "Desecrate the air, dealing 110 (+4% per level) damage to nearby enemies and gaining 25 Armor for 3 seconds.",
         "hotkey": "W",
-        "abilityId": "Mal'Ganis|W1",
+        "abilityId": "MalGanis|W1",
         "cooldown": 8,
         "manaCost": 35,
         "icon": "storm_ui_icon_malganis_necrotic.png",
         "type": "basic"
       },
       {
-        "uid": "6203e91",
+        "uid": "140052",
         "name": "Night Rush",
         "description": "After 0.75 seconds, gain 50% Movement Speed for 2 seconds. While active, Mal'Ganis can move through enemy Heroes and put them to Sleep for 2.5 seconds.",
         "hotkey": "E",
-        "abilityId": "Mal'Ganis|E1",
+        "abilityId": "MalGanis|E1",
         "cooldown": 16,
         "manaCost": 70,
         "icon": "storm_ui_icon_malganis_nightrush.png",
         "type": "basic"
       },
       {
-        "uid": "69d57a2",
-        "name": "Carrion Swarm",
-        "description": "After 1 second, disperse into an Invulnerable swarm of bats for 3 seconds, dealing 126 (+4% per level) damage per second to enemies.  Vampiric Touch heals for 75% of Carrion Swarm's damage to Heroes.",
-        "hotkey": "R",
-        "abilityId": "Mal'Ganis|R2",
-        "cooldown": 80,
-        "manaCost": 70,
-        "icon": "storm_ui_icon_malganis_ult_swarm.png",
-        "type": "heroic"
-      },
-      {
-        "uid": "a2cbffd",
+        "uid": "d0fed8",
         "name": "Dark Conversion",
         "description": "Channel on an enemy Hero for 0.75 seconds, then swap Health percentages with the target over 3 seconds.",
         "hotkey": "R",
-        "abilityId": "Mal'Ganis|R1",
+        "abilityId": "MalGanis|R1",
         "cooldown": 80,
         "manaCost": 70,
         "icon": "storm_ui_icon_malganis_ult_conversion.png",
         "type": "heroic"
       },
       {
-        "uid": "3504360",
+        "uid": "5c68a5",
+        "name": "Carrion Swarm",
+        "description": "After 1 second, disperse into an Invulnerable swarm of bats for 3 seconds, dealing 126 (+4% per level) damage per second to enemies.  Vampiric Touch heals for 75% of Carrion Swarm's damage to Heroes.",
+        "hotkey": "R",
+        "abilityId": "MalGanis|R2",
+        "cooldown": 80,
+        "manaCost": 70,
+        "icon": "storm_ui_icon_malganis_ult_swarm.png",
+        "type": "heroic"
+      },
+      {
+        "uid": "e08563",
         "name": "Vampiric Touch",
         "description": "Mal'Ganis heals for 45% of damage dealt to enemy Heroes and 10% of damage dealt to non-Heroes.",
         "trait": true,
-        "abilityId": "Mal'Ganis|D1",
+        "abilityId": "MalGanis|D1",
         "icon": "storm_ui_icon_malganis_trait.png",
         "type": "trait"
       }
@@ -96,9 +96,9 @@
         "icon": "storm_ui_icon_malganis_necrotic.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "Mal'Ganis|W1",
+        "abilityId": "MalGanis|W1",
         "abilityLinks": [
-          "Mal'Ganis|W1"
+          "MalGanis|W1"
         ]
       },
       {
@@ -109,9 +109,9 @@
         "icon": "storm_ui_icon_malganis_trait.png",
         "type": "Trait",
         "sort": 2,
-        "abilityId": "Mal'Ganis|D1",
+        "abilityId": "MalGanis|D1",
         "abilityLinks": [
-          "Mal'Ganis|D1"
+          "MalGanis|D1"
         ]
       },
       {
@@ -122,9 +122,9 @@
         "icon": "storm_ui_icon_malganis_trait_b.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Mal'Ganis|Passive",
+        "abilityId": "MalGanis|Passive",
         "abilityLinks": [
-          "Mal'Ganis|D1"
+          "MalGanis|D1"
         ]
       }
     ],
@@ -137,9 +137,9 @@
         "icon": "storm_ui_icon_malganis_necrotic.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "Mal'Ganis|W1",
+        "abilityId": "MalGanis|W1",
         "abilityLinks": [
-          "Mal'Ganis|W1"
+          "MalGanis|W1"
         ]
       },
       {
@@ -150,9 +150,9 @@
         "icon": "storm_ui_icon_malganis_necrotic_b.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "Mal'Ganis|W1",
+        "abilityId": "MalGanis|W1",
         "abilityLinks": [
-          "Mal'Ganis|W1"
+          "MalGanis|W1"
         ]
       },
       {
@@ -163,9 +163,9 @@
         "icon": "storm_ui_icon_malganis_necrotic_c.png",
         "type": "W",
         "sort": 3,
-        "abilityId": "Mal'Ganis|W1",
+        "abilityId": "MalGanis|W1",
         "abilityLinks": [
-          "Mal'Ganis|W1"
+          "MalGanis|W1"
         ]
       }
     ],
@@ -178,9 +178,11 @@
         "icon": "storm_ui_icon_malganis_fel_1.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Mal'Ganis|Q1",
+        "abilityId": "MalGanis|Q2",
         "abilityLinks": [
-          "Mal'Ganis|Q1"
+          "MalGanis|Q2",
+          "MalGanis|Q3",
+          "MalGanis|Q1"
         ]
       },
       {
@@ -191,9 +193,11 @@
         "icon": "storm_ui_icon_malganis_fel_1_b.png",
         "type": "Q",
         "sort": 2,
-        "abilityId": "Mal'Ganis|Q1",
+        "abilityId": "MalGanis|Q2",
         "abilityLinks": [
-          "Mal'Ganis|Q1"
+          "MalGanis|Q2",
+          "MalGanis|Q3",
+          "MalGanis|Q1"
         ]
       },
       {
@@ -204,9 +208,9 @@
         "icon": "storm_ui_icon_malganis_nightrush.png",
         "type": "E",
         "sort": 3,
-        "abilityId": "Mal'Ganis|E1",
+        "abilityId": "MalGanis|E1",
         "abilityLinks": [
-          "Mal'Ganis|E1"
+          "MalGanis|E1"
         ]
       },
       {
@@ -217,10 +221,10 @@
         "icon": "storm_ui_icon_malganis_nightrush_b.png",
         "type": "E",
         "sort": 4,
-        "abilityId": "Mal'Ganis|E1",
+        "abilityId": "MalGanis|E1",
         "abilityLinks": [
-          "Mal'Ganis|E1",
-          "Mal'Ganis|D1"
+          "MalGanis|E1",
+          "MalGanis|D1"
         ]
       }
     ],
@@ -234,9 +238,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 80,
-        "abilityId": "Mal'Ganis|R2",
+        "abilityId": "MalGanis|R2",
         "abilityLinks": [
-          "Mal'Ganis|R2"
+          "MalGanis|R2"
         ]
       },
       {
@@ -248,9 +252,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 80,
-        "abilityId": "Mal'Ganis|R1",
+        "abilityId": "MalGanis|R1",
         "abilityLinks": [
-          "Mal'Ganis|R1"
+          "MalGanis|R1"
         ]
       }
     ],
@@ -263,9 +267,9 @@
         "icon": "storm_ui_icon_malganis_nightrush.png",
         "type": "E",
         "sort": 1,
-        "abilityId": "Mal'Ganis|E1",
+        "abilityId": "MalGanis|E1",
         "abilityLinks": [
-          "Mal'Ganis|E1"
+          "MalGanis|E1"
         ]
       },
       {
@@ -276,9 +280,9 @@
         "icon": "storm_ui_icon_malganis_nightrush_b.png",
         "type": "E",
         "sort": 2,
-        "abilityId": "Mal'Ganis|E1",
+        "abilityId": "MalGanis|E1",
         "abilityLinks": [
-          "Mal'Ganis|E1"
+          "MalGanis|E1"
         ]
       },
       {
@@ -289,9 +293,9 @@
         "icon": "storm_ui_icon_malganis_trait.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Mal'Ganis|D1",
+        "abilityId": "MalGanis|D1",
         "abilityLinks": [
-          "Mal'Ganis|D1"
+          "MalGanis|D1"
         ]
       }
     ],
@@ -304,9 +308,9 @@
         "icon": "storm_ui_icon_malganis_necrotic.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "Mal'Ganis|W1",
+        "abilityId": "MalGanis|W1",
         "abilityLinks": [
-          "Mal'Ganis|W1"
+          "MalGanis|W1"
         ]
       },
       {
@@ -317,9 +321,9 @@
         "icon": "storm_ui_icon_malganis_trait.png",
         "type": "Passive",
         "sort": 2,
-        "abilityId": "Mal'Ganis|Passive",
+        "abilityId": "MalGanis|Passive",
         "abilityLinks": [
-          "Mal'Ganis|D1"
+          "MalGanis|D1"
         ]
       },
       {
@@ -331,7 +335,7 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 80,
-        "abilityId": "Mal'Ganis|Active"
+        "abilityId": "MalGanis|Active"
       }
     ],
     "20": [
@@ -343,9 +347,9 @@
         "icon": "storm_ui_icon_malganis_ult_swarm.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Mal'Ganis|R2",
+        "abilityId": "MalGanis|R2",
         "abilityLinks": [
-          "Mal'Ganis|R2"
+          "MalGanis|R2"
         ]
       },
       {
@@ -356,9 +360,9 @@
         "icon": "storm_ui_icon_malganis_ult_conversion.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Mal'Ganis|R1",
+        "abilityId": "MalGanis|R1",
         "abilityLinks": [
-          "Mal'Ganis|R1"
+          "MalGanis|R1"
         ]
       },
       {
@@ -369,9 +373,11 @@
         "icon": "storm_ui_icon_malganis_fel_1.png",
         "type": "Q",
         "sort": 3,
-        "abilityId": "Mal'Ganis|Q1",
+        "abilityId": "MalGanis|Q2",
         "abilityLinks": [
-          "Mal'Ganis|Q1"
+          "MalGanis|Q2",
+          "MalGanis|Q3",
+          "MalGanis|Q1"
         ]
       },
       {
@@ -382,9 +388,9 @@
         "icon": "storm_ui_icon_malganis_nightrush.png",
         "type": "E",
         "sort": 4,
-        "abilityId": "Mal'Ganis|E1",
+        "abilityId": "MalGanis|E1",
         "abilityLinks": [
-          "Mal'Ganis|E1"
+          "MalGanis|E1"
         ]
       }
     ]

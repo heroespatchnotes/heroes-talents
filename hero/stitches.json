@@ -1,5 +1,5 @@
 {
-  "id": "16",
+  "id": 16,
   "shortName": "stitches",
   "attributeId": "Stit",
   "cHeroId": "Stitches",
@@ -21,7 +21,7 @@
   "abilities": {
     "Stitches": [
       {
-        "uid": "43f3078",
+        "uid": "d1348e",
         "name": "Hook",
         "description": "Pull the first enemy hit towards Stitches and deal 91 (+4% per level) damage.",
         "hotkey": "Q",
@@ -32,7 +32,7 @@
         "type": "basic"
       },
       {
-        "uid": "7fb2054",
+        "uid": "4e38ee",
         "name": "Slam",
         "description": "Deal 104 (+4% per level) damage to enemies within the target area. Enemies in the inner impact area take 40% more damage and are Slowed by 40% for 1.5 seconds.",
         "hotkey": "W",
@@ -43,7 +43,7 @@
         "type": "basic"
       },
       {
-        "uid": "8da45d9",
+        "uid": "7348f7",
         "name": "Devour",
         "description": "Deal 319 (+4% per level) damage to non-Heroic units, or 114 (+4% per level) damage to Heroes. Restores 20% of Stitches's maximum Health.",
         "hotkey": "E",
@@ -54,7 +54,18 @@
         "type": "basic"
       },
       {
-        "uid": "6c67c81",
+        "uid": "c954e9",
+        "name": "Helping Hand",
+        "description": "Activate to use Hook that can hit allied Heroes. When used to pull allies, the cooldown of Hook is reduced by 50%.",
+        "hotkey": 1,
+        "abilityId": "Stitches|11",
+        "cooldown": 16,
+        "manaCost": 75,
+        "icon": "storm_ui_icon_stitches_hook_var1.png",
+        "type": "activable"
+      },
+      {
+        "uid": "3c0dd1",
         "name": "Putrid Bile",
         "description": "Emit bile that deals 37 (+4% per level) damage per second to enemies within, Slowing them by 35% for 1.5 seconds. Gain 20% Movement Speed while emitting bile. Lasts 8 seconds.",
         "hotkey": "R",
@@ -65,7 +76,7 @@
         "type": "heroic"
       },
       {
-        "uid": "613b9bd",
+        "uid": "df437e",
         "name": "Gorge",
         "description": "Consume an enemy Hero, trapping them for 4 seconds. When Gorge ends, the enemy Hero takes 274 (+4% per level) damage. The trapped Hero cannot move or act and doesn't take damage from other sources.",
         "hotkey": "R",
@@ -76,18 +87,7 @@
         "type": "heroic"
       },
       {
-        "uid": "462a5e4",
-        "name": "Helping Hand",
-        "description": "Activate to use Hook that can hit allied Heroes. When used to pull allies, the cooldown of Hook is reduced by 50%.",
-        "hotkey": "1",
-        "abilityId": "Stitches|11",
-        "cooldown": 16,
-        "manaCost": 75,
-        "icon": "storm_ui_icon_stitches_hook_var1.png",
-        "type": "activable"
-      },
-      {
-        "uid": "f12fad4",
+        "uid": "44c018",
         "name": "Vile Cleaver",
         "description": "Basic Attacks splash Vile Gas, poisoning nearby enemies for 45 (+4% per level) damage over 3 seconds. Re-applying Vile Gas increases its current duration to a maximum of 10 seconds.",
         "trait": true,
@@ -201,8 +201,9 @@
         "sort": 2,
         "abilityId": "Stitches|Passive",
         "abilityLinks": [
-          "Stitches|W1",
-          "Stitches|D1"
+          "Stitches|D2",
+          "Stitches|D1",
+          "Stitches|W1"
         ]
       },
       {
@@ -215,8 +216,9 @@
         "sort": 3,
         "abilityId": "Stitches|Passive",
         "abilityLinks": [
-          "Stitches|W1",
-          "Stitches|D1"
+          "Stitches|D2",
+          "Stitches|D1",
+          "Stitches|W1"
         ]
       }
     ],

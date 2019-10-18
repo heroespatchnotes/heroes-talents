@@ -1,5 +1,5 @@
 {
-  "id": "24",
+  "id": 24,
   "shortName": "lili",
   "attributeId": "LiLi",
   "cHeroId": "LiLi",
@@ -19,68 +19,68 @@
     "SelfHealer"
   ],
   "abilities": {
-    "Li Li": [
+    "LiLi": [
       {
-        "uid": "89be463",
+        "uid": "1b962d",
         "name": "Healing Brew",
         "description": "Heal lowest Health ally (prioritizing Heroes) within 6 range for 175 (+4% per level) Health.",
         "hotkey": "Q",
-        "abilityId": "Li Li|Q1",
+        "abilityId": "LiLi|Q1",
         "cooldown": 4,
         "manaCost": 25,
         "icon": "storm_ui_icon_lili_healingbrew.png",
         "type": "basic"
       },
       {
-        "uid": "f990f70",
+        "uid": "52e733",
         "name": "Cloud Serpent",
         "description": "Summon a Cloud Serpent on an allied Hero that attacks nearby enemies every second. Each attack deals 26 (+4% per level) damage and heals the ally for 20 (+4% per level). Lasts for 8 seconds.",
         "hotkey": "W",
-        "abilityId": "Li Li|W1",
+        "abilityId": "LiLi|W1",
         "cooldown": 11,
         "manaCost": 35,
         "icon": "storm_ui_icon_lili_cloudserpent.png",
         "type": "basic"
       },
       {
-        "uid": "60ae31d",
+        "uid": "5bae6f",
         "name": "Blinding Wind",
         "description": "Throw a cloud of wind at the 2 nearest enemies (prioritizing Heroes), dealing 133 (+4% per level) damage. Affected targets are Blinded for 1.5 seconds, causing their Basic Attacks to miss and deal no damage.",
         "hotkey": "E",
-        "abilityId": "Li Li|E1",
+        "abilityId": "LiLi|E1",
         "cooldown": 12,
         "manaCost": 30,
         "icon": "storm_ui_icon_lili_blindingwind.png",
         "type": "basic"
       },
       {
-        "uid": "034d107",
+        "uid": "8eb2db",
         "name": "Jug of 1,000 Cups",
         "description": "Channel for up to 6 seconds. Every 0.25 seconds, heal the lowest Health nearby allied Hero for 66 (+4% per level) Health and increase the cooldown of Jug of 1,000 Cups by 2 seconds, up to 50.",
         "hotkey": "R",
-        "abilityId": "Li Li|R1",
+        "abilityId": "LiLi|R1",
         "cooldown": 20,
         "manaCost": 80,
         "icon": "storm_ui_icon_lili_jugofathousandcups.png",
         "type": "heroic"
       },
       {
-        "uid": "497e5a1",
+        "uid": "4ea9c2",
         "name": "Water Dragon",
         "description": "Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 300 (+4% per level) damage and slowing their Movement Speed by 70% for 4 seconds.",
         "hotkey": "R",
-        "abilityId": "Li Li|R2",
+        "abilityId": "LiLi|R2",
         "cooldown": 45,
         "manaCost": 50,
         "icon": "storm_ui_icon_lili_waterdragon.png",
         "type": "heroic"
       },
       {
-        "uid": "a61e0b3",
+        "uid": "68f1a0",
         "name": "Fast Feet",
         "description": "Upon taking damage, your Basic Ability cooldowns refresh 50% faster and you gain 10% Movement Speed for 1 second.",
         "trait": true,
-        "abilityId": "Li Li|D1",
+        "abilityId": "LiLi|D1",
         "icon": "storm_ui_icon_lili_fastfeet.png",
         "type": "trait"
       }
@@ -96,9 +96,9 @@
         "icon": "storm_ui_icon_lili_healingbrew.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Li Li|Q1",
+        "abilityId": "LiLi|Q1",
         "abilityLinks": [
-          "Li Li|Q1"
+          "LiLi|Q1"
         ]
       },
       {
@@ -109,9 +109,9 @@
         "icon": "storm_ui_icon_lili_cloudserpent.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "Li Li|W1",
+        "abilityId": "LiLi|W1",
         "abilityLinks": [
-          "Li Li|W1"
+          "LiLi|W1"
         ]
       },
       {
@@ -122,9 +122,10 @@
         "icon": "storm_ui_icon_lili_fastfeet.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Li Li|D1",
+        "abilityId": "LiLi|D2",
         "abilityLinks": [
-          "Li Li|D1"
+          "LiLi|D2",
+          "LiLi|D1"
         ]
       }
     ],
@@ -137,22 +138,22 @@
         "icon": "storm_ui_icon_lili_cloudserpent.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "Li Li|W1",
+        "abilityId": "LiLi|W1",
         "abilityLinks": [
-          "Li Li|W1"
+          "LiLi|W1"
         ]
       },
       {
-        "tooltipId": "LiLiHinderingWinds",
-        "talentTreeId": "LiLiHinderingWinds",
-        "name": "Hindering Winds",
-        "description": "Blinding Wind Slows enemy Hero Movement Speed by 25% for 1.5 seconds.",
+        "tooltipId": "LiLiSurgingWindsTalent",
+        "talentTreeId": "LiLiMasteryBlindingWindSurgingWinds",
+        "name": "Surging Winds",
+        "description": "If Blinding Wind hits 2 Heroes, its cooldown is reduced by 2 seconds and Li Li gains 10% Spell Power for 10 seconds.",
         "icon": "storm_ui_icon_lili_blindingwind.png",
         "type": "E",
         "sort": 2,
-        "abilityId": "Li Li|E1",
+        "abilityId": "LiLi|E1",
         "abilityLinks": [
-          "Li Li|E1"
+          "LiLi|E1"
         ]
       },
       {
@@ -164,9 +165,10 @@
         "type": "Trait",
         "sort": 3,
         "cooldown": 25,
-        "abilityId": "Li Li|D1",
+        "abilityId": "LiLi|D2",
         "abilityLinks": [
-          "Li Li|D1"
+          "LiLi|D2",
+          "LiLi|D1"
         ]
       }
     ],
@@ -179,9 +181,9 @@
         "icon": "storm_ui_icon_lili_healingbrew.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Li Li|Q1",
+        "abilityId": "LiLi|Q1",
         "abilityLinks": [
-          "Li Li|Q1"
+          "LiLi|Q1"
         ]
       },
       {
@@ -192,9 +194,9 @@
         "icon": "storm_ui_icon_lili_cloudserpent.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "Li Li|W1",
+        "abilityId": "LiLi|W1",
         "abilityLinks": [
-          "Li Li|W1"
+          "LiLi|W1"
         ]
       },
       {
@@ -206,7 +208,7 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 40,
-        "abilityId": "Li Li|Active"
+        "abilityId": "LiLi|Active"
       }
     ],
     "10": [
@@ -219,9 +221,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 20,
-        "abilityId": "Li Li|R1",
+        "abilityId": "LiLi|R1",
         "abilityLinks": [
-          "Li Li|R1"
+          "LiLi|R1"
         ]
       },
       {
@@ -233,9 +235,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 45,
-        "abilityId": "Li Li|R2",
+        "abilityId": "LiLi|R2",
         "abilityLinks": [
-          "Li Li|R2"
+          "LiLi|R2"
         ]
       }
     ],
@@ -248,22 +250,22 @@
         "icon": "storm_ui_icon_lili_blindingwind.png",
         "type": "E",
         "sort": 1,
-        "abilityId": "Li Li|E1",
+        "abilityId": "LiLi|E1",
         "abilityLinks": [
-          "Li Li|E1"
+          "LiLi|E1"
         ]
       },
       {
-        "tooltipId": "LiLiSurgingWindsTalent",
-        "talentTreeId": "LiLiMasteryBlindingWindSurgingWinds",
-        "name": "Surging Winds",
-        "description": "If Blinding Wind hits 2 Heroes, its cooldown is reduced by 3 seconds and Li Li gains 10% Spell Power for 10 seconds.",
+        "tooltipId": "LiLiHinderingWinds",
+        "talentTreeId": "LiLiHinderingWinds",
+        "name": "Hindering Winds",
+        "description": "Blinding Wind Slows enemy Hero Movement Speed by 25% for 2 seconds.",
         "icon": "storm_ui_icon_lili_blindingwind_a.png",
         "type": "E",
         "sort": 2,
-        "abilityId": "Li Li|E1",
+        "abilityId": "LiLi|E1",
         "abilityLinks": [
-          "Li Li|E1"
+          "LiLi|E1"
         ]
       },
       {
@@ -274,9 +276,9 @@
         "icon": "storm_ui_icon_lili_blindingwind_b.png",
         "type": "E",
         "sort": 3,
-        "abilityId": "Li Li|E1",
+        "abilityId": "LiLi|E1",
         "abilityLinks": [
-          "Li Li|E1"
+          "LiLi|E1"
         ]
       }
     ],
@@ -289,9 +291,9 @@
         "icon": "storm_ui_icon_lili_healingbrew.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Li Li|Q1",
+        "abilityId": "LiLi|Q1",
         "abilityLinks": [
-          "Li Li|Q1"
+          "LiLi|Q1"
         ]
       },
       {
@@ -302,22 +304,22 @@
         "icon": "storm_ui_icon_lili_healingbrew_a.png",
         "type": "Q",
         "sort": 2,
-        "abilityId": "Li Li|Q1",
+        "abilityId": "LiLi|Q1",
         "abilityLinks": [
-          "Li Li|Q1"
+          "LiLi|Q1"
         ]
       },
       {
         "tooltipId": "LiLiBlessingsOfYulon",
         "talentTreeId": "LiLiBlessingsOfYulon",
-        "name": "Blessings Of Yu'lon",
+        "name": "Blessings Of Yu’lon",
         "description": "Cloud Serpent heals its bearer for an additional 1% of their maximum Health each time it attacks.",
         "icon": "storm_ui_icon_lili_cloudserpent.png",
         "type": "W",
         "sort": 3,
-        "abilityId": "Li Li|W1",
+        "abilityId": "LiLi|W1",
         "abilityLinks": [
-          "Li Li|W1"
+          "LiLi|W1"
         ]
       }
     ],
@@ -330,9 +332,9 @@
         "icon": "storm_ui_icon_lili_jugofathousandcups.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Li Li|R1",
+        "abilityId": "LiLi|R1",
         "abilityLinks": [
-          "Li Li|R1"
+          "LiLi|R1"
         ]
       },
       {
@@ -343,9 +345,9 @@
         "icon": "storm_ui_icon_lili_waterdragon.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Li Li|R2",
+        "abilityId": "LiLi|R2",
         "abilityLinks": [
-          "Li Li|R2"
+          "LiLi|R2"
         ]
       },
       {
@@ -357,7 +359,7 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 30,
-        "abilityId": "Li Li|Active"
+        "abilityId": "LiLi|Active"
       },
       {
         "tooltipId": "LiLiShakeItOffTalent",
@@ -367,9 +369,10 @@
         "icon": "storm_ui_icon_lili_fastfeet.png",
         "type": "Trait",
         "sort": 4,
-        "abilityId": "Li Li|D1",
+        "abilityId": "LiLi|D2",
         "abilityLinks": [
-          "Li Li|D1"
+          "LiLi|D2",
+          "LiLi|D1"
         ]
       }
     ]
