@@ -1,5 +1,5 @@
 {
-  "id": "14",
+  "id": 14,
   "shortName": "sgthammer",
   "attributeId": "Sgth",
   "cHeroId": "SgtHammer",
@@ -18,79 +18,78 @@
     "WaveClearer"
   ],
   "abilities": {
-    "Sgt. Hammer": [
+    "SgtHammer": [
       {
-        "uid": "2d5145f",
+        "uid": "52b5be",
         "name": "Spider Mines",
         "description": "Create 3 mines that arm after 1.25 seconds. Mines detonate when an enemy comes in range, dealing 96 (+4% per level) damage to nearby enemies and Slowing them by 25% for 1.5 seconds.  Siege Mode: Cast range increased by 100%.",
         "hotkey": "Q",
-        "abilityId": "Sgt. Hammer|Q1",
+        "abilityId": "SgtHammer|Q1",
         "cooldown": 14,
         "manaCost": 50,
         "icon": "storm_ui_icon_sgthammer_spidermines.png",
         "type": "basic"
       },
       {
-        "uid": "ff8e49f",
+        "uid": "0cd2d7",
         "name": "Concussive Blast",
         "description": "Deal 141 (+4% per level) damage to enemies in front of Sgt. Hammer and knock them back.  Siege Mode: Radius increased by 50%.",
         "hotkey": "W",
-        "abilityId": "Sgt. Hammer|W1",
+        "abilityId": "SgtHammer|W1",
         "cooldown": 12,
         "manaCost": 80,
         "icon": "storm_ui_icon_sgthammer_concussiveblast.png",
         "type": "basic"
       },
       {
-        "uid": "7c9e801",
+        "uid": "96ef87",
         "name": "Neosteel Plating",
         "description": "Gain 25 Armor for 2 seconds.  Siege Mode: Grants 100% more Armor.",
         "hotkey": "E",
-        "abilityId": "Sgt. Hammer|E1",
+        "abilityId": "SgtHammer|E1",
         "cooldown": 16,
         "manaCost": 60,
         "icon": "storm_ui_icon_sgthammer_neosteelplating.png",
         "type": "basic"
       },
       {
-        "uid": "7c907f5",
+        "uid": "603a80",
         "name": "Napalm Strike",
         "description": "Deals 164 (+4% per level) damage on impact, and leaves a napalm area that deals 50 (+4% per level) damage per second. Lasts for 4 seconds.",
         "hotkey": "R",
-        "abilityId": "Sgt. Hammer|R1",
+        "abilityId": "SgtHammer|R1",
         "cooldown": 6,
         "manaCost": 35,
         "icon": "storm_ui_icon_sgthammer_napalmstrike.png",
         "type": "heroic"
       },
       {
-        "uid": "3cddb88",
+        "uid": "9e7cc6",
         "name": "Blunt Force Gun",
         "description": "Fire a missile across the battlefield, dealing 500 (+3% per level) damage to non-Structure enemies in its path.",
         "hotkey": "R",
-        "abilityId": "Sgt. Hammer|R2",
+        "abilityId": "SgtHammer|R2",
         "cooldown": 70,
         "manaCost": 100,
         "icon": "storm_ui_icon_sgthammer_bluntforcegun.png",
         "type": "heroic"
       },
       {
-        "uid": "fc18aeb",
+        "uid": "2e51ef",
         "name": "Siege Mode",
         "description": "Activate to enter Siege Mode. While in Siege Mode, Basic Attacks deal 20% more damage, have 100% increased range, and deal 25% of their damage as splash damage around the target.",
-        "hotkey": "D",
         "trait": true,
-        "abilityId": "Sgt. Hammer|D1",
+        "abilityId": "SgtHammer|D1",
         "cooldown": 2,
         "icon": "storm_ui_icon_sgthammer_siegemode.png",
         "type": "trait"
       },
       {
-        "uid": "f1a3526",
+        "uid": "87fc4b",
         "name": "Thrusters",
         "description": "Increase Movement Speed by 60% for 4 seconds. Thrusters are always active while at the Hall of Storms. Activating Thrusters cancels Siege Mode.",
         "hotkey": "Z",
-        "abilityId": "Sgt. Hammer|Z1",
+        "abilityId": "SgtHammer|Z1",
         "cooldown": 30,
         "icon": "storm_ui_icon_sgthammer_mount.png",
         "type": "mount"
@@ -107,9 +106,9 @@
         "icon": "storm_ui_icon_sgthammer_siegemode_var2.png",
         "type": "Trait",
         "sort": 1,
-        "abilityId": "Sgt. Hammer|D1",
+        "abilityId": "SgtHammer|D1",
         "abilityLinks": [
-          "Sgt. Hammer|D1"
+          "SgtHammer|D1"
         ]
       },
       {
@@ -120,9 +119,9 @@
         "icon": "storm_ui_icon_sgthammer_siegemode.png",
         "type": "Trait",
         "sort": 2,
-        "abilityId": "Sgt. Hammer|D1",
+        "abilityId": "SgtHammer|D1",
         "abilityLinks": [
-          "Sgt. Hammer|D1"
+          "SgtHammer|D1"
         ]
       },
       {
@@ -134,9 +133,9 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 90,
-        "abilityId": "Sgt. Hammer|D1",
+        "abilityId": "SgtHammer|Active",
         "abilityLinks": [
-          "Sgt. Hammer|D1"
+          "SgtHammer|D1"
         ]
       }
     ],
@@ -149,9 +148,9 @@
         "icon": "storm_ui_icon_sgthammer_concussiveblast.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "Sgt. Hammer|W1",
+        "abilityId": "SgtHammer|W1",
         "abilityLinks": [
-          "Sgt. Hammer|W1"
+          "SgtHammer|W1"
         ]
       },
       {
@@ -162,9 +161,9 @@
         "icon": "storm_ui_icon_sgthammer_neosteelplating.png",
         "type": "E",
         "sort": 2,
-        "abilityId": "Sgt. Hammer|E1",
+        "abilityId": "SgtHammer|E1",
         "abilityLinks": [
-          "Sgt. Hammer|E1"
+          "SgtHammer|E1"
         ]
       },
       {
@@ -175,9 +174,9 @@
         "icon": "storm_ui_icon_sgthammer_siegemode.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Sgt. Hammer|D1",
+        "abilityId": "SgtHammer|D1",
         "abilityLinks": [
-          "Sgt. Hammer|D1"
+          "SgtHammer|D1"
         ]
       }
     ],
@@ -190,9 +189,9 @@
         "icon": "storm_ui_icon_sgthammer_spidermines.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Sgt. Hammer|Q1",
+        "abilityId": "SgtHammer|Q1",
         "abilityLinks": [
-          "Sgt. Hammer|Q1"
+          "SgtHammer|Q1"
         ]
       },
       {
@@ -203,9 +202,9 @@
         "icon": "storm_ui_icon_sgthammer_siegemode.png",
         "type": "Trait",
         "sort": 2,
-        "abilityId": "Sgt. Hammer|D1",
+        "abilityId": "SgtHammer|D1",
         "abilityLinks": [
-          "Sgt. Hammer|D1"
+          "SgtHammer|D1"
         ]
       },
       {
@@ -216,9 +215,9 @@
         "icon": "storm_ui_icon_sgthammer_siegemode_var1.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Sgt. Hammer|D1",
+        "abilityId": "SgtHammer|D1",
         "abilityLinks": [
-          "Sgt. Hammer|D1"
+          "SgtHammer|D1"
         ]
       }
     ],
@@ -232,9 +231,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 70,
-        "abilityId": "Sgt. Hammer|R2",
+        "abilityId": "SgtHammer|R2",
         "abilityLinks": [
-          "Sgt. Hammer|R2"
+          "SgtHammer|R2"
         ]
       },
       {
@@ -246,9 +245,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 6,
-        "abilityId": "Sgt. Hammer|R1",
+        "abilityId": "SgtHammer|R1",
         "abilityLinks": [
-          "Sgt. Hammer|R1"
+          "SgtHammer|R1"
         ]
       }
     ],
@@ -261,9 +260,9 @@
         "icon": "storm_ui_icon_sgthammer_spidermines.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Sgt. Hammer|Q1",
+        "abilityId": "SgtHammer|Q1",
         "abilityLinks": [
-          "Sgt. Hammer|Q1"
+          "SgtHammer|Q1"
         ]
       },
       {
@@ -274,9 +273,9 @@
         "icon": "storm_ui_icon_sgthammer_concussiveblast.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "Sgt. Hammer|W1",
+        "abilityId": "SgtHammer|W1",
         "abilityLinks": [
-          "Sgt. Hammer|W1"
+          "SgtHammer|W1"
         ]
       },
       {
@@ -287,9 +286,9 @@
         "icon": "storm_ui_icon_sgthammer_hypercoolingengines.png",
         "type": "Z",
         "sort": 3,
-        "abilityId": "Sgt. Hammer|Z1",
+        "abilityId": "SgtHammer|Z1",
         "abilityLinks": [
-          "Sgt. Hammer|Z1"
+          "SgtHammer|Z1"
         ]
       }
     ],
@@ -302,9 +301,9 @@
         "icon": "storm_ui_icon_sgthammer_neosteelplating.png",
         "type": "E",
         "sort": 1,
-        "abilityId": "Sgt. Hammer|E1",
+        "abilityId": "SgtHammer|E1",
         "abilityLinks": [
-          "Sgt. Hammer|E1"
+          "SgtHammer|E1"
         ]
       },
       {
@@ -315,7 +314,7 @@
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
         "sort": 2,
-        "abilityId": "Sgt. Hammer|Passive"
+        "abilityId": "SgtHammer|Passive"
       },
       {
         "tooltipId": "SgtHammerGiantKiller",
@@ -325,7 +324,7 @@
         "icon": "storm_ui_icon_talent_autoattack_searing.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Sgt. Hammer|Passive"
+        "abilityId": "SgtHammer|Passive"
       }
     ],
     "20": [
@@ -337,9 +336,9 @@
         "icon": "storm_ui_icon_sgthammer_bluntforcegun.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Sgt. Hammer|R2",
+        "abilityId": "SgtHammer|R2",
         "abilityLinks": [
-          "Sgt. Hammer|R2"
+          "SgtHammer|R2"
         ]
       },
       {
@@ -350,9 +349,9 @@
         "icon": "storm_ui_icon_sgthammer_napalmstrike.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Sgt. Hammer|R1",
+        "abilityId": "SgtHammer|R1",
         "abilityLinks": [
-          "Sgt. Hammer|R1"
+          "SgtHammer|R1"
         ]
       },
       {
@@ -363,9 +362,9 @@
         "icon": "storm_ui_icon_sgthammer_spidermines.png",
         "type": "Q",
         "sort": 3,
-        "abilityId": "Sgt. Hammer|Q1",
+        "abilityId": "SgtHammer|Q1",
         "abilityLinks": [
-          "Sgt. Hammer|Q1"
+          "SgtHammer|Q1"
         ]
       },
       {
@@ -376,9 +375,9 @@
         "icon": "storm_ui_icon_sgthammer_siegemode.png",
         "type": "Trait",
         "sort": 4,
-        "abilityId": "Sgt. Hammer|D1",
+        "abilityId": "SgtHammer|D1",
         "abilityLinks": [
-          "Sgt. Hammer|D1"
+          "SgtHammer|D1"
         ]
       }
     ]

@@ -1,12 +1,12 @@
 {
-  "id": "17",
+  "id": 17,
   "shortName": "tassadar",
   "attributeId": "Tass",
   "cHeroId": "Tassadar",
   "cUnitId": "HeroTassadar",
   "name": "Tassadar",
   "icon": "tassadar.png",
-  "role": "Specialist",
+  "role": "Specialist,Support",
   "expandedRole": "Support",
   "type": "Ranged",
   "releaseDate": "2014-03-13",
@@ -21,7 +21,7 @@
   "abilities": {
     "Tassadar": [
       {
-        "uid": "3301850",
+        "uid": "967f34",
         "name": "Plasma Shield",
         "description": "Grant an allied Hero, Minion, or Structure a Shield that absorbs 455 (+4% per level) damage over 4 seconds. If the target is a Hero, they heal for 40% of their Basic Attack damage done while Shielded.",
         "hotkey": "Q",
@@ -32,7 +32,7 @@
         "type": "basic"
       },
       {
-        "uid": "80154d4",
+        "uid": "cff869",
         "name": "Psionic Storm",
         "description": "Deal 82 (+4% per level) damage per second to enemies in target area for 3 seconds. Damage increases by 12% for each consecutive instance of damage, up to 60%.",
         "hotkey": "W",
@@ -43,7 +43,7 @@
         "type": "basic"
       },
       {
-        "uid": "11e1c4c",
+        "uid": "237223",
         "name": "Dimensional Shift",
         "description": "Tassadar becomes Invulnerable and Unrevealable for 2 seconds. While shifted, he has 25% increased Movement Speed.",
         "hotkey": "E",
@@ -54,7 +54,18 @@
         "type": "basic"
       },
       {
-        "uid": "7d97e21",
+        "uid": "642f46",
+        "name": "Archon",
+        "description": "Tassadar transforms into an Archon and gains a Plasma Shield. His Basic Attacks deal 158 (+4% per level) damage, slow the target by 30% for 1 second and splash for 79 (+4% per level) damage to enemies within 2.5 range. Lasts for 10 seconds.  Passive: Archon refreshes the cooldown of Dimensional Shift.",
+        "hotkey": "R",
+        "abilityId": "Tassadar|R1",
+        "cooldown": 100,
+        "manaCost": 80,
+        "icon": "storm_ui_icon_tassadar_archon.png",
+        "type": "heroic"
+      },
+      {
+        "uid": "3e5b72",
         "name": "Force Wall",
         "description": "Create a wall that blocks all units from moving through it for 2 seconds.  Passive: Increases the slow amount of Distortion Beam to 35%.",
         "hotkey": "R",
@@ -65,26 +76,14 @@
         "type": "heroic"
       },
       {
-        "uid": "fbc8f7a",
+        "uid": "fde047",
         "name": "Oracle",
         "description": "Activate to greatly increase Tassadar's vision radius, allow him to see over obstacles, and detect stealthed units. Lasts for 5 seconds.  Distortion Beam  Tassadar's Basic Attack is a beam that Slows enemy units by 25%.",
-        "hotkey": "D",
         "trait": true,
         "abilityId": "Tassadar|D1",
         "cooldown": 30,
         "icon": "storm_ui_icon_tassadar_oracle.png",
         "type": "trait"
-      },
-      {
-        "uid": "e2d5e27",
-        "name": "Archon",
-        "description": "Tassadar transforms into an Archon and gains a Plasma Shield. His Basic Attacks deal 158 (+4% per level) damage, slow the target by 30% for 1 second and splash for 79 (+4% per level) damage to enemies within 2.5 range. Lasts for 10 seconds.  Passive: Archon refreshes the cooldown of Dimensional Shift.",
-        "hotkey": "R",
-        "abilityId": "Tassadar|R1",
-        "cooldown": 100,
-        "manaCost": 80,
-        "icon": "storm_ui_icon_tassadar_archon.png",
-        "type": "heroic"
       }
     ]
   },

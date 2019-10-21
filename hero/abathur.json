@@ -1,5 +1,5 @@
 {
-  "id": "1",
+  "id": 1,
   "shortName": "abathur",
   "attributeId": "Abat",
   "cHeroId": "Abathur",
@@ -22,7 +22,7 @@
   "abilities": {
     "Abathur": [
       {
-        "uid": "9c810ae",
+        "uid": "62ce22",
         "name": "Symbiote",
         "description": "Spawn and attach a Symbiote to a target ally or Structure. While active, Abathur controls the Symbiote, gaining access to new Abilities. The Symbiote is able to gain XP from nearby enemy deaths.",
         "hotkey": "Q",
@@ -32,7 +32,7 @@
         "type": "basic"
       },
       {
-        "uid": "82a0b5c",
+        "uid": "42614e",
         "name": "Toxic Nest",
         "description": "Spawn a mine that becomes active after a short time. Deals 153 (+4% per level) damage and reveals the enemy for 4 seconds. Lasts 90 seconds.  Stores up to 3 charges.",
         "hotkey": "W",
@@ -42,7 +42,7 @@
         "type": "basic"
       },
       {
-        "uid": "a6eb53a",
+        "uid": "36124c",
         "name": "Evolve Monstrosity",
         "description": "Turn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it gains 2% Health and 2% Basic Attack damage, stacking up to 40 times.  The Monstrosity can be healed by Carapace and has the ability to Burrow to a visible location every 80 seconds.  Using Symbiote on the Monstrosity allows Abathur to control it, in addition to Symbiote's normal benefits.  This Ability can be reactivated to automatically cast Symbiote on his Monstrosity.",
         "hotkey": "R",
@@ -52,7 +52,7 @@
         "type": "heroic"
       },
       {
-        "uid": "a4dc837",
+        "uid": "e5fd94",
         "name": "Ultimate Evolution",
         "description": "Clone target allied Hero and control it for 20 seconds. Abathur has perfected the clone, granting it 20% Spell Power, 20% bonus Attack Damage, and 10% bonus Movement Speed. Cannot use their Heroic Ability.",
         "hotkey": "R",
@@ -62,7 +62,7 @@
         "type": "heroic"
       },
       {
-        "uid": "75fc9a2",
+        "uid": "c6b01f",
         "name": "Locust Strain",
         "description": "Spawns a Locust to attack down the nearest lane every 15 seconds. Locusts last for 16 seconds, have 316 (+4% per level) health and deal 46 (+4% per level) damage with each Basic Attack.",
         "trait": true,
@@ -72,7 +72,7 @@
         "type": "trait"
       },
       {
-        "uid": "f3ed2ec",
+        "uid": "8562c7",
         "name": "Deep Tunnel",
         "description": "Quickly tunnel to a visible location",
         "hotkey": "Z",
@@ -84,44 +84,44 @@
     ],
     "AbathurSymbiote": [
       {
-        "uid": "ad3fb1f",
-        "name": "Stab",
-        "description": "Shoots a spike towards target area that deals 119 (+4% per level) damage to the first enemy it contacts.",
-        "hotkey": "Q",
-        "abilityId": "Abathur|Q2",
-        "cooldown": 3,
-        "icon": "storm_ui_icon_abathur_stab.png",
-        "type": "subunit"
-      },
-      {
-        "uid": "82650ee",
-        "name": "Spike Burst",
-        "description": "Deals 120 (+4% per level) damage to nearby enemies.",
-        "hotkey": "W",
-        "abilityId": "Abathur|W2",
-        "cooldown": 6,
-        "icon": "storm_ui_icon_abathur_spikeburst.png",
-        "type": "subunit"
-      },
-      {
-        "uid": "a8f01c1",
+        "uid": "00e154",
         "name": "Carapace",
         "description": "Shields the assisted ally for 150 (+4% per level). Allied Heroes are healed for 22 (+4% per level) Health per second while the Shield is active. Lasts for 6 seconds.",
         "hotkey": "E",
         "abilityId": "Abathur|E1",
         "cooldown": 6,
         "icon": "storm_ui_icon_abathur_carapace.png",
-        "type": "subunit"
+        "type": "basic"
       },
       {
-        "uid": "7c6b61b",
+        "uid": "f10324",
+        "name": "Stab",
+        "description": "Shoots a spike towards target area that deals 119 (+4% per level) damage to the first enemy it contacts.",
+        "hotkey": "Q",
+        "abilityId": "Abathur|Q2",
+        "cooldown": 3,
+        "icon": "storm_ui_icon_abathur_stab.png",
+        "type": "basic"
+      },
+      {
+        "uid": "74e3e6",
+        "name": "Spike Burst",
+        "description": "Deals 120 (+4% per level) damage to nearby enemies.",
+        "hotkey": "W",
+        "abilityId": "Abathur|W2",
+        "cooldown": 6,
+        "icon": "storm_ui_icon_abathur_spikeburst.png",
+        "type": "basic"
+      },
+      {
+        "uid": "1cdf05",
         "name": "Deep Tunnel",
         "description": "Order your Evolved Monstrosity to quickly tunnel to a visible location",
         "hotkey": "Z",
         "abilityId": "Abathur|Z2",
         "cooldown": 80,
         "icon": "storm_ui_icon_abathur_mount.png",
-        "type": "subunit"
+        "type": "mount"
       }
     ]
   },

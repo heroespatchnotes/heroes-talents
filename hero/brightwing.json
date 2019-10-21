@@ -1,5 +1,5 @@
 {
-  "id": "25",
+  "id": 25,
   "shortName": "brightwing",
   "attributeId": "Faer",
   "cHeroId": "FaerieDragon",
@@ -23,7 +23,7 @@
   "abilities": {
     "Brightwing": [
       {
-        "uid": "6600b75",
+        "uid": "bac60a",
         "name": "Arcane Flare",
         "description": "Shoot a flare dealing 75 (+4% per level) damage to enemies hit, and an additional 105 (+4% per level) damage to enemies in the center. If a Hero is hit by the center, Soothing Mist's passive healing instantly activates.",
         "hotkey": "Q",
@@ -34,7 +34,7 @@
         "type": "basic"
       },
       {
-        "uid": "d16c27c",
+        "uid": "1bb0a2",
         "name": "Polymorph",
         "description": "Polymorph a target for 1.5 seconds, Slowing their Movement Speed by 25% and Silencing them. Targets are not able to attack while Polymorphed.",
         "hotkey": "W",
@@ -45,7 +45,7 @@
         "type": "basic"
       },
       {
-        "uid": "a11fbbd",
+        "uid": "5c9c7a",
         "name": "Pixie Dust",
         "description": "Increase target Hero's Movement Speed by 20%, and grant them 25 Spell Armor for 3 seconds, reducing Spell damage taken by 25%.",
         "hotkey": "E",
@@ -56,7 +56,7 @@
         "type": "basic"
       },
       {
-        "uid": "a555f95",
+        "uid": "28d179",
         "name": "Blink Heal",
         "description": "Teleport to a nearby ally. When teleporting to a Hero, heal them for 200 (+4% per level).  Stores up to 2 charges.",
         "hotkey": "R",
@@ -67,7 +67,7 @@
         "type": "heroic"
       },
       {
-        "uid": "2340658",
+        "uid": "f38ffa",
         "name": "Emerald Wind",
         "description": "After 0.5 seconds, create an expanding nova of wind, dealing 225 (+4% per level) damage and pushing enemies away.",
         "hotkey": "R",
@@ -78,10 +78,9 @@
         "type": "heroic"
       },
       {
-        "uid": "74c3767",
+        "uid": "83eccc",
         "name": "Soothing Mist",
         "description": "Activate to remove all Stun, Root, Slow, and Silence effects from nearby allied Heroes.  Passive: Brightwing heals nearby allied Heroes for 105 (+4% per level) every 4 seconds",
-        "hotkey": "D",
         "trait": true,
         "abilityId": "Brightwing|D1",
         "cooldown": 100,
@@ -89,7 +88,7 @@
         "type": "trait"
       },
       {
-        "uid": "311e94c",
+        "uid": "76b872",
         "name": "Phase Shift",
         "description": "After 2 seconds, teleport to an allied Hero and heal them for 20% of their maximum Health.",
         "hotkey": "Z",
@@ -374,7 +373,7 @@
         "type": "Active",
         "sort": 4,
         "cooldown": 45,
-        "abilityId": "Brightwing|E1",
+        "abilityId": "Brightwing|Active",
         "abilityLinks": [
           "Brightwing|E1"
         ]

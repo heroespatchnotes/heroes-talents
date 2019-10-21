@@ -1,5 +1,5 @@
 {
-  "id": "32",
+  "id": 32,
   "shortName": "jaina",
   "attributeId": "Jain",
   "cHeroId": "Jaina",
@@ -20,7 +20,7 @@
   "abilities": {
     "Jaina": [
       {
-        "uid": "0c6f9e6",
+        "uid": "a6068f",
         "name": "Frostbolt",
         "description": "Deal 184 (+4% per level) damage and Chill the target.",
         "hotkey": "Q",
@@ -31,7 +31,7 @@
         "type": "basic"
       },
       {
-        "uid": "2eb6b76",
+        "uid": "78aa84",
         "name": "Blizzard",
         "description": "Bombard an area with 3 waves of ice, dealing 142 (+4% per level) damage each. Damaged enemies are Chilled.",
         "hotkey": "W",
@@ -42,7 +42,7 @@
         "type": "basic"
       },
       {
-        "uid": "24404be",
+        "uid": "0aaf29",
         "name": "Cone of Cold",
         "description": "Deal 220 (+4% per level) damage and Chill targets.",
         "hotkey": "E",
@@ -53,7 +53,7 @@
         "type": "basic"
       },
       {
-        "uid": "c1309e2",
+        "uid": "7b4a49",
         "name": "Summon Water Elemental",
         "description": "Summon a Water Elemental at target location. The Water Elemental's Basic Attacks deal 62 (+4% per level) damage, splash for 25% damage and Chill. The Ability can be reactivated to retarget the Water Elemental.  Lasts 20 seconds.",
         "hotkey": "R",
@@ -64,7 +64,7 @@
         "type": "heroic"
       },
       {
-        "uid": "36b5187",
+        "uid": "81a200",
         "name": "Ring of Frost",
         "description": "After a 1.5 second delay, create a Ring of Frost in an area that deals 310 (+4% per level) damage and Roots enemies for 3 seconds. The ring persists for 3 seconds afterward, Chilling any enemies who touch it.",
         "hotkey": "R",
@@ -75,19 +75,21 @@
         "type": "heroic"
       },
       {
-        "uid": "25fea55",
+        "uid": "c1474e",
         "name": "Frostbite",
         "description": "Jaina's Abilities Chill targets, Slowing them by 25% and amplifying damage taken from her Abilities by 50%. Lasts 4 seconds.  Quest: Deal 15,000 Ability damage to Chilled Heroes.  Reward: Unlock the Improved Ice Block Ability, allowing Jaina to become temporarily Invulnerable.",
         "trait": true,
         "abilityId": "Jaina|D1",
         "icon": "storm_ui_icon_jaina_frostbite.png",
         "type": "trait"
-      },
+      }
+    ],
+    "JainaTraitFrostbite": [
       {
-        "uid": "346dd30",
+        "uid": "fbd5a2",
         "name": "Improved Ice Block",
         "description": "Activate to place Jaina in Stasis and gain Invulnerability for 2.5 seconds. When this effect expires, nearby enemies are Chilled.",
-        "hotkey": "1",
+        "hotkey": 1,
         "abilityId": "Jaina|11",
         "cooldown": 40,
         "icon": "storm_ui_icon_jaina_improvediceblock_new_active.png",

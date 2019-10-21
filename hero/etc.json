@@ -1,5 +1,5 @@
 {
-  "id": "4",
+  "id": 4,
   "shortName": "etc",
   "attributeId": "L90E",
   "cHeroId": "L90ETC",
@@ -21,68 +21,68 @@
     "SelfHealer"
   ],
   "abilities": {
-    "E.T.C.": [
+    "ETC": [
       {
-        "uid": "0292d79",
+        "uid": "0288ab",
         "name": "Powerslide",
         "description": "Slide to a location dealing 91 (+4% per level) damage and stunning enemies hit for 1.25 second.",
         "hotkey": "Q",
-        "abilityId": "E.T.C.|Q1",
+        "abilityId": "ETC|Q1",
         "cooldown": 12,
         "manaCost": 60,
         "icon": "storm_ui_icon_etc_powerslide.png",
         "type": "basic"
       },
       {
-        "uid": "4353106",
+        "uid": "99dc9f",
         "name": "Face Melt",
         "description": "Deals 68 (+4% per level) damage to nearby enemies, knocking them back.",
         "hotkey": "W",
-        "abilityId": "E.T.C.|W1",
+        "abilityId": "ETC|W1",
         "cooldown": 10,
         "manaCost": 50,
         "icon": "storm_ui_icon_etc_facemelt.png",
         "type": "basic"
       },
       {
-        "uid": "b9e6751",
+        "uid": "d10411",
         "name": "Guitar Solo",
         "description": "Regenerate 66 (+4% per level) Health per second for 4 seconds.",
         "hotkey": "E",
-        "abilityId": "E.T.C.|E1",
+        "abilityId": "ETC|E1",
         "cooldown": 9,
         "manaCost": 40,
         "icon": "storm_ui_icon_etc_guitarsolo.png",
         "type": "basic"
       },
       {
-        "uid": "016f0ee",
+        "uid": "111753",
         "name": "Mosh Pit",
         "description": "After 0.75 seconds, channel to stun nearby enemies for 4 seconds.",
         "hotkey": "R",
-        "abilityId": "E.T.C.|R1",
+        "abilityId": "ETC|R1",
         "cooldown": 120,
         "manaCost": 100,
         "icon": "storm_ui_icon_etc_moshpit.png",
         "type": "heroic"
       },
       {
-        "uid": "c8bd85b",
+        "uid": "1156f3",
         "name": "Stage Dive",
         "description": "Leap to target location, landing after 2.75 seconds, dealing 330 (+4% per level) damage to enemies in the area, and slowing them by 50% for 3 seconds.",
         "hotkey": "R",
-        "abilityId": "E.T.C.|R2",
+        "abilityId": "ETC|R2",
         "cooldown": 75,
         "manaCost": 100,
         "icon": "storm_ui_icon_etc_stagedive.png",
         "type": "heroic"
       },
       {
-        "uid": "c9addce",
+        "uid": "687b0a",
         "name": "Rockstar",
         "description": "After E.T.C. uses a Basic or Heroic ability, he gains 25 Armor for 2 seconds.  This effect does not stack with itself.",
         "trait": true,
-        "abilityId": "E.T.C.|D1",
+        "abilityId": "ETC|D1",
         "icon": "storm_ui_icon_etc_rockstar.png",
         "type": "trait"
       }
@@ -98,9 +98,9 @@
         "icon": "storm_ui_icon_etc_guitarsolo.png",
         "type": "E",
         "sort": 1,
-        "abilityId": "E.T.C.|E1",
+        "abilityId": "ETC|E1",
         "abilityLinks": [
-          "E.T.C.|E1"
+          "ETC|E1"
         ]
       },
       {
@@ -112,9 +112,9 @@
         "type": "E",
         "sort": 2,
         "isQuest": true,
-        "abilityId": "E.T.C.|E1",
+        "abilityId": "ETC|E1",
         "abilityLinks": [
-          "E.T.C.|E1"
+          "ETC|E1"
         ]
       },
       {
@@ -125,9 +125,9 @@
         "icon": "storm_ui_icon_etc_rockstar.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "E.T.C.|D1",
+        "abilityId": "ETC|D1",
         "abilityLinks": [
-          "E.T.C.|D1"
+          "ETC|D1"
         ]
       }
     ],
@@ -140,9 +140,9 @@
         "icon": "storm_ui_icon_etc_powerslide.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "E.T.C.|Q1",
+        "abilityId": "ETC|Q1",
         "abilityLinks": [
-          "E.T.C.|Q1"
+          "ETC|Q1"
         ]
       },
       {
@@ -153,9 +153,9 @@
         "icon": "storm_ui_icon_etc_facemelt.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "E.T.C.|W1",
+        "abilityId": "ETC|W1",
         "abilityLinks": [
-          "E.T.C.|W1"
+          "ETC|W1"
         ]
       },
       {
@@ -166,9 +166,9 @@
         "icon": "storm_ui_icon_etc_speedmetal.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "E.T.C.|D1",
+        "abilityId": "ETC|D1",
         "abilityLinks": [
-          "E.T.C.|D1"
+          "ETC|D1"
         ]
       }
     ],
@@ -181,9 +181,9 @@
         "icon": "storm_ui_icon_etc_facemelt.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "E.T.C.|W1",
+        "abilityId": "ETC|W1",
         "abilityLinks": [
-          "E.T.C.|W1"
+          "ETC|W1"
         ]
       },
       {
@@ -194,9 +194,9 @@
         "icon": "storm_ui_icon_etc_echopedal.png",
         "type": "Passive",
         "sort": 2,
-        "abilityId": "E.T.C.|Passive",
+        "abilityId": "ETC|Passive",
         "abilityLinks": [
-          "E.T.C.|D1"
+          "ETC|D1"
         ]
       },
       {
@@ -207,9 +207,9 @@
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "E.T.C.|Passive",
+        "abilityId": "ETC|Passive",
         "abilityLinks": [
-          "E.T.C.|D1"
+          "ETC|D1"
         ]
       }
     ],
@@ -223,9 +223,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 120,
-        "abilityId": "E.T.C.|R1",
+        "abilityId": "ETC|R1",
         "abilityLinks": [
-          "E.T.C.|R1"
+          "ETC|R1"
         ]
       },
       {
@@ -237,9 +237,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 75,
-        "abilityId": "E.T.C.|R2",
+        "abilityId": "ETC|R2",
         "abilityLinks": [
-          "E.T.C.|R2"
+          "ETC|R2"
         ]
       }
     ],
@@ -252,9 +252,9 @@
         "icon": "storm_ui_icon_etc_facemelt.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "E.T.C.|W1",
+        "abilityId": "ETC|W1",
         "abilityLinks": [
-          "E.T.C.|W1"
+          "ETC|W1"
         ]
       },
       {
@@ -265,9 +265,9 @@
         "icon": "storm_ui_icon_etc_facemelt_a.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "E.T.C.|W1",
+        "abilityId": "ETC|W1",
         "abilityLinks": [
-          "E.T.C.|W1"
+          "ETC|W1"
         ]
       },
       {
@@ -278,9 +278,9 @@
         "icon": "storm_ui_icon_etc_facemelt_b.png",
         "type": "W",
         "sort": 3,
-        "abilityId": "E.T.C.|W1",
+        "abilityId": "ETC|W1",
         "abilityLinks": [
-          "E.T.C.|W1"
+          "ETC|W1"
         ]
       }
     ],
@@ -293,9 +293,9 @@
         "icon": "storm_ui_icon_etc_powerslide.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "E.T.C.|Q1",
+        "abilityId": "ETC|Q1",
         "abilityLinks": [
-          "E.T.C.|Q1"
+          "ETC|Q1"
         ]
       },
       {
@@ -306,9 +306,9 @@
         "icon": "storm_ui_icon_etc_guitarsolo.png",
         "type": "E",
         "sort": 2,
-        "abilityId": "E.T.C.|E1",
+        "abilityId": "ETC|E1",
         "abilityLinks": [
-          "E.T.C.|E1"
+          "ETC|E1"
         ]
       },
       {
@@ -320,7 +320,7 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 20,
-        "abilityId": "E.T.C.|Active"
+        "abilityId": "ETC|Active"
       }
     ],
     "20": [
@@ -332,9 +332,9 @@
         "icon": "storm_ui_icon_etc_moshpit.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "E.T.C.|R1",
+        "abilityId": "ETC|R1",
         "abilityLinks": [
-          "E.T.C.|R1"
+          "ETC|R1"
         ]
       },
       {
@@ -345,9 +345,9 @@
         "icon": "storm_ui_icon_etc_stagedive.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "E.T.C.|R2",
+        "abilityId": "ETC|R2",
         "abilityLinks": [
-          "E.T.C.|R2"
+          "ETC|R2"
         ]
       },
       {
@@ -358,9 +358,9 @@
         "icon": "storm_ui_icon_etc_moshpit_a.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "E.T.C.|Passive",
+        "abilityId": "ETC|Passive",
         "abilityLinks": [
-          "E.T.C.|D1"
+          "ETC|D1"
         ]
       },
       {
@@ -372,7 +372,7 @@
         "type": "Active",
         "sort": 4,
         "cooldown": 45,
-        "abilityId": "E.T.C.|Active"
+        "abilityId": "ETC|Active"
       },
       {
         "tooltipId": "GenericBoltoftheStormTalent",
@@ -383,7 +383,7 @@
         "type": "Active",
         "sort": 5,
         "cooldown": 70,
-        "abilityId": "E.T.C.|Active"
+        "abilityId": "ETC|Active"
       }
     ]
   }

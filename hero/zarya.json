@@ -1,5 +1,5 @@
 {
-  "id": "57",
+  "id": 57,
   "shortName": "zarya",
   "attributeId": "Zary",
   "cHeroId": "Zarya",
@@ -20,7 +20,7 @@
   "abilities": {
     "Zarya": [
       {
-        "uid": "bbf6e60",
+        "uid": "0458c3",
         "name": "Particle Grenade",
         "description": "Launch a particle grenade that deals 75 (+4% per level) damage to enemies within the area. Deals 50% damage to Structures.  Stores up to 4 charges.",
         "hotkey": "Q",
@@ -30,7 +30,7 @@
         "type": "basic"
       },
       {
-        "uid": "3d2b3fd",
+        "uid": "7b0a5e",
         "name": "Personal Barrier",
         "description": "Gain a Shield that absorbs 560 (+4% per level) damage for 3 seconds.",
         "hotkey": "W",
@@ -40,7 +40,7 @@
         "type": "basic"
       },
       {
-        "uid": "54bc2db",
+        "uid": "f5b6eb",
         "name": "Shield Ally",
         "description": "Grants an allied Hero a Shield that absorbs 420 (+4% per level) damage for 3 seconds.",
         "hotkey": "E",
@@ -50,17 +50,7 @@
         "type": "basic"
       },
       {
-        "uid": "0c2ce1e",
-        "name": "Expulsion Zone",
-        "description": "Launch a gravity bomb that deals 124 (+4% per level) damage and creates an expulsion zone for 3.5 seconds. Enemies who enter the affected area are knocked back and have their Movement Speed reduced by 50% for 1 second.",
-        "hotkey": "R",
-        "abilityId": "Zarya|R2",
-        "cooldown": 45,
-        "icon": "storm_ui_icon_zarya_expulsionzone.png",
-        "type": "heroic"
-      },
-      {
-        "uid": "7847566",
+        "uid": "85436d",
         "name": "Graviton Surge",
         "description": "Launch a gravity bomb that detonates after 1 second and draws enemy Heroes toward the center for 2.5 seconds.",
         "hotkey": "R",
@@ -70,7 +60,17 @@
         "type": "heroic"
       },
       {
-        "uid": "25511a4",
+        "uid": "899d83",
+        "name": "Expulsion Zone",
+        "description": "Launch a gravity bomb that deals 124 (+4% per level) damage and creates an expulsion zone for 3.5 seconds. Enemies who enter the affected area are knocked back and have their Movement Speed reduced by 50% for 1 second.",
+        "hotkey": "R",
+        "abilityId": "Zarya|R2",
+        "cooldown": 45,
+        "icon": "storm_ui_icon_zarya_expulsionzone.png",
+        "type": "heroic"
+      },
+      {
+        "uid": "34afa1",
         "name": "Energy",
         "description": "Each time Zarya's Personal Barrier or Shield Ally absorbs 9 (+4% per level) damage, her Energy is increased by 1. Each point of Energy increases Zarya's damage by 2%. After 0.5 seconds, Energy decays by 3 per second.",
         "trait": true,
