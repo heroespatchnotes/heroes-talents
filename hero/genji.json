@@ -1,5 +1,5 @@
 {
-  "id": "66",
+  "id": 66,
   "shortName": "genji",
   "attributeId": "Genj",
   "cHeroId": "Genji",
@@ -21,7 +21,7 @@
   "abilities": {
     "Genji": [
       {
-        "uid": "b02b4cf",
+        "uid": "c2ed1a",
         "name": "Shuriken",
         "description": "Throw 3 Shuriken in a spread pattern, each dealing 65 (+4% per level) damage to the first enemy hit.  Stores up to 3 charges.  Shuriken's cooldown replenishes all charges at the same time.",
         "hotkey": "Q",
@@ -32,7 +32,7 @@
         "type": "basic"
       },
       {
-        "uid": "e3695ec",
+        "uid": "27468d",
         "name": "Deflect",
         "description": "Channel for 1.25 seconds, becoming Protected and blocking damage. Any damage blocked while channeling causes Genji to throw a Kunai toward the nearest enemy, prioritizing Heroes and dealing 55 (+4% per level) damage.  Total Damage Deflected: 0",
         "hotkey": "W",
@@ -43,7 +43,7 @@
         "type": "basic"
       },
       {
-        "uid": "18d4acf",
+        "uid": "a01ab8",
         "name": "Swift Strike",
         "description": "Dash forward, dealing 190 (+4% per level) damage to all enemies in a line. Enemy Heroes that die within 1.5 seconds of being hit with Swift Strike cause the cooldown and mana cost to be refunded.",
         "hotkey": "E",
@@ -54,7 +54,7 @@
         "type": "basic"
       },
       {
-        "uid": "3d18aab",
+        "uid": "ba877b",
         "name": "Dragonblade",
         "description": "Unleash the Dragonblade for 8 seconds. While active, Dragonblade can be reactivated to lunge forward and slash in a huge arc, dealing 240 (+4% per level) damage.",
         "hotkey": "R",
@@ -65,7 +65,7 @@
         "type": "heroic"
       },
       {
-        "uid": "d577507",
+        "uid": "06f87e",
         "name": "X-Strike",
         "description": "Perform two slashes dealing 135 (+4% per level) damage. The slashes detonate after 1.25 seconds causing an additional 270 (+4% per level) damage to enemies in their area.",
         "hotkey": "R",
@@ -76,10 +76,9 @@
         "type": "heroic"
       },
       {
-        "uid": "20bf795",
+        "uid": "c4d7cf",
         "name": "Cyber Agility",
         "description": "Activate to jump to the target area.",
-        "hotkey": "D",
         "trait": true,
         "abilityId": "Genji|D1",
         "cooldown": 15,
@@ -166,7 +165,7 @@
         "icon": "storm_ui_icon_genji_shurikens_dragonsoul.png",
         "type": "Active",
         "sort": 3,
-        "abilityId": "Genji|W1",
+        "abilityId": "Genji|Active",
         "abilityLinks": [
           "Genji|W1"
         ]

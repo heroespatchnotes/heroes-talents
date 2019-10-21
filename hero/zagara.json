@@ -1,5 +1,5 @@
 {
-  "id": "27",
+  "id": 27,
   "shortName": "zagara",
   "attributeId": "Zaga",
   "cHeroId": "Zagara",
@@ -21,7 +21,7 @@
   "abilities": {
     "Zagara": [
       {
-        "uid": "13bfb31",
+        "uid": "5a2c02",
         "name": "Baneling Barrage",
         "description": "Launch 1 Baneling that deals 86 (+4% per level) damage to enemies it hits.  Stores up to 4 charges.",
         "hotkey": "Q",
@@ -32,7 +32,7 @@
         "type": "basic"
       },
       {
-        "uid": "ad0d2bd",
+        "uid": "daa2e2",
         "name": "Hunter Killer",
         "description": "Summon a Hydralisk to attack a single target, dealing 71 (+5% per level) damage per second. Lasts 8 seconds.",
         "hotkey": "W",
@@ -43,7 +43,7 @@
         "type": "basic"
       },
       {
-        "uid": "5e5990a",
+        "uid": "340714",
         "name": "Infested Drop",
         "description": "Bombard target area with a Zerg Drop Pod for 140 (+4% per level) damage.  The pod spawns 2 Roachlings that deal 27 (+4% per level) damage per second and last for 8 seconds.",
         "hotkey": "E",
@@ -54,7 +54,7 @@
         "type": "basic"
       },
       {
-        "uid": "6097873",
+        "uid": "7d9fbd",
         "name": "Nydus Network",
         "description": "Summon a Nydus Worm on Creep anywhere that Zagara has vision. Zagara can enter a Nydus Worm and travel to any other Nydus Worm by right-clicking near it. While inside a Nydus Worm, Zagara regenerates 10% Health and Mana per second.  Stores up to 2 charges. Maximum of 4 Nydus Worms at a time.  Passive: Creep spreads 15% farther.  Passive: While on Creep, each Basic Attack reduces all of Zagara's cooldowns by 0.4 seconds.",
         "hotkey": "R",
@@ -65,7 +65,7 @@
         "type": "heroic"
       },
       {
-        "uid": "b67da9b",
+        "uid": "311ea7",
         "name": "Devouring Maw",
         "description": "Summon a Devouring Maw that devours enemies for 4 seconds. Devoured enemies cannot fight and take 88 (+4% per level) damage per second.  Usable on Unstoppable enemies.",
         "hotkey": "R",
@@ -76,10 +76,9 @@
         "type": "heroic"
       },
       {
-        "uid": "db8b00f",
+        "uid": "d4b96a",
         "name": "Creep Tumor",
         "description": "Lay a Creep Tumor that generates Creep. While on Creep, Zagara gains 20% additional attack range and both Zagara and her summons move 20% faster. Tumors last 240 seconds and reveal the surrounding area while active.  Stores up to 3 charges.",
-        "hotkey": "D",
         "trait": true,
         "abilityId": "Zagara|D1",
         "cooldown": 18,
@@ -136,7 +135,7 @@
         "icon": "storm_ui_icon_talent_autoattack_range.png",
         "type": "Active",
         "sort": 1,
-        "cooldown": 30,
+        "cooldown": 430,
         "abilityId": "Zagara|Active"
       },
       {

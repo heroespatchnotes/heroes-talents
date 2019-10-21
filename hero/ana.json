@@ -1,5 +1,5 @@
 {
-  "id": "72",
+  "id": 72,
   "shortName": "ana",
   "attributeId": "HANA",
   "cHeroId": "Ana",
@@ -22,7 +22,7 @@
   "abilities": {
     "Ana": [
       {
-        "uid": "1544659",
+        "uid": "b08c06",
         "name": "Healing Dart",
         "description": "Fire a dart which heals the first allied Hero hit for 195 (+4% per level) Health. Does not affect full Health Heroes.",
         "hotkey": "Q",
@@ -33,7 +33,7 @@
         "type": "basic"
       },
       {
-        "uid": "1590783",
+        "uid": "33bdc2",
         "name": "Biotic Grenade",
         "description": "Toss a grenade at the target area. Allied Heroes hit are healed for 152 (+4% per level) Health and receive 25% increased healing from Ana for 4 seconds. Enemies hit take 60 (+4% per level) damage and receive 100% less healing for 2 seconds.",
         "hotkey": "W",
@@ -44,7 +44,7 @@
         "type": "basic"
       },
       {
-        "uid": "61433a4",
+        "uid": "0d497c",
         "name": "Sleep Dart",
         "description": "Fire a dart that puts the first enemy Hero hit to Sleep, Stunning them for 3 seconds. Sleep's effects end instantly if the target takes damage after the first 0.5 seconds.  Cannot be used on Vehicles.",
         "hotkey": "E",
@@ -55,18 +55,7 @@
         "type": "basic"
       },
       {
-        "uid": "08549fe",
-        "name": "Eye of Horus",
-        "description": "Assume a sniping position, gaining the ability to fire up to 6 specialized rounds with unlimited range. Rounds pierce allied and enemy Heroes but collide with enemy Structures in their path. Allies are healed for 225 (+4% per level) and enemies are damaged for 135 (+4% per level). Deals 50% less damage to Structures.  Ana is unable to move while Eye of Horus is active.",
-        "hotkey": "R",
-        "abilityId": "Ana|R2",
-        "cooldown": 60,
-        "manaCost": 45,
-        "icon": "storm_ui_icon_ana_overwatch.png",
-        "type": "heroic"
-      },
-      {
-        "uid": "a9a7caf",
+        "uid": "d32efd",
         "name": "Nano Boost",
         "description": "Instantly boost an allied Hero, restoring 200 Mana. For the next 8 seconds, they gain 30% Spell Power and their Basic Ability cooldowns recharge 150% faster.  Cannot be used on Ana.",
         "hotkey": "R",
@@ -77,9 +66,20 @@
         "type": "heroic"
       },
       {
-        "uid": "ff47987",
+        "uid": "cdc336",
+        "name": "Eye of Horus",
+        "description": "Assume a sniping position, gaining the ability to fire up to 6 specialized rounds with unlimited range. Rounds pierce allied and enemy Heroes but collide with enemy Structures in their path. Allies are healed for 225 (+4% per level) and enemies are damaged for 135 (+4% per level). Deals 50% less damage to Structures.  Ana is unable to move while Eye of Horus is active.",
+        "hotkey": "R",
+        "abilityId": "Ana|R2",
+        "cooldown": 60,
+        "manaCost": 45,
+        "icon": "storm_ui_icon_ana_overwatch.png",
+        "type": "heroic"
+      },
+      {
+        "uid": "314233",
         "name": "Shrike",
-        "description": "Basic Attacks apply a Dose to enemies, dealing an additional 40 (+4% per level) damage over 5 seconds, and stacking up to 5 times. Every 0.5 seconds, Ana is healed for 50% of the damage dealt by Shrike.  Aim Down Sights  Activating Shrike reduces your Movement Speed by 25%, but increases the Range of Healing Dart and Sleep Dart by 25% while also allowing them to pierce one Hero. Lasts until canceled.",
+        "description": "Basic Attacks apply a Dose to enemies, dealing an additional 40 (+4% per level) damage over 5 seconds, and stacking up to 5 times. Every 0.5 seconds, Ana is healed for 60% of the damage dealt by Shrike.  Aim Down Sights  Activating Shrike reduces your Movement Speed by 25%, but increases the Range of Healing Dart and Sleep Dart by 25% while also allowing them to pierce one Hero. Lasts until canceled.",
         "trait": true,
         "abilityId": "Ana|D1",
         "cooldown": 4,
@@ -107,7 +107,7 @@
         "tooltipId": "AnaSleepingDartSlumberShells",
         "talentTreeId": "AnaSleepingDartSlumberShells",
         "name": "Slumber Shells",
-        "description": "Upon waking, enemy Heroes are Slowed by 25% for 3 seconds.",
+        "description": "Reduce the cooldown of Sleep Dart by 4 seconds. Upon waking, enemy Heroes are Slowed by 25% for 3 seconds.",
         "icon": "storm_ui_icon_ana_sleep_dart.png",
         "type": "E",
         "sort": 2,
@@ -120,7 +120,7 @@
         "tooltipId": "AnaShrikeVampiricRounds",
         "talentTreeId": "AnaShrikeVampiricRounds",
         "name": "Vampiric Rounds",
-        "description": "Quest: Stack 5 Doses on an enemy Hero.  Reward: Increase Shrike's healing by an additional 1.5%.",
+        "description": "Quest: Stack 5 Doses on an enemy Hero or Basic Attack a Hero with 5 Doses.  Reward: Stack 5 Doses to increase Shrike's healing by 0.75%.  Reward: Basic Attack a Hero with 5 Doses to increase Shrike's healing by 0.25%.",
         "icon": "storm_ui_icon_ana_shrike.png",
         "type": "Trait",
         "sort": 3,
@@ -188,7 +188,7 @@
         "tooltipId": "AnaSleepDartNightTerrors",
         "talentTreeId": "AnaSleepDartNightTerrors",
         "name": "Night Terrors",
-        "description": "Upon waking, enemy Heroes take 10% of their Maximum Health in damage. If a Hero is not woken up early, set the cooldown of Sleep Dart to 5 seconds.",
+        "description": "Gain 20% Movement Speed for 2 seconds for every Hero hit by Sleeping Dart. Upon waking, enemy Heroes take 10% of their Maximum Health in damage.",
         "icon": "storm_ui_icon_ana_sleep_dart.png",
         "type": "E",
         "sort": 2,
@@ -318,8 +318,7 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 60,
-        "isQuest": true,
-        "abilityId": "Ana|Q1",
+        "abilityId": "Ana|Active",
         "abilityLinks": [
           "Ana|Q1"
         ]

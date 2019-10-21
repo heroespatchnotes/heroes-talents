@@ -1,5 +1,5 @@
 {
-  "id": "50",
+  "id": 50,
   "shortName": "dehaka",
   "attributeId": "Deha",
   "cHeroId": "Dehaka",
@@ -23,7 +23,7 @@
   "abilities": {
     "Dehaka": [
       {
-        "uid": "51bc862",
+        "uid": "f0ef71",
         "name": "Drag",
         "description": "Dehaka lashes out his tongue, dealing 160 (+4% per level) damage to the first enemy hit, Stunning and dragging them with him for 1.75 seconds.  If Dehaka is Stunned or Silenced while using Drag, the effect ends.",
         "hotkey": "Q",
@@ -34,7 +34,7 @@
         "type": "basic"
       },
       {
-        "uid": "0abfb4a",
+        "uid": "3e4760",
         "name": "Dark Swarm",
         "description": "Deal 47 (+4% per level) damage every 0.5 seconds to nearby enemies for 3.5 seconds. While active, you are able to move through units. Can be cast during Drag and Burrow.",
         "hotkey": "W",
@@ -45,7 +45,7 @@
         "type": "basic"
       },
       {
-        "uid": "8b762c0",
+        "uid": "45fd30",
         "name": "Burrow",
         "description": "Burrow into the ground, entering Stasis and becoming Invulnerable for 2 seconds.",
         "hotkey": "E",
@@ -56,7 +56,7 @@
         "type": "basic"
       },
       {
-        "uid": "c5527a4",
+        "uid": "8fbeb3",
         "name": "Isolation",
         "description": "Launch biomass that hits the first enemy Hero dealing 200 (+4% per level) damage, revealing, Silencing, and Slowing them 30% for 3 seconds. Additionally, their vision radius is greatly reduced for 6 seconds.",
         "hotkey": "R",
@@ -67,7 +67,7 @@
         "type": "heroic"
       },
       {
-        "uid": "b975167",
+        "uid": "ba1849",
         "name": "Adaptation",
         "description": "After 4 seconds, heal for 100% of the damage Dehaka took over this period.",
         "hotkey": "R",
@@ -78,10 +78,9 @@
         "type": "heroic"
       },
       {
-        "uid": "ed6ae16",
+        "uid": "c2eb8f",
         "name": "Essence Collection",
         "description": "Heal Dehaka for 29 (+4% per level) Health per stored Essence over 5 seconds. Can be cast during Drag and Burrow.  Passive: Gain 10 Essence from Takedowns and 2 Essence from nearby Minions dying. Maximum of 50 Essence.",
-        "hotkey": "D",
         "trait": true,
         "abilityId": "Dehaka|D1",
         "cooldown": 5,
@@ -89,7 +88,7 @@
         "type": "trait"
       },
       {
-        "uid": "0dce7a8",
+        "uid": "253126",
         "name": "Brushstalker",
         "description": "Activate to burrow to a bush on the Battleground.  Passive: Gain 20% movement speed while in a bush and for 2 seconds after leaving.",
         "hotkey": "Z",
@@ -123,11 +122,7 @@
         "icon": "storm_ui_icon_dehaka_essencecollection.png",
         "type": "Trait",
         "sort": 2,
-        "isQuest": true,
-        "abilityId": "Dehaka|D1",
-        "abilityLinks": [
-          "Dehaka|D1"
-        ]
+        "isQuest": true
       },
       {
         "tooltipId": "DehakaEssenceCollectionTalentEnhancedAgility",
@@ -165,11 +160,7 @@
         "description": "Increases Essence collected from Minions by 50%.",
         "icon": "storm_ui_icon_dehaka_essencecollection.png",
         "type": "Trait",
-        "sort": 2,
-        "abilityId": "Dehaka|D1",
-        "abilityLinks": [
-          "Dehaka|D1"
-        ]
+        "sort": 2
       },
       {
         "tooltipId": "DehakaEssenceCollectionTalentHeroStalker",
@@ -264,11 +255,7 @@
         "description": "Gain 1% increased Attack Damage per Essence stored.",
         "icon": "storm_ui_icon_dehaka_essencecollection.png",
         "type": "Trait",
-        "sort": 1,
-        "abilityId": "Dehaka|D1",
-        "abilityLinks": [
-          "Dehaka|D1"
-        ]
+        "sort": 1
       },
       {
         "tooltipId": "DehakaBrushstalkerFerociousStalkerTalent",
@@ -385,11 +372,7 @@
         "description": "Dehaka's Basic Attacks slow the target by 20% for 1 second. If the target is a Hero, Dehaka gains 5 Essence.",
         "icon": "storm_ui_icon_dehaka_essencecollection.png",
         "type": "Trait",
-        "sort": 4,
-        "abilityId": "Dehaka|D1",
-        "abilityLinks": [
-          "Dehaka|D1"
-        ]
+        "sort": 4
       }
     ]
   }

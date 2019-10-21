@@ -1,5 +1,5 @@
 {
-  "id": "48",
+  "id": 48,
   "shortName": "liming",
   "attributeId": "Wiza",
   "cHeroId": "Wizard",
@@ -18,68 +18,68 @@
     "TowerPusher"
   ],
   "abilities": {
-    "Li-Ming": [
+    "LiMing": [
       {
-        "uid": "7efb099",
+        "uid": "e87a11",
         "name": "Magic Missiles",
         "description": "Fire three missiles toward an area, each dealing 147 (+3.5% per level) damage to the first enemy hit. These missiles do 50% damage to Structures.",
         "hotkey": "Q",
-        "abilityId": "Li-Ming|Q1",
+        "abilityId": "LiMing|Q1",
         "cooldown": 3,
         "manaCost": 20,
         "icon": "storm_ui_icon_wizard_magicmissiles.png",
         "type": "basic"
       },
       {
-        "uid": "10b62b5",
+        "uid": "e035bf",
         "name": "Arcane Orb",
         "description": "Fire an Orb that powers up as it travels, dealing 135 (+3% per level) damage to the first enemy hit. Damage is increased the further it travels, up to 270 (+3% per level) more damage.",
         "hotkey": "W",
-        "abilityId": "Li-Ming|W1",
+        "abilityId": "LiMing|W1",
         "cooldown": 8,
         "manaCost": 40,
         "icon": "storm_ui_icon_wizard_arcaneorb.png",
         "type": "basic"
       },
       {
-        "uid": "5ec61d9",
+        "uid": "618a6b",
         "name": "Teleport",
         "description": "Teleport a short distance instantly.",
         "hotkey": "E",
-        "abilityId": "Li-Ming|E1",
+        "abilityId": "LiMing|E1",
         "cooldown": 5,
         "manaCost": 30,
         "icon": "storm_ui_icon_wizard_teleport.png",
         "type": "basic"
       },
       {
-        "uid": "5769b45",
+        "uid": "4d7d28",
         "name": "Disintegrate",
         "description": "Channel a powerful beam, dealing 480 (+5% per level) damage over 2.6 seconds to enemies while they are in it. The direction of the beam changes with your mouse cursor position.",
         "hotkey": "R",
-        "abilityId": "Li-Ming|R1",
+        "abilityId": "LiMing|R1",
         "cooldown": 30,
         "manaCost": 80,
         "icon": "storm_ui_icon_wizard_disintegrate.png",
         "type": "heroic"
       },
       {
-        "uid": "4bdc74f",
+        "uid": "4b23e9",
         "name": "Wave of Force",
         "description": "Knock away all enemies from an area and deal 160 (+5% per level) damage.",
         "hotkey": "R",
-        "abilityId": "Li-Ming|R2",
+        "abilityId": "LiMing|R2",
         "cooldown": 20,
         "manaCost": 80,
         "icon": "storm_ui_icon_wizard_waveofforce.png",
         "type": "heroic"
       },
       {
-        "uid": "75eaa4c",
+        "uid": "eb733b",
         "name": "Critical Mass",
         "description": "Getting a Takedown will refresh the cooldown on all of Li-Ming's Abilities.",
         "trait": true,
-        "abilityId": "Li-Ming|D1",
+        "abilityId": "LiMing|D1",
         "icon": "storm_ui_icon_wizard_criticalmass.png",
         "type": "trait"
       }
@@ -91,13 +91,13 @@
         "tooltipId": "WizardForceArmorTalent",
         "talentTreeId": "WizardForceArmor",
         "name": "Force Armor",
-        "description": "When Magic Missiles damages an enemy Hero, gain 50 Spell Armor against the next enemy Ability, reducing the damage taken by 50%. Gain 1 charge per cast.  Stores up to 4 charges.",
+        "description": "When Magic Missiles damages an enemy Hero, gain 50 Spell Armor, reducing the damage taken by the next Ability by 50%. Gain 1 charge per cast and store up to 4 charges.  Passive: Li-Ming's Mana regeneration is increased by 100% while below 35% Mana.",
         "icon": "storm_ui_icon_wizard_magicmissiles.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Li-Ming|Q1",
+        "abilityId": "LiMing|Q1",
         "abilityLinks": [
-          "Li-Ming|Q1"
+          "LiMing|Q1"
         ]
       },
       {
@@ -108,22 +108,9 @@
         "icon": "storm_ui_icon_wizard_teleport.png",
         "type": "E",
         "sort": 2,
-        "abilityId": "Li-Ming|E1",
+        "abilityId": "LiMing|E1",
         "abilityLinks": [
-          "Li-Ming|E1"
-        ]
-      },
-      {
-        "tooltipId": "WizardAstralPresence",
-        "talentTreeId": "WizardAstralPresence",
-        "name": "Astral Presence",
-        "description": "Li-Ming's Mana regeneration is increased by 100% while below 35% Mana.",
-        "icon": "storm_btn_d3_traits_wizard_astralpresence.png",
-        "type": "Passive",
-        "sort": 3,
-        "abilityId": "Li-Ming|Passive",
-        "abilityLinks": [
-          "Li-Ming|D1"
+          "LiMing|E1"
         ]
       },
       {
@@ -133,10 +120,10 @@
         "description": "Regeneration Globes restore 100% more Mana and grant 10% Spell Power for 20 seconds.",
         "icon": "storm_ui_icon_talent_powerhungry.png",
         "type": "Passive",
-        "sort": 4,
-        "abilityId": "Li-Ming|Passive",
+        "sort": 3,
+        "abilityId": "LiMing|Passive",
         "abilityLinks": [
-          "Li-Ming|D1"
+          "LiMing|D1"
         ]
       }
     ],
@@ -149,22 +136,22 @@
         "icon": "storm_ui_icon_wizard_magicmissiles.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Li-Ming|Q1",
+        "abilityId": "LiMing|Q1",
         "abilityLinks": [
-          "Li-Ming|Q1"
+          "LiMing|Q1"
         ]
       },
       {
         "tooltipId": "WizardArcaneOrbTriumvirateTalent",
         "talentTreeId": "WizardArcaneOrbTriumvirate",
         "name": "Triumvirate",
-        "description": "If Arcane Orb hits an enemy Hero after traveling at least 50% of its base range, the cooldown is reduced by 5 seconds.",
+        "description": "If Arcane Orb hits an enemy Hero after traveling at least 50% of its base range, the cooldown is reduced by 5 seconds and 40 Mana is refunded.",
         "icon": "storm_ui_icon_wizard_arcaneorb.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "Li-Ming|W1",
+        "abilityId": "LiMing|W1",
         "abilityLinks": [
-          "Li-Ming|W1"
+          "LiMing|W1"
         ]
       },
       {
@@ -175,9 +162,9 @@
         "icon": "storm_ui_icon_wizard_criticalmass.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Li-Ming|D1",
+        "abilityId": "LiMing|D1",
         "abilityLinks": [
-          "Li-Ming|D1"
+          "LiMing|D1"
         ]
       }
     ],
@@ -190,9 +177,9 @@
         "icon": "storm_ui_icon_wizard_magicmissiles.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Li-Ming|Q1",
+        "abilityId": "LiMing|Q1",
         "abilityLinks": [
-          "Li-Ming|Q1"
+          "LiMing|Q1"
         ]
       },
       {
@@ -203,9 +190,9 @@
         "icon": "storm_ui_icon_wizard_arcaneorb.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "Li-Ming|W1",
+        "abilityId": "LiMing|W1",
         "abilityLinks": [
-          "Li-Ming|W1"
+          "LiMing|W1"
         ]
       },
       {
@@ -216,9 +203,9 @@
         "icon": "storm_ui_icon_wizard_teleport.png",
         "type": "E",
         "sort": 3,
-        "abilityId": "Li-Ming|E1",
+        "abilityId": "LiMing|E1",
         "abilityLinks": [
-          "Li-Ming|E1"
+          "LiMing|E1"
         ]
       }
     ],
@@ -232,9 +219,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 30,
-        "abilityId": "Li-Ming|R1",
+        "abilityId": "LiMing|R1",
         "abilityLinks": [
-          "Li-Ming|R1"
+          "LiMing|R1"
         ]
       },
       {
@@ -246,9 +233,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 20,
-        "abilityId": "Li-Ming|R2",
+        "abilityId": "LiMing|R2",
         "abilityLinks": [
-          "Li-Ming|R2"
+          "LiMing|R2"
         ]
       }
     ],
@@ -261,9 +248,9 @@
         "icon": "storm_ui_icon_wizard_teleport.png",
         "type": "E",
         "sort": 1,
-        "abilityId": "Li-Ming|E1",
+        "abilityId": "LiMing|E1",
         "abilityLinks": [
-          "Li-Ming|E1"
+          "LiMing|E1"
         ]
       },
       {
@@ -274,9 +261,9 @@
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
         "sort": 2,
-        "abilityId": "Li-Ming|Passive",
+        "abilityId": "LiMing|Passive",
         "abilityLinks": [
-          "Li-Ming|D1"
+          "LiMing|D1"
         ]
       },
       {
@@ -287,9 +274,9 @@
         "icon": "storm_btn_d3_traits_wizard_glasscannon.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Li-Ming|Passive",
+        "abilityId": "LiMing|Passive",
         "abilityLinks": [
-          "Li-Ming|D1"
+          "LiMing|D1"
         ]
       }
     ],
@@ -302,9 +289,9 @@
         "icon": "storm_ui_icon_wizard_magicmissiles.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Li-Ming|Q1",
+        "abilityId": "LiMing|Q1",
         "abilityLinks": [
-          "Li-Ming|Q1"
+          "LiMing|Q1"
         ]
       },
       {
@@ -315,9 +302,9 @@
         "icon": "storm_ui_icon_wizard_magicmissiles_b.png",
         "type": "Q",
         "sort": 2,
-        "abilityId": "Li-Ming|Q1",
+        "abilityId": "LiMing|Q1",
         "abilityLinks": [
-          "Li-Ming|Q1"
+          "LiMing|Q1"
         ]
       },
       {
@@ -328,9 +315,9 @@
         "icon": "storm_ui_icon_wizard_arcaneorb.png",
         "type": "W",
         "sort": 3,
-        "abilityId": "Li-Ming|W1",
+        "abilityId": "LiMing|W1",
         "abilityLinks": [
-          "Li-Ming|W1"
+          "LiMing|W1"
         ]
       },
       {
@@ -341,9 +328,9 @@
         "icon": "storm_ui_icon_wizard_teleport.png",
         "type": "E",
         "sort": 4,
-        "abilityId": "Li-Ming|E1",
+        "abilityId": "LiMing|E1",
         "abilityLinks": [
-          "Li-Ming|E1"
+          "LiMing|E1"
         ]
       }
     ],
@@ -356,9 +343,9 @@
         "icon": "storm_ui_icon_wizard_disintegrate.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Li-Ming|R1",
+        "abilityId": "LiMing|R1",
         "abilityLinks": [
-          "Li-Ming|R1"
+          "LiMing|R1"
         ]
       },
       {
@@ -369,9 +356,9 @@
         "icon": "storm_ui_icon_wizard_waveofforce.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Li-Ming|R2",
+        "abilityId": "LiMing|R2",
         "abilityLinks": [
-          "Li-Ming|R2"
+          "LiMing|R2"
         ]
       },
       {
@@ -382,9 +369,9 @@
         "icon": "storm_btn_d3_traits_wizard_elementalexposure.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Li-Ming|Passive",
+        "abilityId": "LiMing|Passive",
         "abilityLinks": [
-          "Li-Ming|D1"
+          "LiMing|D1"
         ]
       },
       {
@@ -395,7 +382,7 @@
         "icon": "storm_ui_icon_wizard_archon.png",
         "type": "Active",
         "sort": 4,
-        "abilityId": "Li-Ming|Active"
+        "abilityId": "LiMing|Active"
       }
     ]
   }

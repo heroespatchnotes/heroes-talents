@@ -1,5 +1,5 @@
 {
-  "id": "6",
+  "id": 6,
   "shortName": "gazlowe",
   "attributeId": "Tink",
   "cHeroId": "Tinker",
@@ -22,7 +22,7 @@
   "abilities": {
     "Gazlowe": [
       {
-        "uid": "c70bdc5",
+        "uid": "c31436",
         "name": "Rock-It! Turret",
         "description": "Creates a turret that deals 62 (+4% per level) damage. Lasts for 30 seconds.  Stores up to 2 charges.",
         "hotkey": "Q",
@@ -33,7 +33,7 @@
         "type": "basic"
       },
       {
-        "uid": "9b1ddd5",
+        "uid": "8a7b6e",
         "name": "Deth Lazor",
         "description": "Charged attack that deals 137 (+4% per level) damage to enemies in a line. Damage and range increase the longer the Ability is charged, up to 100% after 3 seconds.  Deth Lazor can be channeled indefinitely.",
         "hotkey": "W",
@@ -44,7 +44,7 @@
         "type": "basic"
       },
       {
-        "uid": "2b1f1d9",
+        "uid": "8f8fb4",
         "name": "Xplodium Charge",
         "description": "Places a bomb that deals 233 (+4% per level) damage to enemies within target area after 2.5 seconds, stunning them for 1.75 seconds.",
         "hotkey": "E",
@@ -55,7 +55,7 @@
         "type": "basic"
       },
       {
-        "uid": "7674f64",
+        "uid": "0de520",
         "name": "Grav-O-Bomb 3000",
         "description": "After a 2 second delay, pull enemies toward the center of an area and deal 251 (+4% per level) damage.",
         "hotkey": "R",
@@ -66,7 +66,7 @@
         "type": "heroic"
       },
       {
-        "uid": "66818b8",
+        "uid": "5a140f",
         "name": "Robo-Goblin",
         "description": "Activate to gain 40 Armor and 30% Movement Speed for 4 seconds.  Passive: Basic Attacks deal 100% bonus damage.",
         "hotkey": "R",
@@ -76,20 +76,19 @@
         "type": "heroic"
       },
       {
-        "uid": "dd49e53",
+        "uid": "0bdf5b",
         "name": "Salvager",
         "description": "Destroyed enemy Structures and Rock-it! Turrets drop Scrap. Collecting Scrap restores 30 Mana and causes Abilities to recharge three times as fast over 3 seconds.  Activate Salvager to dismantle a target Rock-it! Turret and turn it into Scrap.",
-        "hotkey": "D",
         "trait": true,
         "abilityId": "Gazlowe|D1",
         "icon": "storm_ui_icon_gazlowe_salvager.png",
         "type": "trait"
       },
       {
-        "uid": "1cfd392",
+        "uid": "9236e5",
         "name": "Focus Turrets!",
         "description": "Orders any nearby Rock-It! Turrets to focus the target.",
-        "hotkey": "1",
+        "hotkey": 1,
         "abilityId": "Gazlowe|11",
         "cooldown": 1,
         "icon": "storm_ui_icon_gazlowe_rockitturret_var1.png",

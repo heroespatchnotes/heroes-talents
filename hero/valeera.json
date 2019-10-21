@@ -1,5 +1,5 @@
 {
-  "id": "62",
+  "id": 62,
   "shortName": "valeera",
   "attributeId": "VALE",
   "cHeroId": "Valeera",
@@ -21,7 +21,7 @@
   "abilities": {
     "Valeera": [
       {
-        "uid": "3737e22",
+        "uid": "b9555b",
         "name": "Sinister Strike",
         "description": "Dash forward, hitting all enemies in a line for 110 (+4% per level) damage. If Sinister Strike hits a Hero, Valeera stops dashing immediately and the cooldown is reduced to 1 second.  Awards 1 Combo Point.  Stealth: Ambush Heavily damage an enemy and reduce their Armor.",
         "hotkey": "Q",
@@ -32,7 +32,7 @@
         "type": "basic"
       },
       {
-        "uid": "3cb16e4",
+        "uid": "b02e4c",
         "name": "Blade Flurry",
         "description": "Deal 130 (+4% per level) damage in an area around Valeera.  Awards 1 Combo Point per enemy Hero hit.  Stealth: Cheap Shot Stun, Blind, and damage an enemy.",
         "hotkey": "W",
@@ -43,7 +43,7 @@
         "type": "basic"
       },
       {
-        "uid": "c37452b",
+        "uid": "85c754",
         "name": "Eviscerate",
         "description": "Eviscerate an enemy, dealing damage per Combo Point.  1 Point: 85 (+4% per level) 2 Points: 170 (+4% per level) 3 Points: 255 (+4% per level)  Stealth: Garrote Silence and damage an enemy over time.",
         "hotkey": "E",
@@ -54,17 +54,7 @@
         "type": "basic"
       },
       {
-        "uid": "0adf79f",
-        "name": "Smoke Bomb",
-        "description": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 30 Armor, reducing damage taken by 30%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds.  Using this Ability does not break Stealth.",
-        "hotkey": "R",
-        "abilityId": "Valeera|R2",
-        "cooldown": 60,
-        "icon": "storm_ui_icon_valeera_smokebomb.png",
-        "type": "heroic"
-      },
-      {
-        "uid": "b21b32d",
+        "uid": "ab77e0",
         "name": "Cloak of Shadows",
         "description": "Valeera is enveloped in a Cloak of Shadows, which immediately removes all damage over time effects from her. For 1.5 seconds, she becomes Unstoppable and gains 75 Spell Armor, reducing Ability Damage taken by 75%.  Using this Ability does not break Stealth.",
         "hotkey": "R",
@@ -74,10 +64,19 @@
         "type": "heroic"
       },
       {
-        "uid": "b2836c3",
+        "uid": "31b894",
+        "name": "Smoke Bomb",
+        "description": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 30 Armor, reducing damage taken by 30%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds.  Using this Ability does not break Stealth.",
+        "hotkey": "R",
+        "abilityId": "Valeera|R2",
+        "cooldown": 60,
+        "icon": "storm_ui_icon_valeera_smokebomb.png",
+        "type": "heroic"
+      },
+      {
+        "uid": "3b3e33",
         "name": "Vanish",
         "description": "Vanish from sight, becoming Stealthed, gaining 20% Movement Speed and access to new Abilities. For the first second, Valeera is Unrevealable and can pass through other units. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.  After being Stealthed for 3 seconds, Ambush, Cheap Shot, and Garrote have 100% increased range, and cause Valeera to teleport to the target when used.",
-        "hotkey": "D",
         "trait": true,
         "abilityId": "Valeera|D1",
         "cooldown": 8,
@@ -87,7 +86,7 @@
     ],
     "ValeeraStealth": [
       {
-        "uid": "55af9b1",
+        "uid": "06bc5c",
         "name": "Ambush",
         "description": "Ambush an enemy, dealing 130 (+4% per level) damage and reducing their Armor by 10 for 5 seconds.  Awards 1 Combo Point.  Unstealth: Sinister Strike Dash forward, damaging enemies.",
         "hotkey": "Q",
@@ -95,10 +94,10 @@
         "cooldown": 1,
         "manaCost": 10,
         "icon": "storm_ui_icon_valeera_ambush.png",
-        "type": "subunit"
+        "type": "basic"
       },
       {
-        "uid": "dc7704a",
+        "uid": "0986df",
         "name": "Cheap Shot",
         "description": "Deal 30 (+4% per level) damage to an enemy, Stun them for 0.75 seconds, and Blind them for 2 seconds once Cheap Shot's Stun expires.  Awards 1 Combo Point.  Unstealth: Blade Flurry Deal damage in an area around Valeera.",
         "hotkey": "W",
@@ -106,10 +105,10 @@
         "cooldown": 1,
         "manaCost": 30,
         "icon": "storm_ui_icon_valeera_cheapshot.png",
-        "type": "subunit"
+        "type": "basic"
       },
       {
-        "uid": "07ca592",
+        "uid": "5e801f",
         "name": "Garrote",
         "description": "Deal 20 (+4% per level) damage to an enemy and an additional 140 (+4% per level) damage over 7 seconds, and Silence them for 2.5 seconds.  Awards 1 Combo Point.  Unstealth: Eviscerate High damage finishing move.",
         "hotkey": "E",
@@ -117,7 +116,17 @@
         "cooldown": 1,
         "manaCost": 30,
         "icon": "storm_ui_icon_valeera_garrote.png",
-        "type": "subunit"
+        "type": "basic"
+      },
+      {
+        "uid": "b54f24",
+        "name": "Cancel Stealth",
+        "description": "Cancels Stealth.",
+        "trait": true,
+        "abilityId": "Valeera|D2",
+        "cooldown": 1,
+        "icon": "hud_btn_bg_ability_cancel.png",
+        "type": "trait"
       }
     ]
   },
@@ -142,10 +151,10 @@
         "icon": "storm_ui_icon_valeera_vanish.png",
         "type": "Trait",
         "sort": 2,
-        "abilityId": "Valeera|D1",
+        "abilityId": "Valeera|D2",
         "abilityLinks": [
-          "Valeera|D1",
-          "Valeera|D2"
+          "Valeera|D2",
+          "Valeera|D1"
         ]
       },
       {
@@ -205,10 +214,10 @@
         "icon": "storm_ui_icon_valeera_vanish.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Valeera|D1",
+        "abilityId": "Valeera|D2",
         "abilityLinks": [
-          "Valeera|D1",
-          "Valeera|D2"
+          "Valeera|D2",
+          "Valeera|D1"
         ]
       },
       {
@@ -423,10 +432,10 @@
         "icon": "storm_ui_icon_valeera_vanish.png",
         "type": "Trait",
         "sort": 4,
-        "abilityId": "Valeera|D1",
+        "abilityId": "Valeera|D2",
         "abilityLinks": [
-          "Valeera|D1",
-          "Valeera|D2"
+          "Valeera|D2",
+          "Valeera|D1"
         ]
       }
     ]

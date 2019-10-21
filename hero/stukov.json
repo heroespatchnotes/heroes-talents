@@ -1,5 +1,5 @@
 {
-  "id": "69",
+  "id": 69,
   "shortName": "stukov",
   "attributeId": "STUK",
   "cHeroId": "Stukov",
@@ -21,7 +21,7 @@
   "abilities": {
     "Stukov": [
       {
-        "uid": "e4aaf6b",
+        "uid": "7dec2e",
         "name": "Healing Pathogen",
         "description": "Infest an allied Hero with a Healing Pathogen that heals the target for 222 (+4% per level) Health over 4.5 seconds. Healing Pathogens can spread to a nearby allied Hero every 0.75 seconds.  Each cast of Healing Pathogen can only spread to each allied Hero 1 time.",
         "hotkey": "Q",
@@ -32,7 +32,7 @@
         "type": "basic"
       },
       {
-        "uid": "f42e57f",
+        "uid": "7264a2",
         "name": "Weighted Pustule",
         "description": "Hurl a pustule that impacts all enemy Heroes in its path, dealing 20 (+4% per level) damage and Slowing by 5%, increasing to 50% over 3 seconds. Deals an additional 80 (+4% per level) damage upon expiring or being removed.",
         "hotkey": "W",
@@ -43,7 +43,7 @@
         "type": "basic"
       },
       {
-        "uid": "d6ef0a1",
+        "uid": "24adc9",
         "name": "Lurking Arm",
         "description": "Channel at a target location, creating an area that deals 136 (+4% per level) damage per second to non-Structure enemies and Silences them. Deals 50% reduced damage to non-Heroes.  Does not cost Mana while Channeling, and lasts until canceled or interrupted.",
         "hotkey": "E",
@@ -54,18 +54,7 @@
         "type": "basic"
       },
       {
-        "uid": "16e2f04",
-        "name": "Flailing Swipe",
-        "description": "Swipe 3 times in front of Stukov over 1.75 seconds, dealing 48 (+4% per level) damage to enemies hit and knocking them away. Each swipe is larger than the previous.",
-        "hotkey": "R",
-        "abilityId": "Stukov|R2",
-        "cooldown": 60,
-        "manaCost": 60,
-        "icon": "storm_ui_icon_stukov_flailingswipe.png",
-        "type": "heroic"
-      },
-      {
-        "uid": "922f72e",
+        "uid": "da09fd",
         "name": "Massive Shove",
         "description": "Extend Stukov's arm. If it hits an enemy Hero, they are rapidly shoved until they collide with terrain, dealing 190 (+4% per level) damage and Stunning them for 0.5 seconds. Stukov gains 50 Armor while shoving an enemy.",
         "hotkey": "R",
@@ -76,10 +65,20 @@
         "type": "heroic"
       },
       {
-        "uid": "5ab03e7",
+        "uid": "33bf63",
+        "name": "Flailing Swipe",
+        "description": "Swipe 3 times in front of Stukov over 1.75 seconds, dealing 48 (+4% per level) damage to enemies hit and knocking them away. Each swipe is larger than the previous.",
+        "hotkey": "R",
+        "abilityId": "Stukov|R2",
+        "cooldown": 60,
+        "manaCost": 60,
+        "icon": "storm_ui_icon_stukov_flailingswipe.png",
+        "type": "heroic"
+      },
+      {
+        "uid": "f6d1f0",
         "name": "Bio-Kill Switch",
         "description": "Activate to detonate all of Stukov's Viruses. Each Healing Pathogen heals its target for 450 (+4% per level) Health, and each Weighted Pustule does 100 (+4% per level) damage and Slows its target by 70% for 2 seconds.  Can be cast while Channeling Lurking Arm.",
-        "hotkey": "D",
         "trait": true,
         "abilityId": "Stukov|D1",
         "cooldown": 16,
