@@ -363,7 +363,7 @@ Example:
   <img class="img-rounded" src="images/heroes/probius.png" />
   <span>Probius</span>
 </a>
-<a class="img-wrap" href="hero/ragnaros.json">
+<a class="img-wrap" href="hero/qhira.json">
   <img class="img-rounded" src="images/heroes/qhira.png" />
   <span>Qhira</span>
 </a>
