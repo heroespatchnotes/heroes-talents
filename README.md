@@ -147,6 +147,10 @@ Example:
   <img class="img-rounded" src="images/heroes/ana.png" />
   <span>Ana</span>
 </a>
+<a class="img-wrap" href="hero/anduin.json">
+  <img class="img-rounded" src="images/heroes/anduin.png" />
+  <span>Anduin</span>
+</a>
 <a class="img-wrap" href="hero/anubarak.json">
   <img class="img-rounded" src="images/heroes/anubarak.png" />
   <span>Anub'arak</span>
@@ -362,6 +366,10 @@ Example:
 <a class="img-wrap" href="hero/probius.json">
   <img class="img-rounded" src="images/heroes/probius.png" />
   <span>Probius</span>
+</a>
+<a class="img-wrap" href="hero/qhira.json">
+  <img class="img-rounded" src="images/heroes/qhira.png" />
+  <span>Qhira</span>
 </a>
 <a class="img-wrap" href="hero/ragnaros.json">
   <img class="img-rounded" src="images/heroes/ragnaros.png" />
