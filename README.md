@@ -364,6 +364,10 @@ Example:
   <span>Probius</span>
 </a>
 <a class="img-wrap" href="hero/ragnaros.json">
+  <img class="img-rounded" src="images/heroes/qhira.png" />
+  <span>Qhira</span>
+</a>
+<a class="img-wrap" href="hero/ragnaros.json">
   <img class="img-rounded" src="images/heroes/ragnaros.png" />
   <span>Ragnaros</span>
 </a>
