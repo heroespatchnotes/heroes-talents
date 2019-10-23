@@ -79,6 +79,7 @@
         "uid": "cbaafa",
         "name": "Molten Core",
         "description": "Channel on an allied or destroyed Fort or Keep to replace it with Ragnaros's ultimate form, temporarily gaining new Abilities, having 3996 (+4% per level) Health that burns away over 18 seconds.  Ragnaros returns to his normal form upon losing all Health in Molten Core.",
+        "hotkey": "D",
         "trait": true,
         "abilityId": "Ragnaros|D1",
         "cooldown": 120,
@@ -107,16 +108,6 @@
         "type": "basic"
       },
       {
-        "uid": "0479e0",
-        "name": "Shifting Meteor",
-        "description": "Change the direction of Living Meteor.",
-        "hotkey": "W",
-        "abilityId": "Ragnaros|W2",
-        "cooldown": 3,
-        "icon": "storm_ui_icon_ragnaros_shiftingmeteor.png",
-        "type": "basic"
-      },
-      {
         "uid": "b06941",
         "name": "Explosive Rune",
         "description": "Create a rune that deals 285 (+4% per level) damage to non-Structure enemies after 1.5 seconds.  Damage increased by 25% versus Minions, Mercenaries, and Monsters.",
@@ -125,24 +116,6 @@
         "cooldown": 4,
         "icon": "storm_ui_icon_ragnaros_explosiverune.png",
         "type": "basic"
-      },
-      {
-        "uid": "285893",
-        "name": "Return",
-        "description": "Return to original form.",
-        "trait": true,
-        "abilityId": "Ragnaros|D2",
-        "icon": "storm_ui_icon_ragnaros_return.png",
-        "type": "trait"
-      },
-      {
-        "uid": "a7507f",
-        "name": "Cancel Return",
-        "description": "Cancel returning to original form.",
-        "trait": true,
-        "abilityId": "Ragnaros|D3",
-        "icon": "hud_btn_bg_ability_cancel.png",
-        "type": "trait"
       },
       {
         "uid": "2539b7",
@@ -160,7 +133,7 @@
         "description": "Vector Targeting Summon 3 meteors at the target point that fall in the target direction. Each meteor deals 151 (+4% per level) damage and slows enemies by 25% for 2 seconds.  Damage increased by 25% versus Minions, Mercenaries, and Monsters.",
         "hotkey": "W",
         "abilityId": "Ragnaros|W3",
-        "cooldown": 25,
+        "cooldown": 2.5,
         "icon": "storm_ui_icon_ragnaros_meteorshower.png",
         "type": "basic"
       },
