@@ -112,15 +112,12 @@ Example:
 
 ### Game data
 
-* heroes/ and images/ contain standardized and optimized version of the game data
-* raw/ contains game data directly extracted using [HeroesDataParser](https://github.com/koliva8245/HeroesDataParser) with the following command:
-`./HeroesData --description 3 --storagePath [Live/PTR HotS directory] --extract all --json --outputDirectory "/tmp/HeroesDataParser" --heroWarnings --localization all`
+* **heroes/** and **images/** contain curated versions of the game data and icons, prepared by [heroes-convert](https://github.com/tattersoftware/heroes-convert)
+* Unprocessed versions of the parsed game data is hosted at [heroes-data](https://github.com/HeroesToolChest/heroes-data)
+* Uncompressed versions of the icons are hosted at [heroes-images](https://github.com/HeroesToolChest/heroes-images)
+* Game data extractions for both of the repos above are acquired using koliva8245's [HeroesDataParser](https://github.com/HeroesToolChest/HeroesDataParser)
 
-### Resources
-
-* Automated game data extractions are acquired using koliva8245's [HeroesDataParser](https://github.com/koliva8245/HeroesDataParser)
-* Several values are pulled directly from game files using an altered version of [heroesinfo from HotsData](https://github.com/hotsdata/heroesinfo)
-* Most damage and scaling numbers are from dizzyMongoose's [Scaling Stats Google sheet](https://docs.google.com/spreadsheets/d/1QTStBbvf9o5RuJBeM0X1rHrQxd3PCOT4y4li3Mwu9jY/pubhtml#)
+See the [Contributing docs](CONTRIBUTING.md) for more information on our process.
 
 ### Projects using heroes-talents
 
