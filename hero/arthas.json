@@ -49,7 +49,8 @@
         "hotkey": "E",
         "abilityId": "Arthas|E1",
         "cooldown": 1,
-        "manaCost": "second",
+        "manaCost": 13,
+        "manaPerSecond": true,
         "icon": "storm_ui_icon_arthas_frosentempest.png",
         "type": "basic"
       },
@@ -79,6 +80,7 @@
         "uid": "61918e",
         "name": "Frostmourne Hungers",
         "description": "Activate to make Arthas's next Basic Attack strike immediately and deal 99 (+4% per level) increased damage. Dealing damage restores 30 Mana.",
+        "hotkey": "D",
         "trait": true,
         "abilityId": "Arthas|D1",
         "cooldown": 10,

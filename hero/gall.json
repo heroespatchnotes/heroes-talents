@@ -70,21 +70,12 @@
         "uid": "50623f",
         "name": "Ogre Rage",
         "description": "Activate to increase Gall's damage by 25%, but reduce Cho's Armor by 25.  Passive: Gall is permanently immune to Stun and Silence effects.",
+        "hotkey": "D",
         "trait": true,
         "abilityId": "Gall|D1",
         "cooldown": 5,
         "icon": "storm_ui_icon_gall_ogrerage.png",
         "type": "trait"
-      },
-      {
-        "uid": "a130e8",
-        "name": "Eye of Kilrogg",
-        "description": "Place an eye, granting vision of a large area around it for 45 seconds. The eye can be killed by enemies with 2 Basic Attacks. Stores up to 2 charges.",
-        "hotkey": 1,
-        "abilityId": "Gall|11",
-        "cooldown": 45,
-        "icon": "storm_ui_icon_gall_eyeofkilrogg.png",
-        "type": "activable"
       },
       {
         "uid": "2cd39d",
@@ -95,6 +86,16 @@
         "cooldown": 30,
         "icon": "storm_ui_icon_gall_shove.png",
         "type": "mount"
+      },
+      {
+        "uid": "a130e8",
+        "name": "Eye of Kilrogg",
+        "description": "Place an eye, granting vision of a large area around it for 45 seconds. The eye can be killed by enemies with 2 Basic Attacks. Stores up to 2 charges.",
+        "hotkey": 1,
+        "abilityId": "Gall|11",
+        "cooldown": 45,
+        "icon": "storm_ui_icon_gall_eyeofkilrogg.png",
+        "type": "activable"
       }
     ]
   },
