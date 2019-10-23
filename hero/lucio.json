@@ -94,17 +94,6 @@
         "icon": "storm_ui_icon_lucio_mount.png",
         "type": "mount"
       }
-    ],
-    "LucioCrossfade": [
-      {
-        "uid": "07a7bb",
-        "name": "Crossfade",
-        "description": "Currently playing Healing Boost, passively healing Lúcio and nearby allied Heroes for 15 (+4% per level) Health per second.  Toggle to play Speed Boost instead.",
-        "hotkey": "W",
-        "abilityId": "Lucio|W2",
-        "icon": "storm_ui_icon_lucio_crossfadespeed.png",
-        "type": "basic"
-      }
     ]
   },
   "talents": {
@@ -118,9 +107,9 @@
         "type": "W",
         "sort": 1,
         "isQuest": true,
-        "abilityId": "Lucio|W2",
+        "abilityId": "Lucio|W1",
         "abilityLinks": [
-          "Lucio|W2"
+          "Lucio|W1"
         ]
       },
       {
@@ -214,9 +203,9 @@
         "icon": "storm_ui_icon_lucio_crossfade_all.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "Lucio|W2",
+        "abilityId": "Lucio|W1",
         "abilityLinks": [
-          "Lucio|W2"
+          "Lucio|W1"
         ]
       },
       {
@@ -270,9 +259,9 @@
         "icon": "storm_ui_icon_lucio_crossfade_all.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "Lucio|W2",
+        "abilityId": "Lucio|W1",
         "abilityLinks": [
-          "Lucio|W2"
+          "Lucio|W1"
         ]
       },
       {
@@ -376,9 +365,9 @@
         "icon": "storm_ui_icon_lucio_crossfade_all.png",
         "type": "W",
         "sort": 3,
-        "abilityId": "Lucio|W2",
+        "abilityId": "Lucio|W1",
         "abilityLinks": [
-          "Lucio|W2"
+          "Lucio|W1"
         ]
       },
       {
@@ -392,7 +381,7 @@
         "cooldown": 75,
         "abilityId": "Lucio|Active",
         "abilityLinks": [
-          "Lucio|W2"
+          "Lucio|W1"
         ]
       }
     ]

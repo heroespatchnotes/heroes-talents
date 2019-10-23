@@ -127,17 +127,6 @@
         "cooldown": 2.5,
         "icon": "storm_ui_icon_ragnaros_meteorshower.png",
         "type": "basic"
-      },
-      {
-        "uid": "355e2d",
-        "name": "Lava Wave",
-        "description": "Release a wave of lava from Ragnaros's Core that travels down the targeted lane, dealing 240 (+4% per level) damage per second to non-Structure enemies in its path and instantly killing enemy Minions. Damage increased by 100% versus Heroes.",
-        "hotkey": "R",
-        "abilityId": "Ragnaros|R4",
-        "cooldown": 120,
-        "manaCost": 80,
-        "icon": "storm_ui_icon_ragnaros_lavawave.png",
-        "type": "heroic"
       }
     ]
   },
@@ -287,9 +276,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 120,
-        "abilityId": "Ragnaros|R4",
+        "abilityId": "Ragnaros|R2",
         "abilityLinks": [
-          "Ragnaros|R4"
+          "Ragnaros|R2"
         ]
       }
     ],
@@ -395,9 +384,9 @@
         "icon": "storm_ui_icon_ragnaros_lavawave.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Ragnaros|R4",
+        "abilityId": "Ragnaros|R2",
         "abilityLinks": [
-          "Ragnaros|R4"
+          "Ragnaros|R2"
         ]
       },
       {
