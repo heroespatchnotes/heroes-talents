@@ -148,349 +148,11 @@
     ],
     "LostVikingsLongboatRaidNewer": [
       {
-        "uid": "033e0a",
-        "name": "Play Again!",
-        "description": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.  Only one Viking may attempt to summon at a time.",
-        "hotkey": "R",
-        "abilityId": "LostVikings|R3",
-        "cooldown": 80,
-        "icon": "storm_ui_icon_lostvikings_playagain.png",
-        "type": "heroic"
-      },
-      {
-        "uid": "86ef1a",
-        "name": "Viking Bribery",
-        "description": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.  Current number of Bribe stacks: 0",
-        "hotkey": "E",
-        "abilityId": "LostVikings|E2",
-        "icon": "storm_ui_icon_talent_bribe.png",
-        "type": "basic"
-      },
-      {
-        "uid": "23fd3f",
-        "name": "Viking Hoard",
-        "description": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.  Current Bonus: 0 Regen per second",
-        "trait": true,
-        "abilityId": "LostVikings|D2",
-        "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
-        "type": "trait"
-      },
-      {
-        "uid": "23fd3f",
-        "name": "Viking Hoard",
-        "description": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.  Current Bonus: 0 Regen per second",
-        "trait": true,
-        "abilityId": "LostVikings|D3",
-        "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
-        "type": "trait"
-      },
-      {
-        "uid": "39ea12",
-        "name": "Spin To Win!",
-        "description": "Activate to have each Viking deal 101 (+4% per level) damage to nearby enemies.",
-        "hotkey": "Q",
-        "abilityId": "LostVikings|Q3",
-        "cooldown": 10,
-        "icon": "storm_ui_icon_lostvikings_spintowin.png",
-        "type": "basic"
-      },
-      {
-        "uid": "c7798d",
-        "name": "Norse Force!",
-        "description": "All Vikings gain a 130 (+4% per level) to 260 (+4% per level) point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.",
-        "hotkey": "Q",
-        "abilityId": "LostVikings|Q4",
-        "cooldown": 30,
-        "icon": "storm_ui_icon_lostvikings_norseforce.png",
-        "type": "basic"
-      },
-      {
-        "uid": "4fe3b3",
-        "name": "Jump!",
-        "description": "Makes all Vikings Invulnerable and able to pass over enemies for 1.5 seconds.",
-        "hotkey": "W",
-        "abilityId": "LostVikings|W3",
-        "cooldown": 30,
-        "icon": "storm_ui_icon_lostvikings_jump.png",
-        "type": "basic"
-      },
-      {
-        "uid": "c2cd44",
-        "name": "Nordic Attack Squad",
-        "description": "Activate to have all Viking Basic Attacks deal bonus damage equal to 1.25% of a Hero's maximum Health for 5 seconds.",
-        "hotkey": "W",
-        "abilityId": "LostVikings|W4",
-        "cooldown": 20,
-        "icon": "storm_ui_icon_talent_autoattack_damage.png",
-        "type": "basic"
-      },
-      {
-        "uid": "e9f133",
-        "name": "Longboat Raid!",
-        "description": "Hop into an Unstoppable Longboat that fires at nearby enemies for 112 (+4% per level) damage per second and can fire a mortar that deals 205 (+4% per level) damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are stunned for 1.5 seconds. Lasts 15 seconds.  Requires all surviving Vikings to be nearby.",
-        "hotkey": "R",
-        "abilityId": "LostVikings|R4",
-        "cooldown": 90,
-        "icon": "storm_ui_icon_lostvikings_longboatraid.png",
-        "type": "heroic"
-      },
-      {
-        "uid": "74d859",
-        "name": "Go Go Go!",
-        "description": "The Vikings gain 30% increased Movement Speed for 4 seconds.",
-        "hotkey": "Z",
-        "abilityId": "LostVikings|Z2",
-        "cooldown": 30,
-        "icon": "storm_ui_icon_lostvikings_mount.png",
-        "type": "mount"
-      },
-      {
-        "uid": "f173dc",
-        "name": "Select Baleog",
-        "description": "Baleog's Basic Attacks deal 50% splash damage to enemies behind his attack target.",
-        "hotkey": "5",
-        "abilityId": "LostVikings|51",
-        "icon": "storm_ui_icon_lostvikings_selectbaleog.png",
-        "type": "activable"
-      },
-      {
-        "uid": "8da17f",
-        "name": "Select All Vikings",
-        "description": "The Lost Vikings can be controlled individually or as a group. Each Viking has particular strengths.",
-        "hotkey": "6",
-        "abilityId": "LostVikings|61",
-        "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
-        "type": "activable"
-      },
-      {
         "uid": "a40d9c",
         "name": "Mortar",
         "description": "Fires a mortar at the targeted location, dealing 205 (+4% per level) damage in a large area.",
         "hotkey": "Q",
         "abilityId": "LostVikings|Q5",
-        "cooldown": 3,
-        "icon": "storm_ui_icon_lostvikings_mortar.png",
-        "type": "basic"
-      },
-      {
-        "uid": "39ea12",
-        "name": "Spin To Win!",
-        "description": "Activate to have each Viking deal 101 (+4% per level) damage to nearby enemies.",
-        "hotkey": "Q",
-        "abilityId": "LostVikings|Q6",
-        "cooldown": 10,
-        "icon": "storm_ui_icon_lostvikings_spintowin.png",
-        "type": "basic"
-      },
-      {
-        "uid": "c7798d",
-        "name": "Norse Force!",
-        "description": "All Vikings gain a 130 (+4% per level) to 260 (+4% per level) point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.",
-        "hotkey": "Q",
-        "abilityId": "LostVikings|Q7",
-        "cooldown": 30,
-        "icon": "storm_ui_icon_lostvikings_norseforce.png",
-        "type": "basic"
-      },
-      {
-        "uid": "4fe3b3",
-        "name": "Jump!",
-        "description": "Makes all Vikings Invulnerable and able to pass over enemies for 1.5 seconds.",
-        "hotkey": "W",
-        "abilityId": "LostVikings|W5",
-        "cooldown": 30,
-        "icon": "storm_ui_icon_lostvikings_jump.png",
-        "type": "basic"
-      },
-      {
-        "uid": "c2cd44",
-        "name": "Nordic Attack Squad",
-        "description": "Activate to have all Viking Basic Attacks deal bonus damage equal to 1.25% of a Hero's maximum Health for 5 seconds.",
-        "hotkey": "W",
-        "abilityId": "LostVikings|W6",
-        "cooldown": 20,
-        "icon": "storm_ui_icon_talent_autoattack_damage.png",
-        "type": "basic"
-      },
-      {
-        "uid": "86ef1a",
-        "name": "Viking Bribery",
-        "description": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.  Current number of Bribe stacks: 0",
-        "hotkey": "E",
-        "abilityId": "LostVikings|E3",
-        "icon": "storm_ui_icon_talent_bribe.png",
-        "type": "basic"
-      },
-      {
-        "uid": "033e0a",
-        "name": "Play Again!",
-        "description": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.  Only one Viking may attempt to summon at a time.",
-        "hotkey": "R",
-        "abilityId": "LostVikings|R5",
-        "cooldown": 80,
-        "icon": "storm_ui_icon_lostvikings_playagain.png",
-        "type": "heroic"
-      },
-      {
-        "uid": "e9f133",
-        "name": "Longboat Raid!",
-        "description": "Hop into an Unstoppable Longboat that fires at nearby enemies for 112 (+4% per level) damage per second and can fire a mortar that deals 205 (+4% per level) damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are stunned for 1.5 seconds. Lasts 15 seconds.  Requires all surviving Vikings to be nearby.",
-        "hotkey": "R",
-        "abilityId": "LostVikings|R6",
-        "cooldown": 90,
-        "icon": "storm_ui_icon_lostvikings_longboatraid.png",
-        "type": "heroic"
-      },
-      {
-        "uid": "74d859",
-        "name": "Go Go Go!",
-        "description": "The Vikings gain 30% increased Movement Speed for 4 seconds.",
-        "hotkey": "Z",
-        "abilityId": "LostVikings|Z3",
-        "cooldown": 30,
-        "icon": "storm_ui_icon_lostvikings_mount.png",
-        "type": "mount"
-      },
-      {
-        "uid": "f14745",
-        "name": "Select Erik",
-        "description": "Erik moves faster than the other Vikings and has increased Basic Attack range.",
-        "hotkey": "7",
-        "abilityId": "LostVikings|71",
-        "icon": "storm_ui_icon_lostvikings_selecterik.png",
-        "type": "activable"
-      },
-      {
-        "uid": "8da17f",
-        "name": "Select All Vikings",
-        "description": "The Lost Vikings can be controlled individually or as a group. Each Viking has particular strengths.",
-        "hotkey": "8",
-        "abilityId": "LostVikings|81",
-        "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
-        "type": "activable"
-      },
-      {
-        "uid": "a40d9c",
-        "name": "Mortar",
-        "description": "Fires a mortar at the targeted location, dealing 205 (+4% per level) damage in a large area.",
-        "hotkey": "Q",
-        "abilityId": "LostVikings|Q8",
-        "cooldown": 3,
-        "icon": "storm_ui_icon_lostvikings_mortar.png",
-        "type": "basic"
-      },
-      {
-        "uid": "39ea12",
-        "name": "Spin To Win!",
-        "description": "Activate to have each Viking deal 101 (+4% per level) damage to nearby enemies.",
-        "hotkey": "Q",
-        "abilityId": "LostVikings|Q9",
-        "cooldown": 10,
-        "icon": "storm_ui_icon_lostvikings_spintowin.png",
-        "type": "basic"
-      },
-      {
-        "uid": "c7798d",
-        "name": "Norse Force!",
-        "description": "All Vikings gain a 130 (+4% per level) to 260 (+4% per level) point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.",
-        "hotkey": "Q",
-        "abilityId": "LostVikings|Q10",
-        "cooldown": 30,
-        "icon": "storm_ui_icon_lostvikings_norseforce.png",
-        "type": "basic"
-      },
-      {
-        "uid": "4fe3b3",
-        "name": "Jump!",
-        "description": "Makes all Vikings Invulnerable and able to pass over enemies for 1.5 seconds.",
-        "hotkey": "W",
-        "abilityId": "LostVikings|W7",
-        "cooldown": 30,
-        "icon": "storm_ui_icon_lostvikings_jump.png",
-        "type": "basic"
-      },
-      {
-        "uid": "c2cd44",
-        "name": "Nordic Attack Squad",
-        "description": "Activate to have all Viking Basic Attacks deal bonus damage equal to 1.25% of a Hero's maximum Health for 5 seconds.",
-        "hotkey": "W",
-        "abilityId": "LostVikings|W8",
-        "cooldown": 20,
-        "icon": "storm_ui_icon_talent_autoattack_damage.png",
-        "type": "basic"
-      },
-      {
-        "uid": "86ef1a",
-        "name": "Viking Bribery",
-        "description": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.  Current number of Bribe stacks: 0",
-        "hotkey": "E",
-        "abilityId": "LostVikings|E4",
-        "icon": "storm_ui_icon_talent_bribe.png",
-        "type": "basic"
-      },
-      {
-        "uid": "033e0a",
-        "name": "Play Again!",
-        "description": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.  Only one Viking may attempt to summon at a time.",
-        "hotkey": "R",
-        "abilityId": "LostVikings|R7",
-        "cooldown": 80,
-        "icon": "storm_ui_icon_lostvikings_playagain.png",
-        "type": "heroic"
-      },
-      {
-        "uid": "e9f133",
-        "name": "Longboat Raid!",
-        "description": "Hop into an Unstoppable Longboat that fires at nearby enemies for 112 (+4% per level) damage per second and can fire a mortar that deals 205 (+4% per level) damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are stunned for 1.5 seconds. Lasts 15 seconds.  Requires all surviving Vikings to be nearby.",
-        "hotkey": "R",
-        "abilityId": "LostVikings|R8",
-        "cooldown": 90,
-        "icon": "storm_ui_icon_lostvikings_longboatraid.png",
-        "type": "heroic"
-      },
-      {
-        "uid": "23fd3f",
-        "name": "Viking Hoard",
-        "description": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.  Current Bonus: 0 Regen per second",
-        "trait": true,
-        "abilityId": "LostVikings|D4",
-        "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
-        "type": "trait"
-      },
-      {
-        "uid": "74d859",
-        "name": "Go Go Go!",
-        "description": "The Vikings gain 30% increased Movement Speed for 4 seconds.",
-        "hotkey": "Z",
-        "abilityId": "LostVikings|Z4",
-        "cooldown": 30,
-        "icon": "storm_ui_icon_lostvikings_mount.png",
-        "type": "mount"
-      },
-      {
-        "uid": "66631d",
-        "name": "Select Olaf",
-        "description": "Olaf can charge enemies and slow their Movement Speed by 30% for 3 seconds by right-clicking on them. 8 second cooldown.  Olaf gains increased Health Regeneration when out of combat for 4 seconds.",
-        "hotkey": "9",
-        "abilityId": "LostVikings|91",
-        "icon": "storm_ui_icon_lostvikings_selectolaf.png",
-        "type": "activable"
-      },
-      {
-        "uid": "8da17f",
-        "name": "Select All Vikings",
-        "description": "The Lost Vikings can be controlled individually or as a group. Each Viking has particular strengths.",
-        "hotkey": "10",
-        "abilityId": "LostVikings|101",
-        "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
-        "type": "activable"
-      },
-      {
-        "uid": "a40d9c",
-        "name": "Mortar",
-        "description": "Fires a mortar at the targeted location, dealing 205 (+4% per level) damage in a large area.",
-        "hotkey": "Q",
-        "abilityId": "LostVikings|Q11",
         "cooldown": 3,
         "icon": "storm_ui_icon_lostvikings_mortar.png",
         "type": "basic"
@@ -509,7 +171,7 @@
         "sort": 1,
         "abilityId": "LostVikings|Passive",
         "abilityLinks": [
-          "LostVikings|91"
+          "LostVikings|11"
         ]
       },
       {
@@ -522,7 +184,7 @@
         "sort": 2,
         "abilityId": "LostVikings|Passive",
         "abilityLinks": [
-          "LostVikings|71"
+          "LostVikings|31"
         ]
       },
       {
@@ -535,7 +197,7 @@
         "sort": 3,
         "abilityId": "LostVikings|Passive",
         "abilityLinks": [
-          "LostVikings|51"
+          "LostVikings|21"
         ]
       },
       {
@@ -560,7 +222,7 @@
         "sort": 1,
         "abilityId": "LostVikings|Passive",
         "abilityLinks": [
-          "LostVikings|51"
+          "LostVikings|21"
         ]
       },
       {
@@ -573,7 +235,7 @@
         "sort": 2,
         "abilityId": "LostVikings|Passive",
         "abilityLinks": [
-          "LostVikings|71"
+          "LostVikings|31"
         ]
       },
       {
@@ -586,7 +248,7 @@
         "sort": 3,
         "abilityId": "LostVikings|Passive",
         "abilityLinks": [
-          "LostVikings|71"
+          "LostVikings|31"
         ]
       },
       {
@@ -611,7 +273,7 @@
         "sort": 1,
         "abilityId": "LostVikings|Passive",
         "abilityLinks": [
-          "LostVikings|51"
+          "LostVikings|21"
         ]
       },
       {
@@ -647,9 +309,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 90,
-        "abilityId": "LostVikings|R8",
+        "abilityId": "LostVikings|R1",
         "abilityLinks": [
-          "LostVikings|R8"
+          "LostVikings|R1"
         ]
       },
       {
@@ -661,9 +323,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 80,
-        "abilityId": "LostVikings|R7",
+        "abilityId": "LostVikings|R2",
         "abilityLinks": [
-          "LostVikings|R7"
+          "LostVikings|R2"
         ]
       }
     ],
@@ -678,7 +340,7 @@
         "sort": 1,
         "abilityId": "LostVikings|Passive",
         "abilityLinks": [
-          "LostVikings|91"
+          "LostVikings|11"
         ]
       },
       {
@@ -715,7 +377,7 @@
         "sort": 1,
         "abilityId": "LostVikings|Passive",
         "abilityLinks": [
-          "LostVikings|91"
+          "LostVikings|11"
         ]
       },
       {
@@ -736,9 +398,9 @@
         "icon": "storm_ui_icon_lostvikings_64kbmarathon.png",
         "type": "Z",
         "sort": 3,
-        "abilityId": "LostVikings|Z4",
+        "abilityId": "LostVikings|Z1",
         "abilityLinks": [
-          "LostVikings|Z4"
+          "LostVikings|Z1"
         ]
       },
       {
@@ -761,9 +423,9 @@
         "icon": "storm_ui_icon_lostvikings_longboatraid.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "LostVikings|R8",
+        "abilityId": "LostVikings|R1",
         "abilityLinks": [
-          "LostVikings|R8"
+          "LostVikings|R1"
         ]
       },
       {
@@ -774,9 +436,9 @@
         "icon": "storm_ui_icon_lostvikings_playagain.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "LostVikings|R7",
+        "abilityId": "LostVikings|R2",
         "abilityLinks": [
-          "LostVikings|R7"
+          "LostVikings|R2"
         ]
       },
       {
@@ -787,9 +449,9 @@
         "icon": "storm_ui_icon_lostvikings_fastrestart.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "LostVikings|D4",
+        "abilityId": "LostVikings|D1",
         "abilityLinks": [
-          "LostVikings|D4"
+          "LostVikings|D1"
         ]
       },
       {
