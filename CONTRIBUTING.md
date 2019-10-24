@@ -19,25 +19,19 @@ release can be generated and tagged appropriately.
 Hero data is extracted, parsed, and filtered using a few different tools. Anyone can use
 these same tools to submit new patch data.
 
-### heroes-data
-
-[https://github.com/HeroesToolChest/heroes-data](https://github.com/HeroesToolChest/heroes-data)
+### [heroes-data](https://github.com/HeroesToolChest/heroes-data)
 
 **heroes-data** is another repo in the HeroesToolChest containing pre-parsed data for each
 patch from **HeroesDataParser**. This is the source of choice for pre-formatted game data.
 If **heroes-data** is behind you may help provide updated patch data by following the
 process outlined on their [Contributing page](https://github.com/HeroesToolChest/heroes-data/blob/master/CONTRIBUTING.md).
 
-### heroes-images
-
-[https://github.com/HeroesToolChest/heroes-images](https://github.com/HeroesToolChest/heroes-images)
+### [heroes-images](https://github.com/HeroesToolChest/heroes-images)
 
 **heroes-images** is the companion repo to **heroes-data** but contains only image files
 from the most recent patch.
 
-### heroes-convert
-
-[https://github.com/tattersoftware/heroes-convert](https://github.com/tattersoftware/heroes-convert)
+### [heroes-convert](https://github.com/tattersoftware/heroes-convert)
 
 **heroes-convert** is a set of classes and scripts that manipulates the parsed data from
 **heroes-data** into the specific subset and format used for **heroes-talents**. If there
@@ -45,9 +39,7 @@ are hero data inconsistencies then most likely they should be addressed in that 
 See the **heroes-convert** [Readme](https://github.com/tattersoftware/heroes-convert/blob/develop/README.md)
 for details and usage.
 
-### HeroesDataParser
-
-[https://github.com/HeroesToolChest/HeroesDataParser](https://github.com/HeroesToolChest/HeroesDataParser)
+### [HeroesDataParser](https://github.com/HeroesToolChest/HeroesDataParser)
 
 **koliva8245** has written an awesome tool for extracting game data directly from an
 installation of Heroes of the Storm. Most of the time this tool is not needed to update
