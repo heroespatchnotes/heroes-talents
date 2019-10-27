@@ -61,6 +61,17 @@
         "type": "heroic"
       },
       {
+        "uid": "a07a089",
+        "name": "Image Transmission",
+        "description": "Activate to switch places with a target Mirror Image, removing most negative effects from Samuro and the Mirror Image.  Advancing Strikes  Basic Attacks against enemy Heroes increase Samuro's Movement Speed by 25% for 2 seconds.",
+        "hotkey": "R",
+        "trait": true,
+        "abilityId": "Samuro|D1",
+        "cooldown": 25,
+        "icon": "storm_ui_icon_samuro_flowingstrikes.png",
+        "type": "trait"
+      },
+      {
         "uid": "ca46c2",
         "name": "Illusion Master",
         "description": "Mirror Images can be controlled individually or as a group and their damage is increased by 100%.  Passive: Image Transmission's cooldown is reduced to 10 seconds.",
@@ -170,7 +181,7 @@
         "sort": 3,
         "abilityId": "Samuro|Passive",
         "abilityLinks": [
-          "Samuro|R2"
+          "Samuro|D1"
         ]
       }
     ],
@@ -323,7 +334,7 @@
         "sort": 3,
         "abilityId": "Samuro|Passive",
         "abilityLinks": [
-          "Samuro|R2"
+          "Samuro|D1"
         ]
       }
     ],
@@ -373,7 +384,7 @@
         "sort": 4,
         "abilityId": "Samuro|Passive",
         "abilityLinks": [
-          "Samuro|R2"
+          "Samuro|D1"
         ]
       }
     ]
