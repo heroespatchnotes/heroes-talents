@@ -1,5 +1,5 @@
 {
-  "id": "76",
+  "id": 76,
   "shortName": "blaze",
   "attributeId": "Fire",
   "cHeroId": "Firebat",
@@ -22,6 +22,7 @@
   "abilities": {
     "Blaze": [
       {
+        "uid": "434b0b",
         "name": "Flame Stream",
         "description": "Fire two streams that deal 83 (+4% per level) damage to enemies hit. Flame Stream Ignites Oil Spills it comes in contact with.",
         "hotkey": "Q",
@@ -32,6 +33,7 @@
         "type": "basic"
       },
       {
+        "uid": "d1a65a",
         "name": "Oil Spill",
         "description": "Vector Targeting Dispense a slick of oil that lasts for 5 seconds and Slows enemies that come in contact with it by 50%.  Oil Spills are Ignited for 2.5 seconds when hit by Flame Stream. Ignited Oil Spills no longer Slow enemies, but instead deal 16 (+4% per level) damage to them every 0.3 seconds. Additionally, Blaze is healed for 49 (+4% per level) Health every 0.3 seconds while standing in Ignited Oil Spills.  Stores up to 2 charges.",
         "hotkey": "W",
@@ -42,16 +44,18 @@
         "type": "basic"
       },
       {
+        "uid": "7cac5a",
         "name": "Jet Propulsion",
-        "description": "After 0.5 seconds, charge forward. Colliding with an enemy Hero deals 52 (+4% per level) damage to all nearby enemy Heroes and Stuns them for 1.25 seconds.",
+        "description": "After 0.375 seconds, charge forward. Colliding with an enemy Hero deals 52 (+4% per level) damage to all nearby enemy Heroes and Stuns them for 1.25 seconds.",
         "hotkey": "E",
         "abilityId": "Blaze|E1",
-        "cooldown": 8,
-        "manaCost": 40,
+        "cooldown": 10,
+        "manaCost": 45,
         "icon": "storm_ui_icon_blaze_jet.png",
         "type": "basic"
       },
       {
+        "uid": "21af94",
         "name": "Bunker Drop",
         "description": "After 0.5 seconds, deploy and enter a Bunker with 1435 (+4% per level) Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 170 (+4% per level) damage to enemies in a line.  Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.",
         "hotkey": "R",
@@ -62,6 +66,7 @@
         "type": "heroic"
       },
       {
+        "uid": "54872b",
         "name": "Combustion",
         "description": "Channel for up to 2.6 seconds. Upon ending, Slow nearby enemies by 60% and deal 55 (+4% per level) damage to them every 0.5 seconds. Combustion's Slow and damage over time duration is extended the longer Blaze Channels, from 1 second up to 5 seconds.  Blaze's Movement Speed is reduced by 40% while Channeling.",
         "hotkey": "R",
@@ -72,6 +77,7 @@
         "type": "heroic"
       },
       {
+        "uid": "352c77",
         "name": "Pyromania",
         "description": "Gain 40 Armor and deal 40 (+4% per level) damage to nearby enemies every 0.5 seconds for 4 seconds.  Each Hero hit by Flame Stream reduces Pyromania's cooldown by 5 seconds.",
         "hotkey": "D",

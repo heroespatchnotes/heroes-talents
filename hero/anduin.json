@@ -1,5 +1,5 @@
 {
-  "id": "86",
+  "id": 86,
   "shortName": "anduin",
   "attributeId": "Andu",
   "cHeroId": "Anduin",
@@ -21,6 +21,7 @@
   "abilities": {
     "Anduin": [
       {
+        "uid": "751a85",
         "name": "Flash Heal",
         "description": "Cast for 0.75 seconds to heal an allied Hero for 260 (+4% per level).",
         "hotkey": "Q",
@@ -31,6 +32,7 @@
         "type": "basic"
       },
       {
+        "uid": "1beab5",
         "name": "Divine Star",
         "description": "Send light that deals 140 (+4% per level) damage to enemies and then returns to Anduin, healing allied Heroes for 130 (+4% per level) in a wider path. Healing increases by 25% per enemy Hero hit.",
         "hotkey": "W",
@@ -41,6 +43,7 @@
         "type": "basic"
       },
       {
+        "uid": "daab16",
         "name": "Chastise",
         "description": "Shove a swell of light forward, dealing 145 (+4% per level) damage to the first enemy Hero hit and Rooting them for 1.25 seconds.",
         "hotkey": "E",
@@ -51,6 +54,7 @@
         "type": "basic"
       },
       {
+        "uid": "045573",
         "name": "Holy Word: Salvation",
         "description": "After 0.5 seconds, Channel to invoke the Light for 3 seconds. While nearby, allied Heroes heal for up to 25% of their max Health and are Protected.",
         "hotkey": "R",
@@ -61,6 +65,7 @@
         "type": "heroic"
       },
       {
+        "uid": "268fc4",
         "name": "Lightbomb",
         "description": "Imbue an allied Hero with the Light. After 1.5 seconds, it explodes, dealing 150 (+4% per level) damage to enemies and Stunning them for 1.25 seconds.  The target gains a Shield that absorbs 165 (+4% per level) damage per enemy Hero hit. Lasts for 5 seconds.",
         "hotkey": "R",
@@ -71,8 +76,10 @@
         "type": "heroic"
       },
       {
+        "uid": "82b883",
         "name": "Leap of Faith",
         "description": "Faith instantly pulls an allied Hero to Anduin's location, granting them Unstoppable while they travel.",
+        "hotkey": "D",
         "trait": true,
         "abilityId": "Anduin|D1",
         "cooldown": 80,
@@ -169,7 +176,7 @@
         "tooltipId": "AnduinFlashHealBindingHeal",
         "talentTreeId": "AnduinFlashHealBindingHeal",
         "name": "Binding Heal",
-        "description": "Casting Flash Heal on an ally heals Anduin for 95 (+4% per level).",
+        "description": "Casting Flash Heal on an ally heals Anduin for 104 (+4% per level).",
         "icon": "storm_ui_icon_anduin_flash_heal.png",
         "type": "Q",
         "sort": 1,
@@ -195,7 +202,7 @@
         "tooltipId": "AnduinBlessedRecovery",
         "talentTreeId": "AnduinBlessedRecovery",
         "name": "Blessed Recovery",
-        "description": "If Anduin loses more than 8% of his maximum Health at once, recover 15% Health over 3 seconds.  This effect has a 10 second cooldown.",
+        "description": "If Anduin loses more than 8% of his maximum Health at once, recover 15% Health over 3 seconds.  This effect has a 10 second cooldown.  Current Health required: 133 (+4% per level)",
         "icon": "storm_ui_icon_anduin_blessed_recovery.png",
         "type": "Passive",
         "sort": 3,
