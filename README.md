@@ -126,6 +126,26 @@ See the [Contributing docs](CONTRIBUTING.md) for more information on our process
 * [HotsApi](http://hotsapi.net/docs)
 * [Hots-Info-Bot](https://discordbots.org/bot/407735948667912214) discord chatbot
 
+### Want to use this in your node project?
+
+`npm install --save git+https://git@github.com/heroespatchnotes/heroes-talents.git`
+
+We haven't created all the functions we wanted to yet (it'd literally take an hour or two, but I don't have time at the moment), but you can look at test.js for examples or index.js for the source.
+
+```javascript
+const HeroesTalents = require('heroes-talents')
+
+async function test() {
+  try {
+    const heroes = await HeroesTalents.loadHeroJSONFiles()
+    const favoriteHero = heroes.alarak
+    console.log(`My favorite hero is ${favoriteHero.name}. He is an ${favoriteHero.role}.`)
+  } catch(err) {
+    console.log(err)
+  }
+}
+```
+
 ## Heroes
 
 <a class="img-wrap" href="hero/abathur.json">
