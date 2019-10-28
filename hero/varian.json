@@ -1,5 +1,5 @@
 {
-  "id": "59",
+  "id": 59,
   "shortName": "varian",
   "attributeId": "Vari",
   "cHeroId": "Varian",
@@ -21,7 +21,7 @@
   "abilities": {
     "Varian": [
       {
-        "uid": "e15f695",
+        "uid": "f74ce7",
         "name": "Lion's Fang",
         "description": "Create a shockwave that travels in a straight line, dealing 150 (+4% per level) damage and Slowing enemies by 35% for 1.5 seconds. Each enemy hit heals Varian for 35 (+4% per level), increased to 140 (+4% per level) against Heroes.",
         "hotkey": "Q",
@@ -32,7 +32,7 @@
         "type": "basic"
       },
       {
-        "uid": "7a8378b",
+        "uid": "846528",
         "name": "Parry",
         "description": "Parry all incoming Basic Attacks for 1.25 seconds, reducing their damage by 100%.  Stores up to 2 charges.",
         "hotkey": "W",
@@ -43,7 +43,7 @@
         "type": "basic"
       },
       {
-        "uid": "2ba5b0d",
+        "uid": "d692b4",
         "name": "Charge",
         "description": "Charge to the target enemy, dealing 50 (+4% per level) damage and Slowing them by 75% for 1 second.",
         "hotkey": "E",
@@ -54,9 +54,9 @@
         "type": "basic"
       },
       {
-        "uid": "f620e35",
+        "uid": "95aa28",
         "name": "Taunt",
-        "description": "Silence a target Hero and force them to attack Varian for 1.25 seconds.  Passive: Maximum Health and Health Regeneration increased by 30%.",
+        "description": "Silence a target Hero and force them to attack Varian for 1.25 seconds.  Passive: Maximum Health and Health Regeneration increased by 40%.",
         "hotkey": "R",
         "abilityId": "Varian|R1",
         "cooldown": 16,
@@ -65,7 +65,7 @@
         "type": "heroic"
       },
       {
-        "uid": "5ac8d0f",
+        "uid": "1e7f05",
         "name": "Colossus Smash",
         "description": "Smash a target enemy, dealing 160 (+4% per level) damage and lowering their Armor by 20 for 3 seconds, causing them to take 20% increased damage.  Passive: Base Attack Damage increased by 100%. Passive: Maximum Health and Health Regeneration reduced by 10%.",
         "hotkey": "R",
@@ -76,16 +76,16 @@
         "type": "heroic"
       },
       {
-        "uid": "b8832d1",
+        "uid": "002091",
         "name": "Twin Blades of Fury",
-        "description": "Basic Attacks reduce Heroic Strike's cooldown by 9 seconds, and increase Varian's Movement Speed by 30% for 2 seconds.  Passive: Attack Speed increased by 100%. Passive: Base Attack Damage reduced by 20%.",
+        "description": "Basic Attacks reduce Heroic Strike's cooldown by 9 seconds, and increase Varian's Movement Speed by 30% for 2 seconds.  Passive: Attack Speed increased by 100%. Passive: Base Attack Damage reduced by 25%.",
         "hotkey": "R",
         "abilityId": "Varian|R3",
         "icon": "storm_ui_icon_varian_twinbladesoffury.png",
         "type": "heroic"
       },
       {
-        "uid": "4d4cc92",
+        "uid": "9109fa",
         "name": "Heroic Strike",
         "description": "Every 18 seconds, Varian's next Basic Attack deals 125 (+4% per level) bonus Spell Damage. Basic Attacks reduce this cooldown by 2 seconds.",
         "trait": true,
@@ -116,7 +116,7 @@
         "tooltipId": "VarianParryOverpower",
         "talentTreeId": "VarianParryOverpower",
         "name": "Overpower",
-        "description": "When Parry blocks a Hero's Basic Attack, Heroic Strike's cooldown is refreshed and the next one does 30% more damage.",
+        "description": "When Parry blocks a Hero's Basic Attack, Heroic Strike's cooldown is refreshed and the next one does 40% more damage.",
         "icon": "storm_ui_icon_varian_parry.png",
         "type": "W",
         "sort": 2,
@@ -145,7 +145,7 @@
         "tooltipId": "VarianTaunt",
         "talentTreeId": "VarianTaunt",
         "name": "Taunt",
-        "description": "Silence a target Hero and force them to attack Varian for 1.25 seconds.  Passive: Maximum Health and Health Regeneration increased by 30%.",
+        "description": "Silence a target Hero and force them to attack Varian for 1.25 seconds.  Passive: Maximum Health and Health Regeneration increased by 40%.",
         "icon": "storm_ui_icon_varian_taunt.png",
         "type": "Heroic",
         "sort": 1,
@@ -173,11 +173,10 @@
         "tooltipId": "VarianTwinBladesOfFury",
         "talentTreeId": "VarianTwinBladesOfFury",
         "name": "Twin Blades of Fury",
-        "description": "Basic Attacks reduce Heroic Strike's cooldown by 9 seconds, and increase Varian's Movement Speed by 30% for 2 seconds.  Passive: Attack Speed increased by 100%. Passive: Base Attack Damage reduced by 20%.",
+        "description": "Basic Attacks reduce Heroic Strike's cooldown by 9 seconds, and increase Varian's Movement Speed by 30% for 2 seconds.  Passive: Attack Speed increased by 100%. Passive: Base Attack Damage reduced by 25%.",
         "icon": "storm_ui_icon_varian_twinbladesoffury.png",
         "type": "Heroic",
         "sort": 3,
-        "abilityId": "Varian|R3",
         "abilityLinks": [
           "Varian|R3"
         ]
@@ -188,7 +187,7 @@
         "tooltipId": "VarianLionsFangLionheart",
         "talentTreeId": "VarianLionsFangLionheart",
         "name": "Lionheart",
-        "description": "Increase Lion's Fang's healing from Heroes by 50%.",
+        "description": "Increase Lion's Fang's healing from Heroes by 75%.",
         "icon": "storm_ui_icon_varian_lionsfang.png",
         "type": "Q",
         "sort": 1,
@@ -294,7 +293,7 @@
         "icon": "storm_ui_icon_varian_bannerofstormwind.png",
         "type": "Active",
         "sort": 1,
-        "cooldown": 45,
+        "cooldown": 25,
         "abilityId": "Varian|Active"
       },
       {
@@ -316,7 +315,7 @@
         "icon": "storm_ui_icon_varian_bannerofdalaran.png",
         "type": "Active",
         "sort": 3,
-        "cooldown": 45,
+        "cooldown": 25,
         "abilityId": "Varian|Active"
       }
     ],
@@ -364,7 +363,7 @@
         "tooltipId": "VarianBannersGloryToTheAlliance",
         "talentTreeId": "VarianBannersGloryToTheAlliance",
         "name": "Glory to the Alliance",
-        "description": "Banner now also increases health regeneration and all healing received for nearby allied Heroes by 50%, and the cooldown is reduced by 20 seconds.",
+        "description": "Banner now also increases health regeneration and all healing received for nearby allied Heroes by 50%, and the cooldown is reduced by 50%.",
         "icon": "storm_ui_icon_varian_glorytothealliance.png",
         "type": "Passive",
         "sort": 4,

@@ -1,5 +1,5 @@
 {
-  "id": "41",
+  "id": 41,
   "shortName": "rexxar",
   "attributeId": "Rexx",
   "cHeroId": "Rexxar",
@@ -21,7 +21,7 @@
   "abilities": {
     "Rexxar": [
       {
-        "uid": "75987bf",
+        "uid": "911dc8",
         "name": "Spirit Swoop",
         "description": "Deal 141 (+4% per level) damage to enemies in a line, slowing them by 30% for 2 seconds.",
         "hotkey": "Q",
@@ -32,7 +32,7 @@
         "type": "basic"
       },
       {
-        "uid": "5f656bf",
+        "uid": "3a5c78",
         "name": "Misha, Charge!",
         "description": "Misha charges in a line, dealing 150 (+4% per level) damage and stunning enemies for 1.25 seconds.",
         "hotkey": "W",
@@ -43,18 +43,18 @@
         "type": "basic"
       },
       {
-        "uid": "01525a6",
+        "uid": "dc4fef",
         "name": "Mend Pet",
         "description": "Heal Misha for 714 (+4% per level) Health over 5 seconds.",
         "hotkey": "E",
         "abilityId": "Rexxar|E1",
         "cooldown": 10,
-        "manaCost": 55,
+        "manaCost": 60,
         "icon": "storm_ui_icon_rexxar_mendpet.png",
         "type": "basic"
       },
       {
-        "uid": "58265ee",
+        "uid": "d6d53c",
         "name": "Unleash the Boars",
         "description": "Release a herd of boars that track down all enemy Heroes in a direction, dealing 110 (+4% per level) damage, revealing, and slowing enemies by 40% for 5 seconds.",
         "hotkey": "R",
@@ -65,7 +65,7 @@
         "type": "heroic"
       },
       {
-        "uid": "1bbda6e",
+        "uid": "876546",
         "name": "Bestial Wrath",
         "description": "Increases Misha's Basic Attack damage by 200% for 12 seconds.",
         "hotkey": "R",
@@ -76,7 +76,7 @@
         "type": "heroic"
       },
       {
-        "uid": "9273f1a",
+        "uid": "3e1bbf",
         "name": "Misha, Focus!",
         "description": "Passive: Misha gains 15% move speed.  Command Misha to attack a specific enemy or move to a point and wait.  Targeting Rexxar commands Misha to retreat to his position, gaining 30% move speed until she reaches Rexxar.  Targeting Misha commands her to hold her current position.",
         "hotkey": "D",
@@ -106,7 +106,7 @@
         "tooltipId": "RexxarSpiritBondEasyPreyTalent",
         "talentTreeId": "RexxarSpiritBondEasyPrey",
         "name": "Easy Prey",
-        "description": "Increases Misha's basic attack damage to Minions and Mercenaries by 200%, and Misha gains 50 Armor against Minions and Mercenaries, reducing damage taken by 50%.",
+        "description": "Increases Misha's basic attack damage to Minions and Mercenaries by 150%, and Misha gains 50 Armor against Minions and Mercenaries, reducing damage taken by 50%.",
         "icon": "storm_ui_icon_rexxar_heremishaactive.png",
         "type": "Passive",
         "sort": 2,
@@ -139,7 +139,7 @@
         "tooltipId": "RexxarHunterGathererTalent",
         "talentTreeId": "RexxarHunterGatherer",
         "name": "Hunter-Gatherer",
-        "description": "Quest: Gathering a Regeneration Globe increases Rexxar's Health Regeneration by 1.25 per second, up to 25 per second.  Reward: After gathering 20 Globes, Rexxar and Misha gain 15 Armor.",
+        "description": "Quest: Gathering a Regeneration Globe increases Rexxar's Health Regeneration by 1 per second, up to 25 per second.  Reward: After gathering 25 Globes, Rexxar and Misha gain 15 Armor.",
         "icon": "storm_ui_icon_talent_regenerationmaster.png",
         "type": "Passive",
         "sort": 2,
@@ -204,8 +204,7 @@
         "sort": 3,
         "abilityId": "Rexxar|W1",
         "abilityLinks": [
-          "Rexxar|W1",
-          "Rexxar|W2"
+          "Rexxar|W1"
         ]
       }
     ],
@@ -263,8 +262,7 @@
         "sort": 2,
         "abilityId": "Rexxar|W1",
         "abilityLinks": [
-          "Rexxar|W1",
-          "Rexxar|W2"
+          "Rexxar|W1"
         ]
       },
       {

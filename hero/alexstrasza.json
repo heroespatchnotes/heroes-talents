@@ -1,5 +1,5 @@
 {
-  "id": "74",
+  "id": 74,
   "shortName": "alexstrasza",
   "attributeId": "Alex",
   "cHeroId": "Alexstrasza",
@@ -20,7 +20,7 @@
   "abilities": {
     "Alexstrasza": [
       {
-        "uid": "b7c5d9e",
+        "uid": "71e1bd",
         "name": "Gift of Life",
         "description": "Sacrifice 15% of Alexstrasza's current Health, healing an allied Hero for 150% of that amount.  Dragonqueen: Breath of Life Cooldown greatly reduced and does not cost Health.",
         "hotkey": "Q",
@@ -30,7 +30,7 @@
         "type": "basic"
       },
       {
-        "uid": "cf4e573",
+        "uid": "2b7cd6",
         "name": "Abundance",
         "description": "Plant a seed of healing that blooms after 3 seconds, healing nearby allied Heroes for 20% of their maximum Health.  Dragonqueen: Preservation Heal area and amount greatly increased.",
         "hotkey": "W",
@@ -41,7 +41,7 @@
         "type": "basic"
       },
       {
-        "uid": "9a18508",
+        "uid": "6c099c",
         "name": "Flame Buffet",
         "description": "Launch a fireball, Burning enemies hit for 75 (+4% per level) damage over 5.5 seconds.  Hitting enemies that are already Burning deals 125 (+4% per level) bonus damage upon impact, Slows them by 40% decaying over 2 seconds, and refunds the Mana cost.  Dragonqueen: Wing Buffet Damage and Knockback enemies in an arc.",
         "hotkey": "E",
@@ -52,7 +52,7 @@
         "type": "basic"
       },
       {
-        "uid": "5c6e17b",
+        "uid": "58759f",
         "name": "Life-Binder",
         "description": "Bind Alexstrasza's life force with an allied Hero. Both her and her target are healed for 480 (+4% per level) Health over 2 seconds. Afterwards, the Hero with a lower percentage of Health is healed to the same Health percentage as the other Hero.",
         "hotkey": "R",
@@ -63,7 +63,7 @@
         "type": "heroic"
       },
       {
-        "uid": "d250be7",
+        "uid": "e1d349",
         "name": "Cleansing Flame",
         "description": "After 1.25 seconds, take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 135 (+4% per level) damage to enemies and heal allied Heroes for 300 (+4% per level) Health.  2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
         "hotkey": "R",
@@ -74,7 +74,7 @@
         "type": "heroic"
       },
       {
-        "uid": "e9f0c50",
+        "uid": "f898b0",
         "name": "Dragonqueen",
         "description": "After 1.25 seconds, transform into a dragon and gain 500 (+4% per level) Health.  While Dragonqueen is active, Alexstrasza's Abilities are empowered, and her Basic Attacks deal 143 (+4% per level) damage and heal allied Heroes for 43 (+4% per level) in an arc in front of her. Additionally, the duration of incoming Stuns, Roots, and Slows, is reduced by 50%.  Lasts 15 seconds.",
         "hotkey": "D",
@@ -87,45 +87,54 @@
     ],
     "AlexstraszaDragon": [
       {
-        "uid": "5ed3eb0",
+        "uid": "8a1ec5",
         "name": "Breath of Life",
         "description": "Heal an allied Hero for 20% of Alexstrasza's current Health.",
         "hotkey": "Q",
         "abilityId": "Alexstrasza|Q2",
         "cooldown": 3,
         "icon": "storm_ui_icon_alexstrasza_breath_of_life.png",
-        "type": "subunit"
+        "type": "basic"
       },
       {
-        "uid": "ea7d594",
+        "uid": "25a137",
         "name": "Preservation",
         "description": "Plant a seed of healing that blooms after 3 seconds, healing nearby allied Heroes for 30% of their maximum Health.",
         "hotkey": "W",
         "abilityId": "Alexstrasza|W2",
         "cooldown": 16,
         "icon": "storm_ui_icon_alexstrasza_preservation.png",
-        "type": "subunit"
+        "type": "basic"
       },
       {
-        "uid": "5e392ea",
+        "uid": "585e96",
         "name": "Wing Buffet",
         "description": "Deal 150 (+4% per level) damage to enemies in an area, knocking them back and Slowing them by 50% for 3 seconds.",
         "hotkey": "E",
         "abilityId": "Alexstrasza|E2",
         "cooldown": 4,
         "icon": "storm_ui_icon_alexstrasza_wing_buffet.png",
-        "type": "subunit"
+        "type": "basic"
       },
       {
-        "uid": "4125e5b",
+        "uid": "21ea10",
+        "name": "Dragonqueen",
+        "description": "Alexstrasza has transformed into a powerful dragon aspect, gaining 500 (+4% per level) Health, resistance to disabling effects, and empowered Basic Attacks and Abilities.",
+        "trait": true,
+        "abilityId": "Alexstrasza|D2",
+        "icon": "storm_ui_icon_alexstrasza_dragon_queen.png",
+        "type": "trait"
+      },
+      {
+        "uid": "60a035",
         "name": "Cleansing Flame",
         "description": "Take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 135 (+4% per level) damage to enemies and heal allied Heroes for 300 (+4% per level) Health.  2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
         "hotkey": "R",
-        "abilityId": "Alexstrasza|R3",
+        "abilityId": "Alexstrasza|R4",
         "cooldown": 90,
         "manaCost": 100,
         "icon": "storm_ui_icon_alexstrasza_cleansing_flame.png",
-        "type": "subunit"
+        "type": "heroic"
       }
     ]
   },
@@ -383,7 +392,7 @@
         "abilityId": "Alexstrasza|R2",
         "abilityLinks": [
           "Alexstrasza|R2",
-          "Alexstrasza|R3"
+          "Alexstrasza|R4"
         ]
       },
       {

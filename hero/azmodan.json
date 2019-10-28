@@ -1,5 +1,5 @@
 {
-  "id": "30",
+  "id": 30,
   "shortName": "azmodan",
   "attributeId": "Azmo",
   "cHeroId": "Azmodan",
@@ -21,7 +21,7 @@
   "abilities": {
     "Azmodan": [
       {
-        "uid": "0e3d7cc",
+        "uid": "3e5e40",
         "name": "Globe of Annihilation",
         "description": "Shoot a globe of destruction, dealing 184 (+2.5% per level) damage on impact.  Quest: Hitting a Hero or killing a Minion within 1.5 seconds of being hit by Globe of Annihilation grants 2 Annihilation.  Reward: Each stack of Annihilation increases the damage of Globe of Annihilation by 1, up to 400.",
         "hotkey": "Q",
@@ -32,7 +32,7 @@
         "type": "basic"
       },
       {
-        "uid": "6614286",
+        "uid": "cb5fea",
         "name": "Summon Demon Warrior",
         "description": "Spawn a Demon Warrior that marches forward. Warriors deal 30 (+4% per level) damage per Attack and 16 (+4% per level) damage to nearby enemies every second. Lasts for 10 seconds.  Usable while Channeling All Shall Burn.",
         "hotkey": "W",
@@ -43,7 +43,7 @@
         "type": "basic"
       },
       {
-        "uid": "22972a8",
+        "uid": "0c005b",
         "name": "All Shall Burn",
         "description": "Channel a beam of death on an enemy, dealing 120 (+4% per level) damage per second for 2.5 seconds. If the Channel lasts its full duration, deal an extra 320 (+4% per level) damage to the target.  Azmodan's Movement Speed is reduced by 30% while Channeling.",
         "hotkey": "E",
@@ -54,18 +54,7 @@
         "type": "basic"
       },
       {
-        "uid": "89a7253",
-        "name": "Tide of Sin",
-        "description": "Activate to make the next Globe of Annihilation cost no Mana and deal 50% more damage.  Usable while Channeling All Shall Burn.",
-        "hotkey": "R",
-        "abilityId": "Azmodan|R2",
-        "cooldown": 20,
-        "manaCost": 100,
-        "icon": "storm_ui_icon_azmodan_blackpool.png",
-        "type": "heroic"
-      },
-      {
-        "uid": "23a07b5",
+        "uid": "95683c",
         "name": "Demonic Invasion",
         "description": "Rain a small army of Demonic Grunts down on enemies, dealing 65 (+4% per level) damage per impact. Grunts deal 42 (+4% per level) damage, have 750 (+4% per level) Health and last up to 10 seconds. When Grunts die they explode, dealing 98 (+4% per level) damage to nearby enemies.  Usable while Channeling All Shall Burn.",
         "hotkey": "R",
@@ -76,7 +65,18 @@
         "type": "heroic"
       },
       {
-        "uid": "b9c69d6",
+        "uid": "bd6282",
+        "name": "Tide of Sin",
+        "description": "Activate to make the next Globe of Annihilation cost no Mana and deal 50% more damage.  Usable while Channeling All Shall Burn.",
+        "hotkey": "R",
+        "abilityId": "Azmodan|R2",
+        "cooldown": 20,
+        "manaCost": 100,
+        "icon": "storm_ui_icon_azmodan_blackpool.png",
+        "type": "heroic"
+      },
+      {
+        "uid": "638954",
         "name": "Demon Lieutenant",
         "description": "Summon a Demon Lieutenant at any allied Mercenary, Minion, or Azmodan Demon. The Lieutenant will cast Demonic Smite every 7 seconds, instantly killing an enemy Minion. Lasts 20 seconds.  Usable while Channeling All Shall Burn.",
         "hotkey": "D",
@@ -157,8 +157,8 @@
         "sort": 2,
         "abilityId": "Azmodan|W1",
         "abilityLinks": [
-          "Azmodan|W1",
-          "Azmodan|D1"
+          "Azmodan|D1",
+          "Azmodan|W1"
         ]
       },
       {
@@ -171,8 +171,8 @@
         "sort": 3,
         "abilityId": "Azmodan|Passive",
         "abilityLinks": [
-          "Azmodan|W1",
-          "Azmodan|D1"
+          "Azmodan|D1",
+          "Azmodan|W1"
         ]
       }
     ],

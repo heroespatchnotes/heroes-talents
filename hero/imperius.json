@@ -1,5 +1,5 @@
 {
-  "id": "85",
+  "id": 85,
   "shortName": "imperius",
   "attributeId": "IMPE",
   "cHeroId": "Imperius",
@@ -21,7 +21,7 @@
   "abilities": {
     "Imperius": [
       {
-        "uid": "fa58df2",
+        "uid": "ee8629",
         "name": "Celestial Charge",
         "description": "Lunge towards a targeted direction and stab, dealing 35 (+4% per level) damage. If an enemy Hero is hit, Channel to Stun for 1 second and deal 70 (+4% per level) additional damage when it fully finishes.",
         "hotkey": "Q",
@@ -32,7 +32,7 @@
         "type": "basic"
       },
       {
-        "uid": "caa3920",
+        "uid": "bbf815",
         "name": "Solarion's Fire",
         "description": "Release a fiery wave that deals 100 (+4% per level) damage. Enemies hit by the center take 50% bonus damage and are Slowed by 40% for 3 seconds.",
         "hotkey": "W",
@@ -43,7 +43,7 @@
         "type": "basic"
       },
       {
-        "uid": "fbe9031",
+        "uid": "125540",
         "name": "Molten Armor",
         "description": "Shroud Imperius in flames for 3 seconds, striking a nearby enemy for 19 (+4% per level) damage every 0.25 seconds. Imperius heals for 50% of the damage dealt, increased to 100% against Heroes.",
         "hotkey": "E",
@@ -54,7 +54,7 @@
         "type": "basic"
       },
       {
-        "uid": "d880ca7",
+        "uid": "527325",
         "name": "Angelic Armaments",
         "description": "Summon a ring of blazing swords that grants 1000 (+4% per level) Shield for 3 seconds.  If the Shield lasts the full duration, this ability can be reactivated within 5 seconds to launch 6 swords toward an area, each dealing 140 (+4% per level) damage to the first enemy hit.",
         "hotkey": "R",
@@ -65,7 +65,7 @@
         "type": "heroic"
       },
       {
-        "uid": "1ad7970",
+        "uid": "1014e2",
         "name": "Wrath of the Angiris",
         "description": "After 0.75 seconds, charge in the target direction, lifting the first enemy Hero hit into the Heavens. While in the air, Imperius can steer the landing location by moving.  After 2 seconds, slam the target into the ground, dealing 375 (+4% per level) damage and Stunning them for 1 second.",
         "hotkey": "R",
@@ -76,7 +76,7 @@
         "type": "heroic"
       },
       {
-        "uid": "bd732d6",
+        "uid": "3a747a",
         "name": "Valorous Brand",
         "description": "Each Basic Ability marks enemy Heroes hit for 10 seconds. Basic Attacks consume the target's marks, dealing 20% bonus damage per mark and healing for 75 (+4% per level) per mark.",
         "trait": true,
@@ -96,7 +96,6 @@
         "icon": "storm_ui_icon_imperius_q.png",
         "type": "Q",
         "sort": 1,
-        "isQuest": true,
         "abilityId": "Imperius|Q1",
         "abilityLinks": [
           "Imperius|Q1"
@@ -110,7 +109,6 @@
         "icon": "storm_ui_icon_imperius_w.png",
         "type": "W",
         "sort": 2,
-        "isQuest": true,
         "abilityId": "Imperius|W1",
         "abilityLinks": [
           "Imperius|W1"

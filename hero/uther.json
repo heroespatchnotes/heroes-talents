@@ -1,5 +1,5 @@
 {
-  "id": "20",
+  "id": 20,
   "shortName": "uther",
   "attributeId": "Uthe",
   "cHeroId": "Uther",
@@ -22,7 +22,7 @@
   "abilities": {
     "Uther": [
       {
-        "uid": "5a0a50a",
+        "uid": "8c3795",
         "name": "Holy Light",
         "description": "Heal target allied Hero for 362 (+4% per level) Health. When used on a target other than Uther, also heal Uther for 181 (+4% per level) Health.",
         "hotkey": "Q",
@@ -33,7 +33,7 @@
         "type": "basic"
       },
       {
-        "uid": "3467f2b",
+        "uid": "ec3cb3",
         "name": "Holy Radiance",
         "description": "Heal all allied Heroes and Minions in a line for 177 (+4% per level) Health, dealing 177 (+4% per level) damage to enemies.",
         "hotkey": "W",
@@ -44,7 +44,7 @@
         "type": "basic"
       },
       {
-        "uid": "1760769",
+        "uid": "d591f4",
         "name": "Hammer of Justice",
         "description": "Deal 109 (+4% per level) damage and Stun the target for 1 second.",
         "hotkey": "E",
@@ -55,7 +55,7 @@
         "type": "basic"
       },
       {
-        "uid": "c4e2106",
+        "uid": "7268b3",
         "name": "Divine Shield",
         "description": "Make an allied Hero Invulnerable and increase their Movement Speed by 20% for 3 seconds.",
         "hotkey": "R",
@@ -66,7 +66,7 @@
         "type": "heroic"
       },
       {
-        "uid": "f536b3b",
+        "uid": "d2e8a0",
         "name": "Divine Storm",
         "description": "Deal 170 (+4% per level) damage and Stun nearby enemies for 1.75 seconds.",
         "hotkey": "R",
@@ -77,26 +77,25 @@
         "type": "heroic"
       },
       {
-        "uid": "d98eea7",
+        "uid": "5b08da",
         "name": "Devotion",
         "description": "Allied Heroes affected by Uther's Basic Abilities gain 25 Armor for 2 seconds.  This effect does not stack with itself.  Eternal Vanguard  Upon dying, Uther becomes an Invulnerable spirit for up to 8 seconds. While in spirit form, Uther can heal allies with Flash of Light.",
         "trait": true,
         "abilityId": "Uther|D1",
-        "cooldown": 180,
         "icon": "storm_ui_icon_uther_eternaldevotion.png",
         "type": "trait"
       }
     ],
     "UtherEternalDevotion": [
       {
-        "uid": "eb21192",
+        "uid": "c5c996",
         "name": "Flash of Light",
         "description": "Heal an ally for 230 (+4% per level) Health.",
         "hotkey": "Q",
-        "abilityId": "Uther|Q2",
+        "abilityId": "Uther|Q3",
         "cooldown": 1.5,
         "icon": "storm_ui_icon_uther_flashoflight.png",
-        "type": "subunit"
+        "type": "basic"
       }
     ]
   },
@@ -113,8 +112,7 @@
         "isQuest": true,
         "abilityId": "Uther|Q1",
         "abilityLinks": [
-          "Uther|Q1",
-          "Uther|Q2"
+          "Uther|Q1"
         ]
       },
       {
@@ -157,8 +155,7 @@
         "sort": 1,
         "abilityId": "Uther|Q1",
         "abilityLinks": [
-          "Uther|Q1",
-          "Uther|Q2"
+          "Uther|Q1"
         ]
       },
       {
@@ -199,8 +196,7 @@
         "sort": 1,
         "abilityId": "Uther|Q1",
         "abilityLinks": [
-          "Uther|Q1",
-          "Uther|Q2"
+          "Uther|Q1"
         ]
       },
       {
@@ -269,8 +265,7 @@
         "sort": 1,
         "abilityId": "Uther|Q1",
         "abilityLinks": [
-          "Uther|Q1",
-          "Uther|Q2"
+          "Uther|Q1"
         ]
       },
       {
@@ -308,8 +303,7 @@
         "sort": 1,
         "abilityId": "Uther|Q1",
         "abilityLinks": [
-          "Uther|Q1",
-          "Uther|Q2"
+          "Uther|Q1"
         ]
       },
       {
