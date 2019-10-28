@@ -1,5 +1,5 @@
 {
-  "id": "62",
+  "id": 62,
   "shortName": "valeera",
   "attributeId": "VALE",
   "cHeroId": "Valeera",
@@ -21,6 +21,7 @@
   "abilities": {
     "Valeera": [
       {
+        "uid": "b9555b",
         "name": "Sinister Strike",
         "description": "Dash forward, hitting all enemies in a line for 110 (+4% per level) damage. If Sinister Strike hits a Hero, Valeera stops dashing immediately and the cooldown is reduced to 1 second.  Awards 1 Combo Point.  Stealth: Ambush Heavily damage an enemy and reduce their Armor.",
         "hotkey": "Q",
@@ -31,6 +32,7 @@
         "type": "basic"
       },
       {
+        "uid": "b02e4c",
         "name": "Blade Flurry",
         "description": "Deal 130 (+4% per level) damage in an area around Valeera.  Awards 1 Combo Point per enemy Hero hit.  Stealth: Cheap Shot Stun, Blind, and damage an enemy.",
         "hotkey": "W",
@@ -41,6 +43,7 @@
         "type": "basic"
       },
       {
+        "uid": "85c754",
         "name": "Eviscerate",
         "description": "Eviscerate an enemy, dealing damage per Combo Point.  1 Point: 85 (+4% per level) 2 Points: 170 (+4% per level) 3 Points: 255 (+4% per level)  Stealth: Garrote Silence and damage an enemy over time.",
         "hotkey": "E",
@@ -51,24 +54,27 @@
         "type": "basic"
       },
       {
-        "name": "Smoke Bomb",
-        "description": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 30 Armor, reducing damage taken by 30%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds.  Using this Ability does not break Stealth.",
-        "hotkey": "R",
-        "abilityId": "Valeera|R1",
-        "cooldown": 60,
-        "icon": "storm_ui_icon_valeera_smokebomb.png",
-        "type": "heroic"
-      },
-      {
+        "uid": "ab77e0",
         "name": "Cloak of Shadows",
         "description": "Valeera is enveloped in a Cloak of Shadows, which immediately removes all damage over time effects from her. For 1.5 seconds, she becomes Unstoppable and gains 75 Spell Armor, reducing Ability Damage taken by 75%.  Using this Ability does not break Stealth.",
         "hotkey": "R",
-        "abilityId": "Valeera|R2",
+        "abilityId": "Valeera|R1",
         "cooldown": 15,
         "icon": "storm_ui_icon_valeera_cloakofshadows.png",
         "type": "heroic"
       },
       {
+        "uid": "31b894",
+        "name": "Smoke Bomb",
+        "description": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 30 Armor, reducing damage taken by 30%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds.  Using this Ability does not break Stealth.",
+        "hotkey": "R",
+        "abilityId": "Valeera|R2",
+        "cooldown": 60,
+        "icon": "storm_ui_icon_valeera_smokebomb.png",
+        "type": "heroic"
+      },
+      {
+        "uid": "3b3e33",
         "name": "Vanish",
         "description": "Vanish from sight, becoming Stealthed, gaining 20% Movement Speed and access to new Abilities. For the first second, Valeera is Unrevealable and can pass through other units. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.  After being Stealthed for 3 seconds, Ambush, Cheap Shot, and Garrote have 100% increased range, and cause Valeera to teleport to the target when used.",
         "hotkey": "D",
@@ -79,8 +85,9 @@
         "type": "trait"
       }
     ],
-    "ValeeraVanish": [
+    "ValeeraStealth": [
       {
+        "uid": "06bc5c",
         "name": "Ambush",
         "description": "Ambush an enemy, dealing 130 (+4% per level) damage and reducing their Armor by 10 for 5 seconds.  Awards 1 Combo Point.  Unstealth: Sinister Strike Dash forward, damaging enemies.",
         "hotkey": "Q",
@@ -88,9 +95,10 @@
         "cooldown": 1,
         "manaCost": 10,
         "icon": "storm_ui_icon_valeera_ambush.png",
-        "type": "subunit"
+        "type": "basic"
       },
       {
+        "uid": "0986df",
         "name": "Cheap Shot",
         "description": "Deal 30 (+4% per level) damage to an enemy, Stun them for 0.75 seconds, and Blind them for 2 seconds once Cheap Shot's Stun expires.  Awards 1 Combo Point.  Unstealth: Blade Flurry Deal damage in an area around Valeera.",
         "hotkey": "W",
@@ -98,9 +106,10 @@
         "cooldown": 1,
         "manaCost": 30,
         "icon": "storm_ui_icon_valeera_cheapshot.png",
-        "type": "subunit"
+        "type": "basic"
       },
       {
+        "uid": "5e801f",
         "name": "Garrote",
         "description": "Deal 20 (+4% per level) damage to an enemy and an additional 140 (+4% per level) damage over 7 seconds, and Silence them for 2.5 seconds.  Awards 1 Combo Point.  Unstealth: Eviscerate High damage finishing move.",
         "hotkey": "E",
@@ -108,7 +117,18 @@
         "cooldown": 1,
         "manaCost": 30,
         "icon": "storm_ui_icon_valeera_garrote.png",
-        "type": "subunit"
+        "type": "basic"
+      },
+      {
+        "uid": "b54f24",
+        "name": "Cancel Stealth",
+        "description": "Cancels Stealth.",
+        "hotkey": "D",
+        "trait": true,
+        "abilityId": "Valeera|D2",
+        "cooldown": 1,
+        "icon": "hud_btn_bg_ability_cancel.png",
+        "type": "trait"
       }
     ]
   },
@@ -118,7 +138,7 @@
         "tooltipId": "ValeeraVigor",
         "talentTreeId": "ValeeraVigor",
         "name": "Vigor",
-        "description": "Valeera regenerates an additional 2.5 Energy per second.  Reward: After Gathering 20 Regen Globes, increase Valeera's maximum Energy to 120.",
+        "description": "Valeera regenerates an additional 3 Energy per second.  Reward: After Gathering 20 Regen Globes, increase Valeera's maximum Energy to 120.",
         "icon": "storm_ui_icon_talent_conjurerspursuit.png",
         "type": "Passive",
         "sort": 1,
@@ -129,13 +149,14 @@
         "tooltipId": "ValeeraSubtlety",
         "talentTreeId": "ValeeraVanishSubtlety",
         "name": "Subtlety",
-        "description": "After teleporting with Ambush, Cheap Shot, or Garrote, regenerate 8 Energy per second for 5 seconds.",
+        "description": "After teleporting with Ambush, Cheap Shot, or Garrote, regenerate 10 Energy per second for 5 seconds.",
         "icon": "storm_ui_icon_valeera_vanish.png",
         "type": "Trait",
         "sort": 2,
-        "abilityId": "Valeera|D1",
+        "abilityId": "Valeera|D2",
         "abilityLinks": [
-          "Valeera|D1"
+          "Valeera|D1",
+          "Valeera|D2"
         ]
       },
       {
@@ -178,7 +199,7 @@
         "tooltipId": "ValeeraHemorrhage",
         "talentTreeId": "ValeeraGarroteHemorrhage",
         "name": "Hemorrhage",
-        "description": "Valeera's Basic Attacks deal 30% additional damage to enemies affected by Garrote.",
+        "description": "Valeera's Basic Attacks deal 40% additional damage to enemies affected by Garrote.",
         "icon": "storm_ui_icon_valeera_garrote.png",
         "type": "E",
         "sort": 2,
@@ -191,13 +212,14 @@
         "tooltipId": "ValeeraInitiative",
         "talentTreeId": "ValeeraVanishInitiative",
         "name": "Initiative",
-        "description": "Ambush, Cheap Shot, and Garrote award 2 Combo Points.",
+        "description": "Ambush, Cheap Shot, and Garrote grant 15% Movement Speed for 3 seconds and award 2 Combo Points.",
         "icon": "storm_ui_icon_valeera_vanish.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Valeera|D1",
+        "abilityId": "Valeera|D2",
         "abilityLinks": [
-          "Valeera|D1"
+          "Valeera|D1",
+          "Valeera|D2"
         ]
       },
       {
@@ -230,7 +252,7 @@
         "tooltipId": "ValeeraFatalFinesse",
         "talentTreeId": "ValeeraBladeFlurryFatalFinesse",
         "name": "Fatal Finesse",
-        "description": "Quest: Each time Blade Flurry damages an enemy Hero, its damage increases by 4, up to 80.  Reward: After damaging 20 Heroes with Blade Flurry, permanently reduce its Energy cost by 20.",
+        "description": "Quest: Each time Blade Flurry damages an enemy Hero, its damage increases by 6, up to 90.  Reward: After damaging 15 Heroes with Blade Flurry, permanently reduce its Energy cost by 20.",
         "icon": "storm_ui_icon_valeera_bladeflurry.png",
         "type": "W",
         "sort": 2,
@@ -264,9 +286,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 60,
-        "abilityId": "Valeera|R1",
+        "abilityId": "Valeera|R2",
         "abilityLinks": [
-          "Valeera|R1"
+          "Valeera|R2"
         ]
       },
       {
@@ -278,9 +300,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 15,
-        "abilityId": "Valeera|R2",
+        "abilityId": "Valeera|R1",
         "abilityLinks": [
-          "Valeera|R2"
+          "Valeera|R1"
         ]
       }
     ],
@@ -360,7 +382,7 @@
         "icon": "storm_ui_icon_valeera_thistletea.png",
         "type": "Active",
         "sort": 3,
-        "cooldown": 60,
+        "cooldown": 40,
         "abilityId": "Valeera|Active"
       }
     ],
@@ -373,9 +395,9 @@
         "icon": "storm_ui_icon_valeera_smokebomb.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Valeera|R1",
+        "abilityId": "Valeera|R2",
         "abilityLinks": [
-          "Valeera|R1"
+          "Valeera|R2"
         ]
       },
       {
@@ -386,9 +408,9 @@
         "icon": "storm_ui_icon_valeera_cloakofshadows.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Valeera|R2",
+        "abilityId": "Valeera|R1",
         "abilityLinks": [
-          "Valeera|R2"
+          "Valeera|R1"
         ]
       },
       {
@@ -412,9 +434,10 @@
         "icon": "storm_ui_icon_valeera_vanish.png",
         "type": "Trait",
         "sort": 4,
-        "abilityId": "Valeera|D1",
+        "abilityId": "Valeera|D2",
         "abilityLinks": [
-          "Valeera|D1"
+          "Valeera|D1",
+          "Valeera|D2"
         ]
       }
     ]

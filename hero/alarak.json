@@ -1,5 +1,5 @@
 {
-  "id": "56",
+  "id": 56,
   "shortName": "alarak",
   "attributeId": "Alar",
   "cHeroId": "Alarak",
@@ -21,6 +21,7 @@
   "abilities": {
     "Alarak": [
       {
+        "uid": "6e893b",
         "name": "Discord Strike",
         "description": "After a 0.5 second delay, enemies in front of Alarak take 175 (+4% per level) damage and are silenced for 1.5 seconds.",
         "hotkey": "Q",
@@ -31,6 +32,7 @@
         "type": "basic"
       },
       {
+        "uid": "ec4419",
         "name": "Telekinesis",
         "description": "Vector Targeting Create a force, pushing Alarak and all enemies hit from the targeted point towards the targeted direction. Deals 48 (+4% per level) damage to enemies.",
         "hotkey": "W",
@@ -41,6 +43,7 @@
         "type": "basic"
       },
       {
+        "uid": "45c0f0",
         "name": "Lightning Surge",
         "description": "Deal 62 (+4% per level) damage to an enemy and an additional 100% damage to enemies between Alarak and the target. Restore 70 (+4% per level) health for each Hero hit.",
         "hotkey": "E",
@@ -51,16 +54,7 @@
         "type": "basic"
       },
       {
-        "name": "Counter-Strike",
-        "description": "Alarak targets an area and channels for 1 second, becoming Protected and Unstoppable. After, if he took damage from an enemy Hero, he sends a shockwave that deals 275 (+4% per level) damage.",
-        "hotkey": "R",
-        "abilityId": "Alarak|R2",
-        "cooldown": 30,
-        "manaCost": 50,
-        "icon": "storm_ui_icon_alarak_counterstrike.png",
-        "type": "heroic"
-      },
-      {
+        "uid": "59fa15",
         "name": "Deadly Charge",
         "description": "After channeling, Alarak charges forward dealing 200 (+4% per level) damage to all enemies in his path. Distance is increased based on the amount of time channeled, up to 1.5 seconds.  Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling.",
         "hotkey": "R",
@@ -71,6 +65,18 @@
         "type": "heroic"
       },
       {
+        "uid": "b63665",
+        "name": "Counter-Strike",
+        "description": "Alarak targets an area and channels for 1 second, becoming Protected and Unstoppable. After, if he took damage from an enemy Hero, he sends a shockwave that deals 275 (+4% per level) damage.",
+        "hotkey": "R",
+        "abilityId": "Alarak|R2",
+        "cooldown": 30,
+        "manaCost": 50,
+        "icon": "storm_ui_icon_alarak_counterstrike.png",
+        "type": "heroic"
+      },
+      {
+        "uid": "f300e2",
         "name": "Sadism",
         "description": "Alarak's Ability damage and self-healing are increased by 100% against enemy Heroes.  Repeatable Quest: Takedowns increase Sadism by 3%, up to 30%. Sadism gained from Takedowns is lost on death.",
         "trait": true,
@@ -86,14 +92,13 @@
         "tooltipId": "AlarakRuthlessMomentum",
         "talentTreeId": "AlarakRuthlessMomentum",
         "name": "Ruthless Momentum",
-        "description": "Reduce the Mana cost of Telekinesis from 30 to 20.  Telekinesis's cooldown recharges 100% faster while above 75% Health.",
+        "description": "Reduce the Mana cost of Telekinesis from 30 to 20.  Telekinesis's cooldown recharges 75% faster while above 75% Health.",
         "icon": "storm_ui_icon_alarak_telekinesis.png",
         "type": "W",
         "sort": 1,
         "abilityId": "Alarak|W1",
         "abilityLinks": [
-          "Alarak|W1",
-          "Alarak|D1"
+          "Alarak|W1"
         ]
       },
       {
@@ -157,7 +162,7 @@
         "tooltipId": "AlarakShowofForce",
         "talentTreeId": "AlarakShowofForce",
         "name": "Show of Force",
-        "description": "Heroes hit with 3 of Alarak's Abilities within 2 seconds take an additional 68 (+4% per level) damage and increase Sadism by 2%, stacking up to 20%.   Sadism gained from Show of Force is lost on death.",
+        "description": "Heroes hit with 3 of Alarak's Abilities within 2 seconds take an additional 65 (+4% per level) damage and increase Sadism by 2%, stacking up to 20%.   Sadism gained from Show of Force is lost on death.",
         "icon": "storm_ui_icon_alarak_sadism.png",
         "type": "Trait",
         "sort": 3,
@@ -185,7 +190,7 @@
         "tooltipId": "AlarakHinderedMotion",
         "talentTreeId": "AlarakHinderedMotion",
         "name": "Hindered Motion",
-        "description": "Telekinesis Slows enemies by 25% for 2 seconds.",
+        "description": "Telekinesis Slows enemies by 25% for 3 seconds.",
         "icon": "storm_ui_icon_alarak_telekinesis_a.png",
         "type": "W",
         "sort": 2,
@@ -273,8 +278,7 @@
         "icon": "storm_ui_icon_alarak_sadism_b.png",
         "type": "Trait",
         "sort": 3,
-        "cooldown": 300,
-        "abilityId": "Alarak|Trait"
+        "cooldown": 300
       }
     ],
     "16": [
@@ -327,8 +331,7 @@
         "icon": "storm_ui_icon_alarak_counterstrike.png",
         "type": "Heroic",
         "sort": 1,
-        "cooldown": 30,
-        "abilityId": "Alarak|Heroic"
+        "cooldown": 30
       },
       {
         "tooltipId": "AlarakDeadlyCharge",

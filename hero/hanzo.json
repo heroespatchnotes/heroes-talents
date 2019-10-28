@@ -1,5 +1,5 @@
 {
-  "id": "75",
+  "id": 75,
   "shortName": "hanzo",
   "attributeId": "Hanz",
   "cHeroId": "Hanzo",
@@ -20,6 +20,7 @@
   "abilities": {
     "Hanzo": [
       {
+        "uid": "8fb841",
         "name": "Storm Bow",
         "description": "Activate to charge an arrow that deals 291 (+4% per level) damage to the first enemy hit. Storm Bow's range increases the longer it is Channeled.",
         "hotkey": "Q",
@@ -30,6 +31,7 @@
         "type": "basic"
       },
       {
+        "uid": "f60295",
         "name": "Scatter Arrow",
         "description": "Fire an arrow that deals 88 (+4% per level) to the first enemy Hero hit. Scatter Arrow can collide with terrain and Structures, splitting into 5 arrows that travel extra distance, ricochet up to 4 additional times, and deal 88 (+4% per level) damage each to the first enemy hit.",
         "hotkey": "W",
@@ -40,6 +42,7 @@
         "type": "basic"
       },
       {
+        "uid": "ec8325",
         "name": "Sonic Arrow",
         "description": "Fire an arrow that grants vision in a large area for 5 seconds. Enemies inside are revealed for 1 second. If Sonic Arrow lands directly on an enemy, it deals 165 (+4% per level) damage to them and follows them as they move.",
         "hotkey": "E",
@@ -50,16 +53,18 @@
         "type": "basic"
       },
       {
+        "uid": "4c8480",
         "name": "Dragonstrike",
-        "description": "After 1.5 seconds, summon a pair of Spirit Dragons which travel forward, dealing 70 (+4% per level) damage every 0.25 seconds to enemy Heroes in its area.  Enemies in the center take 50% increased damage.",
+        "description": "After 1.5 seconds, summon a pair of Spirit Dragons which travel forward, dealing 78 (+4% per level) damage every 0.25 seconds to enemy Heroes in its area.  Enemies in the center take 50% increased damage.",
         "hotkey": "R",
         "abilityId": "Hanzo|R1",
-        "cooldown": 100,
-        "manaCost": 100,
+        "cooldown": 60,
+        "manaCost": 60,
         "icon": "storm_ui_icon_hanzo_dragonstrike.png",
         "type": "heroic"
       },
       {
+        "uid": "826707",
         "name": "Dragon's Arrow",
         "description": "Fire a missile that travels across the battleground. Explodes upon hitting an enemy Hero, dealing 130 (+4% per level) damage to all nearby enemies and Stunning them for 0.5 seconds.  After traveling a medium distance, the damage is increased to 260 (+4% per level) and the Stun duration to 1.25 seconds.  After traveling a long distance, the damage is increased to 390 (+4% per level) and the Stun duration to 2 seconds.",
         "hotkey": "R",
@@ -70,6 +75,7 @@
         "type": "heroic"
       },
       {
+        "uid": "6a03c9",
         "name": "Natural Agility",
         "description": "Jump over unpathable terrain or Structures, up to a maximum range.",
         "hotkey": "D",
@@ -131,7 +137,7 @@
         "tooltipId": "HanzoExplosiveArrows",
         "talentTreeId": "HanzoExplosiveArrows",
         "name": "Explosive Arrows",
-        "description": "Upon hitting a Minion or Monster, Storm Bow deals 75% of its damage to enemies around its target.",
+        "description": "Upon hitting a Minion or Monster, Storm Bow deals 60% of its damage to enemies around its target.",
         "icon": "storm_ui_icon_hanzo_stormbow.png",
         "type": "Q",
         "sort": 1,
@@ -213,11 +219,11 @@
         "tooltipId": "HanzoDragonstrike",
         "talentTreeId": "HanzoDragonstrike",
         "name": "Dragonstrike",
-        "description": "After 1.5 seconds, summon a pair of Spirit Dragons which travel forward, dealing 70 (+4% per level) damage every 0.25 seconds to enemy Heroes in its area.  Enemies in the center take 50% increased damage.",
+        "description": "After 1.5 seconds, summon a pair of Spirit Dragons which travel forward, dealing 78 (+4% per level) damage every 0.25 seconds to enemy Heroes in its area.  Enemies in the center take 50% increased damage.",
         "icon": "storm_ui_icon_hanzo_dragonstrike.png",
         "type": "Heroic",
         "sort": 1,
-        "cooldown": 100,
+        "cooldown": 60,
         "abilityId": "Hanzo|R1",
         "abilityLinks": [
           "Hanzo|R1"
@@ -269,7 +275,7 @@
         "tooltipId": "HanzoMountedArchery",
         "talentTreeId": "HanzoMountedArchery",
         "name": "Mounted Archery",
-        "description": "Upon mounting, gain 20% additional Movement Speed for 5 seconds. Using Natural Agility instantly mounts.",
+        "description": "Upon mounting, gain 25% additional Movement Speed for 5 seconds. Using Natural Agility instantly mounts.",
         "icon": "storm_ui_icon_hanzo_grabthereins.png",
         "type": "Passive",
         "sort": 3,
@@ -326,7 +332,7 @@
         "tooltipId": "HanzoTheDragonAwakens",
         "talentTreeId": "HanzoTheDragonAwakens",
         "name": "The Dragon Awakens",
-        "description": "Hitting a Hero with Storm Bow, Scatter Arrow, or Basic Attacks reduces the cooldown of Dragonstrike by 5 seconds.",
+        "description": "Hitting a Hero with Storm Bow, Scatter Arrow, or Basic Attacks reduces the cooldown of Dragonstrike by 4 seconds.",
         "icon": "storm_ui_icon_hanzo_dragonstrike.png",
         "type": "Heroic",
         "sort": 1,

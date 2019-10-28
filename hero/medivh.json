@@ -1,5 +1,5 @@
 {
-  "id": "53",
+  "id": 53,
   "shortName": "medivh",
   "attributeId": "Mdvh",
   "cHeroId": "Medivh",
@@ -21,6 +21,7 @@
   "abilities": {
     "Medivh": [
       {
+        "uid": "9aaf79",
         "name": "Arcane Rift",
         "description": "Launch a rift that deals 170 (+4% per level) damage to enemies in its path. If an enemy Hero is hit, reduce its cooldown by 5 seconds and refund 50 Mana.  Quest: Hit 40 enemy Heroes with Arcane Rift without dying.  Reward: Permanently increase the damage dealt by 75 and cooldown reduction for hitting a Hero by 1 second.",
         "hotkey": "Q",
@@ -31,6 +32,7 @@
         "type": "basic"
       },
       {
+        "uid": "20c9af",
         "name": "Force of Will",
         "description": "Protect an allied Hero from all damage for 1.5 seconds.  Upon expiration, Force of Will heals the target for 20% of the damage it absorbed.",
         "hotkey": "W",
@@ -41,6 +43,7 @@
         "type": "basic"
       },
       {
+        "uid": "735d73",
         "name": "Portal",
         "description": "Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last 6 seconds.",
         "hotkey": "E",
@@ -51,6 +54,7 @@
         "type": "basic"
       },
       {
+        "uid": "fd63c3",
         "name": "Poly Bomb",
         "description": "Polymorph an enemy Hero for 2 seconds, Silencing them and making them unable to attack. On expiration, Poly Bomb spreads to other nearby enemy Heroes.",
         "hotkey": "R",
@@ -61,6 +65,7 @@
         "type": "heroic"
       },
       {
+        "uid": "3df0f5",
         "name": "Ley Line Seal",
         "description": "After 0.5 seconds, unleash a wave of energy that places enemy Heroes in Time Stop for 3 seconds.",
         "hotkey": "R",
@@ -71,6 +76,16 @@
         "type": "heroic"
       },
       {
+        "uid": "d8c432",
+        "name": "Raven Form",
+        "description": "Instead of mounting, Medivh can transform into a raven, increasing Movement Speed by 20%. While transformed, Medivh can see and fly over all terrain and is immune to all effects.",
+        "trait": true,
+        "abilityId": "Medivh|D1",
+        "icon": "storm_ui_icon_medivh_ravenform.png",
+        "type": "trait"
+      },
+      {
+        "uid": "2fb729",
         "name": "Raven Form",
         "description": "Transform into a raven, increasing Movement Speed by 20%. While transformed, Medivh can see and fly over terrain and is immune to all effects.",
         "hotkey": "Z",
@@ -78,14 +93,6 @@
         "cooldown": 4,
         "icon": "storm_ui_icon_medivh_mount.png",
         "type": "mount"
-      },
-      {
-        "name": "Raven Form",
-        "description": "Instead of mounting, Medivh can transform into a raven, increasing Movement Speed by 20%. While transformed, Medivh can see and fly over all terrain and is immune to all effects.",
-        "trait": true,
-        "abilityId": "Medivh|D1",
-        "icon": "storm_ui_icon_medivh_ravenform.png",
-        "type": "trait"
       }
     ]
   },
@@ -126,7 +133,7 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 16,
-        "abilityId": "Medivh|E1",
+        "abilityId": "Medivh|Active",
         "abilityLinks": [
           "Medivh|E1"
         ]
@@ -176,7 +183,7 @@
         "tooltipId": "MedivhMysticAssault",
         "talentTreeId": "MedivhMysticAssault",
         "name": "Mystic Assault",
-        "description": "If Arcane Rift hits an enemy Hero, Medivh's next Basic Attack within 6 seconds deals 40% more damage and heals for 40% of the damage dealt.",
+        "description": "If Arcane Rift hits an enemy Hero, Medivh's next Basic Attack within 6 seconds deals 50% more damage and heals for 50% of the damage dealt.",
         "icon": "storm_ui_icon_medivh_arcanemissile.png",
         "type": "Q",
         "sort": 1,
@@ -368,7 +375,7 @@
         "tooltipId": "MedivhArcaneBrilliance",
         "talentTreeId": "MedivhArcaneBrilliance",
         "name": "Arcane Brilliance",
-        "description": "Activate to instantly restore 200 mana to all nearby allied Heroes and grant them 10% Spell Power for 10 seconds.",
+        "description": "Activate to instantly restore 200 mana to all nearby allied Heroes and grant them 15% Spell Power for 10 seconds.",
         "icon": "storm_ui_icon_jaina_arcaneintellect.png",
         "type": "Active",
         "sort": 4,
@@ -379,7 +386,7 @@
         "tooltipId": "MedivhDustofDisappearance",
         "talentTreeId": "MedivhDustofDisappearance",
         "name": "Dust of Disappearance",
-        "description": "Stealth an allied Hero for 20 seconds. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.  Stores up to 2 charges.",
+        "description": "Stealth an allied Hero for 40 seconds, they are Unrevealable for the first 0.5 seconds. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.  Stores up to 2 charges.",
         "icon": "storm_ui_icon_medivh_invisibility.png",
         "type": "Active",
         "sort": 5,

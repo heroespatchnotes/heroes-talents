@@ -1,5 +1,5 @@
 {
-  "id": "39",
+  "id": 39,
   "shortName": "leoric",
   "attributeId": "Leor",
   "cHeroId": "Leoric",
@@ -20,6 +20,7 @@
   "abilities": {
     "Leoric": [
       {
+        "uid": "545927",
         "name": "Skeletal Swing",
         "description": "Leoric swings his mace, dealing 150 (+4% per level) damage and Slowing enemies by 40% for 2.5 seconds. If an enemy Hero is hit, refund 50% of the cooldown and Mana cost. Peasants!",
         "hotkey": "Q",
@@ -30,6 +31,7 @@
         "type": "basic"
       },
       {
+        "uid": "a3d2a4",
         "name": "Drain Hope",
         "description": "Grab an enemy Hero's soul, dealing up to 20% of their maximum Health as damage and healing Leoric for up to 20% of his maximum Health while he is nearby, over 4 seconds. Leoric's Movement Speed is reduced by 20% while this is active.",
         "hotkey": "W",
@@ -40,6 +42,7 @@
         "type": "basic"
       },
       {
+        "uid": "519128",
         "name": "Wraith Walk",
         "description": "Leoric separates from his body, becoming Unstoppable and gaining Movement Speed accelerating up to 50% over 2.5 seconds. When Wraith Walk ends or is canceled, his body jumps to his wraith.",
         "hotkey": "E",
@@ -50,6 +53,7 @@
         "type": "basic"
       },
       {
+        "uid": "38b393",
         "name": "Entomb",
         "description": "Create an unpassable tomb for 4 seconds.",
         "hotkey": "R",
@@ -60,6 +64,7 @@
         "type": "heroic"
       },
       {
+        "uid": "3e16eb",
         "name": "March of the Black King",
         "description": "Leoric becomes Unstoppable and walks forward, swinging his mace 3 times. Enemies hit take 250 (+4% per level) damage, and Heroes hit heal Leoric for 12% of his maximum Health.",
         "hotkey": "R",
@@ -70,6 +75,7 @@
         "type": "heroic"
       },
       {
+        "uid": "245d5e",
         "name": "Undying",
         "description": "Leoric becomes a ghost when he dies, and resurrects upon reaching full Health. Leoric deals no damage while dead.  Wrath Of The Bone King  Leoric's first two Basic Attacks cleave for 100% damage, and his third Basic Attack deals 200% damage to a single target.",
         "trait": true,
@@ -78,24 +84,26 @@
         "type": "trait"
       }
     ],
-    "LeoricUndying": [
+    "LeoricUndyingTrait": [
       {
+        "uid": "fcb128",
         "name": "Ghastly Swing",
         "description": "Slow enemies by 40% for 2.5 seconds.",
         "hotkey": "Q",
         "abilityId": "Leoric|Q2",
         "cooldown": 8,
         "icon": "storm_ui_icon_leoric_skeletalswing_undead.png",
-        "type": "subunit"
+        "type": "basic"
       },
       {
+        "uid": "53b8a3",
         "name": "Drain Essence",
         "description": "Throw out a chain, attaching to the first enemy Hero hit, healing Leoric for up to 10% of his maximum Health over 4 seconds as long as the enemy remains close.",
         "hotkey": "W",
         "abilityId": "Leoric|W2",
         "cooldown": 9,
         "icon": "storm_ui_icon_leoric_drainhope_undead.png",
-        "type": "subunit"
+        "type": "basic"
       }
     ]
   },
@@ -189,7 +197,7 @@
         "icon": "storm_ui_icon_leoric_drainhope.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "Leoric|W1",
+        "abilityId": "Leoric|W2",
         "abilityLinks": [
           "Leoric|W1",
           "Leoric|W2"
@@ -366,7 +374,7 @@
         "tooltipId": "LeoricHardenedBonesTalent",
         "talentTreeId": "LeoricDrainHopeHardenedBonesTalent",
         "name": "Hardened Bones",
-        "description": "Gain 40 Armor while Drain Hope is active. If Drain Hope lasts its full duration, retain the Armor bonus for 2 seconds.",
+        "description": "Gain 50 Armor while Drain Hope is active. If Drain Hope lasts its full duration, retain the Armor bonus for 2 seconds.",
         "icon": "storm_ui_icon_leoric_drainhope_var1.png",
         "type": "W",
         "sort": 3,
@@ -393,7 +401,7 @@
         "icon": "storm_ui_icon_talent_hardenedshield.png",
         "type": "Active",
         "sort": 5,
-        "cooldown": 60,
+        "cooldown": 30,
         "abilityId": "Leoric|Active"
       }
     ]

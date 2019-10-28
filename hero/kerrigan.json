@@ -1,5 +1,5 @@
 {
-  "id": "8",
+  "id": 8,
   "shortName": "kerrigan",
   "attributeId": "Kerr",
   "cHeroId": "Kerrigan",
@@ -20,6 +20,7 @@
   "abilities": {
     "Kerrigan": [
       {
+        "uid": "9c5dff",
         "name": "Ravage",
         "description": "Leap to a target, dealing 130 (+4% per level) damage. If the enemy dies within 1.5 seconds, restore 1 charge and refund 20 Mana.",
         "hotkey": "Q",
@@ -30,6 +31,7 @@
         "type": "basic"
       },
       {
+        "uid": "438b28",
         "name": "Impaling Blades",
         "description": "After 1.25 seconds, deal 165 (+4% per level) damage to enemies within the target area, Stunning them for 1 second.",
         "hotkey": "W",
@@ -40,6 +42,7 @@
         "type": "basic"
       },
       {
+        "uid": "953b78",
         "name": "Primal Grasp",
         "description": "Pulls enemies within the target area towards Kerrigan, dealing 25 (+4% per level) damage. After 2.5 seconds, an explosion occurs around Kerrigan, dealing 195 (+4% per level) damage to nearby enemies.",
         "hotkey": "E",
@@ -50,26 +53,29 @@
         "type": "basic"
       },
       {
+        "uid": "788ef1",
         "name": "Summon Ultralisk",
         "description": "After 0.5 seconds, summon an Ultralisk that rushes forward upon spawning, dealing 250 (+4% per level) damage to the first enemy Hero hit and Stunning them for 0.5 seconds.  The Ultralisk's Basic Attacks deal 50% of their damage in an area around their target. Reactivate to retarget the Ultralisk.",
         "hotkey": "R",
-        "abilityId": "Kerrigan|R2",
+        "abilityId": "Kerrigan|R1",
         "cooldown": 80,
         "manaCost": 100,
         "icon": "storm_ui_icon_kerrigan_ultralisk.png",
         "type": "heroic"
       },
       {
+        "uid": "d4ed2d",
         "name": "Maelstrom",
         "description": "Deals 74 (+4% per level) damage per second to nearby enemies. Lasts for 7 seconds.",
         "hotkey": "R",
-        "abilityId": "Kerrigan|R1",
+        "abilityId": "Kerrigan|R2",
         "cooldown": 90,
         "manaCost": 100,
         "icon": "storm_ui_icon_kerrigan_maelstrom.png",
         "type": "heroic"
       },
       {
+        "uid": "90d9e9",
         "name": "Assimilation",
         "description": "Gain 10% of damage dealt from Basic Attacks and Abilities as Shields for 6 seconds. Shield amount gained doubled against Heroes.  Current maximum: 1004 (+4% per level)",
         "trait": true,
@@ -208,9 +214,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 90,
-        "abilityId": "Kerrigan|R1",
+        "abilityId": "Kerrigan|R2",
         "abilityLinks": [
-          "Kerrigan|R1"
+          "Kerrigan|R2"
         ]
       },
       {
@@ -222,9 +228,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 80,
-        "abilityId": "Kerrigan|R2",
+        "abilityId": "Kerrigan|R1",
         "abilityLinks": [
-          "Kerrigan|R2"
+          "Kerrigan|R1"
         ]
       }
     ],
@@ -302,10 +308,10 @@
         "icon": "storm_ui_icon_talent_abilitytalent_damage.png",
         "type": "Heroic",
         "sort": 3,
-        "abilityId": "Kerrigan|R2",
+        "abilityId": "Kerrigan|R1",
         "abilityLinks": [
-          "Kerrigan|R2",
-          "Kerrigan|R1"
+          "Kerrigan|R1",
+          "Kerrigan|R2"
         ]
       }
     ],
@@ -318,9 +324,9 @@
         "icon": "storm_ui_icon_kerrigan_maelstrom.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Kerrigan|R1",
+        "abilityId": "Kerrigan|R2",
         "abilityLinks": [
-          "Kerrigan|R1"
+          "Kerrigan|R2"
         ]
       },
       {
@@ -331,9 +337,9 @@
         "icon": "storm_ui_icon_kerrigan_ultralisk.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Kerrigan|R2",
+        "abilityId": "Kerrigan|R1",
         "abilityLinks": [
-          "Kerrigan|R2"
+          "Kerrigan|R1"
         ]
       },
       {

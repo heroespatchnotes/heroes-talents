@@ -1,5 +1,5 @@
 {
-  "id": "26",
+  "id": 26,
   "shortName": "murky",
   "attributeId": "Murk",
   "cHeroId": "Murky",
@@ -25,6 +25,7 @@
   "abilities": {
     "Murky": [
       {
+        "uid": "e3adb7",
         "name": "Slime",
         "description": "Deal 86 (+4% per level) damage and apply Slime on nearby enemies for 6 seconds, slowing them by 20%.  Deal 210 (+4% per level) damage to enemies who are already Slimed.",
         "hotkey": "Q",
@@ -34,6 +35,7 @@
         "type": "basic"
       },
       {
+        "uid": "9152c7",
         "name": "Pufferfish",
         "description": "Spit out a Pufferfish with 225 (+5.5% per level) health at the target point. After 3 seconds, the fish will blow up for 410 (+4% per level) damage. Deals 50% less damage to Structures.",
         "hotkey": "W",
@@ -43,6 +45,7 @@
         "type": "basic"
       },
       {
+        "uid": "f1e080",
         "name": "Safety Bubble",
         "description": "Becomes Invulnerable for 2 seconds. While active, Murky cannot attack or use abilities.",
         "hotkey": "E",
@@ -52,6 +55,7 @@
         "type": "basic"
       },
       {
+        "uid": "b50a9e",
         "name": "March of the Murlocs",
         "description": "After 0.75 seconds, Murky commands a legion of Murlocs to march in a target direction, each one leaping onto the first enemy Hero or Structure they find. Each Murloc deals 125 (+4% per level) damage and slows its target by 15% for 5 seconds. Murlocs deal 50% damage to Structures.",
         "hotkey": "R",
@@ -61,6 +65,7 @@
         "type": "heroic"
       },
       {
+        "uid": "d802c4",
         "name": "Octo-Grab",
         "description": "Murky becomes Unstoppable and Stuns target enemy Hero for 3 seconds while he hits them for 1 damage a second.",
         "hotkey": "R",
@@ -70,6 +75,7 @@
         "type": "heroic"
       },
       {
+        "uid": "c618ef",
         "name": "Spawn Egg",
         "description": "Place an Egg at target location, revealing the nearby area. Upon dying, Murky respawns at the Egg after 8 seconds. Murky only grants 25% of a real Hero's experience upon dying.  If Murky's Egg is killed, he is revealed to enemies for 15 seconds, and Spawn Egg is placed on cooldown.",
         "hotkey": "D",
@@ -123,7 +129,7 @@
         "tooltipId": "MurkySlimeTime",
         "talentTreeId": "MurkySlimeTime",
         "name": "Slime Time",
-        "description": "Quest: Slime enemy Heroes that are already Slimed.  Reward: After Sliming 15 Heroes, increase Slime's bonus damage by 125.  Reward: After Sliming 30 Heroes, increase Slime's slow amount to 30%.",
+        "description": "Quest: Slime enemy Heroes that are already Slimed.  Reward: After Sliming 10 Heroes, increase Slime's bonus damage by 125.  Reward: After Sliming 20 Heroes, increase Slime's slow amount to 30%.",
         "icon": "storm_ui_icon_murky_slime.png",
         "type": "Q",
         "sort": 1,
@@ -150,7 +156,7 @@
         "tooltipId": "MurkyLivingTheDreamTalent",
         "talentTreeId": "MurkyLivingtheDream",
         "name": "Living the Dream",
-        "description": "Quest: Every 15 seconds Murky is alive, he gains 5% Spell Power, up to 20%. This bonus is reset upon his death.",
+        "description": "Quest: Every 15 seconds Murky is alive, he gains 5% Spell Power, up to 25%. This bonus is reset upon his death.",
         "icon": "storm_ui_icon_murky_trait_spawnegg_var1.png",
         "type": "Passive",
         "sort": 3,
@@ -329,7 +335,7 @@
         "tooltipId": "MurkyOctoGrabAndASharkTooTalent",
         "talentTreeId": "MurkyMasteryAndASharkToo",
         "name": "... And a Shark Too!",
-        "description": "Increase the damage of Octo-Grab by 13700%.",
+        "description": "Increase the damage of Octo-Grab by 13700% (+4% per level).",
         "icon": "storm_ui_icon_murky_octograb.png",
         "type": "Heroic",
         "sort": 2,

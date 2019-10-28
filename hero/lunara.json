@@ -1,5 +1,5 @@
 {
-  "id": "46",
+  "id": 46,
   "shortName": "lunara",
   "attributeId": "Drya",
   "cHeroId": "Dryad",
@@ -21,6 +21,7 @@
   "abilities": {
     "Lunara": [
       {
+        "uid": "333ffe",
         "name": "Noxious Blossom",
         "description": "After 0.5 seconds, cause an area to explode with pollen dealing 160 (+4% per level) damage.",
         "hotkey": "Q",
@@ -31,6 +32,7 @@
         "type": "basic"
       },
       {
+        "uid": "03ec56",
         "name": "Crippling Spores",
         "description": "Enemies currently afflicted by Nature's Toxin have its duration increased by 3 seconds and are Slowed by 40% decaying over 3 seconds.",
         "hotkey": "W",
@@ -41,6 +43,7 @@
         "type": "basic"
       },
       {
+        "uid": "0b8564",
         "name": "Wisp",
         "description": "Spawn a Wisp to scout an area. Can be redirected once active. When the Wisp is in a bush for more 2 seconds, its vision radius is increased by 75%.  Lasts 45 seconds.",
         "hotkey": "E",
@@ -50,6 +53,7 @@
         "type": "basic"
       },
       {
+        "uid": "e13b16",
         "name": "Thornwood Vine",
         "description": "Send forth vines that deal 176 (+4% per level) damage to all enemies in a line.  Stores up to 3 charges.",
         "hotkey": "R",
@@ -60,6 +64,7 @@
         "type": "heroic"
       },
       {
+        "uid": "4fb100",
         "name": "Leaping Strike",
         "description": "Leap over an enemy, Slowing them by 80% for 0.35 seconds and dealing 271 (+4% per level) damage.  Stores up to 2 charges.",
         "hotkey": "R",
@@ -70,6 +75,7 @@
         "type": "heroic"
       },
       {
+        "uid": "18d607",
         "name": "Nature's Toxin",
         "description": "Lunara's Basic Attacks and damaging Abilities poison their target, dealing 30 (+5% per level) damage a second for 3 seconds. Every additional application increases the duration by 3 seconds, up to a maximum of 9 seconds.",
         "trait": true,
@@ -78,23 +84,13 @@
         "type": "trait"
       },
       {
+        "uid": "a41cea",
         "name": "Dryad's Swiftness",
         "description": "Lunara moves 20% faster by leaping short distances.",
         "hotkey": "Z",
         "abilityId": "Lunara|Z1",
         "icon": "storm_ui_icon_lunara_mount.png",
         "type": "mount"
-      }
-    ],
-    "LunaraWisp": [
-      {
-        "name": "Relocate Wisp",
-        "description": "Moves the Wisp to a new location.",
-        "hotkey": "E",
-        "abilityId": "Lunara|E2",
-        "cooldown": 1,
-        "icon": "storm_ui_icon_lunara_wispredirect.png",
-        "type": "subunit"
       }
     ]
   },
@@ -110,8 +106,7 @@
         "sort": 1,
         "abilityId": "Lunara|E1",
         "abilityLinks": [
-          "Lunara|E1",
-          "Lunara|E2"
+          "Lunara|E1"
         ]
       },
       {
@@ -391,10 +386,10 @@
         "icon": "storm_ui_icon_lunara_stiflingblossom.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Lunara|Q1",
+        "abilityId": "Lunara|D1",
         "abilityLinks": [
-          "Lunara|Q1",
-          "Lunara|D1"
+          "Lunara|D1",
+          "Lunara|Q1"
         ]
       },
       {

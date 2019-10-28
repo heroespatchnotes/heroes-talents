@@ -1,5 +1,5 @@
 {
-  "id": "38",
+  "id": 38,
   "shortName": "thebutcher",
   "attributeId": "Butc",
   "cHeroId": "Butcher",
@@ -20,62 +20,68 @@
     "SoloLaner"
   ],
   "abilities": {
-    "The Butcher": [
+    "TheButcher": [
       {
+        "uid": "eff167",
         "name": "Hamstring",
         "description": "Deal 110 (+4% per level) damage and slow enemies by 50% fading over 2 seconds.  The Butcher's next Basic Attack will strike immediately.",
         "hotkey": "Q",
-        "abilityId": "The Butcher|Q1",
+        "abilityId": "TheButcher|Q1",
         "cooldown": 4,
         "manaCost": 40,
         "icon": "storm_ui_icon_butcher_hamstring.png",
         "type": "basic"
       },
       {
+        "uid": "945d96",
         "name": "Butcher's Brand",
         "description": "Deal 37 (+4% per level) damage to an enemy and Brand them for 4 seconds. The Butcher's Basic Attacks against the Branded target heal him for 75% of the damage done.  Basic Attacks against Branded Heroes heal for double and extend the duration of the Brand by 0.5 seconds.",
         "hotkey": "W",
-        "abilityId": "The Butcher|W1",
+        "abilityId": "TheButcher|W1",
         "cooldown": 14,
         "manaCost": 60,
         "icon": "storm_ui_icon_butcher_tenderize.png",
         "type": "basic"
       },
       {
+        "uid": "821300",
         "name": "Ruthless Onslaught",
         "description": "Charge at an enemy, becoming Unstoppable and gaining Movement Speed. If The Butcher reaches the target, they are stunned for 1 second and take 119 (+4% per level) damage.",
         "hotkey": "E",
-        "abilityId": "The Butcher|E1",
+        "abilityId": "TheButcher|E1",
         "cooldown": 15,
         "manaCost": 50,
         "icon": "storm_ui_icon_butcher_fullboar.png",
         "type": "basic"
       },
       {
-        "name": "Lamb to the Slaughter",
-        "description": "Throw a hitching post that attaches to the nearest enemy Hero after a 1 second delay. This deals 171 (+4% per level) damage and causes the enemy to be chained to the post and Silenced for 3 seconds.",
-        "hotkey": "R",
-        "abilityId": "The Butcher|R1",
-        "cooldown": 90,
-        "manaCost": 75,
-        "icon": "storm_ui_icon_butcher_lambtotheslaughter.png",
-        "type": "heroic"
-      },
-      {
+        "uid": "b22bfe",
         "name": "Furnace Blast",
         "description": "After a 3 second delay, fire explodes around The Butcher dealing 500 (+4% per level) damage to enemies.  Can be cast while using Ruthless Onslaught.",
         "hotkey": "R",
-        "abilityId": "The Butcher|R2",
+        "abilityId": "TheButcher|R1",
         "cooldown": 60,
         "manaCost": 75,
         "icon": "storm_ui_icon_butcher_furnaceblast.png",
         "type": "heroic"
       },
       {
+        "uid": "a1d875",
+        "name": "Lamb to the Slaughter",
+        "description": "Throw a hitching post that attaches to the nearest enemy Hero after a 1 second delay. This deals 171 (+4% per level) damage and causes the enemy to be chained to the post and Silenced for 3 seconds.",
+        "hotkey": "R",
+        "abilityId": "TheButcher|R2",
+        "cooldown": 90,
+        "manaCost": 75,
+        "icon": "storm_ui_icon_butcher_lambtotheslaughter.png",
+        "type": "heroic"
+      },
+      {
+        "uid": "168e6b",
         "name": "Fresh Meat",
         "description": "Upon dying, nearby enemy Minions drop 1 Fresh Meat and enemy Heroes drop 20 Fresh Meat. Fresh Meat can be picked up to gain 0.5 Attack Damage per Meat. The Butcher loses 15 Fresh Meat upon dying.  Quest: Collect 200 Fresh Meat.  Reward: Gain an additional 125 Attack Damage and 25% increased Attack Speed. Heroes continue to drop 10 Fresh Meat, Minions no longer drop Fresh Meat, and Fresh Meat is no longer lost on death.",
         "trait": true,
-        "abilityId": "The Butcher|D1",
+        "abilityId": "TheButcher|D1",
         "icon": "storm_ui_icon_butcher_freshmeat.png",
         "type": "trait"
       }
@@ -91,9 +97,9 @@
         "icon": "storm_ui_icon_butcher_hamstring.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "The Butcher|Q1",
+        "abilityId": "TheButcher|Q1",
         "abilityLinks": [
-          "The Butcher|Q1"
+          "TheButcher|Q1"
         ]
       },
       {
@@ -104,7 +110,7 @@
         "icon": "storm_ui_icon_talent_block.png",
         "type": "Passive",
         "sort": 2,
-        "abilityId": "The Butcher|Passive"
+        "abilityId": "TheButcher|Passive"
       },
       {
         "tooltipId": "ButcherHamstringChopMeatTalent",
@@ -114,9 +120,9 @@
         "icon": "storm_ui_icon_butcher_hamstring_var1.png",
         "type": "Q",
         "sort": 3,
-        "abilityId": "The Butcher|Q1",
+        "abilityId": "TheButcher|Q1",
         "abilityLinks": [
-          "The Butcher|Q1"
+          "TheButcher|Q1"
         ]
       }
     ],
@@ -129,9 +135,9 @@
         "icon": "storm_ui_icon_butcher_hamstring.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "The Butcher|Q1",
+        "abilityId": "TheButcher|Q1",
         "abilityLinks": [
-          "The Butcher|Q1"
+          "TheButcher|Q1"
         ]
       },
       {
@@ -142,9 +148,9 @@
         "icon": "storm_ui_icon_butcher_fullboar.png",
         "type": "E",
         "sort": 2,
-        "abilityId": "The Butcher|E1",
+        "abilityId": "TheButcher|E1",
         "abilityLinks": [
-          "The Butcher|E1"
+          "TheButcher|E1"
         ]
       },
       {
@@ -155,9 +161,9 @@
         "icon": "storm_ui_icon_butcher_hamstring_var1.png",
         "type": "Q",
         "sort": 3,
-        "abilityId": "The Butcher|Q1",
+        "abilityId": "TheButcher|Q1",
         "abilityLinks": [
-          "The Butcher|Q1"
+          "TheButcher|Q1"
         ]
       }
     ],
@@ -170,9 +176,9 @@
         "icon": "storm_ui_icon_butcher_tenderize.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "The Butcher|W1",
+        "abilityId": "TheButcher|W1",
         "abilityLinks": [
-          "The Butcher|W1"
+          "TheButcher|W1"
         ]
       },
       {
@@ -183,9 +189,9 @@
         "icon": "storm_ui_icon_butcher_freshmeat.png",
         "type": "Trait",
         "sort": 2,
-        "abilityId": "The Butcher|D1",
+        "abilityId": "TheButcher|D1",
         "abilityLinks": [
-          "The Butcher|D1"
+          "TheButcher|D1"
         ]
       },
       {
@@ -196,9 +202,9 @@
         "icon": "storm_ui_icon_butcher_fullboar.png",
         "type": "E",
         "sort": 3,
-        "abilityId": "The Butcher|E1",
+        "abilityId": "TheButcher|E1",
         "abilityLinks": [
-          "The Butcher|E1"
+          "TheButcher|E1"
         ]
       }
     ],
@@ -212,9 +218,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 60,
-        "abilityId": "The Butcher|R2",
+        "abilityId": "TheButcher|R1",
         "abilityLinks": [
-          "The Butcher|R2"
+          "TheButcher|R1"
         ]
       },
       {
@@ -226,9 +232,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 90,
-        "abilityId": "The Butcher|R1",
+        "abilityId": "TheButcher|R2",
         "abilityLinks": [
-          "The Butcher|R1"
+          "TheButcher|R2"
         ]
       }
     ],
@@ -241,7 +247,7 @@
         "icon": "storm_ui_icon_talent_autoattack_aoe.png",
         "type": "Passive",
         "sort": 1,
-        "abilityId": "The Butcher|Passive"
+        "abilityId": "TheButcher|Passive"
       },
       {
         "tooltipId": "ButcherRuthlessOnslaughtSavageChargeTalent",
@@ -251,9 +257,9 @@
         "icon": "storm_ui_icon_butcher_fullboar.png",
         "type": "E",
         "sort": 2,
-        "abilityId": "The Butcher|E1",
+        "abilityId": "TheButcher|E1",
         "abilityLinks": [
-          "The Butcher|E1"
+          "TheButcher|E1"
         ]
       },
       {
@@ -264,9 +270,9 @@
         "icon": "storm_ui_icon_butcher_hamstring.png",
         "type": "Q",
         "sort": 3,
-        "abilityId": "The Butcher|Q1",
+        "abilityId": "TheButcher|Q1",
         "abilityLinks": [
-          "The Butcher|Q1"
+          "TheButcher|Q1"
         ]
       }
     ],
@@ -279,9 +285,9 @@
         "icon": "storm_ui_icon_butcher_hamstring.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "The Butcher|Q1",
+        "abilityId": "TheButcher|Q1",
         "abilityLinks": [
-          "The Butcher|Q1"
+          "TheButcher|Q1"
         ]
       },
       {
@@ -292,7 +298,7 @@
         "icon": "storm_ui_icon_butcher_enraged.png",
         "type": "Passive",
         "sort": 2,
-        "abilityId": "The Butcher|Passive"
+        "abilityId": "TheButcher|Passive"
       },
       {
         "tooltipId": "ButcherFreshBloodFrenzyMeatTalent",
@@ -302,7 +308,7 @@
         "icon": "storm_ui_icon_talent_autoattack_speed.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "The Butcher|Passive"
+        "abilityId": "TheButcher|Passive"
       }
     ],
     "20": [
@@ -314,9 +320,9 @@
         "icon": "storm_ui_icon_butcher_furnaceblast.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "The Butcher|R2",
+        "abilityId": "TheButcher|R1",
         "abilityLinks": [
-          "The Butcher|R2"
+          "TheButcher|R1"
         ]
       },
       {
@@ -327,9 +333,9 @@
         "icon": "storm_ui_icon_butcher_lambtotheslaughter.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "The Butcher|R1",
+        "abilityId": "TheButcher|R2",
         "abilityLinks": [
-          "The Butcher|R1"
+          "TheButcher|R2"
         ]
       },
       {
@@ -340,7 +346,7 @@
         "icon": "storm_ui_icon_talent_autoattack_slow.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "The Butcher|Passive"
+        "abilityId": "TheButcher|Passive"
       },
       {
         "tooltipId": "GenericBoltoftheStormTalent",
@@ -351,7 +357,7 @@
         "type": "Active",
         "sort": 4,
         "cooldown": 70,
-        "abilityId": "The Butcher|Active"
+        "abilityId": "TheButcher|Active"
       }
     ]
   }

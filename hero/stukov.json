@@ -1,5 +1,5 @@
 {
-  "id": "69",
+  "id": 69,
   "shortName": "stukov",
   "attributeId": "STUK",
   "cHeroId": "Stukov",
@@ -21,6 +21,7 @@
   "abilities": {
     "Stukov": [
       {
+        "uid": "7dec2e",
         "name": "Healing Pathogen",
         "description": "Infest an allied Hero with a Healing Pathogen that heals the target for 222 (+4% per level) Health over 4.5 seconds. Healing Pathogens can spread to a nearby allied Hero every 0.75 seconds.  Each cast of Healing Pathogen can only spread to each allied Hero 1 time.",
         "hotkey": "Q",
@@ -31,6 +32,7 @@
         "type": "basic"
       },
       {
+        "uid": "7264a2",
         "name": "Weighted Pustule",
         "description": "Hurl a pustule that impacts all enemy Heroes in its path, dealing 20 (+4% per level) damage and Slowing by 5%, increasing to 50% over 3 seconds. Deals an additional 80 (+4% per level) damage upon expiring or being removed.",
         "hotkey": "W",
@@ -41,6 +43,7 @@
         "type": "basic"
       },
       {
+        "uid": "24adc9",
         "name": "Lurking Arm",
         "description": "Channel at a target location, creating an area that deals 136 (+4% per level) damage per second to non-Structure enemies and Silences them. Deals 50% reduced damage to non-Heroes.  Does not cost Mana while Channeling, and lasts until canceled or interrupted.",
         "hotkey": "E",
@@ -51,26 +54,29 @@
         "type": "basic"
       },
       {
-        "name": "Flailing Swipe",
-        "description": "Swipe 3 times in front of Stukov over 1.75 seconds, dealing 48 (+4% per level) damage to enemies hit and knocking them away. Each swipe is larger than the previous.",
-        "hotkey": "R",
-        "abilityId": "Stukov|R1",
-        "cooldown": 80,
-        "manaCost": 80,
-        "icon": "storm_ui_icon_stukov_flailingswipe.png",
-        "type": "heroic"
-      },
-      {
+        "uid": "da09fd",
         "name": "Massive Shove",
         "description": "Extend Stukov's arm. If it hits an enemy Hero, they are rapidly shoved until they collide with terrain, dealing 190 (+4% per level) damage and Stunning them for 0.5 seconds. Stukov gains 50 Armor while shoving an enemy.",
         "hotkey": "R",
-        "abilityId": "Stukov|R2",
+        "abilityId": "Stukov|R1",
         "cooldown": 20,
         "manaCost": 50,
         "icon": "storm_ui_icon_stukov_massiveshove.png",
         "type": "heroic"
       },
       {
+        "uid": "33bf63",
+        "name": "Flailing Swipe",
+        "description": "Swipe 3 times in front of Stukov over 1.75 seconds, dealing 48 (+4% per level) damage to enemies hit and knocking them away. Each swipe is larger than the previous.",
+        "hotkey": "R",
+        "abilityId": "Stukov|R2",
+        "cooldown": 60,
+        "manaCost": 60,
+        "icon": "storm_ui_icon_stukov_flailingswipe.png",
+        "type": "heroic"
+      },
+      {
+        "uid": "f6d1f0",
         "name": "Bio-Kill Switch",
         "description": "Activate to detonate all of Stukov's Viruses. Each Healing Pathogen heals its target for 450 (+4% per level) Health, and each Weighted Pustule does 100 (+4% per level) damage and Slows its target by 70% for 2 seconds.  Can be cast while Channeling Lurking Arm.",
         "hotkey": "D",
@@ -226,10 +232,10 @@
         "icon": "storm_ui_icon_stukov_flailingswipe.png",
         "type": "Heroic",
         "sort": 1,
-        "cooldown": 80,
-        "abilityId": "Stukov|R1",
+        "cooldown": 60,
+        "abilityId": "Stukov|R2",
         "abilityLinks": [
-          "Stukov|R1"
+          "Stukov|R2"
         ]
       },
       {
@@ -241,9 +247,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 20,
-        "abilityId": "Stukov|R2",
+        "abilityId": "Stukov|R1",
         "abilityLinks": [
-          "Stukov|R2"
+          "Stukov|R1"
         ]
       }
     ],
@@ -347,13 +353,13 @@
         "tooltipId": "StukovControlledChaosTalent",
         "talentTreeId": "StukovControlledChaos",
         "name": "Controlled Chaos",
-        "description": "Flailing Swipe gains 2 additional charges, but each use only swings 1 time, at maximum range.  Additionally, its cooldown is decreased to 30 seconds, and its Mana cost is reduced from 80 to 30.",
+        "description": "Flailing Swipe gains 2 additional charges, but each use only swings 1 time, at maximum range.  Additionally, its cooldown is decreased to 25 seconds, and its Mana cost is reduced from 60 to 25.",
         "icon": "storm_ui_icon_stukov_flailingswipe.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Stukov|R1",
+        "abilityId": "Stukov|R2",
         "abilityLinks": [
-          "Stukov|R1"
+          "Stukov|R2"
         ]
       },
       {
@@ -364,9 +370,9 @@
         "icon": "storm_ui_icon_stukov_massiveshove.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Stukov|R2",
+        "abilityId": "Stukov|R1",
         "abilityLinks": [
-          "Stukov|R2"
+          "Stukov|R1"
         ]
       },
       {

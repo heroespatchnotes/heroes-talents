@@ -1,5 +1,5 @@
 {
-  "id": "9",
+  "id": 9,
   "shortName": "malfurion",
   "attributeId": "Malf",
   "cHeroId": "Malfurion",
@@ -21,6 +21,7 @@
   "abilities": {
     "Malfurion": [
       {
+        "uid": "ff74fd",
         "name": "Regrowth",
         "description": "Heal an allied Hero for 380 (+4% per level) Health over 20 seconds.",
         "hotkey": "Q",
@@ -31,6 +32,7 @@
         "type": "basic"
       },
       {
+        "uid": "895dcf",
         "name": "Moonfire",
         "description": "Deal 90 (+4% per level) damage to enemies in an area and reveal them for 2 seconds.  Allies with an active Regrowth are healed for 130 (+4% per level) Health for each enemy Hero hit by Moonfire.",
         "hotkey": "W",
@@ -41,16 +43,18 @@
         "type": "basic"
       },
       {
+        "uid": "699cfb",
         "name": "Entangling Roots",
         "description": "Root enemy Heroes in an area for 1.25 seconds, and deal 117 (+4% per level) damage over the duration. Affected area grows over 3 seconds.",
         "hotkey": "E",
         "abilityId": "Malfurion|E1",
-        "cooldown": 14,
-        "manaCost": 75,
+        "cooldown": 12,
+        "manaCost": 65,
         "icon": "storm_ui_icon_malfurion_entanglingroots.png",
         "type": "basic"
       },
       {
+        "uid": "c1042b",
         "name": "Tranquility",
         "description": "Heal nearby allied Heroes for 80 (+4% per level) Health per second for 8 seconds. Allies affected by Regrowth within Tranquility's area gain 10 Armor.",
         "hotkey": "R",
@@ -61,6 +65,7 @@
         "type": "heroic"
       },
       {
+        "uid": "d55c5b",
         "name": "Twilight Dream",
         "description": "After 0.5 seconds, deal 310 (+4% per level) damage in a large area around Malfurion, Silencing enemies making them unable to use Abilities for 3 seconds.",
         "hotkey": "R",
@@ -71,12 +76,13 @@
         "type": "heroic"
       },
       {
+        "uid": "e7b6e6",
         "name": "Innervate",
         "description": "Grant an allied Hero 20% of their maximum Mana over 5 seconds. While affected by Innervate, their Basic Ability cooldowns recharge 50% faster.  Cannot be used on Heroes that do not use Mana.",
         "hotkey": "D",
         "trait": true,
         "abilityId": "Malfurion|D1",
-        "cooldown": 30,
+        "cooldown": 25,
         "icon": "storm_ui_icon_malfurion_innerrvate.png",
         "type": "trait"
       }
@@ -203,7 +209,7 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 45,
-        "abilityId": "Malfurion|Q1",
+        "abilityId": "Malfurion|Active",
         "abilityLinks": [
           "Malfurion|Q1"
         ]

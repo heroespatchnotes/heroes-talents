@@ -1,5 +1,5 @@
 {
-  "id": "58",
+  "id": 58,
   "shortName": "samuro",
   "attributeId": "Samu",
   "cHeroId": "Samuro",
@@ -21,6 +21,7 @@
   "abilities": {
     "Samuro": [
       {
+        "uid": "12473b",
         "name": "Mirror Image",
         "description": "Teleport a short distance in the direction of the mouse cursor, creating 2 Mirror Images for 18 seconds with 100% of Samuro's current Health that Basic Attack enemies for 9 (+4% per level) damage. Whenever an Image takes damage, it deals that amount of damage to itself, effectively doubling the damage it takes.  Maximum 2 Mirror Images can be active at at time. Using Mirror Image removes most negative effects from Samuro.",
         "hotkey": "Q",
@@ -30,6 +31,7 @@
         "type": "basic"
       },
       {
+        "uid": "13e57d",
         "name": "Critical Strike",
         "description": "Samuro's next Basic Attack within 8 seconds will be a Critical Strike, dealing 50% increased damage. This also applies to Images, and does not break Wind Walk.  Passive: Samuro and his Images deal a Critical Strike on every 4th Basic Attack.",
         "hotkey": "W",
@@ -39,6 +41,7 @@
         "type": "basic"
       },
       {
+        "uid": "a5acdc",
         "name": "Wind Walk",
         "description": "Grant Samuro Stealth for up to 10 seconds or until he attacks, uses an Ability, or takes damage.  While Stealthed, Samuro's Movement Speed is increased by 25% and he can pass through other units. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.  Samuro is Unrevealable for the first 1 second of Wind Walk.",
         "hotkey": "E",
@@ -48,6 +51,7 @@
         "type": "basic"
       },
       {
+        "uid": "a6edad",
         "name": "Bladestorm",
         "description": "Cause a Bladestorm of destructive force around Samuro for 4 seconds, making him Unstoppable and dealing 235 (+4% per level) damage per second to nearby enemies.",
         "hotkey": "R",
@@ -57,6 +61,18 @@
         "type": "heroic"
       },
       {
+        "uid": "a07a089",
+        "name": "Image Transmission",
+        "description": "Activate to switch places with a target Mirror Image, removing most negative effects from Samuro and the Mirror Image.  Advancing Strikes  Basic Attacks against enemy Heroes increase Samuro's Movement Speed by 25% for 2 seconds.",
+        "hotkey": "R",
+        "trait": true,
+        "abilityId": "Samuro|D1",
+        "cooldown": 25,
+        "icon": "storm_ui_icon_samuro_flowingstrikes.png",
+        "type": "trait"
+      },
+      {
+        "uid": "ca46c2",
         "name": "Illusion Master",
         "description": "Mirror Images can be controlled individually or as a group and their damage is increased by 100%.  Passive: Image Transmission's cooldown is reduced to 10 seconds.",
         "hotkey": "R",
@@ -66,14 +82,22 @@
         "type": "heroic"
       },
       {
-        "name": "Image Transmission",
-        "description": "Activate to switch places with a target Mirror Image, removing most negative effects from Samuro and the Mirror Image.  Advancing Strikes  Basic Attacks against enemy Heroes increase Samuro's Movement Speed by 25% for 2 seconds.",
-        "hotkey": "D",
-        "trait": true,
-        "abilityId": "Samuro|D1",
-        "cooldown": 25,
-        "icon": "storm_ui_icon_samuro_flowingstrikes.png",
-        "type": "trait"
+        "uid": "913d37",
+        "name": "Select Samuro",
+        "description": "Select Samuro  Issue orders to Samuro only.",
+        "hotkey": "1",
+        "abilityId": "Samuro|11",
+        "icon": "storm_temp_war3_btnheroblademaster.png",
+        "type": "activable"
+      },
+      {
+        "uid": "10e268",
+        "name": "Select All",
+        "description": "Select All  Issue orders to Samuro and all Mirror Images.",
+        "hotkey": "2",
+        "abilityId": "Samuro|21",
+        "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
+        "type": "activable"
       }
     ]
   },
@@ -335,11 +359,7 @@
         "description": "Samuro's Mirror Images no longer take additional damage, effecively increasing their health by 50% and their duration is increased to 36 seconds.",
         "icon": "storm_ui_icon_samuro_illusiondancer.png",
         "type": "Heroic",
-        "sort": 2,
-        "abilityId": "Samuro|R2",
-        "abilityLinks": [
-          "Samuro|R2"
-        ]
+        "sort": 2
       },
       {
         "tooltipId": "SamuroWindStrider",

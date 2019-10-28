@@ -1,5 +1,5 @@
 {
-  "id": "3",
+  "id": 3,
   "shortName": "diablo",
   "attributeId": "Diab",
   "cHeroId": "Diablo",
@@ -21,6 +21,7 @@
   "abilities": {
     "Diablo": [
       {
+        "uid": "913085",
         "name": "Shadow Charge",
         "description": "Charge an enemy, knocking them back, dealing 40 (+4% per level) damage and gaining 15% Movement Speed for 2 seconds. If the enemy hits terrain, they are Stunned for 1 second and take an additional 120 (+4% per level) damage.",
         "hotkey": "Q",
@@ -31,6 +32,7 @@
         "type": "basic"
       },
       {
+        "uid": "92a76c",
         "name": "Fire Stomp",
         "description": "Unleashes fire waves toward the targeted area that deal 12 (+4% per level) damage each. Once they reach maximum range they return, dealing an additional 36 (+4% per level) damage. Diablo heals for 130% of the damage dealt to Heroes.",
         "hotkey": "W",
@@ -41,6 +43,7 @@
         "type": "basic"
       },
       {
+        "uid": "1ecf57",
         "name": "Overpower",
         "description": "Grabs the target and slams it behind Diablo, dealing 73 (+4% per level) damage and Stunning for 0.25 seconds.",
         "hotkey": "E",
@@ -51,16 +54,18 @@
         "type": "basic"
       },
       {
+        "uid": "c58687",
         "name": "Apocalypse",
         "description": "Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and Stunning them for 1.75 seconds.",
         "hotkey": "R",
         "abilityId": "Diablo|R1",
         "cooldown": 90,
-        "manaCost": 100,
+        "manaCost": 50,
         "icon": "storm_ui_icon_diablo_apocalypse.png",
         "type": "heroic"
       },
       {
+        "uid": "39518c",
         "name": "Lightning Breath",
         "description": "After 0.5 seconds, become Unstoppable and Channel for up to 4 seconds, dealing 50 (+4% per level) damage every 0.25 seconds to enemies in front of Diablo. Enemies affected are Slowed by 4% for 2 seconds, up to 40%.  Lightning Breath's direction changes with your mouse cursor position.",
         "hotkey": "R",
@@ -71,11 +76,11 @@
         "type": "heroic"
       },
       {
+        "uid": "5ed7f3",
         "name": "Black Soulstone",
-        "description": "Repeatable Quest: Gain 10 Souls per Hero killed and 1 Soul per Minion, up to 100. For each Soul, gain 0.4% maximum Health. If Diablo has 100 Souls upon dying, he will resurrect in 5 seconds but lose 100 Souls.",
+        "description": "Repeatable Quest: Gain 10 Souls per Hero killed and 1 Soul per Minion, up to 100. For each Soul, gain 0.3% maximum Health. If Diablo has 100 Souls upon dying, he will resurrect in 5 seconds but lose 100 Souls.",
         "trait": true,
         "abilityId": "Diablo|D1",
-        "cooldown": 30,
         "icon": "storm_ui_icon_diablo_blacksoulstone_var1.png",
         "type": "trait"
       }
@@ -93,8 +98,8 @@
         "sort": 1,
         "abilityId": "Diablo|Passive",
         "abilityLinks": [
-          "Diablo|Q1",
-          "Diablo|E1"
+          "Diablo|E1",
+          "Diablo|Q1"
         ]
       },
       {
@@ -168,7 +173,7 @@
         "tooltipId": "DiabloShadowChargeOverpowerEternalFlames",
         "talentTreeId": "DiabloShadowChargeOverpowerEternalFlames",
         "name": "Eternal Flames",
-        "description": "When Diablo Stuns an enemy Hero with Shadow Charge or Overpower, reset the cooldown of Fire Stomp.",
+        "description": "When Diablo Stuns an enemy Hero with Shadow Charge or Overpower, reset the cooldown of Fire Stomp and Diablo gains 35 Mana.",
         "icon": "storm_ui_icon_diablo_firestomp.png",
         "type": "W",
         "sort": 1,
@@ -194,7 +199,7 @@
         "tooltipId": "DiabloDiabolicalMomentum",
         "talentTreeId": "DiabloDiabolicalMomentum",
         "name": "Diabolical Momentum",
-        "description": "When Diablo's Basic Attacks damage enemies, reduce the cooldown of his Basic Abilities by 1 second.",
+        "description": "When Diablo's Basic Attacks damage enemies, reduce the cooldown of his Basic Abilities by 1.25 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
         "type": "Passive",
         "sort": 3,
@@ -239,7 +244,7 @@
         "tooltipId": "DiabloDevastatingCharge",
         "talentTreeId": "DiabloDevastatingCharge",
         "name": "Devastating Charge",
-        "description": "Increase Shadow Charge's terrain collision damage by 80%.  Quest: Each time an enemy Hero takes terrain collision damage, increase this bonus by 20%, to a maximum of 120%.",
+        "description": "Increase Shadow Charge's terrain collision damage by 50%.  Quest: Hit an enemy Hero against terrain 5 times.  Reward: Hitting enemy Heroes against terrain reduces their Armor by 15 for 4 seconds.",
         "icon": "storm_ui_icon_diablo_shadowcharge_var1.png",
         "type": "Q",
         "sort": 1,
@@ -250,30 +255,30 @@
         ]
       },
       {
+        "tooltipId": "DiabloHellfire",
+        "talentTreeId": "DiabloHellfire",
+        "name": "Hellfire",
+        "description": "Each enemy Hero hit by Fire Stomp grants 2% Spell Power for 10 seconds, up to 30%.  While at maximum stacks, Diablo deals 15 (+4% per level) damage per second to nearby enemies.",
+        "icon": "storm_ui_icon_diablo_firestomp.png",
+        "type": "W",
+        "sort": 2,
+        "abilityId": "Diablo|W1",
+        "abilityLinks": [
+          "Diablo|W1"
+        ]
+      },
+      {
         "tooltipId": "DiabloShadowChargeOverpowerCruelty",
         "talentTreeId": "DiabloShadowChargeOverpowerCruelty",
         "name": "Cruelty",
         "description": "Stunning an enemy Hero with Shadow Charge or Overpower increases Diablo's Attack Speed by 50% for 7 seconds, up to 100%.",
         "icon": "storm_ui_icon_diablo_combo_1.png",
         "type": "Passive",
-        "sort": 2,
+        "sort": 3,
         "abilityId": "Diablo|Passive",
         "abilityLinks": [
-          "Diablo|Q1",
-          "Diablo|E1"
-        ]
-      },
-      {
-        "tooltipId": "DiabloHellfire",
-        "talentTreeId": "DiabloHellfire",
-        "name": "Hellfire",
-        "description": "Each enemy Hero hit by Fire Stomp grants 2% Spell Power for 10 seconds, up to 30%.",
-        "icon": "storm_ui_icon_diablo_firestomp.png",
-        "type": "W",
-        "sort": 3,
-        "abilityId": "Diablo|W1",
-        "abilityLinks": [
-          "Diablo|W1"
+          "Diablo|E1",
+          "Diablo|Q1"
         ]
       }
     ],
@@ -288,8 +293,8 @@
         "sort": 1,
         "abilityId": "Diablo|Q1",
         "abilityLinks": [
-          "Diablo|Q1",
-          "Diablo|E1"
+          "Diablo|E1",
+          "Diablo|Q1"
         ]
       },
       {

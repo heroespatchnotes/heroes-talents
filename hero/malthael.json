@@ -1,5 +1,5 @@
 {
-  "id": "68",
+  "id": 68,
   "shortName": "malthael",
   "attributeId": "MALT",
   "cHeroId": "Malthael",
@@ -23,6 +23,7 @@
   "abilities": {
     "Malthael": [
       {
+        "uid": "88afa6",
         "name": "Soul Rip",
         "description": "Extract the souls of nearby enemies afflicted by Reaper's Mark, dealing 100 (+4% per level) damage and healing Malthael for 25 (+4% per level) per target hit. Heroic targets heal Malthael for an additional 4% of the Hero's maximum Health.",
         "hotkey": "Q",
@@ -33,6 +34,7 @@
         "type": "basic"
       },
       {
+        "uid": "d3e2e8",
         "name": "Wraith Strike",
         "description": "Instantly teleport through an enemy afflicted by Reaper's Mark, dealing 59 (+4% per level) damage and refreshing Reaper's Mark.",
         "hotkey": "W",
@@ -43,6 +45,7 @@
         "type": "basic"
       },
       {
+        "uid": "fd6b05",
         "name": "Death Shroud",
         "description": "After 0.25 seconds, unleash a wave of dark mist that applies Reaper's Mark to enemies it hits.",
         "hotkey": "E",
@@ -53,6 +56,7 @@
         "type": "basic"
       },
       {
+        "uid": "d173a6",
         "name": "Tormented Souls",
         "description": "Unleash a torrent of souls, continually applying Reaper's Mark to nearby enemies for 4 seconds.  When Tormented Souls is cast and when it expires, reset the cooldown of Wraith Strike.",
         "hotkey": "R",
@@ -63,6 +67,7 @@
         "type": "heroic"
       },
       {
+        "uid": "39397d",
         "name": "Last Rites",
         "description": "Apply a death sentence to an enemy Hero that, after 2 seconds, deals damage equal to 50% of their missing Health.  Quest: Enemies killed between the application of Last Rites and within 1.5 seconds of it dealing damage permanently reduce its cooldown by 5 seconds, to a minimum of 15 seconds.",
         "hotkey": "R",
@@ -73,6 +78,7 @@
         "type": "heroic"
       },
       {
+        "uid": "041ae8",
         "name": "Reaper's Mark",
         "description": "Basic Attacks cleave in an area in front of Malthael and afflict non-Structure targets with Reaper's Mark for 4 seconds.  Marked enemies are revealed and take damage equal to 1.75% of their maximum Health every 1 second.",
         "trait": true,
@@ -107,7 +113,7 @@
         "sort": 2,
         "abilityId": "Malthael|Passive",
         "abilityLinks": [
-          "_stormhero|Z1"
+          "Malthael|Z"
         ]
       },
       {

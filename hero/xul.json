@@ -1,5 +1,5 @@
 {
-  "id": "49",
+  "id": 49,
   "shortName": "xul",
   "attributeId": "Necr",
   "cHeroId": "Necromancer",
@@ -23,6 +23,7 @@
   "abilities": {
     "Xul": [
       {
+        "uid": "88b979",
         "name": "Spectral Scythe",
         "description": "Summon a scythe that travels to Xul after 1 second, dealing 240 (+4% per level) damage to enemies.",
         "hotkey": "Q",
@@ -33,6 +34,7 @@
         "type": "basic"
       },
       {
+        "uid": "51a237",
         "name": "Cursed Strikes",
         "description": "Xul's Basic Attacks deal damage in a wide area and reduce the Attack Speed of Heroes and Summons by 40% for 2 seconds. Lasts 4 seconds once triggered.",
         "hotkey": "W",
@@ -43,6 +45,7 @@
         "type": "basic"
       },
       {
+        "uid": "aff545",
         "name": "Bone Prison",
         "description": "After a 2 second delay, deal 80 (+4% per level) damage and Root the target enemy Hero for 1.75 seconds.  All nearby Skeletal Warriors will fixate on the target for their duration.",
         "hotkey": "E",
@@ -53,26 +56,29 @@
         "type": "basic"
       },
       {
+        "uid": "5cbead",
         "name": "Skeletal Mages",
         "description": "Vector Targeting Summon 4 Frost Mages in a line that attack nearby enemies for 47 (+4% per level) damage a second and Slow them by 30% for 2 seconds. Last up to 15 seconds.",
         "hotkey": "R",
-        "abilityId": "Xul|R2",
+        "abilityId": "Xul|R1",
         "cooldown": 90,
         "manaCost": 80,
         "icon": "storm_ui_icon_necromancer_skeletalmages.png",
         "type": "heroic"
       },
       {
+        "uid": "c9f8ee",
         "name": "Poison Nova",
         "description": "After 0.5 seconds, release poisonous missiles that deal 570 (+4% per level) damage to all enemies hit over 10 seconds.",
         "hotkey": "R",
-        "abilityId": "Xul|R1",
+        "abilityId": "Xul|R2",
         "cooldown": 90,
         "manaCost": 100,
         "icon": "storm_ui_icon_necromancer_poisonnova.png",
         "type": "heroic"
       },
       {
+        "uid": "6ca7a4",
         "name": "Raise Skeleton",
         "description": "When a nearby enemy Minion dies, it becomes a Skeletal Warrior with 225 (+4% per level) Health that attacks for 21 (+4% per level) damage and last up to 15 seconds. Up to 4 Skeletal Warriors can be active at once.",
         "trait": true,
@@ -81,6 +87,7 @@
         "type": "trait"
       },
       {
+        "uid": "7131a0",
         "name": "Bone Armor",
         "description": "Activate to gain a Shield equal to 25% of Xul's maximum Health for 3 seconds.",
         "hotkey": "1",
@@ -227,9 +234,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 90,
-        "abilityId": "Xul|R1",
+        "abilityId": "Xul|R2",
         "abilityLinks": [
-          "Xul|R1"
+          "Xul|R2"
         ]
       },
       {
@@ -241,9 +248,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 90,
-        "abilityId": "Xul|R2",
+        "abilityId": "Xul|R1",
         "abilityLinks": [
-          "Xul|R2"
+          "Xul|R1"
         ]
       }
     ],
@@ -333,9 +340,9 @@
         "icon": "storm_ui_icon_necromancer_poisonnova.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Xul|R1",
+        "abilityId": "Xul|R2",
         "abilityLinks": [
-          "Xul|R1"
+          "Xul|R2"
         ]
       },
       {
@@ -346,9 +353,9 @@
         "icon": "storm_ui_icon_necromancer_skeletalmages.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Xul|R2",
+        "abilityId": "Xul|R1",
         "abilityLinks": [
-          "Xul|R2"
+          "Xul|R1"
         ]
       },
       {
@@ -357,7 +364,7 @@
         "name": "Mortal Wound",
         "description": "Enemy Heroes hit by Spectral Scythe receive 75% less healing for 4 seconds.",
         "icon": "storm_ui_icon_necromancer_reap.png",
-        "type": "Trait",
+        "type": "Q",
         "sort": 3,
         "abilityId": "Xul|Q1",
         "abilityLinks": [

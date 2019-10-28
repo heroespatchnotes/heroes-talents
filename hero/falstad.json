@@ -1,5 +1,5 @@
 {
-  "id": "5",
+  "id": 5,
   "shortName": "falstad",
   "attributeId": "Fals",
   "cHeroId": "Falstad",
@@ -21,6 +21,7 @@
   "abilities": {
     "Falstad": [
       {
+        "uid": "a6eba5",
         "name": "Hammerang",
         "description": "Throw out a Hammer that returns to Falstad, dealing 121 (+4% per level) damage and slowing enemies by 25% for 2 seconds.",
         "hotkey": "Q",
@@ -31,6 +32,7 @@
         "type": "basic"
       },
       {
+        "uid": "fbe0b2",
         "name": "Lightning Rod",
         "description": "Deal 107 (+4% per level) damage to an enemy, and an additional 75 (+4% per level) damage per second for 4 seconds while close to the target.",
         "hotkey": "W",
@@ -41,6 +43,7 @@
         "type": "basic"
       },
       {
+        "uid": "273040",
         "name": "Barrel Roll",
         "description": "Dashes forward and grants a 171 (+4% per level) point Shield for 3 seconds.",
         "hotkey": "E",
@@ -51,34 +54,39 @@
         "type": "basic"
       },
       {
-        "name": "Hinterland Blast",
-        "description": "After 1 second, deal 475 (+4.75% per level) damage to enemies within a long line. The cooldown is reduced by 25 seconds for every enemy Hero hit.",
-        "hotkey": "R",
-        "abilityId": "Falstad|R1",
-        "cooldown": 120,
-        "manaCost": 100,
-        "icon": "storm_ui_icon_falstad_hinterlandblast.png",
-        "type": "heroic"
-      },
-      {
+        "uid": "8ca841",
         "name": "Mighty Gust",
         "description": "Push enemies away, and slow their Movement Speed by 40% decaying over 4 seconds.",
         "hotkey": "R",
-        "abilityId": "Falstad|R2",
+        "abilityId": "Falstad|R1",
         "cooldown": 60,
         "manaCost": 70,
         "icon": "storm_ui_icon_falstad_mightygust.png",
         "type": "heroic"
       },
       {
+        "uid": "5aff81",
+        "name": "Hinterland Blast",
+        "description": "After 1 second, deal 475 (+4.75% per level) damage to enemies within a long line. The cooldown is reduced by 25 seconds for every enemy Hero hit.",
+        "hotkey": "R",
+        "abilityId": "Falstad|R2",
+        "cooldown": 120,
+        "manaCost": 100,
+        "icon": "storm_ui_icon_falstad_hinterlandblast.png",
+        "type": "heroic"
+      },
+      {
+        "uid": "c3bc73",
         "name": "Tailwind",
         "description": "Gain 15% increased Movement Speed after not taking damage for 6 seconds.",
         "trait": true,
         "abilityId": "Falstad|D1",
+        "cooldown": 6,
         "icon": "storm_ui_icon_falstad_tailwind.png",
         "type": "trait"
       },
       {
+        "uid": "bd615a",
         "name": "Flight",
         "description": "Instead of mounting, Falstad can fly a great distance over terrain.",
         "hotkey": "Z",
@@ -124,7 +132,7 @@
         "icon": "storm_ui_icon_talent_bribe.png",
         "type": "Active",
         "sort": 3,
-        "abilityId": "Falstad|W1",
+        "abilityId": "Falstad|Active",
         "abilityLinks": [
           "Falstad|W1"
         ]
@@ -148,7 +156,7 @@
         "tooltipId": "FalstadBarrelRollUpdraftTalent",
         "talentTreeId": "FalstadMasteryUpdraftBarrelRoll",
         "name": "Updraft",
-        "description": "Increases Barrel Roll's range and Shield amount by 40%, and its Shield now lasts indefinitely.",
+        "description": "Increases Barrel Roll's range by 40% and Shield amount by 60%, and its Shield now lasts indefinitely.",
         "icon": "storm_ui_icon_falstad_barrelroll.png",
         "type": "E",
         "sort": 2,
@@ -173,7 +181,7 @@
         "tooltipId": "FalstadSecretWeaponTalent",
         "talentTreeId": "FalstadMasteryHammerangSecretWeapon",
         "name": "Secret Weapon",
-        "description": "Increases Hammerang's range by 30% and Basic Attacks deal 60% bonus damage while Hammerang is in flight.",
+        "description": "Increases Hammerang's range by 30% and Basic Attacks deal 80% bonus damage while Hammerang is in flight.",
         "icon": "storm_ui_icon_falstad_hammerang.png",
         "type": "Q",
         "sort": 1,
@@ -219,9 +227,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 120,
-        "abilityId": "Falstad|R1",
+        "abilityId": "Falstad|R2",
         "abilityLinks": [
-          "Falstad|R1"
+          "Falstad|R2"
         ]
       },
       {
@@ -233,9 +241,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 60,
-        "abilityId": "Falstad|R2",
+        "abilityId": "Falstad|R1",
         "abilityLinks": [
-          "Falstad|R2"
+          "Falstad|R1"
         ]
       }
     ],
@@ -282,7 +290,7 @@
         "tooltipId": "FalstadHammerangCripplingHammerTalent",
         "talentTreeId": "FalstadMasteryCripplingHammerHammerang",
         "name": "Crippling Hammer",
-        "description": "Increases Hammerang's slow from 25% to 50%.",
+        "description": "Increases Hammerang's Slow from 25% to 60%.",
         "icon": "storm_ui_icon_falstad_hammerang.png",
         "type": "Q",
         "sort": 1,
@@ -327,9 +335,9 @@
         "icon": "storm_ui_icon_falstad_hinterlandblast.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Falstad|R1",
+        "abilityId": "Falstad|R2",
         "abilityLinks": [
-          "Falstad|R1"
+          "Falstad|R2"
         ]
       },
       {
@@ -340,9 +348,9 @@
         "icon": "storm_ui_icon_falstad_mightygust.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Falstad|R2",
+        "abilityId": "Falstad|R1",
         "abilityLinks": [
-          "Falstad|R2"
+          "Falstad|R1"
         ]
       },
       {

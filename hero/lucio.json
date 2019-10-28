@@ -1,5 +1,5 @@
 {
-  "id": "63",
+  "id": 63,
   "shortName": "lucio",
   "attributeId": "Luci",
   "cHeroId": "Lucio",
@@ -20,80 +20,79 @@
     "SelfHealer"
   ],
   "abilities": {
-    "Lúcio": [
+    "Lucio": [
       {
+        "uid": "d9b44f",
         "name": "Soundwave",
         "description": "Deal 105 (+4% per level) damage to enemies in an area and knock them back.",
         "hotkey": "Q",
-        "abilityId": "Lúcio|Q1",
+        "abilityId": "Lucio|Q1",
         "cooldown": 7,
         "manaCost": 30,
         "icon": "storm_ui_icon_lucio_soundwave.png",
         "type": "basic"
       },
       {
+        "uid": "219d28",
+        "name": "Crossfade",
+        "description": "Currently playing Speed Boost, increasing the Movement Speed of Lúcio and nearby allied Heroes by 10%.  Toggle to play Healing Boost instead.",
+        "hotkey": "W",
+        "abilityId": "Lucio|W1",
+        "icon": "storm_ui_icon_lucio_crossfadehealing.png",
+        "type": "basic"
+      },
+      {
+        "uid": "bb4eb8",
         "name": "Amp It Up",
         "description": "Raise Lúcio's Crossfade track volume for 3 seconds, amping Healing Boost to 112 (+4% per level) Health per second and Speed Boost to 30% increased Movement Speed.",
         "hotkey": "E",
-        "abilityId": "Lúcio|E1",
+        "abilityId": "Lucio|E1",
         "cooldown": 13,
         "manaCost": 90,
         "icon": "storm_ui_icon_lucio_ampitup.png",
         "type": "basic"
       },
       {
+        "uid": "4d5292",
         "name": "Sound Barrier",
         "description": "After 1 second, Lúcio and nearby allied Heroes gain a 1296 (+4% per level) point Shield that rapidly decays over 6 seconds.",
         "hotkey": "R",
-        "abilityId": "Lúcio|R1",
+        "abilityId": "Lucio|R1",
         "cooldown": 80,
         "manaCost": 100,
         "icon": "storm_ui_icon_lucio_soundbarrier.png",
         "type": "heroic"
       },
       {
-        "name": "Wall Ride",
-        "description": "When moving alongside terrain, Lúcio begins to Wall Ride for 2 seconds. While Wall Ride is active, Lúcio can walk through units and gains 20% Movement Speed that stacks with other bonuses.",
-        "abilityId": "Lúcio|Z1",
-        "icon": "storm_ui_icon_lucio_mount.png",
-        "type": "mount"
-      },
-      {
-        "name": "Crossfade",
-        "description": "Currently playing Speed Boost, increasing the Movement Speed of Lúcio and nearby allied Heroes by 10%.  Toggle to play Healing Boost instead.",
-        "hotkey": "W",
-        "abilityId": "Lúcio|W1",
-        "icon": "storm_ui_icon_lucio_crossfadehealing.png",
-        "type": "basic"
-      },
-      {
+        "uid": "fb6e89",
         "name": "High Five",
         "description": "Quickly skate to an allied Hero. Upon arrival, the ally is granted Unstoppable for 1 second and is healed for 250 (+4% per level).",
         "hotkey": "R",
-        "abilityId": "Lúcio|R2",
+        "abilityId": "Lucio|R2",
         "cooldown": 15,
         "manaCost": 35,
         "icon": "storm_ui_icon_lucio_highfive.png",
         "type": "heroic"
       },
       {
+        "uid": "65fa01",
         "name": "Push Off",
         "description": "While moving alongside terrain, activate to slide towards a targeted location. Enemies hit take 100 (+4% per level) damage and are Slowed by 75% for 1 second.",
+        "hotkey": "D",
         "trait": true,
-        "abilityId": "Lúcio|D1",
+        "abilityId": "Lucio|D1",
         "cooldown": 20,
         "icon": "storm_ui_icon_lucio_accelerando.png",
         "type": "trait"
-      }
-    ],
-    "LucioCrossfadeActivateHealingBoost": [
+      },
       {
-        "name": "Crossfade",
-        "description": "Currently playing Healing Boost, passively healing Lúcio and nearby allied Heroes for 15 (+4% per level) Health per second.  Toggle to play Speed Boost instead.",
-        "hotkey": "W",
-        "abilityId": "Lúcio|W2",
-        "icon": "storm_ui_icon_lucio_crossfadespeed.png",
-        "type": "subunit"
+        "uid": "169f23",
+        "name": "Wall Ride",
+        "description": "When moving alongside terrain, Lúcio begins to Wall Ride for 2 seconds. While Wall Ride is active, Lúcio can walk through units and gains 20% Movement Speed that stacks with other bonuses.",
+        "hotkey": "Z",
+        "abilityId": "Lucio|Z1",
+        "icon": "storm_ui_icon_lucio_mount.png",
+        "type": "mount"
       }
     ]
   },
@@ -108,10 +107,9 @@
         "type": "W",
         "sort": 1,
         "isQuest": true,
-        "abilityId": "Lúcio|W2",
+        "abilityId": "Lucio|W1",
         "abilityLinks": [
-          "Lúcio|W2",
-          "Lúcio|W1"
+          "Lucio|W1"
         ]
       },
       {
@@ -122,9 +120,9 @@
         "icon": "storm_ui_icon_lucio_wallride.png",
         "type": "Z",
         "sort": 2,
-        "abilityId": "Lúcio|Z1",
+        "abilityId": "Lucio|Z1",
         "abilityLinks": [
-          "Lúcio|Z1"
+          "Lucio|Z1"
         ]
       },
       {
@@ -135,9 +133,9 @@
         "icon": "storm_ui_icon_lucio_wallride_a.png",
         "type": "Z",
         "sort": 3,
-        "abilityId": "Lúcio|Z1",
+        "abilityId": "Lucio|Z1",
         "abilityLinks": [
-          "Lúcio|Z1"
+          "Lucio|Z1"
         ]
       }
     ],
@@ -151,9 +149,9 @@
         "type": "Q",
         "sort": 1,
         "isQuest": true,
-        "abilityId": "Lúcio|Q1",
+        "abilityId": "Lucio|Q1",
         "abilityLinks": [
-          "Lúcio|Q1"
+          "Lucio|Q1"
         ]
       },
       {
@@ -164,9 +162,9 @@
         "icon": "storm_ui_icon_lucio_soundwave_a.png",
         "type": "Q",
         "sort": 2,
-        "abilityId": "Lúcio|Q1",
+        "abilityId": "Lucio|Q1",
         "abilityLinks": [
-          "Lúcio|Q1"
+          "Lucio|Q1"
         ]
       },
       {
@@ -177,9 +175,9 @@
         "icon": "storm_ui_icon_lucio_accelerando.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Lúcio|D1",
+        "abilityId": "Lucio|D1",
         "abilityLinks": [
-          "Lúcio|D1"
+          "Lucio|D1"
         ]
       }
     ],
@@ -192,9 +190,9 @@
         "icon": "storm_ui_icon_lucio_soundwave_a.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Lúcio|Q1",
+        "abilityId": "Lucio|Q1",
         "abilityLinks": [
-          "Lúcio|Q1"
+          "Lucio|Q1"
         ]
       },
       {
@@ -205,11 +203,9 @@
         "icon": "storm_ui_icon_lucio_crossfade_all.png",
         "type": "W",
         "sort": 2,
-        "cooldown": 45,
-        "abilityId": "Lúcio|W2",
+        "abilityId": "Lucio|W1",
         "abilityLinks": [
-          "Lúcio|W2",
-          "Lúcio|W1"
+          "Lucio|W1"
         ]
       },
       {
@@ -221,7 +217,7 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 20,
-        "abilityId": "Lúcio|Active"
+        "abilityId": "Lucio|Active"
       }
     ],
     "10": [
@@ -234,9 +230,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 80,
-        "abilityId": "Lúcio|R1",
+        "abilityId": "Lucio|R1",
         "abilityLinks": [
-          "Lúcio|R1"
+          "Lucio|R1"
         ]
       },
       {
@@ -248,9 +244,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 15,
-        "abilityId": "Lúcio|R2",
+        "abilityId": "Lucio|R2",
         "abilityLinks": [
-          "Lúcio|R2"
+          "Lucio|R2"
         ]
       }
     ],
@@ -263,10 +259,9 @@
         "icon": "storm_ui_icon_lucio_crossfade_all.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "Lúcio|W2",
+        "abilityId": "Lucio|W1",
         "abilityLinks": [
-          "Lúcio|W2",
-          "Lúcio|W1"
+          "Lucio|W1"
         ]
       },
       {
@@ -277,9 +272,9 @@
         "icon": "storm_ui_icon_lucio_accelerando.png",
         "type": "Trait",
         "sort": 2,
-        "abilityId": "Lúcio|D1",
+        "abilityId": "Lucio|D1",
         "abilityLinks": [
-          "Lúcio|D1"
+          "Lucio|D1"
         ]
       },
       {
@@ -290,9 +285,9 @@
         "icon": "storm_ui_icon_lucio_wallride.png",
         "type": "Z",
         "sort": 3,
-        "abilityId": "Lúcio|Z1",
+        "abilityId": "Lucio|Z1",
         "abilityLinks": [
-          "Lúcio|Z1"
+          "Lucio|Z1"
         ]
       }
     ],
@@ -305,9 +300,9 @@
         "icon": "storm_ui_icon_lucio_ampitup.png",
         "type": "E",
         "sort": 1,
-        "abilityId": "Lúcio|E1",
+        "abilityId": "Lucio|E1",
         "abilityLinks": [
-          "Lúcio|E1"
+          "Lucio|E1"
         ]
       },
       {
@@ -318,9 +313,9 @@
         "icon": "storm_ui_icon_lucio_ampitup_b.png",
         "type": "E",
         "sort": 2,
-        "abilityId": "Lúcio|E1",
+        "abilityId": "Lucio|E1",
         "abilityLinks": [
-          "Lúcio|E1"
+          "Lucio|E1"
         ]
       },
       {
@@ -332,7 +327,7 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 60,
-        "abilityId": "Lúcio|Active"
+        "abilityId": "Lucio|Active"
       }
     ],
     "20": [
@@ -344,9 +339,9 @@
         "icon": "storm_ui_icon_lucio_soundbarrier.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Lúcio|R1",
+        "abilityId": "Lucio|R1",
         "abilityLinks": [
-          "Lúcio|R1"
+          "Lucio|R1"
         ]
       },
       {
@@ -357,9 +352,9 @@
         "icon": "storm_ui_icon_lucio_highfive.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Lúcio|R2",
+        "abilityId": "Lucio|R2",
         "abilityLinks": [
-          "Lúcio|R2"
+          "Lucio|R2"
         ]
       },
       {
@@ -370,10 +365,9 @@
         "icon": "storm_ui_icon_lucio_crossfade_all.png",
         "type": "W",
         "sort": 3,
-        "abilityId": "Lúcio|W2",
+        "abilityId": "Lucio|W1",
         "abilityLinks": [
-          "Lúcio|W2",
-          "Lúcio|W1"
+          "Lucio|W1"
         ]
       },
       {
@@ -385,10 +379,9 @@
         "type": "Active",
         "sort": 4,
         "cooldown": 75,
-        "abilityId": "Lúcio|W2",
+        "abilityId": "Lucio|Active",
         "abilityLinks": [
-          "Lúcio|W2",
-          "Lúcio|W1"
+          "Lucio|W1"
         ]
       }
     ]
