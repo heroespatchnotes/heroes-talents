@@ -6,7 +6,7 @@ const readdirAsync = util.promisify(fs.readdir)
 const readFileAsync = util.promisify(fs.readFile)
 const copyFileAsync = util.promisify(fs.copyFile)
 
-const heroesDirectory = './hero'
+const heroesDirectory = '../hero'
 
 class HeroesTalents {
   static loadHeroJSONFiles() {

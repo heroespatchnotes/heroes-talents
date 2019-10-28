@@ -131,7 +131,7 @@ See the [Contributing docs](CONTRIBUTING.md) for more information on our process
 `npm install --save git+https://git@github.com/heroespatchnotes/heroes-talents.git`
 
 **heroes-talents** includes basic support for loading hero data into your project. See
-[test.js](test.js) for an example, or [index.js](index.js) for the source.
+[dist/test.js](dist/test.js) for an example, or [dist/index.js](dist/index.js) for the source.
 
 ```javascript
 const HeroesTalents = require('heroes-talents')
