@@ -1,5 +1,5 @@
 {
-  "id": "31",
+  "id": 31,
   "shortName": "anubarak",
   "attributeId": "Anub",
   "cHeroId": "Anubarak",
@@ -20,62 +20,69 @@
     "RoleTank"
   ],
   "abilities": {
-    "Anub'arak": [
+    "Anubarak": [
       {
+        "uid": "a326d7",
         "name": "Impale",
         "description": "Deals 90 (+4% per level) damage. Stuns for 1 second.",
         "hotkey": "Q",
-        "abilityId": "Anub'arak|Q1",
+        "abilityId": "Anubarak|Q1",
         "cooldown": 12,
         "manaCost": 65,
         "icon": "storm_ui_icon_anubarak_impale.png",
         "type": "basic"
       },
       {
+        "uid": "7338e3",
         "name": "Harden Carapace",
         "description": "Gain a Shield that grants 40 Spell Armor and absorbs 315 (+4% per level) damage over 3 seconds.",
         "hotkey": "W",
-        "abilityId": "Anub'arak|W1",
-        "cooldown": 6,
+        "abilityId": "Anubarak|W1",
+        "cooldown": 7,
         "manaCost": 25,
         "icon": "storm_ui_icon_anubarak_hardencarapace_var1.png",
         "type": "basic"
       },
       {
+        "uid": "231bd0",
         "name": "Burrow Charge",
         "description": "Burrow to the target location, dealing 91 (+4% per level) damage and briefly stunning enemies in a small area upon surfacing, slowing them by 25% for 2.5 seconds.  Burrow Charge can be reactivated to surface early.",
         "hotkey": "E",
-        "abilityId": "Anub'arak|E1",
+        "abilityId": "Anubarak|E1",
         "cooldown": 14,
         "manaCost": 65,
         "icon": "storm_ui_icon_anubarak_burrowcharge.png",
         "type": "basic"
       },
       {
+        "uid": "d0c32b",
         "name": "Locust Swarm",
         "description": "Deal 62 (+4% per level) damage per second to nearby enemies. Each enemy damaged restores 21 (+4% per level) Health. Lasts 6 seconds.",
         "hotkey": "R",
-        "abilityId": "Anub'arak|R1",
+        "abilityId": "Anubarak|R1",
         "cooldown": 100,
         "manaCost": 75,
         "icon": "storm_ui_icon_anubarak_locustswarm.png",
         "type": "heroic"
       },
       {
+        "uid": "a193d1",
         "name": "Cocoon",
         "description": "Wraps target enemy Hero in a cocoon, rendering them unable to act or be targeted for 7 seconds. Allies of the Hero can attack the cocoon to break it and free them early.",
         "hotkey": "R",
-        "abilityId": "Anub'arak|R2",
+        "abilityId": "Anubarak|R2",
         "cooldown": 70,
         "manaCost": 70,
         "icon": "storm_ui_icon_anubarak_webblast.png",
         "type": "heroic"
       },
       {
+        "uid": "9f9721",
         "name": "Scarab Host",
         "description": "Using an Ability spawns a Beetle which lasts for 8 seconds, attacking nearby enemies for 20 (+4% per level) damage.",
+        "hotkey": "D",
         "trait": true,
-        "abilityId": "Anub'arak|D1",
+        "abilityId": "Anubarak|D1",
         "cooldown": 8,
         "icon": "storm_ui_icon_anubarak_scarabhost.png",
         "type": "trait"
@@ -92,9 +99,9 @@
         "icon": "storm_ui_icon_anubarak_hardencarapace_var1.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "Anub'arak|W1",
+        "abilityId": "Anubarak|W1",
         "abilityLinks": [
-          "Anub'arak|W1"
+          "Anubarak|W1"
         ]
       },
       {
@@ -105,9 +112,9 @@
         "icon": "storm_ui_icon_anubarak_scarabhost.png",
         "type": "Trait",
         "sort": 2,
-        "abilityId": "Anub'arak|D1",
+        "abilityId": "Anubarak|D1",
         "abilityLinks": [
-          "Anub'arak|D1"
+          "Anubarak|D1"
         ]
       },
       {
@@ -119,7 +126,7 @@
         "type": "Passive",
         "sort": 3,
         "isQuest": true,
-        "abilityId": "Anub'arak|Passive"
+        "abilityId": "Anubarak|Passive"
       }
     ],
     "4": [
@@ -131,9 +138,9 @@
         "icon": "storm_ui_icon_anubarak_impale.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Anub'arak|Q1",
+        "abilityId": "Anubarak|Q1",
         "abilityLinks": [
-          "Anub'arak|Q1"
+          "Anubarak|Q1"
         ]
       },
       {
@@ -144,9 +151,9 @@
         "icon": "storm_ui_icon_anubarak_hardencarapace_var1.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "Anub'arak|W1",
+        "abilityId": "Anubarak|W1",
         "abilityLinks": [
-          "Anub'arak|W1"
+          "Anubarak|W1"
         ]
       },
       {
@@ -157,9 +164,9 @@
         "icon": "storm_ui_icon_anubarak_burrowcharge.png",
         "type": "E",
         "sort": 3,
-        "abilityId": "Anub'arak|E1",
+        "abilityId": "Anubarak|E1",
         "abilityLinks": [
-          "Anub'arak|E1"
+          "Anubarak|E1"
         ]
       }
     ],
@@ -172,9 +179,9 @@
         "icon": "storm_ui_icon_anubarak_hardencarapace_var2.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "Anub'arak|W1",
+        "abilityId": "Anubarak|W1",
         "abilityLinks": [
-          "Anub'arak|W1"
+          "Anubarak|W1"
         ]
       },
       {
@@ -185,9 +192,9 @@
         "icon": "storm_ui_icon_anubarak_burrowcharge.png",
         "type": "E",
         "sort": 2,
-        "abilityId": "Anub'arak|E1",
+        "abilityId": "Anubarak|E1",
         "abilityLinks": [
-          "Anub'arak|E1"
+          "Anubarak|E1"
         ]
       },
       {
@@ -198,9 +205,9 @@
         "icon": "storm_ui_icon_anubarak_scarabhost.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Anub'arak|D1",
+        "abilityId": "Anubarak|D1",
         "abilityLinks": [
-          "Anub'arak|D1"
+          "Anubarak|D1"
         ]
       }
     ],
@@ -214,9 +221,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 100,
-        "abilityId": "Anub'arak|R1",
+        "abilityId": "Anubarak|R1",
         "abilityLinks": [
-          "Anub'arak|R1"
+          "Anubarak|R1"
         ]
       },
       {
@@ -228,9 +235,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 70,
-        "abilityId": "Anub'arak|R2",
+        "abilityId": "Anubarak|R2",
         "abilityLinks": [
-          "Anub'arak|R2"
+          "Anubarak|R2"
         ]
       }
     ],
@@ -243,7 +250,7 @@
         "icon": "storm_ui_icon_talent_burningrage.png",
         "type": "Passive",
         "sort": 1,
-        "abilityId": "Anub'arak|Passive"
+        "abilityId": "Anubarak|Passive"
       },
       {
         "tooltipId": "AnubarakHardenCarapaceUrtricatingSpinesTalent",
@@ -253,9 +260,9 @@
         "icon": "storm_ui_icon_anubarak_hardencarapace_var1.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "Anub'arak|W1",
+        "abilityId": "Anubarak|W1",
         "abilityLinks": [
-          "Anub'arak|W1"
+          "Anubarak|W1"
         ]
       },
       {
@@ -266,7 +273,7 @@
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Anub'arak|Passive"
+        "abilityId": "Anubarak|Passive"
       }
     ],
     "16": [
@@ -274,13 +281,13 @@
         "tooltipId": "AnubarakBurrowChargeEpicenterTalent",
         "talentTreeId": "AnubarakMasteryEpicenterBurrowCharge",
         "name": "Epicenter",
-        "description": "Increases Burrow Charge impact area by 60% and lowers the cooldown by 1.25 seconds for each Hero hit.",
+        "description": "Increases Burrow Charge impact area by 60% and lowers the cooldown by 1 second for each Hero hit.",
         "icon": "storm_ui_icon_anubarak_burrowcharge.png",
         "type": "E",
         "sort": 1,
-        "abilityId": "Anub'arak|E1",
+        "abilityId": "Anubarak|E1",
         "abilityLinks": [
-          "Anub'arak|E1"
+          "Anubarak|E1"
         ]
       },
       {
@@ -291,9 +298,9 @@
         "icon": "storm_ui_icon_anubarak_burrowcharge_a.png",
         "type": "E",
         "sort": 2,
-        "abilityId": "Anub'arak|E1",
+        "abilityId": "Anubarak|E1",
         "abilityLinks": [
-          "Anub'arak|E1"
+          "Anubarak|E1"
         ]
       },
       {
@@ -304,9 +311,9 @@
         "icon": "storm_ui_icon_anubarak_scarabhost.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Anub'arak|Passive",
+        "abilityId": "Anubarak|Passive",
         "abilityLinks": [
-          "Anub'arak|D1"
+          "Anubarak|D1"
         ]
       }
     ],
@@ -319,9 +326,9 @@
         "icon": "storm_ui_icon_anubarak_locustswarm.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Anub'arak|R1",
+        "abilityId": "Anubarak|R1",
         "abilityLinks": [
-          "Anub'arak|R1"
+          "Anubarak|R1"
         ]
       },
       {
@@ -332,9 +339,9 @@
         "icon": "storm_ui_icon_anubarak_webblast.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Anub'arak|R2",
+        "abilityId": "Anubarak|R2",
         "abilityLinks": [
-          "Anub'arak|R2"
+          "Anubarak|R2"
         ]
       },
       {
@@ -346,7 +353,7 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 60,
-        "abilityId": "Anub'arak|Active"
+        "abilityId": "Anubarak|Active"
       },
       {
         "tooltipId": "GenericRewindHotbar",
@@ -357,7 +364,7 @@
         "type": "Active",
         "sort": 4,
         "cooldown": 60,
-        "abilityId": "Anub'arak|Active"
+        "abilityId": "Anubarak|Active"
       }
     ]
   }

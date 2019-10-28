@@ -1,5 +1,5 @@
 {
-  "id": "17",
+  "id": 17,
   "shortName": "tassadar",
   "attributeId": "Tass",
   "cHeroId": "Tassadar",
@@ -21,6 +21,7 @@
   "abilities": {
     "Tassadar": [
       {
+        "uid": "967f34",
         "name": "Plasma Shield",
         "description": "Grant an allied Hero, Minion, or Structure a Shield that absorbs 455 (+4% per level) damage over 4 seconds. If the target is a Hero, they heal for 40% of their Basic Attack damage done while Shielded.",
         "hotkey": "Q",
@@ -31,6 +32,7 @@
         "type": "basic"
       },
       {
+        "uid": "cff869",
         "name": "Psionic Storm",
         "description": "Deal 82 (+4% per level) damage per second to enemies in target area for 3 seconds. Damage increases by 12% for each consecutive instance of damage, up to 60%.",
         "hotkey": "W",
@@ -41,6 +43,7 @@
         "type": "basic"
       },
       {
+        "uid": "237223",
         "name": "Dimensional Shift",
         "description": "Tassadar becomes Invulnerable and Unrevealable for 2 seconds. While shifted, he has 25% increased Movement Speed.",
         "hotkey": "E",
@@ -51,6 +54,7 @@
         "type": "basic"
       },
       {
+        "uid": "642f46",
         "name": "Archon",
         "description": "Tassadar transforms into an Archon and gains a Plasma Shield. His Basic Attacks deal 158 (+4% per level) damage, slow the target by 30% for 1 second and splash for 79 (+4% per level) damage to enemies within 2.5 range. Lasts for 10 seconds.  Passive: Archon refreshes the cooldown of Dimensional Shift.",
         "hotkey": "R",
@@ -61,8 +65,9 @@
         "type": "heroic"
       },
       {
+        "uid": "3e5b72",
         "name": "Force Wall",
-        "description": "Create a wall that blocks all units from moving through it for 2 seconds.  Passive: Increases the slow amount of Distortion Beam to 30%.",
+        "description": "Create a wall that blocks all units from moving through it for 2 seconds.  Passive: Increases the slow amount of Distortion Beam to 35%.",
         "hotkey": "R",
         "abilityId": "Tassadar|R2",
         "cooldown": 8,
@@ -71,8 +76,9 @@
         "type": "heroic"
       },
       {
+        "uid": "fde047",
         "name": "Oracle",
-        "description": "Activate to greatly increase Tassadar's vision radius, allow him to see over obstacles, and detect stealthed units. Lasts for 5 seconds.  Distortion Beam  Tassadar's Basic Attack is a beam that slows enemy units by 20%.",
+        "description": "Activate to greatly increase Tassadar's vision radius, allow him to see over obstacles, and detect stealthed units. Lasts for 5 seconds.  Distortion Beam  Tassadar's Basic Attack is a beam that Slows enemy units by 25%.",
         "hotkey": "D",
         "trait": true,
         "abilityId": "Tassadar|D1",
@@ -116,7 +122,7 @@
         "tooltipId": "TassadarKhaydarinResonance",
         "talentTreeId": "TassadarKhaydarinResonance",
         "name": "Khaydarin Resonance",
-        "description": "Quest: Regeneration Globes grant an additional 100% Mana.  Reward: After collecting 15 Regeneration Globes, Plasma Shield's value is increased by 20%.  Reward: After collecting 30 Regeneration Globes, Plasma Shield's value is increased by 40%.",
+        "description": "Quest: Regeneration Globes grant an additional 100% Mana.  Reward: After collecting 10 Regeneration Globes, Plasma Shield's value is increased by 15%.  Reward: After collecting 20 Regeneration Globes, Plasma Shield's value is increased by 30%.",
         "icon": "storm_ui_icon_talent_conjurerspursuit.png",
         "type": "Passive",
         "sort": 3,
@@ -186,7 +192,7 @@
         "tooltipId": "TassadarPsionicStormResonationTalent",
         "talentTreeId": "TassadarResonation",
         "name": "Resonation",
-        "description": "Distortion Beam slows enemies affected by Psionic Storm by 50%.",
+        "description": "Distortion Beam slows enemies affected by Psionic Storm by 60%.",
         "icon": "storm_ui_icon_tassadar_psionicstorm.png",
         "type": "W",
         "sort": 2,
@@ -229,7 +235,7 @@
         "tooltipId": "TassadarForceWall",
         "talentTreeId": "TassadarHeroicAbilityForceWall",
         "name": "Force Wall",
-        "description": "Create a wall that blocks all units from moving through it for 2 seconds.  Passive: Increases the slow amount of Distortion Beam to 30%.",
+        "description": "Create a wall that blocks all units from moving through it for 2 seconds.  Passive: Increases the slow amount of Distortion Beam to 35%.",
         "icon": "storm_ui_icon_tassadar_forcewall.png",
         "type": "Heroic",
         "sort": 2,
@@ -258,7 +264,7 @@
         "tooltipId": "TassadarAdunsWisdom",
         "talentTreeId": "TassadarAdunsWisdom",
         "name": "Adun's Wisdom",
-        "description": "While Oracle is active, Basic Abilities cooldown 50% faster.",
+        "description": "While Oracle is active, Basic Abilities cooldown 75% faster.",
         "icon": "storm_ui_icon_tassadar_oracle.png",
         "type": "Trait",
         "sort": 2,
@@ -284,7 +290,7 @@
         "tooltipId": "TassadarPhaseDisruption",
         "talentTreeId": "TassadarPhaseDisruption",
         "name": "Phase Disruption",
-        "description": "Enemy Heroes being hit by Psionic Storm have their Physical Armor reduced by 25, causing them to take 25% more damage from Basic Attacks.",
+        "description": "Enemy Heroes being hit by Psionic Storm have their Physical Armor reduced by 35, causing them to take 35% more damage from Basic Attacks.",
         "icon": "storm_ui_icon_tassadar_psionicstorm.png",
         "type": "W",
         "sort": 1,
@@ -310,7 +316,7 @@
         "tooltipId": "TassadarFocusedBeam",
         "talentTreeId": "TassadarFocusedBeam",
         "name": "Focused Beam",
-        "description": "While Oracle is active, Basic Attacks against Heroes deal an additional 1% of the target's maximum Health as damage.",
+        "description": "While Oracle is active, Basic Attacks against Heroes deal an additional 1.5% of the target's maximum Health as damage.",
         "icon": "storm_ui_icon_tassadar_oracle.png",
         "type": "Trait",
         "sort": 3,
@@ -351,7 +357,7 @@
         "tooltipId": "TassadarPrismaticLink",
         "talentTreeId": "TassadarPrismaticLink",
         "name": "Prismatic Link",
-        "description": "Distortion Beam bounces to hit 2 additional targets for 40% damage.",
+        "description": "Distortion Beam bounces to hit 2 additional targets for 50% damage.",
         "icon": "storm_ui_icon_talent_autoattack_aoe.png",
         "type": "Passive",
         "sort": 3,

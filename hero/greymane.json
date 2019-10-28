@@ -1,5 +1,5 @@
 {
-  "id": "47",
+  "id": 47,
   "shortName": "greymane",
   "attributeId": "Genn",
   "cHeroId": "Greymane",
@@ -22,6 +22,7 @@
   "abilities": {
     "Greymane": [
       {
+        "uid": "ae9951",
         "name": "Gilnean Cocktail",
         "description": "Hurl a flask that deals 55 (+4% per level) damage to the first enemy hit and explodes for 220 (+4% per level) damage to enemies in a cone behind them.  Worgen: Razor Swipe Swipe forward, damaging enemies hit.",
         "hotkey": "Q",
@@ -32,6 +33,7 @@
         "type": "basic"
       },
       {
+        "uid": "c6ff90",
         "name": "Inner Beast",
         "description": "Gain 50% Attack Speed for 3 seconds. Basic Attacks refresh this duration, and reduce the cooldown of Inner Beast by 0.5 seconds.",
         "hotkey": "W",
@@ -42,6 +44,7 @@
         "type": "basic"
       },
       {
+        "uid": "5f25d1",
         "name": "Darkflight",
         "description": "Shapeshift into a Worgen and leap at an enemy dealing 88 (+4% per level) damage.  Worgen: Disengage Roll away and shapeshift into a Human.",
         "hotkey": "E",
@@ -52,6 +55,7 @@
         "type": "basic"
       },
       {
+        "uid": "9b2a0f",
         "name": "Go for the Throat",
         "description": "Leap at an enemy Hero and shapeshift into a Worgen, slashing for 355 (+4% per level) damage. If this kills them, the Ability can be used a second time within 10 seconds for free.",
         "hotkey": "R",
@@ -62,8 +66,9 @@
         "type": "heroic"
       },
       {
+        "uid": "eb39a6",
         "name": "Cursed Bullet",
-        "description": "Greymane shapeshifts into a Human and fires a bullet that hits the first enemy Hero in its path, dealing 35% of their current Health in damage.  Does not affect Vehicles.",
+        "description": "Greymane shapeshifts into a Human and fires a bullet that hits the first enemy Hero in its path, dealing 40% of their current Health in damage.  Does not affect Vehicles.",
         "hotkey": "R",
         "abilityId": "Greymane|R2",
         "cooldown": 30,
@@ -72,6 +77,7 @@
         "type": "heroic"
       },
       {
+        "uid": "cc4a83",
         "name": "Curse of the Worgen",
         "description": "Greymane can use certain Abilities to shapeshift between a Human and a Worgen.  While Human, Greymane's Basic Attacks are ranged.  While Worgen, Greymane gains 10 Armor, and his Basic Attacks become melee but deal 40% more damage.",
         "trait": true,
@@ -80,8 +86,9 @@
         "type": "trait"
       }
     ],
-    "GreymaneWorgen": [
+    "GreymaneWorgenForm": [
       {
+        "uid": "ef6f41",
         "name": "Razor Swipe",
         "description": "Swipe in the targeted direction, dealing 126 (+4% per level) damage to enemies hit.  Human: Gilnean Cocktail Damage the first enemy hit and deal heavy damage behind them.",
         "hotkey": "Q",
@@ -89,16 +96,26 @@
         "cooldown": 4,
         "manaCost": 25,
         "icon": "storm_ui_icon_greymane_swipe.png",
-        "type": "subunit"
+        "type": "basic"
       },
       {
+        "uid": "fbdd1d",
+        "name": "Inner Beast",
+        "description": "Gain 50% Attack Speed for 3 seconds. Basic Attacks refresh this duration, and reduce the cooldown of Inner Beast by 0.5 seconds.",
+        "hotkey": "W",
+        "abilityId": "Greymane|W2",
+        "icon": "storm_ui_icon_greymane_worgen_beastfocus.png",
+        "type": "basic"
+      },
+      {
+        "uid": "32f9f4",
         "name": "Disengage",
         "description": "Roll away and shapeshift into a Human.  Human: Darkflight Leap at an enemy and shapeshift into a Worgen.",
         "hotkey": "E",
         "abilityId": "Greymane|E2",
         "cooldown": 5,
         "icon": "storm_ui_icon_greymane_disengage.png",
-        "type": "subunit"
+        "type": "basic"
       }
     ]
   },
@@ -112,9 +129,10 @@
         "icon": "storm_ui_icon_greymane_beastfocus.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "Greymane|W1",
+        "abilityId": "Greymane|W2",
         "abilityLinks": [
-          "Greymane|W1"
+          "Greymane|W1",
+          "Greymane|W2"
         ]
       },
       {
@@ -138,9 +156,10 @@
         "icon": "storm_ui_icon_greymane_beastfocus_var1.png",
         "type": "W",
         "sort": 3,
-        "abilityId": "Greymane|W1",
+        "abilityId": "Greymane|W2",
         "abilityLinks": [
-          "Greymane|W1"
+          "Greymane|W1",
+          "Greymane|W2"
         ]
       }
     ],
@@ -179,9 +198,10 @@
         "icon": "storm_ui_icon_greymane_beastfocus.png",
         "type": "W",
         "sort": 3,
-        "abilityId": "Greymane|W1",
+        "abilityId": "Greymane|W2",
         "abilityLinks": [
-          "Greymane|W1"
+          "Greymane|W1",
+          "Greymane|W2"
         ]
       }
     ],
@@ -203,7 +223,7 @@
         "tooltipId": "GreymaneGilneanCocktailIncendiaryElixirTalent",
         "talentTreeId": "GreymaneGilneanCocktailIncendiaryElixir",
         "name": "Incendiary Elixir",
-        "description": "Quest: Every time Greymane hits an enemy Hero with the explosion damage from Gilnean Cocktail, increase its explosion damage by 15, up to 225.  Reward: After hitting 15 Heroes, the cooldown is also reduced by 4 seconds.",
+        "description": "Quest: Every time Greymane hits an enemy Hero with the explosion damage from Gilnean Cocktail, increase its explosion damage by 20, up to 300.  Reward: After hitting 15 Heroes, the cooldown is also reduced by 4 seconds.",
         "icon": "storm_ui_icon_greymane_qattack.png",
         "type": "Q",
         "sort": 2,
@@ -247,7 +267,7 @@
         "tooltipId": "GreymaneCursedBullet",
         "talentTreeId": "GreymaneHeroicAbilityCursedBullet",
         "name": "Cursed Bullet",
-        "description": "Greymane shapeshifts into a Human and fires a bullet that hits the first enemy Hero in its path, dealing 35% of their current Health in damage.  Does not affect Vehicles.",
+        "description": "Greymane shapeshifts into a Human and fires a bullet that hits the first enemy Hero in its path, dealing 40% of their current Health in damage.  Does not affect Vehicles.",
         "icon": "storm_ui_icon_greymane_snapshot.png",
         "type": "Heroic",
         "sort": 2,
@@ -267,7 +287,7 @@
         "icon": "storm_ui_icon_greymane_darkflight.png",
         "type": "E",
         "sort": 1,
-        "abilityId": "Greymane|E1",
+        "abilityId": "Greymane|E2",
         "abilityLinks": [
           "Greymane|E1",
           "Greymane|E2"
@@ -294,9 +314,10 @@
         "icon": "storm_ui_icon_greymane_beastfocus.png",
         "type": "W",
         "sort": 3,
-        "abilityId": "Greymane|W1",
+        "abilityId": "Greymane|W2",
         "abilityLinks": [
-          "Greymane|W1"
+          "Greymane|W1",
+          "Greymane|W2"
         ]
       }
     ],
@@ -309,9 +330,10 @@
         "icon": "storm_ui_icon_greymane_beastfocus.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "Greymane|W1",
+        "abilityId": "Greymane|W2",
         "abilityLinks": [
-          "Greymane|W1"
+          "Greymane|W1",
+          "Greymane|W2"
         ]
       },
       {

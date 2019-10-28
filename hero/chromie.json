@@ -1,5 +1,5 @@
 {
-  "id": "52",
+  "id": 52,
   "shortName": "chromie",
   "attributeId": "Chro",
   "cHeroId": "Chromie",
@@ -18,6 +18,7 @@
   "abilities": {
     "Chromie": [
       {
+        "uid": "2cf39e",
         "name": "Sand Blast",
         "description": "After 0.5 seconds, fire a missile that deals 305 (+4% per level) damage to the first enemy hit. Deals 50% damage to Structures.  Casting Sand Blast leaves an Echo behind that mimics Chromie's Sand Blast and Basic Attack, dealing 40% damage. Maximum of 1 Echo active at a time.",
         "hotkey": "Q",
@@ -28,6 +29,7 @@
         "type": "basic"
       },
       {
+        "uid": "282aa0",
         "name": "Dragon's Breath",
         "description": "Vector Targeting Launch 3 blasts into the air that land every 0.75 seconds towards the targeted direction, dealing 204 (+4% per level) damage each.",
         "hotkey": "W",
@@ -38,6 +40,7 @@
         "type": "basic"
       },
       {
+        "uid": "90eb5b",
         "name": "Time Trap",
         "description": "Place a Time Trap that arms and Stealths after 2 seconds. Chromie's Trait can be activated to detonate the trap, placing all nearby allied or enemy Heroes in Time Stop for 2 seconds. Maximum of 1 trap active at a time.",
         "hotkey": "E",
@@ -48,20 +51,22 @@
         "type": "basic"
       },
       {
+        "uid": "bd8ed1",
         "name": "Temporal Loop",
         "description": "Choose an enemy Hero. After 3 seconds, they are teleported back to the location where Temporal Loop was cast on them.  Basic Abilities recharge 500% faster for 3 seconds after casting Temporal Loop.",
         "hotkey": "R",
-        "abilityId": "Chromie|R2",
+        "abilityId": "Chromie|R1",
         "cooldown": 50,
         "manaCost": 60,
         "icon": "storm_ui_icon_chromie_looper.png",
         "type": "heroic"
       },
       {
+        "uid": "e6b892",
         "name": "Slowing Sands",
         "description": "Summon a sand vortex that Slows enemies by 5% every 0.25 seconds, up to 70%.",
         "hotkey": "R",
-        "abilityId": "Chromie|R1",
+        "abilityId": "Chromie|R2",
         "cooldown": 5,
         "manaCost": 3,
         "manaPerSecond": true,
@@ -69,6 +74,7 @@
         "type": "heroic"
       },
       {
+        "uid": "185342",
         "name": "Timewalker",
         "description": "Chromie has traveled to the future, and as such, will learn her Talents 2 levels earlier than her teammates!  Detonate Time Trap  Detonates active Time Traps.",
         "trait": true,
@@ -112,13 +118,13 @@
         "tooltipId": "ChromieTimewalkersPursuit",
         "talentTreeId": "ChromieTimewalkersPursuit",
         "name": "Timewalker's Pursuit",
-        "description": "Activate to reveal the targeted area for 2 seconds. Enemies seen are revealed for 4 seconds.  Quest: Gather 15 Regeneration Globes.  Reward: After gathering 15 Globes, Chromie gains 10% Spell Power.",
+        "description": "Activate to reveal the targeted area for 2 seconds. Enemies seen are revealed for 4 seconds.  Quest: Gather 15 Regeneration Globes.  Reward: After gathering 15 Globes, Chromie gains 15% Spell Power.",
         "icon": "storm_ui_icon_talent_clairvoyance.png",
         "type": "Active",
         "sort": 3,
         "cooldown": 25,
         "isQuest": true,
-        "abilityId": "Chromie|D1",
+        "abilityId": "Chromie|Active",
         "abilityLinks": [
           "Chromie|D1"
         ]
@@ -170,7 +176,7 @@
         "tooltipId": "ChromieSandBlastBronzeTalons",
         "talentTreeId": "ChromieSandBlastBronzeTalons",
         "name": "Bronze Talons",
-        "description": "Hitting a Hero with Sand Blast grants 30% additional Basic Attack damage for 5 seconds.",
+        "description": "Hitting a Hero with Sand Blast grants 40% additional Basic Attack damage for 5 seconds.",
         "icon": "storm_ui_icon_chromie_aethercannon.png",
         "type": "Q",
         "sort": 1,
@@ -183,7 +189,7 @@
         "tooltipId": "ChromieDragonsBreathMobiusLoop",
         "talentTreeId": "ChromieDragonsBreathMobiusLoop",
         "name": "Mobius Loop",
-        "description": "Hitting a Hero with Dragon's Breath reduces its cooldown by 1.5 seconds and restores 40 Mana.",
+        "description": "Hitting a Hero with Dragon's Breath reduces its cooldown by 1.75 seconds and restores 40 Mana.",
         "icon": "storm_ui_icon_chromie_sandstrike.png",
         "type": "W",
         "sort": 2,
@@ -216,9 +222,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 5,
-        "abilityId": "Chromie|R1",
+        "abilityId": "Chromie|R2",
         "abilityLinks": [
-          "Chromie|R1"
+          "Chromie|R2"
         ]
       },
       {
@@ -230,9 +236,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 50,
-        "abilityId": "Chromie|R2",
+        "abilityId": "Chromie|R1",
         "abilityLinks": [
-          "Chromie|R2"
+          "Chromie|R1"
         ]
       }
     ],
@@ -258,7 +264,7 @@
         "icon": "storm_ui_icon_chromie_herethere.png",
         "type": "Active",
         "sort": 2,
-        "cooldown": 25,
+        "cooldown": 20,
         "abilityId": "Chromie|Active"
       },
       {
@@ -291,7 +297,7 @@
         "tooltipId": "ChromieSandBlastFastForward",
         "talentTreeId": "ChromieSandBlastFastForward",
         "name": "Fast Forward",
-        "description": "If Sand Blast travels at least 50% of its base distance and hits a Hero, its cooldown is reduced to 0.5 seconds.",
+        "description": "If Sand Blast travels at least 50% of its base distance and hits a Hero, its cooldown is reduced to 0.5 seconds and it refunds 10 Mana.",
         "icon": "storm_ui_icon_chromie_aethercannon_a.png",
         "type": "Q",
         "sort": 2,
@@ -321,9 +327,9 @@
         "icon": "storm_ui_icon_chromie_timewarp.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Chromie|R1",
+        "abilityId": "Chromie|R2",
         "abilityLinks": [
-          "Chromie|R1"
+          "Chromie|R2"
         ]
       },
       {
@@ -334,9 +340,9 @@
         "icon": "storm_ui_icon_chromie_looper.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Chromie|R2",
+        "abilityId": "Chromie|R1",
         "abilityLinks": [
-          "Chromie|R2"
+          "Chromie|R1"
         ]
       },
       {
@@ -356,12 +362,12 @@
         "tooltipId": "ChromieBlessingOfTheBronze",
         "talentTreeId": "ChromieBlessingOfTheBronze",
         "name": "Blessing of the Bronze",
-        "description": "Activate to cause Chromie and all allied Heroes to gain 20% Movement Speed and their Basic Abilities recharge 35% faster for 8 seconds.",
+        "description": "Activate to cause Chromie and all allied Heroes to gain 20% Movement Speed and their Basic Abilities recharge 35% faster for 8 seconds.  Hitting an enemy Hero with Sand Blast from Chromie or her Echoes reduces the cooldown of Blessing of the Bronze by 8 seconds.",
         "icon": "storm_ui_icon_chromie_blessing_of_the_bronze.png",
         "type": "Active",
         "sort": 4,
         "cooldown": 90,
-        "abilityId": "Chromie|D1",
+        "abilityId": "Chromie|Active",
         "abilityLinks": [
           "Chromie|D1"
         ]

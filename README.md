@@ -112,15 +112,12 @@ Example:
 
 ### Game data
 
-* heroes/ and images/ contain standardized and optimized version of the game data
-* raw/ contains game data directly extracted using [HeroesDataParser](https://github.com/koliva8245/HeroesDataParser) with the following command:
-`./HeroesData --description 3 --storagePath [Live/PTR HotS directory] --extract all --json --outputDirectory "/tmp/HeroesDataParser" --heroWarnings --localization all`
+* **heroes/** and **images/** contain curated versions of the game data and icons, prepared by [heroes-convert](https://github.com/tattersoftware/heroes-convert)
+* Unprocessed versions of the parsed game data is hosted at [heroes-data](https://github.com/HeroesToolChest/heroes-data)
+* Uncompressed versions of the icons are hosted at [heroes-images](https://github.com/HeroesToolChest/heroes-images)
+* Game data extractions for both of the repos above are acquired using koliva8245's [HeroesDataParser](https://github.com/HeroesToolChest/HeroesDataParser)
 
-### Resources
-
-* Automated game data extractions are acquired using koliva8245's [HeroesDataParser](https://github.com/koliva8245/HeroesDataParser)
-* Several values are pulled directly from game files using an altered version of [heroesinfo from HotsData](https://github.com/hotsdata/heroesinfo)
-* Most damage and scaling numbers are from dizzyMongoose's [Scaling Stats Google sheet](https://docs.google.com/spreadsheets/d/1QTStBbvf9o5RuJBeM0X1rHrQxd3PCOT4y4li3Mwu9jY/pubhtml#)
+See the [Contributing docs](CONTRIBUTING.md) for more information on our process.
 
 ### Projects using heroes-talents
 
@@ -128,6 +125,27 @@ Example:
 * [HeroesInfoBot](https://www.reddit.com/r/heroesofthestorm/comments/6zwyfw/heroesinfobot_abilities_talent_tiers_cooldowns/) on reddit's [/r/heroesofthestorm](https://www.reddit.com/r/heroesofthestorm/)
 * [HotsApi](http://hotsapi.net/docs)
 * [Hots-Info-Bot](https://discordbots.org/bot/407735948667912214) discord chatbot
+
+### Want to use this in your Node.js project?
+
+`npm install --save git+https://git@github.com/heroespatchnotes/heroes-talents.git`
+
+**heroes-talents** includes basic support for loading hero data into your project. See
+[dist/test.js](dist/test.js) for an example, or [dist/index.js](dist/index.js) for the source.
+
+```javascript
+const HeroesTalents = require('heroes-talents')
+
+async function test() {
+  try {
+    const heroes = await HeroesTalents.loadHeroJSONFiles()
+    const favoriteHero = heroes.alarak
+    console.log(`My favorite hero is ${favoriteHero.name}. He is an ${favoriteHero.role}.`)
+  } catch(err) {
+    console.log(err)
+  }
+}
+```
 
 ## Heroes
 
@@ -146,6 +164,10 @@ Example:
 <a class="img-wrap" href="hero/ana.json">
   <img class="img-rounded" src="images/heroes/ana.png" />
   <span>Ana</span>
+</a>
+<a class="img-wrap" href="hero/anduin.json">
+  <img class="img-rounded" src="images/heroes/anduin.png" />
+  <span>Anduin</span>
 </a>
 <a class="img-wrap" href="hero/anubarak.json">
   <img class="img-rounded" src="images/heroes/anubarak.png" />
@@ -187,8 +209,8 @@ Example:
   <img class="img-rounded" src="images/heroes/chen.png" />
   <span>Chen</span>
 </a>
-<a class="img-wrap" href="hero/cho.json">
-  <img class="img-rounded" src="images/heroes/cho.png" />
+<a class="img-wrap" href="hero/chogall.json">
+  <img class="img-rounded" src="images/heroes/chogall.png" />
   <span>Cho</span>
 </a>
 <a class="img-wrap" href="hero/chromie.json">
@@ -299,8 +321,8 @@ Example:
   <img class="img-rounded" src="images/heroes/liming.png" />
   <span>Li-Ming</span>
 </a>
-<a class="img-wrap" href="hero/thelostvikings.json">
-  <img class="img-rounded" src="images/heroes/thelostvikings.png" />
+<a class="img-wrap" href="hero/lostvikings.json">
+  <img class="img-rounded" src="images/heroes/lostvikings.png" />
   <span>The Lost Vikings</span>
 </a>
 <a class="img-wrap" href="hero/ltmorales.json">
@@ -362,6 +384,10 @@ Example:
 <a class="img-wrap" href="hero/probius.json">
   <img class="img-rounded" src="images/heroes/probius.png" />
   <span>Probius</span>
+</a>
+<a class="img-wrap" href="hero/qhira.json">
+  <img class="img-rounded" src="images/heroes/qhira.png" />
+  <span>Qhira</span>
 </a>
 <a class="img-wrap" href="hero/ragnaros.json">
   <img class="img-rounded" src="images/heroes/ragnaros.png" />

@@ -1,5 +1,5 @@
 {
-  "id": "60",
+  "id": 60,
   "shortName": "ragnaros",
   "attributeId": "Ragn",
   "cHeroId": "Ragnaros",
@@ -21,6 +21,7 @@
   "abilities": {
     "Ragnaros": [
       {
+        "uid": "b666f7",
         "name": "Empower Sulfuras",
         "description": "Ragnaros's next Basic Attack is instant, dealing 191 (+4% per level) Ability damage in an area, and heals for 20% of the damage dealt. Healing doubled versus Heroes.  Molten Core: Molten Swing Stun and damage nearby enemies.",
         "hotkey": "Q",
@@ -31,6 +32,7 @@
         "type": "basic"
       },
       {
+        "uid": "f29115",
         "name": "Living Meteor",
         "description": "Vector Targeting Summon a meteor at the target point that deals 68 (+4% per level) damage, then rolls in the target direction dealing 272 (+4% per level) damage per second for 1.75 seconds.  Molten Core: Meteor Shower Drop a line of meteor impacts.",
         "hotkey": "W",
@@ -41,6 +43,7 @@
         "type": "basic"
       },
       {
+        "uid": "64c349",
         "name": "Blast Wave",
         "description": "Ignite Ragnaros or an ally, granting 25% Movement Speed for 1.5 seconds before exploding dealing 104 (+4% per level) damage to nearby enemies.  Molten Core: Explosive Rune Cause a delayed explosion in a large area.",
         "hotkey": "E",
@@ -51,6 +54,7 @@
         "type": "basic"
       },
       {
+        "uid": "a636e9",
         "name": "Sulfuras Smash",
         "description": "Hurl Sulfuras at the target area, landing after 0.75 seconds, dealing 198 (+4% per level) damage. Enemies in the center take 594 (+4% per level) damage instead and are Stunned for 0.5 seconds.",
         "hotkey": "R",
@@ -61,6 +65,7 @@
         "type": "heroic"
       },
       {
+        "uid": "355e2d",
         "name": "Lava Wave",
         "description": "Release a wave of lava from Ragnaros's Core that travels down the targeted lane, dealing 240 (+4% per level) damage per second to non-Structure enemies in its path and instantly killing enemy Minions. Damage increased by 100% versus Heroes.",
         "hotkey": "R",
@@ -71,6 +76,7 @@
         "type": "heroic"
       },
       {
+        "uid": "cbaafa",
         "name": "Molten Core",
         "description": "Channel on an allied or destroyed Fort or Keep to replace it with Ragnaros's ultimate form, temporarily gaining new Abilities, having 3996 (+4% per level) Health that burns away over 18 seconds.  Ragnaros returns to his normal form upon losing all Health in Molten Core.",
         "hotkey": "D",
@@ -83,31 +89,44 @@
     ],
     "RagnarosBigRag": [
       {
-        "name": "Molten Swing",
-        "description": "Swing Sulfuras in a wide arc, dealing 161 (+4% per level) damage and Stunning enemies for 1 second.  Damage increased by 25% versus Minions, Mercenaries, and Monsters.",
-        "hotkey": "Q",
-        "abilityId": "Ragnaros|Q2",
-        "cooldown": 6,
-        "icon": "storm_ui_icon_ragnaros_moltenswing.png",
-        "type": "subunit"
+        "uid": "2a388b",
+        "name": "Sulfuras Smash",
+        "description": "Hurl Sulfuras at the target area, landing after 0.75 seconds, dealing 198 (+4% per level) damage. Enemies in the center take 594 (+4% per level) damage instead and are Stunned for 0.5 seconds.",
+        "hotkey": "R",
+        "abilityId": "Ragnaros|R3",
+        "cooldown": 80,
+        "icon": "storm_ui_icon_ragnaros_sulfurassmash.png",
+        "type": "heroic"
       },
       {
-        "name": "Meteor Shower",
-        "description": "Vector Targeting Summon 3 meteors at the target point that fall in the target direction. Each meteor deals 151 (+4% per level) damage and slows enemies by 25% for 2 seconds.  Damage increased by 25% versus Minions, Mercenaries, and Monsters.",
-        "hotkey": "W",
-        "abilityId": "Ragnaros|W2",
-        "cooldown": 2.5,
-        "icon": "storm_ui_icon_ragnaros_meteorshower.png",
-        "type": "subunit"
-      },
-      {
+        "uid": "b06941",
         "name": "Explosive Rune",
         "description": "Create a rune that deals 285 (+4% per level) damage to non-Structure enemies after 1.5 seconds.  Damage increased by 25% versus Minions, Mercenaries, and Monsters.",
         "hotkey": "E",
         "abilityId": "Ragnaros|E2",
         "cooldown": 4,
         "icon": "storm_ui_icon_ragnaros_explosiverune.png",
-        "type": "subunit"
+        "type": "basic"
+      },
+      {
+        "uid": "2539b7",
+        "name": "Molten Swing",
+        "description": "Swing Sulfuras in a wide arc, dealing 161 (+4% per level) damage and Stunning enemies for 1 second.  Damage increased by 25% versus Minions, Mercenaries, and Monsters.",
+        "hotkey": "Q",
+        "abilityId": "Ragnaros|Q3",
+        "cooldown": 6,
+        "icon": "storm_ui_icon_ragnaros_moltenswing.png",
+        "type": "basic"
+      },
+      {
+        "uid": "145ab3",
+        "name": "Meteor Shower",
+        "description": "Vector Targeting Summon 3 meteors at the target point that fall in the target direction. Each meteor deals 151 (+4% per level) damage and slows enemies by 25% for 2 seconds.  Damage increased by 25% versus Minions, Mercenaries, and Monsters.",
+        "hotkey": "W",
+        "abilityId": "Ragnaros|W3",
+        "cooldown": 2.5,
+        "icon": "storm_ui_icon_ragnaros_meteorshower.png",
+        "type": "basic"
       }
     ]
   },
@@ -353,7 +372,8 @@
         "sort": 1,
         "abilityId": "Ragnaros|R1",
         "abilityLinks": [
-          "Ragnaros|R1"
+          "Ragnaros|R1",
+          "Ragnaros|R3"
         ]
       },
       {

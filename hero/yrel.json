@@ -1,5 +1,5 @@
 {
-  "id": "80",
+  "id": 80,
   "shortName": "yrel",
   "attributeId": "YREL",
   "cHeroId": "Yrel",
@@ -23,6 +23,7 @@
   "abilities": {
     "Yrel": [
       {
+        "uid": "7e0b4d",
         "name": "Vindication",
         "description": "Unleash holy energy around Yrel, dealing 42 (+4% per level) damage to nearby enemies and healing her for 96 (+4% per level).  Charging up this Ability increases its damage up to 140 (+4% per level), and healing up to 320 (+4% per level).",
         "hotkey": "Q",
@@ -33,6 +34,7 @@
         "type": "basic"
       },
       {
+        "uid": "00ae98",
         "name": "Righteous Hammer",
         "description": "Swing Yrel's hammer, dealing 38 (+4% per level) damage to enemies in front of her and knocking them away.  Charging up this Ability increases its knockback distance, and damage up to 125 (+4% per level). Enemies hit at maximum charge are Stunned for 0.75 seconds.",
         "hotkey": "W",
@@ -43,6 +45,7 @@
         "type": "basic"
       },
       {
+        "uid": "ba08af",
         "name": "Avenging Wrath",
         "description": "Leap to a location, dealing 225 (+4% per level) damage to enemies in an area and Slowing them by 50% for 1 second.  Charging up this Ability increases its range.",
         "hotkey": "E",
@@ -53,6 +56,7 @@
         "type": "basic"
       },
       {
+        "uid": "2db2ae",
         "name": "Ardent Defender",
         "description": "Surround Yrel in a barrier for 3 seconds, absorbing all damage taken and healing her for 50% of the damage received.",
         "hotkey": "R",
@@ -63,6 +67,7 @@
         "type": "heroic"
       },
       {
+        "uid": "aa1789",
         "name": "Sacred Ground",
         "description": "Yrel sanctifies the ground around her, gaining 50 Armor until she leaves the area.",
         "hotkey": "R",
@@ -73,6 +78,7 @@
         "type": "heroic"
       },
       {
+        "uid": "95b463",
         "name": "Divine Purpose",
         "description": "Activate to instantly charge Yrel's next Basic Ability at no mana cost.  Passive: Yrel's Basic Abilities charge up over 1.5 seconds, increasing in effectiveness, but reducing Yrel's Movement Speed by 25%.",
         "hotkey": "D",
@@ -151,11 +157,11 @@
         "tooltipId": "YrelHandOfFreedom",
         "talentTreeId": "YrelHandOfFreedom",
         "name": "Hand of Freedom",
-        "description": "Grant an allied Hero 50% Movement Speed for 3 seconds and remove all Slows and Roots from them.  Cannot be used on Yrel.",
+        "description": "Grant an allied Hero 35% Movement Speed for 3 seconds and remove all Slows and Roots from them.",
         "icon": "storm_ui_icon_yrel_hand_of_freedom.png",
         "type": "Active",
         "sort": 3,
-        "cooldown": 22,
+        "cooldown": 20,
         "abilityId": "Yrel|Active"
       }
     ],
@@ -164,7 +170,7 @@
         "tooltipId": "YrelRighteousHammerRighteousMomentum",
         "talentTreeId": "YrelRighteousHammerRighteousMomentum",
         "name": "Righteous Momentum",
-        "description": "Yrel is no longer slowed while Channeling Righteous Hammer, and at maximum charge she gains 25% Movement Speed.",
+        "description": "Gain 5% Movement Speed. Yrel is no longer Slowed while Channeling Righteous Hammer, and instead this bonus is quadrupled.",
         "icon": "storm_ui_icon_yrel_righteous_hammer.png",
         "type": "W",
         "sort": 1,
@@ -194,20 +200,9 @@
         "icon": "storm_ui_icon_yrel_divine_steed.png",
         "type": "Z",
         "sort": 3,
-        "abilityId": "_stormhero|Z1",
         "abilityLinks": [
-          "_stormhero|Z1"
+          "Yrel|Z"
         ]
-      },
-      {
-        "tooltipId": "YrelSamaarasLight",
-        "talentTreeId": "YrelSamaarasLight",
-        "name": "Samaara's Light",
-        "description": "While above 50% Health, gain 15% Movement Speed.",
-        "icon": "storm_ui_icon_yrel_samaaras_light.png",
-        "type": "Passive",
-        "sort": 4,
-        "abilityId": "Yrel|Passive"
       }
     ],
     "10": [
@@ -245,7 +240,7 @@
         "tooltipId": "YrelVindicationAldorPeacekeeper",
         "talentTreeId": "YrelVindicationAldorPeacekeeper",
         "name": "Aldor Peacekeeper",
-        "description": "Enemy Heroes hit by Vindication at maximum charge deal 30% less damage for 3 seconds.",
+        "description": "Enemy Heroes hit by Vindication at maximum charge deal 40% less damage for 3 seconds.",
         "icon": "storm_ui_icon_yrel_vindication.png",
         "type": "Q",
         "sort": 1,
@@ -258,7 +253,7 @@
         "tooltipId": "YrelAvengingWrathRepentance",
         "talentTreeId": "YrelAvengingWrathRepentance",
         "name": "Repentance",
-        "description": "Increase Avenging Wrath's Slow by 25% and duration by 0.5 seconds.",
+        "description": "Increase Avenging Wrath's Slow by 25% and duration by 0.75 seconds.",
         "icon": "storm_ui_icon_yrel_avenging_wrath.png",
         "type": "E",
         "sort": 2,
@@ -283,7 +278,7 @@
         "tooltipId": "YrelRighteousHammerTemplarsVerdict",
         "talentTreeId": "YrelRighteousHammerTemplarsVerdict",
         "name": "Templar's Verdict",
-        "description": "Righteous Hammer reduces the Armor of enemy Heroes hit by 20 for 4 seconds and deals bonus damage equal to 4% of their maximum Health.",
+        "description": "Righteous Hammer reduces the Armor of enemy Heroes hit by 20 for 4 seconds and deals bonus damage equal to 6% of their maximum Health.",
         "icon": "storm_ui_icon_yrel_righteous_hammer.png",
         "type": "W",
         "sort": 1,
