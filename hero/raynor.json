@@ -1,5 +1,5 @@
 {
-  "id": "13",
+  "id": 13,
   "shortName": "raynor",
   "attributeId": "Rayn",
   "cHeroId": "Raynor",
@@ -19,7 +19,7 @@
   "abilities": {
     "Raynor": [
       {
-        "uid": "d135872",
+        "uid": "40a0cc",
         "name": "Penetrating Round",
         "description": "Deal 220 (+4% per level) damage, knock back, and Slow enemies in a line by 20% for 2 seconds. Enemies close to Raynor are knocked back further.",
         "hotkey": "Q",
@@ -30,7 +30,7 @@
         "type": "basic"
       },
       {
-        "uid": "7f67c07",
+        "uid": "3a4b44",
         "name": "Inspire",
         "description": "Raynor and all nearby allied Minions and Mercenaries gain 30% Attack Speed and 10% Movement Speed for 4 seconds.  Casting Inspire resets Raynor's Basic Attack cooldown.",
         "hotkey": "W",
@@ -41,7 +41,7 @@
         "type": "basic"
       },
       {
-        "uid": "c6fbec0",
+        "uid": "01991c",
         "name": "Adrenaline Rush",
         "description": "Heal Raynor for 25% of his maximum Health over 1 second. Raynor's Basic Attacks lower the cooldown of this by 0.5 seconds, doubled against Heroes.",
         "hotkey": "E",
@@ -52,7 +52,7 @@
         "type": "basic"
       },
       {
-        "uid": "7847316",
+        "uid": "9b4247",
         "name": "Hyperion",
         "description": "Order the Hyperion to make a strafing run for 12 seconds, hitting up to 4 enemies for 66 (+4% per level) damage every second. Every 4 seconds, it can fire its Yamato Cannon at a Structure, dealing 794 (+4% per level) damage.",
         "hotkey": "R",
@@ -63,7 +63,7 @@
         "type": "heroic"
       },
       {
-        "uid": "900f6e7",
+        "uid": "5e6187",
         "name": "Raynor's Raider",
         "description": "Summon a Banshee that assists Raynor. The Banshee deals 84 (+4% per level) damage per second and regenerates 75 (+4% per level) Health per second if it hasn't taken damage in the last 4 seconds. Can reactivate to retarget or move the Banshee.  The Banshee respawns automatically after 45 seconds.",
         "hotkey": "R",
@@ -73,7 +73,7 @@
         "type": "heroic"
       },
       {
-        "uid": "f17494f",
+        "uid": "9b3918",
         "name": "Give 'Em Some Pepper",
         "description": "Every 4th Basic Attack splashes in a small area and deals 125% more damage to the main target.",
         "trait": true,
@@ -179,8 +179,8 @@
         "sort": 1,
         "abilityId": "Raynor|Passive",
         "abilityLinks": [
-          "Raynor|W1",
-          "Raynor|E1"
+          "Raynor|E1",
+          "Raynor|W1"
         ]
       },
       {
@@ -205,7 +205,7 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 30,
-        "abilityId": "Raynor|Q1",
+        "abilityId": "Raynor|Active",
         "abilityLinks": [
           "Raynor|Q1"
         ]
@@ -307,8 +307,8 @@
         "sort": 2,
         "abilityId": "Raynor|W1",
         "abilityLinks": [
-          "Raynor|W1",
-          "Raynor|E1"
+          "Raynor|E1",
+          "Raynor|W1"
         ]
       },
       {

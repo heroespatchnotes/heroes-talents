@@ -1,5 +1,5 @@
 {
-  "id": "56",
+  "id": 56,
   "shortName": "alarak",
   "attributeId": "Alar",
   "cHeroId": "Alarak",
@@ -21,7 +21,7 @@
   "abilities": {
     "Alarak": [
       {
-        "uid": "1b96dbd",
+        "uid": "6e893b",
         "name": "Discord Strike",
         "description": "After a 0.5 second delay, enemies in front of Alarak take 175 (+4% per level) damage and are silenced for 1.5 seconds.",
         "hotkey": "Q",
@@ -32,7 +32,7 @@
         "type": "basic"
       },
       {
-        "uid": "e9f3fa3",
+        "uid": "ec4419",
         "name": "Telekinesis",
         "description": "Vector Targeting Create a force, pushing Alarak and all enemies hit from the targeted point towards the targeted direction. Deals 48 (+4% per level) damage to enemies.",
         "hotkey": "W",
@@ -43,7 +43,7 @@
         "type": "basic"
       },
       {
-        "uid": "aeb7b52",
+        "uid": "45c0f0",
         "name": "Lightning Surge",
         "description": "Deal 62 (+4% per level) damage to an enemy and an additional 100% damage to enemies between Alarak and the target. Restore 70 (+4% per level) health for each Hero hit.",
         "hotkey": "E",
@@ -54,18 +54,7 @@
         "type": "basic"
       },
       {
-        "uid": "3b76d00",
-        "name": "Counter-Strike",
-        "description": "Alarak targets an area and channels for 1 second, becoming Protected and Unstoppable. After, if he took damage from an enemy Hero, he sends a shockwave that deals 275 (+4% per level) damage.",
-        "hotkey": "R",
-        "abilityId": "Alarak|R2",
-        "cooldown": 30,
-        "manaCost": 50,
-        "icon": "storm_ui_icon_alarak_counterstrike.png",
-        "type": "heroic"
-      },
-      {
-        "uid": "c6f73c4",
+        "uid": "59fa15",
         "name": "Deadly Charge",
         "description": "After channeling, Alarak charges forward dealing 200 (+4% per level) damage to all enemies in his path. Distance is increased based on the amount of time channeled, up to 1.5 seconds.  Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling.",
         "hotkey": "R",
@@ -76,7 +65,18 @@
         "type": "heroic"
       },
       {
-        "uid": "74c559f",
+        "uid": "b63665",
+        "name": "Counter-Strike",
+        "description": "Alarak targets an area and channels for 1 second, becoming Protected and Unstoppable. After, if he took damage from an enemy Hero, he sends a shockwave that deals 275 (+4% per level) damage.",
+        "hotkey": "R",
+        "abilityId": "Alarak|R2",
+        "cooldown": 30,
+        "manaCost": 50,
+        "icon": "storm_ui_icon_alarak_counterstrike.png",
+        "type": "heroic"
+      },
+      {
+        "uid": "f300e2",
         "name": "Sadism",
         "description": "Alarak's Ability damage and self-healing are increased by 100% against enemy Heroes.  Repeatable Quest: Takedowns increase Sadism by 3%, up to 30%. Sadism gained from Takedowns is lost on death.",
         "trait": true,
@@ -278,8 +278,7 @@
         "icon": "storm_ui_icon_alarak_sadism_b.png",
         "type": "Trait",
         "sort": 3,
-        "cooldown": 300,
-        "abilityId": "Alarak|Trait"
+        "cooldown": 300
       }
     ],
     "16": [
@@ -332,8 +331,7 @@
         "icon": "storm_ui_icon_alarak_counterstrike.png",
         "type": "Heroic",
         "sort": 1,
-        "cooldown": 30,
-        "abilityId": "Alarak|Heroic"
+        "cooldown": 30
       },
       {
         "tooltipId": "AlarakDeadlyCharge",

@@ -1,5 +1,5 @@
 {
-  "id": "45",
+  "id": 45,
   "shortName": "chogall",
   "attributeId": "CCho",
   "cHeroId": "Cho",
@@ -21,64 +21,64 @@
     "SoloLaner"
   ],
   "abilities": {
-    "Cho": [
+    "Chogall": [
       {
-        "uid": "a68a82e",
+        "uid": "050806",
         "name": "Surging Fist",
         "description": "Activate to begin charging Surging Fist. Activate again to dash forward, knocking aside enemies and dealing 46 (+4% per level) damage. The dash range increases by up to 250%, depending on how long it is charged.",
         "hotkey": "Q",
-        "abilityId": "Cho|Q1",
+        "abilityId": "Chogall|Q1",
         "cooldown": 12,
         "icon": "storm_ui_icon_cho_moltensurge_a.png",
         "type": "basic"
       },
       {
-        "uid": "7b37529",
+        "uid": "514f9f",
         "name": "Consuming Blaze",
         "description": "Ignite nearby enemies, dealing 150 (+4% per level) damage over 5 seconds. Basic Attacking burning enemies re-Ignites them. Cho is healed for 40 (+4% per level) when an enemy is Ignited.",
         "hotkey": "W",
-        "abilityId": "Cho|W1",
+        "abilityId": "Chogall|W1",
         "cooldown": 12,
         "icon": "storm_ui_icon_cho_consumingflame.png",
         "type": "basic"
       },
       {
-        "uid": "1840b85",
+        "uid": "120901",
         "name": "Rune Bomb",
         "description": "Roll a bomb dealing 91 (+4% per level) damage to enemies in its path. Gall can use Runic Blast to detonate it to deal 210 (+4% per level) damage in an area.",
         "hotkey": "E",
-        "abilityId": "Cho|E1",
+        "abilityId": "Chogall|E1",
         "cooldown": 8,
         "icon": "storm_ui_icon_cho_runebomb.png",
         "type": "basic"
       },
       {
-        "uid": "995e072",
-        "name": "Hammer of Twilight",
-        "description": "Activate to swing the Hammer of Twilight, dealing 150 (+4.5% per level) damage, pushing enemies away, and Stunning them for 0.75 seconds.  Passive: Cho's Basic Attacks deal 25% increased damage.",
-        "hotkey": "R",
-        "abilityId": "Cho|R2",
-        "cooldown": 15,
-        "icon": "storm_ui_icon_cho_hammeroftwilight.png",
-        "type": "heroic"
-      },
-      {
-        "uid": "5e16468",
+        "uid": "f59acd",
         "name": "Upheaval",
         "description": "After 1 second, pull enemies towards Cho'gall, slowing them by 25% for 3 seconds and dealing 175 (+4% per level) damage.",
         "hotkey": "R",
-        "abilityId": "Cho|R1",
+        "abilityId": "Chogall|R1",
         "cooldown": 60,
         "icon": "storm_ui_icon_cho_upheaval.png",
         "type": "heroic"
       },
       {
-        "uid": "bda088b",
+        "uid": "410c9f",
+        "name": "Hammer of Twilight",
+        "description": "Activate to swing the Hammer of Twilight, dealing 150 (+4.5% per level) damage, pushing enemies away, and Stunning them for 0.75 seconds.  Passive: Cho's Basic Attacks deal 25% increased damage.",
+        "hotkey": "R",
+        "abilityId": "Chogall|R2",
+        "cooldown": 15,
+        "icon": "storm_ui_icon_cho_hammeroftwilight.png",
+        "type": "heroic"
+      },
+      {
+        "uid": "097ddc",
         "name": "Ogre Hide",
         "description": "Activate to gain 25 Armor, but reduce Gall's damage by 25%.",
         "hotkey": "D",
         "trait": true,
-        "abilityId": "Cho|D1",
+        "abilityId": "Chogall|D1",
         "cooldown": 5,
         "icon": "storm_ui_icon_cho_ogrehide.png",
         "type": "trait"
@@ -95,9 +95,9 @@
         "icon": "storm_ui_icon_cho_consumingflame.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "Cho|W1",
+        "abilityId": "Chogall|W1",
         "abilityLinks": [
-          "Cho|W1"
+          "Chogall|W1"
         ]
       },
       {
@@ -109,9 +109,9 @@
         "type": "W",
         "sort": 2,
         "isQuest": true,
-        "abilityId": "Cho|W1",
+        "abilityId": "Chogall|W1",
         "abilityLinks": [
-          "Cho|W1"
+          "Chogall|W1"
         ]
       },
       {
@@ -122,9 +122,9 @@
         "icon": "storm_ui_icon_cho_ogrehide.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Cho|D1",
+        "abilityId": "Chogall|D1",
         "abilityLinks": [
-          "Cho|D1"
+          "Chogall|D1"
         ]
       }
     ],
@@ -137,9 +137,9 @@
         "icon": "storm_ui_icon_cho_moltensurge_a.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Cho|Q1",
+        "abilityId": "Chogall|Q1",
         "abilityLinks": [
-          "Cho|Q1"
+          "Chogall|Q1"
         ]
       },
       {
@@ -150,9 +150,9 @@
         "icon": "storm_ui_icon_cho_runebomb.png",
         "type": "E",
         "sort": 2,
-        "abilityId": "Cho|E1",
+        "abilityId": "Chogall|E1",
         "abilityLinks": [
-          "Cho|E1"
+          "Chogall|E1"
         ]
       },
       {
@@ -163,7 +163,7 @@
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Cho|Passive"
+        "abilityId": "Chogall|Passive"
       }
     ],
     "7": [
@@ -175,9 +175,9 @@
         "icon": "storm_ui_icon_cho_moltensurge_a.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Cho|Q1",
+        "abilityId": "Chogall|Q1",
         "abilityLinks": [
-          "Cho|Q1"
+          "Chogall|Q1"
         ]
       },
       {
@@ -188,9 +188,9 @@
         "icon": "storm_ui_icon_cho_consumingflame.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "Cho|W1",
+        "abilityId": "Chogall|W1",
         "abilityLinks": [
-          "Cho|W1"
+          "Chogall|W1"
         ]
       },
       {
@@ -201,9 +201,9 @@
         "icon": "storm_ui_icon_cho_ogrehide.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Cho|D1",
+        "abilityId": "Chogall|D1",
         "abilityLinks": [
-          "Cho|D1"
+          "Chogall|D1"
         ]
       }
     ],
@@ -217,9 +217,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 15,
-        "abilityId": "Cho|R2",
+        "abilityId": "Chogall|R2",
         "abilityLinks": [
-          "Cho|R2"
+          "Chogall|R2"
         ]
       },
       {
@@ -231,9 +231,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 60,
-        "abilityId": "Cho|R1",
+        "abilityId": "Chogall|R1",
         "abilityLinks": [
-          "Cho|R1"
+          "Chogall|R1"
         ]
       }
     ],
@@ -246,9 +246,9 @@
         "icon": "storm_ui_icon_cho_moltensurge_a.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Cho|Q1",
+        "abilityId": "Chogall|Q1",
         "abilityLinks": [
-          "Cho|Q1"
+          "Chogall|Q1"
         ]
       },
       {
@@ -260,7 +260,7 @@
         "type": "Active",
         "sort": 2,
         "cooldown": 30,
-        "abilityId": "Cho|Active"
+        "abilityId": "Chogall|Active"
       },
       {
         "tooltipId": "ChoTalentMoltenBlock",
@@ -271,7 +271,7 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 60,
-        "abilityId": "Cho|Active"
+        "abilityId": "Chogall|Active"
       }
     ],
     "16": [
@@ -283,9 +283,9 @@
         "icon": "storm_ui_icon_cho_moltensurge_a.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Cho|Q1",
+        "abilityId": "Chogall|Q1",
         "abilityLinks": [
-          "Cho|Q1"
+          "Chogall|Q1"
         ]
       },
       {
@@ -296,9 +296,9 @@
         "icon": "storm_ui_icon_cho_runebomb.png",
         "type": "E",
         "sort": 2,
-        "abilityId": "Cho|E1",
+        "abilityId": "Chogall|E1",
         "abilityLinks": [
-          "Cho|E1"
+          "Chogall|E1"
         ]
       },
       {
@@ -309,7 +309,7 @@
         "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Cho|Passive"
+        "abilityId": "Chogall|Passive"
       }
     ],
     "20": [
@@ -321,9 +321,9 @@
         "icon": "storm_ui_icon_cho_hammeroftwilight.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Cho|R2",
+        "abilityId": "Chogall|R2",
         "abilityLinks": [
-          "Cho|R2"
+          "Chogall|R2"
         ]
       },
       {
@@ -334,9 +334,9 @@
         "icon": "storm_ui_icon_cho_upheaval.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Cho|R1",
+        "abilityId": "Chogall|R1",
         "abilityLinks": [
-          "Cho|R1"
+          "Chogall|R1"
         ]
       },
       {
@@ -347,9 +347,9 @@
         "icon": "storm_ui_icon_cho_ogrehide.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Cho|D1",
+        "abilityId": "Chogall|D1",
         "abilityLinks": [
-          "Cho|D1"
+          "Chogall|D1"
         ]
       },
       {
@@ -360,7 +360,7 @@
         "icon": "storm_ui_icon_gall_psychoticbreak.png",
         "type": "Passive",
         "sort": 4,
-        "abilityId": "Cho|Passive"
+        "abilityId": "Chogall|Passive"
       }
     ]
   }

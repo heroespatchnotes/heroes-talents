@@ -1,5 +1,5 @@
 {
-  "id": "11",
+  "id": 11,
   "shortName": "nazeebo",
   "attributeId": "Witc",
   "cHeroId": "WitchDoctor",
@@ -21,7 +21,7 @@
   "abilities": {
     "Nazeebo": [
       {
-        "uid": "4d96a1a",
+        "uid": "d2b362",
         "name": "Corpse Spiders",
         "description": "Hurl a jar of spiders that deals 50 (+4% per level) damage. If it hits at least one enemy, create 3 Corpse Spiders that attack for 38 (+4% per level) damage. Spiders last for 4 seconds.",
         "hotkey": "Q",
@@ -32,7 +32,7 @@
         "type": "basic"
       },
       {
-        "uid": "92e3716",
+        "uid": "59a96a",
         "name": "Zombie Wall",
         "description": "After 1 second, create a ring of Zombies surrounding the target area that deal 28 (+4% per level) damage and last for 3 seconds.",
         "hotkey": "W",
@@ -43,7 +43,7 @@
         "type": "basic"
       },
       {
-        "uid": "5d86b28",
+        "uid": "c41a44",
         "name": "Plague of Toads",
         "description": "Create a wave of 3 Toads that explode on contact, dealing 119 (+4% per level) damage over 6 seconds. This effect stacks.  Stores up to 2 charges.",
         "hotkey": "E",
@@ -54,7 +54,7 @@
         "type": "basic"
       },
       {
-        "uid": "26a4060",
+        "uid": "e78c10",
         "name": "Gargantuan",
         "description": "Summon a Gargantuan to guard an area for 20 seconds. Deals 100 (+4% per level) damage when summoned, attacks for 140 (+4% per level) damage, and can be ordered to stomp nearby enemies.",
         "hotkey": "R",
@@ -65,7 +65,7 @@
         "type": "heroic"
       },
       {
-        "uid": "8162ee9",
+        "uid": "52f290",
         "name": "Ravenous Spirit",
         "description": "Channel a Ravenous Spirit that deals 216 (+4% per level) damage per second. Cannot move while channeling. Lasts for 8 seconds.",
         "hotkey": "R",
@@ -76,7 +76,7 @@
         "type": "heroic"
       },
       {
-        "uid": "ef9b6a8",
+        "uid": "9addd5",
         "name": "Voodoo Ritual",
         "description": "Nazeebo's Basic Attacks and Abilities poison Non-Heroic enemies, causing them to take 67 (+4% per level) additional damage over 6 seconds.  Quest: If a Minion dies while poisoned by Voodoo Ritual, Nazeebo permanently gains 6 Health and 1 Mana.",
         "trait": true,
@@ -87,17 +87,7 @@
     ],
     "WitchDoctorGargantuan": [
       {
-        "uid": "8b3e463",
-        "name": "Gargantuan Stomp",
-        "description": "Order the Gargantuan to stomp, dealing 240 (+4% per level) damage to nearby enemies and slowing them by 30% for 2 seconds.",
-        "hotkey": "R",
-        "abilityId": "Nazeebo|R3",
-        "cooldown": 5,
-        "icon": "storm_ui_icon_nazeebo_gargantuanstomp.png",
-        "type": "subunit"
-      },
-      {
-        "uid": "fb7b2bc",
+        "uid": "fd5603",
         "name": "Gargantuan Stomp",
         "description": "Order the Gargantuan to stomp, dealing 240 (+4% per level) damage to nearby enemies and slowing them by 30% for 2 seconds.",
         "hotkey": "R",

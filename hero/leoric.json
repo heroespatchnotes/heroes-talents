@@ -1,5 +1,5 @@
 {
-  "id": "39",
+  "id": 39,
   "shortName": "leoric",
   "attributeId": "Leor",
   "cHeroId": "Leoric",
@@ -20,7 +20,7 @@
   "abilities": {
     "Leoric": [
       {
-        "uid": "b6bef4b",
+        "uid": "545927",
         "name": "Skeletal Swing",
         "description": "Leoric swings his mace, dealing 150 (+4% per level) damage and Slowing enemies by 40% for 2.5 seconds. If an enemy Hero is hit, refund 50% of the cooldown and Mana cost. Peasants!",
         "hotkey": "Q",
@@ -31,7 +31,7 @@
         "type": "basic"
       },
       {
-        "uid": "ea460f4",
+        "uid": "a3d2a4",
         "name": "Drain Hope",
         "description": "Grab an enemy Hero's soul, dealing up to 20% of their maximum Health as damage and healing Leoric for up to 20% of his maximum Health while he is nearby, over 4 seconds. Leoric's Movement Speed is reduced by 20% while this is active.",
         "hotkey": "W",
@@ -42,7 +42,7 @@
         "type": "basic"
       },
       {
-        "uid": "5f918e8",
+        "uid": "519128",
         "name": "Wraith Walk",
         "description": "Leoric separates from his body, becoming Unstoppable and gaining Movement Speed accelerating up to 50% over 2.5 seconds. When Wraith Walk ends or is canceled, his body jumps to his wraith.",
         "hotkey": "E",
@@ -53,7 +53,7 @@
         "type": "basic"
       },
       {
-        "uid": "70fc23b",
+        "uid": "38b393",
         "name": "Entomb",
         "description": "Create an unpassable tomb for 4 seconds.",
         "hotkey": "R",
@@ -64,7 +64,7 @@
         "type": "heroic"
       },
       {
-        "uid": "628f1d9",
+        "uid": "3e16eb",
         "name": "March of the Black King",
         "description": "Leoric becomes Unstoppable and walks forward, swinging his mace 3 times. Enemies hit take 250 (+4% per level) damage, and Heroes hit heal Leoric for 12% of his maximum Health.",
         "hotkey": "R",
@@ -75,7 +75,7 @@
         "type": "heroic"
       },
       {
-        "uid": "43d6f54",
+        "uid": "245d5e",
         "name": "Undying",
         "description": "Leoric becomes a ghost when he dies, and resurrects upon reaching full Health. Leoric deals no damage while dead.  Wrath Of The Bone King  Leoric's first two Basic Attacks cleave for 100% damage, and his third Basic Attack deals 200% damage to a single target.",
         "trait": true,
@@ -86,24 +86,24 @@
     ],
     "LeoricUndyingTrait": [
       {
-        "uid": "8badff8",
+        "uid": "fcb128",
         "name": "Ghastly Swing",
         "description": "Slow enemies by 40% for 2.5 seconds.",
         "hotkey": "Q",
         "abilityId": "Leoric|Q2",
         "cooldown": 8,
         "icon": "storm_ui_icon_leoric_skeletalswing_undead.png",
-        "type": "subunit"
+        "type": "basic"
       },
       {
-        "uid": "6c60dec",
+        "uid": "53b8a3",
         "name": "Drain Essence",
         "description": "Throw out a chain, attaching to the first enemy Hero hit, healing Leoric for up to 10% of his maximum Health over 4 seconds as long as the enemy remains close.",
         "hotkey": "W",
         "abilityId": "Leoric|W2",
         "cooldown": 9,
         "icon": "storm_ui_icon_leoric_drainhope_undead.png",
-        "type": "subunit"
+        "type": "basic"
       }
     ]
   },
@@ -197,7 +197,7 @@
         "icon": "storm_ui_icon_leoric_drainhope.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "Leoric|W1",
+        "abilityId": "Leoric|W2",
         "abilityLinks": [
           "Leoric|W1",
           "Leoric|W2"

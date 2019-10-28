@@ -1,5 +1,5 @@
 {
-  "id": "3",
+  "id": 3,
   "shortName": "diablo",
   "attributeId": "Diab",
   "cHeroId": "Diablo",
@@ -21,7 +21,7 @@
   "abilities": {
     "Diablo": [
       {
-        "uid": "c859827",
+        "uid": "913085",
         "name": "Shadow Charge",
         "description": "Charge an enemy, knocking them back, dealing 40 (+4% per level) damage and gaining 15% Movement Speed for 2 seconds. If the enemy hits terrain, they are Stunned for 1 second and take an additional 120 (+4% per level) damage.",
         "hotkey": "Q",
@@ -32,7 +32,7 @@
         "type": "basic"
       },
       {
-        "uid": "fb53a0d",
+        "uid": "92a76c",
         "name": "Fire Stomp",
         "description": "Unleashes fire waves toward the targeted area that deal 12 (+4% per level) damage each. Once they reach maximum range they return, dealing an additional 36 (+4% per level) damage. Diablo heals for 130% of the damage dealt to Heroes.",
         "hotkey": "W",
@@ -43,7 +43,7 @@
         "type": "basic"
       },
       {
-        "uid": "aff7968",
+        "uid": "1ecf57",
         "name": "Overpower",
         "description": "Grabs the target and slams it behind Diablo, dealing 73 (+4% per level) damage and Stunning for 0.25 seconds.",
         "hotkey": "E",
@@ -54,18 +54,18 @@
         "type": "basic"
       },
       {
-        "uid": "83fdc9f",
+        "uid": "c58687",
         "name": "Apocalypse",
         "description": "Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and Stunning them for 1.75 seconds.",
         "hotkey": "R",
         "abilityId": "Diablo|R1",
         "cooldown": 90,
-        "manaCost": 100,
+        "manaCost": 50,
         "icon": "storm_ui_icon_diablo_apocalypse.png",
         "type": "heroic"
       },
       {
-        "uid": "96b2559",
+        "uid": "39518c",
         "name": "Lightning Breath",
         "description": "After 0.5 seconds, become Unstoppable and Channel for up to 4 seconds, dealing 50 (+4% per level) damage every 0.25 seconds to enemies in front of Diablo. Enemies affected are Slowed by 4% for 2 seconds, up to 40%.  Lightning Breath's direction changes with your mouse cursor position.",
         "hotkey": "R",
@@ -76,12 +76,11 @@
         "type": "heroic"
       },
       {
-        "uid": "1a8084f",
+        "uid": "5ed7f3",
         "name": "Black Soulstone",
-        "description": "Repeatable Quest: Gain 10 Souls per Hero killed and 1 Soul per Minion, up to 100. For each Soul, gain 0.4% maximum Health. If Diablo has 100 Souls upon dying, he will resurrect in 5 seconds but lose 100 Souls.",
+        "description": "Repeatable Quest: Gain 10 Souls per Hero killed and 1 Soul per Minion, up to 100. For each Soul, gain 0.3% maximum Health. If Diablo has 100 Souls upon dying, he will resurrect in 5 seconds but lose 100 Souls.",
         "trait": true,
         "abilityId": "Diablo|D1",
-        "cooldown": 30,
         "icon": "storm_ui_icon_diablo_blacksoulstone_var1.png",
         "type": "trait"
       }
@@ -99,8 +98,8 @@
         "sort": 1,
         "abilityId": "Diablo|Passive",
         "abilityLinks": [
-          "Diablo|Q1",
-          "Diablo|E1"
+          "Diablo|E1",
+          "Diablo|Q1"
         ]
       },
       {
@@ -278,8 +277,8 @@
         "sort": 3,
         "abilityId": "Diablo|Passive",
         "abilityLinks": [
-          "Diablo|Q1",
-          "Diablo|E1"
+          "Diablo|E1",
+          "Diablo|Q1"
         ]
       }
     ],
@@ -294,8 +293,8 @@
         "sort": 1,
         "abilityId": "Diablo|Q1",
         "abilityLinks": [
-          "Diablo|Q1",
-          "Diablo|E1"
+          "Diablo|E1",
+          "Diablo|Q1"
         ]
       },
       {

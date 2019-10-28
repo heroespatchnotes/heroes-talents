@@ -1,5 +1,5 @@
 {
-  "id": "28",
+  "id": 28,
   "shortName": "rehgar",
   "attributeId": "Rehg",
   "cHeroId": "Rehgar",
@@ -23,7 +23,7 @@
   "abilities": {
     "Rehgar": [
       {
-        "uid": "eba8e87",
+        "uid": "773536",
         "name": "Chain Heal",
         "description": "Heal an ally with a wave of healing for 260 (+4% per level) Health. The wave then bounces 2 times to nearby allies within 7 range, restoring 260 (+4% per level) Health to them.",
         "hotkey": "Q",
@@ -34,7 +34,7 @@
         "type": "basic"
       },
       {
-        "uid": "718299c",
+        "uid": "659151",
         "name": "Lightning Shield",
         "description": "Imbue an ally with lightning dealing 64 (+4% per level) damage a second to nearby enemies. Lasts 5 seconds.",
         "hotkey": "W",
@@ -45,7 +45,7 @@
         "type": "basic"
       },
       {
-        "uid": "5aa4eaf",
+        "uid": "dac29d",
         "name": "Earthbind Totem",
         "description": "Create a totem that slows nearby enemies by 35%. The totem has 217 (+4% per level) Health and lasts for 8 seconds.",
         "hotkey": "E",
@@ -56,7 +56,7 @@
         "type": "basic"
       },
       {
-        "uid": "9216183",
+        "uid": "0e1193",
         "name": "Bloodlust",
         "description": "Grant nearby allied Heroes 40% Attack Speed and 35% Movement Speed and causes them to heal for 30% of the Basic Attack damage to their primary target. Lasts for 8 seconds.",
         "hotkey": "R",
@@ -67,7 +67,7 @@
         "type": "heroic"
       },
       {
-        "uid": "14acc53",
+        "uid": "bd69ac",
         "name": "Ancestral Healing",
         "description": "After 1 second, heal an allied Hero for 1180 (+4% per level) Health.",
         "hotkey": "R",
@@ -78,7 +78,16 @@
         "type": "heroic"
       },
       {
-        "uid": "8734a0b",
+        "uid": "4a70e4",
+        "name": "Ghost Wolf",
+        "description": "Instead of using a mount, Rehgar transforms into a Ghost Wolf with 20% increased Movement Speed. Basic Attacks in Ghost Wolf form cause him to lunge at his target and deal 75% bonus damage. Dealing damage, using Abilities, and channeling cancels Ghost Wolf form.",
+        "trait": true,
+        "abilityId": "Rehgar|D1",
+        "icon": "storm_ui_icon_rehgar_ghostwolf.png",
+        "type": "trait"
+      },
+      {
+        "uid": "f6d67e",
         "name": "Ghost Wolf",
         "description": "Increases Movement Speed by 20%.",
         "hotkey": "Z",
@@ -86,15 +95,6 @@
         "cooldown": 4,
         "icon": "storm_ui_icon_rehgar_mount.png",
         "type": "mount"
-      },
-      {
-        "uid": "2bf11d7",
-        "name": "Ghost Wolf",
-        "description": "Instead of using a mount, Rehgar transforms into a Ghost Wolf with 20% increased Movement Speed. Basic Attacks in Ghost Wolf form cause him to lunge at his target and deal 75% bonus damage. Dealing damage, using Abilities, and channeling cancels Ghost Wolf form.",
-        "trait": true,
-        "abilityId": "Rehgar|D1",
-        "icon": "storm_ui_icon_rehgar_ghostwolf.png",
-        "type": "trait"
       }
     ]
   },
@@ -187,8 +187,7 @@
         "description": "Increase the Health of Earthbind Totem by 100%.  Enemy Heroes who are Slowed by Earthbind Totem also have their Attack Speed Slowed by 40%.",
         "icon": "storm_ui_icon_rehgar_earthbindtotem.png",
         "type": "E",
-        "sort": 1,
-        "abilityId": "Rehgar|E"
+        "sort": 1
       },
       {
         "tooltipId": "RehgarBloodAndThunder",

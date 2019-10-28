@@ -1,5 +1,5 @@
 {
-  "id": "36",
+  "id": 36,
   "shortName": "kaelthas",
   "attributeId": "Kael",
   "cHeroId": "Kaelthas",
@@ -19,69 +19,69 @@
     "WaveClearer"
   ],
   "abilities": {
-    "Kael'thas": [
+    "Kaelthas": [
       {
-        "uid": "a0a66cb",
+        "uid": "2beb76",
         "name": "Flamestrike",
         "description": "After 1 second, deal 345 (+4% per level) damage in an area.  Verdant Spheres increases the radius by 50%.",
         "hotkey": "Q",
-        "abilityId": "Kael'thas|Q1",
+        "abilityId": "Kaelthas|Q1",
         "cooldown": 7,
         "manaCost": 70,
         "icon": "storm_ui_icon_kaelthas_flamestrike.png",
         "type": "basic"
       },
       {
-        "uid": "55fda32",
+        "uid": "2d2805",
         "name": "Living Bomb",
         "description": "Deal 126 (+4% per level) damage over 3 seconds to an enemy, then they explode dealing 215 (+4% per level) damage to all nearby enemies.  Other Heroes damaged by this explosion are also affected by Living Bomb, though the secondary explosions cannot spread.  Verdant Spheres makes this Ability cost no Mana and have no cooldown.",
         "hotkey": "W",
-        "abilityId": "Kael'thas|W1",
+        "abilityId": "Kaelthas|W1",
         "cooldown": 10,
         "manaCost": 50,
         "icon": "storm_ui_icon_kaelthas_livingbomb.png",
         "type": "basic"
       },
       {
-        "uid": "2e60a7b",
+        "uid": "6094d7",
         "name": "Gravity Lapse",
         "description": "Stun the first enemy hit for 1 second.  Verdant Spheres causes Gravity Lapse to stun the first 3 enemies hit and increases the stun duration by 50%.",
         "hotkey": "E",
-        "abilityId": "Kael'thas|E1",
+        "abilityId": "Kaelthas|E1",
         "cooldown": 14,
         "manaCost": 90,
         "icon": "storm_ui_icon_kaelthas_gravitylapse.png",
         "type": "basic"
       },
       {
-        "uid": "1ce0f7f",
+        "uid": "6d1e06",
         "name": "Pyroblast",
         "description": "After 1.5 seconds, cast a slow-moving fireball that deals 810 (+5% per level) damage to an enemy Hero and 405 (+5% per level) damage to enemies nearby.",
         "hotkey": "R",
-        "abilityId": "Kael'thas|R1",
+        "abilityId": "Kaelthas|R1",
         "cooldown": 100,
         "manaCost": 80,
         "icon": "storm_ui_icon_kaelthas_pyroblast.png",
         "type": "heroic"
       },
       {
-        "uid": "258a1b9",
+        "uid": "8448f2",
         "name": "Phoenix",
         "description": "Launch a Phoenix to an area, dealing 78 (+4% per level) damage to enemies along the way. The Phoenix persists for 7 seconds, attacking enemies for 78 (+4% per level) damage and splashing for 39 (+4% per level) damage.",
         "hotkey": "R",
-        "abilityId": "Kael'thas|R2",
+        "abilityId": "Kaelthas|R2",
         "cooldown": 60,
         "manaCost": 80,
         "icon": "storm_ui_icon_kaelthas_phoenix.png",
         "type": "heroic"
       },
       {
-        "uid": "1d363c1",
+        "uid": "b75df9",
         "name": "Verdant Spheres",
         "description": "Activate to make Kael'thas's next Basic Ability more powerful.",
         "hotkey": "D",
         "trait": true,
-        "abilityId": "Kael'thas|D1",
+        "abilityId": "Kaelthas|D1",
         "cooldown": 6,
         "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
         "type": "trait"
@@ -99,9 +99,9 @@
         "type": "Q",
         "sort": 1,
         "isQuest": true,
-        "abilityId": "Kael'thas|Q1",
+        "abilityId": "Kaelthas|Q1",
         "abilityLinks": [
-          "Kael'thas|Q1"
+          "Kaelthas|Q1"
         ]
       },
       {
@@ -112,9 +112,9 @@
         "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
         "type": "Trait",
         "sort": 2,
-        "abilityId": "Kael'thas|D1",
+        "abilityId": "Kaelthas|D1",
         "abilityLinks": [
-          "Kael'thas|D1"
+          "Kaelthas|D1"
         ]
       },
       {
@@ -126,7 +126,7 @@
         "type": "Passive",
         "sort": 3,
         "isQuest": true,
-        "abilityId": "Kael'thas|Passive"
+        "abilityId": "Kaelthas|Passive"
       }
     ],
     "4": [
@@ -138,9 +138,9 @@
         "icon": "storm_ui_icon_kaelthas_gravitylapse.png",
         "type": "E",
         "sort": 1,
-        "abilityId": "Kael'thas|E1",
+        "abilityId": "Kaelthas|E1",
         "abilityLinks": [
-          "Kael'thas|E1"
+          "Kaelthas|E1"
         ]
       },
       {
@@ -151,9 +151,9 @@
         "icon": "storm_ui_icon_kaelthas_gravitylapse_a.png",
         "type": "E",
         "sort": 2,
-        "abilityId": "Kael'thas|E1",
+        "abilityId": "Kaelthas|E1",
         "abilityLinks": [
-          "Kael'thas|E1"
+          "Kaelthas|E1"
         ]
       },
       {
@@ -164,9 +164,9 @@
         "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Kael'thas|D1",
+        "abilityId": "Kaelthas|D1",
         "abilityLinks": [
-          "Kael'thas|D1"
+          "Kaelthas|D1"
         ]
       }
     ],
@@ -179,9 +179,9 @@
         "icon": "storm_ui_icon_kaelthas_flamestrike.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Kael'thas|Q1",
+        "abilityId": "Kaelthas|Q1",
         "abilityLinks": [
-          "Kael'thas|Q1"
+          "Kaelthas|Q1"
         ]
       },
       {
@@ -192,9 +192,9 @@
         "icon": "storm_ui_icon_kaelthas_livingbomb.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "Kael'thas|W1",
+        "abilityId": "Kaelthas|W1",
         "abilityLinks": [
-          "Kael'thas|W1"
+          "Kaelthas|W1"
         ]
       },
       {
@@ -205,9 +205,9 @@
         "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Kael'thas|D1",
+        "abilityId": "Kaelthas|D1",
         "abilityLinks": [
-          "Kael'thas|D1"
+          "Kaelthas|D1"
         ]
       }
     ],
@@ -221,9 +221,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 60,
-        "abilityId": "Kael'thas|R2",
+        "abilityId": "Kaelthas|R2",
         "abilityLinks": [
-          "Kael'thas|R2"
+          "Kaelthas|R2"
         ]
       },
       {
@@ -235,9 +235,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 100,
-        "abilityId": "Kael'thas|R1",
+        "abilityId": "Kaelthas|R1",
         "abilityLinks": [
-          "Kael'thas|R1"
+          "Kaelthas|R1"
         ]
       }
     ],
@@ -250,9 +250,9 @@
         "icon": "storm_ui_icon_kaelthas_livingbomb.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "Kael'thas|W1",
+        "abilityId": "Kaelthas|W1",
         "abilityLinks": [
-          "Kael'thas|W1"
+          "Kaelthas|W1"
         ]
       },
       {
@@ -263,9 +263,9 @@
         "icon": "storm_ui_icon_kaelthas_livingbomb_var1.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "Kael'thas|W1",
+        "abilityId": "Kaelthas|W1",
         "abilityLinks": [
-          "Kael'thas|W1"
+          "Kaelthas|W1"
         ]
       },
       {
@@ -276,9 +276,9 @@
         "icon": "storm_ui_icon_kaelthas_livingbomb_b.png",
         "type": "W",
         "sort": 3,
-        "abilityId": "Kael'thas|W1",
+        "abilityId": "Kaelthas|W1",
         "abilityLinks": [
-          "Kael'thas|W1"
+          "Kaelthas|W1"
         ]
       }
     ],
@@ -291,9 +291,9 @@
         "icon": "storm_ui_icon_kaelthas_flamestrike.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Kael'thas|Q1",
+        "abilityId": "Kaelthas|Q1",
         "abilityLinks": [
-          "Kael'thas|Q1"
+          "Kaelthas|Q1"
         ]
       },
       {
@@ -304,9 +304,9 @@
         "icon": "storm_ui_icon_kaelthas_livingbomb.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "Kael'thas|W1",
+        "abilityId": "Kaelthas|W1",
         "abilityLinks": [
-          "Kael'thas|W1"
+          "Kaelthas|W1"
         ]
       },
       {
@@ -317,9 +317,9 @@
         "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Kael'thas|D1",
+        "abilityId": "Kaelthas|D1",
         "abilityLinks": [
-          "Kael'thas|D1"
+          "Kaelthas|D1"
         ]
       }
     ],
@@ -332,9 +332,9 @@
         "icon": "storm_ui_icon_kaelthas_phoenix.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "Kael'thas|R2",
+        "abilityId": "Kaelthas|R2",
         "abilityLinks": [
-          "Kael'thas|R2"
+          "Kaelthas|R2"
         ]
       },
       {
@@ -345,9 +345,9 @@
         "icon": "storm_ui_icon_kaelthas_pyroblast.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "Kael'thas|R1",
+        "abilityId": "Kaelthas|R1",
         "abilityLinks": [
-          "Kael'thas|R1"
+          "Kaelthas|R1"
         ]
       },
       {
@@ -358,9 +358,9 @@
         "icon": "storm_ui_icon_kaelthas_livingbomb.png",
         "type": "W",
         "sort": 3,
-        "abilityId": "Kael'thas|W1",
+        "abilityId": "Kaelthas|W1",
         "abilityLinks": [
-          "Kael'thas|W1"
+          "Kaelthas|W1"
         ]
       },
       {
@@ -371,9 +371,9 @@
         "icon": "storm_ui_icon_kaelthas_flamestrike.png",
         "type": "Q",
         "sort": 4,
-        "abilityId": "Kael'thas|Q1",
+        "abilityId": "Kaelthas|Q1",
         "abilityLinks": [
-          "Kael'thas|Q1"
+          "Kaelthas|Q1"
         ]
       }
     ]

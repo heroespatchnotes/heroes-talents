@@ -1,5 +1,5 @@
 {
-  "id": "67",
+  "id": 67,
   "shortName": "dva",
   "attributeId": "DVA0",
   "cHeroId": "DVa",
@@ -18,114 +18,124 @@
     "RoleTank"
   ],
   "abilities": {
-    "D.Va": [
+    "DVa": [
       {
-        "uid": "113bf0d",
+        "uid": "dd269b",
         "name": "Boosters",
         "description": "Increase D.Va's Movement Speed by 125% for 2 seconds. Enemies that are hit take 135 (+4% per level) damage and are knocked away.  D.Va cannot be Slowed while Boosters are active, and each enemy can only be hit once per use.",
         "hotkey": "Q",
-        "abilityId": "D.Va|Q1",
+        "abilityId": "DVa|Q1",
         "cooldown": 9,
         "icon": "storm_ui_icon_dva_boosters.png",
         "type": "basic"
       },
       {
-        "uid": "728a060",
+        "uid": "040cda",
         "name": "Defense Matrix",
         "description": "Channel a defensive field in the target direction for 3 seconds, reducing the damage dealt by enemy Heroes inside it by 75%. The Mech can move while channeling, but cannot turn.  Damage dealt to the Mech from enemies within Defense Matrix still grants the same amount of Self-Destruct Charge.",
         "hotkey": "W",
-        "abilityId": "D.Va|W1",
+        "abilityId": "DVa|W1",
         "cooldown": 10,
         "icon": "storm_ui_icon_dva_defensematrix.png",
         "type": "basic"
       },
       {
-        "uid": "2f4bf70",
+        "uid": "7cd57d",
         "name": "Self-Destruct",
         "description": "Eject from the Mech, setting it to self-destruct after 4 seconds. Deals 1200 (+4% per level) to 400 (+4% per level) damage in a large area, depending on distance from center. Only deals 50% damage against Structures.  Gain 1% Charge for every 2 seconds spent Basic Attacking, and 30% Charge per 100% of Mech Health lost.",
         "hotkey": "E",
-        "abilityId": "D.Va|E1",
+        "abilityId": "DVa|E1",
         "icon": "storm_ui_icon_dva_selfdestruct.png",
         "type": "basic"
       },
       {
-        "uid": "ccb521e",
+        "uid": "0366da",
         "name": "Big Shot",
         "description": "Deal 250 (+4% per level) damage to all enemies in a line. The cooldown of Call Mech is reduced by 8 seconds for each enemy Hero hit.  Requires Pilot Mode.",
         "hotkey": "R",
-        "abilityId": "D.Va|R1",
+        "abilityId": "DVa|R1",
         "cooldown": 4,
         "icon": "storm_ui_icon_dva_bigshot.png",
         "type": "heroic"
       },
       {
-        "uid": "a56988e",
+        "uid": "2240d9",
+        "name": "Bunny Hop",
+        "description": "D.Va's Mech becomes Unstoppable and stomps every 0.5 seconds, dealing 60 (+4% per level) damage and Slowing enemies by 40%. Lasts 4 seconds.  Requires Mech Mode.",
+        "hotkey": "R",
+        "abilityId": "DVa|R2",
+        "cooldown": 100,
+        "icon": "storm_ui_icon_dva_bunnyhop.png",
+        "type": "heroic"
+      },
+      {
+        "uid": "d32b79",
         "name": "Mech Mode",
         "description": "When D.Va's Mech dies, she is ejected out after 0.75 seconds and can continue to fight. D.Va's Mech only awards 50% of a normal Hero's experience upon dying.",
         "trait": true,
-        "abilityId": "D.Va|D1",
+        "abilityId": "DVa|D1",
         "icon": "storm_ui_icon_dva_mechmode.png",
         "type": "trait"
       },
       {
-        "uid": "4969200",
+        "uid": "2269e2",
         "name": "Mechanized Walker",
         "description": "While in her Mech, D.Va can shoot while moving, but her base Movement Speed is reduced by 15%.",
         "hotkey": "Z",
-        "abilityId": "D.Va|Z1",
+        "abilityId": "DVa|Z1",
         "icon": "storm_ui_icon_dva_mount.png",
         "type": "mount"
-      },
-      {
-        "uid": "115b944",
-        "name": "Pilot Mode",
-        "description": "Basic Attacks reduce the cooldown of Call Mech by 0.5 seconds. As a Pilot, D.Va only awards 50% of a normal Hero's experience upon dying.",
-        "trait": true,
-        "abilityId": "D.Va|D2",
-        "icon": "storm_ui_icon_dva_pilotmode.png",
-        "type": "trait"
-      },
-      {
-        "uid": "e84f915",
-        "name": "Bunny Hop",
-        "description": "D.Va's Mech becomes Unstoppable and stomps every 0.5 seconds, dealing 60 (+4% per level) damage and Slowing enemies by 40%. Lasts 4 seconds.  Requires Mech Mode.",
-        "hotkey": "R",
-        "abilityId": "D.Va|R2",
-        "cooldown": 100,
-        "icon": "storm_ui_icon_dva_bunnyhop.png",
-        "type": "heroic"
       }
     ],
     "D.VaPilot": [
       {
-        "uid": "8103aa1",
+        "uid": "64f1f0",
         "name": "Call Mech",
         "description": "Call a new Mech and enter Mech Mode.  Basic Attacks lower this cooldown by 0.5 seconds each.",
         "hotkey": "E",
-        "abilityId": "D.Va|E2",
+        "abilityId": "DVa|E2",
         "cooldown": 45,
         "icon": "storm_ui_icon_dva_callmech.png",
-        "type": "subunit"
+        "type": "basic"
       },
       {
-        "uid": "f14b14e",
+        "uid": "c2a7b9",
+        "name": "Pilot Mode",
+        "description": "Basic Attacks reduce the cooldown of Call Mech by 0.5 seconds. As a Pilot, D.Va only awards 50% of a normal Hero's experience upon dying.",
+        "trait": true,
+        "abilityId": "DVa|D2",
+        "icon": "storm_ui_icon_dva_pilotmode.png",
+        "type": "trait"
+      },
+      {
+        "uid": "a71285",
         "name": "Torpedo Dash",
         "description": "Dash towards the target location, passing through enemies along the way.",
         "hotkey": "Q",
-        "abilityId": "D.Va|Q2",
+        "abilityId": "DVa|Q3",
         "cooldown": 12,
         "icon": "storm_ui_icon_dva_jetpackattack.png",
-        "type": "subunit"
+        "type": "basic"
       },
       {
-        "uid": "a000597",
+        "uid": "a9902a",
         "name": "Concussive Pulse",
         "description": "Deal 141 (+4% per level) damage to enemies in a cone and knock them back.",
         "hotkey": "W",
-        "abilityId": "D.Va|W2",
+        "abilityId": "DVa|W3",
         "cooldown": 7,
         "icon": "storm_ui_icon_dva_concussivecharge.png",
-        "type": "subunit"
+        "type": "basic"
+      },
+      {
+        "uid": "65869a",
+        "name": "Call Mech",
+        "description": "Call a new Mech and enter Mech Mode.  Basic Attacks lower this cooldown by 0.5 seconds each.",
+        "hotkey": "E",
+        "abilityId": "DVa|E3",
+        "cooldown": 45,
+        "icon": "storm_ui_icon_dva_callmech.png",
+        "type": "basic"
       }
     ]
   },
@@ -139,9 +149,9 @@
         "icon": "storm_ui_icon_dva_boosters.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "D.Va|Q1",
+        "abilityId": "DVa|Q1",
         "abilityLinks": [
-          "D.Va|Q1"
+          "DVa|Q1"
         ]
       },
       {
@@ -152,9 +162,9 @@
         "icon": "storm_ui_icon_dva_boosters_a.png",
         "type": "Q",
         "sort": 2,
-        "abilityId": "D.Va|Q1",
+        "abilityId": "DVa|Q1",
         "abilityLinks": [
-          "D.Va|Q1"
+          "DVa|Q1"
         ]
       },
       {
@@ -166,9 +176,9 @@
         "type": "Q",
         "sort": 3,
         "isQuest": true,
-        "abilityId": "D.Va|Q1",
+        "abilityId": "DVa|Q1",
         "abilityLinks": [
-          "D.Va|Q1"
+          "DVa|Q1"
         ]
       },
       {
@@ -179,9 +189,9 @@
         "icon": "storm_ui_icon_dva_mechmode.png",
         "type": "Trait",
         "sort": 4,
-        "abilityId": "D.Va|D1",
+        "abilityId": "DVa|D1",
         "abilityLinks": [
-          "D.Va|D1"
+          "DVa|D1"
         ]
       }
     ],
@@ -194,9 +204,9 @@
         "icon": "storm_ui_icon_dva_defensematrix.png",
         "type": "W",
         "sort": 1,
-        "abilityId": "D.Va|W1",
+        "abilityId": "DVa|W1",
         "abilityLinks": [
-          "D.Va|W1"
+          "DVa|W1"
         ]
       },
       {
@@ -207,9 +217,9 @@
         "icon": "storm_ui_icon_dva_defensematrix_a.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "D.Va|W1",
+        "abilityId": "DVa|W1",
         "abilityLinks": [
-          "D.Va|W1"
+          "DVa|W1"
         ]
       },
       {
@@ -220,9 +230,9 @@
         "icon": "storm_ui_icon_dva_defensematrix_b.png",
         "type": "W",
         "sort": 3,
-        "abilityId": "D.Va|W1",
+        "abilityId": "DVa|W1",
         "abilityLinks": [
-          "D.Va|W1"
+          "DVa|W1"
         ]
       },
       {
@@ -233,9 +243,9 @@
         "icon": "storm_ui_icon_dva_selfdestruct.png",
         "type": "E",
         "sort": 4,
-        "abilityId": "D.Va|E1",
+        "abilityId": "DVa|E1",
         "abilityLinks": [
-          "D.Va|E1"
+          "DVa|E1"
         ]
       }
     ],
@@ -248,9 +258,9 @@
         "icon": "storm_ui_icon_dva_boosters.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "D.Va|Q1",
+        "abilityId": "DVa|Q1",
         "abilityLinks": [
-          "D.Va|Q1"
+          "DVa|Q1"
         ]
       },
       {
@@ -261,9 +271,9 @@
         "icon": "storm_ui_icon_dva_defensematrix.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "D.Va|W1",
+        "abilityId": "DVa|W1",
         "abilityLinks": [
-          "D.Va|W1"
+          "DVa|W1"
         ]
       },
       {
@@ -274,9 +284,9 @@
         "icon": "storm_ui_icon_dva_defensematrix_a.png",
         "type": "W",
         "sort": 3,
-        "abilityId": "D.Va|W1",
+        "abilityId": "DVa|W1",
         "abilityLinks": [
-          "D.Va|W1"
+          "DVa|W1"
         ]
       },
       {
@@ -287,9 +297,9 @@
         "icon": "storm_ui_icon_dva_selfdestruct.png",
         "type": "E",
         "sort": 4,
-        "abilityId": "D.Va|E1",
+        "abilityId": "DVa|E1",
         "abilityLinks": [
-          "D.Va|E1"
+          "DVa|E1"
         ]
       }
     ],
@@ -303,9 +313,9 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 100,
-        "abilityId": "D.Va|R2",
+        "abilityId": "DVa|R2",
         "abilityLinks": [
-          "D.Va|R2"
+          "DVa|R2"
         ]
       },
       {
@@ -317,9 +327,9 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 4,
-        "abilityId": "D.Va|R1",
+        "abilityId": "DVa|R1",
         "abilityLinks": [
-          "D.Va|R1"
+          "DVa|R1"
         ]
       }
     ],
@@ -332,11 +342,11 @@
         "icon": "storm_ui_icon_dva_callmech.png",
         "type": "E",
         "sort": 1,
-        "abilityId": "D.Va|D1",
+        "abilityId": "DVa|D1",
         "abilityLinks": [
-          "D.Va|D1",
-          "D.Va|E2",
-          "D.Va|E3"
+          "DVa|D1",
+          "DVa|E2",
+          "DVa|E3"
         ]
       },
       {
@@ -347,9 +357,9 @@
         "icon": "storm_ui_icon_dva_mechmode.png",
         "type": "Trait",
         "sort": 2,
-        "abilityId": "D.Va|D1",
+        "abilityId": "DVa|D1",
         "abilityLinks": [
-          "D.Va|D1"
+          "DVa|D1"
         ]
       },
       {
@@ -360,9 +370,9 @@
         "icon": "storm_ui_icon_dva_mechmode_a.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "D.Va|D1",
+        "abilityId": "DVa|D1",
         "abilityLinks": [
-          "D.Va|D1"
+          "DVa|D1"
         ]
       }
     ],
@@ -375,8 +385,7 @@
         "icon": "storm_ui_icon_dva_jetpackattack.png",
         "type": "Q",
         "sort": 1,
-        "cooldown": 12,
-        "abilityId": "D.Va|Q"
+        "cooldown": 12
       },
       {
         "tooltipId": "DVaPilotGGWP",
@@ -386,9 +395,9 @@
         "icon": "storm_ui_icon_dva_pilotmode.png",
         "type": "Trait",
         "sort": 2,
-        "abilityId": "D.Va|D2",
+        "abilityId": "DVa|D2",
         "abilityLinks": [
-          "D.Va|D2"
+          "DVa|D2"
         ]
       },
       {
@@ -399,9 +408,9 @@
         "icon": "storm_ui_icon_dva_pilotmode_a.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "D.Va|D2",
+        "abilityId": "DVa|D2",
         "abilityLinks": [
-          "D.Va|D2"
+          "DVa|D2"
         ]
       },
       {
@@ -412,9 +421,9 @@
         "icon": "storm_ui_icon_dva_pilotmode_b.png",
         "type": "Trait",
         "sort": 4,
-        "abilityId": "D.Va|D2",
+        "abilityId": "DVa|D2",
         "abilityLinks": [
-          "D.Va|D2"
+          "DVa|D2"
         ]
       }
     ],
@@ -427,9 +436,9 @@
         "icon": "storm_ui_icon_dva_bunnyhop.png",
         "type": "Heroic",
         "sort": 1,
-        "abilityId": "D.Va|R2",
+        "abilityId": "DVa|R2",
         "abilityLinks": [
-          "D.Va|R2"
+          "DVa|R2"
         ]
       },
       {
@@ -440,9 +449,9 @@
         "icon": "storm_ui_icon_dva_bigshot.png",
         "type": "Heroic",
         "sort": 2,
-        "abilityId": "D.Va|R1",
+        "abilityId": "DVa|R1",
         "abilityLinks": [
-          "D.Va|R1"
+          "DVa|R1"
         ]
       },
       {
@@ -453,8 +462,7 @@
         "icon": "storm_ui_icon_dva_concussivecharge.png",
         "type": "W",
         "sort": 3,
-        "cooldown": 7,
-        "abilityId": "D.Va|W"
+        "cooldown": 7
       },
       {
         "tooltipId": "DVaPilotCallMechMEKAfallTalent",
@@ -465,9 +473,9 @@
         "type": "E",
         "sort": 4,
         "cooldown": 45,
-        "abilityId": "D.Va|E2",
+        "abilityId": "DVa|E2",
         "abilityLinks": [
-          "D.Va|E2"
+          "DVa|E2"
         ]
       }
     ]
