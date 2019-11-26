@@ -32,10 +32,10 @@
       {
         "uid": "56560e",
         "name": "Inquisition",
-        "description": "Channel on an enemy Hero for up to 3 seconds, dealing 47 (+4% per level) damage every 0.5 seconds and Slowing them by 30%. Removes a stack of Desperation.  Shares a cooldown with Clemency.",
+        "description": "Channel on an enemy Hero for up to 3 seconds, dealing 50 (+4% per level) damage every 0.5 seconds and Slowing them by 30%. Removes a stack of Desperation.  Shares a cooldown with Clemency.",
         "hotkey": "W",
         "abilityId": "Whitemane|W1",
-        "cooldown": 14,
+        "cooldown": 12,
         "icon": "storm_ui_icon_whitemane_inquisition.png",
         "type": "basic"
       },
@@ -55,7 +55,7 @@
         "description": "Bolster the spirits of nearby allied Heroes, healing them for 250 (+4% per level) and granting them 40 Armor for 4 seconds.",
         "hotkey": "R",
         "abilityId": "Whitemane|R1",
-        "cooldown": 90,
+        "cooldown": 60,
         "icon": "storm_ui_icon_whitemane_aegis.png",
         "type": "heroic"
       },
@@ -76,7 +76,7 @@
         "hotkey": "D",
         "trait": true,
         "abilityId": "Whitemane|D1",
-        "cooldown": 60,
+        "cooldown": 40,
         "icon": "storm_ui_icon_whitemane_zeal.png",
         "type": "trait"
       },
@@ -98,7 +98,7 @@
         "tooltipId": "WhitemaneZealPityTheFrail",
         "talentTreeId": "WhitemaneZealPityTheFrail",
         "name": "Pity the Frail",
-        "description": "For every Hero hit with Searing Lash, lower the cooldown of Inquisition by 1 second. Allies below 30% Health receive 25% more healing from Whitemane.",
+        "description": "For every Hero hit with Searing Lash, lower the cooldown of Inquisition by 1.5 seconds. Allies below 30% Health receive 25% more healing from Whitemane.",
         "icon": "storm_ui_icon_whitemane_inquisition_lash.png",
         "type": "W",
         "sort": 1,
@@ -153,7 +153,7 @@
         "tooltipId": "WhitemaneDesperatePleaMartyrdom",
         "talentTreeId": "WhitemaneDesperatePleaMartyrdom",
         "name": "Martyrdom",
-        "description": "Desperate Plea's healing is increased by 20%. Increase this by an additional 10% for each active Zeal.",
+        "description": "Desperate Plea's healing is increased by 30%. Increase this by an additional 10% for each active Zeal.",
         "icon": "storm_ui_icon_whitemane_desperation_alt_1.png",
         "type": "Q",
         "sort": 2,
@@ -167,12 +167,12 @@
         "talentTreeId": "WhitemaneZealIndulgence",
         "name": "Indulgence",
         "description": "Gain 5% Movement Speed. Increase this by an additional 5% for each active Zeal.",
-        "icon": "storm_ui_icon_whitemane_desperation_alt_2.png",
-        "type": "Q",
+        "icon": "storm_ui_icon_whitemane_zeal.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Whitemane|Q1",
+        "abilityId": "Whitemane|D1",
         "abilityLinks": [
-          "Whitemane|Q1"
+          "Whitemane|D1"
         ]
       }
     ],
@@ -224,7 +224,7 @@
         "icon": "storm_ui_icon_whitemane_aegis.png",
         "type": "Heroic",
         "sort": 1,
-        "cooldown": 90,
+        "cooldown": 60,
         "abilityId": "Whitemane|R1",
         "abilityLinks": [
           "Whitemane|R1"
@@ -332,7 +332,7 @@
         "tooltipId": "WhitemaneScarletAegisScarletCrusade",
         "talentTreeId": "WhitemaneScarletAegisScarletCrusade",
         "name": "Scarlet Crusade",
-        "description": "Scarlet Aegis heals for 50% more and makes affected allies Unstoppable for 1 second.",
+        "description": "Scarlet Aegis heals for 50% more and makes affected allies Unstoppable for 2 seconds.",
         "icon": "storm_ui_icon_whitemane_aegis.png",
         "type": "Heroic",
         "sort": 1,
