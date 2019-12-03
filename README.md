@@ -217,6 +217,10 @@ async function test() {
   <img class="img-rounded" src="images/heroes/chromie.png" />
   <span>Chromie</span>
 </a>
+<a class="img-wrap" href="hero/deathwing.json">
+  <img class="img-rounded" src="images/heroes/deathwing.png" />
+  <span>Deathwing</span>
+</a>
 <a class="img-wrap" href="hero/deckard.json">
   <img class="img-rounded" src="images/heroes/deckard.png" />
   <span>Deckard</span>

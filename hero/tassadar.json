@@ -192,7 +192,7 @@
         "tooltipId": "TassadarPsionicStormResonationTalent",
         "talentTreeId": "TassadarResonation",
         "name": "Resonation",
-        "description": "Distortion Beam slows enemies affected by Psionic Storm by 60%.",
+        "description": "Distortion Beam Slows enemies affected by Psionic Storm by 60%.",
         "icon": "storm_ui_icon_tassadar_psionicstorm.png",
         "type": "W",
         "sort": 2,
@@ -361,7 +361,10 @@
         "icon": "storm_ui_icon_talent_autoattack_aoe.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Tassadar|Passive"
+        "abilityId": "Tassadar|Passive",
+        "abilityLinks": [
+          "Tassadar|D1"
+        ]
       },
       {
         "tooltipId": "TassadarShieldBattery",
