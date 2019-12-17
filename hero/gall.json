@@ -105,7 +105,7 @@
         "tooltipId": "GallKeepMoving",
         "talentTreeId": "GallKeepMoving",
         "name": "Keep Moving!",
-        "description": "Increases the duration of Shove's Movement Speed bonus by 2 seconds.",
+        "description": "Increases the Movement Speed bonus of Shove by 10% and its duration by 2 seconds.",
         "icon": "storm_ui_icon_gall_shove.png",
         "type": "Z",
         "sort": 1,
@@ -131,7 +131,7 @@
         "tooltipId": "GallWeSeeYou",
         "talentTreeId": "GallWeSeeYou",
         "name": "We See You!",
-        "description": "Eye of Kilrogg's cooldown is decreased by 25 seconds and its range is increased by 33%.",
+        "description": "Eye of Kilrogg's cooldown is decreased by 25 seconds, its range is increased by 33%, and the number of Basic Attacks required to kill it is increased by 1.",
         "icon": "storm_ui_icon_gall_eyeofkilrogg.png",
         "type": "Passive",
         "sort": 3,
@@ -188,7 +188,7 @@
         "tooltipId": "GallEdgeOfMadnessTalent",
         "talentTreeId": "GallEdgeOfMadness",
         "name": "Edge of Madness",
-        "description": "Every subsequent hit of Shadowflame against the same enemy Hero deals an additional 8% damage, to a maximum of 40%. These bonuses are lost if the Hero has not been hit for 7 seconds.",
+        "description": "Every subsequent hit of Shadowflame against the same enemy Hero deals an additional 12% damage, to a maximum of 60%. These bonuses are lost if the Hero has not been hit for 7 seconds.",
         "icon": "storm_ui_icon_gall_shadowflame.png",
         "type": "Q",
         "sort": 1,
@@ -286,7 +286,7 @@
         "tooltipId": "GallTwilightNovaTalent",
         "talentTreeId": "GallTwilightNova",
         "name": "Twilight Nova",
-        "description": "After the first bounce of Dread Orb, 2 extra bombs bounce to the sides once.",
+        "description": "Passive: The cooldown of Dread Orb is reduced by 1 second.  After the first bounce of Dread Orb, 2 extra bombs bounce to the sides once.",
         "icon": "storm_ui_icon_gall_chaoscollision_var1.png",
         "type": "W",
         "sort": 3,
@@ -298,26 +298,13 @@
     ],
     "16": [
       {
-        "tooltipId": "GallShadowsnare",
-        "talentTreeId": "GallShadowsnare",
-        "name": "Shadowsnare",
-        "description": "Shadowflame Slows enemy Heroes by 15% for 4 seconds. This effect can stack up to 2 times.",
-        "icon": "storm_ui_icon_gall_shadowflame.png",
-        "type": "Q",
-        "sort": 1,
-        "abilityId": "Gall|Q1",
-        "abilityLinks": [
-          "Gall|Q1"
-        ]
-      },
-      {
         "tooltipId": "GallLeadenOrb",
         "talentTreeId": "GallLeadenOrb",
         "name": "Leaden Orb",
-        "description": "Dread Orb Stuns enemy Heroes for 0.75 seconds.",
+        "description": "Dread Orb Stuns enemy Heroes for 1 second.",
         "icon": "storm_ui_icon_gall_chaoscollision.png",
         "type": "W",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Gall|W1",
         "abilityLinks": [
           "Gall|W1"
@@ -330,11 +317,21 @@
         "description": "Runic Blast Silences enemy Heroes for 1.25 seconds.",
         "icon": "storm_ui_icon_gall_detonaterunes.png",
         "type": "E",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Gall|E1",
         "abilityLinks": [
           "Gall|E1"
         ]
+      },
+      {
+        "tooltipId": "GallShadowsnare",
+        "talentTreeId": "GallShadowsnare",
+        "name": "Shadowsnare",
+        "description": "Enemy Heroes hit by your Basic Abilities are Slowed by 15% for 4 seconds. This effect can stack up to 2 times.",
+        "icon": "storm_ui_icon_gall_twoheaded.png",
+        "type": "Passive",
+        "sort": 3,
+        "abilityId": "Gall|Passive"
       }
     ],
     "20": [
