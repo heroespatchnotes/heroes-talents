@@ -1,12 +1,13 @@
 const util = require('util')
 const fs = require('fs')
+const path = require('path')
 const exec = util.promisify(require('child_process').exec)
 const writeFileAsync = util.promisify(fs.writeFile)
 const readdirAsync = util.promisify(fs.readdir)
 const readFileAsync = util.promisify(fs.readFile)
 const copyFileAsync = util.promisify(fs.copyFile)
 
-const heroesDirectory = '../hero'
+const heroesDirectory = path.resolve(__dirname, '../hero')
 
 class HeroesTalents {
   static loadHeroJSONFiles() {
