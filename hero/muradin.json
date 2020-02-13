@@ -46,7 +46,7 @@
       {
         "uid": "ad5596",
         "name": "Dwarf Toss",
-        "description": "Leap to target location, dealing 59 (+4% per level) damage to enemies on landing. Upon leaping, gain 25 Armor for 2 seconds, reducing damage taken by 25%.",
+        "description": "Leap to target location, dealing 59 (+4% per level) damage to enemies on landing. Upon leaping, gain 30 Armor for 2 seconds, reducing damage taken by 30%.",
         "hotkey": "E",
         "abilityId": "Muradin|E1",
         "cooldown": 10,
@@ -104,27 +104,30 @@
         ]
       },
       {
+        "tooltipId": "MuradinDwarfBlock",
+        "talentTreeId": "MuradinDwarfBlock",
+        "name": "Dwarf Block",
+        "description": "Casting Dwarf Toss grants 4 charges of Block.  Each Block charge grants 75 Physical Armor against a single enemy Hero Basic Attack, reducing the damage taken by 75%. These Block charges last for 10 seconds.",
+        "icon": "storm_ui_icon_muradin_dwarftoss.png",
+        "type": "E",
+        "sort": 2,
+        "abilityId": "Muradin|E1",
+        "abilityLinks": [
+          "Muradin|E1"
+        ]
+      },
+      {
         "tooltipId": "MuradinSecondWindThirdWindTalent",
         "talentTreeId": "MuradinCombatStyleThirdWind",
         "name": "Third Wind",
         "description": "Increases Health Restoration rate to 90 (+4% per level) per second, and raises Health threshold to 60% Health for improved 180 (+4% per level) per second Restoration.",
         "icon": "storm_ui_icon_muradin_secondwind.png",
         "type": "Trait",
-        "sort": 2,
+        "sort": 3,
         "abilityId": "Muradin|D1",
         "abilityLinks": [
           "Muradin|D1"
         ]
-      },
-      {
-        "tooltipId": "GenericBlockTalent",
-        "talentTreeId": "GenericTalentBlock",
-        "name": "Block",
-        "description": "Every 5 seconds, gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%.  Stores up to 2 charges.",
-        "icon": "storm_ui_icon_talent_block.png",
-        "type": "Passive",
-        "sort": 3,
-        "abilityId": "Muradin|Passive"
       }
     ],
     "4": [
@@ -173,7 +176,7 @@
         "tooltipId": "MuradinDwarfTossHeavyImpactTalent",
         "talentTreeId": "MuradinMasteryDwarfTossHeavyImpact",
         "name": "Heavy Impact",
-        "description": "Enemies hit by Dwarf Toss are Slowed by 80% for 1.25 seconds.",
+        "description": "Enemies hit by Dwarf Toss are Slowed by 80% for 1.5 seconds.",
         "icon": "storm_ui_icon_muradin_dwarftoss.png",
         "type": "E",
         "sort": 1,

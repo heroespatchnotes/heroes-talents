@@ -22,7 +22,7 @@
       {
         "uid": "a2f4fb",
         "name": "Sacred Sweep",
-        "description": "Sweep the area with sacred power, dealing 45 (+4% per level) damage to enemies and an additional 180 (+4% per level) damage to enemies caught in the center.",
+        "description": "Sweep the area with sacred power, dealing 40 (+4% per level) damage to enemies and an additional 160 (+4% per level) damage to enemies caught in the center.",
         "hotkey": "Q",
         "abilityId": "Auriel|Q1",
         "cooldown": 8,
@@ -52,10 +52,10 @@
       {
         "uid": "29fc08",
         "name": "Resurrect",
-        "description": "Channel on the spirit of a dead ally for 1 second. After a 3 second delay, they are brought back to life with 100% of their maximum Health at the location where they died.  Auriel can use this ability while dead to resurrect herself.",
+        "description": "Channel on the spirit of a dead ally for 1 second. After a 5 second delay, they are brought back to life with 100% of their maximum Health at the location where they died.  Auriel can use this ability while dead to resurrect herself.",
         "hotkey": "R",
         "abilityId": "Auriel|R1",
-        "cooldown": 80,
+        "cooldown": 100,
         "icon": "storm_ui_icon_auriel_resurrect.png",
         "type": "heroic"
       },
@@ -226,11 +226,11 @@
         "tooltipId": "AurielResurrect",
         "talentTreeId": "AurielHeroicResurrect",
         "name": "Resurrect",
-        "description": "Channel on the spirit of a dead ally for 1 second. After a 3 second delay, they are brought back to life with 100% of their maximum Health at the location where they died.  Auriel can use this ability while dead to resurrect herself.",
+        "description": "Channel on the spirit of a dead ally for 1 second. After a 5 second delay, they are brought back to life with 100% of their maximum Health at the location where they died.  Auriel can use this ability while dead to resurrect herself.",
         "icon": "storm_ui_icon_auriel_resurrect.png",
         "type": "Heroic",
         "sort": 1,
-        "cooldown": 80,
+        "cooldown": 100,
         "abilityId": "Auriel|R1",
         "abilityLinks": [
           "Auriel|R1"
