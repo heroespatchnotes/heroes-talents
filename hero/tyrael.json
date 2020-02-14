@@ -80,7 +80,7 @@
       {
         "uid": "ffd447",
         "name": "Archangel's Wrath",
-        "description": "Upon dying, become Invulnerable and explode for 550 (+4% per level) damage after 3.5 seconds.",
+        "description": "Upon dying, become Invulnerable and explode for 550 (+4% per level) damage after 3.5 seconds. Each enemy Hero hit by this effect reduces Tyrael's death timer by 10%.",
         "trait": true,
         "abilityId": "Tyrael|D1",
         "icon": "storm_ui_icon_tyrael_archangelswrath.png",
@@ -120,7 +120,7 @@
         "tooltipId": "TyraelArdentRestoration",
         "talentTreeId": "TyraelArdentRestoration",
         "name": "Ardent Restoration",
-        "description": "Dealing damage to a Hero heals Tyrael for 18 (+4% per level) Health over 5 seconds. Dealing damage resets this timer, and the heal amount stacks up to 10 times.",
+        "description": "Dealing damage to a Hero heals Tyrael for 20 (+4% per level) Health over 5 seconds. Dealing damage resets this timer, and the heal amount stacks up to 10 times.",
         "icon": "storm_ui_icon_talent_regenerationmaster.png",
         "type": "Passive",
         "sort": 3,
@@ -350,25 +350,25 @@
         ]
       },
       {
-        "tooltipId": "TyraelDefenseOfTheAngels",
-        "talentTreeId": "TyraelDefenseOfTheAngels",
-        "name": "Defense of the Angels",
-        "description": "Activate to gain 50 Armor for 5 seconds.  Each time Righteousness's Shield absorbs damage, Defense of the Angel's cooldown is reduced by 3 seconds.",
-        "icon": "storm_ui_icon_talent_hardenedshield.png",
-        "type": "Active",
-        "sort": 3,
-        "cooldown": 120,
-        "abilityId": "Tyrael|Active"
-      },
-      {
         "tooltipId": "TyraelSealofElDruin",
         "talentTreeId": "TyraelSealOfElDruin",
         "name": "Seal of El'druin",
         "description": "Using a Basic Ability grants 50% Attack Speed for 3 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_speed.png",
         "type": "Passive",
-        "sort": 4,
+        "sort": 3,
         "abilityId": "Tyrael|Passive"
+      },
+      {
+        "tooltipId": "TyraelDefenseOfTheAngels",
+        "talentTreeId": "TyraelDefenseOfTheAngels",
+        "name": "Defense of the Angels",
+        "description": "Activate to gain 50 Armor for 5 seconds.  Each time Tyrael damages an enemy Hero with a Basic Attack or Basic Ability, increase the duration of this Armor bonus by 0.5 seconds.",
+        "icon": "storm_ui_icon_talent_hardenedshield.png",
+        "type": "Active",
+        "sort": 4,
+        "cooldown": 120,
+        "abilityId": "Tyrael|Active"
       }
     ]
   }

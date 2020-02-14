@@ -198,7 +198,7 @@
         "tooltipId": "ZaryaParticleGrenadePinpointAccuracyTalent",
         "talentTreeId": "ZaryaParticleGrenadePinpointAccuracy",
         "name": "Pinpoint Accuracy",
-        "description": "Particle Grenade deals 30 (+4% per level) more damage to enemies hit by the center of the blast.",
+        "description": "Particle Grenade deals 30 (+4% per level) more damage and Slows Movement Speed by 25% for 2 seconds to enemies hit by the center of the blast.",
         "icon": "storm_ui_icon_zarya_particlegrenade.png",
         "type": "Q",
         "sort": 1,
@@ -211,7 +211,7 @@
         "tooltipId": "ZaryaPersonalBarrierExplosiveBarrierTalent",
         "talentTreeId": "ZaryaPersonalBarrierExplosiveBarrier",
         "name": "Explosive Barrier",
-        "description": "Upon expiration or breaking, Personal Barrier explodes, dealing 100 (+4% per level) damage to nearby enemies.",
+        "description": "Upon expiration or breaking, Personal Barrier explodes, dealing 110 (+4% per level) damage to nearby enemies.",
         "icon": "storm_ui_icon_zarya_personalbarrier.png",
         "type": "W",
         "sort": 2,
@@ -224,7 +224,7 @@
         "tooltipId": "ZaryaWeaponToTheLimitTalent",
         "talentTreeId": "ZaryaWeaponToTheLimit",
         "name": "To the Limit",
-        "description": "While above 50 Energy, Zarya's Basic Attack size is increased by 35%.",
+        "description": "While above 40 Energy, Zarya's Basic Attack size is increased by 35%.",
         "icon": "storm_ui_icon_talent_autoattack_base.png",
         "type": "Trait",
         "sort": 3,
@@ -237,7 +237,7 @@
         "tooltipId": "ZaryaEnergyHitMeTalent",
         "talentTreeId": "ZaryaEnergyHitMe",
         "name": "Hit Me",
-        "description": "Damage absorbed by Zarya's Shields contributes 15% more Energy.",
+        "description": "Damage absorbed by Zarya's Shields contributes 20% more Energy.",
         "icon": "storm_ui_icon_zarya_energy.png",
         "type": "Trait",
         "sort": 4,
@@ -331,26 +331,13 @@
     ],
     "16": [
       {
-        "tooltipId": "ZaryaParticleGrenadePlasmaShockTalent",
-        "talentTreeId": "ZaryaParticleGrenadePlasmaShock",
-        "name": "Plasma Shock",
-        "description": "Particle Grenade slows Movement Speed by 35% for 2 seconds to enemies near the center.",
-        "icon": "storm_ui_icon_zarya_particlegrenade.png",
-        "type": "Q",
-        "sort": 1,
-        "abilityId": "Zarya|Q1",
-        "abilityLinks": [
-          "Zarya|Q1"
-        ]
-      },
-      {
         "tooltipId": "ZaryaShieldAllyCleansingShieldTalent",
         "talentTreeId": "ZaryaShieldAllyCleansingShield",
         "name": "Cleansing Shield",
         "description": "Causes Shield Ally to remove all disabling effects and reduces its cooldown by 3 seconds.",
         "icon": "storm_ui_icon_zarya_shieldally.png",
         "type": "E",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Zarya|E1",
         "abilityLinks": [
           "Zarya|E1"
@@ -363,7 +350,7 @@
         "description": "Shield Ally now grants an untalented Shield to a nearby ally upon impact.",
         "icon": "storm_ui_icon_zarya_shieldally_a.png",
         "type": "E",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Zarya|E1",
         "abilityLinks": [
           "Zarya|E1"
@@ -376,7 +363,7 @@
         "description": "While at or above 75 Energy, Zarya's cooldowns regenerate 25% faster.",
         "icon": "storm_ui_icon_zarya_energy.png",
         "type": "Trait",
-        "sort": 4,
+        "sort": 3,
         "abilityId": "Zarya|D1",
         "abilityLinks": [
           "Zarya|D1"
@@ -401,7 +388,7 @@
         "tooltipId": "ZaryaExpulsionZoneClearOutTalent",
         "talentTreeId": "ZaryaExpulsionZoneClearOut",
         "name": "Clear Out",
-        "description": "Increases Expulsion Zone's duration by 1.5 seconds and its radius by 15%.",
+        "description": "Reduce Expulsion Zone's cooldown by 25 seconds and increase its duration by 1.5 seconds.",
         "icon": "storm_ui_icon_zarya_expulsionzone.png",
         "type": "Heroic",
         "sort": 2,

@@ -61,7 +61,7 @@
         "description": "Unleash a torrent of souls, continually applying Reaper's Mark to nearby enemies for 4 seconds.  When Tormented Souls is cast and when it expires, reset the cooldown of Wraith Strike.",
         "hotkey": "R",
         "abilityId": "Malthael|R1",
-        "cooldown": 80,
+        "cooldown": 60,
         "manaCost": 20,
         "icon": "storm_ui_icon_malthael_tormentedsoul.png",
         "type": "heroic"
@@ -69,10 +69,10 @@
       {
         "uid": "39397d",
         "name": "Last Rites",
-        "description": "Apply a death sentence to an enemy Hero that, after 2 seconds, deals damage equal to 50% of their missing Health.  Quest: Enemies killed between the application of Last Rites and within 1.5 seconds of it dealing damage permanently reduce its cooldown by 5 seconds, to a minimum of 15 seconds.",
+        "description": "Apply a death sentence to an enemy Hero that, after 2 seconds, deals damage equal to 50% of their missing Health.  Quest: Enemies killed between the application of Last Rites and within 1.5 seconds of it dealing damage permanently reduce its cooldown by 5 seconds, to a minimum of 20 seconds.",
         "hotkey": "R",
         "abilityId": "Malthael|R2",
-        "cooldown": 65,
+        "cooldown": 70,
         "manaCost": 100,
         "icon": "storm_ui_icon_malthael_lastrites.png",
         "type": "heroic"
@@ -146,11 +146,10 @@
         "tooltipId": "MalthaelThrowingShade",
         "talentTreeId": "MalthaelThrowingShade",
         "name": "Throwing Shade",
-        "description": "Quest: Hit 12 Heroes with Death Shroud.  Reward: Permanently increase Death Shroud's range by 33%, reduce its cooldown by 4 seconds, and reduce its Mana cost from 50 to 25.",
+        "description": "Increase Death Shroud's range by 33%, reduce its cooldown by 3 seconds, and reduce its Mana cost from 50 to 30.",
         "icon": "storm_ui_icon_malthael_deathshroud.png",
         "type": "E",
         "sort": 2,
-        "isQuest": true,
         "abilityId": "Malthael|E1",
         "abilityLinks": [
           "Malthael|E1"
@@ -219,7 +218,7 @@
         "icon": "storm_ui_icon_malthael_tormentedsoul.png",
         "type": "Heroic",
         "sort": 1,
-        "cooldown": 80,
+        "cooldown": 60,
         "abilityId": "Malthael|R1",
         "abilityLinks": [
           "Malthael|R1"
@@ -229,11 +228,11 @@
         "tooltipId": "MalthaelLastRites",
         "talentTreeId": "MalthaelLastRites",
         "name": "Last Rites",
-        "description": "Apply a death sentence to an enemy Hero that, after 2 seconds, deals damage equal to 50% of their missing Health.  Quest: Enemies killed between the application of Last Rites and within 1.5 seconds of it dealing damage permanently reduce its cooldown by 5 seconds, to a minimum of 15 seconds.",
+        "description": "Apply a death sentence to an enemy Hero that, after 2 seconds, deals damage equal to 50% of their missing Health.  Quest: Enemies killed between the application of Last Rites and within 1.5 seconds of it dealing damage permanently reduce its cooldown by 5 seconds, to a minimum of 20 seconds.",
         "icon": "storm_ui_icon_malthael_lastrites.png",
         "type": "Heroic",
         "sort": 2,
-        "cooldown": 65,
+        "cooldown": 70,
         "isQuest": true,
         "abilityId": "Malthael|R2",
         "abilityLinks": [

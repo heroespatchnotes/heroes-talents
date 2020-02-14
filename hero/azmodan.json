@@ -49,7 +49,7 @@
         "hotkey": "E",
         "abilityId": "Azmodan|E1",
         "cooldown": 6,
-        "manaCost": 30,
+        "manaCost": 25,
         "icon": "storm_ui_icon_azmodan_allshallburn.png",
         "type": "basic"
       },
@@ -316,17 +316,15 @@
         ]
       },
       {
-        "tooltipId": "AzmodanSinsGraspHotbar",
-        "talentTreeId": "AzmodanSinsGrasp",
-        "name": "Sin's Grasp",
-        "description": "All Shall Burn Slows the enemy target by 15% during its Channel. If All Shall Burn Channels for its full duration, its cooldown is reduced by 50%, and the enemy is Slowed by 45% for 2 seconds.",
-        "icon": "storm_ui_icon_azmodan_allshallburn_a.png",
-        "type": "E",
+        "tooltipId": "AzmodanTrample",
+        "talentTreeId": "AzmodanTrample",
+        "name": "Trample",
+        "description": "Activate to charge a short distance, dealing 275 (+4% per level) damage and Slowing enemies caught in the path by 60% for 1.25 second.",
+        "icon": "storm_ui_icon_azmodan_trample.png",
+        "type": "Active",
         "sort": 3,
-        "abilityId": "Azmodan|E1",
-        "abilityLinks": [
-          "Azmodan|E1"
-        ]
+        "cooldown": 20,
+        "abilityId": "Azmodan|Active"
       }
     ],
     "20": [
@@ -370,15 +368,17 @@
         ]
       },
       {
-        "tooltipId": "AzmodanTrample",
-        "talentTreeId": "AzmodanTrample",
-        "name": "Trample",
-        "description": "Activate to charge a short distance, dealing 240 (+4% per level) damage and Slowing enemies caught in the path by 60% for 1 second.",
-        "icon": "storm_ui_icon_azmodan_trample.png",
-        "type": "Active",
+        "tooltipId": "AzmodanSinsGraspHotbar",
+        "talentTreeId": "AzmodanSinsGrasp",
+        "name": "Sin's Grasp",
+        "description": "All Shall Burn Slows enemy Heroes by 15% during its Channel. If All Shall Burn Channels for its full duration on an enemy Hero, its cooldown is reduced by 50%, and the target is Slowed by 50% for 2.5 seconds.",
+        "icon": "storm_ui_icon_azmodan_allshallburn.png",
+        "type": "E",
         "sort": 4,
-        "cooldown": 20,
-        "abilityId": "Azmodan|Active"
+        "abilityId": "Azmodan|E1",
+        "abilityLinks": [
+          "Azmodan|E1"
+        ]
       }
     ]
   }
