@@ -6,8 +6,8 @@
   "cUnitId": "HeroTassadar",
   "name": "Tassadar",
   "icon": "tassadar.png",
-  "role": "Specialist",
-  "expandedRole": "Support",
+  "role": "Assassin",
+  "expandedRole": "Ranged Assassin",
   "type": "Ranged",
   "releaseDate": "2014-03-13",
   "releasePatch": "0.1.1.00000",
@@ -16,74 +16,73 @@
     "EnergyImportant",
     "Escaper",
     "Helper",
-    "RoleSupport"
+    "RoleCaster",
+    "WaveClearer"
   ],
   "abilities": {
     "Tassadar": [
       {
-        "uid": "967f34",
-        "name": "Plasma Shield",
-        "description": "Grant an allied Hero, Minion, or Structure a Shield that absorbs 455 (+4% per level) damage over 4 seconds. If the target is a Hero, they heal for 40% of their Basic Attack damage done while Shielded.",
+        "uid": "3f7a85",
+        "name": "Shock Ray",
+        "description": "Channel a beam of Psionic energy, dealing 280 (+4% per level) damage and Slowing enemies in a line by 25% for 2 seconds.",
         "hotkey": "Q",
         "abilityId": "Tassadar|Q1",
-        "cooldown": 8,
-        "manaCost": 50,
-        "icon": "storm_ui_icon_tassadar_plasmashield.png",
+        "cooldown": 7,
+        "manaCost": 55,
+        "icon": "storm_ui_icon_tassadar_rework_q_ray.png",
         "type": "basic"
       },
       {
         "uid": "cff869",
         "name": "Psionic Storm",
-        "description": "Deal 82 (+4% per level) damage per second to enemies in target area for 3 seconds. Damage increases by 12% for each consecutive instance of damage, up to 60%.",
+        "description": "Create a Psionic Storm at the targeted location for 3 seconds. While in a storm, enemies take 76 (+4% per level) damage per second, increasing by 10% for each consecutive instance of damage, up to 50%.",
         "hotkey": "W",
         "abilityId": "Tassadar|W1",
         "cooldown": 8,
-        "manaCost": 50,
+        "manaCost": 60,
         "icon": "storm_ui_icon_tassadar_psionicstorm.png",
         "type": "basic"
       },
       {
-        "uid": "237223",
-        "name": "Dimensional Shift",
-        "description": "Tassadar becomes Invulnerable and Unrevealable for 2 seconds. While shifted, he has 25% increased Movement Speed.",
+        "uid": "f9d64c",
+        "name": "Force Wall",
+        "description": "After a .5 second delay, create a wall that blocks all units from moving through it for 2 seconds.",
         "hotkey": "E",
         "abilityId": "Tassadar|E1",
-        "cooldown": 30,
-        "manaCost": 75,
-        "icon": "storm_ui_icon_tassadar_dimensionalshift.png",
+        "cooldown": 21,
+        "manaCost": 70,
+        "icon": "storm_ui_icon_tassadar_forcewall.png",
         "type": "basic"
       },
       {
         "uid": "642f46",
         "name": "Archon",
-        "description": "Tassadar transforms into an Archon and gains a Plasma Shield. His Basic Attacks deal 158 (+4% per level) damage, slow the target by 30% for 1 second and splash for 79 (+4% per level) damage to enemies within 2.5 range. Lasts for 10 seconds.  Passive: Archon refreshes the cooldown of Dimensional Shift.",
+        "description": "Tassadar transforms into an Archon, gaining a Shield equal to 40% of his maximum Health and empowering Resonance Beam. Lasts for 12 seconds.  Resonance Beam: Deals 150 (+4% per level) damage to the target and splashes 75 (+4% per level) damage to nearby enemies. Heroes hit have their Spell Armor reduced by 20 for 2 seconds. Resonance Beam is fully charged while Archon is active.",
         "hotkey": "R",
         "abilityId": "Tassadar|R1",
-        "cooldown": 100,
-        "manaCost": 80,
+        "cooldown": 90,
+        "manaCost": 100,
         "icon": "storm_ui_icon_tassadar_archon.png",
         "type": "heroic"
       },
       {
-        "uid": "3e5b72",
-        "name": "Force Wall",
-        "description": "Create a wall that blocks all units from moving through it for 2 seconds.  Passive: Increases the slow amount of Distortion Beam to 35%.",
+        "uid": "efc0a1",
+        "name": "Black Hole",
+        "description": "After a 0.5 second cast, create a Black Hole that travels in a long line. Enemy Heroes within the Black Hole's area are quickly pulled towards its center. Touching the center deals 310 (+4% per level) damage and Stuns the target for 1.25 seconds.",
         "hotkey": "R",
         "abilityId": "Tassadar|R2",
-        "cooldown": 8,
-        "manaCost": 25,
-        "icon": "storm_ui_icon_tassadar_forcewall.png",
+        "cooldown": 70,
+        "manaCost": 80,
+        "icon": "storm_ui_icon_tassadar_rework_blackhole.png",
         "type": "heroic"
       },
       {
-        "uid": "fde047",
-        "name": "Oracle",
-        "description": "Activate to greatly increase Tassadar's vision radius, allow him to see over obstacles, and detect stealthed units. Lasts for 5 seconds.  Distortion Beam  Tassadar's Basic Attack is a beam that Slows enemy units by 25%.",
-        "hotkey": "D",
+        "uid": "de4ee6",
+        "name": "Resonance Beam",
+        "description": "Tassadar's Basic Attack is a Channeled beam that Slows by 10%. While Channeling, your Basic Attack damage and Mana regeneration increases by 25% a second, to a maximum of 100%. While at full charge, gain an extra 3 Mana every second.  This bonus is lost after 6 seconds of not Channeling.",
         "trait": true,
         "abilityId": "Tassadar|D1",
-        "cooldown": 30,
-        "icon": "storm_ui_icon_tassadar_oracle.png",
+        "icon": "storm_ui_icon_tassadar_rework_trait.png",
         "type": "trait"
       }
     ]
@@ -91,55 +90,54 @@
   "talents": {
     "1": [
       {
+        "tooltipId": "TassadarStaticCharge",
+        "talentTreeId": "TassadarStaticCharge",
+        "name": "Static Charge",
+        "description": "Quest: Heroes hit by Shock Ray permanently increases its damage by 4 and grants 33% Resonance Beam charge.  Maximum of 200 bonus damage.",
+        "icon": "storm_ui_icon_tassadar_rework_q_ray.png",
+        "type": "Q",
+        "sort": 1,
+        "isQuest": true,
+        "abilityId": "Tassadar|Q1",
+        "abilityLinks": [
+          "Tassadar|Q1"
+        ]
+      },
+      {
         "tooltipId": "TassadarPsionicStormPsiInfusionTalent",
         "talentTreeId": "TassadarPsionicStormPsiInfusion",
         "name": "Psi-Infusion",
-        "description": "Quest: Gain 1 Mana for every non-Structure enemy hit by Psionic Storm.  Reward: After hitting 500 enemies, increase the size of Psionic Storm by 20%.  Reward: After hitting 1000 enemies, increase the damage of Psionic Storm by 20%",
+        "description": "Increases the range of Psionic Storm by 33%. Each non-Structure enemy hit by Psionic Storm restores 0.5 Mana, increased to 5 against Heroes.",
         "icon": "storm_ui_icon_tassadar_psionicstorm.png",
         "type": "W",
-        "sort": 1,
-        "isQuest": true,
+        "sort": 2,
         "abilityId": "Tassadar|W1",
         "abilityLinks": [
           "Tassadar|W1"
         ]
       },
       {
-        "tooltipId": "TassadarOracleTemplarsWillTalent",
-        "talentTreeId": "TassadarTemplarsWill",
-        "name": "Templar's Will",
-        "description": "Quest: Attacking enemy Heroes restores 8 mana per second.  Reward: After spending 30 seconds attacking Heroes, Distortion Beam's damage is increased by 125%.  Reward: After spending 60 seconds attacking Heroes, Distortion Beam's range is increased by an additional 1.",
-        "icon": "storm_ui_icon_talent_autoattack_mana.png",
-        "type": "Passive",
-        "sort": 2,
-        "isQuest": true,
-        "abilityId": "Tassadar|Passive",
-        "abilityLinks": [
-          "Tassadar|D1"
-        ]
-      },
-      {
-        "tooltipId": "TassadarKhaydarinResonance",
-        "talentTreeId": "TassadarKhaydarinResonance",
-        "name": "Khaydarin Resonance",
-        "description": "Quest: Regeneration Globes grant an additional 100% Mana.  Reward: After collecting 10 Regeneration Globes, Plasma Shield's value is increased by 15%.  Reward: After collecting 20 Regeneration Globes, Plasma Shield's value is increased by 30%.",
-        "icon": "storm_ui_icon_talent_conjurerspursuit.png",
-        "type": "Passive",
+        "tooltipId": "TassadarKhaydarinAmulet",
+        "talentTreeId": "TassadarKhaydarinAmulet",
+        "name": "Khaydarin Amulet",
+        "description": "Quest: Resonance Beam charges 50% faster.  Reward: After Resonance Beam has been fully charged for 80 seconds, it bounces to hit 1 additional target for 50% damage, prioritizing Heroes.  Reward: After Resonance Beam has been fully charged for 160 seconds, it bounces to hit 2 additional targets for 50% damage, prioritizing Heroes.",
+        "icon": "storm_ui_icon_tassadar_rework_trait.png",
+        "type": "Trait",
         "sort": 3,
         "isQuest": true,
-        "abilityId": "Tassadar|Passive",
+        "abilityId": "Tassadar|D1",
         "abilityLinks": [
-          "Tassadar|Q1"
+          "Tassadar|D1"
         ]
       }
     ],
     "4": [
       {
-        "tooltipId": "TassadarKhalasCelerity",
-        "talentTreeId": "TassadarKhalasCelerityPlasmaShield",
-        "name": "Khala's Celerity",
-        "description": "Plasma Shield also grants 20% Movement Speed for 4 seconds.",
-        "icon": "storm_ui_icon_tassadar_plasmashield.png",
+        "tooltipId": "TassadarInduction",
+        "talentTreeId": "TassadarInduction",
+        "name": "Induction",
+        "description": "Casting Shock Ray grants Tassadar 15% increased Movement Speed for 3 seconds. If an enemy Hero is hit, increase this speed bonus to 25%.",
+        "icon": "storm_ui_icon_tassadar_rework_q_ray.png",
         "type": "Q",
         "sort": 1,
         "abilityId": "Tassadar|Q1",
@@ -148,68 +146,68 @@
         ]
       },
       {
-        "tooltipId": "TassadarKhalasEmbrace",
-        "talentTreeId": "TassadarKhalasEmbrace",
-        "name": "Khala's Embrace",
-        "description": "Increase the Life Steal of Plasma Shield to 75%.",
-        "icon": "storm_ui_icon_tassadar_plasmashield_a.png",
-        "type": "Q",
+        "tooltipId": "TassadarElectricFence",
+        "talentTreeId": "TassadarElectricFence",
+        "name": "Electric Fence",
+        "description": "Force Wall deals 92 (+4% per level) damage a second to nearby enemies and Slows them by 35%.",
+        "icon": "storm_ui_icon_tassadar_forcewall.png",
+        "type": "E",
         "sort": 2,
-        "abilityId": "Tassadar|Q1",
+        "abilityId": "Tassadar|E1",
         "abilityLinks": [
-          "Tassadar|Q1"
+          "Tassadar|E1"
         ]
       },
       {
-        "tooltipId": "TassadarKhalasLight",
-        "talentTreeId": "TassadarKhalasLight",
-        "name": "Khala's Light",
-        "description": "Plasma Shield grants Heroes 20 Armor for 3 seconds upon breaking or expiring, causing them to take 20% less damage.",
-        "icon": "storm_ui_icon_tassadar_plasmashield_b.png",
-        "type": "Q",
+        "tooltipId": "TassadarPlasmaShieldTalent",
+        "talentTreeId": "TassadarPlasmaShield",
+        "name": "Plasma Shield",
+        "description": "While Resonance Beam is fully charged, gain a Shield equal to 3% of max Health every second, stacking up to 15%.",
+        "icon": "storm_ui_icon_tassadar_rework_trait.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Tassadar|Q1",
+        "abilityId": "Tassadar|D1",
         "abilityLinks": [
-          "Tassadar|Q1"
+          "Tassadar|D1"
         ]
       }
     ],
     "7": [
       {
-        "tooltipId": "TassadarPsionicProjection",
-        "talentTreeId": "TassadarPsionicProjection",
-        "name": "Psionic Projection",
-        "description": "Increases the cast range of Plasma Shield and Psionic Storm by 40%.",
-        "icon": "storm_ui_icon_talent_elunesgrace.png",
-        "type": "Passive",
+        "tooltipId": "TassadarBeamAlignment",
+        "talentTreeId": "TassadarBeamAlignment",
+        "name": "Beam Alignment",
+        "description": "While Resonance Beam is fully charged, Tassadar's Basic Attack range is increased by 1 and Shock Ray's cooldown refreshes 100% faster.",
+        "icon": "storm_ui_icon_tassadar_rework_q_ray.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Tassadar|Passive",
+        "abilityId": "Tassadar|Q1",
         "abilityLinks": [
           "Tassadar|Q1"
         ]
       },
       {
-        "tooltipId": "TassadarPsionicStormResonationTalent",
-        "talentTreeId": "TassadarResonation",
-        "name": "Resonation",
-        "description": "Distortion Beam Slows enemies affected by Psionic Storm by 60%.",
+        "tooltipId": "TassadarPsionicEcho",
+        "talentTreeId": "TassadarPsionicEcho",
+        "name": "Psionic Echo",
+        "description": "Casting Psionic Storm causes your next Shock Ray within 3 seconds to only cost 30 Mana and create a Psionic Storm on the first enemy Hero hit.",
         "icon": "storm_ui_icon_tassadar_psionicstorm.png",
         "type": "W",
         "sort": 2,
-        "abilityId": "Tassadar|W1",
+        "abilityId": "Tassadar|Q1",
         "abilityLinks": [
+          "Tassadar|Q1",
           "Tassadar|W1"
         ]
       },
       {
-        "tooltipId": "TassadarOracleMentalAcuityTalent",
-        "talentTreeId": "TassadarMasteryMentalAcuity",
-        "name": "Mental Acuity",
-        "description": "Quest: Each Takedown earned lowers the cooldown of Oracle by 3 seconds, to a maximum of 15 seconds.  Reward: Upon getting 5 Takedowns, the sight range of Oracle is increased by 50%.",
-        "icon": "storm_ui_icon_tassadar_oracle.png",
+        "tooltipId": "TassadarArcDischarge",
+        "talentTreeId": "TassadarArcDischarge",
+        "name": "Arc Discharge",
+        "description": "When Resonance Beam is fully charged, its next instance of damage also creates a Psionic Storm on the target. This effect has a 20 second cooldown that decays twice as fast while Resonance Beam is fully charged.",
+        "icon": "storm_ui_icon_tassadar_rework_trait.png",
         "type": "Trait",
         "sort": 3,
-        "isQuest": true,
         "abilityId": "Tassadar|D1",
         "abilityLinks": [
           "Tassadar|D1"
@@ -221,25 +219,25 @@
         "tooltipId": "TassadarArchon",
         "talentTreeId": "TassadarHeroicAbilityArchon",
         "name": "Archon",
-        "description": "Tassadar transforms into an Archon and gains a Plasma Shield. His Basic Attacks deal 158 (+4% per level) damage, slow the target by 30% for 1 second and splash for 79 (+4% per level) damage to enemies within 2.5 range. Lasts for 10 seconds.  Passive: Archon refreshes the cooldown of Dimensional Shift.",
+        "description": "Tassadar transforms into an Archon, gaining a Shield equal to 40% of his maximum Health and empowering Resonance Beam. Lasts for 12 seconds.  Resonance Beam: Deals 150 (+4% per level) damage to the target and splashes 75 (+4% per level) damage to nearby enemies. Heroes hit have their Spell Armor reduced by 20 for 2 seconds. Resonance Beam is fully charged while Archon is active.",
         "icon": "storm_ui_icon_tassadar_archon.png",
         "type": "Heroic",
         "sort": 1,
-        "cooldown": 100,
+        "cooldown": 90,
         "abilityId": "Tassadar|R1",
         "abilityLinks": [
           "Tassadar|R1"
         ]
       },
       {
-        "tooltipId": "TassadarForceWall",
-        "talentTreeId": "TassadarHeroicAbilityForceWall",
-        "name": "Force Wall",
-        "description": "Create a wall that blocks all units from moving through it for 2 seconds.  Passive: Increases the slow amount of Distortion Beam to 35%.",
-        "icon": "storm_ui_icon_tassadar_forcewall.png",
+        "tooltipId": "TassadarBlackHole",
+        "talentTreeId": "TassadarHeroicAbilityBlackHole",
+        "name": "Black Hole",
+        "description": "After a 0.5 second cast, create a Black Hole that travels in a long line. Enemy Heroes within the Black Hole's area are quickly pulled towards its center. Touching the center deals 310 (+4% per level) damage and Stuns the target for 1.25 seconds.",
+        "icon": "storm_ui_icon_tassadar_rework_blackhole.png",
         "type": "Heroic",
         "sort": 2,
-        "cooldown": 8,
+        "cooldown": 70,
         "abilityId": "Tassadar|R2",
         "abilityLinks": [
           "Tassadar|R2"
@@ -248,49 +246,10 @@
     ],
     "13": [
       {
-        "tooltipId": "TassadarDimensionalShiftDeepShiftTalent",
-        "talentTreeId": "TassadarDeepShift",
-        "name": "Deep Shift",
-        "description": "Dimensional Shift's duration and Movement Speed bonuses are increased by 50%.",
-        "icon": "storm_ui_icon_tassadar_dimensionalshift.png",
-        "type": "E",
-        "sort": 1,
-        "abilityId": "Tassadar|E1",
-        "abilityLinks": [
-          "Tassadar|E1"
-        ]
-      },
-      {
-        "tooltipId": "TassadarAdunsWisdom",
-        "talentTreeId": "TassadarAdunsWisdom",
-        "name": "Adun's Wisdom",
-        "description": "While Oracle is active, Basic Abilities cooldown 75% faster.",
-        "icon": "storm_ui_icon_tassadar_oracle.png",
-        "type": "Trait",
-        "sort": 2,
-        "abilityId": "Tassadar|D1",
-        "abilityLinks": [
-          "Tassadar|D1"
-        ]
-      },
-      {
-        "tooltipId": "TassadarNullification",
-        "talentTreeId": "TassadarNullification",
-        "name": "Nullification",
-        "description": "Activate to reduce the damage the target enemy Hero deals by 75% for 4 seconds.",
-        "icon": "storm_ui_icon_talent_shrinkray.png",
-        "type": "Active",
-        "sort": 3,
-        "cooldown": 60,
-        "abilityId": "Tassadar|Active"
-      }
-    ],
-    "16": [
-      {
-        "tooltipId": "TassadarPhaseDisruption",
-        "talentTreeId": "TassadarPhaseDisruption",
-        "name": "Phase Disruption",
-        "description": "Enemy Heroes being hit by Psionic Storm have their Physical Armor reduced by 35, causing them to take 35% more damage from Basic Attacks.",
+        "tooltipId": "TassadarFeedback",
+        "talentTreeId": "TassadarFeedback",
+        "name": "Feedback",
+        "description": "When an enemy Hero is affected by Psionic Storm, Resonance Beam's Slow is increased to 50% and it reduces Physical Armor by 25.",
         "icon": "storm_ui_icon_tassadar_psionicstorm.png",
         "type": "W",
         "sort": 1,
@@ -300,11 +259,48 @@
         ]
       },
       {
-        "tooltipId": "TassadarPsionicEcho",
-        "talentTreeId": "TassadarPsionicEcho",
-        "name": "Psionic Echo",
-        "description": "A second Psionic Storm can be cast within 2 seconds of casting the first. Enemies can only be affected by one Psionic Storm at a time.",
-        "icon": "storm_ui_icon_tassadar_psionicstorm_var1.png",
+        "tooltipId": "TassadarShadowWalk",
+        "talentTreeId": "TassadarShadowWalk",
+        "name": "Shadow Walk",
+        "description": "Tassadar becomes Stealthed and Unrevealable, but cannot attack or use Abilities for 1.5 seconds. While this effect is active, gain 40% increased Movement Speed and 25 Armor.  Can be cast while Channeling Shock Ray.",
+        "icon": "storm_ui_icon_tassadar_dimensionalshift.png",
+        "type": "Active",
+        "sort": 2,
+        "cooldown": 60,
+        "abilityId": "Tassadar|Active"
+      },
+      {
+        "tooltipId": "TassadarOracleTargeted",
+        "talentTreeId": "TassadarOracle",
+        "name": "Oracle",
+        "description": "Passive: While stationary, gain 30 Spell Armor for 0.75 seconds and restore 12 (+4% per level) Health a second.  Activate to Channel for up to 4 seconds, revealing a gradually increasing area anywhere on the map.",
+        "icon": "storm_ui_icon_tassadar_oracle.png",
+        "type": "Active",
+        "sort": 3,
+        "cooldown": 45,
+        "abilityId": "Tassadar|Active"
+      }
+    ],
+    "16": [
+      {
+        "tooltipId": "TassadarThermalLance",
+        "talentTreeId": "TassadarThermalLance",
+        "name": "Thermal Lance",
+        "description": "Shock Ray deals an additional 8% of maximum Health as damage to the first Hero it hits.",
+        "icon": "storm_ui_icon_tassadar_rework_q_ray.png",
+        "type": "Q",
+        "sort": 1,
+        "abilityId": "Tassadar|Q1",
+        "abilityLinks": [
+          "Tassadar|Q1"
+        ]
+      },
+      {
+        "tooltipId": "TassadarPsychicShock",
+        "talentTreeId": "TassadarPsychicShock",
+        "name": "Psychic Shock",
+        "description": "Psionic Storm deals damage 25% faster.",
+        "icon": "storm_ui_icon_tassadar_psionicstorm.png",
         "type": "W",
         "sort": 2,
         "abilityId": "Tassadar|W1",
@@ -313,17 +309,15 @@
         ]
       },
       {
-        "tooltipId": "TassadarFocusedBeam",
-        "talentTreeId": "TassadarFocusedBeam",
-        "name": "Focused Beam",
-        "description": "While Oracle is active, Basic Attacks against Heroes deal an additional 1.5% of the target's maximum Health as damage.",
-        "icon": "storm_ui_icon_tassadar_oracle.png",
-        "type": "Trait",
+        "tooltipId": "TassadarExecutorsWill",
+        "talentTreeId": "TassadarExecutorsWill",
+        "name": "Executor's Will",
+        "description": "Activate to gain full Resonance Beam charge, 15% Spell Power, and cause Basic and Heroic Ability cooldowns to regenerate 25% faster. This effect lasts as long as Resonance Beam remains at full charge.",
+        "icon": "storm_temp_btn-upgrade-protoss-khaydarinamulet.png",
+        "type": "Active",
         "sort": 3,
-        "abilityId": "Tassadar|D1",
-        "abilityLinks": [
-          "Tassadar|D1"
-        ]
+        "cooldown": 40,
+        "abilityId": "Tassadar|Active"
       }
     ],
     "20": [
@@ -341,11 +335,11 @@
         ]
       },
       {
-        "tooltipId": "TassadarForceWallForceBarrierTalent",
-        "talentTreeId": "TassadarMasteryForceBarrier",
-        "name": "Force Barrier",
-        "description": "Force Wall's Range is increased by 100% and its cooldown is reduced by 5 seconds.",
-        "icon": "storm_ui_icon_tassadar_forcewall.png",
+        "tooltipId": "TassadarKugelblitz",
+        "talentTreeId": "TassadarKugelblitz",
+        "name": "Kugelblitz",
+        "description": "Each Hero hit by Black Hole's center creates a Psionic Storm at their location.",
+        "icon": "storm_ui_icon_tassadar_rework_blackhole.png",
         "type": "Heroic",
         "sort": 2,
         "abilityId": "Tassadar|R2",
@@ -354,28 +348,27 @@
         ]
       },
       {
-        "tooltipId": "TassadarPrismaticLink",
-        "talentTreeId": "TassadarPrismaticLink",
-        "name": "Prismatic Link",
-        "description": "Distortion Beam bounces to hit 2 additional targets for 50% damage.",
-        "icon": "storm_ui_icon_talent_autoattack_aoe.png",
-        "type": "Passive",
+        "tooltipId": "TassadarForceBarrier",
+        "talentTreeId": "TassadarMasteryForceBarrier",
+        "name": "Force Barrier",
+        "description": "Increase the duration of Force Wall by 0.5 seconds, its range by 50%, and reduce its cooldown by 10 seconds.",
+        "icon": "storm_ui_icon_tassadar_forcewall.png",
+        "type": "E",
         "sort": 3,
-        "abilityId": "Tassadar|Passive",
+        "abilityId": "Tassadar|E1",
         "abilityLinks": [
-          "Tassadar|D1"
+          "Tassadar|E1"
         ]
       },
       {
-        "tooltipId": "TassadarShieldBattery",
-        "talentTreeId": "TassadarShieldBattery",
-        "name": "Shield Battery",
-        "description": "Activate to give all nearby allied Heroes an untalented Plasma Shield.",
-        "icon": "storm_ui_icon_talent_stormshield.png",
-        "type": "Active",
+        "tooltipId": "TassadarKhalasGift",
+        "talentTreeId": "TassadarKhalasGift",
+        "name": "Khala's Gift",
+        "description": "Gain 4% Spell Power for yourself and each nearby ally Hero, up to 20% total Spell Power. Your total bonus is shared with all contributing allies.",
+        "icon": "storm_ui_icon_tassadar_rework_active_khala.png",
+        "type": "Passive",
         "sort": 4,
-        "cooldown": 60,
-        "abilityId": "Tassadar|Active"
+        "abilityId": "Tassadar|Passive"
       }
     ]
   }
