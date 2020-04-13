@@ -107,7 +107,7 @@
         "tooltipId": "OrpheaGrowingNightmare",
         "talentTreeId": "OrpheaGrowingNightmare",
         "name": "Growing Nightmare",
-        "description": "When the wave of Dread hits 2 or more enemy Heroes, its eruption damage is increased by 60%.",
+        "description": "Passive: Increase Dread's eruption damage by 25%.  When the wave of Dread hits 2 or more enemy Heroes, its eruption damage is increased by 60%.",
         "icon": "storm_ui_icon_orphea_e.png",
         "type": "E",
         "sort": 2,
@@ -120,7 +120,7 @@
         "tooltipId": "OrpheaAncestralStrength",
         "talentTreeId": "OrpheaAncestralStrength",
         "name": "Ancestral Strength",
-        "description": "Non-Heroic Abilities deal 20% more damage to Stunned, Rooted, Silenced or Slowed enemies and grant 1 additional Chaos when hitting Heroes.",
+        "description": "Non-Heroic Abilities deal 20% more damage to Stunned, Rooted, Silenced or Slowed enemies. Enemy Heroes who are hit with Overflowing Chaos are Slowed by 20% for 2.5 seconds.",
         "icon": "storm_ui_icon_orphea_trait.png",
         "type": "Trait",
         "sort": 3,
@@ -158,16 +158,16 @@
         ]
       },
       {
-        "tooltipId": "OrpheaFright",
-        "talentTreeId": "OrpheaFright",
-        "name": "Fright",
-        "description": "Dread's Slow also applies to enemies in Dread's path.",
-        "icon": "storm_ui_icon_orphea_e.png",
-        "type": "E",
+        "tooltipId": "OrpheaChaoticAssault",
+        "talentTreeId": "OrpheaChaoticAssault",
+        "name": "Chaotic Assault",
+        "description": "Basic Attacks against enemy Heroes while having 3 stacks of Chaos deal an additional 50% bonus damage.",
+        "icon": "storm_ui_icon_orphea_trait.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Orphea|E1",
+        "abilityId": "Orphea|D1",
         "abilityLinks": [
-          "Orphea|E1"
+          "Orphea|D1"
         ]
       }
     ],
@@ -317,7 +317,7 @@
         "tooltipId": "OrpheaLurkingTerror",
         "talentTreeId": "OrpheaLurkingTerror",
         "name": "Lurking Terror",
-        "description": "After Dread erupts and for 2 seconds after, activate to cast Chomp from the eruption area.",
+        "description": "After Dread erupts and for 2 seconds after, activate to cast Chomp from the eruption area. Enemy Heroes hit by this Chomp are Slowed by 70% for 1 second.",
         "icon": "storm_ui_icon_orphea_e_terror.png",
         "type": "Active",
         "sort": 3,
