@@ -186,7 +186,7 @@
         "tooltipId": "ProbiusParticleAcceleratorDisruptionPulseTalent",
         "talentTreeId": "ProbiusParticleAcceleratorDisruptionPulse",
         "name": "Particle Accelerator",
-        "description": "Disruption Pulse deals 10% more damage for each enemy or Warp Rift hit, up to 50%.",
+        "description": "Disruption Pulse deals 10% more damage for each enemy or Warp Rift hit, up to 40%. Reduce the cooldown of Disruption Pulse by 0.5 seconds, plus an additional 0.5 seconds whenever a Warp Rift explodes.",
         "icon": "storm_ui_icon_probius_disruptionpulse.png",
         "type": "Q",
         "sort": 1,
@@ -212,7 +212,7 @@
         "tooltipId": "ProbiusTowerDefensePhotonCannonTalent",
         "talentTreeId": "ProbiusTowerDefensePhotonCannon",
         "name": "Tower Defense",
-        "description": "When Photon Cannon damages an enemy Hero, its cooldown is reduced by 1.25 seconds.",
+        "description": "Reduce Photon Cannon's cooldown by 4 seconds when Disruption Pulse or Warp Rift damages an enemy Hero.",
         "icon": "storm_ui_icon_probius_photoncannon.png",
         "type": "E",
         "sort": 3,
@@ -321,26 +321,13 @@
         ]
       },
       {
-        "tooltipId": "ProbiusRepulsorWarpRiftTalent",
-        "talentTreeId": "ProbiusRepulsorWarpRift",
-        "name": "Repulsor",
-        "description": "Enemies hit by a Warp Rift explosion are knocked away from the center.",
-        "icon": "storm_ui_icon_probius_warprift_b.png",
-        "type": "W",
-        "sort": 3,
-        "abilityId": "Probius|W1",
-        "abilityLinks": [
-          "Probius|W1"
-        ]
-      },
-      {
         "tooltipId": "ProbiusInterferenceWarpRiftTalent",
         "talentTreeId": "ProbiusInterferenceWarpRift",
         "name": "Interference",
-        "description": "Enemy Heroes hit by Warp Rift detonations have their Spell Power reduced by 35% for 5 seconds.",
+        "description": "Enemy Heroes hit by Warp Rift explosions have their Spell Power reduced by 35% for 5 seconds.  Additionally, enemies hit by Warp Rift explosions are knocked away from the center.",
         "icon": "storm_ui_icon_probius_warprift_c.png",
         "type": "W",
-        "sort": 4,
+        "sort": 3,
         "abilityId": "Probius|W1",
         "abilityLinks": [
           "Probius|W1"
