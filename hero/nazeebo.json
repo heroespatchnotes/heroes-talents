@@ -1,6 +1,7 @@
 {
   "id": 11,
   "shortName": "nazeebo",
+  "hyperlinkId": "Nazeebo",
   "attributeId": "Witc",
   "cHeroId": "WitchDoctor",
   "cUnitId": "HeroWitchDoctor",
@@ -132,12 +133,15 @@
         "tooltipId": "WitchDoctorThingOfTheDeepTalent",
         "talentTreeId": "WitchDoctorThingOfTheDeep",
         "name": "Thing of the Deep",
-        "description": "Increases the range of Nazeebo's Basic Abilities by 20%.  Reward: After gaining 50 stacks of Voodoo Ritual, gain 5% Spell Power.  Reward: After gaining 100 stacks of Voodoo Ritual, gain an additional 5% Spell Power.",
+        "description": "Increase the range of Nazeebo's Basic Abilities by 20%.  Reward: After gaining 50 stacks of Voodoo Ritual, gain 5% Spell Power.  Reward: After gaining 100 stacks of Voodoo Ritual, gain an additional 5% Spell Power.",
         "icon": "storm_ui_icon_talent_elunesgrace.png",
         "type": "Passive",
         "sort": 3,
         "isQuest": true,
-        "abilityId": "Nazeebo|Passive"
+        "abilityId": "Nazeebo|Passive",
+        "abilityLinks": [
+          "Nazeebo|D1"
+        ]
       }
     ],
     "4": [

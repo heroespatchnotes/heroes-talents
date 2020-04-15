@@ -1,6 +1,7 @@
 {
   "id": 56,
   "shortName": "alarak",
+  "hyperlinkId": "Alarak",
   "attributeId": "Alar",
   "cHeroId": "Alarak",
   "cUnitId": "HeroAlarak",
@@ -331,7 +332,11 @@
         "icon": "storm_ui_icon_alarak_counterstrike.png",
         "type": "Heroic",
         "sort": 1,
-        "cooldown": 30
+        "cooldown": 30,
+        "abilityId": "Alarak|R2",
+        "abilityLinks": [
+          "Alarak|R2"
+        ]
       },
       {
         "tooltipId": "AlarakDeadlyCharge",
