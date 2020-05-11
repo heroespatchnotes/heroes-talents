@@ -37,7 +37,7 @@
       {
         "uid": "3e4760",
         "name": "Dark Swarm",
-        "description": "Deal 47 (+4% per level) damage every 0.5 seconds to nearby enemies for 3.5 seconds. While active, you are able to move through units. Can be cast during Drag and Burrow.",
+        "description": "Deal 49 (+4% per level) damage every 0.5 seconds to nearby enemies for 3.5 seconds. While active, you are able to move through units. Can be cast during Drag and Burrow.",
         "hotkey": "W",
         "abilityId": "Dehaka|W1",
         "cooldown": 10,
@@ -202,10 +202,10 @@
         ]
       },
       {
-        "tooltipId": "DehakaDragTalentConstriction",
-        "talentTreeId": "DehakaDragTalentConstriction",
-        "name": "Constriction",
-        "description": "Increases Drag duration by 0.5 seconds.",
+        "tooltipId": "DehakaDragTalentParalyzingEnzymes",
+        "talentTreeId": "DehakaDragTalentParalyzingEnzymes",
+        "name": "Paralyzing Enzymes",
+        "description": "Increase the duration of Drag by 0.5 seconds. Drag Slows enemies by 30% for 2 seconds after it ends.",
         "icon": "storm_ui_icon_dehaka_drag_var1.png",
         "type": "Q",
         "sort": 2,
@@ -301,26 +301,13 @@
     ],
     "16": [
       {
-        "tooltipId": "DehakaDragTalentParalyzingEnzymes",
-        "talentTreeId": "DehakaDragTalentParalyzingEnzymes",
-        "name": "Paralyzing Enzymes",
-        "description": "Drag Slows enemies by 50% for 2 seconds after it ends.",
-        "icon": "storm_ui_icon_dehaka_drag.png",
-        "type": "Q",
-        "sort": 1,
-        "abilityId": "Dehaka|Q1",
-        "abilityLinks": [
-          "Dehaka|Q1"
-        ]
-      },
-      {
         "tooltipId": "DehakaDragTalentElongatedTongue",
         "talentTreeId": "DehakaDragTalentElongatedTongue",
         "name": "Elongated Tongue",
         "description": "Increase Drag range by 20%.",
         "icon": "storm_ui_icon_dehaka_drag_var1.png",
         "type": "Q",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Dehaka|Q1",
         "abilityLinks": [
           "Dehaka|Q1"
@@ -333,10 +320,23 @@
         "description": "Dehaka can move while Burrowed.",
         "icon": "storm_ui_icon_dehaka_burrow.png",
         "type": "E",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Dehaka|E1",
         "abilityLinks": [
           "Dehaka|E1"
+        ]
+      },
+      {
+        "tooltipId": "DehakaPackLeaderBrushstalker",
+        "talentTreeId": "DehakaPackLeaderBrushstalkerTalent",
+        "name": "Pack Leader",
+        "description": "Dehaka gains 20 Armor while in a bush and for 5 seconds after leaving.",
+        "icon": "storm_ui_icon_dehaka_brushstalker.png",
+        "type": "Z",
+        "sort": 3,
+        "abilityId": "Dehaka|Z1",
+        "abilityLinks": [
+          "Dehaka|Z1"
         ]
       }
     ],

@@ -149,7 +149,7 @@
         "tooltipId": "AnduinChastiseHolyReach",
         "talentTreeId": "AnduinChastiseHolyReach",
         "name": "Holy Reach",
-        "description": "After hitting an enemy with Chastise, Anduin's next Basic Attack has 50% more range, 75% more damage, and heals allied Heroes near Anduin for 100 (+4% per level).",
+        "description": "Increase the Root duration of Chastise from 1.25 to 1.5 seconds.  After hitting an enemy with Chastise, Anduin's next Basic Attack deals 75% more damage and heals allied Heroes near him for 100 (+4% per level).",
         "icon": "storm_ui_icon_anduin_chastise.png",
         "type": "E",
         "sort": 2,
@@ -245,7 +245,7 @@
         "tooltipId": "AnduinDivineStarSpeedOfThePious",
         "talentTreeId": "AnduinDivineStarSpeedOfThePious",
         "name": "Speed of the Pious",
-        "description": "While Divine Star is traveling, gain 30% Movement Speed.",
+        "description": "While Divine Star is traveling, gain 30% Movement Speed.  Each allied Hero healed by Divine Star on its return to Anduin reduces its cooldown by 1 second.",
         "icon": "storm_ui_icon_anduin_divine_star.png",
         "type": "W",
         "sort": 1,
@@ -255,27 +255,27 @@
         ]
       },
       {
-        "tooltipId": "AnduinLeapOfFaithEnchantBootsLionsSpeed",
-        "talentTreeId": "AnduinLeapOfFaithEnchantBootsLionsSpeed",
-        "name": "Enchant Boots - Lion's Speed",
-        "description": "Gain 5% Movement Speed. This bonus is quadrupled while Leap of Faith's cooldown is available.",
-        "icon": "storm_ui_icon_anduin_leap_of_faith.png",
-        "type": "Trait",
-        "sort": 2,
-        "abilityId": "Anduin|D1",
-        "abilityLinks": [
-          "Anduin|D1"
-        ]
-      },
-      {
         "tooltipId": "AnduinPushForward",
         "talentTreeId": "AnduinPushForward",
         "name": "Push Forward!",
-        "description": "Damaging an enemy Hero grants 2.5% Movement Speed for 6 seconds, up to 20%.",
-        "icon": "storm_ui_icon_anduin_varians_legacy.png",
-        "type": "Passive",
+        "description": "Damaging an enemy Hero grants 2.5% Movement Speed for 6 seconds, up to 20%.  While gaining 20% Movement Speed, Chastise's cooldown recharges 25% faster.",
+        "icon": "storm_ui_icon_anduin_chastise.png",
+        "type": "E",
+        "sort": 2,
+        "abilityId": "Anduin|E1",
+        "abilityLinks": [
+          "Anduin|E1"
+        ]
+      },
+      {
+        "tooltipId": "AnduinLeapOfFaithEnchantBootsLionsSpeed",
+        "talentTreeId": "AnduinLeapOfFaithEnchantBootsLionsSpeed",
+        "name": "Enchant Boots - Lion's Speed",
+        "description": "Gain 5% Movement Speed. This bonus is quadrupled while Leap of Faith's cooldown is available.  Allies pulled by Leap of Faith are healed for 280 (+4% per level) over 4 seconds.",
+        "icon": "storm_ui_icon_anduin_leap_of_faith.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Anduin|Passive",
+        "abilityId": "Anduin|D1",
         "abilityLinks": [
           "Anduin|D1"
         ]
@@ -375,7 +375,7 @@
         "tooltipId": "AnduinFlashHealDesperatePrayer",
         "talentTreeId": "AnduinFlashHealDesperatePrayer",
         "name": "Desperate Prayer",
-        "description": "Activate to desperately heal an allied Hero for 540 (+4% per level), but kneel for 2 seconds, unable to act.  Using Desperate Prayer places Flash Heal on a 10 second cooldown.",
+        "description": "Activate to desperately heal an allied Hero for 540 (+4% per level), but kneel for 2 seconds, unable to act.",
         "icon": "storm_ui_icon_anduin_desperate_prayer.png",
         "type": "Active",
         "sort": 4,
