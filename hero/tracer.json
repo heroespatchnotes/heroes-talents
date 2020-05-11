@@ -32,7 +32,7 @@
       {
         "uid": "f32220",
         "name": "Melee",
-        "description": "Deal 220 (+4% per level) damage to a nearby enemy, prioritizing Heroes. Gain 5% Pulse Bomb charge when using Melee against an enemy, and 10% against Heroes.",
+        "description": "Deal 220 (+4% per level) damage to a nearby enemy, prioritizing Heroes. Gain 6% Pulse Bomb charge when using Melee against an enemy, and 12% against Heroes.",
         "hotkey": "W",
         "abilityId": "Tracer|W1",
         "cooldown": 8,
@@ -42,17 +42,17 @@
       {
         "uid": "050d8e",
         "name": "Recall",
-        "description": "Tracer returns to the position she was at 3 seconds ago, refilling her ammo, and removing all negative status effects from herself.",
+        "description": "Tracer returns to the position she was at 2 seconds ago, refilling her ammo, and removing all negative status effects from herself.",
         "hotkey": "E",
         "abilityId": "Tracer|E1",
-        "cooldown": 30,
+        "cooldown": 20,
         "icon": "storm_ui_icon_tracer_recall.png",
         "type": "basic"
       },
       {
         "uid": "9c5f5a",
         "name": "Pulse Bomb",
-        "description": "Fire a short range bomb that can attach to an enemy if it hits them. The bomb explodes after 2 seconds dealing 360 (+6% per level) damage to them and 180 (+6% per level) damage to other nearby enemies.  This Ability is slowly charged over time by dealing damage to enemies with Basic Attacks and Melee.",
+        "description": "Fire a short range bomb that can attach to an enemy if it hits them. The bomb explodes after 2 seconds dealing 288 (+6% per level) damage to them and 144 (+6% per level) damage to other nearby enemies.  This ability is slowly charged over time by dealing damage to enemies with Basic Attacks and Melee.",
         "hotkey": "R",
         "abilityId": "Tracer|R1",
         "icon": "storm_ui_icon_tracer_pulsebomb.png",
@@ -61,7 +61,7 @@
       {
         "uid": "14276c",
         "name": "Reload",
-        "description": "Tracer can Basic Attack while moving, and after attacking 10 times she needs to reload over 0.75 seconds. Tracer can manually reload early by activating Reload.",
+        "description": "Tracer can Basic Attack while moving, and after attacking 10 times she needs to reload over 0.75 seconds. Tracer can manually reload early by activating Reload.  Basic Attacks heal Tracer for 15% of the damage dealt.",
         "hotkey": "D",
         "trait": true,
         "abilityId": "Tracer|D1",
@@ -74,10 +74,10 @@
   "talents": {
     "1": [
       {
-        "tooltipId": "TracerPulseStrikeMelee",
-        "talentTreeId": "TracerPulseStrikeMelee",
-        "name": "Pulse Strike",
-        "description": "Increases Melee's Pulse Bomb charge from 10% to 20% against Heroes.",
+        "tooltipId": "TracerOneTwoPunch",
+        "talentTreeId": "TracerOneTwoPunch",
+        "name": "One-Two Punch",
+        "description": "Reduce the cooldown of Melee by 1 second and it gains an additional charge.",
         "icon": "storm_ui_icon_tracer_melee.png",
         "type": "W",
         "sort": 1,
@@ -87,11 +87,11 @@
         ]
       },
       {
-        "tooltipId": "TracerSlipstreamRecall",
-        "talentTreeId": "TracerSlipstreamRecall",
-        "name": "Slipstream",
-        "description": "Increases the amount of time Recalled by 1 second.",
-        "icon": "storm_ui_icon_tracer_recall.png",
+        "tooltipId": "TracerPartingGift",
+        "talentTreeId": "TracerPartingGift",
+        "name": "Parting Gift",
+        "description": "Recall leaves behind 3 bombs that deal 250 (+4% per level) damage each to different targets. Each Hero hit with these bombs grants 5% Pulse Bomb charge.",
+        "icon": "storm_ui_icon_tracer_combo_e_r.png",
         "type": "E",
         "sort": 2,
         "abilityId": "Tracer|E1",
@@ -103,7 +103,7 @@
         "tooltipId": "TracerTracerRounds",
         "talentTreeId": "TracerTracerRounds",
         "name": "Tracer Rounds",
-        "description": "Basic Attacks reveal enemies for 4 seconds.",
+        "description": "Increase Basic Attack Range by 10%. Basic Attacks against Heroes reveal a small area around them for 3 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_reveal.png",
         "type": "Passive",
         "sort": 3,
@@ -112,78 +112,80 @@
     ],
     "4": [
       {
-        "tooltipId": "TracerPartingGift",
-        "talentTreeId": "TracerPartingGift",
-        "name": "Parting Gift",
-        "description": "Recall leaves behind 3 bombs that deal 240 (+4% per level) damage each to different targets.",
-        "icon": "storm_ui_icon_tracer_recall.png",
-        "type": "E",
+        "tooltipId": "TracerLeechingRounds",
+        "talentTreeId": "TracerLeechingRounds",
+        "name": "Leeching Rounds",
+        "description": "Increase the Life Leech on your Basic Attacks against enemy Heroes by 5% for each Blink charge you currently have.",
+        "icon": "storm_ui_icon_tracer_combo_q_trait.png",
+        "type": "Q",
         "sort": 1,
-        "abilityId": "Tracer|E1",
+        "abilityId": "Tracer|D1",
         "abilityLinks": [
-          "Tracer|E1"
+          "Tracer|D1"
+        ]
+      },
+      {
+        "tooltipId": "TracerPulseGenerator",
+        "talentTreeId": "TracerPulseGenerator",
+        "name": "Pulse Generator",
+        "description": "Successfully sticking a Pulse Bomb to an enemy Hero heals Tracer for 25% of her maximum Health over 1.5 seconds and refunds a charge of Blink.",
+        "icon": "storm_ui_icon_tracer_combo_q_r.png",
+        "type": "Heroic",
+        "sort": 2,
+        "abilityId": "Tracer|R1",
+        "abilityLinks": [
+          "Tracer|R1"
         ]
       },
       {
         "tooltipId": "TracerIsthataHealthPack",
-        "talentTreeId": "TracerIsthataHealthPack",
+        "talentTreeId": "TracerIsThataHealthPack",
         "name": "Is That a Health Pack?!",
-        "description": "Increases Regeneration Globe and Healing Fountain healing by 100%.",
+        "description": "Passive: Increases Regeneration Globe and Healing Fountain healing by 100%.  Collecting a Regeneration Globe reduces the cooldown of Healing Fountain by 10 seconds.",
         "icon": "storm_ui_icon_tracer_medpack.png",
         "type": "Passive",
-        "sort": 2,
-        "abilityId": "Tracer|Passive"
-      },
-      {
-        "tooltipId": "TracerUntouchable",
-        "talentTreeId": "TracerUntouchable",
-        "name": "Untouchable",
-        "description": "Quest: Takedowns increase Tracer's Basic Attack damage by 2%, up to 30%. These bonuses are lost on death.",
-        "icon": "storm_ui_icon_talent_autoattack_damage.png",
-        "type": "Passive",
         "sort": 3,
-        "isQuest": true,
         "abilityId": "Tracer|Passive"
       }
     ],
     "7": [
       {
-        "tooltipId": "TracerJumper",
-        "talentTreeId": "TracerJumper",
-        "name": "Jumper",
-        "description": "Increases Blink's charges by 1, but also increases Blink's cooldown by 2 seconds.",
-        "icon": "storm_ui_icon_tracer_blink_b.png",
-        "type": "Q",
+        "tooltipId": "TracerSleightofHand",
+        "talentTreeId": "TracerSleightofHand",
+        "name": "Sleight of Hand",
+        "description": "Reduces Reload time by 50%. This equals 20% more damage per second.",
+        "icon": "storm_ui_icon_tracer_reload.png",
+        "type": "Trait",
         "sort": 1,
-        "abilityId": "Tracer|Q1",
+        "abilityId": "Tracer|D1",
         "abilityLinks": [
-          "Tracer|Q1"
+          "Tracer|D1"
         ]
       },
       {
-        "tooltipId": "TracerBulletTime",
-        "talentTreeId": "TracerBulletTime",
-        "name": "Bullet Time",
-        "description": "Basic Attacks lower the cooldown of Blink by 0.15 seconds.",
-        "icon": "storm_ui_icon_tracer_blink_c.png",
-        "type": "Q",
+        "tooltipId": "TracerFocusFire",
+        "talentTreeId": "TracerFocusFire",
+        "name": "Focus Fire",
+        "description": "If an entire ammo magazine is unloaded on an enemy, the last bullet will deal 84 (+4% per level) bonus damage.  This is equal to 35% of the total magazine.",
+        "icon": "storm_ui_icon_tracer_reload_b.png",
+        "type": "Trait",
         "sort": 2,
-        "abilityId": "Tracer|Q1",
+        "abilityId": "Tracer|D1",
         "abilityLinks": [
-          "Tracer|Q1"
+          "Tracer|D1"
         ]
       },
       {
-        "tooltipId": "TracerSpatialEcho",
-        "talentTreeId": "TracerSpatialEcho",
-        "name": "Spatial Echo",
-        "description": "Hero Takedowns grant 2 charges of Blink.",
-        "icon": "storm_ui_icon_tracer_blink_d.png",
-        "type": "Q",
+        "tooltipId": "TracerLockedandLoaded",
+        "talentTreeId": "TracerLockedandLoaded",
+        "name": "Locked and Loaded",
+        "description": "Reactivate Reload within the last 50% of its cast time to increase Tracer's Basic Attack damage by 40% for that magazine.",
+        "icon": "storm_ui_icon_tracer_reload_c.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Tracer|Q1",
+        "abilityId": "Tracer|D1",
         "abilityLinks": [
-          "Tracer|Q1"
+          "Tracer|D1"
         ]
       }
     ],
@@ -192,7 +194,7 @@
         "tooltipId": "TracerStickyBomb",
         "talentTreeId": "TracerStickyBomb",
         "name": "Sticky Bomb",
-        "description": "Increases Pulse Bomb's radius by 50% and enemies hit are slowed by 70% for 3 seconds.",
+        "description": "Increases Pulse Bomb's radius by 50% and enemies hit are Slowed by 70% for 3 seconds.",
         "icon": "storm_ui_icon_tracer_pulsebomb.png",
         "type": "Heroic",
         "sort": 1,
@@ -205,7 +207,7 @@
         "tooltipId": "TracerQuantumSpike",
         "talentTreeId": "TracerQuantumSpike",
         "name": "Quantum Spike",
-        "description": "Pulse Bomb deals an additional 7% of the primary target's maximum Health.",
+        "description": "Pulse Bomb deals an additional 6% of maximum Health as damage to Heroes.",
         "icon": "storm_ui_icon_tracer_pulsebomb_b.png",
         "type": "Heroic",
         "sort": 2,
@@ -230,13 +232,68 @@
     ],
     "13": [
       {
+        "tooltipId": "TracerJumper",
+        "talentTreeId": "TracerJumper",
+        "name": "Jumper",
+        "description": "Passive: When Blink has no charges remaining, its cooldown refreshes 125% faster.  Casting Blink grants Tracer a Shield equal to 6% of her maximum Health for 3 seconds. This Shield stacks up to 3 times.",
+        "icon": "storm_ui_icon_tracer_blink.png",
+        "type": "Q",
+        "sort": 1,
+        "abilityId": "Tracer|Q1",
+        "abilityLinks": [
+          "Tracer|Q1"
+        ]
+      },
+      {
+        "tooltipId": "TracerUntouchable",
+        "talentTreeId": "TracerUntouchable",
+        "name": "Untouchable",
+        "description": "Passive: Blink's range is increased by 33%.  Quest: Takedowns increase Tracer's Basic Attack damage by 5%, up to 30%. These bonuses are lost on death.",
+        "icon": "storm_ui_icon_tracer_blink_d.png",
+        "type": "Q",
+        "sort": 2,
+        "isQuest": true,
+        "abilityId": "Tracer|Q1",
+        "abilityLinks": [
+          "Tracer|Q1"
+        ]
+      },
+      {
+        "tooltipId": "TracerTelefrag",
+        "talentTreeId": "TracerTelefrag",
+        "name": "Telefrag",
+        "description": "Passive: Basic Attacks against enemy Heroes reduce the cooldown of Recall by 0.1875 seconds.  When Tracer arrives at her Recall location, nearby enemies are knocked back and take 160 (+4% per level) damage.",
+        "icon": "storm_ui_icon_tracer_recall.png",
+        "type": "E",
+        "sort": 3,
+        "abilityId": "Tracer|E1",
+        "abilityLinks": [
+          "Tracer|E1"
+        ]
+      }
+    ],
+    "16": [
+      {
         "tooltipId": "TracerBulletSprayMelee",
         "talentTreeId": "TracerBulletSprayMelee",
         "name": "Bullet Spray",
-        "description": "Increases Melee's radius by 32%, and causes it to damage all enemies in range.",
+        "description": "Increases the radius of Melee by 32%, and causes it to damage all enemies in range.",
         "icon": "storm_ui_icon_tracer_melee.png",
         "type": "W",
         "sort": 1,
+        "abilityId": "Tracer|W1",
+        "abilityLinks": [
+          "Tracer|W1"
+        ]
+      },
+      {
+        "tooltipId": "TracerHeavyHanded",
+        "talentTreeId": "TracerHeavyHanded",
+        "name": "Heavy Handed",
+        "description": "Heroes hit by Melee have their Armor reduced by 15 for 4 seconds.",
+        "icon": "storm_ui_icon_tracer_melee_b.png",
+        "type": "W",
+        "sort": 2,
         "abilityId": "Tracer|W1",
         "abilityLinks": [
           "Tracer|W1"
@@ -246,73 +303,35 @@
         "tooltipId": "TracerRicochetHeroWeapon",
         "talentTreeId": "TracerRicochetHeroWeapon",
         "name": "Ricochet",
-        "description": "Tracer's Basic Attacks have a 50% chance to hit another nearby enemy, prioritizing Heroes.",
+        "description": "Tracer's Basic Attacks have a 60% chance to hit another nearby enemy, prioritizing Heroes.",
         "icon": "storm_ui_icon_talent_autoattack_aoe.png",
         "type": "Passive",
-        "sort": 2,
-        "abilityId": "Tracer|Passive"
-      },
-      {
-        "tooltipId": "TracerLeechingRounds",
-        "talentTreeId": "TracerLeechingRounds",
-        "name": "Leeching Rounds",
-        "description": "Basic Attacks against Heroes heal Tracer for 20% of their damage dealt.",
-        "icon": "storm_ui_icon_talent_autoattack_heal.png",
-        "type": "Passive",
         "sort": 3,
         "abilityId": "Tracer|Passive"
-      }
-    ],
-    "16": [
-      {
-        "tooltipId": "TracerSleightofHand",
-        "talentTreeId": "TracerSleightofHand",
-        "name": "Sleight of Hand",
-        "description": "Reduces Reload time by 50%. This equals 20% more damage per second.",
-        "icon": "storm_ui_icon_tracer_reload.png",
-        "type": "Trait",
-        "sort": 1,
-        "abilityId": "Tracer|D1",
-        "abilityLinks": [
-          "Tracer|D1"
-        ]
-      },
-      {
-        "tooltipId": "TracerFocusFire",
-        "talentTreeId": "TracerFocusFire",
-        "name": "Focus Fire",
-        "description": "If an entire ammo magazine is unloaded on an enemy, the last bullet will deal 91 (+4% per level) bonus damage.  This is equal to 35% of the total magazine.",
-        "icon": "storm_ui_icon_tracer_reload_b.png",
-        "type": "Trait",
-        "sort": 2,
-        "abilityId": "Tracer|D1",
-        "abilityLinks": [
-          "Tracer|D1"
-        ]
-      },
-      {
-        "tooltipId": "TracerLockedandLoaded",
-        "talentTreeId": "TracerLockedandLoaded",
-        "name": "Locked and Loaded",
-        "description": "Reactivate Reload within the last 50% of its cast time to increase Tracer's Basic Attack damage by 40% for that magazine.",
-        "icon": "storm_ui_icon_tracer_reload_c.png",
-        "type": "Trait",
-        "sort": 3,
-        "abilityId": "Tracer|D1",
-        "abilityLinks": [
-          "Tracer|D1"
-        ]
       }
     ],
     "20": [
       {
+        "tooltipId": "TracerChronoTriggers",
+        "talentTreeId": "TracerChronoTriggers",
+        "name": "Chrono Triggers",
+        "description": "Casting Blink causes Basic Attacks to not consume ammo for 1 second.",
+        "icon": "storm_ui_icon_tracer_blink.png",
+        "type": "Q",
+        "sort": 1,
+        "abilityId": "Tracer|Q1",
+        "abilityLinks": [
+          "Tracer|Q1"
+        ]
+      },
+      {
         "tooltipId": "TracerGetStuffedMelee",
         "talentTreeId": "TracerGetStuffedMelee",
         "name": "Get Stuffed!",
-        "description": "Reduces Melee's cooldown by 3 seconds. Hitting an enemy with Melee who is stuck with a Pulse Bomb causes the bomb to instantly explode and knocks the target away.",
+        "description": "Increases Melee's Pulse Bomb charge against Heroes from 12% to 24%. Hitting an enemy with Melee who is stuck with a Pulse Bomb causes the bomb to instantly explode and knock the target away.",
         "icon": "storm_ui_icon_tracer_melee.png",
         "type": "W",
-        "sort": 1,
+        "sort": 2,
         "abilityId": "Tracer|W1",
         "abilityLinks": [
           "Tracer|W1"
@@ -322,10 +341,10 @@
         "tooltipId": "TracerTotalRecallRecall",
         "talentTreeId": "TracerTotalRecallRecall",
         "name": "Total Recall",
-        "description": "Recall's cooldown is increased by 8 seconds, but it heals Tracer equal to the amount of Health she lost during that time.",
+        "description": "Recall heals Tracer equal to the amount of Health she lost during that time.",
         "icon": "storm_ui_icon_tracer_recall.png",
         "type": "E",
-        "sort": 2,
+        "sort": 3,
         "abilityId": "Tracer|E1",
         "abilityLinks": [
           "Tracer|E1"
@@ -338,7 +357,7 @@
         "description": "Successfully sticking a Pulse Bomb to an enemy Hero also drops another one at their feet that deals 50% damage and explodes slightly earlier.",
         "icon": "storm_ui_icon_tracer_pulsebomb.png",
         "type": "Heroic",
-        "sort": 3,
+        "sort": 4,
         "abilityId": "Tracer|R1",
         "abilityLinks": [
           "Tracer|R1"
