@@ -98,6 +98,50 @@
         "icon": "storm_ui_icon_deathwing_deathdrop.png",
         "type": "activable"
       }
+    ],
+    "DeathwingFormSwitch": [
+      {
+        "uid": "7008f3",
+        "name": "Destroyer",
+        "description": "After 1.75 seconds, Deathwing slams down to the ground, dealing 50 (+4% per level) damage to enemies in the area and landing in Destroyer form. Deathwing can begin to cast Abilities 3 seconds after landing.",
+        "hotkey": "Q",
+        "abilityId": "Deathwing|Q2",
+        "cooldown": 8,
+        "icon": "storm_ui_icon_deathwing_destroyer.png",
+        "type": "basic"
+      },
+      {
+        "uid": "610108",
+        "name": "World Breaker",
+        "description": "After 1.75 seconds, Deathwing slams down to the ground, dealing 50 (+4% per level) damage to enemies in the area and landing in World Breaker form. Deathwing can begin to cast Abilities 3 seconds after landing.",
+        "hotkey": "W",
+        "abilityId": "Deathwing|W2",
+        "cooldown": 8,
+        "icon": "storm_ui_icon_deathwing_world_breaker.png",
+        "type": "basic"
+      },
+      {
+        "uid": "41daae",
+        "name": "Earth Shatter",
+        "description": "Create a fissure of earth that deals 90 (+4% per level) damage to enemies hit and Stuns them for 0.75 seconds.  Destroyer: Onslaught Lunge in a direction",
+        "hotkey": "E",
+        "abilityId": "Deathwing|E2",
+        "cooldown": 12,
+        "manaCost": 25,
+        "icon": "storm_ui_icon_deathwing_earth_shatter.png",
+        "type": "basic"
+      },
+      {
+        "uid": "077d3c",
+        "name": "Lava Burst",
+        "description": "After a 1 second delay, deal 30 (+4% per level) damage to all enemies in an area and create a pool of magma that deals 20 (+4% per level) damage per second and Slows enemies by 35%. Lasts 6 seconds.  Destroyer: Incinerate Damage enemies near Deathwing",
+        "hotkey": "W",
+        "abilityId": "Deathwing|W3",
+        "cooldown": 6,
+        "manaCost": 20,
+        "icon": "storm_ui_icon_deathwing_lava_burst.png",
+        "type": "basic"
+      }
     ]
   },
   "talents": {
@@ -112,7 +156,8 @@
         "sort": 1,
         "abilityId": "Deathwing|W1",
         "abilityLinks": [
-          "Deathwing|W1"
+          "Deathwing|W1",
+          "Deathwing|W3"
         ]
       },
       {
@@ -168,7 +213,8 @@
         "sort": 2,
         "abilityId": "Deathwing|W1",
         "abilityLinks": [
-          "Deathwing|W1"
+          "Deathwing|W1",
+          "Deathwing|W3"
         ]
       },
       {
@@ -195,8 +241,10 @@
         "icon": "storm_ui_icon_deathwing_firestorm.png",
         "type": "Z",
         "sort": 1,
-        "abilityId": "Deathwing|Z1",
+        "abilityId": "Deathwing|Q2",
         "abilityLinks": [
+          "Deathwing|Q2",
+          "Deathwing|W2",
           "Deathwing|Z1"
         ]
       },
@@ -208,8 +256,10 @@
         "icon": "storm_ui_icon_deathwing_deathdrop.png",
         "type": "Z",
         "sort": 2,
-        "abilityId": "Deathwing|Z1",
+        "abilityId": "Deathwing|Q2",
         "abilityLinks": [
+          "Deathwing|Q2",
+          "Deathwing|W2",
           "Deathwing|Z1"
         ]
       },
@@ -278,7 +328,8 @@
         "sort": 2,
         "abilityId": "Deathwing|E1",
         "abilityLinks": [
-          "Deathwing|E1"
+          "Deathwing|E1",
+          "Deathwing|E2"
         ]
       },
       {
@@ -318,8 +369,10 @@
         "icon": "storm_ui_icon_deathwing_deathdrop.png",
         "type": "Z",
         "sort": 2,
-        "abilityId": "Deathwing|Z1",
+        "abilityId": "Deathwing|Q2",
         "abilityLinks": [
+          "Deathwing|Q2",
+          "Deathwing|W2",
           "Deathwing|Z1"
         ]
       },
@@ -357,8 +410,10 @@
         "icon": "storm_ui_icon_deathwing_deathdrop.png",
         "type": "Z",
         "sort": 2,
-        "abilityId": "Deathwing|Z1",
+        "abilityId": "Deathwing|Q2",
         "abilityLinks": [
+          "Deathwing|Q2",
+          "Deathwing|W2",
           "Deathwing|Z1"
         ]
       },
@@ -370,10 +425,11 @@
         "icon": "storm_ui_icon_deathwing_destroyer.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Deathwing|Z1",
+        "abilityId": "Deathwing|Q2",
         "abilityLinks": [
           "Deathwing|11",
           "Deathwing|D1",
+          "Deathwing|Q2",
           "Deathwing|Z1"
         ]
       }
