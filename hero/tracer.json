@@ -61,7 +61,7 @@
       {
         "uid": "14276c",
         "name": "Reload",
-        "description": "Tracer can Basic Attack while moving, and after attacking 10 times she needs to reload over 0.75 seconds. Tracer can manually reload early by activating Reload.  Basic Attacks heal Tracer for 15% of the damage dealt.",
+        "description": "Tracer can Basic Attack while moving, and after attacking 10 times she needs to reload over 0.75 seconds. Tracer can manually reload early by activating Reload.  Basic Attacks heal Tracer for 10% of the damage dealt.",
         "hotkey": "D",
         "trait": true,
         "abilityId": "Tracer|D1",
@@ -103,11 +103,14 @@
         "tooltipId": "TracerTracerRounds",
         "talentTreeId": "TracerTracerRounds",
         "name": "Tracer Rounds",
-        "description": "Increase Basic Attack Range by 10%. Basic Attacks against Heroes reveal a small area around them for 3 seconds.",
-        "icon": "storm_ui_icon_talent_autoattack_reveal.png",
-        "type": "Passive",
+        "description": "Increase Basic Attack range by 10%. Basic Attacks against Heroes reveal a small area around them for 3 seconds.",
+        "icon": "storm_ui_icon_tracer_reload.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Tracer|Passive"
+        "abilityId": "Tracer|D1",
+        "abilityLinks": [
+          "Tracer|D1"
+        ]
       }
     ],
     "4": [
@@ -117,7 +120,7 @@
         "name": "Leeching Rounds",
         "description": "Increase the Life Leech on your Basic Attacks against enemy Heroes by 5% for each Blink charge you currently have.",
         "icon": "storm_ui_icon_tracer_combo_q_trait.png",
-        "type": "Q",
+        "type": "Trait",
         "sort": 1,
         "abilityId": "Tracer|D1",
         "abilityLinks": [
@@ -232,27 +235,27 @@
     ],
     "13": [
       {
-        "tooltipId": "TracerJumper",
-        "talentTreeId": "TracerJumper",
-        "name": "Jumper",
-        "description": "Passive: When Blink has no charges remaining, its cooldown refreshes 125% faster.  Casting Blink grants Tracer a Shield equal to 6% of her maximum Health for 3 seconds. This Shield stacks up to 3 times.",
-        "icon": "storm_ui_icon_tracer_blink.png",
+        "tooltipId": "TracerUntouchable",
+        "talentTreeId": "TracerUntouchable",
+        "name": "Untouchable",
+        "description": "Passive: After Blinking, gain 20% Movement Speed for 2 seconds.  Quest: Takedowns increase Tracer's Basic Attack damage by 5%, up to 30%. These bonuses are lost on death.",
+        "icon": "storm_ui_icon_tracer_combo_q_trait.png",
         "type": "Q",
         "sort": 1,
+        "isQuest": true,
         "abilityId": "Tracer|Q1",
         "abilityLinks": [
           "Tracer|Q1"
         ]
       },
       {
-        "tooltipId": "TracerUntouchable",
-        "talentTreeId": "TracerUntouchable",
-        "name": "Untouchable",
-        "description": "Passive: Blink's range is increased by 33%.  Quest: Takedowns increase Tracer's Basic Attack damage by 5%, up to 30%. These bonuses are lost on death.",
+        "tooltipId": "TracerJumper",
+        "talentTreeId": "TracerJumper",
+        "name": "Jumper",
+        "description": "Passive: When Blink has no charges remaining, its cooldown refreshes 125% faster.  Casting Blink grants Tracer a Shield equal to 6% of her maximum Health for 3 seconds. This Shield stacks up to 3 times.",
         "icon": "storm_ui_icon_tracer_blink_d.png",
         "type": "Q",
         "sort": 2,
-        "isQuest": true,
         "abilityId": "Tracer|Q1",
         "abilityLinks": [
           "Tracer|Q1"
@@ -262,7 +265,7 @@
         "tooltipId": "TracerTelefrag",
         "talentTreeId": "TracerTelefrag",
         "name": "Telefrag",
-        "description": "Passive: Basic Attacks against enemy Heroes reduce the cooldown of Recall by 0.1875 seconds.  When Tracer arrives at her Recall location, nearby enemies are knocked back and take 160 (+4% per level) damage.",
+        "description": "Passive: Basic Attacks against enemy Heroes reduce the cooldown of Recall by 0.25 seconds.  When Tracer arrives at her Recall location, nearby enemies are knocked back and take 160 (+4% per level) damage.",
         "icon": "storm_ui_icon_tracer_recall.png",
         "type": "E",
         "sort": 3,
@@ -277,7 +280,7 @@
         "tooltipId": "TracerBulletSprayMelee",
         "talentTreeId": "TracerBulletSprayMelee",
         "name": "Bullet Spray",
-        "description": "Increases the radius of Melee by 32%, and causes it to damage all enemies in range.",
+        "description": "Increases the radius of Melee by 30%, and causes it to damage all enemies in range.",
         "icon": "storm_ui_icon_tracer_melee.png",
         "type": "W",
         "sort": 1,
@@ -304,10 +307,13 @@
         "talentTreeId": "TracerRicochetHeroWeapon",
         "name": "Ricochet",
         "description": "Tracer's Basic Attacks have a 60% chance to hit another nearby enemy, prioritizing Heroes.",
-        "icon": "storm_ui_icon_talent_autoattack_aoe.png",
-        "type": "Passive",
+        "icon": "storm_ui_icon_tracer_reload.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Tracer|Passive"
+        "abilityId": "Tracer|D1",
+        "abilityLinks": [
+          "Tracer|D1"
+        ]
       }
     ],
     "20": [
@@ -316,7 +322,7 @@
         "talentTreeId": "TracerChronoTriggers",
         "name": "Chrono Triggers",
         "description": "Casting Blink causes Basic Attacks to not consume ammo for 1 second.",
-        "icon": "storm_ui_icon_tracer_blink.png",
+        "icon": "storm_ui_icon_tracer_combo_q_trait.png",
         "type": "Q",
         "sort": 1,
         "abilityId": "Tracer|Q1",

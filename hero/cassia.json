@@ -23,11 +23,11 @@
       {
         "uid": "af4e3f",
         "name": "Lightning Fury",
-        "description": "Hurl a lightning javelin that deals 150 (+4% per level) damage to the first enemy hit and splits into two lightning bolts that deal 150 (+4% per level) damage to enemies in their path.",
+        "description": "Hurl a lightning javelin that deals 165 (+4% per level) damage to the first enemy hit and splits into two lightning bolts that deal 165 (+4% per level) damage to enemies in their path.",
         "hotkey": "Q",
         "abilityId": "Cassia|Q1",
         "cooldown": 5,
-        "manaCost": 25,
+        "manaCost": 20,
         "icon": "storm_ui_icon_cassia_lightningfury.png",
         "type": "basic"
       },
@@ -78,7 +78,7 @@
       {
         "uid": "0c204e",
         "name": "Avoidance",
-        "description": "While moving unmounted, Cassia gradually gains up to 30 Armor over 3 seconds. Avoidance remains charged while Fending.",
+        "description": "While moving, Cassia gradually gains up to 30 Armor over 3 seconds. After being stationary for 0.75 seconds, the Armor is rapidly lost over .5 seconds.  Avoidance remains charged while Fending.",
         "trait": true,
         "abilityId": "Cassia|D1",
         "icon": "storm_ui_icon_cassia_avoidance_b.png",
@@ -92,8 +92,8 @@
         "tooltipId": "AmazonLightningFuryThunderstroke",
         "talentTreeId": "AmazonThunderstroke",
         "name": "Thunderstroke",
-        "description": "Increase the damage of Lightning Fury by 25. Casting it instantly grants 5 Avoidance Armor.  Quest: Lightning Fury's damage is increased by 1 every time it hits a Hero.",
-        "icon": "storm_ui_icon_cassia_combo_q_trait.png",
+        "description": "Increase the damage of Lightning Fury by 25.  Quest: Lightning Fury's damage is increased by 1.5 every time it hits a Hero.",
+        "icon": "storm_ui_icon_cassia_lightningfury.png",
         "type": "Q",
         "sort": 1,
         "isQuest": true,
@@ -131,7 +131,7 @@
         "tooltipId": "AmazonAvoidancePlateoftheWhale",
         "talentTreeId": "AmazonPlateoftheWhale",
         "name": "Plate of the Whale",
-        "description": "Avoidance works while Mounted. Regenerate 7 (+4% per level) Health per second while Avoidance is active. If fully charged, gain an additional 14 (+4% per level) Health per second.",
+        "description": "Regenerate 7 (+4% per level) Health per second while Avoidance is active. If fully charged, gain an additional 14 (+4% per level) Health per second.",
         "icon": "storm_ui_icon_cassia_avoidance_b.png",
         "type": "Trait",
         "sort": 1,
@@ -167,29 +167,30 @@
     ],
     "7": [
       {
+        "tooltipId": "AmazonFendGroundingRod",
+        "talentTreeId": "AmazonFendGroundingRod",
+        "name": "Grounding Rod",
+        "description": "Enemies hit by Lightning Fury or Fend are Slowed by 20% for 2 seconds.",
+        "icon": "storm_ui_icon_cassia_combo_q_e.png",
+        "type": "Q",
+        "sort": 1,
+        "abilityId": "Cassia|Q1",
+        "abilityLinks": [
+          "Cassia|E1",
+          "Cassia|Q1"
+        ]
+      },
+      {
         "tooltipId": "AmazonBlindingLightSeraphsHymn",
         "talentTreeId": "AmazonSeraphsHymn",
         "name": "Seraph's Hymn",
         "description": "Basic Attacks against your primary enemy Hero grant 10 Mana and reduce the cooldown of Blinding Light by 1.5 seconds.  Passive: Increase the passive damage bonus of Blinding Light from 20% to 30%.",
         "icon": "storm_ui_icon_cassia_blindinglight.png",
         "type": "W",
-        "sort": 1,
+        "sort": 2,
         "abilityId": "Cassia|W1",
         "abilityLinks": [
           "Cassia|W1"
-        ]
-      },
-      {
-        "tooltipId": "AmazonFendDebilitatingThrusts",
-        "talentTreeId": "AmazonFendDebilitatingThrusts",
-        "name": "Debilitating Thrusts",
-        "description": "Enemies hit by Fend are Slowed by 30% for 3 seconds.",
-        "icon": "storm_ui_icon_cassia_fend.png",
-        "type": "E",
-        "sort": 2,
-        "abilityId": "Cassia|E1",
-        "abilityLinks": [
-          "Cassia|E1"
         ]
       },
       {
@@ -310,7 +311,7 @@
         "tooltipId": "AmazonMartialLaw",
         "talentTreeId": "AmazonMartialLaw",
         "name": "Martial Law",
-        "description": "Basic Attacks against enemy Heroes that are Stunned, Rooted or Slowed deal bonus damage equal to 3% of their maximum Health.",
+        "description": "Basic Attacks against enemy Heroes deal bonus damage equal to 1% of their maximum Health. Increase this to 3% if they are Stunned, Rooted or Slowed.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
         "sort": 3,
@@ -335,7 +336,7 @@
         "tooltipId": "AmazonValkyrieImprisoningLight",
         "talentTreeId": "AmazonImprisoningLight",
         "name": "Imprisoning Light",
-        "description": "The impaled Hero is Blinded for 5 seconds. Upon impaling a Hero, Cassia's Valkyrie creates a wave of light that deals 200 (+4% per level) damage to nearby enemies. The wave Silences and Roots them for 3 seconds.",
+        "description": "Upon impaling an enemy Hero, they are Blinded for 5 seconds and Cassia's Valkyrie creates a wave of light that deals 200 (+4% per level) damage to nearby enemies. This wave Silences and Roots them for 3 seconds.",
         "icon": "storm_ui_icon_cassia_valkrie_a.png",
         "type": "Heroic",
         "sort": 2,
