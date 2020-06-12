@@ -340,27 +340,30 @@
         ]
       },
       {
-        "tooltipId": "ZeratulGiftoftheXelNaga",
-        "talentTreeId": "ZeratulGiftoftheXelNaga",
-        "name": "Gift of the Xel'Naga",
-        "description": "Allies are no longer affected by Void Prison, and enemies are slowed by 50% for 3 seconds once Void Prison ends.",
-        "icon": "storm_ui_icon_zeratul_voidprison.png",
-        "type": "Heroic",
+        "tooltipId": "ZeratulUnwaveringPressure",
+        "talentTreeId": "ZeratulUnwaveringPressure",
+        "name": "Unwavering Pressure",
+        "description": "Basic Attacks against enemy Heroes who are marked or Slowed by Singularity Spike reduce its cooldown by 1.25 seconds.",
+        "icon": "storm_ui_icon_zeratul_singularityspike.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Zeratul|R2",
+        "abilityId": "Zeratul|W1",
         "abilityLinks": [
-          "Zeratul|R2"
+          "Zeratul|W1"
         ]
       },
       {
-        "tooltipId": "NexusBladesTalent",
-        "talentTreeId": "GenericTalentNexusBlades",
-        "name": "Nexus Blades",
-        "description": "Basic Attacks deal 20% more damage and Slow enemy Movement Speed by 20% for 1 second.",
-        "icon": "storm_ui_icon_talent_autoattack_slow.png",
+        "tooltipId": "ZeratulShadowStrideTalent",
+        "talentTreeId": "ZeratulShadowStrideTalent",
+        "name": "Shadow Stride",
+        "description": "Reduce the cooldown of Vorpal Blade by 10 seconds.",
+        "icon": "storm_ui_icon_zeratul_vorpalblade.png",
         "type": "Passive",
         "sort": 3,
-        "abilityId": "Zeratul|Passive"
+        "abilityId": "Zeratul|Passive",
+        "abilityLinks": [
+          "Zeratul|11"
+        ]
       },
       {
         "tooltipId": "ZeratulShadowMending",
