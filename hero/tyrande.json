@@ -94,10 +94,53 @@
   "talents": {
     "1": [
       {
+        "tooltipId": "TyrandeSentinelRangerTalent",
+        "talentTreeId": "TyrandeRanger",
+        "name": "Ranger",
+        "description": "Sentinel pierces the first Hero hit. Its width is increased by 25% and deals up to 250% more damage based on distance traveled.",
+        "icon": "storm_ui_icon_tyrande_sentinel.png",
+        "type": "W",
+        "sort": 1,
+        "abilityId": "Tyrande|W1",
+        "abilityLinks": [
+          "Tyrande|W1"
+        ]
+      },
+      {
+        "tooltipId": "TyrandeLunarFlareLunarBlazeTalent",
+        "talentTreeId": "TyrandeMasteryLunarBlaze",
+        "name": "Lunar Blaze",
+        "description": "Increase Lunar Flare's range by 30%.  Quest: Hitting a Hero with Lunar Flare increases its damage by 5%, up to 100%.",
+        "icon": "storm_ui_icon_tyrande_lunarflare.png",
+        "type": "E",
+        "sort": 2,
+        "isQuest": true,
+        "abilityId": "Tyrande|E1",
+        "abilityLinks": [
+          "Tyrande|E1"
+        ]
+      },
+      {
+        "tooltipId": "TyrandeHuntersMarkTrueshotAuraTalent",
+        "talentTreeId": "TyrandeTrueshotAura",
+        "name": "Trueshot Aura",
+        "description": "Passive: Basic Attack damage increased by 15%.  Activate to reset the cooldown of Hunter's Mark, increase the bonus of Trueshot Aura to 25%, and apply it to other nearby allied Heroes for 5 seconds.",
+        "icon": "storm_ui_icon_tyrande_trueshotaura.png",
+        "type": "Active",
+        "sort": 3,
+        "cooldown": 45,
+        "abilityId": "Tyrande|Active",
+        "abilityLinks": [
+          "Tyrande|D1"
+        ]
+      }
+    ],
+    "4": [
+      {
         "tooltipId": "TyrandeLightOfEluneEverlastingLight",
         "talentTreeId": "TyrandeLightOfEluneEverlastingLight",
         "name": "Everlasting Light",
-        "description": "If Light of Elune's second charge is cast on a different target from the first, it heals for 60% more.",
+        "description": "If Light of Elune's second charge is cast on a different target from the first, it heals for 80% more.",
         "icon": "storm_ui_icon_tyrande_lightofelune.png",
         "type": "Q",
         "sort": 1,
@@ -131,50 +174,6 @@
         "abilityId": "Tyrande|Active"
       }
     ],
-    "4": [
-      {
-        "tooltipId": "TyrandeLunarFlareLunarBlazeTalent",
-        "talentTreeId": "TyrandeMasteryLunarBlaze",
-        "name": "Lunar Blaze",
-        "description": "Increase Lunar Flare's range by 30%.  Quest: Hitting a Hero with Lunar Flare increases its damage by 5%, up to 100%.",
-        "icon": "storm_ui_icon_tyrande_lunarflare.png",
-        "type": "E",
-        "sort": 1,
-        "isQuest": true,
-        "abilityId": "Tyrande|E1",
-        "abilityLinks": [
-          "Tyrande|E1"
-        ]
-      },
-      {
-        "tooltipId": "TyrandeSentinelRangerTalent",
-        "talentTreeId": "TyrandeRanger",
-        "name": "Ranger",
-        "description": "Activate to make the next Sentinel pierce through all Heroes hit.  Passive: Sentinel's width is increased by 25% and deals up to 250% more damage based on distance traveled.",
-        "icon": "storm_ui_icon_tyrande_sentinel.png",
-        "type": "Active",
-        "sort": 2,
-        "cooldown": 25,
-        "abilityId": "Tyrande|Active",
-        "abilityLinks": [
-          "Tyrande|W1"
-        ]
-      },
-      {
-        "tooltipId": "TyrandeHuntersMarkTrueshotAuraTalent",
-        "talentTreeId": "TyrandeTrueshotAura",
-        "name": "Trueshot Aura",
-        "description": "Passive: Basic Attack damage increased by 15%.  Activate to reset the cooldown of Hunter's Mark, increase the bonus of Trueshot Aura to 25%, and apply it to other nearby allied Heroes for 5 seconds.",
-        "icon": "storm_ui_icon_tyrande_trueshotaura.png",
-        "type": "Active",
-        "sort": 3,
-        "cooldown": 45,
-        "abilityId": "Tyrande|Active",
-        "abilityLinks": [
-          "Tyrande|D1"
-        ]
-      }
-    ],
     "7": [
       {
         "tooltipId": "TyrandeMoonlitArrows",
@@ -206,7 +205,7 @@
         "tooltipId": "TyrandeHuntersMarkHuntressFuryTalent",
         "talentTreeId": "TyrandeHuntressFury",
         "name": "Huntress' Fury",
-        "description": "Increase the cast range and duration of Hunter's Mark by 25%. Tyrande's Basic Attacks against targets with Hunter's Mark splash to nearby enemies.",
+        "description": "Increase the cast range and duration of Hunter's Mark by 25%. Tyrande's Basic Attacks against targets with Hunter's Mark splash to nearby enemy Heroes.",
         "icon": "storm_ui_icon_tyrande_huntersmark.png",
         "type": "Trait",
         "sort": 3,
@@ -318,7 +317,7 @@
         "tooltipId": "TyrandeDarnassianArchery",
         "talentTreeId": "TyrandeDarnassianArchery",
         "name": "Darnassian Archery",
-        "description": "Basic Attacks against enemy Heroes grant a stacking 10% increased Attack Damage bonus for 6 seconds. This bonus is lost when Basic Attacking non-Heroes.",
+        "description": "Basic Attacks against enemy Heroes grant a stacking 10% increased Attack Damage bonus for 4 seconds.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
         "sort": 3,

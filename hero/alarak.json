@@ -90,29 +90,29 @@
   "talents": {
     "1": [
       {
+        "tooltipId": "AlarakOverwhelmingPower",
+        "talentTreeId": "AlarakOverwhelmingPowerDiscordStrike",
+        "name": "Overwhelming Power",
+        "description": "Hitting an enemy Hero with Discord Strike grants 40% Attack Speed and causes Basic Attacks to heal for 50% of the damage dealt for 4 seconds.",
+        "icon": "storm_ui_icon_alarak_discordstrike.png",
+        "type": "Q",
+        "sort": 1,
+        "abilityId": "Alarak|Q1",
+        "abilityLinks": [
+          "Alarak|Q1"
+        ]
+      },
+      {
         "tooltipId": "AlarakRuthlessMomentum",
         "talentTreeId": "AlarakRuthlessMomentum",
         "name": "Ruthless Momentum",
         "description": "Reduce the Mana cost of Telekinesis from 30 to 20.  Telekinesis's cooldown recharges 75% faster while above 80% Health.",
         "icon": "storm_ui_icon_alarak_telekinesis.png",
         "type": "W",
-        "sort": 1,
+        "sort": 2,
         "abilityId": "Alarak|W1",
         "abilityLinks": [
           "Alarak|W1"
-        ]
-      },
-      {
-        "tooltipId": "AlarakSustainingPower",
-        "talentTreeId": "AlarakSustainingPower",
-        "name": "Sustaining Power",
-        "description": "Increase the healing received from damaging Heroes with Lightning Surge by 40%.",
-        "icon": "storm_ui_icon_alarak_lightningsurge_a.png",
-        "type": "E",
-        "sort": 2,
-        "abilityId": "Alarak|E1",
-        "abilityLinks": [
-          "Alarak|E1"
         ]
       },
       {
@@ -191,7 +191,7 @@
         "tooltipId": "AlarakHinderedMotion",
         "talentTreeId": "AlarakHinderedMotion",
         "name": "Hindered Motion",
-        "description": "Telekinesis Slows enemies by 25% for 3 seconds.",
+        "description": "Telekinesis Slows enemies by 30% for 3 seconds.",
         "icon": "storm_ui_icon_alarak_telekinesis_a.png",
         "type": "W",
         "sort": 2,

@@ -71,8 +71,8 @@
         "description": "Perform two slashes dealing 145 (+4% per level) damage. The slashes detonate after 1.25 seconds causing an additional 290 (+4% per level) damage to enemies in their area.",
         "hotkey": "R",
         "abilityId": "Genji|R2",
-        "cooldown": 80,
-        "manaCost": 90,
+        "cooldown": 60,
+        "manaCost": 70,
         "icon": "storm_ui_icon_genji_shurikens_xblade.png",
         "type": "heroic"
       },
@@ -83,7 +83,7 @@
         "hotkey": "D",
         "trait": true,
         "abilityId": "Genji|D1",
-        "cooldown": 15,
+        "cooldown": 20,
         "icon": "storm_ui_icon_genji_cyberagility.png",
         "type": "trait"
       }
@@ -108,7 +108,7 @@
         "tooltipId": "GenjiCyberAgilityAgileDismount",
         "talentTreeId": "GenjiCyberAgilityAgileDismount",
         "name": "Agile Dismount",
-        "description": "While mounted, the range of Cyber Agility is increased by 70% and its cooldown is reduced by 10 seconds.",
+        "description": "While mounted, the range of Cyber Agility is increased by 70% and its cooldown is reduced by 14 seconds.",
         "icon": "storm_ui_icon_genji_cyberagility.png",
         "type": "Trait",
         "sort": 2,
@@ -178,7 +178,7 @@
         "tooltipId": "GenjiDeflectAugmentedGuard",
         "talentTreeId": "GenjiDeflectAugmentedGuard",
         "name": "Augmented Guard",
-        "description": "When Deflect ends, Genji gains a Shield equal to 75% of the damage blocked for 4 seconds.",
+        "description": "When Deflect ends, Genji gains a Shield equal to 100% of the damage blocked for 4 seconds.",
         "icon": "storm_ui_icon_genji_deflect.png",
         "type": "W",
         "sort": 1,
@@ -204,7 +204,7 @@
         "tooltipId": "GenjiCyberAgilityCyberShield",
         "talentTreeId": "GenjiCyberAgilityCyberShield",
         "name": "Cyber Shield",
-        "description": "Using Cyber Agility grants 50 Spell Armor for 2.5 seconds.",
+        "description": "Using Cyber Agility grants 50 Spell Armor for 4 seconds.",
         "icon": "storm_ui_icon_genji_cyberagility.png",
         "type": "Trait",
         "sort": 3,
@@ -247,7 +247,7 @@
         "icon": "storm_ui_icon_genji_shurikens_xblade.png",
         "type": "Heroic",
         "sort": 2,
-        "cooldown": 80,
+        "cooldown": 60,
         "abilityId": "Genji|R2",
         "abilityLinks": [
           "Genji|R2"
@@ -282,14 +282,14 @@
         ]
       },
       {
-        "tooltipId": "GenjiCyberAgilityDoubleJump",
-        "talentTreeId": "GenjiCyberAgilityDoubleJump",
-        "name": "Double Jump",
-        "description": "Cyber Agility stores 2 charges.",
-        "icon": "storm_ui_icon_genji_cyberagility.png",
-        "type": "Trait",
+        "tooltipId": "GenjiWayOfTheShimada",
+        "talentTreeId": "GenjiWayOfTheShimadaTalent",
+        "name": "Way Of The Shimada",
+        "description": "Increase Genji's Basic Attack range by 1.  Each time Genji hits an enemy Hero with a Basic Attack, increase his Basic Attack damage by 1% for 3 seconds, stacking up to 15%.",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "type": "Passive",
         "sort": 3,
-        "abilityId": "Genji|D1",
+        "abilityId": "Genji|Passive",
         "abilityLinks": [
           "Genji|D1"
         ]
@@ -354,7 +354,7 @@
         "tooltipId": "GenjiXStrikeLivingWeapon",
         "talentTreeId": "GenjiXStrikeLivingWeapon",
         "name": "Living Weapon",
-        "description": "Each enemy Hero hit by X-Strike reduces its cooldown by 12 seconds.",
+        "description": "Each enemy Hero hit by X-Strike reduces its cooldown by 10 seconds.",
         "icon": "storm_ui_icon_genji_shurikens_xblade.png",
         "type": "Heroic",
         "sort": 2,

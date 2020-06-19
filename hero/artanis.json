@@ -80,7 +80,7 @@
       {
         "uid": "0c414a",
         "name": "Shield Overload",
-        "description": "After taking damage while below 75% Health, Artanis gains a 375 (+4% per level) Shield for 5 seconds. Basic Attacks lower the cooldown of Shield Overload by 4 seconds.",
+        "description": "After taking damage while below 75% Health, Artanis gains a 385 (+4% per level) Shield for 5 seconds. Basic Attacks lower the cooldown of Shield Overload by 4 seconds.",
         "trait": true,
         "abilityId": "Artanis|D1",
         "cooldown": 24,
@@ -95,7 +95,7 @@
         "tooltipId": "ArtanisTwinBladesReactiveParryTalent",
         "talentTreeId": "ArtanisTwinBladesReactiveParry",
         "name": "Reactive Parry",
-        "description": "Using Twin Blades grants 75 Physical Armor against the next enemy Hero Basic Attack, reducing its damage by 75%.  Stores up to 2 charges.",
+        "description": "Damaging enemies with the first slash of Twin Blades grants Artanis 75 Physical Armor against the next enemy Hero Basic Attack, reducing its damage by 75%.  If the target is an enemy Hero, then the second slash grants Artanis an additional stack.  Stores up to 2 charges.",
         "icon": "storm_ui_icon_artanis_doubleslash_on.png",
         "type": "W",
         "sort": 1,
@@ -118,15 +118,18 @@
         ]
       },
       {
-        "tooltipId": "GenericSeasonedMarksmanTalent",
-        "talentTreeId": "GenericTalentSeasonedMarksman",
-        "name": "Seasoned Marksman",
-        "description": "Quest: Every Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage.  Reward: Upon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 40% for 4 seconds. 30 second cooldown.",
-        "icon": "storm_ui_icon_talent_seasonedmarksman.png",
+        "tooltipId": "ArtanisProtectorOfAiurTalent",
+        "talentTreeId": "ArtanisProtectorOfAiur",
+        "name": "Protector Of Aiur",
+        "description": "Quest: Basic Attacks against enemy Heroes increase Artanis's Attack damage by 0.1%.  Takedowns grant 1% bonus damage.",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
         "sort": 3,
         "isQuest": true,
-        "abilityId": "Artanis|Passive"
+        "abilityId": "Artanis|Passive",
+        "abilityLinks": [
+          "Artanis|D1"
+        ]
       }
     ],
     "4": [
@@ -185,26 +188,13 @@
         ]
       },
       {
-        "tooltipId": "ArtanisPhasePrismWarpSicknessTalent",
-        "talentTreeId": "ArtanisPhasePrismWarpSickness",
-        "name": "Warp Sickness",
-        "description": "Phase Prism also Slows the enemy's Movement Speed by 35% for 4 seconds.",
-        "icon": "storm_ui_icon_artanis_repositionmatrix.png",
-        "type": "E",
-        "sort": 2,
-        "abilityId": "Artanis|E1",
-        "abilityLinks": [
-          "Artanis|E1"
-        ]
-      },
-      {
         "tooltipId": "ArtanisPhasePrismChronoSurgeTalent",
         "talentTreeId": "ArtanisPhasePrismChronoSurge",
         "name": "Chrono Surge",
-        "description": "Hitting an enemy Hero with Phase Prism grants 75% bonus Attack Speed for 5 seconds.",
-        "icon": "storm_ui_icon_artanis_repositionmatrix_a.png",
+        "description": "Hitting an enemy Hero with Phase Prism grants 40% bonus Attack Speed for 5 seconds and Slows the enemy's Movment Speed by 30% for 4 seconds.",
+        "icon": "storm_ui_icon_artanis_repositionmatrix.png",
         "type": "E",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Artanis|E1",
         "abilityLinks": [
           "Artanis|E1"
@@ -217,7 +207,7 @@
         "description": "After using an Ability, your next Basic Attack within 6 seconds deals 40% additional damage.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
-        "sort": 4,
+        "sort": 3,
         "abilityId": "Artanis|Passive"
       }
     ],
@@ -364,7 +354,7 @@
         "tooltipId": "ArtanisSpearofAdunPurifierBeamTargetPurifiedTalent",
         "talentTreeId": "ArtanisSpearofAdunPurifierBeamTargetPurified",
         "name": "Target Purified",
-        "description": "Increase the speed of Purifier Beam by 14%. If the target of Purifier Beam dies, it automatically recasts on the nearest visible enemy Hero.",
+        "description": "Increase the speed of Purifier Beam by 15%. If the target of Purifier Beam dies, it automatically recasts on the nearest visible enemy Hero.",
         "icon": "storm_ui_icon_artanis_purifierbeam.png",
         "type": "Heroic",
         "sort": 2,

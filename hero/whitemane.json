@@ -112,7 +112,7 @@
         "tooltipId": "WhitemaneSearingLashRighteousFlame",
         "talentTreeId": "WhitemaneSearingLashRighteousFlame",
         "name": "Righteous Flame",
-        "description": "Searing Lash deals 25% more damage to enemies. This is increased to 50% against those who are Stunned, Rooted, Silenced or Slowed.",
+        "description": "Searing Lash deals 25% more damage to enemies. If the second strike hits an enemy Hero, they take an additional 25% damage and Whitemane gains 25% Attack Speed for 4 seconds.",
         "icon": "storm_ui_icon_whitemane_lash.png",
         "type": "E",
         "sort": 2,
@@ -192,16 +192,16 @@
         ]
       },
       {
-        "tooltipId": "WhitemaneZealScarletWrath",
-        "talentTreeId": "WhitemaneZealScarletWrath",
-        "name": "Scarlet Wrath",
-        "description": "Basic Attacks against Heroes increase the duration of active Zeal by 0.5 seconds.",
-        "icon": "storm_ui_icon_whitemane_zeal.png",
-        "type": "Trait",
+        "tooltipId": "WhitemaneSaintlyGreatstaff",
+        "talentTreeId": "WhitemaneSaintlyGreatstaff",
+        "name": "Saintly Greatstaff",
+        "description": "Enemy Heroes hit by Searing Lash are marked for 3 seconds. Basic Attacks against them deal an additional 55 (+4% per level) Spell damage and remove the mark.",
+        "icon": "storm_ui_icon_whitemane_lash_alt_1.png",
+        "type": "E",
         "sort": 2,
-        "abilityId": "Whitemane|D1",
+        "abilityId": "Whitemane|E1",
         "abilityLinks": [
-          "Whitemane|D1"
+          "Whitemane|E1"
         ]
       },
       {
@@ -274,16 +274,16 @@
         ]
       },
       {
-        "tooltipId": "WhitemaneSaintlyGreatstaff",
-        "talentTreeId": "WhitemaneSaintlyGreatstaff",
-        "name": "Saintly Greatstaff",
-        "description": "Enemy Heroes hit by Searing Lash are marked for 3 seconds. Basic Attacks against them deal an additional 55 (+4% per level) Spell damage and remove the mark.",
-        "icon": "storm_ui_icon_whitemane_lash_alt_1.png",
-        "type": "E",
+        "tooltipId": "WhitemaneZealScarletWrath",
+        "talentTreeId": "WhitemaneZealScarletWrath",
+        "name": "Scarlet Wrath",
+        "description": "Basic Attacks against Heroes increase the duration of all active Zeals by 0.5 seconds and lower the cooldown of Zeals activation by 1 second.",
+        "icon": "storm_ui_icon_whitemane_zeal.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Whitemane|E1",
+        "abilityId": "Whitemane|D1",
         "abilityLinks": [
-          "Whitemane|E1"
+          "Whitemane|D1"
         ]
       }
     ],
@@ -292,7 +292,7 @@
         "tooltipId": "WhitemaneDesperatePleaRadiance",
         "talentTreeId": "WhitemaneDesperatePleaRadiance",
         "name": "Radiance",
-        "description": "Upon reaching 3 stacks of Desperation, all allies with Zeal are healed for 175 (+4% per level).",
+        "description": "Upon reaching 3 stacks of Desperation, all allies with Zeal are healed for 175 (+4% per level). Activating Zeal while at 3 stacks of Desperation now increases her Armor by 10 instead of reducing it.",
         "icon": "storm_ui_icon_whitemane_desperation.png",
         "type": "Q",
         "sort": 1,
