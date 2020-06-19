@@ -42,7 +42,7 @@
       {
         "uid": "050d8e",
         "name": "Recall",
-        "description": "Tracer returns to the position she was at 2 seconds ago, refilling her ammo, and removing all negative status effects from herself.",
+        "description": "After 1.25 seconds, Tracer returns to the position she was at 2 seconds prior to casting, refilling her ammo, and removing all negative status effects from herself.",
         "hotkey": "E",
         "abilityId": "Tracer|E1",
         "cooldown": 20,
@@ -118,7 +118,7 @@
         "tooltipId": "TracerLeechingRounds",
         "talentTreeId": "TracerLeechingRounds",
         "name": "Leeching Rounds",
-        "description": "Increase the Life Leech on your Basic Attacks against enemy Heroes by 5% for each Blink charge you currently have.",
+        "description": "Increase the healing from Basic Attacks against enemy Heroes by 5% for each Blink charge you currently have.",
         "icon": "storm_ui_icon_tracer_combo_q_trait.png",
         "type": "Trait",
         "sort": 1,
