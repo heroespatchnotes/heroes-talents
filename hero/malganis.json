@@ -60,8 +60,8 @@
         "description": "Channel on an enemy Hero for 0.75 seconds, then swap Health percentages with the target over 3 seconds.",
         "hotkey": "R",
         "abilityId": "MalGanis|R1",
-        "cooldown": 80,
-        "manaCost": 70,
+        "cooldown": 60,
+        "manaCost": 60,
         "icon": "storm_ui_icon_malganis_ult_conversion.png",
         "type": "heroic"
       },
@@ -160,7 +160,7 @@
         "tooltipId": "MalGanisNecroticEmbraceEchoOfDoom",
         "talentTreeId": "MalGanisNecroticEmbraceEchoOfDoom",
         "name": "Echo of Doom",
-        "description": "When Necrotic Embrace expires, it explodes again for 54 (+4% per level) damage.  For each enemy Hero hit, gain 5 Mana and reduce the cooldown of Necrotic Embrace by 0.75 seconds.  Does not wake Sleeping targets.",
+        "description": "When Necrotic Embrace expires, it explodes again for 60 (+4% per level) damage.  For each enemy Hero hit, gain 5 Mana and reduce the cooldown of Necrotic Embrace by 0.75 seconds.  Does not wake Sleeping targets.",
         "icon": "storm_ui_icon_malganis_necrotic_c.png",
         "type": "W",
         "sort": 3,
@@ -234,7 +234,7 @@
         "icon": "storm_ui_icon_malganis_ult_conversion.png",
         "type": "Heroic",
         "sort": 2,
-        "cooldown": 80,
+        "cooldown": 60,
         "abilityId": "MalGanis|R1",
         "abilityLinks": [
           "MalGanis|R1"
@@ -259,7 +259,7 @@
         "tooltipId": "MalGanisNightRushTheNightBeckons",
         "talentTreeId": "MalGanisNightRushTheNightBeckons",
         "name": "The Night Beckons",
-        "description": "Basic Attacks deal 200% bonus damage to Sleeping enemies.  After Night Rush's Sleep ends, targets are Slowed by 30% for 2.5 seconds.",
+        "description": "Basic Attacks deal 200% bonus damage to Sleeping enemies.  After Night Rush's Sleep ends, targets are Slowed by 30% for 3 seconds.",
         "icon": "storm_ui_icon_malganis_nightrush_b.png",
         "type": "E",
         "sort": 2,

@@ -361,6 +361,10 @@ async function test() {
   <img class="img-rounded" src="images/heroes/medivh.png" />
   <span>Medivh</span>
 </a>
+<a class="img-wrap" href="hero/mei.json">
+  <img class="img-rounded" src="images/heroes/mei.png" />
+  <span>Mei</span>
+</a>
 <a class="img-wrap" href="hero/mephisto.json">
   <img class="img-rounded" src="images/heroes/mephisto.png" />
   <span>Mephisto</span>

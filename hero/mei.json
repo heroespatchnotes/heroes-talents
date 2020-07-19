@@ -60,7 +60,7 @@
         "description": "After 0.5 seconds, roll a massive snowball that consumes enemy Heroes in its path. At the end of its path, the snowball crumbles, releasing the consumed Heroes, dealing 220 (+4% per level) damage and stunning them for 0.5 seconds per Hero consumed.",
         "hotkey": "R",
         "abilityId": "Mei|R1",
-        "cooldown": 65,
+        "cooldown": 70,
         "manaCost": 70,
         "icon": "storm_ui_icon_mei_r1_avalanche.png",
         "type": "heroic"
@@ -71,7 +71,7 @@
         "description": "Vector Targeting After a 0.75 second delay, create an impassable wall that traps enemy Heroes hit for 2.5 seconds. When the wall expires, trapped Heroes are slowed by 75%, decaying over 3 seconds.",
         "hotkey": "R",
         "abilityId": "Mei|R2",
-        "cooldown": 90,
+        "cooldown": 70,
         "manaCost": 60,
         "icon": "storm_ui_icon_mei_r2_icewall.png",
         "type": "heroic"
@@ -95,7 +95,7 @@
         "tooltipId": "MeiOWHeavyPack",
         "talentTreeId": "MeiOWHeavyPack",
         "name": "Heavy Pack",
-        "description": "Increases the duration of Snow Blind's Slow by 1.5 seconds. Each time Blizzard damages an enemy Hero, reduce the cooldown of Snow Blind by 0.125 seconds.",
+        "description": "Increases the duration of Snow Blind's Slow by 1.5 seconds. Each time Blizzard damages an enemy Hero, reduce the cooldown of Snow Blind by 0.25 seconds.",
         "icon": "storm_ui_icon_mei_q_snowblind.png",
         "type": "Q",
         "sort": 1,
@@ -159,7 +159,7 @@
         "tooltipId": "MeiOWCrystallize",
         "talentTreeId": "MeiOWCrystallize",
         "name": "Crystallize",
-        "description": "Reduce the cooldown of Cryo-Freeze by 15 seconds. Mei gains 50 Spell Armor while Cryo-Freeze is active and for 2 seconds after.",
+        "description": "Reduce the cooldown of Cryo-Freeze by 10 seconds. Mei gains 50 Spell Armor while Cryo-Freeze is active and for 1 second after.",
         "icon": "storm_ui_icon_mei_trait.png",
         "type": "Trait",
         "sort": 3,
@@ -217,7 +217,7 @@
         "icon": "storm_ui_icon_mei_r1_avalanche.png",
         "type": "Heroic",
         "sort": 1,
-        "cooldown": 65,
+        "cooldown": 70,
         "abilityId": "Mei|R1",
         "abilityLinks": [
           "Mei|R1"
@@ -231,7 +231,7 @@
         "icon": "storm_ui_icon_mei_r2_icewall.png",
         "type": "Heroic",
         "sort": 2,
-        "cooldown": 90,
+        "cooldown": 70,
         "abilityId": "Mei|R2",
         "abilityLinks": [
           "Mei|R2"
@@ -319,7 +319,7 @@
         "tooltipId": "MeiOWCascade",
         "talentTreeId": "MeiOWCascade",
         "name": "Cascade",
-        "description": "While traveling, Avalanche constantly launches a volley of untalened Snow Blind snowballs ahead of itself.  Passive: Reduce the cooldown of Avalanche by 25 seconds.",
+        "description": "While traveling, Avalanche constantly launches a volley of untalented Snow Blind snowballs ahead of itself.  Passive: Reduce the cooldown of Avalanche by 30 seconds.",
         "icon": "storm_ui_icon_mei_r1_avalanche.png",
         "type": "Heroic",
         "sort": 1,

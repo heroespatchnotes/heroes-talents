@@ -144,10 +144,10 @@
     ],
     "4": [
       {
-        "tooltipId": "GallDoubleBackTalent",
-        "talentTreeId": "GallDoubleBack",
-        "name": "Double Back",
-        "description": "Activate Dread Orb before the second bounce ends to reverse the direction of the third bounce.  Passive: The third bounce of Dread Orb deals 50% more damage to Heroic targets, and 200% more damage to Non-Heroic targets.",
+        "tooltipId": "GallRisingDreadTalent",
+        "talentTreeId": "GallRisingDread",
+        "name": "Rising Dread",
+        "description": "Each bounce of Dread Orb increases its radius by 25% and damage by 25%. Activate Dread Orb before the second bounce ends to reverse the direction of the third bounce.",
         "icon": "storm_ui_icon_gall_chaoscollision.png",
         "type": "W",
         "sort": 1,
@@ -271,17 +271,15 @@
         ]
       },
       {
-        "tooltipId": "GallRisingDreadTalent",
-        "talentTreeId": "GallRisingDread",
-        "name": "Rising Dread",
-        "description": "Each bounce of Dread Orb increases its radius by 25% and damage by 25%.",
-        "icon": "storm_ui_icon_gall_chaoscollision.png",
-        "type": "W",
+        "tooltipId": "GallPsychoticBreakTalent",
+        "talentTreeId": "GallPsychoticBreak",
+        "name": "Psychotic Break",
+        "description": "Increase Gall's damage to enemy Heroes by 10%. Upon dying, Gall gains Ogre Rage and can use Abilities for 10 seconds.",
+        "icon": "storm_ui_icon_gall_psychoticbreak.png",
+        "type": "Passive",
         "sort": 2,
-        "abilityId": "Gall|W1",
-        "abilityLinks": [
-          "Gall|W1"
-        ]
+        "abilityId": "Gall|Passive",
+        "abilityLinks": []
       },
       {
         "tooltipId": "GallTwilightNovaTalent",
@@ -376,14 +374,15 @@
         ]
       },
       {
-        "tooltipId": "GallPsychoticBreakTalent",
-        "talentTreeId": "GallPsychoticBreak",
-        "name": "Psychotic Break",
-        "description": "Upon dying, Gall gains Ogre Rage and can use Abilities for 10 seconds.",
+        "tooltipId": "GallTwilightFrenzy",
+        "talentTreeId": "GallTwilightFrenzy",
+        "name": "Twilight Frenzy",
+        "description": "Activate to reduce the cooldowns of Shadowflame and Dread Orb to 2 seconds for the next 6 seconds.",
         "icon": "storm_ui_icon_gall_psychoticbreak.png",
-        "type": "Passive",
+        "type": "Active",
         "sort": 4,
-        "abilityId": "Gall|Passive"
+        "cooldown": 30,
+        "abilityId": "Gall|Active"
       }
     ]
   }
