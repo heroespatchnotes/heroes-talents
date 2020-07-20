@@ -120,11 +120,11 @@
         "tooltipId": "GarroshArmorUpBodyCheck",
         "talentTreeId": "GarroshArmorUpBodyCheck",
         "name": "Body Check",
-        "description": "Activate to deal 111 (+4% per level) damage to a target enemy and Slow them by 35% for 2 seconds. Enemy Heroes hit receive 30% reduced healing for 3 seconds.",
+        "description": "Activate to deal 111 (+4% per level) damage to a target enemy and Slow them by 35% for 3 seconds. Enemy Heroes hit receive 30% reduced healing for 3 seconds.",
         "icon": "storm_ui_icon_garrosh_slam.png",
         "type": "Active",
         "sort": 3,
-        "cooldown": 16,
+        "cooldown": 15,
         "abilityId": "Garrosh|Active"
       }
     ],
@@ -277,29 +277,16 @@
     ],
     "16": [
       {
-        "tooltipId": "GarroshGroundbreakerRoughLanding",
-        "talentTreeId": "GarroshGroundbreakerRoughLanding",
-        "name": "Rough Landing",
-        "description": "Increase Groundbreaker's Slow amount by 10% and duration by 1 second.",
-        "icon": "storm_ui_icon_garrosh_groundbreaker.png",
-        "type": "Q",
-        "sort": 1,
-        "abilityId": "Garrosh|Q1",
-        "abilityLinks": [
-          "Garrosh|Q1"
-        ]
-      },
-      {
         "tooltipId": "GarroshGroundbreakerMortalCombo",
         "talentTreeId": "GarroshGroundbreakerMortalCombo",
         "name": "Mortal Combo",
         "description": "Hitting a Hero with Groundbreaker's Stun and throwing them with Wrecking Ball within 3 seconds reduces Wrecking Ball's cooldown by 10 seconds, regardless of order.",
-        "icon": "storm_ui_icon_garrosh_groundbreaker_var1.png",
-        "type": "Q",
-        "sort": 2,
-        "abilityId": "Garrosh|Q1",
+        "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
+        "type": "E",
+        "sort": 1,
+        "abilityId": "Garrosh|E1",
         "abilityLinks": [
-          "Garrosh|Q1"
+          "Garrosh|E1"
         ]
       },
       {
@@ -307,12 +294,25 @@
         "talentTreeId": "GarroshWreckingBallEarthshaker",
         "name": "Earthshaker",
         "description": "Wrecking Ball Stuns enemies near the impact area for 0.5 seconds.",
-        "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
+        "icon": "storm_ui_icon_garrosh_intothefray.png",
         "type": "E",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Garrosh|E1",
         "abilityLinks": [
           "Garrosh|E1"
+        ]
+      },
+      {
+        "tooltipId": "GarroshArmorUpSeasonedSoldier",
+        "talentTreeId": "GarroshArmorUpSeasonedSoldier",
+        "name": "Seasoned Soldier",
+        "description": "Gain 5% maximum Health, increase Groundbreaker's Slow duration by 1 second, and Bloodthirst gains an additional charge.",
+        "icon": "storm_ui_icon_garrosh_armor_up.png",
+        "type": "Active",
+        "sort": 3,
+        "abilityId": "Garrosh|Active",
+        "abilityLinks": [
+          "Garrosh|D1"
         ]
       }
     ],
@@ -321,7 +321,7 @@
         "tooltipId": "GarroshWarlordsChallengeDeathWish",
         "talentTreeId": "GarroshWarlordsChallengeDeathWish",
         "name": "Death Wish",
-        "description": "If an enemy Hero is killed while Taunted by Warlord's Challenge, its cooldown is reduced by 45 seconds.",
+        "description": "Increase the duration of Warlord's Challenge by 0.5 seconds.  If an enemy Hero is killed while Taunted by Warlord's Challenge, its cooldown is reduced by 45 seconds.",
         "icon": "storm_ui_icon_garrosh_warlords_challenge.png",
         "type": "Heroic",
         "sort": 1,
@@ -334,7 +334,7 @@
         "tooltipId": "GarroshDecimateDeadlyCalm",
         "talentTreeId": "GarroshDecimateDeadlyCalm",
         "name": "Deadly Calm",
-        "description": "Heroes hit by Decimate deal 25% less damage for 3 seconds.",
+        "description": "Heroes hit by Decimate deal 40% less damage for 3 seconds.",
         "icon": "storm_ui_icon_garrosh_decimate.png",
         "type": "Heroic",
         "sort": 2,
@@ -360,7 +360,7 @@
         "tooltipId": "GarroshArmorUpInnerRage",
         "talentTreeId": "GarroshArmorUpInnerRage",
         "name": "Inner Rage",
-        "description": "Body Check gains an additional charge, and its cooldown recharges 100% faster while Armor Up's bonus is at or above 25.",
+        "description": "Body Check gains an additional charge and its healing reduction is increased by an additional 45%.",
         "icon": "storm_ui_icon_garrosh_slam.png",
         "type": "Active",
         "sort": 4,
