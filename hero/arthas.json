@@ -96,7 +96,7 @@
         "tooltipId": "ArthasFrostPresenceHowlingBlastTalent",
         "talentTreeId": "ArthasMasteryFrostPresenceHowlingBlast",
         "name": "Frost Presence",
-        "description": "Quest: Root enemy Heroes with Howling Blast.  Reward: After Rooting 5 Heroes, Howling Blast's cooldown is reduced by 2 seconds.  Reward: After Rooting 10 Heroes, Howling Blast's range is increased by 30%.  Reward: After Rooting 20 Heroes, Howling Blast also Roots enemies in its path.",
+        "description": "Quest: Root enemy Heroes with Howling Blast.  Reward: After Rooting 5 Heroes, Howling Blast's cooldown is reduced by 2 seconds.  Reward: After Rooting 10 Heroes, Howling Blast's range is increased by 20%.  Reward: After Rooting 20 Heroes, Howling Blast also Roots enemies in its path.",
         "icon": "storm_ui_icon_arthas_howlingblast.png",
         "type": "W",
         "sort": 1,
@@ -352,12 +352,14 @@
         "tooltipId": "ArthasDeathsAdvanceTalent",
         "talentTreeId": "ArthasDeathsAdvance",
         "name": "Death's Advance",
-        "description": "Activate to increase Movement Speed by 30% for 5 seconds.  Passive: Increases Movement Speed by 10%.",
-        "icon": "storm_ui_icon_talent_deaths_advance.png",
-        "type": "Active",
+        "description": "Increases Movement Speed by 10%. Frozen Tempest's maximum Movement Speed Slow and Attack Speed Slow increased from 40% to 60%",
+        "icon": "storm_ui_icon_arthas_frosentempest.png",
+        "type": "E",
         "sort": 3,
-        "cooldown": 50,
-        "abilityId": "Arthas|Active"
+        "abilityId": "Arthas|E1",
+        "abilityLinks": [
+          "Arthas|E1"
+        ]
       },
       {
         "tooltipId": "ArthasAntiMagicShellTalent",
