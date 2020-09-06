@@ -40,8 +40,8 @@
         "description": "Deals 68 (+4% per level) damage to nearby enemies, knocking them back.",
         "hotkey": "W",
         "abilityId": "ETC|W1",
-        "cooldown": 10,
-        "manaCost": 50,
+        "cooldown": 12,
+        "manaCost": 55,
         "icon": "storm_ui_icon_etc_facemelt.png",
         "type": "basic"
       },
@@ -95,7 +95,7 @@
         "tooltipId": "L90ETCGuitarSoloGuitarHeroTalent",
         "talentTreeId": "ETCMasteryGuitarHero",
         "name": "Guitar Hero",
-        "description": "While Guitar Solo is active, E.T.C. heals for 60% of his damage dealt by Basic Attacks.  Basic Attacks increase the duration of Guitar Solo by 0.25 seconds.",
+        "description": "While Guitar Solo is active, E.T.C. heals for 50% of his damage dealt by Basic Attacks.  Basic Attacks increase the duration of Guitar Solo by 0.5 seconds.",
         "icon": "storm_ui_icon_etc_guitarsolo.png",
         "type": "E",
         "sort": 1,
@@ -137,7 +137,7 @@
         "tooltipId": "ETCCrowdSurfer",
         "talentTreeId": "ETCCrowdSurfer",
         "name": "Crowd Surfer",
-        "description": "Allows Powerslide to travel over walls and terrain.",
+        "description": "Allows Powerslide to travel over walls and terrain. If no enemies are hit, reduce the cooldown by 5 seconds and refund the Mana cost.",
         "icon": "storm_ui_icon_etc_powerslide.png",
         "type": "Q",
         "sort": 1,
@@ -188,24 +188,24 @@
         ]
       },
       {
+        "tooltipId": "ETCHammeronTalent",
+        "talentTreeId": "ETCMasteryHammeron",
+        "name": "Hammer-on",
+        "description": "While Guitar Solo is active your Basic Attacks deal 30% more damage.",
+        "icon": "storm_ui_icon_etc_guitarsolo.png",
+        "type": "E",
+        "sort": 2,
+        "abilityId": "ETC|E1",
+        "abilityLinks": [
+          "ETC|E1"
+        ]
+      },
+      {
         "tooltipId": "L90ETCRockstarEchoPedalTalent",
         "talentTreeId": "ETCCombatStyleEchoPedal",
         "name": "Echo Pedal",
         "description": "Using a Basic or Heroic Ability releases two pulses of 15 (+4% per level) damage.  This deals 250% bonus damage to Minions, Mercenaries, and Monsters. The first occurs instantly, the second occurs 2 seconds later.",
         "icon": "storm_ui_icon_etc_echopedal.png",
-        "type": "Passive",
-        "sort": 2,
-        "abilityId": "ETC|Passive",
-        "abilityLinks": [
-          "ETC|D1"
-        ]
-      },
-      {
-        "tooltipId": "ETCHammeronTalent",
-        "talentTreeId": "ETCMasteryHammeron",
-        "name": "Hammer-on",
-        "description": "After using an Ability, E.T.C.'s next 2 Basic Attacks deal 40% more damage.",
-        "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
         "sort": 3,
         "abilityId": "ETC|Passive",
@@ -262,7 +262,7 @@
         "tooltipId": "ETCEncoreTalent",
         "talentTreeId": "ETCMasteryEncore",
         "name": "Encore",
-        "description": "Face Melt leaves an Amp behind, which will knock enemies away again 2 seconds later.",
+        "description": "Face Melt leaves an Amp behind, which will knock enemies away again 2 seconds later.  Passive: Each enemy Hero hit by Face Melt or the Amp reduces your Heroic Ability cooldown by 8%.",
         "icon": "storm_ui_icon_etc_facemelt_a.png",
         "type": "W",
         "sort": 2,
@@ -342,7 +342,7 @@
         "tooltipId": "ETCStageDiveCrowdPleaserTalent",
         "talentTreeId": "L90ETCMasteryStageDiveCrowdPleaser",
         "name": "Crowd Pleaser",
-        "description": "Stage Dive's impact area is 50% bigger, and its cooldown is reduced by 10 seconds for every enemy Hero hit.",
+        "description": "Stage Dive's impact area is 50% bigger, and its Slow is increased by 30%.",
         "icon": "storm_ui_icon_etc_stagedive.png",
         "type": "Heroic",
         "sort": 2,

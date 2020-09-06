@@ -25,7 +25,7 @@
       {
         "uid": "0dce1c",
         "name": "Storm Bolt",
-        "description": "Throw a hammer, dealing 110 (+4% per level) damage to the first enemy hit and Stunning them for 1.25 seconds.  Quest: Hit 25 Heroes with Storm Bolt. Heroes who die within 2.5 seconds of being hit by Storm Bolt count as hitting 3 additional Heroes.  Reward: Storm Bolt pierces to hit an additional target, and Muradin's Basic Attacks reduce the cooldown of Storm Bolt by 1 second.",
+        "description": "Throw a hammer, dealing 110 (+4% per level) damage to the first enemy hit and Stunning them for 1.25 seconds.  Quest: Hit 25 Heroes with Storm Bolt. Heroes who die within 2.5 seconds of being hit by Storm Bolt count as hitting 3 additional Heroes.  Reward: Storm Bolt pierces to hit an additional target. Muradin's Basic Attacks reduce the cooldown of Storm Bolt by 1 second and restore 3 Mana.",
         "hotkey": "Q",
         "abilityId": "Muradin|Q1",
         "cooldown": 10,
@@ -36,7 +36,7 @@
       {
         "uid": "c201dc",
         "name": "Thunder Clap",
-        "description": "Blast nearby enemies for 96 (+4% per level) damage and Slow them by 25% for 2.5 seconds. Heroes hit also have their Attack Speed reduced by 25% for the duration.",
+        "description": "Blast nearby enemies for 96 (+4% per level) damage and Slow them by 30% for 2.5 seconds. Heroes hit also have their Attack Speed reduced by 30% for the duration.",
         "hotkey": "W",
         "abilityId": "Muradin|W1",
         "cooldown": 8,
@@ -149,7 +149,7 @@
         "tooltipId": "MuradinThunderclapReverberationTalent",
         "talentTreeId": "MuradinMasteryThunderclapReverberation",
         "name": "Reverberation",
-        "description": "Increases the Attack Speed Slow of Thunder Clap from 25% to 50% and the duration from 2.5 seconds to 3.5 seconds. Each enemy Hero hit reduces your Heroic Ability cooldown by 5%.",
+        "description": "Increases the Attack Speed Slow of Thunder Clap from 30% to 50% and the duration from 2.5 seconds to 3.5 seconds. Each enemy Hero hit reduces your Heroic Ability cooldown by 5%.",
         "icon": "storm_ui_icon_muradin_thunderclap.png",
         "type": "W",
         "sort": 2,

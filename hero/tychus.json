@@ -233,7 +233,7 @@
         "tooltipId": "TychusRelentlessSoldierTalent",
         "talentTreeId": "TychusRelentlessSoldier",
         "name": "Relentless Soldier",
-        "description": "Being Stunned or Rooted grants 25 Armor for 3 seconds, reducing damage taken by 25%.",
+        "description": "Being Stunned or Rooted grants 30 Armor for 3 seconds, reducing damage taken by 30%.",
         "icon": "storm_ui_icon_talent_relentless.png",
         "type": "Passive",
         "sort": 3,
@@ -272,13 +272,26 @@
     ],
     "13": [
       {
+        "tooltipId": "TychusOverkillSprayNPrayTalent",
+        "talentTreeId": "TychusMasterySprayNPray",
+        "name": "Spray 'n' Pray",
+        "description": "Overkill Slows enemy Movement Speed by 25% and its range is increased by 25%.",
+        "icon": "storm_ui_icon_tychus_overkill.png",
+        "type": "Q",
+        "sort": 1,
+        "abilityId": "Tychus|Q1",
+        "abilityLinks": [
+          "Tychus|Q1"
+        ]
+      },
+      {
         "tooltipId": "TychusThatsTheStuff",
         "talentTreeId": "TychusThatsTheStuff",
         "name": "That's the Stuff!",
         "description": "Minigun heals Tychus for 100% of the bonus damage dealt after it expires.",
         "icon": "storm_ui_icon_tychus_minigun.png",
         "type": "Trait",
-        "sort": 1,
+        "sort": 2,
         "abilityId": "Tychus|D1",
         "abilityLinks": [
           "Tychus|D1"
@@ -288,65 +301,52 @@
         "tooltipId": "TychusNeosteelCoatingTalent",
         "talentTreeId": "TychusNeosteelCoating",
         "name": "Neosteel Coating",
-        "description": "Activate to gain 75 Spell Armor for 3 seconds, reducing Ability Damage taken by 75%.",
+        "description": "Activate to gain 75 Spell Armor for 4 seconds, reducing Ability Damage taken by 75%.",
         "icon": "storm_temp_btn-upgrade-terran-neosteelframe.png",
         "type": "Active",
-        "sort": 2,
+        "sort": 3,
         "cooldown": 30,
         "abilityId": "Tychus|Active"
-      },
-      {
-        "tooltipId": "TychusOverkillSprayNPrayTalent",
-        "talentTreeId": "TychusMasterySprayNPray",
-        "name": "Spray 'n' Pray",
-        "description": "Increases Overkill's range by 25%.",
-        "icon": "storm_ui_icon_tychus_overkill.png",
-        "type": "Q",
-        "sort": 3,
-        "abilityId": "Tychus|Q1",
-        "abilityLinks": [
-          "Tychus|Q1"
-        ]
       }
     ],
     "16": [
       {
+        "tooltipId": "TychusOverkillArmorPiercingRoundsTalent",
+        "talentTreeId": "TychusMasteryOverkillArmorPiercingRounds",
+        "name": "Armor Piercing Rounds",
+        "description": "Each time Overkill hits an enemy, its damage against them is increased by 15%, stacking up to 60% bonus damage.",
+        "icon": "storm_ui_icon_tychus_overkill.png",
+        "type": "Q",
+        "sort": 1,
+        "abilityId": "Tychus|Q1",
+        "abilityLinks": [
+          "Tychus|Q1"
+        ]
+      },
+      {
         "tooltipId": "TychusFragGrenadeTitanGrenadeTalent",
         "talentTreeId": "TychusMasteryFragGrenadeTitanGrenade",
         "name": "Titan Grenade",
-        "description": "Frag Grenade deals bonus damage to Heroes equal to 5% of their maximum Health.",
+        "description": "Frag Grenade deals bonus damage to Heroes equal to 5% of their maximum Health.  Each enemy Hero hit by Frag Grenade reduces its cooldown by 1 second.",
         "icon": "storm_ui_icon_tychus_fraggrenade.png",
         "type": "W",
-        "sort": 1,
+        "sort": 2,
         "abilityId": "Tychus|W1",
         "abilityLinks": [
           "Tychus|W1"
         ]
       },
       {
-        "tooltipId": "TychusOverkillLeadRainTalent",
-        "talentTreeId": "TychusMasteryLeadRain",
-        "name": "Lead Rain",
-        "description": "Overkill also Slows enemy Movement Speed by 30%.",
-        "icon": "storm_ui_icon_tychus_overkill.png",
-        "type": "Q",
-        "sort": 2,
-        "abilityId": "Tychus|Q1",
-        "abilityLinks": [
-          "Tychus|Q1"
-        ]
-      },
-      {
-        "tooltipId": "TychusOverkillArmorPiercingRoundsTalent",
-        "talentTreeId": "TychusMasteryOverkillArmorPiercingRounds",
-        "name": "Armor Piercing Rounds",
-        "description": "Increases Overkill's damage to the primary target by 50%.",
-        "icon": "storm_ui_icon_tychus_overkill_a.png",
-        "type": "Q",
+        "tooltipId": "TychusSizzlinAttacks",
+        "talentTreeId": "TychusSizzlinAttacks",
+        "name": "Sizzlin' Attacks",
+        "description": "Basic Attacks deal bonus damage to Heroes equal to 1% of their maximum Health. Stacks with Minigun.",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Tychus|Q1",
+        "abilityId": "Tychus|D1",
         "abilityLinks": [
-          "Tychus|Q1"
+          "Tychus|D1"
         ]
       }
     ],
@@ -379,16 +379,16 @@
         ]
       },
       {
-        "tooltipId": "TychusSizzlinAttacks",
-        "talentTreeId": "TychusSizzlinAttacks",
-        "name": "Sizzlin' Attacks",
-        "description": "Basic Attacks deal bonus damage to Heroes equal to 1% of their maximum Health. Stacks with Minigun.",
-        "icon": "storm_ui_icon_talent_autoattack_damage.png",
-        "type": "Trait",
+        "tooltipId": "TychusOverkillCanDoThisAllDayTalent",
+        "talentTreeId": "TychusCanDoThisAllDayOverkillTalent",
+        "name": "Can Do This All Day",
+        "description": "Reduce Overkill's cooldown by 4 seconds.  While Channeling Overkill, Tychus gains 40 Armor.",
+        "icon": "storm_ui_icon_tychus_overkill.png",
+        "type": "Q",
         "sort": 3,
-        "abilityId": "Tychus|D1",
+        "abilityId": "Tychus|Q1",
         "abilityLinks": [
-          "Tychus|D1"
+          "Tychus|Q1"
         ]
       },
       {

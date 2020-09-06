@@ -102,27 +102,27 @@
         ]
       },
       {
-        "tooltipId": "ChoFuelForTheFlameTalent",
-        "talentTreeId": "ChoFuelForTheFlame",
-        "name": "Fuel for the Flame",
-        "description": "Quest: Every Minion killed near Cho increases the amount healed by Consuming Blaze by 0.3%.  Quest: Every Hero Takedown increases the amount healed by Consuming Blaze by 3%.",
-        "icon": "storm_ui_icon_cho_consumingflame_var1.png",
-        "type": "W",
-        "sort": 2,
-        "isQuest": true,
-        "abilityId": "Chogall|W1",
-        "abilityLinks": [
-          "Chogall|W1"
-        ]
-      },
-      {
         "tooltipId": "ChoCallousedHide",
         "talentTreeId": "ChoCallousedHide",
         "name": "Calloused Hide",
         "description": "While under 60% maximum Health, Cho gains 15% increased Movement Speed and healing received.",
         "icon": "storm_ui_icon_cho_ogrehide.png",
         "type": "Trait",
+        "sort": 2,
+        "abilityId": "Chogall|D1",
+        "abilityLinks": [
+          "Chogall|D1"
+        ]
+      },
+      {
+        "tooltipId": "ChoTheWillofCho",
+        "talentTreeId": "ChoTheWillofCho",
+        "name": "The Will of Cho",
+        "description": "Quest: Killing enemy Minions grants 1 stack of The Will of Cho, and Hero takedowns grant 10 stacks.  Gain 1 Armor for every 30 stacks of The Will of Cho, up to a maximum of 10 Armor.  This Armor bonus stacks with Ogre Hide.",
+        "icon": "storm_ui_icon_cho_ogrehide_var1.png",
+        "type": "Trait",
         "sort": 3,
+        "isQuest": true,
         "abilityId": "Chogall|D1",
         "abilityLinks": [
           "Chogall|D1"
@@ -134,7 +134,7 @@
         "tooltipId": "ChoUppercut",
         "talentTreeId": "ChoUppercut",
         "name": "Uppercut",
-        "description": "Surging Fist deals additional damage to Heroes equal to 7% of their max Health.",
+        "description": "Hitting an enemy Hero with Surging Fist deals additional damage to Heroes equal to 5% of their max Health and reduces the cooldown of Surging Fist by 5 seconds.",
         "icon": "storm_ui_icon_cho_moltensurge_a.png",
         "type": "Q",
         "sort": 1,
@@ -160,7 +160,7 @@
         "tooltipId": "ChoSearedFleshTalent",
         "talentTreeId": "ChoSearedFlesh",
         "name": "Seared Flesh",
-        "description": "Each consecutive Basic Attack to an enemy Hero deals 20% more damage, to a maximum of 60% damage. This bonus lasts 5 seconds or until a different enemy is attacked.",
+        "description": "Each consecutive Basic Attack to enemy Heroes deals 20% more damage, to a maximum of 60% damage. This bonus lasts 5 seconds or until a non-Heroic enemy is attacked.",
         "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
         "sort": 3,
@@ -172,7 +172,7 @@
         "tooltipId": "ChoPowerSurgeTalent",
         "talentTreeId": "ChoPowerSurge",
         "name": "Power Surge",
-        "description": "Each Hero hit by Surging Fist reduces its cooldown by 5 seconds.",
+        "description": "Enemy Heroes who are hit by Surging Fist are Slowed by 30% for 2.5 seconds.  Gain 15% Movement Speed while charging Surging Fist and for 2.5 seconds after casting the Ability.",
         "icon": "storm_ui_icon_cho_moltensurge_a.png",
         "type": "Q",
         "sort": 1,
@@ -306,7 +306,7 @@
         "tooltipId": "ChoRunedGauntletTalent",
         "talentTreeId": "ChoRunedGauntlet",
         "name": "Runed Gauntlet",
-        "description": "Basic Attacks reduce the cooldown of Cho and Gall's Heroic Abilities by 5%.",
+        "description": "Basic Attacks reduce the cooldown of Cho and Gall's Heroic Abilities by 6%.",
         "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
         "type": "Passive",
         "sort": 3,
@@ -341,17 +341,15 @@
         ]
       },
       {
-        "tooltipId": "ChoTheWillofCho",
-        "talentTreeId": "ChoTheWillofCho",
-        "name": "The Will of Cho",
-        "description": "Takedowns permanently increase the Armor granted by Ogre Hide by 2, to a max of 50 extra Armor.",
-        "icon": "storm_ui_icon_cho_ogrehide.png",
-        "type": "Trait",
+        "tooltipId": "ChoFuelForTheFlameTalent",
+        "talentTreeId": "ChoFuelForTheFlame",
+        "name": "Fuel for the Flame",
+        "description": "Basic Attacks against enemies cause them to explode, dealing 21 (+4% per level) damage to them and 45 (+4% per level) damage to nearby enemies.  This damage is doubled against enemy Heroes.",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "type": "Passive",
         "sort": 3,
-        "abilityId": "Chogall|D1",
-        "abilityLinks": [
-          "Chogall|D1"
-        ]
+        "abilityId": "Chogall|Passive",
+        "abilityLinks": []
       },
       {
         "tooltipId": "ChoHourofTwilight",
