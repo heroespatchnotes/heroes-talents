@@ -73,8 +73,8 @@
         "description": "After 0.25 seconds, fire a missile that Mind Controls the first enemy Hero hit. Heroes hit are Silenced, Slowed by 30%, have 3 stacks of Banshee's Curse applied to them, and are forced to walk towards Sylvanas for 1.75 seconds.",
         "hotkey": "R",
         "abilityId": "Sylvanas|R2",
-        "cooldown": 50,
-        "manaCost": 75,
+        "cooldown": 40,
+        "manaCost": 50,
         "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
         "type": "heroic"
       },
@@ -237,7 +237,7 @@
         "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
         "type": "Heroic",
         "sort": 2,
-        "cooldown": 50,
+        "cooldown": 40,
         "abilityId": "Sylvanas|R2",
         "abilityLinks": [
           "Sylvanas|R2"
@@ -339,7 +339,7 @@
         "tooltipId": "SylvanasDarkLadysCallMindControlTalent",
         "talentTreeId": "SylvanasDarkLadysCall",
         "name": "Dark Lady's Call",
-        "description": "Heroes hit by Mind Control have their vision radius greatly reduced for 5 seconds. Mind Control's cooldown is reduced by 30 seconds.",
+        "description": "Heroes hit by Mind Control have their vision radius greatly reduced for 5 seconds. Mind Control's cooldown is reduced by 25 seconds.",
         "icon": "storm_ui_icon_sylvanas_mindcontrol.png",
         "type": "Heroic",
         "sort": 2,
@@ -352,7 +352,7 @@
         "tooltipId": "SylvanasWitheringFireWitheringBarrage",
         "talentTreeId": "SylvanasTalentWitheringBarrage",
         "name": "Withering Barrage",
-        "description": "Enemy Heroes hit by Withering Fire reduce its cooldown by 0.75 seconds.",
+        "description": "Withering Fire applies Banshee's Curse, and Heroes hit by Withering Fire reduce its cooldown by 0.75 seconds.",
         "icon": "storm_ui_icon_sylvanas_witheringfire.png",
         "type": "Q",
         "sort": 3,
