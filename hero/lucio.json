@@ -67,11 +67,11 @@
       {
         "uid": "fb6e89",
         "name": "High Five",
-        "description": "Quickly skate to an allied Hero. Upon arrival, the ally is granted Unstoppable for 1 second and is healed for 250 (+4% per level).",
+        "description": "Quickly skate to an allied Hero. Upon arrival the ally is healed for 250 (+4% per level), Lúcio is healed for 125 (+4% per level), and both gain Unstoppable for 1 second.",
         "hotkey": "R",
         "abilityId": "Lucio|R2",
-        "cooldown": 15,
-        "manaCost": 35,
+        "cooldown": 20,
+        "manaCost": 30,
         "icon": "storm_ui_icon_lucio_highfive.png",
         "type": "heroic"
       },
@@ -187,7 +187,7 @@
         "tooltipId": "LucioSoundwaveGoodVibrations",
         "talentTreeId": "LucioSoundwaveGoodVibrations",
         "name": "Good Vibrations",
-        "description": "Hitting an enemy with Soundwave grants Lúcio a 35 (+4% per level) Shield for 7 seconds. Hitting enemy Heroes grants 3 times this amount.",
+        "description": "Hitting an enemy with Soundwave grants Lúcio a 38 (+4% per level) Shield for 7 seconds. Hitting enemy Heroes grants 3 times this amount.",
         "icon": "storm_ui_icon_lucio_soundwave_a.png",
         "type": "Q",
         "sort": 1,
@@ -213,7 +213,7 @@
         "tooltipId": "LucioBoomboxBoombox",
         "talentTreeId": "LucioBoombox",
         "name": "Boombox",
-        "description": "Place a boombox that plays Lúcio's active Crossfade track for 30 seconds. Its volume adjusts with Amp It Up.  Crossfade tracks do not stack.",
+        "description": "Place a boombox that plays Lúcio's active Crossfade track. Its volume adjusts with Amp It Up.  Crossfade tracks do not stack.",
         "icon": "storm_ui_icon_lucio_fineshrine.png",
         "type": "Active",
         "sort": 3,
@@ -240,11 +240,11 @@
         "tooltipId": "LucioHighFive",
         "talentTreeId": "LucioHighFive",
         "name": "High Five",
-        "description": "Quickly skate to an allied Hero. Upon arrival, the ally is granted Unstoppable for 1 second and is healed for 250 (+4% per level).",
+        "description": "Quickly skate to an allied Hero. Upon arrival the ally is healed for 250 (+4% per level), Lúcio is healed for 125 (+4% per level), and both gain Unstoppable for 1 second.",
         "icon": "storm_ui_icon_lucio_highfive.png",
         "type": "Heroic",
         "sort": 2,
-        "cooldown": 15,
+        "cooldown": 20,
         "abilityId": "Lucio|R2",
         "abilityLinks": [
           "Lucio|R2"
@@ -323,12 +323,14 @@
         "tooltipId": "LucioAmpItUpUpToEleven",
         "talentTreeId": "LucioAmpItUpUpToEleven",
         "name": "Up To Eleven",
-        "description": "Activate to extend the duration of Amp It Up by 2 seconds.",
+        "description": "Increase the duration of Amp It Up by 1 second.",
         "icon": "storm_ui_icon_lucio_ampitup_a.png",
-        "type": "Active",
+        "type": "E",
         "sort": 3,
-        "cooldown": 60,
-        "abilityId": "Lucio|Active"
+        "abilityId": "Lucio|E1",
+        "abilityLinks": [
+          "Lucio|E1"
+        ]
       }
     ],
     "20": [
@@ -349,7 +351,7 @@
         "tooltipId": "LucioHighFiveMixingFire",
         "talentTreeId": "LucioCrossfadeMixingFire",
         "name": "Mixing Fire",
-        "description": "High Five can now be cast on enemy Heroes, dealing 225 (+4% per level) damage and reducing all healing received by 50% for 3 seconds.  Passive: Increase the duration of Amp It Up by 1 second.",
+        "description": "High Five can now be cast on enemy Heroes, dealing 225 (+4% per level) damage and reducing all healing received by 50% for 3 seconds.  Passive: Reduce the cost and cooldown of High Five by 50%.",
         "icon": "storm_ui_icon_lucio_highfive.png",
         "type": "Heroic",
         "sort": 2,
@@ -375,11 +377,11 @@
         "tooltipId": "LucioItemSummerAnthem",
         "talentTreeId": "LucioItemSummerAnthem",
         "name": "Summer Anthem",
-        "description": "Activate for all other allies affected by Crossfade to become Unkillable for 1.5 seconds.",
+        "description": "Activate for allies affected by Crossfade to become Unkillable for 1.5 seconds.",
         "icon": "storm_ui_icon_lucio_crossfade_a.png",
         "type": "Active",
         "sort": 4,
-        "cooldown": 75,
+        "cooldown": 60,
         "abilityId": "Lucio|Active",
         "abilityLinks": [
           "Lucio|W1"

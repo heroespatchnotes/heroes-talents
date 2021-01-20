@@ -314,13 +314,15 @@
         "tooltipId": "KaelthasVerdantSpheresTwinSpheresTalent",
         "talentTreeId": "KaelthasTwinSpheres",
         "name": "Twin Spheres",
-        "description": "Verdant Spheres gains a second charge.",
+        "description": "Verdant Spheres gains a second charge.  Passive: Kael'thas benefits from all of his level 7 talents.",
         "icon": "storm_ui_icon_kaelthas_verdantspheres.png",
         "type": "Trait",
         "sort": 3,
         "abilityId": "Kaelthas|D1",
         "abilityLinks": [
-          "Kaelthas|D1"
+          "Kaelthas|D1",
+          "Kaelthas|Q1",
+          "Kaelthas|W1"
         ]
       }
     ],
