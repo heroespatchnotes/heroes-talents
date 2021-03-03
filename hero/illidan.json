@@ -125,48 +125,6 @@
     ],
     "4": [
       {
-        "tooltipId": "IllidanDiveRapidChaseTalent",
-        "talentTreeId": "IllidanMasteryRapidChaseDive",
-        "name": "Rapid Chase",
-        "description": "Dive grants 20% Movement Speed for 3 seconds. If the target is an enemy Hero, reduce its cooldown by 1 second.",
-        "icon": "storm_ui_icon_illidan_dive.png",
-        "type": "Q",
-        "sort": 1,
-        "abilityId": "Illidan|Q1",
-        "abilityLinks": [
-          "Illidan|Q1"
-        ]
-      },
-      {
-        "tooltipId": "IllidanDiveFriendOrFoeTalent",
-        "talentTreeId": "IllidanMasteryFriendOrFoeDive",
-        "name": "Friend or Foe",
-        "description": "Increases the range of Dive by 20% and allows it to be used to dive to allied Heroes.",
-        "icon": "storm_ui_icon_illidan_dive_a.png",
-        "type": "Q",
-        "sort": 2,
-        "abilityId": "Illidan|Q1",
-        "abilityLinks": [
-          "Illidan|Q1"
-        ]
-      },
-      {
-        "tooltipId": "IllidanSweepingStrikeUnboundTalent",
-        "talentTreeId": "IllidanMasteryUnboundSweepingStrike",
-        "name": "Unbound",
-        "description": "Sweeping Strike can go over walls and terrain.  Reward: After hitting 30 Heroes with Sweeping Strike, gain a second charge.",
-        "icon": "storm_ui_icon_illidan_sweepingstrike.png",
-        "type": "W",
-        "sort": 3,
-        "isQuest": true,
-        "abilityId": "Illidan|W1",
-        "abilityLinks": [
-          "Illidan|W1"
-        ]
-      }
-    ],
-    "7": [
-      {
         "tooltipId": "IllidanEvasionReflexiveBlockTalent",
         "talentTreeId": "IllidanReflexiveBlock",
         "name": "Reflexive Block",
@@ -203,6 +161,48 @@
         "abilityId": "Illidan|D1",
         "abilityLinks": [
           "Illidan|D1"
+        ]
+      }
+    ],
+    "7": [
+      {
+        "tooltipId": "IllidanDiveRapidChaseTalent",
+        "talentTreeId": "IllidanMasteryRapidChaseDive",
+        "name": "Rapid Chase",
+        "description": "Dive grants 20% Movement Speed for 3 seconds. If the target is an enemy Hero, reduce its cooldown by 1 second.",
+        "icon": "storm_ui_icon_illidan_dive.png",
+        "type": "Q",
+        "sort": 1,
+        "abilityId": "Illidan|Q1",
+        "abilityLinks": [
+          "Illidan|Q1"
+        ]
+      },
+      {
+        "tooltipId": "IllidanDiveFriendOrFoeTalent",
+        "talentTreeId": "IllidanMasteryFriendOrFoeDive",
+        "name": "Friend or Foe",
+        "description": "Increases the range of Dive by 20% and allows it to be used to dive to allied Heroes.",
+        "icon": "storm_ui_icon_illidan_dive_a.png",
+        "type": "Q",
+        "sort": 2,
+        "abilityId": "Illidan|Q1",
+        "abilityLinks": [
+          "Illidan|Q1"
+        ]
+      },
+      {
+        "tooltipId": "IllidanSweepingStrikeUnboundTalent",
+        "talentTreeId": "IllidanMasteryUnboundSweepingStrike",
+        "name": "Unbound",
+        "description": "Sweeping Strike can go over walls and terrain.  Reward: After hitting 15 Heroes with Sweeping Strike, gain a second charge.",
+        "icon": "storm_ui_icon_illidan_sweepingstrike.png",
+        "type": "W",
+        "sort": 3,
+        "isQuest": true,
+        "abilityId": "Illidan|W1",
+        "abilityLinks": [
+          "Illidan|W1"
         ]
       }
     ],
