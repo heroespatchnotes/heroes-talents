@@ -24,7 +24,7 @@
       {
         "uid": "a6eba5",
         "name": "Hammerang",
-        "description": "Throw out a Hammer that returns to Falstad, dealing 121 (+4% per level) damage and slowing enemies by 25% for 2 seconds.",
+        "description": "Throw out a Hammer that returns to Falstad, dealing 80 (+4% per level) damage and Slowing enemies hit by 25% for 2 seconds. Reactive to explode the Hammer, dealing 95 (+4% per level) damage to nearby enemies.",
         "hotkey": "Q",
         "abilityId": "Falstad|Q1",
         "cooldown": 10,
@@ -35,7 +35,7 @@
       {
         "uid": "fbe0b2",
         "name": "Lightning Rod",
-        "description": "Deal 107 (+4% per level) damage to an enemy, and an additional 75 (+4% per level) damage per second for 4 seconds while close to the target.",
+        "description": "Deal 107 (+4% per level) damage to an enemy, and an additional 75 (+4% per level) damage per second for 4 seconds while close to the target. Deals 100% increased damage to Minions and Mercenaries.",
         "hotkey": "W",
         "abilityId": "Falstad|W1",
         "cooldown": 13,
@@ -104,7 +104,7 @@
         "tooltipId": "FalstadGatheringStormTalent",
         "talentTreeId": "FalstadHammerangGatheringStorm",
         "name": "Gathering Storm",
-        "description": "Quest: Each time a Hero is hit by Hammerang, its damage is permanently increased by 2 and it refunds 10 Mana.",
+        "description": "Quest: Every time Hammerang hits a Hero increase its damage by 0.2% and refund 6 Mana.",
         "icon": "storm_ui_icon_falstad_hammerang.png",
         "type": "Q",
         "sort": 1,
@@ -115,28 +115,29 @@
         ]
       },
       {
-        "tooltipId": "GenericSeasonedMarksmanTalent",
-        "talentTreeId": "GenericTalentSeasonedMarksman",
-        "name": "Seasoned Marksman",
-        "description": "Quest: Every Minion killed near you grants 0.2 Attack Damage, and Takedowns grant 0.5 Attack Damage.  Reward: Upon gaining 40 bonus Attack Damage, you can also activate Seasoned Marksman to increase your Attack Speed by 40% for 4 seconds. 30 second cooldown.",
-        "icon": "storm_ui_icon_talent_seasonedmarksman.png",
-        "type": "Passive",
+        "tooltipId": "FalstadLightningRodDishonorableDischarge",
+        "talentTreeId": "FalstadLightningRodDishonorableDischarge",
+        "name": "Dishonorable Discharge",
+        "description": "Reduce Lightning Rod's cooldown by 3 seconds, and Takedowns reset its cooldown.  Quest: After 3 Lightning Rod strikes, subsequent strikes on enemy Heroes increases its damage by 1%, up to 75%.",
+        "icon": "storm_ui_icon_falstad_lightningrod.png",
+        "type": "W",
         "sort": 2,
         "isQuest": true,
-        "abilityId": "Falstad|Passive"
-      },
-      {
-        "tooltipId": "FalstadWingmanHotbarTalent",
-        "talentTreeId": "FalstadWingman",
-        "name": "Wingman",
-        "description": "Enemy Minions killed near Falstad grant a stack of Bribe. Falstad can use 20 stacks to bribe a Mercenary, instantly defeating them and permanently increasing the damage of Lightning Rod by 5%.  Does not work on Elite Mercenaries. Maximum of 80 stacks.  Passive: Reduce Lightning Rod's cooldown by 3 seconds.",
-        "icon": "storm_ui_icon_talent_bribe.png",
-        "type": "Active",
-        "sort": 3,
-        "abilityId": "Falstad|Active",
+        "abilityId": "Falstad|W1",
         "abilityLinks": [
           "Falstad|W1"
         ]
+      },
+      {
+        "tooltipId": "FalstadTailwindFrequentFlyer",
+        "talentTreeId": "FalstadTailwindFrequentFlyer",
+        "name": "Frequent Flyer",
+        "description": "Activate Frequent Flyer to gain 40% Attack Speed and Tailwind for 5 seconds.  Quest: Minion kills grant 0.2 Basic Attack Damage. Hero Takedowns grant 0.5 Basic Attack Damage.",
+        "icon": "storm_ui_icon_falstad_tailwind_a.png",
+        "type": "Active",
+        "sort": 3,
+        "isQuest": true,
+        "abilityId": "Falstad|Active"
       }
     ],
     "4": [
@@ -144,7 +145,7 @@
         "tooltipId": "FalstadStaticShieldTalent",
         "talentTreeId": "FalstadMasteryLightningRodStaticShield",
         "name": "Static Shield",
-        "description": "Gain a Shield equal to 4% of Falstad's maximum Health after every Lightning Rod strike. Lasts 4 seconds and stacks.",
+        "description": "Lightning Rod strikes grant a Shield equal to 4% of Falstad's maximum Health, up to 28%, for 4 seconds.",
         "icon": "storm_ui_icon_falstad_lightningrod.png",
         "type": "W",
         "sort": 1,
@@ -195,7 +196,7 @@
         "tooltipId": "FalstadHammerangBOOMerangTalent",
         "talentTreeId": "FalstadHammerangBOOMerang",
         "name": "BOOMerang",
-        "description": "Reactivate Hammerang mid-flight to deal 165 (+4% per level) damage around the hammer.",
+        "description": "Hammerang's explosion deals 75% additional damage, and hitting enemy Heroes reduces their Spell Armor by 15 for 3 seconds.",
         "icon": "storm_ui_icon_falstad_hammerang_a.png",
         "type": "Q",
         "sort": 2,
@@ -276,14 +277,17 @@
         ]
       },
       {
-        "tooltipId": "GenericGiantKiller",
-        "talentTreeId": "GenericTalentGiantKiller",
-        "name": "Giant Killer",
-        "description": "Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health.",
-        "icon": "storm_ui_icon_talent_autoattack_damage.png",
-        "type": "Passive",
+        "tooltipId": "FalstadTailwindSustainedWinds",
+        "talentTreeId": "FalstadTailwindSustainedWinds",
+        "name": "Sustained Winds",
+        "description": "Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health, increased to 2% while Tailwind is active.",
+        "icon": "storm_ui_icon_falstad_tailwind_a.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Falstad|Passive"
+        "abilityId": "Falstad|D1",
+        "abilityLinks": [
+          "Falstad|D1"
+        ]
       }
     ],
     "16": [
@@ -291,7 +295,7 @@
         "tooltipId": "FalstadHammerangCripplingHammerTalent",
         "talentTreeId": "FalstadMasteryCripplingHammerHammerang",
         "name": "Crippling Hammer",
-        "description": "Increases Hammerang's Slow from 25% to 60%.",
+        "description": "Increase Hammerang's Slow from 25% to 50%, and Hammerang's explosion also Slows.",
         "icon": "storm_ui_icon_falstad_hammerang.png",
         "type": "Q",
         "sort": 1,

@@ -46,7 +46,7 @@
       {
         "uid": "5bae6f",
         "name": "Blinding Wind",
-        "description": "Throw a cloud of wind at the 2 nearest enemies (prioritizing Heroes), dealing 133 (+4% per level) damage. Affected targets are Blinded for 1.5 seconds, causing their Basic Attacks to miss and deal no damage.",
+        "description": "Throw a cloud of wind at the 2 nearest enemies (prioritizing Heroes), dealing 133 (+4% per level) damage. Heroes hit are Blinded and Slowed by 15% for 1.5 seconds.",
         "hotkey": "E",
         "abilityId": "LiLi|E1",
         "cooldown": 12,
@@ -71,8 +71,8 @@
         "description": "Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 300 (+4% per level) damage and slowing their Movement Speed by 70% for 4 seconds.",
         "hotkey": "R",
         "abilityId": "LiLi|R2",
-        "cooldown": 45,
-        "manaCost": 50,
+        "cooldown": 50,
+        "manaCost": 60,
         "icon": "storm_ui_icon_lili_waterdragon.png",
         "type": "heroic"
       },
@@ -103,10 +103,10 @@
         ]
       },
       {
-        "tooltipId": "LiLiWindSerpent",
-        "talentTreeId": "LiLiWindSerpent",
-        "name": "Wind Serpent",
-        "description": "Casting Cloud Serpent also launches a Blinding Wind at the nearest enemy to the target (prioritizing Heroes).",
+        "tooltipId": "LiLiSerpentSidekickTalent",
+        "talentTreeId": "LiLiMasteryCloudSerpentSerpentSidekick",
+        "name": "Serpent Sidekick",
+        "description": "Cloud Serpent no longer costs Mana and while Fast Feet is active its cooldown refreshes an additional 75% faster.",
         "icon": "storm_ui_icon_lili_cloudserpent.png",
         "type": "W",
         "sort": 2,
@@ -119,7 +119,7 @@
         "tooltipId": "LiLiEagerAdventurer",
         "talentTreeId": "LiLiEagerAdventurer",
         "name": "Eager Adventurer",
-        "description": "Increase Fast Feet's duration by 125% and increase Mana regeneration by 125% while Fast Feet is active.",
+        "description": "Increase Fast Feet's duration by 150% and increase Mana regeneration by 150% while Fast Feet is active.",
         "icon": "storm_ui_icon_lili_fastfeet.png",
         "type": "Trait",
         "sort": 3,
@@ -131,10 +131,10 @@
     ],
     "4": [
       {
-        "tooltipId": "LiLiSerpentSidekickTalent",
-        "talentTreeId": "LiLiMasteryCloudSerpentSerpentSidekick",
-        "name": "Serpent Sidekick",
-        "description": "Cloud Serpent's duration is increased by 0.6 seconds every time it attacks a Hero.",
+        "tooltipId": "LiLiWindSerpent",
+        "talentTreeId": "LiLiWindSerpent",
+        "name": "Wind Serpent",
+        "description": "Cloud Serpent grants its bearer 10% increased Movement Speed. Casting Blinding Wind increases this bonus to 20% for 3 seconds.  Passive: Cloud Serpent attacks 25% faster.",
         "icon": "storm_ui_icon_lili_cloudserpent.png",
         "type": "W",
         "sort": 1,
@@ -160,11 +160,11 @@
         "tooltipId": "LiLiSafetySprintTalent",
         "talentTreeId": "LiLiMasteryFastFeetSafetySprint",
         "name": "Safety Sprint",
-        "description": "Activate to gain Fast Feet for 3 seconds and increase its Movement Speed bonus to 30% while active.  Passive: Increase the movement speed bonus of Fast Feet to 15%.",
+        "description": "Activate to gain Fast Feet, 30 Armor, and 30% Movement Speed for 3 seconds.  Passive: While Fast Feet is active, Li Li gains 10 Armor.",
         "icon": "storm_ui_icon_lili_fastfeet.png",
         "type": "Trait",
         "sort": 3,
-        "cooldown": 25,
+        "cooldown": 30,
         "abilityId": "LiLi|D1",
         "abilityLinks": [
           "LiLi|D1"
@@ -186,23 +186,23 @@
         ]
       },
       {
-        "tooltipId": "LiLiCloudSerpentLightningSerpentTalent",
-        "talentTreeId": "LiLiMasteryCloudSerpentLightningSerpent",
-        "name": "Lightning Serpent",
-        "description": "Cloud Serpent attacks bounce to hit 2 additional Heroes for 13 (+4% per level) damage and 10 (+4% per level) healing.",
-        "icon": "storm_ui_icon_lili_cloudserpent.png",
-        "type": "W",
+        "tooltipId": "LiLiBlindingWindMassVortexTalent",
+        "talentTreeId": "LiLiMasteryBlindingWindMassVortex",
+        "name": "Mass Vortex",
+        "description": "Increase the number of enemies hit by Blinding Wind from 2 to 3. Blinding Wind deals 75% additional damage if all 3 enemies hit are Heroes.",
+        "icon": "storm_ui_icon_lili_blindingwind.png",
+        "type": "E",
         "sort": 2,
-        "abilityId": "LiLi|W1",
+        "abilityId": "LiLi|E1",
         "abilityLinks": [
-          "LiLi|W1"
+          "LiLi|E1"
         ]
       },
       {
         "tooltipId": "LiLiLetsGo",
         "talentTreeId": "LiLiLetsGo",
         "name": "Let's Go!",
-        "description": "Activate to heal an allied Hero for 140 (+4% per level) and make them Unstoppable for 1 second. Let's Go's cooldown is affected by Fast Feet.  Cannot be used on Li Li.",
+        "description": "Activate to heal an allied Hero for 160 (+4% per level) and make them Unstoppable for 1 second. Let's Go's cooldown is affected by Fast Feet.  Cannot be used on Li Li.",
         "icon": "storm_ui_icon_talent_cleanse.png",
         "type": "Active",
         "sort": 3,
@@ -233,7 +233,7 @@
         "icon": "storm_ui_icon_lili_waterdragon.png",
         "type": "Heroic",
         "sort": 2,
-        "cooldown": 45,
+        "cooldown": 50,
         "abilityId": "LiLi|R2",
         "abilityLinks": [
           "LiLi|R2"
@@ -242,13 +242,26 @@
     ],
     "13": [
       {
+        "tooltipId": "LiLiCloudSerpentLightningSerpentTalent",
+        "talentTreeId": "LiLiMasteryCloudSerpentLightningSerpent",
+        "name": "Lightning Serpent",
+        "description": "Cloud Serpent attacks bounce to hit 2 additional targets for 13 (+4% per level) damage and 10 (+4% per level) healing.",
+        "icon": "storm_ui_icon_lili_cloudserpent.png",
+        "type": "W",
+        "sort": 1,
+        "abilityId": "LiLi|W1",
+        "abilityLinks": [
+          "LiLi|W1"
+        ]
+      },
+      {
         "tooltipId": "LiLiBlindingWindGaleForceTalent",
         "talentTreeId": "LiLiMasteryBlindingWindGaleForce",
         "name": "Gale Force",
-        "description": "Increase Blinding Wind's duration by 0.75 seconds. Li Li's Basic Attacks against Blinded Heroes deal 75% increased damage.",
+        "description": "Increase Blinding Wind's Blind duration by 0.75 seconds. Li Li's Basic Attacks against Blinded Heroes deal 100% increased damage.",
         "icon": "storm_ui_icon_lili_blindingwind.png",
         "type": "E",
-        "sort": 1,
+        "sort": 2,
         "abilityId": "LiLi|E1",
         "abilityLinks": [
           "LiLi|E1"
@@ -258,21 +271,8 @@
         "tooltipId": "LiLiHinderingWinds",
         "talentTreeId": "LiLiHinderingWinds",
         "name": "Hindering Winds",
-        "description": "Blinding Wind Slows enemy Hero Movement Speed by 25% for 2 seconds.",
+        "description": "Increase Blinding Wind's Slow amount to 30% and its duration to 2 seconds.",
         "icon": "storm_ui_icon_lili_blindingwind_a.png",
-        "type": "E",
-        "sort": 2,
-        "abilityId": "LiLi|E1",
-        "abilityLinks": [
-          "LiLi|E1"
-        ]
-      },
-      {
-        "tooltipId": "LiLiBlindingWindMassVortexTalent",
-        "talentTreeId": "LiLiMasteryBlindingWindMassVortex",
-        "name": "Mass Vortex",
-        "description": "Increase the number of enemies hit by Blinding Wind from 2 to 3. Blinding Wind deals 75% additional damage if all 3 enemies hit are Heroes.",
-        "icon": "storm_ui_icon_lili_blindingwind_b.png",
         "type": "E",
         "sort": 3,
         "abilityId": "LiLi|E1",
@@ -312,7 +312,7 @@
         "tooltipId": "LiLiBlessingsOfYulon",
         "talentTreeId": "LiLiBlessingsOfYulon",
         "name": "Blessings Of Yu'lon",
-        "description": "Cloud Serpent heals its bearer for an additional 1% of their maximum Health each time it attacks.",
+        "description": "Cloud Serpent grants its bearer 10% increased healing received and heals them for an additional 0.5% of their maximum Health each time it attacks.",
         "icon": "storm_ui_icon_lili_cloudserpent.png",
         "type": "W",
         "sort": 3,
@@ -364,7 +364,7 @@
         "tooltipId": "LiLiShakeItOffTalent",
         "talentTreeId": "LiLiShakeItOff",
         "name": "Shake It Off",
-        "description": "Gain 8 Armor per second while Fast Feet is active, up to 30 Armor.",
+        "description": "Gain 35 Armor while Stunned, Silenced, or Rooted.  Passive: Increase Fast Feet's cooldown refresh rate to 75%",
         "icon": "storm_ui_icon_lili_fastfeet.png",
         "type": "Trait",
         "sort": 4,
