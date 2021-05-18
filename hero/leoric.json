@@ -266,7 +266,7 @@
         "tooltipId": "LeoricUnyieldingDespairTalent",
         "talentTreeId": "LeoricMasteryUnyieldingDespairDrainHope",
         "name": "Unyielding Despair",
-        "description": "Drain Hope's cooldown is reduced by 0.5 seconds for every 1 second it is active. If Drain Hope lasts its full duration, its cooldown is reduced by an additional 3 seconds.",
+        "description": "Drain Hope's cooldown is reduced by 0.75 seconds for every 1 second it is active. If Drain Hope lasts its full duration, its cooldown is reduced by an additional 2 seconds.",
         "icon": "storm_ui_icon_leoric_drainhope.png",
         "type": "W",
         "sort": 1,
@@ -372,27 +372,17 @@
         ]
       },
       {
-        "tooltipId": "LeoricHardenedBonesTalent",
-        "talentTreeId": "LeoricDrainHopeHardenedBonesTalent",
-        "name": "Hardened Bones",
-        "description": "Gain 50 Armor while Drain Hope is active. If Drain Hope lasts its full duration, retain the Armor bonus for 2 seconds.",
-        "icon": "storm_ui_icon_leoric_drainhope_var1.png",
-        "type": "W",
-        "sort": 3,
-        "abilityId": "Leoric|W1",
-        "abilityLinks": [
-          "Leoric|W1"
-        ]
-      },
-      {
         "tooltipId": "LeoricBurningDespair",
         "talentTreeId": "LeoricBurningDespairTalent",
         "name": "Burning Despair",
-        "description": "Deal 40 (+4% per level) damage per second to nearby enemies. The damage and area is increased by 100% while Drain Hope is active.",
+        "description": "Deal 40 (+4% per level) damage per second to nearby enemies.  While Drain Hope is active, gain 40 Armor and the damage and area is increased by 100%.",
         "icon": "storm_ui_icon_leoric_drainhope.png",
         "type": "Passive",
-        "sort": 4,
-        "abilityId": "Leoric|Passive"
+        "sort": 3,
+        "abilityId": "Leoric|Passive",
+        "abilityLinks": [
+          "Leoric|W1"
+        ]
       },
       {
         "tooltipId": "LeoricShroudoftheDeadKingTalent",
@@ -401,8 +391,8 @@
         "description": "Activate to become Protected for 3 seconds, preventing all damage.",
         "icon": "storm_ui_icon_talent_hardenedshield.png",
         "type": "Active",
-        "sort": 5,
-        "cooldown": 30,
+        "sort": 4,
+        "cooldown": 25,
         "abilityId": "Leoric|Active"
       }
     ]

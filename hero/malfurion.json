@@ -92,6 +92,45 @@
   "talents": {
     "1": [
       {
+        "tooltipId": "MalfurionEntanglingRootsDeepRootsTalent",
+        "talentTreeId": "MalfurionEntanglingRootsDeepRootsTalent",
+        "name": "Deep Roots",
+        "description": "Entangling Roots grows 25% larger, and persist on the ground 40% longer.  Repeatable Quest: Every time an enemy Hero becomes Rooted, gain 10 Mana permanently.",
+        "icon": "storm_ui_icon_malfurion_entanglingroots.png",
+        "type": "E",
+        "sort": 1,
+        "isQuest": true,
+        "abilityId": "Malfurion|E1",
+        "abilityLinks": [
+          "Malfurion|E1"
+        ]
+      },
+      {
+        "tooltipId": "MalfurionEntanglingRootsVengefulRootsTalent",
+        "talentTreeId": "MalfurionMasteryVengefulRoots",
+        "name": "Vengeful Roots",
+        "description": "Entangling Roots spawns a Treant that deals 58 damage per second and lasts 10 seconds.  Repeatable Quest: Hitting enemy Heroes with Entangling Roots permanently increases the Treant's Basic Attack damage by 7.",
+        "icon": "storm_ui_icon_malfurion_entanglingroots_b.png",
+        "type": "E",
+        "sort": 2,
+        "isQuest": true,
+        "abilityId": "Malfurion|E1",
+        "abilityLinks": [
+          "Malfurion|E1"
+        ]
+      },
+      {
+        "tooltipId": "MalfurionEntanglingRootsEmeraldDreams",
+        "talentTreeId": "MalfurionEntanglingRootsEmeraldDreams",
+        "name": "Emerald Dreams",
+        "description": "Entangling Roots Sleeps enemy Heroes for 2 seconds after its Root expires.",
+        "icon": "storm_ui_icon_malfurion_entanglingroots_a.png",
+        "type": "E",
+        "sort": 3
+      }
+    ],
+    "4": [
+      {
         "tooltipId": "MalfurionRejuvenationTalent",
         "talentTreeId": "MalfurionRejuvenation",
         "name": "Rejuvenation",
@@ -121,55 +160,13 @@
         "tooltipId": "MalfurionInnervateShandosClarityTalent",
         "talentTreeId": "MalfurionCombatStyleShandosClarity",
         "name": "Shan'do's Clarity",
-        "description": "Innervate's cooldown recharges 25% faster per ally affected by Regrowth.",
+        "description": "Gain a second charge of Innervate. Its cooldown recharges 25% faster per ally affected by Regrowth.",
         "icon": "storm_ui_icon_malfurion_innerrvate.png",
         "type": "Trait",
         "sort": 3,
         "abilityId": "Malfurion|D1",
         "abilityLinks": [
           "Malfurion|D1"
-        ]
-      }
-    ],
-    "4": [
-      {
-        "tooltipId": "MalfurionEntanglingRootsStranglingVinesTalent",
-        "talentTreeId": "MalfurionMasteryStranglingVinesEntanglingRoots",
-        "name": "Strangling Vines",
-        "description": "Enemy Heroes Rooted by Entangling Roots receive 40% less healing from all sources for 3 seconds.",
-        "icon": "storm_ui_icon_malfurion_entanglingroots.png",
-        "type": "E",
-        "sort": 1,
-        "abilityId": "Malfurion|E1",
-        "abilityLinks": [
-          "Malfurion|E1"
-        ]
-      },
-      {
-        "tooltipId": "MalfurionEntanglingRootsDeepRootsTalent",
-        "talentTreeId": "MalfurionEntanglingRootsDeepRootsTalent",
-        "name": "Deep Roots",
-        "description": "Entangling Roots grows 25% larger, and persist on the ground 40% longer.",
-        "icon": "storm_ui_icon_malfurion_entanglingroots_a.png",
-        "type": "E",
-        "sort": 2,
-        "abilityId": "Malfurion|E1",
-        "abilityLinks": [
-          "Malfurion|E1"
-        ]
-      },
-      {
-        "tooltipId": "MalfurionEntanglingRootsVengefulRootsTalent",
-        "talentTreeId": "MalfurionMasteryVengefulRoots",
-        "name": "Vengeful Roots",
-        "description": "Entangling Roots spawns a Treant that deals 58 damage per second and lasts 10 seconds.  Repeatable Quest: Hitting enemy Heroes with Entangling Roots permanently increases the Treant's Basic Attack damage by 7.",
-        "icon": "storm_ui_icon_malfurion_entanglingroots_b.png",
-        "type": "E",
-        "sort": 3,
-        "isQuest": true,
-        "abilityId": "Malfurion|E1",
-        "abilityLinks": [
-          "Malfurion|E1"
         ]
       }
     ],
@@ -264,7 +261,7 @@
         "tooltipId": "MalfurionMoonfireHinderingMoonfireTalent",
         "talentTreeId": "MalfurionMasteryHinderingMoonfire",
         "name": "Hindering Moonfire",
-        "description": "Moonfire Slows Heroes hit by 25% for 2 seconds.",
+        "description": "Moonfire Slows Heroes hit by 25% for 3 seconds.",
         "icon": "storm_ui_icon_malfurion_moonfire.png",
         "type": "W",
         "sort": 2,

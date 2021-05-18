@@ -244,27 +244,27 @@
     ],
     "13": [
       {
-        "tooltipId": "AnubarakBurningBeetlesTalent",
-        "talentTreeId": "AnubarakBurningBeetles",
-        "name": "Burning Beetles",
-        "description": "Deal 21 (+4% per level) damage per second to nearby enemies. Beetles deal 7 (+4% per level) damage per second to nearby enemies.",
-        "icon": "storm_ui_icon_talent_burningrage.png",
-        "type": "Passive",
-        "sort": 1,
-        "abilityId": "Anubarak|Passive"
-      },
-      {
         "tooltipId": "AnubarakHardenCarapaceUrtricatingSpinesTalent",
         "talentTreeId": "AnubarakMasteryUrticatingSpines",
         "name": "Urticating Spines",
         "description": "Casting Harden Carapace will also deal 80 (+4% per level) damage to nearby enemies. Deals double damage against Heroes.",
         "icon": "storm_ui_icon_anubarak_hardencarapace_var1.png",
         "type": "W",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Anubarak|W1",
         "abilityLinks": [
           "Anubarak|W1"
         ]
+      },
+      {
+        "tooltipId": "AnubarakBurningBeetlesTalent",
+        "talentTreeId": "AnubarakBurningBeetles",
+        "name": "Burning Beetles",
+        "description": "Deal 21 (+4% per level) damage per second to nearby enemies. Beetles deal 6 (+4% per level) damage per second to nearby enemies.",
+        "icon": "storm_ui_icon_talent_burningrage.png",
+        "type": "Passive",
+        "sort": 2,
+        "abilityId": "Anubarak|Passive"
       },
       {
         "tooltipId": "AnubarakAcidDrenchedMandibles",
@@ -295,24 +295,25 @@
         "tooltipId": "AnubarakDebilitation",
         "talentTreeId": "AnubarakDebilitation",
         "name": "Debilitation",
-        "description": "Enemy Heroes hit by Burrow Charge have their Spell Power reduced by 50% for 5 seconds.",
-        "icon": "storm_ui_icon_anubarak_burrowcharge_a.png",
-        "type": "E",
+        "description": "Enemy Heroes hit by Burrow Charge or Impale have their Spell Power reduced by 50% for 4 seconds.",
+        "icon": "storm_ui_icon_anubarak_combo_q_e.png",
+        "type": "Passive",
         "sort": 2,
-        "abilityId": "Anubarak|E1",
+        "abilityId": "Anubarak|Passive",
         "abilityLinks": [
-          "Anubarak|E1"
+          "Anubarak|E1",
+          "Anubarak|Q1"
         ]
       },
       {
         "tooltipId": "AnubarakBeetleSpitBeetleJuiceTalent",
         "talentTreeId": "AnubarakScarabHostBeetleJuiced",
         "name": "Beetle, Juiced",
-        "description": "Passive: Beetles gain 40% increased health.  Every 3rd Basic Attack against enemy Heroes spawns a Beetle.",
+        "description": "Passive: Beetles gain 30% increased health.  Every 4th Basic Attack spawns a Beetle.",
         "icon": "storm_ui_icon_anubarak_scarabhost.png",
-        "type": "Passive",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Anubarak|Passive",
+        "abilityId": "Anubarak|D1",
         "abilityLinks": [
           "Anubarak|D1"
         ]
@@ -323,7 +324,7 @@
         "tooltipId": "AnubarakLocustSwarmHiveMasterTalent",
         "talentTreeId": "AnubarakLocustSwarmHiveMaster",
         "name": "Hive Master",
-        "description": "Gain a permanent Vampire Locust that attacks a nearby enemy every 3 seconds. The Vampire Locust deals 153 (+4% per level) damage and returns to heal Anub'arak for 50 (+4% per level) health.",
+        "description": "Gain a permanent Vampire Locust that attacks a nearby enemy every 3 seconds. The Vampire Locust deals 165 (+4% per level) damage and returns to heal Anub'arak for 80 (+4% per level) health.",
         "icon": "storm_ui_icon_anubarak_locustswarm.png",
         "type": "Heroic",
         "sort": 1,
@@ -336,7 +337,7 @@
         "tooltipId": "AnubarakCryptweaveCocoonTalent",
         "talentTreeId": "AnubarakCocoonCryptweave",
         "name": "Cryptweave",
-        "description": "Staying near the Cocoon allows Anub'arak to extend the duration by up to 6 seconds per Cocoon.",
+        "description": "Staying near the Cocoon allows Anub'arak to extend the duration by up to 6 seconds per Cocoon. Upon exiting the Cocoon, enemies take 50 (+4% per level) damage over 4 seconds. This damage is increased by 100% for each second that they were inside.",
         "icon": "storm_ui_icon_anubarak_webblast.png",
         "type": "Heroic",
         "sort": 2,
@@ -346,11 +347,11 @@
         ]
       },
       {
-        "tooltipId": "HardenedShieldTalent",
-        "talentTreeId": "GenericTalentHardenedShield",
-        "name": "Hardened Shield",
-        "description": "Activate to gain 75 Armor for 4 seconds, taking 75% less damage.",
-        "icon": "storm_ui_icon_talent_hardenedshield.png",
+        "tooltipId": "AnubarakTheTraitorKing",
+        "talentTreeId": "AnubarakTheTraitorKing",
+        "name": "The Traitor King",
+        "description": "Gain 10% bonus maximum Health and 20 Spell Armor.  Activate to gain 75 Armor for 4 seconds.",
+        "icon": "storm_ui_glues_draft_portrait_anubarak.png",
         "type": "Active",
         "sort": 3,
         "cooldown": 60,

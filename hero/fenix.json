@@ -154,7 +154,7 @@
         "tooltipId": "FenixInhibitingEnergy",
         "talentTreeId": "FenixInhibitingEnergy",
         "name": "Inhibiting Energy",
-        "description": "While Phase Bomb is active, Basic Attacks against Slowed Heroes Slow all enemies in the area by 30% for 2.5 seconds.",
+        "description": "Every 10 seconds, Fenix's next Basic Attack with Phase Bomb active Slows all enemies hit by 60%, decaying in strength over 1.5 seconds.",
         "icon": "storm_ui_icon_fenix_w_1.png",
         "type": "W",
         "sort": 2,
@@ -267,7 +267,7 @@
         "tooltipId": "FenixDampeningField",
         "talentTreeId": "FenixDampeningField",
         "name": "Dampening Field",
-        "description": "Fenix gains 25 Spell Armor while he has a Shield from Shield Capacitor.",
+        "description": "Fenix gains 30 Spell Armor while he has a Shield from Shield Capacitor.",
         "icon": "storm_ui_icon_fenix_shield_1.png",
         "type": "Trait",
         "sort": 2,
@@ -321,7 +321,7 @@
         "tooltipId": "FenixPhotonicWeaponry",
         "talentTreeId": "FenixPhotonicWeaponry",
         "name": "Photonic Weaponry",
-        "description": "Fenix deals 15% more damage while he has a Shield from Shield Capacitor.",
+        "description": "Fenix deals 20% more damage while he has a Shield from Shield Capacitor.",
         "icon": "storm_ui_icon_fenix_shield_1.png",
         "type": "Trait",
         "sort": 2,
@@ -334,7 +334,7 @@
         "tooltipId": "FenixArsenalOvercharge",
         "talentTreeId": "FenixArsenalOvercharge",
         "name": "Arsenal Overcharge",
-        "description": "Fenix's Basic Attacks reduce his Ability cooldowns by 0.5 seconds.",
+        "description": "Basic Attacks with Repeater Cannon reduce Ability cooldowns by 0.5 seconds. Basic Attacks with Phase Bomb active reduce Ability cooldowns by 0.5 seconds per Hero hit.",
         "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
         "type": "Passive",
         "sort": 3,
@@ -343,13 +343,26 @@
     ],
     "20": [
       {
+        "tooltipId": "FenixArmageddonBeam",
+        "talentTreeId": "FenixArmageddonBeam",
+        "name": "Armageddon Beam",
+        "description": "Planet Cracker's width increases by 100% over 1.5 seconds.  Passive: Reduce Planet Cracker's cooldown by 40 seconds.",
+        "icon": "storm_ui_icon_fenix_r_planet_cracker.png",
+        "type": "Heroic",
+        "sort": 1,
+        "abilityId": "Fenix|R1",
+        "abilityLinks": [
+          "Fenix|R1"
+        ]
+      },
+      {
         "tooltipId": "FenixSecondaryFire",
         "talentTreeId": "FenixSecondaryFire",
         "name": "Secondary Fire",
         "description": "Hitting an enemy Hero with Plasma Cutter fires a Purification Salvo missile at them after 0.5 seconds, dealing 79 (+4% per level) damage. Deals 50% increased damage to Slowed targets.",
         "icon": "storm_ui_icon_fenix_q.png",
         "type": "Q",
-        "sort": 1,
+        "sort": 2,
         "abilityId": "Fenix|Q1",
         "abilityLinks": [
           "Fenix|Q1"
@@ -362,7 +375,7 @@
         "description": "Repeater Cannon grants 100% more Attack Speed, and Phase Bomb grants 1.25 more range.",
         "icon": "storm_ui_icon_fenix_w_2.png",
         "type": "W",
-        "sort": 2,
+        "sort": 3,
         "abilityId": "Fenix|W2",
         "abilityLinks": [
           "Fenix|W1",
@@ -376,7 +389,7 @@
         "description": "Upon taking fatal damage, Shield Capacitor regains 800 (+4% per level) Shields. This effect has a 120 second cooldown.",
         "icon": "storm_ui_icon_fenix_shield_1.png",
         "type": "Passive",
-        "sort": 3,
+        "sort": 4,
         "abilityId": "Fenix|Passive",
         "abilityLinks": [
           "Fenix|D1"

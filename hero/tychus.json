@@ -123,16 +123,16 @@
   "talents": {
     "1": [
       {
-        "tooltipId": "TychusPressTheAdvantage",
-        "talentTreeId": "TychusPressTheAdvantage",
-        "name": "Press the Advantage",
-        "description": "Run and Gun increases Tychus's Basic Attack range by 1.5 for 5 seconds.",
-        "icon": "storm_ui_icon_tychus_runandgun.png",
-        "type": "E",
+        "tooltipId": "TychusFragGrenadeQuarterbackTalent",
+        "talentTreeId": "TychusMasteryQuarterback",
+        "name": "Quarterback",
+        "description": "Increases Frag Grenade's damage by 10% and its range by 50%.",
+        "icon": "storm_ui_icon_tychus_fraggrenade.png",
+        "type": "W",
         "sort": 1,
-        "abilityId": "Tychus|E1",
+        "abilityId": "Tychus|W1",
         "abilityLinks": [
-          "Tychus|E1"
+          "Tychus|W1"
         ]
       },
       {
@@ -140,7 +140,7 @@
         "talentTreeId": "TychusMasteryRunandGunDash",
         "name": "Dash",
         "description": "Increase the range of Run and Gun by 50%. When cast, increase Tychus's Movement Speed by 20% for 2.5 seconds.",
-        "icon": "storm_ui_icon_tychus_runandgun_a.png",
+        "icon": "storm_ui_icon_tychus_runandgun.png",
         "type": "E",
         "sort": 2,
         "abilityId": "Tychus|E1",
@@ -149,16 +149,16 @@
         ]
       },
       {
-        "tooltipId": "TychusCombatTactician",
-        "talentTreeId": "TychusCombatTactician",
-        "name": "Combat Tactician",
-        "description": "Casting Run And Gun reduces the cooldown of Minigun by 8 seconds.",
-        "icon": "storm_ui_icon_tychus_runandgun_b.png",
-        "type": "E",
+        "tooltipId": "TychusPressTheAdvantage",
+        "talentTreeId": "TychusPressTheAdvantage",
+        "name": "Press the Advantage",
+        "description": "Increase Tychus's Basic Attack range by 1.",
+        "icon": "storm_ui_icon_talent_autoattack_range.png",
+        "type": "Passive",
         "sort": 3,
-        "abilityId": "Tychus|E1",
+        "abilityId": "Tychus|Passive",
         "abilityLinks": [
-          "Tychus|E1"
+          "Tychus|D1"
         ]
       }
     ],
@@ -181,7 +181,7 @@
         "tooltipId": "TychusTheBiggerTheyAre",
         "talentTreeId": "TychusTheBiggerTheyAre",
         "name": "The Bigger They Are...",
-        "description": "Lower the cooldown of Minigun by 2 seconds. Increase the damage bonus to 4% while enemy Heroes are above 35% Health, but Minigun no longer has any effect on targets below 35%.",
+        "description": "Increase the damage bonus to 4% while enemy Heroes are above 30% Health, but Minigun no longer has any effect on targets below 30%.",
         "icon": "storm_ui_icon_tychus_minigun_a.png",
         "type": "Trait",
         "sort": 2,
@@ -194,20 +194,23 @@
         "tooltipId": "TychusMasterAssassinTalent",
         "talentTreeId": "TychusMasterAssassin",
         "name": "Master Assassin",
-        "description": "Quest: Hero Takedowns increase Tychus's Attack Speed by 1%, up to 15%.  Reward: After getting 15 Takedowns, Tychus's Attack Speed is increased by an additional 10%.",
+        "description": "Passive: Increase Tychus's Attack Speed by 10%.  Reward: After getting 15 Takedowns, Tychus's Attack Speed is increased by an additional 15%.",
         "icon": "storm_ui_icon_talent_autoattack_speed.png",
         "type": "Passive",
         "sort": 3,
         "isQuest": true,
-        "abilityId": "Tychus|Passive"
+        "abilityId": "Tychus|Passive",
+        "abilityLinks": [
+          "Tychus|D1"
+        ]
       }
     ],
     "7": [
       {
-        "tooltipId": "TychusFragGrenadeQuarterbackTalent",
-        "talentTreeId": "TychusMasteryQuarterback",
-        "name": "Quarterback",
-        "description": "Increases the range of Frag Grenade by 50%.",
+        "tooltipId": "TychusMeltingPoint",
+        "talentTreeId": "TychusMeltingPoint",
+        "name": "Melting Point",
+        "description": "Enemies hit by Frag Grenade take an additional 75 (+4% per level) damage over 3 seconds. This damage is increased by 100% against Minions, Mercenaries, and Monsters.",
         "icon": "storm_ui_icon_tychus_fraggrenade.png",
         "type": "W",
         "sort": 1,
@@ -217,16 +220,16 @@
         ]
       },
       {
-        "tooltipId": "TychusFragGrenadeConcussionGrenadeTalent",
-        "talentTreeId": "TychusMasteryFragGrenadeConcussionGrenade",
-        "name": "Concussion Grenade",
-        "description": "Increases Frag Grenade's radius by 25% and the knockback distance by 100%.",
-        "icon": "storm_ui_icon_tychus_fraggrenade_a.png",
-        "type": "W",
+        "tooltipId": "TychusCombatTactician",
+        "talentTreeId": "TychusCombatTactician",
+        "name": "Combat Tactician",
+        "description": "Reduce the cooldown of Minigun by 4 seconds. Reduce the cooldown of Minigun by an additional 4 seconds after using Run and Gun.",
+        "icon": "storm_ui_icon_tychus_minigun.png",
+        "type": "Trait",
         "sort": 2,
-        "abilityId": "Tychus|W1",
+        "abilityId": "Tychus|D1",
         "abilityLinks": [
-          "Tychus|W1"
+          "Tychus|D1"
         ]
       },
       {
@@ -382,7 +385,7 @@
         "tooltipId": "TychusOverkillCanDoThisAllDayTalent",
         "talentTreeId": "TychusCanDoThisAllDayOverkillTalent",
         "name": "Can Do This All Day",
-        "description": "Reduce Overkill's cooldown by 4 seconds.  While Channeling Overkill, Tychus gains 40 Armor.",
+        "description": "Reduce Overkill's cooldown by 5 seconds.  While Channeling Overkill, Tychus gains 40 Armor.",
         "icon": "storm_ui_icon_tychus_overkill.png",
         "type": "Q",
         "sort": 3,
@@ -395,7 +398,7 @@
         "tooltipId": "TychusRunAndGunBobAndWeaveTalent",
         "talentTreeId": "TychusRunAndGunBobAndWeave",
         "name": "Bob and Weave",
-        "description": "Increases Tychus's Basic Attack range by 1.5.  Run and Gun and Odin's Thrusters gain 2 additional charges and reduces Run and Gun's Mana cost from 50 to 25.",
+        "description": "Run and Gun and Odin's Thrusters gain 2 additional charges and reduces Run and Gun's Mana cost from 50 to 25.  After using Run and Gun, increase Tychus's Basic Attack range by 1.5 for 4 seconds.",
         "icon": "storm_ui_icon_tychus_runandgun.png",
         "type": "E",
         "sort": 4,

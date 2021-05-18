@@ -72,8 +72,8 @@
         "description": "After a 0.5 second cast, create a Black Hole that travels in a long line. Enemy Heroes within the Black Hole's area are quickly pulled towards its center. Touching the center deals 310 (+4% per level) damage and Stuns the target for 1.25 seconds.",
         "hotkey": "R",
         "abilityId": "Tassadar|R2",
-        "cooldown": 70,
-        "manaCost": 80,
+        "cooldown": 60,
+        "manaCost": 60,
         "icon": "storm_ui_icon_tassadar_rework_blackhole.png",
         "type": "heroic"
       },
@@ -163,7 +163,7 @@
         "tooltipId": "TassadarPlasmaShieldTalent",
         "talentTreeId": "TassadarPlasmaShield",
         "name": "Plasma Shield",
-        "description": "While Resonance Beam is fully charged, gain a Shield equal to 3% of max Health every second, stacking up to 15%.",
+        "description": "While Resonance Beam is fully charged, gain a Shield equal to 3% of max Health every second, stacking up to 12%.",
         "icon": "storm_ui_icon_tassadar_rework_trait.png",
         "type": "Trait",
         "sort": 3,
@@ -238,7 +238,7 @@
         "icon": "storm_ui_icon_tassadar_rework_blackhole.png",
         "type": "Heroic",
         "sort": 2,
-        "cooldown": 70,
+        "cooldown": 60,
         "abilityId": "Tassadar|R2",
         "abilityLinks": [
           "Tassadar|R2"
@@ -339,7 +339,7 @@
         "tooltipId": "TassadarKugelblitz",
         "talentTreeId": "TassadarKugelblitz",
         "name": "Kugelblitz",
-        "description": "Each Hero hit by Black Hole's center creates a Psionic Storm at their location.",
+        "description": "Enemy Heroes hit by Black Hole's center have their Armor reduced by 20 for 3 seconds and have a Psionic Storm created at their location.",
         "icon": "storm_ui_icon_tassadar_rework_blackhole.png",
         "type": "Heroic",
         "sort": 2,

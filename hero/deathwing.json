@@ -40,11 +40,11 @@
       {
         "uid": "f06557",
         "name": "Incinerate",
-        "description": "After 0.75 seconds, Deathwing flaps his wings, dealing 70 (+4% per level) damage to nearby enemies.  World Breaker: Lava Burst Create a lava pool that damages and Slows",
+        "description": "After 0.75 seconds, Deathwing flaps his wings, dealing 65 (+4% per level) damage to nearby enemies.  World Breaker: Lava Burst Create a lava pool that damages and Slows",
         "hotkey": "W",
         "abilityId": "Deathwing|W1",
         "cooldown": 4,
-        "manaCost": 15,
+        "manaCost": 20,
         "icon": "storm_ui_icon_deathwing_incinerate.png",
         "type": "basic"
       },
@@ -134,11 +134,11 @@
       {
         "uid": "077d3c",
         "name": "Lava Burst",
-        "description": "After a 1 second delay, deal 30 (+4% per level) damage to all enemies in an area and create a pool of magma that deals 20 (+4% per level) damage per second and Slows enemies by 35%. Lasts 6 seconds.  Destroyer: Incinerate Damage enemies near Deathwing",
+        "description": "After a 1 second delay, deal 30 (+4% per level) damage to all enemies in an area and create a pool of magma that deals 24 (+4% per level) damage per second and Slows enemies by 35%. Lasts 6 seconds.  Destroyer: Incinerate Damage enemies near Deathwing",
         "hotkey": "W",
         "abilityId": "Deathwing|W3",
         "cooldown": 6,
-        "manaCost": 20,
+        "manaCost": 15,
         "icon": "storm_ui_icon_deathwing_lava_burst.png",
         "type": "basic"
       }
@@ -194,7 +194,7 @@
         "tooltipId": "DeathwingInfernus",
         "talentTreeId": "DeathwingInfernus",
         "name": "Infernus",
-        "description": "When Molten Flame is cast at 75% Energy or higher, its damage is increased by 75% against Heroes.",
+        "description": "Increase the damage of Molten Flame against enemy Heroes by 25%.  Increase this damage bonus to 75% when Molten Flame is cast at 75 Energy or higher.",
         "icon": "storm_ui_icon_deathwing_molten_flame.png",
         "type": "Q",
         "sort": 1,
@@ -237,7 +237,7 @@
         "tooltipId": "DeathwingFirestorm",
         "talentTreeId": "DeathwingFirestorm",
         "name": "Firestorm",
-        "description": "Reduce the cooldown of Deathwing's landing Abilities by 2 seconds.  When Deathwing lands, he drops 7 meteors near the landing area, dealing 65 (+4% per level) damage to enemies hit. Heroes hit by the meteors reduce Dragonflight's cooldown by 25 seconds.  Meteors prioritize landing on Heroes, otherwise they fall randomly in the area.",
+        "description": "Reduce the cooldown of Deathwing's landing Abilities by 2 seconds.  When Deathwing lands, he drops 7 meteors near the landing area, dealing 70 (+4% per level) damage to enemies hit. Heroes hit by the meteors reduce Dragonflight's cooldown by 25 seconds.  Meteors prioritize landing on Heroes, otherwise they fall randomly in the area.",
         "icon": "storm_ui_icon_deathwing_firestorm.png",
         "type": "Z",
         "sort": 1,

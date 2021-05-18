@@ -28,7 +28,7 @@
         "hotkey": "Q",
         "abilityId": "Valeera|Q1",
         "cooldown": 5,
-        "manaCost": 30,
+        "manaCost": 25,
         "icon": "storm_ui_icon_valeera_sinisterstrike.png",
         "type": "basic"
       },
@@ -67,7 +67,7 @@
       {
         "uid": "31b894",
         "name": "Smoke Bomb",
-        "description": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 30 Armor, reducing damage taken by 30%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds.  Using this Ability does not break Stealth.",
+        "description": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 60 Armor, reducing damage taken by 60%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds.  Using this Ability does not break Stealth.",
         "hotkey": "R",
         "abilityId": "Valeera|R2",
         "cooldown": 60,
@@ -187,7 +187,7 @@
         "tooltipId": "ValeeraRelentlessStrikes",
         "talentTreeId": "ValeeraSinisterStrikeRelentlessStrikes",
         "name": "Relentless Strikes",
-        "description": "Reduces the Energy cost of Sinister Strike by 15.",
+        "description": "Reduces the Energy cost of Sinister Strike by 10.",
         "icon": "storm_ui_icon_valeera_sinisterstrike.png",
         "type": "Q",
         "sort": 1,
@@ -282,7 +282,7 @@
         "tooltipId": "ValeeraSmokeBomb",
         "talentTreeId": "ValeeraSmokeBomb",
         "name": "Smoke Bomb",
-        "description": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 30 Armor, reducing damage taken by 30%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds.  Using this Ability does not break Stealth.",
+        "description": "Create a cloud of smoke. While in the smoke, Valeera is Unrevealable, can pass through other units, and gains 60 Armor, reducing damage taken by 60%. Valeera can continue to attack and use abilities without being revealed. Lasts 5 seconds.  Using this Ability does not break Stealth.",
         "icon": "storm_ui_icon_valeera_smokebomb.png",
         "type": "Heroic",
         "sort": 1,
@@ -383,7 +383,7 @@
         "icon": "storm_ui_icon_valeera_thistletea.png",
         "type": "Active",
         "sort": 3,
-        "cooldown": 40,
+        "cooldown": 20,
         "abilityId": "Valeera|Active"
       }
     ],

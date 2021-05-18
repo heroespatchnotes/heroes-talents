@@ -277,6 +277,10 @@ async function test() {
   <img class="img-rounded" src="images/heroes/hanzo.png" />
   <span>Hanzo</span>
 </a>
+<a class="img-wrap" href="hero/hogger.json">
+  <img class="img-rounded" src="images/heroes/hogger.png" />
+  <span>Hogger</span>
+</a>
 <a class="img-wrap" href="hero/illidan.json">
   <img class="img-rounded" src="images/heroes/illidan.png" />
   <span>Illidan</span>
