@@ -24,7 +24,7 @@
       {
         "uid": "d1348e",
         "name": "Hook",
-        "description": "Pull the first enemy hit towards Stitches and deal 91 (+4% per level) damage.",
+        "description": "Pull the first enemy hit towards Stitches and deal 91 (+4% per level) damage.  After reaching level 13, Hook's range is increased by 40%.",
         "hotkey": "Q",
         "abilityId": "Stitches|Q1",
         "cooldown": 16,
@@ -35,10 +35,10 @@
       {
         "uid": "4e38ee",
         "name": "Slam",
-        "description": "Deal 104 (+4% per level) damage to enemies within the target area. Enemies in the inner impact area take 40% more damage and are Slowed by 45% for 1.5 seconds.  Deals 60% bonus damage to Minions and Mercenaries.",
+        "description": "Deal 104 (+4% per level) damage to enemies within the target area. Enemies in the inner impact take 50% more damage and are Slowed by 45% for 2 seconds.",
         "hotkey": "W",
         "abilityId": "Stitches|W1",
-        "cooldown": 7,
+        "cooldown": 8,
         "manaCost": 35,
         "icon": "storm_ui_icon_stitches_slam.png",
         "type": "basic"
@@ -77,18 +77,20 @@
         "type": "heroic"
       },
       {
-        "uid": "44c018",
-        "name": "Vile Cleaver",
-        "description": "Basic Attacks splash Vile Gas, poisoning nearby enemies for 45 (+4% per level) damage over 3 seconds. Re-applying Vile Gas increases its current duration to a maximum of 10 seconds.",
+        "uid": "e4157e",
+        "name": "Shambling Horror",
+        "description": "Activate to spread Vile Gas in a large area every second and prevent your Movement Speed from being reduced below 110% for 5 seconds.  Vile Gas Hitting enemies with Basic Attacks or the inner area of Slam afflicts them with Vile Gas, dealing an additional 27 (+4% per level) damage over 3 seconds. Deals 150% more damage to Minions, Mercenaries, and Monsters.",
+        "hotkey": "D",
         "trait": true,
         "abilityId": "Stitches|D1",
+        "cooldown": 60,
         "icon": "storm_ui_icon_stitches_acidcloud.png",
         "type": "trait"
       },
       {
         "uid": "c954e9",
         "name": "Helping Hand",
-        "description": "Activate to use Hook that can hit allied Heroes. When used to pull allies, the cooldown of Hook is reduced by 50%.",
+        "description": "Activate to use Hook that can hit allied Heroes. Hitting an allied Hero this way reduces the cooldown of Hook by 8 seconds.  After reaching level 13, Helping Hand's range is increased by 40%.",
         "hotkey": "1",
         "abilityId": "Stitches|11",
         "cooldown": 16,
@@ -101,13 +103,22 @@
   "talents": {
     "1": [
       {
+        "tooltipId": "StitchesPatchworkCreation",
+        "talentTreeId": "StitchesPatchworkCreation",
+        "name": "Patchwork Creation",
+        "description": "Gain 3 Armor for every unit afflicted with Vile Gas, stacking up to 8 times. While Shambling Horror is active, this Armor amount is doubled.  Passive: Increase regeneration effects and all healing received by 15%.",
+        "icon": "storm_ui_icon_stitches_patchwork.png",
+        "type": "W",
+        "sort": 1
+      },
+      {
         "tooltipId": "StitchesDevourSavorTheFlavorTalent",
         "talentTreeId": "StitchesSavortheFlavorDevour",
-        "name": "Savor the Flavor",
-        "description": "When Devour hits a Hero, Stitches heals for an additional 8% of his maximum Health and Mana over 4 seconds.  Quest: Hitting enemy Heroes with Devour increases Stitches's Health Regeneration by 1.5.",
+        "name": "Savor The Flavor",
+        "description": "Quest: Hitting an enemy Hero with Devour increases Stitches' Health Regeneration by 1.5 and the damage of Vile Gas by 2%, stacking up to 100 times.",
         "icon": "storm_ui_icon_stitches_devour.png",
         "type": "E",
-        "sort": 1,
+        "sort": 2,
         "isQuest": true,
         "abilityId": "Stitches|E1",
         "abilityLinks": [
@@ -115,20 +126,10 @@
         ]
       },
       {
-        "tooltipId": "StitchesPatchworkCreation",
-        "talentTreeId": "StitchesPatchworkCreation",
-        "name": "Patchwork Creation",
-        "description": "Increase regeneration effects and all healing received by 15%. Whenever a nearby enemy Minion dies, restore 33 (+4% per level) Health. Takedowns restore 255 (+4% per level) Health.",
-        "icon": "storm_ui_icon_stitches_patchwork.png",
-        "type": "Passive",
-        "sort": 2,
-        "abilityId": "Stitches|Passive"
-      },
-      {
         "tooltipId": "StitchesHungryforMore",
         "talentTreeId": "StitchesHungryforMore",
         "name": "Hungry for More",
-        "description": "Quest: Gathering a Regeneration Globe increases Stitches's maximum Health by 30.  Reward: Every 15 Globes gathered permanently increases Stitches's Movement Speed by 5%, up to 20%.",
+        "description": "Gain 5% Movement Speed.  Quest: Gathering a Regeneration Globe increases Stitches's maximum Health by 30.  Reward: Every 20 Globes gathered permanently increases Stitches' Movement Speed by an additional 5%.",
         "icon": "storm_ui_icon_stitches_hungry.png",
         "type": "Passive",
         "sort": 3,
@@ -138,10 +139,48 @@
     ],
     "4": [
       {
+        "tooltipId": "StitchesPlaytime",
+        "talentTreeId": "StitchesPlaytime",
+        "name": "Playtime!",
+        "description": "Basic Attacks reduce the cooldown of Slam by 0.75 seconds and restores 5 Mana. Hitting Heroes with the inner area of Slam reduces its cooldown by 1 second.",
+        "icon": "storm_ui_icon_stitches_slam.png",
+        "type": "W",
+        "sort": 1,
+        "abilityId": "Stitches|W1",
+        "abilityLinks": [
+          "Stitches|W1"
+        ]
+      },
+      {
+        "tooltipId": "StitchesVileCleaver",
+        "talentTreeId": "StitchesVileCleaver",
+        "name": "Vile Cleaver",
+        "description": "Basic Attacks against enemies with Vile Gas deal 35% more damage and spreads Vile Gas to nearby enemies.",
+        "icon": "storm_ui_icon_stitches_acidcloud.png",
+        "type": "Trait",
+        "sort": 2,
+        "abilityId": "Stitches|D1",
+        "abilityLinks": [
+          "Stitches|D1"
+        ]
+      },
+      {
+        "tooltipId": "StitchesVileGasTenderizerTalent",
+        "talentTreeId": "StitchesTenderizer",
+        "name": "Tenderizer",
+        "description": "Basic Attacks against enemy Heroes Slow by 25% for 2.5 seconds and restore 2% of Stitches' maximum Health.",
+        "icon": "storm_ui_icon_talent_autoattack_slow.png",
+        "type": "Passive",
+        "sort": 3,
+        "abilityId": "Stitches|Passive"
+      }
+    ],
+    "7": [
+      {
         "tooltipId": "StitchesSerratedEdge",
         "talentTreeId": "StitchesSerratedEdge",
         "name": "Serrated Edge",
-        "description": "Hitting an enemy Hero with Hook deals bonus damage equal to 5% of their maximum Health, and reduces Hook's cooldown by 3 seconds.",
+        "description": "Hitting an enemy Hero with Hook deals bonus damage equal to 5% of their maximum Health, reduces Hook's cooldown by 5 seconds, and restores 35 Mana.",
         "icon": "storm_ui_icon_stitches_hook.png",
         "type": "Q",
         "sort": 1,
@@ -151,73 +190,30 @@
         ]
       },
       {
-        "tooltipId": "StitchesPlaytime",
-        "talentTreeId": "StitchesPlaytime",
-        "name": "Playtime!",
-        "description": "Heroes hit by Slam reduce the cooldowns of Stitches's other Basic Abilities by 0.5 seconds, increased to 2 seconds for Heroes that are hit by its inner impact area.",
-        "icon": "storm_ui_icon_stitches_slam.png",
-        "type": "W",
+        "tooltipId": "StitchesSecondHelping",
+        "talentTreeId": "StitchesSecondHelping",
+        "name": "Second Helping",
+        "description": "Devour gains 1 additional charge with a 6 second cooldown between uses.  Loan: If Stitches is at max Health after using Devour, he gains a Shield equal to 15% of his maximum Health for 10 seconds. Every death, reduce this Shield by 3%.",
+        "icon": "storm_ui_icon_stitches_devour.png",
+        "type": "E",
         "sort": 2,
-        "abilityId": "Stitches|W1",
+        "isQuest": true,
+        "abilityId": "Stitches|E1",
         "abilityLinks": [
-          "Stitches|W1"
+          "Stitches|E1"
         ]
       },
       {
-        "tooltipId": "StitchesChopChop",
-        "talentTreeId": "StitchesChopChop",
-        "name": "Chop Chop",
-        "description": "Hitting an enemy Hero with Slam grants 25% increased Attack Speed for 3 seconds.  Double the Attack Speed bonus and duration if they are hit by Slam's inner impact area.",
-        "icon": "storm_ui_icon_stitches_slam_b.png",
-        "type": "W",
-        "sort": 3,
-        "abilityId": "Stitches|W1",
-        "abilityLinks": [
-          "Stitches|W1"
-        ]
-      }
-    ],
-    "7": [
-      {
-        "tooltipId": "StitchesBlight",
-        "talentTreeId": "StitchesBlight",
-        "name": "Blight",
-        "description": "Activate to apply Vile Gas to all nearby enemies. Enemy Heroes hit receive 20% less healing for 5 seconds.  Passive: Vile Gas heals Stitches for 33% of the damage dealt.",
+        "tooltipId": "StitchesPutrefaction",
+        "talentTreeId": "StitchesPutrefaction",
+        "name": "Putrefaction",
+        "description": "While Shambling Horror is active, Vile Gas reduces healing received by 30%.  Passive: Vile Gas heals Stitches for 60% of the damage dealt.",
         "icon": "storm_ui_icon_stitches_acidcloud.png",
         "type": "Trait",
-        "sort": 1,
-        "cooldown": 40,
+        "sort": 3,
         "abilityId": "Stitches|D1",
         "abilityLinks": [
           "Stitches|D1"
-        ]
-      },
-      {
-        "tooltipId": "StitchesCannibalize",
-        "talentTreeId": "StitchesCannibalize",
-        "name": "Cannibalize",
-        "description": "Hitting Heroes with Basic Attacks or the inner impact area of Slam heals Stitches for 2% of his maximum Health.",
-        "icon": "storm_ui_icon_talent_autoattack_heal.png",
-        "type": "Passive",
-        "sort": 2,
-        "abilityId": "Stitches|Passive",
-        "abilityLinks": [
-          "Stitches|D1",
-          "Stitches|W1"
-        ]
-      },
-      {
-        "tooltipId": "StitchesVileGasTenderizerTalent",
-        "talentTreeId": "StitchesTenderizer",
-        "name": "Tenderizer",
-        "description": "Basic Attacks Slow enemies by 25% for 2.5 seconds and refresh the duration of Slam's inner impact area Slow.",
-        "icon": "storm_ui_icon_talent_autoattack_slow.png",
-        "type": "Passive",
-        "sort": 3,
-        "abilityId": "Stitches|Passive",
-        "abilityLinks": [
-          "Stitches|D1",
-          "Stitches|W1"
         ]
       }
     ],
@@ -253,52 +249,52 @@
     ],
     "13": [
       {
-        "tooltipId": "StitchesHookFishingHookTalent",
-        "talentTreeId": "StitchesFishingHook",
-        "name": "Fishing Hook",
-        "description": "Hook has an additional 40% range.",
+        "tooltipId": "StitchesMeatHook",
+        "talentTreeId": "StitchesMeatHook",
+        "name": "Meat Hook",
+        "description": "Hitting an enemy Hero with Hook heals Stitches for 20% of his maximum Health over 4 seconds.  While active, Basic Attacks against the Hero hit refresh the duration of this effect.",
         "icon": "storm_ui_icon_stitches_hook.png",
         "type": "Q",
         "sort": 1,
         "abilityId": "Stitches|Q1",
         "abilityLinks": [
-          "Stitches|11",
           "Stitches|Q1"
         ]
       },
       {
-        "tooltipId": "StitchesMeatHook",
-        "talentTreeId": "StitchesMeatHook",
-        "name": "Meat Hook",
-        "description": "Hitting an enemy Hero with Hook heals Stitches for 20% of his maximum Health over 4 seconds.  While active, Basic Attacks against the Hero hit refresh the healing duration.",
-        "icon": "storm_ui_icon_stitches_hook_b.png",
-        "type": "Q",
-        "sort": 2,
-        "abilityId": "Stitches|Q1",
-        "abilityLinks": [
-          "Stitches|Q1"
-        ]
-      },
-      {
-        "tooltipId": "StitchesSlamPulverizeTalent",
-        "talentTreeId": "StitchesPulverizeSlam",
-        "name": "Pulverize",
-        "description": "All enemies hit by Slam are Slowed by 80% for 0.75 seconds.",
-        "icon": "storm_ui_icon_stitches_slam.png",
+        "tooltipId": "StitchesUnderPressure",
+        "talentTreeId": "StitchesUnderPressure",
+        "name": "Under Pressure",
+        "description": "Increase Slam's damage by 25.  Quest: After damaging Heroes with Vile Gas 6 times, permanently increase the damage of Slam by 1, to a maximum of 75 additional damage.",
+        "icon": "storm_ui_icon_stitches_underpressure.png",
         "type": "W",
-        "sort": 3,
+        "sort": 2,
+        "isQuest": true,
         "abilityId": "Stitches|W1",
         "abilityLinks": [
           "Stitches|W1"
+        ]
+      },
+      {
+        "tooltipId": "StitchesChopChop",
+        "talentTreeId": "StitchesChopChop",
+        "name": "Chop Chop",
+        "description": "Hitting an enemy Hero with Hook or activating Shambling Horror grants 50% increased Attack Speed for 5 seconds.",
+        "icon": "storm_ui_icon_stitches_chopchop.png",
+        "type": "Trait",
+        "sort": 3,
+        "abilityId": "Stitches|D1",
+        "abilityLinks": [
+          "Stitches|D1"
         ]
       }
     ],
     "16": [
       {
-        "tooltipId": "StitchesLacerate",
-        "talentTreeId": "StitchesLacerate",
-        "name": "Lacerate",
-        "description": "Slam afflicts enemies with Vile Gas, and Heroes hit by Slam have their Armor reduced by 10 for 4 seconds.",
+        "tooltipId": "StitchesSlamPulverizeTalent",
+        "talentTreeId": "StitchesPulverizeSlam",
+        "name": "Pulverize",
+        "description": "All enemies hit by Slam are Slowed by 80% for 0.75 seconds and Heroes have their Armor reduced by 10 for 4 seconds.",
         "icon": "storm_ui_icon_stitches_slam.png",
         "type": "W",
         "sort": 1,
@@ -311,7 +307,7 @@
         "tooltipId": "StitchesDigestiveJuices",
         "talentTreeId": "StitchesDigestiveJuices",
         "name": "Digestive Juices",
-        "description": "Hitting an enemy Hero with Devour reduces its cooldown by 5 seconds and causes the Hero hit to deal 50% reduced damage for 5 seconds.",
+        "description": "Devour deals an additional 140 (+4% per level) damage over 5 seconds. When used on a Hero, its cooldown is reduced by 5 seconds and causes the Hero hit to deal 50% reduced damage for 5 seconds.",
         "icon": "storm_ui_icon_stitches_devour.png",
         "type": "E",
         "sort": 2,
@@ -321,10 +317,10 @@
         ]
       },
       {
-        "tooltipId": "StitchesGasFlare",
-        "talentTreeId": "StitchesGasFlare",
-        "name": "Gas Flare",
-        "description": "Deals 15 (+4% per level) damage per second to nearby enemies. Hitting an enemy Hero with Hook increases this damage by 150% for 8 seconds.",
+        "tooltipId": "StitchesFlareUp",
+        "talentTreeId": "StitchesFlareUp",
+        "name": "Flare Up",
+        "description": "Deals 15 (+4% per level) damage per second to nearby enemies. Hitting an enemy Hero with Hook or activating Shambling Horror increases this damage by 150% for 4 seconds.",
         "icon": "storm_ui_icon_talent_burningrage.png",
         "type": "Passive",
         "sort": 3,
@@ -333,13 +329,14 @@
     ],
     "20": [
       {
-        "tooltipId": "StitchesPotentBile",
-        "talentTreeId": "StitchesPotentBile",
-        "name": "Potent Bile",
-        "description": "Putrid Bile lasts 6 seconds longer and its Slow is increased from 35% to 45%.",
+        "tooltipId": "StitchesGiftFromTheEmbalmer",
+        "talentTreeId": "StitchesGiftFromTheEmbalmer",
+        "name": "Gift From The Embalmer",
+        "description": "Putrid Bile deals 100% more damage to Heroes.  Quest: Each time Putrid Bile damages an enemy Hero, the duration of Stitches' next death timer is reduced by 2%, to a maximum of 80% total reduction. All stacks of this effect are lost upon death.",
         "icon": "storm_ui_icon_stitches_putridbile.png",
         "type": "Heroic",
         "sort": 1,
+        "isQuest": true,
         "abilityId": "Stitches|R1",
         "abilityLinks": [
           "Stitches|R1"
@@ -359,28 +356,31 @@
         ]
       },
       {
-        "tooltipId": "StitchesSecondHelping",
-        "talentTreeId": "StitchesSecondHelping",
-        "name": "Second Helping",
-        "description": "Devour gains 1 additional charge. Enemy Heroes hit by Devour reduce the cooldown of Stitches's Heroic Ability by 5 seconds.",
-        "icon": "storm_ui_icon_stitches_devour.png",
-        "type": "E",
+        "tooltipId": "StitchesHookMasterHooker",
+        "talentTreeId": "StitchesHookMasterHooker",
+        "name": "Master Hooker",
+        "description": "Reduce the cooldown of Hook by 5 seconds. Enemy Heroes hit by Hook have 100% reduced healing for 2 seconds. Allies hit by Helping Hand are Unkillable for 2 seconds.",
+        "icon": "storm_ui_icon_stitches_hook.png",
+        "type": "Q",
         "sort": 3,
-        "abilityId": "Stitches|E1",
+        "abilityId": "Stitches|Q1",
         "abilityLinks": [
-          "Stitches|E1"
+          "Stitches|11",
+          "Stitches|Q1"
         ]
       },
       {
-        "tooltipId": "StitchesShamblingHorror",
-        "talentTreeId": "StitchesShamblingHorror",
-        "name": "Shambling Horror",
-        "description": "Activate to gain 50 Armor for 4 seconds.  Passive: Stitches cannot have his Movement Speed reduced below 100%.",
-        "icon": "storm_ui_icon_stitches_horror.png",
-        "type": "Active",
+        "tooltipId": "StitchesGasBag",
+        "talentTreeId": "StitchesGasBag",
+        "name": "Gas Bag",
+        "description": "Activating Shambling Horror grants Unstoppable for 3 seconds.  Passive: Shambling Horror's cooldown is reduced by 20 seconds.",
+        "icon": "storm_ui_icon_stitches_acidcloud.png",
+        "type": "Trait",
         "sort": 4,
-        "cooldown": 60,
-        "abilityId": "Stitches|Active"
+        "abilityId": "Stitches|D1",
+        "abilityLinks": [
+          "Stitches|D1"
+        ]
       }
     ]
   }
