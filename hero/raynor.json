@@ -22,11 +22,11 @@
       {
         "uid": "40a0cc",
         "name": "Penetrating Round",
-        "description": "Deal 220 (+4% per level) damage, knock back, and Slow enemies in a line by 20% for 2 seconds. Enemies close to Raynor are knocked back further.",
+        "description": "Deal 190 (+4% per level) damage, knock back, and Slow enemies in a line by 20% for 2 seconds. Enemies close to Raynor are knocked back further.",
         "hotkey": "Q",
         "abilityId": "Raynor|Q1",
-        "cooldown": 10,
-        "manaCost": 65,
+        "cooldown": 9,
+        "manaCost": 60,
         "icon": "storm_ui_icon_raynor_penetratinground.png",
         "type": "basic"
       },
@@ -87,41 +87,43 @@
   "talents": {
     "1": [
       {
-        "tooltipId": "RaynorVeteranMarksman",
-        "talentTreeId": "RaynorVeteranMarksman",
-        "name": "Veteran Marksman",
-        "description": "Quest: Every time the primary target of Give 'Em Some Pepper is a Hero, permanently increase its damage bonus by 1%.",
-        "icon": "storm_ui_icon_raynor_acquireweakspot.png",
-        "type": "Trait",
-        "sort": 1,
-        "isQuest": true,
-        "abilityId": "Raynor|D1",
-        "abilityLinks": [
-          "Raynor|D1"
-        ]
-      },
-      {
         "tooltipId": "RaynorAceInTheHole",
         "talentTreeId": "RaynorAceInTheHole",
         "name": "Ace In The Hole",
-        "description": "Passive: Deal 10% more damage to Stunned or Slowed Heroes.  Enemy Heroes hit by Give 'Em Some Pepper are Slowed by 10% for 2.5 seconds.",
+        "description": "Enemy Heroes hit by Give 'Em Some Pepper are Slowed by 10% for 2.5 seconds. Penetrating Round deals 25% more damage to Stunned or Slowed Heroes.",
         "icon": "storm_ui_icon_raynor_acardtoplay.png",
-        "type": "Passive",
-        "sort": 2,
-        "abilityId": "Raynor|Passive",
+        "type": "Q",
+        "sort": 1,
+        "abilityId": "Raynor|Q1",
         "abilityLinks": [
-          "Raynor|D1"
+          "Raynor|D1",
+          "Raynor|Q1"
         ]
       },
       {
         "tooltipId": "RaynorExterminator",
         "talentTreeId": "RaynorGiveEmSomePepperExterminator",
         "name": "Exterminator",
-        "description": "Basic Attacks deal 50% more damage to Minions, Mercenaries, and Monsters. This is increased to 125% while Inspire is active.",
-        "icon": "storm_ui_icon_talent_autoattack_building.png",
-        "type": "Passive",
+        "description": "Basic Attacks deal 50% more damage to Minions, Mercenaries, and Monsters. This is increased to 125% while Inspire is active.  Passive: Inspire does not expire on friendly Minions and Mercenaries.",
+        "icon": "storm_ui_icon_raynor_inspire.png",
+        "type": "W",
+        "sort": 2,
+        "abilityId": "Raynor|W1",
+        "abilityLinks": [
+          "Raynor|D1",
+          "Raynor|W1"
+        ]
+      },
+      {
+        "tooltipId": "RaynorVeteranMarksman",
+        "talentTreeId": "RaynorVeteranMarksman",
+        "name": "Veteran Marksman",
+        "description": "Loan: Gain 60% bonus Give 'Em Some Pepper damage. Every death reduces this bonus by 15%.  Quest: Every time the primary target of Give 'Em Some Pepper is a Hero, permanently increase its damage bonus by 0.75%.",
+        "icon": "storm_ui_icon_raynor_acquireweakspot.png",
+        "type": "Trait",
         "sort": 3,
-        "abilityId": "Raynor|Passive",
+        "isQuest": true,
+        "abilityId": "Raynor|D1",
         "abilityLinks": [
           "Raynor|D1"
         ]
@@ -158,7 +160,7 @@
         "tooltipId": "RaynorBehemothArmor",
         "talentTreeId": "RaynorBehemothArmor",
         "name": "Behemoth Armor",
-        "description": "Gain 200 bonus maximum Health.   Quest: Every time Give 'Em Some Pepper's primary target is a Hero, gain an additional 5 maximum Health.",
+        "description": "Gain 200 bonus maximum Health.   Quest: Every time Give 'Em Some Pepper's primary target is a Hero, gain an additional 8 maximum Health.",
         "icon": "storm_ui_icon_raynor_hulkarmor.png",
         "type": "Passive",
         "sort": 3,
@@ -171,13 +173,26 @@
     ],
     "7": [
       {
+        "tooltipId": "RaynorPenetratingRoundHeavySlugs",
+        "talentTreeId": "RaynorPenetratingRoundHeavySlugs",
+        "name": "Heavy Slugs",
+        "description": "Increase Penetrating Round's Slow by 15% and its duration by 1.5 seconds.",
+        "icon": "storm_ui_icon_raynor_penetratinground.png",
+        "type": "Q",
+        "sort": 1,
+        "abilityId": "Raynor|Q1",
+        "abilityLinks": [
+          "Raynor|Q1"
+        ]
+      },
+      {
         "tooltipId": "RaynorInspireFuelTheRush",
         "talentTreeId": "RaynorInspireFuelTheRush",
         "name": "Fuel The Rush",
-        "description": "Reduce the Mana cost of Adrenaline Rush from 75 to 50.  While Inspire is active, increase Adrenaline Rush's cooldown reduction from Basic Attacks by 200%.",
+        "description": "Reduce the Mana cost of Adrenaline Rush from 75 to 45. While Inspire is active, increase Adrenaline Rush's cooldown reduction from Basic Attacks by 300%.",
         "icon": "storm_ui_icon_raynor_split_debilitatingrounds.png",
         "type": "Passive",
-        "sort": 1,
+        "sort": 2,
         "abilityId": "Raynor|Passive",
         "abilityLinks": [
           "Raynor|E1",
@@ -188,27 +203,13 @@
         "tooltipId": "RaynorGiveEmSomePepperUnstableCompound",
         "talentTreeId": "RaynorGiveEmSomePepperUnstableCompound",
         "name": "Unstable Compound",
-        "description": "Increase the area of Give 'Em Some Pepper by 15%. Each enemy Hero hit by Give 'Em Some Pepper grants Raynor 10 Mana and reduces the cooldown of Penetrating Round and Inspire by 1 second.",
+        "description": "Increase the area of Give 'Em Some Pepper by 15%. Each enemy Hero hit by Give 'Em Some Pepper grants Raynor 10 Mana and reduces the cooldown of Penetrating Round by 1.5 seconds.",
         "icon": "storm_ui_icon_raynor_acquireweakspot.png",
         "type": "Trait",
-        "sort": 2,
+        "sort": 3,
         "abilityId": "Raynor|D1",
         "abilityLinks": [
           "Raynor|D1"
-        ]
-      },
-      {
-        "tooltipId": "RaynorPenetratingRoundHeavySlugs",
-        "talentTreeId": "RaynorPenetratingRoundHeavySlugs",
-        "name": "Heavy Slugs",
-        "description": "Activate to increase the distance of the next Penetrating Round by 30% and increase its Slow duration to 6 seconds.",
-        "icon": "storm_ui_icon_raynor_penetratinground.png",
-        "type": "Active",
-        "sort": 3,
-        "cooldown": 30,
-        "abilityId": "Raynor|Active",
-        "abilityLinks": [
-          "Raynor|Q1"
         ]
       }
     ],
@@ -244,52 +245,10 @@
     ],
     "13": [
       {
-        "tooltipId": "RaynorPenetratingRoundDebilitatingRounds",
-        "talentTreeId": "RaynorPenetratingRoundDebilitatingRounds",
-        "name": "Debilitating Rounds",
-        "description": "Reduce the Mana cost of Penetrating Round from 65 to 45, and its cooldown by 3 seconds. While Inspire is active, Penetrating Round's Slow is increased by 20%.",
-        "icon": "storm_ui_icon_raynor_split_fuelrush.png",
-        "type": "Passive",
-        "sort": 1,
-        "abilityId": "Raynor|Passive",
-        "abilityLinks": [
-          "Raynor|Q1",
-          "Raynor|W1"
-        ]
-      },
-      {
-        "tooltipId": "RaynorInspireRallyingCry",
-        "talentTreeId": "RaynorInspireRallyingCry",
-        "name": "Rallying Cry",
-        "description": "Increase the duration of Inspire by 1 second. Casting Inspire grants nearby allied Heroes 10% Movement and Attack Speed for its duration.",
-        "icon": "storm_ui_icon_raynor_inspire.png",
-        "type": "W",
-        "sort": 2,
-        "abilityId": "Raynor|W1",
-        "abilityLinks": [
-          "Raynor|W1"
-        ]
-      },
-      {
-        "tooltipId": "RaynorInspireGiddyUp",
-        "talentTreeId": "RaynorInspireGiddyUp",
-        "name": "Giddy-Up",
-        "description": "Gain 8% Movement Speed while mounted and unmounted. Inspire grants 8% more Movement Speed.",
-        "icon": "storm_ui_icon_raynor_inspire_a.png",
-        "type": "W",
-        "sort": 3,
-        "abilityId": "Raynor|W1",
-        "abilityLinks": [
-          "Raynor|W1"
-        ]
-      }
-    ],
-    "16": [
-      {
-        "tooltipId": "RaynorPenetratingRoundPaintThemRed",
-        "talentTreeId": "RaynorPenetratingRoundPaintThemRed",
-        "name": "Paint Them Red",
-        "description": "Increase the damage of Penetrating Round by 50% and heal for 90% of the damage it deals to Heroes.",
+        "tooltipId": "RaynorPenetratingRoundLine'EmUp",
+        "talentTreeId": "RaynorPenetratingRoundLine'EmUp",
+        "name": "Line 'Em Up",
+        "description": "Reduce the cooldown of Penetrating Round by 3 seconds. Penetrating Round hitting two or more enemy Heroes reduces its cooldown by an additional 3 seconds.",
         "icon": "storm_ui_icon_raynor_penetratinground.png",
         "type": "Q",
         "sort": 1,
@@ -299,16 +258,57 @@
         ]
       },
       {
+        "tooltipId": "RaynorInspireGiddyUp",
+        "talentTreeId": "RaynorInspireGiddyUp",
+        "name": "Giddy-Up",
+        "description": "Gain 10% Movement Speed while mounted and unmounted. Inspire grants 10% more Movement Speed.",
+        "icon": "storm_ui_icon_raynor_inspire.png",
+        "type": "W",
+        "sort": 2,
+        "abilityId": "Raynor|W1",
+        "abilityLinks": [
+          "Raynor|W1"
+        ]
+      },
+      {
         "tooltipId": "RaynorAdrenalineRushGiveMeMoreTalent",
         "talentTreeId": "RaynorMasteryGiveMeMoreAdrenalineRush",
         "name": "Give Me More!",
         "description": "Increase Adrenaline Rush healing by 50%. While Inspire is active, gain 1 Basic Attack range.",
         "icon": "storm_ui_icon_raynor_split_debilitatingrounds.png",
         "type": "E",
-        "sort": 2,
+        "sort": 3,
         "abilityId": "Raynor|W1",
         "abilityLinks": [
           "Raynor|E1",
+          "Raynor|W1"
+        ]
+      }
+    ],
+    "16": [
+      {
+        "tooltipId": "RaynorPenetratingRoundPaintThemRed",
+        "talentTreeId": "RaynorPenetratingRoundPaintThemRed",
+        "name": "Paint Them Red",
+        "description": "Increase the damage of Penetrating Round by 50% and heal for 90% of the damage Penetrating Round deals to Heroes.",
+        "icon": "storm_ui_icon_raynor_penetratinground.png",
+        "type": "Q",
+        "sort": 1,
+        "abilityId": "Raynor|Q1",
+        "abilityLinks": [
+          "Raynor|Q1"
+        ]
+      },
+      {
+        "tooltipId": "RaynorInspireRallyingCry",
+        "talentTreeId": "RaynorInspireRallyingCry",
+        "name": "Rallying Cry",
+        "description": "Increase the Attack Speed bonus of Inspire by 20%.  Passive: After every 12 Basic Attacks, cast Inspire for free.",
+        "icon": "storm_ui_icon_raynor_inspire.png",
+        "type": "W",
+        "sort": 2,
+        "abilityId": "Raynor|W1",
+        "abilityLinks": [
           "Raynor|W1"
         ]
       },
@@ -329,10 +329,10 @@
     ],
     "20": [
       {
-        "tooltipId": "RaynorHyperionIndomitableResolve",
-        "talentTreeId": "RaynorHyperionIndomitableResolve",
-        "name": "Indomitable Resolve",
-        "description": "Give 'Em Some Pepper lowers the cooldown of Hyperion by 5 seconds if the primary target is a Hero. Inspire grants Raynor Unstoppable for 2 seconds.",
+        "tooltipId": "RaynorCavalrysArrived",
+        "talentTreeId": "RaynorHyperionCavalrysArrived",
+        "name": "Cavalry's Arrived",
+        "description": "Give 'Em Some Pepper lowers the cooldown of Hyperion by 5 seconds if the primary target is a Hero. These Heroes are targeted by the Hyperion for 100% increased damage.",
         "icon": "storm_ui_icon_raynor_hyperion.png",
         "type": "Heroic",
         "sort": 1,
@@ -345,7 +345,7 @@
         "tooltipId": "RaynorRaynorsRaidersDuskWingsTalent",
         "talentTreeId": "RaynorDuskWing",
         "name": "Dusk Wing",
-        "description": "Increase the damage, Health, and leash range of Raynor's Raider by 100%. When it dies, both Inspire and Adrenaline Rush are activated for free.",
+        "description": "Increase the Health and leash range of Raynor's Raider by 100%. Its Basic Attack lowers enemy Hero Armor by 2 for 1 second, stacking up to 25.",
         "icon": "storm_ui_icon_raynor_raynorsraiders.png",
         "type": "Heroic",
         "sort": 2,
@@ -355,30 +355,40 @@
         ]
       },
       {
-        "tooltipId": "RaynorGiveEmSomePepperWeakSpotAcquired",
-        "talentTreeId": "RaynorGiveEmSomePepperWeakSpotAcquired",
-        "name": "Weak Spot Acquired",
-        "description": "Enemy Heroes that are the primary target of Give 'Em Some Pepper have their Armor reduced by 25 for 2 seconds.",
+        "tooltipId": "RaynorAdrenalineRushRaidersRoll",
+        "talentTreeId": "RaynorAdrenalineRushRaidersRoll",
+        "name": "Raiders Roll",
+        "description": "Adrenaline Rush grants Unstoppable and continues healing for an additional 2 seconds. The additional duration ends upon reaching 70% Health.",
+        "icon": "storm_ui_icon_raynor_adrenalinrush.png",
+        "type": "E",
+        "sort": 3,
+        "abilityId": "Raynor|E1",
+        "abilityLinks": [
+          "Raynor|E1"
+        ]
+      },
+      {
+        "tooltipId": "RaynorGive'EmSomePepperSergeantPepper",
+        "talentTreeId": "RaynorGive'EmSomePepperSergeantPepper",
+        "name": "Sergeant Pepper",
+        "description": "Give 'Em Some Pepper now activates every 3 Basic Attacks.",
         "icon": "storm_ui_icon_raynor_acquireweakspot.png",
         "type": "Trait",
-        "sort": 3,
+        "sort": 4,
         "abilityId": "Raynor|D1",
         "abilityLinks": [
           "Raynor|D1"
         ]
       },
       {
-        "tooltipId": "RaynorBasicAttackExecute",
-        "talentTreeId": "RaynorBasicAttackExecute",
-        "name": "Execute",
-        "description": "Increase Attack Speed by 20%. Basic Attack damage is increased by 25% against targets below 50% Health.",
-        "icon": "storm_ui_icon_talent_autoattack_damage.png",
+        "tooltipId": "RaynorHyperionExecuteOrders",
+        "talentTreeId": "RaynorHyperionExecuteOrders",
+        "name": "Execute Orders",
+        "description": "Reduce Raynor's death timer to 30 seconds. Upon death, the Hyperion is cast towards the closest enemy Hero.",
+        "icon": "storm_ui_icon_raynor_advancedoptics.png",
         "type": "Passive",
-        "sort": 4,
-        "abilityId": "Raynor|Passive",
-        "abilityLinks": [
-          "Raynor|D1"
-        ]
+        "sort": 5,
+        "abilityId": "Raynor|Passive"
       }
     ]
   }
