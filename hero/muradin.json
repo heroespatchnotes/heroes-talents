@@ -25,7 +25,7 @@
       {
         "uid": "0dce1c",
         "name": "Storm Bolt",
-        "description": "Throw a hammer, dealing 110 (+4% per level) damage to the first enemy hit and Stunning them for 1.25 seconds.  Quest: Hit 25 Heroes with Storm Bolt. Heroes who die within 2.5 seconds of being hit by Storm Bolt count as hitting 3 additional Heroes.  Reward: Storm Bolt pierces to hit an additional target. Muradin's Basic Attacks reduce the cooldown of Storm Bolt by 1 second and restore 3 Mana.",
+        "description": "Throw a hammer, dealing 110 (+4% per level) damage to the first enemy hit and Stunning them for 1.25 seconds.  After reaching level 10, Storm Bolt pierces to hit an additional target. Muradin's Basic Attacks reduce the cooldown of Storm Bolt by 1 second and restore 3 Mana.",
         "hotkey": "Q",
         "abilityId": "Muradin|Q1",
         "cooldown": 10,
@@ -94,7 +94,7 @@
         "tooltipId": "MuradinStormboltPerfectStormTalent",
         "talentTreeId": "MuradinStormboltPerfectStorm",
         "name": "Perfect Storm",
-        "description": "Quest: Every time Storm Bolt hits a Hero, increase its damage by 4.",
+        "description": "Quest: Every time Muradin hits an enemy Hero with a Basic Attack, increase Storm Bolt's damage by 0.5. If an enemy Hero is killed within 3 seconds of being hit by a Storm Bolt increase it's damage by an additional 10.",
         "icon": "storm_ui_icon_muradin_stormbolt.png",
         "type": "Q",
         "sort": 1,
