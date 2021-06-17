@@ -25,7 +25,7 @@
       {
         "uid": "434b0b",
         "name": "Flame Stream",
-        "description": "Fire two streams that deal 83 (+4% per level) damage to enemies hit. Flame Stream Ignites Oil Spills it comes in contact with.",
+        "description": "Fire two streams that deal 83 (+4% per level) damage to enemies hit, and an additional 120 (+4% per level) damage to enemies hit by both streams. Flame Stream Ignites Oil Spills it comes in contact with.",
         "hotkey": "Q",
         "abilityId": "Blaze|Q1",
         "cooldown": 4,
@@ -129,7 +129,7 @@
         "tooltipId": "FirebatNewHabits",
         "talentTreeId": "FirebatNewHabits",
         "name": "New Habits",
-        "description": "Collecting Regeneration Globes reduces the cooldown of Pyromania by 8 seconds.  Quest: Collect 15 Regeneration Globes.  Reward: Pyromania grants Unstoppable for 2 seconds.",
+        "description": "Collecting Regeneration Globes reduces the cooldown of Pyromania by 6 seconds.  Quest: Collect 15 Regeneration Globes.  Reward: Pyromania grants Unstoppable for 2 seconds.",
         "icon": "storm_ui_icon_blaze_new_habits.png",
         "type": "Trait",
         "sort": 4,
@@ -180,10 +180,10 @@
     ],
     "7": [
       {
-        "tooltipId": "FirebatFlameStreamCrossfire",
-        "talentTreeId": "FirebatFlameStreamCrossfire",
-        "name": "Crossfire",
-        "description": "Hitting an enemy with both streams of Flame Stream deals 139 (+4% per level) bonus damage.",
+        "tooltipId": "FirebatFlameStreamSuppressiveFire",
+        "talentTreeId": "FirebatFlameStreamSuppressiveFire",
+        "name": "Suppressive Fire",
+        "description": "Each stream of Flame Stream reduces the Spell Power of Heroes hit by 25% for 4 seconds, up to 50%.",
         "icon": "storm_ui_icon_blaze_flame.png",
         "type": "Q",
         "sort": 1,
@@ -193,30 +193,29 @@
         ]
       },
       {
-        "tooltipId": "FirebatOilSpillGrillandKill",
-        "talentTreeId": "FirebatOilSpillGrillandKill",
-        "name": "Grill and Kill",
-        "description": "Quest: Damage enemy Heroes with Ignited Oil Spills 60 times.  Reward: Increase Oil Spill's Ignite duration by 2 seconds, and damage by 35%.",
+        "tooltipId": "FirebatOilSpillNanomachineCoating",
+        "talentTreeId": "FirebatOilSpillNanomachineCoating",
+        "name": "Nanomachine Coating",
+        "description": "Enemies standing in Oil Spills and Ignited Oil Spills have their Attack Speed reduced by 50% for 3 seconds.",
         "icon": "storm_ui_icon_blaze_oil.png",
         "type": "W",
         "sort": 2,
-        "isQuest": true,
         "abilityId": "Blaze|W1",
         "abilityLinks": [
           "Blaze|W1"
         ]
       },
       {
-        "tooltipId": "FirebatOilSpillAdhesivePetroleum",
-        "talentTreeId": "FirebatOilSpillAdhesivePetroleum",
-        "name": "Adhesive Petroleum",
-        "description": "Enemies standing in Oil Spill when it is Ignited are Slowed by 40% for 3 seconds.  Additionally, Basic Attack splashes Ignite Oil Spills.",
-        "icon": "storm_ui_icon_blaze_oil_b.png",
-        "type": "W",
+        "tooltipId": "FirebatJetPropulsionFuelLeak",
+        "talentTreeId": "FirebatJetPropulsionFuelLeak",
+        "name": "Fuel Leak",
+        "description": "Jet Propulsion creates Oil Spills along Blaze's path. If Jet Propulsion impacts an enemy Hero, an additional Oil Spill is created underneath them.",
+        "icon": "storm_ui_icon_blaze_jet.png",
+        "type": "E",
         "sort": 3,
-        "abilityId": "Blaze|W1",
+        "abilityId": "Blaze|E1",
         "abilityLinks": [
-          "Blaze|W1"
+          "Blaze|E1"
         ]
       }
     ],
@@ -252,24 +251,25 @@
     ],
     "13": [
       {
-        "tooltipId": "FirebatFlameStreamSuppressiveFire",
-        "talentTreeId": "FirebatFlameStreamSuppressiveFire",
-        "name": "Suppressive Fire",
-        "description": "Each stream of Flame Stream reduces the Spell Power of Heroes hit by 25% for 4 seconds, up to 50%.",
-        "icon": "storm_ui_icon_blaze_flame.png",
-        "type": "Q",
+        "tooltipId": "FirebatOilSpillGrillandKill",
+        "talentTreeId": "FirebatOilSpillGrillandKill",
+        "name": "Grill and Kill",
+        "description": "Increase Ignited Oil Spill damage by 45%.  Quest: Damage enemy Heroes with Ignited Oil Spills 30 times.  Reward: Increase Oil Spill's Ignite duration by 2.5 seconds.",
+        "icon": "storm_ui_icon_blaze_oil.png",
+        "type": "W",
         "sort": 1,
-        "abilityId": "Blaze|Q1",
+        "isQuest": true,
+        "abilityId": "Blaze|W1",
         "abilityLinks": [
-          "Blaze|Q1"
+          "Blaze|W1"
         ]
       },
       {
-        "tooltipId": "FirebatOilSpillNanomachineCoating",
-        "talentTreeId": "FirebatOilSpillNanomachineCoating",
-        "name": "Nanomachine Coating",
-        "description": "Enemies standing in Oil Spills and Ignited Oil Spills have their Attack Speed reduced by 50% for 3 seconds.",
-        "icon": "storm_ui_icon_blaze_oil.png",
+        "tooltipId": "FirebatOilSpillAdhesivePetroleum",
+        "talentTreeId": "FirebatOilSpillAdhesivePetroleum",
+        "name": "Adhesive Petroleum",
+        "description": "Enemies standing in Oil Spill when it is Ignited are Slowed by 40% and take 35% more Basic Attack damage from Blaze for 3 seconds. Additionally, Basic Attack splashes Ignite Oil Spills.",
+        "icon": "storm_ui_icon_blaze_oil_b.png",
         "type": "W",
         "sort": 2,
         "abilityId": "Blaze|W1",
@@ -278,10 +278,10 @@
         ]
       },
       {
-        "tooltipId": "FirebatJetPropulsionFuelLeak",
-        "talentTreeId": "FirebatJetPropulsionFuelLeak",
-        "name": "Fuel Leak",
-        "description": "Jet Propulsion creates Oil Spills along Blaze's path. If Jet Propulsion impacts an enemy Hero, an additional Oil Spill is created underneath them.",
+        "tooltipId": "FirebatJetPropulsionCollisionCourse",
+        "talentTreeId": "FirebatJetPropulsionCollisionCourse",
+        "name": "Collision Course",
+        "description": "Jet Propulsion's collision deals 325 (+4% per level) damage to the first enemy Hero hit.",
         "icon": "storm_ui_icon_blaze_jet.png",
         "type": "E",
         "sort": 3,
