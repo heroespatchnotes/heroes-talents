@@ -24,7 +24,7 @@
       {
         "uid": "5a2c02",
         "name": "Baneling Barrage",
-        "description": "Launch 1 Baneling that deals 86 (+4% per level) damage to enemies it hits.  Stores up to 4 charges.",
+        "description": "Launch 2 Banelings that deal 86 (+4% per level) damage to enemies they hit.  Stores up to 2 charges.",
         "hotkey": "Q",
         "abilityId": "Zagara|Q1",
         "cooldown": 3,
@@ -46,7 +46,7 @@
       {
         "uid": "340714",
         "name": "Infested Drop",
-        "description": "Bombard target area with a Zerg Drop Pod for 140 (+4% per level) damage.  The pod spawns 2 Roachlings that deal 27 (+4% per level) damage per second and last for 8 seconds.",
+        "description": "Bombard target area with a Zerg Drop Pod for 140 (+4% per level) damage.  The pod spawns 2 Roachlings that deal 30 (+4% per level) damage per second and last for 8 seconds.",
         "hotkey": "E",
         "abilityId": "Zagara|E1",
         "cooldown": 12,
@@ -79,7 +79,7 @@
       {
         "uid": "d4b96a",
         "name": "Creep Tumor",
-        "description": "Lay a Creep Tumor that generates Creep. While on Creep, Zagara gains 20% additional attack range and both Zagara and her summons move 20% faster. Tumors last 240 seconds and reveal the surrounding area while active.  Stores up to 3 charges.",
+        "description": "Lay a Creep Tumor that generates Creep. While on Creep, Zagara moves 20% faster and her summons move 30% faster. Tumors last 240 seconds and reveal the surrounding area while active.  Stores up to 3 charges.",
         "hotkey": "D",
         "trait": true,
         "abilityId": "Zagara|D1",
@@ -303,7 +303,7 @@
         "tooltipId": "ZagaraCreepTumorJaggedBarbs",
         "talentTreeId": "ZagaraJaggedBarbsTalent",
         "name": "Jagged Barbs",
-        "description": "While on Creep, Zagara gains 40% more Basic Attack damage and her attack range is increased by an additional 20%.",
+        "description": "While on Creep, Zagara gains 50% more Basic Attack damage and her attack range is increased by 1.1.",
         "icon": "storm_ui_icon_zagara_creep.png",
         "type": "Trait",
         "sort": 3,
@@ -341,14 +341,30 @@
         ]
       },
       {
-        "tooltipId": "FuryoftheStormTalent",
-        "talentTreeId": "GenericTalentFuryoftheStorm",
-        "name": "Fury of the Storm",
-        "description": "Every 5 seconds, your next Basic Attack will deal an additional 91 (+4% per level) damage to the target, and 228 (+4% per level) damage to all nearby Minions, Mercenaries, and Monsters.",
-        "icon": "storm_ui_icon_talent_autoattack_damage.png",
-        "type": "Passive",
+        "tooltipId": "ZagaraBroodmother",
+        "talentTreeId": "ZagaraBroodmother",
+        "name": "Broodmother",
+        "description": "Every 3rd Basic Attack also launches a Baneling towards the target.",
+        "icon": "storm_ui_icon_zagara_banelingbarrage.png",
+        "type": "Q",
         "sort": 3,
-        "abilityId": "Zagara|Passive"
+        "abilityId": "Zagara|Q1",
+        "abilityLinks": [
+          "Zagara|Q1"
+        ]
+      },
+      {
+        "tooltipId": "ZagaraPackInstinct",
+        "talentTreeId": "ZagaraPackInstinct",
+        "name": "Pack Instinct",
+        "description": "Zagara and her summons deal 25% more damage to enemies attacked by a Hunter Killer in the last 3 seconds.",
+        "icon": "storm_ui_icon_zagara_hunterkiller.png",
+        "type": "W",
+        "sort": 4,
+        "abilityId": "Zagara|W1",
+        "abilityLinks": [
+          "Zagara|W1"
+        ]
       }
     ]
   }
