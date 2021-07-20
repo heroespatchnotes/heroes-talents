@@ -330,13 +330,23 @@
         ]
       },
       {
+        "tooltipId": "MonkFistsofLegend",
+        "talentTreeId": "MonkFistsofLegendTrait",
+        "name": "Fists of Legend",
+        "description": "Gain 50% of the benefit from both level 1  talents that were not chosen.",
+        "icon": "storm_ui_glues_draft_portrait_monk.png",
+        "type": "Trait",
+        "sort": 3,
+        "abilityLinks": []
+      },
+      {
         "tooltipId": "GenericStormShield",
         "talentTreeId": "GenericTalentStormShield",
         "name": "Storm Shield",
         "description": "Activate to give all nearby allied Heroes a Shield for 20% of their max Health for 3 seconds.",
         "icon": "storm_ui_icon_talent_stormshield.png",
         "type": "Active",
-        "sort": 3,
+        "sort": 4,
         "cooldown": 45,
         "abilityId": "Kharazim|Active"
       },
@@ -347,7 +357,7 @@
         "description": "Activate to restore 33% of Kharazim's maximum Mana and refill 2 charges of Radiant Dash.",
         "icon": "storm_ui_icon_kharazim_epiphany.png",
         "type": "Active",
-        "sort": 4,
+        "sort": 5,
         "cooldown": 60,
         "abilityId": "Kharazim|Active"
       }
