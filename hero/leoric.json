@@ -23,7 +23,7 @@
       {
         "uid": "545927",
         "name": "Skeletal Swing",
-        "description": "Leoric swings his mace, dealing 150 (+4% per level) damage and Slowing enemies by 40% for 2.5 seconds. If an enemy Hero is hit, refund 50% of the cooldown and Mana cost. Peasants!",
+        "description": "Leoric swings his mace, dealing 150 (+4% per level) damage and Slowing enemies by 40% for 2.5 seconds. If an enemy Hero is hit, refund 50% of the cooldown and Mana cost. Deals 75% additional damage to Minions. Peasants!",
         "hotkey": "Q",
         "abilityId": "Leoric|Q1",
         "cooldown": 12,
@@ -78,7 +78,7 @@
       {
         "uid": "245d5e",
         "name": "Undying",
-        "description": "Leoric becomes a ghost when he dies, and resurrects upon reaching full Health. Leoric deals no damage while dead.  Wrath Of The Bone King  Leoric's first two Basic Attacks cleave for 100% damage, and his third Basic Attack deals 200% damage to a single target.",
+        "description": "Leoric becomes a ghost when he dies, and resurrects upon reaching full Health. Leoric deals no damage while dead.  Wrath Of The Bone King  Leoric's first two Basic Attacks cleave for 100% damage, and his third Basic Attack deals 225% damage to a single target.",
         "trait": true,
         "abilityId": "Leoric|D1",
         "icon": "storm_ui_icon_leoric_trait.png",
@@ -179,7 +179,7 @@
         "tooltipId": "LeoricKneelPeasantsTalent",
         "talentTreeId": "LeoricSkeletalSwingKneelPeasantsTalent",
         "name": "Kneel, Peasants!",
-        "description": "Skeletal Swing deals 100% more damage to Minions, Mercenaries, and Monsters.",
+        "description": "Skeletal Swing deals 75% additional damage to Mercenaries and Monsters, and hitting them activates Skeletal Swing's cost and cooldown refund.",
         "icon": "storm_ui_icon_leoric_skeletalswing_var2.png",
         "type": "Q",
         "sort": 3,
