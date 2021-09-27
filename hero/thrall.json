@@ -39,7 +39,7 @@
         "hotkey": "W",
         "abilityId": "Thrall|W1",
         "cooldown": 12,
-        "manaCost": 60,
+        "manaCost": 40,
         "icon": "storm_ui_icon_thrall_feralspirit.png",
         "type": "basic"
       },
@@ -93,7 +93,7 @@
         "tooltipId": "ThrallEchooftheElements",
         "talentTreeId": "ThrallEchooftheElements",
         "name": "Echo of the Elements",
-        "description": "Quest: Kill Minions or Heroes within 1.5 seconds of hitting them with Chain Lightning.  Reward: After killing 10 enemies, reduce the Mana cost of Chain Lightning from 40 to 25.  Reward: After killing 20 enemies, gain a second charge of Chain Lightning.",
+        "description": "Quest: Kill Minions or Heroes within 1.5 seconds of hitting them with Chain Lightning.  Reward: After killing 10 enemies, reduce the Mana cost of Chain Lightning from 40 to 20.  Reward: After killing 20 enemies, gain a second charge of Chain Lightning.",
         "icon": "storm_ui_icon_thrall_chainlightning.png",
         "type": "Q",
         "sort": 1,
@@ -136,7 +136,7 @@
         "tooltipId": "ThrallFeralResilience",
         "talentTreeId": "ThrallFeralResilience",
         "name": "Feral Resilience",
-        "description": "Heroes damaged by Feral Spirit grant 3 stacks of Frostwolf Resilience and 2 stacks of Feral Resilience, granting 75 Physical Armor against the next incoming Hero Basic Attack.  Stacks are consumed on the next cast of Feral Spirit.",
+        "description": "Heroes damaged by Feral Spirit grant 4 stacks of Frostwolf Resilience and 2 stacks of Feral Resilience, granting 75 Physical Armor against the next incoming Hero Basic Attack.  Stacks are consumed on the next cast of Feral Spirit.",
         "icon": "storm_ui_icon_thrall_feralspirit.png",
         "type": "W",
         "sort": 1,
@@ -257,7 +257,7 @@
         "tooltipId": "ThrallFrostwolfResilienceSurgeOfHealing",
         "talentTreeId": "ThrallMasteryFrostwolfsGrace",
         "name": "Frostwolf's Grace",
-        "description": "Frostwolf Resilience can be activated to instantly heal for 150% of its normal amount.",
+        "description": "Frostwolf Resilience can be activated to instantly heal. This healing is increased by up to 100% based on Thrall's missing health.",
         "icon": "storm_ui_icon_thrall_frostwolfresilience.png",
         "type": "Trait",
         "sort": 2,
@@ -271,7 +271,7 @@
         "tooltipId": "ThrallSpiritShield",
         "talentTreeId": "ThrallSpiritShield",
         "name": "Spirit Shield",
-        "description": "Every 45 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 2.5 seconds. Frostwolf Resilience reduces this cooldown by 10 seconds.  Can be toggled to allow or prevent this talent from triggering automatically.",
+        "description": "Every 45 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 4 seconds. Frostwolf Resilience reduces this cooldown by 10 seconds.  Can be toggled to allow or prevent this talent from triggering automatically.",
         "icon": "storm_ui_icon_talent_spellshield.png",
         "type": "Active",
         "sort": 3,
@@ -349,13 +349,23 @@
         ]
       },
       {
+        "tooltipId": "ThrallElementalMomentum",
+        "talentTreeId": "ThrallElementalMomentum",
+        "name": "Elemental Momentum",
+        "description": "Basic Attacks reduce Thrall's Basic and Heroic Ability cooldowns by 0.25 seconds, doubled against Heroes.",
+        "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
+        "type": "Passive",
+        "sort": 3,
+        "abilityId": "Thrall|Passive"
+      },
+      {
         "tooltipId": "NexusBladesTalent",
         "talentTreeId": "GenericTalentNexusBlades",
         "name": "Nexus Blades",
         "description": "Basic Attacks deal 20% more damage and Slow enemy Movement Speed by 20% for 1 second.",
         "icon": "storm_ui_icon_talent_autoattack_slow.png",
         "type": "Passive",
-        "sort": 3,
+        "sort": 4,
         "abilityId": "Thrall|Passive"
       },
       {
@@ -365,7 +375,7 @@
         "description": "Activate to immediately teleport to a target location and gain Windfury.",
         "icon": "storm_ui_icon_talent_boltofthestorm.png",
         "type": "Active",
-        "sort": 4,
+        "sort": 5,
         "cooldown": 80,
         "abilityId": "Thrall|Active"
       }
