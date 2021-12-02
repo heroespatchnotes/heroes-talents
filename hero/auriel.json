@@ -86,26 +86,13 @@
   "talents": {
     "1": [
       {
-        "tooltipId": "AurielSwiftSweepSacredSweepTalent",
-        "talentTreeId": "AurielSwiftSweepSacredSweepTalent",
-        "name": "Swift Sweep",
-        "description": "Increases the cast speed of Sacred Sweep by 50%.",
-        "icon": "storm_ui_icon_auriel_angelicsweep.png",
-        "type": "Q",
-        "sort": 1,
-        "abilityId": "Auriel|Q1",
-        "abilityLinks": [
-          "Auriel|Q1"
-        ]
-      },
-      {
         "tooltipId": "AurielIncreasingClaritySacredSweepTalent",
         "talentTreeId": "AurielIncreasingClaritySacredSweepTalent",
         "name": "Increasing Clarity",
         "description": "Quest: Every time Sacred Sweep hits a Hero in the center, increase the center damage by 2, up to 50.  Reward: After hitting 25 Heroes, this center damage bonus is increased to 180.",
-        "icon": "storm_ui_icon_auriel_angelicsweep_a.png",
+        "icon": "storm_ui_icon_auriel_angelicsweep.png",
         "type": "Q",
-        "sort": 2,
+        "sort": 1,
         "isQuest": true,
         "abilityId": "Auriel|Q1",
         "abilityLinks": [
@@ -119,7 +106,7 @@
         "description": "Reduces the cooldown of Sacred Sweep by 3 seconds for each enemy Hero hit by its center.",
         "icon": "storm_ui_icon_auriel_angelicsweep_b.png",
         "type": "Q",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Auriel|Q1",
         "abilityLinks": [
           "Auriel|Q1"
@@ -132,7 +119,7 @@
         "description": "Ray of Heaven also deals damage to enemies in the area equal to 30% of the energy consumed.",
         "icon": "storm_ui_icon_auriel_rayofheaven.png",
         "type": "W",
-        "sort": 4,
+        "sort": 3,
         "abilityId": "Auriel|W1",
         "abilityLinks": [
           "Auriel|W1"
@@ -157,7 +144,7 @@
         "tooltipId": "AurielHeavyBurdenDetainmentStrikeTalent",
         "talentTreeId": "AurielHeavyBurdenDetainmentStrikeTalent",
         "name": "Heavy Burden",
-        "description": "Detainment Strike Slows enemy Heroes by 20% for 2.5 seconds. Slow and duration doubled on enemies it Stuns.",
+        "description": "Detainment Strike Slows enemy Heroes by 20% for 2.5 seconds. Slow amount and duration doubled on enemies it Stuns.  Passive: Increase Detainment Strikes' Stun duration by 0.25 seconds.",
         "icon": "storm_ui_icon_auriel_restrainingblow.png",
         "type": "E",
         "sort": 2,
@@ -271,7 +258,7 @@
         "talentTreeId": "AurielConvergingForceSacredSweepTalent",
         "name": "Converging Force",
         "description": "Enemies hit by the outer area are pushed slightly toward the center.",
-        "icon": "storm_ui_icon_auriel_angelicsweep_a.png",
+        "icon": "storm_ui_icon_auriel_angelicsweep_b.png",
         "type": "Q",
         "sort": 2,
         "abilityId": "Auriel|Q1",
@@ -311,7 +298,7 @@
         "tooltipId": "AurielWillofHeavenBestowHopeTalent",
         "talentTreeId": "AurielWillofHeavenBestowHopeTalent",
         "name": "Will of Heaven",
-        "description": "Allies with Bestow Hope gain 20% Attack Speed.",
+        "description": "Allies with Bestow Hope gain 20% Attack Speed.  Passive: Auriel gains 10% increased Basic Attack Damage.",
         "icon": "storm_ui_icon_auriel_bestowhope.png",
         "type": "Trait",
         "sort": 2,
@@ -324,7 +311,7 @@
         "tooltipId": "AurielWrathofHeavenBestowHopeTalent",
         "talentTreeId": "AurielWrathofHeavenBestowHopeTalent",
         "name": "Wrath of Heaven",
-        "description": "Allies with Bestow Hope gain 10% Spell Power.",
+        "description": "Allies with Bestow Hope gain 10% Spell Power.  Enemy Heroes hit by the center area of Sacred Sweep or the terrain collision of Detainment Strike have their Spell Armor reduced by 10 for 3 seconds.",
         "icon": "storm_ui_icon_auriel_bestowhope_a.png",
         "type": "Trait",
         "sort": 3,
