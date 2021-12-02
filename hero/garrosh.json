@@ -84,6 +84,16 @@
         "abilityId": "Garrosh|D1",
         "icon": "storm_ui_icon_garrosh_armor_up.png",
         "type": "trait"
+      },
+      {
+        "uid": "0d71e7",
+        "name": "Into the Fray",
+        "description": "Activate to throw a nearby ally and grant them 20 Armor for 3 seconds. Deals 91 (+4% per level) damage to nearby enemies upon impact and Slows them by 30% for 2.5 seconds.  While in flight, allied Heroes are Unstoppable.",
+        "hotkey": "1",
+        "abilityId": "Garrosh|11",
+        "cooldown": 45,
+        "icon": "storm_ui_icon_garrosh_intothefray.png",
+        "type": "activable"
       }
     ]
   },
@@ -172,7 +182,7 @@
         "tooltipId": "GarroshGroundbreakerIntimidation",
         "talentTreeId": "GarroshGroundbreakerIntimidation",
         "name": "Intimidation",
-        "description": "Groundbreaker reduces the Attack Speed of Heroes hit by 40% for 4 seconds.",
+        "description": "Groundbreaker reduces the Attack Speed of Heroes hit by 30% for 4 seconds.",
         "icon": "storm_ui_icon_garrosh_groundbreaker.png",
         "type": "Q",
         "sort": 1,
@@ -185,22 +195,28 @@
         "tooltipId": "GarroshOppressor",
         "talentTreeId": "GarroshOppressor",
         "name": "Oppressor",
-        "description": "Basic Attacks against Heroes reduce the target's Spell Power by 40% for 2.5 seconds.",
-        "icon": "storm_ui_icon_talent_autoattack_slow.png",
-        "type": "Passive",
+        "description": "Basic Attacks and Bloodthirst against Heroes reduce the target's Spell Power by 30% for 2.5 seconds.",
+        "icon": "storm_ui_icon_garrosh_bloodthirst.png",
+        "type": "W",
         "sort": 2,
-        "abilityId": "Garrosh|Passive"
+        "abilityId": "Garrosh|W1",
+        "abilityLinks": [
+          "Garrosh|W1"
+        ]
       },
       {
-        "tooltipId": "GarroshWreckingBallIntotheFray",
-        "talentTreeId": "GarroshWreckingBallIntotheFray",
-        "name": "Into the Fray",
-        "description": "Activate to throw a nearby ally and grant them 25 Armor for 3 seconds. Deals 91 (+4% per level) damage to nearby enemies upon impact and Slows them by 30% for 2.5 seconds.  While in flight, allied Heroes are Unstoppable.",
+        "tooltipId": "GarroshIntoTheFrayLoktarOgar",
+        "talentTreeId": "GarroshIntotheFrayLoktarOgar",
+        "name": "Lok-tar ogar!",
+        "description": "Increase Into the Fray's Armor by 20. Hitting enemy Heroes with Into the Fray reduces its cooldown by 12 seconds.",
         "icon": "storm_ui_icon_garrosh_intothefray.png",
         "type": "Active",
         "sort": 3,
         "cooldown": 45,
-        "abilityId": "Garrosh|Active"
+        "abilityId": "Garrosh|Active",
+        "abilityLinks": [
+          "Garrosh|11"
+        ]
       }
     ],
     "10": [

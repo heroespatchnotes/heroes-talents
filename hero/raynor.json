@@ -22,7 +22,7 @@
       {
         "uid": "40a0cc",
         "name": "Penetrating Round",
-        "description": "Deal 190 (+4% per level) damage, knock back, and Slow enemies in a line by 20% for 2 seconds. Enemies close to Raynor are knocked back further.",
+        "description": "Deal 205 (+4% per level) damage, knock back, and Slow enemies in a line by 20% for 2 seconds. Enemies close to Raynor are knocked back further.",
         "hotkey": "Q",
         "abilityId": "Raynor|Q1",
         "cooldown": 9,
@@ -87,27 +87,13 @@
   "talents": {
     "1": [
       {
-        "tooltipId": "RaynorAceInTheHole",
-        "talentTreeId": "RaynorAceInTheHole",
-        "name": "Ace In The Hole",
-        "description": "Enemy Heroes hit by Give 'Em Some Pepper are Slowed by 10% for 2.5 seconds. Penetrating Round deals 25% more damage to Stunned or Slowed Heroes.",
-        "icon": "storm_ui_icon_raynor_acardtoplay.png",
-        "type": "Q",
-        "sort": 1,
-        "abilityId": "Raynor|Q1",
-        "abilityLinks": [
-          "Raynor|D1",
-          "Raynor|Q1"
-        ]
-      },
-      {
         "tooltipId": "RaynorExterminator",
         "talentTreeId": "RaynorGiveEmSomePepperExterminator",
         "name": "Exterminator",
         "description": "Basic Attacks deal 50% more damage to Minions, Mercenaries, and Monsters. This is increased to 125% while Inspire is active.  Passive: Inspire does not expire on friendly Minions and Mercenaries.",
         "icon": "storm_ui_icon_raynor_inspire.png",
         "type": "W",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Raynor|W1",
         "abilityLinks": [
           "Raynor|D1",
@@ -118,12 +104,25 @@
         "tooltipId": "RaynorVeteranMarksman",
         "talentTreeId": "RaynorVeteranMarksman",
         "name": "Veteran Marksman",
-        "description": "Loan: Gain 60% bonus Give 'Em Some Pepper damage. Every death reduces this bonus by 15%.  Quest: Every time the primary target of Give 'Em Some Pepper is a Hero, permanently increase its damage bonus by 0.75%.",
+        "description": "Quest: Every time the primary target of Give 'Em Some Pepper is a Hero, permanently increase its damage bonus by 0.75%.  Gambit: Gain 60% bonus Give 'Em Some Pepper damage. Every death reduces this bonus by 15%.",
         "icon": "storm_ui_icon_raynor_acquireweakspot.png",
         "type": "Trait",
-        "sort": 3,
+        "sort": 2,
         "isQuest": true,
         "abilityId": "Raynor|D1",
+        "abilityLinks": [
+          "Raynor|D1"
+        ]
+      },
+      {
+        "tooltipId": "RaynorAceInTheHole",
+        "talentTreeId": "RaynorAceInTheHole",
+        "name": "Ace In The Hole",
+        "description": "Deal 10% more damage to Stunned or Slowed Heroes.  Enemy Heroes hit by Give 'Em Some Pepper are Slowed by 10% for 2.5 seconds.",
+        "icon": "storm_ui_icon_raynor_acardtoplay.png",
+        "type": "Passive",
+        "sort": 3,
+        "abilityId": "Raynor|Passive",
         "abilityLinks": [
           "Raynor|D1"
         ]
@@ -384,7 +383,7 @@
         "tooltipId": "RaynorHyperionExecuteOrders",
         "talentTreeId": "RaynorHyperionExecuteOrders",
         "name": "Execute Orders",
-        "description": "Reduce Raynor's death timer to 30 seconds. Upon death, the Hyperion is cast towards the closest enemy Hero.",
+        "description": "Reduce Raynor's death timer by 35 seconds. Upon death, the Hyperion is cast towards the closest enemy Hero.",
         "icon": "storm_ui_icon_raynor_advancedoptics.png",
         "type": "Passive",
         "sort": 5,

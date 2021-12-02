@@ -53,7 +53,7 @@
       {
         "uid": "85436d",
         "name": "Graviton Surge",
-        "description": "Launch a gravity bomb that detonates after 1 second and draws enemy Heroes toward the center for 2.5 seconds.",
+        "description": "Launch a gravity bomb that detonates after 1 second and draws enemy Heroes toward the center for 2.5 seconds. Affected Heroes take 30 (+4% per level) damage a second.",
         "hotkey": "R",
         "abilityId": "Zarya|R1",
         "cooldown": 60,
@@ -114,7 +114,7 @@
         "tooltipId": "ZaryaWeaponFeelTheHeatTalent",
         "talentTreeId": "ZaryaWeaponFeelTheHeat",
         "name": "Feel the Heat",
-        "description": "Zarya's Basic Attack deals 50% additional damage to enemies in melee range.",
+        "description": "Zarya's Basic Attack deals 50% additional damage to enemies in melee range. While above 40 Energy, Zarya's Basic Attack size is increased by 35%.",
         "icon": "storm_ui_icon_talent_autoattack_base.png",
         "type": "Trait",
         "sort": 3,
@@ -143,7 +143,7 @@
         "tooltipId": "ZaryaPersonalBarrierIAmTheStrongestTalent",
         "talentTreeId": "ZaryaPersonalBarrierIAmTheStrongest",
         "name": "I Am the Strongest",
-        "description": "Personal Barrier absorbs an additional 140 (+4% per level) damage.",
+        "description": "Personal Barrier absorbs an additional 140 (+4% per level) damage.  Passive: Damage absorbed by Zarya's Shields contributes 20% more Energy.",
         "icon": "storm_ui_icon_zarya_personalbarrier.png",
         "type": "W",
         "sort": 1,
@@ -209,42 +209,29 @@
         ]
       },
       {
+        "tooltipId": "ZaryaDeepBurn",
+        "talentTreeId": "ZaryaDeepBurn",
+        "name": "Deep Burn",
+        "description": "Hitting a Hero with Particle Grenade causes Basic Attacks against them to generate 1 Energy. Lasts 3 seconds.",
+        "icon": "storm_ui_icon_zarya_particlegrenade_a.png",
+        "type": "Q",
+        "sort": 2,
+        "abilityId": "Zarya|Q1",
+        "abilityLinks": [
+          "Zarya|Q1"
+        ]
+      },
+      {
         "tooltipId": "ZaryaPersonalBarrierExplosiveBarrierTalent",
         "talentTreeId": "ZaryaPersonalBarrierExplosiveBarrier",
         "name": "Explosive Barrier",
         "description": "Upon expiration or breaking, Personal Barrier explodes, dealing 110 (+4% per level) damage to nearby enemies.",
         "icon": "storm_ui_icon_zarya_personalbarrier.png",
         "type": "W",
-        "sort": 2,
+        "sort": 3,
         "abilityId": "Zarya|W1",
         "abilityLinks": [
           "Zarya|W1"
-        ]
-      },
-      {
-        "tooltipId": "ZaryaWeaponToTheLimitTalent",
-        "talentTreeId": "ZaryaWeaponToTheLimit",
-        "name": "To the Limit",
-        "description": "While above 40 Energy, Zarya's Basic Attack size is increased by 35%.",
-        "icon": "storm_ui_icon_talent_autoattack_base.png",
-        "type": "Trait",
-        "sort": 3,
-        "abilityId": "Zarya|D1",
-        "abilityLinks": [
-          "Zarya|D1"
-        ]
-      },
-      {
-        "tooltipId": "ZaryaEnergyHitMeTalent",
-        "talentTreeId": "ZaryaEnergyHitMe",
-        "name": "Hit Me",
-        "description": "Damage absorbed by Zarya's Shields contributes 20% more Energy.",
-        "icon": "storm_ui_icon_zarya_energy.png",
-        "type": "Trait",
-        "sort": 4,
-        "abilityId": "Zarya|D1",
-        "abilityLinks": [
-          "Zarya|D1"
         ]
       }
     ],
@@ -253,7 +240,7 @@
         "tooltipId": "ZaryaGravitonSurge",
         "talentTreeId": "ZaryaHeroicAbilityGravitonSurge",
         "name": "Graviton Surge",
-        "description": "Launch a gravity bomb that detonates after 1 second and draws enemy Heroes toward the center for 2.5 seconds.",
+        "description": "Launch a gravity bomb that detonates after 1 second and draws enemy Heroes toward the center for 2.5 seconds. Affected Heroes take 30 (+4% per level) damage a second.",
         "icon": "storm_ui_icon_zarya_gravitonsurge.png",
         "type": "Heroic",
         "sort": 1,

@@ -24,11 +24,11 @@
       {
         "uid": "751a85",
         "name": "Flash Heal",
-        "description": "Cast for 0.75 seconds to heal an allied Hero for 270 (+4% per level).",
+        "description": "Cast for 0.75 seconds to heal an allied Hero for 280 (+4% per level).",
         "hotkey": "Q",
         "abilityId": "Anduin|Q1",
         "cooldown": 5,
-        "manaCost": 25,
+        "manaCost": 20,
         "icon": "storm_ui_icon_anduin_flash_heal.png",
         "type": "basic"
       },
@@ -49,7 +49,7 @@
         "description": "Shove a swell of light forward, dealing 175 (+4% per level) damage to the first enemy Hero hit and Rooting them for 1.25 seconds.",
         "hotkey": "E",
         "abilityId": "Anduin|E1",
-        "cooldown": 10,
+        "cooldown": 9,
         "manaCost": 40,
         "icon": "storm_ui_icon_anduin_chastise.png",
         "type": "basic"
@@ -79,7 +79,7 @@
       {
         "uid": "82b883",
         "name": "Leap of Faith",
-        "description": "Faith instantly pulls an allied Hero to Anduin's location, granting them Unstoppable while they travel.  Pursued By Grace  Basic Attacks against enemy Heroes heal the lowest Health allied Hero near Anduin for 26 (+4% per level).",
+        "description": "Faith instantly pulls an allied Hero to Anduin's location, granting them Unstoppable while they travel.  Pursued By Grace  Basic Attacks against enemy Heroes heal the lowest Health allied Hero near Anduin for 32 (+4% per level).",
         "hotkey": "D",
         "trait": true,
         "abilityId": "Anduin|D1",
@@ -95,7 +95,7 @@
         "tooltipId": "AnduinFlashHealEvenhandedBlessings",
         "talentTreeId": "AnduinFlashHealEvenhandedBlessings",
         "name": "Evenhanded Blessings",
-        "description": "If Flash Heal is cast on a different target from its last, increase its healing by 10% and refund 40% of its cooldown.",
+        "description": "If Flash Heal is cast on a different target from its last, increase its healing by 15% and refund 40% of its cooldown.",
         "icon": "storm_ui_icon_anduin_flash_heal.png",
         "type": "Q",
         "sort": 1,
@@ -125,7 +125,7 @@
         "icon": "storm_ui_icon_anduin_lightwell.png",
         "type": "Active",
         "sort": 3,
-        "cooldown": 80,
+        "cooldown": 75,
         "abilityId": "Anduin|Active"
       }
     ],
@@ -147,7 +147,7 @@
         "tooltipId": "AnduinSurgeofLight",
         "talentTreeId": "AnduinSurgeofLight",
         "name": "Surge of Light",
-        "description": "Basic Attacks reduce the cooldown of Chastise by 0.5 seconds. Basic Attacks against Heroes Rooted by Chastise launch an additional Basic Attack and restore 25 Mana.",
+        "description": "Basic Attacks reduce the cooldown of Chastise by 0.75 seconds. Basic Attacks against Heroes Rooted by Chastise launch an additional Basic Attack and restore 25 Mana.",
         "icon": "storm_ui_icon_anduin_chastise.png",
         "type": "E",
         "sort": 2,
@@ -176,7 +176,7 @@
         "tooltipId": "AnduinFlashHealBindingHeal",
         "talentTreeId": "AnduinFlashHealBindingHeal",
         "name": "Binding Heal",
-        "description": "Casting Flash Heal on an ally heals Anduin for 115 (+4% per level).",
+        "description": "Casting Flash Heal on an ally heals Anduin for 135 (+4% per level).",
         "icon": "storm_ui_icon_anduin_flash_heal.png",
         "type": "Q",
         "sort": 1,
@@ -199,11 +199,11 @@
         "tooltipId": "AnduinFlashHealDesperatePrayer",
         "talentTreeId": "AnduinFlashHealDesperatePrayer",
         "name": "Desperate Prayer",
-        "description": "Activate to instantly heal an allied Hero for 360 (+4% per level), but kneel for 2 seconds, unable to act.",
+        "description": "Activate to instantly heal an allied Hero for 375 (+4% per level), but kneel for 2 seconds, unable to act.",
         "icon": "storm_ui_icon_anduin_desperate_prayer.png",
         "type": "Active",
         "sort": 3,
-        "cooldown": 40,
+        "cooldown": 35,
         "abilityId": "Anduin|Active"
       }
     ],
@@ -279,7 +279,7 @@
         "tooltipId": "AnduinFlashHealRenew",
         "talentTreeId": "AnduinFlashHealRenew",
         "name": "Renew",
-        "description": "Flash Heal heals an additional 130 (+4% per level) over 5 seconds. The duration of this heal is refreshed each time Anduin hits an enemy Hero with a Basic Attack.",
+        "description": "Flash Heal heals an additional 180 (+4% per level) over 6 seconds. The duration of this heal is refreshed each time Anduin hits an enemy Hero with a Basic Attack.",
         "icon": "storm_ui_icon_anduin_flash_heal.png",
         "type": "Q",
         "sort": 1,
@@ -313,6 +313,17 @@
         "abilityLinks": [
           "Anduin|D1"
         ]
+      },
+      {
+        "tooltipId": "AnduinFlashHealInnerFocus",
+        "talentTreeId": "AnduinFlashHealInnerFocus",
+        "name": "Inner Focus",
+        "description": "Activate to reset the cooldown of Flash Heal and its next cast heals for 25% more.  Damaging enemy Heroes reduces this cooldown by 1 second.",
+        "icon": "storm_ui_icon_anduin_inner_focus.png",
+        "type": "Active",
+        "sort": 4,
+        "cooldown": 20,
+        "abilityId": "Anduin|Active"
       }
     ],
     "20": [
