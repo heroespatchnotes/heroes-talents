@@ -180,26 +180,13 @@
         ]
       },
       {
-        "tooltipId": "JunkratBigAsSteelTrapTalent",
-        "talentTreeId": "JunkratSteelTrapBigAs",
-        "name": "Big As",
-        "description": "Steel Trap now only hits Heroes, and Heroes hit have their Armor reduced by 15 for 3 seconds. Increases Steel Trap's radius and damage by 50%.",
-        "icon": "storm_ui_icon_junkrat_steel_trap.png",
-        "type": "E",
-        "sort": 2,
-        "abilityId": "Junkrat|E1",
-        "abilityLinks": [
-          "Junkrat|E1"
-        ]
-      },
-      {
         "tooltipId": "JunkratStickyWicketSteelTrapTalent",
         "talentTreeId": "JunkratSteelTrapStickyWicket",
         "name": "Sticky Wicket",
         "description": "Enemy Heroes who are hit by Steel Trap are Silenced for 2 seconds.",
-        "icon": "storm_ui_icon_junkrat_steel_trap_a.png",
+        "icon": "storm_ui_icon_junkrat_steel_trap.png",
         "type": "E",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Junkrat|E1",
         "abilityLinks": [
           "Junkrat|E1"
@@ -212,7 +199,7 @@
         "description": "Increase the explosion radius of Total Mayhem by 20%.  When Junkrat is Stunned, Rooted, or damaged by an enemy Hero while below 50% Health, he uses Total Mayhem, dropping 5 grenades at his feet that explode.   This effect has a 12 second cooldown.",
         "icon": "storm_ui_icon_junkrat_bomb_pack.png",
         "type": "Trait",
-        "sort": 4,
+        "sort": 3,
         "abilityId": "Junkrat|D1",
         "abilityLinks": [
           "Junkrat|D1"
@@ -288,6 +275,19 @@
         "abilityLinks": [
           "Junkrat|E1"
         ]
+      },
+      {
+        "tooltipId": "JunkratBigAsSteelTrapTalent",
+        "talentTreeId": "JunkratSteelTrapBigAs",
+        "name": "Big As",
+        "description": "Steel Trap now only hits Heroes, and Heroes hit have their Armor reduced by 15 for 3 seconds. Increases Steel Trap's radius and damage by 50%.",
+        "icon": "storm_ui_icon_junkrat_steel_trap_a.png",
+        "type": "E",
+        "sort": 4,
+        "abilityId": "Junkrat|E1",
+        "abilityLinks": [
+          "Junkrat|E1"
+        ]
       }
     ],
     "16": [
@@ -347,7 +347,7 @@
         "tooltipId": "JunkratPuckishScampRocketRideTalent",
         "talentTreeId": "JunkratRocketRidePuckishScamp",
         "name": "Puckish Scamp",
-        "description": "Junkrat also gains the Ability RIP-Tire. Each time he uses his Heroic, it swaps to the alternate ability. Each Heroic has its own separate cooldown.",
+        "description": "Junkrat also gains the Ability RIP-Tire. Each time he uses his Heroic, it swaps to the alternate ability.  Passive: Reduce both Heroic cooldowns by 20 seconds.",
         "icon": "storm_ui_icon_junkrat_rocket_ride.png",
         "type": "Heroic",
         "sort": 2,
