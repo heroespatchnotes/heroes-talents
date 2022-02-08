@@ -108,7 +108,7 @@
         "tooltipId": "GenjiCyberAgilityAgileDismount",
         "talentTreeId": "GenjiCyberAgilityAgileDismount",
         "name": "Agile Dismount",
-        "description": "While mounted, the range of Cyber Agility is increased by 70% and its cooldown is reduced by 14 seconds.",
+        "description": "While mounted the range of Cyber Agility is increased by 70%, its cooldown is reduced by 14 seconds, and it Slows enemy Heroes in its landing area by 30% for 2 seconds.",
         "icon": "storm_ui_icon_genji_cyberagility.png",
         "type": "Trait",
         "sort": 2,
@@ -121,7 +121,7 @@
         "tooltipId": "GenjiCyberAgilityPathfinder",
         "talentTreeId": "GenjiCyberAgilityPathfinder",
         "name": "Pathfinder",
-        "description": "Jumping over terrain with Cyber Agility increases Genji's Movement Speed by 25% for 6 seconds.",
+        "description": "Jumping over terrain with Cyber Agility increases Movement Speed by 25%, and grants Stealth, for 4 seconds.",
         "icon": "storm_ui_icon_genji_cyberagility_a.png",
         "type": "Trait",
         "sort": 3,
@@ -136,7 +136,7 @@
         "tooltipId": "GenjiShurikenShurikenMastery",
         "talentTreeId": "GenjiShurikenShurikenMastery",
         "name": "Shuriken Mastery",
-        "description": "Quest: Hit enemy Heroes with Shuriken.  Reward: After hitting 35 Heroes, Shuriken damage is increased by 25.  Reward: After hitting 75 Heroes, Cyber Agility now refunds 2 charges of Shuriken.",
+        "description": "Quest: Hit enemy Heroes with Shuriken.  Reward: After hitting 30 Heroes, Shuriken damage is increased by 25.  Reward: After hitting 60 Heroes, Cyber Agility now refunds 3 charges of Shuriken.",
         "icon": "storm_ui_icon_genji_shurikens.png",
         "type": "Q",
         "sort": 1,
@@ -204,7 +204,7 @@
         "tooltipId": "GenjiCyberAgilityCyberShield",
         "talentTreeId": "GenjiCyberAgilityCyberShield",
         "name": "Cyber Shield",
-        "description": "Using Cyber Agility grants 50 Spell Armor for 4 seconds.",
+        "description": "Using Cyber Agility grants 50 Spell Armor for 4 seconds.  Passive: Genji dodges 1 Heroic Basic Attack every 5 seconds.",
         "icon": "storm_ui_icon_genji_cyberagility.png",
         "type": "Trait",
         "sort": 3,
@@ -212,16 +212,6 @@
         "abilityLinks": [
           "Genji|D1"
         ]
-      },
-      {
-        "tooltipId": "GenjiDodge",
-        "talentTreeId": "GenjiDodge",
-        "name": "Dodge",
-        "description": "Genji dodges 1 Heroic Basic Attack every 7 seconds.",
-        "icon": "storm_ui_icon_genji_dodge.png",
-        "type": "Passive",
-        "sort": 4,
-        "abilityId": "Genji|Passive"
       }
     ],
     "10": [
@@ -326,7 +316,7 @@
         "tooltipId": "GenjiSwiftStrikeSteadyBlade",
         "talentTreeId": "GenjiSwiftStrikeSteadyBlade",
         "name": "Steady Blade",
-        "description": "Each enemy Hero hit by Swift Strike increases the damage of the next Swift Strike by 20%. This bonus stacks up to 3 times.",
+        "description": "Each enemy Hero hit by Swift Strike increases the damage of the next Swift Strike by 30%. This bonus stacks up to 3 times.",
         "icon": "storm_ui_icon_genji_swiftstrike_a.png",
         "type": "E",
         "sort": 3,
@@ -367,7 +357,7 @@
         "tooltipId": "GenjiShurikenSharpenedStars",
         "talentTreeId": "GenjiShurikenSharpenedStars",
         "name": "Sharpened Stars",
-        "description": "Shuriken now pierce all enemies hit.",
+        "description": "Shuriken now pierce all enemies hit. Swift Strike's refund grants 1 charge of Shuriken.",
         "icon": "storm_ui_icon_genji_shurikens.png",
         "type": "Q",
         "sort": 3,
