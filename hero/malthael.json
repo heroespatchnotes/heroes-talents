@@ -81,7 +81,7 @@
       {
         "uid": "041ae8",
         "name": "Reaper's Mark",
-        "description": "Basic Attacks cleave in an area in front of Malthael and afflict non-Structure targets with Reaper's Mark for 4 seconds.  Marked enemies are revealed and take damage equal to 1.75% of their maximum Health every 1 second.",
+        "description": "Basic Attacks cleave in an area in front of Malthael and afflict non-Structure targets with Reaper's Mark for 4 seconds.  Marked enemies are revealed and take damage equal to 2% of their maximum Health every 1 second.",
         "trait": true,
         "abilityId": "Malthael|D1",
         "icon": "storm_ui_icon_malthael_reapersmark.png",
@@ -206,7 +206,7 @@
         "icon": "storm_ui_icon_malthael_touchofdeath.png",
         "type": "Active",
         "sort": 3,
-        "cooldown": 25,
+        "cooldown": 20,
         "abilityId": "Malthael|Active"
       }
     ],
@@ -287,7 +287,7 @@
         "icon": "storm_ui_icon_malthael_shroudofwisdom.png",
         "type": "Active",
         "sort": 4,
-        "cooldown": 30,
+        "cooldown": 20,
         "abilityId": "Malthael|Active"
       }
     ],
@@ -322,7 +322,7 @@
         "tooltipId": "MalthaelMementoMori",
         "talentTreeId": "MalthaelMementoMori",
         "name": "Memento Mori",
-        "description": "Reaper's Mark deals 90% increased damage after afflicting an enemy for more than 4 seconds.",
+        "description": "Reaper's Mark deals 60% increased damage after afflicting an enemy for more than 4 seconds.",
         "icon": "storm_ui_icon_malthael_reapersmark.png",
         "type": "Trait",
         "sort": 3,
