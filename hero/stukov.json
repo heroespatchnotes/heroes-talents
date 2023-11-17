@@ -106,29 +106,30 @@
         ]
       },
       {
-        "tooltipId": "StukovReactiveBallistosporesTalent",
-        "talentTreeId": "StukovWeightedPustuleReactiveBallistospores",
-        "name": "Reactive Ballistospores",
-        "description": "While below 50% Health, the cooldown of Bio-Kill Switch refreshes 100% faster.  Activate to instantly spread a Weighted Pustule to all nearby enemy Heroes and reset the cooldown of Bio-Kill Switch.  This effect has a 75 second cooldown.",
-        "icon": "storm_ui_icon_stukov_weightedpustule_a.png",
-        "type": "W",
-        "sort": 2,
-        "abilityId": "Stukov|W1",
-        "abilityLinks": [
-          "Stukov|W1"
-        ]
-      },
-      {
         "tooltipId": "StukovLowBlowTalent",
         "talentTreeId": "StukovLowBlow",
         "name": "Low Blow",
         "description": "Lurking Arm deals 100% more damage to enemy Heroes below 50% Health and persists for 1 second after it is canceled.",
         "icon": "storm_ui_icon_stukov_lurkingarm.png",
         "type": "E",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Stukov|E1",
         "abilityLinks": [
           "Stukov|E1"
+        ]
+      },
+      {
+        "tooltipId": "StukovReactiveBallistosporesTalent",
+        "talentTreeId": "StukovWeightedPustuleReactiveBallistospores",
+        "name": "Reactive Ballistospores",
+        "description": "While below 50% Health, the cooldown of Bio-Kill Switch refreshes 100% faster.  Activate to instantly spread a Weighted Pustule to all nearby enemy Heroes and reset the cooldown of Bio-Kill Switch.  This effect has a 75 second cooldown.",
+        "icon": "storm_ui_icon_stukov_bio-killswitch.png",
+        "type": "Active",
+        "sort": 3,
+        "cooldown": 75,
+        "abilityId": "Stukov|Active",
+        "abilityLinks": [
+          "Stukov|W1"
         ]
       }
     ],
@@ -151,7 +152,7 @@
         "talentTreeId": "StukovBioticArmor",
         "name": "Biotic Armor",
         "description": "Healing Pathogen grants 10 Physical Armor to targets while active on them. Detonating Bio-Kill Switch increases this bonus to 50 for 2.5 seconds.",
-        "icon": "storm_ui_icon_stukov_healingpathogen_b.png",
+        "icon": "storm_ui_icon_stukov_healingpathogen_a.png",
         "type": "Q",
         "sort": 2,
         "abilityId": "Stukov|Q1",

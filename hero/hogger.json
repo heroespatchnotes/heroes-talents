@@ -160,27 +160,13 @@
     ],
     "7": [
       {
-        "tooltipId": "HoggerSeeingRed",
-        "talentTreeId": "HoggerSeeingRed",
-        "name": "Seeing Red",
-        "description": "While above 50 Rage, gain 35% Attack Speed and the cooldowns of Staggering Blow and Hogg Wild refresh 30% faster.",
-        "icon": "storm_ui_icon_hogger_combo_q_e.png",
-        "type": "Q",
-        "sort": 1,
-        "abilityId": "Hogger|Q1",
-        "abilityLinks": [
-          "Hogger|E1",
-          "Hogger|Q1"
-        ]
-      },
-      {
         "tooltipId": "HoggerDenseBlastingPowder",
         "talentTreeId": "HoggerDenseBlastingPowder",
         "name": "Dense Blasting Powder",
         "description": "Instant detonations of Ez-Thro Dynamite creates an additional dynamite behind the Hero hit.  Hitting the bundle of Ez-Thro Dynamite with Staggering Blow breaks it into three sticks and launches them forward in an arc.",
         "icon": "storm_ui_icon_hogger_w.png",
         "type": "W",
-        "sort": 2,
+        "sort": 1,
         "abilityId": "Hogger|Q1",
         "abilityLinks": [
           "Hogger|Q1",
@@ -194,10 +180,24 @@
         "description": "Reduce the cooldown of Loot Hoard by 2 seconds.  Every 0.5 seconds, enemies in a large area around Loot Hoard take 23 (+4% per level) damage and are Slowed by 20%.",
         "icon": "storm_ui_icon_hogger_trait.png",
         "type": "Trait",
-        "sort": 3,
+        "sort": 2,
         "abilityId": "Hogger|D1",
         "abilityLinks": [
           "Hogger|D1"
+        ]
+      },
+      {
+        "tooltipId": "HoggerSeeingRed",
+        "talentTreeId": "HoggerSeeingRed",
+        "name": "Seeing Red",
+        "description": "While above 50 Rage, gain 35% Attack Speed and the cooldowns of Staggering Blow and Hogg Wild refresh 30% faster.",
+        "icon": "storm_ui_icon_hogger_rage.png",
+        "type": "Passive",
+        "sort": 3,
+        "abilityId": "Hogger|Passive",
+        "abilityLinks": [
+          "Hogger|E1",
+          "Hogger|Q1"
         ]
       }
     ],
